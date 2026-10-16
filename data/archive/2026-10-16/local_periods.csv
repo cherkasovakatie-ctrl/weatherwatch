@@ -1,0 +1,15 @@
+period,start,temp_f,precip_chance,wind,forecast,is_day
+Today,2026-10-11 11:00,73,45,10 to 15 mph S,Chance Rain Showers,True
+Tonight,2026-10-11 18:00,53,73,5 to 10 mph S,Rain Showers Likely,False
+Columbus Day,2026-10-12 06:00,66,73,5 to 10 mph S,Rain Showers Likely,True
+Monday Night,2026-10-12 18:00,47,23,0 to 10 mph SSW,Slight Chance Rain Showers then Mostly Clear,False
+Tuesday,2026-10-13 06:00,74,0,0 to 5 mph NW,Sunny,True
+Tuesday Night,2026-10-13 18:00,50,0,5 to 10 mph NW,Clear,False
+Wednesday,2026-10-14 06:00,80,0,5 to 10 mph NNW,Sunny,True
+Wednesday Night,2026-10-14 18:00,59,0,5 to 15 mph NNW,Clear,False
+Thursday,2026-10-15 06:00,87,0,5 to 10 mph NNE,Sunny,True
+Thursday Night,2026-10-15 18:00,64,0,10 to 15 mph NNE,Clear,False
+Friday,2026-10-16 06:00,92,0,10 to 15 mph NNE,Sunny,True
+Friday Night,2026-10-16 18:00,65,0,10 to 15 mph NNE,Clear,False
+Saturday,2026-10-17 06:00,91,0,5 to 10 mph NNE,Sunny,True
+Saturday Night,2026-10-17 18:00,65,0,5 to 15 mph N,Clear,False

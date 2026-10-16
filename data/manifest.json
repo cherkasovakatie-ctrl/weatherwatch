@@ -1,0 +1,486 @@
+{
+ "updated": "16 October 2026",
+ "updated_iso": "2026-10-16",
+ "datasets": [
+  {
+   "id": "ace_season",
+   "file": "ace_season.csv",
+   "title": "2026 tropical cyclone season to date",
+   "description": "Colorado State University real-time season-to-date statistics by basin: accumulated cyclone energy, named storms, hurricanes and major hurricanes, each with the climatological value for the same date. Read from the project data sheet on 13 Oct 2026.",
+   "updated": "2026-10-13",
+   "bytes": 521
+  },
+  {
+   "id": "annual_hazards",
+   "file": "annual_hazards.csv",
+   "title": "Annual hazards and ENSO, 1950–2025",
+   "description": "One row per year: ONI (Aug–Oct, DJF, annual mean), accumulated cyclone energy by basin (NHC HURDAT2 to 2025; JTWC via IBTrACS, final data to Nov 2024), USGS M6+ earthquake counts (all, Gardner–Knopoff mainshocks, M7+), Smithsonian GVP confirmed eruption starts (all, VEI 3+, VEI 4+) and 21-year-trend residuals.",
+   "updated": "2026-10-11",
+   "bytes": 7811
+  },
+  {
+   "id": "antarctic_stations",
+   "file": "antarctic_stations.csv",
+   "title": "Antarctic station temperatures",
+   "description": "Annual mean 2 m temperature anomaly vs 1981–2010 at South Pole, Vostok, Halley and Faraday/Vernadsky, 1958–2025. ERA5 reanalysis at station coordinates via Open-Meteo archive; pre-1979 values less constrained.",
+   "updated": "2026-10-12",
+   "bytes": 1881
+  },
+  {
+   "id": "ao_aao",
+   "file": "ao_aao.csv",
+   "title": "Arctic and Antarctic Oscillation",
+   "description": "CPC monthly AO (from 1950) and AAO (from 1979) indices, through September 2026.",
+   "updated": "2026-10-11",
+   "bytes": 18738
+  },
+  {
+   "id": "ar_watch",
+   "file": "ar_watch.csv",
+   "title": "Atmospheric river watch",
+   "description": "Daily maximum total column water vapour (mm) and daily rain total for the San Fernando Valley, offshore Southern California and San Francisco: past 7 days and 16-day forecast, Open-Meteo best-match blend.",
+   "updated": "2026-10-12",
+   "bytes": 1141
+  },
+  {
+   "id": "atmosphere_monthly",
+   "file": "atmosphere_monthly.csv",
+   "title": "Monthly atmospheric indices",
+   "description": "SOI (standardized, CPC units) and its centred 3-month mean, Equatorial SOI, Darwin and Tahiti pressure anomalies, 850 mb trade wind indices, 200 mb wind anomaly, OLR, QBO and 500 mb temperature. From the project data sheet 'Weather Watch_NOAA source data' (mirrors NOAA CPC index files), read 11 Oct 2026.",
+   "updated": "2026-10-11",
+   "bytes": 69595
+  },
+  {
+   "id": "calfire_active",
+   "file": "calfire_active.csv",
+   "title": "CAL FIRE active incidents",
+   "description": "Active incidents listed on fire.ca.gov/incidents, read 11 Oct 2026 about 11:40 PDT.",
+   "updated": "2026-10-11",
+   "bytes": 313
+  },
+  {
+   "id": "cdec_reservoirs",
+   "file": "cdec_reservoirs.csv",
+   "title": "California reservoirs",
+   "description": "California Data Exchange Center daily reservoir storage: the ten largest reservoirs plus Pyramid, Castaic and Lake Perris (Southern California), with storage as % of capacity and % of the historical average for the date. Read from the project data sheet on 13 Oct 2026.",
+   "updated": "2026-10-13",
+   "bytes": 540
+  },
+  {
+   "id": "coast_hourly",
+   "file": "coast_hourly.csv",
+   "title": "Los Angeles water level and Santa Ana gauge, hourly",
+   "description": "NOAA CO-OPS 9410660 observed vs predicted water level (ft MLLW, local time, half-hourly) and Open-Meteo sea-level pressure difference LAX minus Tonopah (hPa) with LAX gusts (mph) and humidity, Pacific time; forecast = 1 for forecast hours.",
+   "updated": "2026-10-16",
+   "bytes": 11696
+  },
+  {
+   "id": "coral_dhw",
+   "file": "coral_dhw.csv",
+   "title": "Coral degree heating weeks since 2025",
+   "description": "NOAA Coral Reef Watch 5 km regional virtual stations: Florida Keys, Puerto Rico, Galapagos, Main Hawaiian Islands; DHW in degC-weeks.",
+   "updated": "2026-10-16",
+   "bytes": 20840
+  },
+  {
+   "id": "coral_now",
+   "file": "coral_now.csv",
+   "title": "Coral reefs now",
+   "description": "Latest SST, HotSpot, DHW and Bleaching Alert Area level per station, with the 2026 DHW peak.",
+   "updated": "2026-10-16",
+   "bytes": 287
+  },
+  {
+   "id": "correlations",
+   "file": "correlations.csv",
+   "title": "Correlation tests",
+   "description": "Pearson and Spearman correlations for twelve pairs from the annual table, effective sample size (Bretherton lag-1 adjustment), t-test p-value and a 3-year block-permutation p-value (5,000 permutations). Computed by Claude in Python.",
+   "updated": "2026-10-11",
+   "bytes": 1213
+  },
+  {
+   "id": "drivers_monthly",
+   "file": "drivers_monthly.csv",
+   "title": "Climate driver indices",
+   "description": "Monthly PDO (NOAA NCEI ERSSTv5), AMO (NOAA NCEI ERSSTv5 North Atlantic 0–60°N, linear trend removed over 1950–2026), IOD Dipole Mode Index from NOAA CPC (ERSSTv6, to Aug 2026, column dmi_cpc) and from PSL HadISST (to May 2026, column dmi), CPC tropical North Atlantic SST anomaly, and CPC NAO and PNA indices, from 1950. All read from the project data sheet.",
+   "updated": "2026-10-13",
+   "bytes": 43056
+  },
+  {
+   "id": "earth_rotation",
+   "file": "earth_rotation.csv",
+   "title": "Chandler wobble, earthquakes and sunspots by year",
+   "description": "Chandler and annual wobble amplitudes (mas) fitted to IERS polar motion in 6-year windows; M7+ mainshocks per year (USGS, Gardner-Knopoff declustered); annual mean sunspot number.",
+   "updated": "2026-10-16",
+   "bytes": 1232
+  },
+  {
+   "id": "earthquakes",
+   "file": "earthquakes.csv",
+   "title": "Earthquakes M4.5+, 30 days",
+   "description": "USGS Earthquake Hazards Program feed 'Magnitude 4.5+ Earthquakes, Past Month' (4.5_month.geojson), generated 11 Oct 2026 17:24 UTC.",
+   "updated": "2026-10-11",
+   "bytes": 52455
+  },
+  {
+   "id": "enso_subsurface",
+   "file": "enso_subsurface.csv",
+   "title": "Equatorial Pacific subsurface heat",
+   "description": "CPC upper-300 m equatorial temperature anomaly for 180°–100°W (°C vs 1981–2010, from 1979) and NOAA PMEL warm water volume anomaly (5°N–5°S, 120°E–80°W, ×10¹⁴ m³). Read from the project data sheet; heat content to Sep 2026, WWV to Aug 2026.",
+   "updated": "2026-10-13",
+   "bytes": 11206
+  },
+  {
+   "id": "eruption_epoch",
+   "file": "eruption_epoch.csv",
+   "title": "ONI around large eruptions",
+   "description": "Superposed-epoch composite of monthly ONI for 41 tropical (|lat| ≤ 25°) VEI 4+ eruptions, 1950–2024, with the 2.5–97.5 percentile range from 5,000 random-date composites. Computed by Claude in Python.",
+   "updated": "2026-10-11",
+   "bytes": 1120
+  },
+  {
+   "id": "event_analyses",
+   "file": "event_analyses.csv",
+   "title": "Why extreme events happened",
+   "description": "One row per extreme event of 2026 (current October events and earlier major events): setup, trigger, amplifiers, climate signal and a confidence level. Compiled by Claude from World Weather Attribution studies, NWS/NHC coverage, Wikipedia event pages, news reports and Open-Meteo model data; full sources in the 'Extreme Weather 2026 — Why It Happened' report.",
+   "updated": "2026-10-16",
+   "bytes": 10520
+  },
+  {
+   "id": "fires_global_grid",
+   "file": "fires_global_grid.csv",
+   "title": "Satellite fire detections, global 24 h",
+   "description": "NASA FIRMS VIIRS (NOAA-20 and Suomi NPP) global 24-hour active-fire files, read 11 Oct 2026 about 17:50 UTC, low-confidence detections dropped, aggregated to 1° cells: count, total and maximum fire radiative power (MW), latest pass.",
+   "updated": "2026-10-11",
+   "bytes": 168801
+  },
+  {
+   "id": "fires_socal",
+   "file": "fires_socal.csv",
+   "title": "Fire detections, Southern California 7 days",
+   "description": "NASA FIRMS VIIRS detections (USA files) in 32.3–36°N, 121.2–114.5°W for the past 7 days, with distance from the San Fernando Valley. Sites seen on 4+ days with maximum power under 15 MW are tagged as persistent industrial heat sources (Claude's rule).",
+   "updated": "2026-10-11",
+   "bytes": 34256
+  },
+  {
+   "id": "gdacs_current",
+   "file": "gdacs_current.csv",
+   "title": "GDACS current alerts",
+   "description": "Current GDACS events (iscurrent) read 11 Oct 2026 17:49 UTC: floods, wildfires (largest 100), drought, volcano alerts, and orange/red earthquakes. Tropical cyclones come from the separate cyclone dataset.",
+   "updated": "2026-10-11",
+   "bytes": 15466
+  },
+  {
+   "id": "impacts",
+   "file": "impacts.csv",
+   "title": "Impact reports",
+   "description": "Damage and casualty reports compiled by Claude from news agencies and civil-protection sources (AP, ANSA, ICIMOD, Weather Channel, The Watchers citing SINAPROC/COEN, Rio Times, CBS/AP). Counts are preliminary. 'footage' gives Claude's frame-by-frame verdict on related videos: ok = consistent, unknown = can't place, mismatch = clips from different events.",
+   "updated": "2026-10-12",
+   "bytes": 4556
+  },
+  {
+   "id": "la_rain",
+   "file": "la_rain.csv",
+   "title": "Downtown LA rainfall by water year",
+   "description": "RCC-ACIS threaded record 'Los Angeles Downtown Area' (CQTthr), October–September totals 1878–2025 (blank where months are missing), with DJF ONI and ENSO phase from 1951.",
+   "updated": "2026-10-11",
+   "bytes": 2833
+  },
+  {
+   "id": "lag_correlations",
+   "file": "lag_correlations.csv",
+   "title": "Lagged monthly correlations",
+   "description": "Correlation of monthly ONI with monthly M6+ mainshock counts and detrended eruption starts at lags of −24 to +24 months, 1950–2026, with an approximate 95% chance band (±2/√N). Computed by Claude in Python.",
+   "updated": "2026-10-11",
+   "bytes": 1476
+  },
+  {
+   "id": "local_hilo",
+   "file": "local_hilo.csv",
+   "title": "Santa Monica high and low tides",
+   "description": "NOAA CO-OPS station 9410840 predicted high and low tides, feet above MLLW.",
+   "updated": "2026-10-11",
+   "bytes": 797
+  },
+  {
+   "id": "local_hourly",
+   "file": "local_hourly.csv",
+   "title": "Hourly forecast and air quality",
+   "description": "Open-Meteo forecast API (temperature, humidity, dew point, rain chance, pressure, wind, UV) and air-quality API (US AQI, PM2.5, ozone) for the Burbank area, two days back to seven days ahead, Pacific time. Free, no key.",
+   "updated": "2026-10-11",
+   "bytes": 13997
+  },
+  {
+   "id": "local_obs",
+   "file": "local_obs.csv",
+   "title": "Burbank observations",
+   "description": "NWS api.weather.gov station KBUR (Bob Hope Airport), hourly observations for the last 36 hours, converted to °F, mph and hPa, Pacific time.",
+   "updated": "2026-10-11",
+   "bytes": 2140
+  },
+  {
+   "id": "local_periods",
+   "file": "local_periods.csv",
+   "title": "NWS 7-day forecast",
+   "description": "NWS point forecast for grid LOX 150,51 (the San Fernando Valley), 12-hour periods, read 11 Oct 2026 about 11:00 PDT. No active alerts for the point.",
+   "updated": "2026-10-11",
+   "bytes": 982
+  },
+  {
+   "id": "local_tides",
+   "file": "local_tides.csv",
+   "title": "Santa Monica tides",
+   "description": "NOAA CO-OPS station 9410840: hourly predicted water level and observed (preliminary) water level, feet above MLLW, local time.",
+   "updated": "2026-10-11",
+   "bytes": 5471
+  },
+  {
+   "id": "local_watertemp",
+   "file": "local_watertemp.csv",
+   "title": "Santa Monica water temperature",
+   "description": "NOAA CO-OPS station 9410840, hourly water temperature (°F), last three days.",
+   "updated": "2026-10-11",
+   "bytes": 1602
+  },
+  {
+   "id": "mjo_daily",
+   "file": "mjo_daily.csv",
+   "title": "MJO real-time OMI",
+   "description": "Last 150 days of NOAA PSL real-time OMI (CPC OLR). rmm1 = PC2, rmm2 = −PC1, so the phase plane matches the RMM convention; phase 1–8 from the angle.",
+   "updated": "2026-10-12",
+   "bytes": 4830
+  },
+  {
+   "id": "moon_hist",
+   "file": "moon_hist.csv",
+   "title": "M6+ mainshocks by Moon phase",
+   "description": "Count of declustered M6+ mainshocks 1950-2026 in eight Moon-phase bins, with the even-spread expectation.",
+   "updated": "2026-10-16",
+   "bytes": 199
+  },
+  {
+   "id": "oni",
+   "file": "oni.csv",
+   "title": "ONI and RONI",
+   "description": "Seasonal ONI (ERSSTv6, centred base periods) and RONI (relative ERSSTv6, 1991–2020), indexed by the season's centre month, from 1950. From the project data sheet 'Weather Watch_NOAA source data' (mirrors NOAA CPC index files), read 11 Oct 2026.",
+   "updated": "2026-10-11",
+   "bytes": 25612
+  },
+  {
+   "id": "ozone_2026",
+   "file": "ozone_2026.csv",
+   "title": "Ozone hole 2026, daily",
+   "description": "NASA Ozone Watch daily Southern Hemisphere ozone hole area (to3areas_2026, TOMS+OMI+OMPS) with the 1979–2025 minimum, percentiles, mean and maximum for each day, plus daily minimum ozone (DU). Observed through 8 Oct 2026.",
+   "updated": "2026-10-11",
+   "bytes": 8507
+  },
+  {
+   "id": "ozone_annual",
+   "file": "ozone_annual.csv",
+   "title": "Ozone hole by year",
+   "description": "NASA Ozone Watch annual mean ozone hole area (7 Sep–13 Oct) and minimum ozone, 1979–2025, plus Claude's 2026 mean for 7 Sep–8 Oct.",
+   "updated": "2026-10-11",
+   "bytes": 865
+  },
+  {
+   "id": "phase_rates",
+   "file": "phase_rates.csv",
+   "title": "Rates by ENSO phase",
+   "description": "Mean monthly M6+ mainshocks and eruption starts in El Niño (ONI ≥ 0.5), neutral and La Niña (ONI ≤ −0.5) months, 1950–2026. Computed by Claude in Python.",
+   "updated": "2026-10-11",
+   "bytes": 114
+  },
+  {
+   "id": "planet_monthly",
+   "file": "planet_monthly.csv",
+   "title": "Planet vital signs",
+   "description": "Monthly global land–ocean temperature anomaly vs 1951–1980 (NASA GISTEMP v4, from 1880), Mauna Loa CO2 monthly mean and de-seasonalised trend (NOAA GML, ppm, from 1958), and Northern Hemisphere land snow cover (Rutgers Global Snow Lab, million km², with the anomaly vs the 1991–2020 monthly mean, from Nov 1966). Read from the project data sheet, to Sep 2026.",
+   "updated": "2026-10-13",
+   "bytes": 48183
+  },
+  {
+   "id": "polar_motion",
+   "file": "polar_motion.csv",
+   "title": "Polar motion, monthly since 1990",
+   "description": "IERS EOP 14 C04 (to Jan 2026) and finals2000A daily (Jul 2026 onward, with forecasts) pole coordinates x and y in arcseconds.",
+   "updated": "2026-10-16",
+   "bytes": 10616
+  },
+  {
+   "id": "polar_stations",
+   "file": "polar_stations.csv",
+   "title": "Polar temperatures now",
+   "description": "Open-Meteo model analysis at nine Arctic and Antarctic points (current temperature, wind, today's mean) with the 1991–2020 ERA5 mean for the same week from the Open-Meteo archive API, read 11 Oct 2026 19:15 UTC.",
+   "updated": "2026-10-11",
+   "bytes": 794
+  },
+  {
+   "id": "poles_daily",
+   "file": "poles_daily.csv",
+   "title": "Polar daily: AO, polar vortex wind, Greenland temperatures",
+   "description": "CPC daily AO; zonal-mean zonal wind at 60N 10 hPa from GFS (8 longitudes, Open-Meteo; u60 = analysis, u60_fc = forecast); daily max 2 m temperature at five Greenland ice-sheet points (Open-Meteo).",
+   "updated": "2026-10-16",
+   "bytes": 4421
+  },
+  {
+   "id": "quake_tests",
+   "file": "quake_tests.csv",
+   "title": "Earthquake trigger tests",
+   "description": "Moon-phase (Rayleigh test on doubled phase, plus share within 2 days of new/full moon) and yearly Chandler-wobble and sunspot correlations against declustered M6+/M7+/M8+ mainshocks, 1950-2026.",
+   "updated": "2026-10-16",
+   "bytes": 578
+  },
+  {
+   "id": "ridge_watch",
+   "file": "ridge_watch.csv",
+   "title": "Ridge watch",
+   "description": "Daily mean 500 hPa geopotential height and anomaly (m) at 40N 130W, 33N 125W and 50N 140W: past 7 days and 16-day forecast (Open-Meteo best match). Normal = 2021–2025 mean of Open-Meteo historical forecasts within ±7 days of the date.",
+   "updated": "2026-10-12",
+   "bytes": 1130
+  },
+  {
+   "id": "seaice_annual",
+   "file": "seaice_annual.csv",
+   "title": "Sea ice yearly extremes",
+   "description": "Arctic annual minimum and Antarctic annual maximum of the 5-day mean NSIDC extent, 1979–2026 (2026 Antarctic maximum is season to date).",
+   "updated": "2026-10-11",
+   "bytes": 2047
+  },
+  {
+   "id": "seaice_clim",
+   "file": "seaice_clim.csv",
+   "title": "Sea ice extent by day of year",
+   "description": "NSIDC Sea Ice Index v4 (G02135) daily extent, Arctic and Antarctic, made into 5-day trailing means by Claude; per calendar day: 1981–2010 median and 10th/90th percentiles, lowest value before 2026, and the 2012, 2023, 2025 and 2026 values. Million km². Data through 10 Oct 2026.",
+   "updated": "2026-10-11",
+   "bytes": 39359
+  },
+  {
+   "id": "sealevel_global",
+   "file": "sealevel_global.csv",
+   "title": "Global mean sea level",
+   "description": "NOAA Laboratory for Satellite Altimetry GMSL (annual signals removed), monthly means of the latest mission, mm.",
+   "updated": "2026-10-16",
+   "bytes": 5032
+  },
+  {
+   "id": "sky_cycles",
+   "file": "sky_cycles.csv",
+   "title": "Outer-planet cycles and ENSO",
+   "description": "Monthly (15th) geocentric angular separation in degrees of Jupiter–Saturn, Saturn–Neptune and Saturn–Uranus (0 = conjunction, 180 = opposition), cosine of the mean lunar node longitude (18.6-year cycle) and the ONI, 1950–2026. Computed by Claude with PyEphem.",
+   "updated": "2026-10-13",
+   "bytes": 33230
+  },
+  {
+   "id": "sky_events",
+   "file": "sky_events.csv",
+   "title": "Outer-planet ingresses and aspects, 2025–2032",
+   "description": "Dates when Jupiter, Saturn, Uranus, Neptune and Pluto change zodiac sign (tropical) and dates of exact conjunctions, squares, trines and oppositions between them, from a daily PyEphem scan. Computed by Claude.",
+   "updated": "2026-10-13",
+   "bytes": 2600
+  },
+  {
+   "id": "sky_now",
+   "file": "sky_now.csv",
+   "title": "Planet positions now",
+   "description": "Geocentric ecliptic longitude, zodiac sign and degree (tropical zodiac) of the Sun, Moon and planets, plus the mean lunar node, for 13 Oct 2026 12:00 UTC, computed by Claude with PyEphem (VSOP87). Retrograde = longitude decreasing day to day.",
+   "updated": "2026-10-13",
+   "bytes": 397
+  },
+  {
+   "id": "sky_tests",
+   "file": "sky_tests.csv",
+   "title": "Planet cycles vs climate indices: test results",
+   "description": "Top 15 of 192 correlation tests (24 planetary predictors × 8 monthly indices: ONI, PDO, AMO, NAO, PNA, AO, AAO, detrended global temperature; 1950–2026). p-value from 2,000 phase-randomised surrogates of each index; q = Benjamini–Hochberg false-discovery rate; r for each half of the record as a replication check. Computed by Claude.",
+   "updated": "2026-10-13",
+   "bytes": 1272
+  },
+  {
+   "id": "space_daily",
+   "file": "space_daily.csv",
+   "title": "Space weather, last 30 days",
+   "description": "Daily maximum planetary Kp, planetary Ap, F10.7 solar radio flux, SWPC sunspot number and M/X flare counts (NOAA SWPC DGD and DSD files via Kate's sheet).",
+   "updated": "2026-10-16",
+   "bytes": 1097
+  },
+  {
+   "id": "sst_monthly",
+   "file": "sst_monthly.csv",
+   "title": "Monthly Niño and basin SSTs",
+   "description": "Monthly OISST v2.1 Niño-region anomalies and relative anomalies, ERSSTv6 Niño 3.4 (absolute and relative), Atlantic and global-tropics anomalies. From the project data sheet 'Weather Watch_NOAA source data' (mirrors NOAA CPC index files), read 11 Oct 2026.",
+   "updated": "2026-10-11",
+   "bytes": 53862
+  },
+  {
+   "id": "sst_weekly",
+   "file": "sst_weekly.csv",
+   "title": "Weekly Niño SST anomalies",
+   "description": "Weekly OISST v2.1 anomalies (1991–2020 base) and relative anomalies for Niño 1+2, 3, 3.4 and 4, from 1981. From the project data sheet 'Weather Watch_NOAA source data' (mirrors NOAA CPC index files), read 11 Oct 2026.",
+   "updated": "2026-10-11",
+   "bytes": 111316
+  },
+  {
+   "id": "storm_fixes",
+   "file": "storm_fixes.csv",
+   "title": "Storm positions over time",
+   "description": "6-hourly tropical cyclone fixes since 25 Sep 2026 (position, maximum wind, pressure) from IBTrACS v04r01 ACTIVE provisional tracks (NHC and JTWC data, file of 11 Oct 09:02 UTC), plus the 15 UTC 11 Oct NHC advisory for Simon, Isaias and Rachel. Category is Saffir–Simpson from the 1-minute wind.",
+   "updated": "2026-10-11",
+   "bytes": 19426
+  },
+  {
+   "id": "sunspots_monthly",
+   "file": "sunspots_monthly.csv",
+   "title": "Monthly sunspot number since 1900",
+   "description": "SILSO total sunspot number v2 (monthly mean) and Claude's 13-month smoothed mean.",
+   "updated": "2026-10-16",
+   "bytes": 28187
+  },
+  {
+   "id": "tc_tracks",
+   "file": "tc_tracks.csv",
+   "title": "Cyclone tracks",
+   "description": "Track segments with strength category from GDACS geometry (NOAA and JTWC data), split into past and forecast at the latest position.",
+   "updated": "2026-10-11",
+   "bytes": 6585
+  },
+  {
+   "id": "tropical_cyclones",
+   "file": "tropical_cyclones.csv",
+   "title": "Active tropical cyclones",
+   "description": "Current positions and intensity from NHC CurrentStorms.json (Atlantic, eastern Pacific) and GDACS/JTWC (western Pacific), read 11 Oct 2026 about 17:20 UTC. Peak wind from GDACS.",
+   "updated": "2026-10-11",
+   "bytes": 680
+  },
+  {
+   "id": "volcano_alerts_us",
+   "file": "volcano_alerts_us.csv",
+   "title": "US volcano alert levels",
+   "description": "USGS Volcano Hazards Program, elevated volcanoes (HANS getElevatedVolcanoes and VHP status), read 11 Oct 2026.",
+   "updated": "2026-10-11",
+   "bytes": 396
+  },
+  {
+   "id": "volcanoes_weekly",
+   "file": "volcanoes_weekly.csv",
+   "title": "Weekly volcanic activity",
+   "description": "Smithsonian/USGS Weekly Volcanic Activity Report for 1–7 October 2026 (published Thursday 8 October; read from volcano.si.edu/reports_weekly.cfm on 11 Oct because the RSS feed still served the previous week), with coordinates; summaries condensed from the report text. 24 volcanoes: 7 new eruptive activity, 1 new unrest, 16 continuing.",
+   "updated": "2026-10-11",
+   "bytes": 3592
+  },
+  {
+   "id": "world_land",
+   "file": "world_land.json",
+   "title": "World land outline",
+   "description": "Natural Earth 1:110m land polygons (world-atlas 2.0.2), coordinates rounded to 0.1 degree. Map background only.",
+   "updated": "2026-10-11",
+   "bytes": 58633
+  },
+  {
+   "id": "reports",
+   "file": "reports.csv",
+   "title": "Reports library",
+   "description": "Published reports (PDF).",
+   "updated": "2026-10-16",
+   "bytes": 30
+  }
+ ]
+}

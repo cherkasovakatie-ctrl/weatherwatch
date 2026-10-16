@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data archive · Global Weather Watch</title><meta name="description" content="Download every dataset behind the Global Weather Watch dashboard, with dated snapshots.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%232b6cb0'/%3E%3Cpath d='M4 18c4-3 8 3 12 0s8-3 12 0' stroke='white' stroke-width='2.5' fill='none'/%3E%3C/svg%3E">
+<style>
+:root { color-scheme: light dark;
+  --font-anthropic-sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-anthropic-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --color-bg: #f6f5f1; --color-panel: #ffffff; --color-fg: #1d1f22; --color-fg-muted: #5c6370; --color-border-line: #e2e0d8;
+  --color-bad: #c2410c; --color-warn: #b45309; --color-ok: #15803d;
+  --cds-gap-xs: 4px; --cds-gap-sm: 8px; --cds-gap-md: 14px; --cds-gap-lg: 22px;
+  --cds-pad-xs: 6px; --cds-pad-sm: 10px; --cds-pad-md: 14px; --cds-pad-lg: 18px; --cds-radius: 10px;
+  --cds-font-size-caption: 0.8rem; --cds-font-size-body: 0.95rem; --cds-font-size-heading: 1.05rem; --cds-font-size-title: 1.9rem; --cds-font-weight-medium: 600;
+  --cds-chart-grid: #ecebe5; --cds-chart-axis: #8a9099; --cds-chart-muted: #9aa3ad; --cds-chart-reference: #8a9099;
+  --cds-text-secondary: #5c6370; --cds-surface-popover: #ffffff; --cds-shadow-popover: 0 4px 18px rgba(0,0,0,.14); --cds-dur-slow: .3s; --cds-border: #e2e0d8; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --color-bg: #141619; --color-panel: #1c1f23; --color-fg: #eceae4; --color-fg-muted: #a3a9b2; --color-border-line: #2e3238;
+  --color-bad: #fb923c; --color-warn: #fbbf24; --color-ok: #4ade80;
+  --cds-chart-grid: #2a2e33; --cds-chart-axis: #8d949d; --cds-chart-muted: #6b737d; --cds-chart-reference: #8d949d;
+  --cds-text-secondary: #a3a9b2; --cds-surface-popover: #23272c; --cds-border: #2e3238; } }
+html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); }
+body { font-family: var(--font-anthropic-sans); }
+.site-wrap { max-width: 1280px; margin: 0 auto; padding: 16px; }
+.site-nav { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; padding: 10px 16px; border-bottom: 1px solid var(--color-border-line); background: var(--color-panel); }
+.site-nav .brand { font-family: var(--font-anthropic-serif); font-size: 1.15rem; color: var(--color-fg); text-decoration: none; margin-right: auto; }
+.site-nav a { color: var(--color-fg-muted); text-decoration: none; font-size: .9rem; }
+.site-nav a[aria-current="page"], .site-nav a:hover { color: var(--color-fg); }
+.site-foot { max-width: 1280px; margin: 24px auto; padding: 0 16px 24px; color: var(--color-fg-muted); font-size: .8rem; line-height: 1.5; }
+.site-foot a, .ww a { color: inherit; }
+.dash-skeleton { color: var(--color-fg-muted); }
+[hidden] { display: none !important; }
+</style>
+<style>
+.wrap{max-width:1100px;margin:0 auto;padding:16px} h1{font-family:var(--font-anthropic-serif);font-weight:400;font-size:1.9rem;margin:.4em 0}
+p{color:var(--color-fg-muted);max-width:75ch;line-height:1.5} table{border-collapse:collapse;width:100%;font-size:.85rem;background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:10px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--color-border-line);vertical-align:top} th{color:var(--color-fg-muted);font-weight:600}
+td.d{color:var(--color-fg-muted);max-width:60ch} a{color:var(--color-fg)} select{font:inherit;padding:4px 8px;border-radius:8px;border:1px solid var(--color-border-line);background:var(--color-panel);color:var(--color-fg)}
+.tw{overflow-x:auto}
+</style></head><body><nav class="site-nav" aria-label="Site">
+  <a class="brand" href="./">Global Weather Watch</a>
+  <a href="./" >Dashboard</a>
+  <a href="data.html" aria-current="page">Data archive</a>
+  <a href="about.html" >About &amp; method</a>
+</nav>
+<main class="wrap">
+<h1>Data archive</h1>
+<p>Every series used on the dashboard, as plain CSV (one JSON file holds the map outlines). Each refresh is also kept as a dated snapshot, so earlier versions stay available. Please credit the original source named in each description.</p>
+<p>Snapshot: <select id="snap"></select> · <a id="zipnote" href="https://github.com/cherkasovakatie-ctrl/weatherwatch/tree/main/data">browse all files on GitHub</a></p>
+<div class="tw"><table><thead><tr><th>Dataset</th><th>Description and source</th><th>Updated</th><th>Size</th><th>Download</th></tr></thead><tbody id="rows"></tbody></table></div>
+</main><footer class="site-foot">Data snapshot: <span data-asof>16 October 2026</span>. Independent, non-commercial analysis built from public sources (NOAA, NASA, USGS, Smithsonian GVP, GDACS, CPC, IRI, Copernicus/Open-Meteo, SILSO, IERS, Coral Reef Watch and others; see <a href="about.html">About &amp; method</a>). Not an official forecast or warning service — for warnings follow your national weather service. Analysis prepared with Claude (Anthropic).</footer>
+<script>
+(async () => {
+  const m = await (await fetch('data/manifest.json', {cache:'no-cache'})).json();
+  const a = await (await fetch('data/archive/index.json', {cache:'no-cache'})).json();
+  const sel = document.getElementById('snap');
+  [['', 'Latest (' + m.updated + ')'], ...a.snapshots.slice().reverse().map((s) => [s, s])].forEach(([v, t]) => { const o = document.createElement('option'); o.value = v; o.textContent = t; sel.append(o); });
+  const draw = () => {
+    const base = sel.value ? 'data/archive/' + sel.value + '/' : 'data/';
+    const tb = document.getElementById('rows'); tb.replaceChildren();
+    m.datasets.forEach((d) => {
+      const tr = document.createElement('tr');
+      const td = (t, c) => { const e = document.createElement('td'); if (c) e.className = c; e.textContent = t; return e; };
+      const dl = document.createElement('td'); const l = document.createElement('a'); l.href = base + d.file; l.textContent = d.file; l.download = ''; dl.append(l);
+      tr.append(td(d.title), td(d.description, 'd'), td(d.updated || ''), td(d.bytes > 1e6 ? (d.bytes / 1e6).toFixed(1) + ' MB' : Math.max(1, Math.round(d.bytes / 1e3)) + ' kB'), dl);
+      tb.append(tr);
+    });
+  };
+  sel.addEventListener('change', draw); draw();
+  document.querySelectorAll('[data-asof]').forEach((e) => { e.textContent = m.updated; });
+})();
+</script></body></html>

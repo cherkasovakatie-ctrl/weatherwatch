@@ -1,0 +1,116 @@
+id,type,name,country,alert,start,latest,detail,lat,lon
+EQ-1570339,Earthquake,Earthquake in Panama,Panama,Orange,2026-10-09,2026-10-09,"Magnitude 7.7M, Depth:12.647km",7.587,-80.769
+EQ-1570077,Earthquake,Earthquake in Vanuatu,Vanuatu,Orange,2026-10-08,2026-10-08,"Magnitude 6.3M, Depth:10km",-15.541,168.189
+FL-1104220,Flood,Flood in Italy,Italy,Green,2026-10-07,2026-10-12,,40.984,16.621
+FL-1104222,Flood,Flood in Paraguay,Paraguay,Green,2026-10-06,2026-10-11,,-25.5,-54.833
+FL-1103888,Flood,Flood in United States,United States,Green,2026-05-19,2026-10-11,,41.119,-73.371
+FL-1104221,Flood,Flood in Slovenia,Slovenia,Green,2026-10-08,2026-10-10,,45.824,13.844
+FL-1104223,Flood,Flood in China,China,Green,2026-10-07,2026-10-10,,19.2,109.6
+FL-1104218,Flood,Flood in Argentina,Argentina,Green,2026-10-06,2026-10-09,,-31.397,-58.017
+FL-1104219,Flood,Flood in Venezuela,Venezuela,Green,2026-10-07,2026-10-09,,10.234,-66.381
+FL-1104217,Flood,Flood in Chile,Chile,Green,2026-10-06,2026-10-08,,-33.592,-70.705
+FL-1104199,Flood,Flood in Spain,Spain,Green,2026-09-28,2026-10-08,,40.525,-3.772
+FL-1104202,Flood,Flood in France,France,Green,2026-09-29,2026-10-08,,43.96,4.298
+FL-1104141,Flood,Flood in Vietnam,Vietnam,Green,2026-09-03,2026-10-08,,17.217,106.955
+VO-1000151,Volcano,Taal,Philippines,Orange,2026-10-08,2026-10-08,,14.011,120.998
+WF-1032525,Wildfire,Forest fires in Brazil,Brazil,Green,2026-09-26,2026-10-11,Green impact for forestfire in 23008 ha,-9.85,-44.823
+WF-1032548,Wildfire,Forest fires in Papua New Guinea,Papua New Guinea,Green,2026-09-26,2026-10-11,Green impact for forestfire in 16212 ha,-9.035,141.969
+WF-1032558,Wildfire,Forest fires in Indonesia,Indonesia,Green,2026-09-26,2026-10-11,Green impact for forestfire in 7330 ha,-7.515,140.503
+WF-1032580,Wildfire,Forest fires in China,China,Green,2026-09-26,2026-10-11,Green impact for forestfire in 8338 ha,37.257,111.951
+WF-1032611,Wildfire,Forest fires in Papua New Guinea,Papua New Guinea,Green,2026-09-26,2026-10-11,Green impact for forestfire in 37790 ha,-8.613,141.846
+WF-1032701,Wildfire,"Forest fires in Papua New Guinea, Indonesia","Papua New Guinea, Indonesia",Green,2026-09-26,2026-10-11,Green impact for forestfire in 6770 ha,-7.725,141.043
+WF-1032706,Wildfire,Forest fires in Papua New Guinea,Papua New Guinea,Green,2026-09-26,2026-10-11,Green impact for forestfire in 5414 ha,-8.919,141.542
+WF-1032707,Wildfire,Forest fires in Papua New Guinea,Papua New Guinea,Green,2026-09-26,2026-10-11,Green impact for forestfire in 13028 ha,-7.991,142.185
+WF-1032708,Wildfire,Forest fires in Papua New Guinea,Papua New Guinea,Green,2026-09-26,2026-10-11,Green impact for forestfire in 9771 ha,-7.696,141.307
+WF-1032738,Wildfire,Forest fires in Papua New Guinea,Papua New Guinea,Green,2026-09-26,2026-10-11,Green impact for forestfire in 6524 ha,-8.8,142.189
+WF-1032739,Wildfire,Forest fires in Brazil,Brazil,Green,2026-09-26,2026-10-11,Green impact for forestfire in 5111 ha,-3.87,-55.818
+WF-1032518,Wildfire,Forest fires in Australia,Australia,Green,2026-09-27,2026-10-11,Green impact for forestfire in 99010 ha,-16.075,134.246
+WF-1032524,Wildfire,Forest fires in Brazil,Brazil,Green,2026-09-27,2026-10-11,Green impact for forestfire in 14422 ha,-11.213,-45.228
+WF-1032547,Wildfire,Forest fires in Australia,Australia,Green,2026-09-27,2026-10-11,Green impact for forestfire in 6915 ha,-11.064,142.251
+WF-1032609,Wildfire,Forest fires in Papua New Guinea,Papua New Guinea,Green,2026-09-27,2026-10-11,Green impact for forestfire in 7300 ha,-9.118,141.211
+WF-1032634,Wildfire,Forest fires in Brazil,Brazil,Green,2026-09-27,2026-10-11,Green impact for forestfire in 9429 ha,-3.289,-54.036
+WF-1032650,Wildfire,Forest fires in Papua New Guinea,Papua New Guinea,Green,2026-09-27,2026-10-11,Green impact for forestfire in 7408 ha,-8.454,141.286
+WF-1032498,Wildfire,Forest fires in Australia,Australia,Green,2026-09-28,2026-10-11,Green impact for forestfire in 26528 ha,-15.584,144.588
+WF-1032507,Wildfire,Forest fires in Brazil,Brazil,Green,2026-09-28,2026-10-11,Green impact for forestfire in 30341 ha,1.785,-55.598
+WF-1032508,Wildfire,Forest fires in Australia,Australia,Green,2026-09-28,2026-10-11,Green impact for forestfire in 32045 ha,-15.252,133.787
+WF-1032625,Wildfire,Forest fires in Brazil,Brazil,Green,2026-09-28,2026-10-11,Green impact for forestfire in 8280 ha,-3.03,-53.911
+WF-1032647,Wildfire,Forest fires in Indonesia,Indonesia,Green,2026-09-28,2026-10-11,Green impact for forestfire in 8688 ha,-6.384,140.895
+WF-1032648,Wildfire,Forest fires in Indonesia,Indonesia,Green,2026-09-28,2026-10-11,Green impact for forestfire in 6418 ha,-1.351,104.099
+WF-1032660,Wildfire,Forest fires in Indonesia,Indonesia,Green,2026-09-28,2026-10-11,Green impact for forestfire in 6443 ha,-2.646,111.561
+WF-1032662,Wildfire,Forest fires in Brazil,Brazil,Green,2026-09-28,2026-10-11,Green impact for forestfire in 8101 ha,-2.492,-56.144
+WF-1032694,Wildfire,Forest fires in Brazil,Brazil,Green,2026-09-28,2026-10-11,Green impact for forestfire in 8089 ha,-6.03,-53.507
+WF-1032546,Wildfire,Forest fires in Australia,Australia,Green,2026-09-29,2026-10-11,Green impact for forestfire in 30318 ha,-15.139,134.322
+WF-1032578,Wildfire,Forest fires in Indonesia,Indonesia,Green,2026-09-29,2026-10-11,Green impact for forestfire in 10934 ha,-3.594,105.754
+WF-1032658,Wildfire,Forest fires in Indonesia,Indonesia,Green,2026-09-29,2026-10-11,Green impact for forestfire in 5838 ha,-2.84,133.432
+WF-1032693,Wildfire,Forest fires in Indonesia,Indonesia,Green,2026-09-29,2026-10-11,Green impact for forestfire in 5047 ha,0.576,127.969
+WF-1032615,Wildfire,Forest fires in Indonesia,Indonesia,Green,2026-10-01,2026-10-11,Green impact for forestfire in 8754 ha,-3.047,113.715
+WF-1032633,Wildfire,Forest fires in Brazil,Brazil,Green,2026-10-01,2026-10-11,Green impact for forestfire in 10310 ha,-6.22,-52.841
+WF-1032657,Wildfire,Forest fires in Brazil,Brazil,Green,2026-10-01,2026-10-11,Green impact for forestfire in 19568 ha,-12.2,-44.73
+WF-1032696,Wildfire,Forest fires in Brazil,Brazil,Green,2026-10-01,2026-10-11,Green impact for forestfire in 5790 ha,-12.214,-57.109
+WF-1032517,Wildfire,Forest fires in Brazil,Brazil,Green,2026-09-30,2026-10-11,Green impact for forestfire in 9577 ha,-4.279,-50.778
+WF-1032575,Wildfire,Forest fires in Brazil,Brazil,Green,2026-09-30,2026-10-11,Green impact for forestfire in 7015 ha,-3.118,-53.743
+WF-1032556,Wildfire,Forest fires in Australia,Australia,Green,2026-10-02,2026-10-11,Green impact for forestfire in 31383 ha,-15.012,133.932
+WF-1032691,Wildfire,Forest fires in Brazil,Brazil,Green,2026-10-02,2026-10-11,Green impact for forestfire in 11300 ha,-7.206,-55.136
+WF-1032700,Wildfire,Forest fires in Papua New Guinea,Papua New Guinea,Green,2026-10-02,2026-10-11,Green impact for forestfire in 8975 ha,-9.102,142.364
+WF-1032720,Wildfire,Forest fires in Australia,Australia,Green,2026-10-02,2026-10-11,Green impact for forestfire in 5114 ha,-19.146,145.947
+WF-1032737,Wildfire,Forest fires in Papua New Guinea,Papua New Guinea,Green,2026-10-02,2026-10-11,Green impact for forestfire in 5558 ha,-7.538,141.093
+WF-1032596,Wildfire,Forest fires in Australia,Australia,Green,2026-10-03,2026-10-11,Green impact for forestfire in 11662 ha,-14.724,143.846
+WF-1032622,Wildfire,Forest fires in Brazil,Brazil,Green,2026-10-03,2026-10-11,Green impact for forestfire in 12193 ha,-3.542,-54.667
+WF-1032668,Wildfire,Forest fires in Papua New Guinea,Papua New Guinea,Green,2026-10-03,2026-10-11,Green impact for forestfire in 6748 ha,-8.873,141.699
+WF-1032689,Wildfire,Forest fires in Brazil,Brazil,Green,2026-10-03,2026-10-11,Green impact for forestfire in 15655 ha,-10.478,-47.278
+WF-1032719,Wildfire,Forest fires in Papua New Guinea,Papua New Guinea,Green,2026-10-03,2026-10-11,Green impact for forestfire in 5173 ha,-8.735,141.981
+WF-1032735,Wildfire,Forest fires in Brazil,Brazil,Green,2026-10-03,2026-10-11,Green impact for forestfire in 5085 ha,-7.205,-44.307
+WF-1032736,Wildfire,Forest fires in Brazil,Brazil,Green,2026-10-03,2026-10-11,Green impact for forestfire in 5026 ha,-3.185,-50.573
+WF-1032606,Wildfire,Forest fires in Australia,Australia,Green,2026-10-04,2026-10-11,Green impact for forestfire in 7619 ha,-16.118,136.781
+WF-1032620,Wildfire,Forest fires in Australia,Australia,Green,2026-10-04,2026-10-11,Green impact for forestfire in 7721 ha,-16.208,136.703
+WF-1032632,Wildfire,Forest fires in,,Green,2026-10-04,2026-10-11,Green impact for forestfire in 7274 ha,-13.453,136.155
+WF-1032656,Wildfire,Forest fires in Brazil,Brazil,Green,2026-10-04,2026-10-11,Green impact for forestfire in 13250 ha,-10.987,-45.409
+WF-1032664,Wildfire,Forest fires in Australia,Australia,Green,2026-10-04,2026-10-11,Green impact for forestfire in 10300 ha,-11.832,142.602
+WF-1032665,Wildfire,Forest fires in Papua New Guinea,Papua New Guinea,Green,2026-10-04,2026-10-11,Green impact for forestfire in 12838 ha,-8.689,142.35
+WF-1032666,Wildfire,Forest fires in Papua New Guinea,Papua New Guinea,Green,2026-10-04,2026-10-11,Green impact for forestfire in 7824 ha,-9.174,142.539
+WF-1032699,Wildfire,Forest fires in Papua New Guinea,Papua New Guinea,Green,2026-10-04,2026-10-11,Green impact for forestfire in 6319 ha,-8.736,142.544
+WF-1032718,Wildfire,Forest fires in Brazil,Brazil,Green,2026-10-04,2026-10-11,Green impact for forestfire in 5777 ha,-1.506,-54.537
+WF-1032640,Wildfire,Forest fires in Australia,Australia,Green,2026-10-05,2026-10-11,Green impact for forestfire in 5880 ha,-16.107,136.447
+WF-1032654,Wildfire,Forest fires in Brazil,Brazil,Green,2026-10-05,2026-10-11,Green impact for forestfire in 8340 ha,-11.361,-46.677
+WF-1032655,Wildfire,Forest fires in Brazil,Brazil,Green,2026-10-05,2026-10-11,Green impact for forestfire in 8546 ha,-11.854,-47.357
+WF-1032688,Wildfire,Forest fires in Brazil,Brazil,Green,2026-10-05,2026-10-11,Green impact for forestfire in 9876 ha,-12.003,-43.461
+WF-1032705,Wildfire,Forest fires in Brazil,Brazil,Green,2026-10-05,2026-10-11,Green impact for forestfire in 5969 ha,-5.735,-41.654
+WF-1032734,Wildfire,Forest fires in Papua New Guinea,Papua New Guinea,Green,2026-10-05,2026-10-11,Green impact for forestfire in 5634 ha,-7.981,141.458
+WF-1032670,Wildfire,Forest fires in Brazil,Brazil,Green,2026-10-06,2026-10-11,Green impact for forestfire in 7954 ha,-8.221,-46.387
+WF-1032714,Wildfire,Forest fires in Mozambique,Mozambique,Green,2026-10-06,2026-10-11,Green impact for forestfire in 6717 ha,-12.166,36.794
+WF-1032724,Wildfire,Forest fires in Peru,Peru,Green,2026-10-06,2026-10-11,Green impact for forestfire in 5731 ha,-13.618,-72.482
+WF-1032733,Wildfire,Forest fires in Brazil,Brazil,Green,2026-10-06,2026-10-11,Green impact for forestfire in 5196 ha,-5.724,-41.743
+WF-1032687,Wildfire,Forest fires in Brazil,Brazil,Green,2026-10-07,2026-10-11,Green impact for forestfire in 7139 ha,-8.947,-45.154
+WF-1032713,Wildfire,Forest fires in Brazil,Brazil,Green,2026-10-07,2026-10-11,Green impact for forestfire in 5701 ha,-11.774,-45.521
+WF-1032741,Wildfire,Forest fires in Madagascar,Madagascar,Green,2026-10-07,2026-10-11,Green impact for forestfire in 5055 ha,-12.868,49.71
+WF-1032653,Wildfire,Forest fires in Australia,Australia,Green,2026-10-08,2026-10-11,Green impact for forestfire in 17062 ha,-17.088,142.925
+WF-1032663,Wildfire,Forest fires in Mongolia,Mongolia,Green,2026-10-08,2026-10-11,Green impact for forestfire in 74238 ha,47.064,119.169
+WF-1032683,Wildfire,Forest fires in Russian Federation,Russian Federation,Green,2026-10-08,2026-10-11,Green impact for forestfire in 7503 ha,48.677,135.849
+WF-1032684,Wildfire,Forest fires in Brazil,Brazil,Green,2026-10-08,2026-10-11,Green impact for forestfire in 14386 ha,-11.069,-44.055
+WF-1032698,Wildfire,Forest fires in Mongolia,Mongolia,Green,2026-10-08,2026-10-11,Green impact for forestfire in 8619 ha,46.885,119.466
+WF-1032704,Wildfire,Forest fires in Australia,Australia,Green,2026-10-08,2026-10-11,Green impact for forestfire in 9220 ha,-13.667,142.018
+WF-1032711,Wildfire,Forest fires in Brazil,Brazil,Green,2026-10-08,2026-10-11,Green impact for forestfire in 7001 ha,-9.287,-47.404
+WF-1032732,Wildfire,Forest fires in Australia,Australia,Green,2026-10-08,2026-10-11,Green impact for forestfire in 5843 ha,-22.835,132.722
+WF-1032697,Wildfire,Forest fires in Bolivia,Bolivia,Green,2026-10-09,2026-10-11,Green impact for forestfire in 10291 ha,-12.954,-67.566
+WF-1032702,Wildfire,Forest fires in Australia,Australia,Green,2026-10-09,2026-10-11,Green impact for forestfire in 12792 ha,-15.326,134.853
+WF-1032710,Wildfire,Forest fires in Australia,Australia,Green,2026-10-09,2026-10-11,Green impact for forestfire in 9184 ha,-19.734,129.531
+WF-1032731,Wildfire,Forest fires in Australia,Australia,Green,2026-10-09,2026-10-11,Green impact for forestfire in 6268 ha,-19.549,142.322
+WF-1032740,Wildfire,Forest fires in Russian Federation,Russian Federation,Green,2026-10-09,2026-10-11,Green impact for forestfire in 5565 ha,49.83,135.433
+WF-1032709,Wildfire,Forest fires in Australia,Australia,Green,2026-10-10,2026-10-11,Green impact for forestfire in 6404 ha,-20.952,130.193
+WF-1032725,Wildfire,Forest fires in Australia,Australia,Green,2026-10-10,2026-10-11,Green impact for forestfire in 6672 ha,-16.21,137.077
+WF-1032726,Wildfire,Forest fires in Mongolia,Mongolia,Green,2026-10-10,2026-10-11,Green impact for forestfire in 16245 ha,46.902,119.664
+WF-1032727,Wildfire,Forest fires in Mongolia,Mongolia,Green,2026-10-10,2026-10-11,Green impact for forestfire in 5455 ha,46.78,119.662
+WF-1032728,Wildfire,Forest fires in Australia,Australia,Green,2026-10-10,2026-10-11,Green impact for forestfire in 5050 ha,-12.629,142.737
+WF-1032729,Wildfire,"Forest fires in Mongolia, China","Mongolia, China",Green,2026-10-10,2026-10-11,Green impact for forestfire in 11840 ha,46.701,119.737
+WF-1032730,Wildfire,"Forest fires in Mongolia, China","Mongolia, China",Green,2026-10-10,2026-10-11,Green impact for forestfire in 8839 ha,47.365,119.37
+WF-1032703,Wildfire,"Forest fires in Mongolia, China","Mongolia, China",Green,2026-10-09,2026-10-10,Green impact for forestfire in 6612 ha,46.756,119.118
+WF-1032686,Wildfire,Forest fires in Bolivia,Bolivia,Green,2026-10-07,2026-10-10,Green impact for forestfire in 9706 ha,-13.173,-63.131
+WF-1032712,Wildfire,Forest fires in Brazil,Brazil,Green,2026-10-07,2026-10-10,Green impact for forestfire in 5240 ha,-8.985,-45.918
+WF-1032638,Wildfire,Forest fires in Mozambique,Mozambique,Green,2026-10-06,2026-10-10,Green impact for forestfire in 11557 ha,-11.989,35.391
+WF-1032639,Wildfire,Forest fires in Zambia,Zambia,Green,2026-10-06,2026-10-10,Green impact for forestfire in 16467 ha,-10.326,33.211
+WF-1032671,Wildfire,Forest fires in Mozambique,Mozambique,Green,2026-10-06,2026-10-10,Green impact for forestfire in 10604 ha,-15.963,36.652
+WF-1032715,Wildfire,Forest fires in Mozambique,Mozambique,Green,2026-10-06,2026-10-10,Green impact for forestfire in 5050 ha,-16.52,32.971
+WF-1032605,Wildfire,Forest fires in Australia,Australia,Green,2026-10-05,2026-10-10,Green impact for forestfire in 7285 ha,-21.872,132.574
+WF-1032642,Wildfire,Forest fires in Mozambique,Mozambique,Green,2026-10-05,2026-10-10,Green impact for forestfire in 7336 ha,-15.651,39.666
+WF-1032672,Wildfire,Forest fires in Mozambique,Mozambique,Green,2026-10-05,2026-10-10,Green impact for forestfire in 12253 ha,-16.414,36.432
+DR-1018332,Drought,Europe-2026,Central and eastern Europe (29 countries),Orange,2025-12-21,2026-10-09,Medium impact for agricultural drought in 1759971 km2,48.764,13.696
