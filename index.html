@@ -571,7 +571,7 @@ body { font-family: var(--font-anthropic-sans); }
       </article>
       <article class="ww-card wide" id="card-pl-annual">
         <h2>Global temperature since 1880</h2>
-        <p class="note">Annual mean anomaly vs 1951–1980, °C. 2026 is January–September.</p>
+        <p class="note">Annual mean anomaly vs 1951–1980, °C. 2026 is January–September. <span id="pl-trend-note"></span></p>
         <div class="ww-chart" id="chart-pl-annual" data-source="planet_monthly"></div>
         <div class="ww-why1976">
           <h3>Why the climb steepened after the mid-1970s: our best reading</h3>
@@ -1785,6 +1785,12 @@ window.WW = (() => {
       const p = d3.line().x((r) => xS(o.label(r)) + xS.bandwidth() / 2).y((r) => yS(r[s.key]));
       svg.append('path').attr('d', p(pts)).attr('fill', 'none').style('stroke', s.color).attr('stroke-width', 2)
         .attr('stroke-linecap', 'round').attr('stroke-linejoin', 'round').attr('stroke-dasharray', s.dash ? '2 4' : null);
+    });
+    (o.marks || []).forEach((m) => {
+      if (xS(m.at) == null) return;
+      const xm = xS(m.at) + xS.bandwidth() / 2;
+      g.append('line').attr('class', 'ww-ref').attr('x1', xm).attr('x2', xm).attr('y1', top).attr('y2', bottom);
+      if (m.label) g.append('text').attr('class', 'ww-reflbl').attr('x', xm - 5).attr('y', top + 10).attr('text-anchor', 'end').text(m.label);
     });
     const tip = makeTip(box);
     const hl = svg.append('rect').attr('y', top).attr('height', bottom - top).style('fill', 'var(--cds-chart-grid)').style('opacity', 0).lower();
@@ -3274,7 +3280,20 @@ window.WW = (() => {
     K.legend(box('legend-pl-months'), ms);
     K.line(box('chart-pl-months'), { rows: mrows, x: (r) => r.step, xType: 'linear', series: ms, area: { low: 'lo', high: 'hi' }, endLabels: false, xTickValues: d3.range(0, 12), xTickFormat: (i) => MN[i], valFmt: (v) => `${K.signed(v, 2)} °C`, tipTitle: (r) => r.label });
     const ann = d3.rollups(R.filter((r) => r.gistemp != null), (v) => ({ mean: d3.mean(v, (x) => x.gistemp), n: v.length }), yr).filter(([y, o]) => o.n === 12 || y === 2026).map(([y, o]) => ({ year: y, date: new Date(Date.UTC(y, 6, 1)), t: o.mean }));
-    K.bars(box('chart-pl-annual'), { rows: ann, label: (r) => String(r.year), series: [{ key: 't', label: 'Annual mean', color: c[0] }], colorOf: (v) => (v >= 0 ? c[2] : c[0]), tickEvery: 10, valFmt: (v) => `${K.signed(v, 2)} °C`, tipTitle: (r) => String(r.year) });
+    // Linear trends either side of the 1976 turn (complete years only).
+    const fit = (a, b) => {
+      const pts = ann.filter((r) => r.year >= a && r.year <= b && r.year < 2026);
+      const mx = d3.mean(pts, (r) => r.year), my = d3.mean(pts, (r) => r.t);
+      const slope = d3.sum(pts, (r) => (r.year - mx) * (r.t - my)) / d3.sum(pts, (r) => (r.year - mx) ** 2);
+      return { a, b: pts[pts.length - 1].year, slope, at: (y) => my + slope * (y - mx) };
+    };
+    const early = fit(1880, 1975), late = fit(1976, 2025);
+    ann.forEach((r) => { r.tr_early = r.year <= 1975 ? early.at(r.year) : null; r.tr_late = r.year >= 1976 && r.year <= late.b ? late.at(r.year) : null; });
+    K.bars(box('chart-pl-annual'), { rows: ann, label: (r) => String(r.year), series: [{ key: 't', label: 'Annual mean', color: c[0] }], colorOf: (v) => (v >= 0 ? c[2] : c[0]),
+      lines: [{ key: 'tr_early', label: 'Trend 1880–1975', color: 'var(--color-fg)', dash: true }, { key: 'tr_late', label: `Trend 1976–${late.b}`, color: 'var(--color-fg)' }],
+      marks: [{ at: '1976', label: '1976: the turn' }],
+      tickEvery: 10, valFmt: (v) => `${K.signed(v, 2)} °C`, tipTitle: (r) => String(r.year) });
+    set('pl-trend-note', `Lines: linear trends, ${K.signed(early.slope * 10, 2)} °C per decade in 1880–1975 and ${K.signed(late.slope * 10, 2)} °C per decade in 1976–${late.b} (about ${K.signed(late.slope * (late.b - 1976), 1)} °C in total). 1976 itself was a cold La Niña year, so the trend, not that single year, is the fair baseline.`);
     K.line(box('chart-pl-co2'), { rows: R.filter((r) => r.co2 != null), x: (r) => r.date, series: [{ key: 'co2', label: 'Monthly', color: K.muted, width: 1 }, { key: 'co2_trend', label: 'Trend', color: c[0], width: 2 }], endLabels: false, yFmt: d3.format('d'), xTickFormat: d3.utcFormat('%Y'), valFmt: (v) => `${d3.format('.1f')(v)} ppm`, tipTitle: (r) => monthFmt(r.date) });
     K.bars(box('chart-pl-snow'), { rows: R.filter((r) => r.month >= '2015-01' && r.snow_nh_anom != null), label: (r) => shortMonth(r.date), series: [{ key: 'snow_nh_anom', label: 'Anomaly', color: c[0] }], colorOf: (v) => (v >= 0 ? c[0] : c[2]), tickEvery: 12, valFmt: (v) => `${K.signed(v, 2)} M km²`, tipTitle: (r) => monthFmt(r.date) });
     const lg = R.filter((r) => r.gistemp != null).slice(-1)[0];
