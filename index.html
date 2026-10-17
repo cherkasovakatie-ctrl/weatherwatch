@@ -2752,7 +2752,7 @@ window.WW = (() => {
     if (fr.status !== 'ok' || wl.status !== 'ok') K.fail(box('map-loc-fires'), fr.status !== 'ok' ? fr.status : wl.status);
     else {
       legendItems(box('legend-locfire'), [{ label: 'Possible fire', color: c[2] }, { label: 'Persistent heat source', color: K.muted, shape: 'ring' }, { label: 'the San Fernando Valley', color: 'var(--color-fg)', shape: 'tri' }]);
-      const home = [the Burbank area];
+      const home = [34.20, -118.36];
       const m = K.map(box('map-loc-fires'), wl.data, { lonMin: -120.6, lonMax: -116.2, latN: 35.4, latS: 33.0 });
       const kmLat = 1 / 111, kmLon = 1 / (111 * Math.cos(home[0] * Math.PI / 180));
       [25, 50, 100].forEach((km) => {
