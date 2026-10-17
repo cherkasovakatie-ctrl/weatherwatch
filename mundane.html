@@ -110,7 +110,7 @@ ul.src { margin: 6px 0 0; padding-left: 1.1em; font-size: .85rem; line-height: 1
   </div>
 
   <h2 id="timeline-h">Global mundane timeline</h2>
-  <p class="lede small">Top: the cyclic index (sum of the ten separations between Jupiter, Saturn, Uranus, Neptune and Pluto; low = clustered) with S&amp;P 500 bear markets shaded and reference world events marked. Below: every exact aspect between each outer-planet pair, every sign ingress and every eclipse. Hover for detail.</p>
+  <p class="lede small">Top: the cyclic index (sum of the ten separations between Jupiter, Saturn, Uranus, Neptune and Pluto; low = clustered) with S&amp;P 500 bear markets shaded and reference world events marked. Then the Oceanic Niño Index (ERSSTv6, centred three-month means from 1950, so it lags the live ocean by about six weeks). Below: every exact aspect between each outer-planet pair, every sign ingress and every eclipse. Hover for detail.</p>
   <div class="card">
     <div class="ctl">
       <div class="seg" id="tl-range" role="group" aria-label="Range">
@@ -194,7 +194,7 @@ ul.src { margin: 6px 0 0; padding-left: 1.1em; font-size: .85rem; line-height: 1
   const tip = document.getElementById('tip');
   const showTip = (ev, html) => { tip.innerHTML = html; tip.hidden = false; const w = tip.offsetWidth, h = tip.offsetHeight; let x = ev.clientX + 14, y = ev.clientY + 14; if (x + w > innerWidth - 8) x = ev.clientX - w - 14; if (y + h > innerHeight - 8) y = ev.clientY - h - 14; tip.style.left = Math.max(8, x) + 'px'; tip.style.top = Math.max(8, y) + 'px'; };
   const hideTip = () => { tip.hidden = true; };
-  const files = ['mundane_aspects', 'mundane_ingresses', 'mundane_stations', 'mundane_seasonal', 'mundane_eclipses', 'mundane_cyclic_index', 'mundane_world_events', 'national_charts', 'national_positions', 'national_transits', 'market_monthly', 'market_bear', 'market_tests', 'market_episodes'];
+  const files = ['oni', 'mundane_aspects', 'mundane_ingresses', 'mundane_stations', 'mundane_seasonal', 'mundane_eclipses', 'mundane_cyclic_index', 'mundane_world_events', 'national_charts', 'national_positions', 'national_transits', 'market_monthly', 'market_bear', 'market_tests', 'market_episodes'];
   let D;
   try {
     const loaded = await Promise.all(files.map((f) => d3.csv('data/' + f + '.csv', { cache: 'no-cache' }).catch(() => [])));
@@ -213,6 +213,7 @@ ul.src { margin: 6px 0 0; padding-left: 1.1em; font-size: .85rem; line-height: 1
   const eclipses = D.mundane_eclipses.map((r) => ({ ...r, t: parseDate(r.date, r.time_utc) }));
   const cyc = D.mundane_cyclic_index.map((r) => ({ t: parseDate(r.month + '-15'), v: +r.cyclic_index }));
   const events = D.mundane_world_events.map((r) => ({ ...r, t: parseDate(r.date) }));
+  const oni = D.oni.map((r) => ({ t: parseDate(r.centre_month + '-15'), v: +r.oni, roni: r.roni === '' ? null : +r.roni, season: r.season }));
   const bears = D.market_bear.map((r) => ({ ...r, a: parseDate(r.peak + '-01'), b: parseDate(r.trough + '-28') }));
 
   const aspectSym = (asp) => ({ conjunction: '☌', opposition: '☍', square: '□', trine: '△' }[asp] || asp);
@@ -281,8 +282,8 @@ ul.src { margin: 6px 0 0; padding-left: 1.1em; font-size: .85rem; line-height: 1
     const lanes = [...pairs.map((p) => ({ id: p, label: mobile ? p.split('–').map(g).join('–') : p, type: 'pair' })),
       ...OUTER.map((b) => ({ id: b, label: mobile ? g(b) + ' sign' : b + ' ingress', type: 'ing' })),
       { id: 'eclipse', label: 'Eclipses', type: 'ecl' }, { id: 'events', label: 'World events', type: 'ev' }];
-    const topH = 130, laneH = 20, gap = 26;
-    const H = topH + gap + lanes.length * laneH + 28;
+    const topH = 130, laneH = 20, gap = 26, oniTop = topH + 18, oniH = 78;
+    const H = oniTop + oniH + gap + lanes.length * laneH + 28;
     const x = d3.scaleUtc([new Date(Date.UTC(tl.from, 0, 1)), new Date(Date.UTC(tl.to, 0, 1))], [left, W - right]);
     const inR = (t) => t >= x.domain()[0] && t <= x.domain()[1];
     box.replaceChildren();
@@ -303,8 +304,25 @@ ul.src { margin: 6px 0 0; padding-left: 1.1em; font-size: .85rem; line-height: 1
       .on('mouseleave', hideTip).lower();
     // today marker
     if (inR(today)) svg.append('line').attr('x1', x(today)).attr('x2', x(today)).attr('y1', 4).attr('y2', H - 24).attr('stroke', css('--color-fg-muted')).attr('stroke-dasharray', '3 3');
+    // ONI panel (ERSSTv6, centred 3-month means, from 1950)
+    const ov = oni.filter((d) => inR(d.t));
+    const yo = d3.scaleLinear([Math.min(-2.2, d3.min(ov, (d) => d.v) ?? -2), Math.max(2.8, d3.max(ov, (d) => d.v) ?? 2)], [oniTop + oniH, oniTop + 4]);
+    svg.append('g').attr('transform', `translate(${left},0)`).call(d3.axisLeft(yo).tickValues([-2, -1, 0, 1, 2]).tickSize(-(W - left - right))).call((s) => s.selectAll('.tick line').attr('class', 'gridline')).call((s) => s.select('.domain').remove());
+    svg.append('text').attr('x', 4).attr('y', oniTop + 10).attr('class', 'lane-lbl').text(mobile ? 'ONI' : 'ONI (°C)');
+    if (ov.length) {
+      svg.append('path').datum(ov).attr('fill', css('--color-bad')).attr('fill-opacity', 0.55).attr('d', d3.area().x((d) => x(d.t)).y0(yo(0.5)).y1((d) => yo(Math.max(d.v, 0.5))));
+      svg.append('path').datum(ov).attr('fill', css('--color-accent')).attr('fill-opacity', 0.55).attr('d', d3.area().x((d) => x(d.t)).y0(yo(-0.5)).y1((d) => yo(Math.min(d.v, -0.5))));
+      svg.append('path').datum(ov).attr('fill', 'none').attr('stroke', css('--color-fg-muted')).attr('stroke-width', 1).attr('d', d3.line().x((d) => x(d.t)).y((d) => yo(d.v)));
+      [0.5, -0.5].forEach((v) => svg.append('line').attr('x1', left).attr('x2', W - right).attr('y1', yo(v)).attr('y2', yo(v)).attr('stroke', css('--color-fg-muted')).attr('stroke-dasharray', '2 3').attr('stroke-opacity', 0.6));
+      const ob = d3.bisector((d) => d.t).center;
+      svg.append('rect').attr('x', left).attr('y', oniTop).attr('width', W - left - right).attr('height', oniH).attr('fill', 'transparent')
+        .on('mousemove', (ev) => { const d = ov[ob(ov, x.invert(d3.pointer(ev)[0]))]; if (d) showTip(ev, `<b>ONI ${d.season}</b> (centred ${d.t.toISOString().slice(0, 7)})<br>${d.v >= 0 ? '+' : ''}${d.v.toFixed(2)} °C${d.roni != null ? ` · RONI ${d.roni >= 0 ? '+' : ''}${d.roni.toFixed(2)}` : ''}<br><span class="muted">ERSSTv6, 3-month running mean; ${d.v >= 0.5 ? 'El Niño' : d.v <= -0.5 ? 'La Niña' : 'neutral'} threshold</span>`); })
+        .on('mouseleave', hideTip);
+    } else {
+      svg.append('text').attr('x', (left + W - right) / 2).attr('y', oniTop + oniH / 2).attr('text-anchor', 'middle').text('ONI record begins in 1950');
+    }
     // lanes
-    const y0 = topH + gap;
+    const y0 = oniTop + oniH + gap;
     const laneY = (i) => y0 + i * laneH + laneH / 2;
     lanes.forEach((l, i) => {
       svg.append('line').attr('x1', left).attr('x2', W - right).attr('y1', laneY(i)).attr('y2', laneY(i)).attr('class', 'gridline');
@@ -336,7 +354,7 @@ ul.src { margin: 6px 0 0; padding-left: 1.1em; font-size: .85rem; line-height: 1
       .on('mousemove', (ev, e) => showTip(ev, `<b>${esc(e.event)}</b><br>${fmtDate(e.t)} · ${esc(e.region)}<br><span class="muted">${e.category}</span>`)).on('mouseleave', hideTip);
     svg.append('g').attr('transform', `translate(0,${H - 24})`).call(d3.axisBottom(x).ticks(mobile ? 5 : 10).tickSizeOuter(0));
     document.getElementById('tl-legend').innerHTML = legendHTML([[d3.symbolCircle, css('--color-bad'), css('--color-bad'), 'conjunction'], [d3.symbolDiamond, css('--color-bad'), css('--color-bad'), 'square'], [d3.symbolCircle, css('--color-panel'), css('--color-bad'), 'opposition'], [d3.symbolTriangle, css('--color-soft'), css('--color-soft'), 'trine']]) +
-      `<span><svg width="10" height="12"><line x1="5" x2="5" y1="0" y2="12" stroke="${css('--color-violet')}" stroke-width="2"/></svg>ingress</span><span><svg width="10" height="12"><circle cx="5" cy="6" r="3.5" fill="${css('--color-fg')}"/></svg>solar / <svg width="10" height="12"><circle cx="5" cy="6" r="3.5" fill="none" stroke="${css('--color-fg')}"/></svg>lunar eclipse</span><span><svg width="14" height="12"><rect width="14" height="12" fill="var(--band)"/></svg>S&amp;P bear market</span>` +
+      `<span><svg width="10" height="12"><line x1="5" x2="5" y1="0" y2="12" stroke="${css('--color-violet')}" stroke-width="2"/></svg>ingress</span><span><svg width="10" height="12"><circle cx="5" cy="6" r="3.5" fill="${css('--color-fg')}"/></svg>solar / <svg width="10" height="12"><circle cx="5" cy="6" r="3.5" fill="none" stroke="${css('--color-fg')}"/></svg>lunar eclipse</span><span><svg width="14" height="12"><rect width="14" height="12" fill="var(--band)"/></svg>S&amp;P bear market</span><span><svg width="14" height="12"><rect width="14" height="12" fill="${css('--color-bad')}" fill-opacity=".55"/></svg>El Niño (ONI ≥ +0.5)</span><span><svg width="14" height="12"><rect width="14" height="12" fill="${css('--color-accent')}" fill-opacity=".55"/></svg>La Niña (ONI ≤ −0.5)</span>` +
       Object.entries(evColor).map(([k, c]) => `<span><svg width="10" height="12"><circle cx="5" cy="6" r="4" fill="${c}"/></svg>${k}</span>`).join('');
   }
   const setRange = (a, b) => { tl.from = Math.max(1900, Math.min(a, b - 1)); tl.to = Math.min(2041, Math.max(b, tl.from + 1)); document.getElementById('tl-from').value = tl.from; document.getElementById('tl-to').value = tl.to; document.querySelectorAll('#tl-range button').forEach((x) => x.setAttribute('aria-pressed', String(x.dataset.r === `${tl.from},${tl.to}`))); drawTimeline(); };
