@@ -236,7 +236,7 @@ body { font-family: var(--font-anthropic-sans); }
     <div class="ww-grid">
       <article class="ww-card wide" id="card-oni-analogs">
         <h2>ONI: 2026 against the three strongest events</h2>
-        <p class="note">Oceanic Niño Index (ERSSTv6, 3-month running mean, centred base periods), aligned from DJF of each onset year. Analogue years are muted; 2026 is the accent line.</p>
+        <p class="note">Oceanic Niño Index (ERSSTv6, 3-month running mean, centred base periods), aligned from DJF of each onset year. 2026 is the thick blue line; each analogue year has its own colour.</p>
         <div class="ww-legend" data-legend="oni_analogs"></div>
         <div class="ww-chart tall" id="chart-oni-analogs" data-source="oni_analogs"></div>
       </article>
@@ -1954,10 +1954,10 @@ window.WW = (() => {
     if (d.status !== 'ok') return K.fail(el, d.status);
     const c = C();
     const series = [
-      { key: 'y1982', label: '1982–83', color: K.muted, width: 1.5, muted: true },
-      { key: 'y1997', label: '1997–98', color: K.muted, width: 1.5, muted: true, dash: true },
-      { key: 'y2015', label: '2015–16', color: c[1], width: 1.5, muted: true },
-      { key: 'y2026', label: '2026', color: c[0], width: 2.5 },
+      { key: 'y1982', label: '1982–83', color: c[3] || K.muted, width: 1.5 },
+      { key: 'y1997', label: '1997–98', color: c[2] || K.muted, width: 1.5 },
+      { key: 'y2015', label: '2015–16', color: c[4] || c[1], width: 1.5 },
+      { key: 'y2026', label: '2026', color: c[0], width: 3 },
     ];
     K.legend(document.querySelector(`[data-legend="${legendSel}"]`), series);
     K.line(el, {
