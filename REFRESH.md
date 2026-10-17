@@ -18,6 +18,16 @@ python3 -m pytest -q tools/mundane      # must pass before anything is committed
 
 `build.py` refuses to publish an S&P file whose last row is more than six months old.
 
+## 1b. Daily scripted refresh (GitHub Actions, 9 am Pacific)
+
+`.github/workflows/nightly.yml` runs `tools/nightly/run.mjs` every day at 9 am Los Angeles time and pushes to `main`.
+It refreshes `earthquakes`, `local_obs`, `local_periods`, `local_hourly`, `local_tides`, `local_hilo`,
+`local_watertemp` and `volcano_alerts_us` from keyless public APIs (USGS, NWS, Open-Meteo, NOAA CO-OPS, USGS HANS).
+Each file is written only if its columns match the existing file, it has enough rows and its newest row is not older
+than the current one; otherwise the old file stays. Results are in `data/nightly_status.json`. In the Friday run,
+check that file first: re-fetch by hand only the datasets it marks as failed, and skip the ones it refreshed.
+Tests: `node --test tools/nightly/transforms.test.mjs`.
+
 ## 2. Agent-fetched datasets
 
 Use the sources named in each dataset's `description` in `data/manifest.json`, the project
