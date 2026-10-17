@@ -248,7 +248,7 @@
    "title": "Santa Monica tides",
    "description": "NOAA CO-OPS station 9410840: hourly predicted water level and observed (preliminary) water level, feet above MLLW, local time.",
    "updated": "2026-10-17",
-   "bytes": 5521
+   "bytes": 4818
   },
   {
    "id": "local_watertemp",
