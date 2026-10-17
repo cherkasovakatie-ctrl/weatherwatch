@@ -1,0 +1,20 @@
+[project]
+name = "weatherwatch-mundane"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["ephem>=4.1"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "S"]
+ignore = ["S101", "S311"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff.lint.per-file-ignores]
+"build.py" = ["E501"]
+"tests/*" = ["E501"]

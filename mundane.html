@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mundane Cycles · Global Weather Watch</title>
+<meta name="description" content="Global mundane timeline of outer-planet cycles, ingresses and eclipses, national charts with their transits, and an honest test of planetary cycles against market history.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%232b6cb0'/%3E%3Cpath d='M4 18c4-3 8 3 12 0s8-3 12 0' stroke='white' stroke-width='2.5' fill='none'/%3E%3C/svg%3E">
+<style>
+:root { color-scheme: light dark;
+  --font-anthropic-sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-anthropic-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --color-bg: #f6f5f1; --color-panel: #ffffff; --color-fg: #1d1f22; --color-fg-muted: #5c6370; --color-border-line: #e2e0d8;
+  --color-bad: #c2410c; --color-warn: #b45309; --color-ok: #15803d; --color-soft: #0f766e; --color-accent: #2b6cb0; --color-violet: #7c3aed;
+  --grid: #ecebe5; --axis: #8a9099; --band: rgba(194, 65, 12, .09); --band2: rgba(43, 108, 176, .10); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --color-bg: #141619; --color-panel: #1c1f23; --color-fg: #eceae4; --color-fg-muted: #a3a9b2; --color-border-line: #2e3238;
+  --color-bad: #fb923c; --color-warn: #fbbf24; --color-ok: #4ade80; --color-soft: #2dd4bf; --color-accent: #63a4ff; --color-violet: #a78bfa;
+  --grid: #2a2e33; --axis: #8d949d; --band: rgba(251, 146, 60, .12); --band2: rgba(99, 164, 255, .13); } }
+:root[data-theme="dark"] {
+  --color-bg: #141619; --color-panel: #1c1f23; --color-fg: #eceae4; --color-fg-muted: #a3a9b2; --color-border-line: #2e3238;
+  --color-bad: #fb923c; --color-warn: #fbbf24; --color-ok: #4ade80; --color-soft: #2dd4bf; --color-accent: #63a4ff; --color-violet: #a78bfa;
+  --grid: #2a2e33; --axis: #8d949d; --band: rgba(251, 146, 60, .12); --band2: rgba(99, 164, 255, .13); }
+html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); }
+body { font-family: var(--font-anthropic-sans); }
+.site-nav { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; padding: 10px 16px; border-bottom: 1px solid var(--color-border-line); background: var(--color-panel); }
+.site-nav .brand { font-family: var(--font-anthropic-serif); font-size: 1.15rem; color: var(--color-fg); text-decoration: none; margin-right: auto; }
+.site-nav a { color: var(--color-fg-muted); text-decoration: none; font-size: .9rem; }
+.site-nav a[aria-current="page"], .site-nav a:hover { color: var(--color-fg); }
+.site-foot { max-width: 1280px; margin: 24px auto; padding: 0 16px 24px; color: var(--color-fg-muted); font-size: .8rem; line-height: 1.5; }
+.site-foot a { color: inherit; }
+[hidden] { display: none !important; }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 16px; }
+h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: 1.9rem; margin: .3em 0 .2em; }
+h2 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: 1.45rem; margin: 1.6em 0 .3em; }
+h3 { font-size: 1rem; margin: 0 0 6px; }
+.lede { color: var(--color-fg-muted); max-width: 80ch; line-height: 1.55; margin: .2em 0 1em; }
+a { color: var(--color-fg); }
+.card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: 10px; padding: 14px 16px; margin: 12px 0; min-width: 0; }
+.verdict { border-left: 3px solid var(--color-warn); line-height: 1.55; font-size: .93rem; }
+.verdict b { font-weight: 600; }
+.grid2 { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px; }
+.grid-chart { display: grid; grid-template-columns: minmax(0, 440px) minmax(0, 1fr); gap: 12px; align-items: start; }
+@media (max-width: 860px) { .grid2, .grid-chart { grid-template-columns: 1fr; } }
+.ctl { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; margin: 6px 0 10px; font-size: .85rem; color: var(--color-fg-muted); }
+.seg { display: inline-flex; border: 1px solid var(--color-border-line); border-radius: 8px; overflow: hidden; }
+.seg button { font: inherit; font-size: .82rem; background: none; border: 0; padding: 5px 11px; color: var(--color-fg-muted); cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--color-fg); color: var(--color-bg); }
+select { max-width: calc(100vw - 100px); }
+select, input[type="number"] { font: inherit; font-size: .85rem; padding: 4px 6px; border: 1px solid var(--color-border-line); border-radius: 6px; background: var(--color-panel); color: var(--color-fg); }
+input[type="number"] { width: 5.2rem; }
+label.chk { display: inline-flex; gap: 5px; align-items: center; cursor: pointer; }
+.chart { width: 100%; overflow: hidden; position: relative; }
+.chart svg { display: block; width: 100%; height: auto; }
+.chart text { fill: var(--color-fg-muted); font-size: 11px; font-family: var(--font-anthropic-sans); }
+.chart .lane-lbl { fill: var(--color-fg); font-size: 11px; }
+.chart .gridline { stroke: var(--grid); }
+.chart .domain, .chart .tick line { stroke: var(--axis); }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: .78rem; color: var(--color-fg-muted); margin: 4px 0 2px; }
+.legend span { display: inline-flex; align-items: center; gap: 5px; }
+.legend svg { overflow: visible; }
+.tip { position: fixed; pointer-events: none; z-index: 10; background: var(--color-panel); color: var(--color-fg); border: 1px solid var(--color-border-line); border-radius: 8px; padding: 8px 10px; font-size: .8rem; line-height: 1.45; box-shadow: 0 4px 18px rgba(0, 0, 0, .16); max-width: 300px; }
+.tip b { font-weight: 600; }
+table.t { width: 100%; border-collapse: collapse; font-size: .84rem; font-variant-numeric: tabular-nums; }
+table.t th { text-align: left; font-weight: 600; color: var(--color-fg-muted); font-size: .76rem; border-bottom: 1px solid var(--color-border-line); padding: 5px 6px; }
+table.t td { border-bottom: 1px solid var(--color-border-line); padding: 5px 6px; vertical-align: top; }
+table.t tr:last-child td { border-bottom: 0; }
+.scroll { max-height: 420px; overflow: auto; }
+.tw { overflow-x: auto; }
+.badge { display: inline-block; font-size: .72rem; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--color-border-line); color: var(--color-fg-muted); white-space: nowrap; }
+.badge.A, .badge.B { color: var(--color-ok); border-color: var(--color-ok); }
+.badge.C { color: var(--color-warn); border-color: var(--color-warn); }
+.badge.X { color: var(--color-bad); border-color: var(--color-bad); }
+.badge.hard { color: var(--color-bad); border-color: var(--color-bad); }
+.badge.soft { color: var(--color-soft); border-color: var(--color-soft); }
+.now { display: grid; grid-template-columns: repeat(auto-fit, minmax(10.5rem, 1fr)); gap: 8px; margin: 8px 0; }
+.now > div { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: 10px; padding: 8px 11px; }
+.now .l { font-size: .74rem; color: var(--color-fg-muted); }
+.now .v { font-size: 1rem; margin-top: 2px; }
+.now .s { font-size: .74rem; color: var(--color-fg-muted); margin-top: 2px; }
+.meta { font-size: .86rem; line-height: 1.55; }
+.meta dt { color: var(--color-fg-muted); font-size: .75rem; margin-top: 6px; }
+.meta dd { margin: 0; }
+.muted { color: var(--color-fg-muted); }
+.small { font-size: .8rem; line-height: 1.5; }
+ul.src { margin: 6px 0 0; padding-left: 1.1em; font-size: .85rem; line-height: 1.6; }
+.wheel text { font-family: var(--font-anthropic-sans); }
+.err { color: var(--color-bad); font-size: .85rem; }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+</head><body>
+<nav class="site-nav" aria-label="Site">
+  <a class="brand" href="./">Global Weather Watch</a>
+  <a href="./">Dashboard</a>
+  <a href="events.html">Event log</a>
+  <a href="mundane.html" aria-current="page">Mundane cycles</a>
+  <a href="data.html">Data archive</a>
+  <a href="about.html">About &amp; method</a>
+</nav>
+<main class="wrap">
+  <h1>Mundane cycles</h1>
+  <p class="lede">Outer-planet cycles, sign ingresses, eclipses and national charts, laid against world events and market history. Positions are computed (VSOP87, geocentric, tropical zodiac); the interpretation layer is astrology’s, and the market section tests whether the cycles show up in the numbers at all.</p>
+
+  <div class="card verdict" id="verdict">Loading…</div>
+
+  <h2 id="now-h">Now and next</h2>
+  <p class="lede small" id="now-date"></p>
+  <div class="now" id="now-signs"></div>
+  <div class="card">
+    <h3>Next 24 months</h3>
+    <div class="ctl"><label class="chk"><input type="checkbox" id="next-soft"> include trines</label><label class="chk"><input type="checkbox" id="next-stations" checked> stations</label><label class="chk"><input type="checkbox" id="next-seasonal" checked> equinoxes &amp; solstices</label></div>
+    <div class="tw scroll"><table class="t" id="next-table"></table></div>
+  </div>
+
+  <h2 id="timeline-h">Global mundane timeline</h2>
+  <p class="lede small">Top: the cyclic index (sum of the ten separations between Jupiter, Saturn, Uranus, Neptune and Pluto; low = clustered) with S&amp;P 500 bear markets shaded and reference world events marked. Below: every exact aspect between each outer-planet pair, every sign ingress and every eclipse. Hover for detail.</p>
+  <div class="card">
+    <div class="ctl">
+      <div class="seg" id="tl-range" role="group" aria-label="Range">
+        <button data-r="1900,2040" aria-pressed="false">1900–2040</button>
+        <button data-r="1960,2040" aria-pressed="false">1960–2040</button>
+        <button data-r="2000,2035" aria-pressed="true">2000–2035</button>
+        <button data-r="2020,2032" aria-pressed="false">2020–2032</button>
+      </div>
+      <span>from <input type="number" id="tl-from" min="1900" max="2039" value="2000"> to <input type="number" id="tl-to" min="1901" max="2041" value="2035"></span>
+      <label class="chk"><input type="checkbox" id="tl-soft"> trines</label>
+      <label class="chk"><input type="checkbox" id="tl-retro" checked> retrograde passes</label>
+    </div>
+    <div class="legend" id="tl-legend"></div>
+    <div class="chart" id="tl-chart"></div>
+  </div>
+
+  <h2 id="national-h">National charts</h2>
+  <p class="lede small">Founding dates are historical facts; founding times are conventions, and several are disputed. Each chart carries a rating — <span class="badge A">A</span> documented time, <span class="badge B">B</span> well-attested, <span class="badge C">C</span> disputed, <span class="badge X">X</span> no time (noon chart). The Moon and the angles are used for transit timing only on A and B charts, because a one-hour error moves the Ascendant by about 15°.</p>
+  <div class="ctl"><label>Chart <select id="nc-select"></select></label></div>
+  <div class="grid-chart">
+    <div class="card"><div class="chart wheel" id="nc-wheel"></div></div>
+    <div class="card"><dl class="meta" id="nc-meta"></dl></div>
+  </div>
+  <div class="grid2">
+    <div class="card"><h3>Positions</h3><div class="tw"><table class="t" id="nc-pos"></table></div></div>
+    <div class="card">
+      <h3>Outer-planet transits</h3>
+      <div class="ctl"><div class="seg" id="nc-when" role="group" aria-label="Period"><button data-w="next" aria-pressed="true">Next 3 years</button><button data-w="past" aria-pressed="false">Last 3 years</button><button data-w="all" aria-pressed="false">2015–2035</button></div><label class="chk"><input type="checkbox" id="nc-soft"> trines</label></div>
+      <div class="tw scroll"><table class="t" id="nc-tr"></table></div>
+    </div>
+  </div>
+  <div class="card">
+    <h3>Transit timeline, 2015–2035</h3>
+    <div class="legend" id="nc-legend"></div>
+    <div class="chart" id="nc-chart"></div>
+  </div>
+
+  <h2 id="markets-h">Economic and market cycles</h2>
+  <p class="lede small">S&amp;P 500 monthly averages since 1900 (Shiller data; inflation-adjusted to Sep 2023, nominal thereafter) on a log scale, with the cyclic index. Shaded: bear markets (red) and Saturn–Uranus hard-aspect windows (blue). The tests below ask whether forward 12-month real returns differ when a cycle is in a given state.</p>
+  <div class="card">
+    <div class="legend" id="mk-legend"></div>
+    <div class="chart" id="mk-chart"></div>
+  </div>
+  <div class="grid2">
+    <div class="card"><h3>Planetary cycles vs forward 12-month real returns, 1900–2022</h3><div class="tw"><table class="t" id="mk-tests"></table></div>
+      <p class="small muted">Δ mean = average forward return inside the window minus outside, in percentage points. p from 5,000 circular shifts of the predictor (keeps both series’ persistence); q = Benjamini–Hochberg across all seven tests.</p></div>
+    <div class="card"><h3 id="mk-ep-h">Strongest lead, episode by episode</h3><div class="tw"><table class="t" id="mk-ep"></table></div>
+      <p class="small muted">“Gap if dropped” recomputes the in-minus-out difference without that episode. If one row moves it a lot, one event carries the result.</p></div>
+  </div>
+
+  <h2 id="method-h">Method and sources</h2>
+  <div class="card small">
+    <p><b>Computation.</b> Positions from PyEphem (VSOP87 planetary theory), apparent geocentric longitudes of date, tropical zodiac. Exact aspect and ingress times are found by root-finding to under a minute. Checked against published values: the Jupiter–Saturn conjunction of 21 Dec 2020 (18:20 UTC, 0°30′ Aquarius), Pluto’s Aquarius ingresses of 2023–24, the Saturn–Neptune conjunction of 20 Feb 2026, the 2024–26 equinox times to the minute, all 17 eclipses of 2024–2027, and the Sibly USA and 1947 India charts. Eclipses are flagged by the Moon’s latitude at new or full moon (any type, including partial and penumbral); total/annular is not computed. Mean lunar node. Cross-check any single date against <a href="https://ssd.jpl.nasa.gov/horizons/">JPL Horizons</a> or <a href="https://www.astro.com">astro.com</a>.</p>
+    <p><b>National charts.</b> Dates, places and times as used in the mundane literature (Campion, <i>The Book of World Horoscopes</i>, and the national-chart collections at astro.com, astrologyking.com and starsutra.in). Ratings are this site’s own judgement of how well the time is documented.</p>
+    <p><b>World events.</b> A hand-picked list for orientation. Because it was chosen after the fact, it cannot test anything — any hand-picked list will appear to line up with some cycle. The market tests use the whole monthly record instead.</p>
+    <p><b>Interpretive sources (not used for computation):</b></p>
+    <ul class="src">
+      <li><a href="https://www.astro-seek.com">astro-seek.com</a> — current transits and astro calendar</li>
+      <li><a href="https://www.astro.com">astro.com</a> · <a href="https://cafeastrology.com">cafeastrology.com</a> · <a href="https://www.skyscript.co.uk">Skyscript</a></li>
+      <li><a href="https://astrologyking.com/mundane-charts/nations/">astrologyking.com — national charts</a> · <a href="https://starsutra.in/mundane">starsutra.in/mundane</a></li>
+      <li><a href="https://globalastrologyblog.blogspot.com">Global Astrology</a> · <a href="https://astrologyandthemarkets.blogspot.com">Astrology and the Markets</a> · <a href="https://astro-fusion.com">astro-fusion.com</a> · <a href="https://rajeevprakash.com">rajeevprakash.com</a> · <a href="https://thecunningfarmer.substack.com">The Cunning Farmer</a> · <a href="https://www.transitviewer.net">TransitViewer</a> · <a href="https://astrologyreadings.online">AstrologyReadings.online</a></li>
+    </ul>
+    <p><b>Market data.</b> <a href="https://github.com/datasets/s-and-p-500">datasets/s-and-p-500</a> (Robert Shiller’s monthly series). Monthly averages smooth out intramonth extremes, so bear-market depths here are shallower than daily-close figures.</p>
+    <p class="muted">Code: <code>tools/mundane/</code> in the site repository; rebuilt with the weekly refresh. Not financial advice.</p>
+  </div>
+</main>
+<footer class="site-foot">Data snapshot: <span id="asof">—</span>. Independent, non-commercial analysis built from public sources; see <a href="about.html">About &amp; method</a>. Astrology is presented as a cultural and interpretive framework, alongside statistical tests of its claims; nothing here is a forecast or financial advice. Analysis prepared with Claude (Anthropic).</footer>
+<div class="tip" id="tip" hidden></div>
+<script>
+(async () => {
+  'use strict';
+  const GLYPH = { Sun: '☉', Moon: '☽', Mercury: '☿', Venus: '♀', Mars: '♂', Jupiter: '♃', Saturn: '♄', Uranus: '♅', Neptune: '♆', Pluto: '♇', 'North Node (mean)': '☊', Ascendant: 'AC', Midheaven: 'MC' };
+  const SIGNS = ['Aries', 'Taurus', 'Gemini', 'Cancer', 'Leo', 'Virgo', 'Libra', 'Scorpio', 'Sagittarius', 'Capricorn', 'Aquarius', 'Pisces'];
+  const SIGN_GLYPH = ['♈', '♉', '♊', '♋', '♌', '♍', '♎', '♏', '♐', '♑', '♒', '♓'].map((g) => g + '︎');
+  const OUTER = ['Jupiter', 'Saturn', 'Uranus', 'Neptune', 'Pluto'];
+  const g = (b) => (GLYPH[b] || b) + (GLYPH[b] && GLYPH[b].length === 1 ? '︎' : '');
+  const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+  const parseDate = (d, t) => new Date(d + 'T' + (t || '12:00') + ':00Z');
+  const fmtDate = (d) => d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const tip = document.getElementById('tip');
+  const showTip = (ev, html) => { tip.innerHTML = html; tip.hidden = false; const w = tip.offsetWidth, h = tip.offsetHeight; let x = ev.clientX + 14, y = ev.clientY + 14; if (x + w > innerWidth - 8) x = ev.clientX - w - 14; if (y + h > innerHeight - 8) y = ev.clientY - h - 14; tip.style.left = Math.max(8, x) + 'px'; tip.style.top = Math.max(8, y) + 'px'; };
+  const hideTip = () => { tip.hidden = true; };
+  const files = ['mundane_aspects', 'mundane_ingresses', 'mundane_stations', 'mundane_seasonal', 'mundane_eclipses', 'mundane_cyclic_index', 'mundane_world_events', 'national_charts', 'national_positions', 'national_transits', 'market_monthly', 'market_bear', 'market_tests', 'market_episodes'];
+  let D;
+  try {
+    const loaded = await Promise.all(files.map((f) => d3.csv('data/' + f + '.csv', { cache: 'no-cache' }).catch(() => [])));
+    D = Object.fromEntries(files.map((f, i) => [f, loaded[i]]));
+    const m = await (await fetch('data/manifest.json', { cache: 'no-cache' })).json().catch(() => null);
+    if (m) document.getElementById('asof').textContent = m.updated;
+  } catch (e) {
+    document.getElementById('verdict').innerHTML = '<span class="err">Could not load the mundane datasets.</span>';
+    return;
+  }
+  const today = new Date();
+  const aspects = D.mundane_aspects.map((r) => ({ ...r, t: parseDate(r.date, r.time_utc), pass_no: +r.pass_no, passes: +r.passes }));
+  const ingresses = D.mundane_ingresses.map((r) => ({ ...r, t: parseDate(r.date, r.time_utc) }));
+  const stations = D.mundane_stations.map((r) => ({ ...r, t: parseDate(r.date, r.time_utc) }));
+  const seasonal = D.mundane_seasonal.map((r) => ({ ...r, t: parseDate(r.date, r.time_utc) }));
+  const eclipses = D.mundane_eclipses.map((r) => ({ ...r, t: parseDate(r.date, r.time_utc) }));
+  const cyc = D.mundane_cyclic_index.map((r) => ({ t: parseDate(r.month + '-15'), v: +r.cyclic_index }));
+  const events = D.mundane_world_events.map((r) => ({ ...r, t: parseDate(r.date) }));
+  const bears = D.market_bear.map((r) => ({ ...r, a: parseDate(r.peak + '-01'), b: parseDate(r.trough + '-28') }));
+
+  const aspectSym = (asp) => ({ conjunction: '☌', opposition: '☍', square: '□', trine: '△' }[asp] || asp);
+
+  // ---------- verdict ----------
+  (() => {
+    const tests = D.market_tests;
+    const best = tests.slice().sort((a, b) => +a.q_fdr - +b.q_fdr)[0];
+    const sig = tests.filter((r) => +r.q_fdr < 0.05);
+    const ep = D.market_episodes;
+    const big = ep.length ? ep.slice().sort((a, b) => +b.gap_if_dropped - +a.gap_if_dropped)[0] : null;
+    let mk = '';
+    if (best) {
+      mk = `Of seven market tests, <b>${sig.length}</b> clear a false-discovery rate of 5%` +
+        (sig.length ? `: ${esc(best.predictor)}, where forward 12-month real returns averaged <b>${(+best.value).toFixed(1)} points</b> ${+best.value < 0 ? 'lower' : 'higher'} inside the window (q = ${(+best.q_fdr).toFixed(3)}, same sign in both halves of the record). ` : '. ') +
+        (big && sig.length ? `It rests on few cases — ${ep.length} episodes since 1900 — and dropping the ${big.start.slice(0, 4)}–${big.end.slice(0, 4)} episode alone shrinks the gap to ${(+big.gap_if_dropped).toFixed(1)} points. Treat it as a lead to re-score as new data arrive, not an established cycle.` : '');
+    }
+    document.getElementById('verdict').innerHTML = `<b>How to read this page.</b> The planetary positions, aspects, ingresses and eclipses are astronomical facts. What they are said to mean for nations and markets is interpretation. ${mk} The weather-side tests on the dashboard’s Sky cycles tab found nothing beyond chance.`;
+  })();
+
+  // ---------- now and next ----------
+  (() => {
+    document.getElementById('now-date').textContent = 'As of ' + fmtDate(today) + ' (UTC). Sign = the most recent ingress before today.';
+    const box = document.getElementById('now-signs');
+    OUTER.forEach((b) => {
+      const past = ingresses.filter((i) => i.body === b && i.t <= today);
+      const cur = past[past.length - 1];
+      const nextIng = ingresses.find((i) => i.body === b && i.t > today);
+      const st = stations.filter((s) => s.body === b && s.t <= today).pop();
+      const div = document.createElement('div');
+      div.innerHTML = `<div class="l">${g(b)} ${b}</div><div class="v">${cur ? SIGN_GLYPH[SIGNS.indexOf(cur.sign)] + ' ' + cur.sign : '—'}${st && st.turns === 'retrograde' ? ' <span class="muted">℞</span>' : ''}</div><div class="s">${nextIng ? 'next: ' + nextIng.sign + ', ' + fmtDate(nextIng.t) : ''}</div>`;
+      box.append(div);
+    });
+    const draw = () => {
+      const end = new Date(today); end.setUTCFullYear(end.getUTCFullYear() + 2);
+      const soft = document.getElementById('next-soft').checked;
+      const rows = [];
+      aspects.filter((a) => a.t > today && a.t < end && (soft || a.kind === 'hard')).forEach((a) => rows.push({ t: a.t, what: `${a.pair.split('–').map(g).join(' ' + aspectSym(a.aspect) + ' ')} ${a.pair} ${a.phase ? a.phase + ' ' : ''}${a.aspect}`, where: a.position_a, note: a.passes > 1 ? `pass ${a.pass_no} of ${a.passes}` : '', kind: a.kind }));
+      ingresses.filter((i) => i.t > today && i.t < end).forEach((i) => rows.push({ t: i.t, what: `${g(i.body)} ${i.body} enters ${i.sign}`, where: '0° ' + i.sign, note: i.direction === 'retrograde' ? 'retrograde re-entry' : '', kind: 'ingress' }));
+      eclipses.filter((e) => e.t > today && e.t < end).forEach((e) => rows.push({ t: e.t, what: `${e.kind === 'solar' ? 'Solar' : 'Lunar'} eclipse`, where: e.position, note: '', kind: 'eclipse' }));
+      if (document.getElementById('next-stations').checked) stations.filter((s) => s.t > today && s.t < end).forEach((s) => rows.push({ t: s.t, what: `${g(s.body)} ${s.body} stations ${s.turns}`, where: s.position, note: '', kind: 'station' }));
+      if (document.getElementById('next-seasonal').checked) seasonal.filter((s) => s.t > today && s.t < end).forEach((s) => rows.push({ t: s.t, what: `Sun enters ${s.point} (${{ Aries: 'March equinox', Cancer: 'June solstice', Libra: 'September equinox', Capricorn: 'December solstice' }[s.point]})`, where: s.date + ' ' + s.time_utc + ' UTC', note: 'ingress chart', kind: 'seasonal' }));
+      rows.sort((a, b) => a.t - b.t);
+      const label = { hard: 'hard aspect', soft: 'soft aspect', ingress: 'ingress', eclipse: 'eclipse', station: 'station', seasonal: 'seasonal' };
+      document.getElementById('next-table').innerHTML = '<thead><tr><th>Date (UTC)</th><th>Event</th><th>Position</th><th>Type</th><th></th></tr></thead><tbody>' +
+        rows.map((r) => `<tr><td>${fmtDate(r.t)}</td><td>${esc(r.what)}</td><td>${esc(r.where)}</td><td><span class="badge ${r.kind === 'hard' ? 'hard' : r.kind === 'soft' ? 'soft' : ''}">${label[r.kind]}</span></td><td class="muted">${esc(r.note)}</td></tr>`).join('') + '</tbody>';
+    };
+    ['next-soft', 'next-stations', 'next-seasonal'].forEach((id) => document.getElementById(id).addEventListener('change', draw));
+    draw();
+  })();
+
+  // ---------- shared mark shapes ----------
+  const markFor = (asp) => ({ conjunction: d3.symbolCircle, opposition: d3.symbolCircle, square: d3.symbolDiamond, trine: d3.symbolTriangle }[asp]);
+  const colorFor = (kind) => kind === 'soft' ? css('--color-soft') : css('--color-bad');
+  const legendHTML = (items) => items.map(([shape, fill, stroke, text]) => `<span><svg width="12" height="12" viewBox="-6 -6 12 12"><path d="${d3.symbol(shape, 46)()}" fill="${fill}" stroke="${stroke}" stroke-width="1.4"/></svg>${text}</span>`).join('');
+
+  // ---------- global timeline ----------
+  const tl = { from: 2000, to: 2035 };
+  function drawTimeline() {
+    const box = document.getElementById('tl-chart');
+    const W = Math.max(box.clientWidth, 320), mobile = W < 600;
+    const left = mobile ? 74 : 118, right = 12;
+    const soft = document.getElementById('tl-soft').checked, retro = document.getElementById('tl-retro').checked;
+    const pairs = [];
+    for (let i = 0; i < OUTER.length; i++) for (let j = i + 1; j < OUTER.length; j++) pairs.push(OUTER[i] + '–' + OUTER[j]);
+    const lanes = [...pairs.map((p) => ({ id: p, label: mobile ? p.split('–').map(g).join('–') : p, type: 'pair' })),
+      ...OUTER.map((b) => ({ id: b, label: mobile ? g(b) + ' sign' : b + ' ingress', type: 'ing' })),
+      { id: 'eclipse', label: 'Eclipses', type: 'ecl' }, { id: 'events', label: 'World events', type: 'ev' }];
+    const topH = 130, laneH = 20, gap = 26;
+    const H = topH + gap + lanes.length * laneH + 28;
+    const x = d3.scaleUtc([new Date(Date.UTC(tl.from, 0, 1)), new Date(Date.UTC(tl.to, 0, 1))], [left, W - right]);
+    const inR = (t) => t >= x.domain()[0] && t <= x.domain()[1];
+    box.replaceChildren();
+    const svg = d3.select(box).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Timeline of outer-planet cycles');
+    // top: cyclic index
+    const cv = cyc.filter((d) => inR(d.t));
+    const y = d3.scaleLinear([d3.min(cv, (d) => d.v) * 0.95 || 0, d3.max(cv, (d) => d.v) * 1.03 || 1800], [topH, 8]).nice();
+    svg.append('g').selectAll('rect').data(bears.filter((b) => b.b >= x.domain()[0] && b.a <= x.domain()[1])).join('rect')
+      .attr('x', (b) => x(b.a < x.domain()[0] ? x.domain()[0] : b.a)).attr('width', (b) => Math.max(1, x(b.b > x.domain()[1] ? x.domain()[1] : b.b) - x(b.a < x.domain()[0] ? x.domain()[0] : b.a)))
+      .attr('y', 8).attr('height', topH - 8).attr('fill', 'var(--band)')
+      .on('mousemove', (ev, b) => showTip(ev, `<b>S&amp;P 500 bear market</b><br>${b.peak} peak → ${b.trough} trough<br>−${b.depth_pct}% (monthly averages)`)).on('mouseleave', hideTip);
+    svg.append('g').attr('transform', `translate(${left},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(W - left - right))).call((s) => s.selectAll('.tick line').attr('class', 'gridline')).call((s) => s.select('.domain').remove());
+    svg.append('text').attr('x', 4).attr('y', 14).attr('class', 'lane-lbl').text('Cyclic index');
+    svg.append('path').datum(cv).attr('fill', 'none').attr('stroke', css('--color-accent')).attr('stroke-width', 1.6).attr('d', d3.line().x((d) => x(d.t)).y((d) => y(d.v)));
+    const bis = d3.bisector((d) => d.t).center;
+    svg.append('rect').attr('x', left).attr('y', 8).attr('width', W - left - right).attr('height', topH - 8).attr('fill', 'transparent')
+      .on('mousemove', (ev) => { const t = x.invert(d3.pointer(ev)[0]); const d = cv[bis(cv, t)]; if (d) showTip(ev, `<b>${d.t.toISOString().slice(0, 7)}</b><br>Cyclic index ${d.v.toFixed(0)}°`); })
+      .on('mouseleave', hideTip).lower();
+    // today marker
+    if (inR(today)) svg.append('line').attr('x1', x(today)).attr('x2', x(today)).attr('y1', 4).attr('y2', H - 24).attr('stroke', css('--color-fg-muted')).attr('stroke-dasharray', '3 3');
+    // lanes
+    const y0 = topH + gap;
+    const laneY = (i) => y0 + i * laneH + laneH / 2;
+    lanes.forEach((l, i) => {
+      svg.append('line').attr('x1', left).attr('x2', W - right).attr('y1', laneY(i)).attr('y2', laneY(i)).attr('class', 'gridline');
+      svg.append('text').attr('x', left - 6).attr('y', laneY(i) + 4).attr('text-anchor', 'end').attr('class', 'lane-lbl').text(l.label);
+    });
+    const li = Object.fromEntries(lanes.map((l, i) => [l.id, i]));
+    const asp = aspects.filter((a) => inR(a.t) && (soft || a.kind === 'hard') && (retro || a.pass_no === 1));
+    svg.append('g').selectAll('path').data(asp).join('path')
+      .attr('transform', (a) => `translate(${x(a.t)},${laneY(li[a.pair])})`)
+      .attr('d', (a) => d3.symbol(markFor(a.aspect), a.aspect === 'conjunction' || a.aspect === 'opposition' ? 52 : 40)())
+      .attr('fill', (a) => a.aspect === 'opposition' ? css('--color-panel') : colorFor(a.kind))
+      .attr('stroke', (a) => colorFor(a.kind)).attr('stroke-width', 1.4).attr('opacity', (a) => a.pass_no > 1 ? 0.55 : 1)
+      .style('cursor', 'default')
+      .on('mousemove', (ev, a) => showTip(ev, `<b>${a.pair} ${a.phase ? a.phase + ' ' : ''}${a.aspect}</b><br>${a.date} ${a.time_utc} UTC<br>${esc(a.position_a)} / ${esc(a.position_b)}${a.passes > 1 ? `<br>pass ${a.pass_no} of ${a.passes}` : ''}<br><span class="muted">mean cycle ${a.synodic_years} years</span>`)).on('mouseleave', hideTip);
+    const ing = ingresses.filter((i) => inR(i.t));
+    svg.append('g').selectAll('g').data(ing).join('g').attr('transform', (i) => `translate(${x(i.t)},${laneY(li[i.body])})`)
+      .call((s) => s.append('line').attr('y1', -7).attr('y2', 7).attr('stroke', (i) => i.direction === 'direct' ? css('--color-violet') : css('--color-fg-muted')).attr('stroke-width', 1.6).attr('stroke-dasharray', (i) => i.direction === 'direct' ? null : '2 2'))
+      .call((s) => { if (!mobile && tl.to - tl.from <= 40) s.filter((i) => i.direction === 'direct').append('text').attr('x', 3).attr('y', -3).style('font-size', '10px').text((i) => SIGN_GLYPH[SIGNS.indexOf(i.sign)]); })
+      .on('mousemove', (ev, i) => showTip(ev, `<b>${i.body} enters ${i.sign}</b><br>${i.date} ${i.time_utc} UTC${i.direction === 'retrograde' ? '<br>retrograde re-entry' : ''}`)).on('mouseleave', hideTip);
+    const ec = eclipses.filter((e) => inR(e.t));
+    svg.append('g').selectAll('circle').data(ec).join('circle').attr('cx', (e) => x(e.t)).attr('cy', laneY(li.eclipse)).attr('r', 3.2)
+      .attr('fill', (e) => e.kind === 'solar' ? css('--color-fg') : css('--color-panel')).attr('stroke', css('--color-fg')).attr('stroke-width', 1.2)
+      .on('mousemove', (ev, e) => showTip(ev, `<b>${e.kind === 'solar' ? 'Solar' : 'Lunar'} eclipse</b><br>${e.date}<br>${esc(e.position)}`)).on('mouseleave', hideTip);
+    const evs = events.filter((e) => inR(e.t));
+    const evColor = { war: css('--color-fg'), political: css('--color-violet'), economic: css('--color-accent'), independence: css('--color-ok'), health: css('--color-warn') };
+    svg.append('g').selectAll('g').data(evs).join('g')
+      .call((s) => s.append('line').attr('x1', (e) => x(e.t)).attr('x2', (e) => x(e.t)).attr('y1', 8).attr('y2', topH).attr('stroke', (e) => evColor[e.category]).attr('stroke-opacity', 0.35))
+      .call((s) => s.append('circle').attr('cx', (e) => x(e.t)).attr('cy', laneY(li.events)).attr('r', 4).attr('fill', (e) => evColor[e.category]))
+      .on('mousemove', (ev, e) => showTip(ev, `<b>${esc(e.event)}</b><br>${fmtDate(e.t)} · ${esc(e.region)}<br><span class="muted">${e.category}</span>`)).on('mouseleave', hideTip);
+    svg.append('g').attr('transform', `translate(0,${H - 24})`).call(d3.axisBottom(x).ticks(mobile ? 5 : 10).tickSizeOuter(0));
+    document.getElementById('tl-legend').innerHTML = legendHTML([[d3.symbolCircle, css('--color-bad'), css('--color-bad'), 'conjunction'], [d3.symbolDiamond, css('--color-bad'), css('--color-bad'), 'square'], [d3.symbolCircle, css('--color-panel'), css('--color-bad'), 'opposition'], [d3.symbolTriangle, css('--color-soft'), css('--color-soft'), 'trine']]) +
+      `<span><svg width="10" height="12"><line x1="5" x2="5" y1="0" y2="12" stroke="${css('--color-violet')}" stroke-width="2"/></svg>ingress</span><span><svg width="10" height="12"><circle cx="5" cy="6" r="3.5" fill="${css('--color-fg')}"/></svg>solar / <svg width="10" height="12"><circle cx="5" cy="6" r="3.5" fill="none" stroke="${css('--color-fg')}"/></svg>lunar eclipse</span><span><svg width="14" height="12"><rect width="14" height="12" fill="var(--band)"/></svg>S&amp;P bear market</span>` +
+      Object.entries(evColor).map(([k, c]) => `<span><svg width="10" height="12"><circle cx="5" cy="6" r="4" fill="${c}"/></svg>${k}</span>`).join('');
+  }
+  const setRange = (a, b) => { tl.from = Math.max(1900, Math.min(a, b - 1)); tl.to = Math.min(2041, Math.max(b, tl.from + 1)); document.getElementById('tl-from').value = tl.from; document.getElementById('tl-to').value = tl.to; document.querySelectorAll('#tl-range button').forEach((x) => x.setAttribute('aria-pressed', String(x.dataset.r === `${tl.from},${tl.to}`))); drawTimeline(); };
+  document.querySelectorAll('#tl-range button').forEach((b) => b.addEventListener('click', () => { const [a, c] = b.dataset.r.split(',').map(Number); setRange(a, c); }));
+  ['tl-from', 'tl-to'].forEach((id) => document.getElementById(id).addEventListener('change', () => setRange(+document.getElementById('tl-from').value, +document.getElementById('tl-to').value)));
+  ['tl-soft', 'tl-retro'].forEach((id) => document.getElementById(id).addEventListener('change', drawTimeline));
+  drawTimeline();
+
+  // ---------- national charts ----------
+  const charts = D.national_charts;
+  const pos = d3.group(D.national_positions, (r) => r.chart_id);
+  const trs = D.national_transits.map((r) => ({ ...r, t: parseDate(r.date, r.time_utc) }));
+  const sel = document.getElementById('nc-select');
+  charts.forEach((c) => { const o = document.createElement('option'); o.value = c.id; o.textContent = `${c.label} — ${c.local_time.split(',')[0]}`; sel.append(o); });
+  const initial = new URLSearchParams(location.search).get('chart');
+  if (initial && charts.some((c) => c.id === initial)) sel.value = initial; else sel.value = 'ukraine-1991';
+  let ncWhen = 'next';
+  const ratingText = { A: 'documented time', B: 'well-attested convention', C: 'disputed time — angles not used', X: 'no time; noon chart — Moon and angles not used' };
+
+  function drawWheel(c, rows) {
+    const box = document.getElementById('nc-wheel');
+    const S = 420, R = 200, cx = S / 2, cy = S / 2;
+    box.replaceChildren();
+    const svg = d3.select(box).append('svg').attr('viewBox', `-26 -16 ${S + 52} ${S + 32}`).attr('role', 'img').attr('aria-label', `Chart wheel for ${c.label}`);
+    const asc = rows.find((r) => r.point === 'Ascendant');
+    const rot = asc ? +asc.lon : 0; // Ascendant on the left when the time is reliable; else 0° Aries on the left
+    const ang = (lon) => Math.PI - (lon - rot) * Math.PI / 180;
+    const pt = (lon, r) => [cx + r * Math.cos(ang(lon)), cy - r * Math.sin(ang(lon))];
+    const fg = css('--color-fg'), mu = css('--color-fg-muted'), line = css('--color-border-line');
+    svg.append('circle').attr('cx', cx).attr('cy', cy).attr('r', R).attr('fill', 'none').attr('stroke', mu);
+    svg.append('circle').attr('cx', cx).attr('cy', cy).attr('r', R - 30).attr('fill', 'none').attr('stroke', mu);
+    svg.append('circle').attr('cx', cx).attr('cy', cy).attr('r', 70).attr('fill', 'none').attr('stroke', line);
+    for (let k = 0; k < 12; k++) {
+      const [x1, y1] = pt(k * 30, R), [x2, y2] = pt(k * 30, R - 30);
+      svg.append('line').attr('x1', x1).attr('y1', y1).attr('x2', x2).attr('y2', y2).attr('stroke', mu);
+      const [tx, ty] = pt(k * 30 + 15, R - 15);
+      svg.append('text').attr('x', tx).attr('y', ty + 5).attr('text-anchor', 'middle').attr('fill', fg).style('font-size', '15px').text(SIGN_GLYPH[k]);
+      for (let dd = 5; dd < 30; dd += 5) { const [a1, b1] = pt(k * 30 + dd, R - 30), [a2, b2] = pt(k * 30 + dd, R - 26); svg.append('line').attr('x1', a1).attr('y1', b1).attr('x2', a2).attr('y2', b2).attr('stroke', mu); }
+    }
+    const bodies = rows.filter((r) => r.point !== 'Ascendant' && r.point !== 'Midheaven').map((r) => ({ ...r, lon: +r.lon })).sort((a, b) => a.lon - b.lon);
+    // spread glyphs that would overlap (min 9° apart on the glyph ring)
+    const disp = bodies.map((b) => b.lon);
+    const minGap = Math.min(11, 360 / Math.max(1, disp.length));
+    for (let it = 0; it < 200; it++) {
+      let moved = false;
+      for (let i = 0; i < disp.length; i++) {
+        const j = (i + 1) % disp.length;
+        const gp = ((disp[j] - disp[i]) % 360 + 360) % 360;
+        if (disp.length > 1 && gp < minGap - 0.01) { const push = (minGap - gp) / 2; disp[i] -= push; disp[j] += push; moved = true; }
+      }
+      if (!moved) break;
+    }
+    const aspectsIn = [];
+    for (let i = 0; i < bodies.length; i++) for (let j = i + 1; j < bodies.length; j++) {
+      const d = Math.abs(((bodies[i].lon - bodies[j].lon + 540) % 360) - 180);
+      for (const [a, nm, orb] of [[0, 'conj', 6], [90, 'square', 6], [180, 'opp', 6], [120, 'trine', 5]]) if (Math.abs(d - a) <= orb && a > 0 && !bodies[i].point.startsWith('North') && !bodies[j].point.startsWith('North')) aspectsIn.push([bodies[i].lon, bodies[j].lon, nm]);
+    }
+    aspectsIn.forEach(([a, b, nm]) => { const [x1, y1] = pt(a, 70), [x2, y2] = pt(b, 70); svg.append('line').attr('x1', x1).attr('y1', y1).attr('x2', x2).attr('y2', y2).attr('stroke', nm === 'trine' ? css('--color-soft') : css('--color-bad')).attr('stroke-opacity', 0.55); });
+    bodies.forEach((b, i) => {
+      const [tx, tyy] = pt(b.lon, R - 30), [ix, iy] = pt(b.lon, R - 36);
+      svg.append('line').attr('x1', tx).attr('y1', tyy).attr('x2', ix).attr('y2', iy).attr('stroke', fg);
+      const [gx, gy] = pt(disp[i], R - 54);
+      svg.append('text').attr('x', gx).attr('y', gy + 6).attr('text-anchor', 'middle').attr('fill', fg).style('font-size', '17px').text(g(b.point))
+        .append('title').text(`${b.point} ${b.position}${b.retro === 'yes' ? ' ℞' : ''}`);
+      const [dx, dy] = pt(disp[i], R - 78);
+      svg.append('text').attr('x', dx).attr('y', dy + 4).attr('text-anchor', 'middle').attr('fill', mu).style('font-size', '10px').text(Math.floor(b.lon % 30) + '°' + (b.retro === 'yes' && b.point !== 'North Node (mean)' ? '℞' : ''));
+    });
+    ['Ascendant', 'Midheaven'].forEach((nm) => {
+      const r = rows.find((x) => x.point === nm); if (!r) return;
+      const lon = +r.lon; const [x1, y1] = pt(lon, R + 4), [x2, y2] = pt(lon + 180, R + 4);
+      svg.append('line').attr('x1', x1).attr('y1', y1).attr('x2', x2).attr('y2', y2).attr('stroke', fg).attr('stroke-width', 1.3).attr('stroke-dasharray', nm === 'Midheaven' ? '4 3' : null);
+      const [lx, ly] = pt(lon, R + 2);
+      svg.append('text').attr('x', lx + (nm === 'Ascendant' ? -2 : 0)).attr('y', ly - 4).attr('text-anchor', nm === 'Ascendant' ? 'end' : 'middle').attr('fill', fg).style('font-size', '11px').text(nm === 'Ascendant' ? 'AC' : 'MC');
+    });
+    if (!asc) svg.append('text').attr('x', cx).attr('y', cy + 4).attr('text-anchor', 'middle').attr('fill', mu).style('font-size', '11px').text('no reliable time');
+  }
+
+  function drawNational() {
+    const c = charts.find((x) => x.id === sel.value);
+    const rows = pos.get(c.id) || [];
+    drawWheel(c, rows);
+    document.getElementById('nc-meta').innerHTML = `<dt>Chart</dt><dd><b>${esc(c.label)}</b> <span class="badge ${c.rating}">${c.rating} · ${ratingText[c.rating]}</span></dd>
+      <dt>Founding event</dt><dd>${esc(c.event)}</dd><dt>Moment</dt><dd>${esc(c.local_time)} · ${esc(c.place)} (${(+c.lat).toFixed(2)}°, ${(+c.lon).toFixed(2)}°) · ${esc(c.utc)} UTC</dd>
+      <dt>Basis</dt><dd>${esc(c.source)}</dd>${c.notes ? `<dt>Caveat</dt><dd>${esc(c.notes)}</dd>` : ''}`;
+    document.getElementById('nc-pos').innerHTML = '<thead><tr><th>Point</th><th>Position</th><th></th><th>Transit target</th></tr></thead><tbody>' +
+      rows.map((r) => `<tr><td>${g(r.point)} ${esc(r.point)}</td><td>${esc(r.position)}</td><td>${r.retro === 'yes' ? '℞' : ''}</td><td class="muted">${r.transit_target === 'yes' ? 'yes' : '—'}</td></tr>`).join('') + '</tbody>';
+    const soft = document.getElementById('nc-soft').checked;
+    const lo = new Date(today), hi = new Date(today);
+    if (ncWhen === 'next') hi.setUTCFullYear(hi.getUTCFullYear() + 3); else if (ncWhen === 'past') lo.setUTCFullYear(lo.getUTCFullYear() - 3);
+    const mine = trs.filter((r) => r.chart_id === c.id && (soft || r.aspect !== 'trine'));
+    const list = mine.filter((r) => ncWhen === 'all' || (ncWhen === 'next' ? r.t >= today && r.t <= hi : r.t >= lo && r.t <= today));
+    if (ncWhen === 'past') list.reverse();
+    document.getElementById('nc-tr').innerHTML = '<thead><tr><th>Date</th><th>Transit</th><th>Natal point</th><th></th></tr></thead><tbody>' +
+      (list.length ? list.map((r) => `<tr><td>${fmtDate(r.t)}</td><td>${g(r.transiting)} ${r.transiting} ${aspectSym(r.aspect)} ${r.aspect}</td><td>${g(r.natal)} ${esc(r.natal)} <span class="muted">${esc(r.natal_position)}</span></td><td class="muted">${r.retro === 'yes' ? '℞' : ''}</td></tr>`).join('') : '<tr><td colspan="4" class="muted">No exact transits in this period.</td></tr>') + '</tbody>';
+    // timeline
+    const box = document.getElementById('nc-chart');
+    const W = Math.max(box.clientWidth, 320), mobile = W < 600, left = mobile ? 70 : 96, right = 12;
+    const targets = rows.filter((r) => r.transit_target === 'yes').map((r) => r.point);
+    const laneH = 20, H = targets.length * laneH + 40;
+    const x = d3.scaleUtc([new Date(Date.UTC(2015, 0, 1)), new Date(Date.UTC(2036, 0, 1))], [left, W - right]);
+    box.replaceChildren();
+    const svg = d3.select(box).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', `Transits to ${c.label}`);
+    const ly = (i) => 10 + i * laneH + laneH / 2;
+    targets.forEach((t, i) => { svg.append('line').attr('x1', left).attr('x2', W - right).attr('y1', ly(i)).attr('y2', ly(i)).attr('class', 'gridline'); svg.append('text').attr('x', left - 6).attr('y', ly(i) + 4).attr('text-anchor', 'end').attr('class', 'lane-lbl').text(mobile ? g(t) : `${g(t)} ${t.replace(' (mean)', '')}`); });
+    svg.append('line').attr('x1', x(today)).attr('x2', x(today)).attr('y1', 4).attr('y2', H - 24).attr('stroke', css('--color-fg-muted')).attr('stroke-dasharray', '3 3');
+    const pc = { Jupiter: css('--color-ok'), Saturn: css('--color-fg'), Uranus: css('--color-accent'), Neptune: css('--color-soft'), Pluto: css('--color-bad') };
+    const ti = Object.fromEntries(targets.map((t, i) => [t, i]));
+    svg.append('g').selectAll('path').data(mine.filter((r) => ti[r.natal] != null)).join('path')
+      .attr('transform', (r) => `translate(${x(r.t)},${ly(ti[r.natal])})`).attr('d', (r) => d3.symbol(markFor(r.aspect), 40)())
+      .attr('fill', (r) => r.aspect === 'opposition' ? css('--color-panel') : pc[r.transiting]).attr('stroke', (r) => pc[r.transiting]).attr('stroke-width', 1.3)
+      .on('mousemove', (ev, r) => showTip(ev, `<b>${r.transiting} ${r.aspect} ${c.label} ${r.natal}</b><br>${r.date}<br>transit ${esc(r.transit_position)} · natal ${esc(r.natal_position)}${r.retro === 'yes' ? '<br>retrograde pass' : ''}`)).on('mouseleave', hideTip);
+    svg.append('g').attr('transform', `translate(0,${H - 24})`).call(d3.axisBottom(x).ticks(mobile ? 5 : 10).tickSizeOuter(0));
+    document.getElementById('nc-legend').innerHTML = Object.entries(pc).map(([p, col]) => `<span><svg width="12" height="12" viewBox="-6 -6 12 12"><path d="${d3.symbol(d3.symbolCircle, 46)()}" fill="${col}"/></svg>${g(p)} ${p}</span>`).join('') + legendHTML([[d3.symbolCircle, css('--color-fg-muted'), css('--color-fg-muted'), 'conjunction'], [d3.symbolDiamond, css('--color-fg-muted'), css('--color-fg-muted'), 'square'], [d3.symbolCircle, css('--color-panel'), css('--color-fg-muted'), 'opposition'], [d3.symbolTriangle, css('--color-fg-muted'), css('--color-fg-muted'), 'trine']]);
+    try { history.replaceState(null, '', `?chart=${c.id}${location.hash}`); } catch (e) { /* ignore */ }
+  }
+  sel.addEventListener('change', drawNational);
+  document.getElementById('nc-soft').addEventListener('change', drawNational);
+  document.querySelectorAll('#nc-when button').forEach((b) => b.addEventListener('click', () => { ncWhen = b.dataset.w; document.querySelectorAll('#nc-when button').forEach((x) => x.setAttribute('aria-pressed', String(x === b))); drawNational(); }));
+  drawNational();
+
+  // ---------- markets ----------
+  function drawMarkets() {
+    const rows = D.market_monthly.map((r) => ({ t: parseDate(r.month + '-15'), nom: +r.sp500, real: r.sp500_real ? +r.sp500_real : null, ci: r.cyclic_index ? +r.cyclic_index : null }));
+    const box = document.getElementById('mk-chart');
+    if (!rows.length) { box.innerHTML = '<p class="err">Market data not available.</p>'; return; }
+    const W = Math.max(box.clientWidth, 320), mobile = W < 600, H = mobile ? 260 : 330, left = 48, right = 44, top = 10, bottom = 24;
+    // splice: real where available, then nominal scaled to join at the last real month
+    const lastReal = rows.filter((r) => r.real).pop();
+    const k = lastReal ? lastReal.real / lastReal.nom : 1;
+    const series = rows.map((r) => ({ t: r.t, v: r.real || r.nom * k, est: !r.real }));
+    const x = d3.scaleUtc(d3.extent(rows, (r) => r.t), [left, W - right]);
+    const y = d3.scaleLog(d3.extent(series, (r) => r.v), [H - bottom, top]).nice();
+    const y2 = d3.scaleLinear([0, 1800], [H - bottom, top]);
+    box.replaceChildren();
+    const svg = d3.select(box).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'S&P 500 and cyclic index since 1900');
+    // Saturn–Uranus hard windows from the aspects file (±8° approximated by ±~120 days around exact passes)
+    const su = aspects.filter((a) => a.pair === 'Saturn–Uranus' && a.kind === 'hard');
+    const win = [];
+    su.forEach((a) => { const s = new Date(+a.t - 150 * 864e5), e = new Date(+a.t + 150 * 864e5); const last = win[win.length - 1]; if (last && s <= last[1]) last[1] = e; else win.push([s, e]); });
+    const dom = x.domain();
+    svg.append('g').selectAll('rect').data(win.filter((w) => w[1] > dom[0] && w[0] < dom[1])).join('rect').attr('x', (w) => x(w[0] < dom[0] ? dom[0] : w[0])).attr('width', (w) => x(w[1] > dom[1] ? dom[1] : w[1]) - x(w[0] < dom[0] ? dom[0] : w[0])).attr('y', top).attr('height', H - top - bottom).attr('fill', 'var(--band2)');
+    svg.append('g').selectAll('rect').data(bears).join('rect').attr('x', (b) => x(b.a)).attr('width', (b) => Math.max(1, x(b.b) - x(b.a))).attr('y', top).attr('height', H - top - bottom).attr('fill', 'var(--band)')
+      .on('mousemove', (ev, b) => showTip(ev, `<b>Bear market</b><br>${b.peak} → ${b.trough}, −${b.depth_pct}%<br>recovered ${b.recovered || 'not yet'}`)).on('mouseleave', hideTip);
+    svg.append('g').attr('transform', `translate(${left},0)`).call(d3.axisLeft(y).tickValues([100, 200, 500, 1000, 2000, 5000, 10000].filter((v) => v >= y.domain()[0] && v <= y.domain()[1])).tickFormat(d3.format('~s')).tickSize(-(W - left - right))).call((s) => s.selectAll('.tick line').attr('class', 'gridline')).call((s) => s.select('.domain').remove());
+    svg.append('g').attr('transform', `translate(${W - right},0)`).call(d3.axisRight(y2).ticks(4)).call((s) => s.select('.domain').remove());
+    svg.append('path').datum(rows.filter((r) => r.ci != null)).attr('fill', 'none').attr('stroke', css('--color-violet')).attr('stroke-width', 1.2).attr('stroke-opacity', 0.8).attr('d', d3.line().x((r) => x(r.t)).y((r) => y2(r.ci)));
+    svg.append('path').datum(series.filter((s) => !s.est)).attr('fill', 'none').attr('stroke', css('--color-accent')).attr('stroke-width', 1.6).attr('d', d3.line().x((r) => x(r.t)).y((r) => y(r.v)));
+    svg.append('path').datum(series.filter((s, i) => s.est || (series[i + 1] && series[i + 1].est))).attr('fill', 'none').attr('stroke', css('--color-accent')).attr('stroke-width', 1.6).attr('stroke-dasharray', '3 2').attr('d', d3.line().x((r) => x(r.t)).y((r) => y(r.v)));
+    svg.append('g').attr('transform', `translate(0,${H - bottom})`).call(d3.axisBottom(x).ticks(mobile ? 5 : 12).tickSizeOuter(0));
+    const bis = d3.bisector((d) => d.t).center;
+    svg.append('rect').attr('x', left).attr('y', top).attr('width', W - left - right).attr('height', H - top - bottom).attr('fill', 'transparent')
+      .on('mousemove', (ev) => { const t = x.invert(d3.pointer(ev)[0]); const i = bis(rows, t); const r = rows[i]; if (r) showTip(ev, `<b>${r.t.toISOString().slice(0, 7)}</b><br>S&amp;P 500 ${r.nom.toLocaleString('en-US')}${r.real ? '' : ' <span class="muted">(nominal)</span>'}<br>Cyclic index ${r.ci ?? '—'}°`); })
+      .on('mouseleave', hideTip);
+    document.getElementById('mk-legend').innerHTML = `<span><svg width="18" height="8"><line x1="0" x2="18" y1="4" y2="4" stroke="${css('--color-accent')}" stroke-width="2"/></svg>S&amp;P 500, real (log, left; dashed = nominal after Sep 2023)</span><span><svg width="18" height="8"><line x1="0" x2="18" y1="4" y2="4" stroke="${css('--color-violet')}" stroke-width="2"/></svg>cyclic index (right)</span><span><svg width="14" height="12"><rect width="14" height="12" fill="var(--band)"/></svg>bear market</span><span><svg width="14" height="12"><rect width="14" height="12" fill="var(--band2)"/></svg>Saturn–Uranus hard aspect (approx. window)</span>`;
+    document.getElementById('mk-tests').innerHTML = '<thead><tr><th>Predictor</th><th>Value</th><th>p</th><th>q</th><th>1900–61</th><th>1961–2022</th><th>Same sign</th></tr></thead><tbody>' +
+      D.market_tests.map((r) => `<tr><td>${esc(r.predictor)}<br><span class="muted">${esc(r.statistic)}</span></td><td>${(+r.value).toFixed(2)}</td><td>${(+r.p_value).toFixed(3)}</td><td${+r.q_fdr < 0.05 ? ' style="font-weight:600"' : ''}>${(+r.q_fdr).toFixed(3)}</td><td>${(+r.first_half).toFixed(2)}</td><td>${(+r.second_half).toFixed(2)}</td><td>${r.same_sign_both_halves}</td></tr>`).join('') + '</tbody>';
+    const ep = D.market_episodes;
+    if (ep.length) {
+      document.getElementById('mk-ep-h').textContent = `${ep[0].predictor}, episode by episode`;
+      document.getElementById('mk-ep').innerHTML = '<thead><tr><th>Episode</th><th>Months</th><th>Mean fwd 12-m real return</th><th>Gap if dropped</th></tr></thead><tbody>' +
+        ep.map((r) => `<tr><td>${r.start} – ${r.end}</td><td>${r.months}</td><td>${(+r.mean_fwd_12m_real_return_pct).toFixed(1)}%</td><td>${(+r.gap_if_dropped).toFixed(2)}</td></tr>`).join('') + '</tbody>';
+    }
+  }
+  drawMarkets();
+
+  let rt;
+  addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => { drawTimeline(); drawNational(); drawMarkets(); }, 150); });
+  matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => { drawTimeline(); drawNational(); drawMarkets(); });
+})();
+</script>
+</body></html>

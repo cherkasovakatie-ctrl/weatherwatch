@@ -251,6 +251,38 @@
    "bytes": 1602
   },
   {
+   "id": "market_bear",
+   "file": "market_bear.csv",
+   "title": "S&P 500 bear markets (monthly averages)",
+   "description": "Declines of 20% or more in monthly-average prices, peak to trough. Monthly averages understate intramonth extremes.",
+   "updated": "2026-10-17",
+   "bytes": 363
+  },
+  {
+   "id": "market_episodes",
+   "file": "market_episodes.csv",
+   "title": "Strongest market lead, episode by episode",
+   "description": "Each window of the best-scoring planetary predictor, its mean forward 12-month real return, and the in-minus-out gap if that episode is dropped.",
+   "updated": "2026-10-17",
+   "bytes": 803
+  },
+  {
+   "id": "market_monthly",
+   "file": "market_monthly.csv",
+   "title": "S&P 500 monthly with cyclic index",
+   "description": "Shiller monthly-average S&P 500 (nominal; real where CPI is available, to Sep 2023), via datasets/s-and-p-500 on GitHub, with the cyclic index.",
+   "updated": "2026-10-17",
+   "bytes": 43717
+  },
+  {
+   "id": "market_tests",
+   "file": "market_tests.csv",
+   "title": "Planetary cycles vs forward 12-month real S&P returns",
+   "description": "Correlation and in-window minus out-of-window differences, with circular-shift permutation p-values, Benjamini–Hochberg q and a split-half replication check.",
+   "updated": "2026-10-17",
+   "bytes": 798
+  },
+  {
    "id": "mjo_daily",
    "file": "mjo_daily.csv",
    "title": "MJO real-time OMI",
@@ -265,6 +297,86 @@
    "description": "Count of declustered M6+ mainshocks 1950-2026 in eight Moon-phase bins, with the even-spread expectation.",
    "updated": "2026-10-16",
    "bytes": 199
+  },
+  {
+   "id": "mundane_aspects",
+   "file": "mundane_aspects.csv",
+   "title": "Outer-planet cycles, 1900–2040",
+   "description": "Exact conjunctions, squares, oppositions and trines between Jupiter, Saturn, Uranus, Neptune and Pluto, with retrograde passes numbered. PyEphem (VSOP87), geocentric, tropical zodiac, apparent positions of date.",
+   "updated": "2026-10-17",
+   "bytes": 78230
+  },
+  {
+   "id": "mundane_cyclic_index",
+   "file": "mundane_cyclic_index.csv",
+   "title": "Cyclic index (Barbault), monthly 1900–2040",
+   "description": "Sum of the ten pairwise angular separations between Jupiter, Saturn, Uranus, Neptune and Pluto (0–1800°). Low values mean the outer planets are clustered.",
+   "updated": "2026-10-17",
+   "bytes": 25779
+  },
+  {
+   "id": "mundane_eclipses",
+   "file": "mundane_eclipses.csv",
+   "title": "Solar and lunar eclipses, 1990–2040",
+   "description": "New and full moons close enough to a lunar node to produce an eclipse of any type (partial and penumbral included). Type detail (total, annular) is not computed. Validated against NASA dates for 2024–2027.",
+   "updated": "2026-10-17",
+   "bytes": 13008
+  },
+  {
+   "id": "mundane_ingresses",
+   "file": "mundane_ingresses.csv",
+   "title": "Outer-planet sign ingresses, 1900–2040",
+   "description": "Every entry of Jupiter–Pluto into a zodiac sign, including retrograde re-entries. PyEphem.",
+   "updated": "2026-10-17",
+   "bytes": 18502
+  },
+  {
+   "id": "mundane_seasonal",
+   "file": "mundane_seasonal.csv",
+   "title": "Equinox and solstice ingress times, 1990–2040",
+   "description": "UTC times of the Sun's entry into Aries, Cancer, Libra and Capricorn, used for mundane ingress charts. PyEphem.",
+   "updated": "2026-10-17",
+   "bytes": 5172
+  },
+  {
+   "id": "mundane_stations",
+   "file": "mundane_stations.csv",
+   "title": "Outer-planet stations, 1990–2040",
+   "description": "Dates on which Jupiter–Pluto turn retrograde or direct. PyEphem.",
+   "updated": "2026-10-17",
+   "bytes": 25694
+  },
+  {
+   "id": "mundane_world_events",
+   "file": "mundane_world_events.csv",
+   "title": "Reference world events, 1914–2023",
+   "description": "Hand-picked geopolitical and economic turning points for orientation on the timeline. Not a test sample.",
+   "updated": "2026-10-17",
+   "bytes": 2009
+  },
+  {
+   "id": "national_charts",
+   "file": "national_charts.csv",
+   "title": "National charts: definitions",
+   "description": "Founding moments, places and time-reliability ratings for the national charts (A documented, B well-attested, C disputed, X no time).",
+   "updated": "2026-10-17",
+   "bytes": 2745
+  },
+  {
+   "id": "national_positions",
+   "file": "national_positions.csv",
+   "title": "National charts: planet positions",
+   "description": "Planet, node and (for A/B charts) angle positions for each national chart.",
+   "updated": "2026-10-17",
+   "bytes": 7972
+  },
+  {
+   "id": "national_transits",
+   "file": "national_transits.csv",
+   "title": "National charts: outer-planet transits, 2015–2035",
+   "description": "Exact transits of Jupiter–Pluto (conjunction, square, opposition, trine) to national chart points. Moon and angles only for charts with a reliable time.",
+   "updated": "2026-10-17",
+   "bytes": 382530
   },
   {
    "id": "oni",
@@ -339,6 +451,14 @@
    "bytes": 578
   },
   {
+   "id": "reports",
+   "file": "reports.csv",
+   "title": "Reports library",
+   "description": "Published reports (PDF).",
+   "updated": "2026-10-16",
+   "bytes": 30
+  },
+  {
    "id": "ridge_watch",
    "file": "ridge_watch.csv",
    "title": "Ridge watch",
@@ -390,9 +510,9 @@
    "id": "sky_now",
    "file": "sky_now.csv",
    "title": "Planet positions now",
-   "description": "Geocentric ecliptic longitude, zodiac sign and degree (tropical zodiac) of the Sun, Moon and planets, plus the mean lunar node, for 13 Oct 2026 12:00 UTC, computed by Claude with PyEphem (VSOP87). Retrograde = longitude decreasing day to day.",
-   "updated": "2026-10-13",
-   "bytes": 397
+   "description": "Geocentric ecliptic longitude, zodiac sign and degree (tropical zodiac) of the Sun, Moon and planets, plus the mean lunar node, for 17 Oct 2026 12:00 UTC, computed with PyEphem (VSOP87). Retrograde = longitude decreasing day to day.",
+   "updated": "2026-10-17",
+   "bytes": 406
   },
   {
    "id": "sky_tests",
@@ -481,14 +601,6 @@
    "description": "Natural Earth 1:110m land polygons (world-atlas 2.0.2), coordinates rounded to 0.1 degree. Map background only.",
    "updated": "2026-10-11",
    "bytes": 58633
-  },
-  {
-   "id": "reports",
-   "file": "reports.csv",
-   "title": "Reports library",
-   "description": "Published reports (PDF).",
-   "updated": "2026-10-16",
-   "bytes": 30
   }
  ]
 }
