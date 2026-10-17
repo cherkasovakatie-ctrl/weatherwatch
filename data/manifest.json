@@ -224,7 +224,7 @@
    "title": "Hourly forecast and air quality",
    "description": "Open-Meteo forecast API (temperature, humidity, dew point, rain chance, pressure, wind, UV) and air-quality API (US AQI, PM2.5, ozone) for the Burbank area, two days back to seven days ahead, Pacific time. Free, no key.",
    "updated": "2026-10-17",
-   "bytes": 14048
+   "bytes": 14050
   },
   {
    "id": "local_obs",
@@ -248,7 +248,7 @@
    "title": "Santa Monica tides",
    "description": "NOAA CO-OPS station 9410840: hourly predicted water level and observed (preliminary) water level, feet above MLLW, local time.",
    "updated": "2026-10-17",
-   "bytes": 4818
+   "bytes": 5521
   },
   {
    "id": "local_watertemp",
