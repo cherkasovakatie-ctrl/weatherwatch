@@ -49,10 +49,13 @@ const JOBS = {
   },
   local_tides: {
     min: 150, time: 'max',
-    run: async () => T.tidesHourly(
-      await getJson(coops(`product=predictions&interval=h&begin_date=${ymd(begin)}&end_date=${ymd(end)}`)),
-      await getJson(coops('product=water_level&date=recent')).catch(() => ({ data: [] })),
-    ),
+    run: async () => {
+      const pred = await getJson(coops(`product=predictions&interval=h&begin_date=${ymd(begin)}&end_date=${ymd(end)}`));
+      let obs = { data: [] }, warning;
+      try { obs = await getJson(coops('product=water_level&date=recent')); } catch (e) { warning = `observed water level unavailable: ${e.message}`; }
+      if (obs.error) warning = `observed water level unavailable: ${JSON.stringify(obs.error)}`;
+      return { ...T.tidesHourly(pred, obs), warning };
+    },
   },
   local_hilo: { min: 20, time: 'max', run: async () => T.tidesHiLo(await getJson(coops(`product=predictions&interval=hilo&begin_date=${ymd(begin)}&end_date=${ymd(end)}`))) },
   local_watertemp: { min: 24, time: 'max', run: async () => T.waterTemp(await getJson(coops('product=water_temperature&interval=h&date=recent'))) },
@@ -108,7 +111,7 @@ async function main() {
       await writeFile(file, csv);
       ds.updated = today;
       ds.bytes = Buffer.byteLength(csv);
-      results.push({ id, ok: true, rows: out.rows.length, newest: out.rows.map((r) => String(r[0])).sort().at(-1) });
+      results.push({ id, ok: true, rows: out.rows.length, newest: out.rows.map((r) => String(r[0])).sort().at(-1), ...(out.warning ? { warning: out.warning } : {}) });
     } catch (e) {
       results.push({ id, ok: false, error: e.message });
     }
@@ -116,7 +119,7 @@ async function main() {
   await writeFile(mPath, JSON.stringify(manifest, null, 1) + '\n');
   const status = { run_utc: now.toISOString(), run_local: T.localStamp(now), results };
   await writeFile(path.join(DATA, 'nightly_status.json'), JSON.stringify(status, null, 1) + '\n');
-  for (const r of results) console.log(r.ok ? `ok    ${r.id}: ${r.rows} rows, newest ${r.newest}` : `FAIL  ${r.id}: ${r.error}`);
+  for (const r of results) console.log(r.ok ? `ok    ${r.id}: ${r.rows} rows, newest ${r.newest}${r.warning ? ` (warning: ${r.warning})` : ''}` : `FAIL  ${r.id}: ${r.error}`);
   if (!results.some((r) => r.ok)) process.exit(1);
 }
 
