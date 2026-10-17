@@ -29,6 +29,30 @@
   {
    "title": "NASA Earth Observatory: El Niño Alters Marine Life in the Pacific (10 Aug 2026)",
    "url": "https://science.nasa.gov/earth/earth-observatory/el-nino-alters-marine-life-in-the-pacific/"
+  },
+  {
+   "title": "Cobb, K. M. et al. (2013). Highly variable El Niño–Southern Oscillation throughout the Holocene. Science 339, 67–70 (ScienceDaily summary)",
+   "url": "https://www.sciencedaily.com/releases/2013/01/130103143106.htm"
+  },
+  {
+   "title": "Quinn, W. H., Neal, V. T. and Antúnez de Mayolo, S. E. (1987). El Niño occurrences over the past four and a half centuries. Journal of Geophysical Research 92 (EarthRef record)",
+   "url": "https://earthref.org/ERR/47281/"
+  },
+  {
+   "title": "The origin of the name of the El Niño phenomenon is related to Christmas (Meteored)",
+   "url": "https://theweather.net/news/science/the-origin-of-the-name-of-the-el-nino-phenomenon-is-related-to-christmas.html"
+  },
+  {
+   "title": "Lamont-Doherty Earth Observatory: What caused the Great Famine? (2017)",
+   "url": "https://lamont.columbia.edu/news/what-caused-great-famine"
+  },
+  {
+   "title": "Brönnimann, S. et al. (2004). Extreme climate of the global troposphere and stratosphere in 1940–42 related to El Niño. Nature 431, 971",
+   "url": "https://ideas.repec.org/a/nat/nature/v431y2004i7011d10.1038_nature02982.html"
+  },
+  {
+   "title": "NOAA PSL: Niño 3.4 index from HadISST, 1870–present (data file)",
+   "url": "https://psl.noaa.gov/data/timeseries/month/data/nino34.long.anom.data"
   }
  ],
  "related": [
@@ -46,7 +70,71 @@
    "Recovery: a chlorophyll rebound can follow El Niño even without a La Niña, helped by iron carried by currents and dust from drier land (Lim et al. 2022). The strong 1998–99 La Niña produced a large eastern Pacific phytoplankton bloom and a rise in fish populations.",
    "Context: PACE launched in February 2024, so this is the first complete El Niño it will observe with global, near-daily hyperspectral data. NOAA's Climate Prediction Center expected the event to strengthen through the end of 2026, with a 97% chance of lasting into early Northern Hemisphere spring 2027 (as cited by NASA, 10 Aug 2026)."
   ],
+  "El Niño through history": [
+   "El Niño is not new. Fossil corals from the central Pacific record it month by month across nearly 7,000 years. They show large natural swings in its strength, including a strong phase about 400 years ago. Twentieth-century El Niño activity was stronger than the coral average but not unprecedented (Cobb and co-authors, Science, 2013).",
+   "Written records go back about four and a half centuries. Quinn and co-authors (Journal of Geophysical Research, 1987) used documents in five languages, such as ship travel times, floods, die-offs of fish and seabirds, and damage to fisheries, to identify 47 strong or very strong El Niños along the coast of Peru and Ecuador.",
+   "The name is 19th-century. Peruvian fishermen noticed that in some years the coastal sea turned warm around Christmas, and named the current after the Christ child, \"El Niño\".",
+   "1877–78 is the great historical event. In NOAA's long HadISST record it is the second-strongest since 1870 (+2.44 °C, 3-month mean), just behind 2015–16 (+2.56 °C); a Lamont-Doherty team presenting at the 2017 AGU meeting called it the strongest ever measured by instruments. It came with the Great Famine of 1876–78, which killed an estimated 30–60 million people, including 12–29 million in India and about 2 million in north-eastern Brazil; China was also hit hard.",
+   "Other strong 19th-century events in the same record: 1888–89 (+1.95 °C) and 1896–97 (+1.52 °C).",
+   "1940–42 was long rather than record-strong: 22 months at or above +0.5 °C, peaking at +1.38 °C in early 1941. Its global effects, including a cold Europe and a warm Alaska, were reconstructed by Brönnimann and co-authors (Nature, 2004); it also explains part of the wartime bump in global temperature.",
+   "The modern giants: 1982–83 (+2.33 °C), 1997–98 (+2.38 °C), 2015–16 (+2.56 °C) and 2023–24 (+1.84 °C). The current event reached +1.90 °C in July 2026 (monthly value).",
+   "How to read the numbers: values here are HadISST Niño 3.4 anomalies against 1981–2010, smoothed over three months. NOAA's official index (ONI) uses a different dataset (ERSST) and shifting base periods, so peaks differ by a tenth or two. Before 1950, ship observations in the tropical Pacific were sparse, so older values are less certain."
+  ],
   "Climate signal": "California emergency proclamation cites a study finding El Niño events now 36% stronger than pre-industrial.",
   "Still open": "Summary entry: the full deep-dive (day-by-day timeline, steering, how it ended, sources) has not been written yet. It will be added as the log works back through the year."
+ },
+ "section_charts": {
+  "El Niño through history": {
+   "src": "data/nino34_long_hadisst.csv",
+   "x": "month",
+   "y": "nino34_anom_c",
+   "title": "El Niño and La Niña since 1870",
+   "subtitle": "Niño 3.4 sea-surface temperature anomaly, °C vs 1981–2010, 3-month running mean. Red: warmer than normal (El Niño side); blue: cooler (La Niña side). Dashed lines mark ±0.5 °C.",
+   "thresholds": [
+    0.5,
+    -0.5
+   ],
+   "marks": [
+    {
+     "label": "1877–78",
+     "from": "1877-07",
+     "to": "1878-06"
+    },
+    {
+     "label": "1888–89",
+     "from": "1888-07",
+     "to": "1889-06",
+     "minor": true
+    },
+    {
+     "label": "1940–42",
+     "from": "1939-07",
+     "to": "1942-06"
+    },
+    {
+     "label": "1982–83",
+     "from": "1982-07",
+     "to": "1983-06",
+     "minor": true
+    },
+    {
+     "label": "1997–98",
+     "from": "1997-07",
+     "to": "1998-06",
+     "minor": true
+    },
+    {
+     "label": "2015–16",
+     "from": "2015-07",
+     "to": "2016-06"
+    },
+    {
+     "label": "2026",
+     "from": "2026-01",
+     "to": "2026-12"
+    }
+   ],
+   "note": "Source: NOAA Physical Sciences Laboratory, Niño 3.4 index from HadISST (Met Office Hadley Centre), monthly 1870 to July 2026. Smoothing by this site. Hover for monthly values."
+  }
  }
 }

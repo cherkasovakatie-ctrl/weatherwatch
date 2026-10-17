@@ -697,6 +697,14 @@
    "description": "Epoch boundaries (Ma) and standard colours from the Geologic Time Scale table distributed with Pyleoclim (GTS_updated.csv), used to shade the 66-million-year chart.",
    "updated": "2026-10-17",
    "bytes": 344
+  },
+  {
+   "id": "nino34_long_hadisst",
+   "file": "nino34_long_hadisst.csv",
+   "title": "Niño 3.4 index since 1870 (HadISST)",
+   "description": "Monthly Niño 3.4 (5°N–5°S, 170°W–120°W) sea-surface temperature anomaly, °C vs 1981–2010, from HadISST via NOAA PSL (https://psl.noaa.gov/data/timeseries/month/data/nino34.long.anom.data), January 1870 to July 2026, read 17 Oct 2026. Missing values (-99.99) dropped. Used for the 'El Niño through history' chart.",
+   "updated": "2026-10-17",
+   "bytes": 25543
   }
  ]
 }

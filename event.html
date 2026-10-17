@@ -49,6 +49,16 @@ body { font-family: var(--font-anthropic-sans); }
 .media figure{margin:12px 0 0}.media figure:first-of-type{margin-top:4px}.media img{display:block;width:100%;height:auto;border-radius:8px}
 .media .vid{position:relative;aspect-ratio:16/9;border-radius:8px;overflow:hidden;background:#000}.media iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .media figcaption{font-size:.82rem;color:var(--color-fg-muted);line-height:1.45;margin-top:6px}.media .credit{white-space:normal}
+:root{--warm:#e34948;--cool:#2a78d6}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--warm:#e66767;--cool:#3987e5}}
+:root[data-theme="dark"]{--warm:#e66767;--cool:#3987e5}
+.schart{margin:12px 0 4px}.schart .ft{font-weight:600;font-size:.92rem;margin:0}.schart .fs{font-size:.8rem;color:var(--color-fg-muted);margin:2px 0 6px}
+.schart svg{display:block}.schart .grid{stroke:var(--color-border-line)}.schart .tk{font-size:11px;fill:var(--color-fg-muted)}
+.schart .thr{stroke:var(--color-fg-muted);stroke-dasharray:3 3;stroke-opacity:.6}.schart .zero{stroke:var(--color-fg-muted);stroke-opacity:.6}
+.schart .lbl{font-size:11px;fill:var(--color-fg);font-weight:600;paint-order:stroke;stroke:var(--color-panel);stroke-width:3px}
+.schart .rule{stroke:var(--color-fg-muted);stroke-opacity:.5}.schart .fn{font-size:.78rem;color:var(--color-fg-muted);margin:6px 0 0;line-height:1.45}
+.schart details{font-size:.8rem;margin-top:6px}.schart summary{cursor:pointer;color:var(--color-fg-muted)}.schart table{font-size:.78rem;border-collapse:collapse}.schart td,.schart th{padding:2px 8px;text-align:left;border-bottom:1px solid var(--color-border-line)}
+.stip{position:fixed;z-index:50;pointer-events:none;background:var(--color-panel);color:var(--color-fg);border:1px solid var(--color-border-line);border-radius:8px;padding:6px 9px;font-size:.8rem;box-shadow:0 4px 16px rgba(0,0,0,.15)}
 .mvnote{margin:0 0 8px;font-size:.82rem;color:var(--color-fg-muted);line-height:1.45}
 .mvctl{display:flex;align-items:center;gap:12px;margin:6px 0}.mvctl input{flex:1}.mvplay{font:inherit;font-size:.9rem;background:var(--color-fg);color:var(--color-bg);border:0;border-radius:999px;padding:6px 18px;cursor:pointer}
 .mvclock{font-size:.85rem;font-variant-numeric:tabular-nums;min-width:15rem;text-align:right}
@@ -84,6 +94,47 @@ body { font-family: var(--font-anthropic-sans); }
 </nav>
 <main class="wrap" id="main"><p class="back"><a href="events.html">← Event log</a></p><div id="ev"><p class="lede">Loading…</p></div></main><footer class="site-foot">Data snapshot: <span data-asof>16 October 2026</span>. Independent, non-commercial analysis built from public sources (NOAA, NASA, USGS, Smithsonian GVP, GDACS, CPC, IRI, Copernicus/Open-Meteo, SILSO, IERS, Coral Reef Watch and others; see <a href="about.html">About &amp; method</a>). Not an official forecast or warning service — for warnings follow your national weather service. Analysis prepared with Claude (Anthropic).</footer>
 <script>
+// Monthly series chart for event sections: 3-month running mean, warm/cool fill beyond 0, threshold lines, labelled events.
+async function drawSeries(fig, o) {
+  const raw = await d3.csv(o.src);
+  const v = raw.map((r) => ({ m: r[o.x], v: +r[o.y] }));
+  const pts = v.map((d, i) => ({ m: d.m, t: +d.m.slice(0, 4) + (+d.m.slice(5, 7) - 0.5) / 12, v: i > 0 && i < v.length - 1 ? (v[i - 1].v + d.v + v[i + 1].v) / 3 : null })).filter((d) => d.v != null);
+  const mk = (t, c, x) => { const e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; };
+  fig.append(mk('p', 'ft', o.title), mk('p', 'fs', o.subtitle || ''));
+  const host = mk('div'); fig.append(host, mk('p', 'fn', o.note || ''));
+  const det = mk('details'); det.append(mk('summary', null, 'Data table: peak of each labelled event'));
+  const tb = mk('table'); tb.innerHTML = '<thead><tr><th>Event</th><th>Peak 3-month mean</th><th>Centred on</th></tr></thead>';
+  const body = mk('tbody'); (o.marks || []).forEach((k) => { const a = pts.filter((p) => p.m >= k.from && p.m <= k.to); if (!a.length) return; const pk = a.reduce((x, y) => (y.v > x.v ? y : x)); k._pk = pk; const tr = mk('tr'); tr.append(mk('td', null, k.label), mk('td', null, (pk.v >= 0 ? '+' : '−') + Math.abs(pk.v).toFixed(2) + ' °C'), mk('td', null, pk.m)); body.append(tr); });
+  tb.append(body); det.append(tb); fig.append(det);
+  const tip = document.querySelector('.stip') || document.body.appendChild(mk('div', 'stip')); tip.hidden = true;
+  function draw() {
+    host.replaceChildren();
+    const W = Math.max(300, host.clientWidth), H = o.height || 260, m = { t: 22, r: 10, b: 24, l: 36 }, iw = W - m.l - m.r, ih = H - m.t - m.b;
+    const svg = d3.select(host).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('width', '100%').attr('role', 'img').attr('aria-label', o.title);
+    const x = d3.scaleLinear(d3.extent(pts, (d) => d.t), [m.l, m.l + iw]);
+    const y = d3.scaleLinear([Math.min(-2, d3.min(pts, (d) => d.v)), Math.max(2.8, d3.max(pts, (d) => d.v))], [m.t + ih, m.t]).nice();
+    svg.selectAll('line.grid').data(y.ticks(5)).join('line').attr('class', 'grid').attr('x1', m.l).attr('x2', m.l + iw).attr('y1', (d) => y(d)).attr('y2', (d) => y(d));
+    svg.selectAll('text.yt').data(y.ticks(5)).join('text').attr('class', 'tk').attr('x', m.l - 6).attr('y', (d) => y(d)).attr('dy', '0.32em').attr('text-anchor', 'end').text((d) => (d > 0 ? '+' : '') + d);
+    svg.selectAll('text.xt').data(x.ticks(Math.max(3, Math.floor(iw / 70)))).join('text').attr('class', 'tk').attr('x', (d) => x(d)).attr('y', H - 6).attr('text-anchor', 'middle').text(d3.format('d'));
+    const id = 'c' + Math.random().toString(36).slice(2);
+    const defs = svg.append('defs');
+    defs.append('clipPath').attr('id', id + 'p').append('rect').attr('x', m.l).attr('y', m.t).attr('width', iw).attr('height', y(0) - m.t);
+    defs.append('clipPath').attr('id', id + 'n').append('rect').attr('x', m.l).attr('y', y(0)).attr('width', iw).attr('height', m.t + ih - y(0));
+    const area = d3.area().x((d) => x(d.t)).y0(y(0)).y1((d) => y(d.v));
+    svg.append('path').datum(pts).attr('d', area).attr('fill', 'var(--warm)').attr('opacity', 0.85).attr('clip-path', `url(#${id}p)`);
+    svg.append('path').datum(pts).attr('d', area).attr('fill', 'var(--cool)').attr('opacity', 0.85).attr('clip-path', `url(#${id}n)`);
+    svg.append('line').attr('class', 'zero').attr('x1', m.l).attr('x2', m.l + iw).attr('y1', y(0)).attr('y2', y(0));
+    (o.thresholds || []).forEach((th) => svg.append('line').attr('class', 'thr').attr('x1', m.l).attr('x2', m.l + iw).attr('y1', y(th)).attr('y2', y(th)));
+    const narrow = iw < 520;
+    (o.marks || []).forEach((k, i) => { if (!k._pk || (narrow && k.minor)) return; const px = x(k._pk.t), py = y(k._pk.v); const t = svg.append('text').attr('class', 'lbl').attr('x', px).attr('y', py - 6 - (k.lift || 0)).attr('text-anchor', px > m.l + iw - 40 ? 'end' : px < m.l + 40 ? 'start' : 'middle').text(narrow && k.short ? k.short : k.label); });
+    const rule = svg.append('line').attr('class', 'rule').attr('y1', m.t).attr('y2', m.t + ih).style('opacity', 0);
+    const bis = d3.bisector((d) => d.t).center;
+    svg.append('rect').attr('x', m.l).attr('y', 0).attr('width', iw).attr('height', H).attr('fill', 'transparent')
+      .on('pointermove', (ev) => { const d = pts[bis(pts, x.invert(d3.pointer(ev)[0]))]; if (!d) return; rule.attr('x1', x(d.t)).attr('x2', x(d.t)).style('opacity', 1); tip.innerHTML = `<b>${d.m}</b><br>3-month mean ${(d.v >= 0 ? '+' : '−') + Math.abs(d.v).toFixed(2)} °C`; tip.hidden = false; const r = tip.getBoundingClientRect(); tip.style.left = Math.min(innerWidth - r.width - 8, ev.clientX + 12) + 'px'; tip.style.top = Math.min(innerHeight - r.height - 8, ev.clientY + 12) + 'px'; })
+      .on('pointerleave', () => { rule.style('opacity', 0); tip.hidden = true; });
+  }
+  draw(); let tm; addEventListener('resize', () => { clearTimeout(tm); tm = setTimeout(draw, 150); });
+}
 (async () => {
   const qs = new URLSearchParams(location.search);
   const id = qs.get('id');
@@ -122,7 +173,7 @@ body { font-family: var(--font-anthropic-sans); }
     box.append(c);
   }
   if (e.timeline && e.timeline.length) { const c = el('section', 'card sec'); c.append(el('h2', null, 'How it unfolded')); const ul = el('ul', 'tl'); e.timeline.forEach(([d, t]) => { const li = el('li'); li.append(el('b', null, d), el('span', null, t)); ul.append(li); }); c.append(ul); box.append(c); }
-  Object.entries(e.sections || {}).forEach(([k, v]) => { const c = el('section', 'card sec'); c.append(el('h2', null, k)); (Array.isArray(v) ? v : [v]).forEach((t) => c.append(el('p', null, t))); box.append(c); });
+  Object.entries(e.sections || {}).forEach(([k, v]) => { const c = el('section', 'card sec'); c.append(el('h2', null, k)); (Array.isArray(v) ? v : [v]).forEach((t) => c.append(el('p', null, t))); const sc = (e.section_charts || {})[k]; if (sc && window.d3) { const fg = el('figure', 'schart'); c.append(fg); drawSeries(fg, sc).catch((err) => { console.error(err); fg.textContent = 'Chart data could not be loaded.'; }); } box.append(c); });
   if (e.related && e.related.length) { const c = el('section', 'card sec'); c.append(el('h2', null, 'Related events')); const p = el('p'); e.related.forEach((r, i) => { const x = ix.events.find((q) => q.id === r); if (!x) return; if (p.childNodes.length) p.append(document.createTextNode(' · ')); const a = el('a', null, x.name); a.href = 'event.html?id=' + r + (set === 'history' ? '&set=history' : ''); p.append(a); }); c.append(p); box.append(c); }
   if (e.sources && e.sources.length) { const c = el('section', 'card sec src'); c.append(el('h2', null, 'Sources')); const ul = el('ul'); e.sources.forEach((s) => { const li = el('li'); const a = el('a', null, s.title); a.href = s.url; if (/^https?:/.test(s.url)) { a.target = '_blank'; a.rel = 'noopener'; } li.append(a); ul.append(li); }); c.append(ul); box.append(c); }
 })();
