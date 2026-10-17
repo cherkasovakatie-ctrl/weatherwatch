@@ -154,6 +154,14 @@ body { font-family: var(--font-anthropic-sans); }
   .ww-polar { min-height: 260px; max-width: 520px; margin-inline: auto; width: 100%; }
   [data-dash-source-state=empty] { color: transparent; }
   [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+  .ww-oni-split { display: grid; gap: var(--cds-gap-lg); grid-template-columns: minmax(0, 1.7fr) minmax(16rem, 1fr); align-items: start; }
+  @media (max-width: 900px) { .ww-oni-split { grid-template-columns: 1fr; } }
+  .ww-oni-main { display: grid; gap: var(--cds-gap-sm); min-width: 0; }
+  .ww-oni-why h3 { margin: 0 0 6px; font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); }
+  .ww-oni-why ul { margin: 0; padding-left: 1.1em; display: grid; gap: 8px; font-size: var(--cds-font-size-caption); line-height: 1.45; color: var(--color-fg-muted); }
+  .ww-oni-why b { color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+  .ww-oni-cmp th[scope], .ww-oni-cmp tbody th { white-space: nowrap; color: var(--color-fg-muted); font-weight: var(--cds-font-weight-medium); }
+  .ww-oni-cmp td:last-child { background: color-mix(in srgb, var(--color-fg) 4%, transparent); }
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="assets/shim.js"></script>
@@ -236,9 +244,38 @@ body { font-family: var(--font-anthropic-sans); }
     <div class="ww-grid">
       <article class="ww-card wide" id="card-oni-analogs">
         <h2>ONI: 2026 against the three strongest events</h2>
-        <p class="note">Oceanic Niño Index (ERSSTv6, 3-month running mean, centred base periods), aligned from DJF of each onset year. 2026 is the thick blue line; each analogue year has its own colour.</p>
-        <div class="ww-legend" data-legend="oni_analogs"></div>
-        <div class="ww-chart tall" id="chart-oni-analogs" data-source="oni_analogs"></div>
+        <div class="ww-oni-split">
+          <div class="ww-oni-main">
+            <p class="note">Oceanic Niño Index (ERSSTv6, 3-month running mean, centred base periods), aligned from DJF of each onset year. 2026 is the thick blue line; each analogue year has its own colour.</p>
+            <div class="ww-legend" data-legend="oni_analogs"></div>
+            <div class="ww-chart" id="chart-oni-analogs" data-source="oni_analogs"></div>
+          </div>
+          <aside class="ww-oni-why">
+            <h3>What makes 2026 different, and why</h3>
+            <ul>
+              <li><b>Fastest rise on record.</b> From weak La Niña (−0.4 in DJF), like 1997, it reached <b>+2.16</b> by JAS, higher than any event at this stage (1997 +1.79, 2015 +1.73). <i>Why:</i> the trade winds collapsed (−2 to −3 m/s anomalies) and released the warm water stored in the west.</li>
+              <li><b>Record fuel below the surface.</b> Upper-300 m heat content reached <b>+3.39 °C</b> in September, far above 1997's +2.56. <i>Why it matters:</i> subsurface heat leads the surface by 1–3 months, so more warming is still in the pipeline.</li>
+              <li><b>Extremely east-based.</b> Niño 1+2 off Peru hit <b>+4.7 °C</b> (monthly), a record — stronger even than 1997 (+3.7), and nothing like centre-heavy 2015 (+2.5). East-based events disrupt the Pacific jet stream most, the classic recipe for a wet California winter.</li>
+              <li><b>A warmer world underneath.</b> The relative index (RONI) is <b>+1.69</b>, about 0.5 °C below the ONI: the whole tropical ocean is unusually warm, so part of the ONI is background warming, not El Niño. In 1997 the two were almost equal.</li>
+              <li><b>A hostile North Pacific.</b> The PDO is <b>−1.55</b>; in 1982, 1997 and 2015 it was positive. A negative PDO can blunt El Niño's effect on North America — the main wild card for this winter.</li>
+            </ul>
+          </aside>
+        </div>
+        <h2 class="ww-sub">How each event developed</h2>
+        <div class="ww-table-wrap">
+          <table class="ww-table ww-oni-cmp">
+            <thead><tr><th></th><th>1982–83</th><th>1997–98</th><th>2015–16</th><th>2026</th></tr></thead>
+            <tbody>
+              <tr><th>Start (ONI, DJF)</th><td>−0.1, neutral</td><td>−0.4, weak La Niña</td><td>+0.7, already warm after the 2014 false start</td><td>−0.4, weak La Niña</td></tr>
+              <tr><th>By JAS</th><td>+1.0, slow</td><td>+1.8, fast</td><td>+1.7, steady</td><td><b>+2.2, fastest</b></td></tr>
+              <tr><th>Peak ONI</th><td>+2.1 (DJF)</td><td>+2.4 (NDJ)</td><td>+2.6 (NDJ), highest ONI on record</td><td>Still rising; peaks usually Nov–Jan</td></tr>
+              <tr><th>Niño 1+2 max (monthly)</th><td>+4.0, late (Jun 1983)</td><td>+3.7 (Nov)</td><td>+2.5 (Jul)</td><td><b>+4.7</b> (Sep), record</td></tr>
+              <tr><th>Subsurface heat max</th><td>—</td><td>+2.56 (Oct)</td><td>+1.97 (Aug)</td><td><b>+3.39</b> (Sep), record</td></tr>
+              <tr><th>PDO (Sep)</th><td>+0.5</td><td>+1.8</td><td>+1.0</td><td><b>−1.55</b></td></tr>
+              <tr><th>How it unfolded</th><td>Unforecast; grew slowly, then surged in autumn and lingered off South America into mid-1983. El Chichón's volcanic haze confused satellite readings.</td><td>Strong spring wind bursts sent huge Kelvin waves east; a classic east-based event that peaked in December and collapsed into La Niña by mid-1998.</td><td>Began warm, grew steadily and peaked in the central Pacific with weaker coastal warming; Southern California's winter was drier than expected.</td><td>Explosive spring–summer growth from La Niña, record coastal and subsurface warmth, strong atmospheric coupling (3-month SOI −1.8), but a negative PDO and a much warmer background ocean.</td></tr>
+            </tbody>
+          </table>
+        </div>
       </article>
       <article class="ww-card" id="card-weekly-overview">
         <h2>Weekly Niño 3.4 and Niño 1+2 since 2025</h2>
@@ -1961,7 +1998,7 @@ window.WW = (() => {
     ];
     K.legend(document.querySelector(`[data-legend="${legendSel}"]`), series);
     K.line(el, {
-      rows: d.data, x: (r) => r.step, xType: 'linear', series, zero: true, height: boxId === 'chart-oni-analogs' ? 300 : 260,
+      rows: d.data, x: (r) => r.step, xType: 'linear', series, zero: true, height: boxId === 'chart-oni-analogs' ? 230 : 260,
       endLabels: false, valFmt: (v) => K.signed(v, 2), yFmt: d3.format('.1f'),
       xTickValues: d3.range(0, 18, 3), xTickFormat: (i) => d.data[i] ? d.data[i][xLabelKey] : '',
       tipTitle: (r) => `${tipLabel} ${r[xLabelKey]}`,
