@@ -126,7 +126,7 @@
    "id": "earthquakes",
    "file": "earthquakes.csv",
    "title": "Earthquakes M4.5+, 30 days",
-   "description": "USGS Earthquake Hazards Program feed 'Magnitude 4.5+ Earthquakes, Past Month' (4.5_month.geojson), generated 11 Oct 2026 17:24 UTC.",
+   "description": "USGS Earthquake Hazards Program feed 'Magnitude 4.5+ Earthquakes, Past Month' (4.5_month.geojson), newest first, times in UTC. Refreshed daily at 9 am Pacific by the scripted refresh (tools/nightly).",
    "updated": "2026-10-17",
    "bytes": 54357
   },
@@ -214,7 +214,7 @@
    "id": "local_hilo",
    "file": "local_hilo.csv",
    "title": "Santa Monica high and low tides",
-   "description": "NOAA CO-OPS station 9410840 predicted high and low tides, feet above MLLW.",
+   "description": "NOAA CO-OPS station 9410840 (Santa Monica) predicted high and low tides, feet above MLLW, 3 days back to 4 days ahead. Refreshed daily at 9 am Pacific (tools/nightly).",
    "updated": "2026-10-17",
    "bytes": 696
   },
@@ -222,7 +222,7 @@
    "id": "local_hourly",
    "file": "local_hourly.csv",
    "title": "Hourly forecast and air quality",
-   "description": "Open-Meteo forecast API (temperature, humidity, dew point, rain chance, pressure, wind, UV) and air-quality API (US AQI, PM2.5, ozone) for the Burbank area, two days back to seven days ahead, Pacific time. Free, no key.",
+   "description": "Open-Meteo forecast API (temperature, humidity, dew point, rain chance, rain, sea-level pressure, wind, UV) and air-quality API (US AQI, PM2.5, ozone; 5-day horizon) at 34.20°N, 118.36°W (Burbank), two days back to seven days ahead, Pacific time. Free, no key. Refreshed daily at 9 am Pacific (tools/nightly).",
    "updated": "2026-10-17",
    "bytes": 14050
   },
@@ -230,7 +230,7 @@
    "id": "local_obs",
    "file": "local_obs.csv",
    "title": "Burbank observations",
-   "description": "NWS api.weather.gov station KBUR (Bob Hope Airport), hourly observations for the last 36 hours, converted to °F, mph and hPa, Pacific time.",
+   "description": "NWS api.weather.gov station KBUR (Bob Hope Airport), one observation per hour for the last 36 hours (the most complete report in each hour), converted to °F, mph and hPa (station pressure), Pacific time. Refreshed daily at 9 am Pacific (tools/nightly).",
    "updated": "2026-10-17",
    "bytes": 1925
   },
@@ -238,7 +238,7 @@
    "id": "local_periods",
    "file": "local_periods.csv",
    "title": "NWS 7-day forecast",
-   "description": "NWS point forecast for grid LOX 150,51 (the San Fernando Valley), 12-hour periods, read 11 Oct 2026 about 11:00 PDT. No active alerts for the point.",
+   "description": "NWS point forecast for grid LOX 150,51 (the San Fernando Valley), 12-hour periods. Refreshed daily at 9 am Pacific (tools/nightly).",
    "updated": "2026-10-17",
    "bytes": 1039
   },
@@ -246,7 +246,7 @@
    "id": "local_tides",
    "file": "local_tides.csv",
    "title": "Santa Monica tides",
-   "description": "NOAA CO-OPS station 9410840: hourly predicted water level and observed (preliminary) water level, feet above MLLW, local time.",
+   "description": "NOAA CO-OPS station 9410840 (Santa Monica): hourly predicted water level and observed (preliminary, on-the-hour) water level, feet above MLLW, local time; 3 days back to 4 days ahead. Refreshed daily at 9 am Pacific (tools/nightly).",
    "updated": "2026-10-17",
    "bytes": 5521
   },
@@ -254,7 +254,7 @@
    "id": "local_watertemp",
    "file": "local_watertemp.csv",
    "title": "Santa Monica water temperature",
-   "description": "NOAA CO-OPS station 9410840, hourly water temperature (°F), last three days.",
+   "description": "NOAA CO-OPS station 9410840 (Santa Monica), hourly water temperature (°F), last three days. Refreshed daily at 9 am Pacific (tools/nightly).",
    "updated": "2026-10-17",
    "bytes": 1590
   },
@@ -606,7 +606,7 @@
    "id": "volcano_alerts_us",
    "file": "volcano_alerts_us.csv",
    "title": "US volcano alert levels",
-   "description": "USGS Volcano Hazards Program, elevated volcanoes (HANS getElevatedVolcanoes and VHP status), read 11 Oct 2026.",
+   "description": "USGS Volcano Hazards Program elevated volcanoes (HANS getElevatedVolcanoes), with coordinates from HANS getVolcano; notice_date is the date of the latest notice (UTC). Refreshed daily at 9 am Pacific (tools/nightly).",
    "updated": "2026-10-17",
    "bytes": 392
   },

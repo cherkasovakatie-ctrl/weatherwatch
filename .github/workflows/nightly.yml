@@ -7,8 +7,6 @@ on:
     - cron: '0 16 * * *'
     - cron: '0 17 * * *'
   workflow_dispatch:
-  push:
-    branches: [nightly-test]
 
 permissions:
   contents: write
