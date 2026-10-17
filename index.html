@@ -3703,12 +3703,16 @@ window.WW = (() => {
       const rows = raw.map((r) => ({ year: +r.year_ce, median: num(r.median), f: num(r.median_31yr), lo: num(r.p2_5_31yr), hi: num(r.p97_5_31yr) }));
       const sr = [{ key: 'median', label: 'Annual median', color: K.muted, width: 1 }, { key: 'f', label: '31-year filtered median', color: cc(2), width: 2.5 }];
       K.legend(box('legend-cl-p2k'), [...sr, { key: 'band', label: '95% range (filtered)', color: K.muted }]);
-      K.line(box('chart-cl-p2k'), { rows, x: (r) => r.year, xType: 'linear', series: sr, area: { low: 'lo', high: 'hi' }, endLabels: false, zero: true, xTickValues: [1, 250, 500, 750, 1000, 1250, 1500, 1750, 2000], xTickFormat: (v) => `${v} CE`, valFmt: (v) => `${K.signed(v, 2)} °C`, tipTitle: (r) => `${r.year} CE${r.lo != null ? ` · filtered 95% range ${K.signed(r.lo, 2)} to ${K.signed(r.hi, 2)} °C` : ''}`, height: 320 });
+      const fl = rows.filter((r) => r.f != null);
+      const low1 = fl.reduce((m, r) => (r.f < m.f ? r : m));
+      const low2 = fl.filter((r) => r.year >= 1700 && r.year < 1900).reduce((m, r) => (r.f < m.f ? r : m));
+      const lowLbl = (r, tag) => `${tag} ${r.year} (${K.signed(r.f, 2)} °C)`;
+      K.line(box('chart-cl-p2k'), { rows, x: (r) => r.year, xType: 'linear', series: sr, area: { low: 'lo', high: 'hi' }, endLabels: false, zero: true, vlines: [{ x: low1.year, label: lowLbl(low1, 'Coldest:') }, { x: low2.year, label: lowLbl(low2, 'Low:') }], xTickValues: [1, 250, 500, 750, 1000, 1250, 1500, 1750, 2000], xTickFormat: (v) => (v === 2000 ? '2000' : `${v} CE`), valFmt: (v) => `${K.signed(v, 2)} °C`, tipTitle: (r) => `${r.year} CE${r.lo != null ? ` · filtered 95% range ${K.signed(r.lo, 2)} to ${K.signed(r.hi, 2)} °C` : ''}`, height: 320 });
       const fr = rows.filter((r) => r.f != null);
       const pre = fr.filter((r) => r.year < 1850);
       const hiP = pre.reduce((a, b) => (b.f > a.f ? b : a)); const loP = pre.reduce((a, b) => (b.f < a.f ? b : a));
       const lastF = fr[fr.length - 1];
-      set('cl-p2k-note', `Before 1850, the 31-year filtered median peaks at ${K.signed(hiP.f, 2)} °C (${hiP.year} CE) and bottoms at ${K.signed(loP.f, 2)} °C (${loP.year} CE). The last filtered value, ${lastF.year} CE, is ${K.signed(lastF.f, 2)} °C (95% range ${K.signed(lastF.lo, 2)} to ${K.signed(lastF.hi, 2)}). All values vs 1961–1990.`);
+      set('cl-p2k-note', `Dashed lines mark the two lows of the filtered median: ${low1.year} CE (${K.signed(low1.f, 2)} °C, the coldest point) and ${low2.year} CE (${K.signed(low2.f, 2)} °C), after which the slow recovery began; the steep rise starts after 1900. Before 1850 its highest value is ${K.signed(hiP.f, 2)} °C (${hiP.year} CE). The last filtered value, ${lastF.year} CE, is ${K.signed(lastF.f, 2)} °C (95% range ${K.signed(lastF.lo, 2)} to ${K.signed(lastF.hi, 2)}). All values vs 1961–1990.`);
       return;
     }
     if (scale === '800k') {
