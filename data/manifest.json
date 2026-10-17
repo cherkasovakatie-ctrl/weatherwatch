@@ -127,8 +127,8 @@
    "file": "earthquakes.csv",
    "title": "Earthquakes M4.5+, 30 days",
    "description": "USGS Earthquake Hazards Program feed 'Magnitude 4.5+ Earthquakes, Past Month' (4.5_month.geojson), generated 11 Oct 2026 17:24 UTC.",
-   "updated": "2026-10-11",
-   "bytes": 52455
+   "updated": "2026-10-17",
+   "bytes": 54357
   },
   {
    "id": "elnino_pdo",
@@ -215,48 +215,48 @@
    "file": "local_hilo.csv",
    "title": "Santa Monica high and low tides",
    "description": "NOAA CO-OPS station 9410840 predicted high and low tides, feet above MLLW.",
-   "updated": "2026-10-11",
-   "bytes": 797
+   "updated": "2026-10-17",
+   "bytes": 696
   },
   {
    "id": "local_hourly",
    "file": "local_hourly.csv",
    "title": "Hourly forecast and air quality",
    "description": "Open-Meteo forecast API (temperature, humidity, dew point, rain chance, pressure, wind, UV) and air-quality API (US AQI, PM2.5, ozone) for the Burbank area, two days back to seven days ahead, Pacific time. Free, no key.",
-   "updated": "2026-10-11",
-   "bytes": 13997
+   "updated": "2026-10-17",
+   "bytes": 14048
   },
   {
    "id": "local_obs",
    "file": "local_obs.csv",
    "title": "Burbank observations",
    "description": "NWS api.weather.gov station KBUR (Bob Hope Airport), hourly observations for the last 36 hours, converted to °F, mph and hPa, Pacific time.",
-   "updated": "2026-10-11",
-   "bytes": 2140
+   "updated": "2026-10-17",
+   "bytes": 1925
   },
   {
    "id": "local_periods",
    "file": "local_periods.csv",
    "title": "NWS 7-day forecast",
    "description": "NWS point forecast for grid LOX 150,51 (the San Fernando Valley), 12-hour periods, read 11 Oct 2026 about 11:00 PDT. No active alerts for the point.",
-   "updated": "2026-10-11",
-   "bytes": 1041
+   "updated": "2026-10-17",
+   "bytes": 1039
   },
   {
    "id": "local_tides",
    "file": "local_tides.csv",
    "title": "Santa Monica tides",
    "description": "NOAA CO-OPS station 9410840: hourly predicted water level and observed (preliminary) water level, feet above MLLW, local time.",
-   "updated": "2026-10-11",
-   "bytes": 5471
+   "updated": "2026-10-17",
+   "bytes": 5521
   },
   {
    "id": "local_watertemp",
    "file": "local_watertemp.csv",
    "title": "Santa Monica water temperature",
    "description": "NOAA CO-OPS station 9410840, hourly water temperature (°F), last three days.",
-   "updated": "2026-10-11",
-   "bytes": 1602
+   "updated": "2026-10-17",
+   "bytes": 1590
   },
   {
    "id": "market_bear",
@@ -607,8 +607,8 @@
    "file": "volcano_alerts_us.csv",
    "title": "US volcano alert levels",
    "description": "USGS Volcano Hazards Program, elevated volcanoes (HANS getElevatedVolcanoes and VHP status), read 11 Oct 2026.",
-   "updated": "2026-10-11",
-   "bytes": 396
+   "updated": "2026-10-17",
+   "bytes": 392
   },
   {
    "id": "volcanoes_weekly",

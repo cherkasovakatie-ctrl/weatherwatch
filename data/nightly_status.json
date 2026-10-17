@@ -1,5 +1,54 @@
 {
- "run_utc": "",
- "run_local": "never",
- "results": []
+ "run_utc": "2026-10-17T22:55:19.665Z",
+ "run_local": "2026-10-17 15:55",
+ "results": [
+  {
+   "id": "earthquakes",
+   "ok": true,
+   "rows": 617,
+   "newest": "2026-10-17 16:52"
+  },
+  {
+   "id": "local_obs",
+   "ok": true,
+   "rows": 36,
+   "newest": "2026-10-17 15:35"
+  },
+  {
+   "id": "local_periods",
+   "ok": true,
+   "rows": 14,
+   "newest": "Wednesday Night"
+  },
+  {
+   "id": "local_hourly",
+   "ok": true,
+   "rows": 216,
+   "newest": "2026-10-23 23:00"
+  },
+  {
+   "id": "local_tides",
+   "ok": true,
+   "rows": 192,
+   "newest": "2026-10-21 23:00"
+  },
+  {
+   "id": "local_hilo",
+   "ok": true,
+   "rows": 27,
+   "newest": "2026-10-21 18:51"
+  },
+  {
+   "id": "local_watertemp",
+   "ok": true,
+   "rows": 72,
+   "newest": "2026-10-17 15:00"
+  },
+  {
+   "id": "volcano_alerts_us",
+   "ok": true,
+   "rows": 4,
+   "newest": "Shishaldin"
+  }
+ ]
 }

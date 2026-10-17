@@ -1,7 +1,114 @@
 time_utc,magnitude,lat,lon,depth_km,place,tsunami_flag,pager_alert,significance,id
+2026-10-17 16:52,4.6,-21.18,-67.21,189,"88 km SSW of Uyuni, Bolivia",0,,326,us6000u30x
+2026-10-17 13:59,5.2,14.05,-92.86,10,"86 km SW of Brisas Barra de Suchiate, Mexico",0,,416,us6000u309
+2026-10-17 09:07,4.6,-8.73,124.34,91,"51 km N of Pante Makasar, Timor Leste",0,,326,us6000u2zb
+2026-10-17 08:59,4.8,-15.51,168.25,10,"110 km NE of Norsup, Vanuatu",0,,355,us6000u2z9
+2026-10-17 07:40,4.5,-13.35,167.05,145,"80 km NW of Sola, Vanuatu",0,,312,us6000u2yz
+2026-10-17 07:20,4.5,-8.11,120.28,10,"59 km NNW of Ruteng, Indonesia",0,,312,us6000u2yw
+2026-10-17 05:06,5.7,28.02,66.17,10,"48 km WNW of Khuzdar, Pakistan",0,yellow,651,us6000u2y1
+2026-10-17 04:19,4.8,-16.04,-177.73,439,"196 km SSE of Alo, Wallis and Futuna",0,,354,us6000u2xs
+2026-10-17 01:03,4.9,14.06,-93.25,10,"115 km SW of Puerto Madero, Mexico",0,,369,us6000u2x7
+2026-10-16 23:57,4.6,38.3,20.69,10,"6 km NNE of Sámi, Greece",0,,328,us6000u2ww
+2026-10-16 22:41,4.6,7.61,-80.94,10,"12 km SSE of Tebario, Panama",0,,326,us6000u2wn
+2026-10-16 21:30,4.5,27.73,57.33,10,"70 km NNE of Mīnāb, Iran",0,,312,us6000u2w9
+2026-10-16 21:26,4.5,-23.62,-179.8,535,south of the Fiji Islands,0,,312,us6000u2w7
+2026-10-16 19:34,5.2,1.3,-85.27,10,off the coast of Ecuador,0,,416,us6000u2v8
+2026-10-16 16:17,4.6,-5.52,35.13,10,"41 km NNE of Kilimatinde, Tanzania",0,,326,us6000u2qn
+2026-10-16 15:08,4.7,51.41,159.52,10,"186 km SSE of Vilyuchinsk, Russia",0,,340,us6000u2qf
+2026-10-16 15:06,4.6,-18.47,-175.43,248,"153 km W of Neiafu, Tonga",0,,326,us6000u2qd
+2026-10-16 14:09,5,-49.88,163.4,10,"Auckland Islands, New Zealand region",0,,385,us6000u2q5
+2026-10-16 13:02,4.5,6.85,-77.37,26,"51 km ESE of Juradó, Colombia",0,,312,us6000u2pw
+2026-10-16 12:18,4.7,6.03,125.78,10,"10 km SE of Lamitan, Philippines",0,,340,us6000u2pp
+2026-10-16 11:57,4.9,12.33,144.12,10,"119 km SSW of Merizo Village, Guam",0,,370,us6000u2pl
+2026-10-16 11:39,4.8,15.28,-92.79,109,"7 km WSW of Soconusco, Mexico",0,,354,us6000u2ph
+2026-10-16 09:13,4.9,7.84,126.8,74,"31 km ENE of Kinablangan, Philippines",0,,369,us6000u2p2
+2026-10-16 09:04,4.8,-55.24,-126.5,10,southern East Pacific Rise,0,,354,us6000u2p5
+2026-10-16 04:42,4.7,13.93,-92.86,10,"95 km SW of Brisas Barra de Suchiate, Mexico",0,,340,us6000u2n4
+2026-10-16 03:35,6.9,51.98,157.27,135,"76 km NE of Ozernovskiy, Russia",0,green,734,us6000u2mq
+2026-10-15 20:39,4.5,13.9,-91.82,59,"44 km SSE of Champerico, Guatemala",0,,312,us6000u2kz
+2026-10-15 15:40,4.5,10.3,-86.05,23,"22 km W of Tamarindo, Costa Rica",0,,312,us6000u2i9
+2026-10-15 14:59,4.9,51.38,159.85,10,"198 km SSE of Vilyuchinsk, Russia",0,,369,us6000u2i2
+2026-10-15 13:31,4.5,7.45,-80.09,10,"9 km SSE of Los Asientos, Panama",0,,316,us6000u2ht
+2026-10-15 13:29,5.2,-15.04,-173.44,10,"107 km NNE of Hihifo, Tonga",0,,416,us6000u2hv
+2026-10-15 13:16,4.7,52,-169.58,10,"114 km SSW of Nikolski, Alaska",0,,340,us6000u2hr
+2026-10-15 13:06,5.2,-13.89,166.09,10,"157 km W of Sola, Vanuatu",0,,416,us6000u2hp
+2026-10-15 11:16,5.4,0.9,-85.36,10,off the coast of Ecuador,0,,449,us6000u2gd
+2026-10-15 11:07,5.6,64.22,-152.75,5,"43 km NNW of Lake Minchumina, Alaska",0,,533,aka2026ukynnb
+2026-10-15 05:25,5.3,-38.55,175.38,286,"43 km SSE of Otorohanga, New Zealand",0,green,435,us6000u2ev
+2026-10-15 03:36,5.1,-13.41,-172.07,13,"36 km E of Safotu, Samoa",0,,402,us6000u2ec
+2026-10-15 03:36,4.8,-13.43,-172.12,13,"30 km E of Safotu, Samoa",0,,354,us6000u2eh
+2026-10-14 23:20,4.5,54,158.18,183,"82 km SSW of Mil’kovo, Russia",0,,312,us6000u2d6
+2026-10-14 14:17,4.7,-0.34,-19.21,10,central Mid-Atlantic Ridge,0,,340,us6000u2gk
+2026-10-14 10:49,5.9,-20.99,-178.77,585,Fiji region,0,green,536,us6000u28y
+2026-10-14 09:16,4.6,-5.48,35.04,10,"42 km NNE of Kilimatinde, Tanzania",0,,326,us6000u28e
+2026-10-14 06:27,4.9,-5.44,152.26,35,"121 km S of Kokopo, Papua New Guinea",0,,369,us6000u27u
+2026-10-14 05:09,4.7,7.57,-80.6,10,"10 km S of La Mesa, Panama",0,,340,us6000u27j
+2026-10-14 03:11,4.9,-20.36,-70.27,45,"16 km WSW of La Tirana, Chile",0,,380,us6000u272
+2026-10-14 03:02,4.8,5.01,-27.58,10,North Atlantic Ocean,0,,354,us6000u273
+2026-10-14 02:59,4.7,-5.5,152.39,10,"128 km S of Kokopo, Papua New Guinea",0,,340,us6000u271
+2026-10-14 02:12,4.6,-4.45,152.94,10,"75 km E of Kokopo, Papua New Guinea",0,,326,us6000u26u
+2026-10-14 00:36,5,-29.22,-71.92,10,"98 km NW of Coquimbo, Chile",0,,385,us6000u26f
+2026-10-14 00:30,5.1,-29.22,-71.8,22,"93 km NNW of Coquimbo, Chile",0,,401,us6000u26c
+2026-10-13 21:24,4.8,6.79,-73.01,162,"5 km NW of Cepitá, Colombia",0,,358,us6000u25i
+2026-10-13 18:45,6,-5.48,152.14,21,"126 km S of Kokopo, Papua New Guinea",0,green,554,us6000u24c
+2026-10-13 16:28,5.1,-5.45,152.1,37,"123 km S of Kokopo, Papua New Guinea",0,,400,us6000u23d
+2026-10-13 15:21,4.8,5.35,125.52,66,"8 km SE of Sarangani, Philippines",0,,354,us6000u21y
+2026-10-13 14:36,5.3,-5.51,152.13,30,"129 km S of Kokopo, Papua New Guinea",0,,432,us6000u21s
+2026-10-13 12:51,4.5,7.79,-81.61,10,"26 km SSW of Zapotillo, Panama",0,,312,us6000u21d
+2026-10-13 12:23,6.8,-0.41,-19.43,10,central Mid-Atlantic Ridge,1,green,711,us6000u214
+2026-10-13 12:05,4.9,51.62,159.95,10,"180 km SE of Vilyuchinsk, Russia",0,,369,us6000u20z
+2026-10-13 09:48,4.5,-9.93,118.82,35,"71 km SW of Tambolaka, Indonesia",0,,312,us6000u20i
+2026-10-13 09:41,4.7,38.52,68.89,10,"9 km NE of Boshkengash, Tajikistan",0,,340,us6000u20g
+2026-10-13 08:38,5.3,-28.56,-12.52,10,southern Mid-Atlantic Ridge,0,,432,us6000u207
+2026-10-13 08:15,4.6,38.83,104.94,10,"63 km W of Bayan Hot, China",0,,326,us6000u200
+2026-10-13 06:39,4.7,7.77,-81.45,10,"14 km WNW of Río Grande, Panama",0,,340,us6000u1zh
+2026-10-13 06:01,4.7,19.69,120.7,10,"124 km N of Pagudpud, Philippines",0,,340,us6000u1zc
+2026-10-13 05:44,6.7,0.17,-19.86,10,central Mid-Atlantic Ridge,0,green,691,us6000u1z5
+2026-10-13 04:00,5.1,-9.45,113.89,10,"119 km SSW of Gambiran Satu, Indonesia",0,,400,us6000u1ye
+2026-10-13 02:48,4.7,7.58,-80.59,10,"9 km SSE of La Mesa, Panama",0,,340,us6000u1y4
+2026-10-13 02:16,4.5,-58.14,-26.21,140,South Sandwich Islands region,0,,312,us6000u1xy
+2026-10-13 00:02,4.6,7.8,-81.53,10,"23 km WNW of Río Grande, Panama",0,,326,us6000u1x2
+2026-10-12 23:45,4.5,7.83,-81.63,10,"24 km SW of Zapotillo, Panama",0,,312,us6000u1wz
+2026-10-12 23:36,4.9,7.73,-81.49,10,"17 km W of Río Grande, Panama",0,,371,us6000u1ww
+2026-10-12 23:20,6.1,7.69,-81.49,11,"17 km W of Río Grande, Panama",0,green,611,us6000u1wn
+2026-10-12 21:48,4.5,7.94,-81.43,10,"5 km WSW of Calidonia, Panama",0,,312,us6000u1w7
+2026-10-12 21:43,4.5,7.8,-81.51,10,"21 km WNW of Río Grande, Panama",0,,312,us6000u1w6
+2026-10-12 20:05,4.8,7.72,-81.57,10,"25 km W of Río Grande, Panama",0,,355,us6000u1vf
+2026-10-12 18:30,4.6,-16.54,67,10,Mid-Indian Ridge,0,,326,us6000u1uv
+2026-10-12 18:27,4.7,-16.29,67.11,10,Mid-Indian Ridge,0,,340,us6000u1ut
+2026-10-12 18:17,4.8,-33.72,-71.81,34,"23 km SW of San Antonio, Chile",0,,360,us6000u1uq
+2026-10-12 15:44,4.9,48.26,154.85,35,"283 km SSW of Severo-Kuril’sk, Russia",0,,369,us6000u1sn
+2026-10-12 15:37,4.6,10.16,93.08,91,"170 km SSE of Port Blair, India",0,,326,us6000u1sk
+2026-10-12 14:29,4.6,51.43,174.83,10,"194 km SE of Attu Station, Alaska",0,,326,us6000u1s8
+2026-10-12 13:44,4.8,-16.29,67.1,10,Mid-Indian Ridge,0,,354,us6000u1s2
+2026-10-12 13:17,4.5,7.4,-80.49,10,"6 km W of Tonosí, Panama",0,,312,us6000u1rx
+2026-10-12 11:58,4.6,-9.15,113.1,55,"100 km SSW of Kencong, Indonesia",0,,326,us6000u1rm
+2026-10-12 11:28,5.4,-8.87,67.39,10,Mid-Indian Ridge,0,green,449,us6000u1rh
+2026-10-12 08:59,4.6,0.68,125.93,49,"122 km SE of Bitung, Indonesia",0,,326,us6000u1r3
+2026-10-12 08:30,4.7,-8.24,128.97,22,"219 km E of Lospalos, Timor Leste",0,,340,us6000u1qy
+2026-10-12 07:16,4.5,7.7,-80.91,10,"7 km ESE of Tebario, Panama",0,,312,us6000u1qd
+2026-10-12 05:28,4.6,-8.32,112.22,121,"25 km SSE of Blitar, Indonesia",0,,326,us6000u1q2
+2026-10-12 05:15,4.5,-25.19,179.98,471,south of the Fiji Islands,0,,312,us6000u1pz
+2026-10-12 04:38,5.5,-18.72,-175.15,195,"122 km W of Neiafu, Tonga",0,green,466,us6000u1pl
+2026-10-12 03:44,4.5,42.5,144.28,66,"53 km S of Kushiro, Japan",0,,312,us6000u1pa
+2026-10-12 03:04,4.5,39.17,72.18,27,"42 km S of Daroot-Korgon, Kyrgyzstan",0,,312,us6000u1p6
+2026-10-12 02:22,4.5,7.61,-80.07,10,"7 km ENE of Lajamina, Panama",0,,312,us6000u1ny
+2026-10-12 01:59,4.8,-49.95,-114.25,10,southern East Pacific Rise,0,,354,us6000u1nx
+2026-10-12 01:28,4.8,24.72,94.6,78,"56 km E of Yairipok, India",0,,355,us6000u1nr
+2026-10-12 00:53,4.6,25.1,141.14,200,"Volcano Islands, Japan region",0,,326,us6000u1nn
+2026-10-11 23:20,4.5,12.66,-89.76,35,"103 km SSW of La Libertad, El Salvador",0,,312,us6000u1n6
+2026-10-11 22:40,4.6,7.76,-81.11,10,"0 km NE of Leones Arriba, Panama",0,,326,us6000u1mz
+2026-10-11 22:07,4.5,-4.08,136.26,10,"116 km SE of Nabire, Indonesia",0,,312,us6000u1mv
+2026-10-11 21:53,4.9,-50.54,-112.66,10,southern East Pacific Rise,0,,369,us6000u2g3
+2026-10-11 21:34,5.2,0.52,121.7,111,"152 km W of Gorontalo, Indonesia",0,,416,us6000u1mj
+2026-10-11 21:19,4.5,7.72,-81.59,10,"27 km W of Río Grande, Panama",0,,312,us6000u1me
+2026-10-11 18:47,4.6,-3.13,130.65,10,"184 km W of Fakfak, Indonesia",0,,326,us6000u1ls
+2026-10-11 18:06,4.7,-19.38,-172.72,10,"156 km ESE of Neiafu, Tonga",0,,340,us6000u1lk
+2026-10-11 17:11,4.8,7.71,-81.62,10,"31 km W of Río Grande, Panama",0,,354,us6000u1lf
 2026-10-11 17:00,5.2,49.79,155.79,83,"101 km SSW of Severo-Kuril’sk, Russia",0,,416,us6000u1ld
+2026-10-11 16:24,4.7,35.53,140.44,56,"6 km ESE of Tōgane, Japan",0,,340,us6000u1l7
 2026-10-11 14:07,6.2,-7.01,155.7,53,"79 km SSE of Panguna, Papua New Guinea",0,green,591,us6000u1kv
-2026-10-11 13:42,5.2,-16.78,-72.66,45,"18 km SSE of Camaná, Peru",0,,416,us6000u1kt
+2026-10-11 13:42,5.2,-16.78,-72.66,45,"18 km SSE of Camaná, Peru",0,,418,us6000u1kt
 2026-10-11 12:13,4.8,23.5,126.13,10,"165 km SSE of Miyakojima, Japan",0,,354,us6000u1ka
 2026-10-11 11:18,4.6,53.08,159.86,69,"82 km E of Petropavlovsk-Kamchatsky, Russia",0,,326,us6000u1k3
 2026-10-11 10:05,4.6,-20.39,-177.66,513,"260 km WNW of Houma, Tonga",0,,326,us6000u1jv
@@ -36,7 +143,7 @@ time_utc,magnitude,lat,lon,depth_km,place,tsunami_flag,pager_alert,significance,
 2026-10-10 05:45,4.5,5.27,-75.61,115,"6 km WSW of Filadelfia, Colombia",0,,312,us6000u1cx
 2026-10-10 05:32,5,1.62,126.39,10,"141 km E of Bitung, Indonesia",0,,385,us6000u1cv
 2026-10-10 04:33,4.5,7.52,-80.48,10,"9 km WNW of Flores, Panama",0,,312,us6000u1ck
-2026-10-10 04:14,6,7.51,-80.6,10,"7 km N of La Tronosa, Panama",0,yellow,685,us6000u1cf
+2026-10-10 04:14,6,7.51,-80.6,10,"7 km N of La Tronosa, Panama",0,yellow,686,us6000u1cf
 2026-10-10 03:58,5.3,13.86,145.09,112,"41 km NNE of Yigo Village, Guam",0,,449,us6000u1cd
 2026-10-10 03:56,4.7,7.51,-80.58,10,"8 km N of La Tronosa, Panama",0,,340,us6000u1cb
 2026-10-10 02:43,4.5,7.57,-81.25,10,"18 km SSE of Río Grande, Panama",0,,312,us6000u1bw
@@ -51,34 +158,35 @@ time_utc,magnitude,lat,lon,depth_km,place,tsunami_flag,pager_alert,significance,
 2026-10-09 23:57,4.7,7.74,-81.46,10,"14 km W of Río Grande, Panama",0,,340,us6000u1b4
 2026-10-09 23:54,4.5,7.14,-79.89,10,"45 km SSE of Pedasí, Panama",0,,312,us6000u1b3
 2026-10-09 23:23,4.9,7.67,-81.4,10,"9 km SW of Río Grande, Panama",0,,370,us6000u1az
-2026-10-09 23:12,5.4,7.44,-80.1,10,"9 km SSE of Los Asientos, Panama",0,green,451,us6000u1ay
+2026-10-09 23:12,5.4,7.44,-80.1,10,"9 km SSE of Los Asientos, Panama",0,green,452,us6000u1ay
 2026-10-09 23:10,5,7.4,-80.53,10,"8 km ESE of La Tronosa, Panama",0,,385,us6000u1ax
 2026-10-09 21:47,4.6,7.76,-81.32,10,"4 km NNE of Río Grande, Panama",0,,326,us6000u1ai
 2026-10-09 21:19,4.6,52.04,157.58,78,"96 km NE of Ozernovskiy, Russia",0,,326,us6000u1ah
 2026-10-09 21:05,4.9,7.73,-81.45,10,"13 km W of Río Grande, Panama",0,,369,us6000u1a9
-2026-10-09 20:54,4.9,7.83,-81.47,10,"16 km SSW of Calidonia, Panama",0,,369,us6000u1a6
-2026-10-09 20:42,5,7.72,-81.46,10,"13 km W of Río Grande, Panama",0,,385,us6000u1aa
-2026-10-09 20:41,4.9,7.68,-81.09,10,"8 km SSE of Leones Arriba, Panama",0,,369,us6000u1a5
-2026-10-09 20:25,6.6,7.72,-81.47,10,"14 km W of Río Grande, Panama",1,yellow,692,us6000u19w
-2026-10-09 20:21,5,7.47,-80.55,10,"6 km NE of La Tronosa, Panama",0,,385,us6000u19t
-2026-10-09 20:20,4.9,7.62,-81.03,10,"12 km SSW of Tebario, Panama",0,,369,us6000u19s
+2026-10-09 20:54,4.9,7.81,-81.43,10,"14 km NW of Río Grande, Panama",0,,369,us6000u1a6
+2026-10-09 20:42,5,7.74,-81.5,10,"18 km W of Río Grande, Panama",0,,385,us6000u1aa
+2026-10-09 20:41,5,7.77,-81.08,10,"4 km ENE of Leones Arriba, Panama",0,,385,us6000u1a5
+2026-10-09 20:25,6.6,7.7,-81.44,24,"12 km W of Río Grande, Panama",1,yellow,696,us6000u19w
+2026-10-09 20:21,5,7.47,-80.49,10,"9 km NW of Tonosí, Panama",0,,385,us6000u19t
+2026-10-09 20:20,4.9,7.55,-81.03,10,"19 km SSW of Tebario, Panama",0,,369,us6000u19s
 2026-10-09 20:20,4.7,-5.43,152.11,51,"121 km S of Kokopo, Papua New Guinea",0,,340,us6000u19v
-2026-10-09 19:48,5.2,7.64,-81.27,10,"11 km SE of Río Grande, Panama",0,,416,us6000u19h
+2026-10-09 19:48,5.2,7.64,-81.28,10,"10 km SE of Río Grande, Panama",0,,416,us6000u19h
 2026-10-09 19:45,4.8,7.54,-80.13,10,"2 km N of Los Asientos, Panama",0,,354,us6000u19i
 2026-10-09 19:42,4.5,7.56,-80.21,10,"5 km N of Oria Arriba, Panama",0,,312,us6000u19e
 2026-10-09 19:32,4.7,7.51,-80.59,10,"8 km N of La Tronosa, Panama",0,,340,us6000u19c
 2026-10-09 19:17,4.8,7.61,-81.04,26,"14 km SSW of Tebario, Panama",0,,354,us6000u198
-2026-10-09 19:04,5,7.62,-81.25,10,"14 km SE of Río Grande, Panama",0,,385,us6000u197
+2026-10-09 19:04,5,7.65,-81.26,10,"10 km SE of Río Grande, Panama",0,,385,us6000u197
 2026-10-09 18:50,5,7.35,-80.12,10,"18 km S of Los Asientos, Panama",0,,385,us6000u194
 2026-10-09 18:47,5,7.58,-81.09,10,"19 km S of Leones Arriba, Panama",0,,385,us6000u195
-2026-10-09 18:37,5.8,7.44,-80.4,10,"1 km S of El Cacao, Panama",0,yellow,658,us6000u18x
+2026-10-09 18:37,5.8,7.44,-80.4,10,"1 km S of El Cacao, Panama",0,yellow,659,us6000u18x
 2026-10-09 18:22,5.5,7.59,-80.29,10,"3 km SW of Bajo Corral, Panama",0,green,467,us6000u18t
-2026-10-09 17:56,7.7,7.59,-80.77,13,"12 km WSW of Pitaloza Arriba, Panama",0,red,2850,us6000u18k
+2026-10-09 17:56,7.7,7.59,-80.77,13,"12 km WSW of Pitaloza Arriba, Panama",0,orange,1790,us6000u18k
 2026-10-09 17:09,4.8,51.9,160.7,10,"191 km SE of Petropavlovsk-Kamchatsky, Russia",0,,354,us6000u18e
 2026-10-09 16:59,4.7,52.22,160.13,34,"138 km SE of Petropavlovsk-Kamchatsky, Russia",0,,340,us6000u18d
 2026-10-09 15:18,4.6,-24.71,179.91,502,south of the Fiji Islands,0,,326,us6000u168
 2026-10-09 14:49,5.9,-60.98,154.46,10,west of Macquarie Island,0,green,536,us6000u164
 2026-10-09 13:51,5.4,-15.54,168.15,10,"99 km NE of Norsup, Vanuatu",0,green,449,us6000u15x
+2026-10-09 13:24,4.6,-30.9,59.14,10,Southwest Indian Ridge,0,,326,us6000u15t
 2026-10-09 12:33,4.8,11.6,-86.06,166,"17 km S of Nandaime, Nicaragua",0,,355,us6000u15l
 2026-10-09 10:22,5.1,-19.91,-68.79,124,"72 km SSW of Colchane, Chile",0,,403,us6000u153
 2026-10-09 09:47,4.9,-1.89,100.27,41,"77 km ENE of Tuapejat, Indonesia",0,,369,us6000u14w
@@ -88,30 +196,36 @@ time_utc,magnitude,lat,lon,depth_km,place,tsunami_flag,pager_alert,significance,
 2026-10-09 08:11,4.5,-17.72,-178.35,560,"249 km E of Levuka, Fiji",0,,312,us6000u14e
 2026-10-09 05:17,4.9,-24.31,-177.33,130,south of the Fiji Islands,0,,369,us6000u13y
 2026-10-09 05:11,5.2,0.76,125.94,40,"117 km SE of Bitung, Indonesia",0,,417,us6000u13v
+2026-10-09 04:46,4.6,35.1,23.47,41,"23 km SW of Palaióchora, Greece",0,,326,us6000u13n
 2026-10-08 21:34,4.9,30.54,-41.83,10,northern Mid-Atlantic Ridge,0,,369,us6000u13m
+2026-10-08 20:59,5.1,30.53,-41.92,10,northern Mid-Atlantic Ridge,0,,400,us6000u11v
 2026-10-08 18:32,4.6,30.73,140.6,96,"Izu Islands, Japan region",0,,326,us6000u10v
 2026-10-08 18:06,4.8,-9.24,120.31,91,"46 km N of Waingapu, Indonesia",0,,354,us6000u10n
 2026-10-08 15:23,4.7,-3.46,101.59,51,"84 km WNW of Bengkulu, Indonesia",0,,340,us6000u0yy
 2026-10-08 14:11,4.9,-10.02,122.29,10,"113 km NW of Baa, Indonesia",0,,369,us6000u0yr
 2026-10-08 10:07,5.1,-18.01,-178.45,602,"236 km E of Levuka, Fiji",0,,400,us6000u0xn
 2026-10-08 09:00,6.3,-15.54,168.19,10,"102 km NE of Norsup, Vanuatu",0,green,614,us6000u0xi
-2026-10-08 08:07,5.5,5.6,125.15,52,"17 km SW of Burias, Philippines",0,green,473,us6000u0x4
+2026-10-08 08:07,5.5,5.6,125.15,52,"17 km SW of Burias, Philippines",0,green,474,us6000u0x4
 2026-10-08 07:45,4.6,5.45,94.78,98,"61 km W of Banda Aceh, Indonesia",0,,326,us6000u0x2
 2026-10-08 06:46,5.5,-52.55,140.21,10,west of Macquarie Island,0,green,465,us6000u0ws
-2026-10-08 05:35,4.5,-22.19,-68.67,121,"39 km NE of Calama, Chile",0,,312,us6000u0wh
-2026-10-08 05:06,4.7,-9.42,118.81,65,"47 km W of Tambolaka, Indonesia",0,,340,us6000u0wb
+2026-10-08 05:59,4.5,-47.83,116.13,10,western Indian-Antarctic Ridge,0,,312,us6000u0wk
+2026-10-08 05:35,4.5,-22.21,-68.69,123,"36 km NE of Calama, Chile",0,,312,us6000u0wh
+2026-10-08 05:06,4.7,-9.63,118.94,60,"39 km SW of Tambolaka, Indonesia",0,,340,us6000u0wb
 2026-10-08 04:48,5,-7.78,120.54,10,"92 km N of Ruteng, Indonesia",0,,385,us6000u0wa
+2026-10-08 04:41,4.6,36.75,142.23,46,"124 km ESE of Iwaki, Japan",0,,326,us6000u0w9
 2026-10-08 03:42,4.9,39.21,14.35,367,"81 km NNW of Malfa, Italy",0,,369,us6000u0w0
 2026-10-08 03:00,4.7,-7.9,121.04,10,"101 km NE of Ruteng, Indonesia",0,,340,us6000u0vw
+2026-10-07 22:34,4.6,-23.57,-176.52,94,"293 km SSW of Houma, Tonga",0,,326,us6000u0v5
 2026-10-07 20:56,4.6,12.69,-86.9,206,"18 km NNE of Posoltega, Nicaragua",0,,326,us6000u0uq
 2026-10-07 19:36,4.6,36.52,139.33,96,"9 km NNE of Midori, Japan",0,,326,us6000u0uc
 2026-10-07 19:13,4.9,35.68,140.4,73,"3 km WSW of Shibayama, Japan",0,,370,us6000u0u7
 2026-10-07 18:15,4.8,54.48,162.56,10,"194 km S of Ust’-Kamchatsk Staryy, Russia",0,,354,us6000u0tm
 2026-10-07 18:13,4.6,-24.79,179.88,504,south of the Fiji Islands,0,,326,us6000u0tl
 2026-10-07 17:36,4.6,-4.45,143.86,101,"48 km SSW of Angoram, Papua New Guinea",0,,326,us6000u0te
-2026-10-07 16:42,4.7,5.38,125.78,117,"34 km E of Sarangani, Philippines",0,,340,us6000u0t4
-2026-10-07 15:46,4.7,-21.11,-68.68,106,"45 km WNW of Ollagüe, Chile",0,,340,us6000u0rx
-2026-10-07 14:59,5.2,-6.66,72.24,10,Chagos Archipelago region,0,,416,us6000u0rr
+2026-10-07 16:42,4.7,5.43,125.86,115,"44 km E of Sarangani, Philippines",0,,340,us6000u0t4
+2026-10-07 15:46,4.7,-21.08,-68.67,108,"46 km WNW of Ollagüe, Chile",0,,340,us6000u0rx
+2026-10-07 15:34,4.5,-7.95,120.97,10,"91 km NE of Ruteng, Indonesia",0,,312,us6000u2jd
+2026-10-07 14:59,5.2,-6.68,72.35,10,Chagos Archipelago region,0,,420,us6000u0rr
 2026-10-07 10:57,4.7,1.58,124.67,140,"22 km WNW of Manado, Indonesia",0,,340,us6000u0qw
 2026-10-07 10:20,4.5,-24.26,179.83,529,south of the Fiji Islands,0,,312,us6000u0qs
 2026-10-07 07:43,4.9,14.62,-93.19,62,"80 km SW of El Arenal, Mexico",0,,369,us6000u0q1
@@ -120,15 +234,15 @@ time_utc,magnitude,lat,lon,depth_km,place,tsunami_flag,pager_alert,significance,
 2026-10-07 02:49,4.8,-20.98,169,10,"132 km ENE of Tadine, New Caledonia",0,,354,us6000u0ns
 2026-10-07 01:39,4.6,48.19,153.37,109,Kuril Islands,0,,326,us6000u0nb
 2026-10-07 01:04,4.5,-22.89,170.98,10,southeast of the Loyalty Islands,0,,312,us6000u0yh
-2026-10-07 00:30,4.8,52.97,159.47,62,"57 km E of Petropavlovsk-Kamchatsky, Russia",0,,354,us6000u0mu
-2026-10-07 00:22,4.5,36.95,141.28,53,"37 km ESE of Iwaki, Japan",0,,312,us6000u0mr
-2026-10-06 22:12,4.7,-29.87,-177.62,71,"Kermadec Islands, New Zealand",0,,340,us6000u0ll
-2026-10-06 21:56,4.9,-3.94,139.57,80,"189 km SW of Abepura, Indonesia",0,,369,us6000u0le
-2026-10-06 20:15,4.6,-8.49,116.22,144,"14 km NE of Mataram, Indonesia",0,,331,us6000u0km
-2026-10-06 19:01,4.5,-3.68,101.89,73,"43 km WNW of Bengkulu, Indonesia",0,,312,us6000u0k2
+2026-10-07 00:30,4.8,52.95,159.55,66,"63 km ESE of Petropavlovsk-Kamchatsky, Russia",0,,354,us6000u0mu
+2026-10-07 00:22,4.5,37,141.17,60,"25 km ESE of Iwaki, Japan",0,,312,us6000u0mr
+2026-10-06 22:12,4.5,-29.91,-177.87,66,"Kermadec Islands, New Zealand",0,,312,us6000u0ll
+2026-10-06 21:56,4.9,-3.89,139.59,72,"183 km SW of Abepura, Indonesia",0,,369,us6000u0le
+2026-10-06 20:15,4.6,-8.49,116.18,144,"12 km NNE of Mataram, Indonesia",0,,331,us6000u0km
+2026-10-06 19:02,4.5,-3.7,101.9,93,"41 km WNW of Bengkulu, Indonesia",0,,312,us6000u0k2
 2026-10-06 18:34,5.5,58.8,-153.61,88,"92 km NNW of Aleneva, Alaska",0,green,623,aka2026tuxgky
-2026-10-06 18:15,4.9,42.2,88.22,10,"114 km SW of Turpan, China",0,,369,us6000u0jq
-2026-10-06 17:47,4.8,44.01,147.74,35,"85 km ENE of Shikotan, Russia",0,,354,us6000u0ji
+2026-10-06 18:15,4.9,42.26,88.21,10,"109 km SW of Turpan, China",0,,369,us6000u0jq
+2026-10-06 17:47,4.8,43.97,147.71,35,"81 km ENE of Shikotan, Russia",0,,354,us6000u0ji
 2026-10-06 16:53,5.1,30.04,79.55,17,"31 km NW of Bāgeshwar, India",0,green,423,us6000u0hz
 2026-10-06 16:48,5.8,48.44,154.93,29,"262 km SSW of Severo-Kuril’sk, Russia",0,green,518,us6000u0hy
 2026-10-06 15:12,4.7,-6.69,72.3,10,Chagos Archipelago region,0,,340,us6000u01m
@@ -140,13 +254,13 @@ time_utc,magnitude,lat,lon,depth_km,place,tsunami_flag,pager_alert,significance,
 2026-10-06 04:40,4.9,6.78,144.41,10,"State of Yap, Federated States of Micronesia",0,,369,us6000tzus
 2026-10-06 04:28,4.6,29.02,142.84,10,"Izu Islands, Japan region",0,,326,us6000tzuq
 2026-10-06 03:42,4.8,-7.83,120.39,9,"86 km N of Ruteng, Indonesia",0,,354,us6000tzuj
-2026-10-05 22:53,4.6,26.35,92.84,10,"31 km S of Tezpur, India",0,,327,us6000tzth
-2026-10-05 22:48,4.8,-5.79,154.27,142,"146 km WNW of Panguna, Papua New Guinea",0,,354,us6000tztg
-2026-10-05 21:38,4.5,-9.67,118.97,35,"39 km SW of Tambolaka, Indonesia",0,,312,us6000tzss
+2026-10-05 22:53,4.6,26.38,92.89,10,"29 km SSE of Tezpur, India",0,,327,us6000tzth
+2026-10-05 22:48,4.8,-5.8,154.32,135,"141 km WNW of Panguna, Papua New Guinea",0,,354,us6000tztg
+2026-10-05 21:38,4.5,-9.64,118.99,35,"35 km SW of Tambolaka, Indonesia",0,,312,us6000tzss
 2026-10-05 20:22,5,-24.42,179.81,519,south of the Fiji Islands,0,,385,us6000tzsc
 2026-10-05 19:47,4.6,8.96,40.01,10,"12 km ENE of Metahāra, Ethiopia",0,,326,us6000tzry
 2026-10-05 17:28,4.7,64.51,-17.31,10,"105 km WNW of Höfn, Iceland",0,,340,us6000tzpq
-2026-10-05 13:30,4.7,25.1,123.27,156,"75 km NNE of Yonakuni, Japan",0,,340,us6000tznu
+2026-10-05 13:30,4.7,25.09,123.34,155,"76 km NNE of Yonakuni, Japan",0,,340,us6000tznu
 2026-10-05 11:47,4.6,-15.72,167.15,35,"21 km S of Luganville, Vanuatu",0,,326,us6000tznh
 2026-10-05 10:52,5,15.8,147.4,10,"187 km ENE of Saipan, Northern Mariana Islands",0,,385,us6000tzna
 2026-10-05 10:03,4.7,-33.7,-14.53,10,southern Mid-Atlantic Ridge,0,,340,us6000u0y9
@@ -156,7 +270,7 @@ time_utc,magnitude,lat,lon,depth_km,place,tsunami_flag,pager_alert,significance,
 2026-10-05 04:16,4.5,45.95,151.87,35,Kuril Islands,0,,312,us6000tzm7
 2026-10-05 01:18,5.3,-0.43,-19.96,10,central Mid-Atlantic Ridge,0,,432,us6000tzlp
 2026-10-04 20:27,4.8,36.61,71.02,249,"32 km SSE of Jurm, Afghanistan",0,,355,us6000tzkn
-2026-10-04 14:06,5,5.37,-82.72,10,"295 km S of Burica, Panama",0,,385,us6000tzj8
+2026-10-04 14:06,5,5.25,-82.69,10,south of Panama,0,,385,us6000tzj8
 2026-10-04 12:36,4.6,-9.2,112.64,53,"110 km S of Dampit, Indonesia",0,,326,us6000tziz
 2026-10-04 11:43,5,37.73,36.13,10,"21 km ESE of Feke, Turkey",0,,386,us6000tzip
 2026-10-04 11:36,4.7,37.78,36.17,10,"22 km E of Feke, Turkey",0,,340,us6000tzil
@@ -165,8 +279,9 @@ time_utc,magnitude,lat,lon,depth_km,place,tsunami_flag,pager_alert,significance,
 2026-10-04 11:09,4.6,-5.04,151.43,162,"121 km SW of Kokopo, Papua New Guinea",0,,326,us6000tzic
 2026-10-04 10:52,4.8,-8.22,120.53,10,"43 km N of Ruteng, Indonesia",0,,354,us6000tzi8
 2026-10-04 10:13,5,-8.27,120.45,10,"37 km N of Ruteng, Indonesia",0,,385,us6000tzi5
-2026-10-04 07:56,4.5,-43.38,-82.66,10,West Chile Rise,0,,312,us6000u0y1
-2026-10-04 05:55,4.6,21.34,93.75,58,"121 km WNW of Chauk, Burma (Myanmar)",0,,326,us6000tzh0
+2026-10-04 07:56,4.6,-43.4,-82.56,10,West Chile Rise,0,,326,us6000u0y1
+2026-10-04 05:57,4.7,11.3,139.06,10,"221 km NNE of Colonia, Micronesia",0,,340,us6000u0xz
+2026-10-04 05:55,4.6,21.44,93.76,60,"125 km WNW of Chauk, Burma (Myanmar)",0,,326,us6000tzh0
 2026-10-04 01:47,4.9,-58.16,-23.35,10,South Sandwich Islands region,0,,369,us6000tzg0
 2026-10-04 01:38,4.9,-6.59,147.14,94,"21 km NE of Lae, Papua New Guinea",0,,369,us6000tzfv
 2026-10-03 23:37,5.3,4.82,95.16,56,"81 km SSW of Banda Aceh, Indonesia",0,green,432,us6000tzfg
@@ -177,6 +292,7 @@ time_utc,magnitude,lat,lon,depth_km,place,tsunami_flag,pager_alert,significance,
 2026-10-03 18:12,4.9,20.61,93.4,35,"72 km NE of Sittwe, Burma (Myanmar)",0,,369,us6000tzdp
 2026-10-03 17:24,4.6,-6.05,147.17,82,"76 km NNE of Lae, Papua New Guinea",0,,326,us6000tzdj
 2026-10-03 13:51,4.5,-27.49,-179.48,453,Kermadec Islands region,0,,312,us6000tzcm
+2026-10-03 10:55,4.5,51.42,159.91,10,"197 km SSE of Vilyuchinsk, Russia",0,,312,us6000tzc4
 2026-10-03 06:05,4.8,29.22,130.61,37,"112 km S of Koshima, Japan",0,,354,us6000tzb5
 2026-10-03 02:59,5,52.08,160.42,10,"163 km SE of Petropavlovsk-Kamchatsky, Russia",0,,385,us6000tzal
 2026-10-03 00:11,4.5,31.3,130.61,127,"7 km NNW of Ibusuki, Japan",0,,312,us6000tz9w
@@ -193,14 +309,16 @@ time_utc,magnitude,lat,lon,depth_km,place,tsunami_flag,pager_alert,significance,
 2026-10-02 20:26,4.6,-4.57,152.84,87,"67 km ESE of Kokopo, Papua New Guinea",0,,326,us6000tz8b
 2026-10-02 20:25,4.9,51.78,159.57,50,"151 km SSE of Vilyuchinsk, Russia",0,,369,us6000tz8a
 2026-10-02 18:25,5,51.58,159.83,10,"179 km SSE of Vilyuchinsk, Russia",0,,385,us6000tz7b
-2026-10-02 16:55,4.5,23.15,94.55,104,"56 km SSE of Mawlaik, Burma (Myanmar)",0,,312,us6000tz6z
-2026-10-02 16:34,5.8,51.69,159.74,29,"165 km SSE of Vilyuchinsk, Russia",0,green,518,us6000tz62
-2026-10-02 16:31,5,10.37,-62.42,10,"26 km SSW of Güiria, Venezuela",0,,385,us6000tz5h
-2026-10-02 16:02,4.6,53.02,158.92,99,"20 km ESE of Petropavlovsk-Kamchatsky, Russia",0,,326,us6000tz20
-2026-10-02 16:01,4.7,-38.38,145.84,10,"5 km NNE of Korumburra, Australia",0,green,763,us6000tz1y
-2026-10-02 15:26,4.5,38.15,21.85,10,"7 km NE of Chalandrítsa, Greece",0,,312,us6000tz1r
-2026-10-02 15:10,4.8,14.57,119.46,10,"78 km WSW of San Nicolas, Philippines",0,,354,us6000tz1q
-2026-10-02 13:57,5,-39.16,174.26,10,"6 km E of Inglewood, New Zealand",0,green,391,us6000tz1c
+2026-10-02 16:57,4.6,51.28,159.34,10,"194 km SSE of Vilyuchinsk, Russia",0,,326,us6000u174
+2026-10-02 16:55,4.5,23.11,94.42,107,"58 km S of Mawlaik, Burma (Myanmar)",0,,312,us6000tz6z
+2026-10-02 16:50,4.5,51.46,159.61,10,"182 km SSE of Vilyuchinsk, Russia",0,,312,us6000u173
+2026-10-02 16:34,5.7,51.8,159.67,17,"152 km SE of Vilyuchinsk, Russia",0,green,500,us6000tz62
+2026-10-02 16:31,5,10.38,-62.23,10,"22 km SSE of Güiria, Venezuela",0,,385,us6000tz5h
+2026-10-02 16:02,4.6,52.96,158.99,98,"26 km ESE of Petropavlovsk-Kamchatsky, Russia",0,,326,us6000tz20
+2026-10-02 16:01,4.7,-38.38,145.81,10,"5 km NNW of Korumburra, Australia",0,green,764,us6000tz1y
+2026-10-02 15:26,4.5,38.12,21.82,10,"3 km ENE of Chalandrítsa, Greece",0,,312,us6000tz1r
+2026-10-02 15:10,4.8,14.59,119.45,10,"78 km WSW of San Nicolas, Philippines",0,,354,us6000tz1q
+2026-10-02 13:57,5,-39.14,174.23,10,"4 km ENE of Inglewood, New Zealand",0,green,391,us6000tz1c
 2026-10-02 11:14,5,-6.64,155.01,38,"63 km SW of Panguna, Papua New Guinea",0,,385,us6000tz0x
 2026-10-02 06:53,4.8,18.76,-104.38,24,"35 km SSW of El Colomo, Mexico",0,,354,us6000tyzx
 2026-10-02 06:48,4.5,-7.95,121.1,10,"101 km NE of Ruteng, Indonesia",0,,312,us6000tyzy
@@ -210,19 +328,22 @@ time_utc,magnitude,lat,lon,depth_km,place,tsunami_flag,pager_alert,significance,
 2026-10-02 04:10,4.9,-7.19,155.61,35,"97 km S of Panguna, Papua New Guinea",0,,369,us6000tyzg
 2026-10-02 02:02,4.7,-11.17,165.79,10,"49 km S of Lata, Solomon Islands",0,,340,us6000tzim
 2026-10-01 21:01,4.5,36.09,139.75,65,"2 km NE of Satte, Japan",0,,312,us6000tyxk
-2026-10-01 20:00,5.1,-11.67,167.09,10,"176 km SE of Lata, Solomon Islands",0,,400,us6000tyx0
-2026-10-01 19:38,5.1,-11.77,166.96,10,"171 km SE of Lata, Solomon Islands",0,,400,us6000tywu
-2026-10-01 17:37,4.6,-7.99,120.9,10,"83 km NE of Ruteng, Indonesia",0,,326,us6000tyw9
-2026-10-01 17:17,5.1,39.88,143.17,35,"108 km ENE of Miyako, Japan",0,,400,us6000tyw6
+2026-10-01 20:00,4.9,-11.82,167.2,10,"194 km SE of Lata, Solomon Islands",0,,369,us6000tyx0
+2026-10-01 19:38,5.1,-11.88,166.99,10,"182 km SE of Lata, Solomon Islands",0,,400,us6000tywu
+2026-10-01 17:37,4.6,-7.99,120.91,10,"84 km NE of Ruteng, Indonesia",0,,326,us6000tyw9
+2026-10-01 17:17,5.1,39.86,143.12,14,"103 km ENE of Miyako, Japan",0,,400,us6000tyw6
 2026-10-01 14:46,4.8,53.72,-163.72,35,"127 km S of False Pass, Alaska",0,,354,us6000tyuf
-2026-10-01 14:19,5,-7.08,120.91,10,"176 km NNE of Ruteng, Indonesia",0,,385,us6000tyua
+2026-10-01 14:19,5,-7.05,120.84,10,"177 km NNE of Ruteng, Indonesia",0,,385,us6000tyua
+2026-10-01 13:21,4.6,2.13,-97.92,10,west of the Galapagos Islands,0,,326,us6000tyu6
+2026-10-01 13:10,4.6,2.18,-97.52,10,west of the Galapagos Islands,0,,326,us6000u0zi
 2026-10-01 12:27,5.3,35.7,140.55,42,"0 km NNE of Yōkaichiba, Japan",0,,441,us6000tytg
 2026-10-01 10:51,4.5,41.67,46.73,10,"8 km ENE of Zaqatala, Azerbaijan",0,,312,us6000tysk
 2026-10-01 10:03,4.7,31.04,-41.43,10,northern Mid-Atlantic Ridge,0,,340,us6000tysi
 2026-10-01 08:45,4.9,-19.14,-172.7,10,"145 km ESE of Neiafu, Tonga",0,,369,us6000tyr4
-2026-10-01 08:17,4.5,41.45,73.14,10,"49 km SSE of Toktogul, Kyrgyzstan",0,,312,us6000tyqy
-2026-10-01 07:40,4.6,31.24,-41.59,10,northern Mid-Atlantic Ridge,0,,326,us6000tyqx
-2026-10-01 05:34,5,6.11,123.86,10,"38 km WSW of Palimbang, Philippines",0,,385,us6000tyq7
+2026-10-01 08:17,4.5,41.35,73.23,10,"50 km NNE of Jalal-Abad, Kyrgyzstan",0,,312,us6000tyqy
+2026-10-01 07:40,4.6,31.19,-41.58,10,northern Mid-Atlantic Ridge,0,,326,us6000tyqx
+2026-10-01 05:38,4.6,28.58,104.65,10,"15 km NNW of Xunchang, China",0,,326,us6000u0z6
+2026-10-01 05:34,5.3,6.05,123.83,10,"42 km WSW of Palimbang, Philippines",0,,432,us6000tyq7
 2026-10-01 02:09,4.5,-6.15,130.35,95,"272 km WSW of Tual, Indonesia",0,,312,us6000typ5
 2026-10-01 01:31,4.6,-0.86,123.18,116,"45 km ENE of Luwuk, Indonesia",0,,326,us6000typ0
 2026-10-01 01:29,5.2,36.1,68.78,50,"7 km ESE of Baghlān, Afghanistan",0,,417,us6000tyny
@@ -239,13 +360,14 @@ time_utc,magnitude,lat,lon,depth_km,place,tsunami_flag,pager_alert,significance,
 2026-09-30 06:50,5,-20.99,168.42,10,"83 km NE of Tadine, New Caledonia",0,,385,us6000tyid
 2026-09-30 05:20,4.6,38.33,23.28,10,"3 km W of Thívai, Greece",0,,326,us6000tyhn
 2026-09-30 05:00,5.6,23.8,122.91,11,"74 km S of Yonakuni, Japan",0,green,487,us6000tyhk
-2026-09-30 04:48,5.4,-63.01,169.22,10,Balleny Islands region,0,green,449,us6000tyhi
-2026-09-30 02:35,4.5,4.65,94.85,34,"112 km SSW of Banda Aceh, Indonesia",0,,312,us6000tyh0
-2026-09-30 02:30,4.5,4.5,125.75,157,"104 km SSE of Sarangani, Philippines",0,,312,us6000tygz
-2026-09-30 01:34,4.8,13.09,120.47,10,"18 km SW of Tayaman, Philippines",0,,356,us6000tygs
-2026-09-30 01:17,4.8,-21.01,168.33,10,"75 km NE of Tadine, New Caledonia",0,,354,us6000tygq
+2026-09-30 04:56,4.5,-17.36,-172.27,10,"224 km SE of Hihifo, Tonga",0,,312,us6000u0sa
+2026-09-30 04:48,5.4,-63.32,169.81,10,Balleny Islands region,0,green,449,us6000tyhi
+2026-09-30 02:30,4.5,4.59,125.76,140,"96 km SSE of Sarangani, Philippines",0,,312,us6000tygz
+2026-09-30 01:34,4.8,13.16,120.67,10,"10 km SE of Mamburao, Philippines",0,,356,us6000tygs
+2026-09-30 01:28,4.5,-20.96,168.48,10,"89 km NE of Tadine, New Caledonia",0,,312,us6000u0s5
+2026-09-30 01:17,4.8,-21.04,168.32,10,"72 km NE of Tadine, New Caledonia",0,,354,us6000tygq
 2026-09-29 22:17,4.6,-0.95,67.71,10,Carlsberg Ridge,0,,326,us6000u0j4
-2026-09-29 20:45,4.7,17.53,122.41,10,"49 km N of Dicabisagan, Philippines",0,,340,us6000tyf0
+2026-09-29 20:45,4.7,17.52,122.45,10,"48 km N of Dicabisagan, Philippines",0,,340,us6000tyf0
 2026-09-29 16:13,4.7,-19.3,-174.25,57,"50 km N of Fangale’ounga, Tonga",0,,340,us6000tycv
 2026-09-29 15:31,4.6,-40.94,-91.41,10,West Chile Rise,0,,326,us6000tycz
 2026-09-29 15:17,4.8,-58.75,-25.96,114,South Sandwich Islands region,0,,354,us6000tyck
@@ -280,10 +402,11 @@ time_utc,magnitude,lat,lon,depth_km,place,tsunami_flag,pager_alert,significance,
 2026-09-28 04:42,4.6,49.03,151.57,259,northwest of the Kuril Islands,0,,326,us6000ty2w
 2026-09-28 04:41,4.9,-57.65,-25.35,35,South Sandwich Islands region,0,,369,us6000ty2y
 2026-09-28 04:41,5.4,50.05,-130.22,10,"231 km WSW of Port McNeill, Canada",1,green,449,us6000ty2u
-2026-09-28 03:43,5.1,-57.67,-25.28,35,South Sandwich Islands region,0,,400,us6000ty2e
-2026-09-28 03:25,5.3,-21.22,168.35,10,"60 km NE of Tadine, New Caledonia",0,,432,us6000ty2b
-2026-09-28 03:15,4.7,-21.12,168.22,10,"59 km NE of Tadine, New Caledonia",0,,340,us6000ty3j
-2026-09-28 02:53,4.9,50.24,-129.78,10,"195 km WSW of Port McNeill, Canada",0,,369,us6000ty27
+2026-09-28 03:43,5.2,-57.72,-25.22,35,South Sandwich Islands region,0,,416,us6000ty2e
+2026-09-28 03:29,4.6,-21.08,168.54,10,"85 km NE of Tadine, New Caledonia",0,,326,us6000tzqa
+2026-09-28 03:25,5.3,-21.16,168.44,10,"72 km NE of Tadine, New Caledonia",0,,432,us6000ty2b
+2026-09-28 03:15,4.6,-21.12,168.31,10,"65 km NE of Tadine, New Caledonia",0,,326,us6000ty3j
+2026-09-28 02:53,4.9,50.28,-129.77,10,"193 km WSW of Port McNeill, Canada",0,,369,us6000ty27
 2026-09-28 00:54,4.9,15.41,119.52,10,"40 km W of Palauig, Philippines",0,,369,us6000ty1l
 2026-09-28 00:47,4.8,-21.45,168.63,10,"78 km E of Tadine, New Caledonia",0,,354,us6000ty1m
 2026-09-28 00:40,4.5,-21.34,168.73,10,"90 km ENE of Tadine, New Caledonia",0,,312,us6000tzr9
@@ -298,15 +421,17 @@ time_utc,magnitude,lat,lon,depth_km,place,tsunami_flag,pager_alert,significance,
 2026-09-27 16:43,5,35.36,99.52,10,"191 km NW of Oula Xiuma, China",0,,385,us6000txzj
 2026-09-27 15:41,5.3,-62.54,165.95,10,Balleny Islands region,0,,432,us6000tyt8
 2026-09-27 15:00,4.6,36.76,74.47,43,"52 km NNW of Barishal, Pakistan",0,,326,us6000txz9
-2026-09-27 07:48,4.6,50.9,179.32,47,"Rat Islands, Aleutian Islands, Alaska",0,,326,us6000txxm
+2026-09-27 10:06,4.8,-21.16,168.42,10,"70 km NE of Tadine, New Caledonia",0,,354,us6000ty3m
+2026-09-27 07:48,4.6,50.89,179.35,43,"Rat Islands, Aleutian Islands, Alaska",0,,326,us6000txxm
 2026-09-27 05:23,4.6,-6.61,102.5,10,"297 km SSW of Pagar Alam, Indonesia",0,,326,us6000tz5w
-2026-09-27 04:59,4.9,-8.89,158.05,10,"159 km ESE of Gizo, Solomon Islands",0,,369,us6000txwy
+2026-09-27 04:59,4.8,-8.95,158.1,10,"167 km SE of Gizo, Solomon Islands",0,,354,us6000txwy
 2026-09-27 04:32,4.5,-20.96,168.51,10,"92 km NE of Tadine, New Caledonia",0,,312,us6000tz5s
-2026-09-27 04:14,4.5,-37.14,-75.19,10,"145 km WNW of Lebu, Chile",0,,312,us6000txwk
-2026-09-27 02:22,5.1,-21.29,168.71,10,"90 km ENE of Tadine, New Caledonia",0,,400,us6000txw5
+2026-09-27 02:22,5.1,-21.34,168.69,10,"87 km ENE of Tadine, New Caledonia",0,,400,us6000txw5
 2026-09-27 01:58,4.6,-21.33,168.77,10,"95 km ENE of Tadine, New Caledonia",0,,326,us6000tz5m
-2026-09-27 01:18,5,-21.43,168.46,10,"61 km ENE of Tadine, New Caledonia",0,,385,us6000txvu
-2026-09-26 21:49,4.9,-4.64,152.91,64,"78 km ESE of Kokopo, Papua New Guinea",0,,369,us6000txv7
+2026-09-27 01:39,4.6,-21.21,168.54,10,"77 km ENE of Tadine, New Caledonia",0,,326,us6000txvw
+2026-09-27 01:18,5.1,-21.43,168.47,10,"61 km ENE of Tadine, New Caledonia",0,,400,us6000txvu
+2026-09-27 00:15,4.5,-21.15,168.27,10,"59 km NE of Tadine, New Caledonia",0,,312,us6000tz5j
+2026-09-26 21:49,4.9,-4.72,152.83,68,"74 km ESE of Kokopo, Papua New Guinea",0,,369,us6000txv7
 2026-09-26 19:37,4.9,-8.15,120.33,10,"53 km NNW of Ruteng, Indonesia",0,,369,us6000txur
 2026-09-26 19:33,4.5,-21.35,168.63,10,"80 km ENE of Tadine, New Caledonia",0,,312,us6000tz24
 2026-09-26 18:31,4.7,28.34,104.9,10,"15 km WNW of Bowangshan, China",0,,340,us6000txuj
@@ -336,19 +461,20 @@ time_utc,magnitude,lat,lon,depth_km,place,tsunami_flag,pager_alert,significance,
 2026-09-26 07:08,5.1,-21.19,168.42,10,"68 km NE of Tadine, New Caledonia",0,,400,us6000txrn
 2026-09-26 06:38,4.6,4.02,-75.83,10,"25 km W of Roncesvalles, Colombia",0,,326,us6000txrj
 2026-09-26 05:50,5.1,-21.23,168.4,10,"64 km ENE of Tadine, New Caledonia",0,,400,us6000txrf
-2026-09-26 02:52,4.5,68.86,-16.96,10,Iceland region,0,,312,us6000txr0
+2026-09-26 02:52,4.8,68.89,-17.02,10,Iceland region,0,,354,us6000txr0
 2026-09-26 02:16,4.5,-21.3,168.71,10,"89 km ENE of Tadine, New Caledonia",0,,312,us6000tz2d
-2026-09-26 01:17,4.7,-21.29,168.61,10,"80 km ENE of Tadine, New Caledonia",0,,340,us6000txuu
-2026-09-26 01:10,5.3,-21.29,168.37,10,"58 km ENE of Tadine, New Caledonia",0,,432,us6000txqu
+2026-09-26 02:06,4.5,45.17,150.48,48,"204 km E of Kuril’sk, Russia",0,,312,us6000tz2c
+2026-09-26 01:17,4.7,-21.23,168.47,10,"70 km ENE of Tadine, New Caledonia",0,,340,us6000txuu
+2026-09-26 01:10,5.3,-21.18,168.41,10,"68 km NE of Tadine, New Caledonia",0,,432,us6000txqu
 2026-09-26 01:04,4.9,-21.3,168.68,10,"87 km ENE of Tadine, New Caledonia",0,,369,us6000tz28
-2026-09-25 23:57,5,28.58,104.64,10,"15 km NNW of Xunchang, China",0,,385,us6000txql
+2026-09-25 23:57,5,28.53,104.61,10,"13 km NW of Xunchang, China",0,,385,us6000txql
 2026-09-25 23:52,5.4,-21.2,168.43,10,"69 km ENE of Tadine, New Caledonia",0,green,449,us6000txqk
 2026-09-25 23:39,5.5,-21.37,168.44,10,"61 km ENE of Tadine, New Caledonia",0,green,465,us6000txqi
 2026-09-25 23:32,4.9,-21.15,168.51,10,"78 km NE of Tadine, New Caledonia",0,,369,us6000txqf
 2026-09-25 22:58,4.8,-21.22,168.61,10,"84 km ENE of Tadine, New Caledonia",0,,354,us6000txq8
 2026-09-25 22:07,5.1,-21.27,168.57,10,"78 km ENE of Tadine, New Caledonia",0,,400,us6000txq2
-2026-09-25 21:23,6.6,-21.3,168.61,10,"80 km ENE of Tadine, New Caledonia",0,green,678,us6000txpi
-2026-09-25 21:01,5,28.57,104.7,10,"13 km N of Xunchang, China",0,,385,us6000txpf
+2026-09-25 21:23,6.7,-21.31,168.55,10,"74 km ENE of Tadine, New Caledonia",0,green,700,us6000txpi
+2026-09-25 21:01,5,28.54,104.65,10,"11 km NNW of Xunchang, China",0,,385,us6000txpf
 2026-09-25 20:43,4.5,-24.05,-179.99,483,south of the Fiji Islands,0,,312,us6000txpa
 2026-09-25 20:41,4.6,-11.7,166.68,224,"144 km SE of Lata, Solomon Islands",0,,326,us6000txp8
 2026-09-25 19:39,4.8,-8.23,120.43,14,"42 km N of Ruteng, Indonesia",0,,354,us6000txnq
@@ -358,10 +484,10 @@ time_utc,magnitude,lat,lon,depth_km,place,tsunami_flag,pager_alert,significance,
 2026-09-25 12:37,4.9,-59.85,-61.37,10,Drake Passage,0,,369,us6000txk8
 2026-09-25 11:53,4.5,34.84,77.58,10,"72 km E of Thang, India",0,,312,us6000txk0
 2026-09-25 11:12,5.3,-21.89,174.08,24,Vanuatu region,0,,432,us6000txjy
-2026-09-25 04:27,5,-7.4,125.7,10,"124 km N of Metinaro, Timor Leste",0,,385,us6000txim
-2026-09-25 00:57,4.5,4.52,-76.98,52,"39 km WSW of Sipí, Colombia",0,,312,us6000txhs
-2026-09-24 23:30,5.3,-6.09,147.39,54,"72 km NW of Finschhafen, Papua New Guinea",0,,432,us6000txhp
-2026-09-24 22:22,4.9,-29.44,-177.66,49,"Kermadec Islands, New Zealand",0,,369,us6000txha
+2026-09-25 04:27,5.1,-7.42,125.67,10,"123 km N of Metinaro, Timor Leste",0,,400,us6000txim
+2026-09-25 00:57,4.6,4.5,-76.91,56,"34 km WSW of Sipí, Colombia",0,,326,us6000txhs
+2026-09-24 23:30,5.3,-6.11,147.4,69,"69 km NW of Finschhafen, Papua New Guinea",0,,432,us6000txhp
+2026-09-24 22:22,5,-29.45,-177.67,49,"Kermadec Islands, New Zealand",0,,385,us6000txha
 2026-09-24 20:05,4.6,1.89,126.5,52,"156 km NW of Ternate, Indonesia",0,,326,us6000txg5
 2026-09-24 18:00,5.1,-4.65,152.25,101,"33 km S of Kokopo, Papua New Guinea",0,,400,us6000txf9
 2026-09-24 16:46,4.6,3.71,-75.75,10,"23 km NNW of Rioblanco, Colombia",0,,326,us6000txdb
@@ -371,39 +497,46 @@ time_utc,magnitude,lat,lon,depth_km,place,tsunami_flag,pager_alert,significance,
 2026-09-24 12:29,5.2,-5.34,151.49,96,"139 km SW of Kokopo, Papua New Guinea",0,,416,us6000txbm
 2026-09-24 11:08,4.9,-30.23,-177.87,35,"Kermadec Islands, New Zealand",0,,369,us6000txb3
 2026-09-24 07:40,5.1,37.46,38.78,10,"20 km SW of Hilvan, Turkey",0,,405,us6000tx9u
-2026-09-24 03:30,4.5,-8.33,119.37,10,"31 km NNW of Komodo, Indonesia",0,,312,us6000tx8q
-2026-09-24 00:26,4.6,-1.81,138.78,35,"223 km WNW of Abepura, Indonesia",0,,326,us6000tx7g
-2026-09-23 22:31,4.5,-6.64,148.29,35,"50 km E of Finschhafen, Papua New Guinea",0,,312,us6000tye0
-2026-09-23 20:09,4.6,3.83,-75.47,75,"9 km S of San Antonio, Colombia",0,,326,us6000tx60
-2026-09-23 17:46,5,-16.32,178.02,10,"139 km NNE of Ba, Fiji",0,,385,us6000tx58
-2026-09-23 17:20,4.9,-14.64,-175.05,10,"193 km SE of Mata-Utu, Wallis and Futuna",0,,369,us6000tx53
+2026-09-24 00:26,4.6,-1.85,138.85,35,"215 km WNW of Abepura, Indonesia",0,,326,us6000tx7g
+2026-09-23 22:31,4.5,-6.65,148.29,35,"50 km ESE of Finschhafen, Papua New Guinea",0,,312,us6000tye0
+2026-09-23 20:09,4.6,3.8,-75.54,63,"10 km NW of Chaparral, Colombia",0,,326,us6000tx60
+2026-09-23 17:46,5,-16.33,178.03,10,"138 km NNE of Ba, Fiji",0,,385,us6000tx58
+2026-09-23 17:20,4.9,-14.65,-175.06,10,"193 km SE of Mata-Utu, Wallis and Futuna",0,,369,us6000tx53
 2026-09-23 16:48,4.6,-24.09,-66.94,189,"64 km WNW of San Antonio de los Cobres, Argentina",0,,326,us6000tx4w
 2026-09-23 14:45,4.6,-23.91,179,548,south of the Fiji Islands,0,,326,us6000tx3n
 2026-09-23 14:41,5.7,-14.8,-175.19,10,"197 km NW of Hihifo, Tonga",0,green,500,us6000tx3m
 2026-09-23 13:01,5,21.65,143,307,Mariana Islands region,0,,385,us6000tx38
-2026-09-23 12:23,4.6,1.22,126.53,48,"106 km WNW of Ternate, Indonesia",0,,326,us6000tx31
-2026-09-23 09:21,5.3,-28.73,-67.29,122,"51 km WSW of Arauco, Argentina",0,,434,us6000tx29
-2026-09-23 08:41,4.9,-60.27,-47.6,10,Scotia Sea,0,,369,us6000tx23
-2026-09-23 07:36,4.9,-35.06,-107.01,10,southern East Pacific Rise,0,,369,us6000tx1w
-2026-09-23 05:46,4.7,37.28,71.77,141,"30 km SE of Khorugh, Tajikistan",0,,340,us6000tx16
+2026-09-23 12:23,4.6,1.25,126.35,35,"125 km WNW of Ternate, Indonesia",0,,326,us6000tx31
+2026-09-23 11:09,4.5,-34.95,-108.44,10,southern East Pacific Rise,0,,312,us6000tydi
+2026-09-23 10:58,4.5,-58.41,-26.31,155,South Sandwich Islands region,0,,312,us6000tydg
+2026-09-23 10:33,4.5,13.87,56.88,10,Socotra region,0,,312,us6000tx2s
+2026-09-23 09:21,5.3,-28.77,-67.3,121,"47 km NNE of Chilecito, Argentina",0,,434,us6000tx29
+2026-09-23 08:41,5,-60.34,-47.55,10,Scotia Sea,0,,385,us6000tx23
+2026-09-23 07:36,4.9,-35.04,-106.96,10,southern East Pacific Rise,0,,369,us6000tx1w
+2026-09-23 07:35,4.5,-17.99,-174.54,106,"93 km NW of Neiafu, Tonga",0,,312,us6000tx1l
+2026-09-23 05:46,4.6,37.24,71.77,145,"33 km SE of Khorugh, Tajikistan",0,,326,us6000tx16
 2026-09-23 03:52,4.6,-57.71,-25.57,29,South Sandwich Islands region,0,,326,us6000tyda
 2026-09-23 00:30,4.5,30.2,-42.09,10,northern Mid-Atlantic Ridge,0,,312,us6000tyd7
-2026-09-22 23:30,4.5,-57.65,-25.79,75,South Sandwich Islands region,0,,312,us6000ty6e
-2026-09-22 22:27,4.5,-6.91,105.47,35,"71 km SW of Labuan, Indonesia",0,,312,us6000twzp
+2026-09-22 23:30,4.5,-57.7,-25.83,84,South Sandwich Islands region,0,,312,us6000ty6e
+2026-09-22 22:27,4.5,-6.89,105.49,35,"68 km SW of Labuan, Indonesia",0,,312,us6000twzp
 2026-09-22 22:12,4.6,3.95,-75.83,10,"25 km WSW of Roncesvalles, Colombia",0,,326,us6000twzi
 2026-09-22 20:34,4.7,9.8,126.28,10,"19 km ENE of Union, Philippines",0,,340,us6000twys
 2026-09-22 20:11,5,-20.88,-175.64,94,"47 km NW of Houma, Tonga",0,,385,us6000twyf
-2026-09-22 16:09,4.5,41.8,82.32,10,"51 km W of Kuqa, China",0,,312,us6000twwy
-2026-09-22 13:56,4.6,50.43,156.49,84,"37 km SE of Severo-Kuril’sk, Russia",0,,326,us7000tj5n
-2026-09-22 11:43,4.7,14.11,-91.12,89,"7 km WNW of La Gomera, Guatemala",0,,342,us7000tj58
-2026-09-22 10:46,5.1,29.04,128.89,10,"88 km NNW of Uken, Japan",0,,400,us7000tj4y
-2026-09-22 10:30,4.6,-6.34,128.63,296,"296 km S of Ambon, Indonesia",0,,326,us7000tj4v
-2026-09-22 06:48,4.6,11.1,124.21,10,"19 km ENE of Nailong, Philippines",0,,326,us7000tj3v
-2026-09-22 06:11,4.9,23,142.34,10,"Volcano Islands, Japan region",0,,369,us7000tj3s
-2026-09-22 05:18,5,23.13,142.44,10,"Volcano Islands, Japan region",0,,385,us7000tj3k
-2026-09-22 03:36,4.7,-8.39,121.47,10,"54 km NNW of Ende, Indonesia",0,,340,us7000tj37
-2026-09-22 00:08,4.8,19.22,121.09,10,"67 km N of Claveria, Philippines",0,,354,us7000tj21
-2026-09-21 23:48,5.3,4.54,125.34,10,"96 km S of Sarangani, Philippines",0,,432,us7000tj1s
+2026-09-22 16:59,4.6,15.11,120.5,143,"3 km NW of Babo-Pangulo, Philippines",0,,326,us6000ty69
+2026-09-22 16:09,4.5,41.88,82.24,10,"60 km WNW of Kuqa, China",0,,312,us6000twwy
+2026-09-22 15:16,4.6,-17.25,-173.2,10,"156 km SSE of Hihifo, Tonga",0,,326,us6000ty65
+2026-09-22 13:56,4.6,50.46,156.52,84,"37 km SE of Severo-Kuril’sk, Russia",0,,326,us7000tj5n
+2026-09-22 13:48,4.5,39.84,143.6,39,"143 km E of Miyako, Japan",0,,312,us6000ty6g
+2026-09-22 11:43,4.6,14.2,-91.05,90,"11 km WSW of La Democracia, Guatemala",0,,327,us7000tj58
+2026-09-22 10:46,5,28.99,128.91,10,"82 km NNW of Uken, Japan",0,,385,us7000tj4y
+2026-09-22 10:30,4.5,-6.34,128.65,295,"296 km S of Ambon, Indonesia",0,,312,us7000tj4v
+2026-09-22 06:48,4.6,11.09,124.2,10,"18 km ENE of Nailong, Philippines",0,,326,us7000tj3v
+2026-09-22 06:11,4.9,23.07,142.39,10,"Volcano Islands, Japan region",0,,369,us7000tj3s
+2026-09-22 05:18,5.1,23.04,142.41,10,"Volcano Islands, Japan region",0,,400,us7000tj3k
+2026-09-22 03:36,4.7,-8.39,121.52,10,"52 km NNW of Ende, Indonesia",0,,340,us7000tj37
+2026-09-22 03:30,4.8,-56.54,-122.3,10,southern East Pacific Rise,0,,354,us7000tj3n
+2026-09-22 00:08,4.8,19.22,121.1,10,"67 km N of Namuac, Philippines",0,,354,us7000tj21
+2026-09-21 23:48,5.3,4.5,125.28,10,"101 km SSW of Sarangani, Philippines",0,,432,us7000tj1s
 2026-09-21 22:29,4.5,37.53,142.04,35,"91 km E of Namie, Japan",0,,312,us7000tj1b
 2026-09-21 21:37,5,-56.52,-24.16,10,South Sandwich Islands region,0,,385,us7000tj0z
 2026-09-21 20:34,4.6,-28.7,-176.44,10,Kermadec Islands region,0,,326,us6000txm9
@@ -411,33 +544,36 @@ time_utc,magnitude,lat,lon,depth_km,place,tsunami_flag,pager_alert,significance,
 2026-09-21 17:38,4.5,-22.04,-67.54,193,"116 km SE of Ollagüe, Chile",0,,312,us7000tizh
 2026-09-21 15:56,4.5,31.86,142.39,10,"Izu Islands, Japan region",0,,312,us7000tiya
 2026-09-21 13:38,4.7,32.56,132.09,46,"40 km E of Nobeoka, Japan",0,,340,us7000tixp
-2026-09-21 12:17,4.7,-21.26,-68.99,121,"76 km W of Ollagüe, Chile",0,,340,us7000tixg
-2026-09-21 11:48,5.2,-22.36,-71.87,10,"167 km WNW of Mejillones, Chile",0,,416,us7000tixc
-2026-09-21 10:48,4.7,37.92,72.49,129,"95 km ENE of Khorugh, Tajikistan",0,,340,us7000tiwz
-2026-09-21 07:31,5,-0.86,122.5,10,"34 km WNW of Luwuk, Indonesia",0,,385,us7000tiw4
-2026-09-21 04:28,4.7,-36.25,177.8,213,"156 km NNW of Hicks Bay, New Zealand",0,,340,us7000tivi
-2026-09-21 03:58,4.5,-8.4,-78.86,73,"4 km W of Victor Raul, Peru",0,,312,us7000tivb
+2026-09-21 12:17,4.7,-21.25,-68.92,115,"69 km W of Ollagüe, Chile",0,,340,us7000tixg
+2026-09-21 11:48,5.2,-22.35,-71.9,10,"170 km WNW of Mejillones, Chile",0,,416,us7000tixc
+2026-09-21 10:48,4.7,37.92,72.45,120,"92 km ENE of Khorugh, Tajikistan",0,,340,us7000tiwz
+2026-09-21 09:32,4.6,0.87,126.62,55,"85 km W of Ternate, Indonesia",0,,326,us7000tiwi
+2026-09-21 08:10,4.5,27.19,91.26,10,"9 km S of Mongar, Bhutan",0,,312,us6000txlw
+2026-09-21 07:31,4.9,-0.77,122.46,10,"41 km WNW of Luwuk, Indonesia",0,,369,us7000tiw4
+2026-09-21 04:28,4.7,-36.24,177.8,218,"156 km NNW of Hicks Bay, New Zealand",0,,340,us7000tivi
 2026-09-21 01:41,5,-8.31,120.59,10,"35 km NNE of Ruteng, Indonesia",0,green,385,us7000tiur
 2026-09-21 01:02,4.9,37.79,36.26,10,"25 km NNW of Andırın, Turkey",0,,370,us7000tiui
-2026-09-21 00:08,4.6,4.91,125.39,10,"54 km S of Sarangani, Philippines",0,,326,us6000txlj
-2026-09-20 23:36,4.6,-58.82,-14.83,10,east of the South Sandwich Islands,0,,326,us6000txli
+2026-09-21 00:08,4.6,4.89,125.45,10,"56 km S of Sarangani, Philippines",0,,326,us6000txlj
+2026-09-20 23:36,4.6,-58.85,-14.82,10,east of the South Sandwich Islands,0,,326,us6000txli
 2026-09-20 23:25,4.6,43.6,146.55,57,"26 km SSW of Shikotan, Russia",0,,326,us7000tiu3
 2026-09-20 22:51,5,-12.44,166.4,10,"201 km SSE of Lata, Solomon Islands",0,,385,us7000titz
 2026-09-20 22:09,4.9,-23.05,171.75,10,southeast of the Loyalty Islands,0,,369,us7000titt
-2026-09-20 21:06,5,52.73,-162.48,10,"244 km SSE of False Pass, Alaska",0,green,385,us7000tit6
+2026-09-20 21:06,5,52.71,-162.46,16,"246 km SSE of False Pass, Alaska",0,green,385,us7000tit6
 2026-09-20 20:54,5.5,-48.45,31.25,10,south of Africa,0,green,465,us7000tit5
 2026-09-20 20:41,4.5,27.69,67.01,10,"41 km ESE of Khuzdar, Pakistan",0,,312,us7000tit3
 2026-09-20 15:39,4.6,-6.97,127.43,10,"178 km NNE of Lospalos, Timor Leste",0,,326,us7000tiw0
 2026-09-20 15:37,4.6,9.09,126.16,87,"2 km S of Buenavista, Philippines",0,,326,us6000txlb
 2026-09-20 15:33,4.5,-20.37,-177.86,513,"280 km WNW of Houma, Tonga",0,,312,us7000tis4
-2026-09-20 13:55,4.6,52.75,-170.35,87,"102 km WSW of Nikolski, Alaska",0,,326,us7000tirv
+2026-09-20 13:55,4.5,52.69,-170.3,92,"101 km WSW of Nikolski, Alaska",0,,312,us7000tirv
 2026-09-20 13:55,4.6,-22.96,-68.57,111,"38 km W of San Pedro de Atacama, Chile",0,,326,us7000tirs
 2026-09-20 13:54,4.7,33.99,137.32,358,"58 km SE of Shima, Japan",0,,340,us7000tirt
 2026-09-20 13:00,5.2,-15.87,-174.77,10,"104 km W of Hihifo, Tonga",0,,416,us7000tirq
-2026-09-20 12:45,5.4,-5.77,146.2,116,"68 km NNE of Kainantu, Papua New Guinea",0,green,452,us7000tirh
-2026-09-20 12:24,4.8,-10.64,164.96,34,"92 km W of Lata, Solomon Islands",0,,354,us7000tirf
-2026-09-20 09:17,6.4,-5.9,146.09,104,"49 km NNE of Kainantu, Papua New Guinea",0,green,647,us7000tiqc
+2026-09-20 12:45,5.4,-5.89,146.24,109,"60 km NE of Kainantu, Papua New Guinea",0,green,452,us7000tirh
+2026-09-20 12:24,4.7,-10.67,164.8,51,"109 km W of Lata, Solomon Islands",0,,340,us7000tirf
+2026-09-20 11:08,4.7,-56.19,-27.5,101,South Sandwich Islands region,0,,340,us6000txl4
+2026-09-20 09:17,6.4,-5.9,146.11,113,"50 km NNE of Kainantu, Papua New Guinea",0,green,647,us7000tiqc
 2026-09-20 08:47,5.3,-25.96,-66.58,10,"61 km WNW of Cafayate, Argentina",0,,433,us7000tiq2
+2026-09-20 08:32,4.8,-25.97,-66.56,10,"59 km W of Cafayate, Argentina",0,,354,us7000tipx
 2026-09-20 07:32,4.6,13.24,145.71,23,"94 km ESE of Yigo Village, Guam",0,,326,us6000txkw
 2026-09-20 07:28,5.1,28.44,129.33,69,"17 km WNW of Naze, Japan",0,,400,us7000tipl
 2026-09-20 06:47,4.9,13.26,145.77,17,"99 km ESE of Yigo Village, Guam",0,,369,us7000tipi
@@ -447,23 +583,22 @@ time_utc,magnitude,lat,lon,depth_km,place,tsunami_flag,pager_alert,significance,
 2026-09-20 00:58,5.3,57.02,-33.57,10,Reykjanes Ridge,0,,432,us7000timy
 2026-09-20 00:33,4.8,-15.95,-174.6,10,"85 km W of Hihifo, Tonga",0,,354,us7000timw
 2026-09-19 20:24,5.3,57.13,-33.42,10,Reykjanes Ridge,0,,432,us7000tild
-2026-09-19 15:53,4.5,41.2,83.52,10,"75 km SE of Kuqa, China",0,,312,us7000tikb
-2026-09-19 13:56,5.1,-8.17,120.88,10,"67 km NE of Ruteng, Indonesia",0,,400,us7000tiju
-2026-09-19 13:44,4.8,4.52,-76.87,58,"29 km WSW of Sipí, Colombia",0,,355,us7000tijs
+2026-09-19 15:29,4.6,-60.4,-62,10,Drake Passage,0,,326,us6000txdt
+2026-09-19 13:56,5.2,-8.2,120.83,10,"60 km NE of Ruteng, Indonesia",0,,416,us7000tiju
+2026-09-19 13:44,4.8,4.51,-76.87,58,"29 km WSW of Sipí, Colombia",0,,355,us7000tijs
 2026-09-19 12:19,4.5,32.02,89.22,10,"269 km NNW of Dêqên, China",0,,312,us7000tijf
-2026-09-19 12:07,4.7,32.41,129.88,10,"26 km NNW of Ushibukamachi, Japan",0,,340,us7000tijd
 2026-09-19 10:31,4.8,27.24,91.17,10,"8 km WSW of Mongar, Bhutan",0,,359,us7000tiiz
 2026-09-19 09:59,5,-55.56,-28.14,58,South Sandwich Islands region,0,,385,us7000tiis
 2026-09-19 09:34,4.8,47.44,146.36,395,"269 km E of Dolinsk, Russia",0,,354,us7000tiim
-2026-09-19 08:47,4.8,-12.09,165.98,10,"152 km S of Lata, Solomon Islands",0,,354,us7000tir7
-2026-09-19 07:44,4.8,-2.59,138.74,10,"210 km W of Abepura, Indonesia",0,,354,us7000tiib
-2026-09-19 07:12,4.9,-4.01,-77.35,10,"117 km NW of Barranca, Peru",0,,369,us7000tii3
-2026-09-19 07:08,4.6,30.17,131.19,39,"57 km ESE of Koseda, Japan",0,,326,us7000tii4
+2026-09-19 08:47,4.8,-12.12,166.02,10,"156 km S of Lata, Solomon Islands",0,,354,us7000tir7
+2026-09-19 07:44,4.8,-2.6,138.79,10,"205 km W of Abepura, Indonesia",0,,354,us7000tiib
+2026-09-19 07:12,4.9,-4.02,-77.32,10,"115 km WSW of Alianza Cristiana, Peru",0,,369,us7000tii3
+2026-09-19 07:08,4.5,30.07,131.1,38,"55 km SE of Koseda, Japan",0,,312,us7000tii4
 2026-09-19 04:18,5.2,-1.83,138.91,10,"209 km WNW of Abepura, Indonesia",0,,416,us7000tih8
 2026-09-18 23:51,4.7,-7.45,-132.13,10,South Pacific Ocean,0,,340,us7000tigp
 2026-09-18 23:18,5.3,-27.82,-177.3,94,Kermadec Islands region,0,green,432,us7000tigd
 2026-09-18 21:15,4.5,36.31,140.89,45,"27 km E of Ōarai, Japan",0,,312,us7000tifm
-2026-09-18 19:16,4.5,55.75,164.06,31,"112 km ESE of Ust’-Kamchatsk Staryy, Russia",0,,312,us7000tiem
+2026-09-18 19:16,4.5,55.72,164.04,33,"112 km ESE of Ust’-Kamchatsk Staryy, Russia",0,,312,us7000tiem
 2026-09-18 18:41,4.5,4.4,-76.69,83,"28 km S of Sipí, Colombia",0,,312,us7000tie4
 2026-09-18 17:42,4.5,-8.71,105.62,10,"216 km SSW of Pelabuhanratu, Indonesia",0,,312,us7000tidr
 2026-09-18 16:52,4.8,-33.32,-70.32,100,"28 km ENE of Villa Presidente Frei, Chile",0,,367,us7000tid4
@@ -472,125 +607,12 @@ time_utc,magnitude,lat,lon,depth_km,place,tsunami_flag,pager_alert,significance,
 2026-09-18 13:57,4.6,-13.18,167.04,227,"94 km NW of Sola, Vanuatu",0,,326,us7000tib5
 2026-09-18 13:19,4.8,17.94,-66.95,7,"5 km SW of Guánica, Puerto Rico",0,green,405,pr2026261000
 2026-09-18 13:12,4.6,14.3,-93.57,10,"132 km WSW of Puerto Madero, Mexico",0,,326,us7000tiaq
-2026-09-18 12:20,4.7,-8.32,120.57,10,"34 km NNE of Ruteng, Indonesia",0,,340,us7000ti9c
-2026-09-18 12:09,4.6,30.85,99.92,10,"204 km N of Daocheng, China",0,,326,us7000ti9a
+2026-09-18 12:20,4.7,-8.23,120.58,10,"43 km NNE of Ruteng, Indonesia",0,,340,us7000ti9c
+2026-09-18 12:09,4.6,30.88,99.94,10,"207 km N of Daocheng, China",0,,326,us7000ti9a
 2026-09-18 08:39,4.6,32.34,141.33,39,"Izu Islands, Japan region",0,,326,us7000ti8j
 2026-09-18 07:21,4.5,32.37,141.29,44,"Izu Islands, Japan region",0,,312,us6000txf4
 2026-09-18 07:19,5,32.3,141.4,39,"Izu Islands, Japan region",0,,385,us7000ti89
-2026-09-18 06:42,4.7,-21.95,-179.37,548,Fiji region,0,,340,us7000ti83
-2026-09-18 06:17,4.7,4.32,-76.79,68,"40 km SSW of Sipí, Colombia",0,,342,us7000ti7x
+2026-09-18 06:42,4.7,-21.91,-179.27,533,Fiji region,0,,340,us7000ti83
+2026-09-18 06:17,4.7,4.36,-76.83,72,"38 km SSW of Sipí, Colombia",0,,342,us7000ti7x
 2026-09-18 02:12,4.5,32.34,141.36,33,"Izu Islands, Japan region",0,,312,us7000ti79
 2026-09-18 01:07,4.5,32.23,131.67,62,"9 km ESE of Tsunō, Japan",0,,312,us7000ti70
-2026-09-17 21:10,4.7,4.48,-76.78,58,"24 km SW of Sipí, Colombia",0,,341,us7000ti5y
-2026-09-17 20:23,4.6,-5.68,130.79,69,"217 km W of Tual, Indonesia",0,,326,us7000ti5v
-2026-09-17 19:19,4.9,30.18,-42.19,10,northern Mid-Atlantic Ridge,0,,369,us7000ti5b
-2026-09-17 19:17,4.5,-7.76,104.47,10,"214 km SW of Labuan, Indonesia",0,,312,us7000ti5c
-2026-09-17 15:51,4.6,-40.63,-73.44,60,"26 km WSW of Osorno, Chile",0,,326,us7000ti3n
-2026-09-17 14:19,6.5,52.96,-171.5,98,"177 km W of Nikolski, Alaska",1,green,653,us7000ti1p
-2026-09-17 13:30,4.7,52.27,159.51,64,"105 km SE of Vilyuchinsk, Russia",0,,340,us7000ti1h
-2026-09-17 08:28,4.5,-8.19,121.47,10,"74 km NNW of Ende, Indonesia",0,,312,us7000ti03
-2026-09-17 06:48,5,-22.61,-20.29,10,South Atlantic Ocean,0,,385,us7000thzz
-2026-09-17 06:42,5.3,-14.4,-174.84,10,"189 km SE of Mata-Utu, Wallis and Futuna",0,,432,us7000thzw
-2026-09-17 06:32,4.7,-16.61,167.59,10,"59 km SSE of Lakatoro, Vanuatu",0,,340,us7000thzs
-2026-09-17 06:20,5.2,1.28,126.31,10,"130 km WNW of Ternate, Indonesia",0,,416,us7000thzp
-2026-09-17 05:24,4.6,13.83,-91.04,68,"26 km WSW of Puerto San José, Guatemala",0,,326,us7000thzd
-2026-09-17 04:06,5.3,-17.29,-173.48,10,"152 km SSE of Hihifo, Tonga",0,,432,us7000thz3
-2026-09-17 01:47,4.5,-16.21,-177.65,10,"216 km SSE of Alo, Wallis and Futuna",0,,312,us7000tiqd
-2026-09-17 00:43,4.5,-31.67,-178.84,10,Kermadec Islands region,0,,312,us6000tx3w
-2026-09-16 21:29,4.5,-62.7,166.36,10,Balleny Islands region,0,,312,us7000tipy
-2026-09-16 21:06,5,-7.3,-13.35,10,"136 km ENE of Georgetown, Saint Helena",0,,385,us6000twws
-2026-09-16 20:55,4.7,4.46,-76.82,57,"28 km SW of Sipí, Colombia",0,,340,us7000thxm
-2026-09-16 20:21,5.1,-6.03,151.79,10,"190 km ESE of Kimbe, Papua New Guinea",0,,400,us7000thxg
-2026-09-16 20:14,4.5,4.49,-76.81,62,"25 km SW of Sipí, Colombia",0,,312,us6000twwu
-2026-09-16 20:12,4.9,4.55,-76.84,66,"24 km WSW of Sipí, Colombia",0,,370,us7000thxc
-2026-09-16 20:03,4.7,-29.99,-177.7,68,"Kermadec Islands, New Zealand",0,,340,us7000thxb
-2026-09-16 19:37,4.6,-5.54,146.02,67,"44 km SE of Madang, Papua New Guinea",0,,326,us7000thx7
-2026-09-16 18:57,4.5,18.05,-46.56,10,northern Mid-Atlantic Ridge,0,,312,us6000twwn
-2026-09-16 18:11,4.9,9.22,125.82,125,"15 km WSW of Parang, Philippines",0,,369,us6000twwx
-2026-09-16 18:06,5.1,14.27,145.42,107,"80 km SSW of San Jose Village, Northern Mariana Islands",0,green,403,us7000thwt
-2026-09-16 15:07,4.8,36.11,139.98,80,"1 km SE of Ishige, Japan",0,,381,us7000thv6
-2026-09-16 11:50,4.8,7.78,127.22,10,"74 km E of Kinablangan, Philippines",0,,354,us7000thti
-2026-09-16 10:57,4.5,-30.71,-71.5,39,"31 km WSW of Ovalle, Chile",0,,312,us7000thtd
-2026-09-16 09:57,4.6,-4.55,151.7,166,"64 km SW of Rabaul, Papua New Guinea",0,,326,us6000twwa
-2026-09-16 09:41,4.6,-15.04,166.99,58,"8 km W of Port-Olry, Vanuatu",0,,326,us7000tht8
-2026-09-16 08:37,5.1,14.36,147,10,"162 km ESE of San Jose Village, Northern Mariana Islands",0,,401,us7000thsx
-2026-09-16 07:02,4.8,6.05,-77.78,10,"45 km WSW of Bahía Solano, Colombia",0,,354,us7000thsp
-2026-09-16 06:18,4.6,4.43,-76.81,63,"30 km SW of Sipí, Colombia",0,,326,us7000thse
-2026-09-16 05:52,5,37.73,95.49,10,"279 km SSE of Dunhuang, China",0,,385,us7000ths9
-2026-09-16 03:45,5,13.92,-92.47,10,"71 km SSW of Ocós, Guatemala",0,,385,us7000thrz
-2026-09-16 01:37,4.5,10.68,-69.28,10,"44 km NNW of Duaca, Venezuela",0,,312,us7000thrm
-2026-09-15 23:46,4.7,13.39,50.78,10,"157 km N of Caluula, Somalia",0,,340,us7000thr6
-2026-09-15 23:45,4.5,-1.64,-78.06,156,"12 km WNW of Palora, Ecuador",0,,312,us7000thr4
-2026-09-15 22:05,4.7,-15.22,-173.17,10,"106 km NE of Hihifo, Tonga",0,,340,us7000ti1d
-2026-09-15 21:00,4.7,25.08,123.64,9,"94 km NE of Yonakuni, Japan",0,,340,us7000thq1
-2026-09-15 16:56,4.6,-43.03,-83.28,10,West Chile Rise,0,,326,us7000ti1c
-2026-09-15 13:35,4.5,-18.69,175.85,22,"184 km WSW of Sigatoka, Fiji",0,,312,us7000tiyq
-2026-09-15 13:31,4.5,-18.68,175.84,16,"185 km WSW of Sigatoka, Fiji",0,,312,us7000tiyr
-2026-09-15 11:34,4.7,-7.37,155.37,10,"116 km S of Panguna, Papua New Guinea",0,,340,us7000thl5
-2026-09-15 10:20,4.7,-7.26,155.31,10,"105 km S of Panguna, Papua New Guinea",0,,340,us7000ti12
-2026-09-15 07:53,4.6,2.76,127.55,81,"124 km NNW of Tobelo, Indonesia",0,,326,us7000thk8
-2026-09-15 06:07,4.8,-6.62,130.34,92,"289 km WSW of Tual, Indonesia",0,,354,us7000thjr
-2026-09-15 05:53,4.6,-14.28,167.43,10,"46 km SSW of Sola, Vanuatu",0,,326,us7000tiyl
-2026-09-15 04:52,4.6,-21.64,170.19,99,"239 km E of Tadine, New Caledonia",0,,326,us7000thjj
-2026-09-15 04:12,4.5,-36.39,-100.24,10,southeast of Easter Island,0,,312,us7000thkw
-2026-09-15 03:48,4.5,14.52,56.12,10,Owen Fracture Zone region,0,,312,us7000tiyh
-2026-09-15 02:03,4.8,9.53,126.15,10,"22 km ESE of Socorro, Philippines",0,,354,us7000thiw
-2026-09-15 01:11,4.5,-57.76,-23.23,10,South Sandwich Islands region,0,,312,us7000tiyb
-2026-09-14 23:52,5,-16.8,176.61,10,"127 km NW of Lautoka, Fiji",0,,385,us7000thki
-2026-09-14 22:44,4.5,-40.3,174.18,98,"64 km SSW of Patea, New Zealand",0,green,315,us7000thhv
-2026-09-14 22:39,4.5,4.48,-76.78,69,"24 km SW of Sipí, Colombia",0,,312,us7000thht
-2026-09-14 22:06,5,-6.29,146.56,121,"68 km NW of Lae, Papua New Guinea",0,,385,us7000thhd
-2026-09-14 21:17,4.5,3.14,126.54,70,"226 km NW of Tobelo, Indonesia",0,,312,us7000ticf
-2026-09-14 21:13,4.9,4.51,-76.82,65,"24 km SW of Sipí, Colombia",0,,370,us7000thh2
-2026-09-14 20:58,4.5,-20.02,67.41,10,Mid-Indian Ridge,0,,312,us7000ticc
-2026-09-14 20:38,5.3,15.12,-104.22,10,"off the coast of Michoacan, Mexico",0,,432,us7000thgs
-2026-09-14 20:08,4.6,4.46,-76.82,53,"28 km SW of Sipí, Colombia",0,,326,us7000thgj
-2026-09-14 20:02,4.9,4.5,-76.72,64,"18 km SSW of Sipí, Colombia",0,,372,us7000thge
-2026-09-14 19:28,4.8,-6.89,150.71,10,"148 km ESE of Kandrian, Papua New Guinea",0,,354,us7000thg9
-2026-09-14 19:16,4.8,-3.74,-77.36,105,"107 km WSW of Alianza Cristiana, Peru",0,,354,us7000thg5
-2026-09-14 17:55,4.6,-1.83,128.18,10,"154 km SSE of Labuha, Indonesia",0,,326,us7000thfh
-2026-09-14 16:15,5.1,-8.97,157.86,10,"147 km SE of Gizo, Solomon Islands",0,,400,us7000thea
-2026-09-14 14:57,4.5,4.52,-76.7,65,"16 km SSW of Sipí, Colombia",0,,312,us7000thdw
-2026-09-14 10:59,4.6,37.53,141.61,55,"54 km E of Namie, Japan",0,,326,us7000thct
-2026-09-14 10:58,5.6,2.42,128.19,163,"79 km NNE of Tobelo, Indonesia",0,green,483,us7000thcs
-2026-09-14 09:43,4.6,-20.36,67.52,10,Mid-Indian Ridge,0,,326,us7000tibw
-2026-09-14 09:27,5.3,-8.69,105.72,12,"209 km SSW of Pelabuhanratu, Indonesia",0,green,433,us7000thc6
-2026-09-14 09:07,4.5,23.22,101.41,10,"65 km NE of Simao, China",0,,312,us7000thbx
-2026-09-14 07:33,4.5,37.27,142.19,35,"104 km E of Tomioka, Japan",0,,312,us7000thbl
-2026-09-14 06:19,4.5,-4.99,144.57,89,"102 km NNE of Mount Hagen, Papua New Guinea",0,,312,us7000thb6
-2026-09-14 02:56,4.9,25.66,-45.41,10,northern Mid-Atlantic Ridge,0,,369,us7000ticg
-2026-09-14 02:56,5.4,25.52,-45.44,10,northern Mid-Atlantic Ridge,0,green,449,us7000tha3
-2026-09-14 02:54,4.8,25.51,-45.33,10,northern Mid-Atlantic Ridge,0,,354,us7000tibk
-2026-09-14 01:42,4.8,-9.31,112.89,32,"122 km S of Dampit, Indonesia",0,,354,us7000th9m
-2026-09-14 00:53,4.5,-8.14,120.29,10,"55 km NNW of Ruteng, Indonesia",0,,312,us7000th9i
-2026-09-14 00:20,4.5,-20.17,67.39,10,Mid-Indian Ridge,0,,312,us7000tibg
-2026-09-13 23:27,4.6,-20.14,67.55,10,Mid-Indian Ridge,0,,326,us7000tiaj
-2026-09-13 22:44,4.6,22.69,121.6,10,"116 km NE of Hengchun, Taiwan",0,,326,us7000th8v
-2026-09-13 22:40,5,-8.21,120.25,10,"50 km NE of Labuan Bajo, Indonesia",0,,385,us7000th8u
-2026-09-13 19:41,4.8,-20.11,168.91,10,"74 km SSW of Isangel, Vanuatu",0,,354,us7000th81
-2026-09-13 19:40,4.7,-26.15,-66.61,10,"64 km W of Cafayate, Argentina",0,,340,us7000th7y
-2026-09-13 09:57,4.5,-31.7,-176.73,10,Kermadec Islands region,0,,312,us7000ti9x
-2026-09-13 08:31,4.7,41.54,141.28,126,"28 km N of Mutsu, Japan",0,,340,us7000th5d
-2026-09-13 07:30,5,-22.39,171.22,97,southeast of the Loyalty Islands,0,,385,us7000th50
-2026-09-13 07:19,5.2,-15.28,167.38,154,"35 km NE of Luganville, Vanuatu",0,,416,us7000th4y
-2026-09-13 03:50,4.8,26.26,142.32,10,"Bonin Islands, Japan region",0,,354,us7000th3a
-2026-09-13 03:14,4.5,-8.46,121.53,10,"44 km NNW of Ende, Indonesia",0,,312,us7000th35
-2026-09-12 20:32,5.1,29.34,130.38,35,"99 km S of Yudomari, Japan",0,,400,us7000th1q
-2026-09-12 17:51,4.8,38.13,20.2,28,"21 km WSW of Lixoúri, Greece",0,,364,us7000th16
-2026-09-12 15:56,4.5,-14.72,167.21,179,"39 km NNE of Port-Olry, Vanuatu",0,,312,us7000th0h
-2026-09-12 14:28,4.8,-18.31,166.86,10,"166 km WSW of Port-Vila, Vanuatu",0,,354,us7000ti46
-2026-09-12 12:46,4.6,-5.11,153.31,41,"143 km SE of Kokopo, Papua New Guinea",0,,326,us7000ti41
-2026-09-12 11:16,4.7,4.46,-76.87,68,"32 km SW of Sipí, Colombia",0,,340,us7000tgyx
-2026-09-12 11:05,4.9,-56.3,-26.9,102,South Sandwich Islands region,0,,369,us7000tgyw
-2026-09-12 09:35,4.8,-13.41,166.5,43,"124 km WNW of Sola, Vanuatu",0,,354,us7000tgyh
-2026-09-12 08:46,4.5,-14.46,-76.24,23,"64 km WSW of Santiago, Peru",0,,312,us7000tgy2
-2026-09-12 06:14,4.8,-6.15,130.47,158,"259 km WSW of Tual, Indonesia",0,,354,us7000tgxg
-2026-09-12 05:08,4.7,1.04,126.58,42,"93 km WNW of Ternate, Indonesia",0,,340,us7000tgx2
-2026-09-12 04:10,4.5,18.73,121.2,10,"14 km NNE of Namuac, Philippines",0,,312,us7000ti3v
-2026-09-12 03:59,4.5,10.31,93.19,69,"157 km SSE of Port Blair, India",0,,312,us7000ti3u
-2026-09-12 01:59,4.7,8.33,-82.82,10,"0 km NE of Manaca Civil, Panama",0,,355,us7000tgw1
-2026-09-12 00:55,5.1,-59.11,-24.93,10,South Sandwich Islands region,0,,400,us7000tgvr
-2026-09-12 00:18,4.5,-15.68,-73.99,101,"11 km ESE of Tocota, Peru",0,,312,us7000tgvk
-2026-09-11 22:32,4.9,-45.74,-75.82,10,"236 km W of Puerto Chacabuco, Chile",0,,369,us7000tguq
-2026-09-11 21:23,6.5,-5.03,106.87,372,"121 km NNE of Teluknaga, Indonesia",0,green,657,us7000tgrk
-2026-09-11 18:53,4.5,40.09,143.21,23,"118 km E of Noda, Japan",0,,312,us7000tgqb
