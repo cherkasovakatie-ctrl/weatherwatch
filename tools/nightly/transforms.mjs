@@ -136,3 +136,57 @@ export function volcanoAlerts(list, coords) {
   });
   return { header: ['volcano', 'observatory', 'alert_level', 'aviation_color', 'lat', 'lon', 'notice_date'], rows };
 }
+
+// ---------- NASA FIRMS VIIRS (area API CSV) ----------
+export function parseCsv(text) {
+  const lines = text.trim().split(/\r?\n/);
+  const head = lines.shift().split(',');
+  return lines.filter(Boolean).map((l) => Object.fromEntries(l.split(',').map((v, i) => [head[i], v])));
+}
+
+const CONF = { l: 'low', n: 'nominal', h: 'high', low: 'low', nominal: 'nominal', high: 'high' };
+const hhmm = (t) => String(t).padStart(4, '0');
+
+/** Global 1° grid: low-confidence detections dropped; count, total and max FRP, latest pass (UTC). */
+export function firmsGrid(detections) {
+  const cells = new Map();
+  for (const d of detections) {
+    if (CONF[d.confidence] === 'low') continue;
+    const lat = Math.floor(Number(d.latitude)) + 0.5, lon = Math.floor(Number(d.longitude)) + 0.5;
+    if (!Number.isFinite(lat) || !Number.isFinite(lon)) continue;
+    const k = `${lat},${lon}`, frp = Number(d.frp) || 0, t = `${d.acq_date} ${hhmm(d.acq_time)}`;
+    const c = cells.get(k) || { lat, lon, n: 0, sum: 0, max: 0, latest: '' };
+    c.n += 1; c.sum += frp; c.max = Math.max(c.max, frp); if (t > c.latest) c.latest = t;
+    cells.set(k, c);
+  }
+  const rows = [...cells.values()].sort((a, b) => b.sum - a.sum).map((c) => [c.lat, c.lon, c.n, fixed(c.sum, 1), fixed(c.max, 1), c.latest]);
+  return { header: ['lat', 'lon', 'detections', 'frp_sum_mw', 'frp_max_mw', 'latest_utc'], rows };
+}
+
+function km(a, b, c, d) {
+  const r = Math.PI / 180, x = Math.sin(((c - a) * r) / 2) ** 2 + Math.cos(a * r) * Math.cos(c * r) * Math.sin(((d - b) * r) / 2) ** 2;
+  return 2 * 6371 * Math.asin(Math.sqrt(x));
+}
+
+/** Southern California detections with distance from home and a persistent-heat-source tag.
+ *  Site = 0.02° cell (~2 km). Seen on 4+ days with max FRP under 15 MW => likely industrial. */
+export function firmsSocal(detections, home) {
+  const site = (d) => `${Math.floor(Number(d.latitude) / 0.02)},${Math.floor(Number(d.longitude) / 0.02)}`;
+  const days = new Map(), maxFrp = new Map();
+  for (const d of detections) {
+    const s = site(d);
+    if (!days.has(s)) days.set(s, new Set());
+    days.get(s).add(d.acq_date);
+    maxFrp.set(s, Math.max(maxFrp.get(s) || 0, Number(d.frp) || 0));
+  }
+  const rows = detections
+    .map((d) => {
+      const s = site(d), n = days.get(s).size, t = hhmm(d.acq_time);
+      const persistent = n >= 4 && maxFrp.get(s) < 15;
+      return [d.acq_date, `${t.slice(0, 2)}:${t.slice(2)}`, Number(d.latitude).toFixed(4), Number(d.longitude).toFixed(4), fixed(d.frp, 2),
+        CONF[d.confidence] || d.confidence, d.satellite, d.daynight, fixed(km(home.lat, home.lon, Number(d.latitude), Number(d.longitude)), 1), n,
+        persistent ? 'Persistent heat source (likely industrial)' : 'Possible fire'];
+    })
+    .sort((a, b) => (a[0] + a[1]).localeCompare(b[0] + b[1]));
+  return { header: ['date', 'time_utc', 'lat', 'lon', 'frp_mw', 'confidence', 'satellite', 'day_night', 'km_from_home', 'days_at_site', 'kind'], rows };
+}

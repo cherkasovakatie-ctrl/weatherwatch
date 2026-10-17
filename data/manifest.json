@@ -166,17 +166,17 @@
    "id": "fires_global_grid",
    "file": "fires_global_grid.csv",
    "title": "Satellite fire detections, global 24 h",
-   "description": "NASA FIRMS VIIRS (NOAA-20 and Suomi NPP) global 24-hour active-fire files, read 11 Oct 2026 about 17:50 UTC, low-confidence detections dropped, aggregated to 1° cells: count, total and maximum fire radiative power (MW), latest pass.",
-   "updated": "2026-10-11",
-   "bytes": 168801
+   "description": "NASA FIRMS VIIRS (NOAA-20 and Suomi NPP) near-real-time detections, worldwide, past 24 hours (FIRMS area API), low-confidence detections dropped, aggregated to 1° cells: count, total and maximum fire radiative power (MW), latest pass (UTC). Refreshed daily at 9 am Pacific by the scripted refresh (tools/nightly).",
+   "updated": "2026-10-17",
+   "bytes": 132208
   },
   {
    "id": "fires_socal",
    "file": "fires_socal.csv",
-   "title": "Fire detections, Southern California 7 days",
-   "description": "NASA FIRMS VIIRS detections (USA files) in 32.3–36°N, 121.2–114.5°W for the past 7 days, with distance from the San Fernando Valley. Sites seen on 4+ days with maximum power under 15 MW are tagged as persistent industrial heat sources (Claude's rule).",
-   "updated": "2026-10-11",
-   "bytes": 34256
+   "title": "Fire detections, Southern California 5 days",
+   "description": "NASA FIRMS VIIRS (NOAA-20 and Suomi NPP) near-real-time detections in 32.3–36°N, 121.2–114.5°W for the past 5 days (the FIRMS API maximum), with distance from the San Fernando Valley. A site is a 0.02° cell (about 2 km); sites seen on 4+ days with maximum power under 15 MW are tagged as persistent industrial heat sources (Claude's rule). Refreshed daily at 9 am Pacific by the scripted refresh (tools/nightly).",
+   "updated": "2026-10-17",
+   "bytes": 25844
   },
   {
    "id": "gdacs_current",
@@ -248,7 +248,7 @@
    "title": "Santa Monica tides",
    "description": "NOAA CO-OPS station 9410840 (Santa Monica): hourly predicted water level and observed (preliminary, on-the-hour) water level, feet above MLLW, local time; 3 days back to 4 days ahead. Refreshed daily at 9 am Pacific (tools/nightly).",
    "updated": "2026-10-17",
-   "bytes": 5521
+   "bytes": 4818
   },
   {
    "id": "local_watertemp",

@@ -22,7 +22,10 @@ python3 -m pytest -q tools/mundane      # must pass before anything is committed
 
 `.github/workflows/nightly.yml` runs `tools/nightly/run.mjs` every day at 9 am Los Angeles time and pushes to `main`.
 It refreshes `earthquakes`, `local_obs`, `local_periods`, `local_hourly`, `local_tides`, `local_hilo`,
-`local_watertemp` and `volcano_alerts_us` from keyless public APIs (USGS, NWS, Open-Meteo, NOAA CO-OPS, USGS HANS).
+`local_watertemp` and `volcano_alerts_us` from keyless public APIs (USGS, NWS, Open-Meteo, NOAA CO-OPS, USGS HANS),
+plus `fires_global_grid` (past 24 h, world) and `fires_socal` (past 5 days, the API maximum) from the NASA FIRMS area
+API. FIRMS needs a free MAP_KEY, stored only as the repository secret `FIRMS_MAP_KEY`; the script replaces it with
+`***` in every error and log line.
 Each file is written only if its columns match the existing file, it has enough rows and its newest row is not older
 than the current one; otherwise the old file stays. Results are in `data/nightly_status.json`. In the Friday run,
 check that file first: re-fetch by hand only the datasets it marks as failed, and skip the ones it refreshed.

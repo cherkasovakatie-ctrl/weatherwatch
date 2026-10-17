@@ -61,3 +61,23 @@ test('volcanoAlerts uses known coordinates and the notice date', () => {
   const { rows } = T.volcanoAlerts([{ volcano_name: 'Great Sitkin', vnum: '311120', obs_fullname: 'Alaska Volcano Observatory', alert_level: 'WATCH', color_code: 'ORANGE', sent_utc: '2026-10-17 19:05:57' }], { 'Great Sitkin': { lat: '52.0765', lon: '-176.1109' } });
   assert.deepEqual(rows[0], ['Great Sitkin', 'Alaska Volcano Observatory', 'WATCH', 'ORANGE', '52.0765', '-176.1109', '2026-10-17']);
 });
+
+test('firmsGrid: 1-degree cells, low confidence dropped, sorted by total power', () => {
+  const d = [
+    { latitude: '46.9', longitude: '119.2', acq_date: '2026-10-11', acq_time: '548', confidence: 'n', frp: '10.5' },
+    { latitude: '46.1', longitude: '119.8', acq_date: '2026-10-11', acq_time: '0530', confidence: 'h', frp: '4.5' },
+    { latitude: '-7.2', longitude: '140.9', acq_date: '2026-10-11', acq_time: '0512', confidence: 'l', frp: '99' },
+  ];
+  const { rows } = T.firmsGrid(d);
+  assert.deepEqual(rows, [[46.5, 119.5, 2, '15.0', '10.5', '2026-10-11 0548']]);
+});
+
+test('firmsSocal: distance from home and persistent-heat tag', () => {
+  const det = (date, frp) => ({ latitude: '35.1211', longitude: '-118.3684', acq_date: date, acq_time: '949', confidence: 'n', frp, satellite: 'N', daynight: 'N' });
+  const d = ['2026-10-04', '2026-10-05', '2026-10-06', '2026-10-07'].map((x) => det(x, '0.47'));
+  const { rows } = T.firmsSocal(d, { lat: 34.165, lon: -118.395 });
+  assert.equal(rows.length, 4);
+  assert.deepEqual(rows[0], ['2026-10-04', '09:49', '35.1211', '-118.3684', '0.47', 'nominal', 'N', 'N', '106.3', 4, 'Persistent heat source (likely industrial)']);
+  const hot = T.firmsSocal([...d, det('2026-10-08', '40')], { lat: 34.165, lon: -118.395 }).rows;
+  assert.equal(hot[0][10], 'Possible fire');
+});

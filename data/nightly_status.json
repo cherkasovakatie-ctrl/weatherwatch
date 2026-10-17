@@ -1,6 +1,6 @@
 {
- "run_utc": "2026-10-17T22:56:52.185Z",
- "run_local": "2026-10-17 15:56",
+ "run_utc": "2026-10-17T23:14:12.654Z",
+ "run_local": "2026-10-17 16:14",
  "results": [
   {
    "id": "earthquakes",
@@ -12,7 +12,7 @@
    "id": "local_obs",
    "ok": true,
    "rows": 36,
-   "newest": "2026-10-17 15:35"
+   "newest": "2026-10-17 15:50"
   },
   {
    "id": "local_periods",
@@ -42,7 +42,19 @@
    "id": "local_watertemp",
    "ok": true,
    "rows": 72,
-   "newest": "2026-10-17 15:00"
+   "newest": "2026-10-17 16:00"
+  },
+  {
+   "id": "fires_global_grid",
+   "ok": true,
+   "rows": 3430,
+   "newest": "9.5"
+  },
+  {
+   "id": "fires_socal",
+   "ok": true,
+   "rows": 321,
+   "newest": "2026-10-17"
   },
   {
    "id": "volcano_alerts_us",

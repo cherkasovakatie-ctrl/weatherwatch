@@ -30,6 +30,37 @@ async function getJson(url, tries = 3) {
 const ymd = (d) => T.localDate(d).replace(/-/g, '');
 const coops = (q) => `https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?station=${TIDE}&datum=MLLW&units=english&time_zone=lst_ldt&format=json&application=GlobalWeatherWatch&${q}`;
 
+// FIRMS needs a free MAP_KEY (GitHub secret FIRMS_MAP_KEY). It is never printed: errors are redacted.
+const FIRMS_KEY = process.env.FIRMS_MAP_KEY || '';
+const HOME = { lat: 34.165, lon: -118.395 }; // Valley Village, San Fernando Valley
+const redact = (s) => (FIRMS_KEY ? String(s).split(FIRMS_KEY).join('***') : String(s));
+
+async function getText(url, tries = 3) {
+  let last;
+  for (let i = 0; i < tries; i++) {
+    try {
+      const r = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(120000) });
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      const t = await r.text();
+      if (!t.startsWith('latitude')) throw new Error(`unexpected response: ${t.slice(0, 80)}`);
+      return t;
+    } catch (e) {
+      last = e;
+      await new Promise((res) => setTimeout(res, 5000 * (i + 1)));
+    }
+  }
+  throw new Error(redact(`${url}: ${last.message}`));
+}
+
+async function firms(area, days) {
+  if (!FIRMS_KEY) throw new Error('FIRMS_MAP_KEY secret is not set');
+  const out = [];
+  for (const src of ['VIIRS_NOAA20_NRT', 'VIIRS_SNPP_NRT']) {
+    out.push(...T.parseCsv(await getText(`https://firms.modaps.eosdis.nasa.gov/api/area/csv/${FIRMS_KEY}/${src}/${area}/${days}`)));
+  }
+  return out;
+}
+
 const now = new Date();
 const begin = new Date(now.getTime() - 3 * 86400e3), end = new Date(now.getTime() + 4 * 86400e3);
 
@@ -59,6 +90,8 @@ const JOBS = {
   },
   local_hilo: { min: 20, time: 'max', run: async () => T.tidesHiLo(await getJson(coops(`product=predictions&interval=hilo&begin_date=${ymd(begin)}&end_date=${ymd(end)}`))) },
   local_watertemp: { min: 24, time: 'max', run: async () => T.waterTemp(await getJson(coops('product=water_temperature&interval=h&date=recent'))) },
+  fires_global_grid: { min: 500, time: null, run: async () => T.firmsGrid(await firms('world', 1)) },
+  fires_socal: { min: 10, time: 'max', run: async () => T.firmsSocal(await firms('-121.2,32.3,-114.5,36', 5), HOME) },
   volcano_alerts_us: {
     min: 0, time: null,
     run: async () => {
@@ -113,7 +146,7 @@ async function main() {
       ds.bytes = Buffer.byteLength(csv);
       results.push({ id, ok: true, rows: out.rows.length, newest: out.rows.map((r) => String(r[0])).sort().at(-1), ...(out.warning ? { warning: out.warning } : {}) });
     } catch (e) {
-      results.push({ id, ok: false, error: e.message });
+      results.push({ id, ok: false, error: redact(e.message) });
     }
   }
   await writeFile(mPath, JSON.stringify(manifest, null, 1) + '\n');

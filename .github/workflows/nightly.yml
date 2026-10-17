@@ -46,6 +46,8 @@ jobs:
 
       - name: Fetch, validate and write datasets
         if: steps.gate.outputs.run == 'true'
+        env:
+          FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}
         run: node tools/nightly/run.mjs
 
       - name: Commit and push

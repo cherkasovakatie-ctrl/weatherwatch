@@ -442,8 +442,8 @@ body { font-family: var(--font-anthropic-sans); }
       
       <article class="ww-card wide" id="card-loc-fires">
         <h2>Fires near the San Fernando Valley</h2>
-        <p class="ww-rline"><b data-source="local_fire_summary" data-field="possible_100km" data-row="0">—</b> possible fire detections within 100 km in the past 7 days · <b data-source="local_fire_summary" data-field="persistent_100km" data-row="0">—</b> from persistent industrial heat sources</p>
-        <p class="note">NASA FIRMS VIIRS detections (Suomi NPP and NOAA-20), past 7 days. Spots that show up night after night at the same place with low power are landfills, refineries and power plants, not wildfires, and are drawn hollow. Rings at 25, 50 and 100 km. Satellite detections are unconfirmed; CAL FIRE's list below is the official incident record.</p>
+        <p class="ww-rline"><b data-source="local_fire_summary" data-field="possible_100km" data-row="0">—</b> possible fire detections within 100 km in the past 5 days · <b data-source="local_fire_summary" data-field="persistent_100km" data-row="0">—</b> from persistent industrial heat sources</p>
+        <p class="note">NASA FIRMS VIIRS detections (Suomi NPP and NOAA-20), past 5 days (the most the FIRMS API returns). Spots that show up night after night at the same place with low power are landfills, refineries and power plants, not wildfires, and are drawn hollow. Rings at 25, 50 and 100 km. Satellite detections are unconfirmed; CAL FIRE's list below is the official incident record.</p>
         <div class="ww-legend" id="legend-locfire"></div>
         <div class="ww-chart ww-map" id="map-loc-fires" data-source="fires_socal world_land"></div>
         <div class="ww-table-wrap">
@@ -1659,7 +1659,7 @@ dash.calc('poles_summary', {
 dash.calc('local_fire_summary', {
   inputs: ['fires_socal'],
   title: 'Fire detections near home',
-  description: 'Count of FIRMS detections within 100 km of the San Fernando Valley in the past 7 days, split into possible fires and persistent industrial heat sources (same site on 4+ days with low power).',
+  description: 'Count of FIRMS detections within 100 km of the San Fernando Valley in the past 5 days, split into possible fires and persistent industrial heat sources (same site on 4+ days with low power).',
   fn: (fires_socal) => {
     const near = fires_socal.filter((r) => +r.km_from_home <= 100);
     return [{ possible_100km: near.filter((r) => r.kind === 'Possible fire').length, persistent_100km: near.filter((r) => r.kind !== 'Possible fire').length }];
