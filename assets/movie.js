@@ -95,7 +95,7 @@ window.stormMovie = async function (host, mv) {
   charts.append(el('p', 'mvnote', 'Shaded right-hand part of each chart = forecast. Sea temperatures: Open-Meteo Marine (daily model analysis; 17–21 October are model forecasts, which already show the storm cooling the sea along its path). Shear ranges are from the Joint Typhoon Warning Center discussions. Positions between official fixes are interpolated.'));
 
   // ---------- render ----------
-  let lastScene = null;
+  let lastScene = null, live = null;
   function render(ms) {
     const p = at(ms); const [cn, cc] = cat(p.kt); const r = series[Math.round((ms - t0) / H)] || {};
     drawSST(ms);
@@ -125,7 +125,9 @@ window.stormMovie = async function (host, mv) {
     cursors.forEach((c) => c.attr('x1', cx(ms)).attr('x2', cx(ms)));
     CH.forEach((c) => { const v = c.k === 'sh' ? (r.shlo != null ? `${r.shlo}–${r.shhi} kt` : '') : r[c.k] != null ? c.fmt(r[c.k]) : ''; c.val.textContent = v ? ` · ${v}` : ''; });
     const s = scenes.filter((q) => q.ms <= ms).slice(-1)[0] || scenes[0];
-    if (s !== lastScene) { lastScene = s; cap.replaceChildren(el('div', 'mvcapd', dFmt(s.ms) + (s.ms > now ? ' · forecast' : '')), el('b', null, s.title), el('p', null, s.text)); cap.classList.remove('mvfade'); void cap.offsetWidth; cap.classList.add('mvfade'); }
+    if (s !== lastScene) { lastScene = s; cap.replaceChildren(el('div', 'mvcapd', dFmt(s.ms) + (s.ms > now ? ' · forecast' : '')), el('b', null, s.title), el('p', null, s.text), (live = el('p', 'mvlive'))); cap.classList.remove('mvfade'); void cap.offsetWidth; cap.classList.add('mvfade'); }
+    const above = r.sst ? r.sst - 26.5 : null;
+    live.textContent = `${ms > now ? 'Forecast for' : 'At'} ${dFmt(ms)}: ${label(p.kt).toLowerCase()} with ${p.kt} kt winds over ${r.sst ? `${r.sst.toFixed(1)} °C water, ${above.toFixed(1)} °C warmer than a tropical cyclone needs` : 'warm water'}; shear ${e.shear}${r.dist ? `; ${Math.round(r.dist).toLocaleString('en-GB')} km from Guam, moving at about ${Math.round(r.spd)} mph` : ''}.`;
   }
   let i = 0, timer = null;
   const speed = () => 140 / +spd.value;
