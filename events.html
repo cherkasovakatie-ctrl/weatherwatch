@@ -51,7 +51,7 @@ body { font-family: var(--font-anthropic-sans); }
 .mvclock{font-size:.85rem;font-variant-numeric:tabular-nums;min-width:15rem;text-align:right}
 .mvleg{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:.78rem;color:var(--color-fg-muted);margin:4px 0 8px}.mvleg span{display:inline-flex;align-items:center;gap:5px}.mvleg i{width:10px;height:10px;border-radius:50%;display:inline-block;border:1px solid rgba(0,0,0,.25)}
 .mvgrid{display:grid;grid-template-columns:minmax(0,1fr) 15rem;gap:14px}@media(max-width:760px){.mvgrid{grid-template-columns:1fr}.mvclock{min-width:0}}
-.mvmap{position:relative}.mvsvg{display:block;border-radius:8px}.mvsea{fill:color-mix(in srgb,#5aa9f0 9%,var(--color-bg))}.mvland{fill:var(--color-border-line);stroke:none}
+.mvmap{position:relative}.mvsvg{display:block;border-radius:8px}.mvsea{fill:color-mix(in srgb,#5aa9f0 9%,var(--color-bg))}.mvsstl rect{opacity:.55}.mvland{fill:var(--color-border-line);stroke:none}
 .mvgrat{stroke:var(--color-fg-muted);stroke-opacity:.15;stroke-dasharray:2 4}.mvtick{font-size:10px;fill:var(--color-fg-muted)}
 .mvplace{fill:var(--color-fg)}.mvplbl{font-size:12px;fill:var(--color-fg);font-weight:600;paint-order:stroke;stroke:var(--color-bg);stroke-width:3px}
 .mvtrail{stroke:var(--color-fg-muted);stroke-width:1.5}.mvtrail.estimated{stroke-dasharray:1 3}.mvtrail.forecast{stroke-dasharray:5 4}
@@ -59,9 +59,15 @@ body { font-family: var(--font-anthropic-sans); }
 .mvdot{stroke:rgba(0,0,0,.45);stroke-width:.8}.mvdot.estimated{stroke:var(--color-fg-muted);stroke-dasharray:1 2}.mvdot.forecast{fill-opacity:.55}
 .mvhead{stroke:var(--color-fg);stroke-width:1.5}.mvhalo{fill:none;stroke-width:2;stroke-opacity:.6;stroke-dasharray:3 3}
 .mvhl{font-size:13px;font-weight:600;fill:var(--color-fg);paint-order:stroke;stroke:var(--color-bg);stroke-width:4px}
-.mvcap{position:absolute;left:12px;top:12px;max-width:min(26rem,70%);background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:10px;padding:12px 14px;box-shadow:0 6px 24px rgba(0,0,0,.18);font-size:.88rem;line-height:1.5}
-.mvcap b{display:block;margin-bottom:4px}.mvcap p{margin:0 0 8px}.mvcont{font:inherit;font-size:.8rem;border:1px solid var(--color-border-line);background:none;color:var(--color-fg);border-radius:999px;padding:3px 10px;cursor:pointer}
-@media(max-width:760px){.mvcap{position:static;max-width:none;margin-top:8px}}
+.mvleft{display:grid;gap:10px;min-width:0;align-content:start}.mvcap{background:var(--color-bg);border-left:3px solid #f7a227;border-radius:8px;padding:10px 14px;font-size:.92rem;line-height:1.55;min-height:7.5rem}
+.mvcap b{display:block;margin:2px 0 4px;font-size:1rem}.mvcap p{margin:0}.mvcapd{font-size:.75rem;color:var(--color-fg-muted);font-variant-numeric:tabular-nums}
+.mvfade{animation:mvf .6s ease}@keyframes mvf{from{opacity:.2;transform:translateY(4px)}to{opacity:1;transform:none}}
+.mvspd{font:inherit;font-size:.85rem;padding:4px 6px;border-radius:8px;border:1px solid var(--color-border-line);background:var(--color-panel);color:var(--color-fg)}
+.mvsstleg{display:inline-flex;align-items:center;gap:2px;margin-left:8px}.mvsw{display:inline-block;font-weight:500;font-size:.7rem;color:#222;padding:1px 6px;border-radius:3px}
+.mvdate{font-size:15px;font-weight:600;fill:var(--color-fg);paint-order:stroke;stroke:var(--color-bg);stroke-width:4px}
+.mvcharts{display:grid;gap:4px;margin-top:12px}.mvch{background:var(--color-bg);border-radius:8px;padding:6px 8px 0}.mvcht{font-size:.78rem;color:var(--color-fg-muted)}.mvchv{color:var(--color-fg);font-weight:600;font-variant-numeric:tabular-nums}
+.mvcgrid{stroke:var(--color-fg-muted);stroke-opacity:.15}.mvcref{stroke:var(--color-fg-muted);stroke-dasharray:3 3;stroke-opacity:.6}.mvfcband{fill:var(--color-fg-muted);fill-opacity:.07}
+.mvcl{fill:none;stroke-width:2}.mvcl.fc{stroke-dasharray:4 3;opacity:.75}.mvcur{stroke:var(--color-fg);stroke-width:1.5}
 .mvside{display:grid;gap:8px;align-content:start}.mvg{background:var(--color-bg);border-radius:8px;padding:8px 10px}.mvg .l{font-size:.72rem;color:var(--color-fg-muted)}.mvg .v{font-size:.88rem;margin-top:2px;font-variant-numeric:tabular-nums}.back{font-size:.85rem;color:var(--color-fg-muted)}.asof{font-size:.8rem;color:var(--color-fg-muted)}
 </style></head><body><nav class="site-nav" aria-label="Site">
   <a class="brand" href="./">Global Weather Watch</a>
