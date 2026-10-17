@@ -20,7 +20,17 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data"
-PAGES = ("index.html", "events.html", "event.html", "data.html", "about.html", "mundane.html")
+PAGES = (
+    "index.html",
+    "events.html",
+    "event.html",
+    "data.html",
+    "about.html",
+    "mundane.html",
+    "deadliest.html",
+    "installations.html",
+    "warming-since-1976.html",
+)
 ASOF_RE = re.compile(r"(<span data-asof>)[^<]*(</span>)")
 
 

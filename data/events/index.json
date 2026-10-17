@@ -11,7 +11,7 @@
    "status": "unfolding",
    "depth": "deep",
    "headline": "A strong offshore wind event with gusts of 70–90 mph in the mountains, humidity near 10% and coastal heat in the 90s. It peaked on 16 October and eases from 18 October, ahead of a cooler storm system expected around 21–22 October.",
-   "as_of": "16 Oct 2026 (NWS Los Angeles warnings to 17 Oct, 8 pm)",
+   "as_of": "17 Oct 2026 (NWS Los Angeles fire-weather statement, 9 am PDT)",
    "when": ""
   },
   {
@@ -110,13 +110,13 @@
    "name": "Hurricane Isaias",
    "type": "Hurricane",
    "region": "Florida Panhandle, Alabama, Georgia",
-   "start": "2026-10-07",
-   "end": "2026-10-09",
+   "start": "2026-10-06",
+   "end": "2026-10-11",
    "status": "ended",
-   "depth": "summary",
-   "headline": "Low over the southern Gulf ~7 Oct, MJO phases 1–2 favourable.",
-   "as_of": "12 Oct 2026",
-   "when": "7–9 Oct"
+   "depth": "deep",
+   "headline": "The first Atlantic hurricane of 2026 peaked at Category 3 over the Gulf, then hit near Destin, Florida, on 9 October as a Category 2 with 105 mph winds.",
+   "as_of": "17 Oct 2026",
+   "when": "6–11 Oct"
   },
   {
    "id": "rachel-2026",
@@ -124,11 +124,11 @@
    "type": "Remnant storm, swell and coastal flooding",
    "region": "Baja California · Southern California coast",
    "start": "2026-10-03",
-   "end": "2026-10-10",
+   "end": "2026-10-11",
    "status": "ended",
    "depth": "deep",
    "headline": "Rachel's remnants killed five members of one family in Ensenada and sent a long-period swell onto Southern California beaches already sitting 1–2 ft above the tide tables.",
-   "as_of": "13 Oct 2026",
+   "as_of": "17 Oct 2026",
    "when": ""
   },
   {
@@ -232,7 +232,7 @@
    "status": "unfolding",
    "depth": "summary",
    "headline": "ENSO Longitude Index 191.5°E, the easternmost on record: an east-based event like 1982–83 and 1997–98.",
-   "as_of": "12 Oct 2026",
+   "as_of": "17 Oct 2026",
    "when": "Ongoing"
   },
   {

@@ -6,7 +6,7 @@
  "start": "2026-10-15",
  "end": "2026-10-18",
  "status": "unfolding",
- "as_of": "16 Oct 2026 (NWS Los Angeles warnings to 17 Oct, 8 pm)",
+ "as_of": "17 Oct 2026 (NWS Los Angeles fire-weather statement, 9 am PDT)",
  "headline": "A strong offshore wind event with gusts of 70–90 mph in the mountains, humidity near 10% and coastal heat in the 90s. It peaked on 16 October and eases from 18 October, ahead of a cooler storm system expected around 21–22 October.",
  "numbers": [
   [
@@ -40,8 +40,12 @@
    "Peak: LAX − Tonopah gradient −11.7 hPa, LAX humidity 10%, coastal highs 90–100 °F. High wind warnings in the mountains and corridors; ~35,000 customers' power shut off, 68,000 more considered."
   ],
   [
+   "16 Oct (evening)",
+   "ABC7 reports a fast-growing brush fire burning multiple homes near San Clemente, Orange County."
+  ],
+  [
    "17 Oct",
-   "Winds ease, but red flag conditions persist until 8 pm; coastal cooling begins."
+   "Winds weaken but critical fire weather persists: NWS high fire danger for Los Angeles and Ventura counties until 8 pm PDT, warning that any new fire could show extreme behaviour and growth."
   ],
   [
    "18–20 Oct",
@@ -53,14 +57,54 @@
   ]
  ],
  "sections": {
+  "Current outlook (17 October)": [
+   "Southern California is experiencing a Santa Ana wind event, with critical fire-weather conditions continuing on Saturday 17 October. The National Weather Service lists high fire danger for Los Angeles and Ventura counties until 8 pm PDT (Santa Barbara and San Luis Obispo counties until 6 pm), citing strong winds, low humidity and heat.",
+   "Wind timing: the strongest winds generally peaked on Friday. Winds weaken through Saturday, but dangerous fire weather can persist while they ease.",
+   "Most exposed areas: mountain passes, canyons and foothills, including the Santa Clarita Valley, the San Gabriel Mountains and parts of Ventura County. Conditions vary a lot from one neighbourhood to the next.",
+   "Main hazards: rapid wildfire spread, falling trees and power lines, and power outages. The NWS warns that if a fire starts, extreme fire behaviour and growth are expected."
+  ],
+  "What causes Santa Ana winds?": "Santa Anas blow from high pressure over the dry desert Southwest toward lower pressure off the California coast. The air speeds up through mountain passes and warms as it descends and is compressed. The result is the familiar warm, very dry offshore wind, not a rainstorm. Its dryness and speed can make any fire spread quickly. The NWS notes these winds are most common in the cooler months, September through May.",
+  "Practical precautions": [
+   "Avoid anything that could spark a fire; prepare for possible power outages and have an evacuation plan.",
+   "Secure patio furniture, trash cans and other loose items before strong gusts arrive. Stay clear of trees and downed power lines.",
+   "Drive with extra care through passes and canyons: slow down, keep both hands on the wheel and give trucks and trailers room."
+  ],
   "The setup": "Cold, dry air piled up over the Great Basin under a strong surface high, while lower pressure lay off the Southern California coast. The pressure difference between LAX and Tonopah, Nevada, reached −11.7 hPa; anything below −6 hPa means a real Santa Ana. After a hot, dry September, fuels were cured and ready to burn.",
   "The trigger": "The high-pressure surge behind the trough that caused the Plains freeze. As the air sinks from the high desert to the coast it warms by compression and dries out, which is why the coast saw 90–100 °F and 10% humidity in mid-October.",
   "What amplified it": "The mountain passes and canyons (Soledad, Newhall, the Santa Clarita corridor, Malibu canyons) funnel and accelerate the flow, producing 70–90 mph gusts. No marine layer, record-warm coastal water notwithstanding, because the offshore flow pushed it out to sea.",
   "How it ends": "The Great Basin high weakens and slides east from 18 October; the pressure gradient collapses and onshore flow returns by 20 October, ahead of the trough that should bring the first significant rain of the season around 21–22 October.",
   "Climate signal": "No study. Santa Ana frequency has not clearly changed, but hotter, drier autumns before the first rain raise the fire risk when the winds arrive.",
-  "Still open": "Peak recorded gusts, any fires (unconfirmed reports of brush fires in Malibu and San Clemente), and how much rain the next storm delivers."
+  "Still open": "Final peak gusts, the San Clemente fire's size and damage, any new fires before the winds ease, and how much rain the 21–22 October storm delivers."
  },
  "sources": [
+  {
+   "title": "NWS Los Angeles/Oxnard: hazards and fire weather (17 Oct 2026)",
+   "url": "https://www.weather.gov/lox/"
+  },
+  {
+   "title": "NWS: Mountain and valley winds (Santa Ana explainer)",
+   "url": "https://www.weather.gov/safety/wind-mountain-valley"
+  },
+  {
+   "title": "NWS: High wind safety tips",
+   "url": "https://www.weather.gov/wrn/fall2020-wind-sm"
+  },
+  {
+   "title": "ABC7 live updates: red flag and high wind warnings; brush fire near San Clemente (16 Oct 2026)",
+   "url": "https://abc7.com/live-updates/southern-california-fire-watch-red-flag-high-wind-warnings-effect/19941220/entry/19944998/"
+  },
+  {
+   "title": "Los Angeles Times: SoCal braces for more Santa Ana winds as firefighters battle blazes (17 Oct 2026)",
+   "url": "https://www.latimes.com/california/story/2026-10-17/socal-braces-for-more-santa-ana-winds-as-firefighters-battle-blazes"
+  },
+  {
+   "title": "KTLA 5 (YouTube): Santa Ana winds threaten Southern California with extreme fire danger",
+   "url": "https://www.youtube.com/watch?v=ECXGMIJKEco"
+  },
+  {
+   "title": "NOAA GOES-18 Pacific Southwest sector imagery",
+   "url": "https://www.star.nesdis.noaa.gov/GOES/sector.php?sat=G18&sector=psw"
+  },
   {
    "title": "MyNewsLA: Santa Ana winds anticipated to reach 90 mph",
    "url": "https://mynewsla.com/weather/2026/10/16/santa-ana-winds-to-intensify-across-los-angeles-county-3/"
@@ -82,5 +126,23 @@
   "kelvin-wave-california-2026"
  ],
  "depth": "deep",
- "when": ""
+ "when": "",
+ "media": [
+  {
+   "kind": "image",
+   "src": "assets/img/santa-ana-2026-10-16-goes18.jpg",
+   "alt": "True-colour satellite view of Southern California on 16 October 2026: brown, cloud-free land, dark ocean, the Channel Islands and the Salton Sea.",
+   "caption": "Southern California at 1:01 pm PDT on 16 October, the peak day. The coast is cloud-free with no marine layer, because offshore winds pushed dry desert air out to sea. Pale streaks over the ocean and near the mountains are haze, smoke, dust or thin cloud; the image alone cannot tell which.",
+   "credit": "Image: NOAA/NESDIS/STAR, GOES-18 GeoColor, 20:01 UTC (cropped; public domain).",
+   "href": "https://www.star.nesdis.noaa.gov/GOES/sector.php?sat=G18&sector=psw"
+  },
+  {
+   "kind": "youtube",
+   "id": "ECXGMIJKEco",
+   "title": "KTLA 5: Santa Ana winds threaten Southern California with extreme fire danger before big cooldown",
+   "caption": "KTLA 5 forecast: Santa Ana winds and extreme fire danger before a big cooldown.",
+   "credit": "Video: KTLA 5 on YouTube (embedded; rights remain with KTLA).",
+   "href": "https://www.youtube.com/watch?v=ECXGMIJKEco"
+  }
+ ]
 }

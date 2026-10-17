@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scientific Installations · Global Weather Watch</title>
+<meta name="description" content="What major research installations such as CERN, HAARP, SuperDARN at Halley, EISCAT_3D and Mauna Loa actually measure, how high in the atmosphere they work, their status in 2026, and whether they can affect weather.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%232b6cb0'/%3E%3Cpath d='M4 18c4-3 8 3 12 0s8-3 12 0' stroke='white' stroke-width='2.5' fill='none'/%3E%3C/svg%3E">
+<style>
+:root { color-scheme: light dark;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --color-bg: #f6f5f1; --color-panel: #ffffff; --color-fg: #1d1f22; --color-fg-muted: #5c6370; --color-border-line: #e2e0d8;
+  --l-tropo: #dbeafe; --l-strato: #e0e7ff; --l-meso: #ede9fe; --l-thermo: #fae8ff; --mark: #2563eb; --ok: #15803d; --warn: #a16207; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --color-bg: #141619; --color-panel: #1c1f23; --color-fg: #eceae4; --color-fg-muted: #a3a9b2; --color-border-line: #2e3238;
+  --l-tropo: #1e2a3d; --l-strato: #232845; --l-meso: #2a2543; --l-thermo: #33243b; --mark: #60a5fa; --ok: #4ade80; --warn: #facc15; } }
+:root[data-theme="dark"] { --color-bg: #141619; --color-panel: #1c1f23; --color-fg: #eceae4; --color-fg-muted: #a3a9b2; --color-border-line: #2e3238;
+  --l-tropo: #1e2a3d; --l-strato: #232845; --l-meso: #2a2543; --l-thermo: #33243b; --mark: #60a5fa; --ok: #4ade80; --warn: #facc15; }
+html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); }
+body { font-family: var(--font-sans); }
+.site-nav { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; padding: 10px 16px; border-bottom: 1px solid var(--color-border-line); background: var(--color-panel); }
+.site-nav .brand { font-family: var(--font-serif); font-size: 1.15rem; color: var(--color-fg); text-decoration: none; margin-right: auto; }
+.site-nav a { color: var(--color-fg-muted); text-decoration: none; font-size: .9rem; }
+.site-nav a[aria-current="page"], .site-nav a:hover { color: var(--color-fg); }
+.site-foot { max-width: 1100px; margin: 24px auto; padding: 0 16px 24px; color: var(--color-fg-muted); font-size: .8rem; line-height: 1.5; }
+a { color: inherit; }
+main { max-width: 1100px; margin: 0 auto; padding: 16px; }
+h1 { font-family: var(--font-serif); font-weight: 400; font-size: 1.9rem; margin: .3em 0 .2em; }
+h2 { font-family: var(--font-serif); font-weight: 400; font-size: 1.3rem; margin: 1.5em 0 .4em; }
+.lede { color: var(--color-fg-muted); max-width: 80ch; line-height: 1.55; }
+.card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: 10px; padding: 14px 16px; margin: 12px 0; min-width: 0; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 30rem), 1fr)); gap: 12px; }
+.inst h3 { font-family: var(--font-serif); font-weight: 400; font-size: 1.2rem; margin: 0 0 2px; }
+.inst .where { font-size: .82rem; color: var(--color-fg-muted); margin: 0 0 8px; }
+.inst dl { margin: 0; display: grid; grid-template-columns: 8.5rem 1fr; gap: 6px 12px; font-size: .88rem; line-height: 1.5; }
+.inst dt { color: var(--color-fg-muted); }
+.inst dd { margin: 0; }
+@media (max-width: 560px) { .inst dl { grid-template-columns: 1fr; gap: 0 0; } .inst dd { margin-bottom: 6px; } }
+.tag { display: inline-block; font-size: .72rem; padding: 1px 8px; border-radius: 999px; border: 1px solid currentColor; margin-right: 6px; white-space: nowrap; }
+.tag.ok { color: var(--ok); } .tag.warn { color: var(--warn); } .tag.info { color: var(--color-fg-muted); }
+.alt svg { display: block; width: 100%; height: auto; }
+.alt text { font-family: var(--font-sans); font-size: 11px; fill: var(--color-fg-muted); }
+.alt .lname { fill: var(--color-fg); font-size: 12px; }
+.alt .fname { fill: var(--color-fg); font-size: 12px; font-weight: 600; }
+.alt .tick { stroke: var(--color-border-line); }
+.note { font-size: .82rem; color: var(--color-fg-muted); line-height: 1.5; margin: 6px 0 0; }
+ul.src { margin: 0; padding-left: 1.1em; line-height: 1.6; font-size: .88rem; }
+ul.myth { margin: 0; padding-left: 1.1em; line-height: 1.6; font-size: .9rem; }
+ul.myth b { font-weight: 600; }
+</style>
+</head><body>
+<nav class="site-nav" aria-label="Site">
+  <a class="brand" href="./">Global Weather Watch</a>
+  <a href="./">Dashboard</a>
+  <a href="./#climate">Climate</a>
+  <a href="deadliest.html">Deadliest events</a>
+  <a href="installations.html" aria-current="page">Installations</a>
+  <a href="events.html">Event log</a>
+  <a href="mundane.html">Mundane cycles</a>
+  <a href="data.html">Data archive</a>
+  <a href="about.html">About &amp; method</a>
+</nav>
+<main>
+  <h1>Major scientific installations</h1>
+  <p class="lede">What large research facilities such as CERN, HAARP and the SuperDARN radar at Halley actually do, how high above the ground they work, where they stand in October 2026, and whether any of them can change the weather. Weather happens in the lowest layer of the atmosphere, roughly the first 12 km. Most of these installations study layers far above it, or a laboratory copy of it.</p>
+
+  <div class="card alt">
+    <h2 style="margin-top:0">Where each installation works</h2>
+    <div id="alt"></div>
+    <p class="note">Altitude runs left to right on a logarithmic scale; a dashed bar is a laboratory simulation; layer boundaries and the heights each facility probes are approximate and vary with latitude, season and solar activity. Mauna Loa samples air at its 3.4 km summit; CLOUD recreates lower-atmosphere conditions inside a chamber at CERN; Halley's best-known record measures the ozone column, most of which sits in the stratosphere.</p>
+  </div>
+
+  <h2>The installations</h2>
+  <div class="grid">
+
+    <article class="card inst" id="mauna-loa">
+      <h3>Mauna Loa Observatory</h3>
+      <p class="where">Hawaiʻi, USA · 3,397 m · NOAA Global Monitoring Laboratory, with Scripps Institution of Oceanography</p>
+      <dl>
+        <dt>What it is</dt><dd>The site of the longest continuous record of atmospheric carbon dioxide, the "Keeling Curve", begun by Scripps in 1958. NOAA has run its own independent record there since 1974.</dd>
+        <dt>Layer</dt><dd>Lower atmosphere (troposphere): it samples well-mixed air above the island's local influences.</dd>
+        <dt>Latest</dt><dd>Monthly CO₂ averaged about 431 ppm in April 2026, a record (R&amp;D World, 13 May 2026). The full monthly series is on the <a href="./#planet">Planet tab</a>.</dd>
+        <dt>Status</dt><dd><span class="tag warn">operating, funding at risk</span>A proposed FY2027 NOAA budget would cut funding for climate-monitoring sites including Mauna Loa. As of May 2026 this was a proposal, not a closure decision.</dd>
+        <dt>Affects weather?</dt><dd>No. It only measures.</dd>
+      </dl>
+    </article>
+
+    <article class="card inst" id="halley">
+      <h3>Halley Research Station and its SuperDARN radar</h3>
+      <p class="where">Brunt Ice Shelf, Antarctica · British Antarctic Survey</p>
+      <dl>
+        <dt>What it is</dt><dd>A research station on a floating ice shelf. Ozone has been measured there continuously since 1956, and Halley measurements led to the discovery of the Antarctic ozone hole, published in 1985. A SuperDARN radar was built there in 1988 as part of a US–UK experiment, paired with a radar in Canada at the magnetically opposite point.</dd>
+        <dt>SuperDARN</dt><dd>An international network of 41 high-frequency (8–22 MHz) radars in both hemispheres. It maps how charged particles in the upper atmosphere (the ionosphere) flow, which shows how the solar wind drives "space weather". The network was formalised in 1993.</dd>
+        <dt>Layer</dt><dd>Ozone: stratosphere. SuperDARN: ionosphere, roughly 100–400 km.</dd>
+        <dt>Status</dt><dd><span class="tag info">summer-only staff</span>After cracks in the ice shelf, the station was moved 23 km inland in 2016–17 and has been left unstaffed every winter since 2017, so winter observations depend on automated instruments. In 2013 Halley became a WMO Global Atmosphere Watch global station. BAS lists the SuperDARN radar as a current facility but does not publish its operating status.</dd>
+        <dt>Affects weather?</dt><dd>No. The radar receives echoes from the ionosphere; it does not heat or change it.</dd>
+      </dl>
+    </article>
+
+    <article class="card inst" id="haarp">
+      <h3>HAARP</h3>
+      <p class="where">Gakona, Alaska, USA · University of Alaska Fairbanks (since 2015)</p>
+      <dl>
+        <dt>What it is</dt><dd>The High-frequency Active Auroral Research Program, built by the US Air Force and Navy from 1993 and transferred to the University of Alaska Fairbanks on 11 August 2015. Its main instrument is 180 antennas over 33 acres, radiating up to 3.6 MW at 2.7–10 MHz.</dd>
+        <dt>What it studies</dt><dd>It briefly heats small patches of the ionosphere with radio waves so scientists can create, on demand, effects that normally occur at random, and measure them. Research runs in short campaigns a few times a year.</dd>
+        <dt>Layer</dt><dd>Ionosphere, from about 60–80 km up to more than 500 km.</dd>
+        <dt>Status</dt><dd><span class="tag ok">operating</span>A university research facility. It is not classified, and its environmental impact documents are public.</dd>
+        <dt>Affects weather?</dt><dd>No. According to the operator, radio waves at HAARP's frequencies are not absorbed in the troposphere or stratosphere, where weather happens, so they cannot control it. The disturbances it makes in the ionosphere fade within less than a second to about 10 minutes.</dd>
+      </dl>
+    </article>
+
+    <article class="card inst" id="eiscat">
+      <h3>EISCAT_3D</h3>
+      <p class="where">Skibotn (Norway), Kaiseniemi (Sweden), Karesuvanto (Finland) · EISCAT Scientific Association</p>
+      <dl>
+        <dt>What it is</dt><dd>A new-generation incoherent-scatter radar: a transmit-and-receive array of about 10,000 antennas at Skibotn and two receive-only arrays of about 5,000 antennas each. It measures temperature, density and motion in the upper atmosphere in three dimensions.</dd>
+        <dt>What it studies</dt><dd>How Earth's atmosphere is coupled to space: aurora, space weather, upper-atmosphere effects relevant to climate research, and space debris.</dd>
+        <dt>Layer</dt><dd>From the upper middle atmosphere through the ionosphere.</dd>
+        <dt>Status</dt><dd><span class="tag info">commissioning</span>Antennas are installed at all three sites; EISCAT planned test measurements from 2024 with a gradual move to full three-site operation. Its public page is undated, so the current schedule is not confirmed here.</dd>
+        <dt>Affects weather?</dt><dd>No. Like other radars it measures echoes; it does not heat the atmosphere.</dd>
+      </dl>
+    </article>
+
+    <article class="card inst" id="cern">
+      <h3>CERN, including the CLOUD experiment</h3>
+      <p class="where">Geneva, on the French–Swiss border · European Organization for Nuclear Research</p>
+      <dl>
+        <dt>What it is</dt><dd>The world's largest particle-physics laboratory. Its Large Hadron Collider (LHC) is a 27 km ring underground.</dd>
+        <dt>Status</dt><dd><span class="tag info">long shutdown</span>The last LHC physics beams were dumped at the end of June 2026 and Long Shutdown 3 began in July. It is scheduled to last about four years, with the accelerators restarting from about mid-2028 and the first High-Luminosity LHC operations targeted for June 2030. The injector accelerators were scheduled to run until 31 August 2026.</dd>
+        <dt>CLOUD</dt><dd>The one CERN experiment about weather and climate. A 26 m³ stainless-steel chamber recreates the atmosphere from +30 °C to −70 °C, with a particle beam standing in for cosmic rays, to study how the seed particles for cloud droplets form. Its main findings: trace vapours from trees and other sources are essential for new particles to form, and cosmic rays speed up particle formation in the chamber but have little effect on today's climate. Over a solar cycle, the global change in cloud-seed particles is only about 0.1% (Dunne et al. 2016, <i>Science</i>).</dd>
+        <dt>Layer</dt><dd>The LHC: underground. CLOUD: a laboratory copy of the lower atmosphere.</dd>
+        <dt>Affects weather?</dt><dd>No. The collider's beams stay inside a vacuum pipe underground and never reach the atmosphere.</dd>
+      </dl>
+    </article>
+
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">Common claims, checked</h2>
+    <ul class="myth">
+      <li><b>"HAARP steers storms or causes droughts."</b> Weather is driven by energy in the lowest 12 km of the atmosphere; HAARP's radio waves pass through that layer and act 60–500+ km up. The disturbances it makes fade within minutes. The operator answers this directly in its FAQ.</li>
+      <li><b>"Cosmic rays, studied at CERN, control the climate."</b> CERN's own CLOUD experiment tested this. Cosmic rays do help particles form in the chamber, but the effect on cloud-seed particles over a solar cycle is about 0.1%, too small to drive today's warming.</li>
+      <li><b>"Radar networks such as SuperDARN or EISCAT heat the sky."</b> SuperDARN and EISCAT_3D are radars: they send pulses and measure the echoes from the upper atmosphere, and do not heat it. EISCAT also runs a separate heating facility near Tromsø, Norway, which, like HAARP, acts only on the ionosphere.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">Sources</h2>
+    <ul class="src">
+      <li><a href="https://haarp.gi.alaska.edu/faq" target="_blank" rel="noopener">HAARP (University of Alaska Fairbanks): Frequently asked questions</a>, read 17 Oct 2026.</li>
+      <li><a href="https://home.cern/" target="_blank" rel="noopener">CERN</a>: Accelerator Report, 29 Jan 2026 (LHC physics until 29 June 2026; injectors until 31 August 2026); <a href="https://home.cern/science/long-shutdown-3/" target="_blank" rel="noopener">Long Shutdown 3</a>.</li>
+      <li><a href="https://www.sciencetimes.com/articles/62039/20260706/large-hadron-collider-waves-goodbye-it-enters-long-shutdown-3-after-nearly-20-years-service.htm" target="_blank" rel="noopener">Science Times: the LHC enters Long Shutdown 3</a> (6 Jul 2026).</li>
+      <li>Dunne, E. M. et al. (2016). Global atmospheric particle formation from CERN CLOUD measurements. <i>Science</i> 354, 1119–1124. <a href="https://doi.org/10.1126/science.aaf2649">10.1126/science.aaf2649</a>.</li>
+      <li><a href="https://physicsworld.com/a/cloud-experiment-at-cern-aids-climate-predictions/" target="_blank" rel="noopener">Physics World: CLOUD experiment at CERN aids climate predictions</a> (chamber design and earlier results).</li>
+      <li><a href="https://en.wikipedia.org/wiki/SuperDARN" target="_blank" rel="noopener">Wikipedia: SuperDARN</a> (network size, frequencies, Halley 1988).</li>
+      <li><a href="https://www.bas.ac.uk/science/long-term-monitoring/space-weather-observatory/" target="_blank" rel="noopener">British Antarctic Survey: Space Weather Observatory</a>; <a href="https://www.bas.ac.uk/polar-operations/sites-and-facilities/facility/superdarn-super-dual-auroral-radar-network-halley-radar/" target="_blank" rel="noopener">SuperDARN Halley radar</a>; <a href="https://www.bas.ac.uk/project/moving-halley/" target="_blank" rel="noopener">Moving Halley</a>.</li>
+      <li><a href="https://en.wikipedia.org/wiki/Halley_Research_Station" target="_blank" rel="noopener">Wikipedia: Halley Research Station</a> (ozone-hole discovery, relocation, winter closures).</li>
+      <li><a href="https://eiscat.se/eiscat3d-information" target="_blank" rel="noopener">EISCAT: EISCAT_3D information</a>.</li>
+      <li><a href="https://www.rdworldonline.com/atmospheric-carbon-dioxide-hits-record-431-ppm-as-mauna-loa-observatory-faces-funding-cuts/" target="_blank" rel="noopener">R&amp;D World: CO₂ hits record 431 ppm as Mauna Loa faces funding cuts</a> (13 May 2026); <a href="https://www.gml.noaa.gov/ccgg/trends" target="_blank" rel="noopener">NOAA GML: Trends in CO₂</a>.</li>
+    </ul>
+  </div>
+</main>
+<footer class="site-foot">Data snapshot: <span data-asof>16 October 2026</span>. Independent, non-commercial analysis built from public sources (see <a href="about.html">About &amp; method</a>). Not an official forecast or warning service — for warnings follow your national weather service. Analysis prepared with Claude (Anthropic).</footer>
+<script>
+(() => {
+  const NS = 'http://www.w3.org/2000/svg';
+  const host = document.getElementById('alt');
+  const layers = [
+    { name: 'Troposphere: weather', lo: 1, hi: 12, fill: 'var(--l-tropo)' },
+    { name: 'Stratosphere: ozone layer', lo: 12, hi: 50, fill: 'var(--l-strato)' },
+    { name: 'Mesosphere', lo: 50, hi: 85, fill: 'var(--l-meso)' },
+    { name: 'Thermosphere and ionosphere', lo: 85, hi: 1000, fill: 'var(--l-thermo)' },
+  ];
+  const fac = [
+    { name: 'Mauna Loa (summit air)', short: 'Mauna Loa', lo: 3.4, hi: 3.4 },
+    { name: 'CERN CLOUD (lab copy)', short: 'CLOUD (lab)', lo: 1, hi: 12, dash: true },
+    { name: 'Halley ozone', lo: 15, hi: 35 },
+    { name: 'HAARP', lo: 60, hi: 500 },
+    { name: 'SuperDARN', lo: 100, hi: 400 },
+    { name: 'EISCAT_3D', lo: 70, hi: 1000 },
+  ];
+  const el = (t, a, txt) => { const e = document.createElementNS(NS, t); Object.entries(a).forEach(([k, v]) => e.setAttribute(k, v)); if (txt != null) e.textContent = txt; return e; };
+  function draw() {
+    const W = Math.max(300, host.clientWidth), narrow = W < 560;
+    const labW = narrow ? 100 : 170, x0 = labW, x1 = W - 8;
+    const rowH = 30, top = 44, H = top + fac.length * rowH + 30;
+    const x = (km) => x0 + Math.log10(km) / 3 * (x1 - x0);
+    const svg = el('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'Altitude range studied by each installation, 1 to 1,000 km on a log scale, against atmospheric layers' });
+    const short = { 'Troposphere: weather': narrow ? 'Weather' : 'Troposphere: weather', 'Stratosphere: ozone layer': narrow ? 'Ozone' : 'Stratosphere: ozone', 'Mesosphere': narrow ? '' : 'Mesosphere', 'Thermosphere and ionosphere': 'Ionosphere' };
+    layers.forEach((L) => {
+      svg.append(el('rect', { x: x(L.lo), y: 22, width: x(L.hi) - x(L.lo), height: H - 22 - 26, fill: L.fill }));
+      svg.append(el('text', { x: (x(L.lo) + x(L.hi)) / 2, y: 14, 'text-anchor': 'middle', class: 'lname' }, short[L.name]));
+    });
+    (narrow ? [1, 10, 100, 1000] : [1, 3, 10, 30, 100, 300, 1000]).forEach((k) => {
+      svg.append(el('line', { x1: x(k), x2: x(k), y1: H - 26, y2: H - 22, class: 'tick' }));
+      svg.append(el('text', { x: x(k), y: H - 10, 'text-anchor': k === 1 ? 'start' : k === 1000 ? 'end' : 'middle' }, (k >= 1000 ? '1,000' : k) + (narrow && k < 1000 ? '' : ' km')));
+    });
+    fac.forEach((f, i) => {
+      const cy = top + i * rowH + rowH / 2 - 8;
+      svg.append(el('text', { x: 0, y: cy, dy: '0.35em', class: 'fname' }, narrow ? f.short || f.name : f.name));
+      if (f.lo === f.hi) svg.append(el('circle', { cx: x(f.lo), cy, r: 6, fill: 'var(--mark)' }));
+      else svg.append(el('line', { x1: x(f.lo), x2: x(f.hi), y1: cy, y2: cy, stroke: 'var(--mark)', 'stroke-width': 8, 'stroke-linecap': 'round', 'stroke-dasharray': f.dash ? '4 6' : null, opacity: f.dash ? 0.75 : 1 }));
+    });
+    host.replaceChildren(svg);
+  }
+  draw();
+  let t; addEventListener('resize', () => { clearTimeout(t); t = setTimeout(draw, 150); });
+})();
+</script>
+</body></html>
