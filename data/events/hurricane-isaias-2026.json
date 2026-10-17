@@ -3,35 +3,79 @@
  "name": "Hurricane Isaias",
  "type": "Hurricane",
  "region": "Florida Panhandle, Alabama, Georgia",
- "start": "2026-10-07",
- "end": "2026-10-09",
+ "start": "2026-10-06",
+ "end": "2026-10-11",
  "status": "ended",
- "depth": "summary",
- "as_of": "12 Oct 2026",
- "when": "7–9 Oct",
- "headline": "Low over the southern Gulf ~7 Oct, MJO phases 1–2 favourable.",
+ "depth": "deep",
+ "as_of": "17 Oct 2026",
+ "when": "6–11 Oct",
+ "headline": "The first Atlantic hurricane of 2026 peaked at Category 3 over the Gulf, then hit near Destin, Florida, on 9 October as a Category 2 with 105 mph winds.",
  "numbers": [
-  [
-   "When",
-   "7–9 Oct"
-  ],
-  [
-   "Deaths",
-   "At least 4"
-  ],
-  [
-   "Confidence",
-   "medium"
-  ]
+  ["Landfall", "Cat 2, 105 mph, near Destin, 9 Oct"],
+  ["Peak", "Cat 3 (9 Oct)"],
+  ["Highest gust", "117 mph, Oriole Beach (prelim.)"],
+  ["Peak outages", "~900,000 customers"],
+  ["Deaths", "6–9 reported (tallies differ)"],
+  ["Insured loss", "$1–4.5bn (modeler range)"]
  ],
- "timeline": [],
- "sources": [],
- "related": [],
+ "timeline": [
+  ["6 Oct", "Tropical Depression Nine forms over the far southwestern Gulf."],
+  ["7 Oct", "Becomes Tropical Storm Isaias in the morning; rapid intensification 7–8 Oct (Climate Central)."],
+  ["7–8 Oct", "Becomes the season's first hurricane: late 7 Oct local time per The Weather Channel, 8 Oct per NASA. Eight named storms had formed before it."],
+  ["9 Oct morning", "Reaches Category 3, the season's first major hurricane; rising wind shear then disrupts its structure."],
+  ["9 Oct, ~8:30 pm CDT", "Landfall near Destin, Florida, as a Category 2 with sustained winds of 105 mph."],
+  ["10–11 Oct", "Weakens over Alabama and becomes post-tropical; remnants spread heavy rain into the Appalachians and Mid-Atlantic; tornadoes in Georgia and the Carolinas."],
+  ["11–14 Oct", "Night-time satellite imagery shows widespread darkness around Pensacola and US 98 on 11 Oct; by 14 Oct lighting looks similar to pre-storm conditions (NASA)."],
+  ["16 Oct", "Moody's RMS estimates insured losses at $2.5–4.5 billion, best estimate $3.5 billion."]
+ ],
  "sections": {
+  "In brief": "Hurricane Isaias was the first Atlantic hurricane of 2026. It strengthened to Category 3 over the Gulf before making landfall near Destin, Florida, on 9 October as a Category 2 hurricane with sustained winds of 105 mph. Its main impacts were destructive winds, power outages, storm surge and inland flooding across the Southeast.",
+  "Why it intensified so fast": [
+   "Isaias met exceptionally warm Gulf water, a moist atmosphere and a window when wind shear was not strong enough to disrupt its core. Its winds rose by 40 mph in the 24 hours ending early on 8 October, above the rapid-intensification threshold of about 35 mph in 24 hours (Yale Climate Connections).",
+   "Warm water supplied energy: sea-surface temperatures along its path were about 30–31 °C (86–88 °F), unusually warm for October. Warm water feeds a hurricane heat and moisture, helping its thunderstorms strengthen and its winds accelerate.",
+   "Moist air supported the thunderstorms: Isaias initially kept drier air approaching from the west out of its inner core, so its central thunderstorms stayed organized.",
+   "Wind shear (the change in wind speed or direction with height) stayed manageable for a while: Isaias strengthened despite moderate shear of roughly 15–20 kt. It did not need completely calm upper-level winds.",
+   "In short, the storm had abundant ocean energy and enough atmospheric protection to turn that energy into stronger winds. Warm water alone would not have guaranteed rapid intensification."
+  ],
+  "Why the strengthening stopped": "As Isaias approached the northern Gulf Coast, stronger upper-level winds raised the shear (to about 27–39 kt) while dry air wrapped toward its circulation. These conditions disrupted the storm and weakened it from Category 3 to Category 2 before landfall. The warm water could fuel it but could not offset the atmospheric disruption. It still produced destructive gusts and widespread tree damage.",
+  "Where the damage was worst": [
+   "The Florida Panhandle and southern Alabama had major wind damage: fallen trees, damaged roofs and downed power lines. The strongest gusts were west of the centre: NASA, citing preliminary National Weather Service observations, reported 117 mph at Oriole Beach and 102 mph at Pensacola City Hall.",
+   "Coastal flooding: the Panama City Beach Pier gauge recorded a peak water level of 5.59 ft above Mean Higher High Water, roughly the normal high-tide line (NWS Tallahassee, preliminary). This is a gauge reading, not the flood depth at every nearby property.",
+   "Heavy rain: Bellwood, Alabama, recorded 12.97 inches in about 13 hours; parts of western North Carolina received up to 9 inches (The Weather Channel). Where a stalled front added to the hurricane's rain, many sites reported 10–20 inches in total (WUSF).",
+   "Power outages: about 900,000 customers were without power at the peak, according to The Weather Channel citing poweroutage.us. AccuWeather put the peak at about 930,000.",
+   "Tornadoes: the system spawned tornadoes in Georgia and the Carolinas, including near Newington, Georgia, west of Allendale, South Carolina, and near Candor, North Carolina.",
+   "Deaths: tallies differ by source and date: at least 4 (AP, 10 Oct), at least 6 (AccuWeather, 14 Oct) and 9 (WUSF, 11 Oct, including six reported by Florida's governor)."
+  ],
+  "Why it was notable": [
+   "A very late first hurricane: although Isaias was the ninth named storm, it did not become the season's first hurricane until 7–8 October. AccuWeather says that broke a 121-year record for the latest first hurricane of an Atlantic season. The quiet season is consistent with El Niño's wind shear over the Atlantic (see The setup), but a quiet season did not prevent one damaging storm.",
+   "It strengthened quickly, then weakened before landfall: unusually warm Gulf water drove rapid intensification, and strong shear trimmed its sustained winds before landfall."
+  ],
+  "Did climate change contribute?": "Climate Central's rapid analysis estimated that the water Isaias rapidly intensified over was 1.4 °C (2.4 °F) warmer on average than it would have been without human-caused climate change, and that such temperatures were made 4 to 600 times more likely. Its preliminary storm estimate is about 7 mph more wind and no change in category. This supports a contribution from climate change to the storm's ocean-energy supply, not a claim that climate change alone caused the hurricane or its rapid intensification. Moisture, wind shear and the storm's internal organization also mattered.",
+  "Recovery and estimated costs": [
+   "As of 17 October the focus is recovery, not an approaching storm. NASA's Black Marble night-lights imagery (VIIRS on NOAA-20) showed widespread darkness around Pensacola and the US 98 corridor on 11 October; by 14 October, lighting patterns looked similar to pre-storm conditions. NASA cautions that these images complement, rather than replace, ground-level outage reports.",
+   "On 16 October, Moody's RMS estimated industry insured losses at $2.5–4.5 billion, with a best estimate of $3.5 billion. Wind accounts for most of it; storm surge, inland flooding and NFIP losses together are only about $250 million. Other modelers are lower: KCC about $3 billion, Cotality $2–3 billion and Verisk $1–2 billion. These are preliminary insured-loss estimates, not a final tally of economic damage or uninsured losses."
+  ],
   "The setup": "El Niño shear suppresses the Atlantic (17% of normal energy); the Gulf is the exception.",
   "The trigger": "Low over the southern Gulf ~7 Oct, MJO phases 1–2 favourable.",
   "What amplified it": "Gulf water 28–29.5 °C; shear ~20 kt. Capped by rising shear (27–39 kt) and dry air before landfall as Cat 2.",
-  "Climate signal": "No study.",
-  "Still open": "Summary entry: the full deep-dive (day-by-day timeline, steering, how it ended, sources) has not been written yet. It will be added as the log works back through the year."
- }
+  "Still open": "Figures are preliminary. NHC's final Tropical Cyclone Report will confirm peak intensity, landfall details and the official death toll."
+ },
+ "sources": [
+  {"title": "NASA Earth Observatory: Isaias Dims the Gulf Coast (16 Oct 2026)", "url": "https://science.nasa.gov/earth/earth-observatory/isaias-dims-the-gulf-coast/"},
+  {"title": "NWS Tallahassee: Post-Tropical Cyclone Report, Hurricane Isaias (11 Oct 2026)", "url": "https://www.weather.gov/media/tae/TropicalEventSummary/PSHTAE_2026AL09_Isaias_Summary.pdf"},
+  {"title": "NHC: Hurricane Isaias Tropical Cyclone Update, 9 Oct 2026", "url": "https://www.nhc.noaa.gov/text/refresh/MIATCUAT4+shtml/100158.shtml"},
+  {"title": "The Weather Channel: Hurricane Isaias hit Gulf Coast, spread rain and wind inland (12 Oct 2026)", "url": "https://weather.com/2026/10/11/storms/hurricane/hurricane-isaias-forecast-inland-flooding-winds-tornadoes"},
+  {"title": "WLRN: Isaias makes landfall near Destin (9 Oct 2026)", "url": "https://www.wlrn.org/2026-10-09/isaias-makes-landfall-near-destin-widespread-impacts-continue"},
+  {"title": "AccuWeather: Isaias made hurricane history before hitting Southeast (updated 14 Oct 2026)", "url": "https://www.accuweather.com/en/hurricane/isaias-made-hurricane-history-before-hitting-southeast-with-winds-upwards-of-110-mph-tornadoes/1945554"},
+  {"title": "WUSF: Hurricane Isaias by the numbers (11 Oct 2026)", "url": "https://www.wusf.org/weather/2026-10-11/hurricane-isaias-by-the-numbers"},
+  {"title": "Boston Globe/AP: 4 dead as Isaias brings threat of floods (10 Oct 2026)", "url": "https://www.bostonglobe.com/2026/10/10/nation/4-dead-storm-isaias-brings-threat-floods-across-southeast/"},
+  {"title": "Yale Climate Connections: Isaias steadily intensifying over record-warm Gulf waters", "url": "https://yaleclimateconnections.org/2026/10/hurricane-isaias-steadily-intensifying-over-record-warm-gulf-waters/"},
+  {"title": "Climate Central: Climate Shift Index alert, Hurricane Isaias (9 Oct 2026)", "url": "https://www.climatecentral.org/climate-shift-index-alert/climate-change-supercharged-warm-Gulf-waters-fueling-hurricane-Isaias"},
+  {"title": "Climate Central: Isaias 2026 tropical cyclone attribution", "url": "https://www.climatecentral.org/tropical-cyclones/isaias-2026"},
+  {"title": "Artemis: Moody's estimates Isaias insured losses at $2.5bn–$4.5bn (16 Oct 2026)", "url": "https://www.artemis.bm/news/moodys-estimates-insured-losses-from-hurricane-isaias-in-2-5bn-to-4-5bn-range/"},
+  {"title": "Insurance Journal: KCC says Isaias insured losses $3 billion (15 Oct 2026)", "url": "https://www.insurancejournal.com/news/southeast/2026/10/15/889051.htm"},
+  {"title": "Insurance Business: Cotality puts Isaias insured losses at $2–3 billion", "url": "https://www.insurancebusinessmag.com/us/news/catastrophe/cotality-puts-isaias-insured-losses-at-2-billion-to-3-billion-below-prelandfall-estimates-593232.aspx"},
+  {"title": "Insurance Business: Verisk puts Isaias insured losses at $1–2 billion", "url": "https://www.insurancebusinessmag.com/us/news/catastrophe/verisk-puts-isaias-insured-losses-at-1-billion-to-2-billion-with-wind-driving-almost-all-of-it-593407.aspx"}
+ ],
+ "related": ["el-nino-2026"]
 }

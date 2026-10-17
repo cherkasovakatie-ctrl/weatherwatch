@@ -7,7 +7,7 @@
  "end": "",
  "status": "unfolding",
  "depth": "summary",
- "as_of": "12 Oct 2026",
+ "as_of": "17 Oct 2026",
  "when": "Ongoing",
  "headline": "ENSO Longitude Index 191.5°E, the easternmost on record: an east-based event like 1982–83 and 1997–98.",
  "numbers": [
@@ -25,12 +25,27 @@
   ]
  ],
  "timeline": [],
- "sources": [],
- "related": [],
+ "sources": [
+  {
+   "title": "NASA Earth Observatory: El Niño Alters Marine Life in the Pacific (10 Aug 2026)",
+   "url": "https://science.nasa.gov/earth/earth-observatory/el-nino-alters-marine-life-in-the-pacific/"
+  }
+ ],
+ "related": [
+  "peru-coastal-el-nino-extraordinary-2026",
+  "hurricane-isaias-2026"
+ ],
  "sections": {
   "The setup": "Weekly Niño 3.4 +3.3 °C (7 Oct), relative +2.4; Niño 1+2 +5.2; heat content +3.39 °C; official ONI (Jul–Sep) +2.16.",
   "The trigger": "ENSO Longitude Index 191.5°E, the easternmost on record: an east-based event like 1982–83 and 1997–98.",
   "What amplified it": "California: >90% odds of a wetter-than-average winter, peak Dec–Mar (Swain). Quoted \"ONI +3.3\" is a weekly value, not the official ONI.",
+  "How it is changing Pacific marine life": [
+   "NASA's PACE satellite (Ocean Color Instrument) compared monthly average chlorophyll-a, a measure of phytoplankton, in June 2025 (neutral conditions) and June 2026 (El Niño strengthening). The biggest change is in the central equatorial Pacific, north of New Zealand, where chlorophyll was substantially lower in 2026. NASA gives no numerical values.",
+   "Why: weaker trade winds suppress upwelling, the rise of cold, nutrient-rich deep water that feeds phytoplankton. Fewer phytoplankton means less food at the base of the food web. NASA Goddard oceanographers Matthew Kehrli and Graham Trolley expect the difference to grow in strength, in area, or both. Satellites also show warmer-than-normal sea-surface temperatures and higher-than-normal sea-surface height.",
+   "Peru: in past El Niños anchoveta catches fell sharply. In 2026 Peru's Ministry of Production has repeatedly suspended the fishery, and pelicans have moved into ports and towns. NASA gives no catch figures (see the Peru coastal El Niño page).",
+   "Recovery: a chlorophyll rebound can follow El Niño even without a La Niña, helped by iron carried by currents and dust from drier land (Lim et al. 2022). The strong 1998–99 La Niña produced a large eastern Pacific phytoplankton bloom and a rise in fish populations.",
+   "Context: PACE launched in February 2024, so this is the first complete El Niño it will observe with global, near-daily hyperspectral data. NOAA's Climate Prediction Center expected the event to strengthen through the end of 2026, with a 97% chance of lasting into early Northern Hemisphere spring 2027 (as cited by NASA, 10 Aug 2026)."
+  ],
   "Climate signal": "California emergency proclamation cites a study finding El Niño events now 36% stronger than pre-industrial.",
   "Still open": "Summary entry: the full deep-dive (day-by-day timeline, steering, how it ended, sources) has not been written yet. It will be added as the log works back through the year."
  }
