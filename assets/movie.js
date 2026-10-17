@@ -125,7 +125,7 @@ window.stormMovie = async function (host, mv) {
     const s = scenes.filter((q) => q.ms <= ms).slice(-1)[0] || scenes[0];
     if (s !== lastScene) { lastScene = s; cap.replaceChildren(el('div', 'mvcapd', dFmt(s.ms) + (s.ms > now ? ' · forecast' : '')), el('b', null, s.title), el('p', null, s.text), (live = el('p', 'mvlive'))); cap.classList.remove('mvfade'); void cap.offsetWidth; cap.classList.add('mvfade'); }
     const above = r.sst ? r.sst - 26.5 : null;
-    live.textContent = `${ms > now ? 'Forecast for' : 'At'} ${dFmt(ms)}: ${label(p.kt).toLowerCase()} with ${p.kt} kt winds over ${r.sst ? `${r.sst.toFixed(1)} °C water, ${above.toFixed(1)} °C warmer than a tropical cyclone needs` : 'warm water'}; shear ${e.shear}${r.dist ? `; ${Math.round(r.dist).toLocaleString('en-GB')} km from Guam, moving at about ${Math.round(r.spd)} mph` : ''}.`;
+    live.textContent = `${ms > now ? 'Forecast: ' : 'Now: '}${label(p.kt).toLowerCase()} with ${p.kt} kt winds over ${r.sst ? `${r.sst.toFixed(1)} °C water, ${above.toFixed(1)} °C warmer than a tropical cyclone needs` : 'warm water'}; shear ${e.shear}${r.dist ? `; ${Math.round(r.dist).toLocaleString('en-GB')} km from Guam, moving at about ${Math.round(r.spd)} mph` : ''}.`;
   }
   let i = 0, timer = null;
   const speed = () => 140 / +spd.value;
