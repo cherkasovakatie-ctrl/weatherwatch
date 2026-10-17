@@ -403,6 +403,22 @@
    "bytes": 865
   },
   {
+   "id": "paleo_studies",
+   "file": "paleo_studies.json",
+   "title": "Paleoclimate study evidence cards",
+   "description": "Structured evidence cards (question, location, period, dating, measured variable, inferred condition, resolution, finding, uncertainty, DOI and data links) for the studies on the Climate tab.",
+   "updated": "2026-10-17",
+   "bytes": 8589
+  },
+  {
+   "id": "paleo_temp12k",
+   "file": "paleo_temp12k.csv",
+   "title": "Temperature 12k reconstructions: global and latitude bands",
+   "description": "Kaufman et al. (2020, Scientific Data) multi-method ensemble: median and 5th/95th percentiles of 2,500 members, 100-year bins, 12,000 years BP to 1950, °C anomaly vs 1800–1900 CE. Read from NOAA WDS-Paleo (DOI 10.25921/vzys-1280), file temp12k_allmethods_percentiles.csv, on 17 Oct 2026; year_ce = 1950 − age_bp (bin centre).",
+   "updated": "2026-10-17",
+   "bytes": 34675
+  },
+  {
    "id": "phase_rates",
    "file": "phase_rates.csv",
    "title": "Rates by ENSO phase",

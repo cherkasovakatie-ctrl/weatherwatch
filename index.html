@@ -181,6 +181,38 @@ body { font-family: var(--font-anthropic-sans); }
   .ww-why1976 h3 { margin: 0 0 6px; font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); }
   .ww-why1976 ul { margin: 0; padding-left: 1.1em; display: grid; gap: 6px; font-size: var(--cds-font-size-caption); line-height: 1.5; color: var(--color-fg-muted); max-width: 110ch; }
   .ww-why1976 b { color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+  /* Climate tab */
+  .cl-intro { display: grid; gap: var(--cds-gap-sm); margin-bottom: var(--cds-gap-md); }
+  h2.cl-h { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: 1.45rem; margin: 0; }
+  h2.cl-sec { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: 1.3rem; margin: var(--cds-gap-lg) 0 var(--cds-gap-sm); scroll-margin-top: 12px; }
+  .cl-nav { display: grid; gap: var(--cds-gap-sm); grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); }
+  .cl-nav a { display: grid; gap: 2px; text-decoration: none; background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-sm) var(--cds-pad-md); color: var(--color-fg); }
+  .cl-nav a:hover { border-color: var(--color-fg-muted); }
+  .cl-nav a span { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .cl-meta { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .cl-meta b { color: var(--color-fg); font-weight: var(--cds-font-weight-medium); margin-right: 4px; }
+  .cl-ctl { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 4px 0; }
+  .cl-ctl select, .cl-ctl input[type="search"] { font: inherit; padding: 4px 6px; border: 1px solid var(--color-border-line); border-radius: 6px; background: var(--color-panel); color: var(--color-fg); max-width: 100%; }
+  .cl-ctl label { display: inline-flex; gap: 6px; align-items: center; }
+  a.cl-dl { color: var(--color-fg); }
+  details.cl-read { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.5; }
+  details.cl-read summary { cursor: pointer; color: var(--color-fg); }
+  .cl-kind { justify-self: start; font-size: .72rem; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--color-border-line); color: var(--color-fg-muted); }
+  .cl-kind.arch { color: var(--color-warn); border-color: var(--color-warn); }
+  .cl-kind.nat { color: var(--color-ok); border-color: var(--color-ok); }
+  .cl-chain { margin: 0; font-size: var(--cds-font-size-caption); line-height: 1.5; padding: 6px 10px; border-left: 3px solid var(--color-border-line); color: var(--color-fg-muted); }
+  .cl-ev dl, .cl-card dl { margin: 0; display: grid; gap: 2px; font-size: var(--cds-font-size-caption); line-height: 1.5; }
+  .cl-ev dt, .cl-card dt { font-weight: var(--cds-font-weight-medium); margin-top: 6px; }
+  .cl-ev dd, .cl-card dd { margin: 0; color: var(--color-fg-muted); }
+  .cl-card dt.cl-key { color: var(--color-fg); }
+  .cl-card dt.cl-key + dd { color: var(--color-fg); }
+  .cl-cards { display: grid; gap: var(--cds-gap-sm); }
+  details.cl-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-md); scroll-margin-top: 12px; }
+  details.cl-card summary { cursor: pointer; display: grid; gap: 4px; }
+  details.cl-card summary b { font-size: var(--cds-font-size-body); }
+  .cl-cit { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .cl-src ul { margin: 0; padding-left: 1.1em; display: grid; gap: 6px; font-size: var(--cds-font-size-caption); line-height: 1.5; color: var(--color-fg-muted); }
+  .cl-src b { color: var(--color-fg); }
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="assets/shim.js"></script>
@@ -246,6 +278,7 @@ body { font-family: var(--font-anthropic-sans); }
     <button role="tab" id="tab-local" data-page="local" aria-selected="false">Local</button>
     <button role="tab" id="tab-hazards" data-page="hazards" aria-selected="false">Hazards</button>
     <button role="tab" id="tab-planet" data-page="planet" aria-selected="false">Planet</button>
+    <button role="tab" id="tab-climate" data-page="climate" aria-selected="false">Climate</button>
     <button role="tab" id="tab-poles" data-page="poles" aria-selected="false">Poles</button>
     <button role="tab" id="tab-timeline" data-page="timeline" aria-selected="false">Storm timeline</button>
     <button role="tab" id="tab-why" data-page="why" aria-selected="false">Why it happened</button>
@@ -613,6 +646,142 @@ body { font-family: var(--font-anthropic-sans); }
           </ul>
         </div>
 </article>
+    </div>
+  </section>
+
+  <!-- CLIMATE (evidence-based explorer) -->
+  <section class="ww-page" id="climate" data-page-id="climate" hidden>
+    <div class="cl-intro">
+      <h2 class="cl-h">How do we know what past climates were like, and how do they compare with today?</h2>
+      <p class="ww-take">Explore how scientists reconstruct past climates from natural archives and archaeological evidence, and what those records can tell us about environmental change. Every chart states what was <b>measured</b>, what is <b>reconstructed</b> from it, the reference period, the resolution and the uncertainty. Ancient reconstructions and modern observations are kept apart.</p>
+      <nav class="cl-nav" aria-label="Climate sections">
+        <a href="#cl-time"><b>Climate through time</b><span>Published reconstructions with uncertainty, by region</span></a>
+        <a href="#cl-evidence"><b>Evidence and methods</b><span>Teeth, tree rings and ice cores: what is measured, what is inferred</span></a>
+        <a href="#cl-studies"><b>Study explorer</b><span>Searchable evidence cards for individual studies</span></a>
+        <a href="#cl-modern"><b>Modern context</b><span>Instrumental indicators, kept separate</span></a>
+        <a href="#cl-sources"><b>Sources and uncertainty</b><span>Datasets, versions, dating and gaps</span></a>
+        <a href="deadliest.html"><b>Deadliest weather events</b><span>Twenty disasters in depth, with death-toll uncertainty</span></a>
+      </nav>
+    </div>
+
+    <h2 class="cl-sec" id="cl-time">Climate through time</h2>
+    <div class="ww-grid">
+      <article class="ww-card wide" id="card-cl-t12k">
+        <h2>Surface temperature over the last 12,000 years</h2>
+        <div class="cl-meta">
+          <span><b>Status</b> reconstructed (multi-proxy)</span>
+          <span><b>Units</b> °C anomaly vs 1800–1900 CE</span>
+          <span><b>Resolution</b> 100-year bins</span>
+          <span><b>Band</b> 5th–95th percentile of 2,500 ensemble members</span>
+          <span><b>Source</b> Kaufman et al. 2020, Temperature 12k v1.0, NOAA WDS-Paleo, DOI <a href="https://doi.org/10.25921/vzys-1280">10.25921/vzys-1280</a></span>
+        </div>
+        <div class="cl-ctl" role="group" aria-label="Region">
+          <label>Region <select id="cl-region"></select></label>
+          <label class="chk"><input type="checkbox" id="cl-compare"> compare all regions (medians)</label>
+          <a class="cl-dl" href="data/paleo_temp12k.csv" download>Download CSV</a>
+          <a class="cl-dl" href="https://www.ncei.noaa.gov/pub/data/paleo/reconstructions/kaufman2020/" target="_blank" rel="noopener">Original files</a>
+        </div>
+        <div class="ww-legend" id="legend-cl-t12k"></div>
+        <div class="ww-chart tall" id="chart-cl-t12k" data-source="paleo_temp12k"></div>
+        <details class="cl-read"><summary>How to read this chart</summary>
+          <p>Time runs in years BP (before 1950 CE), the convention of the source data. Each point is the median of a 100-year bin plotted at its centre: 0 BP covers 1900–2000 CE, 100 BP covers 1800–1900. The shaded band is where 90% of the ensemble falls, combining proxy, dating and method uncertainty. Values are relative to 1800–1900, so zero is the 19th century. The latitude bands rest on far fewer records than the global mean, which is why their bands are wider. The record stops in the 20th century: it is not joined to today's thermometer readings, which are shown separately under Modern context. Instrumental figures use a different reference (1850–1900 or 1951–1980) and annual rather than centennial resolution.</p>
+        </details>
+        <p class="note" id="cl-t12k-note"></p>
+      </article>
+    </div>
+
+    <h2 class="cl-sec" id="cl-evidence">Evidence and methods: how we know</h2>
+    <p class="ww-take">Each explainer answers the same five questions. Archaeological material and natural archives are labelled separately, even when a study uses both.</p>
+    <div class="ww-grid cl-ev">
+      <article class="ww-card">
+        <span class="cl-kind arch">Archaeological and fossil material</span>
+        <h2>Animal and human teeth</h2>
+        <p class="cl-chain">Rain and food water → body water → enamel growing day by day → isotope measurement → inferred rainfall pattern</p>
+        <dl>
+          <dt>What material?</dt><dd>Tooth enamel of humans and other mammals, from museum collections, cave deposits and archaeological sites.</dd>
+          <dt>What is measured?</dt><dd>Oxygen isotope ratios (δ18O), and often carbon isotopes (δ13C), sampled along the enamel's daily growth lines by ion microprobe, laser or micro-drill.</dd>
+          <dt>What can it reconstruct?</dt><dd>The isotopic signature of the water an animal drank and ate, which tracks rainfall seasonality, monsoon strength and dry spells; carbon isotopes indicate diet and vegetation (forest versus grassland).</dd>
+          <dt>Period and resolution</dt><dd>The few years in which the tooth formed, at weekly to monthly resolution. Fossil teeth are dated separately, for example by uranium series or radiocarbon on associated material.</dd>
+          <dt>What can distort it?</dt><dd>Nursing (milk is isotopically enriched), drinking behaviour and diet, altitude, post-burial alteration of fossils, and the unknown isotope value of local rain. Enamel isotopes are not a thermometer and do not give rainfall amounts.</dd>
+        </dl>
+        <p class="note">Example: <a href="#cl-studies" data-study="smith2024-orangutan">Smith et al. 2024, orangutan teeth</a>.</p>
+      </article>
+      <article class="ww-card">
+        <span class="cl-kind nat">Natural archive</span>
+        <h2>Tree rings</h2>
+        <p class="cl-chain">Growing-season weather → ring width, wood density, isotopes → cross-dated to the exact year → calibrated against instrumental records → inferred temperature or drought</p>
+        <dl>
+          <dt>What material?</dt><dd>Living trees, historic timbers and preserved (subfossil) wood.</dd>
+          <dt>What is measured?</dt><dd>Ring width, maximum latewood density and stable isotopes in each annual ring.</dd>
+          <dt>What can it reconstruct?</dt><dd>Summer temperature where cold limits growth (treelines, high latitudes) and drought, rainfall or streamflow where water limits growth.</dd>
+          <dt>Period and resolution</dt><dd>Annual, sometimes seasonal; cross-dating ring patterns between trees gives exact calendar years, and long chronologies stitch living and dead wood back thousands of years.</dd>
+          <dt>What can distort it?</dt><dd>Tree age, competition, disturbance and rising CO₂ also change growth; removing age trends can remove slow climate trends; some northern sites show weaker temperature response since the mid-20th century (the "divergence problem"); coverage is mostly land in the mid and high latitudes.</dd>
+        </dl>
+        <p class="note">Archive: NOAA's <a href="https://www.ncei.noaa.gov/products/paleoclimatology/tree-ring" target="_blank" rel="noopener">International Tree-Ring Data Bank</a>, more than 5,000 sites on six continents.</p>
+      </article>
+      <article class="ww-card">
+        <span class="cl-kind nat">Natural archive</span>
+        <h2>Ice cores</h2>
+        <p class="cl-chain">Snowfall and air → buried and compressed into layered ice with trapped bubbles → isotopes, gases, dust and sulphate measured → inferred local temperature, greenhouse gases, volcanism</p>
+        <dl>
+          <dt>What material?</dt><dd>Cores drilled through the Antarctic and Greenland ice sheets and mountain glaciers.</dd>
+          <dt>What is measured?</dt><dd>Water isotopes (δD, δ18O) in the ice; CO₂, methane and nitrous oxide in trapped air; dust, sea salt, volcanic sulphate and ash.</dd>
+          <dt>What can it reconstruct?</dt><dd>Local temperature when the snow fell (from isotopes); past greenhouse-gas levels directly, since the bubbles are samples of old air; dustiness, wind and volcanic eruptions.</dd>
+          <dt>Period and resolution</dt><dd>Up to about 800,000 years in Antarctica (EPICA Dome C); annual layers can be counted near the top, while deep ice is dated with flow models and tie points and averages centuries to millennia per sample.</dd>
+          <dt>What can distort it?</dt><dd>The isotope–temperature relationship shifts with moisture source and the season of snowfall; ice-sheet height changes; layers thin with depth; air in bubbles is younger than the surrounding ice; one site is not a global average.</dd>
+        </dl>
+        <p class="note">Example: <a href="#cl-studies" data-study="jouzel2007-epica">Jouzel et al. 2007, EPICA Dome C</a>.</p>
+      </article>
+    </div>
+
+    <h2 class="cl-sec" id="cl-studies">Study explorer</h2>
+    <div class="cl-ctl">
+      <label>Search <input type="search" id="cl-q" placeholder="site, method, variable…"></label>
+      <label>Evidence <select id="cl-kind"><option value="all">All</option><option value="archaeological">Archaeological / fossil</option><option value="natural">Natural archive</option></select></label>
+      <a class="cl-dl" href="data/paleo_studies.json" download>Download cards (JSON)</a>
+    </div>
+    <div class="cl-cards" id="cl-cards"></div>
+
+    <h2 class="cl-sec" id="cl-modern">Modern context: instrumental observations</h2>
+    <p class="ww-take">Thermometer and air-sampling records, measured rather than reconstructed, with their own reference periods and annual or monthly resolution. Not joined to the reconstructions above.</p>
+    <div class="ww-grid">
+      <article class="ww-card wide">
+        <h2>Global surface temperature since 1880</h2>
+        <div class="cl-meta"><span><b>Status</b> measured</span><span><b>Units</b> °C anomaly vs 1951–1980</span><span><b>Resolution</b> annual means</span><span><b>Source</b> NASA GISTEMP v4</span></div>
+        <div class="ww-chart" id="chart-cl-gistemp" data-source="planet_monthly"></div>
+        <p class="note" id="cl-gis-note"></p>
+      </article>
+      <article class="ww-card wide">
+        <h2>Atmospheric CO₂ at Mauna Loa since 1958</h2>
+        <div class="cl-meta"><span><b>Status</b> measured</span><span><b>Units</b> ppm (dry air mole fraction)</span><span><b>Resolution</b> monthly</span><span><b>Source</b> NOAA Global Monitoring Laboratory</span></div>
+        <div class="ww-chart" id="chart-cl-co2" data-source="planet_monthly"></div>
+        <p class="note">For scale: ice cores show CO₂ stayed between about 170 and 300 ppm for the 800,000 years before industrialisation (Lüthi et al. 2008, Nature); today's level is outside that range.</p>
+      </article>
+    </div>
+
+    <h2 class="cl-sec" id="cl-sources">Sources and uncertainty</h2>
+    <div class="ww-grid">
+      <article class="ww-card wide cl-src">
+        <h2>Method notes</h2>
+        <ul>
+          <li><b>Published reconstructions only.</b> This tab plots reconstructions as published. It does not convert raw proxy measurements into temperature or rainfall itself.</li>
+          <li><b>Dating conventions.</b> "BP" means years before 1950 CE. "ka" means thousand years before present. Radiocarbon ages are calibrated in the source studies; uranium-series ages on fossils are often minimum ages.</li>
+          <li><b>Reference periods differ.</b> Temperature 12k uses 1800–1900 CE; GISTEMP uses 1951–1980; the IPCC uses 1850–1900; EPICA uses the last 1,000 years. Never compare numbers across these without re-baselining.</li>
+          <li><b>Resolution limits comparison.</b> A 100-year bin cannot show a single hot decade. The most recent instrumental decade (2015–2024) was 1.24 °C above 1850–1900 (Forster et al. 2025), but that is a 10-year average and cannot be read directly against centennial bins.</li>
+          <li><b>Coverage gaps.</b> Proxy records cluster on land in the Northern Hemisphere; oceans, the tropics and the Southern Hemisphere are thinner, which widens uncertainty there.</li>
+        </ul>
+        <h2>Datasets and papers</h2>
+        <ul>
+          <li>Kaufman, D. et al. (2020). Holocene global mean surface temperature, a multi-method reconstruction approach. <i>Scientific Data</i>. <a href="https://doi.org/10.1038/s41597-020-0530-7">10.1038/s41597-020-0530-7</a>. Data: NOAA WDS-Paleo <a href="https://doi.org/10.25921/vzys-1280">10.25921/vzys-1280</a> (file temp12k_allmethods_percentiles.csv, 2020-06-12), read 17 Oct 2026.</li>
+          <li>Jouzel, J. et al. (2007). Orbital and millennial Antarctic climate variability over the past 800,000 years. <i>Science</i> 317, 793–797. Data: <a href="https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc3deuttemp2007.txt">NOAA edc3deuttemp2007.txt</a> (EDC3 age scale).</li>
+          <li>Smith, T. M. et al. (2024). Oxygen isotopes in orangutan teeth reveal recent and ancient climate variation. <i>eLife</i> 12, RP90217. <a href="https://doi.org/10.7554/eLife.90217">10.7554/eLife.90217</a>.</li>
+          <li>Kielhofer, J. R. et al. (2023). brGDGT temperature reconstruction from interior Alaska. <i>Quaternary Science Reviews</i>. <a href="https://doi.org/10.1016/j.quascirev.2023.107979">10.1016/j.quascirev.2023.107979</a>.</li>
+          <li>Lüthi, D. et al. (2008). High-resolution carbon dioxide concentration record 650,000–800,000 years before present. <i>Nature</i> 453, 379–382.</li>
+          <li>Forster, P. M. et al. (2025). Indicators of Global Climate Change 2024. <i>Earth System Science Data</i> 17, 2641. <a href="https://essd.copernicus.org/articles/17/2641/2025/">essd.copernicus.org</a>.</li>
+          <li>NASA GISTEMP v4 and NOAA GML Mauna Loa CO₂, via this site's <a href="data.html">data archive</a>.</li>
+          <li>Further reading on how proxies become reconstructions: <a href="https://www.ncei.noaa.gov/products/paleoclimatology" target="_blank" rel="noopener">NOAA Paleoclimatology</a> and the report <a href="warming-since-1976.html">Why global temperature has risen since 1976</a>.</li>
+        </ul>
+      </article>
     </div>
   </section>
 
@@ -3308,6 +3477,91 @@ window.WW = (() => {
     set('pl-snow', K.signed(ls.snow_nh_anom, 2)); set('pl-snow-s', `${monthFmt(ls.date)} · ${d3.format('.2f')(ls.snow_nh)} M km² total`);
   }
 
+  // ---------- Climate tab: evidence-based explorer ----------
+  let clStudies = null;
+  function drawClimate() {
+    const c = C(); const cc = (i) => c[i] || K.muted;
+    const set = (id, t) => { const e = box(id); if (e) e.textContent = t; };
+    const bpLbl = (age) => (age === 0 ? '0 BP (1900–2000 CE bin)' : `${d3.format(',')(age)} BP (≈${age >= 1950 ? `${d3.format(',')(age - 1950)} BCE` : `${1950 - age} CE`})`);
+    // Reconstruction chart
+    const d = dash.data('paleo_temp12k');
+    const sel = box('cl-region');
+    if (d.status !== 'ok') { K.fail(box('chart-cl-t12k'), d.status); }
+    else {
+      const rows = d.data.map((r) => ({ age: +r.age_bp, year: +r.year_ce, region: r.region, p5: +r.p5, median: +r.median, p95: +r.p95 }));
+      const regions = [...new Set(rows.map((r) => r.region))];
+      if (!sel.options.length) {
+        regions.forEach((rg) => { const o = document.createElement('option'); o.value = rg; o.textContent = rg; sel.append(o); });
+        sel.addEventListener('change', drawClimate);
+        box('cl-compare').addEventListener('change', drawClimate);
+      }
+      const ticks = [-12000, -10000, -8000, -6000, -4000, -2000, 0];
+      const fmtTick = (v) => (v === 0 ? '0 BP' : `${d3.format(',')(-v)} BP`);
+      if (box('cl-compare').checked) {
+        const wide = d3.groups(rows, (r) => r.age).map(([age, rs]) => { const o = { age }; rs.forEach((r) => { o[r.region] = r.median; }); return o; });
+        const pal = [K.muted, cc(2), cc(0), cc(3), cc(4), cc(1), cc(5)];
+        const sr = regions.map((rg, i) => ({ key: rg, label: rg, color: rg === 'Global' ? 'var(--color-fg)' : pal[i], width: rg === 'Global' ? 2.5 : 1.5 }));
+        K.legend(box('legend-cl-t12k'), sr);
+        K.line(box('chart-cl-t12k'), { rows: wide, x: (r) => -r.age, xType: 'linear', series: sr, endLabels: false, zero: true, xTickValues: ticks, xTickFormat: fmtTick, valFmt: (v) => `${K.signed(v, 2)} °C`, tipTitle: (r) => `${bpLbl(r.age)} · 100-year bin centre`, height: 320 });
+        set('cl-t12k-note', 'Medians only: the latitude bands carry much wider uncertainty than the global mean. Switch off "compare" to see each band\'s 5th–95th percentile range.');
+      } else {
+        const rg = sel.value || 'Global';
+        const rr = rows.filter((r) => r.region === rg).sort((a, b) => b.age - a.age);
+        const sr = [{ key: 'median', label: `${rg} median`, color: cc(2), width: 2.5 }];
+        K.legend(box('legend-cl-t12k'), [...sr, { key: 'band', label: '5th–95th percentile', color: K.muted }]);
+        K.line(box('chart-cl-t12k'), { rows: rr, x: (r) => -r.age, xType: 'linear', series: sr, area: { low: 'p5', high: 'p95' }, endLabels: false, zero: true, xTickValues: ticks, xTickFormat: fmtTick, valFmt: (v) => `${K.signed(v, 2)} °C`, tipTitle: (r) => `${bpLbl(r.age)} · 90% range ${K.signed(r.p5, 2)} to ${K.signed(r.p95, 2)} °C`, height: 320 });
+        const pk = rr.reduce((a, b) => (b.median > a.median ? b : a));
+        set('cl-t12k-note', `${rg}: the warmest 100-year bin is centred ${d3.format(',')(pk.age)} BP (about ${d3.format(',')(pk.age - 1950)} BCE), median ${K.signed(pk.median, 2)} °C, 90% range ${K.signed(pk.p5, 2)} to ${K.signed(pk.p95, 2)}. The latest bin (1900–2000 CE) is ${K.signed(rr[rr.length - 1].median, 2)} °C.${rg === 'Global' ? ' The paper reports the warmest 200-year interval at about 6,500 BP, 0.7 °C (0.4 to 1.8) above the 19th century, using multi-method 200-year means.' : ''}`);
+      }
+    }
+    // Study explorer
+    const sd = dash.data('paleo_studies');
+    const wrap = box('cl-cards');
+    if (sd.status === 'ok') {
+      clStudies = sd.data.studies;
+      const q = box('cl-q'), kind = box('cl-kind');
+      if (!wrap.dataset.bound) {
+        wrap.dataset.bound = '1';
+        q.addEventListener('input', drawClimateCards); kind.addEventListener('change', drawClimateCards);
+        document.querySelectorAll('[data-study]').forEach((a) => a.addEventListener('click', () => { q.value = ''; kind.value = 'all'; drawClimateCards(); const t = document.getElementById(`study-${a.dataset.study}`); if (t) { t.open = true; t.scrollIntoView({ behavior: 'smooth', block: 'start' }); } }));
+      }
+      drawClimateCards();
+    } else wrap.textContent = 'Study cards could not be loaded.';
+    // Modern context (measured)
+    const pm = typed('planet_monthly', 'month', K.parseMonth);
+    if (pm.status !== 'ok') { K.fail(box('chart-cl-gistemp'), pm.status); K.fail(box('chart-cl-co2'), pm.status); return; }
+    const R = pm.rows; const yr = (r) => +r.month.slice(0, 4);
+    const ann = d3.rollups(R.filter((r) => r.gistemp != null), (v) => ({ mean: d3.mean(v, (x) => x.gistemp), n: v.length }), yr).filter(([, o]) => o.n === 12).map(([y, o]) => ({ year: y, t: o.mean }));
+    K.bars(box('chart-cl-gistemp'), { rows: ann, label: (r) => String(r.year), series: [{ key: 't', label: 'Annual mean', color: cc(0) }], colorOf: (v) => (v >= 0 ? cc(2) : cc(0)), tickEvery: 10, valFmt: (v) => `${K.signed(v, 2)} °C`, tipTitle: (r) => String(r.year), height: 220 });
+    const last = ann[ann.length - 1];
+    set('cl-gis-note', `Complete years only (last: ${last.year}, ${K.signed(last.t, 2)} °C vs 1951–1980). Monthly detail, the 1976 trend break and the current year are on the Planet tab.`);
+    K.line(box('chart-cl-co2'), { rows: R.filter((r) => r.co2 != null), x: (r) => r.date, series: [{ key: 'co2', label: 'Monthly', color: K.muted, width: 1 }, { key: 'co2_trend', label: 'Trend', color: cc(0), width: 2 }], endLabels: false, yFmt: d3.format('d'), xTickFormat: d3.utcFormat('%Y'), valFmt: (v) => `${d3.format('.1f')(v)} ppm`, tipTitle: (r) => monthFmt(r.date), height: 220 });
+  }
+  function drawClimateCards() {
+    const wrap = box('cl-cards'); if (!clStudies) return;
+    const q = (box('cl-q').value || '').toLowerCase().trim(); const kind = box('cl-kind').value;
+    const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+    wrap.replaceChildren();
+    const list = clStudies.filter((s) => (kind === 'all' || s.archive_kind === kind) && (!q || JSON.stringify(s).toLowerCase().includes(q)));
+    if (!list.length) { wrap.append(el('p', 'note', 'No studies match.')); return; }
+    list.forEach((s) => {
+      const card = el('details', 'cl-card'); card.id = `study-${s.id}`;
+      const sum = el('summary');
+      sum.append(el('span', `cl-kind ${s.archive_kind === 'natural' ? 'nat' : 'arch'}`, s.archive), el('b', null, s.title), el('span', 'cl-cit', s.citation));
+      card.append(sum);
+      const dl = el('dl');
+      [['Research question', s.question], ['Location', s.location], ['Geographic scope', s.scope], ['Period covered', s.period], ['Dating', s.dating], ['Evidence', s.evidence], ['Measured variable', s.measured], ['Inferred condition', s.inferred], ['Resolution', s.resolution], ['Main finding', s.finding], ['Uncertainty', s.uncertainty]].forEach(([k, v]) => {
+        const dt = el('dt', null, k); if (k === 'Measured variable' || k === 'Inferred condition') dt.className = 'cl-key';
+        dl.append(dt, el('dd', null, v));
+      });
+      const src = el('dd'); const a1 = el('a', null, `DOI ${s.doi}`); a1.href = `https://doi.org/${s.doi}`; a1.target = '_blank'; a1.rel = 'noopener';
+      const a2 = el('a', null, s.data); a2.href = s.data_url; a2.target = '_blank'; a2.rel = 'noopener';
+      src.append(a1, document.createTextNode(' · '), a2, document.createTextNode(` · published ${s.published}`));
+      dl.append(el('dt', null, 'Sources'), src);
+      card.append(dl); wrap.append(card);
+    });
+  }
+
   function drawSky() {
     const c = C();
     const sc = typed('sky_cycles', 'month', K.parseMonth);
@@ -3463,6 +3717,7 @@ window.WW = (() => {
       }
     }
     if (current === 'planet') drawPlanet();
+    if (current === 'climate') drawClimate();
     if (current === 'sky') drawSky();
     if (current === 'space') drawSpace();
     if (current === 'reports') drawReports();
