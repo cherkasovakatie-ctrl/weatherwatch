@@ -32,13 +32,13 @@ window.stormMovie = async function (host, mv) {
   const ctr = el('div', 'mvctl'); const btn = el('button', 'mvplay', 'Play');
   const spd = el('select', 'mvspd'); [['0.5', '½×'], ['1', '1×'], ['2', '2×'], ['4', '4×'], ['8', '8×']].forEach(([v, t]) => { const o = el('option', null, t); o.value = v; if (v === '2') o.selected = true; spd.append(o); });
   const sl = el('input'); sl.type = 'range'; sl.min = 0; sl.max = Math.round((t1 - t0) / H); sl.value = 0; sl.setAttribute('aria-label', 'Time');
-  const clock = el('span', 'mvclock'); ctr.append(btn, spd, sl, clock);
+  ctr.append(btn, spd, sl);
   const legend = el('div', 'mvleg'); ['TD', 'TS', 'Cat 1', 'Cat 2', 'Cat 3', 'Cat 4', 'Cat 5'].forEach((k, i) => { const s = el('span'); const d = el('i'); d.style.background = cat([20, 40, 70, 90, 100, 120, 140][i])[1]; s.append(d, document.createTextNode(k)); legend.append(s); });
   const sstLeg = el('span', 'mvsstleg'); legend.append(sstLeg);
   const grid = el('div', 'mvgrid'); const left = el('div', 'mvleft'); const mapBox = el('div', 'mvmap'); const side = el('div', 'mvside');
   const cap = el('div', 'mvcap'); const charts = el('div', 'mvcharts');
   left.append(mapBox, cap); grid.append(left, side); wrap.append(ctr, legend, grid, charts); host.append(wrap);
-  const g = {}; [['date', 'Date and time'], ['status', 'Status'], ['wind', 'Max sustained wind'], ['pres', 'Central pressure'], ['sst', 'Sea surface under the storm'], ['ohc', 'Warm-water layer (ocean heat content)'], ['shear', 'Vertical wind shear'], ['outflow', 'Outflow aloft'], ['move', 'Forward speed'], ['dist', 'Distance to Guam'], ['pos', 'Position']].forEach(([k, l]) => { const d = el('div', 'mvg'); d.append(el('div', 'l', l)); g[k] = el('div', 'v'); d.append(g[k]); side.append(d); });
+  const g = {}; [['status', 'Status'], ['wind', 'Max sustained wind'], ['pres', 'Central pressure'], ['sst', 'Sea surface under the storm'], ['ohc', 'Warm-water layer (ocean heat content)'], ['shear', 'Vertical wind shear'], ['outflow', 'Outflow aloft'], ['move', 'Forward speed'], ['dist', 'Distance to Guam'], ['pos', 'Position']].forEach(([k, l]) => { const d = el('div', 'mvg'); d.append(el('div', 'l', l)); g[k] = el('div', 'v'); d.append(g[k]); side.append(d); });
 
   // ---------- map ----------
   const W = mapBox.clientWidth || 800, Hh = Math.round(W * 0.5);
@@ -110,9 +110,8 @@ window.stormMovie = async function (host, mv) {
     const lft = x(p.lon) > W * 0.62;
     head.append('text').attr('class', 'mvhl').attr('text-anchor', lft ? 'end' : 'start').attr('x', x(p.lon) + (lft ? -(r0 + 8) : r0 + 8)).attr('y', y(p.lat) - r0 - 2)
       .text(`${label(p.kt)} · ${p.kt} kt${r.sst ? ` · sea ${r.sst.toFixed(1)} °C` : ''}${p.kind === 'forecast' ? ' (forecast)' : ''}`);
-    dateTag.text(dFmt(ms));
+    dateTag.text(dFmt(ms) + (ms > now ? ' · forecast' : ''));
     const e = envAt(ms);
-    g.date.textContent = `${dFmt(ms)} · ${chst(ms)}${ms > now ? ' · forecast' : ''}`;
     g.status.textContent = `${label(p.kt)} (${cn})${p.kind === 'forecast' ? ' — forecast' : p.kind === 'estimated' ? ' — estimated' : ''}`;
     g.wind.textContent = `${p.kt} kt · ${Math.round(p.kt * 1.151)} mph · ${Math.round(p.kt * 1.852)} km/h`;
     g.pres.textContent = p.mb ? `${p.mb} mb` : 'not reported for this time';
@@ -121,7 +120,6 @@ window.stormMovie = async function (host, mv) {
     g.move.textContent = r.spd ? `${Math.round(r.spd)} mph` : '—';
     g.dist.textContent = r.dist ? `${Math.round(r.dist)} km (${Math.round(r.dist / 1.609)} mi)` : '—';
     g.pos.textContent = `${p.lat.toFixed(1)}°N ${p.lon.toFixed(1)}°E`;
-    clock.textContent = dFmt(ms) + (ms > now ? ' · forecast' : '');
     cursors.forEach((c) => c.attr('x1', cx(ms)).attr('x2', cx(ms)));
     CH.forEach((c) => { const v = c.k === 'sh' ? (r.shlo != null ? `${r.shlo}–${r.shhi} kt` : '') : r[c.k] != null ? c.fmt(r[c.k]) : ''; c.val.textContent = v ? ` · ${v}` : ''; });
     const s = scenes.filter((q) => q.ms <= ms).slice(-1)[0] || scenes[0];
