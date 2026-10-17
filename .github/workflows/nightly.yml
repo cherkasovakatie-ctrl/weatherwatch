@@ -1,0 +1,70 @@
+name: Daily data refresh (9 am Pacific)
+
+# 9 am in Los Angeles is 16:00 UTC in summer (PDT) and 17:00 UTC in winter (PST).
+# Both times are scheduled; the gate below runs the refresh once per Pacific day.
+on:
+  schedule:
+    - cron: '0 16 * * *'
+    - cron: '0 17 * * *'
+  workflow_dispatch:
+  push:
+    branches: [nightly-test]
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: daily-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run once per Pacific day, at or after 9 am
+        id: gate
+        run: |
+          today=$(TZ=America/Los_Angeles date +%F)
+          hour=$(TZ=America/Los_Angeles date +%-H)
+          last=$(python3 -c "import json;print(json.load(open('data/nightly_status.json'))['run_local'][:10])" 2>/dev/null || echo none)
+          if [ "${{ github.event_name }}" = "schedule" ] && { [ "$hour" -lt 9 ] || [ "$last" = "$today" ]; }; then
+            echo "run=false" >> "$GITHUB_OUTPUT"; echo "Skipping: hour=$hour last=$last today=$today"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-node@v4
+        if: steps.gate.outputs.run == 'true'
+        with:
+          node-version: '22'
+
+      - name: Unit tests
+        if: steps.gate.outputs.run == 'true'
+        run: node --test tools/nightly/transforms.test.mjs
+
+      - name: Fetch, validate and write datasets
+        if: steps.gate.outputs.run == 'true'
+        run: node tools/nightly/run.mjs
+
+      - name: Commit and push
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Daily data refresh $(TZ=America/Los_Angeles date +%F)"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Rebuild GitHub Pages
+        if: steps.gate.outputs.run == 'true' && github.ref_name == 'main'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -fsS -X POST -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages/builds" || echo "Pages rebuild request failed (site may update on the next push)"
