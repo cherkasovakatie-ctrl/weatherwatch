@@ -625,6 +625,78 @@
    "description": "Natural Earth 1:110m land polygons (world-atlas 2.0.2), coordinates rounded to 0.1 degree. Map background only.",
    "updated": "2026-10-11",
    "bytes": 58633
+  },
+  {
+   "id": "paleo_pages2k",
+   "file": "paleo_pages2k.csv",
+   "title": "Global mean surface temperature, 1–2000 CE (PAGES 2k 2019)",
+   "description": "PAGES 2k Consortium (Neukom et al. 2019, Nature Geoscience, DOI 10.1038/s41561-019-0400-0): median and 2.5th/97.5th percentiles of the full 7-method ensemble, annual, plus the published 31-year Butterworth-filtered values; °C vs 1961–1990, April–March annual mean. NOAA file https://www.ncei.noaa.gov/pub/data/paleo/pages2k/neukom2019temp/recons/Full_ensemble_median_and_95pct_range.txt, read 17 Oct 2026. Instrumental-target column omitted.",
+   "updated": "2026-10-17",
+   "bytes": 89993
+  },
+  {
+   "id": "paleo_epica_temp",
+   "file": "paleo_epica_temp.csv",
+   "title": "Antarctic temperature, 800,000 years (EPICA Dome C)",
+   "description": "Jouzel et al. (2007, Science, DOI 10.1126/science.1141038), EDC3 age scale: temperature estimated from deuterium, °C difference from the average of the last 1000 years. Means of 500-year bins (n = samples per bin). NOAA file https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc3deuttemp2007.txt; local copy verified against NOAA 17 Oct 2026.",
+   "updated": "2026-10-17",
+   "bytes": 22063
+  },
+  {
+   "id": "paleo_co2_800k",
+   "file": "paleo_co2_800k.csv",
+   "title": "Atmospheric CO2, 800,000 years (Antarctic ice-core composite)",
+   "description": "Bereiter et al. (2015, GRL, DOI 10.1002/2014GL061957) revised composite, AICC2012 gas age; ppm, all published points. NOAA file https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/antarctica2015co2composite.txt; copy verified against NOAA 17 Oct 2026. Ages in kyr BP (before 1950); the youngest points reach the 1990s firn record. The Climate tab plots only points older than 0.2 ka (before 1750 CE); the file keeps all published points.",
+   "updated": "2026-10-17",
+   "bytes": 25359
+  },
+  {
+   "id": "paleo_ch4_800k",
+   "file": "paleo_ch4_800k.csv",
+   "title": "Atmospheric methane, 800,000 years (EPICA Dome C)",
+   "description": "Loulergue et al. (2008, Nature, DOI 10.1038/nature06950), EDC3 gas age; ppb, means of 1,000-year bins (n = measurements per bin; 1σ analytical uncertainty about 10 ppb). Bins with no sample are absent. The five samples younger than 0.2 ka (after 1750 CE, up to 907 ppb) are excluded, so the first bin covers 0.2–1 ka. NOAA file https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc-ch4-2008.txt, read 17 Oct 2026.",
+   "updated": "2026-10-17",
+   "bytes": 9011
+  },
+  {
+   "id": "paleo_sealevel_800k",
+   "file": "paleo_sealevel_800k.csv",
+   "title": "Global sea level, 800,000 years (sea-level stack)",
+   "description": "Spratt & Lisiecki (2016, Climate of the Past, DOI 10.5194/cp-12-1079-2016): scaled first principal component of five reconstructions (0–798 ka, 'long PC1'), metres relative to present, with 95% confidence bounds; 1,000-year steps on the LR04 age model. NOAA file https://www.ncei.noaa.gov/pub/data/paleo/contributions_by_author/spratt2016/spratt2016.txt, read 17 Oct 2026.",
+   "updated": "2026-10-17",
+   "bytes": 19445
+  },
+  {
+   "id": "paleo_monsoon_cheng2016",
+   "file": "paleo_monsoon_cheng2016.csv",
+   "title": "East Asian monsoon, 640,000 years (Chinese cave composite)",
+   "description": "Cheng et al. (2016, Nature, DOI 10.1038/nature18591; NOAA DOI 10.25921/xv05-8s73): composite speleothem δ18O, ‰ VPDB, U–Th dated; means of 1,000-year bins (n = samples). Lower values indicate a stronger summer monsoon. NOAA file https://www.ncei.noaa.gov/pub/data/paleo/speleothem/asia/china/cheng2016composite.txt, read 17 Oct 2026.",
+   "updated": "2026-10-17",
+   "bytes": 9281
+  },
+  {
+   "id": "paleo_lr04",
+   "file": "paleo_lr04.csv",
+   "title": "Benthic δ18O stack, 5.3 million years (LR04)",
+   "description": "Lisiecki & Raymo (2005, Paleoceanography, DOI 10.1029/2004PA001071; NOAA DOI 10.25921/k88j-0106): stack of 57 benthic records, ‰, with standard error; 1-kyr steps to 600 ka, 2 kyr to 1,500 ka, 2.5 kyr to 3,000 ka, then 5 kyr. Higher δ18O = more land ice and colder deep ocean.",
+   "updated": "2026-10-17",
+   "bytes": 31122
+  },
+  {
+   "id": "paleo_cenogrid",
+   "file": "paleo_cenogrid.csv",
+   "title": "Deep-ocean climate, 66 million years (CENOGRID)",
+   "description": "Westerhold et al. (2020, Science, DOI 10.1126/science.aba6853): astronomically tuned benthic foraminiferal δ18O and δ13C, ‰ VPDB; medians of 50,000-year bins of 24,321 published points (n = points per bin). NOAA directory https://www.ncei.noaa.gov/pub/data/paleo/contributions_by_author/westerhold2020/.",
+   "updated": "2026-10-17",
+   "bytes": 26520
+  },
+  {
+   "id": "paleo_gts_epochs",
+   "file": "paleo_gts_epochs.csv",
+   "title": "Geologic epochs, last 66 million years",
+   "description": "Epoch boundaries (Ma) and standard colours from the Geologic Time Scale table distributed with Pyleoclim (GTS_updated.csv), used to shade the 66-million-year chart.",
+   "updated": "2026-10-17",
+   "bytes": 344
   }
  ]
 }

@@ -4,9 +4,9 @@
  "type": "Remnant storm, swell and coastal flooding",
  "region": "Baja California · Southern California coast",
  "start": "2026-10-03",
- "end": "2026-10-10",
+ "end": "2026-10-11",
  "status": "ended",
- "as_of": "13 Oct 2026",
+ "as_of": "17 Oct 2026",
  "headline": "Rachel's remnants killed five members of one family in Ensenada and sent a long-period swell onto Southern California beaches already sitting 1–2 ft above the tide tables.",
  "numbers": [
   [
@@ -25,15 +25,19 @@
  "timeline": [
   [
    "early Oct",
-   "Major hurricane off southwestern Mexico, peak 105 kt."
+   "Major hurricane off southwestern Mexico, peak 105 kt (Category 3), over warm water south of the Gulf of California."
   ],
   [
    "7–9 Oct",
-   "Moves north over 28–29 °C water off Baja, staying tropical unusually far north."
+   "Moves north; meets the cooler California Current (about 22–24 °C, 72–75 °F, near Baja and Southern California per CIMSS) and becomes increasingly disorganized."
   ],
   [
-   "9–10 Oct",
-   "Remnants cross northern Baja into the US Southwest; flash floods in Ensenada; long-period south swell hits south-facing beaches; new-moon spring tides."
+   "10 Oct",
+   "Comes ashore in far northern Baja California in the evening; flash floods in Ensenada; long-period south swell hits south-facing beaches; new-moon spring tides."
+  ],
+  [
+   "11 Oct",
+   "NHC advisory 58 (8 am MST), the last: Rachel has dissipated over the southwestern US, winds estimated around 30 kt (35 mph)."
   ],
   [
    "11–13 Oct",
@@ -41,6 +45,22 @@
   ]
  ],
  "sections": {
+  "What “post-tropical” means": [
+   "Post-tropical Rachel was the weakened, reorganized stage of Hurricane Rachel, not a separate storm. The distinction is structure, not safety: a storm can stop being a tropical cyclone while still producing damaging weather. Rachel moved north over cooler water, lost its organized tropical appearance and weakened, but its remaining moisture and ocean waves kept affecting land.",
+   "Hurricane: it reached Category 3 strength over the warmer eastern Pacific south of the Gulf of California (CIMSS).",
+   "Weakening storm: travelling north, it met the cooler California Current. Water near Southern California and Baja California was about 22–24 °C (72–75 °F), and its satellite appearance grew increasingly disorganized (CIMSS).",
+   "Landfall and remnants: it came ashore in far northern Baja California on the evening of 10 October. In its final advisory on 11 October, the National Hurricane Center said Rachel had dissipated over the southwestern United States, with winds estimated around 30 kt (35 mph)."
+  ],
+  "Why Southern California was hit so hard": [
+   "The coastal impact was more than local wind or rain. The NHC described a combination of storm-generated waves, an incoming long-period southerly swell, high tides and already elevated water levels, with observed water levels running as much as 1.5 ft above predictions, worsening coastal flooding and erosion.",
+   "That is why a weakening storm could still cause serious beachfront damage. Long Beach reported damaged buildings and damage to its protective bulkhead, and coastal flood warnings covered the Los Angeles, Orange and San Diego county coasts over the storm weekend (San Francisco Chronicle)."
+  ],
+  "Impacts by location": [
+   "Coast: high surf, rip currents, seawater flooding and beach erosion (NHC).",
+   "Los Angeles and nearby counties: forecasts at the time generally called for a quarter-inch to an inch of rain, possibly more in the San Gabriel Mountains (KTLA). These are forecast amounts, not verified rainfall totals.",
+   "Inland Southwest: the remaining moisture brought a risk of flash and urban flooding, with damaging gusts especially over higher terrain (NHC)."
+  ],
+  "Is Rachel still active?": "No. The NHC ended advisories on 11 October 2026 after Rachel dissipated. As of 17 October, reports of its landfall and impacts describe the weekend of 10–11 October, not an approaching storm. The final advisory warned that hazardous coastal conditions could last several days after dissipation; it should not be read as a current local warning.",
   "The setup": "Water off Baja California at 28–29 °C, several degrees above normal under El Niño and the marine heatwave, let Rachel keep its strength much farther north than usual.",
   "What amplified it": "Sea level already 1–2 ft above predictions from the Kelvin wave and marine heatwave; new-moon spring tides on 10 October; the third big surf event in five weeks after Marie and Polo.",
   "How it ended": "Cooler water and land interaction north of 30°N; the remnant low crossed into the Southwest.",
@@ -50,6 +70,22 @@
   {
    "title": "Latin Times: three storms, one coast",
    "url": "https://www.latintimes.com/three-storms-one-coast-how-trudy-became-mexicos-biggest-pacific-threat-while-ensenada-still-600257"
+  },
+  {
+   "title": "CIMSS Satellite Blog: Post-tropical Cyclone Rachel (11 Oct 2026)",
+   "url": "https://cimss.ssec.wisc.edu/satellite-blog/archives/72623"
+  },
+  {
+   "title": "NHC: Remnants of Rachel discussion, advisory 58 (11 Oct 2026)",
+   "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCDEP3+html/100250.shtml"
+  },
+  {
+   "title": "San Francisco Chronicle: Tropical Storm Rachel preparation",
+   "url": "https://www.sfchronicle.com/california/article/tropical-storm-rachel-preparation-22471571.php"
+  },
+  {
+   "title": "KTLA: Brunt of rain from post-tropical cyclone Rachel arriving in Southern California",
+   "url": "https://ktla.com/news/local-news/brunt-of-rain-from-post-tropical-cyclone-rachel-arriving-in-southern-california/"
   }
  ],
  "related": [

@@ -194,6 +194,16 @@ body { font-family: var(--font-anthropic-sans); }
   .cl-ctl { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 4px 0; }
   .cl-ctl select, .cl-ctl input[type="search"] { font: inherit; padding: 4px 6px; border: 1px solid var(--color-border-line); border-radius: 6px; background: var(--color-panel); color: var(--color-fg); max-width: 100%; }
   .cl-ctl label { display: inline-flex; gap: 6px; align-items: center; }
+  .cl-scales { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 12px; }
+  .cl-scales button { font: inherit; font-size: var(--cds-font-size-caption); padding: 6px 12px; border: 1px solid var(--color-border-line); border-radius: 999px; background: var(--color-panel); color: var(--color-fg); cursor: pointer; }
+  .cl-scales button[aria-selected="true"] { background: var(--color-fg); color: var(--color-bg); border-color: var(--color-fg); }
+  .cl-scales button span { color: inherit; opacity: 0.7; margin-left: 4px; }
+  .cl-scale[hidden] { display: none; }
+  .cl-ph { font-size: var(--cds-font-size-body); margin: 16px 0 2px; }
+  .cl-ph:first-of-type { margin-top: 8px; }
+  .ww-chart.cl-panel { min-height: 150px; }
+  .cl-ph small { display: block; font-weight: 400; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-top: 2px; }
+  .cl-axisnote { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0 0 2px; }
   a.cl-dl { color: var(--color-fg); }
   details.cl-read { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.5; }
   details.cl-read summary { cursor: pointer; color: var(--color-fg); }
@@ -656,7 +666,7 @@ body { font-family: var(--font-anthropic-sans); }
       <h2 class="cl-h">How do we know what past climates were like, and how do they compare with today?</h2>
       <p class="ww-take">Explore how scientists reconstruct past climates from natural archives and archaeological evidence, and what those records can tell us about environmental change. Every chart states what was <b>measured</b>, what is <b>reconstructed</b> from it, the reference period, the resolution and the uncertainty. Ancient reconstructions and modern observations are kept apart.</p>
       <nav class="cl-nav" aria-label="Climate sections">
-        <a href="#cl-time"><b>Climate through time</b><span>Published reconstructions with uncertainty, by region</span></a>
+        <a href="#cl-time"><b>Climate through time</b><span>2,000 years to 66 million years, published records only</span></a>
         <a href="#cl-evidence"><b>Evidence and methods</b><span>Teeth, tree rings and ice cores: what is measured, what is inferred</span></a>
         <a href="#cl-studies"><b>Study explorer</b><span>Searchable evidence cards for individual studies</span></a>
         <a href="#cl-modern"><b>Modern context</b><span>Instrumental indicators, kept separate</span></a>
@@ -666,7 +676,39 @@ body { font-family: var(--font-anthropic-sans); }
     </div>
 
     <h2 class="cl-sec" id="cl-time">Climate through time</h2>
-    <div class="ww-grid">
+    <p class="ww-take">Pick a time window. Each window uses the published records that resolve it best, so the archives, units and reference periods change from one window to the next. They are not spliced together, and none is joined to modern thermometer data.</p>
+    <div class="cl-scales" role="tablist" aria-label="Time window">
+      <button type="button" role="tab" data-scale="2k" aria-selected="false">2,000 years<span>tree rings, corals, ice</span></button>
+      <button type="button" role="tab" data-scale="12k" aria-selected="true">12,000 years<span>Holocene</span></button>
+      <button type="button" role="tab" data-scale="800k" aria-selected="false">800,000 years<span>ice ages</span></button>
+      <button type="button" role="tab" data-scale="5m" aria-selected="false">5.3 million years<span>ocean cores</span></button>
+      <button type="button" role="tab" data-scale="66m" aria-selected="false">66 million years<span>since the dinosaurs</span></button>
+    </div>
+
+    <div class="cl-scale ww-grid" data-scale="2k" hidden>
+      <article class="ww-card wide" id="card-cl-p2k">
+        <h2>Global mean surface temperature, 1–2000 CE</h2>
+        <div class="cl-meta">
+          <span><b>Status</b> reconstructed (multi-proxy, 7 statistical methods)</span>
+          <span><b>Units</b> °C anomaly vs 1961–1990, April–March year</span>
+          <span><b>Resolution</b> annual; bold line is the published 31-year filter</span>
+          <span><b>Band</b> 2.5th–97.5th percentile of the filtered full ensemble</span>
+          <span><b>Source</b> PAGES 2k Consortium (Neukom et al.) 2019, Nature Geoscience, DOI <a href="https://doi.org/10.1038/s41561-019-0400-0">10.1038/s41561-019-0400-0</a></span>
+        </div>
+        <div class="cl-ctl">
+          <a class="cl-dl" href="data/paleo_pages2k.csv" download>Download CSV</a>
+          <a class="cl-dl" href="https://www.ncei.noaa.gov/pub/data/paleo/pages2k/neukom2019temp/" target="_blank" rel="noopener">Original files</a>
+        </div>
+        <div class="ww-legend" id="legend-cl-p2k"></div>
+        <div class="ww-chart tall" id="chart-cl-p2k" data-source="paleo_pages2k"></div>
+        <details class="cl-read"><summary>How to read this chart</summary>
+          <p>The thin line is the ensemble median for each year; the bold line and band are the 31-year filtered median and 95% range published with the data, which is the scale the authors recommend for interpretation. The filter cannot be computed for the first and last 15 years, so the bold line starts in 16 CE and stops in 1985. Values are relative to 1961–1990, a different reference from the 12,000-year view (1800–1900). Proxy coverage thins before about 1000 CE, which is why the band widens toward the left. The reconstruction ends in 2000.</p>
+        </details>
+        <p class="note" id="cl-p2k-note"></p>
+      </article>
+    </div>
+
+    <div class="cl-scale ww-grid" data-scale="12k">
       <article class="ww-card wide" id="card-cl-t12k">
         <h2>Surface temperature over the last 12,000 years</h2>
         <div class="cl-meta">
@@ -688,6 +730,78 @@ body { font-family: var(--font-anthropic-sans); }
           <p>Time runs in years BP (before 1950 CE), the convention of the source data. Each point is the median of a 100-year bin plotted at its centre: 0 BP covers 1900–2000 CE, 100 BP covers 1800–1900. The shaded band is where 90% of the ensemble falls, combining proxy, dating and method uncertainty. Values are relative to 1800–1900, so zero is the 19th century. The latitude bands rest on far fewer records than the global mean, which is why their bands are wider. The record stops in the 20th century: it is not joined to today's thermometer readings, which are shown separately under Modern context. Instrumental figures use a different reference (1850–1900 or 1951–1980) and annual rather than centennial resolution.</p>
         </details>
         <p class="note" id="cl-t12k-note"></p>
+      </article>
+    </div>
+
+    <div class="cl-scale ww-grid" data-scale="800k" hidden>
+      <article class="ww-card wide" id="card-cl-800k">
+        <h2>Eight ice-age cycles: temperature, greenhouse gases, sea level and monsoon</h2>
+        <p class="cl-axisnote">Five separate published records on one shared time axis (thousands of years before 1950). Ice-core gases stop at 1750 CE (0.2 ka) so the industrial rise stays in Modern context. Each has its own archive, age model and units; small offsets in timing between panels partly reflect different age scales. Hover any panel for values.</p>
+        <h3 class="cl-ph">Antarctic temperature<small>Reconstructed from deuterium in the EPICA Dome C ice core · °C difference from the last 1,000 years · 500-year means · EDC3 age · Jouzel et al. 2007, <a href="https://doi.org/10.1126/science.1141038">Science</a></small></h3>
+        <div class="ww-chart cl-panel" id="chart-cl-edc" data-source="paleo_epica_temp"></div>
+        <h3 class="cl-ph">Carbon dioxide<small>Measured in air bubbles in Antarctic ice · ppm · all published points · AICC2012 gas age · Bereiter et al. 2015 composite, <a href="https://doi.org/10.1002/2014GL061957">GRL</a></small></h3>
+        <div class="ww-chart cl-panel" id="chart-cl-co2k" data-source="paleo_co2_800k"></div>
+        <h3 class="cl-ph">Methane<small>Measured in air bubbles, EPICA Dome C · ppb · 1,000-year means · EDC3 gas age · Loulergue et al. 2008, <a href="https://doi.org/10.1038/nature06950">Nature</a></small></h3>
+        <div class="ww-chart cl-panel" id="chart-cl-ch4" data-source="paleo_ch4_800k"></div>
+        <h3 class="cl-ph">Global sea level<small>Reconstructed: stack of five ocean-sediment records · metres relative to present · band is the 95% interval · LR04 age · Spratt &amp; Lisiecki 2016, <a href="https://doi.org/10.5194/cp-12-1079-2016">Climate of the Past</a></small></h3>
+        <div class="ww-chart cl-panel" id="chart-cl-sl" data-source="paleo_sealevel_800k"></div>
+        <h3 class="cl-ph">East Asian summer monsoon (640,000 years)<small>Measured: δ18O of Chinese cave calcite, ‰ VPDB, axis inverted so a stronger monsoon plots up · 1,000-year means · U–Th dated · Cheng et al. 2016, <a href="https://doi.org/10.1038/nature18591">Nature</a></small></h3>
+        <div class="ww-chart cl-panel" id="chart-cl-cave" data-source="paleo_monsoon_cheng2016"></div>
+        <div class="cl-ctl">
+          <a class="cl-dl" href="data/paleo_epica_temp.csv" download>Temperature CSV</a>
+          <a class="cl-dl" href="data/paleo_co2_800k.csv" download>CO₂ CSV</a>
+          <a class="cl-dl" href="data/paleo_ch4_800k.csv" download>Methane CSV</a>
+          <a class="cl-dl" href="data/paleo_sealevel_800k.csv" download>Sea-level CSV</a>
+          <a class="cl-dl" href="data/paleo_monsoon_cheng2016.csv" download>Monsoon CSV</a>
+        </div>
+        <details class="cl-read"><summary>How to read these panels</summary>
+          <p>Temperature, CO₂ and methane rise and fall together through each glacial cycle; sea level follows with the growth and melt of ice sheets. Ice-core temperature is local to central Antarctica, where glacial–interglacial swings are roughly twice the global mean. The ice-core gases are direct measurements of ancient air; the temperature and sea-level curves are reconstructions. Sea level carries a 1σ uncertainty of 9–12 m according to its authors, so the stack's value of about +9 m at 0 ka is within error of zero rather than a real offset. The cave record mainly tracks the strength of the summer monsoon and Northern Hemisphere summer sunshine (the 23,000-year precession cycle), so its rhythm is faster than the ice-age cycle. None of these panels includes post-industrial measurements; those are under Modern context.</p>
+        </details>
+        <p class="note" id="cl-800k-note"></p>
+      </article>
+    </div>
+
+    <div class="cl-scale ww-grid" data-scale="5m" hidden>
+      <article class="ww-card wide" id="card-cl-lr04">
+        <h2>Deep-ocean δ18O over 5.3 million years: ice volume and deep-sea temperature</h2>
+        <div class="cl-meta">
+          <span><b>Status</b> measured (foraminifera shells), stacked from 57 cores</span>
+          <span><b>Units</b> ‰ benthic δ18O, axis inverted: up = warmer, less ice</span>
+          <span><b>Resolution</b> 1 kyr to 600 ka, coarsening to 5 kyr before 3 Ma</span>
+          <span><b>Band</b> ±1 standard error of the stack</span>
+          <span><b>Source</b> Lisiecki &amp; Raymo 2005, LR04, DOI <a href="https://doi.org/10.1029/2004PA001071">10.1029/2004PA001071</a></span>
+        </div>
+        <div class="cl-ctl">
+          <a class="cl-dl" href="data/paleo_lr04.csv" download>Download CSV</a>
+          <a class="cl-dl" href="https://www.ncei.noaa.gov/pub/data/paleo/contributions_by_author/lisiecki2005/" target="_blank" rel="noopener">Original files</a>
+        </div>
+        <div class="ww-chart tall" id="chart-cl-lr04" data-source="paleo_lr04"></div>
+        <details class="cl-read"><summary>How to read this chart</summary>
+          <p>Benthic δ18O mixes two signals: how much water is locked in land ice, and how cold the deep ocean is. Both move the same way, so higher values mean a colder, icier world. The long drift toward higher values is the cooling from the warm Pliocene into the ice ages. The cycles grow larger and longer: about 41,000 years before roughly 1.2 million years ago, then about 100,000 years after the Mid-Pleistocene Transition (MPT, shaded, about 1.2–0.8 Ma). The age model is tuned to orbital cycles, so its timing is not independent of them.</p>
+        </details>
+        <p class="note" id="cl-lr04-note"></p>
+      </article>
+    </div>
+
+    <div class="cl-scale ww-grid" data-scale="66m" hidden>
+      <article class="ww-card wide" id="card-cl-ceno">
+        <h2>66 million years of deep-ocean climate (Cenozoic)</h2>
+        <div class="cl-meta">
+          <span><b>Status</b> measured (benthic foraminifera), astronomically tuned</span>
+          <span><b>Units</b> ‰ δ18O VPDB, axis inverted: up = warmer, less ice</span>
+          <span><b>Resolution</b> medians of 50,000-year bins of 24,321 points</span>
+          <span><b>Shading</b> geologic epochs</span>
+          <span><b>Source</b> Westerhold et al. 2020, CENOGRID, Science, DOI <a href="https://doi.org/10.1126/science.aba6853">10.1126/science.aba6853</a></span>
+        </div>
+        <div class="cl-ctl">
+          <a class="cl-dl" href="data/paleo_cenogrid.csv" download>Download CSV</a>
+          <a class="cl-dl" href="https://www.ncei.noaa.gov/pub/data/paleo/contributions_by_author/westerhold2020/" target="_blank" rel="noopener">Original files</a>
+        </div>
+        <div class="ww-chart tall" id="chart-cl-ceno" data-source="paleo_cenogrid"></div>
+        <details class="cl-read"><summary>How to read this chart</summary>
+          <p>The same measurement as the 5.3-million-year view, extended across the whole Cenozoic by splicing deep-sea cores. Before about 34 million years ago there were no large ice sheets, so δ18O mainly reflects deep-ocean temperature; after that it also records ice volume. Marked events: the Paleocene–Eocene Thermal Maximum (about 56 Ma), the Eocene–Oligocene transition when Antarctica's ice sheet formed (about 34 Ma), and the onset of large Northern Hemisphere ice sheets (about 2.7 Ma). Fifty-thousand-year medians hide short events: the PETM lasted under 200,000 years and appears here as a spike only a few bins wide.</p>
+        </details>
+        <p class="note" id="cl-ceno-note"></p>
       </article>
     </div>
 
@@ -767,13 +881,23 @@ body { font-family: var(--font-anthropic-sans); }
         <ul>
           <li><b>Published reconstructions only.</b> This tab plots reconstructions as published. It does not convert raw proxy measurements into temperature or rainfall itself.</li>
           <li><b>Dating conventions.</b> "BP" means years before 1950 CE. "ka" means thousand years before present. Radiocarbon ages are calibrated in the source studies; uranium-series ages on fossils are often minimum ages.</li>
-          <li><b>Reference periods differ.</b> Temperature 12k uses 1800–1900 CE; GISTEMP uses 1951–1980; the IPCC uses 1850–1900; EPICA uses the last 1,000 years. Never compare numbers across these without re-baselining.</li>
+          <li><b>Reference periods differ.</b> Temperature 12k uses 1800–1900 CE; PAGES 2k uses 1961–1990; GISTEMP uses 1951–1980; the IPCC uses 1850–1900; EPICA uses the last 1,000 years; sea level is relative to present. Never compare numbers across these without re-baselining.</li>
+          <li><b>δ18O is not temperature.</b> Cave and deep-sea δ18O are measured values. Cave δ18O mainly tracks monsoon strength and moisture source; benthic δ18O mixes deep-ocean temperature and ice volume. They are shown as measured, with inverted axes so up means wetter or warmer.</li>
+          <li><b>Time windows are not spliced.</b> Each window uses different archives and age models (EDC3, AICC2012, LR04, U–Th, astronomical tuning). The ice-core gas panels stop at 1750 CE; the industrial era is shown only under Modern context.</li>
           <li><b>Resolution limits comparison.</b> A 100-year bin cannot show a single hot decade. The most recent instrumental decade (2015–2024) was 1.24 °C above 1850–1900 (Forster et al. 2025), but that is a 10-year average and cannot be read directly against centennial bins.</li>
           <li><b>Coverage gaps.</b> Proxy records cluster on land in the Northern Hemisphere; oceans, the tropics and the Southern Hemisphere are thinner, which widens uncertainty there.</li>
         </ul>
         <h2>Datasets and papers</h2>
         <ul>
           <li>Kaufman, D. et al. (2020). Holocene global mean surface temperature, a multi-method reconstruction approach. <i>Scientific Data</i>. <a href="https://doi.org/10.1038/s41597-020-0530-7">10.1038/s41597-020-0530-7</a>. Data: NOAA WDS-Paleo <a href="https://doi.org/10.25921/vzys-1280">10.25921/vzys-1280</a> (file temp12k_allmethods_percentiles.csv, 2020-06-12), read 17 Oct 2026.</li>
+          <li>PAGES 2k Consortium (Neukom, R. et al.) (2019). Consistent multidecadal variability in global temperature reconstructions and simulations over the Common Era. <i>Nature Geoscience</i> 12, 643–649. <a href="https://doi.org/10.1038/s41561-019-0400-0">10.1038/s41561-019-0400-0</a>. Data: <a href="https://www.ncei.noaa.gov/pub/data/paleo/pages2k/neukom2019temp/recons/Full_ensemble_median_and_95pct_range.txt">NOAA Full_ensemble_median_and_95pct_range.txt</a>, read 17 Oct 2026.</li>
+          <li>Bereiter, B. et al. (2015). Revision of the EPICA Dome C CO₂ record from 800 to 600 kyr before present. <i>Geophysical Research Letters</i> 42, 542–549. <a href="https://doi.org/10.1002/2014GL061957">10.1002/2014GL061957</a>. Data: <a href="https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/antarctica2015co2composite.txt">NOAA antarctica2015co2composite.txt</a>.</li>
+          <li>Loulergue, L. et al. (2008). Orbital and millennial-scale features of atmospheric CH₄ over the past 800,000 years. <i>Nature</i> 453, 383–386. <a href="https://doi.org/10.1038/nature06950">10.1038/nature06950</a>. Data: <a href="https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc-ch4-2008.txt">NOAA edc-ch4-2008.txt</a>.</li>
+          <li>Spratt, R. M. and Lisiecki, L. E. (2016). A Late Pleistocene sea level stack. <i>Climate of the Past</i> 12, 1079–1092. <a href="https://doi.org/10.5194/cp-12-1079-2016">10.5194/cp-12-1079-2016</a>. Data: <a href="https://www.ncei.noaa.gov/pub/data/paleo/contributions_by_author/spratt2016/spratt2016.txt">NOAA spratt2016.txt</a>.</li>
+          <li>Cheng, H. et al. (2016). The Asian monsoon over the past 640,000 years and ice age terminations. <i>Nature</i> 534, 640–646. <a href="https://doi.org/10.1038/nature18591">10.1038/nature18591</a>. Data: <a href="https://www.ncei.noaa.gov/pub/data/paleo/speleothem/asia/china/cheng2016composite.txt">NOAA cheng2016composite.txt</a>.</li>
+          <li>Lisiecki, L. E. and Raymo, M. E. (2005). A Pliocene–Pleistocene stack of 57 globally distributed benthic δ18O records. <i>Paleoceanography</i> 20, PA1003. <a href="https://doi.org/10.1029/2004PA001071">10.1029/2004PA001071</a>. Data: <a href="https://www.ncei.noaa.gov/pub/data/paleo/contributions_by_author/lisiecki2005/">NOAA lisiecki2005</a>.</li>
+          <li>Westerhold, T. et al. (2020). An astronomically dated record of Earth's climate and its predictability over the last 66 million years. <i>Science</i> 369, 1383–1387. <a href="https://doi.org/10.1126/science.aba6853">10.1126/science.aba6853</a>. Data: <a href="https://www.ncei.noaa.gov/pub/data/paleo/contributions_by_author/westerhold2020/">NOAA westerhold2020</a>.</li>
+          <li>Epoch boundaries and colours: Geologic Time Scale table distributed with the Pyleoclim package (GTS_updated.csv).</li>
           <li>Jouzel, J. et al. (2007). Orbital and millennial Antarctic climate variability over the past 800,000 years. <i>Science</i> 317, 793–797. Data: <a href="https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc3deuttemp2007.txt">NOAA edc3deuttemp2007.txt</a> (EDC3 age scale).</li>
           <li>Smith, T. M. et al. (2024). Oxygen isotopes in orangutan teeth reveal recent and ancient climate variation. <i>eLife</i> 12, RP90217. <a href="https://doi.org/10.7554/eLife.90217">10.7554/eLife.90217</a>.</li>
           <li>Kielhofer, J. R. et al. (2023). brGDGT temperature reconstruction from interior Alaska. <i>Quaternary Science Reviews</i>. <a href="https://doi.org/10.1016/j.quascirev.2023.107979">10.1016/j.quascirev.2023.107979</a>.</li>
@@ -1807,7 +1931,7 @@ window.WW = (() => {
     if (o.area) o.rows.forEach((r) => { if (r[o.area.low] != null) ys.push(r[o.area.low], r[o.area.high]); });
     let [y0, y1] = d3.extent(ys);
     if (y0 === y1) { y0 -= 1; y1 += 1; }
-    const yS = d3.scaleLinear([y0, y1], [bottom, top]).nice(5);
+    const yS = d3.scaleLinear([y0, y1], o.yInvert ? [top, bottom] : [bottom, top]).nice(5);
     const yt = yS.ticks(5);
     const yf = o.yFmt || d3.format('.1f');
     const vf = o.valFmt || ((v) => signed(v, 1));
@@ -1816,8 +1940,19 @@ window.WW = (() => {
     const endTxt = (e) => `${e.d.s.label} ${vf(e.p.y)}`;
     const mr = o.endLabels === false ? 14 : Math.ceil(measure(svg, ends.map(endTxt), 'ww-end')) + 16;
     const xs = o.rows.map(o.x);
-    const xS = o.xType === 'linear' ? d3.scaleLinear(d3.extent(xs), [ml, W - mr]) : d3.scaleUtc(d3.extent(xs), [ml, W - mr]);
+    const xS = o.xType === 'linear' ? d3.scaleLinear(o.xDomain || d3.extent(xs), [ml, W - mr]) : d3.scaleUtc(d3.extent(xs), [ml, W - mr]);
     const g = svg.append('g');
+    (o.xSpans || []).forEach((b) => {
+      const [d0, d1] = xS.domain();
+      const a = Math.max(d0, Math.min(b.x0, b.x1));
+      const z = Math.min(d1, Math.max(b.x0, b.x1));
+      if (z <= a) return;
+      g.append('rect').attr('x', xS(a)).attr('width', Math.max(1, xS(z) - xS(a))).attr('y', top).attr('height', bottom - top)
+        .style('fill', b.color || 'var(--cds-chart-muted)').style('opacity', b.opacity ?? 0.16);
+      if (b.label && xS(z) - xS(a) > measure(svg, [b.label], 'ww-reflbl') + 6) {
+        g.append('text').attr('class', 'ww-reflbl').attr('x', (xS(a) + xS(z)) / 2).attr('y', bottom - 6).attr('text-anchor', 'middle').text(b.label);
+      }
+    });
     if (o.bands && o.xType !== 'linear') {
       const [d0, d1] = xS.domain();
       o.bands.forEach((b) => {
@@ -1843,7 +1978,8 @@ window.WW = (() => {
       const vx = xS(vl.x);
       if (!(vx >= ml && vx <= W - mr)) return;
       g.append('line').attr('class', 'ww-ref').attr('x1', vx).attr('x2', vx).attr('y1', top).attr('y2', bottom);
-      if (vl.label) g.append('text').attr('class', 'ww-reflbl').attr('x', vx + 4).attr('y', top + 10 + (i % 3) * 13).text(vl.label);
+      const nearEnd = vx + 4 + measure(svg, [vl.label || ''], 'ww-reflbl') > W - mr;
+      if (vl.label) g.append('text').attr('class', 'ww-reflbl').attr('x', nearEnd ? vx - 4 : vx + 4).attr('text-anchor', nearEnd ? 'end' : null).attr('y', top + 10 + (i % 3) * 13).text(vl.label);
     });
     // x ticks, thinned so labels never meet
     const fmtX = o.xTickFormat || d3.utcFormat('%b %Y');
@@ -3484,10 +3620,25 @@ window.WW = (() => {
     const c = C(); const cc = (i) => c[i] || K.muted;
     const set = (id, t) => { const e = box(id); if (e) e.textContent = t; };
     const bpLbl = (age) => (age === 0 ? '0 BP (1900–2000 CE bin)' : `${d3.format(',')(age)} BP (≈${age >= 1950 ? `${d3.format(',')(age - 1950)} BCE` : `${1950 - age} CE`})`);
-    // Reconstruction chart
+    // Time-window switcher
+    const tabs = [...document.querySelectorAll('.cl-scales button')];
+    if (!tabs[0].dataset.bound) {
+      tabs.forEach((b) => {
+        b.dataset.bound = '1';
+        b.addEventListener('click', () => {
+          tabs.forEach((t) => t.setAttribute('aria-selected', String(t === b)));
+          document.querySelectorAll('.cl-scale').forEach((s) => { s.hidden = s.dataset.scale !== b.dataset.scale; });
+          drawClimateScale(b.dataset.scale);
+        });
+      });
+    }
+    const scale = (tabs.find((t) => t.getAttribute('aria-selected') === 'true') || tabs[1]).dataset.scale;
+    if (scale !== '12k') drawClimateScale(scale);
+    // Reconstruction chart (12k)
     const d = dash.data('paleo_temp12k');
     const sel = box('cl-region');
-    if (d.status !== 'ok') { K.fail(box('chart-cl-t12k'), d.status); }
+    if (scale !== '12k') { /* drawn when its tab is opened */ }
+    else if (d.status !== 'ok') { K.fail(box('chart-cl-t12k'), d.status); }
     else {
       const rows = d.data.map((r) => ({ age: +r.age_bp, year: +r.year_ce, region: r.region, p5: +r.p5, median: +r.median, p95: +r.p95 }));
       const regions = [...new Set(rows.map((r) => r.region))];
@@ -3537,6 +3688,77 @@ window.WW = (() => {
     const last = ann[ann.length - 1];
     set('cl-gis-note', `Complete years only (last: ${last.year}, ${K.signed(last.t, 2)} °C vs 1951–1980). Monthly detail, the 1976 trend break and the current year are on the Planet tab.`);
     K.line(box('chart-cl-co2'), { rows: R.filter((r) => r.co2 != null), x: (r) => r.date, series: [{ key: 'co2', label: 'Monthly', color: K.muted, width: 1 }, { key: 'co2_trend', label: 'Trend', color: cc(0), width: 2 }], endLabels: false, yFmt: d3.format('d'), xTickFormat: d3.utcFormat('%Y'), valFmt: (v) => `${d3.format('.1f')(v)} ppm`, tipTitle: (r) => monthFmt(r.date), height: 220 });
+  }
+  // Long-range reconstructions, one drawer per time window
+  function drawClimateScale(scale) {
+    if (scale === '12k') { drawClimate(); return; }
+    const c = C(); const cc = (i) => c[i] || K.muted;
+    const set = (id, t) => { const e = box(id); if (e) e.textContent = t; };
+    const num = (v) => (v === '' || v == null ? null : +v);
+    const get = (id, chart) => { const r = dash.data(id); if (r.status !== 'ok') { K.fail(box(chart), r.status); return null; } return r.data; };
+    const fk = d3.format(',');
+    if (scale === '2k') {
+      const raw = get('paleo_pages2k', 'chart-cl-p2k'); if (!raw) return;
+      const rows = raw.map((r) => ({ year: +r.year_ce, median: num(r.median), f: num(r.median_31yr), lo: num(r.p2_5_31yr), hi: num(r.p97_5_31yr) }));
+      const sr = [{ key: 'median', label: 'Annual median', color: K.muted, width: 1 }, { key: 'f', label: '31-year filtered median', color: cc(2), width: 2.5 }];
+      K.legend(box('legend-cl-p2k'), [...sr, { key: 'band', label: '95% range (filtered)', color: K.muted }]);
+      K.line(box('chart-cl-p2k'), { rows, x: (r) => r.year, xType: 'linear', series: sr, area: { low: 'lo', high: 'hi' }, endLabels: false, zero: true, xTickValues: [1, 250, 500, 750, 1000, 1250, 1500, 1750, 2000], xTickFormat: (v) => `${v} CE`, valFmt: (v) => `${K.signed(v, 2)} °C`, tipTitle: (r) => `${r.year} CE${r.lo != null ? ` · filtered 95% range ${K.signed(r.lo, 2)} to ${K.signed(r.hi, 2)} °C` : ''}`, height: 320 });
+      const fr = rows.filter((r) => r.f != null);
+      const pre = fr.filter((r) => r.year < 1850);
+      const hiP = pre.reduce((a, b) => (b.f > a.f ? b : a)); const loP = pre.reduce((a, b) => (b.f < a.f ? b : a));
+      const lastF = fr[fr.length - 1];
+      set('cl-p2k-note', `Before 1850, the 31-year filtered median peaks at ${K.signed(hiP.f, 2)} °C (${hiP.year} CE) and bottoms at ${K.signed(loP.f, 2)} °C (${loP.year} CE). The last filtered value, ${lastF.year} CE, is ${K.signed(lastF.f, 2)} °C (95% range ${K.signed(lastF.lo, 2)} to ${K.signed(lastF.hi, 2)}). All values vs 1961–1990.`);
+      return;
+    }
+    if (scale === '800k') {
+      const X = [-805, 0];
+      const ticks = [-800, -700, -600, -500, -400, -300, -200, -100, 0];
+      const tf = (v) => (v === 0 ? '0' : `${-v} ka`);
+      const m0 = (v) => d3.format('+.0f')(v).replace('-', '−');
+      const base = { xType: 'linear', xDomain: X, xTickValues: ticks, xTickFormat: tf, endLabels: false, height: 150 };
+      const ka = (a) => `${fk(Math.round(a * 10) / 10)} ka (${fk(Math.round(a * 1000))} years BP)`;
+      const t = get('paleo_epica_temp', 'chart-cl-edc');
+      const co2 = get('paleo_co2_800k', 'chart-cl-co2k');
+      const ch4 = get('paleo_ch4_800k', 'chart-cl-ch4');
+      const sl = get('paleo_sealevel_800k', 'chart-cl-sl');
+      const cv = get('paleo_monsoon_cheng2016', 'chart-cl-cave');
+      const T = t && t.map((r) => ({ a: +r.age_ka, v: +r.temp_anom_c }));
+      if (T) K.line(box('chart-cl-edc'), { ...base, rows: T, x: (r) => -r.a, series: [{ key: 'v', label: 'Temperature', color: cc(2), width: 1.5 }], zero: true, valFmt: (v) => `${K.signed(v, 1)} °C`, tipTitle: (r) => `${ka(r.a)} · 500-year mean` });
+      const Cc = co2 && co2.map((r) => ({ a: +r.age_ka, v: +r.co2_ppm })).filter((r) => r.a >= 0.2);
+      if (Cc) K.line(box('chart-cl-co2k'), { ...base, rows: Cc, x: (r) => -r.a, series: [{ key: 'v', label: 'CO₂', color: cc(0), width: 1.5 }], yFmt: d3.format('d'), valFmt: (v) => `${d3.format('.1f')(v)} ppm`, tipTitle: (r) => ka(r.a) });
+      const M = ch4 && ch4.map((r) => ({ a: +r.age_ka, v: +r.ch4_ppb, n: +r.n }));
+      if (M) K.line(box('chart-cl-ch4'), { ...base, rows: M, x: (r) => -r.a, series: [{ key: 'v', label: 'Methane', color: cc(3), width: 1.5 }], yFmt: d3.format('d'), valFmt: (v) => `${d3.format('d')(v)} ppb`, tipTitle: (r) => `${ka(r.a)} · mean of ${r.n} sample${r.n === 1 ? '' : 's'}` });
+      const S = sl && sl.map((r) => ({ a: +r.age_ka, v: +r.sea_level_m, lo: +r.ci95_low_m, hi: +r.ci95_high_m }));
+      if (S) K.line(box('chart-cl-sl'), { ...base, rows: S, x: (r) => -r.a, series: [{ key: 'v', label: 'Sea level', color: cc(1), width: 1.5 }], area: { low: 'lo', high: 'hi' }, zero: true, yFmt: d3.format('d'), valFmt: (v) => `${m0(v)} m`, tipTitle: (r) => `${ka(r.a)} · 95% ${m0(r.lo)} to ${m0(r.hi)} m` });
+      const V = cv && cv.map((r) => ({ a: +r.age_ka, v: +r.d18o_permil_vpdb, n: +r.n })).filter((r) => r.a >= 0);
+      if (V) K.line(box('chart-cl-cave'), { ...base, rows: V, x: (r) => -r.a, series: [{ key: 'v', label: 'Cave δ18O', color: cc(4), width: 1.5 }], yInvert: true, valFmt: (v) => `${d3.format('.2f')(v)} ‰`, tipTitle: (r) => `${ka(r.a)} · mean of ${r.n} sample${r.n === 1 ? '' : 's'}` });
+      if (Cc && M && S && T) {
+        const old = Cc.filter((r) => r.a > 0.2);
+        const mn = old.reduce((x, y) => (y.v < x.v ? y : x)); const mx = old.reduce((x, y) => (y.v > x.v ? y : x));
+        const smin = S.reduce((x, y) => (y.v < x.v ? y : x));
+        const Tw = T.filter((r) => r.a > 2); const tmin = Tw.reduce((x, y) => (y.v < x.v ? y : x)); const tmax = Tw.reduce((x, y) => (y.v > x.v ? y : x));
+        const k0 = (a) => `${fk(Math.round(a))} ka`;
+        set('cl-800k-note', `In the ice-core samples older than 200 years, CO₂ ranges from ${d3.format('.1f')(mn.v)} ppm (${k0(mn.a)}) to ${d3.format('.1f')(mx.v)} ppm (${k0(mx.a)}). Antarctic temperature ranges from ${K.signed(tmin.v, 1)} °C (${k0(tmin.a)}) to ${K.signed(tmax.v, 1)} °C (${k0(tmax.a)}), 500-year means. Sea level reaches its lowest at ${m0(smin.v)} m (${k0(smin.a)}; 95% interval ${m0(smin.lo)} to ${m0(smin.hi)} m). For comparison, Mauna Loa's measured CO₂ is on the Modern context chart below.`);
+      }
+      return;
+    }
+    if (scale === '5m') {
+      const raw = get('paleo_lr04', 'chart-cl-lr04'); if (!raw) return;
+      const rows = raw.map((r) => ({ a: +r.age_ka, v: +r.d18o_permil, lo: +r.d18o_permil - +r.se_permil, hi: +r.d18o_permil + +r.se_permil }));
+      K.line(box('chart-cl-lr04'), { rows, x: (r) => -r.a / 1000, xType: 'linear', series: [{ key: 'v', label: 'Benthic δ18O', color: cc(0), width: 1.2 }], area: { low: 'lo', high: 'hi' }, yInvert: true, endLabels: false, xTickValues: [-5, -4, -3, -2, -1, 0], xTickFormat: (v) => (v === 0 ? '0' : `${-v} Ma`), xSpans: [{ x0: -1.2, x1: -0.8, label: 'MPT' }], vlines: [{ x: -2.7, label: 'N. Hemisphere ice sheets' }], valFmt: (v) => `${d3.format('.2f')(v)} ‰`, tipTitle: (r) => `${fk(r.a)} ka · ±1 SE ${d3.format('.2f')(r.lo)}–${d3.format('.2f')(r.hi)} ‰`, height: 320 });
+      const mean = (lo, hi) => d3.mean(rows.filter((r) => r.a >= lo && r.a < hi), (r) => r.v);
+      set('cl-lr04-note', `Mean δ18O was ${d3.format('.2f')(mean(4000, 5320))} ‰ for 4.0–5.3 Ma and ${d3.format('.2f')(mean(0, 800))} ‰ for the last 800,000 years (higher = colder and icier). The most recent value (0 ka) is ${d3.format('.2f')(rows[0].v)} ‰.`);
+      return;
+    }
+    if (scale === '66m') {
+      const raw = get('paleo_cenogrid', 'chart-cl-ceno'); if (!raw) return;
+      const ep = dash.data('paleo_gts_epochs');
+      const rows = raw.map((r) => ({ a: +r.age_ma, v: +r.d18o_permil, n: +r.n }));
+      const spans = ep.status === 'ok' ? ep.data.filter((e) => +e.top_ma < 66).map((e, i) => ({ x0: -e.top_ma, x1: -Math.min(66.2, +e.base_ma), color: e.color, opacity: i % 2 ? 0.18 : 0.3, label: e.epoch })) : [];
+      K.line(box('chart-cl-ceno'), { rows, x: (r) => -r.a, xType: 'linear', xDomain: [-66.2, 0], series: [{ key: 'v', label: 'Benthic δ18O', color: cc(0), width: 1.5 }], yInvert: true, endLabels: false, xSpans: spans, xTickValues: [-66, -56, -50, -40, -30, -20, -10, 0], xTickFormat: (v) => (v === 0 ? '0' : `${-v} Ma`), vlines: [{ x: -56, label: 'PETM' }, { x: -33.9, label: 'Antarctic ice sheet' }, { x: -2.7, label: 'N. Hem. ice' }], valFmt: (v) => `${d3.format('.2f')(v)} ‰`, tipTitle: (r) => `${d3.format('.3f')(r.a)} Ma · median of ${r.n} point${r.n === 1 ? '' : 's'}`, height: 340 });
+      const lo = rows.reduce((x, y) => (y.v < x.v ? y : x));
+      set('cl-ceno-note', `The lowest 50,000-year median (warmest deep ocean) is ${d3.format('.2f')(lo.v)} ‰ at ${d3.format('.2f')(lo.a)} Ma; the latest bin (0–50 ka) is ${d3.format('.2f')(rows[0].v)} ‰. Converting δ18O to temperature requires assumptions about ice volume, so this chart shows the measured values.`);
+    }
   }
   function drawClimateCards() {
     const wrap = box('cl-cards'); if (!clStudies) return;
