@@ -183,7 +183,7 @@
     drawers.push(() => {
       const s = [{ key: 'anthro', label: 'All human causes', color: S(8) }, { key: 'solar', label: 'Sun', color: S(4), width: 2 }, { key: 'volcanic', label: 'Volcanoes', color: S(1), width: 2 }];
       legend(fig('f-natural'), s);
-      lines(fig('f-natural').querySelector('.chart'), { data: N, series: s, zero: true, yFmt: fmt1, valFmt: (v) => `${signed(fmt2)(v)} W/m²`, yLabel: 'W/m² since 1750', marks: [{ x: 1982, label: 'El Chichón' }, { x: 1991, label: 'Pinatubo' }] });
+      lines(fig('f-natural').querySelector('.chart'), { data: N, series: s, zero: true, yFmt: fmt1, valFmt: (v) => `${signed(fmt2)(v)} W/m²`, yLabel: 'W/m² since 1750', marks: [{ x: 1963, label: 'Agung' }, { x: 1982, label: 'El Chichón' }, { x: 1991, label: 'Pinatubo' }] });
     });
     table(fig('f-natural'), ['Year', 'Human', 'Sun', 'Volcanoes'], N.filter((d) => d.x % 5 === 0 || d.x === 2024 || d.x === 1991 || d.x === 1992).map((d) => [d.x, signed(fmt2)(d.anthro), signed(fmt2)(d.solar), signed(fmt2)(d.volcanic)]));
 
