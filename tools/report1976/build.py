@@ -171,8 +171,11 @@ def owid(path: Path) -> None:
         res.append([c, d("temperature_change_from_ghg"), d("temperature_change_from_co2"), d("temperature_change_from_ch4"),
                     d("temperature_change_from_n2o"), cum("co2"), cum("land_use_change_co2"), z(g(c, 2024, "co2_per_capita")),
                     z(g(c, 2024, "population")) / 1e6])  # fmt: skip
-    res.sort(key=lambda r: -r[1])
-    top, rest = res[:12], res[12:]
+    # Top 20, extended to keep countries tied at the cut-off together (the source resolves 0.001 C).
+    res.sort(key=lambda r: (-round(r[1], 3), r[0]))
+    cut = round(res[19][1], 3)
+    top = [r for r in res if round(r[1], 3) >= cut]
+    rest = [r for r in res if round(r[1], 3) < cut]
     out = [
         [r[0]]
         + [f"{v:.4f}" for v in r[1:5]]
