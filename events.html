@@ -45,7 +45,24 @@ body { font-family: var(--font-anthropic-sans); }
 .sec h2{font-size:1.05rem;margin:0 0 6px}.sec p{margin:0;line-height:1.6}
 .tl{list-style:none;margin:0;padding:0}.tl li{display:grid;grid-template-columns:9.5rem 1fr;gap:12px;padding:7px 0;border-top:1px solid var(--color-border-line);font-size:.9rem;line-height:1.5}
 .tl li:first-child{border-top:0}.tl b{font-weight:600;font-variant-numeric:tabular-nums}@media(max-width:600px){.tl li{grid-template-columns:1fr;gap:2px}}
-.src li{margin:4px 0;font-size:.88rem}.back{font-size:.85rem;color:var(--color-fg-muted)}.asof{font-size:.8rem;color:var(--color-fg-muted)}
+.src li{margin:4px 0;font-size:.88rem}
+.mvnote{margin:0 0 8px;font-size:.82rem;color:var(--color-fg-muted);line-height:1.45}
+.mvctl{display:flex;align-items:center;gap:12px;margin:6px 0}.mvctl input{flex:1}.mvplay{font:inherit;font-size:.9rem;background:var(--color-fg);color:var(--color-bg);border:0;border-radius:999px;padding:6px 18px;cursor:pointer}
+.mvclock{font-size:.85rem;font-variant-numeric:tabular-nums;min-width:15rem;text-align:right}
+.mvleg{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:.78rem;color:var(--color-fg-muted);margin:4px 0 8px}.mvleg span{display:inline-flex;align-items:center;gap:5px}.mvleg i{width:10px;height:10px;border-radius:50%;display:inline-block;border:1px solid rgba(0,0,0,.25)}
+.mvgrid{display:grid;grid-template-columns:minmax(0,1fr) 15rem;gap:14px}@media(max-width:760px){.mvgrid{grid-template-columns:1fr}.mvclock{min-width:0}}
+.mvmap{position:relative}.mvsvg{display:block;border-radius:8px}.mvsea{fill:color-mix(in srgb,#5aa9f0 9%,var(--color-bg))}.mvland{fill:var(--color-border-line);stroke:none}
+.mvgrat{stroke:var(--color-fg-muted);stroke-opacity:.15;stroke-dasharray:2 4}.mvtick{font-size:10px;fill:var(--color-fg-muted)}
+.mvplace{fill:var(--color-fg)}.mvplbl{font-size:12px;fill:var(--color-fg);font-weight:600;paint-order:stroke;stroke:var(--color-bg);stroke-width:3px}
+.mvtrail{stroke:var(--color-fg-muted);stroke-width:1.5}.mvtrail.estimated{stroke-dasharray:1 3}.mvtrail.forecast{stroke-dasharray:5 4}
+.mvfc{fill:none;stroke:var(--color-fg-muted);stroke-width:1.5;stroke-dasharray:5 4;opacity:.7}
+.mvdot{stroke:rgba(0,0,0,.45);stroke-width:.8}.mvdot.estimated{stroke:var(--color-fg-muted);stroke-dasharray:1 2}.mvdot.forecast{fill-opacity:.55}
+.mvhead{stroke:var(--color-fg);stroke-width:1.5}.mvhalo{fill:none;stroke-width:2;stroke-opacity:.6;stroke-dasharray:3 3}
+.mvhl{font-size:13px;font-weight:600;fill:var(--color-fg);paint-order:stroke;stroke:var(--color-bg);stroke-width:4px}
+.mvcap{position:absolute;left:12px;top:12px;max-width:min(26rem,70%);background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:10px;padding:12px 14px;box-shadow:0 6px 24px rgba(0,0,0,.18);font-size:.88rem;line-height:1.5}
+.mvcap b{display:block;margin-bottom:4px}.mvcap p{margin:0 0 8px}.mvcont{font:inherit;font-size:.8rem;border:1px solid var(--color-border-line);background:none;color:var(--color-fg);border-radius:999px;padding:3px 10px;cursor:pointer}
+@media(max-width:760px){.mvcap{position:static;max-width:none;margin-top:8px}}
+.mvside{display:grid;gap:8px;align-content:start}.mvg{background:var(--color-bg);border-radius:8px;padding:8px 10px}.mvg .l{font-size:.72rem;color:var(--color-fg-muted)}.mvg .v{font-size:.88rem;margin-top:2px;font-variant-numeric:tabular-nums}.back{font-size:.85rem;color:var(--color-fg-muted)}.asof{font-size:.8rem;color:var(--color-fg-muted)}
 </style></head><body><nav class="site-nav" aria-label="Site">
   <a class="brand" href="./">Global Weather Watch</a>
   <a href="./" >Dashboard</a>

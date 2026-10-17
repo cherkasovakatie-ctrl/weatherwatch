@@ -3,78 +3,306 @@
  "name": "Typhoon Champi",
  "type": "Typhoon",
  "region": "Western Pacific · Guam and the Northern Mariana Islands",
- "start": "2026-10-15",
+ "start": "2026-10-14",
  "end": "",
  "status": "unfolding",
- "as_of": "17 Oct 2026, 07 ChST (Guam JIC release 4)",
- "headline": "The third strong typhoon to threaten Guam since April, arriving while families are still living in tents after Sinlaku and Bavi. Expected to pass just south of Guam as a Category 2–3 typhoon early on 18 October, then become a very strong typhoon in the Philippine Sea.",
+ "as_of": "17 Oct 2026, 04–07 ChST (JTWC warning 18Z 16 Oct; NWS Guam; Guam JIC release 4)",
+ "headline": "The third strong typhoon to threaten Guam since April, arriving while families are still living in tents after Sinlaku and Bavi. Champi strengthened by 40 kt in 23 hours and is forecast to pass just south of Guam as a Category 3 typhoon around 7 am on Sunday 18 October, then become a super typhoon over the Philippine Sea.",
  "numbers": [
   [
-   "Now",
-   "85 mph typhoon, 12.0°N 149.6°E"
+   "Now (JTWC)",
+   "75 kt, 984 mb, 11.9°N 150.2°E"
   ],
   [
-   "Movement",
-   "WNW 15 mph"
+   "Rapid intensification",
+   "+40 kt in 23 h (35 → 75 kt)"
   ],
   [
-   "Forecast near Guam",
-   "Cat 2–3, ~965 hPa, 18 Oct"
+   "Ocean",
+   "29–30 °C; heat content 120–150 kJ/cm² ahead"
   ],
   [
-   "Rain forecast",
-   "6–12 in"
+   "Shear",
+   "10–20 kt now, < 10 kt by 18 Oct"
   ],
   [
-   "Surf",
-   "15–20 ft; inundation 2–3 ft"
+   "Guam forecast",
+   "105–120 mph, gusts 155; 12–20 in rain; surf 35 ft"
+  ],
+  [
+   "Forecast peak",
+   "135 kt (super typhoon), 18–19 Oct"
   ]
  ],
  "timeline": [
   [
    "14 Oct",
-   "Invest 96W east of the Marianas."
+   "Invest 96W: a cluster of storms in the trade winds far east of the Marianas."
   ],
   [
-   "15 Oct",
-   "Tropical Depression 29W; Guam placed in Condition of Readiness 3; Typhoon Watch for Guam, Rota, Tinian, Saipan."
+   "15 Oct (early ChST)",
+   "Tropical Depression 29W. Guam enters Condition of Readiness 3; Typhoon Watch for Guam, Rota, Tinian and Saipan."
   ],
   [
-   "16 Oct",
-   "Tropical storm Champi (35 kt at 15 UTC on 15 Oct per JTWC); 50 kt, 992 hPa by 03:50 UTC on 16 Oct, 980 km ESE of Guam, moving west at 10 kt."
+   "15 Oct 15–19 UTC",
+   "Tropical Storm Champi, 35 kt, near 11.6°N 156.5°E, about 800 miles east of Guam, moving west at 12 mph."
   ],
   [
-   "17 Oct 07 ChST",
-   "Typhoon, 85 mph, 340 miles ESE of Guam, WNW at 15 mph. Typhoon Warning for Guam and Rota; ports at Condition ZULU."
+   "16 Oct 18 UTC",
+   "JTWC: 75 kt, 984 mb at 11.9°N 150.2°E, 380 miles ESE of Guam. +40 kt in 23 hours: rapid intensification under way."
   ],
   [
-   "17–18 Oct (forecast)",
-   "Damaging winds from about 8 pm Saturday, typhoon-force winds from about 5 am Sunday; centre just south of Guam as a Category 3 typhoon."
+   "16 Oct 21 UTC (17 Oct 07 ChST)",
+   "Typhoon, 85 mph, 12.0°N 149.6°E, moving WNW at 15 mph. Typhoon Warning for Guam and Rota; ports at Condition ZULU."
   ],
   [
-   "19–21 Oct (forecast)",
-   "Very strong typhoon over the central Philippine Sea (about 935 hPa, 95 kt by 21 Oct), heading toward waters south of the Ryukyu Islands."
+   "17 Oct (forecast)",
+   "90 kt by 06 UTC, 105 kt by 18 UTC. Showers from noon Saturday ChST, damaging winds from about midnight."
+  ],
+  [
+   "17 Oct 21 UTC = 18 Oct 07 ChST (forecast)",
+   "Closest approach just south of (or over) southern Guam as a Category 3 typhoon: winds 105–120 mph, gusts to 155 mph, 12–20 in of rain, surf to 35 ft, inundation 5–7 ft."
+  ],
+  [
+   "18–19 Oct (forecast)",
+   "Super typhoon, 135 kt, over the Philippine Sea as shear drops below 10 kt and ocean heat content reaches 120–150 kJ/cm²."
+  ],
+  [
+   "20–21 Oct (forecast)",
+   "Still 120–130 kt near 18–20°N 128–132°E, heading west-northwest toward the waters east of Taiwan and south of the Ryukyus."
   ]
  ],
  "sections": {
-  "The setup": "Sea surface temperatures of 29–30 °C, abundant moisture and a deep warm layer east of the Marianas. During El Niño, typhoon genesis shifts south-east toward the date line, so storms form farther east and spend longer over warm open ocean before reaching land. That is how Guam has been threatened three times since April.",
-  "The trigger": "A disturbance in the trade-wind easterlies (Invest 96W) consolidated on 15 October and was named on 16 October.",
-  "What amplified it": "JTWC expected rapid intensification once an inner core formed; the warm ocean and good outflow aloft support steady strengthening through 18 October and a very strong typhoon in the Philippine Sea.",
-  "What held it back": "Moderate vertical wind shear of 17–23 mph slowed early organisation.",
-  "What steers it": "The subtropical high to the north is steering Champi west-northwest at about 15 mph. Model tracks range from just south of Guam to the Guam–Rota channel, so NWS Guam told residents not to focus on the exact track. Beyond 20 October the storm should round the western edge of the high; whether it then turns north toward the Ryukyus depends on a trough over East Asia.",
-  "Expected impacts": "6–12 in of rain and flooding of low-lying areas; surf rising to 15–20 ft on 18 October with 2–3 ft coastal inundation and run-up to 12 ft; winds near 100 mph. The Red Cross is opening 13 shelters; many households displaced by Sinlaku and Bavi must take down tents and move to shelters.",
-  "How it should end": "Not before 21–23 October: it is forecast to intensify further over the Philippine Sea. Its end depends on recurvature and colder water to the north.",
+  "The setup": "Sea surface temperatures of 29–30 °C, abundant moisture and a deep warm layer. JTWC expects the storm to move into ocean heat content of 120–150 kJ/cm² — roughly a layer of water warmer than 26 °C about 150 m deep (our conversion). Around 50 kJ/cm² is enough to support intensification; 120+ means a storm can churn the ocean without bringing up cool water. During El Niño, typhoon genesis shifts south-east toward the date line, so storms form farther east and spend longer over warm open ocean before reaching land. That is how Guam has been threatened three times since April.",
+  "The trigger": "A disturbance in the trade-wind easterlies (Invest 96W) consolidated into Tropical Depression 29W early on 15 October and was named Champi later that day.",
+  "What amplified it": "Strong outflow toward the west (the storm could vent its rising air easily aloft), warm deep water and plenty of moisture. Once an inner core formed it intensified by 40 kt in 23 hours (35 kt to 75 kt), above the 30-kt-in-24-hours threshold for rapid intensification. JTWC expects rapid intensification to continue for about 48 hours; one model (HAFS-A) shows a peak as high as 160 kt.",
+  "What held it back": "Moderate vertical wind shear early on (15–20 kt, about 17–23 mph) slowed organisation on 15–16 October. Shear is forecast to fall below 10 kt by 18 October.",
+  "What steers it": "The subtropical high to the north is steering Champi west to west-northwest at about 15 mph. Model tracks range from just south of Guam to the Guam–Rota channel, so NWS Guam told residents not to focus on the exact track. Beyond 20 October the storm should round the western edge of the high; whether it then turns north toward the Ryukyus depends on a trough over East Asia.",
+  "Expected impacts": "Guam (NWS, 17 Oct): winds 105–120 mph with gusts to 155 mph, 12–20 in of rain, surf up to 35 ft and coastal inundation of 5–7 ft. Rota: 60–80 mph, gusts to 115 mph. Saipan and Tinian: 40–60 mph. Five school evacuation centres open from 10 am Saturday; the Red Cross is opening 13 shelters; families displaced by Sinlaku and Bavi must take down tents and move to shelters.",
+  "How it should end": "Not before 21–23 October: it is forecast to stay a very strong typhoon over the Philippine Sea. Its end depends on recurvature and colder water to the north.",
   "Climate signal": "No study. El Niño shifts typhoon tracks east and lengthens their lives; this is a well-documented ENSO effect, not attribution.",
   "Still open": "Closest approach, peak winds on Guam, damage, and the track after the Philippine Sea."
  },
+ "movie": {
+  "title": "Champi, minute by minute",
+  "bbox": [
+   124,
+   5,
+   166,
+   24
+  ],
+  "now": "2026-10-17T00:00Z",
+  "places": [
+   {
+    "name": "Guam",
+    "lat": 13.45,
+    "lon": 144.79
+   },
+   {
+    "name": "Saipan",
+    "lat": 15.18,
+    "lon": 145.75
+   },
+   {
+    "name": "Rota",
+    "lat": 14.15,
+    "lon": 145.21
+   }
+  ],
+  "fixes": [
+   {
+    "t": "2026-10-14T00:00Z",
+    "lat": 11.0,
+    "lon": 161.5,
+    "kt": 20,
+    "kind": "estimated",
+    "label": "Invest 96W (position estimated)"
+   },
+   {
+    "t": "2026-10-14T18:00Z",
+    "lat": 11.3,
+    "lon": 158.8,
+    "kt": 25,
+    "kind": "estimated",
+    "label": "Tropical Depression 29W (position estimated)"
+   },
+   {
+    "t": "2026-10-15T15:00Z",
+    "lat": 11.5,
+    "lon": 157.1,
+    "kt": 35,
+    "kind": "observed",
+    "label": "Named Champi (JTWC 35 kt)"
+   },
+   {
+    "t": "2026-10-15T19:00Z",
+    "lat": 11.6,
+    "lon": 156.5,
+    "kt": 35,
+    "kind": "observed",
+    "label": "NWS Guam advisory 5A"
+   },
+   {
+    "t": "2026-10-16T18:00Z",
+    "lat": 11.9,
+    "lon": 150.2,
+    "kt": 75,
+    "mb": 984,
+    "kind": "observed",
+    "label": "JTWC warning"
+   },
+   {
+    "t": "2026-10-16T21:00Z",
+    "lat": 12.0,
+    "lon": 149.6,
+    "kt": 74,
+    "kind": "observed",
+    "label": "Guam JIC: typhoon, 85 mph"
+   },
+   {
+    "t": "2026-10-17T06:00Z",
+    "lat": 12.4,
+    "lon": 147.7,
+    "kt": 90,
+    "kind": "forecast"
+   },
+   {
+    "t": "2026-10-17T18:00Z",
+    "lat": 13.0,
+    "lon": 145.3,
+    "kt": 105,
+    "kind": "forecast"
+   },
+   {
+    "t": "2026-10-18T06:00Z",
+    "lat": 13.5,
+    "lon": 143.0,
+    "kt": 120,
+    "kind": "forecast"
+   },
+   {
+    "t": "2026-10-18T18:00Z",
+    "lat": 14.2,
+    "lon": 140.8,
+    "kt": 135,
+    "kind": "forecast"
+   },
+   {
+    "t": "2026-10-19T06:00Z",
+    "lat": 15.1,
+    "lon": 138.7,
+    "kt": 135,
+    "kind": "forecast"
+   },
+   {
+    "t": "2026-10-19T18:00Z",
+    "lat": 16.1,
+    "lon": 136.5,
+    "kt": 135,
+    "kind": "forecast"
+   },
+   {
+    "t": "2026-10-20T18:00Z",
+    "lat": 18.2,
+    "lon": 132.0,
+    "kt": 130,
+    "kind": "forecast"
+   },
+   {
+    "t": "2026-10-21T18:00Z",
+    "lat": 20.2,
+    "lon": 127.9,
+    "kt": 120,
+    "kind": "forecast"
+   }
+  ],
+  "env": [
+   {
+    "t": "2026-10-14T00:00Z",
+    "sst": "29–30 °C",
+    "ohc": "warm layer deep; rising toward 120–150 kJ/cm² ahead",
+    "shear": "moderate, 15–20 kt",
+    "outflow": "developing"
+   },
+   {
+    "t": "2026-10-16T00:00Z",
+    "sst": "29–30 °C",
+    "ohc": "rising toward 120–150 kJ/cm²",
+    "shear": "10–20 kt (easing)",
+    "outflow": "strong to the west"
+   },
+   {
+    "t": "2026-10-18T00:00Z",
+    "sst": "29–30 °C",
+    "ohc": "120–150 kJ/cm² (≈150 m of water above 26 °C)",
+    "shear": "< 10 kt",
+    "outflow": "strong"
+   }
+  ],
+  "scenes": [
+   {
+    "t": "2026-10-14T00:00Z",
+    "title": "Day 0: just a cluster of storms",
+    "text": "Far east of the Marianas, thunderstorms bubble up in the trade winds. The ocean is 29–30 °C — well above the 26.5 °C a tropical cyclone needs — and the warm layer runs deep. The air is moist. Only moderate wind shear (15–20 kt) is keeping the storms from organising."
+   },
+   {
+    "t": "2026-10-14T18:00Z",
+    "title": "The circulation closes",
+    "text": "Pressure falls at the centre and the winds begin to wrap all the way around it: Tropical Depression 29W. Warm, moist air spiralling inward rises in the thunderstorms and releases heat, which lowers the pressure further — the engine has started."
+   },
+   {
+    "t": "2026-10-15T15:00Z",
+    "title": "Champi is named",
+    "text": "Sustained winds reach 35 kt (40 mph): Tropical Storm Champi, about 800 miles east of Guam, moving west at 12 mph. Guam goes to Condition of Readiness 3 and a Typhoon Watch is issued for Guam, Rota, Tinian and Saipan."
+   },
+   {
+    "t": "2026-10-16T06:00Z",
+    "title": "The brakes come off",
+    "text": "Shear eases and a strong outflow channel opens to the west, letting the storm vent its rising air at the top. An inner core forms. From here Champi strengthens fast: +40 kt in 23 hours, well past the 30-kt-in-24-hours mark for rapid intensification."
+   },
+   {
+    "t": "2026-10-16T21:00Z",
+    "title": "A typhoon",
+    "text": "85 mph winds, 340 miles east-southeast of Guam, moving west-northwest at 15 mph, steered by the subtropical high to the north. A Typhoon Warning is issued for Guam and Rota; the ports go to Condition ZULU."
+   },
+   {
+    "t": "2026-10-17T00:00Z",
+    "title": "Now — the rest is forecast",
+    "text": "This is the latest observed position. From here the track (dashed) is the Joint Typhoon Warning Center forecast. Ahead lies even deeper warm water: ocean heat content of 120–150 kJ/cm², roughly 150 m of water warmer than 26 °C."
+   },
+   {
+    "t": "2026-10-17T21:00Z",
+    "title": "Closest approach to Guam (forecast)",
+    "text": "Around 7 am Sunday local time, just south of or over southern Guam as a Category 3 typhoon: winds 105–120 mph with gusts to 155 mph, 12–20 inches of rain, surf up to 35 ft and 5–7 ft of coastal inundation."
+   },
+   {
+    "t": "2026-10-18T18:00Z",
+    "title": "Super typhoon (forecast)",
+    "text": "Over the open Philippine Sea, shear drops below 10 kt and the warm layer is deep enough that the storm cannot cool the water beneath it. JTWC forecasts 135 kt — a super typhoon — and one model shows 160 kt."
+   },
+   {
+    "t": "2026-10-21T18:00Z",
+    "title": "Where next? (forecast)",
+    "text": "Still about 120 kt near 20°N 128°E, rounding the western edge of the subtropical high toward the waters east of Taiwan and south of the Ryukyus. Whether it recurves north depends on a trough over East Asia. This part of the forecast is the least certain."
+   }
+  ]
+ },
  "sources": [
+  {
+   "title": "JTWC warning 18Z 16 Oct and prognostic reasoning (via Stormdom)",
+   "url": "https://www.stormdom.com/tracking/pacific-w4.php"
+  },
+  {
+   "title": "Isla Public Media: Champi forecast to pass near southern Guam as a Cat 3",
+   "url": "https://www.islapublic.org/news/2026-10-17/champi-forecast-to-pass-over-or-near-southern-guam-as-a-cat-3-sunday-morning"
+  },
   {
    "title": "Guam Homeland Security JIC Release No. 4",
    "url": "https://ghs.guam.gov/jic-release-no-4-champi-now-typhoon-emergency-evacuation-centers"
   },
   {
-   "title": "Weathernews: Champi intensifies",
-   "url": "https://sea.weathernews.com/resources/202610/274"
+   "title": "Marianas Press: Champi strengthening east of Guam",
+   "url": "https://marianaspress.com/news/article/tropical-storm-champi-strengthening-east-of-guam"
   },
   {
    "title": "The Watchers: Typhoon and flood watches for the Marianas",

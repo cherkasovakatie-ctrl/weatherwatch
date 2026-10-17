@@ -2,19 +2,6 @@
  "updated": "2026-10-17",
  "events": [
   {
-   "id": "champi-2026",
-   "name": "Typhoon Champi",
-   "type": "Typhoon",
-   "region": "Western Pacific · Guam and the Northern Mariana Islands",
-   "start": "2026-10-15",
-   "end": "",
-   "status": "unfolding",
-   "depth": "deep",
-   "headline": "The third strong typhoon to threaten Guam since April, arriving while families are still living in tents after Sinlaku and Bavi. Expected to pass just south of Guam as a Category 2–3 typhoon early on 18 October, then become a very strong typhoon in the Philippine Sea.",
-   "as_of": "17 Oct 2026, 07 ChST (Guam JIC release 4)",
-   "when": ""
-  },
-  {
    "id": "santa-ana-oct-2026",
    "name": "Southern California Santa Ana windstorm",
    "type": "Offshore windstorm / extreme fire weather",
@@ -25,6 +12,19 @@
    "depth": "deep",
    "headline": "A strong offshore wind event with gusts of 70–90 mph in the mountains, humidity near 10% and coastal heat in the 90s. It peaked on 16 October and eases from 18 October, ahead of a cooler storm system expected around 21–22 October.",
    "as_of": "16 Oct 2026 (NWS Los Angeles warnings to 17 Oct, 8 pm)",
+   "when": ""
+  },
+  {
+   "id": "champi-2026",
+   "name": "Typhoon Champi",
+   "type": "Typhoon",
+   "region": "Western Pacific · Guam and the Northern Mariana Islands",
+   "start": "2026-10-14",
+   "end": "",
+   "status": "unfolding",
+   "depth": "deep",
+   "headline": "The third strong typhoon to threaten Guam since April, arriving while families are still living in tents after Sinlaku and Bavi. Champi strengthened by 40 kt in 23 hours and is forecast to pass just south of Guam as a Category 3 typhoon around 7 am on Sunday 18 October, then become a super typhoon over the Philippine Sea.",
+   "as_of": "17 Oct 2026, 04–07 ChST (JTWC warning 18Z 16 Oct; NWS Guam; Guam JIC release 4)",
    "when": ""
   },
   {
