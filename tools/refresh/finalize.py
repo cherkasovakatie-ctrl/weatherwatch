@@ -73,7 +73,9 @@ def archive(manifest: dict, iso: str) -> Path:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", default=datetime.now(UTC).date().isoformat())
-    d = date.fromisoformat(ap.parse_args().date)
+    ap.add_argument("--no-archive", action="store_true", help="validate and stamp only (daily review); archive weekly")
+    args = ap.parse_args()
+    d = date.fromisoformat(args.date)
     mpath = DATA / "manifest.json"
     manifest = json.loads(mpath.read_text(encoding="utf-8"))
     problems = validate(manifest)
@@ -83,6 +85,9 @@ def main() -> int:
     manifest["updated"], manifest["updated_iso"] = human(d), d.isoformat()
     mpath.write_text(json.dumps(manifest, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     stamp_pages(human(d))
+    if args.no_archive:
+        print(f"Stamped {d.isoformat()}: {len(manifest['datasets'])} datasets validated (no archive)")
+        return 0
     dest = archive(manifest, d.isoformat())
     print(f"Snapshot {d.isoformat()}: {len(manifest['datasets'])} datasets archived to {dest.relative_to(ROOT)}")
     return 0
