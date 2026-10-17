@@ -91,7 +91,14 @@ const JOBS = {
   local_hilo: { min: 20, time: 'max', run: async () => T.tidesHiLo(await getJson(coops(`product=predictions&interval=hilo&begin_date=${ymd(begin)}&end_date=${ymd(end)}`))) },
   local_watertemp: { min: 24, time: 'max', run: async () => T.waterTemp(await getJson(coops('product=water_temperature&interval=h&date=recent'))) },
   fires_global_grid: { min: 500, time: null, run: async () => T.firmsGrid(await firms('world', 1)) },
-  fires_socal: { min: 10, time: 'max', run: async () => T.firmsSocal(await firms('-121.2,32.3,-114.5,36', 5), HOME) },
+  fires_socal: {
+    min: 10, time: 'max',
+    run: async () => {
+      // Sites tagged persistent in the previous file stay known, so a landfill seen on only 1–2 of the 5 days is not flagged.
+      const known = (await readCsv('fires_socal.csv')).filter((r) => r.kind?.startsWith('Persistent')).map((r) => ({ lat: Number(r.lat), lon: Number(r.lon) }));
+      return T.firmsSocal(await firms('-121.2,32.3,-114.5,36', 5), HOME, known);
+    },
+  },
   volcano_alerts_us: {
     min: 0, time: null,
     run: async () => {

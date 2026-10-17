@@ -139,6 +139,11 @@ body { font-family: var(--font-anthropic-sans); }
   .ww-clock { font-variant-numeric: tabular-nums; font-size: var(--cds-font-size-body); min-width: 11rem; }
   .ww-impacts { display: grid; gap: var(--cds-gap-sm); grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); }
   .ww-imp { border: 1px solid var(--color-border-line); border-left: 3px solid var(--color-bad); border-radius: var(--cds-radius); padding: var(--cds-pad-sm) var(--cds-pad-md); display: grid; gap: 4px; min-width: 0; }
+  .ww-firealert { border: 1px solid var(--color-border-line); border-left: 4px solid var(--color-bad); border-radius: var(--cds-radius); padding: var(--cds-pad-sm) var(--cds-pad-md); margin: 0 0 var(--cds-gap-sm); display: grid; gap: 4px; }
+  .ww-firealert b { font-weight: var(--cds-font-weight-medium); color: var(--color-bad); }
+  .ww-firealert p { margin: 0; font-size: var(--cds-font-size-caption); line-height: 1.45; }
+  .ww-firealert.quiet { border-left-color: var(--color-ok); }
+  .ww-firealert.quiet b { color: var(--color-fg); }
   .ww-imp b { font-weight: var(--cds-font-weight-medium); }
   .ww-imp .m { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
   .ww-imp p { margin: 0; font-size: var(--cds-font-size-caption); line-height: 1.45; }
@@ -383,6 +388,7 @@ body { font-family: var(--font-anthropic-sans); }
   <!-- LOCAL -->
   <section class="ww-page" id="local" data-page-id="local" hidden>
     <p class="ww-hnote">San Fernando Valley, Los Angeles (Burbank area). Free public feeds read on 11 October 2026 at about 11:00 PDT: NWS api.weather.gov (forecast, alerts, Burbank airport observations), Open-Meteo (hourly forecast and air quality), NOAA CO-OPS Santa Monica tide station, NASA FIRMS fire detections, CAL FIRE incidents, and the downtown Los Angeles rainfall record from RCC-ACIS. Times are Pacific.</p>
+    <div class="ww-firealert" id="loc-fire-alert" role="status" hidden></div>
     <section class="ww-tiles" id="loc-tiles" aria-label="Local conditions">
       <div class="ww-tile"><span class="lbl">Burbank now</span><span class="val"><span class="dash-skeleton" data-source="local_now" data-field="temp_f" data-row="0">—</span><span class="unit">°F</span></span><span class="sub"><span data-source="local_now" data-field="rh" data-row="0">—</span>% humidity · <span data-loc="obs_time">NWS</span></span></div>
       <div class="ww-tile"><span class="lbl">Wind</span><span class="val"><span class="dash-skeleton" data-source="local_now" data-field="wind_mph" data-row="0">—</span><span class="unit">mph</span></span><span class="sub">from <span data-source="local_now" data-field="wind_dir" data-row="0">—</span>° · KBUR</span></div>
@@ -1666,6 +1672,25 @@ dash.calc('local_fire_summary', {
   },
 });
 
+dash.calc('local_fire_alert', {
+  inputs: ['fires_socal'],
+  title: 'Fire alert within 25 km',
+  description: 'FIRMS detections tagged "Possible fire" within 25 km of the San Fernando Valley in the 48 hours before the newest detection in the file, grouped into sites (detections within 1.5 km of each other). Persistent industrial heat sources are excluded. Satellite detections are unconfirmed.',
+  fn: (fires_socal) => {
+    const t = (r) => Date.parse(r.date + 'T' + r.time_utc + ':00Z');
+    const newest = Math.max(...fires_socal.map(t));
+    const hits = fires_socal.filter((r) => r.kind === 'Possible fire' && +r.km_from_home <= 25 && t(r) >= newest - 48 * 36e5);
+    const R = Math.PI / 180, dist = (a, b) => 6371 * Math.hypot((+b.lat - +a.lat) * R, (+b.lon - +a.lon) * R * Math.cos(+a.lat * R));
+    const sites = [];
+    hits.forEach((r) => { const s = sites.find((x) => x.rows.some((q) => dist(q, r) <= 1.5)); if (s) s.rows.push(r); else sites.push({ rows: [r] }); });
+    return sites.map((s) => {
+      const near = s.rows.reduce((a, b) => (+b.km_from_home < +a.km_from_home ? b : a));
+      const last = s.rows.reduce((a, b) => (t(b) > t(a) ? b : a));
+      return { km: +near.km_from_home, lat: +near.lat, lon: +near.lon, detections: s.rows.length, frp_max: Math.max(...s.rows.map((r) => +r.frp_mw)), last_utc: last.date + ' ' + last.time_utc, newest_utc: new Date(newest).toISOString().slice(0, 16).replace('T', ' ') };
+    }).sort((a, b) => a.km - b.km);
+  },
+});
+
 dash.calc('local_now', {
   inputs: ['local_obs', 'local_hourly', 'local_tides', 'local_watertemp'],
   title: 'Local conditions now',
@@ -1706,11 +1731,12 @@ dash.calc('rain_by_phase', {
 });
 
 dash.calc('notable_now', {
-  inputs: ['gdacs_current', 'earthquakes', 'tropical_cyclones', 'volcano_alerts_us'],
+  inputs: ['gdacs_current', 'earthquakes', 'tropical_cyclones', 'volcano_alerts_us', 'local_fire_alert'],
   title: 'Notable events now',
-  description: 'GDACS orange or red alerts, M6+ earthquakes in the 7 days before the feed time, hurricanes and typhoons now active, and US volcanoes at Watch or Warning.',
-  fn: (gdacs_current, earthquakes, tropical_cyclones, volcano_alerts_us) => {
+  description: 'GDACS orange or red alerts, M6+ earthquakes in the 7 days before the feed time, hurricanes and typhoons now active, US volcanoes at Watch or Warning, and possible fires within 25 km of the San Fernando Valley in the past 48 hours (NASA FIRMS).',
+  fn: (gdacs_current, earthquakes, tropical_cyclones, volcano_alerts_us, local_fire_alert) => {
     const rows = [];
+    local_fire_alert.forEach((r) => rows.push({ key: 'fire-' + r.lat + ',' + r.lon, kind: 'Possible fire near home', what: r.detections + ' satellite detection' + (r.detections === 1 ? '' : 's') + ', up to ' + r.frp_max.toFixed(1) + ' MW', where: r.km.toFixed(0) + ' km from the San Fernando Valley (' + r.lat.toFixed(3) + ', ' + r.lon.toFixed(3) + ')', when: r.last_utc, level: 'NASA FIRMS, unconfirmed' }));
     const latest = earthquakes.reduce((m, r) => (r.time_utc > m ? r.time_utc : m), '');
     const cut = new Date(new Date(latest.replace(' ', 'T') + 'Z').getTime() - 7 * 864e5).toISOString().slice(0, 16).replace('T', ' ');
     earthquakes.filter((r) => +r.magnitude >= 6 && r.time_utc >= cut).forEach((r) => rows.push({ key: 'eq-' + r.id, kind: 'Earthquake', what: 'M' + (+r.magnitude).toFixed(1), where: r.place, when: r.time_utc, level: r.pager_alert ? 'PAGER ' + r.pager_alert : '' }));
@@ -3232,6 +3258,18 @@ window.WW = (() => {
     }
     const hl = dash.data('local_hilo');
     if (hl.status === 'ok') fillRows(box('table-hilo'), hl.data.filter((r) => r.time >= '2026-10-11'), (r) => [r.time, r.type === 'H' ? 'High' : 'Low', r.predicted_ft]);
+    // fire alert within 25 km
+    const fa = dash.data('local_fire_alert'), faBox = document.getElementById('loc-fire-alert');
+    if (faBox && fa.status === 'ok') {
+      const pt = (u) => new Intl.DateTimeFormat('en-US', { timeZone: 'America/Los_Angeles', weekday: 'short', day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit' }).format(new Date(u.replace(' ', 'T') + ':00Z'));
+      faBox.hidden = false;
+      faBox.classList.toggle('quiet', fa.data.length === 0);
+      faBox.innerHTML = fa.data.length === 0
+        ? `<p><b>No possible fires within 25 km</b> in the 48 hours to ${pt(dash.data('fires_socal').data.reduce((m, r) => (r.date + ' ' + r.time_utc > m ? r.date + ' ' + r.time_utc : m), ''))} (NASA FIRMS satellite passes; landfills and refineries excluded).</p>`
+        : `<p><b>Fire alert: ${fa.data.length} possible fire site${fa.data.length === 1 ? '' : 's'} within 25 km</b> in the past 48 hours (NASA FIRMS satellite detections, unconfirmed).</p>` +
+          fa.data.map((r) => `<p>${r.km.toFixed(0)} km away at ${r.lat.toFixed(3)}, ${r.lon.toFixed(3)} · ${r.detections} detection${r.detections === 1 ? '' : 's'}, up to ${r.frp_max.toFixed(1)} MW · last seen ${pt(r.last_utc)} Pacific</p>`).join('') +
+          '<p>Check CAL FIRE incidents (<a href="https://www.fire.ca.gov/incidents" target="_blank" rel="noopener">fire.ca.gov</a>) and NWS alerts; call 911 if you see fire or smoke.</p>';
+    }
     // fires near home
     const fs = dash.data('local_fire_summary');
     document.querySelectorAll('#card-loc-fires [data-source="local_fire_summary"]').forEach((el) => { el.textContent = fs.status === 'ok' ? String(fs.data[0][el.dataset.field]) : '—'; });

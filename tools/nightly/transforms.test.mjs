@@ -81,3 +81,17 @@ test('firmsSocal: distance from home and persistent-heat tag', () => {
   const hot = T.firmsSocal([...d, det('2026-10-08', '40')], { lat: 34.165, lon: -118.395 }).rows;
   assert.equal(hot[0][10], 'Possible fire');
 });
+
+test('firmsSocal: a site across a grid edge is one site; known sites carry over', () => {
+  const det = (date, lat, lon) => ({ latitude: String(lat), longitude: String(lon), acq_date: date, acq_time: '943', confidence: 'n', frp: '0.5', satellite: 'N', daynight: 'N' });
+  const home = { lat: 34.165, lon: -118.395 };
+  // Sun Valley-style site: three nights, detections either side of the old 0.02° cell edge at -118.38
+  const sv = [det('2026-10-14', 34.2435, -118.3792), det('2026-10-15', 34.2425, -118.3816), det('2026-10-16', 34.2436, -118.3837)];
+  assert.ok(T.firmsSocal(sv, home).rows.every((r) => r[9] === 3 && r[10].startsWith('Persistent')));
+  // one night only: possible fire, unless the previous run knew the site
+  const one = [det('2026-10-17', 34.2430, -118.3800)];
+  assert.equal(T.firmsSocal(one, home).rows[0][10], 'Possible fire');
+  assert.ok(T.firmsSocal(one, home, [{ lat: 34.2432, lon: -118.3825 }]).rows[0][10].startsWith('Persistent'));
+  // a detection 5 km away from the known site is not affected
+  assert.equal(T.firmsSocal([det('2026-10-17', 34.2430, -118.3260)], home, [{ lat: 34.2432, lon: -118.3825 }]).rows[0][10], 'Possible fire');
+});

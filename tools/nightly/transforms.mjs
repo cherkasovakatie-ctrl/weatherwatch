@@ -168,21 +168,23 @@ function km(a, b, c, d) {
   return 2 * 6371 * Math.asin(Math.sqrt(x));
 }
 
+export const SITE_KM = 1.5, SITE_DAYS = 3, SITE_MAX_FRP = 15;
+
 /** Southern California detections with distance from home and a persistent-heat-source tag.
- *  Site = 0.02° cell (~2 km). Seen on 4+ days with max FRP under 15 MW => likely industrial. */
-export function firmsSocal(detections, home) {
-  const site = (d) => `${Math.floor(Number(d.latitude) / 0.02)},${Math.floor(Number(d.longitude) / 0.02)}`;
-  const days = new Map(), maxFrp = new Map();
-  for (const d of detections) {
-    const s = site(d);
-    if (!days.has(s)) days.set(s, new Set());
-    days.get(s).add(d.acq_date);
-    maxFrp.set(s, Math.max(maxFrp.get(s) || 0, Number(d.frp) || 0));
-  }
+ *  A detection's site = all detections within SITE_KM of it (no grid, so a site is never split by a cell edge).
+ *  Persistent (likely industrial) = the site has detections on SITE_DAYS+ different days and none reaches
+ *  SITE_MAX_FRP MW, or the detection lies within SITE_KM of a site tagged persistent in the previous run
+ *  (`known`: [{lat, lon}]) and stays under SITE_MAX_FRP. Detections at or above that power are never tagged. */
+export function firmsSocal(detections, home, known = []) {
+  const pts = detections.map((d) => ({ lat: Number(d.latitude), lon: Number(d.longitude), date: d.acq_date, frp: Number(d.frp) || 0 }));
+  const near = (a, b) => Math.abs(a.lat - b.lat) < 0.02 && km(a.lat, a.lon, b.lat, b.lon) <= SITE_KM;
   const rows = detections
-    .map((d) => {
-      const s = site(d), n = days.get(s).size, t = hhmm(d.acq_time);
-      const persistent = n >= 4 && maxFrp.get(s) < 15;
+    .map((d, i) => {
+      const p = pts[i], t = hhmm(d.acq_time);
+      const site = pts.filter((q) => near(p, q));
+      const n = new Set(site.map((q) => q.date)).size;
+      const quiet = Math.max(...site.map((q) => q.frp)) < SITE_MAX_FRP;
+      const persistent = p.frp < SITE_MAX_FRP && ((n >= SITE_DAYS && quiet) || known.some((k) => near(p, k)));
       return [d.acq_date, `${t.slice(0, 2)}:${t.slice(2)}`, Number(d.latitude).toFixed(4), Number(d.longitude).toFixed(4), fixed(d.frp, 2),
         CONF[d.confidence] || d.confidence, d.satellite, d.daynight, fixed(km(home.lat, home.lon, Number(d.latitude), Number(d.longitude)), 1), n,
         persistent ? 'Persistent heat source (likely industrial)' : 'Possible fire'];
