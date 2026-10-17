@@ -177,6 +177,10 @@ body { font-family: var(--font-anthropic-sans); }
   .ww-evstar { fill: #f7c948; stroke: var(--color-fg); stroke-width: 1; }
   .ww-evstar.live { fill: var(--color-bad); }
   .ww-evlbl { font-weight: 600; }
+  .ww-why1976 { border-top: 1px solid var(--color-border-line); padding-top: var(--cds-gap-sm); }
+  .ww-why1976 h3 { margin: 0 0 6px; font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); }
+  .ww-why1976 ul { margin: 0; padding-left: 1.1em; display: grid; gap: 6px; font-size: var(--cds-font-size-caption); line-height: 1.5; color: var(--color-fg-muted); max-width: 110ch; }
+  .ww-why1976 b { color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="assets/shim.js"></script>
@@ -568,6 +572,16 @@ body { font-family: var(--font-anthropic-sans); }
         <h2>Global temperature since 1880</h2>
         <p class="note">Annual mean anomaly vs 1951–1980, °C. 2026 is January–September.</p>
         <div class="ww-chart" id="chart-pl-annual" data-source="planet_monthly"></div>
+        <div class="ww-why1976">
+          <h3>Why the climb steepened after the mid-1970s: our best reading</h3>
+          <ul>
+            <li><b>Greenhouse gases are the main driver.</b> CO₂ at Mauna Loa rose from about 332 ppm in 1976 to 426 ppm in 2026, and methane and nitrous oxide climbed too. The extra heat they trap grows with every year of emissions. The IPCC (2021) attributes essentially all warming since the late 1800s to human activity.</li>
+            <li><b>The cooling haze lifted.</b> From the 1940s to the 1970s, sulphate pollution from coal and oil reflected sunlight and largely masked greenhouse warming; that is the flat stretch in the middle of the chart. Clean-air laws in North America and Europe from the 1970s, and cleaner ship fuel from 2020, removed much of that mask.</li>
+            <li><b>The Pacific flipped.</b> In 1976–77 the Pacific Decadal Oscillation switched to its warm phase for about two decades. That set the timing of the turn, while greenhouse gases set the long-term direction.</li>
+            <li><b>Natural ups and downs ride on top.</b> Strong El Niños make spikes (1998, 2016, 2023–24); large volcanic eruptions cause dips (El Chichón 1982, Pinatubo 1991–93). The Sun is not the cause: its output has been flat to slightly lower since the 1980s while temperatures rose.</li>
+            <li><b>2023–2026.</b> The recent jump of about 0.3 °C combines the long-term trend, two strong El Niños, less ship pollution and fewer low clouds reflecting sunlight. Scientists are still debating how much each contributed.</li>
+          </ul>
+        </div>
       </article>
       <article class="ww-card" id="card-pl-co2">
         <h2>Carbon dioxide at Mauna Loa since 1958</h2>
