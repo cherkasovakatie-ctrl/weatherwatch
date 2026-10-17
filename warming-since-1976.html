@@ -44,7 +44,41 @@ ul { padding-left: 1.2em; } li { margin: .3em 0; }
 ol.src { font-size: .86rem; line-height: 1.55; padding-left: 1.4em; }
 .muted { color: var(--color-fg-muted); }
 sup a { text-decoration: none; color: var(--color-accent); font-size: .75em; }
+:root { --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4; --s6: #008300; --s7: #6250d6; --s8: #e34948; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #008300; --s7: #9085e9; --s8: #e66767; } }
+:root[data-theme="dark"] { --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #008300; --s7: #9085e9; --s8: #e66767; }
+.fig { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: 10px; padding: 12px 14px 10px; margin: 16px 0; }
+.fig .ft { font-weight: 600; font-size: .95rem; margin: 0 0 2px; }
+.fig .fs { font-size: .82rem; color: var(--color-fg-muted); margin: 0 0 6px; }
+.fig .legend { display: flex; flex-wrap: wrap; gap: 3px 14px; font-size: .78rem; color: var(--color-fg-muted); margin: 4px 0 2px; }
+.fig .legend i { display: inline-block; width: 12px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+.fig .chart { min-height: 200px; }
+.fig svg { display: block; }
+.fig .grid { stroke: var(--color-border-line); }
+.fig .zero { stroke: var(--color-fg-muted); stroke-opacity: .6; }
+.fig .tk { font-size: 11px; fill: var(--color-fg-muted); font-family: var(--font-sans); }
+.fig .mark { stroke: var(--color-fg-muted); stroke-dasharray: 3 3; stroke-opacity: .7; }
+.fig .mlbl { font-size: 11px; fill: var(--color-fg-muted); font-family: var(--font-sans); }
+.fig .rule { stroke: var(--color-fg-muted); stroke-opacity: .5; }
+.fig .blbl { font-size: 12px; fill: var(--color-fg); font-family: var(--font-sans); }
+.fig .bval { font-size: 11px; fill: var(--color-fg-muted); font-family: var(--font-sans); font-variant-numeric: tabular-nums; }
+.fig .fn { font-size: .78rem; color: var(--color-fg-muted); margin: 6px 0 0; line-height: 1.45; }
+.fig details.dt { margin-top: 6px; font-size: .82rem; } .fig details.dt summary { cursor: pointer; color: var(--color-fg-muted); }
+.fig details.dt table { font-size: .78rem; } .fig details.dt td, .fig details.dt th { padding: 3px 6px; white-space: nowrap; }
+.viz-tip { position: fixed; z-index: 50; pointer-events: none; background: var(--color-panel); color: var(--color-fg); border: 1px solid var(--color-border-line); border-radius: 8px; padding: 8px 10px; font-size: .8rem; box-shadow: 0 4px 16px rgba(0,0,0,.15); max-width: 300px; }
+.viz-tip .th { font-weight: 600; margin-bottom: 4px; }
+.viz-tip .tr { display: grid; grid-template-columns: 10px 1fr auto; gap: 6px; align-items: center; line-height: 1.5; }
+.viz-tip .tr i { width: 10px; height: 10px; border-radius: 2px; }
+.viz-tip .tr b { font-weight: 600; font-variant-numeric: tabular-nums; }
+.viz-tip .tot { grid-template-columns: 1fr auto; border-top: 1px solid var(--color-border-line); margin-top: 3px; padding-top: 3px; }
+.viz-tip .tn { color: var(--color-fg-muted); margin-top: 4px; }
+.ledger td:first-child { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.chain { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin: 10px 0; }
+.chain div { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: 8px; padding: 8px 10px; font-size: .85rem; line-height: 1.4; }
+.chain b { display: block; font-size: .78rem; color: var(--color-fg-muted); font-weight: 600; }
+@media (max-width: 620px) { .chain { grid-template-columns: 1fr 1fr; } }
 </style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 </head><body>
 <nav class="site-nav" aria-label="Site">
   <a class="brand" href="./">Global Weather Watch</a>
@@ -63,6 +97,7 @@ sup a { text-decoration: none; color: var(--color-accent); font-size: .75em; }
 
   <div class="card bottom">
     <p><b>The general statement.</b> Since 1976 the world has warmed by about 1.0 °C, at roughly five times the rate of 1880–1975. The long-term rise is caused by greenhouse gases from burning fossil fuels; that is settled. The <i>timing</i> of the turn in the mid-1970s came from two other things happening at once: air-pollution haze, which had been masking greenhouse warming since the 1940s, stopped growing in Europe and North America; and the Pacific flipped into a warm phase in 1976–77. On top of the steady climb, El Niño years make spikes, and big volcanic eruptions make dips. The Sun did not drive it. Since about 2010 warming has run faster again. Sharp cuts in sulphur pollution from China and from shipping removed more of the mask, and the planet now reflects less sunlight because some low clouds have thinned; how big the speed-up is, and how much each cause contributed, are still debated.</p>
+    <p><b>Who did what</b> is broken down in <a href="#who">section 9</a>: each activity, gas and country, the events behind them, and what would reduce each part.</p>
   </div>
 
   <h2>1. What the record shows</h2>
@@ -75,16 +110,31 @@ sup a { text-decoration: none; color: var(--color-accent); font-size: .75em; }
       <tr><td>1996–2025</td><td>+0.25 °C per decade</td><td>The most recent 30 years</td></tr>
       <tr><td>Decade means</td><td>1971–80: +0.06 °C · 2016–25: +1.01 °C</td><td>A rise of about 0.96 °C</td></tr>
     </tbody></table></div>
+  <figure class="fig" id="f-temp">
+    <p class="ft">Global surface temperature, 1880 to the last complete year</p><p class="fs">Annual means with straight-line trends before and after 1976. Hover for values.</p>
+    <div class="legend"></div><div class="chart"></div>
+    <p class="fn">Source: NASA GISTEMP v4 (complete calendar years only), anomalies against 1951–1980. Trend lines are least-squares fits computed by this site.</p>
+  </figure>
   <p>Measuring from 1976 alone overstates the rise: 1976 (−0.10 °C) came at the end of a long 1973–76 La Niña, a cold phase of the Pacific. On the IPCC's 1850–1900 baseline, the latest international assessment puts the 2015–2024 decade at 1.24 °C above pre-industrial and 2024 alone at about 1.52 °C, of which an estimated 1.36 °C was human-induced.<sup><a href="#s1">1</a></sup></p>
 
   <h2>2. Greenhouse gases — the main driver</h2>
   <ul>
     <li><b>CO₂ in the air:</b> 332 ppm in 1976 and 427 ppm in 2025 at Mauna Loa (annual means, NOAA). That is a 29% rise in 49 years.</li>
-    <li><b>Emissions behind it:</b> fossil CO₂ emissions roughly doubled, from about 18 billion tonnes in 1976 to about 38 billion tonnes in 2023 (Global Carbon Budget 2024).<sup><a href="#s2">2</a></sup></li>
+    <li><b>Emissions behind it:</b> fossil CO₂ emissions more than doubled, from 17.9 billion tonnes in 1976 to 38.6 billion tonnes in 2024. Coal rose from 6.2 to 15.8 billion tonnes, a record, oil from 8.5 to 12.5 and gas from 2.4 to 8.0. Deforestation and other land-use change added another 4.6 billion tonnes in 2024 (Global Carbon Budget 2025).<sup><a href="#s20">20</a></sup></li>
     <li><b>Total heat-trapping effect:</b> NOAA's Annual Greenhouse Gas Index rose 54% between 1990 and 2024. It took about 240 years to reach the 1990 level and only 34 more years to add another 54%. CO₂ contributes most, then methane.<sup><a href="#s3">3</a></sup></li>
     <li><b>CFCs — an extra push in the 1970s and 1980s:</b> the ozone-destroying gases are also strong greenhouse gases. Their warming effect grew fast from 1950 to about 1990, then the Montreal Protocol (1987) stopped the growth; CFC-11 has fallen since the mid-1990s.<sup><a href="#s4">4</a></sup> So these gases added to the steep climb of 1975–1990, and their contribution has levelled off since.</li>
     <li><b>How much warming:</b> the IPCC assesses that well-mixed greenhouse gases likely caused 1.0–2.0 °C of warming from 1850–1900 to 2010–2019 — more than the total observed, because aerosols cancelled part of it.<sup><a href="#s5">5</a></sup></li>
   </ul>
+  <figure class="fig" id="f-fuel">
+    <p class="ft">Where the CO₂ came from, 1950–2024</p><p class="fs">Annual CO₂ emissions by fuel, plus deforestation and other land-use change, stacked.</p>
+    <div class="legend"></div><div class="chart"></div>
+    <p class="fn">Source: Global Carbon Budget 2025, via Our World in Data (World totals). Land-use change emissions carry an uncertainty of roughly ±50%.</p>
+  </figure>
+  <figure class="fig" id="f-ghg">
+    <p class="ft">The heat-trapping push from each greenhouse gas, 1900–2024</p><p class="fs">Effective radiative forcing relative to 1750, in watts per square metre of Earth’s surface.</p>
+    <div class="legend"></div><div class="chart"></div>
+    <p class="fn">Source: Indicators of Global Climate Change 2024 (Forster et al. 2025), best estimates. Ozone-depleting gases more than doubled their push between 1976 (0.15 W/m²) and 1990 (0.32 W/m²), levelled off around 2000–2010 and were 0.34 W/m² in 2024; their HFC replacements reached 0.05 W/m².</p>
+  </figure>
   <p class="muted">Fingerprint: the stratosphere has cooled while the surface warmed. A brighter Sun would warm both; heat-trapping gases near the surface produce exactly this split.<sup><a href="#s6">6</a></sup></p>
 
   <h2>3. Aerosols — the mask that slipped</h2>
@@ -94,8 +144,15 @@ sup a { text-decoration: none; color: var(--color-accent); font-size: .75em; }
     <li><b>The turn:</b> sulphur emissions peaked around 1970 in North America and around 1980 in Europe, after clean-air laws; the global total peaked in the 1980s.<sup><a href="#s7">7</a></sup> Once the mask stopped thickening, greenhouse warming showed through.</li>
     <li><b>China:</b> emissions peaked in 2006; East Asia then cut sulphur dioxide by about 75% in roughly 15 years. A 2025 study (Samset and co-authors, <i>Communications Earth &amp; Environment</i>) concludes this cleanup has likely driven much of the recent speed-up in warming.<sup><a href="#s8">8</a></sup></li>
     <li><b>Shipping, 2020:</b> the International Maritime Organization cut the sulphur allowed in ship fuel. A 2024 study led by Pacific Northwest National Laboratory found the expected loss of cooling over busy shipping lanes matches observed cloud changes and contributed to 2022–2023 Northern Hemisphere heat, but is too small to be the only cause; the authors call their estimate possibly conservative.<sup><a href="#s9">9</a></sup></li>
+    <li><b>In the emissions data:</b> global sulphur dioxide peaked in 1979 at 138 million tonnes and fell to 69 million tonnes by 2023. Power plants alone peaked later, in 1990, at 59 million tonnes. Ship emissions fell from 10.4 million tonnes in 2019 to 2.0 million tonnes in 2020, an 81% cut in one year (CEDS).<sup><a href="#s22">22</a></sup></li>
     <li><b>How much cooling in total:</b> the IPCC puts the cooling from aerosols and other non-greenhouse human factors at 0.0–0.8 °C by 2010–2019.<sup><a href="#s5">5</a></sup> That wide range is the largest single uncertainty in explaining the past century — and the reason the size of the recent acceleration is disputed.</li>
   </ul>
+
+  <figure class="fig" id="f-so2">
+    <p class="ft">Sulphur dioxide emissions by source, 1950–2023</p><p class="fs">The pollution behind the aerosol “mask”, stacked by sector. Hover for values.</p>
+    <div class="legend"></div><div class="chart"></div>
+    <p class="fn">Source: Community Emissions Data System (CEDS) v2025-03-18, global totals by sector, as used by the Indicators of Global Climate Change. Regional detail (China, Europe, North America) is not in this file; see sources 7–8.</p>
+  </figure>
 
   <h2>4. The Pacific's 1976–77 shift — the timing</h2>
   <p>In 1976–77 the North Pacific changed regime: the Pacific Decadal Oscillation switched from its cool to its warm phase, and the Aleutian Low strengthened for about three decades (1977–2005), after a weak period from 1947 to 1976. It altered how El Niño evolves and how it affects weather across the Americas, Asia and Australia.<sup><a href="#s10">10</a></sup> Earlier shifts of the same kind happened in 1924–25 and 1946–47.</p>
@@ -112,6 +169,11 @@ sup a { text-decoration: none; color: var(--color-accent); font-size: .75em; }
   <h3>The Sun</h3>
   <p>Solar output follows its 11-year cycle with no net increase since the 1950s, and satellites since 1978 show no upward trend.<sup><a href="#s6">6</a></sup> The recent solar maximum (cycle 25) adds a small, temporary push; it cannot explain a 50-year rise.</p>
 
+  <figure class="fig" id="f-natural">
+    <p class="ft">Natural versus human push on the climate, 1950–2024</p><p class="fs">Effective radiative forcing relative to 1750. Volcanic eruptions make short negative spikes; the Sun moves in an 11-year cycle; the human push climbs.</p>
+    <div class="legend"></div><div class="chart"></div>
+    <p class="fn">Source: Indicators of Global Climate Change 2024 (Forster et al. 2025). The volcanic series is positive in quiet years because it is measured against the 1750 baseline, which included background eruptions.</p>
+  </figure>
   <h2>6. The 1998–2012 slowdown</h2>
   <p>Surface warming slowed for about a decade after the 1998 El Niño. The heat did not disappear: Pacific trade winds strengthened from the 1990s and pushed extra heat into the subsurface western Pacific (England and co-authors, <i>Nature Climate Change</i>, 2014). The authors expected it to return once the winds eased.<sup><a href="#s13">13</a></sup> It did: 2014–2016 brought three consecutive records.</p>
 
@@ -130,7 +192,16 @@ sup a { text-decoration: none; color: var(--color-accent); font-size: .75em; }
   </ul>
   <p>So the 1940s peak is not evidence of a warming episode like today's; it is an El Niño seen partly through biased instruments. The later 1950s–70s plateau is real and reflects rising aerosol pollution.</p>
 
-  <h2>9. Who did what: the IPCC's attribution</h2>
+  <h2 id="who">9. Who did what</h2>
+  <p>A statement such as "people warmed the planet by 1 °C" is true but tells you nothing you can act on. This section works like a household energy log: what happened, who did it, how much each part added, and what would reduce it. It follows one chain:</p>
+  <div class="chain">
+    <div><b>1. Activity</b>Burning coal, driving, clearing forest, raising cattle</div>
+    <div><b>2. Emission</b>CO₂, methane, sulphur dioxide, CFCs</div>
+    <div><b>3. Push</b>Extra energy trapped, in watts per m² (radiative forcing)</div>
+    <div><b>4. Warming</b>Temperature rise, in °C, as the oceans catch up</div>
+  </div>
+
+  <h3>9.1 The overall verdict</h3>
   <p>Warming from 1850–1900 to 2010–2019 (IPCC AR6, Summary for Policymakers, A.1.3):<sup><a href="#s5">5</a></sup></p>
   <div class="tw card"><table>
     <thead><tr><th>Factor</th><th>Contribution</th><th></th></tr></thead>
@@ -141,6 +212,102 @@ sup a { text-decoration: none; color: var(--color-accent); font-size: .75em; }
       <tr><td>Other human drivers, mainly aerosols</td><td>−0.8 to 0.0 °C</td><td><span class="tag debated">wide range</span></td></tr>
       <tr><td>Natural drivers (Sun, volcanoes)</td><td>−0.1 to +0.1 °C</td><td><span class="tag settled">settled</span></td></tr>
       <tr><td>Internal variability (El Niño, PDO …)</td><td>−0.2 to +0.2 °C</td><td><span class="tag settled">settled</span></td></tr>
+    </tbody></table></div>
+
+
+  <h3>9.2 What pushed the climate since the 1970s</h3>
+  <p>Between the 1971–80 and 2015–24 decade averages, the human push on the climate grew by <b>2.20 W/m²</b>. Spread over the whole Earth, that is about 1,100 trillion watts of extra energy kept in the system, continuously.<sup><a href="#s21">21</a></sup></p>
+  <ul>
+    <li><b>Carbon dioxide: +1.20 W/m², 55% of the increase.</b> The single biggest item.</li>
+    <li><b>Less aerosol haze: +0.27 W/m², 12%.</b> Not a new emission but a lost shield: cleaner air let more sunlight through (section 3).</li>
+    <li><b>CFCs, HCFCs and HFCs: +0.26 W/m², 12%.</b> Refrigerants, aerosol-can propellants and foams. Most of it came before 1990; the Montreal Protocol then stopped the growth of the ozone-depleting kinds.</li>
+    <li><b>Methane: +0.15 W/m², 7%</b>, and <b>low-level ozone (smog): +0.14 W/m², 7%</b>. Ozone forms in the lower atmosphere from methane, traffic and power-plant nitrogen oxides, and carbon monoxide.</li>
+    <li><b>Nitrous oxide: +0.11 W/m², 5%</b>, mainly from farming. <b>Aircraft contrails: +0.04 W/m², 2%.</b></li>
+    <li><b>Natural factors were slightly negative:</b> the Sun −0.03 and volcanoes −0.02 W/m² between the same decades.</li>
+  </ul>
+  <figure class="fig" id="f-push">
+    <p class="ft">Change in the push on the climate, 1971–80 to 2015–24</p><p class="fs">Decade-average effective radiative forcing; red pushes towards warming, blue towards cooling. Hover a bar for its share.</p>
+    <div class="chart"></div>
+    <p class="fn">Source: Indicators of Global Climate Change 2024 (Forster et al. 2025), best-estimate forcing by agent. Decade averages are used because single years mislead for the Sun (11-year cycle) and volcanoes.</p>
+  </figure>
+
+  <h3>9.3 How the push became warming</h3>
+  <p>Jones and co-authors convert each country's emissions of the three main greenhouse gases into warming, year by year. On their numbers, these three gases had caused <b>0.75 °C</b> of warming by 1976 and <b>1.68 °C</b> by 2024: <b>+0.93 °C</b> in 48 years. Carbon dioxide added 0.71 °C of that, methane 0.17 °C and nitrous oxide 0.05 °C.<sup><a href="#s27">27</a></sup></p>
+  <p class="muted">This split covers only those three gases; it leaves out the CFC, ozone and aerosol effects in 9.2, which have no country breakdown. It is the standard published way to answer "whose emissions caused how much".</p>
+  <figure class="fig" id="f-ghgwarm">
+    <p class="ft">Warming caused by CO₂, methane and nitrous oxide, 1851–2024</p><p class="fs">Stacked, in °C relative to 1850. Hover for values.</p>
+    <div class="legend"></div><div class="chart"></div>
+    <p class="fn">Source: Jones et al., National contributions to climate change (2025 data release), via Our World in Data.</p>
+  </figure>
+
+  <h3>9.4 Which activities</h3>
+  <p><b>Carbon dioxide, 1976–2024: 1,636 billion tonnes in total.</b> Coal 525 billion tonnes (32%), oil 500 (31%), deforestation and other land-use change 295 (18%), natural gas 242 (15%), cement 44 (3%), gas flaring 16 (1%) and other industry 14 (1%).<sup><a href="#s20">20</a></sup></p>
+  <figure class="fig" id="f-co2src">
+    <p class="ft">CO₂ emitted from each source, 1976–2024</p><p class="fs">Cumulative billion tonnes. Cumulative emissions, not annual ones, set the warming from CO₂.</p>
+    <div class="chart"></div>
+    <p class="fn">Source: Global Carbon Budget 2025, via Our World in Data.</p>
+  </figure>
+  <p><b>Methane from human sources rose from 260 to 347 million tonnes a year between 1976 and 2023 (+33%).</b><sup><a href="#s22">22</a></sup></p>
+  <ul>
+    <li><b>Livestock</b> (digestion and manure): 88 → 116 million tonnes, the largest source.</li>
+    <li><b>Landfills and wastewater:</b> 35 → 65 million tonnes, nearly double.</li>
+    <li><b>Coal mining:</b> 25 → 52 million tonnes, doubled with coal output.</li>
+    <li><b>Oil and gas:</b> 82 → 75 million tonnes in this inventory. The IEA's satellite-informed estimate is higher, 81 million tonnes from oil and gas in 2025 alone, so treat this line as a lower bound.<sup><a href="#s24">24</a></sup></li>
+    <li><b>Rice paddies:</b> 22 → 25 million tonnes.</li>
+  </ul>
+  <p class="muted">Natural sources such as wetlands are not included; they are not human activities, although warming may be increasing them.</p>
+  <figure class="fig" id="f-ch4">
+    <p class="ft">Methane emissions from human activities, 1970–2023</p><p class="fs">Million tonnes per year, stacked by source.</p>
+    <div class="legend"></div><div class="chart"></div>
+    <p class="fn">Source: CEDS v2025-03-18 global emissions by sector. Livestock = enteric fermentation plus manure management.</p>
+  </figure>
+
+  <h3>9.5 Which countries</h3>
+  <p>Of the 0.93 °C added by the three gases since 1976:<sup><a href="#s27">27</a></sup></p>
+  <ul>
+    <li><b>China: 0.171 °C (18%).</b> Fossil CO₂ nearly tripled in 13 years, from 3.6 billion tonnes in 2000 to 9.9 billion in 2013, mostly coal.</li>
+    <li><b>United States: 0.126 °C (14%).</b> Emissions per person are three times the world average: 14.2 tonnes of CO₂ in 2024, against 4.7.</li>
+    <li><b>Brazil: 0.060 °C (6.5%).</b> Mostly deforestation: 77 of its 94 billion tonnes of CO₂ since 1976 came from land-use change.</li>
+    <li><b>Russia: 0.052 °C (5.6%).</b></li>
+    <li><b>India: 0.050 °C (5.4%).</b> Fossil CO₂ grew 13-fold, from 0.24 billion tonnes in 1976 to 3.2 billion in 2024, but is still 2.2 tonnes per person.</li>
+    <li><b>Indonesia: 0.036 °C (3.9%).</b> Mostly land-use change: 42 of its 58 billion tonnes of CO₂.</li>
+    <li><b>The 203 other countries together: 0.336 °C (36%).</b></li>
+  </ul>
+  <p>By income group: high-income countries (1.4 billion people) added 0.36 °C and upper-middle-income countries, including China (2.9 billion), 0.39 °C. Lower-middle-income countries (3.1 billion) added 0.13 °C and low-income countries (0.8 billion) 0.04 °C.<sup><a href="#s27">27</a></sup></p>
+  <figure class="fig" id="f-country">
+    <p class="ft">Warming added 1976–2024, by country</p><p class="fs">°C from CO₂, methane and nitrous oxide emitted on each country's territory; labels show the share of the 0.93 °C total. Hover a bar for population and emissions per person.</p>
+    <div class="legend"></div><div class="chart"></div>
+    <p class="fn">Source: Jones et al. (2025 release) and Global Carbon Budget 2025, via Our World in Data. Counted where the emissions happened; goods made in one country and used in another stay with the producer. CO₂ figures include land-use change.</p>
+  </figure>
+
+  <h3>9.6 The underlying events</h3>
+  <div class="tw card"><table class="ledger">
+    <thead><tr><th>When</th><th>What happened</th><th>Measured change</th></tr></thead>
+    <tbody>
+      <tr><td>1976–2024</td><td>World fossil fuel use grows</td><td>Fossil CO₂ 17.9 → 38.6 billion t/yr; coal at a record 15.8 billion t in 2024<sup><a href="#s20">20</a></sup></td></tr>
+      <tr><td>1979</td><td>Europe's emissions peak; global sulphur pollution peaks</td><td>EU-27 fossil CO₂ peaks at 4.1 billion t (2.4 in 2024, −41%); world SO₂ peaks at 138 million t<sup><a href="#s20">20</a>,<a href="#s22">22</a></sup></td></tr>
+      <tr><td>1976–1990</td><td>CFC use in fridges, sprays and foams</td><td>Push from ozone-depleting gases doubles, 0.15 → 0.32 W/m²; Montreal Protocol signed 1987<sup><a href="#s21">21</a></sup></td></tr>
+      <tr><td>1997</td><td>Indonesia's land-use emissions peak</td><td>2.4 billion t CO₂ (0.6 in 2024)<sup><a href="#s20">20</a></sup></td></tr>
+      <tr><td>2000–2013</td><td>China's coal-powered industrial boom</td><td>Fossil CO₂ 3.6 → 9.9 billion t; coal 2.6 → 7.5 billion t<sup><a href="#s20">20</a></sup></td></tr>
+      <tr><td>2003</td><td>Brazil's land-use emissions peak</td><td>Brazil land-use CO₂ 3.0 billion t (1.6 in 2024)<sup><a href="#s20">20</a></sup></td></tr>
+      <tr><td>2005–2024</td><td>US shifts from coal to gas</td><td>US coal CO₂ 2.14 → 0.73 billion t (−66%); gas 1.16 → 1.75; US total 6.1 → 4.9 billion t<sup><a href="#s20">20</a></sup></td></tr>
+      <tr><td>2006 onward</td><td>China cuts its sulphur pollution</td><td>East Asian SO₂ down about 75% in 15 years, removing part of the cooling mask<sup><a href="#s8">8</a></sup></td></tr>
+      <tr><td>1976–2023</td><td>More landfills, sewage, coal mines and cattle</td><td>Methane: landfills and wastewater 35 → 65 million t; coal mines 25 → 52; livestock 88 → 116<sup><a href="#s22">22</a></sup></td></tr>
+      <tr><td>2016</td><td>Kigali Amendment to phase down HFCs, the CFC replacements</td><td>HFC push 0.05 W/m² in 2024, the fastest-growing halogenated group<sup><a href="#s21">21</a></sup></td></tr>
+      <tr><td>2020</td><td>Low-sulphur ship fuel rule</td><td>Shipping SO₂ 10.4 → 2.0 million t in one year (−81%)<sup><a href="#s22">22</a></sup></td></tr>
+    </tbody></table></div>
+
+  <h3>9.7 What would reduce each part</h3>
+  <div class="tw card"><table>
+    <thead><tr><th>Source</th><th>Share</th><th>What reduces it</th><th>Evidence</th></tr></thead>
+    <tbody>
+      <tr><td>Coal</td><td>32% of CO₂ since 1976; about a third of fossil-fuel methane</td><td>Replace coal power with solar, wind and other low-carbon electricity; capture or close off mine methane</td><td>IPCC: options costing up to $100 per tonne could halve global emissions by 2030; solar costs fell 85% since 2010<sup><a href="#s23">23</a></sup></td></tr>
+      <tr><td>Oil</td><td>31% of CO₂ since 1976</td><td>Electric vehicles, efficiency, public transport, less flying</td><td>IPCC: demand-side changes could cut end-use emissions 40–70% by 2050<sup><a href="#s23">23</a></sup></td></tr>
+      <tr><td>Deforestation</td><td>18% of CO₂ since 1976</td><td>Stop clearing forest</td><td>Brazil's land-use CO₂ fell from 3.0 to 1.6 billion t after its 2003 peak<sup><a href="#s20">20</a></sup></td></tr>
+      <tr><td>Gas, and methane leaks from oil, gas and coal</td><td>15% of CO₂; about a third of human methane</td><td>Fix leaks, end venting and routine flaring</td><td>IEA: about 70% of fossil-fuel methane (~85 million t) can be cut with existing technology; over 35 million t at no net cost<sup><a href="#s24">24</a></sup></td></tr>
+      <tr><td>Livestock, rice, landfills</td><td>About 60% of human methane</td><td>Feed and manure management, rice-field water management, landfill-gas capture</td><td>UNEP: human methane can fall up to 45% this decade, avoiding nearly 0.3 °C of warming by 2045<sup><a href="#s25">25</a></sup></td></tr>
+      <tr><td>HFCs</td><td>Fastest-growing halogenated gases</td><td>Phase-down under the Kigali Amendment</td><td>UNEP: up to 0.5 °C avoided by 2100<sup><a href="#s26">26</a></sup></td></tr>
+      <tr><td>Sulphur (the mask)</td><td>Cleanup added about 12% of the push since the 1970s</td><td>Keep cleaning the air for health; cut methane quickly to offset the lost cooling</td><td>Methane works within decades (UNEP, above), while CO₂ cuts take longer to show<sup><a href="#s25">25</a></sup></td></tr>
     </tbody></table></div>
 
   <h2>10. Settled and still debated</h2>
@@ -176,8 +343,17 @@ sup a { text-decoration: none; color: var(--color-accent); font-size: .75em; }
     <li id="s17">Carbon Brief. Factcheck: why the recent acceleration in global warming is what scientists expect. <a href="https://carbonbrief.org/factcheck-why-the-recent-acceleration-in-global-warming-is-what-scientists-expect">carbonbrief.org</a></li>
     <li id="s18">Brönnimann, S. et al. (2004). Extreme climate of the global troposphere and stratosphere in 1940–42 related to El Niño. <i>Nature</i> 431, 971. <a href="https://ideas.repec.org/a/nat/nature/v431y2004i7011d10.1038_nature02982.html">abstract</a></li>
     <li id="s19">RealClimate (June 2008). Of buckets and blogs, on Thompson, D. W. J. et al., <i>Nature</i> 453 (2008). <a href="https://www.realclimate.org/index.php/archives/2008/06/of-buckets-and-blogs">realclimate.org</a></li>
+    <li id="s20">Global Carbon Budget 2025 (Friedlingstein et al.), national and global CO₂ by fuel and land-use change, via Our World in Data. <a href="https://github.com/owid/co2-data">github.com/owid/co2-data</a>; <a href="https://globalcarbonbudget.org/">globalcarbonbudget.org</a></li>
+    <li id="s21">Indicators of Global Climate Change 2024: effective radiative forcing time series, best estimates by agent, 1750–2024. Smith, C. et al., ClimateIndicator forcing-timeseries, <a href="https://doi.org/10.5281/zenodo.10706344">doi:10.5281/zenodo.10706344</a></li>
+    <li id="s22">Community Emissions Data System (CEDS) v2025-03-18, global emissions by sector (Hoesly, R. M. et al. 2018, <i>Geoscientific Model Development</i> 11, 369), as distributed with source 21.</li>
+    <li id="s23">IPCC AR6 WGIII (2022), Summary for Policymakers. <a href="https://www.ipcc.ch/report/ar6/wg3/">ipcc.ch</a>; summary in Down To Earth, <a href="https://www.downtoearth.org.in/climate-change/six-takeaways-from-ipcc-ar6-report-long-term-benefits-of-cutting-emissions-today-outweigh-costs-82213">six takeaways</a>.</li>
+    <li id="s24">IEA (2026). Global Methane Tracker 2026: key findings. <a href="https://www.iea.org/reports/global-methane-tracker-2026/key-findings">iea.org</a></li>
+    <li id="s25">UNEP and Climate and Clean Air Coalition (2021). Global Methane Assessment, as reported by WMO. <a href="https://wmo.int/media/news/global-methane-assessment-released">wmo.int</a></li>
+    <li id="s26">UNEP Ozone Secretariat. The Kigali Amendment. <a href="https://ozone.unep.org/node/16905">ozone.unep.org</a></li>
+    <li id="s27">Jones, M. W. et al. (2023). National contributions to climate change due to historical emissions of carbon dioxide, methane, and nitrous oxide since 1850. <i>Scientific Data</i> 10, 155, <a href="https://doi.org/10.1038/s41597-023-02041-1">doi:10.1038/s41597-023-02041-1</a>; 2025 data release <a href="https://zenodo.org/records/7636699/latest">zenodo.org</a>, via Our World in Data.</li>
   </ol>
   <p class="muted">Temperature, CO₂ and ONI figures in sections 1, 2 and 5 are computed by this site from NASA GISTEMP v4, NOAA Mauna Loa and NOAA CPC data (see the <a href="data.html">data archive</a>).</p>
 </main>
+<script src="assets/report1976.js"></script>
 <footer class="site-foot">Independent, non-commercial analysis built from public sources. Not an official assessment. Analysis prepared with Claude (Anthropic).</footer>
 </body></html>

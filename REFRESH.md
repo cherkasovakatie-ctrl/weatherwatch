@@ -80,3 +80,6 @@ End the run with a short summary: datasets refreshed, datasets skipped and why (
 URL that failed, so Kate can pull it manually), and anything that moved materially. Do not email
 unless something failed or the ENSO state changed materially against the baseline in the
 project instructions.
+
+
+Report data (`data/report1976/*.csv`, behind warming-since-1976.html) is curated, not part of the weekly refresh. Rebuild only when a source publishes a new edition: `python3 tools/report1976/build.py --igcc <forcing-timeseries clone> --owid <owid-co2-data.csv>`, then re-check every figure quoted in the report text.
