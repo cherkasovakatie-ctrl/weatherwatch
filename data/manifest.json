@@ -123,6 +123,14 @@
    "bytes": 52455
   },
   {
+   "id": "elnino_pdo",
+   "file": "elnino_pdo.csv",
+   "title": "El Niño winters: PDO and Los Angeles rainfall",
+   "description": "El Niño winters (DJF ONI >= +1.0) since 1951 with the Oct-Feb mean PDO (NOAA NCEI), DJF PNA (CPC) and Downtown Los Angeles water-year rainfall (NOAA/ACIS) as inches and % of the 1991-2020 normal.",
+   "updated": "2026-10-17",
+   "bytes": 507
+  },
+  {
    "id": "enso_subsurface",
    "file": "enso_subsurface.csv",
    "title": "Equatorial Pacific subsurface heat",
