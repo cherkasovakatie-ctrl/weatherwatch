@@ -169,6 +169,14 @@ body { font-family: var(--font-anthropic-sans); }
   a.ww-evlink { color: inherit; text-decoration: underline; text-decoration-color: var(--color-fg-muted); text-underline-offset: 2px; }
   a.ww-evlink:hover { text-decoration-color: var(--color-fg); }
   .ww-evmore { margin: 6px 0 0; font-size: var(--cds-font-size-caption); }
+  .ww-nowhead { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; }
+  .ww-timebar { display: flex; align-items: center; gap: 10px; font-size: var(--cds-font-size-caption); }
+  .ww-timebar input { width: min(22rem, 60vw); }
+  .ww-nowdate { min-width: 9rem; font-weight: var(--cds-font-weight-medium); font-variant-numeric: tabular-nums; }
+  .ww-timebar button { font: inherit; font-size: var(--cds-font-size-caption); border: 1px solid var(--color-border-line); background: none; color: var(--color-fg); border-radius: 999px; padding: 2px 10px; cursor: pointer; }
+  .ww-evstar { fill: #f7c948; stroke: var(--color-fg); stroke-width: 1; }
+  .ww-evstar.live { fill: var(--color-bad); }
+  .ww-evlbl { font-weight: 600; }
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="assets/shim.js"></script>
@@ -421,7 +429,12 @@ body { font-family: var(--font-anthropic-sans); }
     
 
     <article class="ww-card" id="card-now">
-      <h2>Happening now</h2>
+      <div class="ww-nowhead"><h2 id="now-title">Happening now</h2>
+        <div class="ww-timebar" role="group" aria-label="Go back in time">
+          <input type="range" id="now-time" min="0" max="0" value="0" aria-label="Date">
+          <span id="now-date" class="ww-nowdate">Now</span>
+          <button id="now-reset" type="button" hidden>Back to now</button>
+        </div></div>
       <p class="note">Everything in one view: M4.5+ earthquakes of the past 7 days (USGS), volcanoes active this week (Smithsonian GVP, USGS alerts, GDACS), hurricanes and typhoons with tracks (NHC, GDACS/JTWC), current floods, wildfires and drought flagged by GDACS, and NASA FIRMS satellite fire detections from the past 24 hours (1° cells, sized by total fire radiative power). Select a layer to show or hide it.</p>
       <div class="ww-chips" role="group" aria-label="Map layers">
         <button id="lay-eq" aria-pressed="true" data-layer="eq">Earthquakes</button>
@@ -432,7 +445,7 @@ body { font-family: var(--font-anthropic-sans); }
         <button id="lay-dr" aria-pressed="true" data-layer="dr">Drought</button>
       </div>
       <div class="ww-legend" id="legend-now"></div>
-      <div class="ww-chart ww-map" id="map-now" data-source="earthquakes volcanoes_weekly volcano_alerts_us tropical_cyclones tc_tracks gdacs_current fires_global_grid world_land"></div>
+      <div class="ww-chart ww-map" id="map-now" data-source="earthquakes volcanoes_weekly volcano_alerts_us tropical_cyclones tc_tracks gdacs_current fires_global_grid world_land storm_fixes"></div>
       <h2 class="ww-sub">Notable now</h2>
       <div class="ww-table-wrap">
         <table class="ww-table" id="table-now" data-source="notable_now" data-row-key="key">
@@ -1812,11 +1825,18 @@ window.WW = (() => {
         items.forEach((it) => { const d = (it.px - mx) ** 2 + (it.py - my) ** 2; if (d < bd) { bd = d; best = it; } });
         if (!best) { tip.hidden = true; ring.style('opacity', 0); return; }
         ring.attr('cx', best.px).attr('cy', best.py).style('opacity', 1);
-        fillTip(tip, best.title, best.lines);
+        fillTip(tip, best.title, best.href ? [...best.lines, { label: 'Click for the full analysis →', value: '' }] : best.lines);
+        m.svg.style('cursor', best.href ? 'pointer' : null);
         placeTip(tip, box, best.px / scale);
         tip.style.top = Math.max(4, Math.min(box.clientHeight - tip.offsetHeight - 4, best.py / scale + 12)) + 'px';
       })
-      .on('pointerleave', () => { tip.hidden = true; ring.style('opacity', 0); });
+      .on('pointerleave', () => { tip.hidden = true; ring.style('opacity', 0); })
+      .on('click', (ev) => {
+        const [mx, my] = d3.pointer(ev); const scale = m.W / box.clientWidth;
+        let best = null, bd = 196 * scale * scale;
+        items.forEach((it) => { const d = (it.px - mx) ** 2 + (it.py - my) ** 2; if (d < bd) { bd = d; best = it; } });
+        if (best && best.href) window.open(best.href, best.target || '_self');
+      });
   }
 
   // Scatter. o: {rows, xKey, yKey, xLabel, yLabel, labelOf(r), mark(r) -> bool, height, fit}
@@ -2467,15 +2487,27 @@ window.WW = (() => {
 
   // Happening now map
   const layersOn = { eq: true, vo: true, tc: true, fl: true, wf: true, dr: true };
+  const evHref = (name) => { const ev = (window.WW_EVENTS || []).find((e) => e.name === name || e.name.endsWith(' ' + name)); return ev && window.WW_EVLINK ? window.WW_EVLINK(ev.id) : null; };
   document.querySelectorAll('#card-now .ww-chips button').forEach((b) => b.addEventListener('click', () => {
     layersOn[b.dataset.layer] = !layersOn[b.dataset.layer];
     b.setAttribute('aria-pressed', String(layersOn[b.dataset.layer]));
     draw();
   }));
 
+  // time scroll for the Happening-now map
+  const NOW_T0 = Date.UTC(2026, 0, 1), NOW_T1 = Date.UTC(2026, 9, 17), DAY = 864e5;
+  let nowSel = null; // null = live view
+  (() => { const r = box('now-time'); if (!r) return; r.max = Math.round((NOW_T1 - NOW_T0) / DAY); r.value = r.max;
+    r.addEventListener('input', () => { const v = +r.value; nowSel = v >= +r.max ? null : NOW_T0 + v * DAY; drawNow(); });
+    box('now-reset').addEventListener('click', () => { r.value = r.max; nowSel = null; drawNow(); }); })();
+
   function drawNow() {
     const c = C();
     const el = box('map-now');
+    const selMs = nowSel == null ? NOW_T1 : nowSel; const live = nowSel == null;
+    const selStr = new Date(selMs).toISOString().slice(0, 10);
+    box('now-date').textContent = live ? 'Now (latest data)' : d3.utcFormat('%-d %b %Y')(new Date(selMs));
+    box('now-reset').hidden = live; box('now-title').textContent = live ? 'Happening now' : `What was happening on ${d3.utcFormat('%-d %B %Y')(new Date(selMs))}`;
     const ids = ['earthquakes', 'volcanoes_weekly', 'volcano_alerts_us', 'tropical_cyclones', 'tc_tracks', 'gdacs_current', 'fires_global_grid', 'world_land'];
     const d = Object.fromEntries(ids.map((i) => [i, dash.data(i)]));
     const bad = ids.find((i) => d[i].status !== 'ok');
@@ -2487,13 +2519,14 @@ window.WW = (() => {
     ]);
     const m = K.map(el, d.world_land.data);
     const items = [];
-    const g = d.gdacs_current.data;
+    const g = d.gdacs_current.data.filter((r) => live || (r.start <= selStr && (r.latest || r.start) >= selStr));
+    const snapWeek = live || selMs >= Date.UTC(2026, 9, 4);
     if (layersOn.dr) g.filter((r) => r.type === 'Drought').forEach((r) => {
       const px = m.x(+r.lon), py = m.y(+r.lat);
       m.layer.append('circle').attr('cx', px).attr('cy', py).attr('r', 26).style('fill', 'var(--color-warn)').style('fill-opacity', 0.12).style('stroke', 'var(--color-warn)').attr('stroke-dasharray', '3 3');
       items.push({ px, py, title: `Drought · ${r.name}`, lines: [{ label: r.country, value: '' }, { label: r.detail, value: '' }, { label: 'GDACS alert', value: r.alert }] });
     });
-    if (layersOn.wf) d.fires_global_grid.data.forEach((r) => {
+    if (layersOn.wf && snapWeek) d.fires_global_grid.data.forEach((r) => {
       const s = +r.frp_sum_mw;
       const px = m.x(+r.lon), py = m.y(+r.lat);
       m.layer.append('circle').attr('cx', px).attr('cy', py).attr('r', Math.min(9, 0.8 + Math.sqrt(s) / 14)).style('fill', c[2]).style('fill-opacity', 0.3);
@@ -2511,16 +2544,16 @@ window.WW = (() => {
     });
     if (layersOn.eq) {
       const q = d.earthquakes.data;
-      const latest = d3.max(q, (r) => r.time_utc);
+      const latest = live ? d3.max(q, (r) => r.time_utc) : selStr + ' 23:59';
       const cut = new Date(new Date(latest.replace(' ', 'T') + 'Z').getTime() - 7 * 864e5).toISOString().slice(0, 16).replace('T', ' ');
-      q.filter((r) => r.time_utc >= cut).map((r) => ({ ...r, magnitude: +r.magnitude })).sort((a, b) => a.magnitude - b.magnitude).forEach((r) => {
+      q.filter((r) => r.time_utc >= cut && r.time_utc <= latest).map((r) => ({ ...r, magnitude: +r.magnitude })).sort((a, b) => a.magnitude - b.magnitude).forEach((r) => {
         const px = m.x(+r.lon), py = m.y(+r.lat), rad = 1.5 + (r.magnitude - 4.5) * 2.2;
         m.layer.append('circle').attr('cx', px).attr('cy', py).attr('r', rad).style('fill', c[3]).style('fill-opacity', 0.55).style('stroke', c[3]);
         if (r.magnitude >= 6.5) m.layer.append('text').attr('class', 'ww-maplbl').attr('x', px + rad + 3).attr('y', py + 4).text(`M${r.magnitude.toFixed(1)}`);
         items.push({ px, py, title: `${r.time_utc} UTC`, lines: [{ label: 'Magnitude', value: r.magnitude.toFixed(1) }, { label: 'Depth', value: `${r.depth_km} km` }, { label: r.place, value: '' }] });
       });
     }
-    if (layersOn.vo) {
+    if (layersOn.vo && snapWeek) {
       const seen = new Set();
       d.volcanoes_weekly.data.forEach((r) => {
         seen.add(r.volcano);
@@ -2538,7 +2571,22 @@ window.WW = (() => {
         m.layer.append('circle').attr('cx', m.x(+r.lon)).attr('cy', m.y(+r.lat)).attr('r', 8).attr('fill', 'none').style('stroke', 'var(--color-warn)').attr('stroke-width', 2);
       });
     }
-    if (layersOn.tc) {
+    if (layersOn.tc && !live) {
+      const fx = dash.data('storm_fixes');
+      if (fx.status === 'ok') {
+        const by = d3.group(fx.data.filter((r) => r.time_utc.slice(0, 10) <= selStr), (r) => r.storm);
+        by.forEach((rows, name) => {
+          const lastT = rows[rows.length - 1].time_utc; if (lastT.slice(0, 10) < new Date(selMs - 1.5 * DAY).toISOString().slice(0, 10)) return;
+          for (let k = 1; k < rows.length; k++) { const a = rows[k - 1], b = rows[k]; const xa = m.x(+a.lon), xb = m.x(+b.lon); if (Math.abs(xb - xa) > m.W / 2) continue;
+            const kt = +b.wind_kt; m.layer.append('line').attr('x1', xa).attr('y1', m.y(+a.lat)).attr('x2', xb).attr('y2', m.y(+b.lat)).style('stroke', kt >= 64 ? 'var(--color-bad)' : kt >= 34 ? c[3] : K.muted).attr('stroke-width', 2.25).attr('stroke-linecap', 'round'); }
+          const r = rows[rows.length - 1]; const px = m.x(+r.lon), py = m.y(+r.lat);
+          m.layer.append('circle').attr('cx', px).attr('cy', py).attr('r', 5).style('fill', 'var(--color-fg)').style('stroke', 'var(--color-bg)').attr('stroke-width', 1.5);
+          m.layer.append('text').attr('class', 'ww-maplbl').attr('x', px + 8).attr('y', py - 6).text(name);
+          items.push({ px, py, title: `${name} · ${r.time_utc} UTC`, lines: [{ label: 'Wind', value: `${r.wind_kt} kt` }, { label: 'Category', value: r.category }], href: evHref(name) });
+        });
+      }
+    }
+    if (layersOn.tc && live) {
       const cur = new Set(d.tropical_cyclones.data.filter((r) => r.state === 'current').map((r) => r.storm));
       d.tc_tracks.data.filter((r) => cur.has(r.storm)).forEach((r) => {
         const x0 = m.x(+r.lon0), x1 = m.x(+r.lon1);
@@ -2555,9 +2603,22 @@ window.WW = (() => {
         if (r.wind_kt !== '') lines.push({ label: 'Wind', value: `${r.wind_kt} kt` });
         if (r.pressure_mb !== '') lines.push({ label: 'Pressure', value: `${r.pressure_mb} mb` });
         if (r.movement) lines.push({ label: 'Moving', value: r.movement });
-        items.push({ px, py, title: `${r.storm} · ${r.basin}`, lines });
+        items.push({ px, py, title: `${r.storm} · ${r.basin}`, lines, href: evHref(r.storm) });
       });
     }
+    const drawnStorms = new Set(items.filter((it) => / · /.test(it.title)).map((it) => it.title.split(' · ')[0]));
+    // major events from the event log, active on the selected date
+    (window.WW_EVENTS || []).forEach((e) => {
+      if (e.lat == null) return;
+      const st = Date.parse(e.start + 'T00:00:00Z'), en = e.end ? Date.parse(e.end + 'T23:59:00Z') : NOW_T1 + DAY;
+      const pad = DAY;
+      if (selMs < st - pad || selMs > en + pad) return;
+      const px = m.x(+e.lon), py = m.y(+e.lat);
+      m.layer.append('path').attr('d', d3.symbol(d3.symbolStar, 150)()).attr('transform', `translate(${px},${py})`).attr('class', 'ww-evstar' + (e.status === 'unfolding' ? ' live' : ''));
+      if (!drawnStorms.has(e.short)) { const L = e.lab || [9, 14, 'start']; m.layer.append('text').attr('class', 'ww-maplbl ww-evlbl').attr('text-anchor', L[2]).attr('x', px + L[0]).attr('y', py + L[1]).text(e.short); }
+      items.push({ px, py, title: e.name, lines: [{ label: e.type, value: '' }, { label: e.when || (e.start + (e.end && e.end !== e.start ? ' to ' + e.end : '')), value: e.status }], href: window.WW_EVLINK ? window.WW_EVLINK(e.id) : null, target: window.WW_EVTARGET });
+    });
+    if (!live) { const t = m.svg.append('text').attr('class', 'ww-maplbl').attr('x', 10).attr('y', m.H - 10).text(selMs < Date.UTC(2026, 8, 11) ? 'Before 11 Sep only event-log events (stars) are available' : selMs < Date.UTC(2026, 9, 4) ? 'Earthquakes, storms and GDACS alerts for this date; satellite fires and the weekly volcano report cover only the latest week' : 'Stars = major events in the event log; click for the full analysis'); }
     K.mapTip(el, m, items);
     const n = dash.data('notable_now');
     if (n.status === 'ok') fillRows(box('table-now'), n.data, (r) => [r.kind, r.what, r.where, r.when, r.level]);
@@ -3419,6 +3480,8 @@ window.WW = (() => {
       if (c.tagName === 'H3') { const card = c.closest('.ww-why'); if (card && !card.querySelector('.ww-evmore')) { const p = document.createElement('p'); p.className = 'ww-evmore'; p.append(mk(id, 'Read the full analysis →')); card.append(p); } }
     });
   }
+  window.WW_EVENTS = /*EVENTS-GEO*/[{"id": "trudy-2026", "name": "Hurricane Trudy", "type": "Hurricane", "start": "2026-10-13", "end": "", "status": "unfolding", "depth": "deep", "when": "", "short": "Trudy", "lat": 18.2, "lon": -104.6, "lab": null}, {"id": "champi-2026", "name": "Typhoon Champi", "type": "Typhoon", "start": "2026-10-14", "end": "", "status": "unfolding", "depth": "deep", "when": "", "short": "Champi", "lat": 13.4, "lon": 144.8, "lab": null}, {"id": "southern-plains-oct-2026", "name": "Southern Plains heat–flood–freeze", "type": "Stalled front: flash flood, snow, freeze", "start": "2026-10-13", "end": "2026-10-18", "status": "unfolding", "depth": "deep", "when": "", "short": "Plains flood–freeze", "lat": 35.5, "lon": -97.8, "lab": [9, -8, "start"]}, {"id": "istanbul-rhodes-2026", "name": "Istanbul and Rhodes cloudbursts", "type": "Flash flood", "start": "2026-10-14", "end": "", "status": "open", "depth": "deep", "when": "", "short": "Istanbul & Rhodes floods", "lat": 41.0, "lon": 29.0, "lab": null}, {"id": "santa-ana-oct-2026", "name": "Southern California Santa Ana windstorm", "type": "Offshore windstorm / extreme fire weather", "start": "2026-10-15", "end": "2026-10-18", "status": "unfolding", "depth": "deep", "when": "", "short": "Santa Ana winds", "lat": 34.3, "lon": -118.5, "lab": [-9, -10, "end"]}, {"id": "kelvin-wave-california-2026", "name": "Kelvin wave and California high water", "type": "Coastal sea-level surge", "start": "2026-09-15", "end": "", "status": "unfolding", "depth": "deep", "when": "", "short": "Kelvin wave", "lat": 33.6, "lon": -118.9, "lab": [-9, 16, "end"]}, {"id": "simon-2026", "name": "Hurricane Simon", "type": "Hurricane", "start": "2026-10-07", "end": "2026-10-15", "status": "ended", "depth": "deep", "when": "", "short": "Simon", "lat": 19.3, "lon": -105.6, "lab": null}, {"id": "rachel-2026", "name": "Post-tropical Rachel", "type": "Remnant storm, swell and coastal flooding", "start": "2026-10-03", "end": "2026-10-10", "status": "ended", "depth": "deep", "when": "", "short": "Rachel", "lat": 31.8, "lon": -116.6, "lab": null}, {"id": "budhi-gandaki-flood-2026", "name": "Budhi Gandaki flood", "type": "Landslide-dam outburst", "start": "2026-10-11", "end": "2026-10-11", "status": "ended", "depth": "summary", "when": "11 Oct", "short": "Budhi Gandaki flood", "lat": 28.2, "lon": 84.8, "lab": null}, {"id": "lipari-2026", "name": "Lipari flash flood", "type": "Flash flood", "start": "2026-10-10", "end": "2026-10-10", "status": "ended", "depth": "summary", "when": "10 Oct", "short": "Lipari flash flood", "lat": 38.5, "lon": 14.95, "lab": null}, {"id": "hurricane-isaias-2026", "name": "Hurricane Isaias", "type": "Hurricane", "start": "2026-10-07", "end": "2026-10-09", "status": "ended", "depth": "summary", "when": "7–9 Oct", "short": "Isaias", "lat": 30.4, "lon": -86.6, "lab": null}, {"id": "el-nino-2026", "name": "Record east-based El Niño", "type": "Ocean–atmosphere driver", "start": "2026-06-01", "end": "", "status": "unfolding", "depth": "summary", "when": "Ongoing", "short": "El Niño", "lat": 0.0, "lon": -125.0, "lab": null}, {"id": "peru-coastal-el-nino-extraordinary-2026", "name": "Peru coastal El Niño (extraordinary)", "type": "Coastal ocean heat, rain, fisheries", "start": "2026-09-16", "end": "", "status": "unfolding", "depth": "summary", "when": "Sep 2026–Mar 2027", "short": "Coastal El Niño", "lat": -5.5, "lon": -81.5, "lab": null}, {"id": "hurricane-lowell-2026", "name": "Hurricane Lowell", "type": "Hurricane", "start": "2026-09-07", "end": "2026-09-08", "status": "ended", "depth": "summary", "when": "7–8 Sep", "short": "Lowell", "lat": 22.1, "lon": -159.5, "lab": null}, {"id": "langtang-rock-ice-avalanche-2026", "name": "Langtang rock-ice avalanche", "type": "Rock-ice avalanche / debris flood", "start": "2026-08-26", "end": "2026-08-26", "status": "ended", "depth": "summary", "when": "26 Aug", "short": "Langtang avalanche", "lat": 28.2, "lon": 85.5, "lab": null}, {"id": "european-compound-summer-2026", "name": "European compound summer", "type": "Drought, wildfire, marine heat", "start": "2026-06-01", "end": "2026-08-31", "status": "ended", "depth": "summary", "when": "Jun–Aug", "short": "European summer", "lat": 43.5, "lon": 5.0, "lab": null}, {"id": "canadian-wildfires-2026", "name": "Canadian wildfires", "type": "Wildfire", "start": "2026-06-20", "end": "2026-07-31", "status": "ended", "depth": "summary", "when": "Late Jun–Jul", "short": "Canadian wildfires", "lat": 52.0, "lon": -88.0, "lab": null}, {"id": "us-fourth-of-july-heat-dome-2026", "name": "US Fourth of July heat dome", "type": "Heatwave", "start": "2026-06-30", "end": "2026-07-04", "status": "ended", "depth": "summary", "when": "30 Jun–4 Jul", "short": "US heat dome", "lat": 39.0, "lon": -88.0, "lab": null}, {"id": "european-june-heatwave-2026", "name": "European June heatwave", "type": "Heatwave", "start": "2026-06-18", "end": "2026-06-29", "status": "ended", "depth": "summary", "when": "18–29 Jun", "short": "European June heatwave", "lat": 47.5, "lon": 4.0, "lab": null}, {"id": "south-asia-pre-monsoon-heat-2026", "name": "South Asia pre-monsoon heat", "type": "Heatwave", "start": "2026-04-15", "end": "2026-05-31", "status": "ended", "depth": "summary", "when": "Mid-Apr–May", "short": "South Asia heat", "lat": 26.5, "lon": 77.0, "lab": null}, {"id": "western-n-america-heat-dome-2026", "name": "Western N. America heat dome", "type": "Heatwave", "start": "2026-03-18", "end": "2026-03-22", "status": "ended", "depth": "summary", "when": "18–22 Mar", "short": "Western heat dome", "lat": 36.0, "lon": -117.0, "lab": null}, {"id": "hawaii-kona-lows-2026", "name": "Hawaiʻi Kona lows", "type": "Flooding", "start": "2026-03-10", "end": "2026-03-24", "status": "ended", "depth": "summary", "when": "10–24 Mar", "short": "Hawaiʻi Kona lows", "lat": 20.8, "lon": -156.8, "lab": null}, {"id": "minas-gerais-floods-2026", "name": "Minas Gerais floods", "type": "Flood / landslides", "start": "2026-02-22", "end": "2026-02-28", "status": "ended", "depth": "summary", "when": "22–28 Feb", "short": "Minas Gerais floods", "lat": -21.8, "lon": -43.4, "lab": null}, {"id": "winter-storm-fern-2026", "name": "Winter Storm Fern", "type": "Winter storm", "start": "2026-01-23", "end": "2026-01-27", "status": "ended", "depth": "summary", "when": "23–27 Jan", "short": "Fern", "lat": 37.5, "lon": -84.0, "lab": null}, {"id": "storm-harry-2026", "name": "Storm Harry", "type": "Cut-off low", "start": "2026-01-16", "end": "2026-01-23", "status": "ended", "depth": "summary", "when": "16–23 Jan", "short": "Harry", "lat": 39.5, "lon": 4.0, "lab": null}, {"id": "southern-africa-floods-2026", "name": "Southern Africa floods", "type": "Flooding", "start": "2025-12-15", "end": "2026-01-31", "status": "ended", "depth": "summary", "when": "Dec 2025–Jan 2026", "short": "Southern Africa floods", "lat": -24.0, "lon": 32.5, "lab": null}]/*END-GEO*/;
+  window.WW_EVLINK = (id) => base + id; window.WW_EVTARGET = pub ? '_self' : '_blank';
   let t; new MutationObserver(() => { clearTimeout(t); t = setTimeout(linkify, 120); }).observe(document.body, { childList: true, subtree: true });
   setTimeout(linkify, 500);
 })();
