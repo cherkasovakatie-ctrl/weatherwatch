@@ -1,0 +1,37 @@
+{
+ "id": "winter-storm-fern-2026",
+ "name": "Winter Storm Fern",
+ "type": "Winter storm",
+ "region": "Texas to Maine, Ontario",
+ "start": "2026-01-25",
+ "end": "2026-01-25",
+ "status": "ended",
+ "depth": "summary",
+ "as_of": "12 Oct 2026",
+ "when": "23–27 Jan",
+ "headline": "Pacific low crossed the Plains, drew Gulf moisture, re-formed as a nor'easter.",
+ "numbers": [
+  [
+   "When",
+   "23–27 Jan"
+  ],
+  [
+   "Deaths",
+   "174"
+  ],
+  [
+   "Confidence",
+   "medium"
+  ]
+ ],
+ "timeline": [],
+ "sources": [],
+ "related": [],
+ "sections": {
+  "The setup": "Stretched polar vortex sent Arctic air south.",
+  "The trigger": "Pacific low crossed the Plains, drew Gulf moisture, re-formed as a nor'easter.",
+  "What amplified it": "Up to 1 in ice, 1–2 ft snow, 1M+ without power; 46 cm in Toronto.",
+  "Climate signal": "No study.",
+  "Still open": "Summary entry: the full deep-dive (day-by-day timeline, steering, how it ended, sources) has not been written yet. It will be added as the log works back through the year."
+ }
+}

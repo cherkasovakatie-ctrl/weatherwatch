@@ -1,0 +1,37 @@
+{
+ "id": "western-n-america-heat-dome-2026",
+ "name": "Western N. America heat dome",
+ "type": "Heatwave",
+ "region": "California, Nevada, Arizona",
+ "start": "2026-03-20",
+ "end": "2026-03-20",
+ "status": "ended",
+ "depth": "summary",
+ "as_of": "12 Oct 2026",
+ "when": "18–22 Mar",
+ "headline": "Clear skies, sinking air; LA extreme heat warning.",
+ "numbers": [
+  [
+   "When",
+   "18–22 Mar"
+  ],
+  [
+   "Deaths",
+   "Not reported"
+  ],
+  [
+   "Confidence",
+   "high"
+  ]
+ ],
+ "timeline": [],
+ "sources": [],
+ "related": [],
+ "sections": {
+  "The setup": "Strong slow-moving ridge.",
+  "The trigger": "Clear skies, sinking air; LA extreme heat warning.",
+  "What amplified it": "11–17 °C above normal; Phoenix ~41 °C vs March record 38 °C.",
+  "Climate signal": "Virtually impossible without warming; ~800× more likely, +2.6 °C (WWA).",
+  "Still open": "Summary entry: the full deep-dive (day-by-day timeline, steering, how it ended, sources) has not been written yet. It will be added as the log works back through the year."
+ }
+}

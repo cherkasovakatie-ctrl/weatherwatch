@@ -1,0 +1,37 @@
+{
+ "id": "canadian-wildfires-2026",
+ "name": "Canadian wildfires",
+ "type": "Wildfire",
+ "region": "Ontario, Northwest Territories",
+ "start": "2026-07-10",
+ "end": "2026-07-10",
+ "status": "ended",
+ "depth": "summary",
+ "as_of": "12 Oct 2026",
+ "when": "Late Jun–Jul",
+ "headline": "Prolonged July heat and dryness, lightning outbreak week of 20 Jul.",
+ "numbers": [
+  [
+   "When",
+   "Late Jun–Jul"
+  ],
+  [
+   "Deaths",
+   "Not reported"
+  ],
+  [
+   "Confidence",
+   "high"
+  ]
+ ],
+ "timeline": [],
+ "sources": [],
+ "related": [],
+ "sections": {
+  "The setup": "Season started below average.",
+  "The trigger": "Prolonged July heat and dryness, lightning outbreak week of 20 Jul.",
+  "What amplified it": "94% of 3M+ ha burned late Jun–late Jul; smoke reached 120M people.",
+  "Climate signal": "Fire weather 2–5× more likely (WWA).",
+  "Still open": "Summary entry: the full deep-dive (day-by-day timeline, steering, how it ended, sources) has not been written yet. It will be added as the log works back through the year."
+ }
+}

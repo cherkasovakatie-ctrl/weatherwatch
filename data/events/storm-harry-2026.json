@@ -1,0 +1,37 @@
+{
+ "id": "storm-harry-2026",
+ "name": "Storm Harry",
+ "type": "Cut-off low",
+ "region": "Western Mediterranean",
+ "start": "2026-01-19",
+ "end": "2026-01-19",
+ "status": "ended",
+ "depth": "summary",
+ "as_of": "12 Oct 2026",
+ "when": "16–23 Jan",
+ "headline": "Cut-off low over Iberia stalled for a week.",
+ "numbers": [
+  [
+   "When",
+   "16–23 Jan"
+  ],
+  [
+   "Deaths",
+   "390+ (mostly migrants)"
+  ],
+  [
+   "Confidence",
+   "medium"
+  ]
+ ],
+ "timeline": [],
+ "sources": [],
+ "related": [],
+ "sections": {
+  "The setup": "Blocking high to the north.",
+  "The trigger": "Cut-off low over Iberia stalled for a week.",
+  "What amplified it": "206 mm in Tunisia, ~10 m waves off Spain; boats capsized after leaving Sfax.",
+  "Climate signal": "No study.",
+  "Still open": "Summary entry: the full deep-dive (day-by-day timeline, steering, how it ended, sources) has not been written yet. It will be added as the log works back through the year."
+ }
+}

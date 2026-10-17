@@ -1,0 +1,37 @@
+{
+ "id": "budhi-gandaki-flood-2026",
+ "name": "Budhi Gandaki flood",
+ "type": "Landslide-dam outburst",
+ "region": "Gorkha, Nepal",
+ "start": "2026-10-11",
+ "end": "2026-10-11",
+ "status": "ended",
+ "depth": "summary",
+ "as_of": "12 Oct 2026",
+ "when": "11 Oct",
+ "headline": "~1 km landslide at Siringe Himal dammed the Ungilung stream; breach ~04:00 11 Oct.",
+ "numbers": [
+  [
+   "When",
+   "11 Oct"
+  ],
+  [
+   "Deaths",
+   "At least 5 missing"
+  ],
+  [
+   "Confidence",
+   "low"
+  ]
+ ],
+ "timeline": [],
+ "sources": [],
+ "related": [],
+ "sections": {
+  "The setup": "Wet end of monsoon: ~430 mm on 18–27 Sep, then 43 mm on 7–9 Oct (model data).",
+  "The trigger": "~1 km landslide at Siringe Himal dammed the Ungilung stream; breach ~04:00 11 Oct.",
+  "What amplified it": "Saturated steep slopes in the 2015 earthquake region; unmonitored tributary.",
+  "Climate signal": "See Langtang: warming loads high slopes with rain and meltwater.",
+  "Still open": "Summary entry: the full deep-dive (day-by-day timeline, steering, how it ended, sources) has not been written yet. It will be added as the log works back through the year."
+ }
+}

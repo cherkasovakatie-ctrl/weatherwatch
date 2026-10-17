@@ -1,0 +1,37 @@
+{
+ "id": "hawaii-kona-lows-2026",
+ "name": "Hawaiʻi Kona lows",
+ "type": "Flooding",
+ "region": "Hawaiian Islands",
+ "start": "2026-03-17",
+ "end": "2026-03-17",
+ "status": "ended",
+ "depth": "summary",
+ "as_of": "12 Oct 2026",
+ "when": "10–24 Mar",
+ "headline": "Back-to-back lows and upper disturbances reversed the trades.",
+ "numbers": [
+  [
+   "When",
+   "10–24 Mar"
+  ],
+  [
+   "Deaths",
+   "Not reported"
+  ],
+  [
+   "Confidence",
+   "medium"
+  ]
+ ],
+ "timeline": [],
+ "sources": [],
+ "related": [],
+ "sections": {
+  "The setup": "Deep tropical moisture.",
+  "The trigger": "Back-to-back lows and upper disturbances reversed the trades.",
+  "What amplified it": "Rain almost daily for two weeks, lifted by mountains: 54.92 in on Maui; >$1B damage.",
+  "Climate signal": "No study.",
+  "Still open": "Summary entry: the full deep-dive (day-by-day timeline, steering, how it ended, sources) has not been written yet. It will be added as the log works back through the year."
+ }
+}

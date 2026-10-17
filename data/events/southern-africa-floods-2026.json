@@ -1,0 +1,37 @@
+{
+ "id": "southern-africa-floods-2026",
+ "name": "Southern Africa floods",
+ "type": "Flooding",
+ "region": "Mozambique, South Africa, Zimbabwe, Eswatini",
+ "start": "2026-01-15",
+ "end": "2026-01-15",
+ "status": "ended",
+ "depth": "summary",
+ "as_of": "12 Oct 2026",
+ "when": "Dec 2025–Jan 2026",
+ "headline": "Repeated heavy rain systems; a year's rain in days in places.",
+ "numbers": [
+  [
+   "When",
+   "Dec 2025–Jan 2026"
+  ],
+  [
+   "Deaths",
+   "~200"
+  ],
+  [
+   "Confidence",
+   "high"
+  ]
+ ],
+ "timeline": [],
+ "sources": [],
+ "related": [],
+ "sections": {
+  "The setup": "Weak La Niña and warm seas.",
+  "The trigger": "Repeated heavy rain systems; a year's rain in days in places.",
+  "What amplified it": "Moisture-rich air; rivers burst, Kruger closed.",
+  "Climate signal": "Rainfall ~40% more intense (WWA).",
+  "Still open": "Summary entry: the full deep-dive (day-by-day timeline, steering, how it ended, sources) has not been written yet. It will be added as the log works back through the year."
+ }
+}

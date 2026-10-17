@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Event log · Global Weather Watch</title><meta name="description" content="A running log of extreme weather and climate events, with deep-dive analyses of how each one developed.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%232b6cb0'/%3E%3Cpath d='M4 18c4-3 8 3 12 0s8-3 12 0' stroke='white' stroke-width='2.5' fill='none'/%3E%3C/svg%3E">
+<style>
+:root { color-scheme: light dark;
+  --font-anthropic-sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-anthropic-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --color-bg: #f6f5f1; --color-panel: #ffffff; --color-fg: #1d1f22; --color-fg-muted: #5c6370; --color-border-line: #e2e0d8;
+  --color-bad: #c2410c; --color-warn: #b45309; --color-ok: #15803d;
+  --cds-gap-xs: 4px; --cds-gap-sm: 8px; --cds-gap-md: 14px; --cds-gap-lg: 22px;
+  --cds-pad-xs: 6px; --cds-pad-sm: 10px; --cds-pad-md: 14px; --cds-pad-lg: 18px; --cds-radius: 10px;
+  --cds-font-size-caption: 0.8rem; --cds-font-size-body: 0.95rem; --cds-font-size-heading: 1.05rem; --cds-font-size-title: 1.9rem; --cds-font-weight-medium: 600;
+  --cds-chart-grid: #ecebe5; --cds-chart-axis: #8a9099; --cds-chart-muted: #9aa3ad; --cds-chart-reference: #8a9099;
+  --cds-text-secondary: #5c6370; --cds-surface-popover: #ffffff; --cds-shadow-popover: 0 4px 18px rgba(0,0,0,.14); --cds-dur-slow: .3s; --cds-border: #e2e0d8; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --color-bg: #141619; --color-panel: #1c1f23; --color-fg: #eceae4; --color-fg-muted: #a3a9b2; --color-border-line: #2e3238;
+  --color-bad: #fb923c; --color-warn: #fbbf24; --color-ok: #4ade80;
+  --cds-chart-grid: #2a2e33; --cds-chart-axis: #8d949d; --cds-chart-muted: #6b737d; --cds-chart-reference: #8d949d;
+  --cds-text-secondary: #a3a9b2; --cds-surface-popover: #23272c; --cds-border: #2e3238; } }
+html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); }
+body { font-family: var(--font-anthropic-sans); }
+.site-wrap { max-width: 1280px; margin: 0 auto; padding: 16px; }
+.site-nav { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; padding: 10px 16px; border-bottom: 1px solid var(--color-border-line); background: var(--color-panel); }
+.site-nav .brand { font-family: var(--font-anthropic-serif); font-size: 1.15rem; color: var(--color-fg); text-decoration: none; margin-right: auto; }
+.site-nav a { color: var(--color-fg-muted); text-decoration: none; font-size: .9rem; }
+.site-nav a[aria-current="page"], .site-nav a:hover { color: var(--color-fg); }
+.site-foot { max-width: 1280px; margin: 24px auto; padding: 0 16px 24px; color: var(--color-fg-muted); font-size: .8rem; line-height: 1.5; }
+.site-foot a, .ww a { color: inherit; }
+.dash-skeleton { color: var(--color-fg-muted); }
+[hidden] { display: none !important; }
+</style><style>
+.wrap{max-width:980px;margin:0 auto;padding:16px} h1{font-family:var(--font-anthropic-serif);font-weight:400;font-size:1.9rem;margin:.3em 0 .2em}
+.lede{color:var(--color-fg-muted);max-width:75ch;line-height:1.55;margin:.2em 0 1em} a{color:var(--color-fg)}
+.chip{display:inline-block;font-size:.72rem;padding:2px 8px;border-radius:999px;border:1px solid var(--color-border-line);color:var(--color-fg-muted);margin-right:6px;vertical-align:middle}
+.chip.unfolding{color:#fff;background:var(--color-bad);border-color:transparent}.chip.open{color:var(--color-warn);border-color:var(--color-warn)}.chip.summary{border-style:dashed}
+.seg{display:inline-flex;border:1px solid var(--color-border-line);border-radius:10px;overflow:hidden;margin:6px 0 14px}.seg button{font:inherit;font-size:.85rem;background:none;border:0;padding:5px 12px;color:var(--color-fg-muted);cursor:pointer}.seg button[aria-pressed=true]{background:var(--color-panel);color:var(--color-fg)}
+.ev{display:grid;grid-template-columns:7.5rem 1fr;gap:14px;padding:14px 0;border-top:1px solid var(--color-border-line)}
+.ev .d{color:var(--color-fg-muted);font-size:.82rem;font-variant-numeric:tabular-nums}.ev h2{margin:0 0 4px;font-size:1.05rem}.ev h2 a{text-decoration:none}.ev h2 a:hover{text-decoration:underline}
+.ev .m{font-size:.8rem;color:var(--color-fg-muted);margin:2px 0 6px}.ev p{margin:0;font-size:.9rem;line-height:1.5;color:var(--color-fg-muted)}
+@media(max-width:600px){.ev{grid-template-columns:1fr;gap:4px}}
+.card{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:10px;padding:16px 18px;margin:12px 0}
+.nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(12rem,1fr));gap:10px;margin:12px 0}.nums>div{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:10px;padding:10px 12px}
+.nums .l{font-size:.75rem;color:var(--color-fg-muted)}.nums .v{font-size:.95rem;margin-top:2px;font-variant-numeric:tabular-nums}
+.sec h2{font-size:1.05rem;margin:0 0 6px}.sec p{margin:0;line-height:1.6}
+.tl{list-style:none;margin:0;padding:0}.tl li{display:grid;grid-template-columns:9.5rem 1fr;gap:12px;padding:7px 0;border-top:1px solid var(--color-border-line);font-size:.9rem;line-height:1.5}
+.tl li:first-child{border-top:0}.tl b{font-weight:600;font-variant-numeric:tabular-nums}@media(max-width:600px){.tl li{grid-template-columns:1fr;gap:2px}}
+.src li{margin:4px 0;font-size:.88rem}.back{font-size:.85rem;color:var(--color-fg-muted)}.asof{font-size:.8rem;color:var(--color-fg-muted)}
+</style></head><body><nav class="site-nav" aria-label="Site">
+  <a class="brand" href="./">Global Weather Watch</a>
+  <a href="./" >Dashboard</a>
+  <a href="events.html" aria-current="page">Event log</a>
+  <a href="data.html" >Data archive</a>
+  <a href="about.html" >About &amp; method</a>
+</nav>
+<main class="wrap">
+<h1>Event log</h1>
+<p class="lede">Every notable storm, flood, heatwave and climate driver we follow, newest first. Each entry explains the setup, the trigger, what amplified it, what steered it and how it ended. Entries marked <span class="chip unfolding">unfolding</span> are updated as the event develops; <span class="chip open">open</span> means not enough information has been published yet; <span class="chip summary">summary</span> means a full deep-dive is still to come.</p>
+<div class="seg" role="group" aria-label="Filter"><button data-f="all" aria-pressed="true">All</button><button data-f="unfolding" aria-pressed="false">Unfolding</button><button data-f="open" aria-pressed="false">Open</button><button data-f="ended" aria-pressed="false">Ended</button></div>
+<div id="list"></div>
+</main><footer class="site-foot">Data snapshot: <span data-asof>16 October 2026</span>. Independent, non-commercial analysis built from public sources (NOAA, NASA, USGS, Smithsonian GVP, GDACS, CPC, IRI, Copernicus/Open-Meteo, SILSO, IERS, Coral Reef Watch and others; see <a href="about.html">About &amp; method</a>). Not an official forecast or warning service — for warnings follow your national weather service. Analysis prepared with Claude (Anthropic).</footer>
+<script>
+(async () => {
+  const ix = await (await fetch('data/events/index.json', {cache: 'no-cache'})).json();
+  let f = 'all';
+  const fmt = (s) => s ? new Date(s + 'T12:00:00Z').toLocaleDateString('en-GB', {day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC'}) : '';
+  const el = (t, c, x) => { const e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; };
+  const draw = () => {
+    const L = document.getElementById('list'); L.replaceChildren();
+    ix.events.filter((e) => f === 'all' || e.status === f).forEach((e) => {
+      const row = el('article', 'ev');
+      row.append(el('div', 'd', e.when || (fmt(e.start) + (e.end && e.end !== e.start ? ' – ' + fmt(e.end) : ''))));
+      const b = el('div'); const h = el('h2'); const a = el('a', null, e.name); a.href = 'event.html?id=' + e.id; h.append(a);
+      const m = el('div', 'm'); const st = el('span', 'chip ' + e.status, e.status); m.append(st); if (e.depth === 'summary') m.append(el('span', 'chip summary', 'summary')); m.append(document.createTextNode(e.type + ' · ' + e.region));
+      b.append(h, m, el('p', null, e.headline)); row.append(b); L.append(row);
+    });
+  };
+  document.querySelectorAll('.seg button').forEach((x) => x.addEventListener('click', () => { f = x.dataset.f; document.querySelectorAll('.seg button').forEach((y) => y.setAttribute('aria-pressed', String(y === x))); draw(); }));
+  draw();
+})();
+</script></body></html>

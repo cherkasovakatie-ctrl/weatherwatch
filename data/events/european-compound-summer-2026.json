@@ -1,0 +1,37 @@
+{
+ "id": "european-compound-summer-2026",
+ "name": "European compound summer",
+ "type": "Drought, wildfire, marine heat",
+ "region": "Western Europe, Mediterranean",
+ "start": "2026-07-15",
+ "end": "2026-07-15",
+ "status": "ended",
+ "depth": "summary",
+ "as_of": "12 Oct 2026",
+ "when": "Jun–Aug",
+ "headline": "Persistent alternating highs and lows (WMO).",
+ "numbers": [
+  [
+   "When",
+   "Jun–Aug"
+  ],
+  [
+   "Deaths",
+   "40+ (France, June)"
+  ],
+  [
+   "Confidence",
+   "high"
+  ]
+ ],
+ "timeline": [],
+ "sources": [],
+ "related": [],
+ "sections": {
+  "The setup": "Dry April–June, successive heatwaves; hottest June–July on record.",
+  "The trigger": "Persistent alternating highs and lows (WMO).",
+  "What amplified it": "Dry soils intensified heat; fires in SW France and Spain; western Mediterranean up to 6 °C above normal.",
+  "Climate signal": "~2 °C of Mediterranean warming is human-caused; marine heat virtually impossible pre-industrial (WWA).",
+  "Still open": "Summary entry: the full deep-dive (day-by-day timeline, steering, how it ended, sources) has not been written yet. It will be added as the log works back through the year."
+ }
+}

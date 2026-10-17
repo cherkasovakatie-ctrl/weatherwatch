@@ -1,0 +1,37 @@
+{
+ "id": "minas-gerais-floods-2026",
+ "name": "Minas Gerais floods",
+ "type": "Flood / landslides",
+ "region": "Juiz de Fora, Brazil",
+ "start": "2026-02-24",
+ "end": "2026-02-24",
+ "status": "ended",
+ "depth": "summary",
+ "as_of": "12 Oct 2026",
+ "when": "22–28 Feb",
+ "headline": "Persistent localised rain; wettest February since 1961 in Juiz de Fora.",
+ "numbers": [
+  [
+   "When",
+   "22–28 Feb"
+  ],
+  [
+   "Deaths",
+   "72"
+  ],
+  [
+   "Confidence",
+   "high"
+  ]
+ ],
+ "timeline": [],
+ "sources": [],
+ "related": [],
+ "sections": {
+  "The setup": "Wet rainy season.",
+  "The trigger": "Persistent localised rain; wettest February since 1961 in Juiz de Fora.",
+  "What amplified it": "Unplanned homes on steep slopes; ~130,000 in high-risk zones; sirens did not reach all.",
+  "Climate signal": "Unclear rainfall trend; exposure dominant (WWA).",
+  "Still open": "Summary entry: the full deep-dive (day-by-day timeline, steering, how it ended, sources) has not been written yet. It will be added as the log works back through the year."
+ }
+}

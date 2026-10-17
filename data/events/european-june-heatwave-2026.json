@@ -1,0 +1,37 @@
+{
+ "id": "european-june-heatwave-2026",
+ "name": "European June heatwave",
+ "type": "Heatwave",
+ "region": "France, Germany, Italy, Spain, England",
+ "start": "2026-06-23",
+ "end": "2026-06-23",
+ "status": "ended",
+ "depth": "summary",
+ "as_of": "12 Oct 2026",
+ "when": "18–29 Jun",
+ "headline": "Persistent high with southerly flow from North Africa.",
+ "numbers": [
+  [
+   "When",
+   "18–29 Jun"
+  ],
+  [
+   "Deaths",
+   "40+ (France)"
+  ],
+  [
+   "Confidence",
+   "high"
+  ]
+ ],
+ "timeline": [],
+ "sources": [],
+ "related": [],
+ "sections": {
+  "The setup": "Near-record-dry soils after record May heat.",
+  "The trigger": "Persistent high with southerly flow from North Africa.",
+  "What amplified it": "5–12 °C above normal; 43.3 °C in France.",
+  "Climate signal": "3.5 °C hotter by day than the same pattern in 1976 (WWA).",
+  "Still open": "Summary entry: the full deep-dive (day-by-day timeline, steering, how it ended, sources) has not been written yet. It will be added as the log works back through the year."
+ }
+}

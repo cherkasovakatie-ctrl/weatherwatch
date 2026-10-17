@@ -1,0 +1,84 @@
+{
+ "id": "kelvin-wave-california-2026",
+ "name": "Kelvin wave and California high water",
+ "type": "Coastal sea-level surge",
+ "region": "California coast, north to Alaska",
+ "start": "2026-09-15",
+ "end": "",
+ "status": "unfolding",
+ "as_of": "16 Oct 2026 (NOAA CO-OPS Los Angeles)",
+ "headline": "El Niño's warm water has reached California as a coastal wave: sea level at Los Angeles has run about 1 ft above the tide tables every day since 13 October, with the next peak due around 23–24 October and king tides in November–January.",
+ "numbers": [
+  [
+   "LA water vs prediction",
+   "+0.7 to +1.3 ft (13–16 Oct)"
+  ],
+  [
+   "Kelvin wave",
+   "9–12 in"
+  ],
+  [
+   "Marine heatwave",
+   "6–10 in"
+  ],
+  [
+   "Next peaks",
+   "~23–24 Oct; king tides 24–26 Nov, 22–25 Dec, 20–23 Jan"
+  ]
+ ],
+ "timeline": [
+  [
+   "Jul–Sep",
+   "Trade winds collapse over the central Pacific; warm water surges east along the equator."
+  ],
+  [
+   "Sep",
+   "The warm water hits South America and splits north and south as coastally trapped Kelvin waves, travelling along the coast at about 6 mph."
+  ],
+  [
+   "8 Oct",
+   "First sea-level peak on the Southern California coast."
+  ],
+  [
+   "7–10 Oct",
+   "With Rachel's swell and new-moon spring tides on top, damage in Long Beach, flooding on the Balboa Peninsula, erosion at San Clemente."
+  ],
+  [
+   "13–16 Oct",
+   "Los Angeles water level 0.7–1.3 ft above predictions every hour (our data)."
+  ],
+  [
+   "~23–24 Oct (forecast)",
+   "Next peak, possibly coinciding with the first winter storm."
+  ],
+  [
+   "Nov–Jan",
+   "King tides on 24–26 Nov, 22–25 Dec and 20–23 Jan expected 1–2 ft above predictions."
+  ]
+ ],
+ "sections": {
+  "The setup": "A record east-based El Niño moved an enormous amount of warm water east. Warm water expands, and it also piles up against the coast where the winds no longer push it west.",
+  "The trigger": "When the equatorial wave reaches South America it cannot go further, so part of its energy turns north and travels up the coast of Central America, Mexico and California as a coastally trapped Kelvin wave, raising sea level by 9–12 in.",
+  "What amplified it": "Layers stacking: a local marine heatwave adds 6–10 in, long-term sea-level rise 2–3 in, and on top come spring tides, storm surge and swell. Each alone is minor; together they flood low coastal streets.",
+  "How it ends": "Not soon. Sea level stays high as long as El Niño keeps feeding warm water east, likely into February 2027. The worst moments will be king tides combined with winter storms.",
+  "Climate signal": "Long-term sea-level rise adds 2–3 in, plus 6–8 in already built into the tidal datum (Swain).",
+  "Still open": "The size of the late-October peak and whether it coincides with storm surf."
+ },
+ "sources": [
+  {
+   "title": "Global Weather Watch data: LA water level vs prediction (NOAA CO-OPS 9410660)",
+   "url": "data.html"
+  },
+  {
+   "title": "NOAA Tides & Currents: Los Angeles 9410660",
+   "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9410660"
+  }
+ ],
+ "related": [
+  "rachel-2026",
+  "el-nino-2026",
+  "santa-ana-oct-2026"
+ ],
+ "depth": "deep",
+ "when": ""
+}

@@ -1,0 +1,93 @@
+{
+ "id": "champi-2026",
+ "name": "Typhoon Champi",
+ "type": "Typhoon",
+ "region": "Western Pacific · Guam and the Northern Mariana Islands",
+ "start": "2026-10-15",
+ "end": "",
+ "status": "unfolding",
+ "as_of": "17 Oct 2026, 07 ChST (Guam JIC release 4)",
+ "headline": "The third strong typhoon to threaten Guam since April, arriving while families are still living in tents after Sinlaku and Bavi. Expected to pass just south of Guam as a Category 2–3 typhoon early on 18 October, then become a very strong typhoon in the Philippine Sea.",
+ "numbers": [
+  [
+   "Now",
+   "85 mph typhoon, 12.0°N 149.6°E"
+  ],
+  [
+   "Movement",
+   "WNW 15 mph"
+  ],
+  [
+   "Forecast near Guam",
+   "Cat 2–3, ~965 hPa, 18 Oct"
+  ],
+  [
+   "Rain forecast",
+   "6–12 in"
+  ],
+  [
+   "Surf",
+   "15–20 ft; inundation 2–3 ft"
+  ]
+ ],
+ "timeline": [
+  [
+   "14 Oct",
+   "Invest 96W east of the Marianas."
+  ],
+  [
+   "15 Oct",
+   "Tropical Depression 29W; Guam placed in Condition of Readiness 3; Typhoon Watch for Guam, Rota, Tinian, Saipan."
+  ],
+  [
+   "16 Oct",
+   "Tropical storm Champi (35 kt at 15 UTC on 15 Oct per JTWC); 50 kt, 992 hPa by 03:50 UTC on 16 Oct, 980 km ESE of Guam, moving west at 10 kt."
+  ],
+  [
+   "17 Oct 07 ChST",
+   "Typhoon, 85 mph, 340 miles ESE of Guam, WNW at 15 mph. Typhoon Warning for Guam and Rota; ports at Condition ZULU."
+  ],
+  [
+   "17–18 Oct (forecast)",
+   "Damaging winds from about 8 pm Saturday, typhoon-force winds from about 5 am Sunday; centre just south of Guam as a Category 3 typhoon."
+  ],
+  [
+   "19–21 Oct (forecast)",
+   "Very strong typhoon over the central Philippine Sea (about 935 hPa, 95 kt by 21 Oct), heading toward waters south of the Ryukyu Islands."
+  ]
+ ],
+ "sections": {
+  "The setup": "Sea surface temperatures of 29–30 °C, abundant moisture and a deep warm layer east of the Marianas. During El Niño, typhoon genesis shifts south-east toward the date line, so storms form farther east and spend longer over warm open ocean before reaching land. That is how Guam has been threatened three times since April.",
+  "The trigger": "A disturbance in the trade-wind easterlies (Invest 96W) consolidated on 15 October and was named on 16 October.",
+  "What amplified it": "JTWC expected rapid intensification once an inner core formed; the warm ocean and good outflow aloft support steady strengthening through 18 October and a very strong typhoon in the Philippine Sea.",
+  "What held it back": "Moderate vertical wind shear of 17–23 mph slowed early organisation.",
+  "What steers it": "The subtropical high to the north is steering Champi west-northwest at about 15 mph. Model tracks range from just south of Guam to the Guam–Rota channel, so NWS Guam told residents not to focus on the exact track. Beyond 20 October the storm should round the western edge of the high; whether it then turns north toward the Ryukyus depends on a trough over East Asia.",
+  "Expected impacts": "6–12 in of rain and flooding of low-lying areas; surf rising to 15–20 ft on 18 October with 2–3 ft coastal inundation and run-up to 12 ft; winds near 100 mph. The Red Cross is opening 13 shelters; many households displaced by Sinlaku and Bavi must take down tents and move to shelters.",
+  "How it should end": "Not before 21–23 October: it is forecast to intensify further over the Philippine Sea. Its end depends on recurvature and colder water to the north.",
+  "Climate signal": "No study. El Niño shifts typhoon tracks east and lengthens their lives; this is a well-documented ENSO effect, not attribution.",
+  "Still open": "Closest approach, peak winds on Guam, damage, and the track after the Philippine Sea."
+ },
+ "sources": [
+  {
+   "title": "Guam Homeland Security JIC Release No. 4",
+   "url": "https://ghs.guam.gov/jic-release-no-4-champi-now-typhoon-emergency-evacuation-centers"
+  },
+  {
+   "title": "Weathernews: Champi intensifies",
+   "url": "https://sea.weathernews.com/resources/202610/274"
+  },
+  {
+   "title": "The Watchers: Typhoon and flood watches for the Marianas",
+   "url": "https://watchers.news/2026/10/15/typhoon-and-flood-watches-cover-mariana-islands-as-tropical-storm-champi-approaches/"
+  },
+  {
+   "title": "AOL: Guam faces third powerful typhoon",
+   "url": "https://www.aol.com/articles/guam-faces-third-powerful-typhoon-180006000.html"
+  }
+ ],
+ "related": [
+  "el-nino-2026"
+ ],
+ "depth": "deep",
+ "when": ""
+}

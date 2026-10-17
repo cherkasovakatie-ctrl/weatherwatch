@@ -1,0 +1,73 @@
+{
+ "id": "istanbul-rhodes-2026",
+ "name": "Istanbul and Rhodes cloudbursts",
+ "type": "Flash flood",
+ "region": "Istanbul, Türkiye · Rhodes, Greece",
+ "start": "2026-10-14",
+ "end": "",
+ "status": "open",
+ "as_of": "15–16 Oct 2026",
+ "headline": "Istanbul's heaviest rain since records began in 1942 shut the city down; on the same day Rhodes received 202 mm in about six and a half hours. The weather system behind both has not yet been described in detail by the met services, so this entry stays open.",
+ "numbers": [
+  [
+   "Istanbul",
+   "Heaviest since 1942; 193.8 mm at Ömerli"
+  ],
+  [
+   "Rhodes",
+   "202 mm in 6.5 h; 264 mm by 12:50"
+  ],
+  [
+   "Deaths",
+   "At least 4 (Istanbul 3, Rhodes 1)"
+  ],
+  [
+   "Istanbul incidents",
+   "1,277 floods, 15 landslides (AFAD)"
+  ]
+ ],
+ "timeline": [
+  [
+   "14 Oct morning",
+   "Rhodes: thunderstorms over the north of the island; 202 mm between 06:30 and 12:50 at the NOA station. Four cars swept into the sea at Stegna; one man killed."
+  ],
+  [
+   "14 Oct",
+   "Istanbul: rain begins in the morning and intensifies all day. Flash floods in Sarıyer and elsewhere; a 14-year-old electrocuted in Balat; flights diverted; schools closed to Monday."
+  ],
+  [
+   "15 Oct",
+   "Rhodes mayor requests a state of emergency; Istanbul deaths rise to three or four."
+  ],
+  [
+   "16–18 Oct",
+   "More heavy rain forecast for Istanbul over the weekend."
+  ]
+ ],
+ "sections": {
+  "The setup": "A warm but not record-warm sea: the eastern Mediterranean was 24.3 °C (+0.98 °C) on 1 October (OISST), after a record-hot summer in the central Mediterranean (+2.5 °C). Warm water in October supplies moisture and instability to the first autumn troughs.",
+  "The trigger": "Slow-moving, electrically intense thunderstorm clusters, typical of a cold upper trough or cut-off low crossing the warm Aegean and Black Sea. The specific synoptic system has not been published yet.",
+  "What amplified it": "Steep, short catchments on Rhodes; dense urban surfaces, underpasses and basement dwellings in Istanbul; storms that stalled for hours over the same area.",
+  "Climate signal": "No study. Physical reasoning: a warmer Mediterranean feeds heavier autumn downpours.",
+  "Still open": "The meteorological cause, final rainfall totals, the weekend rain, and the death toll. This will be completed when Turkish (MGM) and Greek (NOA, EMY) analyses are published."
+ },
+ "sources": [
+  {
+   "title": "Euronews: Istanbul shutdown after heaviest rain",
+   "url": "https://www.euronews.com/2026/10/15/at-least-two-killed-after-heavy-rain-and-widespread-flooding-causes-istanbul-shutdown"
+  },
+  {
+   "title": "The Watchers: deadly floods strike Rhodes",
+   "url": "https://watchers.news/2026/10/15/mayor-requests-a-state-of-emergency-deadly-floods-strike-rhodes-greece/"
+  },
+  {
+   "title": "Malay Mail: Istanbul reels from heaviest rainfall in over 80 years",
+   "url": "https://www.malaymail.com/news/world/2026/10/15/istanbul-reels-from-heaviest-rainfall-in-over-80-years-as-floods-kill-two/239248"
+  }
+ ],
+ "related": [
+  "lipari-2026"
+ ],
+ "depth": "deep",
+ "when": ""
+}

@@ -1,0 +1,86 @@
+{
+ "id": "santa-ana-oct-2026",
+ "name": "Southern California Santa Ana windstorm",
+ "type": "Offshore windstorm / extreme fire weather",
+ "region": "Los Angeles and Ventura counties, Southern California",
+ "start": "2026-10-15",
+ "end": "2026-10-18",
+ "status": "unfolding",
+ "as_of": "16 Oct 2026 (NWS Los Angeles warnings to 17 Oct, 8 pm)",
+ "headline": "A strong offshore wind event with gusts of 70–90 mph in the mountains, humidity near 10% and coastal heat in the 90s. It peaked on 16 October and eases from 18 October, ahead of a cooler storm system expected around 21–22 October.",
+ "numbers": [
+  [
+   "Pressure gradient",
+   "LAX − Tonopah −11.7 hPa (16 Oct)"
+  ],
+  [
+   "Peak gusts",
+   "81 mph Magic Mountain Truck Trail; 70–90 mph forecast"
+  ],
+  [
+   "Humidity",
+   "LAX ~10%"
+  ],
+  [
+   "Power shut off",
+   "~35,000 SCE customers in LA County"
+  ]
+ ],
+ "timeline": [
+  [
+   "14–15 Oct",
+   "High pressure builds over the Great Basin; red flag warnings issued from 15 Oct."
+  ],
+  [
+   "15 Oct",
+   "Gusts to 81 mph at Magic Mountain Truck Trail, 67 mph at Fremont Canyon; no marine layer."
+  ],
+  [
+   "16 Oct",
+   "Peak: LAX − Tonopah gradient −11.7 hPa, LAX humidity 10%, coastal highs 90–100 °F. High wind warnings in the mountains and corridors; ~35,000 customers' power shut off, 68,000 more considered."
+  ],
+  [
+   "17 Oct",
+   "Winds ease, but red flag conditions persist until 8 pm; coastal cooling begins."
+  ],
+  [
+   "18–20 Oct",
+   "Gradient weakens to near zero; onshore flow and cooling."
+  ],
+  [
+   "21–22 Oct (forecast)",
+   "An upper-level low drops down the coast: rain (about 0.5 in, locally 1 in+), a sharp cooldown and Sierra snow."
+  ]
+ ],
+ "sections": {
+  "The setup": "Cold, dry air piled up over the Great Basin under a strong surface high, while lower pressure lay off the Southern California coast. The pressure difference between LAX and Tonopah, Nevada, reached −11.7 hPa; anything below −6 hPa means a real Santa Ana. After a hot, dry September, fuels were cured and ready to burn.",
+  "The trigger": "The high-pressure surge behind the trough that caused the Plains freeze. As the air sinks from the high desert to the coast it warms by compression and dries out, which is why the coast saw 90–100 °F and 10% humidity in mid-October.",
+  "What amplified it": "The mountain passes and canyons (Soledad, Newhall, the Santa Clarita corridor, Malibu canyons) funnel and accelerate the flow, producing 70–90 mph gusts. No marine layer, record-warm coastal water notwithstanding, because the offshore flow pushed it out to sea.",
+  "How it ends": "The Great Basin high weakens and slides east from 18 October; the pressure gradient collapses and onshore flow returns by 20 October, ahead of the trough that should bring the first significant rain of the season around 21–22 October.",
+  "Climate signal": "No study. Santa Ana frequency has not clearly changed, but hotter, drier autumns before the first rain raise the fire risk when the winds arrive.",
+  "Still open": "Peak recorded gusts, any fires (unconfirmed reports of brush fires in Malibu and San Clemente), and how much rain the next storm delivers."
+ },
+ "sources": [
+  {
+   "title": "MyNewsLA: Santa Ana winds anticipated to reach 90 mph",
+   "url": "https://mynewsla.com/weather/2026/10/16/santa-ana-winds-to-intensify-across-los-angeles-county-3/"
+  },
+  {
+   "title": "NWS Los Angeles red flag warning (via KEYT)",
+   "url": "https://keyt.com/alerts/2026/10/16/red-flag-warning-issued-october-16-at-241pm-pdt-until-october-17-at-800pm-pdt-by-nws-los-angeles-oxnard-ca/"
+  },
+  {
+   "title": "ABC7: red flag warning across Southern California",
+   "url": "https://abc7.com/post/red-flag-warnings-take-effect-socal-strong-santa-ana-winds-raise-fire-concerns/19939252/"
+  },
+  {
+   "title": "Global Weather Watch data: Santa Ana gauge (Open-Meteo)",
+   "url": "data.html"
+  }
+ ],
+ "related": [
+  "kelvin-wave-california-2026"
+ ],
+ "depth": "deep",
+ "when": ""
+}

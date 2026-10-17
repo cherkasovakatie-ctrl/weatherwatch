@@ -1,0 +1,37 @@
+{
+ "id": "south-asia-pre-monsoon-heat-2026",
+ "name": "South Asia pre-monsoon heat",
+ "type": "Heatwave",
+ "region": "India, Pakistan",
+ "start": "2026-04-25",
+ "end": "2026-04-25",
+ "status": "ended",
+ "depth": "summary",
+ "as_of": "12 Oct 2026",
+ "when": "Mid-Apr–May",
+ "headline": "Heat built mid-April after western disturbances ended.",
+ "numbers": [
+  [
+   "When",
+   "Mid-Apr–May"
+  ],
+  [
+   "Deaths",
+   "47+ (early count)"
+  ],
+  [
+   "Confidence",
+   "high"
+  ]
+ ],
+ "timeline": [],
+ "sources": [],
+ "related": [],
+ "sections": {
+  "The setup": "Early Feb–Mar heat, drought.",
+  "The trigger": "Heat built mid-April after western disturbances ended.",
+  "What amplified it": "Above 46 °C in many cities; record power demand.",
+  "Climate signal": "~3× more likely, +0.9 °C (WWA).",
+  "Still open": "Summary entry: the full deep-dive (day-by-day timeline, steering, how it ended, sources) has not been written yet. It will be added as the log works back through the year."
+ }
+}

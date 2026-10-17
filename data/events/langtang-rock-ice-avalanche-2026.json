@@ -1,0 +1,37 @@
+{
+ "id": "langtang-rock-ice-avalanche-2026",
+ "name": "Langtang rock-ice avalanche",
+ "type": "Rock-ice avalanche / debris flood",
+ "region": "Rasuwa, Nepal",
+ "start": "2026-08-26",
+ "end": "2026-08-26",
+ "status": "ended",
+ "depth": "summary",
+ "as_of": "12 Oct 2026",
+ "when": "26 Aug",
+ "headline": "~2 km² of rock and ice fell 1,400 m from 5,150 m (energy like M5.5).",
+ "numbers": [
+  [
+   "When",
+   "26 Aug"
+  ],
+  [
+   "Deaths",
+   "1,300+ (5,000+ missing)"
+  ],
+  [
+   "Confidence",
+   "high"
+  ]
+ ],
+ "timeline": [],
+ "sources": [],
+ "related": [],
+ "sections": {
+  "The setup": "Very warm Jul–Aug; more rain than snow; freezing level up ~100 m/decade; glacier retreat 1–2.3%/yr.",
+  "The trigger": "~2 km² of rock and ice fell 1,400 m from 5,150 m (energy like M5.5).",
+  "What amplified it": "Became a debris flood at ~188 km/h; 5,850 m³/s at Devghat; 30.5 million m³ of debris.",
+  "Climate signal": "Warming raised local Jul–Aug heat ~1.5 °C; geology the root cause (WWA).",
+  "Still open": "Summary entry: the full deep-dive (day-by-day timeline, steering, how it ended, sources) has not been written yet. It will be added as the log works back through the year."
+ }
+}

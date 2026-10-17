@@ -1,0 +1,37 @@
+{
+ "id": "us-fourth-of-july-heat-dome-2026",
+ "name": "US Fourth of July heat dome",
+ "type": "Heatwave",
+ "region": "Central and eastern US",
+ "start": "2026-07-02",
+ "end": "2026-07-02",
+ "status": "ended",
+ "depth": "summary",
+ "as_of": "12 Oct 2026",
+ "when": "30 Jun–4 Jul",
+ "headline": "Ridge drew humid Gulf air; lasted over a week.",
+ "numbers": [
+  [
+   "When",
+   "30 Jun–4 Jul"
+  ],
+  [
+   "Deaths",
+   "Not reported"
+  ],
+  [
+   "Confidence",
+   "high"
+  ]
+ ],
+ "timeline": [],
+ "sources": [],
+ "related": [],
+ "sections": {
+  "The setup": "Pronounced upper ridge over the eastern US.",
+  "The trigger": "Ridge drew humid Gulf air; lasted over a week.",
+  "What amplified it": "Heat index 105–115 °F; record 5-day heat stress.",
+  "Climate signal": "Heat stress +1.5 °C vs pre-industrial (WWA).",
+  "Still open": "Summary entry: the full deep-dive (day-by-day timeline, steering, how it ended, sources) has not been written yet. It will be added as the log works back through the year."
+ }
+}

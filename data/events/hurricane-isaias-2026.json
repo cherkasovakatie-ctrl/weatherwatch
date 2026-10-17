@@ -1,0 +1,37 @@
+{
+ "id": "hurricane-isaias-2026",
+ "name": "Hurricane Isaias",
+ "type": "Hurricane",
+ "region": "Florida Panhandle, Alabama, Georgia",
+ "start": "2026-10-09",
+ "end": "2026-10-09",
+ "status": "ended",
+ "depth": "summary",
+ "as_of": "12 Oct 2026",
+ "when": "7–9 Oct",
+ "headline": "Low over the southern Gulf ~7 Oct, MJO phases 1–2 favourable.",
+ "numbers": [
+  [
+   "When",
+   "7–9 Oct"
+  ],
+  [
+   "Deaths",
+   "At least 4"
+  ],
+  [
+   "Confidence",
+   "medium"
+  ]
+ ],
+ "timeline": [],
+ "sources": [],
+ "related": [],
+ "sections": {
+  "The setup": "El Niño shear suppresses the Atlantic (17% of normal energy); the Gulf is the exception.",
+  "The trigger": "Low over the southern Gulf ~7 Oct, MJO phases 1–2 favourable.",
+  "What amplified it": "Gulf water 28–29.5 °C; shear ~20 kt. Capped by rising shear (27–39 kt) and dry air before landfall as Cat 2.",
+  "Climate signal": "No study.",
+  "Still open": "Summary entry: the full deep-dive (day-by-day timeline, steering, how it ended, sources) has not been written yet. It will be added as the log works back through the year."
+ }
+}

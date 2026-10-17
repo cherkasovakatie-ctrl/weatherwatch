@@ -1,0 +1,37 @@
+{
+ "id": "el-nino-2026",
+ "name": "Record east-based El Niño",
+ "type": "Ocean–atmosphere driver",
+ "region": "Equatorial Pacific",
+ "start": "2026-10-07",
+ "end": "",
+ "status": "unfolding",
+ "depth": "summary",
+ "as_of": "12 Oct 2026",
+ "when": "Ongoing",
+ "headline": "ENSO Longitude Index 191.5°E, the easternmost on record: an east-based event like 1982–83 and 1997–98.",
+ "numbers": [
+  [
+   "When",
+   "Ongoing"
+  ],
+  [
+   "Deaths",
+   "—"
+  ],
+  [
+   "Confidence",
+   "high"
+  ]
+ ],
+ "timeline": [],
+ "sources": [],
+ "related": [],
+ "sections": {
+  "The setup": "Weekly Niño 3.4 +3.3 °C (7 Oct), relative +2.4; Niño 1+2 +5.2; heat content +3.39 °C; official ONI (Jul–Sep) +2.16.",
+  "The trigger": "ENSO Longitude Index 191.5°E, the easternmost on record: an east-based event like 1982–83 and 1997–98.",
+  "What amplified it": "California: >90% odds of a wetter-than-average winter, peak Dec–Mar (Swain). Quoted \"ONI +3.3\" is a weekly value, not the official ONI.",
+  "Climate signal": "California emergency proclamation cites a study finding El Niño events now 36% stronger than pre-industrial.",
+  "Still open": "Summary entry: the full deep-dive (day-by-day timeline, steering, how it ended, sources) has not been written yet. It will be added as the log works back through the year."
+ }
+}

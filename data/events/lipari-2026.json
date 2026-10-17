@@ -1,0 +1,37 @@
+{
+ "id": "lipari-2026",
+ "name": "Lipari flash flood",
+ "type": "Flash flood",
+ "region": "Aeolian Islands, Sicily",
+ "start": "2026-10-10",
+ "end": "2026-10-10",
+ "status": "ended",
+ "depth": "summary",
+ "as_of": "12 Oct 2026",
+ "when": "10 Oct",
+ "headline": "Upper trough from the west: 500 hPa heights fell 5,825 to 5,687 m.",
+ "numbers": [
+  [
+   "When",
+   "10 Oct"
+  ],
+  [
+   "Deaths",
+   "None"
+  ],
+  [
+   "Confidence",
+   "medium"
+  ]
+ ],
+ "timeline": [],
+ "sources": [],
+ "related": [],
+ "sections": {
+  "The setup": "Record summer Mediterranean heat; sea 25.7 °C on 3 Oct.",
+  "The trigger": "Upper trough from the west: 500 hPa heights fell 5,825 to 5,687 m.",
+  "What amplified it": "CAPE 1,850–2,280 J/kg; short steep volcanic torrents through built-up channels. Models gave only ~5 mm/h.",
+  "Climate signal": "No study; warmer sea feeds autumn storms (physical reasoning).",
+  "Still open": "Summary entry: the full deep-dive (day-by-day timeline, steering, how it ended, sources) has not been written yet. It will be added as the log works back through the year."
+ }
+}

@@ -1,0 +1,111 @@
+{
+ "id": "trudy-2026",
+ "name": "Hurricane Trudy",
+ "type": "Hurricane",
+ "region": "Eastern Pacific · Michoacán, Colima, Jalisco (Mexico)",
+ "start": "2026-10-13",
+ "end": "",
+ "status": "unfolding",
+ "as_of": "16 Oct 2026, 21 UTC (NHC advisories 11A–14)",
+ "headline": "The third major hurricane in a month on the same stretch of Mexican coast. Trudy jumped from Category 1 to Category 3 in under nine hours on 16 October, then stalled when dry air opened its eyewall.",
+ "numbers": [
+  [
+   "Peak so far",
+   "120 mph (105 kt), 956 mb"
+  ],
+  [
+   "Strengthening",
+   "+25 kt in < 9 h (16 Oct)"
+  ],
+  [
+   "Forecast peak",
+   "~140 mph (Cat 4), 17 Oct"
+  ],
+  [
+   "Rain forecast",
+   "4–8 in, isolated 15 in"
+  ],
+  [
+   "Closest approach",
+   "~65 km off Colima–Jalisco, night of 17–18 Oct"
+  ]
+ ],
+ "timeline": [
+  [
+   "13 Oct",
+   "First advisories: forms from a disturbance in the monsoon trough south of Guerrero, over water near 30 °C, the 20th named storm of a record eastern Pacific season."
+  ],
+  [
+   "16 Oct 00 UTC",
+   "Category 1, 80 kt, 978 mb, 14.0°N 101.8°W, drifting NNW at 5 kt."
+  ],
+  [
+   "16 Oct ~06–09 UTC",
+   "Category 3, 120 mph (105 kt), 957 mb (NHC 11A; SMN declared Cat 3 at 00:00 local). About +25 kt in under nine hours, more than half the 24-hour rapid-intensification threshold."
+  ],
+  [
+   "16 Oct 15 UTC",
+   "Advisory 13: 120 mph, 956 mb, 14.6°N 102.5°W, NNW at 5 mph. Hurricane Warning Manzanillo–Playa Perula."
+  ],
+  [
+   "16 Oct afternoon",
+   "Strengthening \"sputtered twice\" (NHC): the eye blurred and the south eyewall opened, likely from dry air wrapping in; down to about 110 mph, 963 mb."
+  ],
+  [
+   "17 Oct (forecast)",
+   "Re-strengthening to a peak near 125 kt (Cat 4) early on 17 Oct; tropical-storm conditions reach the coast during the day."
+  ],
+  [
+   "17–18 Oct night (forecast)",
+   "Closest approach to Manzanillo and the Colima–Jalisco coast, about 65 km offshore (SMN), as a major hurricane. A small shift east would mean landfall."
+  ],
+  [
+   "18–19 Oct (forecast)",
+   "Brushes Cabo Corrientes and Puerto Vallarta, weakening fast as shear rises and the circulation drags over land and cooler water."
+  ],
+  [
+   "21 Oct (forecast)",
+   "Remnant low well offshore."
+  ]
+ ],
+ "sections": {
+  "The setup": "Three things primed this coast. First, the record east-based El Niño: Niño 1+2 is +4.7 to +5.2 °C, and the warm pool off southern Mexico is near 30 °C and deep, so the ocean under Trudy holds a lot of heat. Second, the season is the most energetic on record: eastern Pacific ACE stood at about 332 against a normal of 122 before Trudy. El Niño weakens the trade winds and shear over the eastern Pacific, the mirror image of what it does to the Atlantic. Third, the monsoon trough has been parked along 12–15°N all October, the same \"rail\" that produced Rachel and Simon, so storms keep forming in the same place and following the same path.",
+  "The trigger": "A disturbance in the monsoon trough organised south of Guerrero on 13–14 October. Low shear and moist mid-levels let it consolidate quickly. Once an inner core formed on 15–16 October, the warm, deep ocean allowed the burst from Category 1 to Category 3 in under nine hours.",
+  "What amplified it": "Ocean heat content, not only surface temperature: Hurricane Simon passed over the same water a week earlier and churned up cooler water (a \"cold wake\"), but under El Niño the upper ocean refilled in about three days, so Trudy found fresh fuel. Shear was low (under 10 kt) through 16 October, and the very slow forward speed (5 mph) kept the storm over the warmest pool, but also risks upwelling cooler water beneath itself.",
+  "What held it back": "Dry air. On 16 October dry mid-level air wrapped into the south side and opened the eyewall, twice interrupting strengthening. The MJO is in phase 2, which is mildly unfavourable for the eastern Pacific, so El Niño is doing the heavy lifting. Rising shear is forecast from 17–18 October.",
+  "What steers it": "Steering currents are weak (5 mph forward speed). Trudy is moving north-northwest around the western edge of a mid-level ridge over Mexico, while the trough heading for California erodes that ridge from the northwest (our reading of the forecast pattern; NHC and SMN describe only the track). So the track runs almost along the shoreline. That is why a 20–30 km shift decides between a close pass and a landfall. After 18 October the high rebuilds to the north and pushes the weakening storm west-northwest, out to sea.",
+  "Impacts so far and expected": "No damage reports yet. Forecasts: hurricane conditions in the warning area late on 17 October; 100–200 mm of rain (isolated 380 mm) on Michoacán, Colima and Jalisco, with mudslide risk on slopes already saturated by Simon; destructive waves and coastal flooding; schools closed in all 85 municipalities of Guerrero. Rain from Trudy is expected to merge with Cold Front 2 over Mexico.",
+  "How it should end": "Weakening from late on 17 October: rising upper-level shear, interaction with the mountains of Jalisco, and cooler water as it drifts northwest. A remnant low around 21 October.",
+  "Climate signal": "No attribution study yet. Physical reasoning: warmer oceans raise the ceiling for rapid intensification, and El Niño years favour active eastern Pacific seasons. The cluster of three major hurricanes on one coast in a month fits both.",
+  "Still open": "Peak intensity on 17 October, the exact closest approach, rainfall totals and impacts. This entry will be updated as NHC and SMN reports come in."
+ },
+ "sources": [
+  {
+   "title": "NHC Public Advisory 13 (via Cape Weather)",
+   "url": "https://capeweather.com/hurricane-trudy-public-advisory-number-13/"
+  },
+  {
+   "title": "Weathernews: Trudy forecast to rapidly intensify",
+   "url": "https://sea.weathernews.com/resources/202610/275"
+  },
+  {
+   "title": "Rio Times: Trudy path and intensity",
+   "url": "https://www.riotimesonline.com/hurricane-trudy-path-and-intensity-mexico-2026/"
+  },
+  {
+   "title": "El Financiero: SMN closest-approach forecast",
+   "url": "https://www.elfinanciero.com.mx/nacional/2026/10/16/que-dia-estara-el-huracan-trudy-cerca-de-la-costa-de-jalisco-como-categoria-4/"
+  },
+  {
+   "title": "Latin Times: three storms, one coast",
+   "url": "https://www.latintimes.com/three-storms-one-coast-how-trudy-became-mexicos-biggest-pacific-threat-while-ensenada-still-600257"
+  }
+ ],
+ "related": [
+  "simon-2026",
+  "rachel-2026",
+  "el-nino-2026"
+ ],
+ "depth": "deep",
+ "when": ""
+}

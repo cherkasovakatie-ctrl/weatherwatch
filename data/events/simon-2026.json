@@ -1,0 +1,67 @@
+{
+ "id": "simon-2026",
+ "name": "Hurricane Simon",
+ "type": "Hurricane",
+ "region": "Eastern Pacific · Jalisco–Colima, Mexico",
+ "start": "2026-10-07",
+ "end": "2026-10-15",
+ "status": "ended",
+ "as_of": "15 Oct 2026",
+ "headline": "Simon exploded from Category 1 to Category 4 in about 24 hours (peak 135 kt), then stalled offshore for nearly a week instead of hitting Sinaloa as forecast, battering the Jalisco–Colima–Guerrero coast and closing Puerto Vallarta airport.",
+ "numbers": [
+  [
+   "Peak",
+   "135 kt (Cat 4)"
+  ],
+  [
+   "Strengthening",
+   "+50 mph in ~24 h"
+  ],
+  [
+   "Shear",
+   "8–12 kt"
+  ],
+  [
+   "Deaths",
+   "6 with Rachel (AP, 13 Oct)"
+  ]
+ ],
+ "timeline": [
+  [
+   "early Oct",
+   "Forms from a tropical wave over 30–31 °C water at 18–20°N."
+  ],
+  [
+   "9–11 Oct",
+   "Category 1 to Category 4 in about 24 hours (+50 mph; the rapid-intensification threshold is +35); peak 135 kt on 11 Oct near the west coast of Mexico."
+  ],
+  [
+   "12–14 Oct",
+   "Expected to hit Sinaloa around 14 Oct, but stalls offshore as steering collapses; downed trees and poles, foothill floods, Puerto Vallarta airport shut for days."
+  ],
+  [
+   "14–15 Oct",
+   "Drifts north-west over its own cold wake and dissipates; its moisture feeds the Oklahoma floods."
+  ]
+ ],
+ "sections": {
+  "The setup": "The record El Niño season: eastern Pacific energy 323 against 121 normal at the time; water 30–31 °C close to the coast.",
+  "The trigger": "A tropical wave moving west from Central America organised over the warmest water of the season.",
+  "What amplified it": "Very low shear (8–12 kt) and a moist mid-troposphere (relative humidity 84–100%) allowed textbook rapid intensification: +50 mph in about a day.",
+  "What steered it": "Weak and conflicting steering: a mid-level high to the east and a trough off California cancelled each other, so Simon stalled for nearly a week. Models had sent it into Sinaloa.",
+  "How it ended": "Stalling made it churn up cooler water beneath itself (its \"cold wake\"), cutting off its fuel. It weakened and drifted northwest. Under El Niño that cold wake recovered within about three days, ready for Trudy.",
+  "Climate signal": "No study; warmer oceans raise the ceiling for rapid intensification (physical reasoning)."
+ },
+ "sources": [
+  {
+   "title": "Latin Times: three storms, one coast",
+   "url": "https://www.latintimes.com/three-storms-one-coast-how-trudy-became-mexicos-biggest-pacific-threat-while-ensenada-still-600257"
+  }
+ ],
+ "related": [
+  "trudy-2026",
+  "southern-plains-oct-2026"
+ ],
+ "depth": "deep",
+ "when": ""
+}
