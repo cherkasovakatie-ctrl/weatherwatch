@@ -1,0 +1,92 @@
+{
+ "id": "china-floods-1931",
+ "name": "China floods (Yangtze and Huai basins) (1931)",
+ "type": "River flood",
+ "region": "Central and eastern China",
+ "status": "historical",
+ "depth": "deep",
+ "as_of": "17 Oct 2026",
+ "when": "June–November 1931",
+ "headline": "A drought, a snowy winter and a summer of storms merged three flood seasons into one. About 180,000 km² went under water; the deaths came first from drowning and then, for a year, from disease and hunger.",
+ "numbers": [
+  [
+   "Rank in list",
+   "#1"
+  ],
+  [
+   "When",
+   "June–November 1931"
+  ],
+  [
+   "Death toll in rankings",
+   "About 422,000–4 million"
+  ],
+  [
+   "Best-documented figure",
+   "≈2 million (National Flood Relief Commission, 1933, drowning plus famine)"
+  ],
+  [
+   "Confidence in the toll",
+   "Low: compilation figure without a traceable contemporary count"
+  ]
+ ],
+ "timeline": [
+  [
+   "1928–1930",
+   "Long drought across the region."
+  ],
+  [
+   "Winter 1930–31",
+   "Heavy snow and ice build up in the mountains."
+  ],
+  [
+   "Spring 1931",
+   "Snowmelt reaches the middle Yangtze during heavy spring rain."
+  ],
+  [
+   "July 1931",
+   "Nine cyclones affect the region in one month, against about two in a normal year; four Yangtze stations record more than 600 mm."
+  ],
+  [
+   "27 July",
+   "A Wuhan dike fails at about 6 a.m.; Hankou stays under water for nearly three months."
+  ],
+  [
+   "19 August",
+   "The Yangtze crests at Hankou, its highest level since records began in the mid-19th century."
+  ],
+  [
+   "25 August",
+   "The Grand Canal dikes at Gaoyou Lake give way: 18,000 drown in Gaoyou County alone."
+  ],
+  [
+   "May 1932",
+   "Cholera epidemic among refugees: 31,974 officially recorded deaths."
+  ]
+ ],
+ "sections": {
+  "The weather setup": [
+   "Normally the middle and lower Yangtze has three distinct high-water periods, in spring, summer and autumn. In 1931 they ran together. A two-to-three-year drought ended in a winter of heavy snow; the spring melt arrived during heavy rain; and then July brought an extraordinary run of storms, nine cyclones in a single month against an average of about two, with four Yangtze stations measuring more than 600 mm of rain.",
+   "Autumn rain prolonged the high water, and some rivers did not return to their channels until November. The Yangtze, the Huai, the Yellow River and the Grand Canal all flooded; eight provinces formed the core of the disaster, with impacts from Guangdong to Manchuria."
+  ],
+  "What made it so deadly": [
+   "The flood plains were among the most densely farmed and populated land on Earth, protected by dikes rather than high ground. When the dikes failed, water spread across 180,000 km², an area about the size of England and half of Scotland, and stayed for months.",
+   "Most deaths did not come from the first wave. With crops lost (about 15% of the Yangtze valley's wheat and rice, far more in the flooded areas) and millions displaced into crowded camps, cholera, dysentery, measles, malaria and schistosomiasis spread. Contemporary accounts describe people eating bark and earth, and selling children.",
+   "The Nationalist government was new and stretched; relief, run by the National Flood Relief Commission under T. V. Soong with the refugee expert John Hope Simpson, had to compete with civil war and, from autumn 1931, Japan's invasion of Manchuria, which also collapsed the bond market used to fund relief."
+  ],
+  "The death toll and why it is uncertain": [
+   "Every number measures something different. A University of Nanking survey (Buck, 1932) counted about 150,000 drownings in the early months, and an official report about 140,000. Chinese historians later compiled 422,420 deaths from contemporary media reports (Li Wenhai et al., 1994), which is not an official figure. The National Flood Relief Commission's own report gave about 2 million dead from drowning and food shortage. Western sources often repeat 3.7–4 million, based on claims about famine and disease that are hard to trace.",
+   "The honest range is therefore several hundred thousand to a few million. What is solid is the scale of exposure: 25 million people affected by the official count, up to 53 million by historians' estimates."
+  ],
+  "Aftermath": [
+   "Relief was financed partly by a large US loan of wheat and flour. The Huai River Conservancy Commission was created, but war and lack of money meant little large-scale flood control was built. Mao Zedong later cited the 1931 flood when promoting a Yangtze dam in 1953; the Three Gorges Dam finally came into full operation in 2012."
+  ]
+ },
+ "related": [],
+ "sources": [
+  {
+   "title": "Wikipedia: 1931 China floods (compiles Buck 1932; NFRC 1933; Li Wenhai et al. 1994; Courtney 2018)",
+   "url": "https://en.wikipedia.org/wiki/1931_China_floods"
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "id": "st-felix-flood-1530",
+ "name": "St. Felix's flood (1530)",
+ "type": "North Sea storm surge",
+ "region": "Flanders and Zeeland (Netherlands and Belgium)",
+ "status": "historical",
+ "depth": "deep",
+ "as_of": "17 Oct 2026",
+ "when": "5 November 1530",
+ "headline": "A North Sea storm surge on 5 November 1530, 'Evil Saturday', swept away much of Zeeland and Flanders, including the land around Reimerswaal, which was never recovered.",
+ "numbers": [
+  [
+   "Rank in list",
+   "#12"
+  ],
+  [
+   "When",
+   "5 November 1530"
+  ],
+  [
+   "Death toll in rankings",
+   "Commonly reported as 100,000 or more (uncertain)"
+  ],
+  [
+   "Best-documented figure",
+   "'More than 100,000 reportedly killed' (no primary count)"
+  ],
+  [
+   "Confidence in the toll",
+   "Low: compilation figure without a traceable contemporary count"
+  ]
+ ],
+ "timeline": [
+  [
+   "5 November 1530",
+   "Storm surge on St. Felix's day breaks dikes across Zeeland and Flanders."
+  ],
+  [
+   "Afterwards",
+   "Oost-Watering on Zuid-Beveland is lost except the town of Reimerswaal; the 'Drowned Land of Reimerswaal' remains under water."
+  ]
+ ],
+ "sections": {
+  "What happened": [
+   "On Saturday 5 November 1530, St. Felix's day, a North Sea storm surge broke through dikes in Zeeland and Flanders. Large parts of the region were washed away, including nearly all of Oost-Watering on Zuid-Beveland; the area became the Verdronken Land van Reimerswaal ('drowned land of Reimerswaal'), and the town itself was later abandoned. The day was remembered as kwade zaterdag, 'Evil Saturday'."
+  ],
+  "Why North Sea surges are so dangerous": [
+   "The southern North Sea is shallow and narrows toward the Strait of Dover. When a deep low-pressure system drives north-westerly winds down its length at high tide, water piles against the Dutch and Flemish coasts. Much of the land behind the dikes was low-lying reclaimed peatland, so once breached it could not easily be won back."
+  ],
+  "The death toll and why it is uncertain": [
+   "The figure of 'more than 100,000' killed appears in modern summaries with the word 'reportedly' and no primary count; the population of the affected area at the time makes so high a toll hard to reconcile. Sixteenth-century chroniclers often reported very large round numbers. We rate it low confidence."
+  ]
+ },
+ "related": [
+  "st-lucia-flood-1287",
+  "north-sea-flood-1099"
+ ],
+ "sources": [
+  {
+   "title": "Wikipedia: St. Felix's flood (cites Lambert 1971, The Making of the Dutch Landscape)",
+   "url": "https://en.wikipedia.org/wiki/St._Felix%27s_flood"
+  },
+  {
+   "title": "Wikipedia: Storm tides of the North Sea",
+   "url": "https://en.wikipedia.org/wiki/Storm_tides_of_the_North_Sea"
+  }
+ ]
+}

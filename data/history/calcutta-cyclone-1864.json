@@ -1,0 +1,82 @@
+{
+ "id": "calcutta-cyclone-1864",
+ "name": "Calcutta cyclone (1864)",
+ "type": "Tropical cyclone and storm surge",
+ "region": "Calcutta (Kolkata) and the Hooghly estuary, India",
+ "status": "historical",
+ "depth": "deep",
+ "as_of": "17 Oct 2026",
+ "when": "2–7 October 1864; Calcutta struck on 5 October",
+ "headline": "A cyclone drove a storm surge up the Hooghly River into Calcutta, wrecking most ships in the port. It was one of the disasters that preceded the founding of the India Meteorological Department.",
+ "numbers": [
+  [
+   "Rank in list",
+   "#20"
+  ],
+  [
+   "When",
+   "2–7 October 1864; Calcutta struck on 5 October"
+  ],
+  [
+   "Death toll in rankings",
+   "About 50,000–100,000"
+  ],
+  [
+   "Best-documented figure",
+   "More than 60,000 (Gastrell and Blanford's official report, 1866)"
+  ],
+  [
+   "Confidence in the toll",
+   "Medium: contemporary official or survey estimate with known gaps"
+  ]
+ ],
+ "timeline": [
+  [
+   "2 October 1864",
+   "Cyclone forms over the Bay of Bengal."
+  ],
+  [
+   "5 October",
+   "Crosses the West Bengal coast south of the Hooghly; the storm surge runs up the river and floods Calcutta and the surrounding districts."
+  ],
+  [
+   "1866",
+   "Gastrell and Blanford publish the official Report on the Calcutta Cyclone of the 5th October 1864."
+  ],
+  [
+   "1875",
+   "The government creates the India Meteorological Department, with H. F. Blanford as Meteorological Reporter."
+  ]
+ ],
+ "sections": {
+  "What happened": [
+   "The cyclone crossed the coast south of the Hooghly on 5 October 1864. The storm surge pushed up the river into Calcutta, then the capital of British India, destroying much of the dockyards, levelling brick houses and tens of thousands of huts, and wrecking or damaging most of the ships in the port. The ports of Khejuri and Hijli at the river mouth were destroyed."
+  ],
+  "What made it so deadly": [
+   "Most victims drowned in the surge in the low districts along the river and coast; others died afterwards from cholera, dysentery and smallpox. In one locality the official report lists 3,740 drowning deaths and 4,243 deaths from sickness, showing how much of the toll came after the storm."
+  ],
+  "The death toll and why it is uncertain": [
+   "The official report by Gastrell and Blanford (1866) is the main source and supports a toll of more than 60,000, while noting that exact numbers did not exist. Some lists give 50,000 or 100,000; one compilation repeats an implausible 300,000. We rate the 60,000 order of magnitude medium confidence."
+  ],
+  "Aftermath": [
+   "The India Meteorological Department's own history lists the 1864 cyclone, followed by monsoon failures in 1866 and 1871, before the government's decision in 1875 to bring all meteorological work under one department, led by Blanford, who had co-authored the cyclone report."
+  ]
+ },
+ "related": [
+  "bengal-cyclone-1942"
+ ],
+ "sources": [
+  {
+   "title": "Wikipedia: 1864 Calcutta cyclone (cites Gastrell and Blanford 1866, Report on the Calcutta Cyclone of the 5th October 1864)",
+   "url": "https://en.wikipedia.org/wiki/1864_Calcutta_cyclone"
+  },
+  {
+   "title": "India Meteorological Department: History of meteorological services in India",
+   "url": "https://mausam.imd.gov.in/responsive/history.php"
+  },
+  {
+   "title": "Weather Underground: The 36 deadliest tropical cyclones in world history (table; notes that pre-1900 tolls are highly uncertain)",
+   "url": "https://www.wunderground.com/hurricane/articles/deadliest-tropical-cyclones"
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "id": "north-sea-flood-1099",
+ "name": "North Sea flood (1099)",
+ "type": "North Sea storm surge",
+ "region": "England (Thames estuary) and the Low Countries",
+ "status": "historical",
+ "depth": "deep",
+ "as_of": "17 Oct 2026",
+ "when": "11 November 1099",
+ "headline": "The Anglo-Saxon Chronicle records a great sea flood on 11 November 1099 but gives no death toll. The 100,000 figure appears only in modern lists.",
+ "numbers": [
+  [
+   "Rank in list",
+   "#13"
+  ],
+  [
+   "When",
+   "11 November 1099"
+  ],
+  [
+   "Death toll in rankings",
+   "Up to 100,000 (uncertain)"
+  ],
+  [
+   "Best-documented figure",
+   "No contemporary count; the chronicle gives none"
+  ],
+  [
+   "Confidence in the toll",
+   "Low: compilation figure without a traceable contemporary count"
+  ]
+ ],
+ "timeline": [
+  [
+   "11 November 1099",
+   "St. Martin's day: a storm tide floods the coast; the Anglo-Saxon Chronicle notes the sea rising to a great height."
+  ]
+ ],
+ "sections": {
+  "What happened": [
+   "The Anglo-Saxon Chronicle records that on St. Martin's day 1099 the sea flood rose so high and did so much harm that no one remembered anything like it. Later tradition linked the storm to the loss of land at the Goodwin Sands off Kent, and the flood is often said to have struck the Low Countries too."
+  ],
+  "The death toll and why it is uncertain": [
+   "No medieval source we found gives a number. The figure of 'up to 100,000' circulates in modern rankings without a traceable origin, and the populations of the affected coasts in 1099 were small. The flood is real; the toll is not documented. We list it because it appears in standard rankings, with the lowest confidence rating."
+  ]
+ },
+ "related": [
+  "st-lucia-flood-1287",
+  "st-felix-flood-1530"
+ ],
+ "sources": [
+  {
+   "title": "Wikipedia: Storm tides of the North Sea (1099 entry; cites the Met Office 'Flood alert!' summary of the Anglo-Saxon Chronicle)",
+   "url": "https://en.wikipedia.org/wiki/Storm_tides_of_the_North_Sea"
+  }
+ ]
+}

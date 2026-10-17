@@ -1,0 +1,81 @@
+{
+ "id": "great-backerganj-cyclone-1876",
+ "name": "Great Backerganj (Bengal) cyclone (1876)",
+ "type": "Tropical cyclone and storm surge",
+ "region": "Meghna estuary, Backerganj (Barisal), present-day Bangladesh",
+ "status": "historical",
+ "depth": "deep",
+ "as_of": "17 Oct 2026",
+ "when": "29 October–1 November 1876; landfall 31 October",
+ "headline": "A storm surge put at up to 12 m swept the islands of the Meghna estuary at night; about half the deaths came afterwards, from hunger and disease.",
+ "numbers": [
+  [
+   "Rank in list",
+   "#6"
+  ],
+  [
+   "When",
+   "29 October–1 November 1876; landfall 31 October"
+  ],
+  [
+   "Death toll in rankings",
+   "About 200,000 including epidemic and famine deaths"
+  ],
+  [
+   "Best-documented figure",
+   "≈100,000 drowned plus ≈100,000 in the famine and epidemic that followed"
+  ],
+  [
+   "Confidence in the toll",
+   "Medium: contemporary official or survey estimate with known gaps"
+  ]
+ ],
+ "timeline": [
+  [
+   "27–29 October",
+   "A depression forms over the Bay of Bengal and intensifies."
+  ],
+  [
+   "31 October",
+   "Landfall on the Backerganj coast near the Meghna estuary; surge reported at 3–13.6 m, about 12 m in the estuary."
+  ],
+  [
+   "1 November",
+   "The storm dissipates inland."
+  ],
+  [
+   "Following months",
+   "Famine and epidemic disease follow the loss of crops, cattle and water supplies."
+  ]
+ ],
+ "sections": {
+  "The weather setup": [
+   "The storm tracked north into the head of the Bay of Bengal, where the shallow continental shelf and the converging coast of the Meghna estuary amplify a surge. Estimated winds were about 220 km/h, and surge estimates range from 3 m to 13.6 m depending on location; the Banglapedia gives about 12 m (40 ft) in the estuary near Barisal, Noakhali and Chittagong."
+  ],
+  "What made it so deadly": [
+   "The estuary's islands and chars were densely farmed and only a few metres above sea level. The surge came at night over flat land with nowhere to climb. Afterwards, the loss of stored grain, cattle and clean water turned the disaster into a famine and epidemic."
+  ],
+  "The death toll and why it is uncertain": [
+   "The commonly cited total is about 200,000: roughly half drowned in the surge and the other half died in the famine and epidemic that followed. The British administration and the meteorologist H. F. Blanford documented the storm, so this toll is better grounded than earlier Bengal cyclones, but counting in the remote estuary was still approximate. We rate it medium confidence."
+  ]
+ },
+ "related": [
+  "backerganj-cyclone-1584",
+  "bhola-cyclone-1970",
+  "chittagong-cyclone-1897"
+ ],
+ "sources": [
+  {
+   "title": "Wikipedia: 1876 Bengal cyclone (cites SAARC Meteorological Research Centre 1998 and Banglapedia)",
+   "url": "https://en.wikipedia.org/wiki/1876_Bengal_cyclone"
+  },
+  {
+   "title": "Wikipedia: List of Bangladesh tropical cyclones (cites Blanford, Journal of the Asiatic Society XLVI; Henderson 1979; IMD 1979)",
+   "url": "https://en.wikipedia.org/wiki/List_of_Bangladesh_tropical_cyclones"
+  },
+  {
+   "title": "Weather Underground: The 36 deadliest tropical cyclones in world history (table; notes that pre-1900 tolls are highly uncertain)",
+   "url": "https://www.wunderground.com/hurricane/articles/deadliest-tropical-cyclones"
+  }
+ ]
+}

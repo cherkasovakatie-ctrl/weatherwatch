@@ -42,7 +42,7 @@ body { font-family: var(--font-anthropic-sans); }
 .card{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:10px;padding:16px 18px;margin:12px 0}
 .nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(12rem,1fr));gap:10px;margin:12px 0}.nums>div{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:10px;padding:10px 12px}
 .nums .l{font-size:.75rem;color:var(--color-fg-muted)}.nums .v{font-size:.95rem;margin-top:2px;font-variant-numeric:tabular-nums}
-.sec h2{font-size:1.05rem;margin:0 0 6px}.sec p{margin:0;line-height:1.6}
+.sec h2{font-size:1.05rem;margin:0 0 6px}.sec p{margin:0;line-height:1.6}.sec p+p{margin-top:.7em}.chip.historical{border-style:solid}
 .tl{list-style:none;margin:0;padding:0}.tl li{display:grid;grid-template-columns:9.5rem 1fr;gap:12px;padding:7px 0;border-top:1px solid var(--color-border-line);font-size:.9rem;line-height:1.5}
 .tl li:first-child{border-top:0}.tl b{font-weight:600;font-variant-numeric:tabular-nums}@media(max-width:600px){.tl li{grid-template-columns:1fr;gap:2px}}
 .src li{margin:4px 0;font-size:.88rem}
@@ -73,6 +73,7 @@ body { font-family: var(--font-anthropic-sans); }
   <a class="brand" href="./">Global Weather Watch</a>
   <a href="./" >Dashboard</a>
   <a href="events.html" aria-current="page">Event log</a>
+  <a href="deadliest.html">Deadliest events</a>
   <a href="mundane.html">Mundane cycles</a>
   <a href="data.html" >Data archive</a>
   <a href="about.html" >About &amp; method</a>
@@ -80,13 +81,17 @@ body { font-family: var(--font-anthropic-sans); }
 <main class="wrap" id="main"><p class="back"><a href="events.html">← Event log</a></p><div id="ev"><p class="lede">Loading…</p></div></main><footer class="site-foot">Data snapshot: <span data-asof>16 October 2026</span>. Independent, non-commercial analysis built from public sources (NOAA, NASA, USGS, Smithsonian GVP, GDACS, CPC, IRI, Copernicus/Open-Meteo, SILSO, IERS, Coral Reef Watch and others; see <a href="about.html">About &amp; method</a>). Not an official forecast or warning service — for warnings follow your national weather service. Analysis prepared with Claude (Anthropic).</footer>
 <script>
 (async () => {
-  const id = new URLSearchParams(location.search).get('id');
+  const qs = new URLSearchParams(location.search);
+  const id = qs.get('id');
+  const set = qs.get('set') === 'history' ? 'history' : 'events';
+  if (set === 'history') { const b = document.querySelector('p.back a'); if (b) { b.href = 'deadliest.html'; b.textContent = '← Deadliest weather events'; } }
+  if (set === 'history') { document.querySelectorAll('.site-nav a').forEach((n) => { if (n.getAttribute('href') === 'deadliest.html') n.setAttribute('aria-current', 'page'); else n.removeAttribute('aria-current'); }); }
   const box = document.getElementById('ev');
   const el = (t, c, x) => { const e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; };
   let e;
-  try { e = await (await fetch('data/events/' + encodeURIComponent(id) + '.json', {cache: 'no-cache'})).json(); }
+  try { e = await (await fetch('data/' + set + '/' + encodeURIComponent(id) + '.json', {cache: 'no-cache'})).json(); }
   catch (err) { box.replaceChildren(el('p', 'lede', 'Event not found.')); return; }
-  const ix = await (await fetch('data/events/index.json', {cache: 'no-cache'})).json();
+  const ix = await (await fetch('data/' + set + '/index.json', {cache: 'no-cache'})).json();
   document.title = e.name + ' · Global Weather Watch';
   box.replaceChildren();
   const m = el('div', 'm'); m.append(el('span', 'chip ' + e.status, e.status)); if (e.depth === 'summary') m.append(el('span', 'chip summary', 'summary'));
@@ -95,8 +100,8 @@ body { font-family: var(--font-anthropic-sans); }
   if (e.numbers && e.numbers.length) { const n = el('div', 'nums'); e.numbers.forEach(([l, v]) => { const d = el('div'); d.append(el('div', 'l', l), el('div', 'v', v)); n.append(d); }); box.append(n); }
   if (e.movie && window.stormMovie) { try { await window.stormMovie(box, e.movie); } catch (err) { console.error(err); } }
   if (e.timeline && e.timeline.length) { const c = el('section', 'card sec'); c.append(el('h2', null, 'How it unfolded')); const ul = el('ul', 'tl'); e.timeline.forEach(([d, t]) => { const li = el('li'); li.append(el('b', null, d), el('span', null, t)); ul.append(li); }); c.append(ul); box.append(c); }
-  Object.entries(e.sections || {}).forEach(([k, v]) => { const c = el('section', 'card sec'); c.append(el('h2', null, k), el('p', null, v)); box.append(c); });
-  if (e.related && e.related.length) { const c = el('section', 'card sec'); c.append(el('h2', null, 'Related events')); const p = el('p'); e.related.forEach((r, i) => { const x = ix.events.find((q) => q.id === r); if (!x) return; if (p.childNodes.length) p.append(document.createTextNode(' · ')); const a = el('a', null, x.name); a.href = 'event.html?id=' + r; p.append(a); }); c.append(p); box.append(c); }
+  Object.entries(e.sections || {}).forEach(([k, v]) => { const c = el('section', 'card sec'); c.append(el('h2', null, k)); (Array.isArray(v) ? v : [v]).forEach((t) => c.append(el('p', null, t))); box.append(c); });
+  if (e.related && e.related.length) { const c = el('section', 'card sec'); c.append(el('h2', null, 'Related events')); const p = el('p'); e.related.forEach((r, i) => { const x = ix.events.find((q) => q.id === r); if (!x) return; if (p.childNodes.length) p.append(document.createTextNode(' · ')); const a = el('a', null, x.name); a.href = 'event.html?id=' + r + (set === 'history' ? '&set=history' : ''); p.append(a); }); c.append(p); box.append(c); }
   if (e.sources && e.sources.length) { const c = el('section', 'card sec src'); c.append(el('h2', null, 'Sources')); const ul = el('ul'); e.sources.forEach((s) => { const li = el('li'); const a = el('a', null, s.title); a.href = s.url; if (/^https?:/.test(s.url)) { a.target = '_blank'; a.rel = 'noopener'; } li.append(a); ul.append(li); }); c.append(ul); box.append(c); }
 })();
 </script></body></html>

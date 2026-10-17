@@ -99,6 +99,14 @@
    "bytes": 1213
   },
   {
+   "id": "deadliest_events",
+   "file": "deadliest_events.csv",
+   "title": "Deadliest weather events in history (20)",
+   "description": "Twenty of the deadliest weather disasters on record with the death-toll range found in rankings, the best-documented figure and a confidence rating (high: systematic or epidemiological count; medium: contemporary official or survey estimate; low: compilation without a traceable contemporary count). In-depth pages in data/history/.",
+   "updated": "2026-10-17",
+   "bytes": 5023
+  },
+  {
    "id": "drivers_monthly",
    "file": "drivers_monthly.csv",
    "title": "Climate driver indices",

@@ -60,6 +60,8 @@ instructions ("Weather & ENSO"), and these rules:
 `seaice_annual` (after the Arctic minimum / Antarctic maximum), `ozone_annual` (after 13 Oct),
 `la_rain` (water year ends 30 Sep), `sky_cycles`, `sky_tests`, `sky_events`, `world_land`, `reports`.
 
+Hand-curated, never auto-refreshed: `paleo_temp12k`, `paleo_studies` (Climate tab; published reconstructions only), `deadliest_events` and `data/history/*.json` (Deadliest events pages). Change these only on request, with sources.
+
 After updating a dataset, set its `updated` field in `data/manifest.json` to today's date.
 
 ## 3. Finalize and publish

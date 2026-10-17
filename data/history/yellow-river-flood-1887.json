@@ -1,0 +1,68 @@
+{
+ "id": "yellow-river-flood-1887",
+ "name": "Yellow River flood (1887)",
+ "type": "River flood (dike breach)",
+ "region": "Henan and the North China Plain",
+ "status": "historical",
+ "depth": "deep",
+ "as_of": "17 Oct 2026",
+ "when": "Late September 1887",
+ "headline": "After days of heavy rain, the Yellow River broke out of the dikes that held it above the plain near Zhengzhou and spread across about 130,000 km² of farmland.",
+ "numbers": [
+  [
+   "Rank in list",
+   "#2"
+  ],
+  [
+   "When",
+   "Late September 1887"
+  ],
+  [
+   "Death toll in rankings",
+   "About 900,000–2 million"
+  ],
+  [
+   "Best-documented figure",
+   "At least 930,000 (compilations)"
+  ],
+  [
+   "Confidence in the toll",
+   "Low: compilation figure without a traceable contemporary count"
+  ]
+ ],
+ "timeline": [
+  [
+   "Late September 1887",
+   "Days of heavy rain swell the Yellow River in Henan."
+  ],
+  [
+   "About 28 September",
+   "The dikes are overtopped and breached, generally placed at Huayuankou near Zhengzhou."
+  ],
+  [
+   "Following months",
+   "Floodwater covers some 130,000 km²; about two million people are left homeless; epidemics and shortages follow."
+  ]
+ ],
+ "sections": {
+  "The weather setup": [
+   "The trigger was days of heavy autumn rain over the middle river. The deeper cause was the river itself. The Yellow River carries more sediment than almost any river on Earth; confined between dikes, it deposited silt on its own bed for centuries, so that in places the riverbed stood above the surrounding plain. A breach on such a river does not simply spill: the whole river can leave its channel."
+  ],
+  "What made it so deadly": [
+   "The low, flat North China Plain let water spread fast and far, over farms, villages and market towns, with nowhere high to escape. About two million people lost their homes. Contemporary and later accounts agree that disease and the loss of food killed roughly as many people as the flood itself."
+  ],
+  "The death toll and why it is uncertain": [
+   "Late Qing China had no systematic death registration. The figures that circulate, from 900,000 to 2 million (one encyclopedia gives 900,500), come from later compilations rather than a contemporary count, and they mix drowning with the famine and epidemic deaths that followed. The order of magnitude, hundreds of thousands at least, is not disputed; the exact number cannot be recovered."
+  ],
+  "Why it matters": [
+   "The 1887 flood is a textbook case of how engineering can raise risk over time: dikes that protect against ordinary floods let a river build itself up until a rare failure is catastrophic. The same logic later shaped debates over the Yellow River's management through the 20th century."
+  ]
+ },
+ "related": [],
+ "sources": [
+  {
+   "title": "Wikipedia: 1887 Yellow River flood (cites Gunn 2007; Trimble 2007; Tang and Li 1995)",
+   "url": "https://en.wikipedia.org/wiki/1887_Yellow_River_flood"
+  }
+ ]
+}

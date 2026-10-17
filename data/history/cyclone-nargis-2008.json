@@ -1,0 +1,85 @@
+{
+ "id": "cyclone-nargis-2008",
+ "name": "Cyclone Nargis (2008)",
+ "type": "Tropical cyclone and storm surge",
+ "region": "Irrawaddy (Ayeyarwady) Delta, Myanmar",
+ "status": "historical",
+ "depth": "deep",
+ "as_of": "17 Oct 2026",
+ "when": "27 April–3 May 2008; landfall about 12:00 UTC, 2 May",
+ "headline": "An unusual eastward track took a rapidly intensifying cyclone straight into the low, crowded Irrawaddy Delta, where the surge ran about 40 km inland. The military government then restricted foreign aid for weeks.",
+ "numbers": [
+  [
+   "Rank in list",
+   "#11"
+  ],
+  [
+   "When",
+   "27 April–3 May 2008; landfall about 12:00 UTC, 2 May"
+  ],
+  [
+   "Death toll in rankings",
+   "About 138,000 dead or presumed dead"
+  ],
+  [
+   "Best-documented figure",
+   "84,537 dead and 53,836 missing (official post-disaster needs assessment)"
+  ],
+  [
+   "Confidence in the toll",
+   "Medium: contemporary official or survey estimate with known gaps"
+  ]
+ ],
+ "timeline": [
+  [
+   "27–28 April",
+   "Forms in the central Bay of Bengal; named Nargis."
+  ],
+  [
+   "1 May",
+   "Turns almost due east toward Myanmar and intensifies rapidly."
+  ],
+  [
+   "2 May",
+   "Landfall in the Ayeyarwady Division at peak strength (about 215 km/h, 1-minute winds); the surge pushes about 40 km up the delta."
+  ],
+  [
+   "3 May",
+   "Passes just north of Yangon and dissipates near the Thai border."
+  ],
+  [
+   "9 May",
+   "The government accepts limited international aid; most aid workers are refused visas."
+  ],
+  [
+   "10 May",
+   "The junta holds its constitutional referendum, postponed to 24 May only in the worst-hit areas."
+  ],
+  [
+   "23 May",
+   "After meeting UN Secretary-General Ban Ki-moon, the government opens access to aid workers."
+  ]
+ ],
+ "sections": {
+  "The weather setup": [
+   "Nargis turned nearly due east on 1 May and intensified rapidly over warm water just before reaching the coast, arriving at its strongest: a weak Category 4 equivalent."
+  ],
+  "What made it so deadly": [
+   "The delta is flat, crowded with farming and fishing villages, and laced with channels that let the surge travel far inland. In Labutta Township state media reported 75% of buildings collapsed. India had warned Myanmar about 48 hours ahead, but there were no shelters and little evacuation.",
+   "The response compounded the disaster: the military government restricted visas and refused a US naval aid group, which left after weeks without delivering its supplies. A week after the storm only about one in ten people in need had received help. The feared second wave of deaths from disease did not materialise."
+  ],
+  "The death toll and why it is uncertain": [
+   "The official post-disaster needs assessment gave 84,537 dead and 53,836 missing, a combined 138,373; the missing are presumed dead. Reports alleged the count stopped being updated at about 138,000, so the true toll may be higher. Damage was about US$10–15 billion, the costliest North Indian Ocean cyclone until Amphan in 2020."
+  ]
+ },
+ "related": [
+  "bangladesh-cyclone-1991",
+  "bhola-cyclone-1970"
+ ],
+ "sources": [
+  {
+   "title": "Wikipedia: Cyclone Nargis (cites the Post-Nargis Joint Assessment; IMD 2008; JTWC; Swiss Re sigma 2/2009; ReliefWeb)",
+   "url": "https://en.wikipedia.org/wiki/Cyclone_Nargis"
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "id": "bangladesh-cyclone-1991",
+ "name": "Bangladesh cyclone (Cyclone 02B, 'Gorky') (1991)",
+ "type": "Tropical cyclone and storm surge",
+ "region": "Chittagong coast and islands, Bangladesh",
+ "status": "historical",
+ "depth": "deep",
+ "as_of": "17 Oct 2026",
+ "when": "22 April–30 April 1991; landfall 19:00 UTC, 29 April",
+ "headline": "As strong as a Category 5 hurricane at peak, it struck south of Chittagong near high tide. Warnings and shelters saved many lives compared with 1970, but not enough.",
+ "numbers": [
+  [
+   "Rank in list",
+   "#10"
+  ],
+  [
+   "When",
+   "22 April–30 April 1991; landfall 19:00 UTC, 29 April"
+  ],
+  [
+   "Death toll in rankings",
+   "About 140,000"
+  ],
+  [
+   "Best-documented figure",
+   "At least 138,866"
+  ],
+  [
+   "Confidence in the toll",
+   "High: systematic count or epidemiological estimate"
+  ]
+ ],
+ "timeline": [
+  [
+   "24 April",
+   "The India Meteorological Department designates a depression in the southern Bay of Bengal."
+  ],
+  [
+   "28–29 April",
+   "Peaks as a super cyclonic storm: about 260 km/h (1-minute winds), 898 hPa (JTWC)."
+  ],
+  [
+   "29 April, 19:00 UTC",
+   "Landfall about 55 km south of Chittagong, slightly below peak; surge about 6 m arriving near high tide."
+  ],
+  [
+   "10 May",
+   "Operation Sea Angel: a US amphibious task force diverted from the Gulf War begins relief, with the UK, China, India, Pakistan and Japan."
+  ]
+ ],
+ "sections": {
+  "The weather setup": [
+   "The cyclone formed in the southern Bay of Bengal and intensified over very warm water into a super cyclonic storm, the equivalent of a Category 5 hurricane, with estimated 1-minute winds of 260 km/h. It made landfall at night about 55 km south of Chittagong with a surge of about 6 m on top of an already high tide."
+  ],
+  "What made it so deadly": [
+   "Two to three million people evacuated, far more than in 1970, but shelters were too few and many people did not go: a CDC survey found the main reason was underestimating the storm. Kutubdia Island lost more than 20,000 people, Banshkhali about 40,000 and Chittagong about 25,000. As in 1970, the dead were mostly children under ten and women over 40 (Bern et al., 1993), who were least able to survive the surge."
+  ],
+  "The death toll and why it is uncertain": [
+   "The official toll of at least 138,866 comes from the government and USAID and is relatively well documented, though the true number may be somewhat higher. About 10 million people were left homeless and damage reached about US$1.7 billion."
+  ],
+  "Aftermath": [
+   "Bangladesh expanded its shelter network, coastal embankments and mangrove planting, and strengthened the volunteer warning system. Later storms of similar strength killed far fewer people; the 1970–1991–today sequence is one of the clearest examples of disaster preparedness saving lives."
+  ]
+ },
+ "related": [
+  "bhola-cyclone-1970",
+  "cyclone-nargis-2008"
+ ],
+ "sources": [
+  {
+   "title": "Wikipedia: 1991 Bangladesh cyclone (cites JTWC 1992; IMD 1992; USAID; McCarthy 1994, RAND; Bern et al. 1993)",
+   "url": "https://en.wikipedia.org/wiki/1991_Bangladesh_cyclone"
+  },
+  {
+   "title": "Weather Underground: The 36 deadliest tropical cyclones in world history (table; notes that pre-1900 tolls are highly uncertain)",
+   "url": "https://www.wunderground.com/hurricane/articles/deadliest-tropical-cyclones"
+  }
+ ]
+}

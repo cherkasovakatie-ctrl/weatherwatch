@@ -1,0 +1,79 @@
+{
+ "id": "bengal-cyclone-1942",
+ "name": "Bengal (Midnapore) cyclone (1942)",
+ "type": "Tropical cyclone, storm surge and floods",
+ "region": "Midnapore and 24 Parganas, Bengal (India)",
+ "status": "historical",
+ "depth": "deep",
+ "as_of": "17 Oct 2026",
+ "when": "16–17 October 1942",
+ "headline": "A wartime cyclone and tidal surge devastated Midnapore and destroyed much of the rice crop, one of the triggers of the Bengal famine of 1943.",
+ "numbers": [
+  [
+   "Rank in list",
+   "#19"
+  ],
+  [
+   "When",
+   "16–17 October 1942"
+  ],
+  [
+   "Death toll in rankings",
+   "About 61,000 in one compilation"
+  ],
+  [
+   "Best-documented figure",
+   "14,443 deaths in the storm and the following week (Government of Bengal) plus at least 1,100 from disease"
+  ],
+  [
+   "Confidence in the toll",
+   "Low: compilation figure without a traceable contemporary count"
+  ]
+ ],
+ "timeline": [
+  [
+   "16 October 1942, morning",
+   "Cyclone strikes Bengal and Orissa."
+  ],
+  [
+   "16 October, afternoon",
+   "A high tidal surge breaks into Midnapore and the 24 Parganas; up to about 300 mm of rain in a day causes floods."
+  ],
+  [
+   "Following weeks",
+   "Trauma, cholera and other diseases; much of the aman rice crop is lost."
+  ],
+  [
+   "1943",
+   "The Bengal famine: the cyclone's crop losses combine with wartime policy, rice disease and market collapse."
+  ]
+ ],
+ "sections": {
+  "What happened": [
+   "The cyclone struck on the morning of 16 October 1942 and lasted into the early hours of the 17th. In the afternoon it drove a tidal surge from the Bay of Bengal into Midnapore and the 24 Parganas, followed by about 12 inches of rain in places in under a day. Midnapore was worst hit."
+  ],
+  "Why it matters beyond the storm": [
+   "The storm destroyed much of the district's aman (winter) rice crop at a time of war, colonial 'scorched-earth' measures against a feared Japanese invasion, the Quit India repression and a fungal rice disease. Historians count it among the factors in the 1943 Bengal famine, which killed millions; it was not the main cause, but it removed food from a region already under strain."
+  ],
+  "The death toll and why it is uncertain": [
+   "The Government of Bengal estimated 14,443 deaths during the storm or in the week after, and at least 1,100 more from trauma, cholera and other infections (Greenough, 1982). The figure of about 61,000 in some cyclone rankings has no source we could trace and may include later famine deaths or another storm; cyclone lists even disagree on where the 1942 storm should be placed. We rate the ranking figure low confidence and the government figure medium."
+  ]
+ },
+ "related": [
+  "calcutta-cyclone-1864"
+ ],
+ "sources": [
+  {
+   "title": "Sinha, A. (Debra Thana Sahid Kshudiram Smriti Mahavidyalaya journal): the 1942 Midnapore cyclone (cites Greenough 1982; Narayan 1944; Amrita Bazar Patrika, 3 Nov 1942)",
+   "url": "https://www.debracollege.ac.in/antarvidya/Journal/Vol1Issue2/9%20Avirup%20Sinha.pdf"
+  },
+  {
+   "title": "Banglapedia: Famine, 1943",
+   "url": "https://en.banglapedia.org/index.php/Famine,_1943"
+  },
+  {
+   "title": "Weather Underground: The 36 deadliest tropical cyclones in world history (table; notes that pre-1900 tolls are highly uncertain)",
+   "url": "https://www.wunderground.com/hurricane/articles/deadliest-tropical-cyclones"
+  }
+ ]
+}

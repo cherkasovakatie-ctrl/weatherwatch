@@ -1,0 +1,74 @@
+{
+ "id": "coringa-cyclone-1839",
+ "name": "Coringa cyclone (1839)",
+ "type": "Tropical cyclone and storm surge",
+ "region": "Coringa, Godavari delta, Andhra Pradesh, India",
+ "status": "historical",
+ "depth": "deep",
+ "as_of": "17 Oct 2026",
+ "when": "25 November 1839",
+ "headline": "A cyclone and a storm surge often put at 12 m destroyed the port of Coringa, which never recovered. The famous 300,000 toll cannot be traced to a contemporary count.",
+ "numbers": [
+  [
+   "Rank in list",
+   "#4"
+  ],
+  [
+   "When",
+   "25 November 1839"
+  ],
+  [
+   "Death toll in rankings",
+   "About 300,000 (historical estimate)"
+  ],
+  [
+   "Best-documented figure",
+   "≈300,000 in popular compilations; no contemporary count found"
+  ],
+  [
+   "Confidence in the toll",
+   "Low: compilation figure without a traceable contemporary count"
+  ]
+ ],
+ "timeline": [
+  [
+   "1787 and 1789",
+   "Earlier cyclones at Coringa kill about 20,000 people each; the port recovers."
+  ],
+  [
+   "24–26 November 1839",
+   "Ship logs record the storm; landfall at Coringa on the 25th."
+  ],
+  [
+   "1840",
+   "Henry Piddington presents his studies of Bay of Bengal storms, including Coringa, to the Asiatic Society of Bengal and coins the word 'cyclone'."
+  ]
+ ],
+ "sections": {
+  "What happened": [
+   "Coringa was a busy harbour near the mouth of the Godavari. On 25 November 1839 a cyclone drove a storm surge, usually described as about 40 feet (12 m), over the town and the shipping in the harbour. NOAA's hurricane research division describes the destruction of the town and about 20,000 vessels; Coringa never recovered economically and is now a small village."
+  ],
+  "The death toll and why it is uncertain": [
+   "The figure of 300,000 deaths appears in many rankings, including those used by NOAA and the media, but the sources behind it are popular compilations and newspapers rather than a contemporary register. The Wikipedia article on the storm relies on a 2013 Indian news list and a history website for its toll, and repeats an implausible claim that 200,000 ships were destroyed.",
+   "Coringa itself was a town, not a city of hundreds of thousands, so a toll of that size would require very large losses across the surrounding delta. It may be correct, inflated, or conflated with other storms; the record available to us cannot settle it. We rate the toll as low confidence."
+  ],
+  "Why it matters": [
+   "Coringa's storms shaped the science: Henry Piddington, studying the 1789 Coringa storm and others, introduced the term 'cyclone' in 1840 for the coiled circulation of these winds."
+  ]
+ },
+ "related": [],
+ "sources": [
+  {
+   "title": "NOAA AOML Hurricane Research Division: 175th anniversary of the Coringa cyclone",
+   "url": "https://www.aoml.noaa.gov/hurricane_blog/175th-anniversary-of-the-coringa-cyclone/"
+  },
+  {
+   "title": "Wikipedia: 1839 Coringa cyclone (note its weak sourcing)",
+   "url": "https://en.wikipedia.org/wiki/1839_Coringa_cyclone"
+  },
+  {
+   "title": "Weather Underground: The 36 deadliest tropical cyclones in world history (table; notes that pre-1900 tolls are highly uncertain)",
+   "url": "https://www.wunderground.com/hurricane/articles/deadliest-tropical-cyclones"
+  }
+ ]
+}

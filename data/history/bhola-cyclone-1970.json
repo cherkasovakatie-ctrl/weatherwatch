@@ -1,0 +1,89 @@
+{
+ "id": "bhola-cyclone-1970",
+ "name": "Bhola cyclone (1970)",
+ "type": "Tropical cyclone and storm surge",
+ "region": "Ganges Delta, East Pakistan (now Bangladesh)",
+ "status": "historical",
+ "depth": "deep",
+ "as_of": "17 Oct 2026",
+ "when": "8–13 November 1970; landfall evening of 12 November",
+ "headline": "The deadliest tropical cyclone on record. A storm surge of about 10 m arrived near high tide on the low islands of the Ganges Delta at night.",
+ "numbers": [
+  [
+   "Rank in list",
+   "#3"
+  ],
+  [
+   "When",
+   "8–13 November 1970; landfall evening of 12 November"
+  ],
+  [
+   "Death toll in rankings",
+   "300,000–500,000"
+  ],
+  [
+   "Best-documented figure",
+   "At least 224,000 counted by survey (Lancet, 1972); ≥300,000 widely accepted"
+  ],
+  [
+   "Confidence in the toll",
+   "Medium: contemporary official or survey estimate with known gaps"
+  ]
+ ],
+ "timeline": [
+  [
+   "8 November",
+   "Depression forms over the central Bay of Bengal."
+  ],
+  [
+   "10–11 November",
+   "Accelerates north and turns north-east as a severe cyclonic storm; peak about 240 km/h (1-minute winds), 960 hPa."
+  ],
+  [
+   "12 November, evening",
+   "Landfall on the East Pakistan coast near high tide; surge about 10 m in the delta. Chittagong's anemometer is destroyed after recording 144 km/h."
+  ],
+  [
+   "13 November",
+   "Dissipates over Assam."
+  ],
+  [
+   "Following weeks",
+   "Relief is slow: in the first 10½ days only one military transport and three crop-dusters are assigned."
+  ],
+  [
+   "December 1970",
+   "The Awami League wins a landslide in the general election; the response to the cyclone deepens anger in East Pakistan."
+  ]
+ ],
+ "sections": {
+  "The weather setup": [
+   "The storm formed on 8 November over the central Bay of Bengal, drifted, then accelerated north and curved north-east into the funnel-shaped head of the bay, the geometry that piles water highest. It reached the equivalent of a Category 4 hurricane (about 240 km/h, 1-minute sustained winds) and came ashore on the evening of 12 November close to high tide. In the delta the surge reached about 10 m."
+  ],
+  "What made it so deadly": [
+   "The offshore islands and coastal chars stood barely above sea level and had almost no shelters or high ground. The surge swept over them at night. Of about 77,000 fishermen working onshore, roughly 46,000 died.",
+   "Warnings existed but failed: the 'great danger' signal broadcast on Radio Pakistan meant little to many listeners, who thought a No. 1 signal was the most serious. Children under ten made up more than half of the dead though they were a third of the population; survivors who clung to trees suffered so many abrasions that doctors named it 'cyclone syndrome'."
+  ],
+  "The death toll and why it is uncertain": [
+   "A field survey published in The Lancet (Sommer and Mosley, 1972) found a minimum of 224,000 deaths, with mean mortality of 16.5% across the affected area and 46% in Tazumuddin; it likely undercounted because whole households and some groups were missed. The widely used figure is at least 300,000, possibly as high as 500,000. It is generally ranked the deadliest tropical cyclone on record."
+  ],
+  "Aftermath": [
+   "Pakistan's central government was condemned for its slow response; Sheikh Mujibur Rahman called it criminal negligence. The anger fed into the December 1970 election and the 1971 war that created Bangladesh.",
+   "The Red Crescent's warning effort became the Cyclone Preparedness Programme in 1972, and hundreds of cyclone shelters were built over the following decades. Bangladesh's death tolls from comparable storms have fallen sharply since: compare the 1991 cyclone and, later, storms with tolls in the hundreds rather than the hundreds of thousands."
+  ]
+ },
+ "related": [
+  "bangladesh-cyclone-1991",
+  "great-backerganj-cyclone-1876"
+ ],
+ "sources": [
+  {
+   "title": "Wikipedia: 1970 Bhola cyclone (cites Frank and Husain 1971, BAMS; IMD 1970; Sommer and Mosley 1972, The Lancet)",
+   "url": "https://en.wikipedia.org/wiki/1970_Bhola_cyclone"
+  },
+  {
+   "title": "Weather Underground: The 36 deadliest tropical cyclones in world history (table; notes that pre-1900 tolls are highly uncertain)",
+   "url": "https://www.wunderground.com/hurricane/articles/deadliest-tropical-cyclones"
+  }
+ ]
+}

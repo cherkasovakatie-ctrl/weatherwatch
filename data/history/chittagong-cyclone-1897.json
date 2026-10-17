@@ -1,0 +1,69 @@
+{
+ "id": "chittagong-cyclone-1897",
+ "name": "Chittagong cyclone (1897)",
+ "type": "Tropical cyclone and storm surge",
+ "region": "Chittagong and Kutubdia Island, present-day Bangladesh",
+ "status": "historical",
+ "depth": "deep",
+ "as_of": "17 Oct 2026",
+ "when": "24 October 1897",
+ "headline": "Contemporary reports put the deaths at about 14,000 in the storm and 18,000 more from cholera. The 175,000 figure in rankings is several times higher and poorly sourced.",
+ "numbers": [
+  [
+   "Rank in list",
+   "#7"
+  ],
+  [
+   "When",
+   "24 October 1897"
+  ],
+  [
+   "Death toll in rankings",
+   "About 175,000 (limited supporting detail)"
+  ],
+  [
+   "Best-documented figure",
+   "≈14,000 in the storm plus ≈18,000 from the cholera that followed (contemporary reports)"
+  ],
+  [
+   "Confidence in the toll",
+   "Low: compilation figure without a traceable contemporary count"
+  ]
+ ],
+ "timeline": [
+  [
+   "24 October 1897",
+   "Cyclone and storm surge strike Kutubdia Island and the coast near Chittagong."
+  ],
+  [
+   "28 October",
+   "Newspapers report the disaster ('Cyclone in Chittagong')."
+  ],
+  [
+   "Following weeks",
+   "Cholera epidemic among survivors."
+  ]
+ ],
+ "sections": {
+  "What happened": [
+   "A cyclone with a storm surge hit Kutubdia Island and the coast around Chittagong on 24 October 1897. Contemporary newspaper reports describe heavy loss of life on the islands and coast, followed by a cholera epidemic."
+  ],
+  "The death toll and why it is uncertain": [
+   "Here the gap between sources is unusually large. Newspaper reports from the time give about 14,000 deaths in the storm and roughly 18,000 more from cholera, about 32,000 in total. The 175,000 figure that appears in cyclone rankings has no traceable contemporary basis that we could find. It may combine several storms or regions. We list Kate's ranking figure but rate it low confidence; the documented figure is about 32,000."
+  ]
+ },
+ "related": [
+  "great-backerganj-cyclone-1876",
+  "bangladesh-cyclone-1991"
+ ],
+ "sources": [
+  {
+   "title": "Wikipedia: List of Bangladesh tropical cyclones (cites The Mercury, Hobart, and Trove: 'Cyclone in Chittagong', 28 Oct 1897)",
+   "url": "https://en.wikipedia.org/wiki/List_of_Bangladesh_tropical_cyclones"
+  },
+  {
+   "title": "Weather Underground: The 36 deadliest tropical cyclones in world history (table; notes that pre-1900 tolls are highly uncertain)",
+   "url": "https://www.wunderground.com/hurricane/articles/deadliest-tropical-cyclones"
+  }
+ ]
+}

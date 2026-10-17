@@ -1,0 +1,89 @@
+{
+ "id": "nina-banqiao-1975",
+ "name": "Typhoon Nina and the Banqiao dam disaster (1975)",
+ "type": "Typhoon rainfall and dam failure",
+ "region": "Zhumadian, Henan, China",
+ "status": "historical",
+ "depth": "deep",
+ "as_of": "17 Oct 2026",
+ "when": "4–8 August 1975; Banqiao fails at 01:00 on 8 August",
+ "headline": "The remnants of Typhoon Nina stalled over Henan and dropped more than a year's rain in a day. Banqiao and 61 other dams failed, sending a wall of water across the plain at night.",
+ "numbers": [
+  [
+   "Rank in list",
+   "#8"
+  ],
+  [
+   "When",
+   "4–8 August 1975; Banqiao fails at 01:00 on 8 August"
+  ],
+  [
+   "Death toll in rankings",
+   "About 171,000 (one compilation; estimates vary widely)"
+  ],
+  [
+   "Best-documented figure",
+   "Official ≈26,000; provisional Henan figure 85,600; up to 230,000–240,000 including famine and disease"
+  ],
+  [
+   "Confidence in the toll",
+   "Low: compilation figure without a traceable contemporary count"
+  ]
+ ],
+ "timeline": [
+  [
+   "Early August",
+   "Typhoon Nina's remnants move inland; a blocking pattern holds them over Henan for two days."
+  ],
+  [
+   "4 August",
+   "Heavy rain begins after a dry July."
+  ],
+  [
+   "5 August",
+   "Smaller reservoirs reach capacity; Banqiao town begins to flood."
+  ],
+  [
+   "7 August, 21:30",
+   "The first dam-failure warning is sent by telegraph."
+  ],
+  [
+   "8 August, 01:00",
+   "Water overtops the Banqiao dam and it fails; about 701 million m³ is released in six hours."
+  ],
+  [
+   "Following days",
+   "62 dams fail in total; seven county seats are flooded; 102 km of the Beijing–Guangzhou railway is cut for 48 days."
+  ],
+  [
+   "2005",
+   "Official documents are declassified."
+  ]
+ ],
+ "sections": {
+  "The weather setup": [
+   "Nina came ashore as a typhoon and its remnant circulation moved inland, where a blocking pattern held it over southern Henan for about two days. Rain fell at rates the region had never recorded: more than 1,000 mm in a single day near the storm's centre, more than the average for a whole year, and about 1,100 mm over three days in Queshan County. Officials later called it a 1-in-2,000-year storm."
+  ],
+  "What made it so deadly": [
+   "The weather was extreme, but the death toll was made by the dams. Banqiao and many smaller reservoirs had been built in the 1950s, some hastily during the Great Leap Forward, designed for about 300 mm of rain a day and focused on storage rather than flood control. The chief engineer Chen Xing had warned about the risks and been sidelined. When operators sought to release water, the approval came too late: telegrams did not arrive, sediment partly blocked the sluice gates, and phone lines were down.",
+   "When Banqiao failed at 1 a.m., the flood wave at Suiping was about 10 km wide and 3–7 m high, moving at nearly 50 km/h. Evacuation made the difference between life and death: in evacuated Shahedian 827 of 6,000 people died; in unevacuated Wencheng commune half of 36,000 died; Daowencheng commune lost all 9,600 residents."
+  ],
+  "The death toll and why it is uncertain": [
+   "The disaster was kept largely secret until the 1990s. The official figure is about 26,000 deaths from the flood itself. A provisional Henan party count from August 1975 gave 85,600. Members of China's political consultative body and Human Rights Watch (1995) cited about 230,000, including later deaths from famine and epidemics; a 2005 documentary used 240,000. The 171,000 figure comes from a compilation of cyclone tolls. The range, tens of thousands to nearly a quarter of a million, reflects both secrecy and different definitions."
+  ],
+  "Aftermath": [
+   "42,618 troops were deployed for relief; dikes were blown up to drain water, flooding 1.5 million more people in Anhui. A national reservoir-safety review followed, and the case is now studied worldwide as a lesson in dam design for extreme rainfall."
+  ]
+ },
+ "related": [],
+ "sources": [
+  {
+   "title": "Wikipedia: 1975 Banqiao Dam failure (cites Xu, Zhang and Jia 2008, ASCE; US Bureau of Reclamation 2015; Xinhua 2005; Human Rights Watch 1995)",
+   "url": "https://en.wikipedia.org/wiki/1975_Banqiao_Dam_failure"
+  },
+  {
+   "title": "Weather Underground: The 36 deadliest tropical cyclones in world history (table; notes that pre-1900 tolls are highly uncertain)",
+   "url": "https://www.wunderground.com/hurricane/articles/deadliest-tropical-cyclones"
+  }
+ ]
+}

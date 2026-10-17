@@ -1,0 +1,82 @@
+{
+ "id": "europe-heatwave-2003",
+ "name": "European summer heat waves (2003)",
+ "type": "Heat wave",
+ "region": "Western and central Europe",
+ "status": "historical",
+ "depth": "deep",
+ "as_of": "17 Oct 2026",
+ "when": "June–August 2003; peak in the first half of August",
+ "headline": "A persistent high-pressure block over a drying continent produced Europe's hottest summer on record at the time. Most of the dead were elderly people indoors, many of them alone.",
+ "numbers": [
+  [
+   "Rank in list",
+   "#15"
+  ],
+  [
+   "When",
+   "June–August 2003; peak in the first half of August"
+  ],
+  [
+   "Death toll in rankings",
+   "More than 70,000 excess deaths"
+  ],
+  [
+   "Best-documented figure",
+   "More than 70,000 excess deaths in 16 countries (Robine et al., 2008)"
+  ],
+  [
+   "Confidence in the toll",
+   "High: systematic count or epidemiological estimate"
+  ]
+ ],
+ "timeline": [
+  [
+   "June 2003",
+   "Exceptionally hot early summer; soils dry out."
+  ],
+  [
+   "Early August",
+   "A blocking anticyclone settles over western Europe; night-time temperatures stay high."
+  ],
+  [
+   "12 August",
+   "The deadliest day: mortality in Île-de-France more than five times the expected level."
+  ],
+  [
+   "2004",
+   "Stott, Stone and Allen (Nature) find human influence very likely at least doubled the risk of such a summer."
+  ],
+  [
+   "2008",
+   "Robine et al. estimate more than 70,000 excess deaths across Europe."
+  ]
+ ],
+ "sections": {
+  "The weather setup": [
+   "From June a blocking anticyclone repeatedly settled over western Europe, keeping skies clear and diverting rain-bearing lows to the north. As soils dried, less of the sun's energy went into evaporation and more into heating the air, a feedback that pushed temperatures higher still. In August night-time temperatures stayed exceptionally high, so bodies and buildings could not cool."
+  ],
+  "What made it so deadly": [
+   "Heat kills quietly. Most of the dead were over 75, many living alone in top-floor flats in cities like Paris, which hold heat at night. France had no national heat-warning system, and in August many families and some medical staff were away on holiday; deaths were recognised only when funeral homes and hospitals were overwhelmed."
+  ],
+  "The death toll and why it is uncertain": [
+   "Heat deaths are counted statistically, as deaths above the number expected for the date. Using daily records from 16 countries, Robine et al. (2008) found more than 70,000 additional deaths (74,483 in one method), including 19,490 in France and 20,089 in Italy between June and September. This is among the best-measured tolls on this list, though it depends on the baseline used."
+  ],
+  "Aftermath and climate context": [
+   "France and other countries introduced heat-health warning plans, registers of vulnerable people and cooling measures. In 2004 a landmark study found it very likely (more than 90% confidence) that human influence had at least doubled the risk of a summer as hot as 2003, one of the first attributions of a single extreme to climate change."
+  ]
+ },
+ "related": [
+  "europe-heatwave-2022"
+ ],
+ "sources": [
+  {
+   "title": "Robine, J.-M. et al. (2008). Death toll exceeded 70,000 in Europe during the summer of 2003. Comptes Rendus Biologies 331(2): 171–178.",
+   "url": "https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2007.12.001/"
+  },
+  {
+   "title": "Stott, P. A., Stone, D. A. and Allen, M. R. (2004). Human contribution to the European heatwave of 2003. Nature 432: 610–614.",
+   "url": "https://ideas.repec.org/a/nat/nature/v432y2004i7017d10.1038_nature03089.html"
+  }
+ ]
+}

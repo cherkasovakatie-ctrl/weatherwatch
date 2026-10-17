@@ -1,0 +1,80 @@
+{
+ "id": "hakata-typhoon-1281",
+ "name": "Hakata Bay typhoon (the 'kamikaze') (1281)",
+ "type": "Typhoon at sea",
+ "region": "Imari and Hakata bays, Kyushu, Japan",
+ "status": "historical",
+ "depth": "deep",
+ "as_of": "17 Oct 2026",
+ "when": "Summer 1281 (seventh lunar month)",
+ "headline": "A typhoon wrecked the Mongol–Yuan invasion fleet anchored off Kyushu in 1281. Underwater archaeology at Takashima has since found the ships and their anchors.",
+ "numbers": [
+  [
+   "Rank in list",
+   "#17"
+  ],
+  [
+   "When",
+   "Summer 1281 (seventh lunar month)"
+  ],
+  [
+   "Death toll in rankings",
+   "About 65,000 (highly uncertain, mostly aboard ships)"
+  ],
+  [
+   "Best-documented figure",
+   "Chronicles describe the loss of most of a southern fleet reported at 100,000 troops; no count"
+  ],
+  [
+   "Confidence in the toll",
+   "Low: compilation figure without a traceable contemporary count"
+  ]
+ ],
+ "timeline": [
+  [
+   "1274",
+   "First Mongol–Korean invasion of Japan is repulsed, also after a storm."
+  ],
+  [
+   "1281",
+   "Second invasion: an Eastern Route Army from Korea (about 900 ships) and a Southern Route Army from China (reported 3,500 ships, 100,000 troops)."
+  ],
+  [
+   "Summer 1281",
+   "While the fleets are stalled near Takashima in Imari Bay, a typhoon destroys most of the ships."
+  ],
+  [
+   "2011 and 2015",
+   "Archaeologists led by Ikeda Yoshifumi locate two wrecks of the Southern Route fleet off Takashima (about 27 m and 20 m long)."
+  ]
+ ],
+ "sections": {
+  "What happened": [
+   "Kublai Khan's second invasion of Japan combined a Korean fleet and a much larger fleet built from the conquered Song navy in southern China. The invaders were held at fortified beaches around Hakata Bay and gathered near Takashima in Imari Bay. A typhoon then struck the anchored fleet; Japanese records say ships were driven ashore and sank in such numbers that one could walk across the bay on the wreckage. Survivors stranded on Takashima were mostly killed."
+  ],
+  "What the archaeology shows": [
+   "Since 2005, excavations at Takashima have found anchors, anchor stones (36 found, the heaviest over 170 kg) and two wrecked ships of the Southern Route Army, identified by their hull shapes, bulkheads and Southern Song ceramics. Four wooden anchors found in 1994 all point south, suggesting the ships were dragged north by the storm before their anchor lines broke."
+  ],
+  "The death toll and why it is uncertain": [
+   "The 65,000 figure is a modern compilation. Chinese and Japanese chronicles describe the loss of most of a force of 100,000 or more, but troop numbers in medieval chronicles are often inflated, and many deaths were in the fighting and killing that followed rather than the storm itself. We rate it low confidence."
+  ],
+  "Why it matters": [
+   "The storm gave rise to the idea of the kamikaze, the 'divine wind' that protected Japan, a belief that lasted until the Second World War."
+  ]
+ },
+ "related": [],
+ "sources": [
+  {
+   "title": "Nippon.com: Ships on the seabed, searching for the Mongol Empire's lost invasion fleet (Ikeda Yoshifumi's Takashima survey)",
+   "url": "https://nippon.com/en/japan-topics/c13704"
+  },
+  {
+   "title": "Archaeology magazine (2003): the Mongol invasions and the 'divine wind'",
+   "url": "https://archive.archaeology.org/0301/etc/wrath.html"
+  },
+  {
+   "title": "Weather Underground: The 36 deadliest tropical cyclones in world history (table; notes that pre-1900 tolls are highly uncertain)",
+   "url": "https://www.wunderground.com/hurricane/articles/deadliest-tropical-cyclones"
+  }
+ ]
+}

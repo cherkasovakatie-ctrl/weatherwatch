@@ -1,0 +1,75 @@
+{
+ "id": "europe-heatwave-2022",
+ "name": "European summer heat waves (2022)",
+ "type": "Heat wave",
+ "region": "Europe (35 countries)",
+ "status": "historical",
+ "depth": "deep",
+ "as_of": "17 Oct 2026",
+ "when": "30 May–4 September 2022",
+ "headline": "Europe's hottest summer on record at the time brought repeated heat waves from Spain to the UK. An epidemiological study of 35 countries attributed about 61,700 deaths to the heat.",
+ "numbers": [
+  [
+   "Rank in list",
+   "#18"
+  ],
+  [
+   "When",
+   "30 May–4 September 2022"
+  ],
+  [
+   "Death toll in rankings",
+   "About 61,700 heat-related deaths (30 May–4 September)"
+  ],
+  [
+   "Best-documented figure",
+   "61,672 heat-related deaths (Ballester et al., 2023)"
+  ],
+  [
+   "Confidence in the toll",
+   "High: systematic count or epidemiological estimate"
+  ]
+ ],
+ "timeline": [
+  [
+   "June 2022",
+   "Early heat waves in Spain and France."
+  ],
+  [
+   "July 2022",
+   "Extreme heat reaches north-west Europe; the UK records 40 °C for the first time (19 July)."
+  ],
+  [
+   "July–August",
+   "Drought and heat across much of the continent."
+  ],
+  [
+   "July 2023",
+   "Ballester et al. (Nature Medicine) estimate 61,672 heat-related deaths."
+  ]
+ ],
+ "sections": {
+  "The weather setup": [
+   "Summer 2022 was Europe's hottest on record at the time, with repeated heat waves from June to August and widespread drought. The UK passed 40 °C for the first time on 19 July."
+  ],
+  "What made it so deadly": [
+   "As in 2003, the dead were overwhelmingly elderly. The study found heat-related mortality 56% higher among women than men relative to population. Despite the heat-health plans introduced after 2003, the toll remained very high, which the authors say should prompt a re-evaluation of prevention and adaptation."
+  ],
+  "The death toll and how it was measured": [
+   "Ballester et al. (2023) used 45 million death records from Eurostat for 35 countries and an epidemiological model of the temperature–mortality relationship to estimate 61,672 heat-related deaths between 30 May and 4 September 2022: Italy 18,010, Spain 11,324, Germany 8,173, France 4,807, the UK 3,469 and Greece 3,092. Because it models temperature-attributable deaths rather than all excess deaths, it is not directly comparable with the 2003 figure, but it is among the best-quantified tolls here."
+  ]
+ },
+ "related": [
+  "europe-heatwave-2003"
+ ],
+ "sources": [
+  {
+   "title": "Ballester, J. et al. (2023). Heat-related mortality in Europe during the summer of 2022. Nature Medicine 29: 1857–1866.",
+   "url": "https://repositori.upf.edu/items/0fd12826-374c-4ec7-af25-5fcc5bafded9"
+  },
+  {
+   "title": "ISGlobal: Record-breaking heat in the summer of 2022 caused more than 61,000 deaths in Europe",
+   "url": "https://www.isglobal.org/-/el-calor-record-del-verano-de-2022-causo-mas-de-61-000-muertes-en-europa"
+  }
+ ]
+}

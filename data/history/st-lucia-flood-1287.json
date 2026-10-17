@@ -1,0 +1,68 @@
+{
+ "id": "st-lucia-flood-1287",
+ "name": "St. Lucia's flood (1287)",
+ "type": "North Sea storm surge",
+ "region": "Holland, Friesland, East Frisia and eastern England",
+ "status": "historical",
+ "depth": "deep",
+ "as_of": "17 Oct 2026",
+ "when": "13–14 December 1287",
+ "headline": "A storm tide on 13–14 December 1287 overran dikes from Friesland to Norfolk, redrew the Dutch coastline and opened the way for the Zuiderzee.",
+ "numbers": [
+  [
+   "Rank in list",
+   "#16"
+  ],
+  [
+   "When",
+   "13–14 December 1287"
+  ],
+  [
+   "Death toll in rankings",
+   "About 50,000–80,000"
+  ],
+  [
+   "Best-documented figure",
+   "'50,000' in chronicles; the 80,000 upper figure is unsourced"
+  ],
+  [
+   "Confidence in the toll",
+   "Low: compilation figure without a traceable contemporary count"
+  ]
+ ],
+ "timeline": [
+  [
+   "13–14 December 1287",
+   "St. Lucia's day storm tide: the North Sea rises over dikes in the Low Countries and eastern England."
+  ],
+  [
+   "Afterwards",
+   "West Friesland is cut off from the rest of Friesland; thirty villages in East Frisia disappear; Holland annexes West Friesland."
+  ]
+ ],
+ "sections": {
+  "What happened": [
+   "A deep storm combined with a high tide drove the North Sea over the seawalls and dikes of the Low Countries. Thirty villages in East Frisia were lost; West Friesland was cut off from the rest of Friesland by a widening strait, part of the long process that turned a lake and marshes into the Zuiderzee; the first stage of the Dollart bay formed. In England, hundreds died along the Norfolk coast, including 180 at Hickling."
+  ],
+  "The death toll and why it is uncertain": [
+   "Medieval chronicles speak of 50,000 dead; the range of 50,000–80,000 in modern summaries has no source for its upper end. As with other medieval floods, the figures are probably round numbers rather than counts. We rate it low confidence."
+  ],
+  "Why it matters": [
+   "Storms like 1287 and 1530 shaped the Netherlands' coastline and its institutions: the long tradition of water boards and dike-building that culminated, after the 1953 North Sea flood, in the Delta Works."
+  ]
+ },
+ "related": [
+  "st-felix-flood-1530",
+  "north-sea-flood-1099"
+ ],
+ "sources": [
+  {
+   "title": "Wikipedia: St. Lucia's flood (flagged as needing citations; cites Britannica 'Zuiderzee floods' and Buisman, Duizend jaar weer, wind en water)",
+   "url": "https://en.wikipedia.org/wiki/St._Lucia%27s_flood"
+  },
+  {
+   "title": "Britannica: Zuiderzee floods",
+   "url": "https://www.britannica.com/event/Zuiderzee-floods"
+  }
+ ]
+}

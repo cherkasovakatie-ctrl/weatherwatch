@@ -1,0 +1,67 @@
+{
+ "id": "yangtze-flood-1935",
+ "name": "Yangtze River flood (1935)",
+ "type": "River flood",
+ "region": "Middle Yangtze: Hubei, Hunan and neighbouring provinces",
+ "status": "historical",
+ "depth": "deep",
+ "as_of": "17 Oct 2026",
+ "when": "Early July 1935",
+ "headline": "Torrential July rain on the Han and Li tributaries sent record flows into the middle Yangtze, breaking dikes across six provinces only four years after 1931.",
+ "numbers": [
+  [
+   "Rank in list",
+   "#9"
+  ],
+  [
+   "When",
+   "Early July 1935"
+  ],
+  [
+   "Death toll in rankings",
+   "About 145,000"
+  ],
+  [
+   "Best-documented figure",
+   "≈145,000 drowned (plus later famine deaths)"
+  ],
+  [
+   "Confidence in the toll",
+   "Medium: contemporary official or survey estimate with known gaps"
+  ]
+ ],
+ "timeline": [
+  [
+   "1934",
+   "Drought strains grain supplies."
+  ],
+  [
+   "Early July 1935",
+   "Extreme rain over the Three Gorges area and the Han and Li basins."
+  ],
+  [
+   "July",
+   "Han River peaks at an estimated 50,000 m³/s at Danjiangkou, the second-largest flood there in 400 years; dikes burst on the Han and middle Yangtze."
+  ]
+ ],
+ "sections": {
+  "The weather setup": [
+   "In early July 1935 an exceptional rain event centred on the tributaries that join the Yangtze in Hubei, the Han River from the north and the Li and Qing rivers from the south. The Han peaked at an estimated 50,000 m³/s, and the Yangtze at Yichang at about 56,900 m³/s. Because the tributaries peaked together, water arrived at the middle Yangtze faster than the channel could carry it."
+  ],
+  "What made it so deadly": [
+   "Dikes burst on the Han River and along the Yangtze, flooding about 1.5 million hectares of farmland. Around 80,000 people drowned in the Han valley, more than 30,000 in the Li valley and 23,000 at Wancheng. The region had not recovered from 1931; drought in 1934, deforestation and the conversion of lakes (natural flood storage) to farmland had increased vulnerability, and civil war and conflict with Japan diverted money from flood control and relief."
+  ],
+  "The death toll and why it is uncertain": [
+   "The total of about 145,000 deaths is widely repeated, but several of the component figures in the standard summaries lack citations, and later deaths from starvation and disease were not counted. We rate it medium confidence: the order of magnitude is consistent across sources."
+  ]
+ },
+ "related": [
+  "china-floods-1931"
+ ],
+ "sources": [
+  {
+   "title": "Wikipedia: 1935 Yangtze flood (cites Lockwood 1935, Far Eastern Survey; Kte'pi 2011, Encyclopedia of Disaster Relief)",
+   "url": "https://en.wikipedia.org/wiki/1935_Yangtze_flood"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "id": "swatow-typhoon-1922",
+ "name": "Swatow (Shantou) typhoon (1922)",
+ "type": "Typhoon and storm surge",
+ "region": "Shantou (Swatow), Guangdong, China",
+ "status": "historical",
+ "depth": "deep",
+ "as_of": "17 Oct 2026",
+ "when": "27 July–3 August 1922; landfall night of 2–3 August",
+ "headline": "A strong typhoon with a central pressure of 932 hPa or lower drove a surge of at least 3.7 m into Shantou and the surrounding coast at night.",
+ "numbers": [
+  [
+   "Rank in list",
+   "#14"
+  ],
+  [
+   "When",
+   "27 July–3 August 1922; landfall night of 2–3 August"
+  ],
+  [
+   "Death toll in rankings",
+   "About 100,000 in historical compilations"
+  ],
+  [
+   "Best-documented figure",
+   "≈5,000 in the city (contemporary report) plus ≈50,000 in the surrounding area; above 60,000 per NOAA"
+  ],
+  [
+   "Confidence in the toll",
+   "Low: compilation figure without a traceable contemporary count"
+  ]
+ ],
+ "timeline": [
+  [
+   "27 July",
+   "Forms near the Caroline Islands."
+  ],
+  [
+   "31 July",
+   "Crosses northern Luzon."
+  ],
+  [
+   "2–3 August",
+   "Landfall near Shantou; pressure 932 hPa or lower; surge at least 12 ft (3.7 m)."
+  ]
+ ],
+ "sections": {
+  "The weather setup": [
+   "The storm crossed the Philippine Sea and northern Luzon and entered the South China Sea, then struck the Chinese coast near Shantou late on 2 August. The lowest recorded pressure was 932 hPa; the Japan Meteorological Agency's best track gives peak 10-minute winds of about 155 km/h. The surge rose at least 12 feet above normal at Shantou."
+  ],
+  "What made it so deadly": [
+   "Shantou was a crowded treaty port of about 65,000 people on low land at the mouth of the Han River, surrounded by densely populated coastal plain. The surge and flooding hit at night."
+  ],
+  "The death toll and why it is uncertain": [
+   "A contemporary report in Monthly Weather Review (Hurd, 1922) put deaths in the city at about 5,000. A later chronology (Selga) adds about 50,000 in the surrounding area and says the total may have exceeded 100,000; NOAA lists more than 60,000. The higher figures depend on estimates for the countryside, where there was no count."
+  ]
+ },
+ "related": [],
+ "sources": [
+  {
+   "title": "Wikipedia: 1922 Shantou typhoon (cites Hurd 1922 and Coronas 1922, Monthly Weather Review; Selga chronology; NOAA)",
+   "url": "https://en.wikipedia.org/wiki/1922_Shantou_typhoon"
+  },
+  {
+   "title": "Weather Underground: The 36 deadliest tropical cyclones in world history (table; notes that pre-1900 tolls are highly uncertain)",
+   "url": "https://www.wunderground.com/hurricane/articles/deadliest-tropical-cyclones"
+  }
+ ]
+}

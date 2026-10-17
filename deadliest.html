@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deadliest Weather Events · Global Weather Watch</title>
+<meta name="description" content="Twenty of the deadliest weather disasters in history, each analysed in depth, with the range of published death tolls and how reliable each figure is.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%232b6cb0'/%3E%3Cpath d='M4 18c4-3 8 3 12 0s8-3 12 0' stroke='white' stroke-width='2.5' fill='none'/%3E%3C/svg%3E">
+<style>
+:root { color-scheme: light dark;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --color-bg: #f6f5f1; --color-panel: #ffffff; --color-fg: #1d1f22; --color-fg-muted: #5c6370; --color-border-line: #e2e0d8;
+  --c-high: #15803d; --c-medium: #a16207; --c-low: #b91c1c; --grid: #ecebe5; --axis: #8a9099; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --color-bg: #141619; --color-panel: #1c1f23; --color-fg: #eceae4; --color-fg-muted: #a3a9b2; --color-border-line: #2e3238;
+  --c-high: #4ade80; --c-medium: #facc15; --c-low: #f87171; --grid: #2a2e33; --axis: #8d949d; } }
+:root[data-theme="dark"] { --color-bg: #141619; --color-panel: #1c1f23; --color-fg: #eceae4; --color-fg-muted: #a3a9b2; --color-border-line: #2e3238;
+  --c-high: #4ade80; --c-medium: #facc15; --c-low: #f87171; --grid: #2a2e33; --axis: #8d949d; }
+html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); }
+body { font-family: var(--font-sans); }
+.site-nav { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; padding: 10px 16px; border-bottom: 1px solid var(--color-border-line); background: var(--color-panel); }
+.site-nav .brand { font-family: var(--font-serif); font-size: 1.15rem; color: var(--color-fg); text-decoration: none; margin-right: auto; }
+.site-nav a { color: var(--color-fg-muted); text-decoration: none; font-size: .9rem; }
+.site-nav a[aria-current="page"], .site-nav a:hover { color: var(--color-fg); }
+.site-foot { max-width: 1100px; margin: 24px auto; padding: 0 16px 24px; color: var(--color-fg-muted); font-size: .8rem; line-height: 1.5; }
+a { color: inherit; }
+main { max-width: 1100px; margin: 0 auto; padding: 16px; }
+h1 { font-family: var(--font-serif); font-weight: 400; font-size: 1.9rem; margin: .3em 0 .2em; }
+h2 { font-family: var(--font-serif); font-weight: 400; font-size: 1.3rem; margin: 1.5em 0 .4em; }
+.lede { color: var(--color-fg-muted); max-width: 80ch; line-height: 1.55; }
+.card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: 10px; padding: 14px 16px; margin: 12px 0; min-width: 0; }
+.ctl { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; font-size: .85rem; color: var(--color-fg-muted); margin: 6px 0 10px; }
+.ctl select { font: inherit; padding: 4px 6px; border: 1px solid var(--color-border-line); border-radius: 6px; background: var(--color-panel); color: var(--color-fg); }
+.tw { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: .86rem; }
+th { text-align: left; font-weight: 600; color: var(--color-fg-muted); font-size: .76rem; border-bottom: 1px solid var(--color-border-line); padding: 6px; white-space: nowrap; cursor: pointer; }
+td { border-bottom: 1px solid var(--color-border-line); padding: 7px 6px; vertical-align: top; line-height: 1.45; }
+tr:last-child td { border-bottom: 0; }
+td.n { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.conf { display: inline-block; font-size: .72rem; padding: 1px 8px; border-radius: 999px; border: 1px solid currentColor; white-space: nowrap; }
+.conf.high { color: var(--c-high); } .conf.medium { color: var(--c-medium); } .conf.low { color: var(--c-low); }
+.muted { color: var(--color-fg-muted); }
+.chart svg { display: block; width: 100%; height: auto; }
+.chart text { fill: var(--color-fg-muted); font-size: 11px; font-family: var(--font-sans); }
+.chart .lbl { fill: var(--color-fg); }
+.chart .gridline { stroke: var(--grid); }
+.chart .domain, .chart .tick line { stroke: var(--axis); }
+ul.notes { margin: 0; padding-left: 1.1em; line-height: 1.6; font-size: .9rem; color: var(--color-fg-muted); }
+ul.notes b { color: var(--color-fg); }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: .78rem; color: var(--color-fg-muted); margin-bottom: 4px; }
+.legend i { display: inline-block; width: 18px; height: 4px; border-radius: 2px; vertical-align: middle; margin-right: 5px; }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+</head><body>
+<nav class="site-nav" aria-label="Site">
+  <a class="brand" href="./">Global Weather Watch</a>
+  <a href="./">Dashboard</a>
+  <a href="./#climate">Climate</a>
+  <a href="deadliest.html" aria-current="page">Deadliest events</a>
+  <a href="events.html">Event log</a>
+  <a href="mundane.html">Mundane cycles</a>
+  <a href="data.html">Data archive</a>
+  <a href="about.html">About &amp; method</a>
+</nav>
+<main>
+  <h1>The deadliest weather events in history</h1>
+  <p class="lede">Twenty disasters, from a 13th-century North Sea surge to the European heat of 2022, each analysed in depth: the weather setup, why it killed so many, what changed afterwards, and how far the death toll can be trusted. The ranking follows the figures common in published lists; the "best-documented figure" and confidence rating show where those figures stand up and where they do not.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">Death-toll ranges, log scale</h2>
+    <div class="legend"><span><i style="background:var(--c-high)"></i>high confidence</span><span><i style="background:var(--c-medium)"></i>medium</span><span><i style="background:var(--c-low)"></i>low</span><span class="muted">Bars span the lowest and highest published figures; a dot marks a single figure.</span></div>
+    <div class="chart" id="chart"></div>
+  </div>
+
+  <div class="card">
+    <div class="ctl">
+      <label>Type <select id="f-type"><option value="all">All</option><option value="cyclone">Tropical cyclones and typhoons</option><option value="flood">River floods</option><option value="surge">North Sea storm surges</option><option value="heat">Heat waves</option></select></label>
+      <label>Confidence <select id="f-conf"><option value="all">All</option><option value="high">High</option><option value="medium">Medium</option><option value="low">Low</option></select></label>
+      <label>Sort <select id="f-sort"><option value="rank">By rank</option><option value="year">By year</option></select></label>
+      <a href="data/deadliest_events.csv" download>Download CSV</a>
+    </div>
+    <div class="tw"><table id="tbl">
+      <thead><tr><th>#</th><th>Event</th><th>Year</th><th>Where</th><th>Toll in rankings</th><th>Best-documented figure</th><th>Confidence</th></tr></thead>
+      <tbody></tbody>
+    </table></div>
+  </div>
+
+  <h2>How to read these numbers</h2>
+  <div class="card">
+    <ul class="notes">
+      <li><b>Death tolls measure vulnerability as much as weather.</b> The deadliest storms struck crowded, low-lying deltas and flood plains at night, with little warning and no shelter. Comparable storms today kill far fewer: Bangladesh lost 300,000 or more in 1970, about 139,000 in 1991, and far fewer in later storms of similar strength after building shelters and a volunteer warning system.</li>
+      <li><b>Many deaths come after the event.</b> In the 1931 China floods, the 1876 Bengal cyclone and the 1975 Banqiao disaster, famine and epidemics killed as many people as the water, or more. Whether a figure includes them is the main reason estimates differ.</li>
+      <li><b>Old numbers are often not counts.</b> Before the 20th century, and in places without death registration, tolls are chronicle figures, round numbers or later compilations. Twelve of the twenty headline figures here are rated low confidence; for three (Coringa 1839, North Sea 1099, Chittagong 1897), the commonly quoted figure could not be traced to any contemporary count.</li>
+      <li><b>Heat-wave tolls are statistical.</b> They are estimated as deaths above the expected number, or modelled from the temperature–mortality relationship, so they are well measured but not directly comparable with counted drownings.</li>
+      <li><b>Earthquakes, tsunamis, volcanoes and famines with non-weather causes are excluded.</b> Droughts that led to famine are also left out here, because their tolls depend mainly on politics and food systems.</li>
+    </ul>
+    <p class="muted" style="font-size:.82rem;margin-bottom:0">Confidence ratings are this site's judgement: <b>high</b> means a systematic count or epidemiological estimate; <b>medium</b> a contemporary official or survey estimate with known gaps; <b>low</b> a compilation figure without a traceable contemporary count. Each event page lists its sources. Prepared 17 October 2026.</p>
+  </div>
+</main>
+<footer class="site-foot">Independent, non-commercial analysis built from public sources. Not an official assessment. Analysis prepared with Claude (Anthropic).</footer>
+<script>
+(async () => {
+  const ix = await (await fetch('data/history/index.json', { cache: 'no-cache' })).json();
+  const rows = await d3.csv('data/deadliest_events.csv', { cache: 'no-cache' });
+  const byId = Object.fromEntries(ix.events.map((e) => [e.id, e]));
+  const data = rows.map((r) => ({ ...r, rank: +r.rank, year: +r.year, lo: r.toll_low ? +r.toll_low : null, hi: r.toll_high ? +r.toll_high : null, ...byId[r.id] }));
+  const group = (t) => /heat/i.test(t) ? 'heat' : /North Sea/i.test(t) ? 'surge' : /cyclone|typhoon/i.test(t) ? 'cyclone' : 'flood';
+  const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
+  const conf = (c) => el('span', 'conf ' + c, c);
+  function table() {
+    const t = document.getElementById('f-type').value, c = document.getElementById('f-conf').value, s = document.getElementById('f-sort').value;
+    const tb = document.querySelector('#tbl tbody'); tb.replaceChildren();
+    data.filter((r) => (t === 'all' || group(r.type) === t) && (c === 'all' || r.confidence === c))
+      .sort((a, b) => s === 'year' ? a.year - b.year : a.rank - b.rank)
+      .forEach((r) => {
+        const tr = el('tr');
+        const ev = el('td'); const a = el('a', null, r.event); a.href = `event.html?id=${r.id}&set=history`; ev.append(a, el('div', 'muted', r.type));
+        const cf = el('td'); cf.append(conf(r.confidence));
+        tr.append(el('td', 'n', r.rank), ev, el('td', 'n', r.year), el('td', null, r.region), el('td', null, r.toll_in_rankings), el('td', null, r.best_documented), cf);
+        tb.append(tr);
+      });
+  }
+  function chart() {
+    const box = document.getElementById('chart');
+    const W = Math.max(box.clientWidth, 320), mobile = W < 620;
+    const left = mobile ? 128 : 250, right = 16, rowH = 22, top = 8;
+    const list = data.slice().sort((a, b) => a.rank - b.rank);
+    const H = top + list.length * rowH + 30;
+    const x = d3.scaleLog([10000, 5000000], [left, W - right]);
+    const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+    box.replaceChildren();
+    const svg = d3.select(box).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Death-toll ranges for the twenty events');
+    const ticks = [10000, 30000, 100000, 300000, 1000000, 3000000];
+    svg.append('g').selectAll('line').data(ticks).join('line').attr('class', 'gridline').attr('x1', (d) => x(d)).attr('x2', (d) => x(d)).attr('y1', top).attr('y2', H - 24);
+    svg.append('g').attr('transform', `translate(0,${H - 24})`).call(d3.axisBottom(x).tickValues(ticks).tickFormat(d3.format('~s')).tickSizeOuter(0));
+    list.forEach((r, i) => {
+      const y = top + i * rowH + rowH / 2;
+      const col = css(`--c-${r.confidence}`);
+      const short = (t, n) => (t.length > n ? t.slice(0, n - 1).trimEnd() + '…' : t);
+      const base = r.event.split(' (')[0].replace(' and the Banqiao dam disaster', ' / Banqiao dams');
+      const name = mobile ? `${r.year} ${short(base, 15)}` : `${r.rank}. ${short(base, 30)} (${r.year})`;
+      const a = svg.append('a').attr('href', `event.html?id=${r.id}&set=history`);
+      a.append('title').text(`${r.event} (${r.year}): ${r.toll_in_rankings}`);
+      a.append('text').attr('class', 'lbl').attr('x', left - 8).attr('y', y + 4).attr('text-anchor', 'end').text(name);
+      const lo = r.lo || r.hi, hi = r.hi || r.lo;
+      if (lo && hi && hi > lo) svg.append('line').attr('x1', x(lo)).attr('x2', x(hi)).attr('y1', y).attr('y2', y).attr('stroke', col).attr('stroke-width', 6).attr('stroke-linecap', 'round');
+      else if (hi) svg.append('circle').attr('cx', x(hi)).attr('cy', y).attr('r', 4.5).attr('fill', col);
+      if (!r.lo && r.hi) svg.append('text').attr('x', x(r.hi) + 8).attr('y', y + 4).text('upper figure only');
+    });
+  }
+  ['f-type', 'f-conf', 'f-sort'].forEach((id) => document.getElementById(id).addEventListener('change', table));
+  table(); chart();
+  let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(chart, 150); });
+})();
+</script>
+</body></html>

@@ -1,0 +1,64 @@
+{
+ "id": "backerganj-cyclone-1584",
+ "name": "Backerganj cyclone (1584)",
+ "type": "Tropical cyclone and storm surge",
+ "region": "Bakerganj coast (Barisal and Patuakhali), present-day Bangladesh",
+ "status": "historical",
+ "depth": "deep",
+ "as_of": "17 Oct 2026",
+ "when": "1584 (some lists give 1582)",
+ "headline": "A five-hour storm described in Mughal-era chronicles drowned the coast of Bakla (Bakerganj); only well-built temples were said to survive.",
+ "numbers": [
+  [
+   "Rank in list",
+   "#5"
+  ],
+  [
+   "When",
+   "1584 (some lists give 1582)"
+  ],
+  [
+   "Death toll in rankings",
+   "About 200,000 (highly uncertain)"
+  ],
+  [
+   "Best-documented figure",
+   "≈200,000 from Mughal-era chronicles"
+  ],
+  [
+   "Confidence in the toll",
+   "Low: compilation figure without a traceable contemporary count"
+  ]
+ ],
+ "timeline": [
+  [
+   "1584",
+   "A cyclone and storm surge strike the Bakla/Bakerganj coast of Bengal."
+  ]
+ ],
+ "sections": {
+  "What happened": [
+   "The storm is known from Mughal-era sources, notably the Ain-i-Akbari of Abul Fazl and the later Riyaz-us-Salatin, later summarised in British district gazetteers. They describe a storm lasting about five hours with thunder and a sea that overwhelmed the coast, destroying houses and boats; only Hindu temples with strong foundations were spared."
+  ],
+  "The death toll and why it is uncertain": [
+   "The chronicles give about 200,000 deaths. There was no census, the area's population is unknown, and chronicle numbers of this period are often rounded or rhetorical. Lists even disagree on the year (1582 or 1584). The event is real; the number is a historical estimate to be treated with caution."
+  ],
+  "Why it matters": [
+   "It shows that the north-eastern Bay of Bengal has produced catastrophic surges for as long as there are records: the shallow shelf, funnel-shaped coast and low delta that made 1876, 1970 and 1991 so deadly were already in place."
+  ]
+ },
+ "related": [
+  "great-backerganj-cyclone-1876",
+  "bhola-cyclone-1970"
+ ],
+ "sources": [
+  {
+   "title": "Wikipedia: List of Bangladesh tropical cyclones (cites the Ain-i-Akbari, Riyaz-us-Salatin and O'Malley's Bengal District Gazetteer, 1914)",
+   "url": "https://en.wikipedia.org/wiki/List_of_Bangladesh_tropical_cyclones"
+  },
+  {
+   "title": "Weather Underground: The 36 deadliest tropical cyclones in world history (table; notes that pre-1900 tolls are highly uncertain)",
+   "url": "https://www.wunderground.com/hurricane/articles/deadliest-tropical-cyclones"
+  }
+ ]
+}
