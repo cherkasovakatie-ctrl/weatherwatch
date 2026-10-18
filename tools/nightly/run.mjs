@@ -62,7 +62,7 @@ async function firms(area, days) {
   return out;
 }
 
-async function fetchText(url, { expect = null, tries = 3, timeout = 90000 } = {}) {
+async function fetchText(url, { expect = null, tries = 3, timeout = 90000, wait = 3000 } = {}) {
   let last;
   for (let i = 0; i < tries; i++) {
     try {
@@ -73,7 +73,7 @@ async function fetchText(url, { expect = null, tries = 3, timeout = 90000 } = {}
       return t;
     } catch (e) {
       last = e;
-      await new Promise((res) => setTimeout(res, 3000 * (i + 1)));
+      await new Promise((res) => setTimeout(res, wait * (i + 1)));
     }
   }
   throw new Error(`${url}: ${last.message}`);
@@ -130,7 +130,7 @@ const JOBS = {
     run: async () => {
       const d = await firms('world', 2);
       const t = (x) => Date.parse(`${x.acq_date}T${String(x.acq_time).padStart(4, '0').replace(/(\d\d)(\d\d)/, '$1:$2')}:00Z`);
-      const newest = Math.max(...d.map(t));
+      const newest = d.reduce((m, x) => Math.max(m, t(x)), 0); // no spread: >100k detections overflow the call stack
       return T.firmsGrid(d.filter((x) => t(x) > newest - 864e5));
     },
   },
@@ -228,8 +228,8 @@ const JOBS = {
     run: async (old) => {
       const ERD = 'https://coastwatch.pfeg.noaa.gov/erddap/griddap/nceiErsstv5.csv?sst';
       const q = (lat, lon) => `${ERD}[(1991-01-01):1:(last)][(0.0)][${lat}][${lon}]`;
-      const nep = await fetchText(q('(40):1:(50)', '(210):1:(224)'), { expect: /^time,/, timeout: 120000 });
-      const soc = await fetchText(q('(30):1:(36)', '(236):1:(242)'), { expect: /^time,/, timeout: 120000 });
+      const nep = await fetchText(q('(40):1:(50)', '(210):1:(224)'), { expect: /^time,/, timeout: 120000, tries: 4, wait: 20000 });
+      const soc = await fetchText(q('(30):1:(36)', '(236):1:(242)'), { expect: /^time,/, timeout: 120000, tries: 4, wait: 20000 });
       const fresh = F.blobRows(nep, soc);
       const hasRows = old.trim().split('\n').length > 1;
       return patch(old, 'month', fresh, hasRows ? { cols: ['nep_anom', 'socal_anom'], tol: 0.05, accept: (o) => o.month > lastKey(old) && o.nep_anom !== '' && o.socal_anom !== '' } : {});
