@@ -144,6 +144,7 @@ body { font-family: var(--font-anthropic-sans); }
   .ww-firealert p { margin: 0; font-size: var(--cds-font-size-caption); line-height: 1.45; }
   .ww-firealert.quiet { border-left-color: var(--color-ok); }
   .ww-firealert.quiet b { color: var(--color-fg); }
+  .ww-mini { margin: 10px 0 0; font-size: var(--cds-font-size-caption); font-weight: var(--cds-font-weight-medium); color: var(--color-fg); }
   .ww-imp b { font-weight: var(--cds-font-weight-medium); }
   .ww-imp .m { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
   .ww-imp p { margin: 0; font-size: var(--cds-font-size-caption); line-height: 1.45; }
@@ -170,6 +171,7 @@ body { font-family: var(--font-anthropic-sans); }
   .ww-pdo-text p { margin: 0 0 10px; font-size: var(--cds-font-size-caption); line-height: 1.55; color: var(--color-fg-muted); max-width: 80ch; }
   .ww-pdo-text b { color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
   .ww-oni-why .ww-chart { min-height: 220px; }
+  #card-blob-analogs .ww-chart { min-height: 0; }
   .ww-oni-why h3 + p.note { margin-bottom: 4px; }
   a.ww-evlink { color: inherit; text-decoration: underline; text-decoration-color: var(--color-fg-muted); text-underline-offset: 2px; }
   a.ww-evlink:hover { text-decoration-color: var(--color-fg); }
@@ -425,6 +427,18 @@ body { font-family: var(--font-anthropic-sans); }
         <p class="note">3-month centred mean of CPC's standardized Tahiti minus Darwin SOI, in CPC units (multiply by 10 for the BOM scale). Negative values are El Niño-like.</p>
         <div class="ww-legend" data-legend="soi_analogs"></div>
         <div class="ww-chart" id="chart-soi-analogs" data-source="soi_analogs"></div>
+      </article>
+      <article class="ww-card" id="card-blob-analogs">
+        <h2>Blob and El Niño: 2013–16 against 2024–26</h2>
+        <p class="note">Monthly sea-surface temperature anomaly, °C vs 1991–2020 (NOAA ERSSTv5, box means), and the ONI. Aligned so the El Niño years line up: 2015 with 2026, so the x-axis starts in January 2013 and January 2024.</p>
+        <div class="ww-legend" data-legend="blob_analogs"></div>
+        <h3 class="ww-mini">Northeast Pacific "Blob" box, 40–50°N, 150–135°W</h3>
+        <div class="ww-chart" id="chart-blob-nep" data-source="blob_analogs"></div>
+        <h3 class="ww-mini">Off Southern California, 30–36°N, 124–118°W</h3>
+        <div class="ww-chart" id="chart-blob-socal" data-source="blob_analogs"></div>
+        <h3 class="ww-mini">El Niño: ONI (3-month Niño 3.4)</h3>
+        <div class="ww-chart" id="chart-blob-oni" data-source="blob_analogs"></div>
+        <p class="note">The Blob box is the region Bond et al. (2015) used for the 2014 warm anomaly. Months not yet published are left blank.</p>
       </article>
     </div>
   </section>
@@ -1694,6 +1708,25 @@ dash.calc('soi_analogs', {
   },
 });
 
+dash.calc('blob_analogs', {
+  inputs: ['blob_boxes', 'oni'],
+  title: 'Blob and El Niño aligned by El Niño year',
+  description: 'Northeast Pacific (40–50°N, 150–135°W) and offshore Southern California SST anomalies (ERSSTv5, vs 1991–2020) and the ONI, January two years before the El Niño year to June after it: 2013–16 against 2024–27.',
+  fn: (blob_boxes, oni) => {
+    const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    const b = new Map(blob_boxes.map((r) => [r.month, r]));
+    const o = new Map(oni.map((r) => [r.centre_month, r.oni === '' ? null : +r.oni]));
+    const val = (m, k) => (b.has(m) && b.get(m)[k] !== '' ? +b.get(m)[k] : null);
+    const rows = [];
+    for (let i = 0; i < 42; i++) {
+      const key = (y) => `${y + Math.floor(i / 12)}-${String((i % 12) + 1).padStart(2, '0')}`;
+      const a = key(2013), c = key(2024);
+      rows.push({ step: i, label: `${months[i % 12]} ${a.slice(2, 4)}/${c.slice(2, 4)}`, nep_a: val(a, 'nep_anom'), nep_b: val(c, 'nep_anom'), socal_a: val(a, 'socal_anom'), socal_b: val(c, 'socal_anom'), oni_a: o.get(a) ?? null, oni_b: o.get(c) ?? null });
+    }
+    return rows;
+  },
+});
+
 dash.calc('gradient', {
   inputs: ['sst_monthly'],
   title: 'Niño 1+2 minus Niño 4',
@@ -2492,6 +2525,25 @@ window.WW = (() => {
     });
   }
 
+  function drawBlobAnalogs() {
+    const d = dash.data('blob_analogs');
+    const ids = [['chart-blob-nep', 'nep'], ['chart-blob-socal', 'socal'], ['chart-blob-oni', 'oni']];
+    if (d.status !== 'ok') { ids.forEach(([id]) => box(id) && K.fail(box(id), d.status)); return; }
+    const c = C();
+    const legend = [{ key: 'a', label: '2013–16 (Blob, then 2015 El Niño)', color: c[4] || c[1], width: 1.5 }, { key: 'b', label: '2024–26', color: c[0], width: 3 }];
+    K.legend(document.querySelector('[data-legend="blob_analogs"]'), legend);
+    for (const [id, k] of ids) {
+      const el = box(id); if (!el) continue;
+      K.line(el, {
+        rows: d.data, x: (r) => r.step, xType: 'linear', zero: true, height: 150, endLabels: false,
+        series: legend.map((s) => ({ ...s, key: `${k}_${s.key}`, label: s.label })),
+        valFmt: (v) => (k === 'oni' ? K.signed(v, 2) : `${K.signed(v, 2)} °C`), yFmt: d3.format('.1f'),
+        xTickValues: d3.range(0, 42, 12), xTickFormat: (i) => (d.data[i] ? d.data[i].label : ''),
+        tipTitle: (r) => r.label.replace(/ (\d\d)\/(\d\d)/, ' 20$1 / 20$2'),
+      });
+    }
+  }
+
   function drawPdoWild() {
     const el = box('chart-pdo-wild'); if (!el) return;
     const d = dash.data('elnino_pdo');
@@ -2506,6 +2558,7 @@ window.WW = (() => {
     drawPdoWild();
     analog('chart-oni-analogs', 'oni_analogs', 'oni_analogs', 'season', 'Season');
     analog('chart-soi-analogs', 'soi_analogs', 'soi_analogs', 'month', 'Month');
+    drawBlobAnalogs();
     const el = box('chart-weekly-overview');
     const w = typed('sst_weekly', 'week', K.parseDay);
     if (w.status !== 'ok') return K.fail(el, w.status);
