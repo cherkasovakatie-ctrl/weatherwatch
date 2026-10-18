@@ -1,0 +1,114 @@
+{
+ "chu_frederick1990": {
+  "doi": "10.2151/jmsj1965.68.5_523",
+  "title": "Westerly Wind Bursts and Surface Heat Fluxes in the Equatorial Western Pacific in May 1982",
+  "authors": "Chu, Frederick",
+  "journal": "Journal of the Meteorological Society of Japan. Ser. II",
+  "vol": "68",
+  "issue": "5",
+  "page": "523-537",
+  "year": 1990,
+  "links": [
+   "https://www.jstage.jst.go.jp/article/jmsj1965/68/5/68_5_523/_pdf"
+  ]
+ },
+ "chu1988": {
+  "doi": "10.2151/jmsj1965.66.4_549",
+  "title": "Extratropical Forcing and the Burst of Equatorial Westerlies in the Western Pacific: A Synoptic Study",
+  "authors": "Chu",
+  "journal": "Journal of the Meteorological Society of Japan. Ser. II",
+  "vol": "66",
+  "issue": "4",
+  "page": "549-564",
+  "year": 1988,
+  "links": [
+   "https://www.jstage.jst.go.jp/article/jmsj1965/66/4/66_4_549/_pdf"
+  ]
+ },
+ "love1985a": {
+  "search": []
+ },
+ "harrison_giese1991": {
+  "doi": "10.1029/90jc01775",
+  "title": "Episodes of surface westerly winds as observed from islands in the western tropical Pacific",
+  "authors": "Harrison, Giese",
+  "journal": "Journal of Geophysical Research: Oceans",
+  "vol": "96",
+  "issue": "S01",
+  "page": "3221-3237",
+  "year": 1991,
+  "links": [
+   "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1029%2F90JC01775",
+   "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/90JC01775"
+  ],
+  "abstract": "<jats:p>We describe the characteristics of surface westerly wind episodes in the tropical Pacific between mid‐1957 and 1980, as they can be determined from a collection of daily average wind records from islands. Several types of frequency of occurrence and duration statistics are presented; events in which the maximum westerly anomalies exceed 7 m s<jats:sup>−1</jats:sup> are not common, but are prominent in the records. There is strong seasonal and geographical variation in frequency of occurrence. Four types of westerly episodes are found; we call them types N, C, S, or FS, according to whether the maximum westerly wind is found north of, centered on, south of, or “far south” of the equator near the international date line. Sixteen, 45, 47, and 47 events of type N, C, S, and FS are identified, respectively. The strongest westerly winds are associated with type C and S events; maximum daily average values can exceed 20 m s<jats:sup>−1</jats:sup>. Only type C and S events are found to have substantial equatorial zonal wind anomalies. Several examples of type C and S events are presented. Composite events of each type have been computed, and their characteristics are described. In order to explore relationships between equatorial westerly events and cyclones, all of the named tropical cyclones within a region encompassing the near‐date line islands have been identified; various statistics are presented, but no absolute relationships have been identified. The similarity between the composite type C and S anomaly patterns and patterns of the El Niño‐Southern Oscillation monthly mean zonal wind anomaly previously documented in the literature is striking; evidently, the westerly events often dominate in the monthly average anomaly.</jats:p>"
+ },
+ "giese_harrison1991": {
+  "search": [
+   {
+    "DOI": "10.1093/benz/9780199773787.article.b00073608",
+    "title": [
+     "Giese, Wilhelm"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2011,
+       10,
+       31
+      ]
+     ]
+    },
+    "container-title": [
+     "Benezit Dictionary of Artists"
+    ]
+   },
+   {
+    "DOI": "10.1093/benz/9780199773787.article.b00073596",
+    "title": [
+     "Giese, Benjamin"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2011,
+       10,
+       31
+      ]
+     ]
+    },
+    "container-title": [
+     "Benezit Dictionary of Artists"
+    ]
+   }
+  ]
+ },
+ "hartten1996": {
+  "doi": "10.1029/96jd00030",
+  "title": "Synoptic settings of westerly wind bursts",
+  "authors": "Hartten",
+  "journal": "Journal of Geophysical Research: Atmospheres",
+  "vol": "101",
+  "issue": "D12",
+  "page": "16997-17019",
+  "year": 1996,
+  "links": [
+   "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1029%2F96JD00030",
+   "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/96JD00030"
+  ],
+  "abstract": "<jats:p>The morphology of westerly wind bursts (WWBs) during the 1980s is investigated using 1000‐mbar winds analyzed by the European Center for Medium‐Range Weather Forecasts (ECMWF). The variety of synoptic situations in which WWBs occur are explored so that the dynamics of WWB generation and maintenance can be studied and so that those interested in short‐ and long‐term forecasts of conditions over the equatorial Pacific will have an increased knowledge of those elements associated with WWBs. WWBs are identified by searching for episodes in which the zonal wind was at least 5 m s<jats:sup>−1</jats:sup> over at least 10° longitude for two or more days. This definition, based on surface winds rather than elevated winds or wind anomalies, reflects the impact WWBs have on air/sea interaction processes. The spatial and temporal criteria provide a synoptic‐scale envelope for such interactions and mitigate against erroneous analyses. According to these criteria, 131 distinct WWBs occurred during the 1980s. A new two‐dimensional classification scheme has been developed; the nine patterns in it describe the near‐surface flow during 90% of these WWBs. A single cyclone or a series of cyclones in one or both hemispheres and several different types of cross‐equatorial flow are the major components of the patterns. Only 8% of the bursts were associated with concurrent cyclones in both the northern and southern hemispheres. Four bursts involving cross‐equatorial flow are subjected to further study. The flow is decomposed into barotropic and baroclinic parts and into rotational and divergent baroclinic components. One of the bursts was predominantly barotropic and another predominantly baroclinic; the cross‐equatorial flow in all four cases was predominantly divergent in nature. The information from these cases, coupled with the typical vertical structures and small meridional length scales associated with the various synoptic patterns, suggests that simple baroclinic models of circulations driven by near‐equatorial heating are not adequate to describe the dynamics during WWBs.</jats:p>"
+ },
+ "ohba_ueda2007": {
+  "doi": "10.2151/jmsj.85.335",
+  "title": "An Impact of SST Anomalies in the Indian Ocean in Acceleration of the El Nino to La Nina Transition",
+  "authors": "OHBA, UEDA",
+  "journal": "Journal of the Meteorological Society of Japan. Ser. II",
+  "vol": "85",
+  "issue": "3",
+  "page": "335-348",
+  "year": 2007,
+  "links": [
+   "http://www.jstage.jst.go.jp/article/jmsj/85/3/85_3_335/_pdf"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+chu_frederick1990 crossref 200
+chu1988 crossref 200
+love1985a crossref 404
+harrison_giese1991 crossref 200
+giese_harrison1991 crossref 404
+hartten1996 crossref 200
+ohba_ueda2007 crossref 200
+wwb_chu_frederick1990 200 application/pdf;charset=UTF-8 3357786
+wwb_chu1988 200 application/pdf;charset=UTF-8 1820588
+io_ohba_ueda2007 200 application/pdf;charset=UTF-8 1684836
+io_super_coupling_pmc 200 application/xml 103500
+io_diverse_iod_noaa 200 application/pdf 4060647
+io_luo2010_jamstec 200 application/pdf 4070024
+wwb_vecchi_harrison_pmel109 200 application/pdf 1143160

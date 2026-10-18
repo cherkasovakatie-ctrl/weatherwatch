@@ -1,0 +1,39 @@
+words: 8206
+OPENING (first 350 words):
+October 1990 P.-S. Chu and J. Frederick Westerly Wind Equatorial Bursts and Western By Pao-Shin Chu 523 Surface Heat Fluxes Pacific in May 19$2 and James in the Frederick Department of Meteorology, University of Hawaii, Honolulu, HI 96822 (Manuscript received in 15 March 1990, in revised form 17 July 1990) Abstract This paper presents a case study of westerly wind bursts in the equatorial western Pacific (EWP) during May 1982. Using 12-hourly island, atoll, and ship observations, the latitudinal extent of the 11-day long burst was determined to be within about five degrees from the equator, whereas its longitudinal domain varied considerably, raging from 1000 km when the burst was first recognized to more than 3500 km when the burst was fully developed. Consequently, Rossby numbers changed appreciably throughout the burst period, and the acceleration term, as expected, dominate the Coriolis force term at the initial stage of the burst. A pressure increase in the far western equatorial Pacific appeared to follow midlatitude forcing. The imposed zonal pressure distribution there greatly enhanced the otherwise slack background pressure gradient in the EWP and thus favored westerly wind bursts. Westerly winds averaged in the box bounded by 5*N-5*S and 135*-155*E peaked at 12-h and 2 days after the establishment of the equatorial zonal pressure gradient. In addition to the pressure rise in the extreme western Pacific, a pressure plunge in the core of the EWP (*150-160*E) resulted in a strong eastward-directed pressure gradient that acted to prolong the burst. Hovmoller diagrams of the meridionally averaged zonal wind and horizontal divergence in the equatorial waveguide indicate that the major axis of the surface divergence was located on the west of maximum westerlies throughout the burst period. The region of maximum surface convergence was on the eastern terminus of the burst, where convection and ascending motion were strong. Deep convective clouds were sometimes found east of strong westerlies. During the burst period, the zonal circulation in the EWP was marked by two cells, linked by strong convection on the eastern extreme of the burst. While the eastern cell resembled a local Walker circulation, the
+
+KEY SENTENCES (33; first 60):
+
+- Frederick  Westerly  Wind Equatorial  Bursts  and  Western  By Pao-Shin  Chu  523  Surface  Heat  Fluxes  Pacific  in May  19$2  and James  in the  Frederick  Department of Meteorology, University of Hawaii, Honolulu, HI 96822 (Manuscript received in 15 March 1990, in revised form 17 July 1990)  Abstract This paper presents a case study of westerly wind bursts in the equatorial western Pacific (EWP) during May 1982.
+- Introduction Interest in the relationship between westerly wind bursts in the equatorial western Pacific (EWP) and El Nino is growing rapidly, This interest has focused on the fact that wind bursts excite oceanic Kelvin waves which propagate eastward across the equatorial Pacific about two to three months later (e.g., Gill, 1982).
+- In May 1982, another episode of westerly bursts was observed in the EWP (Chu, 1989).
+- This was the first noticeable burst with a sustained period in 1982, and it preceded the onset of the 1982-83 El Nino by about three months (Harrison and Schopf, 1984).
+- A succession of westerly pulses was subsequently observed in the EWP until November 1982 (Sadler, 1983; Harrison, 1984).
+- In view of the potential importance of this initial burst to the lowfrequency SST variability associated with the very strong 1982-83 El Nino, this paper describes the spatial and temporal evolutions of this episode on a daily basis.
+- (a) Surface wind observations, at 6-h intervals, at Kapingamarangi, 5-18 May 1982.
+- Figure 2a shows surfacewinds at Kapingamarangi atoll (1*N, 155E), 5-18 May 1982.
+- Surface isobaric analysis for (a) 5 and (b) 6 May 1982.
+- Surface streamline analysis for (c) 5 and (d) 6 May 1982.
+- Patterns of the 24-h pressure change in mb between (a) 3 and 4 and (b) 4 and 5 May 1982.
+- Sea level pressure recorded twice daily at (a) Biak Island and (b) Kapingamarangi in May 1982.
+- Surface isobaric analysis for (a) 7 and (b) 8 May 1982.
+- Surface streamline analysis for (c) 7 and (d) 8 May 1982.
+- Surface isobaric analysis for (a) 11 and (b) 12 May 1982.
+- Surface streamline analysis for (c) 11 and (d) 12 May 1982.
+- 5  1982.
+- Surface streamline analysis for (a) 13, (b) 14, (c) 15, and (d) 17 May 1982.
+- (a) Scatter diagram based on the simultaneous zonal pressure gradient (Biak Island minus Kapingamarangi) and the zonal wind component averaged over the box 5*N-5*S, 135*-155*E for 5-17 May 1982.
+- Figure 11 shows the Hovmoller diagram of the meridionally averaged surface zonal wind between 4*N-2*Sover the EWP from 5 to 17 May 1982.
+- The period of analysis is 5-17 May 1982.
+- The period of analysis is 5-17 May 1982.
+- Summary of spatial (5*N-5*S, 135*E-155*E) and temporal averages of sea surface temperature (SST, in *), sensible heat flux (Qs), and latent heat flux (QL) for the periods before (1-5 May) and after (17-18 May) the burst, as well as during the burst period (6-16 May 1982).
+- Hovmoller diagram of daily outgoing longwave radiation (OLR) for 5-17 May 1982.
+- Discussion and summary A case of a relatively long-lived westerly wind burst that occurred in May 1982 in the equatorial western Pacific has been presented.
+- References Australian Meteorological Magazine, 1983: The Australian tropical cyclone season, 1982-1983.
+- Chu, P.-S., 1989: On the origin and evolution of westerly wind bursts in the equatorial Western Pacific during May 1982.
+- Gill, A.E., 1982: Atmosphere-Ocean Dynamics, Academic Press, 662pp.
+- Harrison, D.E., 1984: The appearance of sustained equatorial surface westerlies during the 1982 Pacific warm event.
+- Wyrtki, 1984: Equatorial sea level response during the 1982-83 El Nino.
+- Sumathipala, 1989: Westerly bursts during the 1982/84 ENSO.
+- Sadler, J., 1983: Tropical Pacific atmospheric anomalies during 1982-83.
+- Papers from 1982-83 El Nino/Southern Oscillation Data Display Workshop, 3-4 November, Minami, NOAA/AOML, 1-10.
