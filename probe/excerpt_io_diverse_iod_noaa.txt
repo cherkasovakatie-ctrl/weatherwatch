@@ -64,3 +64,6 @@ KEY SENTENCES (96; first 60):
 - It is also worth emphasizing that the thermocline ridge warming itself is not a direct cause for the La Niña, since it tends to induce weak warming in the tropical Pacific based on the IOGA experiments (Fig.
 - Further, atmospheric model experiments also show that warm/cold  SSTA in the thermocline ridge region alone does not significantly affect the tropical Pacific winds (Fig.
 - During DJF, the pIOD decays while the SSTA in the tropical Pacific and the southeast Indian Ocean continues to develop (Figs.
+
+ALL SENTENCES WITH 1982 (1; first 40):
+- 2021b) and that the pIOD played an important role in contributing to the observed extreme El Niño events of 1972/73, 1982/83, and 1997/98 (Hameed et al.

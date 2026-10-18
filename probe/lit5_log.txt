@@ -3,8 +3,11 @@ chu1988 crossref 200
 love1985a crossref 404
 harrison_giese1991 crossref 200
 giese_harrison1991 crossref 404
+giese_harrison1991 Unexpected end of JSON input
 hartten1996 crossref 200
 ohba_ueda2007 crossref 200
+io_hameed2018 PMC6023905 181766
+io_hameed2018b PMC6023905 181766
 wwb_chu_frederick1990 200 application/pdf;charset=UTF-8 3357786
 wwb_chu1988 200 application/pdf;charset=UTF-8 1820588
 io_ohba_ueda2007 200 application/pdf;charset=UTF-8 1684836

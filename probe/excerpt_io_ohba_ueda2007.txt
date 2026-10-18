@@ -36,3 +36,5 @@ KEY SENTENCES (32; first 60):
 - A recent study, Wang and An (2005) successfully separates the continuous and transition pattern for the Indian-Pacific SST through their seasonal-reliant EOF (S-EOF) analysis.
 - Our experimental design and the results of the above statistical analysis are confined to the argument about the subsequent ENSO transition processes in the delaying phase.
 - In this study, we conducted a set of experiments using a stand-  alone CGCM to catch the influence of the El Niño-related SST anomalies in the IO on the ENSO transition as its positive or negative feedback.
+
+ALL SENTENCES WITH 1982 (0; first 40):

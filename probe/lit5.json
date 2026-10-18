@@ -43,46 +43,6 @@
   ],
   "abstract": "<jats:p>We describe the characteristics of surface westerly wind episodes in the tropical Pacific between mid‐1957 and 1980, as they can be determined from a collection of daily average wind records from islands. Several types of frequency of occurrence and duration statistics are presented; events in which the maximum westerly anomalies exceed 7 m s<jats:sup>−1</jats:sup> are not common, but are prominent in the records. There is strong seasonal and geographical variation in frequency of occurrence. Four types of westerly episodes are found; we call them types N, C, S, or FS, according to whether the maximum westerly wind is found north of, centered on, south of, or “far south” of the equator near the international date line. Sixteen, 45, 47, and 47 events of type N, C, S, and FS are identified, respectively. The strongest westerly winds are associated with type C and S events; maximum daily average values can exceed 20 m s<jats:sup>−1</jats:sup>. Only type C and S events are found to have substantial equatorial zonal wind anomalies. Several examples of type C and S events are presented. Composite events of each type have been computed, and their characteristics are described. In order to explore relationships between equatorial westerly events and cyclones, all of the named tropical cyclones within a region encompassing the near‐date line islands have been identified; various statistics are presented, but no absolute relationships have been identified. The similarity between the composite type C and S anomaly patterns and patterns of the El Niño‐Southern Oscillation monthly mean zonal wind anomaly previously documented in the literature is striking; evidently, the westerly events often dominate in the monthly average anomaly.</jats:p>"
  },
- "giese_harrison1991": {
-  "search": [
-   {
-    "DOI": "10.1093/benz/9780199773787.article.b00073608",
-    "title": [
-     "Giese, Wilhelm"
-    ],
-    "issued": {
-     "date-parts": [
-      [
-       2011,
-       10,
-       31
-      ]
-     ]
-    },
-    "container-title": [
-     "Benezit Dictionary of Artists"
-    ]
-   },
-   {
-    "DOI": "10.1093/benz/9780199773787.article.b00073596",
-    "title": [
-     "Giese, Benjamin"
-    ],
-    "issued": {
-     "date-parts": [
-      [
-       2011,
-       10,
-       31
-      ]
-     ]
-    },
-    "container-title": [
-     "Benezit Dictionary of Artists"
-    ]
-   }
-  ]
- },
  "hartten1996": {
   "doi": "10.1029/96jd00030",
   "title": "Synoptic settings of westerly wind bursts",
@@ -110,5 +70,50 @@
   "links": [
    "http://www.jstage.jst.go.jp/article/jmsj/85/3/85_3_335/_pdf"
   ]
- }
+ },
+ "io_hameed2018": [
+  {
+   "title": "A model for super El Niños.",
+   "authors": "Hameed SN, Jin D, Thilakan V.",
+   "journal": "Nature communications",
+   "year": "2018",
+   "vol": "9",
+   "doi": "10.1038/s41467-018-04803-7",
+   "pmcid": "PMC6023905",
+   "license": "cc by",
+   "abstract": "Super El Niños, the strongest and most powerful of El Niños, impact economies, societies, and ecosystems disproportionately. Despite their importance, we do not fully understand how super El Niños develop their intensity and unique characteristics. Here, combining observational analyses with simple numerical simulations, we suggest that eastern Pacific intensified super El Niños result from the interaction of an El Niño and a positive Indian Ocean Dipole. Further, we identify a self-limiting behavior inherent to El Niño Southern Oscillation (ENSO) dynamics. This behavior-a consequence of the atmospheric Kelvin wave response that develops to the east of ENSO's convective anomalies-dampens sea surface temperature (SST) variations in the eastern Pacific, thereby preventing super El Niños from developing through tropical Pacific dynamics alone. Our model explains the features of the large 1972, 1982, and 1997 El Niños; the large SST anomalies during the 2015 El Niño, however, were likely enhanced by strong decadal variability."
+  }
+ ],
+ "io_hameed2018b": [
+  {
+   "title": "A model for super El Niños.",
+   "authors": "Hameed SN, Jin D, Thilakan V.",
+   "journal": "Nature communications",
+   "year": "2018",
+   "vol": "9",
+   "doi": "10.1038/s41467-018-04803-7",
+   "pmcid": "PMC6023905",
+   "license": "cc by",
+   "abstract": "Super El Niños, the strongest and most powerful of El Niños, impact economies, societies, and ecosystems disproportionately. Despite their importance, we do not fully understand how super El Niños develop their intensity and unique characteristics. Here, combining observational analyses with simple numerical simulations, we suggest that eastern Pacific intensified super El Niños result from the interaction of an El Niño and a positive Indian Ocean Dipole. Further, we identify a self-limiting behavior inherent to El Niño Southern Oscillation (ENSO) dynamics. This behavior-a consequence of the atmospheric Kelvin wave response that develops to the east of ENSO's convective anomalies-dampens sea surface temperature (SST) variations in the eastern Pacific, thereby preventing super El Niños from developing through tropical Pacific dynamics alone. Our model explains the features of the large 1972, 1982, and 1997 El Niños; the large SST anomalies during the 2015 El Niño, however, were likely enhanced by strong decadal variability."
+  },
+  {
+   "title": "Spatio-temporal detection for dengue outbreaks in the Central Region of Malaysia using climatic drivers at mesoscale and synoptic scale",
+   "authors": "Yip S, Him NC, Jamil NI, He D, Sahu SK.",
+   "year": "2021",
+   "doi": "10.1101/2021.09.22.21263997",
+   "license": "cc by",
+   "abstract": "The disease dengue is associated with both mesoscale and synoptic scale meteorology. Previous studies for south-east Asia have found very limited association between synoptic variables and the reported dengue cases. It will immensely beneficial to establish more clear association with rate of cases and the most relevant meteorological variables in order to institute an early warning system. A rigorous Bayesian modelling framework is provided to identify the most important co-variates and their lagged effects for developing an early warning system in the Central Region of Malaysia. Along with other mesoscale environmental measurements, we also examine multiple synoptic scale Niño indices which are related to the phenomenon of El Niño Southern Oscillation and an unobserved variable derived from reanalysis data. A probabilistic early warning system is built based on a Bayesian spatio-temporal hierarchical model. Our study finds a 46.87% of increase in dengue cases due to one degree increase in the central equatorial Pacific sea surface temperature with a lag time of six weeks. We discover the existence of a mild association between the rate of cases and a distant lagged cooling effect related to a phenomenon called El Niño Modoki. These associations are assessed by using a Bayesian spatio-temporal model in terms of estimated out-of-sample predictive accuracy. With the novel early warning system presented, our results show that the synoptic meteorological drivers can enhance short-term detection of dengue outbreaks and these can also potentially be used to provide longer-term forecasts. <h4>Practical Implications</h4> In 2019, it was reported that there is a severe dengue upsurge in Malaysia. Reported cases rose over 60% from 80,615 in the 2018 to 130,101 with 182 deaths (Rahim et al., 2021). The disease has been described as a silent killer that the infection rate once surpassed that of COVID-19. There is a need of an early warning system to alert the authority in order to identify relevant risk factors and the forthcoming outbreak hot-spots. The Bayesian hierarchical spatial dynamic model componentises different aspects of dengue dynamics into one unified model. Its flexibility allows us to regularly review the disease dynamic under changing environment and transmission mechanism such as the implementation of the Movement Control Orders (MCO) during COVID-19. Practically, this prototype model should be run at least once a week to generate forecasts which is fed with the dengue cases data from weekly press release and meteorological information from publicly available sources. By assessing the probability estimates, the alert has its intrinsic meaning and the sensitivity can be adjusted effortlessly. <h4>Highlights</h4> El Niño Southern Oscillation is a crucial driver to dengue outbreaks in Malaysia. A few different climate oscillations affect the dengue transmission pattern. Bayesian spatial dynamic model helps the development of early warning system. The model components can be added or modified under the hierarchical Bayes framework."
+  },
+  {
+   "title": "Multiple impact pathways of the 2015-2016 El Niño in coastal Kenya.",
+   "authors": "Fortnam M, Atkins M, Brown K, Chaigneau T, Frouws A, Gwaro K, Huxham M, Kairo J, Kimeli A, Kirui B, Sheen K.",
+   "journal": "Ambio",
+   "year": "2021",
+   "vol": "50",
+   "doi": "10.1007/s13280-020-01321-z",
+   "pmcid": "PMC7708579",
+   "license": "cc by",
+   "abstract": "The 2015-2016 El Niño had large impacts globally. The effects were not as great as anticipated in Kenya, however, leading some commentators to call it a 'non-event'. Our study uses a novel combination of participatory Climate Vulnerability and Capacity Analysis tools, and new and existing social and biophysical data, to analyse vulnerability to, and the multidimensional impacts of, the 2015-2016 El Niño episode in southern coastal Kenya. Using a social-ecological systems lens and a unique dataset, our study reveals impacts overlooked by conventional analysis. We show how El Niño stressors interact with and amplify existing vulnerabilities to differentially impact local ecosystems and people. The policy significance of this finding is that the development of specific national capacities to deal with El Niño events is insufficient; it will be necessary to also address local vulnerabilities to everyday and recurrent stressors and shocks to build resilience to the effects of El Niño and other extremes in climate and weather."
+  }
+ ]
 }

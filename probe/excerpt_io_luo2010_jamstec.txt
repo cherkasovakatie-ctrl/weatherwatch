@@ -64,3 +64,18 @@ KEY SENTENCES (83; first 60):
 - (a) SST (colored scale) and upper 50 m ocean zonal current (U50m, contour interval of 5 cm/s with zero contour omitted) difference during November 1994 to January 1995 between the CTL and dIO retrospective forecast experiments starting from 1 June 1994.
 - 2, but for model forecasts of other four El Niño events in 198283, 1987-88, 1991-92, and 2002-03 with and without the Indian Ocean influence.
 - Left panels show the model forecasts in the CTL experiment, and right panels the results without the Pacific Ocean climate variations (dPO).
+
+ALL SENTENCES WITH 1982 (13; first 40):
+- Retrospective forecast experiments  9-member ensemble retrospective forecasts for 12 target months from the first day of each month during 1982-2006 were performed based on a semi-multimodel ensemble approach; both model coupling physics and initial conditions were perturbed separately in three  6  different ways (see Luo et al.
+- Contributions of the external forcing to El Niño growth in the latter part of the year appear to be essentially constrained by the intrinsic phase-locking of ENSO to the annual cycle (e.g., Rasmusson and Carpenter 1982).
+- To further examine the influence of the Indian Ocean on El Niño prediction, we have performed additional forecast experiments of other four El Niño in 1982-83, 1987-88, 1991-92, and 2002-03 with and without the Indian Ocean influence (Fig.
+- Without the Indian Ocean influence, a systematic underestimation of the intensity of the 1982-83 El Niño can also be seen (Figs.
+- This is probably related to the impact of an overpredicted IOD in 1982 (see Luo et al.
+- D., 1982: On the annual cycle of the tropical Pacific atmosphere and ocean.
+- Carpenter, 1982: Variations in tropical sea surface temperature and surface wind fields associated with the Southern Oscillation/El Niño.
+- 2, but for model forecasts of other four El Niño events in 198283, 1987-88, 1991-92, and 2002-03 with and without the Indian Ocean influence.
+- The westward-propagating cold SST drift in the Pacific (left panels) is not related to model thermocline drift (right panels); this is reminiscent of the physical processes responsible for the westwardpropagating annual cycle of SST (e.g., Horel 1982; Chang and Philander 1994).
+- 3 and 7) suggests the dominant role of the local Bjerknes feedback in the individual basins during the subsequent growth of these two climate modes, each of which is also subject to their intrinsic annual-phase locking (e.g., Rasmusson and Carpenter 1982; Saji et al.
+- 2, but for model forecasts of other four El Niño events in 198283, 1987-88, 1991-92, and 2002-03 with and without the Indian Ocean influence.
+- The westward-propagating cold SST drift in the Pacific (left panels) is not related to model thermocline drift (right panels); this is reminiscent of the physical processes responsible for the westwardpropagating annual cycle of SST (e.g., Horel 1982; Chang and Philander 1994).
+- 3 and 7) suggests the dominant role of the local Bjerknes feedback in the individual basins during the subsequent growth of these two climate modes, each of which is also subject to their intrinsic annual-phase locking (e.g., Rasmusson and Carpenter 1982; Saji et al.

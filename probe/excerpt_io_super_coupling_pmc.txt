@@ -48,3 +48,7 @@ KEY SENTENCES (44; first 60):
 - In the CTRL experiment, two events (years 123 and 142) fail to simulate the extreme warming in the Pacific, indicating their low predictability (fig.
 - Therefore, the decoupled experiments are only performed for the remaining eight predictable super El Niño events.
 - Isolation of individual and synergistic effects By comparing the differences between the four sets of perfect model hindcast experiments, we can isolate the individual and synergistic effects of the Indian and Atlantic oceans (table S2).
+
+ALL SENTENCES WITH 1982 (2; first 40):
+- Specifically, it has been observed that Atlantic Niña and positive Indian Ocean Dipole (IOD) events occur in the summer and autumn (referring to boreal seasons in this paper) of four super El Niño years (1972, 1982, 1997, and 2015).
+- Specifically, we focus on the peak season (November-December-January, hereafter referred to as NDJ) and identify five super El Niño years from 1948 to 2023, namely, 1972, 1982, 1997, 2015, and 2023, where the NDJ Niño3.4 index exceeds 2 SDs ( Fig.
