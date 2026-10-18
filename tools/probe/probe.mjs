@@ -5,6 +5,7 @@ const log = [];
 const get = (u, o = {}) => fetch(u, { headers: UA, signal: AbortSignal.timeout(120000), redirect: 'follow', ...o });
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const inv = (x) => { if (!x) return ''; const p = []; for (const [w, ix] of Object.entries(x)) for (const i of ix) p[i] = w; return p.join(' '); };
+if (process.env.SKIP_LIT) process.exit(0);
 // 1. Europe PMC full text (Nature Communications 2025, PMC11802828)
 try {
   const r = await get('https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11802828/fullTextXML'); const t = await r.text();

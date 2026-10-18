@@ -3,7 +3,7 @@ Data: NCEP/NCAR Reanalysis 1 daily u (1000, 850, 200 hPa) and NOAA interpolated 
 Base period for climatology and EOFs: 1979-2001 (Wheeler & Hendon 2004 used 1979-2001)."""
 import json, re, time, urllib.request, datetime as dt
 from concurrent.futures import ThreadPoolExecutor
-import numpy as np
+import numpy as np, traceback, sys
 from scipy import ndimage
 
 Y0, Y1 = 1979, 2001
@@ -43,7 +43,17 @@ def get_u(y):
     b = parse(fetch(R1.format(y=y, n=n - 1, lev='9:1:9')), (n, 1, 9, 144))
     return np.concatenate([a, b], axis=1)  # levels 1000, 850, 200
 
-tt = np.array(re.findall(r'[\d.]+', fetch(OLRT).split('time[', 1)[1].split(']', 1)[1]), dtype=float)
+
+for name in ('omi.1x.webpage.7921.txt', 'omi.1x.orig.txt', 'rmm_star_data.txt', 'vpm.1x.txt', 'fmo.1x.txt', 'REOMI.txt', 'Koopman_MJO.txt', 'format.html'):
+    try:
+        t = fetch('https://psl.noaa.gov/mjo/mjoindex/' + name, tries=2); L = t.splitlines()
+        keep = [l for l in L if re.match(r'^\s*198[123]\b', l)]
+        open('probe/idx_' + name.replace('.', '_') + '.txt', 'w').write(f'{len(L)} lines\nHEAD\n' + '\n'.join(L[:15]) + '\nTAIL\n' + '\n'.join(L[-3:]) + '\n1981-83\n' + '\n'.join(keep if name != 'format.html' else []) + ('\n' + t[:20000] if name == 'format.html' else ''))
+    except Exception as e:
+        LOG.append(f'{name} {e}')
+
+_t = fetch(OLRT).split('---------------------------------------------', 1)[1].strip().split('\n', 1)[1]
+tt = np.array(re.findall(r'[\d.]+', _t), dtype=float)
 odates = np.array([dt.date(1800, 1, 1) + dt.timedelta(hours=h) for h in tt])
 
 def get_olr(y):
