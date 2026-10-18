@@ -226,7 +226,7 @@ const JOBS = {
   storm_fixes: {
     min: 20, time: null,
     run: async (old) => {
-      const csv = await fetchText('https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r01/access/csv/ibtracs.ACTIVE.list.v04r01.csv', { expect: /^SID,SEASON/, timeout: 120000 });
+      const csv = await fetchText('https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r01/access/csv/ibtracs.last3years.list.v04r01.csv', { expect: /^SID,SEASON/, timeout: 180000 });
       const since = new Date(now.getTime() - 35 * 864e5).toISOString().slice(0, 16).replace('T', ' ');
       const fresh = F.ibtracsRows(csv, since);
       const header = old.split('\n')[0].split(',');
@@ -240,11 +240,11 @@ const JOBS = {
       // Keep advisory rows that are newer than IBTrACS's last fix for that storm.
       const last = new Map();
       for (const r of fresh) if (!last.has(r.storm) || r.time_utc > last.get(r.storm)) last.set(r.storm, r.time_utc);
-      // Storms missing from the ACTIVE file (dropped after they ended, or not yet named there) keep their existing
+      // Storms missing from IBTrACS (not yet numbered, or renamed) keep their existing
       // rows; advisory rows are kept only if newer than IBTrACS's last fix for that storm.
       const extra = oldRows.filter((r) => r.time_utc >= since && !r.storm.endsWith('(unnamed)') && (!last.has(r.storm) || (!r.source.startsWith('IBTrACS') && r.time_utc > last.get(r.storm))));
       const rows = [...fresh, ...extra].sort((a, b) => (a.storm === b.storm ? a.time_utc.localeCompare(b.time_utc) : a.storm.localeCompare(b.storm)));
-      return { header, rows: rows.map((r) => header.map((c) => r[c] ?? '')), note: `${fresh.length} IBTrACS fixes, ${both.length} checked against the old file, ${extra.length} existing rows kept (advisories, or storms not in the ACTIVE file)` };
+      return { header, rows: rows.map((r) => header.map((c) => r[c] ?? '')), note: `${fresh.length} IBTrACS fixes, ${both.length} checked against the old file, ${extra.length} existing rows kept (advisories, or storms not in IBTrACS)` };
     },
   },
   sst_weekly: {
