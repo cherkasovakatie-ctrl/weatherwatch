@@ -67,6 +67,7 @@ instructions ("Weather & ENSO"), and these rules:
 | Hazards | `tropical_cyclones`, `tc_tracks`, `storm_fixes`, `ace_season`, `gdacs_current`, `volcanoes_weekly`, `impacts` |
 | Southern California | `coast_hourly`, `ar_watch`, `ridge_watch`, `cdec_reservoirs` |
 | Poles, ocean, space | `polar_stations`, `polar_motion` |
+| Blob watch | `#card-blob-watch` in index.html: re-read NOAA's California Current Marine Heatwave Tracker (update date, the southern-coast and Gulf of Alaska heatwaves), the latest PDO and the ridge watch; update the "Now" column, the verdict and the update date |
 | Events | `event_analyses` and `data/events/*.json`: update status of unfolding events; add new major events |
 
 ### When a new month is out (first refresh after CPC/NOAA publish)
