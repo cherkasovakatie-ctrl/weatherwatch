@@ -574,9 +574,9 @@
    "id": "storm_fixes",
    "file": "storm_fixes.csv",
    "title": "Storm positions over time",
-   "description": "6-hourly tropical cyclone fixes since 25 Sep 2026 (position, maximum wind, pressure) from IBTrACS v04r01 ACTIVE provisional tracks (NHC and JTWC data, file of 11 Oct 09:02 UTC), plus the 15 UTC 11 Oct NHC advisory for Simon, Isaias and Rachel. Category is Saffir–Simpson from the 1-minute wind.",
-   "updated": "2026-10-11",
-   "bytes": 19426
+   "description": "6-hourly tropical cyclone fixes for the past 35 days (position, 1-minute maximum wind, pressure) from NOAA NCEI IBTrACS v04r01 ACTIVE provisional tracks (NHC and JTWC data); category is Saffir–Simpson from the 1-minute wind, 'Low or disturbance' before formation and 'Post-tropical' after. Numbered systems not yet named in IBTrACS appear by ID (e.g. WP29). Storms that have dropped out of the ACTIVE file, and NHC advisory positions newer than IBTrACS's last fix, are kept. Refreshed daily at 9 am Pacific by the scripted refresh (tools/nightly).",
+   "updated": "2026-10-18",
+   "bytes": 28674
   },
   {
    "id": "sunspots_monthly",

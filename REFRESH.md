@@ -27,7 +27,7 @@ It refreshes, from public APIs:
   `local_watertemp`, `volcano_alerts_us` (USGS, NWS, Open-Meteo, NOAA CO-OPS, USGS HANS); `fires_global_grid`
   (past 24 h) and `fires_socal` (past 5 days) from NASA FIRMS; `space_daily` (NOAA SWPC), `calfire_active`
   (CAL FIRE), `coral_dhw` and `coral_now` (NOAA Coral Reef Watch), `ozone_2026` (NASA Ozone Watch) and the 2026
-  columns of `seaice_clim` (NSIDC); `blob_boxes` (NOAA ERSSTv5 via ERDDAP, monthly).
+  columns of `seaice_clim` (NSIDC); `blob_boxes` (NOAA ERSSTv5 via ERDDAP, monthly); `storm_fixes` (NOAA NCEI IBTrACS ACTIVE).
 - **Monthly and weekly indices, checked daily:** `sst_weekly` and `sst_monthly` (CPC Niño SST files), `oni` (ONI and RONI), `ao_aao`, `planet_monthly` (GISTEMP, Mauna Loa CO2,
   Rutgers snow), `sunspots_monthly` (SILSO) and the heat-content column of `enso_subsurface` (CPC). A new month is
   added only when every column of that month has a value; existing months take the source's latest revision.
@@ -67,7 +67,7 @@ instructions ("Weather & ENSO"), and these rules:
 | Group | Datasets |
 |---|---|
 | ENSO and drivers | `mjo_daily`, `poles_daily`, `enso_subsurface` (WWV column only) |
-| Hazards | `tropical_cyclones`, `tc_tracks`, `storm_fixes`, `ace_season`, `gdacs_current`, `volcanoes_weekly`, `impacts` |
+| Hazards | `tropical_cyclones`, `tc_tracks`, `ace_season`, `gdacs_current`, `volcanoes_weekly`, `impacts` |
 | Southern California | `coast_hourly`, `ar_watch`, `ridge_watch`, `cdec_reservoirs` |
 | Poles, ocean, space | `polar_stations`, `polar_motion` |
 | Blob watch | `#card-blob-watch` in index.html: re-read NOAA's California Current Marine Heatwave Tracker (update date, the southern-coast and Gulf of Alaska heatwaves), the latest PDO and the ridge watch; update the "Now" column, the verdict and the update date |
