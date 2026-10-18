@@ -705,6 +705,14 @@
    "description": "Monthly Niño 3.4 (5°N–5°S, 170°W–120°W) sea-surface temperature anomaly, °C vs 1981–2010, from HadISST via NOAA PSL (https://psl.noaa.gov/data/timeseries/month/data/nino34.long.anom.data), January 1870 to July 2026, read 17 Oct 2026. Missing values (-99.99) dropped. Used for the 'El Niño through history' chart.",
    "updated": "2026-10-17",
    "bytes": 25543
+  },
+  {
+   "id": "blob_boxes",
+   "file": "blob_boxes.csv",
+   "title": "Blob watch: Northeast Pacific and Southern California SST anomalies",
+   "description": "Monthly sea-surface temperature anomaly (°C vs the 1991–2020 mean for the same month) from NOAA ERSSTv5 (2° grid, via NOAA CoastWatch ERDDAP), cos-latitude-weighted box means: nep_anom = 40–50°N, 150–135°W (the box Bond et al. 2015 used for the 2014 'Blob'); socal_anom = 30–36°N, 124–118°W, offshore Southern California (ocean grid points only). From 2012. Checked daily at 9 am Pacific by the scripted refresh (tools/nightly); a new month is added once both boxes have a value.",
+   "updated": "2026-10-18",
+   "bytes": 0
   }
  ]
 }

@@ -86,3 +86,13 @@ test('silso: 13-month smoothed mean with half-weight ends', () => {
   assert.equal(rows[6].ssn_smooth, '101.7');
   assert.equal(rows[5].ssn_smooth, '');
 });
+
+test('ERSST box mean is cos-latitude weighted and anomalies use 1991–2020', () => {
+  const csv = 'time,depth,latitude,longitude,sst\nUTC,m,degrees_north,degrees_east,degree_C\n2026-01-15T00:00:00Z,0.0,0.0,210.0,10\n2026-01-15T00:00:00Z,0.0,60.0,210.0,20\n2026-01-15T00:00:00Z,0.0,60.0,212.0,NaN\n';
+  const m = F.ersstBoxMean(csv);
+  assert.ok(Math.abs(m.get('2026-01') - (10 * 1 + 20 * 0.5) / 1.5) < 1e-9);
+  const series = new Map();
+  for (let y = 1991; y <= 2020; y++) series.set(`${y}-01`, 10);
+  series.set('2026-01', 11.234);
+  assert.ok(Math.abs(F.anomalies(series).get('2026-01') - 1.234) < 1e-9);
+});

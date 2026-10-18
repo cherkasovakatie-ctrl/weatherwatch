@@ -223,6 +223,18 @@ const JOBS = {
     run: async (old) => patch(old, 'month', F.heatContent(await fetchText(`${CPC}/products/analysis_monitoring/ocean/index/heat_content_index.txt`, { expect: /300m/ })),
       { cols: ['heat_180_100w'], tol: 0.05, accept: (o) => o.month > lastKey(old) && o.heat_180_100w !== '' }),
   },
+  blob_boxes: {
+    min: 150, time: 'max',
+    run: async (old) => {
+      const ERD = 'https://coastwatch.pfeg.noaa.gov/erddap/griddap/nceiErsstv5.csv?sst';
+      const q = (lat, lon) => `${ERD}[(1991-01-01):1:(last)][(0.0)][${lat}][${lon}]`;
+      const nep = await fetchText(q('(40):1:(50)', '(210):1:(224)'), { expect: /^time,/, timeout: 120000 });
+      const soc = await fetchText(q('(30):1:(36)', '(236):1:(242)'), { expect: /^time,/, timeout: 120000 });
+      const fresh = F.blobRows(nep, soc);
+      const hasRows = old.trim().split('\n').length > 1;
+      return patch(old, 'month', fresh, hasRows ? { cols: ['nep_anom', 'socal_anom'], tol: 0.05, accept: (o) => o.month > lastKey(old) && o.nep_anom !== '' && o.socal_anom !== '' } : {});
+    },
+  },
   volcano_alerts_us: {
     min: 0, time: null,
     run: async () => {

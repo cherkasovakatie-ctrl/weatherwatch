@@ -266,3 +266,30 @@ export function heatContent(text) {
 }
 
 export { MONTHS };
+
+// ---------- NOAA ERSSTv5 box means (ERDDAP griddap CSV) for the Blob watch ----------
+/** Cos(latitude)-weighted mean SST per month from an ERDDAP griddap CSV (time,depth,latitude,longitude,sst). */
+export function ersstBoxMean(csv) {
+  const acc = new Map();
+  for (const l of csv.split('\n').slice(2)) {
+    const f = l.split(',');
+    if (f.length < 5 || !isNum(f[4])) continue;
+    const m = f[0].slice(0, 7), w = Math.cos((Number(f[2]) * Math.PI) / 180);
+    const a = acc.get(m) || { s: 0, w: 0 };
+    a.s += w * Number(f[4]); a.w += w; acc.set(m, a);
+  }
+  return new Map([...acc].map(([m, a]) => [m, a.s / a.w]));
+}
+/** Monthly anomalies vs the 1991–2020 mean of the same calendar month (needs all 30 years for that month). */
+export function anomalies(series, from = '1991', to = '2020') {
+  const clim = {};
+  for (let k = 1; k <= 12; k++) {
+    const v = [...series].filter(([m]) => m.slice(5) === pad2(k) && m.slice(0, 4) >= from && m.slice(0, 4) <= to).map(([, x]) => x);
+    clim[pad2(k)] = v.length === 30 ? v.reduce((a, b) => a + b, 0) / 30 : null;
+  }
+  return new Map([...series].map(([m, x]) => [m, clim[m.slice(5)] == null ? null : x - clim[m.slice(5)]]));
+}
+export function blobRows(nepCsv, socalCsv, since = '2012-01') {
+  const n = anomalies(ersstBoxMean(nepCsv)), s = anomalies(ersstBoxMean(socalCsv));
+  return [...n.keys()].filter((m) => m >= since).sort().map((m) => ({ month: m, nep_anom: n.get(m) == null ? '' : round(n.get(m), 2), socal_anom: s.get(m) == null ? '' : round(s.get(m), 2) }));
+}
