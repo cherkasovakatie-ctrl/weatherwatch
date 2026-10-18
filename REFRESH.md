@@ -21,15 +21,24 @@ python3 -m pytest -q tools/mundane      # must pass before anything is committed
 ## 1b. Daily scripted refresh (GitHub Actions, 9 am Pacific)
 
 `.github/workflows/nightly.yml` runs `tools/nightly/run.mjs` every day at 9 am Los Angeles time and pushes to `main`.
-It refreshes `earthquakes`, `local_obs`, `local_periods`, `local_hourly`, `local_tides`, `local_hilo`,
-`local_watertemp` and `volcano_alerts_us` from keyless public APIs (USGS, NWS, Open-Meteo, NOAA CO-OPS, USGS HANS),
-plus `fires_global_grid` (past 24 h, world) and `fires_socal` (past 5 days, the API maximum) from the NASA FIRMS area
-API. FIRMS needs a free MAP_KEY, stored only as the repository secret `FIRMS_MAP_KEY`; the script replaces it with
-`***` in every error and log line.
+It refreshes, from public APIs:
+
+- **Daily feeds:** `earthquakes`, `local_obs`, `local_periods`, `local_hourly`, `local_tides`, `local_hilo`,
+  `local_watertemp`, `volcano_alerts_us` (USGS, NWS, Open-Meteo, NOAA CO-OPS, USGS HANS); `fires_global_grid`
+  (past 24 h) and `fires_socal` (past 5 days) from NASA FIRMS; `space_daily` (NOAA SWPC), `calfire_active`
+  (CAL FIRE), `coral_dhw` and `coral_now` (NOAA Coral Reef Watch), `ozone_2026` (NASA Ozone Watch) and the 2026
+  columns of `seaice_clim` (NSIDC).
+- **Monthly indices, checked daily:** `oni` (ONI and RONI), `ao_aao`, `planet_monthly` (GISTEMP, Mauna Loa CO2,
+  Rutgers snow), `sunspots_monthly` (SILSO) and the heat-content column of `enso_subsurface` (CPC). A new month is
+  added only when every column of that month has a value; existing months take the source's latest revision.
+
+FIRMS needs a free MAP_KEY, stored only as the repository secret `FIRMS_MAP_KEY`; the script replaces it with
+`***` in every error and log line. Merged datasets are first compared with the existing file on overlapping
+dates: if values disagree beyond a small tolerance (a sign of a misread column), nothing is written.
 Each file is written only if its columns match the existing file, it has enough rows and its newest row is not older
 than the current one; otherwise the old file stays. Results are in `data/nightly_status.json`. In the Friday run,
 check that file first: re-fetch by hand only the datasets it marks as failed, and skip the ones it refreshed.
-Tests: `node --test tools/nightly/transforms.test.mjs`.
+Tests: `node --test tools/nightly/transforms.test.mjs tools/nightly/feeds.test.mjs`.
 
 ## 2. Agent-fetched datasets
 
@@ -54,17 +63,15 @@ instructions ("Weather & ENSO"), and these rules:
 
 | Group | Datasets |
 |---|---|
-| ENSO and drivers | `sst_weekly`, `mjo_daily`, `poles_daily`, `enso_subsurface` |
-| Hazards | `earthquakes`, `tropical_cyclones`, `tc_tracks`, `storm_fixes`, `ace_season`, `gdacs_current`, `fires_global_grid`, `fires_socal`, `calfire_active`, `volcanoes_weekly`, `volcano_alerts_us`, `impacts` |
-| Southern California | `local_obs`, `local_periods`, `local_hourly`, `local_tides`, `local_hilo`, `local_watertemp`, `coast_hourly`, `ar_watch`, `ridge_watch`, `cdec_reservoirs` |
-| Poles, ocean, space | `polar_stations`, `seaice_clim`, `coral_dhw`, `coral_now`, `space_daily`, `polar_motion` |
-| Seasonal | `ozone_2026` (Aug–Dec only) |
+| ENSO and drivers | `sst_weekly`, `mjo_daily`, `poles_daily`, `enso_subsurface` (WWV column only) |
+| Hazards | `tropical_cyclones`, `tc_tracks`, `storm_fixes`, `ace_season`, `gdacs_current`, `volcanoes_weekly`, `impacts` |
+| Southern California | `coast_hourly`, `ar_watch`, `ridge_watch`, `cdec_reservoirs` |
+| Poles, ocean, space | `polar_stations`, `polar_motion` |
 | Events | `event_analyses` and `data/events/*.json`: update status of unfolding events; add new major events |
 
 ### When a new month is out (first refresh after CPC/NOAA publish)
 
-`oni`, `atmosphere_monthly`, `sst_monthly`, `drivers_monthly`, `ao_aao`, `planet_monthly`,
-`sunspots_monthly`, `sealevel_global`.
+`atmosphere_monthly`, `sst_monthly`, `drivers_monthly`, `sealevel_global` (the others are in the daily script).
 
 ### Annual or static — leave alone unless the period has closed
 

@@ -30,8 +30,8 @@
    "id": "ao_aao",
    "file": "ao_aao.csv",
    "title": "Arctic and Antarctic Oscillation",
-   "description": "CPC monthly AO (from 1950) and AAO (from 1979) indices, through September 2026.",
-   "updated": "2026-10-11",
+   "description": "CPC monthly AO (from 1950) and AAO (from 1979) indices. Checked daily at 9 am Pacific by the scripted refresh (tools/nightly); a new month is added only once every column has a value.",
+   "updated": "2026-10-17",
    "bytes": 18738
   },
   {
@@ -54,9 +54,9 @@
    "id": "calfire_active",
    "file": "calfire_active.csv",
    "title": "CAL FIRE active incidents",
-   "description": "Active incidents listed on fire.ca.gov/incidents, read 11 Oct 2026 about 11:40 PDT.",
-   "updated": "2026-10-11",
-   "bytes": 313
+   "description": "Active wildfires listed by CAL FIRE (fire.ca.gov incidents API), largest first; start date in Pacific time. Refreshed daily at 9 am Pacific by the scripted refresh (tools/nightly).",
+   "updated": "2026-10-17",
+   "bytes": 434
   },
   {
    "id": "cdec_reservoirs",
@@ -78,16 +78,16 @@
    "id": "coral_dhw",
    "file": "coral_dhw.csv",
    "title": "Coral degree heating weeks since 2025",
-   "description": "NOAA Coral Reef Watch 5 km regional virtual stations: Florida Keys, Puerto Rico, Galapagos, Main Hawaiian Islands; DHW in degC-weeks.",
-   "updated": "2026-10-16",
+   "description": "NOAA Coral Reef Watch 5 km regional virtual stations: Florida Keys, Puerto Rico, Galápagos, Hawaii; Degree Heating Weeks in °C-weeks, from 2025. Refreshed daily at 9 am Pacific by the scripted refresh (tools/nightly).",
+   "updated": "2026-10-17",
    "bytes": 20840
   },
   {
    "id": "coral_now",
    "file": "coral_now.csv",
    "title": "Coral reefs now",
-   "description": "Latest SST, HotSpot, DHW and Bleaching Alert Area level per station, with the 2026 DHW peak.",
-   "updated": "2026-10-16",
+   "description": "Latest SST, HotSpot (SST above the warmest-month mean, at the 90th-percentile pixel), Degree Heating Weeks and 7-day Bleaching Alert Area level per station, with the 2026 DHW peak (NOAA Coral Reef Watch). Before 18 Oct 2026 the HotSpot column held the SST anomaly. Refreshed daily at 9 am Pacific by the scripted refresh (tools/nightly).",
+   "updated": "2026-10-17",
    "bytes": 287
   },
   {
@@ -142,8 +142,8 @@
    "id": "enso_subsurface",
    "file": "enso_subsurface.csv",
    "title": "Equatorial Pacific subsurface heat",
-   "description": "CPC upper-300 m equatorial temperature anomaly for 180°–100°W (°C vs 1981–2010, from 1979) and NOAA PMEL warm water volume anomaly (5°N–5°S, 120°E–80°W, ×10¹⁴ m³). Read from the project data sheet; heat content to Sep 2026, WWV to Aug 2026.",
-   "updated": "2026-10-13",
+   "description": "CPC upper-300 m equatorial temperature anomaly for 180°–100°W (°C vs 1981–2010, from 1979) and NOAA PMEL warm water volume anomaly (5°N–5°S, 120°E–80°W, ×10¹⁴ m³). Heat content is checked daily by the scripted refresh (tools/nightly); WWV is updated in the Friday review and may lag a month.",
+   "updated": "2026-10-17",
    "bytes": 11206
   },
   {
@@ -390,17 +390,17 @@
    "id": "oni",
    "file": "oni.csv",
    "title": "ONI and RONI",
-   "description": "Seasonal ONI (ERSSTv6, centred base periods) and RONI (relative ERSSTv6, 1991–2020), indexed by the season's centre month, from 1950. From the project data sheet 'Weather Watch_NOAA source data' (mirrors NOAA CPC index files), read 11 Oct 2026.",
-   "updated": "2026-10-11",
+   "description": "Seasonal ONI (ERSSTv6, centred base periods) and RONI (relative ERSSTv6, 1991–2020), indexed by the season's centre month, from 1950. NOAA CPC oni.ascii.txt and RONI.ascii.txt. Checked daily at 9 am Pacific by the scripted refresh (tools/nightly); a new month is added only once every column has a value.",
+   "updated": "2026-10-17",
    "bytes": 25612
   },
   {
    "id": "ozone_2026",
    "file": "ozone_2026.csv",
    "title": "Ozone hole 2026, daily",
-   "description": "NASA Ozone Watch daily Southern Hemisphere ozone hole area (to3areas_2026, TOMS+OMI+OMPS) with the 1979–2025 minimum, percentiles, mean and maximum for each day, plus daily minimum ozone (DU). Observed through 8 Oct 2026.",
-   "updated": "2026-10-11",
-   "bytes": 8507
+   "description": "NASA Ozone Watch daily Southern Hemisphere ozone hole area (to3areas_2026, TOMS+OMI+OMPS) with the 1979–2025 minimum, percentiles, mean and maximum for each day, plus daily minimum ozone (DU, to3mins_2026). Refreshed daily at 9 am Pacific by the scripted refresh (tools/nightly).",
+   "updated": "2026-10-17",
+   "bytes": 8583
   },
   {
    "id": "ozone_annual",
@@ -438,9 +438,9 @@
    "id": "planet_monthly",
    "file": "planet_monthly.csv",
    "title": "Planet vital signs",
-   "description": "Monthly global land–ocean temperature anomaly vs 1951–1980 (NASA GISTEMP v4, from 1880), Mauna Loa CO2 monthly mean and de-seasonalised trend (NOAA GML, ppm, from 1958), and Northern Hemisphere land snow cover (Rutgers Global Snow Lab, million km², with the anomaly vs the 1991–2020 monthly mean, from Nov 1966). Read from the project data sheet, to Sep 2026.",
-   "updated": "2026-10-13",
-   "bytes": 48183
+   "description": "Monthly global land–ocean temperature anomaly vs 1951–1980 (NASA GISTEMP v4, from 1880), Mauna Loa CO2 monthly mean and de-seasonalised trend (NOAA GML, ppm, from 1958), and Northern Hemisphere land snow cover (Rutgers Global Snow Lab, million km², with the anomaly vs the 1991–2020 monthly mean, from Nov 1966). Checked daily at 9 am Pacific by the scripted refresh (tools/nightly); a new month is added only once every column has a value.",
+   "updated": "2026-10-17",
+   "bytes": 48236
   },
   {
    "id": "polar_motion",
@@ -502,9 +502,9 @@
    "id": "seaice_clim",
    "file": "seaice_clim.csv",
    "title": "Sea ice extent by day of year",
-   "description": "NSIDC Sea Ice Index v4 (G02135) daily extent, Arctic and Antarctic, made into 5-day trailing means by Claude; per calendar day: 1981–2010 median and 10th/90th percentiles, lowest value before 2026, and the 2012, 2023, 2025 and 2026 values. Million km². Data through 10 Oct 2026.",
-   "updated": "2026-10-11",
-   "bytes": 39359
+   "description": "NSIDC Sea Ice Index v4 (G02135) daily extent, Arctic and Antarctic, made into 5-day trailing means; per calendar day: 1981–2010 median and 10th/90th percentiles, lowest value before 2026, and the 2012, 2023, 2025 and 2026 values. Million km². The 2026 columns are refreshed daily at 9 am Pacific by the scripted refresh (tools/nightly).",
+   "updated": "2026-10-17",
+   "bytes": 39420
   },
   {
    "id": "sealevel_global",
@@ -550,9 +550,9 @@
    "id": "space_daily",
    "file": "space_daily.csv",
    "title": "Space weather, last 30 days",
-   "description": "Daily maximum planetary Kp, planetary Ap, F10.7 solar radio flux, SWPC sunspot number and M/X flare counts (NOAA SWPC DGD and DSD files via Kate's sheet).",
-   "updated": "2026-10-16",
-   "bytes": 1097
+   "description": "Daily maximum planetary Kp, planetary Ap, F10.7 solar radio flux, SWPC sunspot number and M/X flare counts, last 31 days, from the NOAA SWPC daily geomagnetic (DGD) and solar (DSD) data files. Ap is left blank for a day still in progress. Refreshed daily at 9 am Pacific by the scripted refresh (tools/nightly).",
+   "updated": "2026-10-17",
+   "bytes": 1118
   },
   {
    "id": "sst_monthly",
@@ -582,8 +582,8 @@
    "id": "sunspots_monthly",
    "file": "sunspots_monthly.csv",
    "title": "Monthly sunspot number since 1900",
-   "description": "SILSO total sunspot number v2 (monthly mean) and Claude's 13-month smoothed mean.",
-   "updated": "2026-10-16",
+   "description": "SILSO total sunspot number v2 (monthly mean) and the standard 13-month smoothed mean (half weight on the end months), computed here. Checked daily at 9 am Pacific by the scripted refresh (tools/nightly); a new month is added only once every column has a value.",
+   "updated": "2026-10-17",
    "bytes": 28187
   },
   {
