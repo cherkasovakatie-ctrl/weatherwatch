@@ -1,0 +1,578 @@
+{
+ "lau_chan_1986": [
+  {
+   "doi": "10.1175/1520-0477(1986)067<0533:tdoate>2.0.co;2",
+   "title": "The 40–50 Day Oscillation and the El Niño/Southern Oscillation: A New Perspective",
+   "authors": "Lau, Chan",
+   "journal": "Bulletin of the American Meteorological Society",
+   "vol": "67",
+   "page": "533-534",
+   "year": 1986
+  },
+  {
+   "doi": "10.1016/0198-0254(86)94333-5",
+   "title": "The 40–50 day oscillation and the El Niño/Southern oscillation: a new perspective",
+   "authors": "",
+   "journal": "Deep Sea Research Part B. Oceanographic Literature Review",
+   "vol": "33",
+   "page": "999-1000",
+   "year": 1986
+  },
+  {
+   "doi": "10.1016/s0422-9894(08)70700-1",
+   "title": "Chapter 4 Subseasonal Scale Oscillation, Bimodal climatic state and the El Nino/Southern Oscillation",
+   "authors": "Lau",
+   "journal": "Elsevier Oceanography Series",
+   "page": "29-40",
+   "year": 1985
+  }
+ ],
+ "lau_chan_1988": [
+  {
+   "doi": "10.1175/1520-0469(1988)045<0506:iaivot>2.0.co;2",
+   "title": "Intraseasonal and Interannual Variations of Tropical Convection: A Possible Link between the 40–50 Day Oscillation and ENSO?",
+   "authors": "Lau, Chan",
+   "journal": "Journal of the Atmospheric Sciences",
+   "vol": "45",
+   "page": "506-521",
+   "year": 1988
+  },
+  {
+   "doi": "10.1002/joc.3370080507",
+   "title": "Seasonal frequency variations in the 40–50 day oscillation",
+   "authors": "Gray",
+   "journal": "Journal of Climatology",
+   "vol": "8",
+   "page": "511-519",
+   "year": 1988
+  },
+  {
+   "doi": "10.5194/egusphere-egu22-6725",
+   "title": "Oceanic impacts on 50&amp;#8211;80&amp;#8209;day intraseasonal oscillation in the eastern&amp;#160;tropical Indian Ocean",
+   "authors": "Liang, Du",
+   "journal": "",
+   "year": 2022
+  }
+ ],
+ "weickmann1991": [
+  {
+   "doi": "10.1029/90jd01832",
+   "title": "El Niño/Southern Oscillation and Madden‐Julian (30–60 day) oscillations during 1981–1982",
+   "authors": "Weickmann",
+   "journal": "Journal of Geophysical Research: Oceans",
+   "vol": "96",
+   "page": "3187-3195",
+   "year": 1991
+  },
+  {
+   "doi": "10.17509/wafi.v2i2.9376",
+   "title": "Karakteristik Madden-Julian Oscillation (MJO) Ketika El-Nino Southern Oscillation (ENSO)",
+   "authors": "Muhammad, Kristanto, Amanullah",
+   "journal": "Wahana Fisika",
+   "vol": "2",
+   "page": "76",
+   "year": 2017
+  },
+  {
+   "doi": "10.1016/b978-0-443-15638-0.00017-4",
+   "title": "Ocean–atmosphere interactions: Madden–Julian Oscillation and El Niño–Southern Oscillation",
+   "authors": "Fernandes, Wheeler, Grimm, Arcodia",
+   "journal": "Atmospheric Oscillations",
+   "page": "335-362",
+   "year": 2025
+  }
+ ],
+ "mjo_1982": [
+  {
+   "doi": "10.1016/b0-12-227090-8/00415-2",
+   "title": "TROPICAL METEOROLOGY | Intraseasonal Oscillation (Madden–Julian Oscillation)",
+   "authors": "Madden",
+   "journal": "Encyclopedia of Atmospheric Sciences",
+   "page": "2334-2338",
+   "year": 2003
+  },
+  {
+   "doi": "10.1016/b978-0-12-382225-3.00415-1",
+   "title": "TROPICAL METEOROLOGY AND CLIMATE | Intraseasonal Oscillation (Madden–Julian Oscillation)",
+   "authors": "Madden",
+   "journal": "Encyclopedia of Atmospheric Sciences",
+   "page": "132-136",
+   "year": 2015
+  },
+  {
+   "doi": "10.17509/wafi.v2i2.9376",
+   "title": "Karakteristik Madden-Julian Oscillation (MJO) Ketika El-Nino Southern Oscillation (ENSO)",
+   "authors": "Muhammad, Kristanto, Amanullah",
+   "journal": "Wahana Fisika",
+   "vol": "2",
+   "page": "76",
+   "year": 2017
+  }
+ ],
+ "wheeler_hendon2004": [
+  {
+   "doi": "10.1175/1520-0493(2004)132<1917:aarmmi>2.0.co;2",
+   "title": "An All-Season Real-Time Multivariate MJO Index: Development of an Index for Monitoring and Prediction",
+   "authors": "Wheeler, Hendon",
+   "journal": "Monthly Weather Review",
+   "vol": "132",
+   "page": "1917-1932",
+   "year": 2004
+  },
+  {
+   "doi": "10.1175/jcli-d-12-00074.1",
+   "title": "MJO Initiation in the Real-Time Multivariate MJO Index",
+   "authors": "Straub",
+   "journal": "Journal of Climate",
+   "vol": "26",
+   "page": "1130-1151",
+   "year": 2013
+  },
+  {
+   "doi": "10.1175/jcli-d-22-0368.1",
+   "title": "Low-Frequency Variability in the Real-Time Multivariate MJO Index: Real or Artificial?",
+   "authors": "Ren, Wei, Zhao",
+   "journal": "Journal of Climate",
+   "vol": "36",
+   "page": "2073-2089",
+   "year": 2023
+  }
+ ],
+ "kiladis2014": [
+  {
+   "doi": "10.1175/mwr-d-13-00301.1",
+   "title": "A Comparison of OLR and Circulation-Based Indices for Tracking the MJO",
+   "authors": "Kiladis, Dias, Straub, Wheeler, Tulich, Kikuchi",
+   "journal": "Monthly Weather Review",
+   "vol": "142",
+   "page": "1697-1715",
+   "year": 2014
+  },
+  {
+   "doi": "10.1175/mwr-d-13-00199.1",
+   "title": "Skill of the MJO and Northern Hemisphere Blocking in GEFS Medium-Range Reforecasts",
+   "authors": "Hamill, Kiladis",
+   "journal": "Monthly Weather Review",
+   "vol": "142",
+   "page": "868-885",
+   "year": 2014
+  },
+  {
+   "doi": "10.22541/au.173438060.05246466/v2",
+   "title": "The Crucial Role of the Initial State in MJO prediction",
+   "authors": "Bengtsson, Tulich, Dias, Wolding, Hall, Gehne",
+   "journal": "",
+   "year": 2025
+  }
+ ],
+ "hendon2007": [
+  {
+   "doi": "10.1175/1520-0442(1999)012<2538:ivotmj>2.0.co;2",
+   "title": "Interannual Variation of the Madden–Julian Oscillation during Austral Summer",
+   "authors": "Hendon, Zhang, Glick",
+   "journal": "Journal of Climate",
+   "vol": "12",
+   "page": "2538-2550",
+   "year": 1999
+  },
+  {
+   "doi": "10.1175/jas-d-16-0205.1",
+   "title": "Influence of the Stratospheric Quasi-Biennial Oscillation on the Madden–Julian Oscillation during Austral Summer",
+   "authors": "Nishimoto, Yoden",
+   "journal": "Journal of the Atmospheric Sciences",
+   "vol": "74",
+   "page": "1105-1125",
+   "year": 2017
+  },
+  {
+   "doi": "10.1175/1520-0469(1998)055<0088:okwatm>2.0.co;2",
+   "title": "Oceanic Kelvin Waves and the Madden–Julian Oscillation",
+   "authors": "Hendon, Liebmann, Glick",
+   "journal": "Journal of the Atmospheric Sciences",
+   "vol": "55",
+   "page": "88-101",
+   "year": 1998
+  }
+ ],
+ "zhang_gottschalck2002": [
+  {
+   "doi": "10.1175/1520-0442(2002)015<2429:saoeat>2.0.co;2",
+   "title": "SST Anomalies of ENSO and the Madden–Julian Oscillation in the Equatorial Pacific*",
+   "authors": "Zhang, Gottschalck",
+   "journal": "Journal of Climate",
+   "vol": "15",
+   "page": "2429-2445",
+   "year": 2002
+  },
+  {
+   "doi": "10.1029/2024gl110485",
+   "title": "Influence of SST‐Precipitation Relationship Over the Equatorial Western Pacific on Simulation of the Madden‐Julian Oscillation",
+   "authors": "Chen, Ling, Xiao, Li, Zhang",
+   "journal": "Geophysical Research Letters",
+   "vol": "51",
+   "year": 2024
+  },
+  {
+   "doi": "10.32657/10220/48055",
+   "title": "Effect of Madden Julian oscillation on convectively coupled equatorial waves",
+   "authors": "Dobriyal",
+   "journal": "",
+   "year": null
+  }
+ ],
+ "kessler2001": [
+  {
+   "doi": "10.1175/1520-0442(2001)014<3055:erotmj>2.0.co;2",
+   "title": "EOF Representations of the Madden–Julian Oscillation and Its Connection with ENSO*",
+   "authors": "Kessler",
+   "journal": "Journal of Climate",
+   "vol": "14",
+   "page": "3055-3061",
+   "year": 2001
+  },
+  {
+   "doi": "10.21203/rs.3.rs-2679020/v1",
+   "title": "Data Driven Models of the Madden-Julian Oscillation: understanding its evolution and ENSO modulation",
+   "authors": "Diaz, Barreiro, Rubido",
+   "journal": "",
+   "year": 2023
+  },
+  {
+   "doi": "10.1175/1520-0442(2000)013<3560:rotmjo>2.0.co;2",
+   "title": "Rectification of the Madden–Julian Oscillation into the ENSO Cycle",
+   "authors": "Kessler, Kleeman",
+   "journal": "Journal of Climate",
+   "vol": "13",
+   "page": "3560-3575",
+   "year": 2000
+  }
+ ],
+ "seiki2007": [
+  {
+   "doi": "10.1175/mwr3477.1",
+   "title": "Westerly Wind Bursts and Their Relationship with Intraseasonal Variations and ENSO. Part I: Statistics",
+   "authors": "Seiki, Takayabu",
+   "journal": "Monthly Weather Review",
+   "vol": "135",
+   "page": "3325-3345",
+   "year": 2007
+  },
+  {
+   "doi": "10.1175/mwr3503.1",
+   "title": "Westerly Wind Bursts and Their Relationship with Intraseasonal Variations and ENSO. Part II: Energetics over the Western and Central Pacific",
+   "authors": "Seiki, Takayabu",
+   "journal": "Monthly Weather Review",
+   "vol": "135",
+   "page": "3346-3361",
+   "year": 2007
+  },
+  {
+   "doi": "10.1029/2010jd015039",
+   "title": "Westerly wind bursts and their relationship with ENSO in CMIP3 models",
+   "authors": "Seiki, Takayabu, Yasuda, Sato, Takahashi, Yoneyama",
+   "journal": "Journal of Geophysical Research",
+   "vol": "116",
+   "year": 2011
+  }
+ ],
+ "harrison_vecchi1997": [
+  {
+   "doi": "10.1175/1520-0442(1997)010<3131:wweitt>2.0.co;2",
+   "title": "Westerly Wind Events in the Tropical Pacific, 1986–95*",
+   "authors": "Harrison, Vecchi",
+   "journal": "Journal of Climate",
+   "vol": "10",
+   "page": "3131-3156",
+   "year": 1997
+  },
+  {
+   "doi": "10.1175/1520-0442(2000)013<1814:tpssta>2.0.co;2",
+   "title": "Tropical Pacific Sea Surface Temperature Anomalies, El Niño, and Equatorial Westerly Wind Events*",
+   "authors": "Vecchi, Harrison",
+   "journal": "Journal of Climate",
+   "vol": "13",
+   "page": "1814-1830",
+   "year": 2000
+  },
+  {
+   "doi": "10.1175/2008jcli2270.1",
+   "title": "Pre- and Post-1997/98 Westerly Wind Events and Equatorial Pacific Cold Tongue Warming*",
+   "authors": "Harrison, Chiodi",
+   "journal": "Journal of Climate",
+   "vol": "22",
+   "page": "568-581",
+   "year": 2009
+  }
+ ],
+ "ohba2013": [
+  {
+   "doi": "10.1175/jcli-d-12-00471.1",
+   "title": "Impact of Strong Tropical Volcanic Eruptions on ENSO Simulated in a Coupled GCM",
+   "authors": "Ohba, Shiogama, Yokohata, Watanabe",
+   "journal": "Journal of Climate",
+   "vol": "26",
+   "page": "5169-5182",
+   "year": 2013
+  },
+  {
+   "doi": "10.5194/egusphere-egu26-6092",
+   "title": "Seasonal Timing Controls ENSO Responses to Tropical Volcanic Eruptions",
+   "authors": "Pausata, Zanchettin",
+   "journal": "",
+   "year": 2026
+  },
+  {
+   "doi": "10.5194/egusphere-egu25-12390",
+   "title": "ENSO response to tropical volcanic eruptions: the role of the season",
+   "authors": "Pausata, Zanchettin",
+   "journal": "",
+   "year": 2025
+  }
+ ],
+ "predybaylo2017": [
+  {
+   "doi": "10.1002/2016jd025796",
+   "title": "Impacts of a Pinatubo‐size volcanic eruption on ENSO",
+   "authors": "Predybaylo, Stenchikov, Wittenberg, Zeng",
+   "journal": "Journal of Geophysical Research: Atmospheres",
+   "vol": "122",
+   "page": "925-947",
+   "year": 2017
+  },
+  {
+   "doi": "10.1007/978-3-642-61173-5_6",
+   "title": "Microphysical Processes Affecting the Pinatubo Volcanic Plume",
+   "authors": "Hamill, Houben, Young, Turco, Zhao",
+   "journal": "The Mount Pinatubo Eruption",
+   "page": "49-59",
+   "year": 1996
+  },
+  {
+   "doi": "10.1007/978-3-642-61173-5_9",
+   "title": "Stratospheric Temperatures after Volcanic Eruptions",
+   "authors": "Angell",
+   "journal": "The Mount Pinatubo Eruption",
+   "page": "83-93",
+   "year": 1996
+  }
+ ],
+ "mcgregor_timmermann2011": [
+  {
+   "doi": "10.1175/2010jcli3990.1",
+   "title": "The Effect of Explosive Tropical Volcanism on ENSO",
+   "authors": "McGregor, Timmermann",
+   "journal": "Journal of Climate",
+   "vol": "24",
+   "page": "2178-2191",
+   "year": 2011
+  },
+  {
+   "doi": "10.5194/cpd-5-2177-2009",
+   "title": "A unified proxy for ENSO and PDO variability since 1650",
+   "authors": "McGregor, Timmermann, Timm",
+   "journal": "",
+   "year": 2009
+  },
+  {
+   "doi": "10.21203/rs.3.rs-85237/v1",
+   "title": "Spurious North Tropical Atlantic pre-cursors to ENSO",
+   "authors": "Zhang, Jiang, Stuecker, Jin, Timmermann",
+   "journal": "",
+   "year": 2021
+  }
+ ],
+ "stevenson2016": [
+  {
+   "doi": "10.1175/jcli-d-15-0239.1",
+   "title": "“El Niño Like” Hydroclimate Responses to Last Millennium Volcanic Eruptions",
+   "authors": "Stevenson, Otto-Bliesner, Fasullo, Brady",
+   "journal": "Journal of Climate",
+   "vol": "29",
+   "page": "2907-2921",
+   "year": 2016
+  },
+  {
+   "doi": "10.54014/qg44-r6cg",
+   "title": "Influence of volcanic eruptions on tropical hydroclimate during the last millennium",
+   "authors": ", Colose",
+   "journal": "",
+   "year": null
+  },
+  {
+   "doi": "10.5194/esd-2016-19-rc1",
+   "title": "Review of Hemispherically asymmetric volcanic forcing of tropical hydroclimate and water isotopologue variability during the last millennium",
+   "authors": "",
+   "journal": "",
+   "year": 2016
+  }
+ ],
+ "dee2020": [
+  {
+   "doi": "10.1126/science.aax2000",
+   "title": "No consistent ENSO response to volcanic forcing over the last millennium",
+   "authors": "Dee, Cobb, Emile-Geay, Ault, Edwards, Cheng",
+   "journal": "Science",
+   "vol": "367",
+   "page": "1477-1481",
+   "year": 2020
+  },
+  {
+   "doi": "10.1126/science.abc1733",
+   "title": "Response to Comment on “No consistent ENSO response to volcanic forcing over the last millennium”",
+   "authors": "Dee, Cobb, Emile-Geay, Ault, Edwards, Cheng",
+   "journal": "Science",
+   "vol": "369",
+   "year": 2020
+  },
+  {
+   "doi": "10.1126/science.abc0502",
+   "title": "Comment on “No consistent ENSO response to volcanic forcing over the last millennium”",
+   "authors": "Robock",
+   "journal": "Science",
+   "vol": "369",
+   "year": 2020
+  }
+ ],
+ "elchichon_mjo": [
+  {
+   "doi": "10.22201/igeof.00167169p.1984.23.3.1157",
+   "title": "Influence of the El Chichon eruption on the stratosphere after summer 1982",
+   "authors": "Quiroz",
+   "journal": "Geofísica Internacional",
+   "vol": "23",
+   "page": "363-372",
+   "year": 1984
+  },
+  {
+   "doi": "10.22201/igeof.00167169p.1984.23.3.1160",
+   "title": "Climate model simulations of the effects of the El Chichon eruption",
+   "authors": "Robock",
+   "journal": "Geofísica Internacional",
+   "vol": "23",
+   "page": "403-414",
+   "year": 1984
+  },
+  {
+   "doi": "10.1016/s0251-1088(82)95081-1",
+   "title": "El Chichon eruption and possible weather effects",
+   "authors": "",
+   "journal": "The Environmentalist",
+   "vol": "2",
+   "page": "348-349",
+   "year": 1982
+  }
+ ],
+ "robock_elchichon_enso": [
+  {
+   "doi": "10.22201/igeof.00167169p.1984.23.3.1161",
+   "title": "Global transport of volcanic aerosol from El Chichon eruption studied with a three-dimensional circulation model",
+   "authors": "Pitari, Visconti",
+   "journal": "Geofísica Internacional",
+   "vol": "23",
+   "page": "415-431",
+   "year": 1984
+  },
+  {
+   "doi": "10.22201/igeof.00167169p.1984.23.3.1157",
+   "title": "Influence of the El Chichon eruption on the stratosphere after summer 1982",
+   "authors": "Quiroz",
+   "journal": "Geofísica Internacional",
+   "vol": "23",
+   "page": "363-372",
+   "year": 1984
+  },
+  {
+   "doi": "10.1016/s0251-1088(82)95081-1",
+   "title": "El Chichon eruption and possible weather effects",
+   "authors": "",
+   "journal": "The Environmentalist",
+   "vol": "2",
+   "page": "348-349",
+   "year": 1982
+  }
+ ],
+ "slingo1999": [
+  {
+   "doi": "10.1256/smsqj.55410",
+   "title": "On the predictability of the interannual behaviour of the Madden-Julian Oscillation and its relationship with El Niño",
+   "authors": "SLINGO, ROWELL, SPERBER, NORTLEY",
+   "journal": "Quarterly Journal of the Royal Meteorological Society",
+   "vol": "125",
+   "page": "583-609",
+   "year": 1999
+  },
+  {
+   "doi": "10.1002/qj.49712555411",
+   "title": "On the predictability of the interannual behaviour of the Madden‐Julian oscillation and its relationship with el Nin̄o",
+   "authors": "Slingo, Rowell, Sperber, Nortley",
+   "journal": "Quarterly Journal of the Royal Meteorological Society",
+   "vol": "125",
+   "page": "583-609",
+   "year": 1999
+  },
+  {
+   "doi": "10.17509/wafi.v2i2.9376",
+   "title": "Karakteristik Madden-Julian Oscillation (MJO) Ketika El-Nino Southern Oscillation (ENSO)",
+   "authors": "Muhammad, Kristanto, Amanullah",
+   "journal": "Wahana Fisika",
+   "vol": "2",
+   "page": "76",
+   "year": 2017
+  }
+ ],
+ "liebmann1996": [
+  {
+   "doi": "10.1175/1520-0493(1988)116<1659:avotdc>2.0.co;2",
+   "title": "Annual Variation of the Diurnal Cycle of Outgoing Longwave Radiation",
+   "authors": "Liebmann, Gruber",
+   "journal": "Monthly Weather Review",
+   "vol": "116",
+   "page": "1659-1670",
+   "year": 1988
+  },
+  {
+   "doi": "10.1175/1520-0442(2001)014<2583:etsect>2.0.co;2",
+   "title": "Estimating the Satellite Equatorial Crossing Time Biases in the Daily, Global Outgoing Longwave Radiation Dataset",
+   "authors": "Lucas, Waliser, Xie, Janowiak, Liebmann",
+   "journal": "Journal of Climate",
+   "vol": "14",
+   "page": "2583-2605",
+   "year": 2001
+  },
+  {
+   "doi": "10.5194/egusphere-egu26-6044",
+   "title": "Progress and Application of Outgoing Longwave Radiation Dataset from Fengyun Satellites",
+   "authors": "Zhang, Liu, Sun, Chen, Xu",
+   "journal": "",
+   "year": 2026
+  }
+ ],
+ "kalnay1996": [
+  {
+   "doi": "10.1175/1520-0477(1996)077<0437:tnyrp>2.0.co;2",
+   "title": "The NCEP/NCAR 40-Year Reanalysis Project",
+   "authors": "Kalnay, Kanamitsu, Kistler, Collins, Deaven, Gandin",
+   "journal": "Bulletin of the American Meteorological Society",
+   "vol": "77",
+   "page": "437-471",
+   "year": 1996
+  },
+  {
+   "doi": "10.4324/9781315793245-16",
+   "title": "The NCEP/NCAR 40-Year Reanalysis Project",
+   "authors": "Kalnay, Kanamitsu, Kistler, Collins, Deaven, Gandin",
+   "journal": "Renewable Energy",
+   "page": "146-194",
+   "year": 2018
+  },
+  {
+   "doi": "10.1175/1520-0442(2000)013<0873:mshecb>2.0.co;2",
+   "title": "Mean Southern Hemisphere Extratropical Cyclone Behavior in the 40-Year NCEP–NCAR Reanalysis",
+   "authors": "Simmonds, Keay",
+   "journal": "Journal of Climate",
+   "vol": "13",
+   "page": "873-885",
+   "year": 2000
+  }
+ ]
+}

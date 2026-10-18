@@ -1,0 +1,9 @@
+pdf https://www.nature.com/articles/s43247-020-0013-y.pdf 200 text/html; charset=utf-8
+pdf https://www.nature.com/articles/s43247-020-0013-y.pdf 200 text/html; charset=utf-8
+rmm_bom 403 1386
+omi_psl 200 452893
+omi_era5 404 29073
+u850_dods 200 272
+u850_sub 200 592
+olr_dods 200 175
+olr_sub 200 460

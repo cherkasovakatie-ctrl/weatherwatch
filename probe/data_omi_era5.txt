@@ -1,0 +1,18 @@
+https://psl.noaa.gov/mjo/mjoindex/omi.era5.1x.webpage.4023.txt
+HTTP 404 29073
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+...
+</body>
+</html>
+

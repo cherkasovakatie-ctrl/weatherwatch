@@ -1,0 +1,21 @@
+{
+ "title": "El Niño/Southern Oscillation response to low-latitude volcanic eruptions depends on ocean pre-conditions and eruption timing",
+ "authors": [
+  "Evgeniya Predybaylo",
+  "Georgiy L. Stenchikov",
+  "Andrew T. Wittenberg",
+  "Sergey Osipov"
+ ],
+ "year": 2020,
+ "venue": "Communications Earth & Environment",
+ "license": "cc-by",
+ "oa": {
+  "is_oa": true,
+  "oa_status": "gold",
+  "oa_url": "https://www.nature.com/articles/s43247-020-0013-y.pdf",
+  "any_repository_has_fulltext": true
+ },
+ "pdf": "https://www.nature.com/articles/s43247-020-0013-y.pdf",
+ "cited_by": 58,
+ "abstract": "Abstract Proxy-based reconstructions of the past suggest that the Pacific ocean has often shown El Niño-like warming after low-latitude volcanic eruptions, while climate model simulations have suggested diverse responses. Here we present simulations from a coupled ocean–atmosphere model that illuminate the roles of ocean preconditioning, eruption magnitude and timing, and air–sea feedbacks in the El Niño/Southern Oscillation (ENSO) response to these eruptions. A deterministic component of the response, which dominates for boreal summer eruptions, leads to cooler tropical Pacific sea surface temperatures in the eruption year and El Niño-like warming the following year. A stochastic component is also important, especially for boreal winter eruptions. The simulated ENSO response depends nonlinearly on the eruption magnitude and the tropical Pacific conditions before the eruption. We conclude that adequate sampling is critical to accurately assess the ENSO responses in both models and observations."
+}
