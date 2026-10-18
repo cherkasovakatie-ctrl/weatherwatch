@@ -1,12 +1,19 @@
 name: Daily data refresh (9 am Pacific)
 
 # 9 am in Los Angeles is 16:00 UTC in summer (PDT) and 17:00 UTC in winter (PST).
-# Both times are scheduled; the gate below runs the refresh once per Pacific day.
+# GitHub often delays or drops scheduled runs set on the hour, so the slots are off the hour, with later
+# backups; the gate below still runs the refresh only once per Pacific day, at or after 9 am.
 on:
   schedule:
-    - cron: '0 16 * * *'
-    - cron: '0 17 * * *'
+    - cron: '7 16 * * *'
+    - cron: '7 17 * * *'
+    - cron: '37 18 * * *'
+    - cron: '37 20 * * *'
   workflow_dispatch:
+  # A change to this file runs the refresh once, so a fix can be tested on main without a token.
+  push:
+    branches: [main]
+    paths: [.github/workflows/nightly.yml]
 
 permissions:
   contents: write
