@@ -112,16 +112,25 @@ test('sstMonthly maps the five CPC files to the right columns', () => {
 });
 
 test('IBTrACS: named storms only, 6-hourly, 0–360 longitude converted, category from wind or status', () => {
-  const head = 'SID,SEASON,NUMBER,BASIN,SUBBASIN,NAME,ISO_TIME,NATURE,LAT,LON,USA_LAT,USA_LON,USA_STATUS,USA_WIND,USA_PRES';
+  const head = 'SID,SEASON,NUMBER,BASIN,SUBBASIN,NAME,ISO_TIME,NATURE,LAT,LON,USA_ATCF_ID,USA_LAT,USA_LON,USA_STATUS,USA_WIND,USA_PRES';
   const csv = [head, ' ,Year',
-    'x,2026,1,EP,MM,SIMON,2026-10-11 00:00:00,TS,18.0,255.2,18.0,-104.8,HU,130,932',
-    'x,2026,1,EP,MM,SIMON,2026-10-11 03:00:00,TS,18.2,255.1,18.2,-104.9,HU,130,932',
-    'x,2026,2,WP,MM,CHOI-WAN,2026-09-30 00:00:00,TS,15.6,151.9,15.6,151.9,TD,25,1005',
-    'x,2026,3,EP,MM,NOLO,2026-09-10 12:00:00,DS,10.5,251.5,10.5,-108.5,DB,15,',
-    'x,2026,4,WP,MM,UNNAMED,2026-10-14 18:00:00,NR,10.4,160.5,10.4,160.5,,29,1004'].join('\n');
+    'a,2026,1,EP,MM,SIMON,2026-10-11 00:00:00,TS,18.0,255.2,EP192026,18.0,-104.8,HU,130,932',
+    'a,2026,1,EP,MM,SIMON,2026-10-11 03:00:00,TS,18.2,255.1,EP192026,18.2,-104.9,HU,130,932',
+    'b,2026,2,WP,MM,CHOI-WAN,2026-09-30 00:00:00,TS,15.6,151.9,WP252026,15.6,151.9,TD,25,1005',
+    'c,2026,3,EP,MM,NOLO,2026-09-10 12:00:00,DS,10.5,251.5,EP152026,10.5,-108.5,DB,15,',
+    'd,2026,4,WP,MM,UNNAMED,2026-10-14 18:00:00,NR,10.4,160.5,WP292026,10.4,160.5,,29,1004',
+    'e,2026,5,WP,MM,UNNAMED,2026-10-14 18:00:00,NR,10.4,160.5,,10.4,160.5,,20,1006'].join('\n');
   const r = F.ibtracsRows(csv, '2026-09-01 00:00');
-  assert.equal(r.length, 3);
-  assert.deepEqual(r[0], { storm: 'Simon', basin: 'EP', time_utc: '2026-10-11 00:00', lat: '18.0', lon: '-104.8', wind_kt: '130', pressure_mb: '932', category: 'Cat 4', source: 'IBTrACS v04r01 (provisional)' });
-  assert.equal(r[1].storm, 'Choi-Wan');
-  assert.equal(r[2].category, 'Low or disturbance');
+  assert.equal(r.length, 4);
+  assert.equal(r.find((x) => x.storm.includes('unnamed')).storm, 'WP29 (unnamed)');
+  assert.deepEqual(r.find((x) => x.storm === 'Simon'), { storm: 'Simon', basin: 'EP', time_utc: '2026-10-11 00:00', lat: '18.0', lon: '-104.8', wind_kt: '130', pressure_mb: '932', category: 'Cat 4', source: 'IBTrACS v04r01 (provisional)' });
+  assert.ok(r.some((x) => x.storm === 'Choi-Wan'));
+  assert.equal(r.find((x) => x.storm === 'Nolo').category, 'Low or disturbance');
+});
+
+test('IBTrACS: a low after the tropical stage is post-tropical, before it a disturbance', () => {
+  const head = 'SID,SEASON,NUMBER,BASIN,SUBBASIN,NAME,ISO_TIME,NATURE,LAT,LON,USA_ATCF_ID,USA_LAT,USA_LON,USA_STATUS,USA_WIND,USA_PRES';
+  const row = (t, st, w) => `s1,2026,1,EP,MM,RACHEL,2026-10-0${t} 00:00:00,TS,20,250,EP182026,20,-110,${st},${w},`;
+  const r = F.ibtracsRows([head, ' ,Year', row(1, 'DB', 20), row(2, 'TS', 45), row(3, 'LO', 25)].join('\n'), '2026-09-01 00:00');
+  assert.deepEqual(r.map((x) => x.category), ['Low or disturbance', 'TS', 'Post-tropical']);
 });

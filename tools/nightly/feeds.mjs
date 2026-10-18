@@ -343,12 +343,23 @@ export function ibtracsRows(csv, since) {
     const f = l.split(',').map((s) => s.trim());
     if (f.length < head.length / 2) continue;
     const name = f[ix.NAME], t = (f[ix.ISO_TIME] || '').slice(0, 16);
-    if (!name || name === 'UNNAMED' || t < since || !/(00|06|12|18):00$/.test(t)) continue;
+    if (!name || t < since || !/(00|06|12|18):00$/.test(t)) continue;
+    const atcf = f[ix.USA_ATCF_ID] || '';
+    if (name === 'UNNAMED' && !/^[A-Z]{2}\d{2}\d{4}$/.test(atcf)) continue; // numbered systems only
     const lat = isNum(f[ix.USA_LAT]) ? f[ix.USA_LAT] : f[ix.LAT];
     let lon = Number(isNum(f[ix.USA_LON]) ? f[ix.USA_LON] : f[ix.LON]);
     if (lon > 180) lon -= 360;
     const wind = f[ix.USA_WIND], pres = f[ix.USA_PRES];
-    out.push({ storm: titleCase(name), basin: f[ix.BASIN], time_utc: t, lat: round(lat, 1), lon: round(lon, 1), wind_kt: isNum(wind) ? String(Math.round(Number(wind))) : '', pressure_mb: isNum(pres) ? String(Math.round(Number(pres))) : '', category: sshs(wind, f[ix.USA_STATUS]), source: 'IBTrACS v04r01 (provisional)' });
+    out.push({ storm: name === 'UNNAMED' ? `${atcf.slice(0, 4)} (unnamed)` : titleCase(name), basin: f[ix.BASIN], time_utc: t, lat: round(lat, 1), lon: round(lon, 1), wind_kt: isNum(wind) ? String(Math.round(Number(wind))) : '', pressure_mb: isNum(pres) ? String(Math.round(Number(pres))) : '', category: sshs(wind, f[ix.USA_STATUS]), source: 'IBTrACS v04r01 (provisional)', sid: f[ix.SID] });
+  }
+  // A low or disturbance after the storm has been tropical is a remnant: NHC calls that post-tropical.
+  out.sort((a, b) => (a.sid === b.sid ? a.time_utc.localeCompare(b.time_utc) : a.sid.localeCompare(b.sid)));
+  let sid = null, tropical = false;
+  for (const r of out) {
+    if (r.sid !== sid) { sid = r.sid; tropical = false; }
+    if (r.category === 'Low or disturbance' && tropical) r.category = 'Post-tropical';
+    if (!['Low or disturbance', 'Post-tropical', ''].includes(r.category)) tropical = true;
+    delete r.sid;
   }
   return out;
 }

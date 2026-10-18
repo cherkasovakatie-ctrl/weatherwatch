@@ -240,9 +240,11 @@ const JOBS = {
       // Keep advisory rows that are newer than IBTrACS's last fix for that storm.
       const last = new Map();
       for (const r of fresh) if (!last.has(r.storm) || r.time_utc > last.get(r.storm)) last.set(r.storm, r.time_utc);
-      const extra = oldRows.filter((r) => !r.source.startsWith('IBTrACS') && r.time_utc >= since && (!last.has(r.storm) || r.time_utc > last.get(r.storm)));
+      // Storms missing from the ACTIVE file (dropped after they ended, or not yet named there) keep their existing
+      // rows; advisory rows are kept only if newer than IBTrACS's last fix for that storm.
+      const extra = oldRows.filter((r) => r.time_utc >= since && !r.storm.endsWith('(unnamed)') && (!last.has(r.storm) || (!r.source.startsWith('IBTrACS') && r.time_utc > last.get(r.storm))));
       const rows = [...fresh, ...extra].sort((a, b) => (a.storm === b.storm ? a.time_utc.localeCompare(b.time_utc) : a.storm.localeCompare(b.storm)));
-      return { header, rows: rows.map((r) => header.map((c) => r[c] ?? '')), note: `${fresh.length} IBTrACS fixes, ${both.length} checked against the old file, ${extra.length} advisory rows kept` };
+      return { header, rows: rows.map((r) => header.map((c) => r[c] ?? '')), note: `${fresh.length} IBTrACS fixes, ${both.length} checked against the old file, ${extra.length} existing rows kept (advisories, or storms not in the ACTIVE file)` };
     },
   },
   sst_weekly: {
