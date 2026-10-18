@@ -1,10 +1,4 @@
 super_coupling_pmc 200 application/xml 103500
 diverse_iod_noaa 200 application/pdf 4060647
-diverse_iod_noaa ERR Command failed: pdftotext -layout /tmp/diverse_iod_noaa.pdf fulltext/diverse_iod_noaa.txt
-/bin/sh: 1: pdftotext: not found
-
 luo2010_jamstec 200 application/pdf 4070024
-luo2010_jamstec ERR Command failed: pdftotext -layout /tmp/luo2010_jamstec.pdf fulltext/luo2010_jamstec.txt
-/bin/sh: 1: pdftotext: not found
-
 izumo2010_hal 404 text/html; charset=UTF-8 49510
