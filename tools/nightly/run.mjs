@@ -226,10 +226,17 @@ const JOBS = {
   blob_boxes: {
     min: 150, time: 'max',
     run: async (old) => {
-      const ERD = 'https://coastwatch.pfeg.noaa.gov/erddap/griddap/nceiErsstv5.csv?sst';
-      const q = (lat, lon) => `${ERD}[(1991-01-01):1:(last)][(0.0)][${lat}][${lon}]`;
-      const nep = await fetchText(q('(40):1:(50)', '(210):1:(224)'), { expect: /^time,/, timeout: 120000, tries: 4, wait: 20000 });
-      const soc = await fetchText(q('(30):1:(36)', '(236):1:(242)'), { expect: /^time,/, timeout: 120000, tries: 4, wait: 20000 });
+      // NOAA CoastWatch ERDDAP, with its twin server as a fallback (CoastWatch intermittently refuses GitHub runners).
+      const HOSTS = ['https://coastwatch.pfeg.noaa.gov', 'https://upwell.pfeg.noaa.gov'];
+      const box = async (lat, lon) => {
+        let err;
+        for (const h of HOSTS) {
+          try { return await fetchText(`${h}/erddap/griddap/nceiErsstv5.csv?sst[(1991-01-01):1:(last)][(0.0)][${lat}][${lon}]`, { expect: /^time,/, timeout: 120000, tries: 2, wait: 15000 }); } catch (e) { err = e; }
+        }
+        throw err;
+      };
+      const nep = await box('(40):1:(50)', '(210):1:(224)');
+      const soc = await box('(30):1:(36)', '(236):1:(242)');
       const fresh = F.blobRows(nep, soc);
       const hasRows = old.trim().split('\n').length > 1;
       return patch(old, 'month', fresh, hasRows ? { cols: ['nep_anom', 'socal_anom'], tol: 0.05, accept: (o) => o.month > lastKey(old) && o.nep_anom !== '' && o.socal_anom !== '' } : {});
