@@ -1,0 +1,52 @@
+https://psl.noaa.gov/mjo/
+HTTP 200 199202
+
+
+
+
+
+<!-- person maintaining this page (default is webmaster) -->
+
+
+<!-- e-mail address for page maintainer (default is webmaster) -->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta charset="ISO-8859-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="US Department of Commerce, NOAA, Physical Sciences Laboratory">
+    <meta name="author" content="PSL Web Team">
+
+	
+	<meta name="keywords" content="Physical Sciences Laboratory, NOAA, National Oceanic and Atmospheric Administration, ESRL, climate, weather, water, extremes, observations, computer modeling">
+	
+	<title>
+	  PSL MJO Research: NOAA Physical Sciences Laboratory
+	</title>
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="/favicon.png" sizes="32x32">
+
+    <link href="/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/css/psd.css" rel="stylesheet">
+...
+				link.classList.add('external-link');
+			}
+		}
+	});
+	
+</script>
+</body>
+</html>
+

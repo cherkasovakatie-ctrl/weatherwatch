@@ -1,0 +1,550 @@
+https://psl.noaa.gov/mjo/mjoindex/
+HTTP 200 22948
+
+
+
+<style>
+	.label {
+		color: black !important;
+	}
+</style>
+<div>
+	<p><strong>PSL is creating a set of MJO timeseries that quantify current and historic MJO activity.</strong> Links
+		and descriptions are below as well as links to some other MJO timeseries created at other institutions. A <a
+			href="/mjo/mjoindex/format.html">description of the timeseries format</a> is available.</p>
+</div>
+<div class="alert alert-warning" style="text-align: left;">
+	<strong>NOTE</strong>: ROMI is now provided in near real-time. The OMI has changed to use NOAA CPC blended OLR and has been updated through <strong>June 24 2026</strong>. These PC amplitudes will differ slightly from the previous version since the sample used for the 20-96 day filter differs in addition to the OLR data ingested, resulting in slightly different values for the filtered OLR used to calculate OMI. In some cases this may also result in a phase difference (by one phase) from the previous versions. The correlations between the old and new OMI PC1, PC2, and their amplitudes exceed 0.99 at zero lag. The EOFs used are still from 1979-2012 (see below). The previous (1979-2021) version of OMI can be obtained <a href="/mjo/mjoindex/omi.1x.orig.txt" class="under">here</a>. This index will <strong>not be updated</strong> in the future. If recent values are needed, please use the OMI based on the CPC blended OLR.
+
+
+<!--	These PC amplitudes will differ slightly from the previous
+	version since the sample used for the 20-96 day filter is longer (1979-2021), resulting in slightly different values
+	for the
+	filtered OLR used to calculate OMI. In some cases this may also result in a phase difference (by one phase) from the
+	previous
+	versions. The EOFs used are still from 1979-2012 (see below). The previous (1979-2021) version of OMI can be <a
+	href="/mjo/mjoindex/omi.1x.webpage.7921.txt">obtained here.</a>-->
+	
+</div>
+<div class="alert alert-warning" style="text-align: left;" name="timeseries">
+	<strong>NOTE</strong>: When comparing OMI
+	directly with RMM, to obtain the proper phase the sign of OMI PC1 and the PC
+	ordering should be reversed, so that OMI(PC2) is analogous to RMM(PC1) and -OMI(PC1) is analogous to RMM (PC2).
+</div>
+<p></p>
+<br />
+<div>
+	<h3 style="background-color:rgb(198,230,240); padding-left: 10px; padding-top: 10px; padding-bottom: 10px;">Daily
+		MJO index time series from 1979</h3>
+	<div>
+		<table class="table table-striped" width="70%">
+			<h4>Real-time</h4>
+			<tr style="background-color:rgb(228,227,233);">
+				<th width="18%">Index</th>
+				<th width="65%">Description</th>
+				<th width="17%">Obtain timeseries</th>
+			</tr>
+
+
+			<tr>
+				<td><span class="label">CORe <strong>VPM</strong></span><br>The <strong>Velocity <strong>Potential
+							<strong>M</strong>JO index.</td>
+				<td>Calculated in a similar way as the Wheeler-Hendon RMM, except using 200 hPa Velocity Potential instead of OLR, along with U200 and U850 in a combined EOF (see link to Ventrice et al. 2013 below). This index is computed using the <a href="https://www.cpc.ncep.noaa.gov/products/CORe/index.html">CORe Reanalysis</a> with a climatology based on the years 1991-2020. The correlations with the original VPM index for the overlapping period of 1991-2025 are correlation for PC1 = 0.96858, correlation for PC2 = 0.972385, amplitude correlation = 0.931685.
+				</td>
+				<td><a href="/mjo/mjoindex/vpm.1x.CORe.txt" class="under">VPM values</a></td>
+			</tr>
+			
+			<tr>
+				<td><span class="label">ROMI</span><br>The <strong>R</strong>eal-time <strong>O</strong>LR
+					<strong>M</strong>JO
+					<strong>I</strong>ndex
+				</td>
+				<td>Projection of 9 day running average OLR anomalies onto the daily spatial EOF patterns of
+					30-96
+					day
+					eastward
+					filtered OLR. OLR anomalies are calculated by first subtracting the previous 40 day mean
+					OLR.
+					The
+					running
+					average is tapered as the target date is approached.</td>
+				<td><a href="/mjo/mjoindex/romi.cpcolr.1x.txt" class="under">ROMI values</a><img
+						src="/images/updated.gif" alt="updated"> </td>
+			</tr>
+			<tr>
+				<td><span class="label"><strong>RMII</strong></span><br>The <strong>R</strong>ealtime
+					<strong>M</strong>ultivariate <strong>I</strong>ndex for tropical
+					<strong>I</strong>ntraseasonal
+					oscillations
+				</td>
+				<td>Projection of 9 day running average anomalies onto the daily spatial multivariate EOFs of
+					20-96
+					day
+					eastward
+					filtered OLR, U850 and U200. Anomalies are calculated by first subtracting the previous 40
+					day
+					mean.
+					The
+					running average is tapered as the target date is approached.</td>
+				<td>rMII data currently unavailable. We are working on having this back on the website in the
+					near
+					future.
+				</td>
+			</tr>
+		</table>
+		<table class="table table-striped" width="70%">
+			<h4>Other</h4>
+			<tr style="background-color:rgb(228,227,233);">
+				<th width="18%">Index</th>
+				<th width="65%">Description</th>
+				<th width="17%">Obtain timeseries</th>
+			</tr>
+
+			<tr>
+				<td><span class="label">RMM<sup>*</sup></span><br>The The <strong>R</strong>ealtime
+					<strong>M</strong>ultivariate <strong>M</strong>adden Julian Index<sup>*</sup> 
+				</td>
+				<td>Calculated the same way as the Wheeler-Hendon RMM, but instead of subtracting off the mean of the previous 120 days, a filter based on a linear inverse model (LIM) is applied to remove ENSO variability before projection onto the RMM EOFs.  See Marsico et. al. 2025 for further details regarding the LIM filter. The data covers November 1st through April 30th from 1979 to 2021. The file contains all dates with the summer values set to missing.</td>
+				<td><a href="/mjo/mjoindex/rmm_star_data.txt" class="under">RMM<sup>*</sup> values</a> <font color="red">New!</font></td>
+			</tr>
+			
+			<tr>
+				<td><span class="label">OOMI</span><br>The <strong>O</strong>riginal <strong>O</strong>LR
+					<strong>M</strong>JO
+					<strong>I</strong>ndex
+				</td>
+				<td>Projection of 30-96 day eastward only filtered OLR onto the spatial EOF patterns of
+					30-96 day eastward filtered OLR. This results in a smoother index than OMI due to more
+					restrictive
+					filtering.</td>
+				<td><a href="/mjo/mjoindex/oomi.1x.txt" class="under">OOMI values</a></td>
+			</tr>
+<!--			<tr>
+				<td><span class="label">OMI</span><br>The <strong>O</strong>LR <strong>M</strong>JO
+					<strong>I</strong>ndex
+				</td>
+				<td>The original OMI index uses the NOAA interpolated OLR (Smith and Liebmann, 1996). Projection of 20-96 day filtered OLR, including all eastward and westward wave numbers onto the daily spatial EOF patterns of 30-96 day eastward filtered OLR. This index will not be updated in the future. If recent values are needed, please use the OMI based on the CPC blended OLR.</td>
+				<td><a href="/mjo/mjoindex/omi.1x.orig.txt" class="under">OMI values</a></td>
+			</tr>-->
+			
+
+			<tr>
+				<td><span class="label">OMI</span><br>The <strong>O</strong>LR <strong>M</strong>JO
+					<strong>I</strong>ndex
+				</td>
+				<td>Current OMI uses the <a href="https://ftp.cpc.ncep.noaa.gov/precip/CBO_V1/READ_ME/CBO_V1_Readme.txt">NOAA CPC blended OLR</a>. Projection of 20-96 day filtered OLR, including all eastward and westward wave numbers onto the original daily spatial EOF patterns of 30-96 day eastward filtered OLR. This OMI starts in 1991 and is semi-regularly updated to the near-present.
+				</td>
+				<td><a href="/mjo/mjoindex/omi.1x.txt" class="under">OMI values</a><img src="/images/updated.gif"
+						alt="updated"> </td>
+			</tr>			
+
+			<tr>
+				<td><span class="label">FMO</span><br>The <strong>F</strong>iltered OLR
+					<strong>M</strong>J<strong>O</strong>
+					index.
+				</td>
+				<td>Univariate EOF of normalized 20-96 day filtered OLR averaged from 15S-15N, by longitude. The
+					same
+					spatial
+					EOF pattern is used for the entire year (see below).</td>
+				<td><a href="/mjo/mjoindex/fmo.1x.txt" class="under">FMO values</a>.
+			</tr>
+			<tr>
+				<td><span class="label">ERA5 OMI</span><br>The ERA5 <strong>O</strong>LR <strong>M</strong>JO
+					<strong>I</strong>ndex
+				</td>
+				<td>Projection of 20-96 day filtered ERA5 OLR, including all eastward and westward wave numbers onto
+					the
+					daily
+					spatial EOF patterns of 30-96 day eastward filtered OLR from the ERA5 dataset. EOFs are
+					calculated
+					using
+					data from <strong>1940</strong> to "present".</td>
+				<td><a href="/mjo/mjoindex/omi.era5.1x.webpage.4023.txt">ERA5 OMI values</a><img
+						src="/images/smallnew.gif" alt="New!"></td>
+			</tr>
+
+
+				<td><span class="label"><strong>VPM</strong></span><br>The <strong>Velocity <strong>Potential
+							<strong>M</strong>JO index.</td>
+				<td>Calculated in the same way as the Wheeler-Hendon RMM, except using 200 hPa Velocity Potential instead of OLR, along with U200 and U850 in a combined EOF (see link to Ventrice et al. 2013 below). This index ends on 2026/03/17 when the NCEP/NCAR Reanalysis Version 1 ended.
+				</td>
+				<td><a href="/mjo/mjoindex/vpm.1x.txt" class="under">VPM values</a></td>
+			</tr>			
+			<tr>
+				<td><span class="label"><strong>REOMI</strong></span><br>The <strong>R</strong>otated
+					<strong>E</strong>OFs
+					<strong>O</strong>LR <strong>M</strong>adden Julian <strong>I</strong>ndex.
+				</td>
+				<td> Projection of 20-96 day filtered OLR, including all eastward and westward wave numbers onto
+					the
+					rotated
+					daily spatial EOF patterns of 30-96 day eastward filtered OLR. EOFs are calculated using OLR
+					from
+					1979-2012.
+					PCs are calculated from 1979-2022. EOFs are rotated to reduce noise and potential degeneracy
+					issues
+					as
+					detailed in Weidman et al., 2022.</td>
+				<td><a href="/mjo/mjoindex/REOMI.txt" class="under">REOMI values</a></td>
+			</tr>
+			<tr>
+				<td><span class="label"><strong>KRMM</strong></span><br>The <strong>K</strong>oopman
+					<strong>R</strong>eal-time
+					<strong>M</strong>ultiVariate <strong>M</strong>adden Julian Index
+				</td>
+				<td> Calculated following the Wheeler-Hendon RMM, but using Koopman spectral analysis to compute
+					eigenfunctions.
+					The leading mode of intraseasonal variability is rotated to maximize correlation with the
+					standard
+					RMM.
+					See
+					link to Lintner et al. 2023 for further discussion of the Koopman spectral analysis and
+					methodological
+					details.</td>
+				<td><a href="/mjo/mjoindex/Koopman_MJO.txt" class="under">KRMM values</a></td>
+			</tr>
+		</table>
+	</div>
+</div>
+<hr>
+
+
+<div>
+	<div class="well">
+		<table>
+			<tr>
+				<th width="28%"></th>
+				<th width="72%"></th>
+			</tr>
+			<tr>
+			<td>	
+			<a href="/mjo/images/phase.plot.png" class="highslide" onclick="return hs.expand(this)"> <img src="/mjo/images/phase.plot.png" alt="MJO movement diagram" height="100" /></a>
+			</td>
+			<td>
+			<a href="/mjo/phasetool/"><strong>MJO Indices Phase Diagram
+				Tool </strong><img src="/images/smallnew.gif" alt="New!"> </a> 
+					<br/>Plot phase diagrams of selected MJO indices.
+			</td>
+			</tr>
+		</table>
+		
+	</div>
+</div>
+<div>
+	<h3 style="background-color:rgb(198,230,240); padding-left: 10px; padding-top: 10px; padding-bottom: 10px;">Other
+		MJO indices</h3>
+
+	<ul>
+		<li><a href="http://www.bom.gov.au/climate/mjo/">The All-season Real-time Multivariate (RMM) MJO Index</a>
+			 (Wheeler-Hendon) from the <a href="http://cawcr.gov.au">The
+				Centre
+				for
+				Australian Weather and Climate Research</a> .
+		</li>
+		<li><a href="http://iprc.soest.hawaii.edu/users/kazuyosh/Bimodal_ISO.html">Bimodal ISO Index</a> for historical data analysis and real time monitoring from the
+			<a href="https://iprc.soest.hawaii.edu/">International Pacific Research Center</a>.
+		</li>
+		<li><a href="http://monitor.cicsnc.org/mjo/current/rmm/">Carl Schreck's analysis of the RMM components</a>
+			.
+		</li>
+	</ul>
+	<hr>
+</div>
+
+<div>
+	<p style="font-style: italic; font-size: medium;">Click on each section below to expand/collapse</p>
+</div>
+<div class="panel-group" id="accordion1">
+	<div class="panel panel-default">
+		<div class="panel-heading" data-toggle="collapse" href="#collapseOne">
+			<h4 class="panel-title" style="font-weight: 600;">Code</h4>
+		</div>
+		<div id="collapseOne" class="panel-collapse collapse">
+			<div class="panel-body">
+				<p>A python routine to calculate the OMI has been developed for use on real-time and model
+					data,
+					and
+					can be accessed via GitHub at: <a href="https://github.com/cghoffmann/mjoindices"
+						class="under">https://github.com/cghoffmann/mjoindices</a> and also at Zenodo: <a
+						href="https://doi.org/10.5281/zenodo.3613752"
+						class="under">https://doi.org/10.5281/zenodo.3613752</a>.
+					<br />
+					<br />
+					For the REOMI, code is in the same repository. using the parameter
+					eofs_postprocessing_type="eof_rotation" in the main method for calculating EOFs:
+					omi.omi_calculator.calc_eofs_from_olr(). No other changes should be necessary from the
+					standard
+					OMI calculation.
+					<br />
+					<br />
+					Details of the implementation of this software as well as the ERA5 based OMI computation
+					Python
+					package are outlined in this article:
+				</p>
+				<div class="psl psl-blockquote-replace" style="font-weight: 500;">Hoffmann CG, Kiladis GN,
+					Gehne
+					M,
+					von Savigny C 2021 <a href="https://doi.org/10.5334/jors.331" target="_blank">A Python
+						Package
+						to Calculate the OLR-Based Index of the Madden-Julian-Oscillation (OMI) in Climate
+						Science
+						and Weather Forecasting</a>  . Journal of
+					Open
+					Research Software, 9:9. (<a href="/mjo/mjoindex/pdf/hoffmann21.pdf" class="under">PDF</a>)
+					</strong></div>
+				<br />
+				The EOFs for the ERA5 based OMI were computed using data from 1940-2023. Using the years
+				1979-2018
+				to compute ERA5 EOFs gives good agreement with the
+				observed OMI EOFs in terms of spatial correlation (see below). The EOFs for the time period
+				1940-2023 have less agreement, but still a pattern correlation above 0.9
+				for most of the year.
+				<br />
+				<br />
+				The rMII code and MII values are available upon request from the lead author <a
+					href="mailto:wangs@outlook.com">Shuguang Wang </a>.</p>
+
+				<p style="font-weight: 500;">Python routines to calculate OMI:
+				<ul>
+					<li><a href="https://github.com/cghoffmann/mjoindices"
+							target="_blank">https://github.com/cghoffmann/mjoindices</a></li>
+					<li><a href="https://doi.org/10.5281/zenodo.3613752"
+							target="blank">https://doi.org/10.5281/zenodo.3613752</a></li>
+				</ul>
+				</p>
+
+				<p style="font-weight: 500">MATLAB routines to calculate KRMM:
+				<ul>
+					<li>Courtesy of Dimitrios Giannakis at <a
+							href="https://github.com/dg227/NLSA/tree/master/pubs/LintnerEtAl23_GRL">https://github.com/dg227/NLSA/tree/master/pubs/LintnerEtAl23_GRL</a>
+						
+					</li>
+
+				</ul>
+				</p>
+
+			</div>
+		</div>
+	</div>
+
+
+	<div class="panel panel-default">
+		<div class="panel-heading" data-toggle="collapse" href="#collapseTwo">
+			<h4 class="panel-title" style="font-weight:600">Citations</h4>
+		</div>
+		<div id="collapseTwo" class="panel-collapse collapse">
+			<div class="panel-body">
+				<p>For more information for all indices other than the VPM and rMII, please read the article
+					<a href="https://doi.org/10.1175/MWR-D-13-00301.1" target="_blank">A comparison of OLR
+						and
+						circulation based indices for tracking the MJO</a> .
+				</p>
+
+				<strong>If you use the timeseries in your research, please cite that paper, e.g.:</strong>
+				<div class="psl-blockquote-replace">
+
+					Kiladis G.N., J. Dias, K.H. Straub, M.C Wheeler, S.N. Tulich, K. Kikuchi, K.M.
+					Weickmann,
+					M.J.
+					Ventrice. A comparison of OLR and circulation based indices for tracking the MJO.
+					Monthly
+					Weather Review, May 2014, <strong>142</strong> 1697-1715. <a
+						href="https://doi.org/10.1175/MWR-D-13-00301.1">https://doi.org/10.1175/MWR-D-13-00301.1</a>
+					
+				</div>
+
+				<strong>For the VPM, please cite:</strong>
+				<div class="psl-blockquote-replace">
+					Ventrice et al. A Modified Multivariate Madden-Julian Oscillation Index Using Velocity
+					Potential. Monthly Weather Review, December 2013, <strong>141</strong>, p. 4197-4120. <a
+						href="https://doi.org/10.1175/MWR-D-12-00327.1">https://doi.org/10.1175/MWR-D-12-00327.1</a>
+					
+				</div>
+
+				<strong>For the rMII, please cite:</strong>
+				<div class="psl-blockquote-replace">
+					Wang et al: Multivariate Index for Tropical Intraseasonal Oscillations Based on the
+					Seasonally-Varying Modal Structures: JGR Atmospheres, Feb 2022, Vol 127, pp 1-19. <a
+						href="https://doi.org/10.1029/2021JD035961">https://doi.org/10.1029/2021JD035961</a>
+					.
+				</div>
+
+				<strong>For the KRMM, please cite:</strong>
+				<div class="psl-blockquote-replace">
+					Lintner, B. R., D. Giannakis, M. Pike, J. Slawinska (2023). Identification of the
+					Madden–Julian
+					Oscillation with data-driven Koopman spectral analysis. Geophys. Res. Lett., 50,
+					e2023GL102743.
+					<a href="https://doi.org/10.1029/2023GL102743">https://doi.org/doi.org/10.1029/2023GL102743</a>
+					. (<a href="/mjo/mjoindex/pdf/lintner23.pdf">PDF</a>)
+				</div>
+
+
+
+			</div>
+		</div>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-heading" data-toggle="collapse" href="#collapseThree">
+			<h4 class="panel-title" style="font-weight: 600;">Composite Patterns</h4>
+		</div>
+		<div id="collapseThree" class="panel-collapse collapse">
+			<div class="panel-body">
+				<p><strong>Composite streamfunction and OLR patterns for RMM and OMI based
+						on the events that exceed 1 standard deviation for each phase of the PC
+						combination.</strong></p>
+				<p>
+					These are based on data from 1979 through 2012, and the number of events in each
+					composite
+					is
+					given as "N= " at the bottom of each plot. Blue shading denotes negative OLR anomalies
+					(regions of convection) and red positive (suppressed), with two levels of shading at +-
+					10
+					and
+					+- 6 W/m**2. Streamfunction contour interval is 5 X 10**5 m**2/s at 200 hPa, and 2 X
+					10**5
+					m**2/s
+					at 850 hPa. To facilitate comparison with RMM, these composites are constructed by
+					reversing
+					the
+					sign of
+					OMI PC1 and the OMI PC ordering, so that OMI(PC2) is analogous to
+					RMM(PC1) and -OMI(PC1) is analogous to RMM(PC2), as described in
+					Kiladis et al. 2014.</p>
+				<ol>
+					<li><a href="/mjo/mjoindex/pdf/psi200.1x.20ns.omi.amp1.096.djf.7912.pdf">200mb OMI DJF
+					</li>
+					<li><a href="/mjo/mjoindex/pdf/psi200.1x.20ns.omi.amp1.096.jja.7912.pdf">200mb OMI
+							JJA</a>
+					</li>
+					<li><a href="/mjo/mjoindex/pdf/psi200.1x.20ns.rmm.amp1.096.djf.7912.pdf">200mb RMM
+							DJF</a>
+					</li>
+					<li><a href="/mjo/mjoindex/pdf/psi200.1x.20ns.rmm.amp1.096.jja.7912.pdf">200mb RMM
+							JJA</a>
+					</li>
+					<li><a href="/mjo/mjoindex/pdf/psi850.1x.20ns.omi.amp1.096.djf.7912.pdf">850mb OMI
+							DJF</a>
+					</li>
+					<li><a href="/mjo/mjoindex/pdf/psi850.1x.20ns.omi.amp1.096.jja.7912.pdf">850mb OMI
+							JJA</a>
+					</li>
+					<li><a href="/mjo/mjoindex/pdf/psi850.1x.20ns.rmm.amp1.096.djf.7912.pdf">850mb RMM
+							DJF</a>
+					</li>
+					<li><a href="/mjo/mjoindex/pdf/psi850.1x.20ns.rmm.amp1.096.jja.7912.pdf">850mb RMM
+							JJA</a>
+					</li>
+				</ol>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-heading" data-toggle="collapse" href="#collapseFour">
+			<h4 class="panel-title" style="font-weight: 600;">Other</h4>
+		</div>
+		<div id="collapseFour" class="panel-collapse collapse">
+			<div class="panel-body">
+				<!-- <a name="animation"></a> -->
+				<h2>MJO EOF Patterns</h2>
+				<!-- <a name="spatial"></a> -->
+				<h3>OMI EOF Patterns</h3>
+				<ul>
+					<li>The ASCII EOF values are available via ftp/downloads for <a
+							href="https://downloads.psl.noaa.gov/Datasets.other/MJO/eof1/">EOF1</a> and <a
+							href="https://downloads.psl.noaa.gov/Datasets.other/MJO/eof2/">EOF2</a> . They
+						can
+						be
+						read using the code <a href="/mjo/mjoindex/read.eof.f">read.eof.f</a>. User can
+						retrieve
+						the
+						files via the web or using an (anonymous) ftp client at the address
+						ftp2.psl.noaa.gov.
+						Then,
+						cd to /Datasets.other/MJO/.</li>
+				</ul>
+
+				<!-- <a name="animation"></a> -->
+				<h3>OMI EOF Animations</h3>
+				<ul>
+					<li>An <a href="/mjo/mjoindex/animation/movie_120d_interp_1xd_3096_eastw.avi">animation
+							of
+							the
+							daily OMI EOF's</a> (realtime player format).<br>
+					<li>A <a href="/mjo/mjoindex/animation/">javascript animation of the daily OMI
+							EOF's</a>.
+					</li>
+				</ul>
+
+
+				<!-- <a name="spatial"></a> -->
+				<h3>VPM EOF Patterns</h3>
+				<ul>
+					<li>The VPM EOFs are computed using zonal wind and velocity potential based on NCEP
+						reanalysis
+						version 1 from 1979 to 2012. <a href="/mjo/mjoindex/vpm_eofs_1979-2012.png"> <img
+								src="/mjo/mjoindex/vpm_eofs_1979-2012.png" alt="vpm" width="350"></a>
+					</li>
+				</ul>
+
+				<h3>FMO EOF Patterns</h3>
+				<ul>
+					<li>The ASCII FMO EOF values are available from <a href="/mjo/mjoindex/eofs.fmo.txt">here</a>.
+						<br>
+						<table>
+							<tr>
+								<td><em>FMO Spatial EOFs</em></td>
+								<td> <a href="/mjo/mjoindex/eofs.fmo.2096.png"> <img
+											src="/mjo/mjoindex/eofs.fmo.2096.png" alt="FMO spatial EOF"
+											height="200"></a></td>
+							</tr>
+						</table>
+					</li>
+				</ul>
+
+				<!-- <a name="links"></a> -->
+				<h3>Comparison of OMI EOFs from ERA5 vs Observed OLR</h3>
+
+				<div class="row">
+
+					<div class="col-sm-12 col-xs-12 text-center">
+						<a hreflang="en" href="/mjo/mjoindex/OMI_ERA5_correlation_1979_2017_EOFS79_18.png"
+							class="highslide" onclick="return hs.expand(this)">
+							<img src="/mjo/mjoindex/OMI_ERA5_correlation_1979_2017_EOFS79_18.png" width="75%"
+								alt="SST Daily Thumbnail"> </a>
+					</div>
+
+					<div class="col-sm-12 col-xs-12 text-left">
+						<caption>
+							<em><br>Pattern correlation between observed OMI EOFs from 1979-2012 and ERA5
+								OMI
+								EOFs
+								from 1979-2018 for each
+								day of the year. EOF patterns are correlated at 0.95 or above and PC time
+								series
+								are
+								correlated at above 0.97 and are deemed
+								sufficiently similar. The ERA5 based OMI was computed using the python
+								package
+								by:
+								Hoffmann CG, Kiladis GN, Gehne M, von Savigny C 2021
+								A Python Package to Calculate the OLR-Based Index of the
+								Madden-Julian-Oscillation
+								(OMI) in Climate Science and Weather Forecasting. Journal of Open Research
+								Software,
+								9:9. DOI: <a
+									href="https://doi.org/10.5334/jors.331/">https://doi.org/10.5334/jors.331/</a>
+								.
+							</em>
+						</caption>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>

@@ -1,0 +1,3656 @@
+{
+ "gill1983": {
+  "id": "https://openalex.org/W1985369177",
+  "doi": "https://doi.org/10.1038/306229a0",
+  "title": "The 1982–83 climate anomaly in the equatorial Pacific",
+  "year": 1983,
+  "authors": [
+   "Adrian Edmund Gill",
+   "Eugene M. Rasmusson"
+  ],
+  "venue": "Nature",
+  "biblio": {
+   "volume": "306",
+   "issue": "5940",
+   "first_page": "229",
+   "last_page": "234"
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "locations": [
+   {
+    "src": "Nature",
+    "url": "https://doi.org/10.1038/306229a0",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   }
+  ],
+  "abstract": "",
+  "cited_by": 237,
+  "unpaywall": {
+   "is_oa": false,
+   "status": "closed",
+   "locs": []
+  },
+  "s2": {
+   "abstract": null,
+   "pdf": {
+    "url": "",
+    "status": "CLOSED",
+    "license": null,
+    "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1038/306229A0?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1038/306229A0, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   }
+  }
+ },
+ "rw1983": {
+  "id": "https://openalex.org/W2028014989",
+  "doi": "https://doi.org/10.1126/science.222.4629.1195",
+  "title": "Meteorological Aspects of the El Niño/Southern Oscillation",
+  "year": 1983,
+  "authors": [
+   "Eugene M. Rasmusson",
+   "John M. Wallace"
+  ],
+  "venue": "Science",
+  "biblio": {
+   "volume": "222",
+   "issue": "4629",
+   "first_page": "1195",
+   "last_page": "1202"
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "locations": [
+   {
+    "src": "Science",
+    "url": "https://doi.org/10.1126/science.222.4629.1195",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   },
+   {
+    "src": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17806710",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   }
+  ],
+  "abstract": "The single most prominent signal in year-to-year climate variability is the Southern Oscillation, which is associated with fluctuations in atmospheric pressure at sea level in the tropics, monsoon rainfall, and wintertime circulation over North America and other parts of the extratropics. Although meteorologists have known about the Southern Oscillation for more than a half-century, its relation to the oceanic El Niño phenomenon was not recognized until the late 1960's, and a theoretical understanding of these relations has begun to emerge only during the past few years. The past 18 months have been characterized by what is probably the most pronounced and certainly the best-documented El Niño/Southern Oscillation episode of the past century. In this review meteorological aspects of the time history of the 1982-1983 episode are described and compared with a composite based on six previous events between 1950 and 1975, and the impact of these new observations on theoretical interpretations of the event is discussed.",
+  "cited_by": 920,
+  "unpaywall": {
+   "is_oa": false,
+   "status": "closed",
+   "locs": []
+  },
+  "s2": 429
+ },
+ "cane1983": {
+  "id": "https://openalex.org/W2091144647",
+  "doi": "https://doi.org/10.1126/science.222.4629.1189",
+  "title": "Oceanographic Events During El Niño",
+  "year": 1983,
+  "authors": [
+   "Mark A. Cane"
+  ],
+  "venue": "Science",
+  "biblio": {
+   "volume": "222",
+   "issue": "4629",
+   "first_page": "1189",
+   "last_page": "1195"
+  },
+  "oa": {
+   "is_oa": true,
+   "oa_status": "green",
+   "oa_url": "https://doi.org/10.7916/d8x06hpv",
+   "any_repository_has_fulltext": true
+  },
+  "locations": [
+   {
+    "src": "Science",
+    "url": "https://doi.org/10.1126/science.222.4629.1189",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   },
+   {
+    "src": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17806709",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   },
+   {
+    "src": "Columbia Academic Commons (Columbia University)",
+    "url": "https://doi.org/10.7916/d8x06hpv",
+    "pdf": null,
+    "lic": null,
+    "ver": null
+   }
+  ],
+  "abstract": "El Niño events, the most spectacular instances of interannual variability in the ocean, have profound consequences for climate and the ocean ecosystem. The 1982-1983 El Niño is perhaps the strongest in this century. El Niño events usually have followed a predictable pattern, but the recent event differs markedly. The physical oceanography of this El Niño is described and compared with that of earlier events.",
+  "cited_by": 401,
+  "unpaywall": {
+   "is_oa": true,
+   "status": "green",
+   "locs": [
+    {
+     "url": "https://doi.org/10.7916/d8x06hpv",
+     "pdf": null,
+     "host": "repository",
+     "ver": null,
+     "lic": null,
+     "repo": "Columbia University"
+    }
+   ]
+  },
+  "s2": 429
+ },
+ "firing1983": {
+  "id": "https://openalex.org/W2010462572",
+  "doi": "https://doi.org/10.1126/science.222.4628.1121",
+  "title": "Equatorial Undercurrent Disappears During 1982-1983 El Niño",
+  "year": 1983,
+  "authors": [
+   "Eric Firing",
+   "Roger B. Lukas",
+   "James C. Sadler",
+   "Klaus Wyrtki"
+  ],
+  "venue": "Science",
+  "biblio": {
+   "volume": "222",
+   "issue": "4628",
+   "first_page": "1121",
+   "last_page": "1123"
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "locations": [
+   {
+    "src": "Science",
+    "url": "https://doi.org/10.1126/science.222.4628.1121",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   },
+   {
+    "src": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17747385",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   }
+  ],
+  "abstract": "The equatorial undercurrent at 159 degrees W decayed during August 1982, partially reversed during September, and rapidly reappeared in January 1983. The virtual disappearance is consistent with the basin-wide adjustment of sea surface slope to the strong westerly winds in the western and central Pacific that caused the 1982-1983 El Niño event.",
+  "cited_by": 125,
+  "unpaywall": {
+   "is_oa": false,
+   "status": "closed",
+   "locs": []
+  },
+  "s2": {
+   "abstract": null,
+   "pdf": {
+    "url": "",
+    "status": "CLOSED",
+    "license": null,
+    "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1126/science.222.4628.1121?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1126/science.222.4628.1121, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "tldr": "The equatorial undercurrent at 159�W decayed during August 1982, partially reversed during September, and rapidly reappeared in January 1983, consistent with the basin-wide adjustment of sea surface slope to the strong westerly winds in the western and central Pacific that caused the 1982-1983 El Ni�o event."
+  }
+ },
+ "halpern1983": {
+  "id": "https://openalex.org/W1999432069",
+  "doi": "https://doi.org/10.1126/science.221.4616.1173",
+  "title": "Oceanographic Observations of the 1982 Warming of the Tropical Eastern Pacific",
+  "year": 1983,
+  "authors": [
+   "David Halpern",
+   "Stanley P. Hayes",
+   "Ants Leetmaa",
+   "Donald V. Hansen",
+   "S. George Philander"
+  ],
+  "venue": "Science",
+  "biblio": {
+   "volume": "221",
+   "issue": "4616",
+   "first_page": "1173",
+   "last_page": "1175"
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "locations": [
+   {
+    "src": "Science",
+    "url": "https://doi.org/10.1126/science.221.4616.1173",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   },
+   {
+    "src": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17811520",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   }
+  ],
+  "abstract": "Moored current meter, sea level, hydrographic, and surface drifter measurements show the large changes that took place in the eastern tropical Pacific during the onset of the warm episode of 1982. In August the near-surface flow at 0 degrees , 110 degrees W reversed direction to eastward. By October the sea surface temperature in the equatorial zone increased by 5 degrees Celsius above the long-term monthly mean value, sea level rose by 22 centimeters at the Galápagos Islands, and the thermocline was displaced downward by 50 to 70 meters along the equator and the South American coast.",
+  "cited_by": 52,
+  "unpaywall": {
+   "is_oa": false,
+   "status": "closed",
+   "locs": []
+  },
+  "s2": {
+   "abstract": null,
+   "pdf": {
+    "url": "",
+    "status": "CLOSED",
+    "license": null,
+    "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1126/science.221.4616.1173?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1126/science.221.4616.1173, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "tldr": "Moored current meter, sea level, hydrographic, and surface drifter measurements show the large changes that took place in the eastern tropical Pacific during the onset of the warm episode of 1982."
+  }
+ },
+ "luther1983": {
+  "id": "https://openalex.org/W2027622689",
+  "doi": "https://doi.org/10.1126/science.222.4621.327",
+  "title": "Zonal Winds in the Central Equatorial Pacific and El Niño",
+  "year": 1983,
+  "authors": [
+   "Douglas S. Luther",
+   "D. E. Harrison",
+   "Robert A. Knox"
+  ],
+  "venue": "Science",
+  "biblio": {
+   "volume": "222",
+   "issue": "4621",
+   "first_page": "327",
+   "last_page": "330"
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "locations": [
+   {
+    "src": "Science",
+    "url": "https://doi.org/10.1126/science.222.4621.327",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   },
+   {
+    "src": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17734834",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   }
+  ],
+  "abstract": "Easterly trade winds from near-equatorial islands in the central Pacific weakened before each El Niño between 1950 and 1978, except for the 1963 El Niño. The weakening of the easterlies and their later collapse did not occur uniformly over several months, but rather through a series of strong westerly wind bursts lasting 1 to 3 weeks. The bursts may force equatorial Kelvin waves in the ocean that can both initiate and sustain the sea surface warming characteristics of El Niño events.",
+  "cited_by": 162,
+  "unpaywall": {
+   "is_oa": false,
+   "status": "closed",
+   "locs": []
+  },
+  "s2": 429
+ },
+ "harrison1984": {
+  "id": "https://openalex.org/W2011878103",
+  "doi": "https://doi.org/10.1126/science.224.4653.1099",
+  "title": "The Appearance of Sustained Equatorial Surface Westerlies During the 1982 Pacific Warm Event",
+  "year": 1984,
+  "authors": [
+   "D. E. Harrison"
+  ],
+  "venue": "Science",
+  "biblio": {
+   "volume": "224",
+   "issue": "4653",
+   "first_page": "1099",
+   "last_page": "1102"
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "locations": [
+   {
+    "src": "Science",
+    "url": "https://doi.org/10.1126/science.224.4653.1099",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   },
+   {
+    "src": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17735247",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   }
+  ],
+  "abstract": "In June 1982 a band of anomalous southerly surface wind, extending from the equator as far south as the Tasman Sea, formed east of Australia (150 degrees E to 160 degrees E). This flow crossed the equator just before the appearance of sustained westerly winds on the equator somewhat west of the date line. Because these westerly winds induced the initial strong equatorial warming of the ocean east of the date line during the 1982 El Niño-Southern Oscillation (ENSO) event, the southerly jet appears to be an important atmospheric component leading to the onset of the vigorous phase of this event. Some historical evidence suggests that anomalous southerly winds in the same region occurred prior to the appearance of sustained equatorial westerly winds in the major ENSO events of 1957, 1965, and 1972.",
+  "cited_by": 34,
+  "unpaywall": {
+   "is_oa": false,
+   "status": "closed",
+   "locs": []
+  },
+  "s2": {
+   "abstract": null,
+   "pdf": {
+    "url": "",
+    "status": "CLOSED",
+    "license": null,
+    "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1126/science.224.4653.1099?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1126/science.224.4653.1099, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   },
+   "tldr": "Because these westerly winds induced the initial strong equatorial warming of the ocean east of the date line during the 1982 El Ni�o-Southern Oscillation (ENSO) event, the southerly jet appears to be an important atmospheric component leading to the onset of the vigorous phase of this event."
+  }
+ },
+ "weickmann1991": {
+  "id": "https://openalex.org/W1965889142",
+  "doi": "https://doi.org/10.1029/90jd01832",
+  "title": "El Niño/Southern Oscillation and Madden‐Julian (30–60 day) oscillations during 1981–1982",
+  "year": 1991,
+  "authors": [
+   "Klaus M. Weickmann"
+  ],
+  "venue": "Journal of Geophysical Research Atmospheres",
+  "biblio": {
+   "volume": "96",
+   "issue": "S01",
+   "first_page": "3187",
+   "last_page": "3195"
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "locations": [
+   {
+    "src": "Journal of Geophysical Research Atmospheres",
+    "url": "https://doi.org/10.1029/90jd01832",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   }
+  ],
+  "abstract": "An important issue in understanding the low‐frequency oscillations of the atmosphere and the ocean‐atmosphere system concerns the role of transients during individual events. This question is examined from an observational point of view for the period from September 1981 to April 1982, which includes the transitional phase of the 1982–1983 El Niño/Southern Oscillation (ENSO) cycle, as well as six Madden‐Julian (30–60 day) oscillations (MJO). For the developing ENSO, it is shown that interannual transitions in the anomalous atmospheric circulation and in the sea surface temperatures in the western‐central Pacific coincide with the passage of strong MJOs from the Indian to Pacific oceans. For a MJO during December 1981, evidence is provided that the shift of convection from the eastern Indian Ocean to the western Pacific Ocean involves transients having periods around 10 days. The role of transients is discussed from the perspective of these interannual and intraseasonal modes.",
+  "cited_by": 65,
+  "unpaywall": {
+   "is_oa": false,
+   "status": "closed",
+   "locs": []
+  },
+  "s2": 429
+ },
+ "predybaylo2020": {
+  "id": "https://openalex.org/W3082192671",
+  "doi": "https://doi.org/10.1038/s43247-020-0013-y",
+  "title": "El Niño/Southern Oscillation response to low-latitude volcanic eruptions depends on ocean pre-conditions and eruption timing",
+  "year": 2020,
+  "authors": [
+   "Evgeniya Predybaylo",
+   "Georgiy L. Stenchikov",
+   "Andrew T. Wittenberg",
+   "Sergey Osipov"
+  ],
+  "venue": "Communications Earth & Environment",
+  "biblio": {
+   "volume": "1",
+   "issue": "1",
+   "first_page": null,
+   "last_page": null
+  },
+  "oa": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "oa_url": "https://www.nature.com/articles/s43247-020-0013-y.pdf",
+   "any_repository_has_fulltext": true
+  },
+  "locations": [
+   {
+    "src": "Communications Earth & Environment",
+    "url": "https://doi.org/10.1038/s43247-020-0013-y",
+    "pdf": "https://www.nature.com/articles/s43247-020-0013-y.pdf",
+    "lic": "cc-by",
+    "ver": "publishedVersion"
+   },
+   {
+    "src": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "url": "https://doaj.org/article/a43dbff00b6244dbbd85e02dc5f46c56",
+    "pdf": null,
+    "lic": "cc-by-sa",
+    "ver": "submittedVersion"
+   },
+   {
+    "src": "NOAA Institutional Repository",
+    "url": "https://repository.library.noaa.gov/view/noaa/29813",
+    "pdf": null,
+    "lic": "cc-by",
+    "ver": "submittedVersion"
+   },
+   {
+    "src": "King Abdullah University of Science and Technology Repository (King Abdullah University of Science and Technology)",
+    "url": "http://hdl.handle.net/10754/665015",
+    "pdf": null,
+    "lic": "cc-by",
+    "ver": "submittedVersion"
+   }
+  ],
+  "abstract": "Abstract Proxy-based reconstructions of the past suggest that the Pacific ocean has often shown El Niño-like warming after low-latitude volcanic eruptions, while climate model simulations have suggested diverse responses. Here we present simulations from a coupled ocean–atmosphere model that illuminate the roles of ocean preconditioning, eruption magnitude and timing, and air–sea feedbacks in the El Niño/Southern Oscillation (ENSO) response to these eruptions. A deterministic component of the response, which dominates for boreal summer eruptions, leads to cooler tropical Pacific sea surface temperatures in the eruption year and El Niño-like warming the following year. A stochastic component is also important, especially for boreal winter eruptions. The simulated ENSO response depends nonlinearly on the eruption magnitude and the tropical Pacific conditions before the eruption. We conclude that adequate sampling is critical to accurately assess the ENSO responses in both models and observations.",
+  "cited_by": 58,
+  "unpaywall": {
+   "is_oa": true,
+   "status": "gold",
+   "locs": [
+    {
+     "url": "https://www.nature.com/articles/s43247-020-0013-y.pdf",
+     "pdf": "https://www.nature.com/articles/s43247-020-0013-y.pdf",
+     "host": "publisher",
+     "ver": "publishedVersion",
+     "lic": "cc-by",
+     "repo": null
+    },
+    {
+     "url": "https://doaj.org/article/a43dbff00b6244dbbd85e02dc5f46c56",
+     "pdf": null,
+     "host": "repository",
+     "ver": "submittedVersion",
+     "lic": "cc-by-sa",
+     "repo": null
+    },
+    {
+     "url": "https://repository.library.noaa.gov/view/noaa/29813",
+     "pdf": null,
+     "host": "repository",
+     "ver": "submittedVersion",
+     "lic": "cc-by",
+     "repo": null
+    },
+    {
+     "url": "http://hdl.handle.net/10754/665015",
+     "pdf": null,
+     "host": "repository",
+     "ver": "submittedVersion",
+     "lic": "cc-by",
+     "repo": "King Abdullah University of Science and Technology"
+    }
+   ]
+  },
+  "s2": 429
+ },
+ "mjo_volcano_2025": {
+  "id": "https://openalex.org/W4407191052",
+  "doi": "https://doi.org/10.1038/s41467-025-56692-2",
+  "title": "Volcanically forced Madden–Julian oscillation triggers the immediate onset of El Niño",
+  "year": 2025,
+  "authors": [
+   "Hyemi Kim",
+   "Seung‐Ki Min",
+   "Daehyun Kim",
+   "Daniele Visioni"
+  ],
+  "venue": "Nature Communications",
+  "biblio": {
+   "volume": "16",
+   "issue": "1",
+   "first_page": "1399",
+   "last_page": "1399"
+  },
+  "oa": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "oa_url": "https://www.nature.com/articles/s41467-025-56692-2.pdf",
+   "any_repository_has_fulltext": true
+  },
+  "locations": [
+   {
+    "src": "Nature Communications",
+    "url": "https://doi.org/10.1038/s41467-025-56692-2",
+    "pdf": "https://www.nature.com/articles/s41467-025-56692-2.pdf",
+    "lic": "cc-by-nc-nd",
+    "ver": "publishedVersion"
+   },
+   {
+    "src": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39915494",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   },
+   {
+    "src": "NOAA Institutional Repository",
+    "url": "https://repository.library.noaa.gov/view/noaa/70219",
+    "pdf": "http://repository.library.noaa.gov/view/noaa/70219/noaa_70219_DS1.pdf",
+    "lic": "cc-by-nc-nd",
+    "ver": "submittedVersion"
+   },
+   {
+    "src": "PubMed Central",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11802828",
+    "pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11802828/pdf/41467_2025_Article_56692.pdf",
+    "lic": "cc-by-nc-nd",
+    "ver": "submittedVersion"
+   },
+   {
+    "src": "RePEc: Research Papers in Economics",
+    "url": "https://www.nature.com/articles/s41467-025-56692-2",
+    "pdf": null,
+    "lic": null,
+    "ver": "submittedVersion"
+   },
+   {
+    "src": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "url": "https://doaj.org/article/a3155fea02194a60b197be644d8270fd",
+    "pdf": null,
+    "lic": null,
+    "ver": "submittedVersion"
+   },
+   {
+    "src": "Seoul National University Open Repository (Seoul National University)",
+    "url": "https://hdl.handle.net/10371/217124",
+    "pdf": null,
+    "lic": null,
+    "ver": "submittedVersion"
+   }
+  ],
+  "abstract": "A process-level understanding of the volcanically forced climate response is an urgent challenge due to its similarities to the potential effects of geoengineering techniques. Although the influence of volcanic forcing on El Niño events has been studied extensively, the mechanisms driving the volcanically-induced immediate onset of El Niño remain uncertain, with many climate models producing a delayed El Niño response compared to observations. In this study, using large ensemble simulations that allow us to isolate the impacts of volcanic forcing on the El Niño response, we demonstrate a mechanism that highlights the central triggering role of the Madden-Julian oscillation (MJO), which has been overlooked in existing literature. Because the land areas surrounding the Indo-Pacific warm pool dry more quickly after a volcanic eruption, the background moisture distribution becomes more favorable for the MJO to propagate eastward from the Indian Ocean into the Pacific. This increases the likelihood of ensemble members having stronger MJO activity in the western Pacific by about 35% compared to non-volcanic years, which subsequently increases the frequency of westerly wind bursts by about 76%, ultimately enhancing the probability of the onset of an El Niño by about 98% following major volcanic eruptions.",
+  "cited_by": 5,
+  "unpaywall": {
+   "is_oa": true,
+   "status": "gold",
+   "locs": [
+    {
+     "url": "https://www.nature.com/articles/s41467-025-56692-2.pdf",
+     "pdf": "https://www.nature.com/articles/s41467-025-56692-2.pdf",
+     "host": "publisher",
+     "ver": "publishedVersion",
+     "lic": "cc-by-nc-nd",
+     "repo": null
+    },
+    {
+     "url": "http://repository.library.noaa.gov/view/noaa/70219/noaa_70219_DS1.pdf",
+     "pdf": "http://repository.library.noaa.gov/view/noaa/70219/noaa_70219_DS1.pdf",
+     "host": "repository",
+     "ver": "submittedVersion",
+     "lic": "cc-by-nc-nd",
+     "repo": null
+    },
+    {
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11802828/pdf/41467_2025_Article_56692.pdf",
+     "pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11802828/pdf/41467_2025_Article_56692.pdf",
+     "host": "repository",
+     "ver": "submittedVersion",
+     "lic": "cc-by-nc-nd",
+     "repo": "National Institutes of Health"
+    }
+   ]
+  },
+  "s2": {
+   "abstract": "A process-level understanding of the volcanically forced climate response is an urgent challenge due to its similarities to the potential effects of geoengineering techniques. Although the influence of volcanic forcing on El Niño events has been studied extensively, the mechanisms driving the volcanically-induced immediate onset of El Niño remain uncertain, with many climate models producing a delayed El Niño response compared to observations. In this study, using large ensemble simulations that allow us to isolate the impacts of volcanic forcing on the El Niño response, we demonstrate a mechanism that highlights the central triggering role of the Madden–Julian oscillation (MJO), which has been overlooked in existing literature. Because the land areas surrounding the Indo-Pacific warm pool dry more quickly after a volcanic eruption, the background moisture distribution becomes more favorable for the MJO to propagate eastward from the Indian Ocean into the Pacific. This increases the likelihood of ensemble members having stronger MJO activity in the western Pacific by about 35% compared to non-volcanic years, which subsequently increases the frequency of westerly wind bursts by about 76%, ultimately enhancing the probability of the onset of an El Niño by about 98% following major volcanic eruptions. This study identifies a mechanism linking volcanic eruptions to a 98% increased likelihood of El Niño onset: drying near the Indo-Pacific enhances the propagation of the Madden–Julian oscillation, increasing westerly wind bursts by 76% and triggering El Niño.",
+   "pdf": {
+    "url": "https://www.nature.com/articles/s41467-025-56692-2.pdf",
+    "status": "GOLD",
+    "license": "CCBYNCND",
+    "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11802828, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   }
+  }
+ },
+ "ohba2013": {
+  "id": "https://openalex.org/W2155602235",
+  "doi": "https://doi.org/10.1175/jcli-d-12-00471.1",
+  "title": "Impact of Strong Tropical Volcanic Eruptions on ENSO Simulated in a Coupled GCM",
+  "year": 2013,
+  "authors": [
+   "Masamichi Ohba",
+   "Hideo Shiogama",
+   "Tokuta Yokohata",
+   "Masahiro Watanabe"
+  ],
+  "venue": "Journal of Climate",
+  "biblio": {
+   "volume": "26",
+   "issue": "14",
+   "first_page": "5169",
+   "last_page": "5182"
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "locations": [
+   {
+    "src": "Journal of Climate",
+    "url": "https://doi.org/10.1175/jcli-d-12-00471.1",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   }
+  ],
+  "abstract": "Abstract The impact of strong tropical volcanic eruptions (SVEs) on the El Niño–Southern Oscillation (ENSO) and its phase dependency is investigated using a coupled general circulation model (CGCM). This paper investigates the response of ENSO to an idealized SVE forcing, producing a peak perturbation of global-mean surface shortwave radiation larger than −6.5 W m−2. Radiative forcing due to volcanic aerosols injected into the stratosphere induces tropical surface cooling around the volcanic forcing peak. Identical-twin forecast experiments of an ENSO-neutral year in response to an SVE forcing show an El Niño–like warming lagging one year behind the peak forcing. In addition to a reduced role of the mean subsurface water upwelling (known as the dynamical thermostat mechanism), the rapid land surface cooling around the Maritime Continent weakens the equatorial Walker circulation, contributing to the positive zonal gradient of sea surface temperature (SST) and precipitation anomalies over the equatorial Pacific. Since the warm and cold phases of ENSO exhibit significant asymmetry in their transition and duration, the impact of a SVE forcing on El Niño and La Niña is also investigated. In the warm phase of ENSO, the prediction skill of the SVE-forced experiments rapidly drops approximately six months after the volcanic peak. Since the SVE significantly facilitates the duration of El Niño, the following transition from warm to cold ENSO is disrupted. The impact of SVE forcing on La Niña is, however, relatively weak. These results imply that the intensity of a dynamical thermostat-like response to a SVE could be dependent on the phase of ENSO.",
+  "cited_by": 111,
+  "unpaywall": {
+   "is_oa": false,
+   "status": "closed",
+   "locs": []
+  },
+  "s2": {
+   "abstract": null,
+   "pdf": {
+    "url": "https://doi.org/10.1175/jcli-d-12-00471.1",
+    "status": "HYBRID",
+    "license": "unspecified-oa",
+    "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1175/JCLI-D-12-00471.1?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1175/JCLI-D-12-00471.1, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   }
+  }
+ },
+ "predybaylo2017": {
+  "id": "https://openalex.org/W2577592654",
+  "doi": "https://doi.org/10.1002/2016jd025796",
+  "title": "Impacts of a Pinatubo‐size volcanic eruption on ENSO",
+  "year": 2017,
+  "authors": [
+   "Evgeniya Predybaylo",
+   "Georgiy L. Stenchikov",
+   "Andrew T. Wittenberg",
+   "Fanrong J. Zeng"
+  ],
+  "venue": "Journal of Geophysical Research Atmospheres",
+  "biblio": {
+   "volume": "122",
+   "issue": "2",
+   "first_page": "925",
+   "last_page": "947"
+  },
+  "oa": {
+   "is_oa": true,
+   "oa_status": "hybrid",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2016JD025796",
+   "any_repository_has_fulltext": true
+  },
+  "locations": [
+   {
+    "src": "Journal of Geophysical Research Atmospheres",
+    "url": "https://doi.org/10.1002/2016jd025796",
+    "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2016JD025796",
+    "lic": "cc-by-nc-nd",
+    "ver": "publishedVersion"
+   },
+   {
+    "src": "NOAA Institutional Repository",
+    "url": "https://doi.org/10.1002/2016JD025796",
+    "pdf": null,
+    "lic": null,
+    "ver": "submittedVersion"
+   },
+   {
+    "src": "King Abdullah University of Science and Technology Repository (King Abdullah University of Science and Technology)",
+    "url": "http://hdl.handle.net/10754/622871",
+    "pdf": null,
+    "lic": "other-oa",
+    "ver": "submittedVersion"
+   }
+  ],
+  "abstract": "Abstract Observations and model simulations of the climate responses to strong explosive low‐latitude volcanic eruptions suggest a significant increase in the likelihood of El Niño during the eruption and posteruption years, though model results have been inconclusive and have varied in magnitude and even sign. In this study, we test how this spread of responses depends on the initial phase of El Niño‐Southern Oscillation (ENSO) in the eruption year and on the eruption's seasonal timing. We employ the Geophysical Fluid Dynamics Laboratory CM2.1 global coupled general circulation model to investigate the impact of the Pinatubo 1991 eruption, assuming that in 1991 ENSO would otherwise be in central or eastern Pacific El Niño, La Niña, or neutral phases. We obtain statistically significant El Niño responses in a year after the eruption for all cases except La Niña, which shows no response in the eastern equatorial Pacific. The eruption has a weaker impact on eastern Pacific El Niños than on central Pacific El Niños. We find that the ocean dynamical thermostat and (to a lesser extent) wind changes due to land‐ocean temperature gradients are the main feedbacks affecting El Niño development after the eruption. The El Niño responses to eruptions occurring in summer are more pronounced than for winter and spring eruptions. That the climate response depends on eruption season and initial ENSO phase may help to reconcile apparent inconsistencies among previous studies.",
+  "cited_by": 98,
+  "unpaywall": {
+   "is_oa": true,
+   "status": "hybrid",
+   "locs": [
+    {
+     "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2016JD025796",
+     "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2016JD025796",
+     "host": "publisher",
+     "ver": "publishedVersion",
+     "lic": "cc-by-nc-nd",
+     "repo": null
+    },
+    {
+     "url": "http://hdl.handle.net/10754/622871",
+     "pdf": null,
+     "host": "repository",
+     "ver": "submittedVersion",
+     "lic": "other-oa",
+     "repo": "King Abdullah University of Science and Technology"
+    }
+   ]
+  },
+  "s2": {
+   "abstract": "Observations and model simulations of the climate responses to strong explosive low‐latitude volcanic eruptions suggest a significant increase in the likelihood of El Niño during the eruption and posteruption years, though model results have been inconclusive and have varied in magnitude and even sign. In this study, we test how this spread of responses depends on the initial phase of El Niño‐Southern Oscillation (ENSO) in the eruption year and on the eruption's seasonal timing. We employ the Geophysical Fluid Dynamics Laboratory CM2.1 global coupled general circulation model to investigate the impact of the Pinatubo 1991 eruption, assuming that in 1991 ENSO would otherwise be in central or eastern Pacific El Niño, La Niña, or neutral phases. We obtain statistically significant El Niño responses in a year after the eruption for all cases except La Niña, which shows no response in the eastern equatorial Pacific. The eruption has a weaker impact on eastern Pacific El Niños than on central Pacific El Niños. We find that the ocean dynamical thermostat and (to a lesser extent) wind changes due to land‐ocean temperature gradients are the main feedbacks affecting El Niño development after the eruption. The El Niño responses to eruptions occurring in summer are more pronounced than for winter and spring eruptions. That the climate response depends on eruption season and initial ENSO phase may help to reconcile apparent inconsistencies among previous studies.",
+   "pdf": {
+    "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2016JD025796",
+    "status": "HYBRID",
+    "license": "CCBYNCND",
+    "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1002/2016JD025796?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/2016JD025796, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+   }
+  }
+ },
+ "mcgregor2011": {
+  "id": "https://openalex.org/W2020191406",
+  "doi": "https://doi.org/10.1175/2010jcli3990.1",
+  "title": "The Effect of Explosive Tropical Volcanism on ENSO",
+  "year": 2010,
+  "authors": [
+   "Shayne McGregor",
+   "Axel Timmermann"
+  ],
+  "venue": "Journal of Climate",
+  "biblio": {
+   "volume": "24",
+   "issue": "8",
+   "first_page": "2178",
+   "last_page": "2191"
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "locations": [
+   {
+    "src": "Journal of Climate",
+    "url": "https://doi.org/10.1175/2010jcli3990.1",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   }
+  ],
+  "abstract": "Abstract This study examines the response of El Niño–Southern Oscillation (ENSO) to massive volcanic eruptions in a suite of coupled general circulation model (CGCM) simulations utilizing the Community Climate System Model, version 3 (CCSM3). The authors find that the radiative forcing due to volcanic aerosols injected into the stratosphere induces a model climatic response that projects onto the ENSO mode and initially creates a La Niña event that peaks around the time the volcanic forcing peaks. The curl of the wind stress changes accompanying this volcanically forced equatorial region cooling acts to recharge the equatorial region heat. For weaker volcanic eruptions, this recharging results in an El Niño event about two seasons after the peak of the volcanic forcing. The results of the CCSM3 volcanic forcing experiments lead the authors to propose that the initial tropical Pacific Ocean response to volcanic forcing is determined by four different mechanisms—one process is the dynamical thermostat mechanism (the mean upwelling of anomalous temperature) and the other processes are related to the zonal equatorial gradients of the mean cloud albedo, Newtonian cooling, and mixed layer depth. The zonal gradient in CCSM3 set by both mixed layer depth and Newtonian cooling terms oppose the zonal sea surface temperature anomaly (SSTA) gradient produced by the dynamical thermostat and initially dominate the mixed layer zonal equatorial heat budget response. Applying this knowledge to a simple volcanically forced mixed layer equation using observed estimates of the spatially varying variables, the authors again find that the mixed layer depth and Newtonian cooling terms oppose and dominate the zonal SSTA gradient produced by the dynamical thermostat. This implies that the observed initial response to volcanic forcing should be La Niña–like not El Niño, as suggested by paleoclimate records.",
+  "cited_by": 131,
+  "unpaywall": {
+   "is_oa": false,
+   "status": "closed",
+   "locs": []
+  },
+  "s2": 429
+ },
+ "stevenson2016": {
+  "id": "https://openalex.org/W2293551885",
+  "doi": "https://doi.org/10.1175/jcli-d-15-0239.1",
+  "title": "“El Niño Like” Hydroclimate Responses to Last Millennium Volcanic Eruptions",
+  "year": 2016,
+  "authors": [
+   "Samantha L. Stevenson",
+   "Bette L. Otto‐Bliesner",
+   "John Fasullo",
+   "Esther C. Brady"
+  ],
+  "venue": "Journal of Climate",
+  "biblio": {
+   "volume": "29",
+   "issue": "8",
+   "first_page": "2907",
+   "last_page": "2921"
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "locations": [
+   {
+    "src": "Journal of Climate",
+    "url": "https://doi.org/10.1175/jcli-d-15-0239.1",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   }
+  ],
+  "abstract": "Abstract The hydroclimate response to volcanic eruptions depends both on volcanically induced changes to the hydrologic cycle and on teleconnections with the El Niño–Southern Oscillation (ENSO), complicating the interpretation of offsets between proxy reconstructions and model output. Here, these effects are separated, using the Community Earth System Model Last Millennium Ensemble (CESM-LME), by examination of ensemble realizations with distinct posteruption ENSO responses. Hydroclimate anomalies in monsoon Asia and the western United States resemble the El Niño teleconnection pattern after “Tropical” and “Northern” eruptions, even when ENSO-neutral conditions are present. This pattern results from Northern Hemisphere (NH) surface cooling, which shifts the intertropical convergence zone equatorward, intensifies the NH subtropical jet, and suppresses the Southeast Asian monsoon. El Niño events following an eruption can then intensify the ENSO-neutral hydroclimate signature, and El Niño probability is enhanced two boreal winters following all eruption types. Additionally, the eruption-year ENSO response to eruptions is hemispherically dependent: the winter following a Northern eruption tends toward El Niño, while Southern volcanoes enhance the probability of La Niña events and Tropical eruptions have a very slight cooling effect. Overall, eruption-year hydroclimate anomalies in CESM disagree with the proxy record in both Southeast Asia and North America, suggesting that model monsoon representation cannot be solely responsible. Possible explanations include issues with the model ENSO response, the spatial or temporal structure of volcanic aerosol distribution, or data uncertainties.",
+  "cited_by": 181,
+  "unpaywall": {
+   "is_oa": false,
+   "status": "closed",
+   "locs": []
+  },
+  "s2": 429
+ },
+ "dee2020": {
+  "id": "https://openalex.org/W3014069617",
+  "doi": "https://doi.org/10.1126/science.aax2000",
+  "title": "No consistent ENSO response to volcanic forcing over the last millennium",
+  "year": 2020,
+  "authors": [
+   "Sylvia Genevieve Dee",
+   "K. M. Cobb",
+   "Julien Emile‐Geay",
+   "Toby R. Ault",
+   "Richard Lawrence Edwards",
+   "Hai Cheng",
+   "Christopher D. Charles"
+  ],
+  "venue": "Science",
+  "biblio": {
+   "volume": "367",
+   "issue": "6485",
+   "first_page": "1477",
+   "last_page": "1481"
+  },
+  "oa": {
+   "is_oa": true,
+   "oa_status": "green",
+   "oa_url": "https://repository.library.noaa.gov/view/noaa/60556/noaa_60556_DS1.pdf",
+   "any_repository_has_fulltext": true
+  },
+  "locations": [
+   {
+    "src": "Science",
+    "url": "https://doi.org/10.1126/science.aax2000",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   },
+   {
+    "src": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32217726",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   },
+   {
+    "src": "NOAA Institutional Repository",
+    "url": "https://repository.library.noaa.gov/view/noaa/60556",
+    "pdf": "https://repository.library.noaa.gov/view/noaa/60556/noaa_60556_DS1.pdf",
+    "lic": "public-domain",
+    "ver": "submittedVersion"
+   }
+  ],
+  "abstract": "The El Niño-Southern Oscillation (ENSO) shapes global climate patterns yet its sensitivity to external climate forcing remains uncertain. Modeling studies suggest that ENSO is sensitive to sulfate aerosol forcing associated with explosive volcanism but observational support for this effect remains ambiguous. Here, we used absolutely dated fossil corals from the central tropical Pacific to gauge ENSO's response to large volcanic eruptions of the last millennium. Superposed epoch analysis reveals a weak tendency for an El Niño-like response in the year after an eruption, but this response is not statistically significant, nor does it appear after the outsized 1257 Samalas eruption. Our results suggest that those models showing a strong ENSO response to volcanic forcing may overestimate the size of the forced response relative to natural ENSO variability.",
+  "cited_by": 137,
+  "unpaywall": {
+   "is_oa": true,
+   "status": "green",
+   "locs": [
+    {
+     "url": "https://repository.library.noaa.gov/view/noaa/60556/noaa_60556_DS1.pdf",
+     "pdf": "https://repository.library.noaa.gov/view/noaa/60556/noaa_60556_DS1.pdf",
+     "host": "repository",
+     "ver": "submittedVersion",
+     "lic": "public-domain",
+     "repo": null
+    }
+   ]
+  },
+  "s2": 429
+ },
+ "khodri2017": {
+  "id": "https://openalex.org/W2758598556",
+  "doi": "https://doi.org/10.1038/s41467-017-00755-6",
+  "title": "Tropical explosive volcanic eruptions can trigger El Niño by cooling tropical Africa",
+  "year": 2017,
+  "authors": [
+   "Myriam Khodri",
+   "Takeshi Izumo",
+   "Jérôme Vialard",
+   "Serge Janicot",
+   "Christophe Cassou",
+   "Matthieu Lengaigne",
+   "Juliette Mignot",
+   "Guillaume Gastineau"
+  ],
+  "venue": "Nature Communications",
+  "biblio": {
+   "volume": "8",
+   "issue": "1",
+   "first_page": "778",
+   "last_page": "778"
+  },
+  "oa": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "oa_url": "https://www.nature.com/articles/s41467-017-00755-6.pdf",
+   "any_repository_has_fulltext": true
+  },
+  "locations": [
+   {
+    "src": "Nature Communications",
+    "url": "https://doi.org/10.1038/s41467-017-00755-6",
+    "pdf": "https://www.nature.com/articles/s41467-017-00755-6.pdf",
+    "lic": "cc-by",
+    "ver": "publishedVersion"
+   },
+   {
+    "src": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28974676",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   },
+   {
+    "src": "CentAUR (University of Reading)",
+    "url": "https://centaur.reading.ac.uk/view/creators/90000869.html>",
+    "pdf": "https://centaur.reading.ac.uk/73162/1/s41467-017-00755-6.pdf",
+    "lic": null,
+    "ver": "acceptedVersion"
+   },
+   {
+    "src": "Europe PMC (PubMed Central)",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/5626740",
+    "pdf": null,
+    "lic": "cc-by",
+    "ver": "submittedVersion"
+   },
+   {
+    "src": "PubMed Central",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/5626740",
+    "pdf": null,
+    "lic": "cc-by",
+    "ver": "submittedVersion"
+   },
+   {
+    "src": "HAL (Le Centre pour la Communication Scientifique Directe)",
+    "url": "https://hal.sorbonne-universite.fr/hal-01617982",
+    "pdf": null,
+    "lic": "cc-by",
+    "ver": "submittedVersion"
+   },
+   {
+    "src": "HAL (Le Centre pour la Communication Scientifique Directe)",
+    "url": "https://hal.archives-ouvertes.fr/hal-02433250",
+    "pdf": null,
+    "lic": null,
+    "ver": "submittedVersion"
+   },
+   {
+    "src": "RePEc: Research Papers in Economics",
+    "url": "https://www.nature.com/articles/s41467-017-00755-6",
+    "pdf": null,
+    "lic": null,
+    "ver": "submittedVersion"
+   },
+   {
+    "src": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "url": "https://doaj.org/article/5fff14c377bc4075b944c2b249ca8dcc",
+    "pdf": null,
+    "lic": null,
+    "ver": "submittedVersion"
+   },
+   {
+    "src": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "url": "https://doaj.org/article/eb6db9d5bd6d4a80878296a200401bfe",
+    "pdf": null,
+    "lic": "cc-by-sa",
+    "ver": "submittedVersion"
+   },
+   {
+    "src": "NOAA Institutional Repository",
+    "url": "https://repository.library.noaa.gov/view/noaa/24136",
+    "pdf": null,
+    "lic": "cc-by",
+    "ver": "submittedVersion"
+   }
+  ],
+  "abstract": "Stratospheric aerosols from large tropical explosive volcanic eruptions backscatter shortwave radiation and reduce the global mean surface temperature. Observations suggest that they also favour an El Niño within 2 years following the eruption. Modelling studies have, however, so far reached no consensus on either the sign or physical mechanism of El Niño response to volcanism. Here we show that an El Niño tends to peak during the year following large eruptions in simulations of the Fifth Coupled Model Intercomparison Project (CMIP5). Targeted climate model simulations further emphasize that Pinatubo-like eruptions tend to shorten La Niñas, lengthen El Niños and induce anomalous warming when occurring during neutral states. Volcanically induced cooling in tropical Africa weakens the West African monsoon, and the resulting atmospheric Kelvin wave drives equatorial westerly wind anomalies over the western Pacific. This wind anomaly is further amplified by air-sea interactions in the Pacific, favouring an El Niño-like response.El Niño tends to follow 2 years after volcanic eruptions, but the physical mechanism behind this phenomenon is unclear. Here the authors use model simulations to show that a Pinatubo-like eruption cools tropical Africa and drives westerly wind anomalies in the Pacific favouring an El Niño response.",
+  "cited_by": 220,
+  "unpaywall": {
+   "is_oa": true,
+   "status": "gold",
+   "locs": [
+    {
+     "url": "https://www.nature.com/articles/s41467-017-00755-6.pdf",
+     "pdf": "https://www.nature.com/articles/s41467-017-00755-6.pdf",
+     "host": "publisher",
+     "ver": "publishedVersion",
+     "lic": "cc-by",
+     "repo": null
+    },
+    {
+     "url": "https://centaur.reading.ac.uk/73162/1/s41467-017-00755-6.pdf",
+     "pdf": "https://centaur.reading.ac.uk/73162/1/s41467-017-00755-6.pdf",
+     "host": "repository",
+     "ver": "acceptedVersion",
+     "lic": null,
+     "repo": "University of Reading"
+    },
+    {
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/5626740",
+     "pdf": null,
+     "host": "repository",
+     "ver": "submittedVersion",
+     "lic": "cc-by",
+     "repo": "European Bioinformatics Institute"
+    },
+    {
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/5626740",
+     "pdf": null,
+     "host": "repository",
+     "ver": "submittedVersion",
+     "lic": "cc-by",
+     "repo": "National Institutes of Health"
+    },
+    {
+     "url": "https://hal.sorbonne-universite.fr/hal-01617982",
+     "pdf": null,
+     "host": "repository",
+     "ver": "submittedVersion",
+     "lic": "cc-by",
+     "repo": "Centre National de la Recherche Scientifique"
+    },
+    {
+     "url": "https://doaj.org/article/eb6db9d5bd6d4a80878296a200401bfe",
+     "pdf": null,
+     "host": "repository",
+     "ver": "submittedVersion",
+     "lic": "cc-by-sa",
+     "repo": null
+    },
+    {
+     "url": "https://repository.library.noaa.gov/view/noaa/24136",
+     "pdf": null,
+     "host": "repository",
+     "ver": "submittedVersion",
+     "lic": "cc-by",
+     "repo": null
+    }
+   ]
+  },
+  "s2": 429
+ },
+ "hendon1999": {
+  "id": "https://openalex.org/W2165952787",
+  "doi": "https://doi.org/10.1175/1520-0442(1999)012<2538:ivotmj>2.0.co;2",
+  "title": "Interannual Variation of the Madden–Julian Oscillation during Austral Summer",
+  "year": 1999,
+  "authors": [
+   "Harry H. Hendon",
+   "Chidong Zhang",
+   "John D. Glick"
+  ],
+  "venue": "Journal of Climate",
+  "biblio": {
+   "volume": "12",
+   "issue": "8",
+   "first_page": "2538",
+   "last_page": "2550"
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "locations": [
+   {
+    "src": "Journal of Climate",
+    "url": "https://doi.org/10.1175/1520-0442(1999)012<2538:ivotmj>2.0.co;2",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   }
+  ],
+  "abstract": "Interannual variability of the Madden–Julian oscillation (MJO), the dominant mode of intraseasonal variability in the Tropics, is investigated during the extended austral summer season November–March, which is when the MJO is most prominent. Indexes of the level of MJO activity are developed using outgoing longwave radiation and zonal wind analyses at 850 mb for 1974–98. Based on these indexes, interannual variations in the level of MJO activity are found to be primarily associated with changes in the number of discrete MJO events each year and with changes in the intensity of intraseasonal convection across the Indian and western Pacific Oceans, where the MJO is normally prominent. An eastward shift of MJO activity east of the date line does occur during El Niño events. However, the overall level of MJO activity is found to be uncorrelated with El Niño, except during exceptional warm events when MJO activity is diminished. The level of MJO activity is shown to be weakly related to sea surface temperature anomalies in the equatorial Indian and western Pacific Oceans, but the weak correlations imply that much of the year-to-year variability of the MJO is internally generated, independent of any slowly varying boundary forcing. Such year-to-year variations of the intensity of the MJO are, however, associated with changes in the distribution of seasonal mean convection across the tropical Indian and western Pacific Oceans. This interannual variation of convection unrelated to SST variability may thus act as a limit to seasonal predictions that rely heavily on equatorial Pacific SST anomalies.",
+  "cited_by": 326,
+  "unpaywall": {
+   "is_oa": false,
+   "status": "closed",
+   "locs": []
+  },
+  "s2": 429
+ },
+ "kessler2001": {
+  "id": "https://openalex.org/W2086113648",
+  "doi": "https://doi.org/10.1175/1520-0442(2001)014<3055:erotmj>2.0.co;2",
+  "title": "EOF Representations of the Madden–Julian Oscillation and Its Connection with ENSO*",
+  "year": 2001,
+  "authors": [
+   "William S. Kessler"
+  ],
+  "venue": "Journal of Climate",
+  "biblio": {
+   "volume": "14",
+   "issue": "13",
+   "first_page": "3055",
+   "last_page": "3061"
+  },
+  "oa": {
+   "is_oa": true,
+   "oa_status": "bronze",
+   "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/14/13/1520-0442_2001_014_3055_erotmj_2.0.co_2.pdf",
+   "any_repository_has_fulltext": false
+  },
+  "locations": [
+   {
+    "src": "Journal of Climate",
+    "url": "https://doi.org/10.1175/1520-0442(2001)014<3055:erotmj>2.0.co;2",
+    "pdf": "https://journals.ametsoc.org/downloadpdf/journals/clim/14/13/1520-0442_2001_014_3055_erotmj_2.0.co_2.pdf",
+    "lic": null,
+    "ver": "publishedVersion"
+   }
+  ],
+  "abstract": "Although recent El Niño events have seen the occurrence of strong intraseasonal winds apparently associated with the Madden–Julian oscillation (MJO), the usual indices of interannual variability of the MJO are uncorrelated with measures of the ENSO cycle. An EOF decomposition of intraseasonal outgoing longwave radiation and zonal wind identifies two modes of interannual variability of the MJO: a zonally stationary variation of amplitude that is unrelated to ENSO and a roughly 20°-longitude eastward extension of the MJO envelope during El Niño events. The stationary mode is represented by the first two EOFs, which form the familiar lag-correlated quadrature pair, and the eastward-extending mode is represented by the third EOF, which is usually ignored although it is statistically significant. However, the third EOF also has a systematic phase relation with the first pair, and all three should be considered as a triplet; rotating the EOFs makes the phase relation clear. The zonal shift represents about 20% of total MJO variance (which itself is about 55% of intraseasonal variance over the tropical strip). Although the eastward shift is small when compared with the global scale of the MJO, it produces a large proportional shift of MJO activity over the open Pacific, where physical interactions with ENSO processes can occur.",
+  "cited_by": 256,
+  "unpaywall": {
+   "is_oa": true,
+   "status": "bronze",
+   "locs": [
+    {
+     "url": "https://journals.ametsoc.org/downloadpdf/journals/clim/14/13/1520-0442_2001_014_3055_erotmj_2.0.co_2.pdf",
+     "pdf": "https://journals.ametsoc.org/downloadpdf/journals/clim/14/13/1520-0442_2001_014_3055_erotmj_2.0.co_2.pdf",
+     "host": "publisher",
+     "ver": "publishedVersion",
+     "lic": null,
+     "repo": null
+    }
+   ]
+  },
+  "s2": 429
+ },
+ "seiki2007a": {
+  "id": "https://openalex.org/W2139020298",
+  "doi": "https://doi.org/10.1175/mwr3477.1",
+  "title": "Westerly Wind Bursts and Their Relationship with Intraseasonal Variations and ENSO. Part I: Statistics",
+  "year": 2007,
+  "authors": [
+   "Ayako Seiki",
+   "Yukari N. Takayabu"
+  ],
+  "venue": "Monthly Weather Review",
+  "biblio": {
+   "volume": "135",
+   "issue": "10",
+   "first_page": "3325",
+   "last_page": "3345"
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "locations": [
+   {
+    "src": "Monthly Weather Review",
+    "url": "https://doi.org/10.1175/mwr3477.1",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   }
+  ],
+  "abstract": "Abstract Statistical features of the relationship among westerly wind bursts (WWBs), the El Niño–Southern Oscillation (ENSO), and intraseasonal variations (ISVs) were examined using 40-yr European Centre for Medium-Range Weather Forecasts (ECMWF) Re-Analysis data (ERA-40) for the period of January 1979–August 2002. WWBs were detected over the Indian Ocean and the Pacific Ocean, but not over the Atlantic Ocean. WWB frequencies for each region were lag correlated with a sea surface temperature anomaly over the Niño-3 region. WWBs tended to occur in sequence, from the western to eastern Pacific, leading the El Niño peak by 9 months to 1 month, respectively, and after around 11 months, over the Indian Ocean. These results suggest that WWB occurrences are not random, but interactive with ENSO. Composite analysis revealed that most WWBs were associated with slowdowns of eastward-propagating convective regions like the Madden–Julian oscillation (MJO), with the intensified Rossby wave response. However, seasonal and interannual variations in MJO amplitude were not correlated with WWB frequency, while a strong MJO event tended to bear WWBs. It is suggested that the strong MJO amplitude promotes favorable conditions, but it is not the only factor influencing WWB frequency. An environment common to WWB generation in all regions was the existence of background westerlies around the WWB center near the equator. It is inferred that ENSO prepares a favorable environment for the structural transformation of an MJO, that is, the intensified Rossby wave response, that results in WWB generations. The role of the background wind fields on WWB generations will be discussed in a companion paper from the perspective of energetics.",
+  "cited_by": 158,
+  "unpaywall": {
+   "is_oa": false,
+   "status": "closed",
+   "locs": []
+  },
+  "s2": 429
+ },
+ "harrison_vecchi1997": {
+  "id": "https://openalex.org/W2174373292",
+  "doi": "https://doi.org/10.1175/1520-0442(1997)010<3131:wweitt>2.0.co;2",
+  "title": "Westerly Wind Events in the Tropical Pacific, 1986–95*",
+  "year": 1997,
+  "authors": [
+   "D. E. Harrison",
+   "Gabriel A. Vecchi"
+  ],
+  "venue": "Journal of Climate",
+  "biblio": {
+   "volume": "10",
+   "issue": "12",
+   "first_page": "3131",
+   "last_page": "3156"
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "locations": [
+   {
+    "src": "Journal of Climate",
+    "url": "https://doi.org/10.1175/1520-0442(1997)010<3131:wweitt>2.0.co;2",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   }
+  ],
+  "abstract": "Based on examination of 10 yr of 10-m winds and wind anomalies from European Centre for Medium-Range Weather Forecasts (ECWMF) analysis, definitions for westerly wind events (WWEs) of eight different types are proposed. The authors construct a composite for each type of event, show that a simple propagating Gaussian model satisfactorily describes the evolution of zonal wind anomaly for each type of event, and determine the scales of each composite event by fitting the model to each composite. The authors discuss the WWEs that occurred during the Tropical Oceans Global Atmosphere Coupled Ocean–Atmosphere Response Experiment (TOGA COARE) intensive observing period (IOP) and show the extent to which these composite events are able to reproduce the major westerly wind features of the IOP. The frequency of occurrence of each type of WWE for each year of this record and by calendar month are described; the authors find several types of events are negatively correlated with the annual mean troup Southern Oscillation index (SOI), and that the stronger WWEs often have a statistically significant seasonality. Several instances of widespread westerly wind anomaly are identified and described, but these “mega”-WWEs have few features in common. Although the authors’ composites underestimate the peak amplitude of many WWEs and cannot always accurately represent the time evolution of each WWE, the authors believe that they offer a useful framework for representing the sort of westerly wind variability that occurs in the western and central tropical Pacific and can provide a basis for further study of the importance of such winds in the climatological and interannual variability of this part of the World Ocean.",
+  "cited_by": 186,
+  "unpaywall": {
+   "is_oa": false,
+   "status": "closed",
+   "locs": []
+  },
+  "s2": 429
+ },
+ "zhang_gottschalck2002": {
+  "id": "https://openalex.org/W2180311437",
+  "doi": "https://doi.org/10.1175/1520-0442(2002)015<2429:saoeat>2.0.co;2",
+  "title": "SST Anomalies of ENSO and the Madden–Julian Oscillation in the Equatorial Pacific*",
+  "year": 2002,
+  "authors": [
+   "Chidong Zhang",
+   "Jon Gottschalck"
+  ],
+  "venue": "Journal of Climate",
+  "biblio": {
+   "volume": "15",
+   "issue": "17",
+   "first_page": "2429",
+   "last_page": "2445"
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "locations": [
+   {
+    "src": "Journal of Climate",
+    "url": "https://doi.org/10.1175/1520-0442(2002)015<2429:saoeat>2.0.co;2",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   }
+  ],
+  "abstract": "This study explores whether anomalies of sea surface temperature (SST) in the equatorial Pacific during warm events of El Niño–Southern Oscillation (ENSO) are related to the Madden–Julian oscillation (MJO). An index is derived from surface wind data of a global model reanalysis to measure forcing of oceanic Kelvin waves by wind stress associated with the MJO. This Kelvin wave forcing index of the MJO is used to relate interannual anomalies in seasonal activity of the MJO to interannual anomalies in equatorial SST for the 1980–99 time period. Evidence is found showing that during ENSO warm events, stronger Kelvin wave forcing in the western Pacific precedes greater SST anomalies in the eastern Pacific by 6–12 months. No such evidence, however, can be found for the period of 1950–79. The result suggests that during ENSO warm events, amplitudes of SST anomalies in the eastern Pacific can be affected by the MJO, at least for the 1980–99 period, through its seasonal activity of Kelvin wave forcing. A possible mechanism for such an MJO–ENSO relationship is described. How ENSO prediction can be benefited from the precursory signals of the MJO is discussed.",
+  "cited_by": 243,
+  "unpaywall": {
+   "is_oa": false,
+   "status": "closed",
+   "locs": []
+  },
+  "s2": 429
+ },
+ "wheeler_hendon2004": {
+  "id": "https://openalex.org/W2176050019",
+  "doi": "https://doi.org/10.1175/1520-0493(2004)132<1917:aarmmi>2.0.co;2",
+  "title": "An All-Season Real-Time Multivariate MJO Index: Development of an Index for Monitoring and Prediction",
+  "year": 2004,
+  "authors": [
+   "Matthew C. Wheeler",
+   "Harry H. Hendon"
+  ],
+  "venue": "Monthly Weather Review",
+  "biblio": {
+   "volume": "132",
+   "issue": "8",
+   "first_page": "1917",
+   "last_page": "1932"
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "locations": [
+   {
+    "src": "Monthly Weather Review",
+    "url": "https://doi.org/10.1175/1520-0493(2004)132<1917:aarmmi>2.0.co;2",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   },
+   {
+    "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.470.3375",
+    "pdf": null,
+    "lic": null,
+    "ver": "submittedVersion"
+   }
+  ],
+  "abstract": "A seasonally independent index for monitoring the Madden–Julian oscillation (MJO) is described. It is based on a pair of empirical orthogonal functions (EOFs) of the combined fields of near-equatorially averaged 850-hPa zonal wind, 200-hPa zonal wind, and satellite-observed outgoing longwave radiation (OLR) data. Projection of the daily observed data onto the multiple-variable EOFs, with the annual cycle and components of interannual variability removed, yields principal component (PC) time series that vary mostly on the intraseasonal time scale of the MJO only. This projection thus serves as an effective filter for the MJO without the need for conventional time filtering, making the PC time series an effective index for real-time use. The pair of PC time series that form the index are called the Real-time Multivariate MJO series 1 (RMM1) and 2 (RMM2). The properties of the RMM series and the spatial patterns of atmospheric variability they capture are explored. Despite the fact that RMM1 and RMM2 describe evolution of the MJO along the equator that is independent of season, the coherent off-equatorial behavior exhibits strong seasonality. In particular, the north-ward, propagating behavior in the Indian monsoon and the southward extreme of convection into the Australian monsoon are captured by monitoring the seasonally independent eastward propagation in the equatorial belt. The previously described interannual modulation of the global variance of the MJO is also well captured.",
+  "cited_by": 2895,
+  "unpaywall": {
+   "is_oa": false,
+   "status": "closed",
+   "locs": []
+  },
+  "s2": 429
+ },
+ "kiladis2014": {
+  "id": "https://openalex.org/W2050414673",
+  "doi": "https://doi.org/10.1175/mwr-d-13-00301.1",
+  "title": "A Comparison of OLR and Circulation-Based Indices for Tracking the MJO",
+  "year": 2013,
+  "authors": [
+   "George N. Kiladis",
+   "Juliana Dias",
+   "Katherine H. Straub",
+   "Matthew C. Wheeler",
+   "Stefan N. Tulich",
+   "Kazuyoshi Kikuchi",
+   "Klaus M. Weickmann",
+   "Michael J. Ventrice"
+  ],
+  "venue": "Monthly Weather Review",
+  "biblio": {
+   "volume": "142",
+   "issue": "5",
+   "first_page": "1697",
+   "last_page": "1715"
+  },
+  "oa": {
+   "is_oa": true,
+   "oa_status": "bronze",
+   "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/mwre/142/5/mwr-d-13-00301.1.pdf",
+   "any_repository_has_fulltext": false
+  },
+  "locations": [
+   {
+    "src": "Monthly Weather Review",
+    "url": "https://doi.org/10.1175/mwr-d-13-00301.1",
+    "pdf": "https://journals.ametsoc.org/downloadpdf/journals/mwre/142/5/mwr-d-13-00301.1.pdf",
+    "lic": null,
+    "ver": "publishedVersion"
+   }
+  ],
+  "abstract": "Abstract Two univariate indices of the Madden–Julian oscillation (MJO) based on outgoing longwave radiation (OLR) are developed to track the convective component of the MJO while taking into account the seasonal cycle. These are compared with the all-season Real-time Multivariate MJO (RMM) index of Wheeler and Hendon derived from a multivariate EOF of circulation and OLR. The gross features of the OLR and circulation of composite MJOs are similar regardless of the index, although RMM is characterized by stronger circulation. Diversity in the amplitude and phase of individual MJO events between the indices is much more evident; this is demonstrated using examples from the Dynamics of the Madden–Julian Oscillation (DYNAMO) field campaign and the Year of Tropical Convection (YOTC) virtual campaign. The use of different indices can lead to quite disparate conclusions concerning MJO timing and strength, and even as to whether or not an MJO has occurred. A disadvantage of using daily OLR as an EOF basis is that it is a much noisier field than the large-scale circulation, and filtering is necessary to obtain stable results through the annual cycle. While a drawback of filtering is that it cannot be done in real time, a reasonable approximation to the original fully filtered index can be obtained by following an endpoint smoothing method. When the convective signal is of primary interest, the authors advocate the use of satellite-based metrics for retrospective analysis of the MJO for individual cases, as well as for the analysis of model skill in initiating and evolving the MJO.",
+  "cited_by": 429,
+  "unpaywall": {
+   "is_oa": true,
+   "status": "bronze",
+   "locs": [
+    {
+     "url": "https://journals.ametsoc.org/downloadpdf/journals/mwre/142/5/mwr-d-13-00301.1.pdf",
+     "pdf": "https://journals.ametsoc.org/downloadpdf/journals/mwre/142/5/mwr-d-13-00301.1.pdf",
+     "host": "publisher",
+     "ver": "publishedVersion",
+     "lic": null,
+     "repo": null
+    }
+   ]
+  },
+  "s2": 429
+ },
+ "slingo1999": {
+  "id": "https://openalex.org/W2148040602",
+  "doi": "https://doi.org/10.1002/qj.49712555411",
+  "title": "On the predictability of the interannual behaviour of the Madden‐Julian oscillation and its relationship with el Nino",
+  "year": 1999,
+  "authors": [
+   "Julia Slingo",
+   "David P. Rowell",
+   "Kenneth R. Sperber",
+   "F. Nortley"
+  ],
+  "venue": "Quarterly Journal of the Royal Meteorological Society",
+  "biblio": {
+   "volume": "125",
+   "issue": "554",
+   "first_page": "583",
+   "last_page": "609"
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "locations": [
+   {
+    "src": "Quarterly Journal of the Royal Meteorological Society",
+    "url": "https://doi.org/10.1002/qj.49712555411",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   }
+  ],
+  "abstract": "Abstract The Madden‐Julian Oscillation (MJO) is the dominant mode of tropical variability at intraseasonal time‐scales. It displays substantial interannual variability in intensity which may have important implications for the predictability of the coupled system. the reasons for this interannual variability are not understood. the aim of this paper is to investigate whether the interannual behaviour of the MJO is related to tropical sea surface temperature (SST) anomalies, particularly El Niño, and hence whether it is predictable. The interannual behaviour of the MJO has been diagnosed initially in the 40‐year National Centers for Environmental Prediction/National Center for Atmospheric Research (NCEP/NCAR) Reanalysis. the results suggest that prior to the mid‐1970s the activity of the MJO was consistently lower than during the latter part of the record. This may be related either to inadequacies in the data coverage, particularly over the tropical Indian Ocean prior to the introduction of satellite observations. or to the real effects of a decadal time‐scale warming in the tropical SSTs. the teleconnection patterns between interannual variations in MJO activity and SST show only a weak, barely significant, influence of El Niño in which the MJO is more active during the cold phase. As well as the NCEP/NCAR Reanalysis, a 4‐member ensemble of 45‐year integrations with the Hadley Centre climate model (HadAM2a), forced by observed SSTs for 1949‐93, has been used to investigate the relationship between MJO activity and SST. HadAM2a is known to give a reasonable simulation of the MJO, and the extended record provided by this ensemble of integrations allows a more robust investigation of the predictability of MJO activity than was possible with the 40‐year NCEP/NCAR Reanalysis. the results have shown that, for the uncoupled system, with the atmosphere being driven by imposed SSTs, there is no reproducibility of the activity of the MJO from year‐to‐year. the interannual behaviour of the MJO is not controlled by the phase of El Niño and would appear to be mainly chaotic in character. However, the model results have confirmed the low‐frequency, decadal time‐scale variability of MJO activity seen in the NCEP/NCAR Reanalysis. the activity of the MJO is consistently lower in all realizations prior to the mid‐1970s, suggesting that the MJO may become more active as tropical SSTs increase. This result may have implications for the effects of global warming on the coupled tropical atmosphere‐ocean system. Since the observed and simulated MJOs display clear seasonality in their occurrence, the relationship with interannual changes in the mean seasonal cycle of the tropical circulation has also been investigated. In contrast to the MJO, the interannual variability in the mean seasonal cycle is reproducible and influenced by the phase of El Niño. the implications of these results for the predictability of the tropical atmosphere‐ocean system are discussed, particularly with reference to the strong El Niño event of 1997 which developed in association with a period of intense MJO activity.",
+  "cited_by": 282,
+  "unpaywall": {
+   "is_oa": false,
+   "status": "closed",
+   "locs": []
+  },
+  "s2": 429
+ },
+ "kalnay1996": {
+  "id": "https://openalex.org/W2173251738",
+  "doi": "https://doi.org/10.1175/1520-0477(1996)077<0437:tnyrp>2.0.co;2",
+  "title": "The NCEP/NCAR 40-Year Reanalysis Project",
+  "year": 1996,
+  "authors": [
+   "Eugenia Kalnay",
+   "Masao Kanamitsu",
+   "Robert E. Kistler",
+   "W. Collins",
+   "Dennis G. Deaven",
+   "Lev S. Gandin",
+   "Mark Iredell",
+   "Suranjana Saha"
+  ],
+  "venue": "Bulletin of the American Meteorological Society",
+  "biblio": {
+   "volume": "77",
+   "issue": "3",
+   "first_page": "437",
+   "last_page": "471"
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "locations": [
+   {
+    "src": "Bulletin of the American Meteorological Society",
+    "url": "https://doi.org/10.1175/1520-0477(1996)077<0437:tnyrp>2.0.co;2",
+    "pdf": null,
+    "lic": null,
+    "ver": "publishedVersion"
+   }
+  ],
+  "abstract": "The NCEP and NCAR are cooperating in a project (denoted “reanalysis”) to produce a 40-year record of global analyses of atmospheric fields in support of the needs of the research and climate monitoring communities. This effort involves the recovery of land surface, ship, rawinsonde, pibal, aircraft, satellite, and other data; quality controlling and assimilating these data with a data assimilation system that is kept unchanged over the reanalysis period 1957–96. This eliminates perceived climate jumps associated with changes in the data assimilation system. The NCEP/NCAR 40-yr reanalysis uses a frozen state-of-the-art global data assimilation system and a database as complete as possible. The data assimilation and the model used are identical to the global system implemented operationally at the NCEP on 11 January 1995, except that the horizontal resolution is T62 (about 210 km). The database has been enhanced with many sources of observations not available in real time for operations, provided by different countries and organizations. The system has been designed with advanced quality control and monitoring components, and can produce 1 mon of reanalysis per day on a Cray YMP/8 supercomputer. Different types of output archives are being created to satisfy different user needs, including a “quick look” CD-ROM (one per year) with six tropospheric and stratospheric fields available twice daily, as well as surface, top-of-the-atmosphere, and isentropic fields. Reanalysis information and selected output is also available on-line via the Internet (http//:nic.fb4.noaa.gov:8000). A special CDROM, containing 13 years of selected observed, daily, monthly, and climatological data from the NCEP/NCAR Reanalysis, is included with this issue. Output variables are classified into four classes, depending on the degree to which they are influenced by the observations and/or the model. For example, “C” variables (such as precipitation and surface fluxes) are completely determined by the model during the data assimilation and should be used with caution. Nevertheless, a comparison of these variables with observations and with several climatologies shows that they generally contain considerable useful information. Eight-day forecasts, produced every 5 days, should be useful for predictability studies and for monitoring the quality of the observing systems. The 40 years of reanalysis (1957–96) should be completed in early 1997. A continuation into the future through an identical Climate Data Assimilation System will allow researchers to reliably compare recent anomalies with those in earlier decades. Since changes in the observing systems will inevitably produce perceived changes in the climate, parallel reanalyses (at least 1 year long) will be generated for the periods immediately after the introduction of new observing systems, such as new types of satellite data. NCEP plans currently call for an updated reanalysis using a state-of-the-art system every five years or so. The successive reanalyses will be greatly facilitated by the generation of the comprehensive database in the present reanalysis.",
+  "cited_by": 28364,
+  "unpaywall": {
+   "is_oa": false,
+   "status": "closed",
+   "locs": []
+  },
+  "s2": 429
+ },
+ "lau_chan_1986": [
+  {
+   "id": "https://openalex.org/W2011611438",
+   "doi": "https://doi.org/10.1080/03036758.1985.10416840",
+   "title": "The Southern Oscillation: A New Zealand perspective",
+   "year": 1985,
+   "authors": [
+    "Neil D. Gordon"
+   ],
+   "venue": "Journal of the Royal Society of New Zealand",
+   "biblio": {
+    "volume": "15",
+    "issue": "2",
+    "first_page": "137",
+    "last_page": "155"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/03036758.1985.10416840?download=true",
+    "any_repository_has_fulltext": false
+   },
+   "locations": [
+    {
+     "src": "Journal of the Royal Society of New Zealand",
+     "url": "https://doi.org/10.1080/03036758.1985.10416840",
+     "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/03036758.1985.10416840?download=true",
+     "lic": null,
+     "ver": "publishedVersion"
+    }
+   ],
+   "abstract": "The Southern Oscillation is the dominant signal appearing in interannual variations of global climate. It involves an aperiodic exchange of atmospheric mass between the Indonesian area and the southeast Pacific, and is intimately related to the “El Nino” phenomenon. Research contributing to the current understanding of the Southern Oscillation is reviewed. Particular emphasis is given to the associated effects on New Zealand weather, and their implications for seasonal forecasting in New Zealand are discussed.",
+   "cited_by": 44
+  },
+  {
+   "id": "https://openalex.org/W2760353536",
+   "doi": "https://doi.org/10.5539/jsd.v10n5p268",
+   "title": "El Nino-Southern Oscillation Influences on Food Security",
+   "year": 2017,
+   "authors": [
+    "Olivia Muza"
+   ],
+   "venue": "Journal of Sustainable Development",
+   "biblio": {
+    "volume": "10",
+    "issue": "5",
+    "first_page": "268",
+    "last_page": "268"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "diamond",
+    "oa_url": "http://www.ccsenet.org/journal/index.php/jsd/article/download/70916/38724",
+    "any_repository_has_fulltext": false
+   },
+   "locations": [
+    {
+     "src": "Journal of Sustainable Development",
+     "url": "https://doi.org/10.5539/jsd.v10n5p268",
+     "pdf": "http://www.ccsenet.org/journal/index.php/jsd/article/download/70916/38724",
+     "lic": "cc-by",
+     "ver": "publishedVersion"
+    },
+    {
+     "src": "RePEc: Research Papers in Economics",
+     "url": "https://ccsenet.org/journal/index.php/jsd/article/download/70916/38724",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "El-Nino Southern Oscillation (ENSO) is the most recurrent change in climate impacting agriculture productivity and food security. This study investigates ENSO impacts on four cereal crops (maize, millet, sorghum and wheat) using crop production and climate datasets spanning the years 1960-2015. The results of this study reveal that during El Nino (La Nina) maize, sorghum and wheat production decreases (increases) while that of millet increases (decreases). Even though, the correlation is statistically significant for maize only, the outcome is a call to review the macro-food policy taking into account ENSO-related phase effects to redress food insecurity. The study recommends incentives for agricultural productivity including irrigation intensification and small grain value chain development, trade and food security arrangements, income generation opportunities and strategic partnerships for improved food and nutrition security.",
+   "cited_by": 9
+  },
+  {
+   "id": "https://openalex.org/W3015236006",
+   "doi": "https://doi.org/10.1038/s43017-020-0040-3",
+   "title": "Climate impacts of the El Niño–Southern Oscillation on South America",
+   "year": 2020,
+   "authors": [
+    "Wenju Cai",
+    "Michael James McPhaden",
+    "Alice M. Grimm",
+    "Regina R. Rodrigues",
+    "Andréa Sardinha Taschetto",
+    "René Dario Garreaud",
+    "Boris Dewitte",
+    "Germán Poveda"
+   ],
+   "venue": "Nature Reviews Earth & Environment",
+   "biblio": {
+    "volume": "1",
+    "issue": "4",
+    "first_page": "215",
+    "last_page": "231"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://unsworks.unsw.edu.au/bitstreams/bd080488-e5e6-4d5b-a533-367440e17cfd/download",
+    "any_repository_has_fulltext": true
+   },
+   "locations": [
+    {
+     "src": "Nature Reviews Earth & Environment",
+     "url": "https://doi.org/10.1038/s43017-020-0040-3",
+     "pdf": null,
+     "lic": null,
+     "ver": "publishedVersion"
+    },
+    {
+     "src": "UNSWorks (UNSW Sydney)",
+     "url": "http://hdl.handle.net/1959.4/unsworks_70832",
+     "pdf": "https://unsworks.unsw.edu.au/bitstreams/bd080488-e5e6-4d5b-a533-367440e17cfd/download",
+     "lic": "cc-by-nc-nd",
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "HAL (Le Centre pour la Communication Scientifique Directe)",
+     "url": "https://insu.hal.science/insu-03671095",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+     "url": "https://hdl.handle.net/20.500.12542/302",
+     "pdf": null,
+     "lic": "cc-by-nc-nd",
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "Universidad de Chile",
+     "url": "https://repositorio.uchile.cl/handle/2250/190984",
+     "pdf": null,
+     "lic": "cc-by-nc-nd",
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "CONICET Digital (CONICET)",
+     "url": "http://hdl.handle.net/11336/144121",
+     "pdf": null,
+     "lic": "cc-by-nc-sa",
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "Biblioteca Digital da Memória Científica do INPE (National Institute for Space Research)",
+     "url": "http://urlib.net/sid.inpe.br/plutao/2020/06.15.23.36",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "",
+   "cited_by": 780
+  },
+  {
+   "id": "https://openalex.org/W2793819902",
+   "doi": "https://doi.org/10.1175/jcli-d-17-0456.1",
+   "title": "Cold Season Southwest Asia Precipitation Sensitivity to El Nino-Southern Oscillation Events",
+   "year": null,
+   "authors": [],
+   "venue": "NOAA Institutional Repository",
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "oa": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+   },
+   "locations": [
+    {
+     "src": "NOAA Institutional Repository",
+     "url": "https://doi.org/10.1175/jcli-d-17-0456.1",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "The sensitivity of southwest Asia (25 degrees-40 degrees N, 40 degrees-70 degrees E) precipitation during the November-April rainy season to four types of El Nino-Southern Oscillation (ENSO) events, eastern Pacific (EP) and central Pacific (CP) El Nino and La Nina, is assessed using an ensemble of atmospheric model simulations forced by 1979-2015 boundary conditions. Sensitivity is assessed in terms of 1) the spread of precipitation across the ensemble members around the ensemble mean, 2) the probability of precipitation falling into the upper and lower terciles of the historical distribution, and 3) the relationship between the tropical atmosphere and southwest Asia precipitation during ENSO. During CP La Nina, the magnitude of the below-average mean precipitation exceeds the magnitude of the precipitation spread, thereby conditioning the probability of lower-tercile southwest Asia precipitation to greater than 70%. By contrast, EP La Nina does not alter the odds of southwest Asia precipitation terciles, as the magnitude of the near-zero mean precipitation is overwhelmed by the magnitude of the precipitation spread. EP and CP El Nino similarly result in above-average mean precipitation whose magnitude approaches the magnitude of the precipitation spread, thereby conditioning the probability of upper-tercile southwest Asia precipitation to around 50% region-wide. However, the notable effect of the precipitation spread during El Nino allows for a 20%-30% probability that the regional precipitation falls into the lower tercile. ENSO types simultaneously modify the probability of eastern Indian Ocean precipitation and southwest Asia precipitation, supporting the hypothesis that the tropical eastern Indian Ocean atmosphere serves as the medium by which ENSO forcing is communicated to southwest Asia.",
+   "cited_by": 33
+  },
+  {
+   "id": "https://openalex.org/W2770918442",
+   "doi": "https://doi.org/10.1038/s41467-017-01831-7",
+   "title": "Intensification of terrestrial carbon cycle related to El Nino–Southern Oscillation under greenhouse warming",
+   "year": 2017,
+   "authors": [
+    "Jin‐Soo Kim",
+    "Jong‐Seong Kug",
+    "Su-Jong Jeong"
+   ],
+   "venue": "Nature Communications",
+   "biblio": {
+    "volume": "8",
+    "issue": "1",
+    "first_page": "1674",
+    "last_page": "1674"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://www.nature.com/articles/s41467-017-01831-7.pdf",
+    "any_repository_has_fulltext": true
+   },
+   "locations": [
+    {
+     "src": "Nature Communications",
+     "url": "https://doi.org/10.1038/s41467-017-01831-7",
+     "pdf": "https://www.nature.com/articles/s41467-017-01831-7.pdf",
+     "lic": "cc-by",
+     "ver": "publishedVersion"
+    },
+    {
+     "src": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29162846",
+     "pdf": null,
+     "lic": null,
+     "ver": "publishedVersion"
+    },
+    {
+     "src": "Europe PMC (PubMed Central)",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/5698330",
+     "pdf": null,
+     "lic": "cc-by",
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "PubMed Central",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/5698330",
+     "pdf": null,
+     "lic": "cc-by",
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "RePEc: Research Papers in Economics",
+     "url": "https://www.nature.com/articles/s41467-017-01831-7",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "DOAJ (DOAJ: Directory of Open Access Journals)",
+     "url": "https://doaj.org/article/07e8f9d92e2645c8afe481b63ccf311f",
+     "pdf": null,
+     "lic": "cc-by-sa",
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "Open Access System for Information Sharing (Pohang University of Science and Technology)",
+     "url": "https://oasis.postech.ac.kr/handle/2014.oak/50857",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "The El Niño/Southern Oscillation (ENSO) drives interannual variation in the global carbon cycle. However, the relationship between ENSO and the carbon cycle can be modulated by climate change due to anthropogenic forcing. We show herein that the sensitivity of the terrestrial carbon flux to ENSO will be enhanced under greenhouse warming by 44% ( ± 15%), indicating a future amplification of carbon-climate interactions. Separating the contributions of the changes in carbon sensitivity reveals that the response of land surface temperature to ENSO and the sensitivity of gross primary production to local temperature are significantly enhanced under greenhouse warming, thereby amplifying the ENSO-carbon-cycle coupling. In a warm climate, depletion of soil moisture increases temperature response in a given ENSO event. These findings suggest that the ENSO-related carbon cycle will be enhanced by hydroclimate changes caused by anthropogenic forcing.",
+   "cited_by": 59
+  }
+ ],
+ "lau_chan_1988": [
+  {
+   "id": "https://openalex.org/W2015072289",
+   "doi": "https://doi.org/10.1175/1520-0469(1988)045<0506:iaivot>2.0.co;2",
+   "title": "Intraseasonal and Interannual Variations of Tropical Convection: A Possible Link between the 40–50 Day Oscillation and ENSO?",
+   "year": 1988,
+   "authors": [
+    "Ka-Ming Lau",
+    "Paul H. Chan"
+   ],
+   "venue": "Journal of the Atmospheric Sciences",
+   "biblio": {
+    "volume": "45",
+    "issue": "3",
+    "first_page": "506",
+    "last_page": "521"
+   },
+   "oa": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+   },
+   "locations": [
+    {
+     "src": "Journal of the Atmospheric Sciences",
+     "url": "https://doi.org/10.1175/1520-0469(1988)045<0506:iaivot>2.0.co;2",
+     "pdf": null,
+     "lic": null,
+     "ver": "publishedVersion"
+    }
+   ],
+   "abstract": "Intraseasonal and interannual variations of tropical convection are studied using 12 years of NOAA outgoing longwave radiation (OLR) data. The spatial patterns of OLR variance in the 1–5 day, 20–70 day and longer-than-180 day bands am examined separately for the northern summer (May–October) and winter (November&ndash April). In the 1–5 day band, the most prominent features are the Pacific and Atlantic ITCZs during the northern summer and the large variability over the western Pacific and the tropical continents during the northern winter. For the time scales beyond 10 days, it was found that the maximum variance shifts north and south of the equator from summer to winter but is generally located between 20°S and 20°N in the longitudinal sector between the Indian and Pacific oceans. Over the Indian Ocean and the western Pacific, variations with 30–60 day period are most pronounced. In the central and eastern Pacific variations with periods over one year are more prevalent. The natural variability of tropical convection is estimated. Results show that the climate signal (interannual variability) in convection is 1argest and most easily detectable over the equatorial central Pacific. Results of empirical orthogonal function analyses show that the most dominant mode of variation in tropical convection exhibits multiple time scales that can be identified respectively with the 40–50 day oscillation, the annual cycle and an aperiodic variation with several year' time scale. These variations are associated with fluctuations of the equatorial Walker circulation. It is suggested that an interaction of these time scales may be instrumental in leading to the onset of ENSO. The possibility of the 40–50 day oscillation as a trigger to ENSO is further supported by the seemingly systematic frequency and amplitude modulation of these oscillations before and after the 1982–83 ENSO. Discussion of the results in light of recent development in the dynamics of the coupled ocean-atmosphere system is also presented.",
+   "cited_by": 206
+  },
+  {
+   "id": "https://openalex.org/W833113349",
+   "doi": null,
+   "title": "Intraseasonal and interannual variations of tropical convection - A possible link between the 40-50 day oscillation and ENSO?. [El Nino/Southern Oscillation",
+   "year": 1988,
+   "authors": [
+    "Ka-Ming Lau",
+    "Paul H. Chan"
+   ],
+   "venue": "NASA Technical Reports Server (NASA)",
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "oa": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+   },
+   "locations": [
+    {
+     "src": "NASA Technical Reports Server (NASA)",
+     "url": "https://ntrs.nasa.gov/search.jsp?R=19880045220",
+     "pdf": null,
+     "lic": null,
+     "ver": null
+    }
+   ],
+   "abstract": "",
+   "cited_by": 1
+  },
+  {
+   "id": "https://openalex.org/W2180254140",
+   "doi": "https://doi.org/10.1175/1520-0442(1999)012<1199:sfoebt>2.0.co;2",
+   "title": "Stochastic Forcing of ENSO by the Intraseasonal Oscillation",
+   "year": 1999,
+   "authors": [
+    "Andrew M. Moore",
+    "Richard D. Kleeman"
+   ],
+   "venue": "Journal of Climate",
+   "biblio": {
+    "volume": "12",
+    "issue": "5",
+    "first_page": "1199",
+    "last_page": "1220"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/12/5/1520-0442_1999_012_1199_sfoebt_2.0.co_2.pdf",
+    "any_repository_has_fulltext": false
+   },
+   "locations": [
+    {
+     "src": "Journal of Climate",
+     "url": "https://doi.org/10.1175/1520-0442(1999)012<1199:sfoebt>2.0.co;2",
+     "pdf": "https://journals.ametsoc.org/downloadpdf/journals/clim/12/5/1520-0442_1999_012_1199_sfoebt_2.0.co_2.pdf",
+     "lic": null,
+     "ver": "publishedVersion"
+    },
+    {
+     "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.331.2659",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "Using the ideas of generalized linear stability theory, the authors examine the potential role that tropical variability on synoptic–intraseasonal timescales can play in controlling variability on seasonal–interannual timescales. These ideas are investigated using an intermediate coupled ocean–atmosphere model of the El Niño–Southern Oscillation (ENSO). The variability on synoptic–intraseasonal timescales is treated as stochastic noise that acts as a forcing function for variability at ENSO timescales. The spatial structure is computed that the stochastic noise forcing must have in order to enhance the variability of the system on seasonal–interannual timescales. These structures are the so-called stochastic optimals of the coupled system, and they bear a good resemblence to variability that is observed in the real atmosphere on synoptic and intraseasonal timescales. When the coupled model is subjected to a stochastic noise forcing composed of the stochastic optimals, variability on seasonal–interannual timescales develops that has spectral characteristics qualitatively similar to those seen in nature. The stochastic noise forcing produces perturbations in the system that can grow rapidly. The response of the system to the stochastic optimals is to induce perturbations that bear a strong resemblence to westerly and easterly wind bursts frequently observed in the western tropical Pacific. In the model, these “wind bursts” can act as efficient precursors for ENSO episodes if conditions are favorable. The response of the system to noise-induced perturbations depends on a number of factors that include 1) the phase of the seasonal cycle, 2) the presence of nonlinearities in the system, 3) the past history of the stochastic noise forcing and its integrated effect, and 4) the stability of the coupled ocean–atmosphere system. Based on their findings, they concur with the view adopted by other investigators that ENSO may be explained, at least partially, as a stochastically forced phenomena, the source of the noise in the Tropics being synoptic–intraseasonal variability, which includes the Madden–Julian oscillation, and westerly/easterly wind bursts. These ideas fit well with the observed onset and development of various ENSO episodes, including the 1997–98 El Niño event.",
+   "cited_by": 307
+  },
+  {
+   "id": "https://openalex.org/W2054053231",
+   "doi": "https://doi.org/10.1175/1520-0442(2001)014<1180:ioaivo>2.0.co;2",
+   "title": "Intraseasonal Oscillations and Interannual Variability of the Indian Summer Monsoon",
+   "year": 2001,
+   "authors": [
+    "B. N. Goswami",
+    "R. S. Ajayamohan"
+   ],
+   "venue": "Journal of Climate",
+   "biblio": {
+    "volume": "14",
+    "issue": "6",
+    "first_page": "1180",
+    "last_page": "1198"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/14/6/1520-0442_2001_014_1180_ioaivo_2.0.co_2.pdf",
+    "any_repository_has_fulltext": false
+   },
+   "locations": [
+    {
+     "src": "Journal of Climate",
+     "url": "https://doi.org/10.1175/1520-0442(2001)014<1180:ioaivo>2.0.co;2",
+     "pdf": "https://journals.ametsoc.org/downloadpdf/journals/clim/14/6/1520-0442_2001_014_1180_ioaivo_2.0.co_2.pdf",
+     "lic": null,
+     "ver": "publishedVersion"
+    },
+    {
+     "src": "NOT FOUND REPOSITORY (Indian Institute of Science Bangalore)",
+     "url": "http://eprints.iisc.ac.in/1941/1/Intraseasonal.pdf",
+     "pdf": "http://eprints.iisc.ac.in/1941/1/Intraseasonal.pdf",
+     "lic": null,
+     "ver": "acceptedVersion"
+    },
+    {
+     "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.484.3901",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "How and to what extent the intraseasonal oscillations (ISOs) influence the seasonal mean and its interannual variability of the Indian summer monsoon is investigated using 42-yr (1956-97) daily circulation data from National Centers for Environmental Prediction-National Center for Atmospheric Research 40-Year Reanalysis and satellite-derived outgoing longwave radiation data for the period of 1974-97.Based on zonal winds at 850 hPa over the Bay of Bengal, a criterion is devised to define ''active'' and ''break'' monsoon conditions.The underlying spatial structure of a typical ISO cycle in circulation and convection that is invariant over the years is constructed using a composite technique.A typical ISO has large-scale horizontal structure similar to the seasonal mean and intensifies (weakens) the mean flow during its active (break) phase.A typical active (break) phase is also associated with enhanced (decreased) cyclonic low-level vorticity and convection and anomalous upward (downward) motion in the northern position of the tropical convergence zone (TCZ) and decreased (increased) convection and anomalous downward (upward) motion in the southern position of the TCZ.The cycle evolves with a northward propagation of the TCZ and convection from the southern to the northern position of the TCZ.It is shown that the intraseasonal and interannual variations are governed by a common mode of spatial variability.The spatial pattern of standard deviation of intraseasonal and interannual variability of low-level vorticity is shown to be similar.The spatial pattern of the dominant mode of ISO variability of the low-level winds is also shown to be similar to that of the interannual variability of the seasonal mean winds.The similarity between the spatial patterns of the two variabilities indicates that higher frequency of occurrence of active (break) conditions would result in ''stronger'' (''weaker'') than normal seasonal mean.This possibility is tested by calculating the two-dimensional probability density function (PDF) of the ISO activity in the low-level vorticity.The PDF estimates for ''strong'' and ''weak'' monsoon years are shown to be asymmetric in both the cases.It is seen that the strong (weak) monsoon years are associated with higher probability of occurrence of active (break) conditions.This result is further supported by the calculation of PDF of ISO activity from combined vorticity and outgoing longwave radiation.This clear signal indicates that the frequency of intraseasonal pattern determines the seasonal mean.Because the ISOs are essentially chaotic, it raises an important question on predictability of the Indian summer monsoon.",
+   "cited_by": 557
+  },
+  {
+   "id": "https://openalex.org/W2176645098",
+   "doi": "https://doi.org/10.1175/1520-0442(2001)014<2910:ivotio>2.0.co;2",
+   "title": "Interannual Variations of the Intraseasonal Oscillation in the South Asian Summer Monsoon Region",
+   "year": 2001,
+   "authors": [
+    "David M. Lawrence",
+    "Peter J. Webster"
+   ],
+   "venue": "Journal of Climate",
+   "biblio": {
+    "volume": "14",
+    "issue": "13",
+    "first_page": "2910",
+    "last_page": "2922"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/14/13/1520-0442_2001_014_2910_ivotio_2.0.co_2.pdf",
+    "any_repository_has_fulltext": false
+   },
+   "locations": [
+    {
+     "src": "Journal of Climate",
+     "url": "https://doi.org/10.1175/1520-0442(2001)014<2910:ivotio>2.0.co;2",
+     "pdf": "https://journals.ametsoc.org/downloadpdf/journals/clim/14/13/1520-0442_2001_014_2910_ivotio_2.0.co_2.pdf",
+     "lic": null,
+     "ver": "publishedVersion"
+    }
+   ],
+   "abstract": "It is noted that the behavior of the intraseasonal oscillation (ISO) of the south Asian monsoon varies from year to year. An index representing seasonally averaged ISO activity is developed using outgoing longwave radiation data for the period 1975–97. Interannual variations in ISO activity are found to be related to year-to-year changes in the number of discrete events rather than to changes in the characteristic period. Summertime ISO activity exhibits a reasonably strong inverse relationship with Indian monsoon strength but not with total south Asian monsoon strength primarily because of a lack of correlation between ISO activity and the Bay of Bengal component of the south Asian monsoon. Over the 22-yr period examined here, the relationship between Indian monsoon strength and ISO activity is comparable to or even stronger than the well-documented relationship with El Niño–Southern Oscillation (ENSO). However, summertime ISO activity is found to be relatively uncorrelated with ENSO except for a weakly positive correlation at the beginning of the south Asian monsoon season. Therefore, the ISO activity–Indian monsoon relationship is essentially independent of the ENSO–Indian monsoon relationship. ISO activity is uncorrelated with any other contemporaneous or leading sea surface temperature variability.",
+   "cited_by": 169
+  }
+ ],
+ "robock1995": [
+  {
+   "id": "https://openalex.org/W4308448723",
+   "doi": "https://doi.org/10.1007/s41748-022-00331-z",
+   "title": "A Review of El Niño Southern Oscillation Linkage to Strong Volcanic Eruptions and Post-Volcanic Winter Warming",
+   "year": 2022,
+   "authors": [
+    "Muhammad Mubashar Dogar",
+    "Leon Hermanson",
+    "Adam A. Scaife",
+    "Daniele Visioni",
+    "Ming Zhao",
+    "Ibrahim Hoteit",
+    "Hans‐F. Graf",
+    "Muhammad Ahmad Dogar"
+   ],
+   "venue": "Earth Systems and Environment",
+   "biblio": {
+    "volume": "7",
+    "issue": "1",
+    "first_page": "15",
+    "last_page": "42"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://eprints.lib.hokudai.ac.jp/dspace/bitstream/2115/90646/1/Dogaretal2022-Review-ENSO-Volcanism-Final.pdf",
+    "any_repository_has_fulltext": true
+   },
+   "locations": [
+    {
+     "src": "Earth Systems and Environment",
+     "url": "https://doi.org/10.1007/s41748-022-00331-z",
+     "pdf": null,
+     "lic": null,
+     "ver": "publishedVersion"
+    },
+    {
+     "src": "Hokkaido University Collection of Scholarly and Academic Papers (Hokkaido University)",
+     "url": "http://hdl.handle.net/2115/90646",
+     "pdf": "https://eprints.lib.hokudai.ac.jp/dspace/bitstream/2115/90646/1/Dogaretal2022-Review-ENSO-Volcanism-Final.pdf",
+     "lic": "cc-by",
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "Institutional Repositories DataBase (IRDB)",
+     "url": "https://hdl.handle.net/2115/90646",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "King Abdullah University of Science and Technology Repository (King Abdullah University of Science and Technology)",
+     "url": "http://hdl.handle.net/10754/685675",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "",
+   "cited_by": 68
+  },
+  {
+   "id": "https://openalex.org/W4285795918",
+   "doi": "https://doi.org/10.5194/acp-2022-362-rc1",
+   "title": "Comment on acp-2022-362",
+   "year": 2022,
+   "authors": [
+    "Keith Alan Potts"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://acp.copernicus.org/preprints/acp-2022-362/acp-2022-362.pdf",
+    "any_repository_has_fulltext": null
+   },
+   "locations": [
+    {
+     "url": "https://doi.org/10.5194/acp-2022-362-rc1",
+     "pdf": "https://acp.copernicus.org/preprints/acp-2022-362/acp-2022-362.pdf",
+     "lic": "cc-by",
+     "ver": "publishedVersion"
+    }
+   ],
+   "abstract": "Volcanic aerosols over south east Asia (SEAsia), and only over SEAsia, have always been the trigger and sustaining cause of: El Niño/Southern Oscillation (ENSO) events which are the dominant mode of variability in the global climate responsible for Australian, Indian and Indonesian droughts, American floods and increased global temperatures; and Indian Ocean Dipole (IOD) events. In recent decades this natural plume has been augmented by an anthropogenic plume which has 25 intensified ENSO events especially from September to November. Understanding the mechanism which enables aerosols over SEAsia, and only over SEAsia, to create ENSO events is crucial to understanding the global climate. I show that the SEAsian aerosol plume causes ENSO events by: reflecting/absorbing solar radiation which warms the upper troposphere; and reducing surface radiation which cools the surface under the plume. This inversion reduces convection in SEAsia thereby suppressing the Walker Circulation and the Trade Winds which causes the SST to rise in the central Pacific Ocean 30 and creates convection there. This further weakens/reverses the Walker Circulation driving the climate into an ENSO state which is maintained until the SEAsian aerosols dissipate and the climate system relaxes into a non-ENSO state. Data from the Global Volcanism Program (151 years), the Last Millennium Ensemble (1,156 years), MERRA-2 (41 years) and NASA MODIS on Terra (21 years) demonstrates this connection with the Nino 3.4 and 1+2 SST, the Southern Oscillation Index, and two events commonly associated with ENSO: drought in south eastern Australia; and the IOD.",
+   "cited_by": 0
+  },
+  {
+   "id": "https://openalex.org/W1652573447",
+   "doi": null,
+   "title": "Volcanism-Climate Interactions",
+   "year": 1991,
+   "authors": [
+    "L. S. Walter",
+    "Shanaka Desilva"
+   ],
+   "venue": "NASA STI Repository (National Aeronautics and Space Administration)",
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "18",
+    "last_page": "19"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "http://hdl.handle.net/2060/19910012328",
+    "any_repository_has_fulltext": true
+   },
+   "locations": [
+    {
+     "src": "NASA STI Repository (National Aeronautics and Space Administration)",
+     "url": "http://hdl.handle.net/2060/19910012328",
+     "pdf": "http://hdl.handle.net/2060/19910012328",
+     "lic": null,
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "NASA Technical Reports Server (NASA)",
+     "url": "https://ntrs.nasa.gov/api/citations/19910012328/downloads/19910012328.pdf",
+     "pdf": null,
+     "lic": null,
+     "ver": null
+    }
+   ],
+   "abstract": "The range of disciplines in the study of volcanism-climate interactions includes paleoclimate, volcanology, petrology, tectonics, cloud physics and chemistry, and climate and radiation modeling. Questions encountered in understanding the interactions include: the source and evolution of sulfur and sulfur-gaseous species in magmas; their entrainment in volcanic plumes and injection into the stratosphere; their dissipation rates; and their radiative effects. Other issues include modeling and measuring regional and global effects of such large, dense clouds. A broad-range plan of research designed to answer these questions was defined. The plan includes observations of volcanoes, rocks, trees, and ice cores, as well as satellite and aircraft observations of erupting volcanoes and resulting lumes and clouds.",
+   "cited_by": 2
+  },
+  {
+   "id": "https://openalex.org/W778405834",
+   "doi": null,
+   "title": "Effect of volcanic eruptions on the hydrological cycle",
+   "year": 2014,
+   "authors": [
+    "Carley Elizabeth Iles"
+   ],
+   "venue": "ERA",
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "2488",
+    "last_page": null
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://era.ed.ac.uk/bitstream/1842/9918/2/Iles2014.pdf",
+    "any_repository_has_fulltext": true
+   },
+   "locations": [
+    {
+     "src": "ERA",
+     "url": "http://hdl.handle.net/1842/9918",
+     "pdf": "https://era.ed.ac.uk/bitstream/1842/9918/2/Iles2014.pdf",
+     "lic": null,
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "EGUGA",
+     "url": "https://era.ed.ac.uk/handle/1842/9918",
+     "pdf": null,
+     "lic": null,
+     "ver": null
+    }
+   ],
+   "abstract": "Large explosive volcanic eruptions inject SO2 into the stratosphere where it is oxidised to sulphate aerosols which reflect sunlight. This causes a reduction in global temperature and precipitation lasting a few years. Here the robust features of this precipitation response are investigated, using superposed epoch analysis that combines results from multiple eruptions. The precipitation response is first analysed using the climate model HadCM3 compared to two gauge based land precipitation datasets. The analysis is then extended to a large suite of state-of-the art climate models participating in the Coupled Model Intercomparison Project Phase 5 (CMIP5). This is the first multi-model study focusing on the precipitation response to volcanoes. The large ensemble allows analysis of a short satellite based dataset which includes ocean coverage. Finally the response of major world rivers to eruptions is examined using historical records. Whilst previous studies focus on the response of just a few rivers or global discharge to single eruptions, here the response of 50 major world rivers is averaged across multiple eruptions. Results are applicable in predicting the precipitation response to future eruptions and to geoengineering schemes that seek to counteract global warming through reducing incoming solar radiation. The main model-simulated features of the precipitation response include a significant global drying over both land and ocean, which is dominated by the wet tropical regions, whilst the dry tropical ocean regions get significantly wetter following eruptions. Monsoon rainfall decreases, whilst in response to individual eruptions the Intertropical Convergence Zone shifts away from the hemisphere with the greater concentration of volcanic aerosols. The ocean precipitation response is longer lived than that over land and correlates with near surface air temperature, whilst the land response correlates with aerosol optical depth and a reduction in land-ocean temperature gradient. Many of these modelled features are also seen in observational data, including the decrease in global mean and wet tropical regions precipitation over land and the increase of precipitation over dry tropical ocean regions, all of which are significant in the boreal cold season. The land precipitation response features were robust to choice of dataset. Removing the influence of the El Nino Southern Oscillation (ENSO) reduces the magnitude of the volcanic response, as several recent eruptions coincided with El Nino events. However, results generally remain significant after subtraction of ENSO, at least in the cold season. Over ocean, observed results only match model expectations in the cold season, whilst data are noisy in the warm season. Results are too noisy in both seasons to confirm whether a long ocean precipitation response occurs. Spatial patterns of precipitation response agree well between observational datasets, including a decrease in precipitation over most monsoon regions. A positive North Atlantic Oscillation-like precipitation response can be seen in all datasets in boreal winter, but this is not captured by the models. A detection analysis is performed that builds on previous detection studies by focusing specifically on the influence of volcanoes. The influence of volcanism on precipitation is detectable using all three observational datasets in boreal winter, including for the first time in a dataset with ocean coverage, and marginally detectable in summer. However, the models underestimate the size of the winter response, with the discrepancy originating in the wet tropics. Finally, the number of major rivers that undergo a significant change in discharge following eruptions is slightly higher than expected by chance, including decreased flow in the Amazon, Congo, Nile, Orange, Ob and Yenisey. This proportion increases when only large or less humanly influenced basins are considered. Results are clearer when neighbouring basins are combined that undergo the same sign of CMIP5 simulated precipitation response. In this way a significant reduction in flow is detected for northern South American, central African and less robustly for high-latitude Asian rivers, along with a significant increase for southern South American and SW North American rivers, as expected from the model simulated precipitation response.",
+   "cited_by": 0
+  },
+  {
+   "id": "https://openalex.org/W2577592654",
+   "doi": "https://doi.org/10.1002/2016jd025796",
+   "title": "Impacts of a Pinatubo‐size volcanic eruption on ENSO",
+   "year": 2017,
+   "authors": [
+    "Evgeniya Predybaylo",
+    "Georgiy L. Stenchikov",
+    "Andrew T. Wittenberg",
+    "Fanrong J. Zeng"
+   ],
+   "venue": "Journal of Geophysical Research Atmospheres",
+   "biblio": {
+    "volume": "122",
+    "issue": "2",
+    "first_page": "925",
+    "last_page": "947"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2016JD025796",
+    "any_repository_has_fulltext": true
+   },
+   "locations": [
+    {
+     "src": "Journal of Geophysical Research Atmospheres",
+     "url": "https://doi.org/10.1002/2016jd025796",
+     "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2016JD025796",
+     "lic": "cc-by-nc-nd",
+     "ver": "publishedVersion"
+    },
+    {
+     "src": "NOAA Institutional Repository",
+     "url": "https://doi.org/10.1002/2016JD025796",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "King Abdullah University of Science and Technology Repository (King Abdullah University of Science and Technology)",
+     "url": "http://hdl.handle.net/10754/622871",
+     "pdf": null,
+     "lic": "other-oa",
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "Abstract Observations and model simulations of the climate responses to strong explosive low‐latitude volcanic eruptions suggest a significant increase in the likelihood of El Niño during the eruption and posteruption years, though model results have been inconclusive and have varied in magnitude and even sign. In this study, we test how this spread of responses depends on the initial phase of El Niño‐Southern Oscillation (ENSO) in the eruption year and on the eruption's seasonal timing. We employ the Geophysical Fluid Dynamics Laboratory CM2.1 global coupled general circulation model to investigate the impact of the Pinatubo 1991 eruption, assuming that in 1991 ENSO would otherwise be in central or eastern Pacific El Niño, La Niña, or neutral phases. We obtain statistically significant El Niño responses in a year after the eruption for all cases except La Niña, which shows no response in the eastern equatorial Pacific. The eruption has a weaker impact on eastern Pacific El Niños than on central Pacific El Niños. We find that the ocean dynamical thermostat and (to a lesser extent) wind changes due to land‐ocean temperature gradients are the main feedbacks affecting El Niño development after the eruption. The El Niño responses to eruptions occurring in summer are more pronounced than for winter and spring eruptions. That the climate response depends on eruption season and initial ENSO phase may help to reconcile apparent inconsistencies among previous studies.",
+   "cited_by": 98
+  }
+ ],
+ "lukas1984": [
+  {
+   "id": "https://openalex.org/W878036128",
+   "doi": null,
+   "title": "Interpretation of kelvin rossby waves in the equatorial pacific from model-geosat data intercomparison during the 1986-1987 el-nino",
+   "year": 1992,
+   "authors": [
+    "Yves du Penhoat",
+    "Thierry Delcroix",
+    "Joël Picaut"
+   ],
+   "venue": "Institutional Archive of Ifremer (French Research Institute for Exploitation of the Sea)",
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://archimer.ifremer.fr/doc/00101/21180/",
+    "any_repository_has_fulltext": true
+   },
+   "locations": [
+    {
+     "src": "Institutional Archive of Ifremer (French Research Institute for Exploitation of the Sea)",
+     "url": "https://archimer.ifremer.fr/doc/00101/21180/",
+     "pdf": "https://archimer.ifremer.fr/doc/00101/21180/",
+     "lic": "other-oa",
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "Analysis of Geosat sea level data over the period November 1986-November 1987 has evidenced long, low-frequency equatorial wave propagations over most of the equatorial Pacific basin (Delcroix et al.,1991). The succession of downwelling Kelvin, upwelling Kelvin, and upwelling Rossby waves has raised a series of questions. Is the observed upwelling Rossby wave due to a reflection process on the eastern boundary, or due to wind forcing near the equator? Why is there no evidence of a reflection of the downwelling Kelvin wave? Is this wave sequence a feature of the 1986-1987 El Nino phenomenon or is it to be found in the mean seasonal cycle? We used a linear model forced by the FSU wind stress to study these questions. The results, during the period November 1986-November 1987, show the successive downwelling/ upwelling Kelvin waves and upwelling Rossby wave as in the Geosat observations. Another test was made, using only the part of the forcing responsible for creating Kelvin waves, in order to evaluate the portion of the signals that was due to the reflection process and the part due to local forcing. It appears that wind forcing favourable to upwelling in the eastern part of the equatorial basin is the main mechanism which both generates the upwelling Rossby wave and inhibits the reflection of the downwelling Kelvin wave. However, the reflection of the upwelling Kelvin wave contributes to the upwelling Rossby wave signal, and makes it visible all the way from the eastern to the western sides of the equatorial Pacific. Results of a climatological run show that the successive downwelling/upwelling Kelvin and Rossby wave propagations are present in the mean seasonal cycle. However, the corresponding model signals, as well as the wind forcing anomalies, show a larger amplitude in 1986-1987.",
+   "cited_by": 14
+  },
+  {
+   "id": "https://openalex.org/W8018456",
+   "doi": "https://doi.org/10.2151/jmsj1965.68.5_523",
+   "title": "Westerly Wind Bursts and Surface Heat Fluxes in the Equatorial Western Pacific in May 1982",
+   "year": 1990,
+   "authors": [
+    "Pao‐Shin Chu",
+    "James M. Frederick"
+   ],
+   "venue": "Journal of the Meteorological Society of Japan Ser II",
+   "biblio": {
+    "volume": "68",
+    "issue": "5",
+    "first_page": "523",
+    "last_page": "537"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://www.jstage.jst.go.jp/article/jmsj1965/68/5/68_5_523/_pdf",
+    "any_repository_has_fulltext": false
+   },
+   "locations": [
+    {
+     "src": "Journal of the Meteorological Society of Japan Ser II",
+     "url": "https://doi.org/10.2151/jmsj1965.68.5_523",
+     "pdf": "https://www.jstage.jst.go.jp/article/jmsj1965/68/5/68_5_523/_pdf",
+     "lic": null,
+     "ver": "publishedVersion"
+    }
+   ],
+   "abstract": "",
+   "cited_by": 19
+  },
+  {
+   "id": "https://openalex.org/W2133199454",
+   "doi": "https://doi.org/10.1029/93jc02513",
+   "title": "Mean circulation of the upper layers of the western equatorial Pacific Ocean",
+   "year": 1993,
+   "authors": [
+    "Yves Gouriou",
+    "John M. Toole"
+   ],
+   "venue": "Journal of Geophysical Research Atmospheres",
+   "biblio": {
+    "volume": "98",
+    "issue": "C12",
+    "first_page": "22495",
+    "last_page": "22520"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/93JC02513",
+    "any_repository_has_fulltext": false
+   },
+   "locations": [
+    {
+     "src": "Journal of Geophysical Research Atmospheres",
+     "url": "https://doi.org/10.1029/93jc02513",
+     "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/93JC02513",
+     "lic": null,
+     "ver": "publishedVersion"
+    },
+    {
+     "src": "Institutional Archive of Ifremer (French Research Institute for Exploitation of the Sea)",
+     "url": "https://archimer.ifremer.fr/doc/00192/30346/",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "Hydrographic (0–1000 dbar) and direct current measurements (0–600 dbar) along 165°E (20°S‐10°N) between January 1984 and July 1991 are used to investigate the mean circulation and its relationships with the distributions of salinity and potential vorticity on isopycnal surfaces. Less well documented mean sections along 142°E and 137°E are used to complement the 165°E analysis. The Equatorial Undercurrent is centered on the equator at 165°E and on 0.5°N at 142°E. No variation in its transport (15.0 × 106 m3 s−1) is found between those longitudes. We find indication of the Equatorial Undercurrent at 137°E‐0.75°N in the geostrophic field. The northern and southern Subsurface Countercurrents are clearly identified by extrema of eastward velocity at 165°E around 3°N and 3°S (250 dbar). No evidence of a southern Subsurface Countercurrent is found at 142°E. At 137°E the northern Subsurface Countercurrent is not characterized by a local extrema of eastward velocity: the North Equatorial Countercurrent seems to extend from the surface to 400 dbar with a southward shift of its core. Analysis of the seasonal variability at 165°E indicates that the Equatorial Undercurrent transport increases by a factor 2 between January (10.7 × 106 m3 s−1) and July (21.5 × 106 m3 s−1) and the Equatorial Intermediate Current transport is halved (6.3 × 106 m3 s−1 in January, 3.5 × 106 m3 s−1 in July). In contrast, the transport of the Subsurface Countercurrents does not vary substantially between those two months. The meridional distributions of salinity and potential vorticity show that the axes of the main eastward currents are associated with strong meridional property gradients, not with property extrema. The eastward currents thus represent a barrier to the northward extension of the high salinity Tropical Water. Relatively weak meridional gradients of salinity and potential vorticity are observed in the westward directed South Equatorial Current and Equatorial Intermediate Current.",
+   "cited_by": 124
+  },
+  {
+   "id": "https://openalex.org/W1604952122",
+   "doi": "https://doi.org/10.1575/1912/4779",
+   "title": "Dynamics of the equatorial undercurrent and its termination",
+   "year": 1988,
+   "authors": [
+    "Sophie Wacongne"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://darchive.mblwhoilibrary.org/bitstream/1912/4779/1/Wacongne_thesis.pdf",
+    "any_repository_has_fulltext": null
+   },
+   "locations": [
+    {
+     "url": "https://doi.org/10.1575/1912/4779",
+     "pdf": "https://darchive.mblwhoilibrary.org/bitstream/1912/4779/1/Wacongne_thesis.pdf",
+     "lic": null,
+     "ver": "publishedVersion"
+    },
+    {
+     "src": "Open Access Server of the Woods Hole Scientific Community (Woods Hole Scientific Community)",
+     "url": "http://darchive.mblwhoilibrary.org/bitstreams/4aa033ab-aebd-5f0b-a573-b6f4313501ac/download",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "This study focuses on the zonal weakening, eastern termination and seasonal variations of the Atlantic equatorial undercurrent (EUC).The main and most original contribution of the dissertation is a detailed analysis of the Atlantic EUC simulated by Philander and Pacanowski's (1986)general circulation model (GCM), which provides a novel description of the dynamical regimes governing various regions of a nonlinear stratified undercurrent.Only in a narrow deep western region of the simulation does one find an approximately inertial regime corresponding to zonal acceleration.Elsewhere frictional processes cannot be ignored.The bulk of the mid-basin model EUC terminates in the overlying westward surface flow while only a small fraction (the deeper more inertial layers) terminates at the eastern coast.In agreement with observations, a robust feature of the GCM not present in simpler models is the apparent migration of the EUC core from above the thermocline in the west to below it in the east.In the GCM, this happens because the eastward flow is eroded more efficiently by vertical friction above the base of the thermocline than by lateral friction at greater depths.This mechanism is a plausible one for the observed EUC.A scale analysis using a depth scale which decreases with distance eastwards predicts the model zonal transition between western inertial and eastern inertio-frictional regimes.Historical and recent observations and simple models of the equatorial and coastal eastern undercurrents are reviewed, and a new analysis of current measurements in the eastern equatorial Atlantic is presented.Although the measurements are inadequate for definitive conclusions, they suggest that Lukas' (1981) claim of a spring surge of the Pacific EUC to the eastern coast and a seasonal branching of the EUC into a coastal southeastward undercurrent may also hold for the Atlantic Ocean.To improve the agreement between observed and modelled strength of the eastern undercurrent, it is suggested that the eddy coefficient of horizontal mixing should be reduced in future GCM simulations.",
+   "cited_by": 17
+  },
+  {
+   "id": "https://openalex.org/W1433273814",
+   "doi": "https://doi.org/10.2151/jmsj1965.66.4_549",
+   "title": "Extratropical Forcing and the Burst of Equatorial Westerlies in the Western Pacific: A Synoptic Study",
+   "year": 1988,
+   "authors": [
+    "Pao‐Shin Chu"
+   ],
+   "venue": "Journal of the Meteorological Society of Japan Ser II",
+   "biblio": {
+    "volume": "66",
+    "issue": "4",
+    "first_page": "549",
+    "last_page": "564"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://www.jstage.jst.go.jp/article/jmsj1965/66/4/66_4_549/_pdf",
+    "any_repository_has_fulltext": false
+   },
+   "locations": [
+    {
+     "src": "Journal of the Meteorological Society of Japan Ser II",
+     "url": "https://doi.org/10.2151/jmsj1965.66.4_549",
+     "pdf": "https://www.jstage.jst.go.jp/article/jmsj1965/66/4/66_4_549/_pdf",
+     "lic": null,
+     "ver": "publishedVersion"
+    }
+   ],
+   "abstract": "",
+   "cited_by": 49
+  }
+ ],
+ "wyrtki1985a": [
+  {
+   "id": "https://openalex.org/W2283320455",
+   "doi": null,
+   "title": "Heat-content displacement in the pacific during the 1982-1983 el-nino event",
+   "year": 1989,
+   "authors": [
+    "Donguy",
+    "Alain Dessier",
+    "Yves du Penhoat"
+   ],
+   "venue": "Institutional Archive of Ifremer (French Research Institute for Exploitation of the Sea)",
+   "biblio": {
+    "volume": "12",
+    "issue": "3",
+    "first_page": "149",
+    "last_page": "157"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://archimer.ifremer.fr/doc/00106/21743/",
+    "any_repository_has_fulltext": true
+   },
+   "locations": [
+    {
+     "src": "Institutional Archive of Ifremer (French Research Institute for Exploitation of the Sea)",
+     "url": "https://archimer.ifremer.fr/doc/00106/21743/",
+     "pdf": "https://archimer.ifremer.fr/doc/00106/21743/",
+     "lic": "other-oa",
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "Oceanologica Acta",
+     "url": "https://horizon.documentation.ird.fr/exl-doc/pleins_textes/pleins_textes_5/b_fdi_20-21/27190.pdf",
+     "pdf": null,
+     "lic": null,
+     "ver": null
+    }
+   ],
+   "abstract": "",
+   "cited_by": 6
+  },
+  {
+   "id": "https://openalex.org/W3154916039",
+   "doi": null,
+   "title": "Radiolarian responses to the 1982-83 California El Nino and their implications",
+   "year": 1985,
+   "authors": [
+    "T. L. Carson"
+   ],
+   "venue": "Rice Research Repository (Rice University)",
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "http://hdl.handle.net/1911/103976",
+    "any_repository_has_fulltext": true
+   },
+   "locations": [
+    {
+     "src": "Rice Research Repository (Rice University)",
+     "url": "http://hdl.handle.net/1911/103976",
+     "pdf": "http://hdl.handle.net/1911/103976",
+     "lic": null,
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "Rice Research Repository (Rice University)",
+     "url": "https://hdl.handle.net/1911/103976&quot;&gt;https://hdl.handle.net/1911/103976&lt;/a&gt;.",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    },
+    {
+     "url": "https://scholarship.rice.edu/handle/1911/103976",
+     "pdf": null,
+     "lic": null,
+     "ver": null
+    }
+   ],
+   "abstract": "Radiolarian responses to the 1982-83 California El Nino event were unusually high standing crops of both warm and cold water radiolarians, high diversity, and the appearance of distinctly central gyre and eastern tropical Pacific faunas. These and other observations suggest that anomalously strong transport from the west and south occurred through at least November 1953 and that the California Current had shifted eastward over the Southern California Eorderland. A generic group of radiolarians, the spongasterids, was used effectively in monitoring these water mass influences. Radiolarian distributions in 3.-3.5 Ma circuoi-northeastern Pacific sediments indicate a warm North Facific at this time. Marked breaks in distributional trends off southern Baja California suggest an oceanic frontal zone in this area, To the south radiolarian assemblages exhibit a distinctly eastern tropical Pacific character. Spongaster pentas occurs as far north as Deep Sea Prilling Site 173. This suggests periodic breakdowns of this frontal zone (El Ninos?) may have occurred.",
+   "cited_by": 1
+  },
+  {
+   "id": "https://openalex.org/W1643687146",
+   "doi": null,
+   "title": "On the statistics of El Nino occurrences and the relationship of El Nino to volcanic and solar/geomagnetic activity",
+   "year": 1989,
+   "authors": [
+    "Robert M. Wilson"
+   ],
+   "venue": "NASA STI Repository (National Aeronautics and Space Administration)",
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://ntrs.nasa.gov/api/citations/19900003140/downloads/19900003140.pdf",
+    "any_repository_has_fulltext": true
+   },
+   "locations": [
+    {
+     "src": "NASA STI Repository (National Aeronautics and Space Administration)",
+     "url": "http://hdl.handle.net/2060/19900003140",
+     "pdf": "https://ntrs.nasa.gov/api/citations/19900003140/downloads/19900003140.pdf",
+     "lic": null,
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "NASA Technical Reports Server (NASA)",
+     "url": "https://ntrs.nasa.gov/api/citations/19900003140/downloads/19900003140.pdf",
+     "pdf": null,
+     "lic": null,
+     "ver": null
+    }
+   ],
+   "abstract": "El Nino is conventionally defined as an anomalous and persistent warming of the waters off the coasts of Ecuador and Peru in the eastern equatorial Pacific, having onset usually in Southern Hemispheric summer/fall. Some of the statistical aspects of El Nino occurrences are examined, especially as they relate to the normal distribution and to possible associations with volcanic, solar, and geomagnetic activity. With regard to the very strong El Nino of 1982 to 1983, it is noted that, although it may very well be related to the 1982 eruptions of El Chichon, the event occurred essentially on time (with respect to the past behavior of elapsed times between successive El Nino events; a moderate-to-stronger El Nino was expected during the interval 1978 to 1982, assuming that El Nino occurrences are normally distributed, having a mean elapsed time between successive onsets of 4 years and a standard deviation of 2 years and a last known occurrence in 1976). Also, although not widely recognized, the whole of 1982 was a record year for geomagnetic activity (based on the aa geomagnetic index, with the aa index registering an all time high in February 1982), perhaps, important for determining a possible trigger for this and other El Nino events. A major feature is an extensive bibliography (325 entries) on El Nino and volcanic-solar-geomagnetic effects on climate. Also, included is a tabular listing of the 94 major volcanic eruptions of 1835 to 1986.",
+   "cited_by": 1
+  },
+  {
+   "id": "https://openalex.org/W278872680",
+   "doi": null,
+   "title": "The 1982-1983 El Nino Atlas: Nimbus-7 microwave radiometer data",
+   "year": 1987,
+   "authors": [
+    "W. Timothy Liu"
+   ],
+   "venue": "NASA Technical Reports Server (NASA)",
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "http://hdl.handle.net/2060/19870012953",
+    "any_repository_has_fulltext": true
+   },
+   "locations": [
+    {
+     "src": "NASA Technical Reports Server (NASA)",
+     "url": "http://hdl.handle.net/2060/19870012953",
+     "pdf": "http://hdl.handle.net/2060/19870012953",
+     "lic": null,
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "NASA Technical Reports Server (NASA)",
+     "url": "https://ntrs.nasa.gov/search.jsp?R=19870012953",
+     "pdf": null,
+     "lic": null,
+     "ver": null
+    }
+   ],
+   "abstract": "Monthly maps of sea surface temperature, atmospheric water vapor, and surface level wind speed as measured by the Scanning Multichannel Microwave Radiometer (SMMR) on the Nimbus-7 satellite for the tropical Pacific from June 1982 to October 1983, during one of the most intense El Nino Southern Oscillations (ENSO) episodes, are presented. The non-ENSO annual cycle was compiled by averaging the 1980 and 1981 data for each calendar month and was removed from monthly fields of 1982 and 1983 to reveal the anomalous distributions. The anomaly fields and part of the non-ENSO annual cycle are also presented. This study and earlier evaluations demonstrate that the Nimbus/SMMR can be used to monitor large scale and low frequency variabilities in the tropical ocean. The SMMR data support and extend conventional measurements. The variabilities of the three parameters are found to represent various aspects of ENSO related through ocean atmosphere interaction. Their simultaneous and quantitative descriptions pave the way for the derivation of ocean atmosphere latent heat exchange and further the understanding of the coupled atmospheric and oceanic thermodynamics.",
+   "cited_by": 5
+  },
+  {
+   "id": "https://openalex.org/W146655623",
+   "doi": null,
+   "title": "Feral rock doves in the Galápagos Islands: biologicaland economic threats",
+   "year": 2003,
+   "authors": [
+    "Reese Brand Phillips",
+    "Howard L. Snell",
+    "Hernán A. Vargas"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "oa": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+   },
+   "locations": [
+    {
+     "url": "https://aquaticcommons.org/8579/1/NG_62_2003_Brand_Phillips_et_al_Rock_doves.pdf",
+     "pdf": null,
+     "lic": null,
+     "ver": null
+    }
+   ],
+   "abstract": "Moriarty, C. 1978. Eels, a natural and unnatural history. Universe Books, New York. 192 pp. Richmond, R. 1990. The effects of the El Nino/Southern Oscillation on the dispersal of corals and other marine organisms. pp. 127-140. In Global ecological consequences of the 1982-83 El Nino-Southern Oscillation, P. Glynn, ed. Amsterdam, Elsevier Oceanographic Series 52. Smith, D. G. 1989. Family Anguillidae. pp. 25-47. In Fishes of the Western North Atlantic, Part Nine, Vol. One: Orders Anguilliformes and Saccopharyngiformes. Sears Foundation for Marine Research, Yale Univ. Pages 104-206. Smith, D. G. 1999. Family Anguillidae. pp. 1630-1636. In Carpenter, K. E. and V. H. Niem, eds. FAO species identification guide for fishery purposes. The living marine resources of the Western Central Pacific. Vol. 3. Batoid fishes, chimaeras and bony fishes Part 1 (Elopidae to Linophrynidae). Rome, FAO: 1397-2066. Tsukamoto, Y. and J. Aoyama. 1998. Evolution of freshwater eels of the genus Anguilla: a probable scenario. Environmental Biology of Fishes 52(1-3): 139-148. Williamson, G. R. and O. Tabeta. 1991. Search for Anguilla eels on the west coast of North America and on the Aleutian and Hawaiian islands. Japanese Journal of Ichthyology 38(3): 315-317. Wyrtki, K. 1967. Circulation and water masses in the eastern equatorial Pacific Ocean. International Journal Oceanology Limnology 1: 117-147. Wyrtki, K. 1985. Sea level fluctuations in the Pacific during the1982-83 El Nino. Geophysical Research Letters 12: 125 -128.",
+   "cited_by": 7
+  }
+ ],
+ "liebmann_smith1996": [
+  {
+   "id": "https://openalex.org/W1559529679",
+   "doi": null,
+   "title": "Description of a complete (interpolated) outgoing longwave radiation dataset",
+   "year": 1996,
+   "authors": [
+    "Brant Liebmann"
+   ],
+   "venue": "Bulletin of the American Meteorological Society",
+   "biblio": {
+    "volume": "77",
+    "issue": "6",
+    "first_page": "1275",
+    "last_page": "1277"
+   },
+   "oa": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+   },
+   "locations": [
+    {
+     "src": "Bulletin of the American Meteorological Society",
+     "url": "https://ci.nii.ac.jp/naid/10010122825/",
+     "pdf": null,
+     "lic": null,
+     "ver": null
+    }
+   ],
+   "abstract": "",
+   "cited_by": 2807
+  },
+  {
+   "id": "https://openalex.org/W1969926172",
+   "doi": "https://doi.org/10.5194/nhess-10-2169-2010",
+   "title": "Study of outgoing longwave radiation anomalies associated with Haiti earthquake",
+   "year": 2010,
+   "authors": [
+    "P. Xiong",
+    "Xuhui Shen",
+    "Yaxin Bi",
+    "C. L. Kang",
+    "L. Z. Chen",
+    "F. Jing",
+    "Y. Chen"
+   ],
+   "venue": "Natural hazards and earth system sciences",
+   "biblio": {
+    "volume": "10",
+    "issue": "10",
+    "first_page": "2169",
+    "last_page": "2178"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://nhess.copernicus.org/articles/10/2169/2010/nhess-10-2169-2010.pdf",
+    "any_repository_has_fulltext": true
+   },
+   "locations": [
+    {
+     "src": "Natural hazards and earth system sciences",
+     "url": "https://doi.org/10.5194/nhess-10-2169-2010",
+     "pdf": "https://nhess.copernicus.org/articles/10/2169/2010/nhess-10-2169-2010.pdf",
+     "lic": "cc-by",
+     "ver": "publishedVersion"
+    },
+    {
+     "src": "Ulster University Research Portal (Ulster University)",
+     "url": "https://pure.ulster.ac.uk/en/publications/8aaa2b37-bba4-4da6-a7db-fa213ded10d9",
+     "pdf": "https://pure.ulster.ac.uk/ws/files/78751031/nhess_10_2169_2010.pdf",
+     "lic": "cc-by",
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "DOAJ (DOAJ: Directory of Open Access Journals)",
+     "url": "https://doaj.org/article/e54f6c14ed7541f58a80cca43431a7d5",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "Abstract. The paper presents an analysis by using the methods of Eddy field calculation mean and wavelet maxima to detect seismic anomalies within the outgoing longwave radiation (OLR) data based on time and space. The distinguishing feature of the method of Eddy field calculation mean is that we can calculate \"the total sum of the difference value\" of \"the measured value\" between adjacent points, which could highlight the singularity within data. The identified singularities are further validated by wavelet maxima, which using wavelet transformations as data mining tools by computing the maxima that can be used to identify obvious anomalies within OLR data. The two methods has been applied to carry out a comparative analysis of OLR data associated with the earthquake recently occurred in Haiti on 12 January 2010. Combining with the tectonic explanation of spatial and temporal continuity of the abnormal phenomena, the analyzed results have indicated a number of singularities associated with the possible seismic anomalies of the earthquake and from the comparative experiments and analyses by using the two methods, which follow the same time and space, we conclude that the singularities observed from 19 to 24 December 2009 could be the earthquake precursor of Haiti earthquake.",
+   "cited_by": 84
+  },
+  {
+   "id": "https://openalex.org/W2120870893",
+   "doi": "https://doi.org/10.1002/2014gl062257",
+   "title": "The Walker circulation, diabatic heating, and outgoing longwave radiation",
+   "year": 2014,
+   "authors": [
+    "Samuel N. Stechmann",
+    "H. Reed Ogrosky"
+   ],
+   "venue": "Geophysical Research Letters",
+   "biblio": {
+    "volume": "41",
+    "issue": "24",
+    "first_page": "9097",
+    "last_page": "9105"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2014GL062257",
+    "any_repository_has_fulltext": false
+   },
+   "locations": [
+    {
+     "src": "Geophysical Research Letters",
+     "url": "https://doi.org/10.1002/2014gl062257",
+     "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2014GL062257",
+     "lic": null,
+     "ver": "publishedVersion"
+    }
+   ],
+   "abstract": "Abstract For the tropical atmosphere on planetary scales, it is common to model the circulation using strong damping. Here with new data analysis techniques, evidence suggests that damping can actually be neglected. Specifically, near the equator, the east‐west overturning circulation is in agreement with the undamped wave response to atmospheric heating. To estimate the heating, satellite observations of outgoing longwave radiation (OLR) are used. Frequently, OLR is used as a heuristic indicator of cloudiness. Here the results further suggest that OLR variations are actually proportional to diabatic heating variations, with a proportionality constant of 18 W m−2 (K d−1)−1. While the agreement holds best over long time averages of years or decades, it also holds over shorter periods of one season or 1 month. Consequently, it is suggested that the strength of the Walker circulation—and its evolution in time—could be estimated using satellite data.",
+   "cited_by": 48
+  },
+  {
+   "id": "https://openalex.org/W2101961900",
+   "doi": "https://doi.org/10.1175/1520-0442(1998)011<2898:acorol>2.0.co;2",
+   "title": "A Comparison of Rainfall, Outgoing Longwave Radiation, and Divergence over the Amazon Basin",
+   "year": 1998,
+   "authors": [
+    "Brant Liebmann",
+    "José Marengo",
+    "John D. Glick",
+    "Vernon E. Kousky",
+    "Ilana Elazari Klein Coaracy Wainer",
+    "Oswaldo Massambani"
+   ],
+   "venue": "Journal of Climate",
+   "biblio": {
+    "volume": "11",
+    "issue": "11",
+    "first_page": "2898",
+    "last_page": "2909"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/11/11/1520-0442_1998_011_2898_acorol_2.0.co_2.pdf",
+    "any_repository_has_fulltext": false
+   },
+   "locations": [
+    {
+     "src": "Journal of Climate",
+     "url": "https://doi.org/10.1175/1520-0442(1998)011<2898:acorol>2.0.co;2",
+     "pdf": "https://journals.ametsoc.org/downloadpdf/journals/clim/11/11/1520-0442_1998_011_2898_acorol_2.0.co_2.pdf",
+     "lic": null,
+     "ver": "publishedVersion"
+    },
+    {
+     "src": "Biblioteca Digital da Memória Científica do INPE (National Institute for Space Research)",
+     "url": "http://urlib.net/cptec.inpe.br/walmeida/2003/06.26.16.17",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "Observed rainfall, outgoing longwave radiation (OLR), divergence, and precipitation from the reanalysis project of the National Centers for Environmental Prediction and the National Center for Atmospheric Research are compared over the Amazon Basin. The spatial pattern of the mean and the phase of the annual cycle generally compare well, except that the amplitude of the annual cycle of model precipitation is much smaller than observed. On 10–30-day timescales, it is shown that averaging stations within a 5° radius is approximately equivalent to total wavenumber 20 (T20) spatial scale, although it is more important to have a high density of stations than an exact match of spatial scales. Ideally, there should be one station per 20 000 km2. On 10–30-day scales, observed rainfall is best correlated with OLR. Correlations between OLR and 150-mb divergence are larger than between observed rainfall and divergence or between rainfall and model precipitation. For example, if 10–30-day filtered OLR and divergence are truncated at T20 and rainfall is averaged to include stations within a 5° radius, OLR is correlated with rainfall at about −0.6, OLR is correlated with divergence at about −0.35, and rainfall is correlated with divergence at about 0.2. At least part of the lack of correlation is due to inadequate spatial sampling of rainfall. Correlations improve with larger spatial scale. The major seasonal transitions from dry to rainy regimes are captured well by OLR but not by the model quantities. The mean diurnal cycle is represented reasonably by 150-mb divergence.",
+   "cited_by": 63
+  },
+  {
+   "id": "https://openalex.org/W3011542696",
+   "doi": "https://doi.org/10.3390/rs12060929",
+   "title": "The Climate Monitoring SAF Outgoing Longwave Radiation from AVHRR",
+   "year": 2020,
+   "authors": [
+    "Nicolas Clerbaux",
+    "Tom Akkermans",
+    "Edward Baudrez",
+    "Almudena Velazquez Blazquez",
+    "William Moutier",
+    "Johan Moreels",
+    "Christine Aebi"
+   ],
+   "venue": "Remote Sensing",
+   "biblio": {
+    "volume": "12",
+    "issue": "6",
+    "first_page": "929",
+    "last_page": "929"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://www.mdpi.com/2072-4292/12/6/929/pdf?version=1584927983",
+    "any_repository_has_fulltext": true
+   },
+   "locations": [
+    {
+     "src": "Remote Sensing",
+     "url": "https://doi.org/10.3390/rs12060929",
+     "pdf": "https://www.mdpi.com/2072-4292/12/6/929/pdf?version=1584927983",
+     "lic": "cc-by",
+     "ver": "publishedVersion"
+    },
+    {
+     "src": "DOAJ (DOAJ: Directory of Open Access Journals)",
+     "url": "https://doaj.org/article/9ddf5c850af14eb4840e5458668c8f52",
+     "pdf": null,
+     "lic": "cc-by-sa",
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "Data from the Advanced Very High Resolution Radiometer (AVHRR) have been used to create several long-duration data records of geophysical variables describing the atmosphere and land and water surfaces. In the Climate Monitoring Satellite Application Facility (CM SAF) project, AVHRR data are used to derive the Cloud, Albedo, and Radiation (CLARA) climate data records of radiation components (i.a., surface albedo) and cloud properties (i.a., cloud cover). This work describes the methodology implemented for the additional estimation of the Outgoing Longwave Radiation (OLR), an important Earth radiation budget component, that is consistent with the other CLARA variables. A first step is the estimation of the instantaneous OLR from the AVHRR observations. This is done by regressions on a large database of collocated observations between AVHRR Channel 4 (10.8 µm) and 5 (12 µm) and the OLR from the Clouds and Earth’s Radiant Energy System (CERES) instruments. We investigate the applicability of this method to the first generation of AVHRR instrument (AVHRR/1) for which no Channel 5 observation is available. A second step concerns the estimation of daily and monthly OLR from the instantaneous AVHRR overpasses. This step is especially important given the changes in the local time of the observations due to the orbital drift of the NOAA satellites. We investigate the use of OLR in the ERA5 reanalysis to estimate the diurnal variation. The developed approach proves to be valuable to model the diurnal change in OLR due to day/night time warming/cooling over clear land. Finally, the resulting monthly mean AVHRR OLR product is intercompared with the CERES monthly mean product. For a typical configuration with one morning and one afternoon AVHRR observation, the Root Mean Square (RMS) difference with CERES monthly mean OLR is about 2 Wm−2 at 1° × 1° resolution. We quantify the degradation of the OLR product when only one AVHRR instrument is available (as is the case for some periods in the 1980s) and also the improvement when more instruments are available (e.g., using METOP-A, NOAA-15, NOAA-18, and NOAA-19 in 2012). The degradation of the OLR product from AVHRR/1 instruments is also quantified, which is done by “masking” the Channel 5 observations.",
+   "cited_by": 19
+  }
+ ],
+ "gill_rasmusson_text": [
+  {
+   "id": "https://openalex.org/W2150897391",
+   "doi": "https://doi.org/10.1175/1520-0442(2000)013<1517:peathd>2.0.co;2",
+   "title": "Pacific–East Asian Teleconnection: How Does ENSO Affect East Asian Climate?",
+   "year": 2000,
+   "authors": [
+    "Bin Wang",
+    "Renguang Wu",
+    "Xiouhua Fu"
+   ],
+   "venue": "Journal of Climate",
+   "biblio": {
+    "volume": "13",
+    "issue": "9",
+    "first_page": "1517",
+    "last_page": "1536"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/13/9/1520-0442_2000_013_1517_peathd_2.0.co_2.pdf",
+    "any_repository_has_fulltext": false
+   },
+   "locations": [
+    {
+     "src": "Journal of Climate",
+     "url": "https://doi.org/10.1175/1520-0442(2000)013<1517:peathd>2.0.co;2",
+     "pdf": "https://journals.ametsoc.org/downloadpdf/journals/clim/13/9/1520-0442_2000_013_1517_peathd_2.0.co_2.pdf",
+     "lic": null,
+     "ver": "publishedVersion"
+    },
+    {
+     "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.368.7280",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "Observational evidence is presented to show a teleconnection between the central Pacific and East Asia during the extreme phases of ENSO cycles. This Pacific–East Asian teleconnection is confined to the lower troposphere. The key system that bridges the warm (cold) events in the eastern Pacific and the weak (strong) East Asian winter monsoons is an anomalous lower-tropospheric anticyclone (cyclone) located in the western North Pacific. The western North Pacific wind anomalies develop rapidly in late fall of the year when a strong warm or cold event matures. The anomalies persist until the following spring or early summer, causing anomalously wet (dry) conditions along the East Asian polar front stretching from southern China northeastward to the east of Japan (Kuroshio extension). Using atmospheric general circulation and intermediate models, the authors show that the anomalous Philippine Sea anticyclone results from a Rossby-wave response to suppressed convective heating, which is induced by both the in situ ocean surface cooling and the subsidence forced remotely by the central Pacific warming. The development of the anticyclone is nearly concurrent with the enhancement of the local sea surface cooling. Both the anticyclone and the cooling region propagate slowly eastward. The development and persistence of the teleconnection is primarily attributed to a positive thermodynamic feedback between the anticyclone and the sea surface cooling in the presence of mean northeasterly trades. The rapid establishment of the Philippine Sea wind and SST anomalies implies the occurrence of extratropical–tropical interactions through cold surge–induced exchanges of surface buoyancy flux. The central Pacific warming plays an essential role in the development of the western Pacific cooling and the wind anomalies by setting up a favorable environment for the anticyclone–SST interaction and midlatitude–tropical interaction in the western North Pacific.",
+   "cited_by": 2924
+  },
+  {
+   "id": "https://openalex.org/W2157333173",
+   "doi": "https://doi.org/10.1175/1520-0485(2001)031<1649:amsoom>2.0.co;2",
+   "title": "A Model Study of Oceanic Mechanisms Affecting Equatorial Pacific Sea Surface Temperature during the 1997–98 El Niño",
+   "year": 2001,
+   "authors": [
+    "Jérôme Vialard",
+    "Christophe Eugène Menkès",
+    "Jean‐Philippe Boulanger",
+    "P. Delécluse",
+    "Éric Guilyardi",
+    "Michael James McPhaden",
+    "Gurvan Madec"
+   ],
+   "venue": "Journal of Physical Oceanography",
+   "biblio": {
+    "volume": "31",
+    "issue": "7",
+    "first_page": "1649",
+    "last_page": "1675"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/phoc/31/7/1520-0485_2001_031_1649_amsoom_2.0.co_2.pdf",
+    "any_repository_has_fulltext": true
+   },
+   "locations": [
+    {
+     "src": "Journal of Physical Oceanography",
+     "url": "https://doi.org/10.1175/1520-0485(2001)031<1649:amsoom>2.0.co;2",
+     "pdf": "https://journals.ametsoc.org/downloadpdf/journals/phoc/31/7/1520-0485_2001_031_1649_amsoom_2.0.co_2.pdf",
+     "lic": null,
+     "ver": "publishedVersion"
+    },
+    {
+     "src": "CentAUR (University of Reading)",
+     "url": "https://centaur.reading.ac.uk/view/creators/90000869.html>",
+     "pdf": "https://centaur.reading.ac.uk/5883/1/Vialard_al_JPO01.pdf",
+     "lic": null,
+     "ver": "acceptedVersion"
+    },
+    {
+     "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.172.9429",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "HAL (Le Centre pour la Communication Scientifique Directe)",
+     "url": "https://hal.science/hal-00153880",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "ePrints Soton (University of Southampton)",
+     "url": "https://eprints.soton.ac.uk/64839/",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "NERC Open Research Archive (Natural Environment Research Council)",
+     "url": "http://nora.nerc.ac.uk/id/eprint/164839/",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "In this study, the processes affecting sea surface temperature variability over the 1992-98 period, encompassing the very strong 1997-98 El Nin ˜o event, are analyzed.A tropical Pacific Ocean general circulation model, forced by a combination of weekly ERS1-2 and TAO wind stresses, and climatological heat and freshwater fluxes, is first validated against observations.The model reproduces the main features of the tropical Pacific mean state, despite a weaker than observed thermal stratification, a 0.1 m s Ϫ1 too strong (weak) South Equatorial Current (North Equatorial Countercurrent), and a slight underestimate of the Equatorial Undercurrent.Good agreement is found between the model dynamic height and TOPEX/Poseidon sea level variability, with correlation/rms differences of 0.80/4.7 cm on average in the 10ЊN-10ЊS band.The model sea surface temperature variability is a bit weak, but reproduces the main features of interannual variability during the 1992-98 period.The model compares well with the TAO current variability at the equator, with correlation/rms differences of 0.81/0.23 m s Ϫ1 for surface currents.The model therefore reproduces well the observed interannual variability, with wind stress as the only interannually varying forcing.This good agreement with observations provides confidence in the comprehensive three-dimensional circulation and thermal structure of the model.A close examination of mixed layer heat balance is thus undertaken, contrasting the mean seasonal cycle of the 1993-96 period and the 1997-98 El Nin ˜o.In the eastern Pacific, cooling by exchanges with the subsurface (vertical advection, mixing, and entrainment), the atmospheric forcing, and the eddies (mainly the tropical instability waves) are the three main contributors to the heat budget.In the central-western Pacific, the zonal advection by low-frequency currents becomes the main contributor.Westerly wind bursts (in December 1996 and March and June 1997) were found to play a decisive role in the onset of the 1997-98 El Nin ˜o.They contributed to the early warming in the eastern Pacific because the downwelling Kelvin waves that they excited diminished subsurface cooling there.But it is mainly through eastward advection of the warm pool that they generated temperature anomalies in the central Pacific.The end of El Nin ˜o can be linked to the large-scale easterly anomalies that developed in the western Pacific and spread eastward, from the end of 1997 onward.In the far-western Pacific, because of the shallower than normal thermocline, these easterlies cooled the SST by vertical processes.In the central Pacific, easterlies pushed the warm pool back to the west.In the east, they led to a shallower thermocline, which ultimately allowed subsurface cooling to resume and to quickly cool the surface layer.",
+   "cited_by": 235
+  },
+  {
+   "id": "https://openalex.org/W1971170287",
+   "doi": "https://doi.org/10.1029/2000gl012201",
+   "title": "ENSO prediction using an ENSO trigger and a proxy for Western Equatorial Pacific Warm Pool Movement",
+   "year": 2001,
+   "authors": [
+    "Allan J. Clarke",
+    "Stephen Van Gorder"
+   ],
+   "venue": "Geophysical Research Letters",
+   "biblio": {
+    "volume": "28",
+    "issue": "4",
+    "first_page": "579",
+    "last_page": "582"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2000GL012201",
+    "any_repository_has_fulltext": false
+   },
+   "locations": [
+    {
+     "src": "Geophysical Research Letters",
+     "url": "https://doi.org/10.1029/2000gl012201",
+     "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2000GL012201",
+     "lic": null,
+     "ver": "publishedVersion"
+    },
+    {
+     "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.539.943",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "The zonal windstress anomaly in the far‐western equatorial Pacific (130–160°E) is a precursor to El Niño and La Niña episodes. A linear combination of this windstress with the El Niño index NINO3.4 can be used to predict ENSO successfully. Cross‐verified prediction results for NINO3.4 compare favorably with those of leading ENSO prediction models. The model is improved slightly if the time trend in sea surface temperature (SST) near the eastern edge of the western Pacific warm pool is included in the linear combination. Physically this trend is related to zonal equatorial ocean flow which advects the warm pool. The trend therefore aids prediction since it is a precursor to warm pool position and hence ENSO variability.",
+   "cited_by": 44
+  },
+  {
+   "id": "https://openalex.org/W2248141190",
+   "doi": null,
+   "title": "Variation of the thermohaline structure in the western equatorial Pacific upper ocean",
+   "year": 1993,
+   "authors": [
+    "Toshiaki Shinoda"
+   ],
+   "venue": "ScholarSpace (University of Hawaii at Manoa)",
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/379540b8-701d-4f5c-980e-6760d20b3bd2/download",
+    "any_repository_has_fulltext": true
+   },
+   "locations": [
+    {
+     "src": "ScholarSpace (University of Hawaii at Manoa)",
+     "url": "http://hdl.handle.net/10125/10033",
+     "pdf": "https://scholarspace.manoa.hawaii.edu/bitstreams/379540b8-701d-4f5c-980e-6760d20b3bd2/download",
+     "lic": null,
+     "ver": "submittedVersion"
+    },
+    {
+     "url": "https://scholarspace.manoa.hawaii.edu/bitstream/10125/10033/1/uhm_phd_9416073_r.pdf",
+     "pdf": null,
+     "lic": null,
+     "ver": null
+    }
+   ],
+   "abstract": "Processes which control the upper ocean thermohaline structure in the western equatorial Pacific are examined using the available hydrographic data, surface forcing data and a simple mixed layer model. A thick isothermal layer is frequently found in the region of the South Equatorial Current. Analyses of surface forcing data have indicated that the thick isothermal layer in the western equatorial Pacific is found during periods of light precipitation, strong winds and downward Ekman pumping in the central Pacific. These results are consistent with the subduction mechanism hypothesized by Lukas and Lindstrom (1991). A Lagrangian mixed layer model is used to investigate the hypothesis. The one-dimensional bulk mixed layer model is integrated along the trajectories derived from a non-linear 1-1/2 layer reduced gravity model forced with actual wind fields. This simple model is able to simulate the isothermal layer and its variation. The subduction mechanism is evident in the model results. During the period of strong South Equatorial Current, the warm and salty mixed layer waters in the central Pacific are subducted below the fresh shallow mixed layer in the western Pacific. However, the subduction mechanism is not evident when upwelling Rossby waves reach the western equatorial Pacific or when a remarkable deepening of the mixed layer occurs due to the strong wind and light precipitation in the western equatorial Pacific.",
+   "cited_by": 3
+  },
+  {
+   "id": "https://openalex.org/W2126330927",
+   "doi": "https://doi.org/10.1175/2007jcli1679.1",
+   "title": "Coexistence of Equatorial Coupled Modes of ENSO*",
+   "year": 2008,
+   "authors": [
+    "Luís Bejarano",
+    "Fei‐Fei Jin"
+   ],
+   "venue": "Journal of Climate",
+   "biblio": {
+    "volume": "21",
+    "issue": "12",
+    "first_page": "3051",
+    "last_page": "3067"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/21/12/2007jcli1679.1.pdf",
+    "any_repository_has_fulltext": false
+   },
+   "locations": [
+    {
+     "src": "Journal of Climate",
+     "url": "https://doi.org/10.1175/2007jcli1679.1",
+     "pdf": "https://journals.ametsoc.org/downloadpdf/journals/clim/21/12/2007jcli1679.1.pdf",
+     "lic": null,
+     "ver": "publishedVersion"
+    },
+    {
+     "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.367.3564",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "Abstract To study the regimes of leading ocean–atmosphere coupled modes of relevance to the El Niño–Southern Oscillation (ENSO) phenomenon, a comprehensive eigenmode analysis of an intermediate coupled model linearized with respect to an array of basic states is performed. Different kinds of leading modes are found to coexist and become unstable under wide ranges of basic states and parameter conditions. In particular, the two most important modes have periods of around 4 and 2 yr. They are referred to as the quasi-quadrennial (QQ) and the quasi-biennial (QB) modes, respectively. The positive coupled feedback destabilizes and quantizes the near-continuous spectrum for the low-frequency modes of the upper-ocean dynamics, giving rise to these leading modes with distinct periodicities. The primary mechanism for the phase transition of the QQ mode is due to the slow oceanic dynamic adjustment of equatorial heat content, which is consistent with the simple conceptual recharge oscillator, whereas anomalous advection of sea surface temperature by equatorial zonal current anomalies plays a dominant role in the phase transition of the QB mode. The coexistence of these ENSO-like coupled modes under the present climate conditions may provide an explanation for the observed rich variations in ENSO behaviors.",
+   "cited_by": 98
+  }
+ ],
+ "mjo_1982_onset": [
+  {
+   "id": "https://openalex.org/W2609995195",
+   "doi": "https://doi.org/10.1038/srep46692",
+   "title": "Extratropical Forcing Triggered the 2015 Madden–Julian Oscillation–El Niño Event",
+   "year": 2017,
+   "authors": [
+    "Chi‐Cherng Hong",
+    "Huang‐Hsiung Hsu",
+    "Wan‐Ling Tseng",
+    "Ming‐Ying Lee",
+    "Chun Hoe Chow",
+    "Li‐Chiang Jiang"
+   ],
+   "venue": "Scientific Reports",
+   "biblio": {
+    "volume": "7",
+    "issue": "1",
+    "first_page": "46692",
+    "last_page": "46692"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://www.nature.com/articles/srep46692.pdf",
+    "any_repository_has_fulltext": true
+   },
+   "locations": [
+    {
+     "src": "Scientific Reports",
+     "url": "https://doi.org/10.1038/srep46692",
+     "pdf": "https://www.nature.com/articles/srep46692.pdf",
+     "lic": "cc-by",
+     "ver": "publishedVersion"
+    },
+    {
+     "src": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28436491",
+     "pdf": null,
+     "lic": null,
+     "ver": "publishedVersion"
+    },
+    {
+     "src": "Europe PMC (PubMed Central)",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/5402264",
+     "pdf": null,
+     "lic": "cc-by",
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "PubMed Central",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/5402264",
+     "pdf": null,
+     "lic": "cc-by",
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "In this paper, we report the triggering effect of extratropical perturbation on the onset of an atypical Madden-Julian Oscillation (MJO) and onset of the 2015-16 El Niño in March 2015. The MJO exhibited several unique characteristics: the effect of extratropical forcing, atypical genesis location and timing in the equatorial western Pacific, and the extremity of amplitudes in many aspects. The southward-penetrating northerly associated with the extratropical disturbances in the extratropical western North Pacific contributed to triggering the deep convection and westerly wind burst (WWB) and onset of the MJO over the anomalously warm tropical western Pacific in early March. The persisting strong WWB forced downwelling Kelvin wave-like oceanic perturbation that propagated eastward and led to the onset of the 2015-16 El Niño. The proposed novel extratropical forcing mechanism explaining the unique extratropics-MJO-El Niño association, based on both data diagnostics and numerical experiments, warrants further attention for a more detailed understanding of the onset of the MJO and its potential effect on El Niño.",
+   "cited_by": 41
+  },
+  {
+   "id": "https://openalex.org/W4407191052",
+   "doi": "https://doi.org/10.1038/s41467-025-56692-2",
+   "title": "Volcanically forced Madden–Julian oscillation triggers the immediate onset of El Niño",
+   "year": 2025,
+   "authors": [
+    "Hyemi Kim",
+    "Seung‐Ki Min",
+    "Daehyun Kim",
+    "Daniele Visioni"
+   ],
+   "venue": "Nature Communications",
+   "biblio": {
+    "volume": "16",
+    "issue": "1",
+    "first_page": "1399",
+    "last_page": "1399"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://www.nature.com/articles/s41467-025-56692-2.pdf",
+    "any_repository_has_fulltext": true
+   },
+   "locations": [
+    {
+     "src": "Nature Communications",
+     "url": "https://doi.org/10.1038/s41467-025-56692-2",
+     "pdf": "https://www.nature.com/articles/s41467-025-56692-2.pdf",
+     "lic": "cc-by-nc-nd",
+     "ver": "publishedVersion"
+    },
+    {
+     "src": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39915494",
+     "pdf": null,
+     "lic": null,
+     "ver": "publishedVersion"
+    },
+    {
+     "src": "NOAA Institutional Repository",
+     "url": "https://repository.library.noaa.gov/view/noaa/70219",
+     "pdf": "http://repository.library.noaa.gov/view/noaa/70219/noaa_70219_DS1.pdf",
+     "lic": "cc-by-nc-nd",
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "PubMed Central",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11802828",
+     "pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11802828/pdf/41467_2025_Article_56692.pdf",
+     "lic": "cc-by-nc-nd",
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "RePEc: Research Papers in Economics",
+     "url": "https://www.nature.com/articles/s41467-025-56692-2",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "DOAJ (DOAJ: Directory of Open Access Journals)",
+     "url": "https://doaj.org/article/a3155fea02194a60b197be644d8270fd",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "Seoul National University Open Repository (Seoul National University)",
+     "url": "https://hdl.handle.net/10371/217124",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "A process-level understanding of the volcanically forced climate response is an urgent challenge due to its similarities to the potential effects of geoengineering techniques. Although the influence of volcanic forcing on El Niño events has been studied extensively, the mechanisms driving the volcanically-induced immediate onset of El Niño remain uncertain, with many climate models producing a delayed El Niño response compared to observations. In this study, using large ensemble simulations that allow us to isolate the impacts of volcanic forcing on the El Niño response, we demonstrate a mechanism that highlights the central triggering role of the Madden-Julian oscillation (MJO), which has been overlooked in existing literature. Because the land areas surrounding the Indo-Pacific warm pool dry more quickly after a volcanic eruption, the background moisture distribution becomes more favorable for the MJO to propagate eastward from the Indian Ocean into the Pacific. This increases the likelihood of ensemble members having stronger MJO activity in the western Pacific by about 35% compared to non-volcanic years, which subsequently increases the frequency of westerly wind bursts by about 76%, ultimately enhancing the probability of the onset of an El Niño by about 98% following major volcanic eruptions.",
+   "cited_by": 5
+  },
+  {
+   "id": "https://openalex.org/W4321239507",
+   "doi": "https://doi.org/10.3389/feart.2022.1021953",
+   "title": "Comparison of Madden-Julian oscillation in three super El Niño events",
+   "year": 2023,
+   "authors": [
+    "Lifeng Li",
+    "Xiong Chen",
+    "Chongyin Li",
+    "Xin Li",
+    "Minghao Yang"
+   ],
+   "venue": "Frontiers in Earth Science",
+   "biblio": {
+    "volume": "10",
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://www.frontiersin.org/articles/10.3389/feart.2022.1021953/pdf",
+    "any_repository_has_fulltext": true
+   },
+   "locations": [
+    {
+     "src": "Frontiers in Earth Science",
+     "url": "https://doi.org/10.3389/feart.2022.1021953",
+     "pdf": "https://www.frontiersin.org/articles/10.3389/feart.2022.1021953/pdf",
+     "lic": "cc-by",
+     "ver": "publishedVersion"
+    },
+    {
+     "src": "DOAJ (DOAJ: Directory of Open Access Journals)",
+     "url": "https://doaj.org/article/439a97d43f384c6c85521d96f38f68e4",
+     "pdf": null,
+     "lic": "cc-by-sa",
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "This paper investigated the characteristics of Madden-Julian Oscillation (MJO) in three super El Niño events (i.e., 1982/83, 1997/98 and 2015/16 El Niño events) based on reanalysis data. MJO with apparent eastward propagation can be observed during the developing stages of these three super El Niño events. Enhanced MJO zonal wind was observed over the western Pacific, especially in 1997/98 and 2015/16 El Niño events, which is mainly attributed to the effects of tropical background circulation and extratropical anomalous circulation. During the mature stages of 1982/83 and 1997/98 El Niño events, MJO with noticeable eastward propagation cannot be observed, and the MJO zonal wind amplitude at 850 hPa was weakened (enhanced) over the Indian Ocean and western Pacific (central and eastern Pacific). However, MJO zonal wind amplitude over the central and eastern Pacific was enhanced and the prominent eastward propagation was also found in the mature stage of 2015/16 El Niño. The eastward propagation of MJO was also observed during the decaying stages of the three super El Niño events, but its intensity was weaker compared with the developing and mature stages. The abnormal activity of MJO during the mature and decaying stages may be closely related to the characteristics in circulation and moisture anomalies caused by El Niño and the seasonal cycle of circulation and moisture. In addition, this study found that the RMM index and MJO zonal wind amplitude may lead to contradictory results in identifying the characteristics of MJO activity, especially during the developing and decaying stages.",
+   "cited_by": 3
+  },
+  {
+   "id": "https://openalex.org/W1507534275",
+   "doi": "https://doi.org/10.1002/asl2.516",
+   "title": "Contrasting Madden–Julian Oscillation activity during various stages of EP and CP El Niños",
+   "year": 2014,
+   "authors": [
+    "Juan Feng",
+    "Ping Liu",
+    "Wen Chen",
+    "Xiaocong Wang"
+   ],
+   "venue": "Atmospheric Science Letters",
+   "biblio": {
+    "volume": "16",
+    "issue": "1",
+    "first_page": "32",
+    "last_page": "37"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/asl2.516",
+    "any_repository_has_fulltext": false
+   },
+   "locations": [
+    {
+     "src": "Atmospheric Science Letters",
+     "url": "https://doi.org/10.1002/asl2.516",
+     "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/asl2.516",
+     "lic": null,
+     "ver": "publishedVersion"
+    }
+   ],
+   "abstract": "Abstract This study revisits the relations between Madden–Julian Oscillation (MJO) and El Niño that is classified as eastern Pacific (EP) and central Pacific (CP) types. During an EP‐type event that produces lasting dry conditions in the Maritime Continent and western Pacific, the MJO activity is weak especially in its 4th–6th phases as a strong response. In contrast during CP‐type episodes, the MJO exhibits notably enhanced and suppressed amplitudes in its different phases. The low‐level westerly wind anomalies of enhanced MJO impact the CP‐type El Niño more than vice versa.",
+   "cited_by": 50
+  },
+  {
+   "id": "https://openalex.org/W97593772",
+   "doi": null,
+   "title": "The Madden Julian Oscillation: a literature review",
+   "year": 2002,
+   "authors": [
+    "Alexis Donald",
+    "Joachim Ribbe"
+   ],
+   "venue": "University of Southern Queensland ePrints (University of Southern Queensland)",
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "http://eprints.usq.edu.au/1405/1/Donald_Ribbe_2002_review.pdf",
+    "any_repository_has_fulltext": true
+   },
+   "locations": [
+    {
+     "src": "University of Southern Queensland ePrints (University of Southern Queensland)",
+     "url": "http://eprints.usq.edu.au/1405/1/Donald_Ribbe_2002_review.pdf",
+     "pdf": "http://eprints.usq.edu.au/1405/1/Donald_Ribbe_2002_review.pdf",
+     "lic": null,
+     "ver": "submittedVersion"
+    },
+    {
+     "url": "https://eprints.usq.edu.au/1405/1/Donald_Ribbe_2002_review.pdf",
+     "pdf": null,
+     "lic": null,
+     "ver": null
+    }
+   ],
+   "abstract": "The literature survey reviews our present understanding of the Madden Julian Oscillation. This perturbation to the circulation of the tropical atmosphere involves anomalies in climate elements such as pressure, wind, outgoing long wave radiation, and temperature. It is successfully simulated by the present generation of general climate and atmospheric general circulation models. The literature reviewed describes the discovery of the Madden Julian Oscillation, its interaction with the ocean is appraised and current monitoring indices and prediction schemes are reviewed. There is evidence that the Madden Julian Oscillation plays a crucial role in contributing to Australia’s non-seasonal climate variability, which is largest in eastern Queensland. Its impact upon rainfall variability in Queensland is not fully appreciated. The possible application of current prediction schemes may lead to significant economic benefits for the state.",
+   "cited_by": 0
+  }
+ ],
+ "elchichon_mjo2": [
+  {
+   "id": "https://openalex.org/W3193745120",
+   "doi": "https://doi.org/10.1140/epjs/s11734-021-00269-9",
+   "title": "Evolving climate network perspectives on global surface air temperature effects of ENSO and strong volcanic eruptions",
+   "year": 2021,
+   "authors": [
+    "Tim Kittel",
+    "Catrin Ciemer",
+    "Nastaran Lotfi",
+    "Thomas Peron",
+    "Francisco A. Rodrigues",
+    "Jürgen Kurths",
+    "Reik V. Donner"
+   ],
+   "venue": "The European Physical Journal Special Topics",
+   "biblio": {
+    "volume": "230",
+    "issue": "14-15",
+    "first_page": "3075",
+    "last_page": "3100"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://link.springer.com/content/pdf/10.1140/epjs/s11734-021-00269-9.pdf",
+    "any_repository_has_fulltext": true
+   },
+   "locations": [
+    {
+     "src": "The European Physical Journal Special Topics",
+     "url": "https://doi.org/10.1140/epjs/s11734-021-00269-9",
+     "pdf": "https://link.springer.com/content/pdf/10.1140/epjs/s11734-021-00269-9.pdf",
+     "lic": "cc-by",
+     "ver": "publishedVersion"
+    },
+    {
+     "src": "Springer Link (Chiba Institute of Technology)",
+     "url": "http://www.springerlink.com/content/fulltext.pdf?id=doi:10.1140/epjs/s11734-021-00269-9",
+     "pdf": "http://www.springerlink.com/content/fulltext.pdf?id=doi:10.1140/epjs/s11734-021-00269-9",
+     "lic": null,
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "edoc Publication server (Humboldt University of Berlin)",
+     "url": "https://edoc.hu-berlin.de/18452/27882",
+     "pdf": null,
+     "lic": "cc-by",
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "Publication Database PIK (Potsdam Institute for Climate Impact Research (PIK))",
+     "url": "https://publications.pik-potsdam.de/pubman/item/item_26322",
+     "pdf": null,
+     "lic": "cc-by",
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "Abstract Episodically occurring internal (climatic) and external (non-climatic) disruptions of normal climate variability are known to both affect spatio-temporal patterns of global surface air temperatures (SAT) at time-scales between multiple weeks and several years. The magnitude and spatial manifestation of the corresponding effects depend strongly on the specific type of perturbation and may range from weak spatially coherent yet regionally confined trends to a global reorganization of co-variability due to the excitation or inhibition of certain large-scale teleconnectivity patterns. Here, we employ functional climate network analysis to distinguish qualitatively the global climate responses to different phases of the El Niño–Southern Oscillation (ENSO) from those to the three largest volcanic eruptions since the mid-20th century as the two most prominent types of recurrent climate disruptions. Our results confirm that strong ENSO episodes can cause a temporary breakdown of the normal hierarchical organization of the global SAT field, which is characterized by the simultaneous emergence of consistent regional temperature trends and strong teleconnections. By contrast, the most recent strong volcanic eruptions exhibited primarily regional effects rather than triggering additional long-range teleconnections that would not have been present otherwise. By relying on several complementary network characteristics, our results contribute to a better understanding of climate network properties by differentiating between climate variability reorganization mechanisms associated with internal variability versus such triggered by non-climatic abrupt and localized perturbations.",
+   "cited_by": 12
+  },
+  {
+   "id": "https://openalex.org/W1989641430",
+   "doi": "https://doi.org/10.1002/met.184",
+   "title": "Seasonal climate forecasting",
+   "year": 2010,
+   "authors": [
+    "Alberto Troccoli"
+   ],
+   "venue": "Meteorological Applications",
+   "biblio": {
+    "volume": "17",
+    "issue": "3",
+    "first_page": "251",
+    "last_page": "268"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/met.184",
+    "any_repository_has_fulltext": false
+   },
+   "locations": [
+    {
+     "src": "Meteorological Applications",
+     "url": "https://doi.org/10.1002/met.184",
+     "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/met.184",
+     "lic": null,
+     "ver": "publishedVersion"
+    },
+    {
+     "src": "CentAUR (University of Reading)",
+     "url": "https://centaur.reading.ac.uk/4351/",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "The fascination of seasonal climate forecasting, of which El Niño forecasting is the prime example, comes from its multi-faceted character. Not only does it pose interesting new challenges for the climate scientific community but also it is naturally linked to a great variety of socio-economic applications. Seasonal climate forecasts are indeed becoming a most important element in some policy/decision making systems, especially within the context of climate change adaptation. Thus, seriously considering the management of risks posed by the variability of climate on the seasonal to interannual time scale is key to achieving the longer terms goals of climate change adaptation strategy. This review paper explores the main components needed to construct a seasonal forecasting system, from the physical basis of climate seasonal predictions, to the tools used for producing them, to the importance of assessing their skill, to their use in risk management decision-making. Future challenges are also examined. Copyright © 2010 Royal Meteorological Society",
+   "cited_by": 143
+  },
+  {
+   "id": "https://openalex.org/W4210617977",
+   "doi": "https://doi.org/10.2172/6994179",
+   "title": "An annotated inventory of climatic indices and data sets",
+   "year": 1986,
+   "authors": [
+    "Not Available"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://www.osti.gov/servlets/purl/6994179",
+    "any_repository_has_fulltext": true
+   },
+   "locations": [
+    {
+     "url": "https://doi.org/10.2172/6994179",
+     "pdf": "https://www.osti.gov/servlets/purl/6994179",
+     "lic": null,
+     "ver": "publishedVersion"
+    },
+    {
+     "src": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+     "url": "https://www.osti.gov/biblio/6994179",
+     "pdf": "https://www.osti.gov/servlets/purl/6994179",
+     "lic": null,
+     "ver": "submittedVersion"
+    }
+   ],
+   "abstract": "This publication describes 34 prominent climatic indices and provides an annotated listing and bibliography of additional indices to help evaluate the effects of increased atmospheric CO2 levels. Examples from the following ten subject areas are included: (1) Global/Hemispheric Data Sets; (2) Marine Data Sets; (3) Long-Term Regional and Local Temperature and Precipitation Data Sets; (4) Atmospheric Constituents Data Sets; (5) Upper Air Data Sets; (6) Southern Oscillation/E1 Nino Data Sets; (7) Solar Data Sets; (8) Proxy Data Sets; (9) Lake Levels and River Flows Data Sets; and (10) Snowcover and Sea Ice Extent Data Sets.",
+   "cited_by": 2
+  },
+  {
+   "id": "https://openalex.org/W2147267563",
+   "doi": "https://doi.org/10.7907/epjw-t613",
+   "title": "Atmospheric Trace Gases as Probes of Chemistry and Dynamics",
+   "year": 2012,
+   "authors": [
+    "King‐Fai Li"
+   ],
+   "venue": "CaltechTHESIS (California Institute of Technology)",
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://thesis.library.caltech.edu/7186/1/kfl_thesis_v02.pdf",
+    "any_repository_has_fulltext": true
+   },
+   "locations": [
+    {
+     "src": "CaltechTHESIS (California Institute of Technology)",
+     "url": "https://thesis.library.caltech.edu/7186/1/kfl_thesis_v02.pdf",
+     "pdf": "https://thesis.library.caltech.edu/7186/1/kfl_thesis_v02.pdf",
+     "lic": null,
+     "ver": "submittedVersion"
+    },
+    {
+     "url": "https://resolver.caltech.edu/CaltechTHESIS:08172012-154924604",
+     "pdf": null,
+     "lic": null,
+     "ver": null
+    },
+    {
+     "src": "Caltech Library",
+     "url": "https://doi.org/10.7907/epjw-t613",
+     "pdf": null,
+     "lic": null,
+     "ver": null
+    }
+   ],
+   "abstract": "This dissertation is a collection of empirical and modeling studies focusing on decadal and intraseasonal variabilities in atmospheric tracers. In Part I, a persistent discrepancy between the model and observed stratospheric O3 solar response is revisited using the Whole-Atmosphere Community Chemistry Model (WACCM). The model O3 simulated using UV irradiances measured from the latest spaceborne solar UV measurements by the Solar Radiation and Climate Experiment (SORCE) and that from the solar UV parametrization developed by the Naval Research Laboratory (NRL) are studied and compared with observations. None of the simulations using SORCE and NRL UV simultaneously agree with the observed O3 solar response in both upper and lower stratospheres, thus presenting a dilemma to our current understanding of stratospheric O3 response to UV perturbations. However, the simulation using the SORCE UV irradiance leads to a solar response in upper stratospheric/lower mesospheric OH column that agrees better than those derived from ground-based and satellite observations. Continuous long-term observations of solar UV, OH, O3, and other related chemical species through upcoming solar cycles are crucial for further investigations to solve the above puzzles. In Part II, intraseasonal variabilities in upper tropospheric/lower stratospheric (UTLS) O3 and mid-tropospheric carbon dioxide (CO2) related to the Madden-Julian oscillation (MJO) are studied using recent satellite observations. The UTLS O3 at mid-latitudes is shown to be modulated by the MJO through dynamical motions of the tropopause layer, supporting the conjecture proposed in previous studies. It is further shown that the UTLS O3 over the Arctic can be also modulated by the tropopause motions through MJO teleconnections. On the other hand, the distribution of tropical mid-tropospheric CO2 is modulated by the MJO through upward transport of surface CO2. The amplitude is of critical scale for identifying oceanic and land sources of CO2. The detailed structures of these MJO impacts are useful for diagnosing chemical transport models. These findings may be useful for improving air quality forecasts to weekly/monthly timescales, which help warn the public in advance and help authorities to take efficient emergency control actions.",
+   "cited_by": 0
+  },
+  {
+   "id": "https://openalex.org/W1957506591",
+   "doi": "https://doi.org/10.5194/gmd-9-1747-2016",
+   "title": "ESMValTool (v1.0) – a community diagnostic and performance metrics tool for routine evaluation of Earth system models in CMIP",
+   "year": 2016,
+   "authors": [
+    "Veronika Eyring",
+    "Mattia Righi",
+    "Axel Lauer",
+    "Martin Evaldsson",
+    "Sabrina Wenzel",
+    "﻿Colin Jones",
+    "Alessandro Anav",
+    "Oliver Andrews"
+   ],
+   "venue": "Geoscientific model development",
+   "biblio": {
+    "volume": "9",
+    "issue": "5",
+    "first_page": "1747",
+    "last_page": "1802"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://www.geosci-model-dev.net/9/1747/2016/gmd-9-1747-2016.pdf",
+    "any_repository_has_fulltext": true
+   },
+   "locations": [
+    {
+     "src": "Geoscientific model development",
+     "url": "https://doi.org/10.5194/gmd-9-1747-2016",
+     "pdf": "https://www.geosci-model-dev.net/9/1747/2016/gmd-9-1747-2016.pdf",
+     "lic": "cc-by",
+     "ver": "publishedVersion"
+    },
+    {
+     "url": "https://doi.org/10.5194/gmdd-8-7541-2015",
+     "pdf": null,
+     "lic": "cc-by",
+     "ver": "acceptedVersion"
+    },
+    {
+     "src": "elib (German Aerospace Center)",
+     "url": "https://doi.org/10.5194/gmd-9-1747-2016>.",
+     "pdf": "https://elib.dlr.de/105158/1/gmd-9-1747-2016.pdf",
+     "lic": "other-oa",
+     "ver": "acceptedVersion"
+    },
+    {
+     "src": "UEA Digital Repository (University of East Anglia)",
+     "url": "https://ueaeprints.uea.ac.uk/id/eprint/54233/1/gmdd_8_7541_2015.pdf",
+     "pdf": "https://ueaeprints.uea.ac.uk/id/eprint/54233/1/gmdd_8_7541_2015.pdf",
+     "lic": null,
+     "ver": "acceptedVersion"
+    },
+    {
+     "src": "UEA Digital Repository (University of East Anglia)",
+     "url": "https://ueaeprints.uea.ac.uk/id/eprint/58751/1/gmd_9_1747_2016.pdf",
+     "pdf": "https://ueaeprints.uea.ac.uk/id/eprint/58751/1/gmd_9_1747_2016.pdf",
+     "lic": "other-oa",
+     "ver": "acceptedVersion"
+    },
+    {
+     "url": "https://boris-portal.unibe.ch/handle/20.500.12422/68611",
+     "pdf": null,
+     "lic": null,
+     "ver": "acceptedVersion"
+    },
+    {
+     "src": "KTH Publication Database DiVA (KTH Royal Institute of Technology)",
+     "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:smhi:diva-2198",
+     "pdf": null,
+     "lic": "other-oa",
+     "ver": "acceptedVersion"
+    },
+    {
+     "src": "HAL (Le Centre pour la Communication Scientifique Directe)",
+     "url": "https://hal.science/hal-04917656",
+     "pdf": null,
+     "lic": "cc-by",
+     "ver": "acceptedVersion"
+    },
+    {
+     "src": "CentAUR (University of Reading)",
+     "url": "https://centaur.reading.ac.uk/view/creators/90005910.html>,",
+     "pdf": null,
+     "lic": null,
+     "ver": "acceptedVersion"
+    },
+    {
+     "src": "Figshare",
+     "url": "https://figshare.com/articles/journal_contribution/ESMValTool_v1_0_-_a_community_diagnostic_and_performance_metrics_tool_for_routine_evaluation_of_Earth_system_models_in_CMIP/29721362",
+     "pdf": null,
+     "lic": null,
+     "ver": "acceptedVersion"
+    },
+    {
+     "src": "ENEA Open Archive (National Agency for New Technologies, Energy and Sustainable Economic Development)",
+     "url": "http://hdl.handle.net/10840/7837",
+     "pdf": null,
+     "lic": null,
+     "ver": "acceptedVersion"
+    },
+    {
+     "src": "Open Research Exeter (University of Exeter)",
+     "url": "http://hdl.handle.net/10871/22653",
+     "pdf": null,
+     "lic": null,
+     "ver": "acceptedVersion"
+    },
+    {
+     "src": "Explore Bristol Research",
+     "url": "https://research-information.bris.ac.uk/en/publications/000b84f8-cb4b-4290-9f5d-92d139549a88",
+     "pdf": null,
+     "lic": "cc-by",
+     "ver": "acceptedVersion"
+    },
+    {
+     "src": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+     "url": "https://www.osti.gov/biblio/2507503",
+     "pdf": "https://www.osti.gov/servlets/purl/2507503",
+     "lic": null,
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "MPG.PuRe (Max Planck Society)",
+     "url": "https://hdl.handle.net/11858/00-001M-0000-002A-5EB1-9",
+     "pdf": "https://hdl.handle.net/11858/00-001M-0000-002A-5EB3-5",
+     "lic": "other-oa",
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "Institutional Archive of Ifremer (French Research Institute for Exploitation of the Sea)",
+     "url": "https://archimer.ifremer.fr/doc/00383/49428/",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "BORIS (University Library Bern)",
+     "url": "https://boris.unibe.ch/167138/",
+     "pdf": null,
+     "lic": "cc-by",
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "DOAJ (DOAJ: Directory of Open Access Journals)",
+     "url": "https://doaj.org/article/5dec67008ed54ec6bc34fce7a263b713",
+     "pdf": null,
+     "lic": "cc-by-sa",
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "Open access LMU (Ludwid Maxmilian's Universitat Munchen)",
+     "url": "http://nbn-resolving.de/urn:nbn:de:bvb:19-epub-38225-5",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "Max Planck Digital Library",
+     "url": "http://hdl.handle.net/11858/00-001M-0000-002A-5EB1-9",
+     "pdf": null,
+     "lic": "cc-by",
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "NOAA Institutional Repository",
+     "url": "https://repository.library.noaa.gov/view/noaa/29719",
+     "pdf": null,
+     "lic": "cc-by",
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "Science and Technology Facilities Council",
+     "url": "http://purl.org/net/epubs/work/25052967",
+     "pdf": null,
+     "lic": null,
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "Bristol Research (University of Bristol)",
+     "url": "https://research-information.bris.ac.uk/en/publications/000b84f8-cb4b-4290-9f5d-92d139549a88",
+     "pdf": null,
+     "lic": "cc-by",
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "Repository for Publications and Research Data (ETH Zurich)",
+     "url": "http://hdl.handle.net/20.500.11850/115937",
+     "pdf": null,
+     "lic": "cc-by",
+     "ver": "submittedVersion"
+    },
+    {
+     "src": "ETH Zürich Research Collection",
+     "url": "https://doi.org/10.3929/ethz-b-000115937",
+     "pdf": null,
+     "lic": "cc-by",
+     "ver": null
+    },
+    {
+     "src": "Open Access CRIS of the University of Bern",
+     "url": "https://doi.org/10.48350/167138",
+     "pdf": null,
+     "lic": null,
+     "ver": null
+    }
+   ],
+   "abstract": "Abstract. A community diagnostics and performance metrics tool for the evaluation of Earth System Models (ESMs) has been developed that allows for routine comparison of single or multiple models, either against predecessor versions or against observations. The priority of the effort so far has been to target specific scientific themes focusing on selected Essential Climate Variables (ECVs), a range of known systematic biases common to ESMs, such as coupled tropical climate variability, monsoons, Southern Ocean processes, continental dry biases and soil hydrology-climate interactions, as well as atmospheric CO2 budgets, tropospheric and stratospheric ozone, and tropospheric aerosols. The tool is being developed in such a way that additional analyses can easily be added. A set of standard namelists for each scientific topic reproduces specific sets of diagnostics or performance metrics that have demonstrated their importance in ESM evaluation in the peer-reviewed literature. The Earth System Model Evaluation Tool (ESMValTool) is a community effort open to both users and developers encouraging open exchange of diagnostic source code and evaluation results from the CMIP ensemble. This will facilitate and improve ESM evaluation beyond the state-of-the-art and aims at supporting such activities within the Coupled Model Intercomparison Project (CMIP) and at individual modelling centres. Ultimately, we envisage running the ESMValTool alongside the Earth System Grid Federation (ESGF) as part of a more routine evaluation of CMIP model simulations while utilizing observations available in standard formats (obs4MIPs) or provided by the user.",
+   "cited_by": 191
+  }
+ ]
+}
