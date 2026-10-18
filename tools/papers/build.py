@@ -80,10 +80,11 @@ def esc(s: str) -> str:
 
 
 def ref_html(r: dict) -> str:
-    link = r.get("doi") and f'https://doi.org/{r["doi"]}' or r.get("url", "")
-    shown = r.get("doi") and f'doi:{esc(r["doi"])}' or esc(r.get("url", ""))
+    link = r.get("doi") and f'https://doi.org/{r["doi"]}' or (r.get("url") or "")
+    shown = r.get("doi") and f'doi:{esc(r["doi"])}' or esc(r.get("url") or "")
     note = f' <span class="note">[{esc(r["check"])}]</span>' if r.get("check") else ""
-    return f'<li id="ref-{esc(r["key"])}">{r["text"]} <a href="{esc(link)}">{shown}</a>{note}</li>'
+    anchor = f' <a href="{esc(link)}">{shown}</a>' if link else ""
+    return f'<li id="ref-{esc(r["key"])}">{r["text"]}{anchor}{note}</li>'
 
 
 def table(cols: list[str], rows: list[list[str]], cls: str = "") -> str:
@@ -122,6 +123,15 @@ def build(p: dict, siblings: list[dict]) -> str:
                            [[f"<b>{esc(e[0])}</b>", e[1], e[2], e[3], e[4], conf(e[5]), e[6]] for e in p["evidence"]]))
         parts.append('<p class="note">Evidence grades: A = event-specific observation plus a model or heat-budget study isolating the effect; B = event-specific observation with a plausible mechanism and supporting studies; '
                      'C = correlation, composite or general theory only; D = speculative, disputed, or not yet tested for this event.</p>')
+    for s in p.get("post_sections", []):
+        parts.append(f'<h2 id="{s["id"]}">{esc(s["title"])}</h2><div class="prose">{s["html"]}</div>')
+        if s.get("table"):
+            t = s["table"]
+            parts.append(table(t["cols"], t["rows"], t.get("cls", "")))
+            if t.get("note"):
+                parts.append(f'<p class="note">{t["note"]}</p>')
+        if s.get("html_after"):
+            parts.append(f'<div class="prose">{s["html_after"]}</div>')
     if p.get("after"):
         s = p["after"]
         parts.append(f'<h2 id="{s["id"]}">{esc(s["title"])}</h2><div class="prose">{s["html"]}</div>')

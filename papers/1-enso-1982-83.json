@@ -8,7 +8,7 @@
  "research_date": "18 October 2026",
  "obs_cutoff": "historical event (Jan 1981 – Oct 1983 analysed)",
  "lit_cutoff": "open, updated as new studies appear",
- "status_note": "Stages 1–3 of 5 complete: sources verified (DOIs checked against Crossref; abstracts read where available), monthly data assembled, timeline and evidence table drafted. <b>Prose sections are not written yet</b>; they follow your review of this evidence. Items marked Pending still need event-specific evidence.",
+ "status_note": "Stages 1–3 of 5 complete, with added assessments of the MJO, documented 1982 westerly bursts, El Chichón and Indian–Pacific interactions, and a citation audit (18 Oct 2026). Sources verified (DOIs checked against Crossref; what was read is stated for each reference), monthly data assembled, timeline and evidence table drafted. <b>Prose sections are not written yet</b>; they follow your review of this evidence. Items marked Pending still need event-specific evidence.",
  "toc": [
   [
    "scope",
@@ -25,6 +25,26 @@
   [
    "evidence",
    "Evidence table"
+  ],
+  [
+   "mjo",
+   "MJO contribution"
+  ],
+  [
+   "bursts",
+   "Westerly wind events, 1982"
+  ],
+  [
+   "elchichon",
+   "El Chichón"
+  ],
+  [
+   "indopacific",
+   "Indian–Pacific interactions"
+  ],
+  [
+   "audit",
+   "Citation audit"
   ],
   [
    "status-notes",
@@ -554,35 +574,56 @@
    "1981",
    "Warm water volume (WWV) positive all year, +0.6 to +2.1 × 10¹⁴ m³; upper-300 m heat content (180°–100°W) between −0.7 and +1.0 °C.",
    "Recharge of the equatorial warm-water reservoir, the precondition in recharge-oscillator theory.",
-   "<a href=\"#ref-cpc\">[26]</a> <a href=\"#ref-meinen2000\">[17]</a> <a href=\"#ref-wyrtki1985b\">[25]</a>",
+   "<a href=\"#ref-cpc\">[54]</a> <a href=\"#ref-meinen2000\">[17]</a> <a href=\"#ref-wyrtki1985b\">[25]</a>",
    "Medium (sparse 1981 subsurface data)"
+  ],
+  [
+   "Late Nov 1981 – Jan 1982",
+   "Strong, coherent MJO: OMI amplitude ≥ 1 from 25 Nov to 21 Jan (max 2.3); 20–100-day convection moves from 105°E (26 Nov) to 155°E (14–17 Dec) with 850 hPa westerlies behind it; also seen in FMO, VPM and the ENSO-filtered RMM* (max 1.7). Weickmann reports interannual transitions in Sep 1981–Apr 1982 coinciding with strong MJO passages into the Pacific.",
+   "Intraseasonal westerly forcing in the western Pacific during the transition phase (association, not isolated as a cause).",
+   "<a href=\"#ref-weickmann1991\">[27]</a> <a href=\"#ref-psl\">[53]</a> <a href=\"#ref-kiladis2014\">[38]</a>",
+   "Medium (MJO); Low (effect on ENSO)"
   ],
   [
    "DJF 1982",
    "RONI +0.11, ONI −0.05: ENSO-neutral start.",
    "—",
-   "<a href=\"#ref-cpc\">[26]</a>",
+   "<a href=\"#ref-cpc\">[54]</a>",
    "High"
   ],
   [
    "Feb–Apr 1982",
    "850 hPa trades weaker than normal in the western Pacific (−0.6 to −1.3 standardized); heat content rises to +0.9 °C. Niño 1+2 cold (−0.72 to −1.38 °C, OISST).",
    "Early westerly anomalies in the west; coastal coolness consistent with enhanced south-east Pacific trades in the post-1976 background state.",
-   "<a href=\"#ref-cpc\">[26]</a> <a href=\"#ref-wang1995\">[22]</a>",
+   "<a href=\"#ref-cpc\">[54]</a> <a href=\"#ref-wang1995\">[22]</a>",
    "Medium"
   ],
   [
-   "Late Mar–early Apr 1982",
-   "El Chichón eruptions (Mexico) inject aerosol into the tropical stratosphere. Satellite (AVHRR) SST biased low by up to 2.5 °C for months.",
-   "Candidate volcanic forcing (see evidence table); certainly an observing-system problem that hid part of the warming from satellites.",
-   "<a href=\"#ref-robock2000\">[21]</a> <a href=\"#ref-bandeen1982\">[1]</a>",
-   "High (bias); Low (forcing role)"
+   "28 Mar – 3 Apr 1982",
+   "Reanalysis westerly burst: 1000 hPa anomaly up to +12 m s⁻¹ at 147.5°–165°E (NCEP/NCAR R1, 5°S–5°N). MJO only marginal (OMI phase 6, amplitude 1.0–1.4 for about a week). No published account found.",
+   "Possible early Kelvin-wave forcing; ocean response not documented.",
+   "<a href=\"#ref-psl\">[53]</a> <a href=\"#ref-kalnay1996\">[39]</a>",
+   "Low (reanalysis only)"
+  ],
+  [
+   "29 Mar and 3–4 Apr 1982",
+   "El Chichón eruptions (Mexico) inject aerosol into the tropical stratosphere. Just before them (March) the warm water volume anomaly is +2.15 × 10¹⁴ m³, the 96th percentile of 1980–2025 months, and heat content is +0.9 °C. Satellite (AVHRR) SST biased low by up to 2.5 °C for months.",
+   "Pre-existing recharge; candidate volcanic forcing evaluated separately below. Certainly an observing-system problem for satellite SST.",
+   "<a href=\"#ref-worsfold2024\">[45]</a> <a href=\"#ref-cpc\">[54]</a> <a href=\"#ref-bandeen1982\">[1]</a>",
+   "High (dates, recharge, bias); Low (forcing role)"
+  ],
+  [
+   "6–16 May 1982",
+   "Westerly wind burst documented from 12-hourly island, atoll and ship reports: 11 days, within about 5° of the equator, growing from about 1000 km to over 3500 km in zonal extent; strongest over 135°–155°E. It coincides with an MJO envelope (OMI phases 6–7, amplitude up to 2.3; convection moved from 80°E on 21–27 Apr to 150°E by 9 May).",
+   "Authors attribute the burst to a midlatitude-forced pressure rise in the far western equatorial Pacific, prolonged by a pressure fall near 150°–160°E; they describe it as the first sustained burst of 1982, about three months before onset.",
+   "<a href=\"#ref-chufrederick1990\">[28]</a> <a href=\"#ref-psl\">[53]</a>",
+   "High (wind event); Low (contribution)"
   ],
   [
    "May–Jun 1982",
    "ERSSTv6 relative Niño 3.4 rises from +0.76 to +1.12 °C; SOI −1.0 by June; RONI MAM +0.46 → AMJ +0.74.",
    "Onset of ocean–atmosphere coupling.",
-   "<a href=\"#ref-cpc\">[26]</a>",
+   "<a href=\"#ref-cpc\">[54]</a>",
    "High"
   ],
   [
@@ -603,43 +644,57 @@
    "Aug 1982",
    "Equatorial Undercurrent at 159°W decays; near-surface flow at 0°, 110°W reverses to eastward; central-Pacific OLR −21 W m⁻².",
    "Basin-wide adjustment of the sea-surface slope to westerly forcing; deep convection moving east.",
-   "<a href=\"#ref-firing1983\">[5]</a> <a href=\"#ref-halpern1983\">[7]</a> <a href=\"#ref-cpc\">[26]</a>",
+   "<a href=\"#ref-firing1983\">[5]</a> <a href=\"#ref-halpern1983\">[7]</a> <a href=\"#ref-cpc\">[54]</a>",
    "High"
   ],
   [
    "Sep 1982",
    "Undercurrent partly reversed at 159°W; central Pacific trades −2.0 standardized; RONI JAS +1.14.",
    "Bjerknes feedback: warming weakens trades, which deepen the thermocline in the east.",
-   "<a href=\"#ref-firing1983\">[5]</a> <a href=\"#ref-cpc\">[26]</a>",
+   "<a href=\"#ref-firing1983\">[5]</a> <a href=\"#ref-cpc\">[54]</a>",
    "High (observation); general theory (mechanism)"
   ],
   [
    "Oct 1982",
-   "Eastern equatorial SST +5 °C above the monthly mean; Galápagos sea level +22 cm; thermocline 50–70 m deeper along the equator and the South American coast.",
-   "Arrival of downwelling Kelvin waves and coupled growth in the east.",
+   "SST in the equatorial zone of the eastern tropical Pacific 5 °C above the long-term monthly mean; Galápagos sea level +22 cm; thermocline 50–70 m deeper along the equator and the South American coast.",
+   "Consistent with downwelling Kelvin waves and coupled growth (interpretation; see the Kelvin-wave row of the evidence table).",
    "<a href=\"#ref-halpern1983\">[7]</a>",
    "High"
   ],
   [
-   "Aug–Nov 1982",
-   "Positive Indian Ocean Dipole (CPC DMI +0.53 to +0.92 °C, peak Oct).",
-   "Not yet assessed; may be a response to the Pacific warming (reverse causality) rather than a cause.",
-   "<a href=\"#ref-cpc\">[26]</a>",
-   "Pending"
+   "24 Aug – 3 Sep 1982",
+   "Reanalysis westerly burst, peak +9.4 m s⁻¹ on 30 Aug at 162.5°–185°E; convection moved from 65°–70°E (2–8 Aug) to 175°–180°E (29 Aug–1 Sep); OMI phase 6–7, amplitude up to 1.3.",
+   "MJO-associated burst during the growth phase (RONI JAS +1.14).",
+   "<a href=\"#ref-psl\">[53]</a>",
+   "Low–medium"
+  ],
+  [
+   "Sep–Nov 1982",
+   "Coupled positive Indian Ocean Dipole: DMI peaks in October (+1.04 °C ERSSTv5; CPC +0.92 °C) with equatorial Indian Ocean surface easterly anomalies of −2.5 to −3.1 m s⁻¹ (Oct–Nov). The eastern-pole cooling had begun in January–February, but without sustained easterlies until July–August.",
+   "Its SON size matches what Niño 3.4 alone predicts (see Indian–Pacific section); model studies suggest it may in turn have intensified the eastern-Pacific warming.",
+   "<a href=\"#ref-psl\">[53]</a> <a href=\"#ref-huang2017\">[40]</a> <a href=\"#ref-cpc\">[54]</a> <a href=\"#ref-luo2010\">[47]</a> <a href=\"#ref-hameed2018\">[48]</a>",
+   "Medium (observation); Low (feedback)"
   ],
   [
    "Dec 1982",
    "First Galápagos sea-level peak; warm water drains from north of the equator; by year-end the normal east–west sea-level slope is gone. WWV falls to +1.4 × 10¹⁴ m³.",
    "Discharge of the warm-water reservoir driven by western Pacific westerlies.",
-   "<a href=\"#ref-wyrtki1985a\">[24]</a> <a href=\"#ref-lukas1984\">[15]</a> <a href=\"#ref-cpc\">[26]</a>",
+   "<a href=\"#ref-wyrtki1985a\">[24]</a> <a href=\"#ref-lukas1984\">[15]</a> <a href=\"#ref-cpc\">[54]</a>",
    "High"
   ],
   [
    "DJF 1983",
    "Peak: RONI +2.40 (ONI +2.14). January SOI −3.5; central-Pacific OLR −46 W m⁻²; WWV negative.",
    "Mature, fully coupled state; discharge under way.",
-   "<a href=\"#ref-cpc\">[26]</a>",
+   "<a href=\"#ref-cpc\">[54]</a>",
    "High"
+  ],
+  [
+   "Dec 1982 – Apr 1983",
+   "Western Pacific surface winds turn to easterly anomalies (−1.0 to −1.6 m s⁻¹, 130°–160°E); tropical Indian Ocean basin-wide warm (+0.1 to +0.2 °C, 40°–100°E, 20°S–20°N).",
+   "One modelled pathway by which basin-wide Indian Ocean warming hastens the end of El Niño.",
+   "<a href=\"#ref-psl\">[53]</a> <a href=\"#ref-ohbaueda2007\">[51]</a>",
+   "Low"
   ],
   [
    "Jan 1983",
@@ -652,7 +707,7 @@
    "Feb–Jun 1983",
    "Niño 3.4 declines while Niño 1+2 rises to +4.0 °C in June; second Galápagos sea-level peak in May as warm water drains from south of the equator.",
    "A second, southern-hemisphere draining episode prolongs warmth in the far east.",
-   "<a href=\"#ref-wyrtki1985a\">[24]</a> <a href=\"#ref-cpc\">[26]</a>",
+   "<a href=\"#ref-wyrtki1985a\">[24]</a> <a href=\"#ref-cpc\">[54]</a>",
    "High"
   ],
   [
@@ -671,7 +726,7 @@
    "Precondition",
    "B: observation (sparse) + theory confirmed across 1980–99",
    "Medium",
-   "<a href=\"#ref-cpc\">[26]</a> <a href=\"#ref-meinen2000\">[17]</a> <a href=\"#ref-wyrtki1985b\">[25]</a>"
+   "<a href=\"#ref-cpc\">[54]</a> <a href=\"#ref-meinen2000\">[17]</a> <a href=\"#ref-wyrtki1985b\">[25]</a>"
   ],
   [
    "Sustained equatorial westerlies west of the Date Line (from Jun 1982)",
@@ -723,9 +778,9 @@
    "Trades, SOI, OLR and SST strengthen together from Aug to Dec 1982.",
    "Warming → weaker trades → deeper eastern thermocline → more warming.",
    "Amplifier / feedback",
-   "B: event observations + general theory",
+   "B: event observations (CPC indices) + general theory",
    "High",
-   "<a href=\"#ref-cpc\">[26]</a> <a href=\"#ref-rw1983\">[20]</a> <a href=\"#ref-gill1983\">[6]</a>"
+   "<a href=\"#ref-cpc\">[54]</a> <a href=\"#ref-bjerknes1969\">[26]</a>"
   ],
   [
    "Recharge–discharge and the second eastern peak",
@@ -738,39 +793,84 @@
   ],
   [
    "Tropical cyclone pairs",
-   "Not yet documented for 1982 in a verified source.",
+   "No twin tropical cyclogenesis in the JTWC best tracks during the 1982–83 El Niño under either the Keen or the Harrison–Giese definition (1969–2006 survey).",
    "Cyclone pairs straddling the equator produce brief strong westerlies (shown for 1971–79).",
-   "Candidate trigger",
-   "D for 1982: general study only",
-   "Pending",
-   "<a href=\"#ref-keen1982\">[12]</a>"
+   "Not supported for 1982",
+   "C: best-track survey (one study)",
+   "Medium",
+   "<a href=\"#ref-schreck2009\">[32]</a> <a href=\"#ref-keen1982\">[12]</a>"
   ],
   [
-   "Intraseasonal variability (MJO, westerly wind bursts)",
-   "Westerly bursts of 1–3 weeks are typical before El Niño (1950–78); 1982 bursts not yet catalogued from a verified source.",
-   "Bursts force Kelvin waves; MJO organises bursts.",
-   "Candidate trigger / amplifier",
-   "C/D for 1982: general study only",
-   "Pending",
-   "<a href=\"#ref-luther1983\">[16]</a>"
+   "Westerly wind bursts (documented episodes)",
+   "Island records show the central-Pacific easterlies weakened before each El Niño of 1950–78 except 1963, through bursts of 1–3 weeks (general mechanism, not 1982). For 1982: a documented 11-day burst on 6–16 May; sustained westerlies from June; a succession of westerly pulses to November (cited by Chu and Frederick). Reanalysis adds bursts on 28 Mar–3 Apr and 24 Aug–3 Sep. A complete 1982 episode catalogue has not yet been assembled in this review.",
+   "Bursts force downwelling Kelvin waves; the ocean response to individual 1982 bursts is not isolated in the sources read.",
+   "Candidate trigger (May) and amplifier (Aug–Dec)",
+   "B for the May wind event; C for its contribution",
+   "Medium (event); Low (contribution)",
+   "<a href=\"#ref-luther1983\">[16]</a> <a href=\"#ref-chufrederick1990\">[28]</a> <a href=\"#ref-harrison1984\">[8]</a> <a href=\"#ref-psl\">[53]</a>"
   ],
   [
-   "El Chichón eruption (Mar–Apr 1982)",
-   "Erupted after recharge and the first western-Pacific trade weakening.",
-   "Model studies (Pinatubo-like) find eruptions can favour El Niño via tropical African cooling; palaeo-records show no consistent response.",
-   "Coincident or weak amplifier, unresolved",
-   "C/D: model and multi-event evidence, contested",
+   "MJO",
+   "Strong, coherent MJO in Nov 1981–Jan 1982 and late Apr–May 1982 across four published indices (OMI, FMO, VPM, RMM*) and our own reanalysis filters; the May burst sat inside an MJO envelope. From Oct 1982 MJO convection reached 155°–170°W and Indian Ocean–Maritime Continent intraseasonal OLR variance was the second lowest of 1979–2001.",
+   "MJO westerlies can force Kelvin waves; conversely El Niño shifts MJO activity east (ENSO influence on the MJO).",
+   "Contribution to onset unresolved; late-1982 changes partly a consequence",
+   "C: event-specific association; no study isolates the MJO's ocean effect in 1982",
    "Low",
-   "<a href=\"#ref-khodri2017\">[13]</a> <a href=\"#ref-dee2020\">[4]</a> <a href=\"#ref-robock2000\">[21]</a>"
+   "<a href=\"#ref-weickmann1991\">[27]</a> <a href=\"#ref-psl\">[53]</a> <a href=\"#ref-hendon1999\">[33]</a> <a href=\"#ref-kessler2001\">[34]</a>"
   ],
   [
-   "Indian Ocean (positive IOD, Aug–Nov 1982)",
-   "DMI +0.53 to +0.92 °C.",
-   "Could reinforce western-Pacific westerlies, or be forced by the Pacific warming.",
-   "Not yet determined (reverse causality likely)",
-   "C: index only",
-   "Pending",
-   "<a href=\"#ref-cpc\">[26]</a>"
+   "El Chichón: initiation",
+   "Erupted 29 Mar–4 Apr 1982, after recharge (WWV 96th percentile) and after western-Pacific trade weakening and the Dec 1981 MJO; the 28 Mar–3 Apr reanalysis burst began the day before the first eruption.",
+   "Proposed pathways act through land cooling and drying months later.",
+   "Initiation not supported by the timing; unresolved",
+   "D: no study isolates the observed onset",
+   "Low",
+   "<a href=\"#ref-worsfold2024\">[45]</a> <a href=\"#ref-khodri2017\">[13]</a> <a href=\"#ref-predybaylo2020\">[42]</a> <a href=\"#ref-chai2020\">[43]</a>"
+  ],
+  [
+   "El Chichón: subsequent growth",
+   "Maritime Continent drying and enhanced western-Pacific MJO activity in Jul–Nov 1982 (observed composite with Pinatubo).",
+   "Land drying → MJO propagation → more bursts (CESM2); African or South–Southeast Asian drying → westerlies (other models). Pathways and magnitudes differ between models, and the observed signals are also typical El Niño responses.",
+   "Possible weak amplifier, unresolved",
+   "C: model studies; observations cannot separate forcing from internal variability",
+   "Low",
+   "<a href=\"#ref-kim2025\">[41]</a> <a href=\"#ref-chai2020\">[43]</a> <a href=\"#ref-khodri2017\">[13]</a> <a href=\"#ref-zuo2018\">[44]</a> <a href=\"#ref-predybaylo2020\">[42]</a> <a href=\"#ref-dee2020\">[4]</a>"
+  ],
+  [
+   "Indian Ocean: early eastern-pole cooling (Jan–Aug 1982)",
+   "SE tropical Indian Ocean −0.3 to −0.5 °C from Feb, before Niño 3.4 warmed; no sustained equatorial easterlies until Jul–Aug.",
+   "Not the Indian Ocean Bjerknes feedback at this stage; origin not established.",
+   "Coincident; direction unresolved",
+   "C: indices only",
+   "Low",
+   "<a href=\"#ref-psl\">[53]</a> <a href=\"#ref-huang2017\">[40]</a>"
+  ],
+  [
+   "Indian Ocean: Pacific forcing of the IOD (Sep–Nov 1982)",
+   "Coupled positive IOD after Niño 3.4 exceeded +1.3 °C; SON DMI +0.58 °C against +0.61 °C expected from Niño 3.4 (1950–2024 regression).",
+   "Eastward shift of Walker circulation → easterlies over the eastern Indian Ocean.",
+   "Consequence (largely ENSO-driven)",
+   "B/C: event observations + regression + mechanism",
+   "Medium",
+   "<a href=\"#ref-psl\">[53]</a> <a href=\"#ref-zhang2021\">[50]</a>"
+  ],
+  [
+   "Indian Ocean: feedback on Pacific growth and peak",
+   "Forecast runs without Indian Ocean coupling underestimate the 1982–83 peak (the model also over-predicted the 1982 IOD); a simple model forced with IOD-induced winds reproduces eastern-Pacific intensification of 1972, 1982 and 1997; decoupled hindcasts weaken super El Niños. One CGCM finds no significant Pacific impact from a fall IOD.",
+   "IOD-induced westerly anomalies over the Pacific strengthen eastern warming.",
+   "Possible amplifier of growth (not initiation)",
+   "C: event-including model experiments, model-dependent",
+   "Low–medium",
+   "<a href=\"#ref-luo2010\">[47]</a> <a href=\"#ref-hameed2018\">[48]</a> <a href=\"#ref-fan2024\">[49]</a> <a href=\"#ref-ohbaueda2007\">[51]</a>"
+  ],
+  [
+   "Indian Ocean: decay and transition",
+   "Basin-wide warming Dec 1982–Jul 1983; western Pacific easterly anomalies Dec–Apr; a second positive DMI in Jun–Aug 1983; NDJ 1983–84 Niño 3.4 −0.8 °C (detrended ERSSTv5).",
+   "Basin warming strengthens western-Pacific easterlies; a positive IOD favours La Niña the following year.",
+   "Possible contributor to decay",
+   "C: model study + statistics",
+   "Low",
+   "<a href=\"#ref-ohbaueda2007\">[51]</a> <a href=\"#ref-jourdain2016\">[52]</a> <a href=\"#ref-psl\">[53]</a>"
   ],
   [
    "Tropical North Atlantic cooling (late 1982)",
@@ -779,7 +879,7 @@
    "Probable consequence",
    "C: index only",
    "Low",
-   "<a href=\"#ref-cpc\">[26]</a>"
+   "<a href=\"#ref-cpc\">[54]</a>"
   ]
  ],
  "references": [
@@ -795,7 +895,7 @@
    "text": "Cane, M. A. (1983). Oceanographic events during El Niño. <i>Science</i> 222, 1189–1195.",
    "doi": "10.1126/science.222.4629.1189",
    "url": null,
-   "check": "abstract read"
+   "check": "abstract read; full text not read: Unpaywall lists a Columbia Academic Commons copy (doi:10.7916/D8X06HPV) but it refused automated access"
   },
   {
    "key": "czd1986",
@@ -806,38 +906,38 @@
   },
   {
    "key": "dee2020",
-   "text": "Dee, S. G., et al. (2020). No consistent ENSO response to volcanic forcing over the last millennium. <i>Science</i> 367, 1477–1481; comment by Robock (2020) doi:10.1126/science.abc0502 and reply doi:10.1126/science.abc1733.",
-   "doi": null,
-   "url": "https://doi.org/10.1126/science.abc1733",
-   "check": "comment and reply DOIs confirmed; original article DOI to confirm"
+   "text": "Dee, S. G., K. M. Cobb, J. Emile-Geay, T. R. Ault, R. L. Edwards, H. Cheng and C. D. Charles (2020). No consistent ENSO response to volcanic forcing over the last millennium. <i>Science</i> 367, 1477–1481; comment by Robock (2020) doi:10.1126/science.abc0502 and reply doi:10.1126/science.abc1733.",
+   "doi": "10.1126/science.aax2000",
+   "url": null,
+   "check": "abstract read (coral records, last millennium)"
   },
   {
    "key": "firing1983",
    "text": "Firing, E., R. Lukas, J. Sadler and K. Wyrtki (1983). Equatorial Undercurrent disappears during 1982–1983 El Niño. <i>Science</i> 222, 1121–1123.",
    "doi": "10.1126/science.222.4628.1121",
    "url": null,
-   "check": "abstract read"
+   "check": "abstract read; no open full text found (OpenAlex, Unpaywall, Semantic Scholar)"
   },
   {
    "key": "gill1983",
    "text": "Gill, A. E., and E. M. Rasmusson (1983). The 1982–83 climate anomaly in the equatorial Pacific. <i>Nature</i> 306, 229–234.",
    "doi": "10.1038/306229a0",
    "url": null,
-   "check": "bibliographic record; abstract not retrieved"
+   "check": "NOT READ: no abstract in Crossref, OpenAlex or Semantic Scholar and no open full text found; no longer cited for any claim"
   },
   {
    "key": "halpern1983",
    "text": "Halpern, D., S. P. Hayes, A. Leetmaa, D. V. Hansen and S. G. H. Philander (1983). Oceanographic observations of the 1982 warming of the tropical eastern Pacific. <i>Science</i> 221, 1173–1175.",
    "doi": "10.1126/science.221.4616.1173",
    "url": null,
-   "check": "abstract read"
+   "check": "abstract read; no open full text found"
   },
   {
    "key": "harrison1984",
    "text": "Harrison, D. E. (1984). The appearance of sustained equatorial surface westerlies during the 1982 Pacific warm event. <i>Science</i> 224, 1099–1102.",
    "doi": "10.1126/science.224.4653.1099",
    "url": null,
-   "check": "abstract read"
+   "check": "abstract read; no open full text found. Volume and title follow Crossref; the PMEL-109 memo lists vol. 225 and 'On the appearance of…'"
   },
   {
    "key": "harrisonschopf1984",
@@ -865,14 +965,14 @@
    "text": "Keen, R. A. (1982). The role of cross-equatorial tropical cyclone pairs in the Southern Oscillation. <i>Monthly Weather Review</i> 110, 1405–1416.",
    "doi": "10.1175/1520-0493(1982)110<1405:TROCET>2.0.CO;2",
    "url": null,
-   "check": "abstract read (study period 1971–79)"
+   "check": "full text read (scan supplied); study period 1971–79, so not evidence for 1982"
   },
   {
    "key": "khodri2017",
-   "text": "Khodri, M., et al. (2017). Tropical explosive volcanic eruptions can trigger El Niño by cooling tropical Africa. <i>Nature Communications</i> 8.",
+   "text": "Khodri, M., et al. (2017). Tropical explosive volcanic eruptions can trigger El Niño by cooling tropical Africa. <i>Nature Communications</i> 8, 778.",
    "doi": "10.1038/s41467-017-00755-6",
    "url": null,
-   "check": "abstract read (model study, Pinatubo-like eruptions)"
+   "check": "full text read (open access; model study, Pinatubo-like eruptions)"
   },
   {
    "key": "lheureux2024",
@@ -893,7 +993,7 @@
    "text": "Luther, D. S., D. E. Harrison and R. A. Knox (1983). Zonal winds in the central equatorial Pacific and El Niño. <i>Science</i> 222, 327–330.",
    "doi": "10.1126/science.222.4621.327",
    "url": null,
-   "check": "abstract read (study period 1950–78)"
+   "check": "abstract read; study period 1950–78, so not evidence for 1982; no open full text found"
   },
   {
    "key": "meinen2000",
@@ -921,7 +1021,7 @@
    "text": "Rasmusson, E. M., and J. M. Wallace (1983). Meteorological aspects of the El Niño/Southern Oscillation. <i>Science</i> 222, 1195–1202.",
    "doi": "10.1126/science.222.4629.1195",
    "url": null,
-   "check": "abstract read"
+   "check": "abstract read; no open full text found"
   },
   {
    "key": "robock2000",
@@ -959,6 +1059,202 @@
    "check": "abstract read"
   },
   {
+   "key": "bjerknes1969",
+   "text": "Bjerknes, J. (1969). Atmospheric teleconnections from the equatorial Pacific. <i>Monthly Weather Review</i> 97, 163–172.",
+   "doi": "10.1175/1520-0493(1969)097<0163:ATFTEP>2.3.CO;2",
+   "url": null,
+   "check": "bibliographic record; cited only as the origin of the coupled-feedback concept"
+  },
+  {
+   "key": "weickmann1991",
+   "text": "Weickmann, K. M. (1991). El Niño/Southern Oscillation and Madden–Julian (30–60 day) oscillations during 1981–1982. <i>Journal of Geophysical Research</i> 96(S01), 3187–3195.",
+   "doi": "10.1029/90JD01832",
+   "url": null,
+   "check": "abstract read; no open full text found"
+  },
+  {
+   "key": "chufrederick1990",
+   "text": "Chu, P.-S., and J. Frederick (1990). Westerly wind bursts and surface heat fluxes in the equatorial western Pacific in May 1982. <i>Journal of the Meteorological Society of Japan</i> 68, 523–537.",
+   "doi": "10.2151/jmsj1965.68.5_523",
+   "url": null,
+   "check": "full text read (free J-STAGE copy)"
+  },
+  {
+   "key": "chu1988",
+   "text": "Chu, P.-S. (1988). Extratropical forcing and the burst of equatorial westerlies in the western Pacific: a synoptic study. <i>Journal of the Meteorological Society of Japan</i> 66, 549–564.",
+   "doi": "10.2151/jmsj1965.66.4_549",
+   "url": null,
+   "check": "full text read (free J-STAGE copy); cases are from 1972"
+  },
+  {
+   "key": "vecchiharrison1997",
+   "text": "Vecchi, G. A., and D. E. Harrison (1997). Westerly wind events in the tropical Pacific, 1986–1995: an atlas from the ECMWF operational surface wind fields. NOAA Technical Memorandum ERL PMEL-109.",
+   "doi": null,
+   "url": "https://www.pmel.noaa.gov/pubs/PDF/vecc1810/vecc1810.pdf",
+   "check": "full text read; companion to Harrison and Vecchi (1997, J. Climate 10, 3131–3156), whose text was not accessible"
+  },
+  {
+   "key": "harrisongiese1991",
+   "text": "Harrison, D. E., and B. S. Giese (1991). Episodes of surface westerly winds as observed from islands in the western tropical Pacific. <i>Journal of Geophysical Research</i> 96(S01), 3221–3237.",
+   "doi": "10.1029/90JC01775",
+   "url": null,
+   "check": "bibliographic record; content known only from Vecchi and Harrison (1997): indirect"
+  },
+  {
+   "key": "schreck2009",
+   "text": "Schreck, C. J., and J. Molinari (2009). A case study of an outbreak of twin tropical cyclones. <i>Monthly Weather Review</i> 137, 863–875.",
+   "doi": "10.1175/2008MWR2541.1",
+   "url": null,
+   "check": "full text read (copy supplied)"
+  },
+  {
+   "key": "hendon1999",
+   "text": "Hendon, H. H., C. Zhang and J. D. Glick (1999). Interannual variation of the Madden–Julian oscillation during austral summer. <i>Journal of Climate</i> 12, 2538–2550.",
+   "doi": "10.1175/1520-0442(1999)012<2538:IVOTMJ>2.0.CO;2",
+   "url": null,
+   "check": "abstract read"
+  },
+  {
+   "key": "kessler2001",
+   "text": "Kessler, W. S. (2001). EOF representations of the Madden–Julian oscillation and its connection with ENSO. <i>Journal of Climate</i> 14, 3055–3061.",
+   "doi": "10.1175/1520-0442(2001)014<3055:EROTMJ>2.0.CO;2",
+   "url": null,
+   "check": "abstract read"
+  },
+  {
+   "key": "zhanggottschalck2002",
+   "text": "Zhang, C., and J. Gottschalck (2002). SST anomalies of ENSO and the Madden–Julian oscillation in the equatorial Pacific. <i>Journal of Climate</i> 15, 2429–2445.",
+   "doi": "10.1175/1520-0442(2002)015<2429:SAOEAT>2.0.CO;2",
+   "url": null,
+   "check": "abstract read"
+  },
+  {
+   "key": "seiki2007",
+   "text": "Seiki, A., and Y. N. Takayabu (2007). Westerly wind bursts and their relationship with intraseasonal variations and ENSO. Part I: Statistics. <i>Monthly Weather Review</i> 135, 3325–3345.",
+   "doi": "10.1175/MWR3477.1",
+   "url": null,
+   "check": "abstract read"
+  },
+  {
+   "key": "wheelerhendon2004",
+   "text": "Wheeler, M. C., and H. H. Hendon (2004). An all-season real-time multivariate MJO index: development of an index for monitoring and prediction. <i>Monthly Weather Review</i> 132, 1917–1932.",
+   "doi": "10.1175/1520-0493(2004)132<1917:AARMMI>2.0.CO;2",
+   "url": null,
+   "check": "abstract read"
+  },
+  {
+   "key": "kiladis2014",
+   "text": "Kiladis, G. N., et al. (2014). A comparison of OLR and circulation-based indices for tracking the MJO. <i>Monthly Weather Review</i> 142, 1697–1715.",
+   "doi": "10.1175/MWR-D-13-00301.1",
+   "url": null,
+   "check": "bibliographic record; OMI file conventions from NOAA PSL documentation"
+  },
+  {
+   "key": "kalnay1996",
+   "text": "Kalnay, E., et al. (1996). The NCEP/NCAR 40-year reanalysis project. <i>Bulletin of the American Meteorological Society</i> 77, 437–471.",
+   "doi": "10.1175/1520-0477(1996)077<0437:TNYRP>2.0.CO;2",
+   "url": null,
+   "check": "bibliographic record"
+  },
+  {
+   "key": "huang2017",
+   "text": "Huang, B., et al. (2017). Extended Reconstructed Sea Surface Temperature, version 5 (ERSSTv5): upgrades, validations, and intercomparisons. <i>Journal of Climate</i> 30, 8179–8205.",
+   "doi": "10.1175/JCLI-D-16-0836.1",
+   "url": null,
+   "check": "bibliographic record"
+  },
+  {
+   "key": "kim2025",
+   "text": "Kim, H., S.-K. Min, D. Kim and D. Visioni (2025). Volcanically forced Madden–Julian oscillation triggers the immediate onset of El Niño. <i>Nature Communications</i> 16, 1399.",
+   "doi": "10.1038/s41467-025-56692-2",
+   "url": null,
+   "check": "full text read (Europe PMC, CC BY-NC-ND)"
+  },
+  {
+   "key": "predybaylo2020",
+   "text": "Predybaylo, E., G. Stenchikov, A. T. Wittenberg and S. Osipov (2020). El Niño/Southern Oscillation response to low-latitude volcanic eruptions depends on ocean pre-conditions and eruption timing. <i>Communications Earth &amp; Environment</i> 1, 12.",
+   "doi": "10.1038/s43247-020-0013-y",
+   "url": null,
+   "check": "full text read (CC BY)"
+  },
+  {
+   "key": "chai2020",
+   "text": "Chai, J., F. Liu, C. Xing, B. Wang, C. Gao, J. Liu and D. Chen (2020). A robust equatorial Pacific westerly response to tropical volcanism in multiple models. <i>Climate Dynamics</i> 55, 3413–3429.",
+   "doi": "10.1007/s00382-020-05453-6",
+   "url": null,
+   "check": "full text read (open access)"
+  },
+  {
+   "key": "zuo2018",
+   "text": "Zuo, M., W. Man, T. Zhou and Z. Guo (2018). Different impacts of northern, tropical, and southern volcanic eruptions on the tropical Pacific SST in the last millennium. <i>Journal of Climate</i> 31, 6729–6744.",
+   "doi": "10.1175/JCLI-D-17-0571.1",
+   "url": null,
+   "check": "full text read (copy supplied)"
+  },
+  {
+   "key": "worsfold2024",
+   "text": "Worsfold, M., S. Good, C. Atkinson and O. Embury (2024). Presenting a long-term, reprocessed dataset of global sea surface temperature produced using the OSTIA system. <i>Remote Sensing</i> 16, 3358.",
+   "doi": "10.3390/rs16183358",
+   "url": null,
+   "check": "full text read (CC BY)"
+  },
+  {
+   "key": "robock1995",
+   "text": "Robock, A., K. E. Taylor, G. L. Stenchikov and Y. Liu (1995). GCM evaluation of a mechanism for El Niño triggering by the El Chichón ash cloud. <i>Geophysical Research Letters</i> 22, 2369–2372.",
+   "doi": null,
+   "url": null,
+   "check": "NOT READ; DOI not confirmed. Known only from the summaries in Predybaylo et al. (2020), Chai et al. (2020) and Worsfold et al. (2024): indirect"
+  },
+  {
+   "key": "luo2010",
+   "text": "Luo, J.-J., R. Zhang, S. K. Behera, Y. Masumoto, F.-F. Jin, R. Lukas and T. Yamagata (2010). Interaction between El Niño and extreme Indian Ocean dipole. <i>Journal of Climate</i> 23, 726–742.",
+   "doi": "10.1175/2009JCLI3104.1",
+   "url": null,
+   "check": "accepted manuscript read (JAMSTEC copy)"
+  },
+  {
+   "key": "hameed2018",
+   "text": "Hameed, S. N., D. Jin and V. Thilakan (2018). A model for super El Niños. <i>Nature Communications</i> 9, 2528.",
+   "doi": "10.1038/s41467-018-04803-7",
+   "url": null,
+   "check": "full text read (CC BY)"
+  },
+  {
+   "key": "fan2024",
+   "text": "Fan, H., C. Wang, S. Yang and G. Zhang (2024). Coupling is key for the tropical Indian and Atlantic oceans to boost super El Niño. <i>Science Advances</i> 10, eadp2281.",
+   "doi": "10.1126/sciadv.adp2281",
+   "url": null,
+   "check": "full text read (CC BY-NC)"
+  },
+  {
+   "key": "zhang2021",
+   "text": "Zhang, L., W. Han, G. A. Meehl, A. Hu, N. Rosenbloom, T. Shinoda and M. J. McPhaden (2021). Diverse impacts of the Indian Ocean dipole on El Niño–Southern Oscillation. <i>Journal of Climate</i> 34, starting p. 9057.",
+   "doi": null,
+   "url": "https://repository.library.noaa.gov/view/noaa/61748",
+   "check": "full text read (NOAA repository); DOI not confirmed"
+  },
+  {
+   "key": "ohbaueda2007",
+   "text": "Ohba, M., and H. Ueda (2007). An impact of SST anomalies in the Indian Ocean in acceleration of the El Niño to La Niña transition. <i>Journal of the Meteorological Society of Japan</i> 85, 335–348.",
+   "doi": "10.2151/jmsj.85.335",
+   "url": null,
+   "check": "full text read (free J-STAGE copy)"
+  },
+  {
+   "key": "jourdain2016",
+   "text": "Jourdain, N. C., M. Lengaigne, J. Vialard, T. Izumo, et al. (2016). Further insights on the influence of the Indian Ocean dipole on the following year's ENSO from observations and CMIP5 models. <i>Journal of Climate</i> 29, 637–658.",
+   "doi": "10.1175/JCLI-D-15-0481.1",
+   "url": null,
+   "check": "abstract read"
+  },
+  {
+   "key": "psl",
+   "text": "NOAA Physical Sciences Laboratory: MJO indices (OMI, FMO, VPM, ENSO-filtered RMM*), NCEP/NCAR Reanalysis 1 daily and monthly winds, interpolated OLR; NOAA ERSSTv5 via CoastWatch ERDDAP. Computations: tools/probe/mjo.py and tools/probe/io.py in the site repository.",
+   "doi": null,
+   "url": "https://psl.noaa.gov/mjo/mjoindex/",
+   "check": "data read and processed"
+  },
+  {
    "key": "cpc",
    "text": "NOAA Climate Prediction Center: monthly index files (RONI.ascii.txt, oni.ascii.txt, Rnino34.ascii.txt, detrend.nino34.ascii.txt, sstoi.indices, soi, wpac850, cpac850, cpolr.mth.91-20.ascii, heat_content_index.txt, IOD files); PMEL warm water volume. Site copies in the data archive.",
    "doi": null,
@@ -969,6 +1265,266 @@
  "after": {
   "id": "status-notes",
   "title": "What is not yet established",
-  "html": "<ul>\n<li><b>Tropical cyclone pairs and westerly wind bursts in 1982.</b> Their role is plausible in general <a href=\"#ref-keen1982\">[12]</a> <a href=\"#ref-luther1983\">[16]</a> but I have not yet found a verified 1982-specific catalogue. Next step: daily ship-wind and reanalysis evidence (ERA5, JRA-55) and the 1982 best-track record.</li>\n<li><b>MJO.</b> Not yet assessed; real-time indices exist from 1979 but are themselves contaminated by ENSO signals in strong events.</li>\n<li><b>El Chichón as a forcing.</b> Contested in the literature <a href=\"#ref-khodri2017\">[13]</a> <a href=\"#ref-dee2020\">[4]</a>; no study isolating its effect on the 1982 onset has been found yet.</li>\n<li><b>Gill &amp; Rasmusson (1983)</b> and the full texts of the 1983 <i>Science</i> papers were not accessible; only abstracts were read.</li>\n<li><b>What was knowable at the time.</b> The 1982 event departed from the Rasmusson–Carpenter composite <a href=\"#ref-rc1982\">[19]</a> <a href=\"#ref-cane1983\">[2]</a>; coupled-model forecasts began only with the 1986 event <a href=\"#ref-czd1986\">[3]</a>.</li></ul>"
- }
+  "html": "<ul>\n<li><b>Westerly bursts.</b> A complete 1982 episode catalogue has not yet been assembled in this review; Chu (1989), Sumathipala (1989) and Sadler (1983) remain to be retrieved, and the reanalysis burst list should be checked against JRA-55 or ERA5.</li>\n<li><b>MJO, El Chichón and the Indian Ocean.</b> Assessed above; all three contributions remain unresolved or model-dependent.</li>\n<li><b>Full texts.</b> Gill &amp; Rasmusson (1983) could not be read at all; for the 1983 <i>Science</i> papers only abstracts were read (see the citation audit).</li>\n<li><b>What was knowable at the time.</b> The 1982 event was compared with a six-event composite <a href=\"#ref-rw1983\">[20]</a> and departed markedly from the usual pattern <a href=\"#ref-rc1982\">[19]</a> <a href=\"#ref-cane1983\">[2]</a>; coupled-model forecasts began only with the 1986 event <a href=\"#ref-czd1986\">[3]</a>.</li></ul>"
+ },
+ "post_sections": [
+  {
+   "id": "mjo",
+   "title": "MJO contribution (assessment)",
+   "html": "<p><b>Question.</b> Did the Madden–Julian oscillation help start or grow the 1982–83 El Niño? <b>Answer so far: unresolved for initiation; a plausible contributor to growth; and partly modified by El Niño itself from late 1982.</b></p>\n<p><b>Event-specific literature.</b> Weickmann (1991) is the only event-specific MJO study located. Its abstract reports six MJOs between September 1981 and April 1982, and states that interannual transitions in circulation and western-central Pacific SST coincided with strong MJO passages from the Indian Ocean into the Pacific <a href=\"#ref-weickmann1991\">[27]</a>. That is an observed association, not a demonstration that the MJO caused the transition. Chu and Frederick (1990) document the May 1982 burst but attribute its origin to midlatitude pressure forcing and do not discuss the MJO <a href=\"#ref-chufrederick1990\">[28]</a>.</p>\n<p><b>Indices used as a first diagnostic only.</b> The Wheeler–Hendon RMM file could not be downloaded (the Bureau of Meteorology blocks automated access). We used the OLR-based OMI <a href=\"#ref-kiladis2014\">[38]</a>, the filtered FMO, the velocity-potential VPM and the RMM* index, which removes ENSO with a linear inverse model (Nov–Apr only) <a href=\"#ref-psl\">[53]</a>. We also built three indices of our own from NCEP/NCAR Reanalysis 1 winds and interpolated OLR, 10°S–10°N, base period 1979–2001 <a href=\"#ref-kalnay1996\">[39]</a> <a href=\"#ref-psl\">[53]</a>: a Wheeler–Hendon-style index (120-day mean removed) <a href=\"#ref-wheelerhendon2004\">[37]</a>, a 20–100-day band-pass combined index, and an OLR-only index. Because ENSO contaminates such indices in strong events, every candidate was checked against daily filtered OLR, 850 hPa and 200 hPa winds for coherent eastward movement.</p>",
+   "table": {
+    "cols": [
+     "Episode",
+     "OMI max (phases)",
+     "FMO",
+     "VPM",
+     "RMM*",
+     "Own band-pass",
+     "Eastward propagation in OLR, u850, u200",
+     "Burst at 5°S–5°N, 1000 hPa (R1)",
+     "Classification"
+    ],
+    "cls": "",
+    "rows": [
+     [
+      "25 Nov 1981 – 21 Jan 1982",
+      "2.32 (5→8→1)",
+      "2.38",
+      "1.87",
+      "1.71",
+      "1.46",
+      "Yes: 105°E → 155°E in about three weeks; westerlies behind, upper easterlies above",
+      "No (anomaly ≤ 4.6 m s⁻¹)",
+      "MJO, robust across indices"
+     ],
+     [
+      "25 Mar – 3 Apr 1982",
+      "1.41 (6)",
+      "1.58",
+      "1.84",
+      "1.12",
+      "1.68",
+      "Unclear: convection jumped from 85°E to 145°E in about six days",
+      "Yes, +12 m s⁻¹, 147.5°–165°E",
+      "Burst with a marginal MJO"
+     ],
+     [
+      "1–16 May 1982",
+      "2.26 (6→7→8)",
+      "2.89",
+      "1.83",
+      "— (outside season)",
+      "2.11",
+      "Yes: 80°E (21–27 Apr) → 150°E (9 May); u850 westerlies 145°–155°E, u200 easterlies −10 m s⁻¹",
+      "Yes, +7.5 m s⁻¹, 137.5°–160°E (documented 6–16 May)",
+      "Burst inside an MJO envelope"
+     ],
+     [
+      "10–20 Jul 1982",
+      "0.68 (2→5)",
+      "0.86",
+      "1.77",
+      "—",
+      "0.82",
+      "No coherent signal; filtered OLR only −5 W m⁻² at the burst",
+      "Yes, +8.2 m s⁻¹, 155°–175°E",
+      "Burst without an active MJO"
+     ],
+     [
+      "24 Aug – 3 Sep 1982",
+      "1.32 (6)",
+      "1.11",
+      "1.39",
+      "—",
+      "1.38",
+      "Yes: 65°–70°E (2–8 Aug) → 175°–180°E (29 Aug–1 Sep)",
+      "Yes, +9.4 m s⁻¹, 162.5°–185°E",
+      "MJO-associated burst"
+     ],
+     [
+      "4–26 Nov 1982",
+      "1.71 (4→8)",
+      "1.84",
+      "2.50",
+      "1.45",
+      "2.21",
+      "Convection appeared near 170°–160°W rather than propagating continuously from the Maritime Continent",
+      "Yes, +10.5 m s⁻¹, 152.5°–205°E, on a 60-day mean anomaly of +5 m s⁻¹",
+      "Mature-phase burst; MJO shifted east"
+     ]
+    ],
+    "note": "Amplitudes are √(PC1²+PC2²) maxima within each window; ≥ 1 is the usual activity threshold. OMI phases use the PSL conversion (OMI PC2 → RMM1, −OMI PC1 → RMM2). VPM phases are not shown because its sign convention was not verified. Bursts: daily 1000 hPa zonal-wind anomaly ≥ 5 m s⁻¹ for ≥ 3 days over ≥ 10° of longitude within 120°E–150°W, against a 1979–2000 climatology. Reanalysis winds in 1982 rest on sparse island and ship data."
+   },
+   "html_after": "<p><b>Base rate.</b> With the same definition, 1982 had 13 bursts, against a 1979–2001 mean of 4.4 a year (range 0–16; 1997 had 16). Part of the late-1982 count reflects the El Niño's own slow westerly anomaly, so the number overstates independent intraseasonal forcing.</p>\n<p><b>ENSO's influence on the MJO.</b> From October 1982 MJO convection reached 170°–155°W, and October–March intraseasonal OLR variance over 60°–150°E was the second lowest of 22 seasons (1979–2001; only 1997–98 was lower). This matches the published picture of an eastward shift and reduced Indian Ocean activity in exceptional warm events <a href=\"#ref-hendon1999\">[33]</a> <a href=\"#ref-kessler2001\">[34]</a>. These late-1982 features are therefore partly a consequence of El Niño, and cannot be counted as evidence that the MJO drove it.</p>\n<p><b>Separating MJO episodes from local bursts.</b> Bursts on 6–16 May and 24 Aug–3 Sep sat inside eastward-moving MJO envelopes. The 10–20 July burst did not; it coincides with the sustained westerlies and southerly cross-equatorial flow described by Harrison (1984) <a href=\"#ref-harrison1984\">[8]</a>. The 28 Mar–3 Apr burst occurred with only a marginal MJO. Statistical work for 1979–2002 finds most bursts tied to MJO-like convection, but MJO amplitude itself is not correlated with burst frequency <a href=\"#ref-seiki2007\">[36]</a>. Across 1980–99, stronger MJO Kelvin-wave forcing preceded larger eastern-Pacific SST anomalies in warm events <a href=\"#ref-zhanggottschalck2002\">[35]</a>. That is a multi-event result, not a measurement for 1982.</p>\n<p><b>Verdict.</b> The MJO was active at the right times and places (Dec 1981; May 1982; late Aug 1982), and the May burst — the first sustained one of 1982 — occurred within an MJO envelope. No study isolates the ocean response to MJO forcing in 1982, so <b>the MJO's contribution remains unresolved</b> (grade C). Next steps: ocean-model runs forced with and without intraseasonal winds (as in later studies of 1997), and a second reanalysis (JRA-55 or ERA5) to test the burst list.</p>"
+  },
+  {
+   "id": "bursts",
+   "title": "Documented westerly wind events, 1982",
+   "html": "<p>Luther et al. (1983) show from island records that central-Pacific easterlies weakened before each El Niño of 1950–78 except 1963, through strong westerly bursts lasting about 1–3 weeks <a href=\"#ref-luther1983\">[16]</a>. That supports the general mechanism; it does not document the 1982 episodes. The May 1982 study cited in the Vecchi–Harrison atlas is Chu and Frederick (1990) <a href=\"#ref-vecchiharrison1997\">[30]</a> <a href=\"#ref-chufrederick1990\">[28]</a>. For each documented episode the table separates the wind event, its atmospheric origin, the ocean response and its contribution. Observing a burst does not by itself raise the causal grade.</p>",
+   "table": {
+    "cols": [
+     "Episode",
+     "Wind event (evidence)",
+     "Atmospheric origin",
+     "Ocean response",
+     "Contribution to El Niño",
+     "MJO (assessed separately)",
+     "Grade"
+    ],
+    "cls": "",
+    "rows": [
+     [
+      "6–16 May 1982",
+      "Documented: 12-hourly island, atoll and ship winds; 11 days; within ~5° of the equator; 1000 → >3500 km zonal extent; peak in 5°N–5°S, 135°–155°E <a href=\"#ref-chufrederick1990\">[28]</a>",
+      "Authors: pressure rise in the far western equatorial Pacific following midlatitude forcing, plus a pressure fall at ~150°–160°E that prolonged it (the same mechanism Chu found for two 1972 bursts) <a href=\"#ref-chufrederick1990\">[28]</a> <a href=\"#ref-chu1988\">[29]</a>",
+      "Surface heat fluxes and SST before, during and after the burst analysed by the authors; the remote Kelvin-wave response to this burst is not isolated in the sources read",
+      "Described as the first sustained burst of 1982, about three months before onset (citing Harrison and Schopf 1984); not quantified",
+      "Inside an MJO envelope (OMI 6–7, up to 2.3)",
+      "B (event); C (contribution)"
+     ],
+     [
+      "June 1982 onward",
+      "Sustained equatorial westerlies west of the Date Line from June <a href=\"#ref-harrison1984\">[8]</a>",
+      "Preceded by an anomalous southerly band at 150°–160°E crossing the equator from as far south as the Tasman Sea <a href=\"#ref-harrison1984\">[8]</a>",
+      "These westerlies induced the initial strong equatorial warming east of the Date Line (author's interpretation); undercurrent at 159°W decayed in August <a href=\"#ref-harrison1984\">[8]</a> <a href=\"#ref-firing1983\">[5]</a>",
+      "Proposed trigger of the vigorous phase (one study)",
+      "July burst without an active MJO",
+      "B (event); B/C (contribution)"
+     ],
+     [
+      "Through November 1982",
+      "‘A succession of westerly pulses’ until November, citing Sadler (1983) and Harrison (1984) — indirect <a href=\"#ref-chufrederick1990\">[28]</a>",
+      "Not described in the sources read",
+      "Basin-wide adjustment, undercurrent reversal, sea-level and thermocline changes <a href=\"#ref-firing1983\">[5]</a> <a href=\"#ref-halpern1983\">[7]</a>",
+      "Amplifier (general theory plus event observations)",
+      "Late Aug burst MJO-associated; Nov bursts on the El Niño westerly background",
+      "C (individual pulses not documented)"
+     ]
+    ],
+    "note": "Not yet retrieved: Chu (1989) on the origin of the May 1982 bursts, Sumathipala (1989) on 1982–84 bursts and Sadler (1983); all three are known only from Chu and Frederick's reference list. Harrison and Giese (1991) catalogue near-Date Line island westerly episodes for 1950–80, which excludes 1982 (described in the Vecchi–Harrison atlas)."
+   }
+  },
+  {
+   "id": "elchichon",
+   "title": "El Chichón as an external forcing (assessment)",
+   "html": "<p>Initiation and subsequent growth are judged separately.</p>\n<p><b>Initiation: not supported by the timing; formally unresolved.</b> The eruptions were on 29 March and 3–4 April 1982 <a href=\"#ref-worsfold2024\">[45]</a>. Before them the equatorial Pacific was already recharged — warm water volume +2.15 × 10¹⁴ m³ in March, the 96th percentile of 1980–2025 months — and western-Pacific trades were already weaker than normal (Feb–Apr), after the strong December 1981 MJO <a href=\"#ref-cpc\">[54]</a> <a href=\"#ref-weickmann1991\">[27]</a>. Khodri et al. note that ocean reanalyses show high equatorial heat content before El Chichón, and that a warm event was already under way during two of the four large historical eruptions they list (Santa María 1902, Agung 1963, El Chichón 1982, Pinatubo 1991), without naming which two <a href=\"#ref-khodri2017\">[13]</a>. In GFDL CM2.1 ensembles the ENSO response depends on the ocean state and timing, and when a strong El Niño is already developing at an April eruption the volcanic effect is unlikely to be visible <a href=\"#ref-predybaylo2020\">[42]</a>. With only three observed cases, Chai et al. state that the westerlies after Agung, El Chichón and Pinatubo cannot be attributed to the eruptions rather than internal variability <a href=\"#ref-chai2020\">[43]</a>. Robock et al. (1995) are reported by later papers to have concluded that the 1982 event began before the eruption; that paper was not read, so this is indirect evidence <a href=\"#ref-robock1995\">[46]</a>.</p>\n<p><b>Growth: possible weak amplifier, unresolved.</b> Several models produce westerly anomalies over the western-central Pacific within months of a tropical eruption — through tropical African cooling and a Kelvin-wave response <a href=\"#ref-khodri2017\">[13]</a>, through South–Southeast Asian and West African drying (8 of 11 models) <a href=\"#ref-chai2020\">[43]</a>, or through Maritime Continent cooling <a href=\"#ref-zuo2018\">[44]</a>. Kim et al. propose that faster land drying around the warm pool helps the MJO propagate into the western Pacific, raising burst frequency (by about 76% in CESM2) and the chance of El Niño onset <a href=\"#ref-kim2025\">[41]</a>. For 1982 that pathway bears on growth rather than onset: their observed signals are in July–November 1982, after the documented May burst and the June westerlies; Maritime Continent drying and enhanced central-Pacific MJO activity are also normal El Niño responses; the ensemble was screened on an April–June recharge index that includes post-eruption months (0.9σ in 1982, which the authors class as neutral); and HadGEM3 did not reproduce the result. Proxy records show no consistent ENSO response to eruptions over the last millennium <a href=\"#ref-dee2020\">[4]</a>.</p>\n<p><b>Observing-system effect (certain).</b> Volcanic aerosol biased satellite SST low by up to 2.5 °C <a href=\"#ref-bandeen1982\">[1]</a>. A reprocessed OSTIA record found unexplained biases in May and Oct–Dec 1982 in its single AVHRR input, which the authors attribute mainly to instrument calibration rather than the eruption <a href=\"#ref-worsfold2024\">[45]</a>. RONI and ONI use the in-situ ERSST record.</p>"
+  },
+  {
+   "id": "indopacific",
+   "title": "Indian–Pacific interactions, 1982 (assessment)",
+   "html": "<p>Simultaneous positive DMI and Pacific warming are not treated as causal in either direction, and the IOD is not dismissed because it may have been ENSO-driven at first.</p>\n<p><b>Observed sequence</b> (ERSSTv5 boxes vs 1981–2010 <a href=\"#ref-huang2017\">[40]</a>; NCEP/NCAR R1 monthly surface winds; interpolated OLR <a href=\"#ref-psl\">[53]</a>):</p>",
+   "table": {
+    "cols": [
+     "Period",
+     "Indian Ocean",
+     "Pacific",
+     "Reading"
+    ],
+    "cls": "",
+    "rows": [
+     [
+      "Jan–Apr 1982",
+      "SE pole (90°–110°E, 10°S–0°) −0.3 to −0.5 °C from Feb; DMI +0.3 to +0.4 °C; equatorial IO winds (70°–90°E) not easterly (Mar +1.0 m s⁻¹)",
+      "Niño 3.4 −0.1 °C in Feb, +0.2 °C in Mar; western-Pacific westerly anomalies +0.7 to +1.3 m s⁻¹ (Mar–Apr)",
+      "Eastern IO cooling came first but without the Indian Ocean wind feedback; cause not established"
+     ],
+     [
+      "May–Aug 1982",
+      "DMI +0.4 to +0.6 °C; SE-pole convection suppressed (OLR +5 to +15 W m⁻²); IO easterlies only from Jul–Aug",
+      "Niño 3.4 +0.5 to +0.7 °C; western-Pacific westerlies +1.0 to +2.0 m s⁻¹",
+      "Both basins anomalous; direction unresolved"
+     ],
+     [
+      "Sep–Nov 1982",
+      "DMI peak +1.04 °C (Oct); IO easterlies −2.5 to −3.1 m s⁻¹; Maritime Continent OLR +18 to +29 W m⁻²",
+      "Niño 3.4 +1.3 to +1.9 °C",
+      "Coupled IOD after El Niño was established; size matches ENSO forcing"
+     ],
+     [
+      "Dec 1982 – Jul 1983",
+      "DMI negative Dec–May; basin-wide warming +0.1 to +0.4 °C; positive DMI again Jun–Aug 1983",
+      "Western-Pacific easterly anomalies −1.0 to −1.6 m s⁻¹ (Dec–Apr); Niño 3.4 falls to 0 by Jul",
+      "Consistent with modelled basin-warming feedback on the decay"
+     ]
+    ],
+    "note": "Seasonal statistics use 1950–2024, linearly detrended. CPC's DMI (in the monthly table above) differs in detail from these ERSSTv5 boxes."
+   },
+   "html_after": "<p><b>Statistics (base rates and lead–lag).</b> DMI and Niño 3.4 in SON correlate at r = 0.59 (n = 75). Regressing SON DMI on SON Niño 3.4 (excluding 1982) predicts +0.61 °C for 1982; the observed value was +0.58 °C (residual 0.07 standard deviations). By this measure the 1982 IOD was as large as ENSO alone would make it. The JJA DMI adds no information about NDJ Niño 3.4 once JJA Niño 3.4 is known (partial r = 0.02). The SON DMI is negatively related to the following year's NDJ Niño 3.4 after removing SON Niño 3.4 (partial r = −0.30), in line with the reported tendency for a positive IOD to be followed by La Niña <a href=\"#ref-jourdain2016\">[52]</a>. Of 17 years with SON DMI above +0.4 °C (1950–2024), 11 coincided with El Niño.</p>\n<p><b>Initiation.</b> No evidence that the Indian Ocean initiated the event. The early eastern-pole cooling preceded Pacific warming but lacked the wind feedback, and no study tests it for 1982.</p>\n<p><b>Growth and peak.</b> Pacific forcing of the IOD is well supported: the El Niño-related loss of Maritime Continent convection drives easterlies over the eastern Indian Ocean <a href=\"#ref-zhang2021\">[50]</a>. Feedback the other way is supported only by models that include 1982: forecasts with Indian Ocean coupling suppressed underestimate the 1982–83 peak, though that model over-predicted the 1982 IOD <a href=\"#ref-luo2010\">[47]</a>; a simple model driven by IOD-induced winds (heating taken from the 1982 and 1997 OLR composites) reproduces eastern-Pacific intensification <a href=\"#ref-hameed2018\">[48]</a>; decoupling the Indian and Atlantic Oceans weakens super El Niños, with coupling between the two oceans the key factor <a href=\"#ref-fan2024\">[49]</a>. Against this, one coupled model found no significant Pacific impact from a fall IOD <a href=\"#ref-ohbaueda2007\">[51]</a>, and a pIOD can also favour La Niña-like conditions when the Seychelles–Chagos ridge warms <a href=\"#ref-zhang2021\">[50]</a>. Verdict: <b>plausible amplifier of the late-1982 growth and peak, model-dependent (grade C)</b>.</p>\n<p><b>Persistence and decay.</b> In one coupled model, basin-wide Indian Ocean warming in DJF strengthens western-Pacific easterlies and hastens the El Niño–La Niña transition <a href=\"#ref-ohbaueda2007\">[51]</a>. The observed 1983 sequence (basin warming, western-Pacific easterlies, then the weak 1983–84 La Niña) is consistent with that, but not tested for 1983 specifically (grade C).</p>"
+  },
+  {
+   "id": "audit",
+   "title": "Citation audit: Gill and Rasmusson (1983) and the 1983 Science papers",
+   "html": "<p>For each cited claim: what was read, whether it supports the claim, where a legitimate full text was sought, and what was changed. Full-text searches covered OpenAlex, Unpaywall, Semantic Scholar, institutional repositories and NOAA archives.</p>",
+   "table": {
+    "cols": [
+     "Paper",
+     "Read",
+     "Claim as cited",
+     "Supported by accessible text?",
+     "Full text sought",
+     "Action"
+    ],
+    "cls": "",
+    "rows": [
+     [
+      "Gill &amp; Rasmusson 1983 <a href=\"#ref-gill1983\">[6]</a>",
+      "Nothing (no abstract found in Crossref, OpenAlex or Semantic Scholar; publisher page only)",
+      "Bjerknes feedback strengthened Aug–Dec 1982",
+      "Not verifiable",
+      "None found; an IRD PDF listed under this title was a different report (Donguy and Eldin 1985)",
+      "Removed as support; row now rests on CPC data plus Bjerknes (1969) as general theory"
+     ],
+     [
+      "Rasmusson &amp; Wallace 1983 <a href=\"#ref-rw1983\">[20]</a>",
+      "Abstract",
+      "Bjerknes feedback strengthened Aug–Dec 1982",
+      "No: the abstract says only that the event's time history is described and compared with a six-event composite",
+      "None found",
+      "Removed from that row"
+     ],
+     [
+      "Cane 1983 <a href=\"#ref-cane1983\">[2]</a>",
+      "Abstract",
+      "1982 departed from the Rasmusson–Carpenter composite",
+      "Yes: the abstract says the recent event differs markedly from the usual pattern",
+      "Columbia Academic Commons copy listed by Unpaywall; automated access refused",
+      "Kept"
+     ],
+     [
+      "Halpern et al. 1983 <a href=\"#ref-halpern1983\">[7]</a>",
+      "Abstract",
+      "Aug flow reversal at 0°, 110°W; Oct SST +5 °C, Galápagos +22 cm, thermocline 50–70 m deeper",
+      "Yes, for the observations. The abstract says SST rose 5 °C ‘in the equatorial zone’ (eastern tropical Pacific), and does not mention Kelvin waves",
+      "None found",
+      "Wording narrowed; Kelvin-wave reading marked as interpretation"
+     ],
+     [
+      "Firing et al. 1983 <a href=\"#ref-firing1983\">[5]</a>",
+      "Abstract",
+      "Undercurrent at 159°W decayed Aug, partly reversed Sep, reappeared Jan 1983",
+      "Yes. The link to westerly winds is the authors' stated interpretation (‘consistent with’)",
+      "None found",
+      "Kept"
+     ],
+     [
+      "Luther et al. 1983 <a href=\"#ref-luther1983\">[16]</a>",
+      "Abstract",
+      "Bursts of 1–3 weeks precede El Niño",
+      "Yes for 1950–78 (all events except 1963); says bursts ‘may’ force Kelvin waves; nothing on 1982 or the MJO",
+      "None found",
+      "Reworded; MJO statement now cited to MJO studies"
+     ],
+     [
+      "Harrison 1984 <a href=\"#ref-harrison1984\">[8]</a>",
+      "Abstract",
+      "June southerly band at 150°–160°E, then sustained westerlies; trigger of the vigorous phase",
+      "Yes, as the author's interpretation (‘appears to be an important component’)",
+      "None found",
+      "Kept as ‘proposed’"
+     ]
+    ],
+    "note": "No detailed finding is inferred from a title or from another author's citation. Where only a later paper's account was available (Robock et al. 1995; Sadler 1983; Harrison and Giese 1991), the later paper is cited and the evidence is marked indirect."
+   }
+  }
+ ]
 }
