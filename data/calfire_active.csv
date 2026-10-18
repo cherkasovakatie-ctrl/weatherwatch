@@ -1,9 +1,8 @@
 incident,county,started,acres,containment_pct
 Timber Fire,Monterey,2026-08-08,25352,97
 Henderson Fire,San Diego,2026-10-15,3160,65
-Cooley Fire,Mendocino,2026-10-16,731,5
-Norte Fire,Orange,2026-10-16,570,25
+Cooley Fire,Mendocino,2026-10-16,1037,5
+Norte Fire,Orange,2026-10-16,570,50
 Cyrus Fire,Kern,2026-10-09,543,96
 Bryson Fire,Los Angeles,2026-10-15,146,68
 Surgone Fire,Humboldt,2026-10-11,64,95
-Peak Fire,Los Angeles,2026-10-15,43,41

@@ -1,18 +1,18 @@
 {
- "run_utc": "2026-10-18T17:16:33.592Z",
- "run_local": "2026-10-18 10:16",
+ "run_utc": "2026-10-18T21:32:16.953Z",
+ "run_local": "2026-10-18 14:32",
  "results": [
   {
    "id": "earthquakes",
    "ok": true,
    "rows": 613,
-   "newest": "2026-10-18 15:35"
+   "newest": "2026-10-18 19:32"
   },
   {
    "id": "local_obs",
    "ok": true,
    "rows": 37,
-   "newest": "2026-10-18 10:00"
+   "newest": "2026-10-18 14:10"
   },
   {
    "id": "local_periods",
@@ -42,31 +42,31 @@
    "id": "local_watertemp",
    "ok": true,
    "rows": 72,
-   "newest": "2026-10-18 10:00"
+   "newest": "2026-10-18 14:00"
   },
   {
    "id": "fires_global_grid",
    "ok": true,
-   "rows": 3622,
+   "rows": 3747,
    "newest": "9.5"
   },
   {
    "id": "fires_socal",
    "ok": true,
-   "rows": 378,
+   "rows": 382,
    "newest": "2026-10-18"
   },
   {
    "id": "space_daily",
    "ok": true,
    "rows": 31,
-   "newest": "2026-10-17",
-   "note": "0 new, 0 values updated"
+   "newest": "2026-10-18",
+   "note": "1 new, 0 values updated"
   },
   {
    "id": "calfire_active",
    "ok": true,
-   "rows": 8,
+   "rows": 7,
    "newest": "Timber Fire"
   },
   {
@@ -87,14 +87,14 @@
    "ok": true,
    "rows": 170,
    "newest": "2026-12-31",
-   "note": "0 new, 0 values updated"
+   "note": "0 new, 2 values updated"
   },
   {
    "id": "seaice_clim",
    "ok": true,
    "rows": 365,
    "newest": "12-31",
-   "note": "0 new, 2 values updated"
+   "note": "0 new, 0 values updated"
   },
   {
    "id": "oni",
@@ -130,6 +130,13 @@
    "rows": 573,
    "newest": "2026-09",
    "note": "0 new, 0 values updated"
+  },
+  {
+   "id": "storm_fixes",
+   "ok": true,
+   "rows": 666,
+   "newest": "Wati",
+   "note": "664 IBTrACS fixes, 620 checked against the old file, 2 existing rows kept (advisories, or storms not in IBTrACS)"
   },
   {
    "id": "sst_weekly",
