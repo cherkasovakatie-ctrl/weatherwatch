@@ -27,7 +27,7 @@ It refreshes, from public APIs:
   `local_watertemp`, `volcano_alerts_us` (USGS, NWS, Open-Meteo, NOAA CO-OPS, USGS HANS); `fires_global_grid`
   (past 24 h) and `fires_socal` (past 5 days) from NASA FIRMS; `space_daily` (NOAA SWPC), `calfire_active`
   (CAL FIRE), `coral_dhw` and `coral_now` (NOAA Coral Reef Watch), `ozone_2026` (NASA Ozone Watch) and the 2026
-  columns of `seaice_clim` (NSIDC); `blob_boxes` (NOAA ERSSTv5 via ERDDAP, monthly); `storm_fixes` (NOAA NCEI IBTrACS ACTIVE).
+  columns of `seaice_clim` (NSIDC); `blob_boxes` (NOAA ERSSTv5 via ERDDAP, monthly); `storm_fixes` (NOAA NCEI IBTrACS last3years file, republished every few days).
 - **Monthly and weekly indices, checked daily:** `sst_weekly` and `sst_monthly` (CPC Niño SST files), `oni` (ONI and RONI), `ao_aao`, `planet_monthly` (GISTEMP, Mauna Loa CO2,
   Rutgers snow), `sunspots_monthly` (SILSO) and the heat-content column of `enso_subsurface` (CPC). A new month is
   added only when every column of that month has a value; existing months take the source's latest revision.

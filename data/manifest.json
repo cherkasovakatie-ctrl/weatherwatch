@@ -574,9 +574,9 @@
    "id": "storm_fixes",
    "file": "storm_fixes.csv",
    "title": "Storm positions over time",
-   "description": "6-hourly tropical cyclone fixes for the past 35 days (position, 1-minute maximum wind, pressure) from NOAA NCEI IBTrACS v04r01 ACTIVE provisional tracks (NHC and JTWC data); category is Saffir–Simpson from the 1-minute wind, 'Low or disturbance' before formation and 'Post-tropical' after. Numbered systems not yet named in IBTrACS appear by ID (e.g. WP29). Storms that have dropped out of the ACTIVE file, and NHC advisory positions newer than IBTrACS's last fix, are kept. Refreshed daily at 9 am Pacific by the scripted refresh (tools/nightly).",
+   "description": "6-hourly tropical cyclone fixes for the past 35 days (position, 1-minute maximum wind, pressure) from NOAA NCEI IBTrACS v04r01 last3years file (provisional for recent storms; NHC and JTWC data; NCEI republishes every few days); category is Saffir–Simpson from the 1-minute wind, 'Low or disturbance' before formation and 'Post-tropical' after. Numbered systems not yet named in IBTrACS appear by ID (e.g. WP29). NHC advisory positions newer than IBTrACS's last fix are kept. Refreshed daily at 9 am Pacific by the scripted refresh (tools/nightly).",
    "updated": "2026-10-18",
-   "bytes": 28674
+   "bytes": 51593
   },
   {
    "id": "sunspots_monthly",
