@@ -28,7 +28,7 @@ It refreshes, from public APIs:
   (past 24 h) and `fires_socal` (past 5 days) from NASA FIRMS; `space_daily` (NOAA SWPC), `calfire_active`
   (CAL FIRE), `coral_dhw` and `coral_now` (NOAA Coral Reef Watch), `ozone_2026` (NASA Ozone Watch) and the 2026
   columns of `seaice_clim` (NSIDC); `blob_boxes` (NOAA ERSSTv5 via ERDDAP, monthly).
-- **Monthly indices, checked daily:** `oni` (ONI and RONI), `ao_aao`, `planet_monthly` (GISTEMP, Mauna Loa CO2,
+- **Monthly and weekly indices, checked daily:** `sst_weekly` and `sst_monthly` (CPC Niño SST files), `oni` (ONI and RONI), `ao_aao`, `planet_monthly` (GISTEMP, Mauna Loa CO2,
   Rutgers snow), `sunspots_monthly` (SILSO) and the heat-content column of `enso_subsurface` (CPC). A new month is
   added only when every column of that month has a value; existing months take the source's latest revision.
 
@@ -51,6 +51,9 @@ instructions ("Weather & ENSO"), and these rules:
 - **Every index keeps its dataset, averaging period, date and climatology base.** ONI/RONI are
   centred 3-month means lagging the ocean by ~6 weeks; weekly/daily OISST is the live state.
 - CPC standardized SOI is in standard deviations; BOM scale is ×10.
+- Backup: the sheet is also published as CSV (File → Publish to web); each tab is readable at
+  `https://docs.google.com/spreadsheets/d/e/2PACX-1vSDsjlfm3r3JwgBbm40qXK9d5lsjAwwVjyKs_hh963NuwS3_91QCmndBdqfD7ni1hyVcuNuCgxwlRJg/pub?single=true&output=csv&gid=<tab gid>`
+  (SST 824748939, RSST 1898386216, SOI 0, Winds 1686709403, PDO 350267698, MJO 334938232, WWV 1170026920).
 - Kate's Google Sheet "Weather Watch_NOAA source data" (ID
   `1rlsO2k4eCqrcAJ6-264_IngDDVBwbafUJwnU3izDPx0`) is the primary source for CPC indices. Read it
   with the Google Drive connector; if the read returns only a sample, fall back to the CPC `.txt`
@@ -63,7 +66,7 @@ instructions ("Weather & ENSO"), and these rules:
 
 | Group | Datasets |
 |---|---|
-| ENSO and drivers | `sst_weekly`, `mjo_daily`, `poles_daily`, `enso_subsurface` (WWV column only) |
+| ENSO and drivers | `mjo_daily`, `poles_daily`, `enso_subsurface` (WWV column only) |
 | Hazards | `tropical_cyclones`, `tc_tracks`, `storm_fixes`, `ace_season`, `gdacs_current`, `volcanoes_weekly`, `impacts` |
 | Southern California | `coast_hourly`, `ar_watch`, `ridge_watch`, `cdec_reservoirs` |
 | Poles, ocean, space | `polar_stations`, `polar_motion` |
@@ -72,7 +75,7 @@ instructions ("Weather & ENSO"), and these rules:
 
 ### When a new month is out (first refresh after CPC/NOAA publish)
 
-`atmosphere_monthly`, `sst_monthly`, `drivers_monthly`, `sealevel_global` (the others are in the daily script).
+`atmosphere_monthly`, `drivers_monthly`, `sealevel_global` (the others are in the daily script).
 
 ### Annual or static — leave alone unless the period has closed
 

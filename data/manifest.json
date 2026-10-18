@@ -558,17 +558,17 @@
    "id": "sst_monthly",
    "file": "sst_monthly.csv",
    "title": "Monthly Niño and basin SSTs",
-   "description": "Monthly OISST v2.1 Niño-region anomalies and relative anomalies, ERSSTv6 Niño 3.4 (absolute and relative), Atlantic and global-tropics anomalies. From the project data sheet 'Weather Watch_NOAA source data' (mirrors NOAA CPC index files), read 11 Oct 2026.",
-   "updated": "2026-10-11",
-   "bytes": 53862
+   "description": "Monthly OISST v2.1 Niño-region anomalies (sstoi.indices) and relative anomalies (rel_mthsst9120.txt), ERSSTv6 Niño 3.4 (detrend.nino34.ascii.txt) and its relative version (Rnino34.ascii.txt), and Atlantic and global-tropics anomalies (sstoi.atl.indices), all NOAA CPC. Checked daily at 9 am Pacific by the scripted refresh (tools/nightly); a new month is added once every column has a value.",
+   "updated": "2026-10-18",
+   "bytes": 53847
   },
   {
    "id": "sst_weekly",
    "file": "sst_weekly.csv",
    "title": "Weekly Niño SST anomalies",
-   "description": "Weekly OISST v2.1 anomalies (1991–2020 base) and relative anomalies for Niño 1+2, 3, 3.4 and 4, from 1981. From the project data sheet 'Weather Watch_NOAA source data' (mirrors NOAA CPC index files), read 11 Oct 2026.",
-   "updated": "2026-10-11",
-   "bytes": 111316
+   "description": "Weekly OISST v2.1 anomalies (1991–2020 base) and relative anomalies for Niño 1+2, 3, 3.4 and 4, from 1981 (NOAA CPC wksst9120.for and rel_wksst9120.txt). Checked daily at 9 am Pacific by the scripted refresh (tools/nightly); a new week is added once both files have it.",
+   "updated": "2026-10-18",
+   "bytes": 111359
   },
   {
    "id": "storm_fixes",
