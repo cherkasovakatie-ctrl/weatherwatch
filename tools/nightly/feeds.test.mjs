@@ -110,3 +110,18 @@ test('sstMonthly maps the five CPC files to the right columns', () => {
   })[0];
   assert.deepEqual(r, { month: '2026-09', nino12: '4.69', nino3: '3.64', nino4: '0.95', nino34: '2.84', rel_nino12: '3.94', rel_nino3: '2.97', rel_nino4: '-0.02', rel_nino34: '2.06', ersst_nino34: '2.56', rel_ersst_nino34: '2.08', n_atlantic: '0.62', s_atlantic: '0.73', global_tropics: '1.14' });
 });
+
+test('IBTrACS: named storms only, 6-hourly, 0–360 longitude converted, category from wind or status', () => {
+  const head = 'SID,SEASON,NUMBER,BASIN,SUBBASIN,NAME,ISO_TIME,NATURE,LAT,LON,USA_LAT,USA_LON,USA_STATUS,USA_WIND,USA_PRES';
+  const csv = [head, ' ,Year',
+    'x,2026,1,EP,MM,SIMON,2026-10-11 00:00:00,TS,18.0,255.2,18.0,-104.8,HU,130,932',
+    'x,2026,1,EP,MM,SIMON,2026-10-11 03:00:00,TS,18.2,255.1,18.2,-104.9,HU,130,932',
+    'x,2026,2,WP,MM,CHOI-WAN,2026-09-30 00:00:00,TS,15.6,151.9,15.6,151.9,TD,25,1005',
+    'x,2026,3,EP,MM,NOLO,2026-09-10 12:00:00,DS,10.5,251.5,10.5,-108.5,DB,15,',
+    'x,2026,4,WP,MM,UNNAMED,2026-10-14 18:00:00,NR,10.4,160.5,10.4,160.5,,29,1004'].join('\n');
+  const r = F.ibtracsRows(csv, '2026-09-01 00:00');
+  assert.equal(r.length, 3);
+  assert.deepEqual(r[0], { storm: 'Simon', basin: 'EP', time_utc: '2026-10-11 00:00', lat: '18.0', lon: '-104.8', wind_kt: '130', pressure_mb: '932', category: 'Cat 4', source: 'IBTrACS v04r01 (provisional)' });
+  assert.equal(r[1].storm, 'Choi-Wan');
+  assert.equal(r[2].category, 'Low or disturbance');
+});

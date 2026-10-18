@@ -330,17 +330,17 @@ body { font-family: var(--font-anthropic-sans); }
         </div>
       </article>
       <article class="ww-card wide" id="card-oni-analogs">
-        <h2>ONI: 2026 against the three strongest events</h2>
+        <h2>ONI and RONI: 2026 against the three strongest events</h2>
         <div class="ww-oni-split">
           <div class="ww-oni-main">
-            <p class="note">Oceanic Niño Index (ERSSTv6, 3-month running mean, centred base periods), aligned from DJF of each onset year. 2026 is the thick blue line; each analogue year has its own colour.</p>
+            <p class="note">Solid lines: Oceanic Niño Index (ONI; ERSSTv6 Niño 3.4, 3-month running mean, centred base periods). Dashed lines: Relative ONI (RONI; Niño 3.4 minus the 20°N–20°S tropical mean, rescaled), NOAA's official index since 1 Feb 2026. Aligned from DJF of each onset year; 2026 is the thick blue line.</p>
             <div class="ww-legend" data-legend="oni_analogs"></div>
             <div class="ww-chart" id="chart-oni-analogs" data-source="oni_analogs"></div>
           </div>
           <aside class="ww-oni-why">
             <h3>What makes 2026 different, and why</h3>
             <ul>
-              <li><b>Fastest rise on record.</b> From weak La Niña (−0.4 in DJF), like 1997, it reached <b>+2.16</b> by JAS, higher than any event at this stage (1997 +1.79, 2015 +1.73). <i>Why:</i> the trade winds collapsed (−2 to −3 m/s anomalies) and released the warm water stored in the west.</li>
+              <li><b>Fastest rise on record.</b> From La Niña (ONI −0.4, RONI −0.9 in DJF), it rose by <b>+2.55 (ONI) and +2.60 (RONI)</b> by JAS, more than any of the three events. On the ONI that put it at <b>+2.16</b>, higher than any event at this stage (1997 +1.79, 2015 +1.73); on the RONI it was +1.69, just below 1997 (+1.84). <i>Why:</i> the trade winds collapsed (−2 to −3 m/s anomalies) and released the warm water stored in the west.</li>
               <li><b>Record fuel below the surface.</b> Upper-300 m heat content reached <b>+3.39 °C</b> in September, far above 1997's +2.56. <i>Why it matters:</i> subsurface heat leads the surface by 1–3 months, so more warming is still in the pipeline.</li>
               <li><b>Extremely east-based.</b> Niño 1+2 off Peru hit <b>+4.7 °C</b> (monthly), a record — stronger even than 1997 (+3.7), and nothing like centre-heavy 2015 (+2.5). East-based events disrupt the Pacific jet stream most, the classic recipe for a wet California winter.</li>
               <li><b>A warmer world underneath.</b> The relative index (RONI) is <b>+1.69</b>, about 0.5 °C below the ONI: the whole tropical ocean is unusually warm, so part of the ONI is background warming, not El Niño. In 1997 the two were almost equal.</li>
@@ -354,8 +354,11 @@ body { font-family: var(--font-anthropic-sans); }
             <thead><tr><th></th><th>1982–83</th><th>1997–98</th><th>2015–16</th><th>2026</th></tr></thead>
             <tbody>
               <tr><th>Start (ONI, DJF)</th><td>−0.1, neutral</td><td>−0.4, weak La Niña</td><td>+0.7, already warm after the 2014 false start</td><td>−0.4, weak La Niña</td></tr>
-              <tr><th>By JAS</th><td>+1.0, slow</td><td>+1.8, fast</td><td>+1.7, steady</td><td><b>+2.2, fastest</b></td></tr>
+              <tr><th>By JAS (ONI)</th><td>+1.0, slow</td><td>+1.8, fast</td><td>+1.7, steady</td><td><b>+2.2, fastest</b></td></tr>
               <tr><th>Peak ONI</th><td>+2.1 (DJF)</td><td>+2.4 (NDJ)</td><td>+2.6 (NDJ), highest ONI on record</td><td>Still rising; peaks usually Nov–Jan</td></tr>
+              <tr><th>Start (RONI, DJF)</th><td>+0.11, neutral</td><td>−0.21, neutral</td><td>+0.54, already at the El Niño threshold</td><td>−0.91, weak La Niña</td></tr>
+              <tr><th>By JAS (RONI)</th><td>+1.14 (rise +1.03)</td><td>+1.84 (rise +2.05), highest at this stage</td><td>+1.54 (rise +1.00)</td><td><b>+1.69 (rise +2.60), largest rise</b></td></tr>
+              <tr><th>Peak RONI</th><td><b>+2.40 (DJF)</b>, highest of the three on RONI</td><td>+2.28 (NDJ)</td><td>+2.25 (NDJ); the ONI–RONI gap shows much of 2015's ONI was tropics-wide warmth</td><td>Still rising. CPC forecast: 54% (SON), 83% (OND), 70% (NDJ) chance of RONI ≥ +2.5, a historic event</td></tr>
               <tr><th>Niño 1+2 max (monthly)</th><td>+4.0, late (Jun 1983)</td><td>+3.7 (Nov)</td><td>+2.5 (Jul)</td><td><b>+4.7</b> (Sep), record</td></tr>
               <tr><th>Subsurface heat max</th><td>—</td><td>+2.56 (Oct)</td><td>+1.97 (Aug)</td><td><b>+3.39</b> (Sep), record</td></tr>
               <tr><th>PDO (Sep)</th><td>+0.5</td><td>+1.8</td><td>+1.0</td><td><b>−1.55</b></td></tr>
@@ -1685,16 +1688,18 @@ dash.calc('headline', {
 dash.calc('oni_analogs', {
   inputs: ['oni'],
   title: 'ONI aligned by onset year',
-  description: 'ONI for 1982, 1997, 2015 and 2026, from DJF of the onset year to MJJ of the next.',
+  description: 'ONI and RONI for 1982, 1997, 2015 and 2026, from DJF of the onset year to MJJ of the next.',
   fn: (oni) => {
     const seasons = ['DJF', 'JFM', 'FMA', 'MAM', 'AMJ', 'MJJ', 'JJA', 'JAS', 'ASO', 'SON', 'OND', 'NDJ'];
     const byMonth = new Map(oni.map((r) => [r.centre_month, r.oni === '' ? null : +r.oni]));
+    const byMonthR = new Map(oni.map((r) => [r.centre_month, r.roni === '' ? null : +r.roni]));
     const rows = [];
     for (let i = 0; i < 18; i++) {
       const row = { step: i, season: seasons[i % 12] + (i >= 12 ? ' +1' : '') };
       for (const y of [1982, 1997, 2015, 2026]) {
         const key = `${y + Math.floor(i / 12)}-${String((i % 12) + 1).padStart(2, '0')}`;
         row['y' + y] = byMonth.has(key) ? byMonth.get(key) : null;
+        row['r' + y] = byMonthR.has(key) ? byMonthR.get(key) : null;
       }
       rows.push(row);
     }
@@ -2531,8 +2536,9 @@ window.WW = (() => {
       { key: 'y2026', label: '2026', color: c[0], width: 3 },
     ];
     K.legend(document.querySelector(`[data-legend="${legendSel}"]`), series);
+    const lines = calcId === 'oni_analogs' ? series.concat(series.map((s) => ({ ...s, key: 'r' + s.key.slice(1), label: s.label + ' RONI', dash: true, width: Math.max(1.25, s.width - 0.5) }))).map((s) => (s.dash ? s : { ...s, label: s.label + ' ONI' })) : series;
     K.line(el, {
-      rows: d.data, x: (r) => r.step, xType: 'linear', series, zero: true, height: boxId === 'chart-oni-analogs' ? 230 : 260,
+      rows: d.data, x: (r) => r.step, xType: 'linear', series: lines, zero: true, height: boxId === 'chart-oni-analogs' ? 230 : 260,
       endLabels: false, valFmt: (v) => K.signed(v, 2), yFmt: d3.format('.1f'),
       xTickValues: d3.range(0, 18, 3), xTickFormat: (i) => d.data[i] ? d.data[i][xLabelKey] : '',
       tipTitle: (r) => `${tipLabel} ${r[xLabelKey]}`,
@@ -3448,7 +3454,7 @@ window.WW = (() => {
   }
 
   // Storm timeline
-  const SS = { 'TD': '#5EBAFF', 'TS': '#00D8D0', 'Cat 1': '#FFF3A0', 'Cat 2': '#FFD54F', 'Cat 3': '#FFA726', 'Cat 4': '#F4511E', 'Cat 5': '#C2185B', 'Post-tropical': 'transparent', 'Unknown': 'transparent' };
+  const SS = { 'TD': '#5EBAFF', 'TS': '#00D8D0', 'Cat 1': '#FFF3A0', 'Cat 2': '#FFD54F', 'Cat 3': '#FFA726', 'Cat 4': '#F4511E', 'Cat 5': '#C2185B', 'Post-tropical': 'transparent', 'Low or disturbance': 'transparent', 'Unknown': 'transparent' };
   const REG = {
     americas: { lonMin: -135, lonMax: -55, latN: 45, latS: 3 },
     wpac: { lonMin: 115, lonMax: 190, latN: 50, latS: 3 },
@@ -3489,7 +3495,7 @@ window.WW = (() => {
     const d = Object.fromEntries(ids.map((i) => [i, dash.data(i)]));
     const bad = ids.find((i) => d[i].status !== 'ok');
     if (bad) return K.fail(el, d[bad].status);
-    legendItems(box('legend-ss'), ['TD', 'TS', 'Cat 1', 'Cat 2', 'Cat 3', 'Cat 4', 'Cat 5'].map((k) => ({ label: k, color: SS[k] })).concat([{ label: 'Post-tropical', color: K.muted, shape: 'ring' }, { label: 'Earthquake M5+', color: C()[3], shape: 'ring' }]));
+    legendItems(box('legend-ss'), ['TD', 'TS', 'Cat 1', 'Cat 2', 'Cat 3', 'Cat 4', 'Cat 5'].map((k) => ({ label: k, color: SS[k] })).concat([{ label: 'Post-tropical or low', color: K.muted, shape: 'ring' }, { label: 'Earthquake M5+', color: C()[3], shape: 'ring' }]));
     const fixes = d.storm_fixes.data.map((r) => ({ ...r, t: parseUtc(r.time_utc), lat: +r.lat, lon: +r.lon }));
     const t0 = d3.min(fixes, (r) => r.t), t1 = d3.max(fixes, (r) => r.t);
     const nSteps = Math.round((t1 - t0) / stepMs);
@@ -3541,7 +3547,7 @@ window.WW = (() => {
       pts.forEach((p, i) => {
         const isLast = i === pts.length - 1 && !ended;
         const px = m.x(p.lon), py = m.y(p.lat);
-        const pt = p.category === 'Post-tropical' || p.category === 'Unknown';
+        const pt = p.category === 'Post-tropical' || p.category === 'Low or disturbance' || p.category === 'Unknown';
         m.layer.append('circle').attr('cx', px).attr('cy', py).attr('r', isLast ? 6.5 : 3.6)
           .style('fill', pt ? 'none' : SS[p.category]).style('stroke', pt ? K.muted : 'var(--color-fg)').attr('stroke-width', pt ? 1.25 : 0.6).style('opacity', op);
         items.push({ px, py, title: `${p.storm} · ${p.time_utc} UTC`, lines: [{ label: p.category, value: '' }, { label: 'Wind', value: p.wind_kt === '' ? 'n/a' : `${p.wind_kt} kt` }, { label: 'Pressure', value: p.pressure_mb === '' ? 'n/a' : `${p.pressure_mb} mb` }] });

@@ -223,6 +223,28 @@ const JOBS = {
     run: async (old) => patch(old, 'month', F.heatContent(await fetchText(`${CPC}/products/analysis_monitoring/ocean/index/heat_content_index.txt`, { expect: /300m/ })),
       { cols: ['heat_180_100w'], tol: 0.05, accept: (o) => o.month > lastKey(old) && o.heat_180_100w !== '' }),
   },
+  storm_fixes: {
+    min: 20, time: null,
+    run: async (old) => {
+      const csv = await fetchText('https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r01/access/csv/ibtracs.ACTIVE.list.v04r01.csv', { expect: /^SID,SEASON/, timeout: 120000 });
+      const since = new Date(now.getTime() - 35 * 864e5).toISOString().slice(0, 16).replace('T', ' ');
+      const fresh = F.ibtracsRows(csv, since);
+      const header = old.split('\n')[0].split(',');
+      const oldRows = old.trim().split('\n').slice(1).map((l) => Object.fromEntries(l.split(',').map((v, i) => [header[i], v])));
+      // Check against the existing IBTrACS fixes for the same storm and time.
+      const key = (r) => `${r.storm}|${r.time_utc}`;
+      const was = new Map(oldRows.filter((r) => r.source.startsWith('IBTrACS')).map((r) => [key(r), r]));
+      const both = fresh.filter((r) => was.has(key(r)));
+      const bad = both.filter((r) => { const o = was.get(key(r)); return Math.abs(+o.lat - +r.lat) > 1 || Math.abs(+o.lon - +r.lon) > 1 || (o.wind_kt && r.wind_kt && Math.abs(+o.wind_kt - +r.wind_kt) > 15); });
+      if (both.length && bad.length > both.length * 0.1) throw new Error(`${bad.length} of ${both.length} overlapping fixes differ from the existing file (e.g. ${key(bad[0])})`);
+      // Keep advisory rows that are newer than IBTrACS's last fix for that storm.
+      const last = new Map();
+      for (const r of fresh) if (!last.has(r.storm) || r.time_utc > last.get(r.storm)) last.set(r.storm, r.time_utc);
+      const extra = oldRows.filter((r) => !r.source.startsWith('IBTrACS') && r.time_utc >= since && (!last.has(r.storm) || r.time_utc > last.get(r.storm)));
+      const rows = [...fresh, ...extra].sort((a, b) => (a.storm === b.storm ? a.time_utc.localeCompare(b.time_utc) : a.storm.localeCompare(b.storm)));
+      return { header, rows: rows.map((r) => header.map((c) => r[c] ?? '')), note: `${fresh.length} IBTrACS fixes, ${both.length} checked against the old file, ${extra.length} advisory rows kept` };
+    },
+  },
   sst_weekly: {
     min: 2300, time: 'max',
     run: async (old) => patch(old, 'week', F.sstWeekly(

@@ -320,3 +320,35 @@ export function sstMonthly({ oi, rel, ersst, rersst, atl }) {
   for (const f of rows(atl)) if (ym(f) && f.length >= 8) Object.assign(get(f[0], f[1]), { n_atlantic: round(f[3], 2), s_atlantic: round(f[5], 2), global_tropics: round(f[7], 2) });
   return [...out.values()];
 }
+
+// ---------- IBTrACS v04r01 ACTIVE (provisional best tracks) ----------
+const POST = new Set(['EX', 'PT']); // extratropical / post-tropical
+const LOW = new Set(['LO', 'DB', 'WV', 'MD']); // low, disturbance, wave, monsoon depression
+const titleCase = (s) => s.toLowerCase().replace(/(^|[-\s])([a-z])/g, (m, a, b) => a + b.toUpperCase());
+/** Saffir–Simpson category from the 1-minute wind (kt), or Post-tropical from the USA status code. */
+export function sshs(windKt, status) {
+  if (POST.has(status)) return 'Post-tropical';
+  if (LOW.has(status)) return 'Low or disturbance';
+  if (!isNum(windKt)) return '';
+  const w = Number(windKt);
+  return w < 34 ? 'TD' : w < 64 ? 'TS' : w < 83 ? 'Cat 1' : w < 96 ? 'Cat 2' : w < 113 ? 'Cat 3' : w < 137 ? 'Cat 4' : 'Cat 5';
+}
+/** Named storms' 6-hourly fixes (00/06/12/18 UTC) at or after `since` ('YYYY-MM-DD HH:MM'). */
+export function ibtracsRows(csv, since) {
+  const lines = csv.split('\n');
+  const head = lines[0].split(',');
+  const ix = Object.fromEntries(head.map((h, i) => [h.trim(), i]));
+  const out = [];
+  for (const l of lines.slice(2)) {
+    const f = l.split(',').map((s) => s.trim());
+    if (f.length < head.length / 2) continue;
+    const name = f[ix.NAME], t = (f[ix.ISO_TIME] || '').slice(0, 16);
+    if (!name || name === 'UNNAMED' || t < since || !/(00|06|12|18):00$/.test(t)) continue;
+    const lat = isNum(f[ix.USA_LAT]) ? f[ix.USA_LAT] : f[ix.LAT];
+    let lon = Number(isNum(f[ix.USA_LON]) ? f[ix.USA_LON] : f[ix.LON]);
+    if (lon > 180) lon -= 360;
+    const wind = f[ix.USA_WIND], pres = f[ix.USA_PRES];
+    out.push({ storm: titleCase(name), basin: f[ix.BASIN], time_utc: t, lat: round(lat, 1), lon: round(lon, 1), wind_kt: isNum(wind) ? String(Math.round(Number(wind))) : '', pressure_mb: isNum(pres) ? String(Math.round(Number(pres))) : '', category: sshs(wind, f[ix.USA_STATUS]), source: 'IBTrACS v04r01 (provisional)' });
+  }
+  return out;
+}
