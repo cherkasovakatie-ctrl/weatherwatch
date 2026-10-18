@@ -17,6 +17,7 @@ for f in sorted(glob.glob('fulltext/*')):
     kw = KW['io'] if name.startswith('io_') else KW['wwb']
     hits = [s.strip() for s in sents if re.search(kw, s) and len(s) < 600 and ('1982' in s or name.startswith('io_'))]
     if name.startswith('io_'): hits = [s for s in hits if re.search(r'1982|decoupl|experiment|feedback onto|Pacific', s)]
-    head = ' '.join(txt.split()[:350])
-    open(f'probe/excerpt_{name}.txt', 'w').write(f'words: {len(txt.split())}\nOPENING (first 350 words):\n{head}\n\nKEY SENTENCES ({len(hits)}; first 60):\n' + '\n- '.join([''] + hits[:60]))
+    s82 = [x.strip() for x in sents if '1982' in x and len(x) < 700]
+    head = ' '.join(txt.split()[:700 if name.startswith('wwb_chu') else 350])
+    open(f'probe/excerpt_{name}.txt', 'w').write(f'words: {len(txt.split())}\nOPENING (first 350 words):\n{head}\n\nKEY SENTENCES ({len(hits)}; first 60):\n' + '\n- '.join([''] + hits[:60]) + f'\n\nALL SENTENCES WITH 1982 ({len(s82)}; first 40):' + '\n- '.join([''] + s82[:40]))
 print('excerpts done')
