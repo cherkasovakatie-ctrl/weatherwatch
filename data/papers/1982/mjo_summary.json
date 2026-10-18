@@ -1,0 +1,880 @@
+{
+ "base": "1979-2001",
+ "climatology": "1979-2000 mean + 3 harmonics",
+ "nan_olr_filled": 0,
+ "index_info": {
+  "wh_like": {
+   "var": [
+    0.13,
+    0.112
+   ],
+   "lag10_corr": 0.5
+  },
+  "bandpass_20_100": {
+   "var": [
+    0.211,
+    0.198
+   ],
+   "lag10_corr": 0.747
+  },
+  "olr_only_20_100": {
+   "var": [
+    0.246,
+    0.171
+   ],
+   "lag10_corr": 0.538
+  }
+ },
+ "episodes": {
+  "wh_like": [
+   {
+    "start": "1981-02-02",
+    "end": "1981-05-23",
+    "days": 111,
+    "max_amp": 3.01,
+    "phase_progress_deg": 655.0,
+    "centre_start": 160.0,
+    "centre_end": 145.0,
+    "centre_speed_ms": 3.4
+   },
+   {
+    "start": "1981-07-07",
+    "end": "1981-08-09",
+    "days": 34,
+    "max_amp": 2.3,
+    "phase_progress_deg": 168.0,
+    "centre_start": 87.5,
+    "centre_end": 170.0,
+    "centre_speed_ms": 3.6
+   },
+   {
+    "start": "1981-08-20",
+    "end": "1981-09-08",
+    "days": 20,
+    "max_amp": 2.06,
+    "phase_progress_deg": 14.0,
+    "centre_start": 82.5,
+    "centre_end": 82.5,
+    "centre_speed_ms": 0.3
+   },
+   {
+    "start": "1981-09-11",
+    "end": "1981-10-09",
+    "days": 29,
+    "max_amp": 2.46,
+    "phase_progress_deg": 277.0,
+    "centre_start": 85.0,
+    "centre_end": 20.0,
+    "centre_speed_ms": 0.6
+   },
+   {
+    "start": "1981-12-06",
+    "end": "1982-01-07",
+    "days": 33,
+    "max_amp": 2.39,
+    "phase_progress_deg": 215.0,
+    "centre_start": 145.0,
+    "centre_end": 82.5,
+    "centre_speed_ms": -4.7
+   },
+   {
+    "start": "1982-05-08",
+    "end": "1982-06-03",
+    "days": 27,
+    "max_amp": 2.12,
+    "phase_progress_deg": 232.0,
+    "centre_start": 180.0,
+    "centre_end": 145.0,
+    "centre_speed_ms": -5.0
+   },
+   {
+    "start": "1982-09-15",
+    "end": "1982-10-04",
+    "days": 20,
+    "max_amp": 1.86,
+    "phase_progress_deg": 10.0,
+    "centre_start": 187.5,
+    "centre_end": 190.0,
+    "centre_speed_ms": -0.1
+   },
+   {
+    "start": "1982-10-08",
+    "end": "1982-11-04",
+    "days": 28,
+    "max_amp": 2.22,
+    "phase_progress_deg": 100.0,
+    "centre_start": 182.5,
+    "centre_end": 82.5,
+    "centre_speed_ms": 11.7
+   },
+   {
+    "start": "1982-11-12",
+    "end": "1982-12-02",
+    "days": 21,
+    "max_amp": 2.45,
+    "phase_progress_deg": 143.0,
+    "centre_start": 187.5,
+    "centre_end": 87.5,
+    "centre_speed_ms": -8.4
+   },
+   {
+    "start": "1982-12-11",
+    "end": "1983-01-03",
+    "days": 24,
+    "max_amp": 2.57,
+    "phase_progress_deg": 85.0,
+    "centre_start": 80.0,
+    "centre_end": 90.0,
+    "centre_speed_ms": 0.4
+   },
+   {
+    "start": "1983-02-19",
+    "end": "1983-03-05",
+    "days": 15,
+    "max_amp": 1.89,
+    "phase_progress_deg": 31.0,
+    "centre_start": 147.5,
+    "centre_end": 170.0,
+    "centre_speed_ms": 1.8
+   },
+   {
+    "start": "1983-06-09",
+    "end": "1983-07-04",
+    "days": 26,
+    "max_amp": 2.23,
+    "phase_progress_deg": 90.0,
+    "centre_start": 92.5,
+    "centre_end": 147.5,
+    "centre_speed_ms": 3.8
+   }
+  ],
+  "bandpass_20_100": [
+   {
+    "start": "1981-02-25",
+    "end": "1981-05-23",
+    "days": 88,
+    "max_amp": 3.44,
+    "phase_progress_deg": 608.0,
+    "centre_start": 155.0,
+    "centre_end": 90.0,
+    "centre_speed_ms": 10.0
+   },
+   {
+    "start": "1981-07-13",
+    "end": "1981-10-12",
+    "days": 92,
+    "max_amp": 2.73,
+    "phase_progress_deg": 640.0,
+    "centre_start": 82.5,
+    "centre_end": 17.5,
+    "centre_speed_ms": 8.7
+   },
+   {
+    "start": "1981-12-02",
+    "end": "1982-01-15",
+    "days": 45,
+    "max_amp": 1.8,
+    "phase_progress_deg": 353.0,
+    "centre_start": 92.5,
+    "centre_end": 92.5,
+    "centre_speed_ms": 12.8
+   },
+   {
+    "start": "1982-03-23",
+    "end": "1982-04-28",
+    "days": 37,
+    "max_amp": 1.78,
+    "phase_progress_deg": 324.0,
+    "centre_start": 145.0,
+    "centre_end": 92.5,
+    "centre_speed_ms": 15.1
+   },
+   {
+    "start": "1982-05-06",
+    "end": "1982-06-07",
+    "days": 33,
+    "max_amp": 2.37,
+    "phase_progress_deg": 295.0,
+    "centre_start": 155.0,
+    "centre_end": 147.5,
+    "centre_speed_ms": 15.6
+   },
+   {
+    "start": "1982-10-23",
+    "end": "1982-11-23",
+    "days": 32,
+    "max_amp": 2.21,
+    "phase_progress_deg": 296.0,
+    "centre_start": 82.5,
+    "centre_end": 17.5,
+    "centre_speed_ms": 10.4
+   },
+   {
+    "start": "1983-05-29",
+    "end": "1983-07-05",
+    "days": 38,
+    "max_amp": 1.31,
+    "phase_progress_deg": 382.0,
+    "centre_start": 177.5,
+    "centre_end": 272.5,
+    "centre_speed_ms": 10.9
+   }
+  ],
+  "olr_only_20_100": [
+   {
+    "start": "1981-02-27",
+    "end": "1981-05-06",
+    "days": 69,
+    "max_amp": 2.89,
+    "phase_progress_deg": 425.0,
+    "centre_start": 177.5,
+    "centre_end": 20.0,
+    "centre_speed_ms": -0.2
+   },
+   {
+    "start": "1981-07-15",
+    "end": "1981-10-10",
+    "days": 88,
+    "max_amp": 2.13,
+    "phase_progress_deg": 554.0,
+    "centre_start": 82.5,
+    "centre_end": 155.0,
+    "centre_speed_ms": 0.9
+   },
+   {
+    "start": "1981-11-23",
+    "end": "1982-01-03",
+    "days": 42,
+    "max_amp": 2.77,
+    "phase_progress_deg": 296.0,
+    "centre_start": 87.5,
+    "centre_end": 72.5,
+    "centre_speed_ms": -2.4
+   },
+   {
+    "start": "1982-03-24",
+    "end": "1982-04-11",
+    "days": 19,
+    "max_amp": 1.64,
+    "phase_progress_deg": 132.0,
+    "centre_start": 147.5,
+    "centre_end": 20.0,
+    "centre_speed_ms": -7.7
+   },
+   {
+    "start": "1982-05-02",
+    "end": "1982-06-05",
+    "days": 35,
+    "max_amp": 2.88,
+    "phase_progress_deg": 198.0,
+    "centre_start": 155.0,
+    "centre_end": 90.0,
+    "centre_speed_ms": -3.7
+   },
+   {
+    "start": "1982-10-26",
+    "end": "1982-12-02",
+    "days": 38,
+    "max_amp": 2.42,
+    "phase_progress_deg": 452.0,
+    "centre_start": 82.5,
+    "centre_end": 92.5,
+    "centre_speed_ms": -0.7
+   },
+   {
+    "start": "1983-05-31",
+    "end": "1983-06-19",
+    "days": 20,
+    "max_amp": 1.54,
+    "phase_progress_deg": 143.0,
+    "centre_start": 20.0,
+    "centre_end": 90.0,
+    "centre_speed_ms": 6.3
+   }
+  ]
+ },
+ "wwb": [
+  {
+   "start": "1981-03-08",
+   "end": "1981-03-14",
+   "lon_w": 155.0,
+   "lon_e": 177.5,
+   "peak": "1981-03-12",
+   "peak_lon": 165.0,
+   "peak_anom": 10.8,
+   "olr_20_100_at_peak": 3.4,
+   "u1000_20_100_at_peak": 3.8,
+   "u1000_prev60d_mean": 1.5,
+   "wh_like_amp": 2.39,
+   "bandpass_20_100_amp": 2.21,
+   "olr_only_20_100_amp": 1.63,
+   "wh_like_centre": 187.5,
+   "bandpass_20_100_centre": 17.5,
+   "olr_only_20_100_centre": 20.0
+  },
+  {
+   "start": "1982-03-28",
+   "end": "1982-04-03",
+   "lon_w": 147.5,
+   "lon_e": 165.0,
+   "peak": "1982-04-02",
+   "peak_lon": 160.0,
+   "peak_anom": 12.0,
+   "olr_20_100_at_peak": -17.7,
+   "u1000_20_100_at_peak": 2.7,
+   "u1000_prev60d_mean": 1.4,
+   "wh_like_amp": 1.73,
+   "bandpass_20_100_amp": 1.59,
+   "olr_only_20_100_amp": 1.3,
+   "wh_like_centre": 177.5,
+   "bandpass_20_100_centre": 155.0,
+   "olr_only_20_100_centre": 155.0
+  },
+  {
+   "start": "1982-05-10",
+   "end": "1982-05-13",
+   "lon_w": 137.5,
+   "lon_e": 160.0,
+   "peak": "1982-05-12",
+   "peak_lon": 145.0,
+   "peak_anom": 7.5,
+   "olr_20_100_at_peak": -15.2,
+   "u1000_20_100_at_peak": 3.1,
+   "u1000_prev60d_mean": 1.4,
+   "wh_like_amp": 1.66,
+   "bandpass_20_100_amp": 1.91,
+   "olr_only_20_100_amp": 2.18,
+   "wh_like_centre": 180.0,
+   "bandpass_20_100_centre": 177.5,
+   "olr_only_20_100_centre": 160.0
+  },
+  {
+   "start": "1982-07-16",
+   "end": "1982-07-20",
+   "lon_w": 155.0,
+   "lon_e": 175.0,
+   "peak": "1982-07-18",
+   "peak_lon": 160.0,
+   "peak_anom": 8.2,
+   "olr_20_100_at_peak": -5.3,
+   "u1000_20_100_at_peak": 0.4,
+   "u1000_prev60d_mean": 2.0,
+   "wh_like_amp": 0.85,
+   "bandpass_20_100_amp": 0.66,
+   "olr_only_20_100_amp": 0.72,
+   "wh_like_centre": 160.0,
+   "bandpass_20_100_centre": 155.0,
+   "olr_only_20_100_centre": 147.5
+  },
+  {
+   "start": "1982-07-31",
+   "end": "1982-08-02",
+   "lon_w": 157.5,
+   "lon_e": 167.5,
+   "peak": "1982-08-01",
+   "peak_lon": 165.0,
+   "peak_anom": 5.8,
+   "olr_20_100_at_peak": 19.0,
+   "u1000_20_100_at_peak": -1.3,
+   "u1000_prev60d_mean": 2.0,
+   "wh_like_amp": 0.3,
+   "bandpass_20_100_amp": 1.4,
+   "olr_only_20_100_amp": 1.37,
+   "wh_like_centre": 82.5,
+   "bandpass_20_100_centre": 82.5,
+   "olr_only_20_100_centre": 62.5
+  },
+  {
+   "start": "1982-08-21",
+   "end": "1982-08-25",
+   "lon_w": 155.0,
+   "lon_e": 182.5,
+   "peak": "1982-08-24",
+   "peak_lon": 160.0,
+   "peak_anom": 7.3,
+   "olr_20_100_at_peak": -9.0,
+   "u1000_20_100_at_peak": 1.7,
+   "u1000_prev60d_mean": 3.4,
+   "wh_like_amp": 0.45,
+   "bandpass_20_100_amp": 0.5,
+   "olr_only_20_100_amp": 0.4,
+   "wh_like_centre": 147.5,
+   "bandpass_20_100_centre": 147.5,
+   "olr_only_20_100_centre": 147.5
+  },
+  {
+   "start": "1982-08-27",
+   "end": "1982-09-03",
+   "lon_w": 162.5,
+   "lon_e": 185.0,
+   "peak": "1982-08-30",
+   "peak_lon": 177.5,
+   "peak_anom": 9.4,
+   "olr_20_100_at_peak": -34.1,
+   "u1000_20_100_at_peak": 4.3,
+   "u1000_prev60d_mean": 2.0,
+   "wh_like_amp": 1.53,
+   "bandpass_20_100_amp": 1.14,
+   "olr_only_20_100_amp": 0.99,
+   "wh_like_centre": 170.0,
+   "bandpass_20_100_centre": 155.0,
+   "olr_only_20_100_centre": 155.0
+  },
+  {
+   "start": "1982-09-12",
+   "end": "1982-09-14",
+   "lon_w": 182.5,
+   "lon_e": 195.0,
+   "peak": "1982-09-13",
+   "peak_lon": 187.5,
+   "peak_anom": 6.1,
+   "olr_20_100_at_peak": 6.2,
+   "u1000_20_100_at_peak": 0.8,
+   "u1000_prev60d_mean": 1.5,
+   "wh_like_amp": 0.73,
+   "bandpass_20_100_amp": 0.13,
+   "olr_only_20_100_amp": 1.09,
+   "wh_like_centre": 190.0,
+   "bandpass_20_100_centre": 17.5,
+   "olr_only_20_100_centre": 75.0
+  },
+  {
+   "start": "1982-09-26",
+   "end": "1982-10-01",
+   "lon_w": 140.0,
+   "lon_e": 175.0,
+   "peak": "1982-09-28",
+   "peak_lon": 157.5,
+   "peak_anom": 7.3,
+   "olr_20_100_at_peak": -33.9,
+   "u1000_20_100_at_peak": 1.8,
+   "u1000_prev60d_mean": 3.0,
+   "wh_like_amp": 1.48,
+   "bandpass_20_100_amp": 0.29,
+   "olr_only_20_100_amp": 0.67,
+   "wh_like_centre": 20.0,
+   "bandpass_20_100_centre": 80.0,
+   "olr_only_20_100_centre": 130.0
+  },
+  {
+   "start": "1982-10-08",
+   "end": "1982-10-11",
+   "lon_w": 185.0,
+   "lon_e": 207.5,
+   "peak": "1982-10-08",
+   "peak_lon": 195.0,
+   "peak_anom": 6.3,
+   "olr_20_100_at_peak": 12.4,
+   "u1000_20_100_at_peak": 0.3,
+   "u1000_prev60d_mean": 1.9,
+   "wh_like_amp": 1.17,
+   "bandpass_20_100_amp": 0.7,
+   "olr_only_20_100_amp": 0.87,
+   "wh_like_centre": 182.5,
+   "bandpass_20_100_centre": 155.0,
+   "olr_only_20_100_centre": 147.5
+  },
+  {
+   "start": "1982-10-12",
+   "end": "1982-10-14",
+   "lon_w": 160.0,
+   "lon_e": 175.0,
+   "peak": "1982-10-13",
+   "peak_lon": 170.0,
+   "peak_anom": 6.4,
+   "olr_20_100_at_peak": 5.3,
+   "u1000_20_100_at_peak": -1.5,
+   "u1000_prev60d_mean": 3.1,
+   "wh_like_amp": 1.26,
+   "bandpass_20_100_amp": 0.34,
+   "olr_only_20_100_amp": 0.63,
+   "wh_like_centre": 272.5,
+   "bandpass_20_100_centre": 147.5,
+   "olr_only_20_100_centre": 147.5
+  },
+  {
+   "start": "1982-10-19",
+   "end": "1982-10-31",
+   "lon_w": 167.5,
+   "lon_e": 200.0,
+   "peak": "1982-10-30",
+   "peak_lon": 172.5,
+   "peak_anom": 8.2,
+   "olr_20_100_at_peak": -10.2,
+   "u1000_20_100_at_peak": -0.4,
+   "u1000_prev60d_mean": 3.2,
+   "wh_like_amp": 1.69,
+   "bandpass_20_100_amp": 1.46,
+   "olr_only_20_100_amp": 1.4,
+   "wh_like_centre": 82.5,
+   "bandpass_20_100_centre": 87.5,
+   "olr_only_20_100_centre": 87.5
+  },
+  {
+   "start": "1982-11-04",
+   "end": "1982-11-26",
+   "lon_w": 152.5,
+   "lon_e": 205.0,
+   "peak": "1982-11-23",
+   "peak_lon": 180.0,
+   "peak_anom": 10.5,
+   "olr_20_100_at_peak": -3.5,
+   "u1000_20_100_at_peak": 1.5,
+   "u1000_prev60d_mean": 5.0,
+   "wh_like_amp": 2.16,
+   "bandpass_20_100_amp": 1.16,
+   "olr_only_20_100_amp": 1.29,
+   "wh_like_centre": 60.0,
+   "bandpass_20_100_centre": 17.5,
+   "olr_only_20_100_centre": 72.5
+  },
+  {
+   "start": "1982-12-02",
+   "end": "1982-12-16",
+   "lon_w": 175.0,
+   "lon_e": 207.5,
+   "peak": "1982-12-09",
+   "peak_lon": 200.0,
+   "peak_anom": 9.2,
+   "olr_20_100_at_peak": -23.3,
+   "u1000_20_100_at_peak": 3.5,
+   "u1000_prev60d_mean": 3.8,
+   "wh_like_amp": 0.85,
+   "bandpass_20_100_amp": 1.3,
+   "olr_only_20_100_amp": 1.23,
+   "wh_like_centre": 60.0,
+   "bandpass_20_100_centre": 160.0,
+   "olr_only_20_100_centre": 155.0
+  },
+  {
+   "start": "1983-02-09",
+   "end": "1983-02-11",
+   "lon_w": 187.5,
+   "lon_e": 205.0,
+   "peak": "1983-02-10",
+   "peak_lon": 192.5,
+   "peak_anom": 8.3,
+   "olr_20_100_at_peak": 14.5,
+   "u1000_20_100_at_peak": 1.2,
+   "u1000_prev60d_mean": 2.6,
+   "wh_like_amp": 0.4,
+   "bandpass_20_100_amp": 1.36,
+   "olr_only_20_100_amp": 0.55,
+   "wh_like_centre": 20.0,
+   "bandpass_20_100_centre": 87.5,
+   "olr_only_20_100_centre": 85.0
+  },
+  {
+   "start": "1983-03-09",
+   "end": "1983-03-12",
+   "lon_w": 190.0,
+   "lon_e": 210.0,
+   "peak": "1983-03-11",
+   "peak_lon": 207.5,
+   "peak_anom": 6.4,
+   "olr_20_100_at_peak": 7.4,
+   "u1000_20_100_at_peak": 1.5,
+   "u1000_prev60d_mean": 2.8,
+   "wh_like_amp": 0.35,
+   "bandpass_20_100_amp": 0.04,
+   "olr_only_20_100_amp": 0.61,
+   "wh_like_centre": 182.5,
+   "bandpass_20_100_centre": 90.0,
+   "olr_only_20_100_centre": 87.5
+  },
+  {
+   "start": "1983-04-09",
+   "end": "1983-04-12",
+   "lon_w": 195.0,
+   "lon_e": 210.0,
+   "peak": "1983-04-10",
+   "peak_lon": 207.5,
+   "peak_anom": 6.6,
+   "olr_20_100_at_peak": -8.9,
+   "u1000_20_100_at_peak": 1.3,
+   "u1000_prev60d_mean": 3.4,
+   "wh_like_amp": 1.17,
+   "bandpass_20_100_amp": 0.6,
+   "olr_only_20_100_amp": 0.89,
+   "wh_like_centre": 82.5,
+   "bandpass_20_100_centre": 17.5,
+   "olr_only_20_100_centre": 20.0
+  }
+ ],
+ "wwb_yearly": [
+  {
+   "year": 1979,
+   "wwb_count": 5
+  },
+  {
+   "year": 1980,
+   "wwb_count": 3
+  },
+  {
+   "year": 1981,
+   "wwb_count": 1
+  },
+  {
+   "year": 1982,
+   "wwb_count": 13
+  },
+  {
+   "year": 1983,
+   "wwb_count": 3
+  },
+  {
+   "year": 1984,
+   "wwb_count": 1
+  },
+  {
+   "year": 1985,
+   "wwb_count": 2
+  },
+  {
+   "year": 1986,
+   "wwb_count": 4
+  },
+  {
+   "year": 1987,
+   "wwb_count": 5
+  },
+  {
+   "year": 1988,
+   "wwb_count": 1
+  },
+  {
+   "year": 1989,
+   "wwb_count": 2
+  },
+  {
+   "year": 1990,
+   "wwb_count": 7
+  },
+  {
+   "year": 1991,
+   "wwb_count": 7
+  },
+  {
+   "year": 1992,
+   "wwb_count": 7
+  },
+  {
+   "year": 1993,
+   "wwb_count": 5
+  },
+  {
+   "year": 1994,
+   "wwb_count": 6
+  },
+  {
+   "year": 1995,
+   "wwb_count": 0
+  },
+  {
+   "year": 1996,
+   "wwb_count": 3
+  },
+  {
+   "year": 1997,
+   "wwb_count": 16
+  },
+  {
+   "year": 1998,
+   "wwb_count": 0
+  },
+  {
+   "year": 1999,
+   "wwb_count": 1
+  },
+  {
+   "year": 2000,
+   "wwb_count": 1
+  },
+  {
+   "year": 2001,
+   "wwb_count": 3
+  }
+ ],
+ "seasons": [
+  {
+   "season": "1979-80",
+   "wh_like_days_amp_ge1": 97,
+   "bandpass_20_100_days_amp_ge1": 121,
+   "olr_only_20_100_days_amp_ge1": 124,
+   "olr_20_100_var_160E_150W": 146.8,
+   "olr_20_100_var_60E_150E": 198.9
+  },
+  {
+   "season": "1980-81",
+   "wh_like_days_amp_ge1": 91,
+   "bandpass_20_100_days_amp_ge1": 65,
+   "olr_only_20_100_days_amp_ge1": 107,
+   "olr_20_100_var_160E_150W": 135.7,
+   "olr_20_100_var_60E_150E": 165.6
+  },
+  {
+   "season": "1981-82",
+   "wh_like_days_amp_ge1": 77,
+   "bandpass_20_100_days_amp_ge1": 93,
+   "olr_only_20_100_days_amp_ge1": 120,
+   "olr_20_100_var_160E_150W": 93.3,
+   "olr_20_100_var_60E_150E": 214.2
+  },
+  {
+   "season": "1982-83",
+   "wh_like_days_amp_ge1": 116,
+   "bandpass_20_100_days_amp_ge1": 83,
+   "olr_only_20_100_days_amp_ge1": 91,
+   "olr_20_100_var_160E_150W": 163.2,
+   "olr_20_100_var_60E_150E": 137.4
+  },
+  {
+   "season": "1983-84",
+   "wh_like_days_amp_ge1": 120,
+   "bandpass_20_100_days_amp_ge1": 87,
+   "olr_only_20_100_days_amp_ge1": 120,
+   "olr_20_100_var_160E_150W": 35.9,
+   "olr_20_100_var_60E_150E": 240.6
+  },
+  {
+   "season": "1984-85",
+   "wh_like_days_amp_ge1": 151,
+   "bandpass_20_100_days_amp_ge1": 162,
+   "olr_only_20_100_days_amp_ge1": 153,
+   "olr_20_100_var_160E_150W": 170.7,
+   "olr_20_100_var_60E_150E": 370.1
+  },
+  {
+   "season": "1985-86",
+   "wh_like_days_amp_ge1": 128,
+   "bandpass_20_100_days_amp_ge1": 134,
+   "olr_only_20_100_days_amp_ge1": 125,
+   "olr_20_100_var_160E_150W": 79.4,
+   "olr_20_100_var_60E_150E": 241.6
+  },
+  {
+   "season": "1986-87",
+   "wh_like_days_amp_ge1": 124,
+   "bandpass_20_100_days_amp_ge1": 115,
+   "olr_only_20_100_days_amp_ge1": 120,
+   "olr_20_100_var_160E_150W": 158.0,
+   "olr_20_100_var_60E_150E": 239.9
+  },
+  {
+   "season": "1987-88",
+   "wh_like_days_amp_ge1": 134,
+   "bandpass_20_100_days_amp_ge1": 156,
+   "olr_only_20_100_days_amp_ge1": 156,
+   "olr_20_100_var_160E_150W": 155.6,
+   "olr_20_100_var_60E_150E": 363.6
+  },
+  {
+   "season": "1988-89",
+   "wh_like_days_amp_ge1": 104,
+   "bandpass_20_100_days_amp_ge1": 100,
+   "olr_only_20_100_days_amp_ge1": 121,
+   "olr_20_100_var_160E_150W": 77.5,
+   "olr_20_100_var_60E_150E": 257.1
+  },
+  {
+   "season": "1989-90",
+   "wh_like_days_amp_ge1": 148,
+   "bandpass_20_100_days_amp_ge1": 151,
+   "olr_only_20_100_days_amp_ge1": 108,
+   "olr_20_100_var_160E_150W": 196.4,
+   "olr_20_100_var_60E_150E": 235.3
+  },
+  {
+   "season": "1990-91",
+   "wh_like_days_amp_ge1": 99,
+   "bandpass_20_100_days_amp_ge1": 114,
+   "olr_only_20_100_days_amp_ge1": 116,
+   "olr_20_100_var_160E_150W": 126.7,
+   "olr_20_100_var_60E_150E": 234.6
+  },
+  {
+   "season": "1991-92",
+   "wh_like_days_amp_ge1": 128,
+   "bandpass_20_100_days_amp_ge1": 137,
+   "olr_only_20_100_days_amp_ge1": 117,
+   "olr_20_100_var_160E_150W": 317.4,
+   "olr_20_100_var_60E_150E": 194.6
+  },
+  {
+   "season": "1992-93",
+   "wh_like_days_amp_ge1": 110,
+   "bandpass_20_100_days_amp_ge1": 120,
+   "olr_only_20_100_days_amp_ge1": 111,
+   "olr_20_100_var_160E_150W": 221.2,
+   "olr_20_100_var_60E_150E": 263.2
+  },
+  {
+   "season": "1993-94",
+   "wh_like_days_amp_ge1": 83,
+   "bandpass_20_100_days_amp_ge1": 97,
+   "olr_only_20_100_days_amp_ge1": 102,
+   "olr_20_100_var_160E_150W": 93.8,
+   "olr_20_100_var_60E_150E": 176.1
+  },
+  {
+   "season": "1994-95",
+   "wh_like_days_amp_ge1": 132,
+   "bandpass_20_100_days_amp_ge1": 95,
+   "olr_only_20_100_days_amp_ge1": 114,
+   "olr_20_100_var_160E_150W": 244.6,
+   "olr_20_100_var_60E_150E": 250.6
+  },
+  {
+   "season": "1995-96",
+   "wh_like_days_amp_ge1": 109,
+   "bandpass_20_100_days_amp_ge1": 114,
+   "olr_only_20_100_days_amp_ge1": 118,
+   "olr_20_100_var_160E_150W": 61.0,
+   "olr_20_100_var_60E_150E": 225.9
+  },
+  {
+   "season": "1996-97",
+   "wh_like_days_amp_ge1": 137,
+   "bandpass_20_100_days_amp_ge1": 158,
+   "olr_only_20_100_days_amp_ge1": 147,
+   "olr_20_100_var_160E_150W": 164.8,
+   "olr_20_100_var_60E_150E": 388.2
+  },
+  {
+   "season": "1997-98",
+   "wh_like_days_amp_ge1": 102,
+   "bandpass_20_100_days_amp_ge1": 58,
+   "olr_only_20_100_days_amp_ge1": 45,
+   "olr_20_100_var_160E_150W": 210.1,
+   "olr_20_100_var_60E_150E": 77.8
+  },
+  {
+   "season": "1998-99",
+   "wh_like_days_amp_ge1": 115,
+   "bandpass_20_100_days_amp_ge1": 133,
+   "olr_only_20_100_days_amp_ge1": 130,
+   "olr_20_100_var_160E_150W": 67.9,
+   "olr_20_100_var_60E_150E": 217.8
+  },
+  {
+   "season": "1999-00",
+   "wh_like_days_amp_ge1": 102,
+   "bandpass_20_100_days_amp_ge1": 79,
+   "olr_only_20_100_days_amp_ge1": 103,
+   "olr_20_100_var_160E_150W": 62.4,
+   "olr_20_100_var_60E_150E": 155.7
+  },
+  {
+   "season": "2000-01",
+   "wh_like_days_amp_ge1": 134,
+   "bandpass_20_100_days_amp_ge1": 124,
+   "olr_only_20_100_days_amp_ge1": 124,
+   "olr_20_100_var_160E_150W": 62.0,
+   "olr_20_100_var_60E_150E": 278.9
+  }
+ ],
+ "log": [
+  "retry 0 sis.dailyavgs/pressure/uwnd.1994.nc.ascii?uwnd[0:1:364][0:2:2][32:1:40][0:1:143] IncompleteRead(10622808 bytes read)",
+  "retry 0 sis.dailyavgs/pressure/uwnd.1996.nc.ascii?uwnd[0:1:365][0:2:2][32:1:40][0:1:143] IncompleteRead(10688280 bytes read)"
+ ]
+}

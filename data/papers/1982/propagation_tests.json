@@ -1,0 +1,166 @@
+{
+ "method": "Objective propagation test and Hovmöller figures for candidate MJO episodes, Nov 1981 – Dec 1982.\n\nInputs (data/papers/1982/, produced by tools/papers/mjo_1982_diag.py from NCEP/NCAR R1 and NOAA interpolated OLR):\n  hov_olr_20_100.csv, hov_u850_20_100.csv, hov_u200_20_100.csv  20–100-day band-passed anomalies, 10°S–10°N mean, 5° longitude\n  hov_u1000_anom_5S5N.csv                                       unfiltered 1000 hPa zonal-wind anomaly, 5°S–5°N mean\n  psl_mjo_indices_1981_83.csv                                   NOAA PSL OMI, FMO, VPM (NCEP/NCAR R1 version), RMM*\n\nPropagation test (version 2). Version 1 tracked the single daily OLR minimum and required day-to-day continuity; it failed every\nwindow because the minimum jumps between separate convective systems and convection weakens over the Maritime Continent.\nIt was replaced, before results were interpreted, by a two-box sequence test plus a lag-correlation speed check:\n  T1 Indian Ocean convection: filtered OLR over 70°E–100°E reaches ≤ −15 W m⁻² on day t1 (the earliest such minimum in the window).\n  T2 western Pacific convection: filtered OLR over 140°E–180° reaches ≤ −15 W m⁻² on day t2 with 8 ≤ t2 − t1 ≤ 35 days\n     (≈ 2.4–10.4 m s⁻¹ over the ~65° between box centres).\n  T3 lag-correlation speed: for each longitude 60°E–180°, the lag (−5…+35 days) of maximum correlation of filtered OLR with the\n     70°–100°E mean; a least-squares fit over longitudes with r ≥ 0.4 must give an eastward speed of 2–10 m s⁻¹ (reported, not required).\n  T4 circulation: on day t2 ± 2 days, filtered u850 averaged over the 30° west of the western-Pacific convective centre is > 0\n     and filtered u200 there is < 0 on at least 3 of the 5 days (first-baroclinic MJO structure).\n  PASS = T1 and T2 and T4.  Passing makes an episode \"MJO-like intraseasonal activity\"; it says nothing about cause.",
+ "results": {
+  "Nov 1981 – Jan 1982": {
+   "window": "1981-11-10 to 1982-01-10",
+   "T1": true,
+   "io_date": "1981-12-02",
+   "io_min": -31.1,
+   "lagcorr_speed_ms": 1.5,
+   "lagcorr_n_lon": 25,
+   "T2": true,
+   "wp_date": "1981-12-15",
+   "wp_min": -51.0,
+   "wp_centre_E": 155.0,
+   "lag_days": 13,
+   "T3": false,
+   "baroclinic_days_of_5": 4,
+   "T4": true,
+   "PASS": true,
+   "index_max_amp": {
+    "omi": 2.32,
+    "fmo": 2.89,
+    "vpm": 1.89,
+    "rmmstar": 1.71
+   }
+  },
+  "Mar – Apr 1982": {
+   "window": "1982-03-05 to 1982-04-15",
+   "T1": true,
+   "io_date": "1982-03-15",
+   "io_min": -36.2,
+   "lagcorr_speed_ms": 2.2,
+   "lagcorr_n_lon": 25,
+   "T2": true,
+   "wp_date": "1982-03-28",
+   "wp_min": -31.6,
+   "wp_centre_E": 160.0,
+   "lag_days": 13,
+   "T3": true,
+   "baroclinic_days_of_5": 5,
+   "T4": true,
+   "PASS": true,
+   "index_max_amp": {
+    "omi": 1.41,
+    "fmo": 1.58,
+    "vpm": 2.47,
+    "rmmstar": 1.12
+   }
+  },
+  "Apr – May 1982": {
+   "window": "1982-04-10 to 1982-05-25",
+   "T1": true,
+   "io_date": "1982-04-23",
+   "io_min": -40.4,
+   "lagcorr_speed_ms": -0.1,
+   "lagcorr_n_lon": 25,
+   "T2": true,
+   "wp_date": "1982-05-09",
+   "wp_min": -38.2,
+   "wp_centre_E": 150.0,
+   "lag_days": 16,
+   "T3": false,
+   "baroclinic_days_of_5": 5,
+   "T4": true,
+   "PASS": true,
+   "index_max_amp": {
+    "omi": 2.33,
+    "fmo": 2.89,
+    "vpm": 2.47,
+    "rmmstar": 1.25
+   }
+  },
+  "Jun – Jul 1982": {
+   "window": "1982-06-05 to 1982-07-25",
+   "T1": true,
+   "io_date": "1982-06-05",
+   "io_min": -35.3,
+   "lagcorr_speed_ms": -1.6,
+   "lagcorr_n_lon": 25,
+   "T2": true,
+   "wp_date": "1982-06-24",
+   "wp_min": -40.5,
+   "wp_centre_E": 155.0,
+   "lag_days": 19,
+   "T3": false,
+   "baroclinic_days_of_5": 5,
+   "T4": true,
+   "PASS": true,
+   "index_max_amp": {
+    "omi": 1.4,
+    "fmo": 1.82,
+    "vpm": 2.0,
+    "rmmstar": null
+   }
+  },
+  "Aug – Sep 1982": {
+   "window": "1982-07-25 to 1982-09-10",
+   "T1": true,
+   "io_date": "1982-08-05",
+   "io_min": -34.4,
+   "lagcorr_speed_ms": 3.2,
+   "lagcorr_n_lon": 25,
+   "T2": true,
+   "wp_date": "1982-08-29",
+   "wp_min": -32.4,
+   "wp_centre_E": 175.0,
+   "lag_days": 24,
+   "T3": true,
+   "baroclinic_days_of_5": 2,
+   "T4": false,
+   "PASS": false,
+   "index_max_amp": {
+    "omi": 1.57,
+    "fmo": 1.18,
+    "vpm": 1.47,
+    "rmmstar": null
+   }
+  },
+  "Oct – Nov 1982": {
+   "window": "1982-10-15 to 1982-11-30",
+   "T1": true,
+   "io_date": "1982-10-29",
+   "io_min": -34.1,
+   "lagcorr_speed_ms": -2.0,
+   "lagcorr_n_lon": 25,
+   "T2": true,
+   "wp_date": "1982-11-16",
+   "wp_min": -25.9,
+   "wp_centre_E": 180.0,
+   "lag_days": 18,
+   "T3": false,
+   "baroclinic_days_of_5": 5,
+   "T4": true,
+   "PASS": true,
+   "index_max_amp": {
+    "omi": 1.71,
+    "fmo": 1.84,
+    "vpm": 2.5,
+    "rmmstar": 1.45
+   }
+  },
+  "Dec 1982": {
+   "window": "1982-11-25 to 1982-12-31",
+   "T1": true,
+   "io_date": "1982-11-29",
+   "io_min": -33.5,
+   "lagcorr_speed_ms": 4.0,
+   "lagcorr_n_lon": 25,
+   "T2": true,
+   "wp_date": "1982-12-07",
+   "wp_min": -15.8,
+   "wp_centre_E": 145.0,
+   "lag_days": 8,
+   "T3": true,
+   "baroclinic_days_of_5": 5,
+   "T4": true,
+   "PASS": true,
+   "index_max_amp": {
+    "omi": 1.35,
+    "fmo": 1.56,
+    "vpm": 2.43,
+    "rmmstar": 1.55
+   }
+  }
+ }
+}
