@@ -1,18 +1,18 @@
 {
- "run_utc": "2026-10-17T23:14:12.654Z",
- "run_local": "2026-10-17 16:14",
+ "run_utc": "2026-10-18T17:16:33.592Z",
+ "run_local": "2026-10-18 10:16",
  "results": [
   {
    "id": "earthquakes",
    "ok": true,
-   "rows": 617,
-   "newest": "2026-10-17 16:52"
+   "rows": 613,
+   "newest": "2026-10-18 15:35"
   },
   {
    "id": "local_obs",
    "ok": true,
-   "rows": 36,
-   "newest": "2026-10-17 15:50"
+   "rows": 37,
+   "newest": "2026-10-18 10:00"
   },
   {
    "id": "local_periods",
@@ -24,37 +24,133 @@
    "id": "local_hourly",
    "ok": true,
    "rows": 216,
-   "newest": "2026-10-23 23:00"
+   "newest": "2026-10-24 23:00"
   },
   {
    "id": "local_tides",
    "ok": true,
    "rows": 192,
-   "newest": "2026-10-21 23:00"
+   "newest": "2026-10-22 23:00"
   },
   {
    "id": "local_hilo",
    "ok": true,
    "rows": 27,
-   "newest": "2026-10-21 18:51"
+   "newest": "2026-10-22 19:36"
   },
   {
    "id": "local_watertemp",
    "ok": true,
    "rows": 72,
-   "newest": "2026-10-17 16:00"
+   "newest": "2026-10-18 10:00"
   },
   {
    "id": "fires_global_grid",
    "ok": true,
-   "rows": 3430,
+   "rows": 3622,
    "newest": "9.5"
   },
   {
    "id": "fires_socal",
    "ok": true,
-   "rows": 321,
-   "newest": "2026-10-17"
+   "rows": 378,
+   "newest": "2026-10-18"
+  },
+  {
+   "id": "space_daily",
+   "ok": true,
+   "rows": 31,
+   "newest": "2026-10-17",
+   "note": "0 new, 0 values updated"
+  },
+  {
+   "id": "calfire_active",
+   "ok": true,
+   "rows": 8,
+   "newest": "Timber Fire"
+  },
+  {
+   "id": "coral_dhw",
+   "ok": true,
+   "rows": 653,
+   "newest": "2026-10-15",
+   "note": "0 new, 0 values updated"
+  },
+  {
+   "id": "coral_now",
+   "ok": true,
+   "rows": 4,
+   "newest": "Puerto Rico"
+  },
+  {
+   "id": "ozone_2026",
+   "ok": true,
+   "rows": 170,
+   "newest": "2026-12-31",
+   "note": "0 new, 0 values updated"
+  },
+  {
+   "id": "seaice_clim",
+   "ok": true,
+   "rows": 365,
+   "newest": "12-31",
+   "note": "0 new, 2 values updated"
+  },
+  {
+   "id": "oni",
+   "ok": true,
+   "rows": 920,
+   "newest": "2026-08",
+   "note": "0 new, 0 values updated"
+  },
+  {
+   "id": "ao_aao",
+   "ok": true,
+   "rows": 921,
+   "newest": "2026-09",
+   "note": "0 new, 0 values updated"
+  },
+  {
+   "id": "planet_monthly",
+   "ok": true,
+   "rows": 1761,
+   "newest": "2026-09",
+   "note": "0 new, 0 values updated"
+  },
+  {
+   "id": "sunspots_monthly",
+   "ok": true,
+   "rows": 1521,
+   "newest": "2026-09",
+   "note": "0 new, 0 values updated"
+  },
+  {
+   "id": "enso_subsurface",
+   "ok": true,
+   "rows": 573,
+   "newest": "2026-09",
+   "note": "0 new, 0 values updated"
+  },
+  {
+   "id": "sst_weekly",
+   "ok": true,
+   "rows": 2354,
+   "newest": "2026-10-07",
+   "note": "0 new, 0 values updated"
+  },
+  {
+   "id": "sst_monthly",
+   "ok": true,
+   "rows": 921,
+   "newest": "2026-09",
+   "note": "0 new, 0 values updated"
+  },
+  {
+   "id": "blob_boxes",
+   "ok": true,
+   "rows": 177,
+   "newest": "2026-09",
+   "note": "0 new, 0 values updated"
   },
   {
    "id": "volcano_alerts_us",

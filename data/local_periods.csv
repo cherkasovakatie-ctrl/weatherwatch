@@ -1,15 +1,15 @@
 period,start,temp_f,precip_chance,wind,forecast,is_day
-This Afternoon,2026-10-17 16:00,93,0,10 mph E,Mostly Sunny,True
-Tonight,2026-10-17 18:00,65,0,5 to 10 mph ENE,Mostly Clear,False
-Sunday,2026-10-18 06:00,89,0,0 to 10 mph S,Sunny,True
-Sunday Night,2026-10-18 18:00,64,0,0 to 10 mph ENE,Clear,False
-Monday,2026-10-19 06:00,85,0,0 to 10 mph SE,Sunny,True
-Monday Night,2026-10-19 18:00,59,1,5 to 10 mph SSE,Partly Cloudy then Patchy Fog,False
-Tuesday,2026-10-20 06:00,79,6,5 to 10 mph SSE,Patchy Fog then Mostly Sunny,True
-Tuesday Night,2026-10-20 18:00,59,39,5 mph SSE,Chance Rain Showers,False
-Wednesday,2026-10-21 06:00,75,61,5 to 10 mph SE,Rain Showers Likely,True
-Wednesday Night,2026-10-21 18:00,58,70,5 to 10 mph ESE,Rain Showers Likely,False
-Thursday,2026-10-22 06:00,70,66,5 mph SE,Rain Showers Likely,True
-Thursday Night,2026-10-22 18:00,56,24,5 mph NW,Slight Chance Rain Showers then Partly Cloudy,False
-Friday,2026-10-23 06:00,73,4,0 to 5 mph WNW,Sunny,True
-Friday Night,2026-10-23 18:00,56,1,5 to 10 mph NW,Mostly Clear,False
+Today,2026-10-18 10:00,89,0,0 to 10 mph SSE,Sunny,True
+Tonight,2026-10-18 18:00,64,0,0 to 10 mph ESE,Mostly Clear,False
+Monday,2026-10-19 06:00,85,0,0 to 5 mph SE,Sunny,True
+Monday Night,2026-10-19 18:00,59,0,5 mph SE,Partly Cloudy then Patchy Fog,False
+Tuesday,2026-10-20 06:00,79,1,5 to 10 mph SSE,Patchy Fog then Mostly Sunny,True
+Tuesday Night,2026-10-20 18:00,59,35,5 mph SSE,Chance Rain Showers,False
+Wednesday,2026-10-21 06:00,74,77,5 to 10 mph SE,Rain Showers,True
+Wednesday Night,2026-10-21 18:00,57,78,5 to 10 mph SE,Rain Showers,False
+Thursday,2026-10-22 06:00,70,71,5 mph SSE,Showers And Thunderstorms Likely,True
+Thursday Night,2026-10-22 18:00,55,33,5 mph WNW,Chance Rain Showers then Partly Cloudy,False
+Friday,2026-10-23 06:00,73,2,0 to 5 mph NNW,Sunny,True
+Friday Night,2026-10-23 18:00,54,0,5 to 10 mph NW,Mostly Clear,False
+Saturday,2026-10-24 06:00,76,2,0 to 5 mph WNW,Sunny,True
+Saturday Night,2026-10-24 18:00,57,10,5 to 10 mph N,Mostly Clear,False
