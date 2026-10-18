@@ -293,3 +293,30 @@ export function blobRows(nepCsv, socalCsv, since = '2012-01') {
   const n = anomalies(ersstBoxMean(nepCsv)), s = anomalies(ersstBoxMean(socalCsv));
   return [...n.keys()].filter((m) => m >= since).sort().map((m) => ({ month: m, nep_anom: n.get(m) == null ? '' : round(n.get(m), 2), socal_anom: s.get(m) == null ? '' : round(s.get(m), 2) }));
 }
+
+// ---------- CPC Niño SST indices (weekly and monthly) ----------
+const MON3 = { JAN: '01', FEB: '02', MAR: '03', APR: '04', MAY: '05', JUN: '06', JUL: '07', AUG: '08', SEP: '09', OCT: '10', NOV: '11', DEC: '12' };
+const weekKey = (s) => { const m = s.match(/^(\d\d)([A-Z]{3})(\d{4})$/); return m ? `${m[3]}-${MON3[m[2]]}-${m[1]}` : null; };
+const rows = (text) => text.split('\n').map((l) => l.trim().split(/\s+/));
+
+/** wksst9120.for (SST, SSTA pairs) + rel_wksst9120.txt (relative SSTA) -> sst_weekly objects. */
+export function sstWeekly(abs, rel) {
+  const out = new Map();
+  for (const f of rows(abs)) { const k = weekKey(f[0] || ''); if (k && f.length >= 9) out.set(k, { week: k, nino12: round(f[2], 1), nino3: round(f[4], 1), nino34: round(f[6], 1), nino4: round(f[8], 1) }); }
+  for (const f of rows(rel)) { const k = weekKey(f[0] || ''); if (k && f.length >= 5 && out.has(k)) Object.assign(out.get(k), { rel_nino12: round(f[1], 1), rel_nino3: round(f[2], 1), rel_nino34: round(f[3], 1), rel_nino4: round(f[4], 1) }); }
+  return [...out.values()];
+}
+
+/** Monthly table from five CPC files: sstoi.indices, rel_mthsst9120.txt, detrend.nino34.ascii.txt (ERSSTv6),
+ *  Rnino34.ascii.txt (relative ERSSTv6) and sstoi.atl.indices. */
+export function sstMonthly({ oi, rel, ersst, rersst, atl }) {
+  const out = new Map();
+  const get = (y, m) => { const k = `${y}-${pad2(m)}`; if (!out.has(k)) out.set(k, { month: k }); return out.get(k); };
+  const ym = (f) => /^\d{4}$/.test(f[0]) && /^\d{1,2}$/.test(f[1]);
+  for (const f of rows(oi)) if (ym(f) && f.length >= 10) Object.assign(get(f[0], f[1]), { nino12: round(f[3], 2), nino3: round(f[5], 2), nino4: round(f[7], 2), nino34: round(f[9], 2) });
+  for (const f of rows(rel)) if (ym(f) && f.length >= 6) Object.assign(get(f[0], f[1]), { rel_nino12: round(f[2], 2), rel_nino3: round(f[3], 2), rel_nino4: round(f[4], 2), rel_nino34: round(f[5], 2) });
+  for (const f of rows(ersst)) if (ym(f) && f.length >= 5) get(f[0], f[1]).ersst_nino34 = round(f[4], 2);
+  for (const f of rows(rersst)) if (ym(f) && f.length >= 3) get(f[0], f[1]).rel_ersst_nino34 = round(f[2], 2);
+  for (const f of rows(atl)) if (ym(f) && f.length >= 8) Object.assign(get(f[0], f[1]), { n_atlantic: round(f[3], 2), s_atlantic: round(f[5], 2), global_tropics: round(f[7], 2) });
+  return [...out.values()];
+}

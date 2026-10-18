@@ -223,6 +223,21 @@ const JOBS = {
     run: async (old) => patch(old, 'month', F.heatContent(await fetchText(`${CPC}/products/analysis_monitoring/ocean/index/heat_content_index.txt`, { expect: /300m/ })),
       { cols: ['heat_180_100w'], tol: 0.05, accept: (o) => o.month > lastKey(old) && o.heat_180_100w !== '' }),
   },
+  sst_weekly: {
+    min: 2300, time: 'max',
+    run: async (old) => patch(old, 'week', F.sstWeekly(
+      await fetchText(`${CPC}/data/indices/wksst9120.for`, { expect: /Nino1\+2/ }), await fetchText(`${CPC}/data/indices/rel_wksst9120.txt`, { expect: /Relative/ })),
+    { cols: ['nino12', 'nino3', 'nino34', 'nino4', 'rel_nino12', 'rel_nino3', 'rel_nino34', 'rel_nino4'], tol: 0.15, accept: (o) => o.week > lastKey(old) && ['rel_nino12', 'rel_nino3', 'rel_nino34', 'rel_nino4'].every((c) => o[c] !== undefined && o[c] !== '') }),
+  },
+  sst_monthly: {
+    min: 900, time: 'max',
+    run: async (old) => {
+      const t = (f, re) => fetchText(`${CPC}/data/indices/${f}`, { expect: re });
+      const fresh = F.sstMonthly({ oi: await t('sstoi.indices', /NINO/), rel: await t('rel_mthsst9120.txt', /rNINO/), ersst: await t('detrend.nino34.ascii.txt', /ClimAdjust/), rersst: await t('Rnino34.ascii.txt', /ANOM/), atl: await t('sstoi.atl.indices', /NATL/) });
+      const cols = old.split('\n')[0].split(',').slice(1);
+      return patch(old, 'month', fresh, { cols, tol: 0.06, accept: (o) => o.month > lastKey(old) && cols.every((c) => o[c] !== undefined && o[c] !== '') });
+    },
+  },
   blob_boxes: {
     min: 150, time: 'max',
     run: async (old) => {

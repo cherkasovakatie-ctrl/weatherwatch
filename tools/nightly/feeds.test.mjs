@@ -96,3 +96,17 @@ test('ERSST box mean is cos-latitude weighted and anomalies use 1991–2020', ()
   series.set('2026-01', 11.234);
   assert.ok(Math.abs(F.anomalies(series).get('2026-01') - 1.234) < 1e-9);
 });
+
+test('sstWeekly joins absolute and relative weekly SSTA by week', () => {
+  const abs = ' Week          SST SSTA     SST SSTA     SST SSTA     SST SSTA\n 07OCT2026     26.1 5.2     29.0 4.1     30.0 3.3     29.9 1.3\n';
+  const rel = ' 07OCT2026         4.4        3.4        2.4        0.2\n';
+  assert.deepEqual(F.sstWeekly(abs, rel)[0], { week: '2026-10-07', nino12: '5.2', nino3: '4.1', nino34: '3.3', nino4: '1.3', rel_nino12: '4.4', rel_nino3: '3.4', rel_nino34: '2.4', rel_nino4: '0.2' });
+});
+
+test('sstMonthly maps the five CPC files to the right columns', () => {
+  const r = F.sstMonthly({
+    oi: '2026   9   25.27    4.69   28.65    3.64   29.62    0.95   29.60    2.84\n', rel: '2026    9      3.94     2.97    -0.02      2.06\n',
+    ersst: '2026   9   29.27   26.71    2.56\n', rersst: '2026   9   2.08\n', atl: '2026   9   28.77    0.62   23.67    0.73   28.34    1.14\n',
+  })[0];
+  assert.deepEqual(r, { month: '2026-09', nino12: '4.69', nino3: '3.64', nino4: '0.95', nino34: '2.84', rel_nino12: '3.94', rel_nino3: '2.97', rel_nino4: '-0.02', rel_nino34: '2.06', ersst_nino34: '2.56', rel_ersst_nino34: '2.08', n_atlantic: '0.62', s_atlantic: '0.73', global_tropics: '1.14' });
+});
