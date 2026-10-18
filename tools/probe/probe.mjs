@@ -1,62 +1,65 @@
 import { writeFile, mkdir } from 'node:fs/promises';
-import { execSync } from 'node:child_process';
 await mkdir('probe', { recursive: true });
-const UA = { 'User-Agent': 'GlobalWeatherWatch/1.0 (mailto:noreply@github.com)' };
+const UA = { 'User-Agent': 'GlobalWeatherWatch/1.0 (mailto:weatherwatch@users.noreply.github.com)' };
 const log = [];
-async function get(u, opt = {}) { const r = await fetch(u, { headers: UA, signal: AbortSignal.timeout(120000), redirect: 'follow', ...opt }); return r; }
-// 1. El Chichón paper (CC-BY): OpenAlex metadata + PDF text
+const get = (u, o = {}) => fetch(u, { headers: UA, signal: AbortSignal.timeout(120000), redirect: 'follow', ...o });
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const inv = (x) => { if (!x) return ''; const p = []; for (const [w, ix] of Object.entries(x)) for (const i of ix) p[i] = w; return p.join(' '); };
+// 1. Europe PMC full text (Nature Communications 2025, PMC11802828)
 try {
-  const j = await (await get('https://api.openalex.org/works/https://doi.org/10.1038/s43247-020-0013-y')).json();
-  const ab = j.abstract_inverted_index ? (() => { const p = []; for (const [w, ix] of Object.entries(j.abstract_inverted_index)) for (const i of ix) p[i] = w; return p.join(' '); })() : '';
-  await writeFile('probe/elchichon_meta.json', JSON.stringify({ title: j.title, authors: j.authorships?.map((a) => a.author.display_name), year: j.publication_year, venue: j.primary_location?.source?.display_name, license: j.primary_location?.license, oa: j.open_access, pdf: j.primary_location?.pdf_url, cited_by: j.cited_by_count, abstract: ab }, null, 1));
-  for (const u of [j.primary_location?.pdf_url, 'https://www.nature.com/articles/s43247-020-0013-y.pdf'].filter(Boolean)) {
-    const r = await get(u); log.push(`pdf ${u} ${r.status} ${r.headers.get('content-type')}`);
-    if (r.ok && (r.headers.get('content-type') || '').includes('pdf')) { await writeFile('/tmp/ec.pdf', Buffer.from(await r.arrayBuffer())); execSync('pdftotext -layout /tmp/ec.pdf probe/elchichon_2020_CC-BY.txt'); break; }
-  }
-} catch (e) { log.push('elchichon ' + e.message); }
-// 2. Literature: Crossref
-const Q = {
-  lau_chan_1986: 'Lau Chan 1986 The 40-50 day oscillation and the El Nino Southern Oscillation a new perspective',
-  lau_chan_1988: 'Lau Chan 1988 Intraseasonal and interannual variations of tropical convection a possible link between the 40-50 day oscillation and ENSO',
-  weickmann1991: 'Weickmann 1991 El Nino Southern Oscillation and Madden Julian 30-60 day oscillations during 1981-1982',
-  mjo_1982: 'Madden-Julian oscillation 1982 El Nino onset intraseasonal',
-  wheeler_hendon2004: 'Wheeler Hendon 2004 An all-season real-time multivariate MJO index development of an index for monitoring and prediction',
-  kiladis2014: 'Kiladis 2014 A comparison of OLR and circulation-based indices for tracking the MJO',
-  hendon2007: 'Hendon Zhang Glick 2007 Interannual variation of the Madden-Julian oscillation during austral summer',
-  zhang_gottschalck2002: 'Zhang Gottschalck 2002 SST anomalies of ENSO and the Madden-Julian oscillation in the equatorial Pacific',
-  kessler2001: 'Kessler 2001 EOF representations of the Madden-Julian oscillation and its connection with ENSO',
-  seiki2007: 'Seiki Takayabu 2007 Westerly wind bursts and their relationship with intraseasonal variations and ENSO',
-  harrison_vecchi1997: 'Harrison Vecchi 1997 Westerly wind events in the tropical Pacific 1986-95',
-  ohba2013: 'Ohba Shiogama Yokohata Watanabe 2013 Impact of strong tropical volcanic eruptions on ENSO simulated in a coupled GCM',
-  predybaylo2017: 'Predybaylo 2017 Impacts of a Pinatubo-size volcanic eruption on ENSO',
-  mcgregor_timmermann2011: 'McGregor Timmermann 2011 The effect of explosive tropical volcanism on ENSO',
-  stevenson2016: 'Stevenson 2016 El Nino like hydroclimate responses to last millennium volcanic eruptions',
-  dee2020: 'Dee Cobb Emile-Geay 2020 No consistent ENSO response to volcanic forcing over the last millennium Science',
-  elchichon_mjo: 'El Chichon eruption Maritime Continent MJO westerly wind bursts 1982 El Nino model',
-  robock_elchichon_enso: 'El Chichon 1982 El Nino volcanic eruption coincidence',
-  slingo1999: 'Slingo 1999 On the predictability of the interannual behaviour of the Madden-Julian Oscillation and its relationship with El Nino',
-  liebmann1996: 'Liebmann Smith 1996 Description of a complete interpolated outgoing longwave radiation dataset',
-  kalnay1996: 'Kalnay 1996 The NCEP/NCAR 40-year reanalysis project',
+  const r = await get('https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11802828/fullTextXML'); const t = await r.text();
+  log.push(`epmc ${r.status} ${t.length}`);
+  const lic = (t.match(/<license[\s\S]*?<\/license>/) || [''])[0].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
+  const txt = t.replace(/<xref[^>]*>([^<]*)<\/xref>/g, '[$1]').replace(/<\/(p|title|sec|caption|ref)>/g, '\n').replace(/<[^>]+>/g, '').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&').replace(/\n\s*\n+/g, '\n\n');
+  await writeFile('probe/mjo_volcano_2025.txt', 'LICENCE: ' + lic + '\n\n' + txt);
+} catch (e) { log.push('epmc ' + e.message); }
+// 2. Citation audit and literature: OpenAlex + Unpaywall + Semantic Scholar
+const DOI = {
+  gill1983: '10.1038/306229a0', rw1983: '10.1126/science.222.4629.1195', cane1983: '10.1126/science.222.4629.1189',
+  firing1983: '10.1126/science.222.4628.1121', halpern1983: '10.1126/science.221.4616.1173', luther1983: '10.1126/science.222.4621.327',
+  harrison1984: '10.1126/science.224.4653.1099', weickmann1991: '10.1029/90jd01832', predybaylo2020: '10.1038/s43247-020-0013-y',
+  mjo_volcano_2025: '10.1038/s41467-025-56692-2', ohba2013: '10.1175/jcli-d-12-00471.1', predybaylo2017: '10.1002/2016jd025796',
+  mcgregor2011: '10.1175/2010jcli3990.1', stevenson2016: '10.1175/jcli-d-15-0239.1', dee2020: '10.1126/science.aax2000',
+  khodri2017: '10.1038/s41467-017-00755-6', hendon1999: '10.1175/1520-0442(1999)012<2538:ivotmj>2.0.co;2',
+  kessler2001: '10.1175/1520-0442(2001)014<3055:erotmj>2.0.co;2', seiki2007a: '10.1175/mwr3477.1', harrison_vecchi1997: '10.1175/1520-0442(1997)010<3131:wweitt>2.0.co;2',
+  zhang_gottschalck2002: '10.1175/1520-0442(2002)015<2429:saoeat>2.0.co;2', wheeler_hendon2004: '10.1175/1520-0493(2004)132<1917:aarmmi>2.0.co;2',
+  kiladis2014: '10.1175/mwr-d-13-00301.1', slingo1999: '10.1002/qj.49712555411', kalnay1996: '10.1175/1520-0477(1996)077<0437:tnyrp>2.0.co;2',
 };
-const out = {};
-for (const [k, q] of Object.entries(Q)) {
-  try { const j = await (await get(`https://api.crossref.org/works?rows=3&query.bibliographic=${encodeURIComponent(q)}&select=DOI,title,author,container-title,volume,page,issued`)).json();
-    out[k] = (j.message?.items || []).map((i) => ({ doi: i.DOI, title: (i.title || [''])[0], authors: (i.author || []).slice(0, 6).map((a) => a.family).join(', '), journal: (i['container-title'] || [''])[0], vol: i.volume, page: i.page, year: i.issued?.['date-parts']?.[0]?.[0] })); } catch (e) { out[k] = e.message; }
-  await new Promise((r) => setTimeout(r, 600));
+const SEARCH = {
+  lau_chan_1986: 'The 40-50 day oscillation and the El Nino/Southern Oscillation: A new perspective',
+  lau_chan_1988: 'Intraseasonal and interannual variations of tropical convection: a possible link between the 40-50 day oscillation and ENSO',
+  robock1995: 'GCM evaluation of a mechanism for El Nino triggering by the El Chichon ash cloud',
+  lukas1984: 'Lukas Hayes Wyrtki 1984 Equatorial sea level response during the 1982-1983 El Nino',
+  wyrtki1985a: 'Wyrtki 1985 Sea level fluctuations in the Pacific during the 1982-83 El Nino',
+  liebmann_smith1996: 'Description of a complete (interpolated) outgoing longwave radiation dataset',
+  gill_rasmusson_text: 'Gill Rasmusson The 1982-83 climate anomaly in the equatorial Pacific',
+  mjo_1982_onset: 'Madden-Julian oscillation 1982-83 El Nino onset westerly wind',
+  elchichon_mjo2: 'volcanic eruption Madden-Julian oscillation El Nino onset El Chichon',
+};
+const lit = {};
+const pick = (j) => ({ id: j.id, doi: j.doi, title: j.title, year: j.publication_year, authors: (j.authorships || []).map((a) => a.author.display_name).slice(0, 8), venue: j.primary_location?.source?.display_name, biblio: j.biblio, oa: j.open_access, locations: (j.locations || []).map((l) => ({ src: l.source?.display_name, url: l.landing_page_url, pdf: l.pdf_url, lic: l.license, ver: l.version })), abstract: inv(j.abstract_inverted_index), cited_by: j.cited_by_count });
+for (const [k, d] of Object.entries(DOI)) {
+  try { const r = await get('https://api.openalex.org/works/https://doi.org/' + encodeURIComponent(d)); lit[k] = r.ok ? pick(await r.json()) : { err: r.status, doi: d }; } catch (e) { lit[k] = { err: e.message }; }
+  try { const r = await get(`https://api.unpaywall.org/v2/${encodeURIComponent(d)}?email=weatherwatch@users.noreply.github.com`); if (r.ok) { const u = await r.json(); lit[k].unpaywall = { is_oa: u.is_oa, status: u.oa_status, locs: (u.oa_locations || []).map((l) => ({ url: l.url, pdf: l.url_for_pdf, host: l.host_type, ver: l.version, lic: l.license, repo: l.repository_institution })) }; } else lit[k].unpaywall = r.status; } catch (e) { lit[k].unpaywall = e.message; }
+  try { const r = await get(`https://api.semanticscholar.org/graph/v1/paper/DOI:${encodeURIComponent(d)}?fields=title,abstract,openAccessPdf,tldr`); if (r.ok) { const s = await r.json(); lit[k].s2 = { abstract: s.abstract, pdf: s.openAccessPdf, tldr: s.tldr?.text }; } else lit[k].s2 = r.status; } catch (e) { lit[k].s2 = e.message; }
+  await sleep(1200);
 }
-await writeFile('probe/lit.json', JSON.stringify(out, null, 1));
-// 3. Data access tests
+for (const [k, q] of Object.entries(SEARCH)) {
+  try { const j = await (await get('https://api.openalex.org/works?per-page=5&search=' + encodeURIComponent(q))).json(); lit[k] = (j.results || []).map(pick); } catch (e) { lit[k] = { err: e.message }; }
+  await sleep(500);
+}
+await writeFile('probe/lit2.json', JSON.stringify(lit, null, 1));
+// 3. MJO index sources
 const D = {
-  rmm_bom: 'http://www.bom.gov.au/climate/mjo/graphics/rmm.74toRealtime.txt',
-  omi_psl: 'https://psl.noaa.gov/mjo/mjoindex/omi.1x.txt',
-  omi_era5: 'https://psl.noaa.gov/mjo/mjoindex/omi.era5.1x.webpage.4023.txt',
-  u850_dods: 'https://psl.noaa.gov/thredds/dodsC/Datasets/ncep.reanalysis.dailyavgs/pressure/uwnd.1982.nc.ascii?level[0:1:16]',
-  u850_sub: 'https://psl.noaa.gov/thredds/dodsC/Datasets/ncep.reanalysis.dailyavgs/pressure/uwnd.1982.nc.ascii?uwnd[0:1:1][2:1:2][36:1:36][0:1:3]',
-  olr_dods: 'https://psl.noaa.gov/thredds/dodsC/Datasets/interp_OLR/olr.day.mean.nc.ascii?time[0:1:3]',
-  olr_sub: 'https://psl.noaa.gov/thredds/dodsC/Datasets/interp_OLR/olr.day.mean.nc.ascii?olr[2900:1:2901][36:1:36][0:1:3]',
+  psl_mjo_dir: 'https://psl.noaa.gov/mjo/mjoindex/',
+  psl_mjo_page: 'https://psl.noaa.gov/mjo/',
+  omi_1x_1979: 'https://psl.noaa.gov/mjo/mjoindex/omi.1x.1979.txt',
+  iri_rmm: 'https://iridl.ldeo.columbia.edu/SOURCES/.BoM/.MJO/.RMM/',
+  bom_ftp_list: 'http://www.bom.gov.au/catalogue/anon-ftp.shtml',
+  sheet_mjo: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSDsjlfm3r3JwgBbm40qXK9d5lsjAwwVjyKs_hh963NuwS3_91QCmndBdqfD7ni1hyVcuNuCgxwlRJg/pub?single=true&output=csv&gid=334938232',
 };
 for (const [k, u] of Object.entries(D)) {
-  try { const r = await get(u); const t = await r.text(); const L = t.split('\n'); await writeFile(`probe/data_${k}.txt`, `${u}\nHTTP ${r.status} ${t.length}\n` + [...L.slice(0, 12), '...', ...L.slice(-4)].join('\n')); log.push(`${k} ${r.status} ${t.length}`); }
+  try { const r = await get(u); const t = await r.text(); const L = t.split('\n'); await writeFile(`probe/src_${k}.txt`, `${u}\nHTTP ${r.status} ${t.length}\n` + (t.length < 60000 ? t : [...L.slice(0, 40), '...', ...L.slice(-10)].join('\n'))); log.push(`${k} ${r.status} ${t.length}`); }
   catch (e) { log.push(`${k} ERR ${e.message}`); }
 }
-await writeFile('probe/_log.txt', log.join('\n') + '\n');
+await writeFile('probe/log.txt', log.join('\n'));
