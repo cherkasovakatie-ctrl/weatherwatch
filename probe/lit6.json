@@ -1,0 +1,196 @@
+{
+ "hameed2018": {
+  "doi": "10.1038/s41467-018-04803-7",
+  "title": "A model for super El Niños",
+  "first": "Hameed S, Jin D, Thilakan V",
+  "n_auth": 3,
+  "journal": "Nature Communications",
+  "vol": "9",
+  "issue": "1",
+  "art": "2528",
+  "year": 2018
+ },
+ "kim2025": {
+  "doi": "10.1038/s41467-025-56692-2",
+  "title": "Volcanically forced Madden–Julian oscillation triggers the immediate onset of El Niño",
+  "first": "Kim H, Min S, Kim D, Visioni D",
+  "n_auth": 4,
+  "journal": "Nature Communications",
+  "vol": "16",
+  "issue": "1",
+  "art": "1399",
+  "year": 2025
+ },
+ "izumo2010": {
+  "doi": "10.1038/ngeo760",
+  "title": "Influence of the state of the Indian Ocean Dipole on the following year’s El Niño",
+  "first": "Izumo T, Vialard J, Lengaigne M, de Boyer Montegut C, Behera S, Luo J",
+  "n_auth": 9,
+  "journal": "Nature Geoscience",
+  "vol": "3",
+  "issue": "3",
+  "page": "168-172",
+  "year": 2010
+ },
+ "huang2017": {
+  "doi": "10.1175/jcli-d-16-0836.1",
+  "title": "Extended Reconstructed Sea Surface Temperature, Version 5 (ERSSTv5): Upgrades, Validations, and Intercomparisons",
+  "first": "Huang B, Thorne P, Banzon V, Boyer T, Chepurin G, Lawrimore J",
+  "n_auth": 10,
+  "journal": "Journal of Climate",
+  "vol": "30",
+  "issue": "20",
+  "page": "8179-8205",
+  "year": 2017
+ },
+ "schreck2009": {
+  "doi": "10.1175/2008mwr2541.1",
+  "title": "A Case Study of an Outbreak of Twin Tropical Cyclones",
+  "first": "Schreck C, Molinari J",
+  "n_auth": 2,
+  "journal": "Monthly Weather Review",
+  "vol": "137",
+  "issue": "3",
+  "page": "863-875",
+  "year": 2009
+ },
+ "fan2024": {
+  "doi": "10.1126/sciadv.adp2281",
+  "title": "Coupling is key for the tropical Indian and Atlantic oceans to boost super El Niño",
+  "first": "Fan H, Wang C, Yang S, Zhang G",
+  "n_auth": 4,
+  "journal": "Science Advances",
+  "vol": "10",
+  "issue": "37",
+  "art": "eadp2281",
+  "year": 2024
+ },
+ "bjerknes1969": {
+  "doi": "10.1175/1520-0493(1969)097<0163:atftep>2.3.co;2",
+  "title": "ATMOSPHERIC TELECONNECTIONS FROM THE EQUATORIAL PACIFIC<sup>1</sup>",
+  "first": "BJERKNES J",
+  "n_auth": 1,
+  "journal": "Monthly Weather Review",
+  "vol": "97",
+  "issue": "3",
+  "page": "163-172",
+  "year": 1969
+ },
+ "zhang2021": {
+  "status": 404,
+  "doi": "10.1175/jcli-d-21-0074.1"
+ },
+ "luo2010": {
+  "doi": "10.1175/2009jcli3104.1",
+  "title": "Interaction between El Niño and Extreme Indian Ocean Dipole",
+  "first": "Luo J, Zhang R, Behera S, Masumoto Y, Jin F, Lukas R",
+  "n_auth": 7,
+  "journal": "Journal of Climate",
+  "vol": "23",
+  "issue": "3",
+  "page": "726-742",
+  "year": 2010
+ },
+ "liebmann1996": {
+  "status": 404,
+  "doi": "10.1175/1520-0477(1996)077<1275:dociol>2.0.co;2"
+ },
+ "robock1995": {
+  "status": 404,
+  "doi": "10.1029/95gl02180"
+ },
+ "chai2020": {
+  "doi": "10.1007/s00382-020-05453-6",
+  "title": "A robust equatorial Pacific westerly response to tropical volcanism in multiple models",
+  "first": "Chai J, Liu F, Xing C, Wang B, Gao C, Liu J",
+  "n_auth": 7,
+  "journal": "Climate Dynamics",
+  "vol": "55",
+  "issue": "11-12",
+  "page": "3413-3429",
+  "year": 2020
+ },
+ "zuo2018": {
+  "doi": "10.1175/jcli-d-17-0571.1",
+  "title": "Different Impacts of Northern, Tropical, and Southern Volcanic Eruptions on the Tropical Pacific SST in the Last Millennium",
+  "first": "Zuo M, Man W, Zhou T, Guo Z",
+  "n_auth": 4,
+  "journal": "Journal of Climate",
+  "vol": "31",
+  "issue": "17",
+  "page": "6729-6744",
+  "year": 2018
+ },
+ "khodri2017": {
+  "doi": "10.1038/s41467-017-00755-6",
+  "title": "Tropical explosive volcanic eruptions can trigger El Niño by cooling tropical Africa",
+  "first": "Khodri M, Izumo T, Vialard J, Janicot S, Cassou C, Lengaigne M",
+  "n_auth": 12,
+  "journal": "Nature Communications",
+  "vol": "8",
+  "issue": "1",
+  "art": "778",
+  "year": 2017
+ },
+ "worsfold2024": {
+  "doi": "10.3390/rs16183358",
+  "title": "Presenting a Long-Term, Reprocessed Dataset of Global Sea Surface Temperature Produced Using the OSTIA System",
+  "first": "Worsfold M, Good S, Atkinson C, Embury O",
+  "n_auth": 4,
+  "journal": "Remote Sensing",
+  "vol": "16",
+  "issue": "18",
+  "page": "3358",
+  "year": 2024
+ },
+ "weickmann1991": {
+  "doi": "10.1029/90jd01832",
+  "title": "El Niño/Southern Oscillation and Madden‐Julian (30–60 day) oscillations during 1981–1982",
+  "first": "Weickmann K",
+  "n_auth": 1,
+  "journal": "Journal of Geophysical Research: Oceans",
+  "vol": "96",
+  "issue": "S01",
+  "page": "3187-3195",
+  "year": 1991
+ },
+ "kiladis2014": {
+  "doi": "10.1175/mwr-d-13-00301.1",
+  "title": "A Comparison of OLR and Circulation-Based Indices for Tracking the MJO",
+  "first": "Kiladis G, Dias J, Straub K, Wheeler M, Tulich S, Kikuchi K",
+  "n_auth": 8,
+  "journal": "Monthly Weather Review",
+  "vol": "142",
+  "issue": "5",
+  "page": "1697-1715",
+  "year": 2014
+ },
+ "annamalai2005": {
+  "doi": "10.1175/jcli-3268.1",
+  "title": "Impact of Indian Ocean Sea Surface Temperature on Developing El Niño*",
+  "first": "Annamalai H, Xie S, McCreary J, Murtugudde R",
+  "n_auth": 4,
+  "journal": "Journal of Climate",
+  "vol": "18",
+  "issue": "2",
+  "page": "302-319",
+  "year": 2005
+ },
+ "kug2006": {
+  "doi": "10.1175/jcli3587.1",
+  "title": "The Thinning of Arctic Sea Ice, 1988–2003: Have We Passed a Tipping Point?",
+  "first": "Lindsay R, Zhang J",
+  "n_auth": 2,
+  "journal": "Journal of Climate",
+  "vol": "18",
+  "issue": "22",
+  "page": "4879-4894",
+  "year": 2005
+ },
+ "luo2010_q": "Unexpected end of JSON input",
+ "zhang2021_q": "Unexpected end of JSON input",
+ "robock1995_q": "Unexpected end of JSON input",
+ "liebmann_q": "Unexpected end of JSON input",
+ "annamalai2005_q": "Unexpected end of JSON input",
+ "kug2006_q": "Unexpected end of JSON input"
+}
