@@ -1,0 +1,215 @@
+{
+ "rk2007": {
+  "doi": "10.1175/jcli4249.1",
+  "title": "Analysis of a Reconstructed Oceanic Kelvin Wave Dynamic Height Dataset for the Period 1974–2005",
+  "authors": "Roundy, Kiladis",
+  "journal": "Journal of Climate",
+  "vol": "20",
+  "issue": "17",
+  "page": "4341-4355",
+  "year": 2007
+ },
+ "zhang2005": {
+  "doi": "10.1029/2004rg000158",
+  "title": "Madden‐Julian Oscillation",
+  "authors": "Zhang",
+  "journal": "Reviews of Geophysics",
+  "vol": "43",
+  "issue": "2",
+  "art": "2004RG000158",
+  "year": 2005
+ },
+ "li2023": {
+  "doi": "10.3389/feart.2022.1021953",
+  "title": "Comparison of Madden-Julian oscillation in three super El Niño events",
+  "authors": "Li, Chen, Li, Li, Yang",
+  "journal": "Frontiers in Earth Science",
+  "vol": "10",
+  "art": "1021953",
+  "year": 2023
+ },
+ "rk2006": {
+  "doi": "10.1175/jcli3893.1",
+  "title": "Observed Relationships between Oceanic Kelvin Waves and Atmospheric Forcing",
+  "authors": "Roundy, Kiladis",
+  "journal": "Journal of Climate",
+  "vol": "19",
+  "issue": "20",
+  "page": "5253-5272",
+  "year": 2006
+ },
+ "ventrice2013": {
+  "doi": "10.1175/mwr-d-12-00327.1",
+  "title": "A Modified Multivariate Madden–Julian Oscillation Index Using Velocity Potential",
+  "authors": "Ventrice, Wheeler, Hendon, Schreck, Thorncroft, Kiladis",
+  "journal": "Monthly Weather Review",
+  "vol": "141",
+  "issue": "12",
+  "page": "4197-4210",
+  "year": 2013
+ },
+ "rk2007_q": [
+  {
+   "DOI": "10.1175/jcli4249.1",
+   "title": [
+    "Analysis of a Reconstructed Oceanic Kelvin Wave Dynamic Height Dataset for the Period 1974–2005"
+   ],
+   "volume": "20",
+   "page": "4341-4355",
+   "issued": {
+    "date-parts": [
+     [
+      2007,
+      9,
+      1
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Paul E.",
+     "family": "Roundy",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Department of Earth and Atmospheric Sciences, University at Albany, State University of New York, Albany, New York"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "George N.",
+     "family": "Kiladis",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Physical Sciences Division, NOAA–CIRES Earth System Research Laboratory, Boulder, Colorado"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "container-title": [
+    "Journal of Climate"
+   ]
+  },
+  {
+   "DOI": "10.1175/jcli3893.1",
+   "title": [
+    "Observed Relationships between Oceanic Kelvin Waves and Atmospheric Forcing"
+   ],
+   "volume": "19",
+   "page": "5253-5272",
+   "issued": {
+    "date-parts": [
+     [
+      2006,
+      10,
+      15
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Paul E.",
+     "family": "Roundy",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Aeronomy Laboratory, NOAA–CIRES, Boulder, Colorado"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "George N.",
+     "family": "Kiladis",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Aeronomy Laboratory, NOAA–CIRES, Boulder, Colorado"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "container-title": [
+    "Journal of Climate"
+   ]
+  },
+  {
+   "DOI": "10.1175/2010jcli3790.1",
+   "title": [
+    "Analysis of Apparent Coupling between an Oceanic Kelvin Wave and Atmospheric Convection during the Winter of 1986/87"
+   ],
+   "volume": "23",
+   "page": "6352-6364",
+   "issued": {
+    "date-parts": [
+     [
+      2010,
+      12,
+      1
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Lynn",
+     "family": "Gribble-Verhagen",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Department of Atmospheric and Environmental Sciences, University at Albany, State University of New York, Albany, New York"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Paul E.",
+     "family": "Roundy",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Department of Atmospheric and Environmental Sciences, University at Albany, State University of New York, Albany, New York"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "container-title": [
+    "Journal of Climate"
+   ]
+  }
+ ]
+}
