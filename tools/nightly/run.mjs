@@ -87,6 +87,7 @@ function patch(oldTxt, key, fresh, { cols, tol, accept, keep, last } = {}) {
   return { header, rows: m.rows, note: `${m.added} new, ${m.changed} values updated` };
 }
 const firstKey = (txt) => txt.split('\n')[1].split(',')[0];
+const lastKey = (txt) => txt.trim().split('\n').slice(-1)[0].split(',')[0];
 const CPC = 'https://www.cpc.ncep.noaa.gov';
 const CRW = { florida: ['florida_keys', 'Florida Keys'], puerto_rico: ['puerto_rico', 'Puerto Rico'], galapagos: ['galapagos', 'Galápagos'], hawaii: ['hawaii', 'Hawaii'] };
 const crwAll = async () => Object.fromEntries(await Promise.all(Object.entries(CRW).map(async ([k, [f]]) => [k, F.crwSeries(await fetchText(`https://coralreefwatch.noaa.gov/product/vs/data/${f}.txt`, { expect: /DHW/ }))])));
@@ -122,7 +123,17 @@ const JOBS = {
   },
   local_hilo: { min: 20, time: 'max', run: async () => T.tidesHiLo(await getJson(coops(`product=predictions&interval=hilo&begin_date=${ymd(begin)}&end_date=${ymd(end)}`))) },
   local_watertemp: { min: 24, time: 'max', run: async () => T.waterTemp(await getJson(coops('product=water_temperature&interval=h&date=recent'))) },
-  fires_global_grid: { min: 500, time: null, run: async () => T.firmsGrid(await firms('world', 1)) },
+  fires_global_grid: {
+    min: 500, time: null,
+    // FIRMS "1 day" is the current UTC date only, which is nearly empty early in the day: fetch 2 days, keep the 24 h
+    // before the newest detection.
+    run: async () => {
+      const d = await firms('world', 2);
+      const t = (x) => Date.parse(`${x.acq_date}T${String(x.acq_time).padStart(4, '0').replace(/(\d\d)(\d\d)/, '$1:$2')}:00Z`);
+      const newest = Math.max(...d.map(t));
+      return T.firmsGrid(d.filter((x) => t(x) > newest - 864e5));
+    },
+  },
   fires_socal: {
     min: 10, time: 'max',
     run: async () => {
@@ -185,14 +196,14 @@ const JOBS = {
     min: 900, time: 'max',
     run: async (old) => patch(old, 'centre_month', F.oniRows(
       await fetchText(`${CPC}/data/indices/oni.ascii.txt`, { expect: /SEAS/ }), await fetchText(`${CPC}/data/indices/RONI.ascii.txt`, { expect: /SEAS/ })),
-    { cols: ['oni', 'roni'], tol: 0.05, accept: (o) => o.oni !== '' && o.roni !== '' }),
+    { cols: ['oni', 'roni'], tol: 0.05, accept: (o) => o.centre_month > lastKey(old) && o.oni !== '' && o.roni !== '' }),
   },
   ao_aao: {
     min: 900, time: 'max',
     run: async (old) => patch(old, 'month', F.aoAao(
       await fetchText(`${CPC}/products/precip/CWlink/daily_ao_index/monthly.ao.index.b50.current.ascii`),
       await fetchText(`${CPC}/products/precip/CWlink/daily_ao_index/aao/monthly.aao.index.b79.current.ascii`)),
-    { cols: ['ao', 'aao'], tol: 0.05, accept: (o) => o.ao !== '' && o.aao !== '' }),
+    { cols: ['ao', 'aao'], tol: 0.05, accept: (o) => o.month > lastKey(old) && o.ao !== '' && o.aao !== '' }),
   },
   planet_monthly: {
     min: 1700, time: 'max',
@@ -200,17 +211,17 @@ const JOBS = {
       await fetchText('https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv', { expect: /Land-Ocean/ }),
       await fetchText('https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_mm_mlo.csv', { expect: /year,month/ }),
       await fetchText('https://climate.rutgers.edu/snowcover/files/moncov.nhland.txt')),
-    { cols: ['gistemp', 'co2', 'co2_trend', 'snow_nh', 'snow_nh_anom'], tol: 0.06, accept: (o) => ['gistemp', 'co2', 'co2_trend', 'snow_nh', 'snow_nh_anom'].every((c) => o[c] !== '' && o[c] !== undefined) }),
+    { cols: ['gistemp', 'co2', 'co2_trend', 'snow_nh', 'snow_nh_anom'], tol: 0.06, accept: (o) => o.month > lastKey(old) && ['gistemp', 'co2', 'co2_trend', 'snow_nh', 'snow_nh_anom'].every((c) => o[c] !== '' && o[c] !== undefined) }),
   },
   sunspots_monthly: {
     min: 1500, time: 'max',
     run: async (old) => patch(old, 'month', F.silso(await fetchText('https://www.sidc.be/SILSO/INFO/snmtotcsv.php')),
-      { cols: ['ssn', 'ssn_smooth'], tol: 0.2, accept: (o) => o.ssn !== '' }),
+      { cols: ['ssn', 'ssn_smooth'], tol: 0.2, accept: (o) => o.month > lastKey(old) && o.ssn !== '' }),
   },
   enso_subsurface: {
     min: 500, time: 'max',
     run: async (old) => patch(old, 'month', F.heatContent(await fetchText(`${CPC}/products/analysis_monitoring/ocean/index/heat_content_index.txt`, { expect: /300m/ })),
-      { cols: ['heat_180_100w'], tol: 0.05, accept: (o) => o.heat_180_100w !== '' }),
+      { cols: ['heat_180_100w'], tol: 0.05, accept: (o) => o.month > lastKey(old) && o.heat_180_100w !== '' }),
   },
   volcano_alerts_us: {
     min: 0, time: null,

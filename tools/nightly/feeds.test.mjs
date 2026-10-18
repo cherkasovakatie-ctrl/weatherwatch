@@ -61,7 +61,7 @@ test('ozone tables: missing days blank, column names from the header', () => {
 test('fiveDayMean needs all five days', () => {
   const daily = F.nsidcDaily('2026, 10, 06, 5.0, 0, x\n2026, 10, 07, 6.0, 0, x\n2026, 10, 08, 7.0, 0, x\n2026, 10, 09, 8.0, 0, x\n2026, 10, 10, 9.0, 0, x\n');
   const m = F.fiveDayMean(daily, '2026');
-  assert.equal(m.get('10-10'), '7');
+  assert.equal(m.get('10-10'), '7.0');
   assert.equal(m.has('10-09'), false);
 });
 

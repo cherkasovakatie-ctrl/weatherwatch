@@ -12,7 +12,8 @@ export function pyFloat(v) {
   const n = Number(v);
   return Number.isInteger(n) ? n.toFixed(1) : String(n);
 }
-export const round = (v, n) => (isNum(v) ? String(Number(Number(v).toFixed(n))) : '');
+/** Round to n decimals, written like a Python float ("1.0", "2.16"), as the existing files are. */
+export const round = (v, n) => (isNum(v) ? pyFloat(Number(Number(v).toFixed(n))) : '');
 
 // ---------- generic merge ----------
 /** Merge new objects into existing CSV rows by key. Existing values are overwritten only where the new value is
