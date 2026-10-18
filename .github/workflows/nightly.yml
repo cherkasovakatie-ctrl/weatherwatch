@@ -42,7 +42,7 @@ jobs:
 
       - name: Unit tests
         if: steps.gate.outputs.run == 'true'
-        run: node --test tools/nightly/transforms.test.mjs
+        run: node --test tools/nightly/transforms.test.mjs tools/nightly/feeds.test.mjs
 
       - name: Fetch, validate and write datasets
         if: steps.gate.outputs.run == 'true'

@@ -5,6 +5,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as T from './transforms.mjs';
+import * as F from './feeds.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const DATA = path.join(ROOT, 'data');
@@ -61,6 +62,37 @@ async function firms(area, days) {
   return out;
 }
 
+async function fetchText(url, { expect = null, tries = 3, timeout = 90000 } = {}) {
+  let last;
+  for (let i = 0; i < tries; i++) {
+    try {
+      const r = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(timeout) });
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      const t = await r.text();
+      if (expect && !expect.test(t)) throw new Error(`unexpected content: ${t.slice(0, 80).replace(/\s+/g, ' ')}`);
+      return t;
+    } catch (e) {
+      last = e;
+      await new Promise((res) => setTimeout(res, 3000 * (i + 1)));
+    }
+  }
+  throw new Error(`${url}: ${last.message}`);
+}
+
+/** Merge fresh objects into the existing file after checking them against its overlapping values. */
+function patch(oldTxt, key, fresh, { cols, tol, accept, keep, last } = {}) {
+  const header = oldTxt.split('\n')[0].split(',');
+  const m = F.mergeRows(oldTxt, header, key, fresh, { accept, keep });
+  if (cols) { const bad = F.overlapCheck(m.old, fresh, key, cols, tol, { last }); if (bad) throw new Error(bad); }
+  return { header, rows: m.rows, note: `${m.added} new, ${m.changed} values updated` };
+}
+const firstKey = (txt) => txt.split('\n')[1].split(',')[0];
+const CPC = 'https://www.cpc.ncep.noaa.gov';
+const CRW = { florida: ['florida_keys', 'Florida Keys'], puerto_rico: ['puerto_rico', 'Puerto Rico'], galapagos: ['galapagos', 'Galápagos'], hawaii: ['hawaii', 'Hawaii'] };
+const crwAll = async () => Object.fromEntries(await Promise.all(Object.entries(CRW).map(async ([k, [f]]) => [k, F.crwSeries(await fetchText(`https://coralreefwatch.noaa.gov/product/vs/data/${f}.txt`, { expect: /DHW/ }))])));
+let crwCache;
+const OZ = 'https://ozonewatch.gsfc.nasa.gov/meteorology/figures/ozone';
+
 const now = new Date();
 const begin = new Date(now.getTime() - 3 * 86400e3), end = new Date(now.getTime() + 4 * 86400e3);
 
@@ -98,6 +130,87 @@ const JOBS = {
       const known = (await readCsv('fires_socal.csv')).filter((r) => r.kind?.startsWith('Persistent')).map((r) => ({ lat: Number(r.lat), lon: Number(r.lon) }));
       return T.firmsSocal(await firms('-121.2,32.3,-114.5,36', 5), HOME, known);
     },
+  },
+  // ---- batch 2: daily feeds ----
+  space_daily: {
+    min: 20, time: 'max',
+    run: async (old) => patch(old, 'date', F.swpcDaily(
+      await fetchText('https://services.swpc.noaa.gov/text/daily-solar-indices.txt', { expect: /Daily Solar Data/ }),
+      await fetchText('https://services.swpc.noaa.gov/text/daily-geomagnetic-indices.txt', { expect: /Daily Geomagnetic Data/ })),
+    { cols: ['ap', 'f107', 'ssn'], tol: 1, keep: 31 }),
+  },
+  calfire_active: {
+    min: 0, time: null,
+    run: async () => {
+      const list = JSON.parse(await fetchText('https://www.fire.ca.gov/umbraco/api/IncidentApi/List?inactive=false', { expect: /^\s*\[/ }));
+      const rows = F.calfire(list, T.localDate);
+      return { header: ['incident', 'county', 'started', 'acres', 'containment_pct'], rows: rows.map((r) => [r.incident, r.county, r.started, r.acres, r.containment_pct]) };
+    },
+  },
+  coral_dhw: {
+    min: 600, time: 'max',
+    run: async (old) => { crwCache ??= await crwAll(); return patch(old, 'date', F.coralDhw(crwCache), { cols: ['florida', 'puerto_rico', 'galapagos', 'hawaii'], tol: 0.05 }); },
+  },
+  coral_now: {
+    min: 4, time: null,
+    run: async () => {
+      crwCache ??= await crwAll();
+      const rows = F.coralNow(crwCache, Object.fromEntries(Object.entries(CRW).map(([k, [, n]]) => [k, n])), String(now.getUTCFullYear()));
+      return { header: ['reef', 'date', 'sst', 'hotspot', 'dhw', 'alert', 'dhw_peak_2026', 'peak_date'], rows: rows.map((r) => [r.reef, r.date, r.sst, r.hotspot, r.dhw, r.alert, r.dhw_peak_2026, r.peak_date]) };
+    },
+  },
+  ozone_2026: {
+    min: 100, time: null,
+    run: async (old) => {
+      const area = F.ozoneTable(await fetchText(`${OZ}/to3areas_2026_toms+omi+omps.txt`, { expect: /Ozone Hole Area/ }));
+      let mins = [], warning;
+      try { mins = F.ozoneTable(await fetchText(`${OZ}/to3mins_2026_toms+omi+omps.txt`, { expect: /Date/ })); } catch (e) { warning = `minimum ozone not refreshed: ${e.message}`; }
+      const start = firstKey(old);
+      const out = patch(old, 'date', F.ozoneRows(area, mins).filter((r) => r.date >= start), { cols: ['area_mean', 'area_p10', 'area_p90'], tol: 0.02, accept: () => false });
+      return { ...out, warning };
+    },
+  },
+  seaice_clim: {
+    min: 365, time: null,
+    run: async (old) => {
+      const yr = String(now.getUTCFullYear());
+      const nsidc = (h) => fetchText(`https://noaadata.apps.nsidc.org/NOAA/G02135/${h === 'N' ? 'north' : 'south'}/daily/data/${h}_seaice_extent_daily_v4.0.csv`, { expect: /Extent/, timeout: 120000 });
+      const n = F.fiveDayMean(F.nsidcDaily(await nsidc('N')), yr), s = F.fiveDayMean(F.nsidcDaily(await nsidc('S')), yr);
+      const fresh = [...new Set([...n.keys(), ...s.keys()])].map((md) => ({ md, [`arctic_${yr}`]: n.get(md) ?? '', [`antarctic_${yr}`]: s.get(md) ?? '' }));
+      return patch(old, 'md', fresh, { cols: [`arctic_${yr}`, `antarctic_${yr}`], tol: 0.03, accept: () => false, last: 60 });
+    },
+  },
+  // ---- batch 2: monthly indices, checked daily; a new month is added only when every column has a value ----
+  oni: {
+    min: 900, time: 'max',
+    run: async (old) => patch(old, 'centre_month', F.oniRows(
+      await fetchText(`${CPC}/data/indices/oni.ascii.txt`, { expect: /SEAS/ }), await fetchText(`${CPC}/data/indices/RONI.ascii.txt`, { expect: /SEAS/ })),
+    { cols: ['oni', 'roni'], tol: 0.05, accept: (o) => o.oni !== '' && o.roni !== '' }),
+  },
+  ao_aao: {
+    min: 900, time: 'max',
+    run: async (old) => patch(old, 'month', F.aoAao(
+      await fetchText(`${CPC}/products/precip/CWlink/daily_ao_index/monthly.ao.index.b50.current.ascii`),
+      await fetchText(`${CPC}/products/precip/CWlink/daily_ao_index/aao/monthly.aao.index.b79.current.ascii`)),
+    { cols: ['ao', 'aao'], tol: 0.05, accept: (o) => o.ao !== '' && o.aao !== '' }),
+  },
+  planet_monthly: {
+    min: 1700, time: 'max',
+    run: async (old) => patch(old, 'month', F.planetMonthly(
+      await fetchText('https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv', { expect: /Land-Ocean/ }),
+      await fetchText('https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_mm_mlo.csv', { expect: /year,month/ }),
+      await fetchText('https://climate.rutgers.edu/snowcover/files/moncov.nhland.txt')),
+    { cols: ['gistemp', 'co2', 'co2_trend', 'snow_nh', 'snow_nh_anom'], tol: 0.06, accept: (o) => ['gistemp', 'co2', 'co2_trend', 'snow_nh', 'snow_nh_anom'].every((c) => o[c] !== '' && o[c] !== undefined) }),
+  },
+  sunspots_monthly: {
+    min: 1500, time: 'max',
+    run: async (old) => patch(old, 'month', F.silso(await fetchText('https://www.sidc.be/SILSO/INFO/snmtotcsv.php')),
+      { cols: ['ssn', 'ssn_smooth'], tol: 0.2, accept: (o) => o.ssn !== '' }),
+  },
+  enso_subsurface: {
+    min: 500, time: 'max',
+    run: async (old) => patch(old, 'month', F.heatContent(await fetchText(`${CPC}/products/analysis_monitoring/ocean/index/heat_content_index.txt`, { expect: /300m/ })),
+      { cols: ['heat_180_100w'], tol: 0.05, accept: (o) => o.heat_180_100w !== '' }),
   },
   volcano_alerts_us: {
     min: 0, time: null,
@@ -144,14 +257,14 @@ async function main() {
     const file = path.join(DATA, ds.file);
     try {
       const oldTxt = await readFile(file, 'utf8');
-      const out = await job.run();
+      const out = await job.run(oldTxt);
       const problem = check(id, job, out, oldTxt);
       if (problem) throw new Error(problem);
       const csv = T.toCsv(out.header, out.rows);
       await writeFile(file, csv);
       ds.updated = today;
       ds.bytes = Buffer.byteLength(csv);
-      results.push({ id, ok: true, rows: out.rows.length, newest: out.rows.map((r) => String(r[0])).sort().at(-1), ...(out.warning ? { warning: out.warning } : {}) });
+      results.push({ id, ok: true, rows: out.rows.length, newest: out.rows.map((r) => String(r[0])).sort().at(-1), ...(out.note ? { note: out.note } : {}), ...(out.warning ? { warning: out.warning } : {}) });
     } catch (e) {
       results.push({ id, ok: false, error: redact(e.message) });
     }
