@@ -17,7 +17,10 @@ jobs:
         with: { python-version: '3.12' }
       - run: pip install numpy scipy
       - run: SKIP_LIT=1 node tools/probe/probe.mjs
-      - run: python tools/probe/mjo.py > probe/mjo_stdout.txt 2>&1 || true
+      - run: node tools/probe/lit3.mjs || true
+      - run: python tools/probe/io.py > probe/io_stdout.txt 2>&1 || true
+      - uses: actions/upload-artifact@v4
+        with: { name: fulltext, path: fulltext/, if-no-files-found: ignore, retention-days: 7 }
       - run: |
           git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add probe && git commit -m "probe samples" && git pull --rebase origin nightly-test && git push origin HEAD:nightly-test
