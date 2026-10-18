@@ -1,0 +1,6 @@
+sheet 200 2267515 lines 18169
+agu2012 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2012GL053144 403 text/html; charset=UTF-8
+agu2015 https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2015GL064547 403 text/html; charset=UTF-8
+li2023 https://www.frontiersin.org/articles/10.3389/feart.2022.1021953/pdf 200 application/pdf
+ventrice2013 https://journals.ametsoc.org/downloadpdf/journals/mwre/141/12/mwr-d-12-00327.1.pdf 405 text/html; charset=UTF-8
+kessler_kleeman2000 https://journals.ametsoc.org/downloadpdf/journals/clim/13/20/1520-0442_2000_013_3560_rotmjo_2.0.co_2.pdf 405 text/html; charset=UTF-8

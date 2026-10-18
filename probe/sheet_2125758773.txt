@@ -1,0 +1,47 @@
+https://www.bom.gov.au/climate/mjo/graphics/rmm.74toRealtime.txt,https://www.bom.gov.au/climate/mjo/,,
+#N/A,,,"RMM values up to ""real time"". 19740601-20131231: Both SST1 variability (ENSO) and 120-day mean have been removed in these RMM values; 20140101-: Only the 120-day has been removed."
+,,,"year, month, day, RMM1, RMM2, phase, amplitude.  Missing Value= 1.E36 or 999"
+,,,1974           6           1   1.6344700       1.2030400               5   2.0294800      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6           2   1.6028900       1.0151200               5   1.8972900      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6           3   1.5162500       1.0855100               5   1.8647600      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6           4   1.5098100       1.0357300               5   1.8309200      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6           5   1.5590600       1.3051800               5   2.0332601      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6           6   1.2062600       1.6288900               6   2.0269001      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6           7  0.61110097       1.7224801               6   1.8276700      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6           8  0.32639500       1.7781800               6   1.8078901      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6           9  9.38282013E-02   1.3569400               6   1.3601800      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6          10 -8.61262977E-02  0.77547598               7  0.78024399      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6          11  0.11139400      0.38953400               6  0.40514800      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6          12  0.12048900      1.38852000E-02           5  0.12128600      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6          13  1.92805994E-02 -0.21766999               3  0.21851900      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6          14 -0.10436000     -0.38104999               2  0.39508200      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6          15 -0.18294001     -0.64534998               2  0.67077500      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6          16 -0.23596001     -0.47106999               2  0.52686501      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6          17 -0.49869001     -0.48752001               1  0.69740200      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6          18 -0.56980002     -0.36398000               1  0.67613399      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6          19 -0.69502997     -0.35556999               1  0.78070498      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6          20 -0.72915000     -0.47646001               1  0.87101501      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6          21  -1.0944300     -0.83275002               1   1.3752300      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6          22  -1.0985100     -0.83867002               1   1.3820601      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6          23  -1.0624400     -0.50405002               1   1.1759400      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6          24 -0.88507003     -0.32444000               1  0.94265801      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6          25 -0.76582003     -0.33355001               1  0.83530402      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6          26 -0.83446997     -0.41418001               1  0.93160701      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6          27 -0.80129999     -0.35989001               1  0.87841302      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6          28 -0.56441998     -0.29798999               1  0.63824999      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6          29 -9.70496982E-02 -0.40189001               2  0.41344199      WH04_method:_OLR_&_NCEP_wind
+,,,1974           6          30  9.14870016E-03 -0.24384999               3  0.24401700      WH04_method:_OLR_&_NCEP_wind
+,,,1974           7           1  0.26054999      8.71013030E-02           5  0.27472401      WH04_method:_OLR_&_NCEP_wind
+,,,1974           7           2  0.26702401      0.23012000               5  0.35250100      WH04_method:_OLR_&_NCEP_wind
+,,,1974           7           3  0.35558200      0.38715500               6  0.52566898      WH04_method:_OLR_&_NCEP_wind
+,,,1974           7           4  0.84438300      0.42613801               5  0.94582099      WH04_method:_OLR_&_NCEP_wind
+,,,1974           7           5   1.1206599      0.40039399               5   1.1900400      WH04_method:_OLR_&_NCEP_wind
+,,,1974           7           6   1.0763500      0.59540701               5   1.2300600      WH04_method:_OLR_&_NCEP_wind
+,,,1974           7           7  0.81290197      0.87044400               6   1.1910000      WH04_method:_OLR_&_NCEP_wind
+...
+...
+,,,2024           2          20 -0.30591843      0.30541921               8  0.43228114      Gottschalk10_method:_OLR_&_ACCESS_wind
+,,,2024           2          21  0.10303318      7.19310939E-02           5  0.12565795      Gottschalk10_method:_OLR_&_ACCESS_wind
+,,,2024           2          22  0.23612212      0.24854384               6  0.34282312      Gottschalk10_method:_OLR_&_ACCESS_wind
+,,,2024           2          23  0.20185633      0.32510599               6  0.38267463      Gottschalk10_method:_OLR_&_ACCESS_wind
+,,,2024           2          24 -3.14564817E-03  0.12845999               7  0.12849849      Gottschalk10_method:_OLR_&_ACCESS_wind

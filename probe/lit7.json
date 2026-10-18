@@ -1,0 +1,865 @@
+{
+ "zhang2005": {
+  "doi": "https://doi.org/10.1029/2004rg000158",
+  "title": "Madden‐Julian Oscillation",
+  "year": 2005,
+  "authors": [
+   "Chidong Zhang"
+  ],
+  "venue": "Reviews of Geophysics",
+  "biblio": {
+   "volume": "43",
+   "issue": "2",
+   "first_page": null,
+   "last_page": null
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "abstract": "The Madden‐Julian Oscillation (MJO) is the dominant component of the intraseasonal (30–90 days) variability in the tropical atmosphere. It consists of large‐scale coupled patterns in atmospheric circulation and deep convection, with coherent signals in many other variables, all propagating eastward slowly (∼5 m s −1 ) through the portion of the Indian and Pacific oceans where the sea surface is warm. It constantly interacts with the underlying ocean and influences many weather and climate systems. The past decade has witnessed an expeditious progress in the study of the MJO: Its large‐scale and multiscale structures are better described, its scale interaction is recognized, its broad influences on tropical and extratropical weather and climate are increasingly appreciated, and its mechanisms for disturbing the ocean are further comprehended. Yet we are facing great difficulties in accurately simulating and predicting the MJO using sophisticated global weather forecast and climate models, and we are unable to explain such difficulties based on existing theories of the MJO. It is fair to say that the MJO remains an unmet challenge to our understanding of the tropical atmosphere and to our ability to simulate and predict its variability. This review, motivated by both the acceleration and gaps in our knowledge of the MJO, intends to synthesize what we currently know and what we do not know on selected topics: its observed basic characteristics, mechanisms, numerical modeling, air‐sea interaction, and influences on the El Niño and Southern Oscillation.",
+  "upw": []
+ },
+ "agu2020": {
+  "doi": "https://doi.org/10.1029/2020gl088894",
+  "title": "Modulation by ENSO of the Relationship Between Stratospheric Sudden Warming and the Madden‐Julian Oscillation",
+  "year": 2020,
+  "authors": [
+   "Ji Ma",
+   "Wen Chen",
+   "Debashis Nath",
+   "Xiaoqing Lan"
+  ],
+  "venue": "Geophysical Research Letters",
+  "biblio": {
+   "volume": "47",
+   "issue": "15",
+   "first_page": null,
+   "last_page": null
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "abstract": "Abstract The ENSO modulation on the relationship between the Madden‐Julian Oscillation (MJO) and major stratospheric sudden warming (SSW) in the Northern Hemisphere winter is analyzed. The results indicate that the statistical relationship between the MJO and SSWs is robust during La Niña years but almost nonexistent during El Niño years. During La Niña years, a significant response of stratospheric temperature appears after certain MJO phases with a distribution consistent with MJO periodicity, whereas the response becomes nonsignificant during El Niño years. Further analysis indicates that ENSO influences the MJO‐related geopotential height anomalies in middle to high latitudes of the upper troposphere, which leads to an increase in wavenumber 2 in La Niña winters. And wavenumber 2 plays a key role in generating the strong heat flux anomalies in the stratosphere. The results may help to explain the more frequent occurrence of extreme events in the stratosphere, such as SSW during La Niña winters.",
+  "upw": []
+ },
+ "agu2012": {
+  "doi": "https://doi.org/10.1029/2012gl053144",
+  "title": "Observed connection between stratospheric sudden warmings and the Madden‐Julian Oscillation",
+  "year": 2012,
+  "authors": [
+   "Chaim I. Garfinkel",
+   "Steven B. Feldstein",
+   "Darryn W. Waugh",
+   "Changhyun Yoo",
+   "Sukyoung Lee"
+  ],
+  "venue": "Geophysical Research Letters",
+  "biblio": {
+   "volume": "39",
+   "issue": "18",
+   "first_page": null,
+   "last_page": null
+  },
+  "oa": {
+   "is_oa": true,
+   "oa_status": "bronze",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2012GL053144",
+   "any_repository_has_fulltext": false
+  },
+  "best": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2012GL053144",
+  "lic": null,
+  "abstract": "The effect of the Madden‐Julian Oscillation (MJO) on the Northern Hemisphere wintertime stratospheric polar vortex and major, mid‐winter stratospheric sudden warmings (SSWs) is evaluated using a meteorological reanalysis dataset. The MJO influences the region in the tropospheric North Pacific sector that is most strongly associated with a SSW. Consistent with this, SSWs in the reanalysis record have tended to follow certain MJO phases. The magnitude of the influence of the MJO on the vortex is comparable to that associated with the Quasi‐Biennial Oscillation and El Niño. The MJO could be used to improve intra‐seasonal projections of the Northern Hemisphere high latitude circulation, and in particular of the tropospheric Northern Annular Mode, at lags exceeding one month.",
+  "upw": [
+   {
+    "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2012GL053144",
+    "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2012GL053144",
+    "host": "publisher",
+    "ver": "publishedVersion",
+    "lic": null
+   }
+  ]
+ },
+ "agu2015": {
+  "doi": "https://doi.org/10.1002/2015gl064547",
+  "title": "Interannual variability of the Madden‐Julian Oscillation and its impact on the North Atlantic Oscillation in the boreal winter",
+  "year": 2015,
+  "authors": [
+   "Hai Lin",
+   "Gilbert Brunet",
+   "Bin Yu"
+  ],
+  "venue": "Geophysical Research Letters",
+  "biblio": {
+   "volume": "42",
+   "issue": "13",
+   "first_page": "5571",
+   "last_page": "5576"
+  },
+  "oa": {
+   "is_oa": true,
+   "oa_status": "bronze",
+   "oa_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2015GL064547",
+   "any_repository_has_fulltext": false
+  },
+  "best": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2015GL064547",
+  "lic": null,
+  "abstract": "Abstract Interannual variability of the Madden‐Julian Oscillation (MJO) and its influence on the extratropical teleconnection are analyzed. It is found that there is an interannual shift of the MJO activity between the Indian Ocean and the western central Pacific. This is reflected by the year‐to‐year changes in the occurrence frequency of individual MJO phases. The leading mode of an empirical orthogonal function analysis of occurrence frequency of MJO phases shows an out‐of‐phase relationship between MJO phase 7 and phases 3–5. During winters when the MJO convection occurs more frequently in the Indian Ocean (phases 3–5), a winter mean positive North Atlantic Oscillation (NAO) tends to occur. These results indicate that the seasonal mean convection activity over the Indian Ocean related to the MJO is a possible driving forcing for the seasonal mean NAO variability in the boreal winter.",
+  "upw": [
+   {
+    "pdf": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2015GL064547",
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2015GL064547",
+    "host": "publisher",
+    "ver": "publishedVersion",
+    "lic": null
+   }
+  ]
+ },
+ "agu2019": {
+  "doi": "https://doi.org/10.1029/2019jd031416",
+  "title": "Insignificant QBO‐MJO Prediction Skill Relationship in the SubX and S2S Subseasonal Reforecasts",
+  "year": 2019,
+  "authors": [
+   "Hyemi Kim",
+   "Jadwiga H. Richter",
+   "Zane Martin"
+  ],
+  "venue": "Journal of Geophysical Research Atmospheres",
+  "biblio": {
+   "volume": "124",
+   "issue": "23",
+   "first_page": "12655",
+   "last_page": "12666"
+  },
+  "oa": {
+   "is_oa": true,
+   "oa_status": "hybrid",
+   "oa_url": "https://doi.org/10.1029/2019jd031416",
+   "any_repository_has_fulltext": true
+  },
+  "best": "https://doi.org/10.1029/2019jd031416",
+  "lic": "cc-by",
+  "abstract": "The impact of the stratospheric quasi-biennial oscillation (QBO) on the prediction of the tropospheric Madden-Julian oscillation (MJO) is evaluated in reforecasts from nine models participating in subseasonal prediction projects, including the Subseasonal Experiment (SubX) and Subseasonal to Seasonal (S2S) projects. When MJO prediction skill is analyzed for December to February, MJO prediction skill is higher in the easterly phase of the QBO than the westerly phase, consistent with previous studies. However, the relationship between QBO phase and MJO prediction skill is not statistically significant for most models. This insignificant QBO-MJO skill relationship is further confirmed by comparing two subseasonal reforecast experiments with the Community Earth System Model v1 using both a high-top (46-level) and low-top (30-level) version of the Community Atmosphere Model v5. While there are clear differences in the forecasted QBO between the two model top configurations, a negligible change is shown in the MJO prediction, indicating that the QBO in this model may not directly control the MJO prediction and supporting the insignificant QBO-MJO skill relationship found in SubX and S2S models.",
+  "upw": [
+   {
+    "pdf": null,
+    "url": "https://doi.org/10.1029/2019jd031416",
+    "host": "publisher",
+    "ver": "publishedVersion",
+    "lic": "cc-by"
+   },
+   {
+    "pdf": null,
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6988457",
+    "host": "repository",
+    "ver": "submittedVersion",
+    "lic": "cc-by"
+   },
+   {
+    "pdf": null,
+    "url": "https://repository.library.noaa.gov/view/noaa/28675",
+    "host": "repository",
+    "ver": "submittedVersion",
+    "lic": "cc-by"
+   }
+  ]
+ },
+ "wh2004": {
+  "doi": "https://doi.org/10.1175/1520-0493(2004)132<1917:aarmmi>2.0.co;2",
+  "title": "An All-Season Real-Time Multivariate MJO Index: Development of an Index for Monitoring and Prediction",
+  "year": 2004,
+  "authors": [
+   "Matthew C. Wheeler",
+   "Harry H. Hendon"
+  ],
+  "venue": "Monthly Weather Review",
+  "biblio": {
+   "volume": "132",
+   "issue": "8",
+   "first_page": "1917",
+   "last_page": "1932"
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "abstract": "A seasonally independent index for monitoring the Madden–Julian oscillation (MJO) is described. It is based on a pair of empirical orthogonal functions (EOFs) of the combined fields of near-equatorially averaged 850-hPa zonal wind, 200-hPa zonal wind, and satellite-observed outgoing longwave radiation (OLR) data. Projection of the daily observed data onto the multiple-variable EOFs, with the annual cycle and components of interannual variability removed, yields principal component (PC) time series that vary mostly on the intraseasonal time scale of the MJO only. This projection thus serves as an effective filter for the MJO without the need for conventional time filtering, making the PC time series an effective index for real-time use. The pair of PC time series that form the index are called the Real-time Multivariate MJO series 1 (RMM1) and 2 (RMM2). The properties of the RMM series and the spatial patterns of atmospheric variability they capture are explored. Despite the fact that RMM1 and RMM2 describe evolution of the MJO along the equator that is independent of season, the coherent off-equatorial behavior exhibits strong seasonality. In particular, the north-ward, propagating behavior in the Indian monsoon and the southward extreme of convection into the Australian monsoon are captured by monitoring the seasonally independent eastward propagation in the equatorial belt. The previously described interannual modulation of the global variance of the MJO is also well captured.",
+  "upw": []
+ },
+ "rk2006": {
+  "doi": "https://doi.org/10.1175/jcli3893.1",
+  "title": "Observed Relationships between Oceanic Kelvin Waves and Atmospheric Forcing",
+  "year": 2006,
+  "authors": [
+   "Paul E. Roundy",
+   "George N. Kiladis"
+  ],
+  "venue": "Journal of Climate",
+  "biblio": {
+   "volume": "19",
+   "issue": "20",
+   "first_page": "5253",
+   "last_page": "5272"
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "abstract": "Abstract The Madden–Julian oscillation (MJO) has been implicated as a major source of the wind stress variability that generates basin-scale Kelvin waves in the equatorial Pacific. One source of debate concerning this relationship is the apparent difference in the frequencies of the two processes. This work utilizes data from the Tropical Atmosphere Ocean (TAO) array of moored buoys along with outgoing longwave radiation data to show by means of a multiple linear regression model and case studies that the frequency discrepancy is due to a systematic decrease in the phase speeds of the Kelvin waves and an increase in the period of the waves toward the east as conditions adjust toward El Niño. Among the potential contributing factors to this phase speed decrease is an apparent air–sea interaction that enhances the wind forcing of some of the Kelvin waves, allowing them to continue to amplify because the propagating wind stress anomaly decelerates to the speed of the developing Kelvin wave instead of the significantly faster speed of the typical MJO. Kelvin waves appear to be most effectively amplified during periods when the temperature gradient above the thermocline across the equatorial central Pacific is strong, the thermocline shoals steeply toward the east in the central Pacific, and/or when the phase speed of the propagating wind stress forcing is closest to that of the Kelvin wave. These conditions tend to occur as the ocean adjusts toward El Niño. Since Kelvin waves are instrumental to the development of El Niño events, isolating the detailed relationship between the waves and the MJO will lead to a better understanding of interannual ocean–atmosphere interactions.",
+  "upw": []
+ },
+ "li2023": {
+  "doi": "https://doi.org/10.3389/feart.2022.1021953",
+  "title": "Comparison of Madden-Julian oscillation in three super El Niño events",
+  "year": 2023,
+  "authors": [
+   "Lifeng Li",
+   "Xiong Chen",
+   "Chongyin Li",
+   "Xin Li",
+   "Minghao Yang"
+  ],
+  "venue": "Frontiers in Earth Science",
+  "biblio": {
+   "volume": "10",
+   "issue": null,
+   "first_page": null,
+   "last_page": null
+  },
+  "oa": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "oa_url": "https://www.frontiersin.org/articles/10.3389/feart.2022.1021953/pdf",
+   "any_repository_has_fulltext": true
+  },
+  "best": "https://www.frontiersin.org/articles/10.3389/feart.2022.1021953/pdf",
+  "lic": "cc-by",
+  "abstract": "This paper investigated the characteristics of Madden-Julian Oscillation (MJO) in three super El Niño events (i.e., 1982/83, 1997/98 and 2015/16 El Niño events) based on reanalysis data. MJO with apparent eastward propagation can be observed during the developing stages of these three super El Niño events. Enhanced MJO zonal wind was observed over the western Pacific, especially in 1997/98 and 2015/16 El Niño events, which is mainly attributed to the effects of tropical background circulation and extratropical anomalous circulation. During the mature stages of 1982/83 and 1997/98 El Niño events, MJO with noticeable eastward propagation cannot be observed, and the MJO zonal wind amplitude at 850 hPa was weakened (enhanced) over the Indian Ocean and western Pacific (central and eastern Pacific). However, MJO zonal wind amplitude over the central and eastern Pacific was enhanced and the prominent eastward propagation was also found in the mature stage of 2015/16 El Niño. The eastward propagation of MJO was also observed during the decaying stages of the three super El Niño events, but its intensity was weaker compared with the developing and mature stages. The abnormal activity of MJO during the mature and decaying stages may be closely related to the characteristics in circulation and moisture anomalies caused by El Niño and the seasonal cycle of circulation and moisture. In addition, this study found that the RMM index and MJO zonal wind amplitude may lead to contradictory results in identifying the characteristics of MJO activity, especially during the developing and decaying stages.",
+  "upw": [
+   {
+    "pdf": "https://www.frontiersin.org/articles/10.3389/feart.2022.1021953/pdf",
+    "url": "https://www.frontiersin.org/articles/10.3389/feart.2022.1021953/pdf",
+    "host": "publisher",
+    "ver": "publishedVersion",
+    "lic": "cc-by"
+   },
+   {
+    "pdf": null,
+    "url": "https://doaj.org/article/439a97d43f384c6c85521d96f38f68e4",
+    "host": "repository",
+    "ver": "submittedVersion",
+    "lic": "cc-by-sa"
+   }
+  ]
+ },
+ "chen2016": {
+  "doi": "https://doi.org/10.1175/jcli-d-15-0486.1",
+  "title": "Evolution of the Madden–Julian Oscillation in Two Types of El Niño",
+  "year": 2015,
+  "authors": [
+   "Xiong Chen",
+   "Jian Ling",
+   "Chongyin Li"
+  ],
+  "venue": "Journal of Climate",
+  "biblio": {
+   "volume": "29",
+   "issue": "5",
+   "first_page": "1919",
+   "last_page": "1934"
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "abstract": "Abstract Evolution characteristics of the Madden–Julian oscillation (MJO) during the eastern Pacific (EP) and central Pacific (CP) types of El Niño have been investigated. MJO activities are strengthened over the western Pacific during the predeveloping and developing phases of EP El Niño, but suppressed during the mature and decaying phases. In contrast, MJO activities do not show a clear relationship with CP El Niño before their occurrence over the western Pacific, but they increase over the central Pacific during the mature and decaying phases of CP El Niño. Lag correlation analyses further confirm that MJO activities over the western Pacific in boreal spring and early summer are closely related to EP El Niño up to 2–11 months later, but not for CP El Niño. EP El Niño tends to weaken the MJO and lead to a much shorter range of its eastward propagation. Anomalous descending motions over the Maritime Continent and western Pacific related to El Niño can suppress convection and moisture flux convergence there and weaken MJO activities over these regions during the mature phase of both types of El Niño. MJO activities over the western Pacific are much weaker in EP El Niño due to the stronger anomalous descending motions. Furthermore, the MJO propagates more continuously and farther eastward during CP El Niño because of robust moisture convergence over the central Pacific, which provides adequate moisture for the development of MJO convection.",
+  "upw": []
+ },
+ "chen2015": {
+  "doi": "https://doi.org/10.1007/s11802-015-2381-y",
+  "title": "The influence of El Niño on MJO over the equatorial pacific",
+  "year": 2015,
+  "authors": [
+   "Xiong Chen",
+   "Chongyin Li",
+   "Yanke Tan"
+  ],
+  "venue": "Journal of Ocean University of China",
+  "biblio": {
+   "volume": "14",
+   "issue": "1",
+   "first_page": "1",
+   "last_page": "8"
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "abstract": "",
+  "upw": []
+ },
+ "ventrice2013": {
+  "doi": "https://doi.org/10.1175/mwr-d-12-00327.1",
+  "title": "A Modified Multivariate Madden–Julian Oscillation Index Using Velocity Potential",
+  "year": 2013,
+  "authors": [
+   "Michael J. Ventrice",
+   "Matthew C. Wheeler",
+   "Harry H. Hendon",
+   "Carl J. Schreck",
+   "Chris D. Thorncroft",
+   "George N. Kiladis"
+  ],
+  "venue": "Monthly Weather Review",
+  "biblio": {
+   "volume": "141",
+   "issue": "12",
+   "first_page": "4197",
+   "last_page": "4210"
+  },
+  "oa": {
+   "is_oa": true,
+   "oa_status": "bronze",
+   "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/mwre/141/12/mwr-d-12-00327.1.pdf",
+   "any_repository_has_fulltext": false
+  },
+  "best": "https://journals.ametsoc.org/downloadpdf/journals/mwre/141/12/mwr-d-12-00327.1.pdf",
+  "lic": null,
+  "abstract": "Abstract A new Madden–Julian oscillation (MJO) index is developed from a combined empirical orthogonal function (EOF) analysis of meridionally averaged 200-hPa velocity potential (VP200), 200-hPa zonal wind (U200), and 850-hPa zonal wind (U850). Like the Wheeler–Hendon Real-time Multivariate MJO (RMM) index, which was developed in the same way except using outgoing longwave radiation (OLR) data instead of VP200, daily data are projected onto the leading pair of EOFs to produce the two-component index. This new index is called the velocity potential MJO (VPM) indices and its properties are quantitatively compared to RMM. Compared to the RMM index, the VPM index detects larger-amplitude MJO-associated signals during boreal summer. This includes a slightly stronger and more coherent modulation of Atlantic tropical cyclones. This result is attributed to the fact that velocity potential preferentially emphasizes the planetary-scale aspects of the divergent circulation, thereby spreading the convectively driven component of the MJO’s signal across the entire globe. VP200 thus deemphasizes the convective signal of the MJO over the Indian Ocean warm pool, where the OLR variability associated with the MJO is concentrated, and enhances the signal over the relatively drier longitudes of the equatorial Pacific and Atlantic. This work provides a useful framework for systematic analysis of the strengths and weaknesses of different MJO indices.",
+  "upw": [
+   {
+    "pdf": "https://journals.ametsoc.org/downloadpdf/journals/mwre/141/12/mwr-d-12-00327.1.pdf",
+    "url": "https://journals.ametsoc.org/downloadpdf/journals/mwre/141/12/mwr-d-12-00327.1.pdf",
+    "host": "publisher",
+    "ver": "publishedVersion",
+    "lic": null
+   }
+  ]
+ },
+ "kessler1995": {
+  "doi": "https://doi.org/10.1029/95jc00382",
+  "title": "Forcing of intraseasonal Kelvin waves in the equatorial Pacific",
+  "year": 1995,
+  "authors": [
+   "William S. Kessler",
+   "Michael James McPhaden",
+   "Klaus M. Weickmann"
+  ],
+  "venue": "Journal of Geophysical Research Atmospheres",
+  "biblio": {
+   "volume": "100",
+   "issue": "C6",
+   "first_page": "10613",
+   "last_page": "10631"
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "abstract": "Ten‐year time series of sea surface temperature (SST), 20°C depth, and zonal winds measured by moored buoys across the equatorial Pacific are used to define the intraseasonal (30‐ to 90‐day period) Kelvin waves. The Kelvin waves are observed to be forced west of the date line and propagate at a speed of 2.4 m s −1 , with high zonal coherence over at least 10,000 km. They form a major component of thermocline depth variability in the east‐central Pacific. The intraseasonal‐band variance has a low‐frequency modulation both at the annual and interannual frequencies; higher amplitudes are observed in boreal fall/winter and during the onset phase of El Niño warm events. The oceanic intraseasonal variability and its low‐frequency modulation are coherent with atmospheric intraseasonal variations (the Madden‐Julian Oscillation (MJO)), which are known to propagate eastward into the Pacific from the Indian Ocean as part of a planetary‐scale signal. The life cycle of an individual or series of MJOs is determined by a combination of factors including tropical SSTs over the warm pool regions of the Indian and Pacific Oceans and interaction with the planetary‐scale atmospheric circulation. Thus the intraseasonal Kelvin waves should be taken as an aspect of a global phenomenon, not simply internal to the Pacific. The oceanic intraseasonal variability peaks at periods near 60–75 days, while the corresponding atmospheric variations have somewhat higher frequencies (35‐ to 60‐day periods). We show that this period offset is potentially related to the zonal fetch of the wind compared to the frequency‐dependent zonal wavelength of the Kelvin wave response. A simple model is formulated that suggests an ocean‐atmosphere coupling by which zonal advection of SST feeds back to the atmosphere; the model duplicates the steplike advance of warm water and westerly winds across the Pacific at the onset of the El Niño of 1991–1992. The key dynamics of the model is that the atmosphere responds rapidly to the state of the ocean, but the ocean's response to the atmosphere is lagged because it is an integral over the entire wind forcing history felt by the wave. This results in a nonlinear ordinary differential equation that allows a net nonzero lowfrequency ocean signal to develop from zero‐mean sinusoidal forcing at intraseasonal frequencies.",
+  "upw": []
+ },
+ "kessler_kleeman2000": {
+  "doi": "https://doi.org/10.1175/1520-0442(2000)013<3560:rotmjo>2.0.co;2",
+  "title": "Rectification of the Madden–Julian Oscillation into the ENSO Cycle",
+  "year": 2000,
+  "authors": [
+   "William S. Kessler",
+   "Richard D. Kleeman"
+  ],
+  "venue": "Journal of Climate",
+  "biblio": {
+   "volume": "13",
+   "issue": "20",
+   "first_page": "3560",
+   "last_page": "3575"
+  },
+  "oa": {
+   "is_oa": true,
+   "oa_status": "bronze",
+   "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/13/20/1520-0442_2000_013_3560_rotmjo_2.0.co_2.pdf",
+   "any_repository_has_fulltext": false
+  },
+  "best": "https://journals.ametsoc.org/downloadpdf/journals/clim/13/20/1520-0442_2000_013_3560_rotmjo_2.0.co_2.pdf",
+  "lic": null,
+  "abstract": "An ocean general circulation model, forced with idealized, purely oscillating wind stresses over the western equatorial Pacific similar to those observed during the Madden–Julian oscillation (MJO), developed rectified low-frequency anomalies in SST and zonal currents, compared to a run in which the forcing was climatological. The rectification in SST resulted from increased evaporation under stronger than normal winds of either sign, from correlated intraseasonal oscillations in both vertical temperature gradient and upwelling speed forced by the winds, and from zonal advection due to nonlinearly generated equatorial currents. The net rectified signature produced by the MJO-like wind stresses was SST cooling (about 0.4°C) in the west Pacific, and warming (about 0.1°C) in the central Pacific, tending to flatten the background zonal SST gradient. It is hypothesized that, in a coupled system, such a pattern of SST anomalies would spawn additional westerly wind anomalies as a result of SST-induced changes in the low-level zonal pressure gradient. This was tested in an intermediate coupled model initialized to 1 January 1997, preceding the 1997–98 El Niño. On its own, the model hindcast a relatively weak warm event, but when the effect of the rectified SST pattern was imposed, a coupled response produced the hypothesized additional westerlies and the hindcast El Niño became about 50% stronger (measured by east Pacific SST anomalies), suggesting that the MJO can interact constructively with the ENSO cycle. This implies that developing the capacity to predict, if not individual MJO events, then the conditions that affect their amplitude, may enhance predictability of the strength of oncoming El Niños.",
+  "upw": [
+   {
+    "pdf": "https://journals.ametsoc.org/downloadpdf/journals/clim/13/20/1520-0442_2000_013_3560_rotmjo_2.0.co_2.pdf",
+    "url": "https://journals.ametsoc.org/downloadpdf/journals/clim/13/20/1520-0442_2000_013_3560_rotmjo_2.0.co_2.pdf",
+    "host": "publisher",
+    "ver": "publishedVersion",
+    "lic": null
+   }
+  ]
+ },
+ "mcphaden1999": {
+  "doi": "https://doi.org/10.1126/science.283.5404.950",
+  "title": "Genesis and Evolution of the 1997-98 El Niño",
+  "year": 1999,
+  "authors": [
+   "Michael James McPhaden"
+  ],
+  "venue": "Science",
+  "biblio": {
+   "volume": "283",
+   "issue": "5404",
+   "first_page": "950",
+   "last_page": "954"
+  },
+  "oa": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "abstract": "The 1997-98 El Nino was, by some measures, the strongest on record, with major climatic impacts felt around the world. A newly completed tropical Pacific atmosphere-ocean observing system documented this El Nino from its rapid onset to its sudden demise in greater detail than was ever before possible. The unprecedented measurements challenge existing theories about El Nino-related climate swings and suggest why climate forecast models underpredicted the strength of the El Nino before its onset.",
+  "upw": []
+ },
+ "rk2007": [
+  {
+   "doi": null,
+   "title": "Interactions between kelvin and tropical instability waves in the equatorial pacific ocean",
+   "year": 2023,
+   "authors": [
+    "Maria Gabriela Escobar Franco"
+   ],
+   "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://theses.hal.science/tel-04354299v1/document",
+    "any_repository_has_fulltext": true
+   },
+   "best": "https://theses.hal.science/tel-04354299v1/document",
+   "lic": null,
+   "abstract": "Le climat tropical moyen est le résultat d'une interaction étroite entre l'océan et l'atmosphère. Toute perturbation de cet équilibre subtil peut déclencher d'intenses réponses océaniques et atmosphériques, entraînant une forte variabilité climatique sur une large gamme d'échelles de temps. En particulier, le Pacifique equatorial est (EEP) siège de l'Oscillation Australe El Niño (ENSO), la plus forte fluctuation climatique interannuelle avec des effets généralisés sur le climat mondial, les phénomènes météorologiques et les sociétés. Malgré les progrès considérables réalisés dans la recherche sur ENSO au cours des deux dernières décennies, de nombreux défis subsitent pour comprendre sa diversité et sa complexité temporelle nouvellement reconnues. Au coeur de cette complexité, les processus océaniques à haute fréquence sont susceptibles de jouer un role important. En particulier, les ondes de kelvin intrasaisonnières (IEKWs) et les ondes d'instabilité tropicales (TIWs) sont des composantes essentielles de la variabilité climatique couplée du Pacifique tropical. Alors que les IEKWs de downwelling sont des précurseurs d'ENSO, les TIWs peuvent contribuer à son asymétrie en mélangeant les eaux plus/moins chaudes hors équatoriale avec les eaux de la cold tongue pendant La Niña/El Niño. Bien que le role des ondes de Kelvin et des TIWs sur ENSO aient été largement étudié de manière séparée, la question de leur interaction reste peu abordée dans la litterature. Outre l'intérêt d'étudier cette question pour mieux comprendre les intéractions d'échelles dans le Pacifique tropical, documenter les processus associés à la dissipation des ondes de Kelvin équatorial represente aussi un objectif pertinent pour l'étude de la teleconnection océanique aux échelles intrasaisonnière le long de la côte ouest de l'Amérique du Sud. Cette thèse vise à mieux comprendre les mécanismes d'interactions non linéaires aux échelles de temps intrasaisonnières entre l'activité mésoéchelle des TIWs et les ondes de Kelvin équatoriales. Elle tire partie de prés de 30 ans de données altimétrique. Nous montrons en particulier que 42% de la variance des anomalies intrasaisonnières du niveau de la mer induites par les TIWs sont associées à l'activité des ondes de Kelvin. En combinant données altimétrique et de température de surface de la mer, nous montrons par ailleurs que ce mode est associé à des niveaux d'advection non-lineaire de chaleur comparable à ceux produits pendant El Niño. Afin de documenter les mécanismes en jeux lors de ces interactions, des simulations numériques sont réalisées à l'aide d'un modèle océanique du Pacifique tropical. L'activité mésoéchelle des TIWs est atténué dans les simulations ou les termes non-linéaires des équations de moments sont remplacés par un terme de diffusion horizontal. En comparant aux simulations de controle pour lesquelles le niveau d'activité des TIWs est réaliste, il est possible de diagnostiquer l'effet du mode d'intéraction sur les processus à partir de l'analyse d'un budget d'énergie cinétique turbulente. Les résultats montrent une asymmetrie marquée de la contribution des instabilités barotropes et baroclines entre les IEKWs d'upwellings et de downwelling. En outre, nous montrons que l'interaction entre les TIWs et les IEKWs peut favoriser des changements significatifs de l'advection non linéaire de chaleur dans le Pacifique équatorial oriental, en accord avec les observations. Nous discutons les implications de nos résultats pour la compréhension de la téléconnexion océanique entre le Pacifique occidental et oriental, ainsi que sur la dynamique ENSO."
+  },
+  {
+   "doi": "https://doi.org/10.54014/5rcy-832m",
+   "title": "Analysis of intraseasonal convective variability modes over West Africa during the monsoon season",
+   "year": 2012,
+   "authors": [
+    "J. Ceratto"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://scholarsarchive.library.albany.edu/cgi/viewcontent.cgi?article=1608&context=legacy-etd",
+    "any_repository_has_fulltext": null
+   },
+   "best": "https://scholarsarchive.library.albany.edu/cgi/viewcontent.cgi?article=1608&context=legacy-etd",
+   "lic": null,
+   "abstract": "Intraseasonal variability of rainfall within the West African Monsoon has been shown to be an important factor in the weather of this region. Multiple factors have been found to contribute to variability at this timescale. Mounier, et al (2008) use EOF analysis to uncover and describe a quasi-stationary dipole of precipitation between the West African Monsoon system and the West Atlantic/Caribbean Sea. This mode, termed the Quasi Biweekly Zonal Dipole mode, operates on timescales of roughly 13 days. The stationary nature of this dipole is focused upon in their work, while the role of Kelvin waves in the mode are considered secondary. In this work, the role of Kelvin waves in the dipole mode is considered. Regression analyses are performed with time lags to observe how the dipole evolves with time. Kelvin waves are observed to dominate the timing and the phase of the dipole mode. Dynamical regressions indicate a possible source region for these Kelvin waves, over the South American continent, as well as the effects the Kelvin waves have on the West African Monsoon system as they enter and exit the region. Impacts on the strength of the Saharan Heat Low and on African Easterly Wave activity are observed. A case study highlighting Kelvin wave activity in relation to the QBZD is also considered. The second EOF pattern is also examined with lagged regressions; a relationship is found between it and the first EOF pattern."
+  },
+  {
+   "doi": "https://doi.org/10.1029/2012gl050909",
+   "title": "ENSO prediction one year in advance using western North Pacific sea surface temperatures",
+   "year": 2012,
+   "authors": [
+    "Shih‐Yu Wang",
+    "Michelle L. L’Heureux",
+    "Hsin-Hsing Chia"
+   ],
+   "venue": "Geophysical Research Letters",
+   "biblio": {
+    "volume": "39",
+    "issue": "5",
+    "first_page": null,
+    "last_page": null
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2012GL050909",
+    "any_repository_has_fulltext": false
+   },
+   "best": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2012GL050909",
+   "lic": null,
+   "abstract": "We present evidence that the de‐trended, boreal winter sea surface temperature anomalies (SSTA) in the western North Pacific (WNP) are a skillful predictor for the development of the El Niño‐Southern Oscillation (ENSO) by the following winter. The WNP shares some similarities with the Meridional Mode (MM) located in the subtropical central and eastern North Pacific: both are linked to off‐equatorial SSTA and low‐level wind anomalies, and both appear to be strongly related to wintertime variability in the North Pacific Oscillation (NPO). However, in contrast with the MM, the WNP is associated with an opposite‐signed SSTA dipole located off southeastern Asia and in the western tropical Pacific, which is accompanied by equatorial winds that may influence the level of oceanic Kelvin wave activity that precedes ENSO events."
+  },
+  {
+   "doi": "https://doi.org/10.1126/sciadv.add8041",
+   "title": "Topological Langmuir-cyclotron wave",
+   "year": 2023,
+   "authors": [
+    "Hong Qin",
+    "Yichen Fu"
+   ],
+   "venue": "Science Advances",
+   "biblio": {
+    "volume": "9",
+    "issue": "13",
+    "first_page": "eadd8041",
+    "last_page": "eadd8041"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://www.science.org/doi/pdf/10.1126/sciadv.add8041?download=true",
+    "any_repository_has_fulltext": true
+   },
+   "best": "https://www.science.org/doi/pdf/10.1126/sciadv.add8041?download=true",
+   "lic": "cc-by",
+   "abstract": "A theory is developed to describe the topological Langmuir-cyclotron wave (TLCW), a topological excitation in magnetized plasmas recently identified by numerical simulations. As a topological wave in a continuous medium, the TLCW propagates unidirectionally without scattering in complex boundaries and can be explored as an effective mechanism to energize particles. We show that, because momentum space in continuous media is contractible in general, the topology of the wave bundles is trivial over momentum space that contains no degeneracy points. This is in stark contrast to condensed matters with periodic lattice structures that impose nontrivial topology on momentum space. In continuous media without lattice structures, nontrivial topology of the eigenmode bundles manifests over phase space, and it is the nontrivial topology over phase space that underpins the topological excitations, such as the TLCW. It is shown that the TLCW can be faithfully modeled by a generic tilted Dirac cone in phase space, whose entire spectrum, including the spectral flow, is given."
+  }
+ ],
+ "marsico2025": [],
+ "liebmann_smith1996": [
+  {
+   "doi": "https://doi.org/10.5194/nhess-10-2169-2010",
+   "title": "Study of outgoing longwave radiation anomalies associated with Haiti earthquake",
+   "year": 2010,
+   "authors": [
+    "P. Xiong",
+    "Xuhui Shen",
+    "Yaxin Bi",
+    "C. L. Kang",
+    "L. Z. Chen",
+    "F. Jing",
+    "Y. Chen"
+   ],
+   "venue": "Natural hazards and earth system sciences",
+   "biblio": {
+    "volume": "10",
+    "issue": "10",
+    "first_page": "2169",
+    "last_page": "2178"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://nhess.copernicus.org/articles/10/2169/2010/nhess-10-2169-2010.pdf",
+    "any_repository_has_fulltext": true
+   },
+   "best": "https://nhess.copernicus.org/articles/10/2169/2010/nhess-10-2169-2010.pdf",
+   "lic": "cc-by",
+   "abstract": "Abstract. The paper presents an analysis by using the methods of Eddy field calculation mean and wavelet maxima to detect seismic anomalies within the outgoing longwave radiation (OLR) data based on time and space. The distinguishing feature of the method of Eddy field calculation mean is that we can calculate \"the total sum of the difference value\" of \"the measured value\" between adjacent points, which could highlight the singularity within data. The identified singularities are further validated by wavelet maxima, which using wavelet transformations as data mining tools by computing the maxima that can be used to identify obvious anomalies within OLR data. The two methods has been applied to carry out a comparative analysis of OLR data associated with the earthquake recently occurred in Haiti on 12 January 2010. Combining with the tectonic explanation of spatial and temporal continuity of the abnormal phenomena, the analyzed results have indicated a number of singularities associated with the possible seismic anomalies of the earthquake and from the comparative experiments and analyses by using the two methods, which follow the same time and space, we conclude that the singularities observed from 19 to 24 December 2009 could be the earthquake precursor of Haiti earthquake."
+  },
+  {
+   "doi": "https://doi.org/10.1002/2014gl062257",
+   "title": "The Walker circulation, diabatic heating, and outgoing longwave radiation",
+   "year": 2014,
+   "authors": [
+    "Samuel N. Stechmann",
+    "H. Reed Ogrosky"
+   ],
+   "venue": "Geophysical Research Letters",
+   "biblio": {
+    "volume": "41",
+    "issue": "24",
+    "first_page": "9097",
+    "last_page": "9105"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2014GL062257",
+    "any_repository_has_fulltext": false
+   },
+   "best": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2014GL062257",
+   "lic": null,
+   "abstract": "Abstract For the tropical atmosphere on planetary scales, it is common to model the circulation using strong damping. Here with new data analysis techniques, evidence suggests that damping can actually be neglected. Specifically, near the equator, the east‐west overturning circulation is in agreement with the undamped wave response to atmospheric heating. To estimate the heating, satellite observations of outgoing longwave radiation (OLR) are used. Frequently, OLR is used as a heuristic indicator of cloudiness. Here the results further suggest that OLR variations are actually proportional to diabatic heating variations, with a proportionality constant of 18 W m−2 (K d−1)−1. While the agreement holds best over long time averages of years or decades, it also holds over shorter periods of one season or 1 month. Consequently, it is suggested that the strength of the Walker circulation—and its evolution in time—could be estimated using satellite data."
+  },
+  {
+   "doi": "https://doi.org/10.1175/1520-0442(1998)011<2898:acorol>2.0.co;2",
+   "title": "A Comparison of Rainfall, Outgoing Longwave Radiation, and Divergence over the Amazon Basin",
+   "year": 1998,
+   "authors": [
+    "Brant Liebmann",
+    "José Marengo",
+    "John D. Glick",
+    "Vernon E. Kousky",
+    "Ilana Elazari Klein Coaracy Wainer",
+    "Oswaldo Massambani"
+   ],
+   "venue": "Journal of Climate",
+   "biblio": {
+    "volume": "11",
+    "issue": "11",
+    "first_page": "2898",
+    "last_page": "2909"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/11/11/1520-0442_1998_011_2898_acorol_2.0.co_2.pdf",
+    "any_repository_has_fulltext": false
+   },
+   "best": "https://journals.ametsoc.org/downloadpdf/journals/clim/11/11/1520-0442_1998_011_2898_acorol_2.0.co_2.pdf",
+   "lic": null,
+   "abstract": "Observed rainfall, outgoing longwave radiation (OLR), divergence, and precipitation from the reanalysis project of the National Centers for Environmental Prediction and the National Center for Atmospheric Research are compared over the Amazon Basin. The spatial pattern of the mean and the phase of the annual cycle generally compare well, except that the amplitude of the annual cycle of model precipitation is much smaller than observed. On 10–30-day timescales, it is shown that averaging stations within a 5° radius is approximately equivalent to total wavenumber 20 (T20) spatial scale, although it is more important to have a high density of stations than an exact match of spatial scales. Ideally, there should be one station per 20 000 km2. On 10–30-day scales, observed rainfall is best correlated with OLR. Correlations between OLR and 150-mb divergence are larger than between observed rainfall and divergence or between rainfall and model precipitation. For example, if 10–30-day filtered OLR and divergence are truncated at T20 and rainfall is averaged to include stations within a 5° radius, OLR is correlated with rainfall at about −0.6, OLR is correlated with divergence at about −0.35, and rainfall is correlated with divergence at about 0.2. At least part of the lack of correlation is due to inadequate spatial sampling of rainfall. Correlations improve with larger spatial scale. The major seasonal transitions from dry to rainy regimes are captured well by OLR but not by the model quantities. The mean diurnal cycle is represented reasonably by 150-mb divergence."
+  },
+  {
+   "doi": "https://doi.org/10.3390/rs12060929",
+   "title": "The Climate Monitoring SAF Outgoing Longwave Radiation from AVHRR",
+   "year": 2020,
+   "authors": [
+    "Nicolas Clerbaux",
+    "Tom Akkermans",
+    "Edward Baudrez",
+    "Almudena Velazquez Blazquez",
+    "William Moutier",
+    "Johan Moreels",
+    "Christine Aebi"
+   ],
+   "venue": "Remote Sensing",
+   "biblio": {
+    "volume": "12",
+    "issue": "6",
+    "first_page": "929",
+    "last_page": "929"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://www.mdpi.com/2072-4292/12/6/929/pdf?version=1584927983",
+    "any_repository_has_fulltext": true
+   },
+   "best": "https://www.mdpi.com/2072-4292/12/6/929/pdf?version=1584927983",
+   "lic": "cc-by",
+   "abstract": "Data from the Advanced Very High Resolution Radiometer (AVHRR) have been used to create several long-duration data records of geophysical variables describing the atmosphere and land and water surfaces. In the Climate Monitoring Satellite Application Facility (CM SAF) project, AVHRR data are used to derive the Cloud, Albedo, and Radiation (CLARA) climate data records of radiation components (i.a., surface albedo) and cloud properties (i.a., cloud cover). This work describes the methodology implemented for the additional estimation of the Outgoing Longwave Radiation (OLR), an important Earth radiation budget component, that is consistent with the other CLARA variables. A first step is the estimation of the instantaneous OLR from the AVHRR observations. This is done by regressions on a large database of collocated observations between AVHRR Channel 4 (10.8 µm) and 5 (12 µm) and the OLR from the Clouds and Earth’s Radiant Energy System (CERES) instruments. We investigate the applicability of this method to the first generation of AVHRR instrument (AVHRR/1) for which no Channel 5 observation is available. A second step concerns the estimation of daily and monthly OLR from the instantaneous AVHRR overpasses. This step is especially important given the changes in the local time of the observations due to the orbital drift of the NOAA satellites. We investigate the use of OLR in the ERA5 reanalysis to estimate the diurnal variation. The developed approach proves to be valuable to model the diurnal change in OLR due to day/night time warming/cooling over clear land. Finally, the resulting monthly mean AVHRR OLR product is intercompared with the CERES monthly mean product. For a typical configuration with one morning and one afternoon AVHRR observation, the Root Mean Square (RMS) difference with CERES monthly mean OLR is about 2 Wm−2 at 1° × 1° resolution. We quantify the degradation of the OLR product when only one AVHRR instrument is available (as is the case for some periods in the 1980s) and also the improvement when more instruments are available (e.g., using METOP-A, NOAA-15, NOAA-18, and NOAA-19 in 2012). The degradation of the OLR product from AVHRR/1 instruments is also quantified, which is done by “masking” the Channel 5 observations."
+  }
+ ],
+ "rk_conf": [
+  {
+   "doi": "https://doi.org/10.1175/2008jcli2659.1",
+   "title": "How Important Is Air–Sea Coupling in ENSO and MJO Evolution?",
+   "year": 2008,
+   "authors": [
+    "Matthew Newman",
+    "Prashant D. Sardeshmukh",
+    "Cécile Penland"
+   ],
+   "venue": "Journal of Climate",
+   "biblio": {
+    "volume": "22",
+    "issue": "11",
+    "first_page": "2958",
+    "last_page": "2977"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/22/11/2008jcli2659.1.pdf",
+    "any_repository_has_fulltext": false
+   },
+   "best": "https://journals.ametsoc.org/downloadpdf/journals/clim/22/11/2008jcli2659.1.pdf",
+   "lic": null,
+   "abstract": "Abstract The effect of air–sea coupling on tropical climate variability is investigated in a coupled linear inverse model (LIM) derived from the simultaneous and 6-day lag covariances of observed 7-day running mean departures from the annual cycle. The model predicts the covariances at all other lags. The predicted and observed lag covariances, as well as the associated power spectra, are generally found to agree within sampling uncertainty. This validates the LIM’s basic premise that beyond daily time scales, the evolution of tropical atmospheric and oceanic anomalies is effectively linear and stochastically driven. It also justifies a linear diagnosis of air–sea coupling in the system. The results show that air–sea coupling has a very small effect on subseasonal atmospheric variability. It has much larger effects on longer-term variability, in both the atmosphere and the ocean, including greatly increasing the amplitude of ENSO and lengthening its dominant period from 2 to 4 years. Consistent with these results, the eigenvectors of the system’s dynamical evolution operator also separate into two distinct, but nonorthogonal, subspaces: one governing the nearly uncoupled subseasonal dynamics and the other governing the strongly coupled longer-term dynamics. These subspaces arise naturally from the LIM analysis; no bandpass frequency filtering need be applied. One implication of this remarkably clean separation of the uncoupled and coupled dynamics is that GCM errors in anomalous tropical air–sea coupling may cause substantial errors on interannual and longer time scales but probably not on the subseasonal scales associated with the MJO."
+  },
+  {
+   "doi": "https://doi.org/10.1029/2021ms002528",
+   "title": "On the Regionality of Moist Kelvin Waves and the MJO: The Critical Role of the Background Zonal Flow",
+   "year": 2021,
+   "authors": [
+    "Stefan N. Tulich",
+    "George N. Kiladis"
+   ],
+   "venue": "Journal of Advances in Modeling Earth Systems",
+   "biblio": {
+    "volume": "13",
+    "issue": "9",
+    "first_page": null,
+    "last_page": null
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2021MS002528",
+    "any_repository_has_fulltext": true
+   },
+   "best": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2021MS002528",
+   "lic": "cc-by",
+   "abstract": "Abstract A global model with superparameterized physics is used to shed light on the observed regionality of convectively coupled Kelvin waves and the Madden‐Julian Oscillation (MJO). A series of aquaplanet simulations over zonally uniform sea‐surface temperatures is performed, in which the axisymmetric structure of the background zonal flow is altered through nudging, while maintaining a quasi‐fixed rainfall climatology. Results show that nudging at the equator to match profiles typical of the Indo‐Pacific or eastern Pacific sectors yields eastward‐moving tropical rain spectra typical of those sectors. Two different mechanistic pathways are identified as being responsible for this mean‐flow dependence, in addition to Doppler shifting effects. The first is through shifts of the Rossby wave critical line in the subtropical upper troposphere that affect the lateral forcing of Kelvin‐mode circulations at the equator by eastward and equatorward‐propagating eddies impinging on the tropics from higher latitudes. The second is through changes in the strength of the mean cyclonic shear in the lower tropical troposphere that affect the degree to which intraseasonal fluctuations in Kelvin‐mode zonal winds modulate the activity of higher‐frequency equatorial Rossby‐type eddies. In cases where the mean low‐level cyclonic shear is enhanced, the strength of this modulation, referred to as “shear‐induced eddy modulation” or SIEM, is also seen to be enhanced, such that MJO‐like modes of variability are rendered either unstable or near neutral, depending on the strength of the shear."
+  },
+  {
+   "doi": "https://doi.org/10.2151/sola.2009-024",
+   "title": "The Oceanic Response to the Madden-Julian Oscillation and ENSO",
+   "year": 2009,
+   "authors": [
+    "Ayako Seiki",
+    "Yukari N. Takayabu",
+    "Kunio Yoneyama",
+    "Naoki Sato",
+    "Masanori Yoshizaki"
+   ],
+   "venue": "SOLA",
+   "biblio": {
+    "volume": "5",
+    "issue": null,
+    "first_page": "93",
+    "last_page": "96"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://www.jstage.jst.go.jp/article/sola/5/0/5_0_93/_pdf",
+    "any_repository_has_fulltext": false
+   },
+   "best": "https://www.jstage.jst.go.jp/article/sola/5/0/5_0_93/_pdf",
+   "lic": null,
+   "abstract": ""
+  },
+  {
+   "doi": "https://doi.org/10.1175/2008jcli2731.1",
+   "title": "MJO Simulation Diagnostics",
+   "year": 2008,
+   "authors": [
+    "Duane Edward Waliser",
+    "K.R. Sperber",
+    "Harry H. Hendon",
+    "D. Kim",
+    "E Maloney",
+    "M Wheeler",
+    "Klaus M. Weickmann",
+    "C Zhang"
+   ],
+   "venue": "Journal of Climate",
+   "biblio": {
+    "volume": "22",
+    "issue": "11",
+    "first_page": "3006",
+    "last_page": "3030"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/22/11/2008jcli2731.1.pdf",
+    "any_repository_has_fulltext": true
+   },
+   "best": "https://journals.ametsoc.org/downloadpdf/journals/clim/22/11/2008jcli2731.1.pdf",
+   "lic": null,
+   "abstract": "Abstract The Madden–Julian oscillation (MJO) interacts with and influences a wide range of weather and climate phenomena (e.g., monsoons, ENSO, tropical storms, midlatitude weather), and represents an important, and as yet unexploited, source of predictability at the subseasonal time scale. Despite the important role of the MJO in climate and weather systems, current global circulation models (GCMs) exhibit considerable shortcomings in representing this phenomenon. These shortcomings have been documented in a number of multimodel comparison studies over the last decade. However, diagnosis of model performance has been challenging, and model progress has been difficult to track, because of the lack of a coherent and standardized set of MJO diagnostics. One of the chief objectives of the U.S. Climate Variability and Predictability (CLIVAR) MJO Working Group is the development of observation-based diagnostics for objectively evaluating global model simulations of the MJO in a consistent framework. Motivation for this activity is reviewed, and the intent and justification for a set of diagnostics is provided, along with specification for their calculation, and illustrations of their application. The diagnostics range from relatively simple analyses of variance and correlation to more sophisticated space–time spectral and empirical orthogonal function analyses. These diagnostic techniques are used to detect MJO signals, to construct composite life cycles, to identify associations of MJO activity with the mean state, and to describe interannual variability of the MJO."
+  }
+ ],
+ "mjo_enso_review": [
+  {
+   "doi": "https://doi.org/10.1175/1520-0442(2000)013<3560:rotmjo>2.0.co;2",
+   "title": "Rectification of the Madden–Julian Oscillation into the ENSO Cycle",
+   "year": 2000,
+   "authors": [
+    "William S. Kessler",
+    "Richard D. Kleeman"
+   ],
+   "venue": "Journal of Climate",
+   "biblio": {
+    "volume": "13",
+    "issue": "20",
+    "first_page": "3560",
+    "last_page": "3575"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/13/20/1520-0442_2000_013_3560_rotmjo_2.0.co_2.pdf",
+    "any_repository_has_fulltext": false
+   },
+   "best": "https://journals.ametsoc.org/downloadpdf/journals/clim/13/20/1520-0442_2000_013_3560_rotmjo_2.0.co_2.pdf",
+   "lic": null,
+   "abstract": "An ocean general circulation model, forced with idealized, purely oscillating wind stresses over the western equatorial Pacific similar to those observed during the Madden–Julian oscillation (MJO), developed rectified low-frequency anomalies in SST and zonal currents, compared to a run in which the forcing was climatological. The rectification in SST resulted from increased evaporation under stronger than normal winds of either sign, from correlated intraseasonal oscillations in both vertical temperature gradient and upwelling speed forced by the winds, and from zonal advection due to nonlinearly generated equatorial currents. The net rectified signature produced by the MJO-like wind stresses was SST cooling (about 0.4°C) in the west Pacific, and warming (about 0.1°C) in the central Pacific, tending to flatten the background zonal SST gradient. It is hypothesized that, in a coupled system, such a pattern of SST anomalies would spawn additional westerly wind anomalies as a result of SST-induced changes in the low-level zonal pressure gradient. This was tested in an intermediate coupled model initialized to 1 January 1997, preceding the 1997–98 El Niño. On its own, the model hindcast a relatively weak warm event, but when the effect of the rectified SST pattern was imposed, a coupled response produced the hypothesized additional westerlies and the hindcast El Niño became about 50% stronger (measured by east Pacific SST anomalies), suggesting that the MJO can interact constructively with the ENSO cycle. This implies that developing the capacity to predict, if not individual MJO events, then the conditions that affect their amplitude, may enhance predictability of the strength of oncoming El Niños."
+  },
+  {
+   "doi": "https://doi.org/10.1175/1520-0442(2001)014<3055:erotmj>2.0.co;2",
+   "title": "EOF Representations of the Madden–Julian Oscillation and Its Connection with ENSO*",
+   "year": 2001,
+   "authors": [
+    "William S. Kessler"
+   ],
+   "venue": "Journal of Climate",
+   "biblio": {
+    "volume": "14",
+    "issue": "13",
+    "first_page": "3055",
+    "last_page": "3061"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/14/13/1520-0442_2001_014_3055_erotmj_2.0.co_2.pdf",
+    "any_repository_has_fulltext": false
+   },
+   "best": "https://journals.ametsoc.org/downloadpdf/journals/clim/14/13/1520-0442_2001_014_3055_erotmj_2.0.co_2.pdf",
+   "lic": null,
+   "abstract": "Although recent El Niño events have seen the occurrence of strong intraseasonal winds apparently associated with the Madden–Julian oscillation (MJO), the usual indices of interannual variability of the MJO are uncorrelated with measures of the ENSO cycle. An EOF decomposition of intraseasonal outgoing longwave radiation and zonal wind identifies two modes of interannual variability of the MJO: a zonally stationary variation of amplitude that is unrelated to ENSO and a roughly 20°-longitude eastward extension of the MJO envelope during El Niño events. The stationary mode is represented by the first two EOFs, which form the familiar lag-correlated quadrature pair, and the eastward-extending mode is represented by the third EOF, which is usually ignored although it is statistically significant. However, the third EOF also has a systematic phase relation with the first pair, and all three should be considered as a triplet; rotating the EOFs makes the phase relation clear. The zonal shift represents about 20% of total MJO variance (which itself is about 55% of intraseasonal variance over the tropical strip). Although the eastward shift is small when compared with the global scale of the MJO, it produces a large proportional shift of MJO activity over the open Pacific, where physical interactions with ENSO processes can occur."
+  },
+  {
+   "doi": "https://doi.org/10.2151/jmsj.83.727",
+   "title": "Modulation of the Madden-Julian Oscillation by ENSO: Inferences from Observations and GCM Simulations",
+   "year": 2005,
+   "authors": [
+    "Chi‐Yung Tam",
+    "Ngar‐Cheung Lau"
+   ],
+   "venue": "Journal of the Meteorological Society of Japan Ser II",
+   "biblio": {
+    "volume": "83",
+    "issue": "5",
+    "first_page": "727",
+    "last_page": "743"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://www.jstage.jst.go.jp/article/jmsj/83/5/83_5_727/_pdf",
+    "any_repository_has_fulltext": false
+   },
+   "best": "https://www.jstage.jst.go.jp/article/jmsj/83/5/83_5_727/_pdf",
+   "lic": null,
+   "abstract": ""
+  },
+  {
+   "doi": "https://doi.org/10.1175/jas3520.1",
+   "title": "Zonal and Vertical Structure of the Madden–Julian Oscillation",
+   "year": 2005,
+   "authors": [
+    "George N. Kiladis",
+    "Katherine H. Straub",
+    "Patrick Haertel"
+   ],
+   "venue": "Journal of the Atmospheric Sciences",
+   "biblio": {
+    "volume": "62",
+    "issue": "8",
+    "first_page": "2790",
+    "last_page": "2809"
+   },
+   "oa": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/atsc/62/8/jas3520.1.pdf",
+    "any_repository_has_fulltext": false
+   },
+   "best": "https://journals.ametsoc.org/downloadpdf/journals/atsc/62/8/jas3520.1.pdf",
+   "lic": null,
+   "abstract": "Abstract A statistical study of the three-dimensional structure of the Madden–Julian oscillation (MJO) is carried out by projecting dynamical fields from reanalysis and radiosonde data onto space–time filtered outgoing longwave radiation (OLR) data. MJO convection is generally preceded by low-level convergence and upward motion in the lower troposphere, while subsidence, cooling, and drying prevail aloft. This leads to moistening of the boundary layer and the development of shallow convection, followed by a gradual and then more rapid lofting of moisture into the middle troposphere at the onset of deep convection. After the passage of the heaviest rainfall, a westerly wind burst region is accompanied by stratiform precipitation, where lower tropospheric subsidence and drying coincide with continuing upper tropospheric upward motion. The evolution of the heating field leads to a temperature structure that favors the growth of the MJO. The analysis also reveals distinct differences in the vertical structure of the MJO as it evolves, presumably reflecting changes in its vertical heating profile, phase speed, or the basic-state circulation that the MJO propagates through. The dynamical structure and the evolution of cloud morphology within the MJO compares favorably in many respects with other propagating convectively coupled equatorial waves. One implication is that the larger convective envelopes within the Tropics tend to be composed of more shallow convection along their leading edges, a combination of deep convection and stratiform rainfall in their centers, and then a preponderance of stratiform rainfall along their trailing edges, regardless of scale or propagation direction. While this may ultimately be the factor that governs the dynamical similarities across the various wave types, it raises questions about how the smaller-scale, higher-frequency disturbances making up the MJO conspire to produce its heating and dynamical structures. This suggests that the observed cloud morphology is dictated by fundamental interactions with the large-scale circulation."
+  }
+ ]
+}
