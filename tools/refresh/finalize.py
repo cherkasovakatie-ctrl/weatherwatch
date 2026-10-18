@@ -22,6 +22,10 @@ ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data"
 PAGES = (
     "index.html",
+    "enso-1982-83.html",
+    "enso-1997-98.html",
+    "enso-2015-16.html",
+    "enso-2026.html",
     "events.html",
     "event.html",
     "data.html",

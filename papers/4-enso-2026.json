@@ -1,0 +1,24 @@
+{
+ "status": "planned",
+ "lit_cutoff": "open, updated as new studies appear",
+ "research_date": "18 October 2026",
+ "number": 4,
+ "file": "enso-2026.html",
+ "short": "2026 ENSO (interim)",
+ "title": "The 2026 ENSO situation: an interim observational assessment",
+ "description": "Interim assessment of the 2026 El Niño from observations to the cutoff date, separating observations, forecasts and scenarios.",
+ "obs_cutoff": "CPC ENSO Diagnostic Discussion of 8 Oct 2026; CPC weekly OISST to the week centred 7 Oct 2026; monthly indices to Sep 2026",
+ "status_note": "Planned: will be written last, as an interim assessment, and updated at each CPC monthly discussion while the event continues.",
+ "sections": [
+  {
+   "id": "status",
+   "title": "Status at the cutoff (verified 18 Oct 2026)",
+   "html": "<p><b>Observed.</b> NOAA CPC issued an <b>El Niño Advisory</b> (8 Oct 2026). September relative indices: Niño 3.4 +2.1 °C, Niño 3 +3.0 °C, Niño 1+2 +3.9 °C. RONI JAS 2026 +1.69 (traditional ONI +2.16). Weekly OISST for the week centred 7 Oct: Niño 3.4 +3.3 °C (relative +2.4). Upper-300 m heat content (180°–100°W) +3.39 °C in September, the highest since the record began in 1979. Low-level westerly anomalies, enhanced convection from the central to the eastern Pacific and significantly negative traditional and equatorial SOI show the ocean and atmosphere are coupled.</p>\n<p><b>Forecast (not observation).</b> CPC: El Niño to strengthen through the end of 2026, with a greater than 83% chance of continuing through January–March 2027; chance of a historic event (3-month RONI at or above +2.5 °C) 54% for SON, 83% for OND and 70% for NDJ. IRI (21 Sep 2026): objective model probabilities of El Niño 100% from SON 2026 to FMA 2027.</p>\n<p><b>Premise check.</b> \"Very strong\" is a forecast on the official RONI, not yet an observation. On the traditional ONI, JAS 2026 is already the highest JAS value since 1950.</p>\n<p class=\"note\">Sources: <a href=\"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml\">CPC ENSO Diagnostic Discussion</a>; <a href=\"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\">IRI ENSO forecast</a>; CPC index files in the data archive. The Australian Bureau of Meteorology page available on 18 Oct carried data only to 9 Aug 2026 and was not used.</p>"
+  },
+  {
+   "id": "plan",
+   "title": "Planned scope",
+   "html": "<p>This paper will follow the same framework as Paper 1: preconditions, triggers, amplifiers, suppressors, feedbacks and consequences, each graded A–D on event-specific evidence, with a timeline, an evidence table and verified references. RONI is the primary index.</p><p><b>Questions specific to this event:</b></p><ul><li>Explosive growth from a weak La Niña and the record subsurface heat content.</li><li>Why the event is so strongly east-based (Niño 1+2 far ahead of Niño 4).</li><li>The negative PDO and the North Pacific marine heatwaves: amplifier, suppressor or coincidence?</li><li>Observations, forecasts and conditional scenarios kept strictly separate.</li></ul>"
+  }
+ ]
+}

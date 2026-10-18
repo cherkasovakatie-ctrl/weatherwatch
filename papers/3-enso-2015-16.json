@@ -1,0 +1,19 @@
+{
+ "status": "planned",
+ "lit_cutoff": "open, updated as new studies appear",
+ "research_date": "18 October 2026",
+ "number": 3,
+ "file": "enso-2015-16.html",
+ "short": "2015–16 El Niño",
+ "title": "How the 2015–16 El Niño developed",
+ "description": "Planned evidence-based reconstruction of the 2015–16 El Niño, including the stalled 2014 event and the North Pacific Blob.",
+ "obs_cutoff": "historical event",
+ "status_note": "Planned: work starts after the 1997–98 paper.",
+ "sections": [
+  {
+   "id": "plan",
+   "title": "Planned scope",
+   "html": "<p>This paper will follow the same framework as Paper 1: preconditions, triggers, amplifiers, suppressors, feedbacks and consequences, each graded A–D on event-specific evidence, with a timeline, an evidence table and verified references. RONI is the primary index.</p><p><b>Questions specific to this event:</b></p><ul><li>Why the 2014 event stalled and how that preconditioned 2015.</li><li>The role of the 2014–16 North Pacific marine heatwave (the Blob) and the positive PDO.</li><li>Why the traditional ONI ranks it highest (+2.59) but RONI does not (+2.25): how much of the anomaly was tropical-wide warmth.</li><li>A central-Pacific-weighted peak and Southern California's dry winter despite the strong event.</li></ul>"
+  }
+ ]
+}

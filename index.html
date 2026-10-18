@@ -144,6 +144,10 @@ body { font-family: var(--font-anthropic-sans); }
   .ww-firealert p { margin: 0; font-size: var(--cds-font-size-caption); line-height: 1.45; }
   .ww-firealert.quiet { border-left-color: var(--color-ok); }
   .ww-firealert.quiet b { color: var(--color-fg); }
+  .ww-papers { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr)); gap: 8px; margin-top: 8px; }
+  .ww-papers a { display: grid; gap: 2px; padding: 10px 12px; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); text-decoration: none; color: var(--color-fg); }
+  .ww-papers a:hover { border-color: var(--color-fg-muted); }
+  .ww-papers span { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
   .ww-mini { margin: 10px 0 0; font-size: var(--cds-font-size-caption); font-weight: var(--cds-font-weight-medium); color: var(--color-fg); }
   .ww-imp b { font-weight: var(--cds-font-weight-medium); }
   .ww-imp .m { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
@@ -315,6 +319,16 @@ body { font-family: var(--font-anthropic-sans); }
   <!-- OVERVIEW -->
   <section class="ww-page" id="overview" data-page-id="overview">
     <div class="ww-grid">
+      <article class="ww-card wide" id="card-enso-papers">
+        <h2>Research papers: how the great El Niños developed</h2>
+        <p class="note">Four evidence-based papers using one framework (preconditions, triggers, amplifiers, suppressors, feedbacks, consequences), graded on event-specific evidence, with verified references. Primary index: NOAA's Relative ONI (RONI).</p>
+        <div class="ww-papers">
+          <a href="enso-1982-83.html"><b>1982–83</b><span>Evidence assembled · draft for review</span></a>
+          <a href="enso-1997-98.html"><b>1997–98</b><span>Planned</span></a>
+          <a href="enso-2015-16.html"><b>2015–16</b><span>Planned</span></a>
+          <a href="enso-2026.html"><b>2026 (interim)</b><span>Planned · status verified 18 Oct</span></a>
+        </div>
+      </article>
       <article class="ww-card wide" id="card-oni-analogs">
         <h2>ONI: 2026 against the three strongest events</h2>
         <div class="ww-oni-split">
