@@ -65,8 +65,19 @@ jobs:
           git add data
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "Daily data refresh $(TZ=America/Los_Angeles date +%F)"
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+          # Other commits can land on the branch while the refresh runs. Rebase onto them; where both touched the
+          # same generated file under data/ (usually nightly_status.json or manifest.json), keep this run's fresh
+          # version (-X theirs = the commit being replayed). Retry if the push is rejected because the branch moved again.
+          for attempt in 1 2 3; do
+            git fetch origin "${GITHUB_REF_NAME}"
+            if ! git rebase -X theirs "origin/${GITHUB_REF_NAME}"; then
+              echo "Rebase stopped on a conflict that -X theirs could not settle; listing it and aborting"
+              git status --short; git rebase --abort; exit 1
+            fi
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then echo "Pushed on attempt $attempt"; exit 0; fi
+            echo "Push rejected (attempt $attempt); retrying"; sleep $((attempt * 10))
+          done
+          echo "Push failed after 3 attempts"; exit 1
 
       - name: Rebuild GitHub Pages
         if: steps.gate.outputs.run == 'true' && github.ref_name == 'main'
