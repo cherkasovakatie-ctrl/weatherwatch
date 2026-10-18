@@ -15,7 +15,8 @@ for f in sorted(glob.glob('fulltext/*')):
     txt = re.sub(r'[ \t]+', ' ', txt)
     sents = re.split(r'(?<=[.!?])\s+', txt.replace('\n', ' '))
     kw = KW['io'] if name.startswith('io_') else KW['wwb']
-    hits = [s.strip() for s in sents if re.search(kw, s) and len(s) < 600 and ('1982' in s or name.startswith('io_'))]
+    if name.startswith('mjo_'): kw = r'1982|1981|ENSO|El Ni|two-way|Kelvin|westerly|propagat'
+    hits = [s.strip() for s in sents if re.search(kw, s) and len(s) < 600 and ('1982' in s or name.startswith('io_') or (name.startswith('mjo_') and re.search(r'ENSO|El Ni', s)))]
     if name.startswith('io_'): hits = [s for s in hits if re.search(r'1982|decoupl|experiment|feedback onto|Pacific', s)]
     s82 = [x.strip() for x in sents if '1982' in x and len(x) < 700]
     head = ' '.join(txt.split()[:700 if name.startswith('wwb_chu') else 350])

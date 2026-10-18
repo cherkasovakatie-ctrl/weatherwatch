@@ -18,7 +18,8 @@ jobs:
       - run: pip install numpy scipy
       - run: sudo apt-get install -y poppler-utils >/dev/null 2>&1 || true
       - run: SKIP_LIT=1 node tools/probe/probe.mjs
-      - run: node tools/probe/lit6.mjs || true
+      - run: node tools/probe/lit7.mjs || true
+      - run: python tools/probe/excerpt.py || true
       - run: |
           git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add probe && git commit -m "probe samples" && git pull --rebase origin nightly-test && git push origin HEAD:nightly-test
