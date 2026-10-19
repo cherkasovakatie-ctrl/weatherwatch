@@ -1,18 +1,18 @@
 {
- "run_utc": "2026-10-18T21:32:16.953Z",
- "run_local": "2026-10-18 14:32",
+ "run_utc": "2026-10-19T20:59:42.977Z",
+ "run_local": "2026-10-19 13:59",
  "results": [
   {
    "id": "earthquakes",
    "ok": true,
-   "rows": 613,
-   "newest": "2026-10-18 19:32"
+   "rows": 636,
+   "newest": "2026-10-19 18:55"
   },
   {
    "id": "local_obs",
    "ok": true,
-   "rows": 37,
-   "newest": "2026-10-18 14:10"
+   "rows": 34,
+   "newest": "2026-10-19 11:55"
   },
   {
    "id": "local_periods",
@@ -24,57 +24,57 @@
    "id": "local_hourly",
    "ok": true,
    "rows": 216,
-   "newest": "2026-10-24 23:00"
+   "newest": "2026-10-25 23:00"
   },
   {
    "id": "local_tides",
    "ok": true,
    "rows": 192,
-   "newest": "2026-10-22 23:00"
+   "newest": "2026-10-23 23:00"
   },
   {
    "id": "local_hilo",
    "ok": true,
    "rows": 27,
-   "newest": "2026-10-22 19:36"
+   "newest": "2026-10-23 20:19"
   },
   {
    "id": "local_watertemp",
    "ok": true,
    "rows": 72,
-   "newest": "2026-10-18 14:00"
+   "newest": "2026-10-19 13:00"
   },
   {
    "id": "fires_global_grid",
    "ok": true,
-   "rows": 3747,
+   "rows": 3926,
    "newest": "9.5"
   },
   {
    "id": "fires_socal",
    "ok": true,
-   "rows": 382,
-   "newest": "2026-10-18"
+   "rows": 388,
+   "newest": "2026-10-19"
   },
   {
    "id": "space_daily",
    "ok": true,
    "rows": 31,
    "newest": "2026-10-18",
-   "note": "1 new, 0 values updated"
+   "note": "0 new, 5 values updated"
   },
   {
    "id": "calfire_active",
    "ok": true,
-   "rows": 7,
+   "rows": 8,
    "newest": "Timber Fire"
   },
   {
    "id": "coral_dhw",
    "ok": true,
-   "rows": 653,
-   "newest": "2026-10-15",
-   "note": "0 new, 0 values updated"
+   "rows": 656,
+   "newest": "2026-10-18",
+   "note": "3 new, 0 values updated"
   },
   {
    "id": "coral_now",
@@ -134,16 +134,16 @@
   {
    "id": "storm_fixes",
    "ok": true,
-   "rows": 666,
+   "rows": 658,
    "newest": "Wati",
-   "note": "664 IBTrACS fixes, 620 checked against the old file, 2 existing rows kept (advisories, or storms not in IBTrACS)"
+   "note": "656 IBTrACS fixes, 656 checked against the old file, 2 existing rows kept (advisories, or storms not in IBTrACS)"
   },
   {
    "id": "sst_weekly",
    "ok": true,
-   "rows": 2354,
-   "newest": "2026-10-07",
-   "note": "0 new, 0 values updated"
+   "rows": 2355,
+   "newest": "2026-10-14",
+   "note": "1 new, 2 values updated"
   },
   {
    "id": "sst_monthly",
