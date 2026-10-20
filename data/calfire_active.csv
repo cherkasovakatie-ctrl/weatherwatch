@@ -1,9 +1,7 @@
 incident,county,started,acres,containment_pct
 Timber Fire,Monterey,2026-08-08,25352,97
-Henderson Fire,San Diego,2026-10-15,3260,95
-Cooley Fire,Mendocino,2026-10-16,1156,23
-Norte Fire,Orange,2026-10-16,570,60
-Bryson Fire,Los Angeles,2026-10-15,146,83
-Surgone Fire,Humboldt,2026-10-11,64,95
-Jade Fire,Siskiyou,2026-10-18,15,60
-Soda Fire,Siskiyou,2026-10-18,12,10
+Cooley Fire,Mendocino,2026-10-16,1365,57
+Norte Fire,Orange,2026-10-16,570,90
+Surgone Fire,Humboldt,2026-10-11,64,100
+Soda Fire,Siskiyou,2026-10-18,14,40
+Hay Fire,Solano,2026-10-20,10,

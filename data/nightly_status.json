@@ -1,18 +1,18 @@
 {
- "run_utc": "2026-10-19T20:59:42.977Z",
- "run_local": "2026-10-19 13:59",
+ "run_utc": "2026-10-20T19:57:55.865Z",
+ "run_local": "2026-10-20 12:57",
  "results": [
   {
    "id": "earthquakes",
    "ok": true,
-   "rows": 636,
-   "newest": "2026-10-19 18:55"
+   "rows": 657,
+   "newest": "2026-10-20 18:07"
   },
   {
    "id": "local_obs",
    "ok": true,
-   "rows": 34,
-   "newest": "2026-10-19 11:55"
+   "rows": 35,
+   "newest": "2026-10-20 12:35"
   },
   {
    "id": "local_periods",
@@ -24,70 +24,67 @@
    "id": "local_hourly",
    "ok": true,
    "rows": 216,
-   "newest": "2026-10-25 23:00"
+   "newest": "2026-10-26 23:00"
   },
   {
    "id": "local_tides",
    "ok": true,
    "rows": 192,
-   "newest": "2026-10-23 23:00"
+   "newest": "2026-10-24 23:00"
   },
   {
    "id": "local_hilo",
    "ok": true,
-   "rows": 27,
-   "newest": "2026-10-23 20:19"
+   "rows": 29,
+   "newest": "2026-10-24 21:02"
   },
   {
    "id": "local_watertemp",
    "ok": true,
    "rows": 72,
-   "newest": "2026-10-19 13:00"
+   "newest": "2026-10-20 12:00"
   },
   {
    "id": "fires_global_grid",
    "ok": true,
-   "rows": 3926,
+   "rows": 3873,
    "newest": "9.5"
   },
   {
    "id": "fires_socal",
    "ok": true,
-   "rows": 388,
-   "newest": "2026-10-19"
+   "rows": 356,
+   "newest": "2026-10-20"
   },
   {
    "id": "space_daily",
    "ok": true,
    "rows": 31,
-   "newest": "2026-10-18",
-   "note": "0 new, 5 values updated"
+   "newest": "2026-10-19",
+   "note": "1 new, 0 values updated"
   },
   {
    "id": "calfire_active",
    "ok": true,
-   "rows": 8,
+   "rows": 6,
    "newest": "Timber Fire"
   },
   {
    "id": "coral_dhw",
-   "ok": true,
-   "rows": 656,
-   "newest": "2026-10-18",
-   "note": "3 new, 0 values updated"
+   "ok": false,
+   "error": "https://coralreefwatch.noaa.gov/product/vs/data/hawaii.txt: fetch failed"
   },
   {
    "id": "coral_now",
-   "ok": true,
-   "rows": 4,
-   "newest": "Puerto Rico"
+   "ok": false,
+   "error": "https://coralreefwatch.noaa.gov/product/vs/data/florida_keys.txt: fetch failed"
   },
   {
    "id": "ozone_2026",
    "ok": true,
    "rows": 170,
    "newest": "2026-12-31",
-   "note": "0 new, 2 values updated"
+   "note": "0 new, 0 values updated"
   },
   {
    "id": "seaice_clim",
@@ -134,16 +131,16 @@
   {
    "id": "storm_fixes",
    "ok": true,
-   "rows": 658,
+   "rows": 670,
    "newest": "Wati",
-   "note": "656 IBTrACS fixes, 656 checked against the old file, 2 existing rows kept (advisories, or storms not in IBTrACS)"
+   "note": "668 IBTrACS fixes, 647 checked against the old file, 2 existing rows kept (advisories, or storms not in IBTrACS)"
   },
   {
    "id": "sst_weekly",
    "ok": true,
    "rows": 2355,
    "newest": "2026-10-14",
-   "note": "1 new, 2 values updated"
+   "note": "0 new, 0 values updated"
   },
   {
    "id": "sst_monthly",
@@ -154,10 +151,8 @@
   },
   {
    "id": "blob_boxes",
-   "ok": true,
-   "rows": 177,
-   "newest": "2026-09",
-   "note": "0 new, 0 values updated"
+   "ok": false,
+   "error": "https://upwell.pfeg.noaa.gov/erddap/griddap/nceiErsstv5.csv?sst[(1991-01-01):1:(last)][(0.0)][(40):1:(50)][(210):1:(224)]: fetch failed"
   },
   {
    "id": "volcano_alerts_us",
