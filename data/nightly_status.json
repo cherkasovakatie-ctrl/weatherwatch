@@ -1,78 +1,77 @@
 {
- "run_utc": "2026-10-20T19:57:55.865Z",
- "run_local": "2026-10-20 12:57",
+ "run_utc": "2026-10-21T20:03:51.192Z",
+ "run_local": "2026-10-21 13:03",
  "results": [
   {
    "id": "earthquakes",
    "ok": true,
-   "rows": 657,
-   "newest": "2026-10-20 18:07"
+   "rows": 663,
+   "newest": "2026-10-21 19:06"
   },
   {
    "id": "local_obs",
    "ok": true,
-   "rows": 35,
-   "newest": "2026-10-20 12:35"
+   "rows": 36,
+   "newest": "2026-10-21 12:45"
   },
   {
    "id": "local_periods",
    "ok": true,
    "rows": 14,
-   "newest": "Wednesday Night"
+   "newest": "Tuesday Night"
   },
   {
    "id": "local_hourly",
    "ok": true,
    "rows": 216,
-   "newest": "2026-10-26 23:00"
+   "newest": "2026-10-27 23:00"
   },
   {
    "id": "local_tides",
    "ok": true,
    "rows": 192,
-   "newest": "2026-10-24 23:00"
+   "newest": "2026-10-25 23:00"
   },
   {
    "id": "local_hilo",
    "ok": true,
-   "rows": 29,
-   "newest": "2026-10-24 21:02"
+   "rows": 31,
+   "newest": "2026-10-25 21:47"
   },
   {
    "id": "local_watertemp",
    "ok": true,
-   "rows": 72,
-   "newest": "2026-10-20 12:00"
+   "rows": 71,
+   "newest": "2026-10-21 12:00"
   },
   {
    "id": "fires_global_grid",
-   "ok": true,
-   "rows": 3873,
-   "newest": "9.5"
+   "ok": false,
+   "error": "Maximum call stack size exceeded"
   },
   {
    "id": "fires_socal",
    "ok": true,
-   "rows": 356,
-   "newest": "2026-10-20"
+   "rows": 270,
+   "newest": "2026-10-21"
   },
   {
    "id": "space_daily",
    "ok": true,
    "rows": 31,
-   "newest": "2026-10-19",
+   "newest": "2026-10-20",
    "note": "1 new, 0 values updated"
   },
   {
    "id": "calfire_active",
    "ok": true,
-   "rows": 6,
-   "newest": "Timber Fire"
+   "rows": 4,
+   "newest": "Soda Fire"
   },
   {
    "id": "coral_dhw",
    "ok": false,
-   "error": "https://coralreefwatch.noaa.gov/product/vs/data/hawaii.txt: fetch failed"
+   "error": "https://coralreefwatch.noaa.gov/product/vs/data/puerto_rico.txt: fetch failed"
   },
   {
    "id": "coral_now",
@@ -84,7 +83,7 @@
    "ok": true,
    "rows": 170,
    "newest": "2026-12-31",
-   "note": "0 new, 0 values updated"
+   "note": "0 new, 2 values updated"
   },
   {
    "id": "seaice_clim",
@@ -109,17 +108,13 @@
   },
   {
    "id": "planet_monthly",
-   "ok": true,
-   "rows": 1761,
-   "newest": "2026-09",
-   "note": "0 new, 0 values updated"
+   "ok": false,
+   "error": "https://climate.rutgers.edu/snowcover/files/moncov.nhland.txt: HTTP 503"
   },
   {
    "id": "sunspots_monthly",
-   "ok": true,
-   "rows": 1521,
-   "newest": "2026-09",
-   "note": "0 new, 0 values updated"
+   "ok": false,
+   "error": "https://www.sidc.be/SILSO/INFO/snmtotcsv.php: fetch failed"
   },
   {
    "id": "enso_subsurface",
@@ -131,9 +126,9 @@
   {
    "id": "storm_fixes",
    "ok": true,
-   "rows": 670,
+   "rows": 661,
    "newest": "Wati",
-   "note": "668 IBTrACS fixes, 647 checked against the old file, 2 existing rows kept (advisories, or storms not in IBTrACS)"
+   "note": "659 IBTrACS fixes, 659 checked against the old file, 2 existing rows kept (advisories, or storms not in IBTrACS)"
   },
   {
    "id": "sst_weekly",
@@ -151,8 +146,10 @@
   },
   {
    "id": "blob_boxes",
-   "ok": false,
-   "error": "https://upwell.pfeg.noaa.gov/erddap/griddap/nceiErsstv5.csv?sst[(1991-01-01):1:(last)][(0.0)][(40):1:(50)][(210):1:(224)]: fetch failed"
+   "ok": true,
+   "rows": 177,
+   "newest": "2026-09",
+   "note": "0 new, 0 values updated"
   },
   {
    "id": "volcano_alerts_us",
