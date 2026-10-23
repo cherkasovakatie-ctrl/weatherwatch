@@ -1,0 +1,289 @@
+2026-10-23 20:52 access_cm2 historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/447e8f7a-6a1b-4aad-865d-22309e214000/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 20:52 access_cm2 ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/75741026-6f42-43dc-93a6-1264c45b3816/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 20:52 access_cm2 ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/c3e26285-7553-4124-a9e5-9019371adff8/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 20:52 access_cm2 ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/204b440e-a38b-427d-bff4-3f97450c9618/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 20:56 access_esm1_5 historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/b502184b-4384-4ba3-b3bb-3b62496aad7e/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 20:56 access_esm1_5 ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/a54e4c17-39b0-462d-a77b-1679b252bd8e/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 20:56 access_esm1_5 ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/a901b08a-3546-489f-93bd-996993d9dda6/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 20:56 access_esm1_5 ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/8bbe69df-04aa-4d4b-96d3-e9440535012e/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:01 canesm5 historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/655c4a8c-9d59-4f2e-a4d8-f3652b33e509/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:01 canesm5 ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/365e82b0-ed18-45a8-8503-47d2128e33af/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:01 canesm5 ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/ff6617a7-bc83-4ebd-8515-838697ba0eca/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:01 canesm5 ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/9d77be25-c143-4f6e-af9e-ceba9fc9daa2/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:05 cesm2 historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/1e0195c2-120a-44f9-9468-717b3ba0047f/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:05 cesm2 ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/c45b99d4-2bbf-4e73-864c-bc478fa74aab/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:05 cesm2 ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/41e57e5d-8342-4d32-b4a3-dae4098c6d79/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:06 cesm2 ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/5d2ad816-be86-4552-9b65-b06db45ea74c/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:10 cmcc_esm2 historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/1d8db813-642b-457d-a378-ad2ab687731a/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:10 cmcc_esm2 ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/4a890aae-013d-4e73-ad9c-77261cb88705/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:10 cmcc_esm2 ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/ec34d979-61f4-477e-ade6-ae9b50fbc9a5/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:10 cmcc_esm2 ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/b43f66b1-b8ee-43c8-bb18-195ad644ba7d/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:14 cnrm_cm6_1 historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/c0a316c5-7061-4414-a277-67b517cc1e21/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:14 cnrm_cm6_1 ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/1ff3f281-7e27-49e6-8d1f-666986fc5502/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:15 cnrm_cm6_1 ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/6d54fbbc-355c-4576-a9d4-77fe2c42f01a/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:15 cnrm_cm6_1 ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/e325a72a-e1ea-483d-b776-0e32944cfe5c/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:19 cnrm_esm2_1 historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/2743cb2f-ff06-48ab-9343-91f6081c15b4/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:20 cnrm_esm2_1 ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/e88d4c51-f560-4cee-89d4-435705bb298b/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:20 cnrm_esm2_1 ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/3a3778fe-cd0a-4a89-b987-4a1084bde36b/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:20 cnrm_esm2_1 ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/3c4087d5-3fd2-4394-90db-f299faa82eae/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:24 ec_earth3 historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/6ad071e7-2b44-43d9-a42e-98705cb2407e/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:24 ec_earth3 ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/5cde6282-e081-4b86-86a8-f145c4ac9256/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:24 ec_earth3 ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/aa850765-5472-47f3-bfa4-618abfcbd755/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:24 ec_earth3 ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/b1173e07-37ec-4044-80f2-6c44fa15dbcf/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:29 ec_earth3_veg historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/109c6ca4-cd6a-4c96-a039-d3bfe8a5ff81/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:29 ec_earth3_veg ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/70fc4d7b-df63-4176-9c59-79e2d2a7ca1c/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:29 ec_earth3_veg ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/42918b8e-b4b7-4a64-9d6c-e963589e625b/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:30 ec_earth3_veg ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/1939362c-0085-44bb-9f85-f59b510003ef/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:34 fgoals_g3 historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/1f83aa8c-cbdf-4748-92e5-2d7d00a34119/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:35 fgoals_g3 ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/f22fbd2a-0754-4092-accd-4188a6f977b5/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:35 fgoals_g3 ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/0bdfcf1f-de40-45ef-aca2-dc2ff31be3de/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:35 fgoals_g3 ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/18f80388-8465-4cc1-8014-18c6e88e2fd2/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:39 gfdl_esm4 historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/45500ccc-ffea-4509-9f8f-7f16b64b53e5/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:39 gfdl_esm4 ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/0dc0061c-615f-4c21-9c7e-db69c1ab8486/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:39 gfdl_esm4 ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/386b94cf-8334-4553-b890-572ec9454c6d/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:40 gfdl_esm4 ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/36c75e01-af8f-4957-926c-677320833184/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:44 hadgem3_gc31_ll historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/bc948d13-62cd-424e-b061-fd8b25b8f4ab/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:44 hadgem3_gc31_ll ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/14808fcf-98b6-4872-ac8f-11231629e460/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:44 hadgem3_gc31_ll ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/1e637119-9b4f-4ced-b6b0-96dd2d9bfc7a/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:44 hadgem3_gc31_ll ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/a62aa480-0e15-4539-b4d9-c4efc90a84cc/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:49 inm_cm4_8 historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/38971c4c-13a2-4b3b-8b42-70d425062a58/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:49 inm_cm4_8 ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/b86f711a-13f0-4a91-b461-a58edd3b64d3/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:50 inm_cm4_8 ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/bb035095-9026-4d47-86e1-a1f304cdc2ea/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:50 inm_cm4_8 ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/680edaaa-2d83-4720-bb27-a955af966979/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:53 inm_cm5_0 historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/a1fd627f-5280-44cb-92f9-54b9c90f266e/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:54 inm_cm5_0 ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/71dad9cd-a2e7-4b60-9ff6-35ee5bbf9b3a/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:54 inm_cm5_0 ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/e37ae325-7aab-4f53-95c4-10f4b991f365/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:54 inm_cm5_0 ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/810b6a4d-b838-4e05-9add-c3cbaa7e073b/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:58 ipsl_cm6a_lr historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/a75e41c1-bc5a-4d40-8189-0b8cdba93cc3/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:58 ipsl_cm6a_lr ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/bce57dbe-961e-430d-8661-ca0b207682c0/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 21:58 ipsl_cm6a_lr ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/fb65fa65-46c7-43a5-8bb4-fa521e230835/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:00 ipsl_cm6a_lr ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/cbe26f22-890f-4343-acdb-be28aceb53c4/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:02 kace_1_0_g historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/c0642caa-9724-4619-982e-a8e40224736a/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:04 kace_1_0_g ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/fb71b7ff-f208-438e-b106-8211f88ee8b6/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:04 kace_1_0_g ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/5fc2562d-9802-477e-b4a2-6a74c89f5424/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:05 kace_1_0_g ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/1cd04974-5e5a-4954-917e-8430b740fd32/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:07 miroc6 historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/f920bd59-8af6-4469-aff7-3f1ecdda163f/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:08 miroc6 ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/ce9412c1-55db-492d-839d-41942dcef656/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:09 miroc6 ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/4f29d8aa-87f4-47b1-9b45-9c122ef99e75/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:10 miroc6 ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/0a087236-8934-4e0b-be42-a79f9a318850/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:15 miroc_es2l historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/a1b53275-311f-4bf8-bf15-734b3f435244/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:15 miroc_es2l ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/e65659f1-df0f-46c2-ba2e-a2348757f6c1/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:15 miroc_es2l ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/b595a025-b7cc-4cfd-a722-bfaf62ba326c/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:15 miroc_es2l ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/7ea177a1-9db8-40c5-92e5-29d496a47e7b/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:20 mpi_esm1_2_lr historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/4e57062c-2489-4be3-acba-d0759ed7ac41/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:20 mpi_esm1_2_lr ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/08f1ac6a-638f-4c67-b2d7-02d290ce8043/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:20 mpi_esm1_2_lr ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/5c8f5520-43c4-4358-a254-4bdfd4b0a64a/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:20 mpi_esm1_2_lr ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/f64e89f7-820a-4a1d-a91c-6b6c696ddb0f/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:26 mri_esm2_0 historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/1305c5ff-a195-4cdf-a34c-fdd15623f359/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:26 mri_esm2_0 ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/fcd07881-8203-4ca6-aac2-3f95b2bdb302/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:26 mri_esm2_0 ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/0185524c-077d-47cb-ad3a-b0e9a14f02ce/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:26 mri_esm2_0 ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/e957f324-4543-4a24-bd60-5ab886f0cce2/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:31 nesm3 historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/f7f057f3-d3bc-4705-b7e1-0c23dae80a99/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:33 nesm3 ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/ec51cb57-6d02-4136-b066-a867d564988a/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:33 nesm3 ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/6155b845-5fd4-4c22-afd8-c287271506a8/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:33 nesm3 ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/9edb1ece-6746-4b95-a80b-419b8d51fa1a/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:35 noresm2_lm historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/7f75aa2f-d711-4d6b-bbb4-e4ca94b22f1b/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:35 noresm2_lm ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/3275b85c-c4ea-4315-a002-dbad52a4a8a8/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:36 noresm2_lm ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/b69fca05-0fa2-46d6-b06a-00073f8a14e2/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:37 noresm2_lm ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/1b3902d1-5b79-467b-a773-c1f08d99c096/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:40 taiesm1 historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/de98c268-6642-4675-aaff-ac135d4500c2/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:40 taiesm1 ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/c0a853a3-4497-487b-aa75-a71acb257170/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:42 taiesm1 ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/746ba75b-6ae2-43c6-a1ad-07ec0f8d9717/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:42 taiesm1 ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/ac155bbb-967f-4041-9919-5651c3201d6d/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:44 ukesm1_0_ll historical: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/6166a93f-de7b-49ed-8e5b-8a67001eb512/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:45 ukesm1_0_ll ssp126: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/db744854-5c51-4147-828a-6be67a7140aa/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:46 ukesm1_0_ll ssp245: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/a3d3bc6b-02a0-4d12-8cd1-346dd81580ee/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:47 ukesm1_0_ll ssp585: failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/a5c008f9-68ef-4e71-9cb0-653c5412fa51/results
+The job has been rejected
+Maximum number queued requests for 
+2026-10-23 22:47 finished
