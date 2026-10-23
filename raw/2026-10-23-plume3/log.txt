@@ -1,0 +1,19 @@
+FAIL / HTTP Error 403: Forbidden
+OK   /figure4_plot/2026/10 image/svg+xml; charset=utf-8 143595
+FAIL /figure4_data/2026/10 HTTP Error 403: Forbidden
+FAIL /figure4_table/2026/10 HTTP Error 403: Forbidden
+FAIL /figure4_json/2026/10 HTTP Error 403: Forbidden
+FAIL /figure4/2026/10 HTTP Error 403: Forbidden
+FAIL /figure4_highchart/2026/10 HTTP Error 403: Forbidden
+OK   /figure9_plot/2026/10 image/svg+xml; charset=utf-8 73149
+OK   /figure3_plot/2026/10 image/svg+xml; charset=utf-8 69133
+OK   /figure7_plot/2026/10/22 image/svg+xml; charset=utf-8 252543
+OK   /strength_plot/2026/10 image/svg+xml; charset=utf-8 116170
+FAIL /api HTTP Error 403: Forbidden
+FAIL /api/plume/2026/10 HTTP Error 403: Forbidden
+FAIL /data/2026/10 HTTP Error 403: Forbidden
+FAIL /plume/2026/10 HTTP Error 403: Forbidden
+FAIL /table/2026/10 HTTP Error 403: Forbidden
+FAIL /sst_table/2026/10 HTTP Error 403: Forbidden
+FAIL /docs HTTP Error 403: Forbidden
+FAIL /openapi.json HTTP Error 403: Forbidden
