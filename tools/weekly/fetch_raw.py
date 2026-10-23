@@ -38,34 +38,34 @@ def om(name, base, **params):
 
 
 # ---- ENSO and drivers
-get('psl_mjoindex_dir.html', 'https://psl.noaa.gov/mjo/mjoindex/')
-for f in ('omi.1x.webpage.4023.txt', 'omi.1x.webpage.7921.txt', 'omi.realtime.txt', 'romi.cpcolr.1x.txt', 'romi.1x.txt'):
-    get('psl_' + f, 'https://psl.noaa.gov/mjo/mjoindex/' + f, tries=1)
+get('psl_romi.cpcolr.1x.txt', 'https://psl.noaa.gov/mjo/mjoindex/romi.cpcolr.1x.txt')  # real-time OMI (CPC OLR)
 get('pmel_wwv.dat', 'https://www.pmel.noaa.gov/tao/wwv/data/wwv.dat')
 get('cpc_ao_daily.csv', 'https://ftp.cpc.ncep.noaa.gov/cwlinks/norm.daily.ao.cdas.z1000.19500101_current.csv')
-get('cpc_ao_daily_alt.csv', 'https://www.cpc.ncep.noaa.gov/products/precip/CWlink/daily_ao_index/norm.daily.ao.cdas.z1000.19500101_current.csv', tries=1)
 # ---- hazards
 get('nhc_currentstorms.json', 'https://www.nhc.noaa.gov/CurrentStorms.json')
-ev = get('gdacs_events.json', 'https://www.gdacs.org/gdacsapi/api/events/geteventlist/EVENTS4APP')
+F = TODAY - dt.timedelta(60)
+for evt in ('TC', 'FL', 'DR', 'VO', 'WF', 'EQ'):
+    b = get(f'gdacs_search_{evt}.json', f'https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH?eventlist={evt}&fromDate={F}&toDate={TODAY}&alertlevel=green;orange;red')
 try:
-    feats = json.loads(ev)['features']
+    feats = json.loads((OUT / 'gdacs_search_TC.json').read_bytes())['features']
     for f in feats:
         p = f['properties']
-        if p.get('eventtype') == 'TC':
+        if p.get('todate', '') >= str(TODAY - dt.timedelta(14)):
             get(f"gdacs_tc_{p['eventid']}_{p['episodeid']}.json",
                 f"https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid={p['eventid']}&episodeid={p['episodeid']}", tries=2)
 except Exception as e:
     LOG.append(f'FAIL gdacs TC geometry: {e}')
-get('si_weekly_rss.xml', 'https://volcano.si.edu/news/WeeklyVolcanoRSS.xml')
-get('si_reports_weekly.html', 'https://volcano.si.edu/reports_weekly.cfm')
+# Smithsonian weekly volcano report blocks automated requests (HTTP 403): read it by hand.
 for loc in ('northatlantic', 'northeastpacific', 'northwestpacific', 'northindian', 'southindian', 'southpacific', 'northernhemisphere'):
     get(f'csu_{loc}.html', f'https://tropical.atmos.colostate.edu/Realtime/index.php?loc={loc}', tries=2)
+for loc in ('atlantic', 'northeastpacific', 'northwestpacific', 'northindian', 'southindian', 'southpacific', 'northernhemisphere'):
+    get(f'csu_climo_{loc}.csv', f'https://tropical.atmos.colostate.edu/Includes/Documents/Realtime/{loc}acetodatevsclimo.csv', tries=2)
 # ---- Southern California and poles
 stations = 'SHA,ORO,CLE,NML,SNL,BER,EXC,PNF,FOL,BUL,PYM,CAS,PRR'
 get('cdec_res.html', 'https://cdec.water.ca.gov/reportapp/javareports?name=RES')
 get('cdec_storage.csv', f'https://cdec.water.ca.gov/dynamicapp/req/CSVDataServlet?Stations={stations}&SensorNums=15&dur_code=D&Start={TODAY - dt.timedelta(10)}&End={TODAY}')
 FC = 'https://api.open-meteo.com/v1/forecast'
-PTS = {'vv': (34.165, -118.396), 'sf': (37.77, -122.42), 'off_a': (33.5, -119.5), 'off_b': (33.0, -120.0), 'off_c': (33.7, -118.9)}
+PTS = {'vv': (34.165, -118.396), 'sf': (37.77, -122.42), 'off_a': (33.5, -119.5)}
 for k, (la, lo) in PTS.items():
     om(f'om_ar_{k}.json', FC, latitude=la, longitude=lo, hourly='total_column_integrated_water_vapour', daily='precipitation_sum',
        past_days=7, forecast_days=16, timezone='America/Los_Angeles')
@@ -94,12 +94,11 @@ for i, (k, (la, lo)) in enumerate(POLAR.items()):
 for lo in range(-180, 180, 45):
     om(f'om_u10hpa_{lo}.json', 'https://api.open-meteo.com/v1/gfs', latitude=60, longitude=lo, hourly='wind_speed_10hPa,wind_direction_10hPa',
        past_days=7, forecast_days=16, timezone='UTC')
-GL = {'summit': (72.58, -38.46), 'kanger_a': (67.1, -48.5), 'kanger_b': (67.0, -47.0), 'south_a': (63.15, -44.82), 'south_b': (64.0, -44.0),
-      'nw_a': (76.0, -58.0), 'nw_b': (77.0, -61.0), 'east_a': (70.0, -30.0), 'east_b': (71.0, -35.0)}
+# Greenland points used by poles_daily (see its manifest description)
+GL = {'summit': (72.58, -38.46), 'kanger_b': (67.0, -47.0), 'south': (60.98, -44.03), 'nw_b': (77.0, -61.0), 'east': (72.93, -28.06)}
 for k, (la, lo) in GL.items():
     om(f'om_gl_{k}.json', FC, latitude=la, longitude=lo, daily='temperature_2m_max', past_days=30, forecast_days=16, timezone='UTC')
 # ---- monthly / other
-get('iers_finals2000A.data', 'https://datacenter.iers.org/data/9/finals2000A.data')
 get('usno_finals2000A.data', 'https://maia.usno.navy.mil/ser7/finals2000A.data', tries=1)
 get('lsa_gmsl.csv', 'https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/slr/slr_sla_gbl_free_ref_90.csv')
 (OUT / 'fetch_log.txt').write_text('\n'.join(LOG) + '\n')
