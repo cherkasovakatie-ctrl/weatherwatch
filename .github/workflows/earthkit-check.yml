@@ -1,0 +1,20 @@
+name: earthkit check
+
+# Installs the pinned earthkit suite and runs the smoke test. Runs when the earthkit setup changes, or by hand.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [tools/earthkit/**, .github/actions/setup-earthkit/**]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup-earthkit
+      - run: python tools/earthkit/smoke_test.py

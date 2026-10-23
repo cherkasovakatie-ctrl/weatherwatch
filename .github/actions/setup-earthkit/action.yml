@@ -1,0 +1,12 @@
+name: Set up earthkit
+description: Python 3.12 with the pinned ECMWF earthkit suite (pip cache keyed on tools/earthkit/requirements.txt).
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+        cache: pip
+        cache-dependency-path: tools/earthkit/requirements.txt
+    - shell: bash
+      run: python -m pip install -q -r tools/earthkit/requirements.txt

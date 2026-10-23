@@ -1,0 +1,3 @@
+# ECMWF earthkit suite (umbrella package: data, geo, hydro, meteo, plots, transforms, utils; brings eccodes, cdsapi,
+# ecmwf-opendata, xarray, geopandas, cartopy). Pinned so a release cannot change results silently.
+earthkit==1.0.0
