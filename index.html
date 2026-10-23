@@ -135,6 +135,8 @@ body { font-family: var(--font-anthropic-sans); }
   .ww-probs td.hi { font-weight: 600; color: var(--color-fg); }
   .ww-probs td.na { color: var(--color-fg-muted); }
   .ww-model-detail { margin-top: var(--cds-gap-sm); }
+  #card-enso-plume { --ww-en1: #f6c3a8; --ww-en2: #ec8a62; --ww-en3: #d24f34; --ww-en4: #8f1f15; }
+  #chart-enso-strength { position: relative; }
   .ww-model-detail summary { font-weight: 600; padding: 4px 0; }
   h2.ww-sub { font-size: var(--cds-font-size-body); margin-top: var(--cds-gap-sm); }
   .ww-legend i.sq { border-radius: 2px; }
@@ -385,6 +387,15 @@ body { font-family: var(--font-anthropic-sans); }
         <p class="note">Chance (%) of each ENSO category for each 3-month target season. Rows are matched by target season, not by position; "—" means that source has no forecast for that season. Each value is a seasonal probability, not monthly odds. Issued: <b>CPC</b> <span data-probs-issued="CPC">—</span> · <b>IRI</b> <span data-probs-issued="IRI">—</span>.</p>
         <div class="ww-table-wrap"><table class="ww-table ww-probs" id="table-enso-probs" data-source="enso_probs"></table></div>
         <p class="note"><b>CPC official</b>: consensus of NOAA CPC forecasters (with IRI), verified against the relative Niño 3.4 index (RONI); categories are ±0.5 °C, and the "≥ +1.5 °C" column is the chance of a strong or very strong El Niño. CPC also puts the chance of a historic event (RONI ≥ +2.5 °C) at 83% for Oct–Dec. <b>IRI objective</b>: computed by regression from the model plume below, with no forecaster judgement, using the traditional Niño 3.4 anomaly (OISST, 1991–2020). The two use different indices, so differences of a few points are expected. Sources: <a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/strengths/">CPC strength probabilities</a>, <a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml">CPC ENSO discussion</a>, <a href="https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/">IRI ENSO forecast</a>.</p>
+        <details class="cl-read ww-model-detail" id="strength-detail">
+          <summary>CPC El Niño strength detail</summary>
+          <h2 class="ww-sub">CPC official El Niño strength probabilities by target season</h2>
+          <p class="note">Issued by NOAA CPC on <span data-probs-issued="CPC">—</span>, for the target seasons listed. <b>Unconditional probabilities</b>: each value is the chance of that strength out of all outcomes, not the chance given that El Niño occurs. The four strengths add up to CPC's El Niño probability, and the grey remainder (Neutral or La Niña) brings each bar to 100%. Strength uses the 3-month RONI: weak +0.5 to +1.0 °C, moderate +1.0 to +1.5, strong +1.5 to +2.0, very strong ≥ +2.0.</p>
+          <div class="ww-legend" data-legend="enso_strength"></div>
+          <div class="ww-chart" id="chart-enso-strength" data-source="enso_probs"></div>
+          <div class="ww-table-wrap"><table class="ww-table ww-probs" id="table-enso-strength"></table></div>
+          <p class="note">Source: <a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/strengths/">Official NOAA CPC ENSO Strength Probabilities</a> (numeric table). Percentages are CPC's own rounded values.</p>
+        </details>
         <details class="cl-read ww-model-detail" id="plume-detail">
           <summary>Model detail</summary>
           <h2 class="ww-sub">Model plume: Niño 3.4 SST anomaly forecasts (°C)</h2>
@@ -2540,7 +2551,7 @@ window.WW = (() => {
     return { svg, root: layer, layer, P, W, H, cx, cy, R };
   }
 
-  return { colors, muted, parseMonth, parseDay, signed, line, bars, legend, fail, map, mapTip, scatter, polar };
+  return { colors, muted, parseMonth, parseDay, signed, line, bars, legend, fail, map, mapTip, scatter, polar, makeTip, fillTip, placeTip };
 })();
 </script>
 
@@ -2669,6 +2680,60 @@ window.WW = (() => {
     drawProbs();
   }
 
+  function drawStrength() {
+    const el = box('chart-enso-strength');
+    const tb = box('table-enso-strength');
+    const p = dash.data('enso_probs');
+    if (!el || p.status !== 'ok') return;
+    const rows = p.data.filter((r) => r.source === 'CPC' && r.en_weak !== '').sort((a, b) => (a.target_start < b.target_start ? -1 : 1));
+    if (!rows.length) return K.fail(el, 'no CPC strength rows');
+    const label = (r) => { const y = +r.target_start.slice(0, 4); const m = +r.target_start.slice(5, 7); return `${r.season} ${m >= 11 ? `${y}–${String(y + 1).slice(2)}` : y}`; };
+    const segs = [
+      { key: 'en_weak', label: 'Weak (+0.5 to +1.0)', color: 'var(--ww-en1)' },
+      { key: 'en_moderate', label: 'Moderate (+1.0 to +1.5)', color: 'var(--ww-en2)' },
+      { key: 'en_strong', label: 'Strong (+1.5 to +2.0)', color: 'var(--ww-en3)' },
+      { key: 'en_very_strong', label: 'Very strong (≥ +2.0)', color: 'var(--ww-en4)' },
+      { key: 'rest', label: 'Neutral or La Niña', color: 'var(--cds-chart-muted)' },
+    ];
+    K.legend(document.querySelector('[data-legend="enso_strength"]'), segs);
+    el.classList.remove('dash-skeleton');
+    el.replaceChildren();
+    const W = el.clientWidth;
+    if (!W) return;
+    const rowH = 26;
+    const ml = 96;
+    const mr = 22;
+    const H = rows.length * rowH + 24;
+    const svg = d3.select(el).append('svg').attr('class', 'ww-svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img')
+      .attr('aria-label', 'Stacked bars of CPC El Niño strength probabilities by target season');
+    const x = d3.scaleLinear([0, 100], [ml, W - mr]);
+    [0, 25, 50, 75, 100].forEach((v) => {
+      svg.append('line').attr('class', 'ww-gridline').attr('x1', x(v)).attr('x2', x(v)).attr('y1', 0).attr('y2', rows.length * rowH);
+      svg.append('text').attr('class', 'ww-tick').attr('x', x(v)).attr('y', H - 6).attr('text-anchor', 'middle').text(v + '%');
+    });
+    const tip = K.makeTip(el);
+    rows.forEach((r, i) => {
+      const vals = segs.map((sg) => (sg.key === 'rest' ? +r.neutral + +r.la_nina : +r[sg.key]));
+      const g = svg.append('g');
+      g.append('text').attr('class', 'ww-tick').attr('x', ml - 8).attr('y', i * rowH + rowH / 2).attr('dy', '0.32em').attr('text-anchor', 'end').text(label(r));
+      let acc = 0;
+      vals.forEach((v, k) => {
+        if (v > 0) g.append('rect').attr('x', x(acc)).attr('width', Math.max(0, x(acc + v) - x(acc) - 1)).attr('y', i * rowH + 4).attr('height', rowH - 8).attr('rx', 2).style('fill', segs[k].color);
+        acc += v;
+      });
+      g.append('rect').attr('x', 0).attr('y', i * rowH).attr('width', W).attr('height', rowH).attr('fill', 'transparent')
+        .on('pointermove', (ev) => {
+          K.fillTip(tip, `${label(r)} · El Niño ${r.el_nino}% (CPC, unconditional)`, segs.map((sg, k) => ({ label: sg.label, value: vals[k] + '%', color: sg.color })));
+          K.placeTip(tip, el, d3.pointer(ev)[0]);
+          tip.style.top = (i * rowH + rowH) + 'px';
+        })
+        .on('pointerleave', () => { tip.hidden = true; });
+    });
+    tb.innerHTML = '<thead><tr><th>Target season</th><th>Weak</th><th>Moderate</th><th>Strong</th><th>Very strong</th><th>El Niño total</th><th>Neutral</th><th>La Niña</th></tr></thead><tbody>'
+      + rows.map((r) => `<tr><th>${label(r)}</th><td>${r.en_weak}</td><td>${r.en_moderate}</td><td>${r.en_strong}</td><td>${r.en_very_strong}</td><td class="hi">${r.el_nino}</td><td>${r.neutral}</td><td>${r.la_nina}</td></tr>`).join('')
+      + '</tbody>';
+  }
+
   function drawProbs() {
     const p = dash.data('enso_probs');
     const t = box('table-enso-probs');
@@ -2741,6 +2806,9 @@ window.WW = (() => {
   function drawOverview(head) {
     drawPdoWild();
     drawPlume();
+    drawStrength();
+    const sd = box('strength-detail');
+    if (sd && !sd.dataset.bound) { sd.dataset.bound = '1'; sd.addEventListener('toggle', () => { if (sd.open) drawStrength(); }); }
     const pd = box('plume-detail');
     if (pd && !pd.dataset.bound) { pd.dataset.bound = '1'; pd.addEventListener('toggle', () => { if (pd.open) drawPlume(); }); }
     analog('chart-oni-analogs', 'oni_analogs', 'oni_analogs', 'season', 'Season');
