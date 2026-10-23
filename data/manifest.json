@@ -467,6 +467,22 @@
    "bytes": 4421
   },
   {
+   "id": "alignment_tests",
+   "file": "alignment_tests.csv",
+   "title": "Planetary alignments vs earthquakes and eruptions: test results",
+   "description": "65 tests, 1965–2016: Mercury and Venus inferior conjunctions (±7 and ±15 days), retrograde days, double inferior conjunctions, Sun–Mercury–Venus–Earth line-ups and 5-planet heliocentric clusters (PyEphem) against USGS M6+/M7+/M7.5+ mainshocks (Gardner–Knopoff declustered) and Smithsonian GVP eruption starts (VEI 2+, 3+). p from 5,000 circular time shifts of the hazard dates; q = Benjamini–Hochberg. Script tools/sky/alignment_hazards.py. Computed by Claude.",
+   "updated": "2026-10-23",
+   "bytes": 7599
+  },
+  {
+   "id": "alignment_calendar",
+   "file": "alignment_calendar.csv",
+   "title": "Mercury and Venus conjunctions and stations, 2025–2027",
+   "description": "Inferior and superior conjunctions with the Sun and retrograde/direct stations of Mercury and Venus, dated to the UTC day, from PyEphem.",
+   "updated": "2026-10-23",
+   "bytes": 2696
+  },
+  {
    "id": "quake_tests",
    "file": "quake_tests.csv",
    "title": "Earthquake trigger tests",

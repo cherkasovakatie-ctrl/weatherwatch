@@ -1509,6 +1509,26 @@ body { font-family: var(--font-anthropic-sans); }
           </table>
         </div>
       </article>
+      <article class="ww-card wide" id="card-sky-quakes">
+        <h2>Planetary alignments vs earthquakes and eruptions, 1965–2016</h2>
+        <p class="note">Did large earthquakes or eruption onsets cluster around Mercury and Venus inferior conjunctions (Sun–planet–Earth in line), retrograde periods, double conjunctions like March 2025 and October–November 2026, Sun–Mercury–Venus–Earth line-ups, or five-planet clusters? Hazards: USGS M6+, M7+ and M7.5+ mainshocks (aftershocks removed; 5,207 / 658 / 214) and Smithsonian GVP eruption starts dated to the day (VEI 2+: 992; VEI 3+: 288). Expected = mean over 5,000 random time shifts of the hazard dates, which keeps their clustering. Result: no earthquake effect at all (ratios 0–1.3, every p ≥ 0.28; no M7.5+ quake fell within 15 days of any of the 7 double conjunctions or 9 line-ups, against 2.4 and 3.2 expected). Four of 65 tests reach p &lt; 0.05 — chance alone gives about 3 — all for eruptions near Venus inferior conjunction; none survives the false-discovery correction (lowest q = 0.50), and the same test on 1900–1964 eruptions shows no excess (ratio 0.88–0.92, p &gt; 0.6). It stays a forward test. Physics: at its closest, Venus raises a tide about 0.006% of the Moon's; Mercury's is about 0.00002%.</p>
+        <div class="ww-table-wrap">
+          <table class="ww-table" id="table-sky-quakes" data-source="alignment_tests" data-row-key="rank">
+            <thead><tr><th data-field="alignment">Alignment</th><th data-field="window">Window</th><th data-field="hazard">Hazard</th><th data-field="observed">Observed</th><th data-field="expected">Expected</th><th data-field="ratio">Ratio</th><th data-field="p_value">p</th><th data-field="q_fdr">q</th><th data-field="verdict">Verdict</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </article>
+      <article class="ww-card" id="card-sky-calendar">
+        <h2>Mercury and Venus calendar, 2025–2027</h2>
+        <p class="note">Conjunctions with the Sun and retrograde stations (UTC day, PyEphem). The next double inferior conjunction: Venus 24 October and Mercury 4 November 2026. Base rate for judging any “hit”: the world averages about 13 M7+ mainshocks a year, so roughly two in three 31-day windows contain at least one.</p>
+        <div class="ww-table-wrap ww-events-wrap">
+          <table class="ww-table" id="table-sky-calendar" data-source="alignment_calendar" data-row-key="date">
+            <thead><tr><th data-field="date">Date</th><th data-field="event">Event</th><th data-field="kind">Type</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </article>
       <article class="ww-card wide" id="card-sky-method">
         <h2>How this was tested</h2>
         <p class="note">Predictors (monthly, 15th of each month): closeness (cosine of separation) and hard aspects (within 8° of 0°, 90° or 180°) for ten outer-planet pairs, heliocentric clustering of the planets, the number of retrograde planets, and the lunar node cycle. Indices: ONI, PDO, AMO, NAO, PNA, AO, AAO and global temperature with its long-term trend removed. Slow cycles and persistent climate indices produce chance correlations easily, so each p-value comes from surrogate indices with the same persistence, and the whole set is corrected for multiple testing. Forward test: these four leads are now fixed in advance and will be re-scored as new months arrive. Physical note: the planets' tidal pull on Earth is about a million times smaller than the Moon's, so a real effect would need an indirect route, for example through the Sun.</p>
