@@ -5,12 +5,13 @@ from pathlib import Path
 import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from tools.earthkit.ek import ekd, meteo, plots  # noqa: E402
+from tools.earthkit.ek import ekd, plots  # noqa: E402
+from earthkit.meteo import thermo  # submodules are not imported by `import earthkit.meteo`  # noqa: E402
 
-td = meteo.thermo.dewpoint_from_relative_humidity(np.array([293.15]), np.array([50.0]))[0] - 273.15
+td = thermo.dewpoint_from_relative_humidity(np.array([293.15]), np.array([50.0]))[0] - 273.15
 assert abs(td - 9.27) < 0.05, td
 print(f'earthkit-meteo dewpoint(20 °C, 50%) = {td:.2f} °C')
-ds = ekd.from_source('ecmwf-open-data', param='2t', levtype='sfc', step=0)
+ds = ekd.from_source('ecmwf-open-data', param='2t', levtype='sfc', step=0).to_fieldlist()  # earthkit-data 1.x returns a data object
 f = ds[0]; v = f.to_numpy()
 print('ecmwf-open-data 2t:', f.metadata('date'), f.metadata('time'), v.shape, f'{v.min() - 273.15:.1f} to {v.max() - 273.15:.1f} °C')
 out = Path('earthkit_smoke.png')

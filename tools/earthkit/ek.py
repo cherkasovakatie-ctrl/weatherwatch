@@ -11,4 +11,6 @@ import earthkit.hydro as hydro
 import earthkit.meteo as meteo
 import earthkit.plots as plots
 
+# Note (earthkit-data 1.x): from_source() returns a data object; call .to_fieldlist() / .to_xarray() on it.
+# Note: `import earthkit.meteo` does not import submodules; use `from earthkit.meteo import thermo`.
 __all__ = ['ekd', 'transforms', 'geo', 'hydro', 'meteo', 'plots']
