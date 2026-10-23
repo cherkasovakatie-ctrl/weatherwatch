@@ -40,7 +40,8 @@ th, td { text-align: left; vertical-align: top; padding: 6px 8px; border-bottom:
 thead th { font-weight: 600; background: var(--color-panel); position: sticky; top: 0; }
 tbody tr:nth-child(even) { background: var(--zebra); }
 td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
-table.data td, table.data th { white-space: nowrap; }
+table.data td { white-space: nowrap; padding: 5px 6px; }
+table.data th { white-space: normal; overflow-wrap: normal; vertical-align: bottom; padding: 5px 6px; font-size: .78rem; line-height: 1.25; min-width: 3.6em; }
 .note { font-size: .82rem; color: var(--color-fg-muted); line-height: 1.5; margin: 6px 0 0; }
 ol.refs { padding-left: 1.4em; font-size: .86rem; line-height: 1.55; }
 ol.refs li { margin-bottom: 6px; overflow-wrap: anywhere; }
