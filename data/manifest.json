@@ -741,10 +741,10 @@
   {
    "id": "enso_probs",
    "file": "enso_probs.csv",
-   "title": "ENSO objective probabilities (IRI)",
-   "description": "IRI/CCSR objective model-based probabilities (%) of La Niña (≤ −0.5 °C), Neutral and El Niño (≥ +0.5 °C) for traditional Niño 3.4, by 3-month season, read from IRI's figure3 SVG (rounded to whole %; rows must sum to 100 ± 2). Not the official CPC/IRI outlook, which uses the relative index.",
+   "title": "ENSO category probabilities: CPC official and IRI objective",
+   "description": "Chance (%) of La Niña, Neutral and El Niño per 3-month target season from two sources, one row per source and season, keyed by target_start (first month) so products starting on different seasons align. CPC: official NOAA CPC consensus outlook from the numeric strength-probability table (RONI, ±0.5 °C categories; El Niño split into weak/moderate/strong/very strong at +0.5/+1.0/+1.5/+2.0 °C), issue date from the ENSO Diagnostic Discussion. IRI: objective model-based probabilities for traditional Niño 3.4 (OISST), read from IRI figure3 SVG. Seasonal probabilities, not monthly odds. Rows must sum to 100 ± 1–2.",
    "updated": "2026-10-23",
-   "bytes": 217
+   "bytes": 1368
   }
  ]
 }

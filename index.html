@@ -129,6 +129,13 @@ body { font-family: var(--font-anthropic-sans); }
   .ww-chips button { font: inherit; font-size: var(--cds-font-size-caption); border: 1px solid var(--color-border-line); background: none; color: var(--color-fg-muted); border-radius: 999px; padding: 3px 10px; cursor: pointer; }
   .ww-chips button[aria-pressed="true"] { color: var(--color-fg); border-color: var(--color-fg); }
   .ww-chips button:focus-visible, .ww-seg button:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+  .ww-probs td, .ww-probs th { text-align: right; white-space: nowrap; }
+  .ww-probs tbody th, .ww-probs thead tr:first-child th:first-child { text-align: left; }
+  .ww-probs th.grp { text-align: center; color: var(--color-fg); border-bottom: 1px solid var(--color-border-line); }
+  .ww-probs td.hi { font-weight: 600; color: var(--color-fg); }
+  .ww-probs td.na { color: var(--color-fg-muted); }
+  .ww-model-detail { margin-top: var(--cds-gap-sm); }
+  .ww-model-detail summary { font-weight: 600; padding: 4px 0; }
   h2.ww-sub { font-size: var(--cds-font-size-body); margin-top: var(--cds-gap-sm); }
   .ww-legend i.sq { border-radius: 2px; }
   .ww-legend i.dia { width: 9px; height: 9px; border-radius: 1px; transform: rotate(45deg); }
@@ -374,13 +381,18 @@ body { font-family: var(--font-anthropic-sans); }
         <p class="note">Rain: Downtown LA water year (Oct–Sep), % of the 1991–2020 normal of 14.2 in (RCC-ACIS). Marine-life sources: Glynn et al. 2018, <i>Marine Pollution Bulletin</i> 133 (Galápagos corals); Valle et al. 1987, <i>Condor</i> 89 (1982–83 penguins and cormorants); Vargas et al. 2006, <i>Biological Conservation</i> (penguins 1997–98 and 2004); Wilkinson (ed.), <i>Status of Coral Reefs of the World: 2000</i>; CalCOFI Reports 40 and 41 (squid catches 1998–99); NOAA Fisheries (2013–16 sea lion mortality event; 2014–16 marine heatwave); Hughes et al. 2018, <i>Nature</i> (Great Barrier Reef); NASA PACE (Aug 2026); NOAA Coral Reef Watch (Galápagos station). Santa Monica Pier: Santa Monica Daily Press. 2026 sea level: NOAA CO-OPS Los Angeles.</p>
       </article>
       <article class="ww-card wide" id="card-enso-plume">
-        <h2>ENSO forecast plume: where the models take Niño 3.4</h2>
-        <p class="note">IRI/CCSR multi-model plume issued <span data-plume-issue>October 2026</span>: <span data-plume-n>27</span> models (16 dynamical, 11 statistical), 3-month seasons. Thin lines are single models; the shaded band is their full range. Values are traditional Niño 3.4 anomalies (OISST v2.1, 1991–2020 base) as IRI plots them, so they run warmer than CPC's relative index (RONI).</p>
-        <div class="ww-legend" data-legend="enso_plume"></div>
-        <div class="ww-chart tall" id="chart-enso-plume" data-source="enso_plume"></div>
-        <h2 class="ww-sub">IRI objective probabilities, %</h2>
-        <div class="ww-table-wrap"><table class="ww-table" id="table-enso-probs" data-source="enso_probs"></table></div>
-        <p class="note">* Observed: IRI's July–September and September values. Forecast: plume values read from IRI's published figure geometry (the data tables are not public), cross-checked so the mean of the single models reproduces IRI's plotted average to ±0.01 °C. The probabilities are IRI's objective model-based numbers, not the official CPC/IRI outlook. CPC's official October outlook (relative index): El Niño Advisory, a strong to very strong El Niño likely through January–March 2027, with an 83% chance that October–December reaches the historic threshold (RONI ≥ +2.5 °C); next update 12 November. Sources: <a href="https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/">IRI ENSO forecast</a>, <a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml">CPC ENSO discussion</a>.</p>
+        <h2>ENSO outlook: official CPC and IRI model-based probabilities</h2>
+        <p class="note">Chance (%) of each ENSO category for each 3-month target season. Rows are matched by target season, not by position; "—" means that source has no forecast for that season. Each value is a seasonal probability, not monthly odds. Issued: <b>CPC</b> <span data-probs-issued="CPC">—</span> · <b>IRI</b> <span data-probs-issued="IRI">—</span>.</p>
+        <div class="ww-table-wrap"><table class="ww-table ww-probs" id="table-enso-probs" data-source="enso_probs"></table></div>
+        <p class="note"><b>CPC official</b>: consensus of NOAA CPC forecasters (with IRI), verified against the relative Niño 3.4 index (RONI); categories are ±0.5 °C, and the "≥ +1.5 °C" column is the chance of a strong or very strong El Niño. CPC also puts the chance of a historic event (RONI ≥ +2.5 °C) at 83% for Oct–Dec. <b>IRI objective</b>: computed by regression from the model plume below, with no forecaster judgement, using the traditional Niño 3.4 anomaly (OISST, 1991–2020). The two use different indices, so differences of a few points are expected. Sources: <a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/strengths/">CPC strength probabilities</a>, <a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml">CPC ENSO discussion</a>, <a href="https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/">IRI ENSO forecast</a>.</p>
+        <details class="cl-read ww-model-detail" id="plume-detail">
+          <summary>Model detail</summary>
+          <h2 class="ww-sub">Model plume: Niño 3.4 SST anomaly forecasts (°C)</h2>
+          <p class="note">IRI/CCSR plume issued <span data-plume-issue>October 2026</span>: <span data-plume-n>27</span> models (16 dynamical, 11 statistical). Thin lines are single models; the shaded band is their full range. These are temperature-anomaly forecasts, not probabilities: IRI uses them to compute its objective probabilities above, but the plume is not another set of official CPC probabilities. Values are traditional Niño 3.4 anomalies (OISST v2.1, 1991–2020 base), which run warmer than RONI.</p>
+          <div class="ww-legend" data-legend="enso_plume"></div>
+          <div class="ww-chart tall" id="chart-enso-plume" data-source="enso_plume"></div>
+          <p class="note">* Observed: IRI's July–September and September values. Plume values are read from IRI's published figure geometry (the data tables are not public) and cross-checked so the mean of the single models reproduces IRI's plotted average to ±0.01 °C.</p>
+        </details>
       </article>
       <article class="ww-card wide" id="card-pdo-wild">
         <h2>The wild card: a strong El Niño meets a negative PDO</h2>
@@ -2654,12 +2666,26 @@ window.WW = (() => {
       xTickValues: rows.map((r) => r.order), xTickFormat: (i) => { const r = rows.find((q) => q.order === i); return r ? r.season + (r.kind === 'observed' ? '*' : '') : ''; },
       tipTitle: (r) => `${r.season} ${r.kind === 'observed' ? '(observed)' : `forecast · ${r.model_n} models, range ${K.signed(r.model_min, 2)} to ${K.signed(r.model_max, 2)}`}`,
     });
+    drawProbs();
+  }
+
+  function drawProbs() {
     const p = dash.data('enso_probs');
     const t = box('table-enso-probs');
-    if (p.status !== 'ok') return;
-    const cell = (v) => `<td${+v >= 50 ? ' style="font-weight:600"' : ''}>${v}</td>`;
-    t.innerHTML = `<thead><tr><th></th>${p.data.map((r) => `<th>${r.season}</th>`).join('')}</tr></thead><tbody>`
-      + [['el_nino', 'El Niño'], ['neutral', 'Neutral'], ['la_nina', 'La Niña']].map(([k, l]) => `<tr><th>${l}</th>${p.data.map((r) => cell(r[k])).join('')}</tr>`).join('') + '</tbody>';
+    if (!t || p.status !== 'ok') return;
+    const by = {};
+    p.data.forEach((r) => { (by[r.target_start] = by[r.target_start] || {})[r.source] = r; });
+    const issued = (src) => { const r = p.data.find((q) => q.source === src); if (!r) return '—'; return r.issued.length > 7 ? dayFmt(K.parseDay(r.issued)) : (src === 'IRI' ? 'mid-' : '') + d3.utcFormat('%B %Y')(K.parseMonth(r.issued)); };
+    document.querySelectorAll('[data-probs-issued]').forEach((e) => { e.textContent = issued(e.dataset.probsIssued); });
+    const seasonLabel = (ts, code) => { const y = +ts.slice(0, 4); const m = +ts.slice(5, 7); return `${code} ${m >= 11 ? `${y}–${String(y + 1).slice(2)}` : y}`; };
+    const v = (r, k) => (r && r[k] !== '' && r[k] != null ? `<td${+r[k] >= 50 ? ' class="hi"' : ''}>${r[k]}</td>` : '<td class="na">—</td>');
+    const strong = (r) => (r && r.en_strong !== '' ? `<td>${+r.en_strong + +r.en_very_strong}</td>` : '<td class="na">—</td>');
+    const keys = Object.keys(by).sort();
+    t.innerHTML = '<thead><tr><th rowspan="2">Target season</th><th colspan="4" class="grp">CPC official (RONI)</th><th colspan="3" class="grp">IRI objective (Niño 3.4)</th></tr>'
+      + '<tr><th>La Niña</th><th>Neutral</th><th>El Niño</th><th title="Strong or very strong El Niño">≥ +1.5 °C</th><th>La Niña</th><th>Neutral</th><th>El Niño</th></tr></thead><tbody>'
+      + keys.map((k) => { const c = by[k].CPC; const i = by[k].IRI; const code = (c || i).season;
+        return `<tr><th>${seasonLabel(k, code)}</th>${v(c, 'la_nina')}${v(c, 'neutral')}${v(c, 'el_nino')}${strong(c)}${v(i, 'la_nina')}${v(i, 'neutral')}${v(i, 'el_nino')}</tr>`; }).join('')
+      + '</tbody>';
   }
 
   function analog(boxId, legendSel, calcId, xLabelKey, tipLabel) {
@@ -2715,6 +2741,8 @@ window.WW = (() => {
   function drawOverview(head) {
     drawPdoWild();
     drawPlume();
+    const pd = box('plume-detail');
+    if (pd && !pd.dataset.bound) { pd.dataset.bound = '1'; pd.addEventListener('toggle', () => { if (pd.open) drawPlume(); }); }
     analog('chart-oni-analogs', 'oni_analogs', 'oni_analogs', 'season', 'Season');
     analog('chart-soi-analogs', 'soi_analogs', 'soi_analogs', 'month', 'Month');
     drawBlobAnalogs();

@@ -6,7 +6,7 @@ the same order as the data lines, which is checked before anything is written.
 
 Inputs:  <raw_dir>/iri_figure4.svg (plume), iri_figure3.svg (probabilities), iri_issue.txt (YYYY-MM)
 Outputs: data/enso_plume.csv  one row per season; observed, three averages, model min/max/count, one column per model
-         data/enso_probs.csv  IRI objective probabilities (%) of La Niña / Neutral / El Niño per season
+         data/enso_probs.csv  IRI rows: objective probabilities (%) of La Niña / Neutral / El Niño per target season
 Usage:   python3 tools/weekly/enso_plume.py <raw_dir>
 Values are traditional Niño 3.4 anomalies (°C, OISST v2.1, 1991–2020 base) as plotted by IRI, read to ±0.01 °C.
 """
@@ -162,11 +162,11 @@ def main(raw: Path) -> int:
                      model_min=min(mv) if mv else '', model_max=max(mv) if mv else '', model_n=len(mv) or '')
             w.writerow([r.get(h, '') for h in hdr])
     pr = probs(raw / 'iri_figure3.svg')
-    with open(ROOT / 'data' / 'enso_probs.csv', 'w', newline='', encoding='utf-8') as fh:
-        w = csv.writer(fh, lineterminator='\n')
-        w.writerow(['issue', 'season', 'la_nina', 'neutral', 'el_nino'])
-        for r in pr:
-            w.writerow([issue, r['season'], r.get('la_nina', 0), r.get('neutral', 0), r.get('el_nino', 0)])
+    sys.path.insert(0, str(Path(__file__).parent))
+    import enso_probs_io as io
+    io.write('IRI', [{'source': 'IRI', 'issued': issue, 'index': 'Niño 3.4 (traditional, OISST)', 'season': r['season'],
+                      'target_start': io.target_start(r['season'], issue), 'la_nina': r.get('la_nina', 0),
+                      'neutral': r.get('neutral', 0), 'el_nino': r.get('el_nino', 0)} for r in pr])
     print(f'  enso_plume: {title} | {len(models)} models, seasons {seasons[0]}..{seasons[-1]}')
     print('  combined avg:', ', '.join(f"{s} {rows[s].get('combined_avg', '')}" for s in seasons if 'combined_avg' in rows[s]))
     print('  probs (LN/N/EN):', ', '.join(f"{r['season']} {r.get('la_nina', 0)}/{r.get('neutral', 0)}/{r.get('el_nino', 0)}" for r in pr))

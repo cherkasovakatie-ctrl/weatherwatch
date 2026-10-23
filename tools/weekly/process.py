@@ -242,3 +242,10 @@ if want('enso_plume') and (RAW / 'iri_figure4.svg').exists():
     sys.path.insert(0, str(Path(__file__).parent))
     import enso_plume
     enso_plume.main(RAW)
+
+# ---------------- enso_probs (CPC rows): official NOAA CPC strength probabilities (numeric table)
+if want('enso_probs') and (RAW / 'cpc_strengths.html').exists():
+    print('cpc_probs')
+    sys.path.insert(0, str(Path(__file__).parent))
+    import cpc_probs
+    cpc_probs.main(RAW)
