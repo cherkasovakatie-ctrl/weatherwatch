@@ -1,18 +1,18 @@
 {
- "run_utc": "2026-10-22T19:58:28.343Z",
- "run_local": "2026-10-22 12:58",
+ "run_utc": "2026-10-23T18:39:05.877Z",
+ "run_local": "2026-10-23 11:39",
  "results": [
   {
    "id": "earthquakes",
    "ok": true,
-   "rows": 691,
-   "newest": "2026-10-22 19:06"
+   "rows": 695,
+   "newest": "2026-10-23 17:06"
   },
   {
    "id": "local_obs",
    "ok": true,
-   "rows": 30,
-   "newest": "2026-10-22 06:15"
+   "rows": 28,
+   "newest": "2026-10-23 11:20"
   },
   {
    "id": "local_periods",
@@ -24,42 +24,43 @@
    "id": "local_hourly",
    "ok": true,
    "rows": 216,
-   "newest": "2026-10-28 23:00"
+   "newest": "2026-10-29 23:00"
   },
   {
    "id": "local_tides",
    "ok": true,
    "rows": 192,
-   "newest": "2026-10-26 23:00"
+   "newest": "2026-10-27 23:00"
   },
   {
    "id": "local_hilo",
    "ok": true,
-   "rows": 31,
-   "newest": "2026-10-26 22:36"
+   "rows": 32,
+   "newest": "2026-10-27 23:32"
   },
   {
    "id": "local_watertemp",
    "ok": true,
    "rows": 72,
-   "newest": "2026-10-22 12:00"
+   "newest": "2026-10-23 11:00"
   },
   {
    "id": "fires_global_grid",
-   "ok": false,
-   "error": "Maximum call stack size exceeded"
+   "ok": true,
+   "rows": 3901,
+   "newest": "9.5"
   },
   {
    "id": "fires_socal",
    "ok": true,
-   "rows": 265,
-   "newest": "2026-10-22"
+   "rows": 225,
+   "newest": "2026-10-23"
   },
   {
    "id": "space_daily",
    "ok": true,
    "rows": 31,
-   "newest": "2026-10-21",
+   "newest": "2026-10-22",
    "note": "1 new, 0 values updated"
   },
   {
@@ -73,7 +74,7 @@
    "ok": true,
    "rows": 659,
    "newest": "2026-10-21",
-   "note": "3 new, 0 values updated"
+   "note": "0 new, 0 values updated"
   },
   {
    "id": "coral_now",
@@ -111,8 +112,10 @@
   },
   {
    "id": "planet_monthly",
-   "ok": false,
-   "error": "https://climate.rutgers.edu/snowcover/files/moncov.nhland.txt: HTTP 503"
+   "ok": true,
+   "rows": 1761,
+   "newest": "2026-09",
+   "note": "0 new, 0 values updated"
   },
   {
    "id": "sunspots_monthly",
@@ -131,9 +134,9 @@
   {
    "id": "storm_fixes",
    "ok": true,
-   "rows": 689,
+   "rows": 669,
    "newest": "Wati",
-   "note": "687 IBTrACS fixes, 643 checked against the old file, 2 existing rows kept (advisories, or storms not in IBTrACS)"
+   "note": "667 IBTrACS fixes, 667 checked against the old file, 2 existing rows kept (advisories, or storms not in IBTrACS)"
   },
   {
    "id": "sst_weekly",
@@ -151,8 +154,10 @@
   },
   {
    "id": "blob_boxes",
-   "ok": false,
-   "error": "https://upwell.pfeg.noaa.gov/erddap/griddap/nceiErsstv5.csv?sst[(1991-01-01):1:(last)][(0.0)][(40):1:(50)][(210):1:(224)]: HTTP 403"
+   "ok": true,
+   "rows": 177,
+   "newest": "2026-09",
+   "note": "0 new, 0 values updated"
   },
   {
    "id": "volcano_alerts_us",
