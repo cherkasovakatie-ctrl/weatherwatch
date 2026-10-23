@@ -47,6 +47,14 @@ ul.notes { margin: 0; padding-left: 1.1em; line-height: 1.6; font-size: .9rem; c
 ul.notes b { color: var(--color-fg); }
 .legend { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: .78rem; color: var(--color-fg-muted); margin-bottom: 4px; }
 .legend i { display: inline-block; width: 18px; height: 4px; border-radius: 2px; vertical-align: middle; margin-right: 5px; }
+  .mit { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 30rem), 1fr)); gap: 12px; }
+  .mit .card { margin: 0; }
+  .mit h3 { font-size: 1rem; margin: 0 0 4px; }
+  .mit .ev { font-size: .8rem; color: var(--color-fg-muted); margin: 0 0 8px; }
+  .mit dl { margin: 0; font-size: .88rem; line-height: 1.55; }
+  .mit dt { font-weight: 600; margin-top: 8px; }
+  .mit dd { margin: 2px 0 0; color: var(--color-fg); }
+  .mit .src { font-size: .76rem; color: var(--color-fg-muted); margin: 8px 0 0; overflow-wrap: anywhere; }
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 </head><body>
@@ -63,7 +71,7 @@ ul.notes b { color: var(--color-fg); }
 </nav>
 <main>
   <h1>The deadliest weather events in history</h1>
-  <p class="lede">Twenty disasters, from a 13th-century North Sea surge to the European heat of 2022, each analysed in depth: the weather setup, why it killed so many, what changed afterwards, and how far the death toll can be trusted. The ranking follows the figures common in published lists; the "best-documented figure" and confidence rating show where those figures stand up and where they do not.</p>
+  <p class="lede">Twenty disasters, from a 13th-century North Sea surge to the European heat of 2022, each analysed in depth: the weather setup, why it killed so many, what changed afterwards, and how far the death toll can be trusted. A new section below sets out what has been done since to reduce deaths from the hazards that keep recurring, and whether it worked. The ranking follows the figures common in published lists; the "best-documented figure" and confidence rating show where those figures stand up and where they do not.</p>
 
   <div class="card">
     <h2 style="margin-top:0">Death-toll ranges, log scale</h2>
@@ -84,6 +92,72 @@ ul.notes b { color: var(--color-fg); }
     </table></div>
   </div>
 
+
+  <h2 id="mitigation">What has been done since: mitigation for the recurring hazards</h2>
+  <p class="lede">Most of these disasters belong to hazards that keep coming back: Bay of Bengal cyclones, Chinese river floods, North Sea storm surges, Pacific typhoons and European heat. For each, this section sets out what was built or organised afterwards, what later events of similar strength show about whether it worked, and what risk remains. Death tolls of later storms reflect storm track and strength as well as preparedness, so the comparisons are indicative, not controlled tests. Worldwide, the World Meteorological Organization reports that weather and climate disasters rose about fivefold from 1970 to 2019 while the deaths they caused fell, and the UN Secretary-General has said that countries with limited early-warning coverage have disaster mortality about eight times higher than those with good coverage (both as reported by AP, 16 May 2023).</p>
+  <div class="mit">
+    <div class="card">
+      <h3>Bay of Bengal cyclones: Bangladesh</h3>
+      <p class="ev"><a href="event.html?id=bhola-cyclone-1970&amp;set=history">Bhola 1970</a> · <a href="event.html?id=bangladesh-cyclone-1991&amp;set=history">1991</a> · <a href="event.html?id=great-backerganj-cyclone-1876&amp;set=history">Backerganj 1876</a> · <a href="event.html?id=backerganj-cyclone-1584&amp;set=history">1584</a> · <a href="event.html?id=chittagong-cyclone-1897&amp;set=history">Chittagong 1897</a></p>
+      <dl>
+        <dt>What was done</dt><dd>A national Cyclone Preparedness Programme, run by the disaster-management ministry and the Bangladesh Red Crescent, whose volunteers relay warning signals and evacuate people (about 55,000 volunteers in 13 coastal and riverine districts by 2020, with a goal of 200,000); about 5,500 cyclone shelters, including 1,500 multipurpose centres; donor-funded preparedness after 1991 and tree belts to slow surges.</dd>
+        <dt>Did it work?</dt><dd>Yes, for lives. Cyclone Sidr (2007), a storm of similar strength, killed about 3,400 people by official count (aid-agency estimates up to 10,000–15,000), against about 139,000 in 1991 and 300,000 or more in 1970; about 2 million people went to shelters, and the government's post-disaster assessment credited early warning and shelters. A 2019 storm killed fewer than 20 after more than 2 million were evacuated, and about 1.3 million left Cox's Bazar before Cyclone Mocha in 2023.</dd>
+        <dt>What remains</dt><dd>Livelihoods, homes, embankments and saline farmland are still lost in each storm; fishermen at sea (over 3,000 were missing after Sidr) and refugee camps remain highly exposed.</dd>
+      </dl>
+      <p class="src">Sources: <a href="https://www.preventionweb.net/blog/whats-changed-1970-great-bhola-cyclone">UNDRR/PreventionWeb, “What's changed since the 1970 Great Bhola cyclone?” (12 Nov 2020)</a>; <a href="https://en.wikipedia.org/wiki/Cyclone_Sidr">Wikipedia, Cyclone Sidr</a> (citing Bangladeshi officials, IRIN and the GFDRR 2008 assessment); <a href="https://www.ksat.com/news/world/2023/05/16/early-warning-preparedness-likely-saved-thousands-of-lives-during-cyclone-mocha/">AP via KSAT, 16 May 2023</a>; <a href="https://en.wikipedia.org/wiki/Cyclone_Mocha">Wikipedia, Cyclone Mocha</a> (citing AFP, AP).</p>
+    </div>
+    <div class="card">
+      <h3>Bay of Bengal cyclones: eastern India and Myanmar</h3>
+      <p class="ev"><a href="event.html?id=coringa-cyclone-1839&amp;set=history">Coringa 1839</a> · <a href="event.html?id=calcutta-cyclone-1864&amp;set=history">Calcutta 1864</a> · <a href="event.html?id=bengal-cyclone-1942&amp;set=history">Bengal 1942</a> · <a href="event.html?id=cyclone-nargis-2008&amp;set=history">Nargis 2008</a></p>
+      <dl>
+        <dt>What was done</dt><dd>After the 1999 Odisha super cyclone (about 10,000 deaths, with 75 shelters on the coast), Odisha set up a state disaster-management authority, built about 800 multipurpose cyclone and flood shelters designed with IIT Kharagpur, mapped households village by village, trained volunteers and adopted mass SMS alerts. In Myanmar, ASEAN reports that the government has been better equipped since Nargis, and India's weather service forecast Mocha's landfall four days ahead.</dd>
+        <dt>Did it work?</dt><dd>In Odisha, clearly. Phailin (2013), the strongest landfall there since 1999, killed 44 people in the state after about 1.15 million were evacuated; for Fani (2019), about 1.55 million people were moved to 9,177 shelters within a day. In Myanmar, Mocha (2023) killed 145 people by official count and at least 460 by opposition and media counts, mostly Rohingya in displacement camps, against about 138,000 in Nargis.</dd>
+        <dt>What remains</dt><dd>Warnings save lives only where people can and will move: the Mocha deaths were concentrated in camps with poor shelter and little aid access.</dd>
+      </dl>
+      <p class="src">Sources: <a href="https://www.weforum.org/stories/2019/12/disaster-relief-lessons-cyclone-fani-odisha/">World Economic Forum, “Disaster relief lessons from Cyclone Fani” (20 Dec 2019)</a>; <a href="https://en.wikipedia.org/wiki/Cyclone_Phailin">Wikipedia, Cyclone Phailin</a> (citing IMD preliminary report; The Hindu, 18 Oct 2013; World Bank); <a href="https://en.wikipedia.org/wiki/Cyclone_Mocha">Wikipedia, Cyclone Mocha</a> (citing ASEAN AHA Centre, Reuters, Radio Free Asia); AP via KSAT, 16 May 2023.</p>
+    </div>
+    <div class="card">
+      <h3>River floods and dam failures in China</h3>
+      <p class="ev"><a href="event.html?id=china-floods-1931&amp;set=history">1931</a> · <a href="event.html?id=yellow-river-flood-1887&amp;set=history">Yellow River 1887</a> · <a href="event.html?id=yangtze-flood-1935&amp;set=history">Yangtze 1935</a> · <a href="event.html?id=nina-banqiao-1975&amp;set=history">Banqiao 1975</a></p>
+      <dl>
+        <dt>What was done</dt><dd>Dikes, flood-diversion areas and reservoirs along the major rivers; after the 1975 Banqiao and Shimantan failures, a national flood-prevention and reservoir-safety conference in Zhengzhou launched a nationwide reservoir safety examination. The Three Gorges reservoir, at full design level since 2010, holds 22.15 billion m³ of flood-control storage. After the 1998 Yangtze floods (3,704–4,150 deaths), policy turned against upstream deforestation.</dd>
+        <dt>Did it work?</dt><dd>Partly. River floods on the scale of 1931 have not recurred with comparable loss of life, and in 2020 Three Gorges cut the downstream Yangtze flow to 49,400 m³/s, so the Jingjiang flood-diversion area did not have to be used (operator's account). But in 2020 the government still counted 200 large or medium and more than 8,000 small reservoirs as “sick and dangerous” and planned 100 billion yuan over five years to repair them.</dd>
+        <dt>What remains</dt><dd>Urban flash flooding: the July 2021 Henan rainstorm left 398 dead or missing, 380 of them in Zhengzhou, including 14 on a flooded metro line, and the State Council found that officials had concealed 139 cases.</dd>
+      </dl>
+      <p class="src">Sources: <a href="https://en.wikipedia.org/wiki/1975_Banqiao_Dam_failure">Wikipedia, 1975 Banqiao Dam failure</a> (citing Xu, Zhang and Jia 2008, ASCE); <a href="https://www.hydropower.org/blog/flood-control-three-gorges-project">International Hydropower Association, “Flood control at the Three Gorges Project” (2025)</a>; <a href="https://en.wikipedia.org/wiki/1998_China_floods">Wikipedia, 1998 China floods</a> (citing PBS and Esarey et al. 2020); <a href="https://www.scmp.com/news/china/society/article/3111980/china-says-it-will-spend-us15-billion-over-five-years-fix-sick">South China Morning Post on reservoir repairs (2020)</a>; <a href="https://en.wikipedia.org/wiki/2021_Henan_floods">Wikipedia, 2021 Henan floods</a> (citing the State Council report of 21 Jan 2022).</p>
+    </div>
+    <div class="card">
+      <h3>North Sea storm surges</h3>
+      <p class="ev"><a href="event.html?id=north-sea-flood-1099&amp;set=history">1099</a> · <a href="event.html?id=st-lucia-flood-1287&amp;set=history">St. Lucia 1287</a> · <a href="event.html?id=st-felix-flood-1530&amp;set=history">St. Felix 1530</a></p>
+      <dl>
+        <dt>What was done</dt><dd>After the 1953 surge (1,835 dead in the Netherlands, 307 on land in Britain, 28 in Belgium), the Dutch Delta Works closed or barred the south-western estuaries, ending with the Maeslantkering barrier near Rotterdam (system complete in 1997–98); Britain built the Thames Barrier (opened 1984). After the 1962 Hamburg surge (318 dead), dikes were rebuilt to at least 8 m above sea level, with about €2.2 billion (today's values) invested.</dd>
+        <dt>Did it work?</dt><dd>Yes. Hamburg's surges of 1976, 1994, 1995 and 1999 all ran higher than 1962 with no significant losses in the city (the port was damaged in 1976); the reinsurer's model puts avoided losses at about €17.5 billion.</dd>
+        <dt>What remains</dt><dd>Defences are designed to a fixed surge height, so rising sea level means they need periodic raising.</dd>
+      </dl>
+      <p class="src">Sources: <a href="https://en.wikipedia.org/wiki/North_Sea_flood_of_1953">Wikipedia, North Sea flood of 1953</a> (citing the Delta Commission); <a href="https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2012/2012-02-13-50th-anniversary-of-storm-surge-in-hamburg-subsequent-flood-controls-prevent-billions-in-losses.html">Munich Re, “50th anniversary of storm surge in Hamburg” (13 Feb 2012)</a>.</p>
+    </div>
+    <div class="card">
+      <h3>Pacific typhoons and storm surges</h3>
+      <p class="ev"><a href="event.html?id=swatow-typhoon-1922&amp;set=history">Swatow 1922</a> · <a href="event.html?id=hakata-typhoon-1281&amp;set=history">Hakata Bay 1281</a></p>
+      <dl>
+        <dt>What was done</dt><dd>Japan's turning point was Typhoon Vera (Ise Bay, 1959; about 5,100 deaths): the 1961 Disaster Countermeasures Basic Act created a Central Disaster Prevention Council, an annual national disaster plan and a national disaster-prevention day, and seawalls in Ise, Osaka and Tokyo bays were built to withstand Vera's maximum surge.</dd>
+        <dt>Did it work?</dt><dd>The evidence here is design rather than outcome: in 1959 only the newly completed defences in the south of Ise Bay held, which is why the bays were rebuilt to Vera's surge. A systematic evaluation of later typhoon tolls in Japan, or for the South China coast, was not found for this page.</dd>
+        <dt>What remains</dt><dd>Defences are designed to a past maximum, and surges plus rising seas can exceed it.</dd>
+      </dl>
+      <p class="src">Sources: <a href="https://en.wikipedia.org/wiki/Typhoon_Vera">Wikipedia, Typhoon Vera</a> (citing Donovan and Grossi 2009, RMS retrospective; Oda 2013, Japan Water Forum; JTWC 1959 report).</p>
+    </div>
+    <div class="card">
+      <h3>European heat waves</h3>
+      <p class="ev"><a href="event.html?id=europe-heatwave-2003&amp;set=history">2003</a> · <a href="event.html?id=europe-heatwave-2022&amp;set=history">2022</a></p>
+      <dl>
+        <dt>What was done</dt><dd>After 2003, French health authorities set up a heat alert system and several preventive measures; across Europe, heat-health warnings and broader societal adaptation followed.</dd>
+        <dt>Did it work?</dt><dd>Partly. In France's July 2006 heat wave, about 2,065 excess deaths were observed against about 6,452 expected from the pre-2003 temperature–mortality relationship, roughly 4,400 fewer, which the authors link to greater awareness, the preventive measures and the warning system. Across Europe, adaptation has lowered vulnerability: had 2023's temperatures struck the population of 2000–2004, heat deaths would have exceeded 85,000, about 80% more than estimated. Even so, Europe lost about 61,700 people to heat in summer 2022 and about 47,700 in 2023 (possibly about 58,000), and the 2022 study's authors suggest prevention plans may need to be re-evaluated.</dd>
+        <dt>What remains</dt><dd>Tens of thousands of heat deaths a year in hot summers: the gains from adaptation have not kept pace with the warming.</dd>
+      </dl>
+      <p class="src">Sources: Fouillet, A., et al. (2008). Has the impact of heat waves on mortality changed in France since the European heat wave of summer 2003? A study of the 2006 heat wave. <i>International Journal of Epidemiology</i> 37, 309–317 (<a href="https://www.santepubliquefrance.fr/docs/article/has-impact-heat-waves-mortality-changed-france-european-heat-wave-summer-2003-a-study-2006-heat-wave">Santé publique France record</a>); Ballester, J., et al. (2023), <i>Nature Medicine</i> (summer 2022, <a href="https://www.scimex.org/newsfeed/2022s-hot-european-summer-contributed-to-over-61-000-heat-related-deaths">via Scimex</a>); Gallo, E., et al. (2024). Heat-related mortality in Europe during 2023 and the role of adaptation in protecting health. <i>Nature Medicine</i>, <a href="https://doi.org/10.1038/s41591-024-03186-1">doi:10.1038/s41591-024-03186-1</a>.</p>
+    </div>
+  </div>
+
   <h2>How to read these numbers</h2>
   <div class="card">
     <ul class="notes">
@@ -93,7 +167,7 @@ ul.notes b { color: var(--color-fg); }
       <li><b>Heat-wave tolls are statistical.</b> They are estimated as deaths above the expected number, or modelled from the temperature–mortality relationship, so they are well measured but not directly comparable with counted drownings.</li>
       <li><b>Earthquakes, tsunamis, volcanoes and famines with non-weather causes are excluded.</b> Droughts that led to famine are also left out here, because their tolls depend mainly on politics and food systems.</li>
     </ul>
-    <p class="muted" style="font-size:.82rem;margin-bottom:0">Confidence ratings are this site's judgement: <b>high</b> means a systematic count or epidemiological estimate; <b>medium</b> a contemporary official or survey estimate with known gaps; <b>low</b> a compilation figure without a traceable contemporary count. Each event page lists its sources. Prepared 17 October 2026.</p>
+    <p class="muted" style="font-size:.82rem;margin-bottom:0">Confidence ratings are this site's judgement: <b>high</b> means a systematic count or epidemiological estimate; <b>medium</b> a contemporary official or survey estimate with known gaps; <b>low</b> a compilation figure without a traceable contemporary count. Each event page lists its sources. Prepared 17 October 2026; mitigation section added 23 October 2026.</p>
   </div>
 </main>
 <footer class="site-foot">Independent, non-commercial analysis built from public sources. Not an official assessment. Analysis prepared with Claude (Anthropic).</footer>
