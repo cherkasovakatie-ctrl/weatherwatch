@@ -85,7 +85,7 @@ if want('wwv'):
     wcsv('enso_subsurface.csv', hdr, old, 'month')
 
 # ---------------- poles_daily: CPC AO, GFS 10 hPa 60N zonal-mean u, Greenland daily max T
-GL_POINTS = {'gl_summit': 'summit', 'gl_kanger': 'kanger_b', 'gl_nw': 'nw_b'}
+GL_POINTS = {'gl_summit': 'summit', 'gl_kanger': 'kanger_b', 'gl_nw': 'nw_b', 'gl_south': 'south', 'gl_east': 'east'}  # points in fetch_raw.py
 if want('poles_daily'):
     print('poles_daily')
     hdr, old = rcsv('poles_daily.csv'); rows = {r['date']: r for r in old}
@@ -106,7 +106,7 @@ if want('poles_daily'):
         r = rows.setdefault(d, {'date': d})
         if d < TODAY_UTC: r['u60'], r['u60_fc'] = f'{v:.1f}', ''
         else: r['u60'], r['u60_fc'] = '', f'{v:.1f}'
-    gl_extra = json.load(open(RAW / 'gl_points.json')) if (RAW / 'gl_points.json').exists() else {}
+    gl_extra = {}
     for col, key in list(GL_POINTS.items()) + list(gl_extra.items()):
         dd = j(f'om_gl_{key}.json')['daily'] if not key.startswith('grid:') else None
         if dd is None:

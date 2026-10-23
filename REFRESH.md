@@ -42,6 +42,22 @@ Tests: `node --test tools/nightly/transforms.test.mjs tools/nightly/feeds.test.m
 
 ## 2. Agent-fetched datasets
 
+**Raw fetch first.** The shell in a Claude session cannot reach most data hosts, so the sources are fetched in GitHub
+Actions: on branch `weekly-raw`, edit `tools/weekly/trigger.txt`, commit and push. The workflow `weekly-raw.yml` runs
+`tools/weekly/fetch_raw.py` (about 25 minutes) and commits everything to `raw/<date>/` with `fetch_log.txt` (status,
+size and last line of each file). Use a separate worktree for that branch (`git worktree add`) — never switch the
+main checkout to it with uncommitted work. Then on `main`:
+
+```bash
+python3 tools/weekly/process.py <path to raw/<date>>   # mjo_daily, wwv, poles_daily, ar_watch, ridge_watch,
+                                                      # coast_hourly, polar_stations, cdec_reservoirs, polar_motion
+```
+
+Each builder prints an overlap check against the old file and refuses to write an older file. Cyclones, tracks, ACE
+and GDACS alerts are built from the same raw folder (GDACS SEARCH lists and TC geometries, NHC CurrentStorms, CSU
+storm tables and ACE-to-date climatology CSVs) — see the 23 Oct 2026 refresh commit for the method. The Smithsonian
+weekly volcano report refuses automated requests: read https://volcano.si.edu/reports_weekly.cfm by hand.
+
 Use the sources named in each dataset's `description` in `data/manifest.json`, the project
 instructions ("Weather & ENSO"), and these rules:
 
