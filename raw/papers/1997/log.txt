@@ -1,0 +1,25 @@
+FAIL tao_cw_pmelTaoDyIso.csv HTTP Error 400:  | https://coastwatch.pfeg.noaa.gov/erddap/tabledap/pmelTaoDyIso.csv?time,latitude,longitude,ISO_6&latitude>=-0.5&latitude<=0.5&time>=1995-07-01&time<=1998-12-31T23:59:59Z
+FAIL tao_cw_pmelTaoDyW.csv HTTP Error 400:  | https://coastwatch.pfeg.noaa.gov/erddap/tabledap/pmelTaoDyW.csv?time,latitude,longitude,WU_422,WV_423&latitude>=-0.5&latitude<=0.5&time>=1995-07-01&time<=1998-12-31T23:59:59Z
+FAIL tao_cw_pmelTaoDySst.csv HTTP Error 400:  | https://coastwatch.pfeg.noaa.gov/erddap/tabledap/pmelTaoDySst.csv?time,latitude,longitude,T_25&latitude>=-0.5&latitude<=0.5&time>=1995-07-01&time<=1998-12-31T23:59:59Z
+FAIL tao_cw_pmelTaoDyD.csv HTTP Error 400:  | https://coastwatch.pfeg.noaa.gov/erddap/tabledap/pmelTaoDyD.csv?time,latitude,longitude,D_3&latitude>=-0.5&latitude<=0.5&time>=1995-07-01&time<=1998-12-31T23:59:59Z
+OK   tao_cw_index.csv 175611 | https://coastwatch.pfeg.noaa.gov/erddap/search/index.csv?searchFor=pmelTao%20daily&page=1&itemsPerPage=200
+OK   tao_pmel_pmelTaoDyIso.csv 591850 | https://data.pmel.noaa.gov/pmel/erddap/tabledap/pmelTaoDyIso.csv?time,latitude,longitude,ISO_6&latitude>=-0.5&latitude<=0.5&time>=1995-07-01&time<=1998-12-31T23:59:59Z
+OK   tao_pmel_pmelTaoDyW.csv 606307 | https://data.pmel.noaa.gov/pmel/erddap/tabledap/pmelTaoDyW.csv?time,latitude,longitude,WU_422,WV_423&latitude>=-0.5&latitude<=0.5&time>=1995-07-01&time<=1998-12-31T23:59:59Z
+OK   tao_pmel_pmelTaoDySst.csv 554434 | https://data.pmel.noaa.gov/pmel/erddap/tabledap/pmelTaoDySst.csv?time,latitude,longitude,T_25&latitude>=-0.5&latitude<=0.5&time>=1995-07-01&time<=1998-12-31T23:59:59Z
+FAIL tao_pmel_pmelTaoDyD.csv HTTP Error 400:  | https://data.pmel.noaa.gov/pmel/erddap/tabledap/pmelTaoDyD.csv?time,latitude,longitude,D_3&latitude>=-0.5&latitude<=0.5&time>=1995-07-01&time<=1998-12-31T23:59:59Z
+OK   tao_pmel_index.csv 55448 | https://data.pmel.noaa.gov/pmel/erddap/search/index.csv?searchFor=pmelTao%20daily&page=1&itemsPerPage=200
+FAIL bom_rmm.txt HTTP Error 403: Forbidden | http://www.bom.gov.au/climate/mjo/graphics/rmm.74toRealtime.txt
+FAIL psl_rmm.txt HTTP Error 404: Not Found | https://psl.noaa.gov/mjo/mjoindex/rmm.74toRealtime.txt
+FAIL uhslc_d001.csv <urlopen error [Errno 110] Connection timed out> | https://uhslc.soest.hawaii.edu/data/csv/rqds/pacific/daily/d001a.csv
+FAIL uhslc_d002.csv <urlopen error [Errno 110] Connection timed out> | https://uhslc.soest.hawaii.edu/data/csv/rqds/pacific/daily/d002a.csv
+FAIL uhslc_d003.csv <urlopen error [Errno 110] Connection timed out> | https://uhslc.soest.hawaii.edu/data/csv/rqds/pacific/daily/d003a.csv
+FAIL uhslc_d004.csv <urlopen error [Errno 110] Connection timed out> | https://uhslc.soest.hawaii.edu/data/csv/rqds/pacific/daily/d004a.csv
+FAIL uhslc_d005.csv <urlopen error [Errno 110] Connection timed out> | https://uhslc.soest.hawaii.edu/data/csv/rqds/pacific/daily/d005a.csv
+FAIL uhslc_d007.csv <urlopen error [Errno 110] Connection timed out> | https://uhslc.soest.hawaii.edu/data/csv/rqds/pacific/daily/d007a.csv
+FAIL uhslc_d008.csv <urlopen error [Errno 110] Connection timed out> | https://uhslc.soest.hawaii.edu/data/csv/rqds/pacific/daily/d008a.csv
+FAIL uhslc_d029.csv <urlopen error [Errno 110] Connection timed out> | https://uhslc.soest.hawaii.edu/data/csv/rqds/pacific/daily/d029a.csv
+FAIL uhslc_d030.csv <urlopen error [Errno 110] Connection timed out> | https://uhslc.soest.hawaii.edu/data/csv/rqds/pacific/daily/d030a.csv
+FAIL uhslc_d031.csv <urlopen error [Errno 110] Connection timed out> | https://uhslc.soest.hawaii.edu/data/csv/rqds/pacific/daily/d031a.csv
+FAIL uhslc_d113.csv <urlopen error [Errno 110] Connection timed out> | https://uhslc.soest.hawaii.edu/data/csv/rqds/pacific/daily/d113a.csv
+FAIL uhslc_d114.csv <urlopen error [Errno 110] Connection timed out> | https://uhslc.soest.hawaii.edu/data/csv/rqds/pacific/daily/d114a.csv
+FAIL uhslc_d109.csv <urlopen error [Errno 110] Connection timed out> | https://uhslc.soest.hawaii.edu/data/csv/rqds/pacific/daily/d109a.csv

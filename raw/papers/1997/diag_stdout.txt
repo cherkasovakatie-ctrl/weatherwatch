@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/runner/work/weatherwatch/weatherwatch/tools/papers/event_diag.py", line 172, in <module>
+    with open(fOUTD + '/hov_{k}.csv', 'w', newline='') as fh:
+              ^^^^^
+NameError: name 'fOUTD' is not defined. Did you mean: 'OUTD'?
