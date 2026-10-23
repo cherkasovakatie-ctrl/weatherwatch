@@ -1,7 +1,11 @@
 """Assemble papers/1-enso-1982-83.json: hand-written timeline/evidence/references plus a data table built from data/*.csv."""
 import csv
 import json
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from prose_1982 import build as build_prose  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 def load(f, key):
@@ -241,7 +245,7 @@ post = [
 ]
 
 sections = [
- {"id": "scope", "title": "Scope, index and data", "html": f"""<p>This page holds the evidence assembled so far (stages 1–3 of 5). The paper's prose will be drafted from it after review. <b>Primary index:</b> NOAA's Relative Oceanic Niño Index (RONI), official since 1 February 2026 {c('noaa2026', 'lheureux2024')}: the three-month mean of Niño 3.4 minus the 20°N–20°S tropical-mean anomaly, rescaled. On RONI the 1982–83 peak is +2.40 (DJF 1983), the strongest of the three historical events in this series; on the traditional ONI it is +2.14.</p>
+ {"id": "scope", "title": "Evidence base: scope, index and data", "html": f"""<p>This section and those that follow hold the evidence on which the paper above rests. <b>Primary index:</b> NOAA's Relative Oceanic Niño Index (RONI), official since 1 February 2026 {c('noaa2026', 'lheureux2024')}: the three-month mean of Niño 3.4 minus the 20°N–20°S tropical-mean anomaly, rescaled. On RONI the 1982–83 peak is +2.40 (DJF 1983), the strongest of the three historical events in this series; on the traditional ONI it is +2.14.</p>
 <p><b>Observing system in 1982.</b> No TAO mooring array (completed in 1994), no satellite altimetry (from 1992) and no Argo floats. The evidence rests on ship and XBT tracks, island tide gauges, a few moorings (e.g. 0°, 110°W) and later reanalyses. Satellite SST from April 1982 was biased low by up to 2.5 °C by El Chichón aerosol {c('bandeen1982')}. Subsurface indices for 1981–82 are reconstructions from sparse data.</p>"""},
  {"id": "data", "title": "Monthly indices, Jan 1981 – Jun 1983", "html": "<p>Values from NOAA CPC and PMEL files as held in the site's data archive; read from the source files, not retyped.</p>",
   "table": {"cols": ["Month", "Season", "RONI", "ONI", "rel. Niño 3.4 (ERSSTv6)", "Niño 3.4 (ERSSTv6)", "Niño 1+2 (OISST)", "SOI", "W Pac trades", "C Pac trades", "C Pac OLR", "Heat content 180–100°W", "WWV", "DMI (CPC)"], "rows": rows, "cls": "data",
@@ -256,10 +260,11 @@ sections = [
 paper = {"number": 1, "file": "enso-1982-83.html", "short": "1982–83 El Niño", "title": "How the 1982–83 El Niño developed",
  "description": "Evidence-based reconstruction of the 1982–83 El Niño: preconditions, triggers, amplifiers and the broader climate system, with timeline, evidence table and verified references.",
  "status": "draft", "research_date": "18 October 2026", "obs_cutoff": "historical event (Jan 1981 – Oct 1983 analysed)", "lit_cutoff": "open, updated as new studies appear",
- "status_note": "Stages 1–3 of 5 complete, with added assessments of the MJO, documented 1982 westerly bursts, El Chichón and Indian–Pacific interactions, and a citation audit (18 Oct 2026). Sources verified (DOIs checked against Crossref; what was read is stated for each reference), monthly data assembled, timeline and evidence table drafted. <b>Prose sections are not written yet</b>; they follow your review of this evidence. Items marked Pending still need event-specific evidence.",
- "toc": [("scope", "Scope, index and data"), ("data", "Monthly indices"), ("timeline", "Timeline"), ("evidence", "Evidence table"), ("mjo", "MJO contribution"), ("mjo-episodes", "MJO episodes and figures"), ("bursts", "Westerly wind events, 1982"), ("elchichon", "El Chichón"), ("indopacific", "Indian–Pacific interactions"), ("audit", "Citation audit"), ("status-notes", "Not yet established"), ("references", "References")],
+ "status_note": "Stage 4 of 5: full technical draft written (23 Oct 2026) from the evidence assembled in stages 1–3. Confidence grades are unchanged and will be revised only if new, more reliable evidence appears. Stage 5 (independent verification of every number and grade against its source) is pending.",
+
+ "toc": [("abstract", "Abstract"), ("findings", "Main findings"), ("intro", "1. Introduction"), ("methods", "2. Data and methods"), ("preconditions", "3. Pre-event conditions"), ("chronology", "4. Development"), ("interactions", "5. Interactions"), ("synthesis", "6. Causal synthesis"), ("knowable", "7. What was knowable"), ("uncertainty", "8. Uncertainties"), ("conclusion", "9. Conclusion"), ("scope", "Evidence: scope and data"), ("data", "Monthly indices"), ("timeline", "Timeline"), ("evidence", "Evidence table"), ("mjo", "MJO contribution"), ("mjo-episodes", "MJO episodes and figures"), ("bursts", "Westerly wind events, 1982"), ("elchichon", "El Chichón"), ("indopacific", "Indian–Pacific interactions"), ("audit", "Citation audit"), ("status-notes", "Not yet established"), ("references", "References")],
  "sections": sections[:2], "timeline": timeline, "evidence": evidence, "references": [{"key": k, "text": t, "doi": d, "url": u, "check": ch} for k, t, d, u, ch in refs]}
-paper["sections"] = sections[:2]
+paper["sections"] = build_prose(c) + sections[:2]
 paper["after"] = sections[2]
 paper["post_sections"] = post
 with open(ROOT / 'papers' / '1-enso-1982-83.json', 'w', encoding='utf-8') as fh:
