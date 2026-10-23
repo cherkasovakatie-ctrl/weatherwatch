@@ -1,0 +1,528 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+
+	<head>
+		<title>CSU Tropical Cyclones, Radar, Atmospheric Modeling, and Software Team (TC-RAMS)</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="/assets/css/tropical-responsive.css" />
+		<link rel="icon" href="/images/logo/BellTClogo.png">
+		<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+		<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-31VFNPBLKG"></script> 
+		<script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-31VFNPBLKG'); </script>
+		
+		<style>
+
+		/* The Modal (background) */
+		.modal {
+		  display: block; /* Hidden by default */
+		  position: relative; /* Stay in place */
+		  z-index: 1; /* Sit on top */
+			padding-top: 0px;
+		  left: 0;
+		  top: 0;
+
+		}
+
+		/* Modal Content */
+		.modal-content {
+		  position: relative;
+		  background-color: #fefefe;
+		  margin: 0;
+		  padding: 0;
+		  border: 1px solid black;
+		  width: 100%;
+		  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+		}
+
+		.modal-header {
+		  padding: 2px 30px;
+		  background-color: #1E4D2B;
+		  color: white;
+		  text-align: center;
+		}
+
+		.modal-body {
+		  padding: 2px 30px;
+		  font-size: 16px;
+			font-weight: bolder;
+		}
+
+		/* The Close Button */
+		.close {
+		  color: yellow;
+		  float: right;
+		  font-size: 40px;
+		  font-weight: bolder;
+			margin-top: -5px
+		}
+
+		.close:hover,
+		.close:focus {
+		  color: red;
+		  text-decoration: none;
+		  cursor: pointer;
+		}
+		.align-justify {
+				text-align: justify;
+							}
+
+	.grid-container {
+								display: grid;
+								grid-template-columns: auto auto;
+								grid-gap: 15px;
+								padding: 0;
+
+					}
+
+
+
+					.crop {
+							height: 320px;
+							overflow: hidden;
+					}
+
+					.image-fig {
+						width: 100%;
+						height: 300px;
+						border: 1px;
+					}
+
+					.image-fig img {
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+					}
+					@media only screen and (max-width: 700px) {
+						.image-wrapper {
+							grid-template-columns: 1fr;
+							row-gap: 30px;
+							padding: 10px;
+						}
+					}
+		</style>
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="/index.html"><i class="icon fa-home"></i></a> CSU Tropical Cyclones, Radar, Atmospheric Modeling, and Software Team (TC-RAMS)</div>
+				<a href="#menu">Menu</a>
+			</header>
+
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+
+					<li><a href="/index.html">Home</a></li>
+					<li><a href="/news.html">News</a></li>
+					<li><a href="/research_group.html">Team members</a></li>
+					<li><a href="/forecasting.html">Forecasting</a></li>
+					<li><a href="/research.html">Research</a></li>
+					<li><a href="/resources.html">Resources</a></li>
+					<li><a href="/publication.html">Publications</a></li>
+
+				</ul>
+			</nav>
+
+
+
+
+<!-- to shrink the line space for the news list -->
+<style>
+p.small {
+  line-height: 1;
+	margin:0;
+  padding:0;
+}
+
+.align-justify {
+    text-align: justify;
+          }
+
+</style>
+
+
+<!-- Banner -->
+  <section class="banner full">
+    <article>
+      <img src="images/banner/TC.jpg" alt="" />
+      <div class="inner">
+        <header>
+          <p>Colorado State University TC-RAMS team</p>
+          <a href="./forecasting.html"><h3>Tropical Cyclone Research and Forecasting</h3></a>
+        </header>
+      </div>
+    </article>
+<!--
+    <article>
+      <img src="images/banner/team_small2.jpg" alt="" />
+      <div class="inner">
+        <header>
+          <p>Colorado State University</p>
+          <a href="./research_group.html"><h2>Research Team</h2></a>
+        </header>
+      </div>
+    </article>
+    <article>
+      <img src="images/banner/BellGroupLogo_banner.jpg" alt="" />
+      <div class="inner">
+        <header>
+          <p>Colorado State University</p>
+          <a href="./forecasting.html"><h2>Forecasting</h2></a>
+        </header>
+      </div>
+    </article>    <article>
+      <img src="images/banner/rainfall_small.jpg"  alt="" />
+      <div class="inner">
+        <header>
+          <p>Colorado State University</p>
+          <a href="./research.html#precip"><h2>Extreme Rainfall</h2></a>
+        </header>
+      </div>
+    </article>
+    <article>
+      <img src="images/banner/field_small.jpg"  alt="" />
+      <div class="inner">
+        <header>
+          <p>Colorado State University</p>
+          <a href="#research_gallery"><h2>Field Experiments</h2></a>
+        </header>
+      </div>
+    </article>
+    -->
+
+    <article>
+      <img src="images/banner/field_small2.jpg"  alt="" />
+      <div class="inner">
+        <header>
+          <p>Colorado State University TC-RAMS team</p>
+          <a href="#one"><h3>Radar and Field Experiments</h3></a>
+        </header>
+      </div>
+    </article>
+
+    <article>
+      <img src="images/banner/radar_small.jpg"  alt="" />
+      <div class="inner">
+        <header>
+          <p>Colorado State University TC-RAMS team</p>
+          <a href="#one"><h3>Software and Artificial Intelligence</h3></a>
+        </header>
+      </div>
+    </article>
+
+    <article>
+      <img src="images/silvers_rce.jpg"  alt="" />
+      <div class="inner">
+        <header>
+          <p>Colorado State University TC-RAMS team</p>
+          <a href="#one"><h3>Atmospheric Modeling</h3></a>
+        </header>
+      </div>
+    </article>
+  </section>
+
+
+
+
+    <!-- The Modal (pop-up window) -->
+     <!-- Change "display:none" right below to "display:block" to use the pop-up modal function-->
+    <div id="myModal" class="modal" style="display:block">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h3 style="color:white;"><i class="fa fa-bell"></i> NEW FORECAST FOR 2026 <i class="fa fa-bell"></i></h3>
+        </div>
+        <div class="modal-body">
+          <p style="text-align:center">
+           CSU's 2026 Atlantic seasonal hurricane forecast update was released on August 5.<br>
+           View the forecast <a style="font-weight:bold;font-size:22px" href="forecasting.html">HERE</a></p>
+        </div>
+      </div>
+    </div>
+
+
+ <!-- One -->
+    <section id="one" class="wrapper style2">
+      <div class="inner">
+					<header class="align-center">
+            <h2><b>The TC-RAMS research team led by Professor Michael M. Bell is focused on improving our understanding and prediction of high-impact extreme weather</b></h2>
+					</header>
+					<br><br>
+        <div class="grid-style">
+
+          <div>
+            <div class="box">
+              <br>
+              <div class="image fit">
+                <img src="images/banner/TC.jpg" alt="" />
+              </div>
+              <div class="content">
+                <header class="align-center">
+                  <h2><b>Tropical Cyclone Research and Forecasting</b></h2>
+                  <h3>Team Lead: Dr. Philip Klotzbach</h3>
+                </header>
+                <p> Colorado State University is a world leader in hurricane research and forecasting. Our group continues the long CSU tradition in hurricane forecasting with continually improving techniques for predicting tropical cyclone activity powered by cutting-edge new research. </p>
+                <footer class="align-center">
+                  <a href="/forecasting.html" class="button alt">Learn More</a>
+                </footer>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="box">
+              <br>
+              <div class="image fit">
+                <img src="images/banner/radar_small.jpg" alt="" />
+              </div>
+              <div class="content">
+                <header class="align-center">
+                  <h2><b>Software and Artificial Intelligence</b></h2>
+                  <h3>Team Lead: Dr. Jennifer DeHart</h3>
+                </header>
+                <p> Our team develops new software and AI tools that enable better data analysis and forecasts of high-impact weather. These tools include open source software for analyzing weather lidar and radar data, and AI products for better forecasts of hurricanes.</p>
+                <footer class="align-center">
+                  <a href="/minigroupDeHart.html" class="button alt">Learn More</a>
+                </footer>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="box">
+              <br>
+              <div class="image fit">
+                <img src="images/seapol.jpg" alt="" />
+              </div>
+              <div class="content">
+                <header class="align-center">
+                  <h2><b>Radar and Field Experiments</b></h2>
+                  <h3>Team Lead: Dr. Brenda Dolan </h3>
+                </header>
+                <p>We collect data in field experiments to better study the atmosphere around the world. We manage and deploy the CSU SEA-POL radar, an NSF Community Facility, along with other weather radars on land, ships, aircraft, and satellites to study clouds and precipitation.</p> 
+                <footer class="align-center">
+                  <a href="/minigroupDolan.html" class="button alt">Learn More</a>
+                </footer>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="box">
+              <br>
+              <div class="image fit">
+                <img src="images/silvers_rce.jpg" alt="" />
+              </div>
+              <div class="content">
+                <header class="align-center">
+                  <h2><b>Atmospheric Modeling</b></h2>
+                  <h3>Team Lead: Dr. Levi Silvers</h3>
+                </header>
+                <p> Our research team uses a combination of theoretical and numerical models to improve our understanding and prediction of extreme weather.
+The primary targets of our research are on high-impact tropical weather, including hurricanes, heavy rain, and El Nino impacts.</p>
+                <footer class="align-center">
+                  <a href="/minigroup4.html" class="button alt">Learn More</a>
+                </footer>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Two -->
+			<section id="two" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>What's happening in the group</p>
+						<h2><b>Latest News</b></h2>
+					</header>
+					<br><br>
+					<div>
+					<span class="image right"><img src= https://tropical.colostate.edu/images/news/CMHsiao.webp alt="image" class="news-image" /></span>
+
+					<p class="small">(2026-09-01)</p>
+					<!-- <h3>The TC-RAMS group welcomes visiting scientist Chun-Min Hsiao from Taiwan's Central Weather Administration</h3> -->
+					<a href="/2026/09/01/ChunMin.html"><h3>The TC-RAMS group welcomes visiting scientist Chun-Min Hsiao from Taiwan's Central Weather Administration</h3></a>
+
+					<p>Chun-Min is a visiting researcher from Taiwan’s Central Weather Administration (CWA), where she works in the Typhoon and Severe Weather Forecast Division of the Weather Forecast Center. She develops forecast products and tools for CWA forecasters, such as the Deep Learning for Tropical Cyclones (DLTC) system, which she led into operations. The DLTC estimates and forecasts tropical cyclone intensity and wind structure from satellite imagery every hour. During typhoon warnings Chun-Min works forecast shifts, producing township-scale wind forecasts. Chun-Min earned her B.S. and M.S. in Atmospheric Sciences from National Taiwan University, where she applied deep learning to satellite observations of tropical cyclones. During her visit to CSU’s Atmospheric Science Department, Chun-Min is working on rapid intensification guidance for CWA. In her spare time, she enjoys cooking, hiking, and spending time with her family and her cat.</p>
+
+
+					<!-- <footer class="align-center">
+					<a href="/2026/09/01/ChunMin.html"> ... READ MORE</a>
+					</footer> -->
+					</div>
+					<hr/>
+
+						<ul>
+								<p class="small">(2026-09-01)</p>
+								<a href="/2026/09/01/Dolan_ECRMH.html"><h3>Brenda Dolan in Belgrade, Serbia</h3></a>
+
+								<p class="small">(2026-08-01)</p>
+								<a href="/2026/08/01/Beard_KPOP.html"><h3>Lauren Beard in South Korea for KPOP!</h3></a>
+						</ul>
+						<br>
+						<footer class="align-center">
+						<ul class="actions"><a href="news.html" class="button special"><i class="far fa-newspaper"></i> more news</a></ul>
+						</footer>
+				</div>
+			</section>
+
+
+<!-- Three -->
+			<section id="research_gallery" class="wrapper style2">
+				<div class="inner">
+					<header class="align-center">
+						<p class="special">Highlights of our team research activity </p>
+						<h2><b>Research Gallery</b></h2>
+					</header>
+					<div class="gallery">
+            <!-- The images ratio = 16:9 -->
+						<div>
+              <center><a href="./research.html#remotesensing"><h2>TC research tools</h2></a></center>
+							<div class="image fit">
+								<a href="./research.html#remotesensing"><img src="images/gallery/TC_research_tools.png" alt="" /></a>
+							</div>
+						</div>
+						<div>
+              <center><a href="./research.html#precip"><h2>PRECIP</h2></a></center>
+							<div class="image fit">
+								<a href="./research.html#precip"><img src="images/gallery/PRECIP.png" alt="" /></a>
+							</div>
+						</div>
+						<div>
+              <center><a href="./research.html#tcri"><h2>TCRI</h2></a></center>
+							<div class="image fit">
+								<a href="./research.html#tcri"><img src="images/gallery/TCRI.png" alt="" /></a>
+							</div>
+						</div>
+						<div>
+              <center><a href="./research.html#pecase"><h2>PISTON experiment</h2></a></center>
+							<div class="image fit">
+								<a href="./research.html#pecase"><img src="images/gallery/PISTON.jpg" alt="" /></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+				<footer class="align-center">
+				<ul class="actions"><a href="research.html" class="button special"><i class="fa fa-search"></i> more research projects </a></ul>
+				</footer>
+				<br>
+			</section>
+
+
+
+<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+				<!-- <div class="row">
+					<div class="6u 12u$(medium)">
+					</div>
+					<div class="6u$ 12u$(medium)">
+					</div>
+				</div> -->
+					<h4><b> Contact Us </b> </h4>
+					<ul class="icons" style="text-align:center;">
+						<li style="color:gray"><i class="fas fa-map-marker-alt" style="color:white"></i>&nbsp; Dept. of Atmospheric Science, 1371 Campus Delivery, Fort Collins, CO, 80523, USA </li>
+						<br><li style="color:gray"><i class="fas fa-phone-alt" style="color:white"></i>&nbsp; </li>
+					  <li style="color:gray"><i class="far fa-envelope" style="color:white"></i>&nbsp; csu-tropical at lists.colostate.edu </li>
+					</ul>
+				</div>
+
+					<!-- <div class="4u 12u$(medium)">
+						<div class="copyright">
+						<h4><b>&copy; 2026 Colorado State University.</b><br> All rights reserved.</h4>
+						<span class="image center"><img src="/images/logo/CSU-Ram-Rev.png" alt="CSU logo" style="float:left;width:80px;height:80px;margin:10px" /></span>
+						<span class="image center"><img src="/images/logo/BellTClogo.png" alt="Team logo" style="float:left;width:80px;height:80px;margin:10px" /></span>
+						</div>
+					</div> -->
+
+				<div>
+						<ul class="actions small" style="text-align:left;">
+							<li><a href="http://www.atmos.colostate.edu/" class="button small" target="_blank"><i class="fas fa-link"></i> Department of Atmospheric Science</a></li>
+							<li><a href="https://www.engr.colostate.edu/" class="button alt small" target="_blank"><i class="fas fa-link"></i> Walter Scott, Jr. College of engineering</a></li>
+							<li><a href="https://www.colostate.edu/" class="button small" target="_blank"><i class="fas fa-link"></i> Colorado State University</a></li>
+						</ul>
+
+				</div>
+
+				<div>
+					<div class="box">
+						<br>
+					<h4><b> Our Supporters </b> </h4>
+					<p>We gratefully acknowledge support from the following organizations.</p>
+					<div class="sponsor-logos">
+						<img src="/images/logo/partner1.png" alt="NSF" style="max-width:150px" />
+						<img src="/images/logo/partner2.png" alt="NOAA" style="max-width:250px" />
+						<img src="/images/logo/partner3.png" alt="ONR" style="max-width:130px" />
+						<img src="/images/logo/nasa.png" alt="NASA" style="max-width:140px" />
+						<img src="/images/logo/partner4.png" alt="Supporter" style="max-width:180px" />
+						<img src="/images/logo/partnerGallagherRe.png" alt="Gallagher Re" style="max-width:240px" />
+						<img src="/images/logo/partnerCWG.jpg" alt="Capital Weather Gang" style="max-width:140px" />
+						<img src="/images/logo/partnerIII.jpg" alt="III" style="max-width:190px" />
+						<img src="/images/logo/partner7.jpg" alt="Supporter" style="max-width:190px" />
+						<img src="/images/logo/partner9.jpg" alt="Supporter" style="max-width:130px" />
+					</div>						
+					</div>
+				</div>
+
+				<div class="copyright">
+				<h4><b>&copy; 2026 Colorado State University.</b> All rights reserved.</h4>
+				<span class="image center"><img src="/images/logo/CSU-Ram-Rev.png" alt="CSU logo" style="width:80px;height:auto;margin:10px;display:inline-block" /></span>
+				<span class="image center"><img src="/images/logo/BellTClogo.png" alt="Team logo" style="width:80px;height:auto;margin:10px;display:inline-block" /></span>
+
+				<div style="padding: 20px 0;display:block">
+				<h4><b> Acknowledgement </b></h4>
+					<p>Website design and development by <a href="/research_group.html#nam">Chelsea Nam</a>, <a href="/research_group.html#cha">Ting-Yu Cha</a>,
+						<a href="/research_group.html#casas">Ellie Casas</a>, <a href="/research_group.html#klotzbach">Phil Klotzbach</a>, <a href="/research_group.html#young">Kate Young</a>, <a href="/research_group.html#silvers">Levi Silvers</a>,
+						and <a href="/research_group.html#bell">Michael Bell</a> based on the <a href="https://templated.co/hielo" target="_blank">hielo template.</a></p>
+
+			  </div>
+
+				</div>
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/jquery.scrollex.min.js"></script>
+			<script src="/assets/js/skel.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/main.js"></script>
+			<script>
+			// Get the modal
+			var modal = document.getElementById("myModal");
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() {
+				modal.style.display = "none";
+			}
+
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+				}
+			}
+			</script>
+
+	</body>
+</html>
