@@ -1,0 +1,1113 @@
+{
+ "base": "1979-2001",
+ "climatology": "1979-2000 mean + 3 harmonics",
+ "nan_olr_filled": 0,
+ "index_info": {
+  "wh_like": {
+   "var": [
+    0.13,
+    0.112
+   ],
+   "lag10_corr": 0.5
+  },
+  "bandpass_20_100": {
+   "var": [
+    0.211,
+    0.198
+   ],
+   "lag10_corr": 0.747
+  },
+  "olr_only_20_100": {
+   "var": [
+    0.246,
+    0.171
+   ],
+   "lag10_corr": 0.538
+  }
+ },
+ "episodes": {
+  "wh_like": [
+   {
+    "start": "1995-07-18",
+    "end": "1995-08-06",
+    "days": 20,
+    "max_amp": 2.04,
+    "phase_progress_deg": 71.0,
+    "centre_start": 20.0,
+    "centre_end": 85.0,
+    "centre_speed_ms": 4.4
+   },
+   {
+    "start": "1995-11-14",
+    "end": "1995-12-03",
+    "days": 20,
+    "max_amp": 2.03,
+    "phase_progress_deg": 89.0,
+    "centre_start": 145.0,
+    "centre_end": 177.5,
+    "centre_speed_ms": 2.2
+   },
+   {
+    "start": "1995-12-05",
+    "end": "1995-12-23",
+    "days": 19,
+    "max_amp": 1.81,
+    "phase_progress_deg": 70.0,
+    "centre_start": 170.0,
+    "centre_end": 272.5,
+    "centre_speed_ms": -6.6
+   },
+   {
+    "start": "1996-01-25",
+    "end": "1996-02-10",
+    "days": 17,
+    "max_amp": 1.76,
+    "phase_progress_deg": -40.0,
+    "centre_start": 92.5,
+    "centre_end": 87.5,
+    "centre_speed_ms": -0.4
+   },
+   {
+    "start": "1996-03-13",
+    "end": "1996-04-07",
+    "days": 26,
+    "max_amp": 2.39,
+    "phase_progress_deg": 213.0,
+    "centre_start": 20.0,
+    "centre_end": 147.5,
+    "centre_speed_ms": 4.0
+   },
+   {
+    "start": "1996-05-03",
+    "end": "1996-05-26",
+    "days": 24,
+    "max_amp": 2.37,
+    "phase_progress_deg": 153.0,
+    "centre_start": 145.0,
+    "centre_end": 20.0,
+    "centre_speed_ms": -7.4
+   },
+   {
+    "start": "1996-05-29",
+    "end": "1996-06-14",
+    "days": 17,
+    "max_amp": 1.46,
+    "phase_progress_deg": 109.0,
+    "centre_start": 82.5,
+    "centre_end": 92.5,
+    "centre_speed_ms": 0.9
+   },
+   {
+    "start": "1996-06-21",
+    "end": "1996-07-07",
+    "days": 17,
+    "max_amp": 2.75,
+    "phase_progress_deg": 141.0,
+    "centre_start": 180.0,
+    "centre_end": 87.5,
+    "centre_speed_ms": -8.7
+   },
+   {
+    "start": "1996-08-06",
+    "end": "1996-08-21",
+    "days": 16,
+    "max_amp": 1.39,
+    "phase_progress_deg": 155.0,
+    "centre_start": 190.0,
+    "centre_end": 90.0,
+    "centre_speed_ms": 2.8
+   },
+   {
+    "start": "1996-10-20",
+    "end": "1996-11-21",
+    "days": 33,
+    "max_amp": 3.32,
+    "phase_progress_deg": 232.0,
+    "centre_start": 92.5,
+    "centre_end": 20.0,
+    "centre_speed_ms": 9.4
+   },
+   {
+    "start": "1996-12-09",
+    "end": "1997-01-13",
+    "days": 36,
+    "max_amp": 4.02,
+    "phase_progress_deg": 250.0,
+    "centre_start": 90.0,
+    "centre_end": 60.0,
+    "centre_speed_ms": -1.4
+   },
+   {
+    "start": "1997-01-31",
+    "end": "1997-04-05",
+    "days": 65,
+    "max_amp": 4.5,
+    "phase_progress_deg": 293.0,
+    "centre_start": 87.5,
+    "centre_end": 82.5,
+    "centre_speed_ms": -0.1
+   },
+   {
+    "start": "1997-04-14",
+    "end": "1997-05-01",
+    "days": 18,
+    "max_amp": 2.62,
+    "phase_progress_deg": 144.0,
+    "centre_start": 177.5,
+    "centre_end": 85.0,
+    "centre_speed_ms": 24.2
+   },
+   {
+    "start": "1997-05-08",
+    "end": "1997-06-19",
+    "days": 43,
+    "max_amp": 3.21,
+    "phase_progress_deg": 365.0,
+    "centre_start": 80.0,
+    "centre_end": 82.5,
+    "centre_speed_ms": 11.8
+   },
+   {
+    "start": "1997-06-23",
+    "end": "1997-08-01",
+    "days": 40,
+    "max_amp": 2.52,
+    "phase_progress_deg": 205.0,
+    "centre_start": 82.5,
+    "centre_end": 147.5,
+    "centre_speed_ms": 3.2
+   },
+   {
+    "start": "1997-10-03",
+    "end": "1997-10-21",
+    "days": 19,
+    "max_amp": 2.76,
+    "phase_progress_deg": 76.0,
+    "centre_start": 190.0,
+    "centre_end": 82.5,
+    "centre_speed_ms": 22.3
+   },
+   {
+    "start": "1997-10-25",
+    "end": "1997-12-26",
+    "days": 63,
+    "max_amp": 2.87,
+    "phase_progress_deg": 162.0,
+    "centre_start": 272.5,
+    "centre_end": 92.5,
+    "centre_speed_ms": 1.4
+   },
+   {
+    "start": "1998-05-04",
+    "end": "1998-07-01",
+    "days": 59,
+    "max_amp": 4.28,
+    "phase_progress_deg": 51.0,
+    "centre_start": 87.5,
+    "centre_end": 92.5,
+    "centre_speed_ms": -0.2
+   },
+   {
+    "start": "1998-09-16",
+    "end": "1998-10-10",
+    "days": 25,
+    "max_amp": 2.57,
+    "phase_progress_deg": 127.0,
+    "centre_start": 87.5,
+    "centre_end": 147.5,
+    "centre_speed_ms": 4.1
+   },
+   {
+    "start": "1998-11-08",
+    "end": "1998-11-30",
+    "days": 23,
+    "max_amp": 2.47,
+    "phase_progress_deg": 100.0,
+    "centre_start": 92.5,
+    "centre_end": 162.5,
+    "centre_speed_ms": 2.2
+   }
+  ],
+  "bandpass_20_100": [
+   {
+    "start": "1995-07-06",
+    "end": "1995-07-26",
+    "days": 21,
+    "max_amp": 1.52,
+    "phase_progress_deg": 205.0,
+    "centre_start": 130.0,
+    "centre_end": 17.5,
+    "centre_speed_ms": 18.3
+   },
+   {
+    "start": "1995-08-24",
+    "end": "1995-09-08",
+    "days": 16,
+    "max_amp": 1.72,
+    "phase_progress_deg": 97.0,
+    "centre_start": 90.0,
+    "centre_end": 147.5,
+    "centre_speed_ms": 6.0
+   },
+   {
+    "start": "1995-10-28",
+    "end": "1995-11-28",
+    "days": 32,
+    "max_amp": 1.31,
+    "phase_progress_deg": 137.0,
+    "centre_start": 85.0,
+    "centre_end": 147.5,
+    "centre_speed_ms": 2.5
+   },
+   {
+    "start": "1995-12-08",
+    "end": "1995-12-25",
+    "days": 18,
+    "max_amp": 1.4,
+    "phase_progress_deg": 70.0,
+    "centre_start": 170.0,
+    "centre_end": 17.5,
+    "centre_speed_ms": 17.7
+   },
+   {
+    "start": "1996-01-25",
+    "end": "1996-02-08",
+    "days": 15,
+    "max_amp": 1.68,
+    "phase_progress_deg": -15.0,
+    "centre_start": 90.0,
+    "centre_end": 90.0,
+    "centre_speed_ms": -0.0
+   },
+   {
+    "start": "1996-02-24",
+    "end": "1996-04-05",
+    "days": 42,
+    "max_amp": 2.73,
+    "phase_progress_deg": 271.0,
+    "centre_start": 155.0,
+    "centre_end": 130.0,
+    "centre_speed_ms": 13.4
+   },
+   {
+    "start": "1996-04-22",
+    "end": "1996-05-25",
+    "days": 34,
+    "max_amp": 2.3,
+    "phase_progress_deg": 259.0,
+    "centre_start": 87.5,
+    "centre_end": 17.5,
+    "centre_speed_ms": 9.4
+   },
+   {
+    "start": "1996-05-30",
+    "end": "1996-07-28",
+    "days": 60,
+    "max_amp": 2.85,
+    "phase_progress_deg": 551.0,
+    "centre_start": 80.0,
+    "centre_end": 147.5,
+    "centre_speed_ms": 12.4
+   },
+   {
+    "start": "1996-08-06",
+    "end": "1996-08-23",
+    "days": 18,
+    "max_amp": 1.27,
+    "phase_progress_deg": 126.0,
+    "centre_start": 17.5,
+    "centre_end": 87.5,
+    "centre_speed_ms": 7.1
+   },
+   {
+    "start": "1996-10-23",
+    "end": "1997-01-17",
+    "days": 87,
+    "max_amp": 3.4,
+    "phase_progress_deg": 596.0,
+    "centre_start": 90.0,
+    "centre_end": 17.5,
+    "centre_speed_ms": 9.8
+   },
+   {
+    "start": "1997-01-29",
+    "end": "1997-04-16",
+    "days": 78,
+    "max_amp": 3.87,
+    "phase_progress_deg": 543.0,
+    "centre_start": 87.5,
+    "centre_end": 155.0,
+    "centre_speed_ms": 8.4
+   },
+   {
+    "start": "1997-04-21",
+    "end": "1997-07-18",
+    "days": 89,
+    "max_amp": 3.32,
+    "phase_progress_deg": 510.0,
+    "centre_start": 17.5,
+    "centre_end": 92.5,
+    "centre_speed_ms": 7.5
+   },
+   {
+    "start": "1997-12-22",
+    "end": "1998-01-12",
+    "days": 22,
+    "max_amp": 1.65,
+    "phase_progress_deg": 200.0,
+    "centre_start": 130.0,
+    "centre_end": 72.5,
+    "centre_speed_ms": 17.3
+   },
+   {
+    "start": "1998-01-31",
+    "end": "1998-02-19",
+    "days": 20,
+    "max_amp": 1.32,
+    "phase_progress_deg": 147.0,
+    "centre_start": 17.5,
+    "centre_end": 90.0,
+    "centre_speed_ms": 4.8
+   },
+   {
+    "start": "1998-04-23",
+    "end": "1998-05-28",
+    "days": 36,
+    "max_amp": 2.51,
+    "phase_progress_deg": 347.0,
+    "centre_start": 177.5,
+    "centre_end": 177.5,
+    "centre_speed_ms": 9.4
+   },
+   {
+    "start": "1998-09-19",
+    "end": "1998-11-03",
+    "days": 46,
+    "max_amp": 1.9,
+    "phase_progress_deg": 285.0,
+    "centre_start": 87.5,
+    "centre_end": 82.5,
+    "centre_speed_ms": 13.2
+   },
+   {
+    "start": "1998-11-13",
+    "end": "1998-12-01",
+    "days": 19,
+    "max_amp": 1.87,
+    "phase_progress_deg": 171.0,
+    "centre_start": 130.0,
+    "centre_end": 17.5,
+    "centre_speed_ms": 13.7
+   }
+  ],
+  "olr_only_20_100": [
+   {
+    "start": "1995-10-25",
+    "end": "1995-11-18",
+    "days": 25,
+    "max_amp": 1.66,
+    "phase_progress_deg": 44.0,
+    "centre_start": 87.5,
+    "centre_end": 90.0,
+    "centre_speed_ms": 0.3
+   },
+   {
+    "start": "1996-01-23",
+    "end": "1996-02-09",
+    "days": 18,
+    "max_amp": 2.15,
+    "phase_progress_deg": 4.0,
+    "centre_start": 87.5,
+    "centre_end": 87.5,
+    "centre_speed_ms": -0.0
+   },
+   {
+    "start": "1996-02-22",
+    "end": "1996-04-06",
+    "days": 45,
+    "max_amp": 2.29,
+    "phase_progress_deg": 294.0,
+    "centre_start": 147.5,
+    "centre_end": 130.0,
+    "centre_speed_ms": -2.3
+   },
+   {
+    "start": "1996-06-18",
+    "end": "1996-07-14",
+    "days": 27,
+    "max_amp": 2.16,
+    "phase_progress_deg": 281.0,
+    "centre_start": 155.0,
+    "centre_end": 130.0,
+    "centre_speed_ms": -2.0
+   },
+   {
+    "start": "1996-10-25",
+    "end": "1997-01-13",
+    "days": 81,
+    "max_amp": 3.46,
+    "phase_progress_deg": 472.0,
+    "centre_start": 130.0,
+    "centre_end": 177.5,
+    "centre_speed_ms": -0.5
+   },
+   {
+    "start": "1997-01-25",
+    "end": "1997-04-18",
+    "days": 84,
+    "max_amp": 4.09,
+    "phase_progress_deg": 589.0,
+    "centre_start": 70.0,
+    "centre_end": 147.5,
+    "centre_speed_ms": 0.5
+   },
+   {
+    "start": "1997-04-30",
+    "end": "1997-07-22",
+    "days": 84,
+    "max_amp": 3.2,
+    "phase_progress_deg": 423.0,
+    "centre_start": 85.0,
+    "centre_end": 90.0,
+    "centre_speed_ms": -0.1
+   },
+   {
+    "start": "1997-12-20",
+    "end": "1998-01-03",
+    "days": 15,
+    "max_amp": 2.35,
+    "phase_progress_deg": 75.0,
+    "centre_start": 130.0,
+    "centre_end": 155.0,
+    "centre_speed_ms": 1.7
+   },
+   {
+    "start": "1998-09-18",
+    "end": "1998-10-02",
+    "days": 15,
+    "max_amp": 1.54,
+    "phase_progress_deg": 60.0,
+    "centre_start": 90.0,
+    "centre_end": 130.0,
+    "centre_speed_ms": 4.9
+   }
+  ]
+ },
+ "wwb": [
+  {
+   "start": "1996-09-20",
+   "end": "1996-09-22",
+   "lon_w": 137.5,
+   "lon_e": 150.0,
+   "peak": "1996-09-21",
+   "peak_lon": 145.0,
+   "peak_anom": 7.6,
+   "olr_20_100_at_peak": -1.8,
+   "u1000_20_100_at_peak": 1.2,
+   "u1000_prev60d_mean": -0.4,
+   "wh_like_amp": 1.26,
+   "bandpass_20_100_amp": 0.63,
+   "olr_only_20_100_amp": 1.32,
+   "wh_like_centre": 155.0,
+   "bandpass_20_100_centre": 160.0,
+   "olr_only_20_100_centre": 70.0
+  },
+  {
+   "start": "1996-11-15",
+   "end": "1996-11-17",
+   "lon_w": 175.0,
+   "lon_e": 197.5,
+   "peak": "1996-11-16",
+   "peak_lon": 190.0,
+   "peak_anom": 6.1,
+   "olr_20_100_at_peak": 1.0,
+   "u1000_20_100_at_peak": 2.4,
+   "u1000_prev60d_mean": -0.7,
+   "wh_like_amp": 3.32,
+   "bandpass_20_100_amp": 2.45,
+   "olr_only_20_100_amp": 2.13,
+   "wh_like_centre": 272.5,
+   "bandpass_20_100_centre": 17.5,
+   "olr_only_20_100_centre": 20.0
+  },
+  {
+   "start": "1996-12-20",
+   "end": "1996-12-31",
+   "lon_w": 130.0,
+   "lon_e": 147.5,
+   "peak": "1996-12-25",
+   "peak_lon": 137.5,
+   "peak_anom": 11.8,
+   "olr_20_100_at_peak": -26.4,
+   "u1000_20_100_at_peak": 5.4,
+   "u1000_prev60d_mean": 0.4,
+   "wh_like_amp": 3.85,
+   "bandpass_20_100_amp": 3.4,
+   "olr_only_20_100_amp": 2.43,
+   "wh_like_centre": 160.0,
+   "bandpass_20_100_centre": 155.0,
+   "olr_only_20_100_centre": 147.5
+  },
+  {
+   "start": "1997-02-27",
+   "end": "1997-03-04",
+   "lon_w": 125.0,
+   "lon_e": 155.0,
+   "peak": "1997-02-28",
+   "peak_lon": 132.5,
+   "peak_anom": 7.0,
+   "olr_20_100_at_peak": -14.3,
+   "u1000_20_100_at_peak": 3.1,
+   "u1000_prev60d_mean": 1.5,
+   "wh_like_amp": 2.81,
+   "bandpass_20_100_amp": 2.15,
+   "olr_only_20_100_amp": 1.66,
+   "wh_like_centre": 160.0,
+   "bandpass_20_100_centre": 147.5,
+   "olr_only_20_100_centre": 147.5
+  },
+  {
+   "start": "1997-03-03",
+   "end": "1997-03-19",
+   "lon_w": 137.5,
+   "lon_e": 182.5,
+   "peak": "1997-03-13",
+   "peak_lon": 150.0,
+   "peak_anom": 10.3,
+   "olr_20_100_at_peak": -13.8,
+   "u1000_20_100_at_peak": 4.7,
+   "u1000_prev60d_mean": 2.4,
+   "wh_like_amp": 4.39,
+   "bandpass_20_100_amp": 3.01,
+   "olr_only_20_100_amp": 2.5,
+   "wh_like_centre": 177.5,
+   "bandpass_20_100_centre": 155.0,
+   "olr_only_20_100_centre": 175.0
+  },
+  {
+   "start": "1997-03-25",
+   "end": "1997-03-29",
+   "lon_w": 157.5,
+   "lon_e": 185.0,
+   "peak": "1997-03-28",
+   "peak_lon": 165.0,
+   "peak_anom": 7.1,
+   "olr_20_100_at_peak": 35.5,
+   "u1000_20_100_at_peak": -0.6,
+   "u1000_prev60d_mean": 2.2,
+   "wh_like_amp": 3.71,
+   "bandpass_20_100_amp": 3.84,
+   "olr_only_20_100_amp": 3.77,
+   "wh_like_centre": 60.0,
+   "bandpass_20_100_centre": 80.0,
+   "olr_only_20_100_centre": 72.5
+  },
+  {
+   "start": "1997-04-10",
+   "end": "1997-04-21",
+   "lon_w": 137.5,
+   "lon_e": 167.5,
+   "peak": "1997-04-13",
+   "peak_lon": 155.0,
+   "peak_anom": 10.8,
+   "olr_20_100_at_peak": -52.1,
+   "u1000_20_100_at_peak": 1.5,
+   "u1000_prev60d_mean": 3.8,
+   "wh_like_amp": 0.9,
+   "bandpass_20_100_amp": 1.47,
+   "olr_only_20_100_amp": 2.28,
+   "wh_like_centre": 177.5,
+   "bandpass_20_100_centre": 147.5,
+   "olr_only_20_100_centre": 147.5
+  },
+  {
+   "start": "1997-05-02",
+   "end": "1997-05-08",
+   "lon_w": 160.0,
+   "lon_e": 172.5,
+   "peak": "1997-05-05",
+   "peak_lon": 167.5,
+   "peak_anom": 7.3,
+   "olr_20_100_at_peak": 9.0,
+   "u1000_20_100_at_peak": -0.5,
+   "u1000_prev60d_mean": 4.1,
+   "wh_like_amp": 0.12,
+   "bandpass_20_100_amp": 1.93,
+   "olr_only_20_100_amp": 2.19,
+   "wh_like_centre": 170.0,
+   "bandpass_20_100_centre": 87.5,
+   "olr_only_20_100_centre": 82.5
+  },
+  {
+   "start": "1997-05-19",
+   "end": "1997-05-24",
+   "lon_w": 135.0,
+   "lon_e": 150.0,
+   "peak": "1997-05-20",
+   "peak_lon": 140.0,
+   "peak_anom": 7.3,
+   "olr_20_100_at_peak": -22.0,
+   "u1000_20_100_at_peak": 2.1,
+   "u1000_prev60d_mean": 1.5,
+   "wh_like_amp": 2.17,
+   "bandpass_20_100_amp": 2.58,
+   "olr_only_20_100_amp": 2.78,
+   "wh_like_centre": 147.5,
+   "bandpass_20_100_centre": 147.5,
+   "olr_only_20_100_centre": 130.0
+  },
+  {
+   "start": "1997-05-21",
+   "end": "1997-05-27",
+   "lon_w": 152.5,
+   "lon_e": 180.0,
+   "peak": "1997-05-26",
+   "peak_lon": 162.5,
+   "peak_anom": 7.7,
+   "olr_20_100_at_peak": -19.3,
+   "u1000_20_100_at_peak": 2.8,
+   "u1000_prev60d_mean": 3.8,
+   "wh_like_amp": 2.95,
+   "bandpass_20_100_amp": 3.32,
+   "olr_only_20_100_amp": 2.93,
+   "wh_like_centre": 177.5,
+   "bandpass_20_100_centre": 155.0,
+   "olr_only_20_100_centre": 160.0
+  },
+  {
+   "start": "1997-05-30",
+   "end": "1997-06-12",
+   "lon_w": 162.5,
+   "lon_e": 210.0,
+   "peak": "1997-06-04",
+   "peak_lon": 192.5,
+   "peak_anom": 9.3,
+   "olr_20_100_at_peak": -20.0,
+   "u1000_20_100_at_peak": 4.5,
+   "u1000_prev60d_mean": 0.9,
+   "wh_like_amp": 2.87,
+   "bandpass_20_100_amp": 2.51,
+   "olr_only_20_100_amp": 2.38,
+   "wh_like_centre": 272.5,
+   "bandpass_20_100_centre": 272.5,
+   "olr_only_20_100_centre": 20.0
+  },
+  {
+   "start": "1997-06-21",
+   "end": "1997-06-23",
+   "lon_w": 170.0,
+   "lon_e": 180.0,
+   "peak": "1997-06-22",
+   "peak_lon": 175.0,
+   "peak_anom": 6.2,
+   "olr_20_100_at_peak": -4.0,
+   "u1000_20_100_at_peak": 1.0,
+   "u1000_prev60d_mean": 2.9,
+   "wh_like_amp": 0.89,
+   "bandpass_20_100_amp": 1.07,
+   "olr_only_20_100_amp": 1.06,
+   "wh_like_centre": 60.0,
+   "bandpass_20_100_centre": 80.0,
+   "olr_only_20_100_centre": 72.5
+  },
+  {
+   "start": "1997-08-05",
+   "end": "1997-08-08",
+   "lon_w": 160.0,
+   "lon_e": 172.5,
+   "peak": "1997-08-06",
+   "peak_lon": 167.5,
+   "peak_anom": 7.0,
+   "olr_20_100_at_peak": -4.1,
+   "u1000_20_100_at_peak": 1.0,
+   "u1000_prev60d_mean": 3.1,
+   "wh_like_amp": 0.79,
+   "bandpass_20_100_amp": 0.87,
+   "olr_only_20_100_amp": 1.15,
+   "wh_like_centre": 147.5,
+   "bandpass_20_100_centre": 160.0,
+   "olr_only_20_100_centre": 177.5
+  },
+  {
+   "start": "1997-08-07",
+   "end": "1997-08-13",
+   "lon_w": 132.5,
+   "lon_e": 142.5,
+   "peak": "1997-08-08",
+   "peak_lon": 137.5,
+   "peak_anom": 7.0,
+   "olr_20_100_at_peak": -3.3,
+   "u1000_20_100_at_peak": 2.8,
+   "u1000_prev60d_mean": 0.9,
+   "wh_like_amp": 1.08,
+   "bandpass_20_100_amp": 0.97,
+   "olr_only_20_100_amp": 1.03,
+   "wh_like_centre": 162.5,
+   "bandpass_20_100_centre": 170.0,
+   "olr_only_20_100_centre": 177.5
+  },
+  {
+   "start": "1997-08-10",
+   "end": "1997-08-22",
+   "lon_w": 157.5,
+   "lon_e": 177.5,
+   "peak": "1997-08-15",
+   "peak_lon": 165.0,
+   "peak_anom": 8.7,
+   "olr_20_100_at_peak": 13.9,
+   "u1000_20_100_at_peak": 2.1,
+   "u1000_prev60d_mean": 3.3,
+   "wh_like_amp": 1.58,
+   "bandpass_20_100_amp": 0.81,
+   "olr_only_20_100_amp": 0.74,
+   "wh_like_centre": 170.0,
+   "bandpass_20_100_centre": 177.5,
+   "olr_only_20_100_centre": 20.0
+  },
+  {
+   "start": "1997-08-26",
+   "end": "1997-08-28",
+   "lon_w": 162.5,
+   "lon_e": 187.5,
+   "peak": "1997-08-26",
+   "peak_lon": 182.5,
+   "peak_anom": 7.2,
+   "olr_20_100_at_peak": 10.4,
+   "u1000_20_100_at_peak": 2.0,
+   "u1000_prev60d_mean": 1.2,
+   "wh_like_amp": 1.14,
+   "bandpass_20_100_amp": 0.24,
+   "olr_only_20_100_amp": 0.18,
+   "wh_like_centre": 177.5,
+   "bandpass_20_100_centre": 90.0,
+   "olr_only_20_100_centre": 82.5
+  },
+  {
+   "start": "1997-08-29",
+   "end": "1997-09-13",
+   "lon_w": 152.5,
+   "lon_e": 185.0,
+   "peak": "1997-09-11",
+   "peak_lon": 167.5,
+   "peak_anom": 10.7,
+   "olr_20_100_at_peak": -5.1,
+   "u1000_20_100_at_peak": 2.2,
+   "u1000_prev60d_mean": 5.3,
+   "wh_like_amp": 1.24,
+   "bandpass_20_100_amp": 0.49,
+   "olr_only_20_100_amp": 0.45,
+   "wh_like_centre": 272.5,
+   "bandpass_20_100_centre": 17.5,
+   "olr_only_20_100_centre": 82.5
+  },
+  {
+   "start": "1997-09-28",
+   "end": "1997-11-11",
+   "lon_w": 155.0,
+   "lon_e": 210.0,
+   "peak": "1997-10-09",
+   "peak_lon": 170.0,
+   "peak_anom": 11.6,
+   "olr_20_100_at_peak": -21.8,
+   "u1000_20_100_at_peak": 2.0,
+   "u1000_prev60d_mean": 5.7,
+   "wh_like_amp": 1.65,
+   "bandpass_20_100_amp": 0.52,
+   "olr_only_20_100_amp": 0.23,
+   "wh_like_centre": 272.5,
+   "bandpass_20_100_centre": 272.5,
+   "olr_only_20_100_centre": 20.0
+  },
+  {
+   "start": "1997-11-28",
+   "end": "1997-12-11",
+   "lon_w": 162.5,
+   "lon_e": 207.5,
+   "peak": "1997-12-02",
+   "peak_lon": 192.5,
+   "peak_anom": 11.6,
+   "olr_20_100_at_peak": -48.9,
+   "u1000_20_100_at_peak": 4.3,
+   "u1000_prev60d_mean": 5.4,
+   "wh_like_amp": 2.15,
+   "bandpass_20_100_amp": 0.76,
+   "olr_only_20_100_amp": 0.65,
+   "wh_like_centre": 82.5,
+   "bandpass_20_100_centre": 17.5,
+   "olr_only_20_100_centre": 75.0
+  }
+ ],
+ "wwb_yearly": [
+  {
+   "year": 1979,
+   "wwb_count": 5
+  },
+  {
+   "year": 1980,
+   "wwb_count": 3
+  },
+  {
+   "year": 1981,
+   "wwb_count": 1
+  },
+  {
+   "year": 1982,
+   "wwb_count": 13
+  },
+  {
+   "year": 1983,
+   "wwb_count": 3
+  },
+  {
+   "year": 1984,
+   "wwb_count": 1
+  },
+  {
+   "year": 1985,
+   "wwb_count": 2
+  },
+  {
+   "year": 1986,
+   "wwb_count": 4
+  },
+  {
+   "year": 1987,
+   "wwb_count": 5
+  },
+  {
+   "year": 1988,
+   "wwb_count": 1
+  },
+  {
+   "year": 1989,
+   "wwb_count": 2
+  },
+  {
+   "year": 1990,
+   "wwb_count": 7
+  },
+  {
+   "year": 1991,
+   "wwb_count": 7
+  },
+  {
+   "year": 1992,
+   "wwb_count": 7
+  },
+  {
+   "year": 1993,
+   "wwb_count": 5
+  },
+  {
+   "year": 1994,
+   "wwb_count": 6
+  },
+  {
+   "year": 1995,
+   "wwb_count": 0
+  },
+  {
+   "year": 1996,
+   "wwb_count": 3
+  },
+  {
+   "year": 1997,
+   "wwb_count": 16
+  },
+  {
+   "year": 1998,
+   "wwb_count": 0
+  },
+  {
+   "year": 1999,
+   "wwb_count": 1
+  },
+  {
+   "year": 2000,
+   "wwb_count": 1
+  },
+  {
+   "year": 2001,
+   "wwb_count": 3
+  }
+ ],
+ "seasons": [
+  {
+   "season": "1979-80",
+   "wh_like_days_amp_ge1": 97,
+   "bandpass_20_100_days_amp_ge1": 121,
+   "olr_only_20_100_days_amp_ge1": 124,
+   "olr_20_100_var_160E_150W": 146.8,
+   "olr_20_100_var_60E_150E": 198.9
+  },
+  {
+   "season": "1980-81",
+   "wh_like_days_amp_ge1": 91,
+   "bandpass_20_100_days_amp_ge1": 65,
+   "olr_only_20_100_days_amp_ge1": 107,
+   "olr_20_100_var_160E_150W": 135.7,
+   "olr_20_100_var_60E_150E": 165.6
+  },
+  {
+   "season": "1981-82",
+   "wh_like_days_amp_ge1": 77,
+   "bandpass_20_100_days_amp_ge1": 93,
+   "olr_only_20_100_days_amp_ge1": 120,
+   "olr_20_100_var_160E_150W": 93.3,
+   "olr_20_100_var_60E_150E": 214.2
+  },
+  {
+   "season": "1982-83",
+   "wh_like_days_amp_ge1": 116,
+   "bandpass_20_100_days_amp_ge1": 83,
+   "olr_only_20_100_days_amp_ge1": 91,
+   "olr_20_100_var_160E_150W": 163.2,
+   "olr_20_100_var_60E_150E": 137.4
+  },
+  {
+   "season": "1983-84",
+   "wh_like_days_amp_ge1": 120,
+   "bandpass_20_100_days_amp_ge1": 87,
+   "olr_only_20_100_days_amp_ge1": 120,
+   "olr_20_100_var_160E_150W": 35.9,
+   "olr_20_100_var_60E_150E": 240.6
+  },
+  {
+   "season": "1984-85",
+   "wh_like_days_amp_ge1": 151,
+   "bandpass_20_100_days_amp_ge1": 162,
+   "olr_only_20_100_days_amp_ge1": 153,
+   "olr_20_100_var_160E_150W": 170.7,
+   "olr_20_100_var_60E_150E": 370.1
+  },
+  {
+   "season": "1985-86",
+   "wh_like_days_amp_ge1": 128,
+   "bandpass_20_100_days_amp_ge1": 134,
+   "olr_only_20_100_days_amp_ge1": 125,
+   "olr_20_100_var_160E_150W": 79.4,
+   "olr_20_100_var_60E_150E": 241.6
+  },
+  {
+   "season": "1986-87",
+   "wh_like_days_amp_ge1": 124,
+   "bandpass_20_100_days_amp_ge1": 115,
+   "olr_only_20_100_days_amp_ge1": 120,
+   "olr_20_100_var_160E_150W": 158.0,
+   "olr_20_100_var_60E_150E": 239.9
+  },
+  {
+   "season": "1987-88",
+   "wh_like_days_amp_ge1": 134,
+   "bandpass_20_100_days_amp_ge1": 156,
+   "olr_only_20_100_days_amp_ge1": 156,
+   "olr_20_100_var_160E_150W": 155.6,
+   "olr_20_100_var_60E_150E": 363.6
+  },
+  {
+   "season": "1988-89",
+   "wh_like_days_amp_ge1": 104,
+   "bandpass_20_100_days_amp_ge1": 100,
+   "olr_only_20_100_days_amp_ge1": 121,
+   "olr_20_100_var_160E_150W": 77.5,
+   "olr_20_100_var_60E_150E": 257.1
+  },
+  {
+   "season": "1989-90",
+   "wh_like_days_amp_ge1": 148,
+   "bandpass_20_100_days_amp_ge1": 151,
+   "olr_only_20_100_days_amp_ge1": 108,
+   "olr_20_100_var_160E_150W": 196.4,
+   "olr_20_100_var_60E_150E": 235.3
+  },
+  {
+   "season": "1990-91",
+   "wh_like_days_amp_ge1": 99,
+   "bandpass_20_100_days_amp_ge1": 114,
+   "olr_only_20_100_days_amp_ge1": 116,
+   "olr_20_100_var_160E_150W": 126.7,
+   "olr_20_100_var_60E_150E": 234.6
+  },
+  {
+   "season": "1991-92",
+   "wh_like_days_amp_ge1": 128,
+   "bandpass_20_100_days_amp_ge1": 137,
+   "olr_only_20_100_days_amp_ge1": 117,
+   "olr_20_100_var_160E_150W": 317.4,
+   "olr_20_100_var_60E_150E": 194.6
+  },
+  {
+   "season": "1992-93",
+   "wh_like_days_amp_ge1": 110,
+   "bandpass_20_100_days_amp_ge1": 120,
+   "olr_only_20_100_days_amp_ge1": 111,
+   "olr_20_100_var_160E_150W": 221.2,
+   "olr_20_100_var_60E_150E": 263.2
+  },
+  {
+   "season": "1993-94",
+   "wh_like_days_amp_ge1": 83,
+   "bandpass_20_100_days_amp_ge1": 97,
+   "olr_only_20_100_days_amp_ge1": 102,
+   "olr_20_100_var_160E_150W": 93.8,
+   "olr_20_100_var_60E_150E": 176.1
+  },
+  {
+   "season": "1994-95",
+   "wh_like_days_amp_ge1": 132,
+   "bandpass_20_100_days_amp_ge1": 95,
+   "olr_only_20_100_days_amp_ge1": 114,
+   "olr_20_100_var_160E_150W": 244.6,
+   "olr_20_100_var_60E_150E": 250.6
+  },
+  {
+   "season": "1995-96",
+   "wh_like_days_amp_ge1": 109,
+   "bandpass_20_100_days_amp_ge1": 114,
+   "olr_only_20_100_days_amp_ge1": 118,
+   "olr_20_100_var_160E_150W": 61.0,
+   "olr_20_100_var_60E_150E": 225.9
+  },
+  {
+   "season": "1996-97",
+   "wh_like_days_amp_ge1": 137,
+   "bandpass_20_100_days_amp_ge1": 158,
+   "olr_only_20_100_days_amp_ge1": 147,
+   "olr_20_100_var_160E_150W": 164.8,
+   "olr_20_100_var_60E_150E": 388.2
+  },
+  {
+   "season": "1997-98",
+   "wh_like_days_amp_ge1": 102,
+   "bandpass_20_100_days_amp_ge1": 58,
+   "olr_only_20_100_days_amp_ge1": 45,
+   "olr_20_100_var_160E_150W": 210.1,
+   "olr_20_100_var_60E_150E": 77.8
+  },
+  {
+   "season": "1998-99",
+   "wh_like_days_amp_ge1": 115,
+   "bandpass_20_100_days_amp_ge1": 133,
+   "olr_only_20_100_days_amp_ge1": 130,
+   "olr_20_100_var_160E_150W": 67.9,
+   "olr_20_100_var_60E_150E": 217.8
+  },
+  {
+   "season": "1999-00",
+   "wh_like_days_amp_ge1": 102,
+   "bandpass_20_100_days_amp_ge1": 79,
+   "olr_only_20_100_days_amp_ge1": 103,
+   "olr_20_100_var_160E_150W": 62.4,
+   "olr_20_100_var_60E_150E": 155.7
+  },
+  {
+   "season": "2000-01",
+   "wh_like_days_amp_ge1": 134,
+   "bandpass_20_100_days_amp_ge1": 124,
+   "olr_only_20_100_days_amp_ge1": 124,
+   "olr_20_100_var_160E_150W": 62.0,
+   "olr_20_100_var_60E_150E": 278.9
+  }
+ ],
+ "log": []
+}
