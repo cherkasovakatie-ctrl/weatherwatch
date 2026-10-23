@@ -2,36 +2,36 @@
  "id": "champi-2026",
  "name": "Typhoon Champi",
  "type": "Typhoon",
- "region": "Western Pacific · Guam and the Northern Mariana Islands",
+ "region": "Western Pacific · Guam, Taiwan, Ryukyus, eastern China, Japan",
  "start": "2026-10-14",
  "end": "",
  "status": "unfolding",
- "as_of": "17 Oct 2026, 04–07 ChST (JTWC warning 18Z 16 Oct; NWS Guam; Guam JIC release 4)",
- "headline": "The third strong typhoon to threaten Guam since April, arriving while families are still living in tents after Sinlaku and Bavi. Champi strengthened by 40 kt in 23 hours and is forecast to pass just south of Guam as a Category 3 typhoon around 7 am on Sunday 18 October, then become a super typhoon over the Philippine Sea.",
+ "as_of": "23 Oct 2026 (AccuWeather update 22 Oct 16:45 UTC; Khaleej Times/Taiwan CWA 21 Oct)",
+ "headline": "Champi passed within 12 miles of Guam's southern tip on 18 October with its core of extreme winds mostly offshore, then became a super typhoon over the Philippine Sea and on 21 October tied Sinlaku (April) for the highest winds of 2026 worldwide: 185 mph (1-minute). Taiwan's weather agency expects it to turn north off Taiwan's east coast rather than make landfall, bringing extremely heavy rain to Taiwan through 24 October, then rain to eastern China, the Ryukyus, South Korea and southern Japan before it dissipates over Japan around 26 October.",
  "numbers": [
   [
-   "Now (JTWC)",
-   "75 kt, 984 mb, 11.9°N 150.2°E"
+   "Peak (1-min)",
+   "185 mph on 21 Oct, tying Sinlaku as 2026's strongest"
+  ],
+  [
+   "Guam",
+   "Passed within 12 miles of the southern tip, 18 Oct"
+  ],
+  [
+   "Guam impacts",
+   "Homes damaged, trees down; >1,000 in 15 shelters on 4 islands; power and water out, up to 170 wells off (Red Cross)"
+  ],
+  [
+   "Taiwan forecast",
+   "Rain to 300 mm (locally 600 mm), gusts to 160 km/h, east coast; waves to 6 m (22–24 Oct)"
   ],
   [
    "Rapid intensification",
-   "+40 kt in 23 h (35 → 75 kt)"
+   "+40 kt in 23 h (35 → 75 kt), 15–16 Oct"
   ],
   [
-   "Ocean",
-   "29–30 °C; heat content 120–150 kJ/cm² ahead"
-  ],
-  [
-   "Shear",
-   "10–20 kt now, < 10 kt by 18 Oct"
-  ],
-  [
-   "Guam forecast",
-   "105–120 mph, gusts 155; 12–20 in rain; surf 35 ft"
-  ],
-  [
-   "Forecast peak",
-   "135 kt (super typhoon), 18–19 Oct"
+   "Deaths",
+   "None reported as of 22 Oct"
   ]
  ],
  "timeline": [
@@ -70,6 +70,22 @@
   [
    "20–21 Oct (forecast)",
    "Still 120–130 kt near 18–20°N 128–132°E, heading west-northwest toward the waters east of Taiwan and south of the Ryukyus."
+  ],
+  [
+   "18 Oct (Sun)",
+   "Passes within 12 miles of Guam's southern tip; the core of extreme winds stays mostly offshore. Damage to homes and trees; more than 1,000 residents in 15 Red Cross–supported shelters on four islands; multiple communities without power and water, with up to 170 wells not operating."
+  ],
+  [
+   "21 Oct",
+   "Super typhoon over the Philippine Sea; peak 1-minute winds of 185 mph, tying Sinlaku (April) for the strongest storm of 2026 worldwide. Philippine Signal No. 1 in Batanes, Cagayan, Isabela, Apayao, Ilocos Norte and Catanduanes."
+  ],
+  [
+   "22–24 Oct (forecast)",
+   "Turns north off eastern Taiwan without landfall (Taiwan CWA); extremely heavy rain island-wide, waves to 6 m off the east coast; rain spreads to eastern China 23–25 Oct."
+  ],
+  [
+   "24–26 Oct (forecast)",
+   "Weakening storm affects Okinawa and the southern Ryukyus at the weekend, then southern Japan and South Korea; expected to dissipate over Japan on the night of 26 Oct."
   ]
  ],
  "sections": {
@@ -81,7 +97,8 @@
   "Expected impacts": "Guam (NWS, 17 Oct): winds 105–120 mph with gusts to 155 mph, 12–20 in of rain, surf up to 35 ft and coastal inundation of 5–7 ft. Rota: 60–80 mph, gusts to 115 mph. Saipan and Tinian: 40–60 mph. Five school evacuation centres open from 10 am Saturday; the Red Cross is opening 13 shelters; families displaced by Sinlaku and Bavi must take down tents and move to shelters.",
   "How it should end": "Not before 21–23 October: it is forecast to stay a very strong typhoon over the Philippine Sea. Its end depends on recurvature and colder water to the north.",
   "Climate signal": "No study. El Niño shifts typhoon tracks east and lengthens their lives; this is a well-documented ENSO effect, not attribution.",
-  "Still open": "Closest approach, peak winds on Guam, damage, and the track after the Philippine Sea."
+  "Still open": "Closest approach, peak winds on Guam, damage, and the track after the Philippine Sea.",
+  "What happened so far": "Guam: closest approach within 12 miles of the southern tip on 18 October; damage to homes and trees, shelters for more than 1,000 people, power and water outages (up to 170 wells off); southern areas not yet assessed as of 22 October. No deaths reported. Taiwan, Ryukyus, eastern China, Korea and Japan: forecast impacts as listed in the timeline; to be scored after the storm."
  },
  "movie": {
   "sst_grid": {
@@ -2576,6 +2593,18 @@
   {
    "title": "AOL: Guam faces third powerful typhoon",
    "url": "https://www.aol.com/articles/guam-faces-third-powerful-typhoon-180006000.html"
+  },
+  {
+   "title": "AccuWeather: Super Typhoon Champi damages Guam, bound for Taiwan (19 Oct, updated 22 Oct 2026)",
+   "url": "https://www.accuweather.com/en/hurricane/super-typhoon-champi-damages-guam-bound-for-taiwan/1948344"
+  },
+  {
+   "title": "Khaleej Times: Super Typhoon Champi spares Taiwan direct hit, brings heavy rain to Japan and Philippines (21 Oct 2026)",
+   "url": "https://www.khaleejtimes.com/world/asia/super-typhoon-champi-spares-taiwan-direct-hit-brings-heavy-rain-to-japan-and-philippines"
+  },
+  {
+   "title": "Primera Hora (FOX Weather): Champi ties Sinlaku as 2026's strongest storm",
+   "url": "https://www.primerahora.com/noticias/mundo/notas/champi-se-convierte-en-el-supertifon-mas-fuerte-del-planeta-en-2026/"
   }
  ],
  "related": [

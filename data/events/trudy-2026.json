@@ -4,9 +4,9 @@
  "type": "Hurricane",
  "region": "Eastern Pacific · Michoacán, Colima, Jalisco (Mexico)",
  "start": "2026-10-13",
- "end": "",
- "status": "unfolding",
- "as_of": "16 Oct 2026, 21 UTC (NHC advisories 11A–14)",
+ "end": "2026-10-20",
+ "status": "ended",
+ "as_of": "23 Oct 2026 (AP via KSL, 18 Oct; Mexican press 19 Oct)",
  "headline": "The third major hurricane in a month on the same stretch of Mexican coast. Trudy jumped from Category 1 to Category 3 in under nine hours on 16 October, then stalled when dry air opened its eyewall.",
  "numbers": [
   [
@@ -66,6 +66,14 @@
   [
    "21 Oct (forecast)",
    "Remnant low well offshore."
+  ],
+  [
+   "18–19 Oct",
+   "Weakens off the coast without landfall: 105 mph (Category 2) early on 18 Oct, then 100 mph about 180 miles WNW of Manzanillo, moving away from the mainland; Mexico lifts its hurricane and tropical storm warnings. Weakens to a tropical storm on 19 Oct, with heavy rain in Jalisco and high surf. No deaths or injuries reported."
+  ],
+  [
+   "20 Oct",
+   "Passes south of Baja California Sur and dissipates over open water."
   ]
  ],
  "sections": {
@@ -99,6 +107,14 @@
   {
    "title": "Latin Times: three storms, one coast",
    "url": "https://www.latintimes.com/three-storms-one-coast-how-trudy-became-mexicos-biggest-pacific-threat-while-ensenada-still-600257"
+  },
+  {
+   "title": "AP via KSL: Hurricane Trudy weakens off Mexico's Pacific coast as cleanup effort begins (18 Oct 2026)",
+   "url": "https://www.ksl.com/article/51637803/hurricane-trudy-weakens-off-mexicos-pacific-coast-as-cleanup-effort-begins"
+  },
+  {
+   "title": "Crónica: Trudy se degrada a tormenta tropical (19 Oct 2026)",
+   "url": "https://www.cronica.com.mx/nacional/2026/10/19/trudy-se-degrada-tormenta-tropical-cual-es-su-trayectoria-y-que-estados-afectara-este-lunes-19-de-octubre/"
   }
  ],
  "related": [
