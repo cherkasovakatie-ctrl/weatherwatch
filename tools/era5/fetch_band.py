@@ -7,7 +7,8 @@ NCEP/NCAR R1, so results compare like for like). Daily value = mean of the four 
 Output: data/papers/1982/era5_band_1979_2001.npz with int16 arrays (m/s × 10), shape (days, 144), longitudes 0..357.5°E:
   u10_eq, u1000_eq  5°S–5°N cos-weighted mean;  u850, u200  10°S–10°N cos-weighted mean.
 Needs the CDSAPI_KEY secret (personal access token from the CDS profile page) and accepted ERA5 licences.
-Run: python3 tools/era5/fetch_band.py [first_year last_year]
+Run: python3 tools/era5/fetch_band.py Y Y --one   (fetch and store one year in data/papers/1982/era5_years/)
+     python3 tools/era5/fetch_band.py 1979 2001   (assemble the stored years; exit code 3 if any is missing)
 """
 import datetime as dt
 import os
@@ -75,9 +76,30 @@ def year(y):
     return dict(u10_eq=band(slm, 2, 7), u1000_eq=band(plm[:, L[1000]], 2, 7), u850=band(plm[:, L[850]], 0, 9), u200=band(plm[:, L[200]], 0, 9))
 
 
-with ThreadPoolExecutor(3) as ex:
-    R = list(ex.map(year, range(Y0, Y1 + 1)))
-out = {k: np.round(np.concatenate([r[k] for r in R]) * 10).astype(np.int16) for k in R[0]}
+YEARS = ROOT / 'data' / 'papers' / '1982' / 'era5_years'
+YEARS.mkdir(parents=True, exist_ok=True)
+
+
+def save_year(y):
+    """Reduce one year and store it (resumable: years already stored are skipped)."""
+    f = YEARS / f'era5_{y}.npz'
+    if f.exists():
+        return f
+    r = year(y)
+    np.savez_compressed(f, **{k: np.round(v * 10).astype(np.int16) for k, v in r.items()})
+    print('stored', f.name, flush=True)
+    return f
+
+
+if len(sys.argv) > 3 and sys.argv[3] == '--one':
+    save_year(Y0)
+    sys.exit(0)
+missing = [y for y in range(Y0, Y1 + 1) if not (YEARS / f'era5_{y}.npz').exists()]
+if missing:
+    print('missing years:', missing)
+    sys.exit(3)
+R = [dict(np.load(YEARS / f'era5_{y}.npz')) for y in range(Y0, Y1 + 1)]
+out = {k: np.concatenate([r[k] for r in R]).astype(np.int16) for k in R[0]}
 out['start'] = np.array(f'{Y0}-01-01'); out['lon'] = np.arange(144) * 2.5
 dest = ROOT / 'data' / 'papers' / '1982' / f'era5_band_{Y0}_{Y1}.npz'
 np.savez_compressed(dest, **out)

@@ -1,8 +1,10 @@
 name: ERA5 equatorial winds (Copernicus CDS)
 
-# Fetches ERA5 zonal wind for 10°S–10°N, 1979–2001, reduces it to daily band means and re-tests the 1982 westerly-wind-burst list.
-# Needs the repository secret CDSAPI_KEY (personal access token from https://cds.climate.copernicus.eu/profile) and the ERA5
-# licences accepted on the CDS. Run from the Actions tab (Run workflow), or by pushing a change to tools/era5/trigger.txt.
+# Fetches ERA5 zonal wind for 10°S–10°N, 1979–2001, one year at a time; each reduced year is committed as soon as it
+# arrives (data/papers/1982/era5_years/), so a run that hits the time limit loses nothing and re-dispatches itself.
+# When all years are present it assembles the band file and re-tests the 1982 westerly-wind-burst list.
+# Needs the repository secret CDSAPI_KEY. Shares the "cds" concurrency group with the CMIP6 job so the two never compete
+# for the CDS request queue.
 on:
   workflow_dispatch:
   push:
@@ -11,15 +13,16 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
-  group: era5
+  group: cds
   cancel-in-progress: false
 
 jobs:
   era5:
     runs-on: ubuntu-latest
-    timeout-minutes: 340
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -30,15 +33,36 @@ jobs:
           if [ -z "$CDSAPI_KEY" ]; then echo "::error::Repository secret CDSAPI_KEY is missing (Settings > Secrets and variables > Actions)"; exit 1; fi
           printf 'url: https://cds.climate.copernicus.eu/api\nkey: %s\n' "$CDSAPI_KEY" > ~/.cdsapirc; chmod 600 ~/.cdsapirc
       - run: pip install cdsapi netCDF4 numpy scipy
-      - name: Fetch ERA5 and reduce to band means
-        run: python3 tools/era5/fetch_band.py 1979 2001
-      - name: Re-test westerly wind bursts
-        run: python3 tools/papers/wwb_era5_1982.py
-      - name: Commit results
+      - name: Fetch years one by one (commit each), stop before the time limit
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          end=$(( $(date +%s) + 290*60 ))
+          mkdir -p data/papers/1982/era5_years
+          echo "started $(date -u)" > data/papers/1982/era5_years/progress.txt
+          for y in $(seq 1979 2001); do
+            f=data/papers/1982/era5_years/era5_$y.npz
+            [ -f "$f" ] && continue
+            [ $(date +%s) -gt $end ] && { echo "time budget used; stopping before $y"; break; }
+            if timeout $(( end - $(date +%s) + 60 ))s python3 tools/era5/fetch_band.py $y $y --one; then
+              echo "$y stored $(date -u +%FT%TZ)" >> data/papers/1982/era5_years/progress.txt
+              git add "$f" data/papers/1982/era5_years/progress.txt; git commit -qm "ERA5 band means $y"
+              for i in 1 2 3; do git pull -q --rebase -X theirs origin main && git push -q origin HEAD:main && break; sleep $((i*15)); done
+            else
+              echo "$y failed or timed out $(date -u +%FT%TZ)" >> data/papers/1982/era5_years/progress.txt
+            fi
+          done
+      - name: Assemble and re-test, or continue in a new run
+        env: { GH_TOKEN: '${{ github.token }}' }
         run: |
           rm -f ~/.cdsapirc
-          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/papers/1982/era5_band_1979_2001.npz data/papers/1982/era5_wwb.json
-          git diff --cached --quiet && { echo "No changes"; exit 0; }
-          git commit -m "ERA5 equatorial winds 1979-2001 and WWB re-test"
-          for i in 1 2 3; do git pull --rebase -X theirs origin main && git push origin HEAD:main && exit 0; sleep $((i*15)); done; exit 1
+          git pull -q --rebase -X theirs origin main || true
+          if python3 tools/era5/fetch_band.py 1979 2001; then
+            python3 tools/papers/wwb_era5_1982.py
+            git add data/papers/1982/era5_band_1979_2001.npz data/papers/1982/era5_wwb.json
+            git commit -qm "ERA5 equatorial winds 1979-2001 and WWB re-test" || true
+            for i in 1 2 3; do git pull -q --rebase -X theirs origin main && git push -q origin HEAD:main && exit 0; sleep $((i*15)); done; exit 1
+          else
+            git add data/papers/1982/era5_years/progress.txt; git commit -qm "ERA5 progress" || true
+            git pull -q --rebase -X theirs origin main && git push -q origin HEAD:main || true
+            echo "Years missing; dispatching a new run"; gh workflow run era5.yml --ref main
+          fi
