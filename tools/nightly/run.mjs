@@ -55,9 +55,10 @@ async function getText(url, tries = 3) {
 
 async function firms(area, days) {
   if (!FIRMS_KEY) throw new Error('FIRMS_MAP_KEY secret is not set');
-  const out = [];
+  let out = [];
   for (const src of ['VIIRS_NOAA20_NRT', 'VIIRS_SNPP_NRT']) {
-    out.push(...T.parseCsv(await getText(`https://firms.modaps.eosdis.nasa.gov/api/area/csv/${FIRMS_KEY}/${src}/${area}/${days}`)));
+    // concat, not push(...rows): a 2-day world request returns >100k rows, which overflows the call stack as spread arguments
+    out = out.concat(T.parseCsv(await getText(`https://firms.modaps.eosdis.nasa.gov/api/area/csv/${FIRMS_KEY}/${src}/${area}/${days}`)));
   }
   return out;
 }
