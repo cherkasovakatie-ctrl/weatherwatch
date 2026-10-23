@@ -1,0 +1,1645 @@
+{
+ "xuekumar2017": {
+  "query": "Xue Kumar 2017 Evolution of the 2015/16 El Nino and historical perspective since 1979 Science China Earth Sciences",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1007/s11430-016-0106-9",
+    "title": "Evolution of the 2015/16 El Niño and historical perspective since 1979",
+    "journal": "Science China Earth Sciences",
+    "volume": "60",
+    "issue": "9",
+    "page": "1572-1588",
+    "year": 2016,
+    "authors": [
+     "Xue, Yan",
+     "Kumar, Arun"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": "The 2015/16 El Niño developed from weak warm conditions in late 2014 and NINO3.4 reached 3oC in November 2015. We describe the characteristics of the evolution of the 2015/16 El Niño using various data sets including SST, surface winds, outgoing longwave radiation and subsurface temperature from an ensemble operational ocean reanalyses, and place this event in the context of historical ENSO events since 1979. One salient feature about the 2015/16 El Niño was a large number of westerly wind bursts and downwelling oceanic Kelvin waves (DWKVs). Four DWKVs were observed in April-November 2015 that initiated and enhanced the eastern-central Pacific warming. Eastward zonal current anomalies associated with DWKVs advected the warm pool water eastward in spring/summer. An upwelling Kelvin wave (UWKV) emerged in early November 2015 leading to a rapid decline of the event. Another outstanding feature was that NINO4 reached a historical high (1.7oC), which was 1oC (0.8oC) higher than that of the 1982/83 (1997/98) El Niño. Although NINO3 was comparable to that of the 1982/83 and 1997/98 El Niño, NINO1+2 was much weaker. Consistently, enhanced convection was displaced 20 degree westward, and the maximum D20 anomaly was about 1/3−1/2 of that in 1997 and 1982 near the west coast of South America.",
+    "oa_status": "hybrid",
+    "oa_url": "https://link.springer.com/content/pdf/10.1007/s11430-016-0106-9.pdf",
+    "cited_by": 50
+   },
+   {
+    "doi": "10.1007/bf02877543",
+    "title": "Environmental evolution of Zoigê Basin since 900 kaB.P. and comparison study with Loess Plateau",
+    "journal": "Science in China Series D: Earth Sciences",
+    "volume": "40",
+    "issue": "3",
+    "page": "329-336",
+    "year": 1997,
+    "authors": [
+     "Wang, Sumin",
+     "Xue, Bin"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 17
+   },
+   {
+    "doi": "10.1007/s11430-015-5153-z",
+    "title": "Timing of uplift and evolution of the Lüliang Mountains, North China Craton",
+    "journal": "Science China Earth Sciences",
+    "volume": "59",
+    "issue": "1",
+    "page": "58-69",
+    "year": 2015,
+    "authors": [
+     "Zhao, JunFeng",
+     "Liu, ChiYang",
+     "Mountney, Nigel",
+     "Lu, JianJun",
+     "Cao, JiLong",
+     "Yang, Yao",
+     "Xue, Rui"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 47
+   }
+  ]
+ },
+ "huang2016rank": {
+  "query": "Huang L'Heureux Hu Zhang 2016 Ranking the strongest ENSO events while incorporating SST uncertainty Geophysical Research Letters",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1002/2016gl070888",
+    "title": "Ranking the strongest ENSO events while incorporating SST uncertainty",
+    "journal": "Geophysical Research Letters",
+    "volume": "43",
+    "issue": "17",
+    "page": "9165-9172",
+    "year": 2016,
+    "authors": [
+     "Huang, Boyin",
+     "L'Heureux, Michelle",
+     "Hu, Zeng‐Zhen",
+     "Zhang, Huai‐Min"
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title><jats:p>The strength of El Niño–Southern Oscillation (ENSO) is often measured using a single, discrete value of the Niño index. However, this method does not consider the sea surface temperature (SST) uncertainty associated with the observations and data processing. On the basis of the Niño3.4 index and its uncertainty, we find that the strength of the three strongest ENSO events is not separable at 95% confidence level. The monthly peak SST anomalies in the most recent 2015–2016 El Niño is tied with 1997–1998 and 1982–1983 El Niño as the strongest. The three most negative monthly Niño values occur within the 1955–1956, 1973–1974, and 1975–1976 La Niña events, which cannot be discriminated by rank. The histograms of 1000‐member ensemble analysis support the conclusion that the strength of the three strongest ENSO events is not separable. These results highlight that the ENSO ranking has to include the SST uncertainty.</jats:p>",
+    "abstract_openalex": "Abstract The strength of El Niño–Southern Oscillation (ENSO) is often measured using a single, discrete value of the Niño index. However, this method does not consider the sea surface temperature (SST) uncertainty associated with the observations and data processing. On the basis of the Niño3.4 index and its uncertainty, we find that the strength of the three strongest ENSO events is not separable at 95% confidence level. The monthly peak SST anomalies in the most recent 2015–2016 El Niño is tied with 1997–1998 and 1982–1983 El Niño as the strongest. The three most negative monthly Niño values occur within the 1955–1956, 1973–1974, and 1975–1976 La Niña events, which cannot be discriminated by rank. The histograms of 1000‐member ensemble analysis support the conclusion that the strength of the three strongest ENSO events is not separable. These results highlight that the ENSO ranking has to include the SST uncertainty.",
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 119
+   },
+   {
+    "doi": "10.1029/2005gl023944",
+    "title": "Atlantic SST gradient and the influence of ENSO",
+    "journal": "Geophysical Research Letters",
+    "volume": "32",
+    "issue": "20",
+    "page": null,
+    "year": 2005,
+    "authors": [
+     "Huang, Huei‐Ping",
+     "Robertson, Andrew W.",
+     "Kushnir, Yochanan"
+    ],
+    "abstract_crossref": "<jats:p>The relationship between the boreal winter El Niño SST anomaly and boreal spring tropical Atlantic SST gradient (North Atlantic minus South Atlantic) is investigated using a long, detrended SST record. For both El Niño and La Niña, concordant cases (same sign for NINO3 index and Atlantic SST gradient) slightly dominate over discordant ones, reflecting the fact that the NINO3 index correlates more strongly with the North Atlantic than the South Atlantic SST anomaly. The ratio of the numbers of concordant and discordant cases is 4:3 overall, indicating strong non‐ENSO influences on the Atlantic SST gradient. The composite of the concordant cases shows an SST anomaly in the North Atlantic with the same sign as NINO3 and an opposite‐signed anomaly off the southwest coast of Africa resembling “Benguela Niño”. That of the discordant cases is dominated by a pre‐existing SST anomaly with the same sign as NINO3 in the south‐central South Atlantic.</jats:p>",
+    "abstract_openalex": "The relationship between the boreal winter El Niño SST anomaly and boreal spring tropical Atlantic SST gradient (North Atlantic minus South Atlantic) is investigated using a long, detrended SST record. For both El Niño and La Niña, concordant cases (same sign for NINO3 index and Atlantic SST gradient) slightly dominate over discordant ones, reflecting the fact that the NINO3 index correlates more strongly with the North Atlantic than the South Atlantic SST anomaly. The ratio of the numbers of concordant and discordant cases is 4:3 overall, indicating strong non‐ENSO influences on the Atlantic SST gradient. The composite of the concordant cases shows an SST anomaly in the North Atlantic with the same sign as NINO3 and an opposite‐signed anomaly off the southwest coast of Africa resembling “Benguela Niño”. That of the discordant cases is dominated by a pre‐existing SST anomaly with the same sign as NINO3 in the south‐central South Atlantic.",
+    "oa_status": "green",
+    "oa_url": "https://doi.org/10.7916/d8708b45",
+    "cited_by": 13
+   },
+   {
+    "doi": "10.1029/2006gl027238",
+    "title": "Air‐sea humidity effects on the generation of tropical Atlantic SST anomalies during the ENSO events",
+    "journal": "Geophysical Research Letters",
+    "volume": "33",
+    "issue": "19",
+    "page": null,
+    "year": 2006,
+    "authors": [
+     "Chikamoto, Yoshimitsu",
+     "Tanimoto, Youichi"
+    ],
+    "abstract_crossref": "<jats:p>After the mature stage of the ENSO events in the boreal winter, SST and latent heat flux anomalies over the tropical Atlantic during the following spring show large amplitude north of the equator but small one south of the equator. The linear decomposition analyses of the latent heat flux anomalies indicate that the contribution from wind speed anomaly shows an equatorial antisymmetric structure with same magnitude but opposite polarity between north and south of the equator, while the contribution from anomalous air‐sea humidity difference counters to that from wind speed anomaly south of the equator. These results suggest an important role of anomalous air‐sea humidity difference on forming latent heat flux anomaly and significantly modifies the conventional view of wind speed as the dominant effect in ENSO‐induced tropical Atlantic SST changes.</jats:p>",
+    "abstract_openalex": "After the mature stage of the ENSO events in the boreal winter, SST and latent heat flux anomalies over the tropical Atlantic during the following spring show large amplitude north of the equator but small one south of the equator. The linear decomposition analyses of the latent heat flux anomalies indicate that the contribution from wind speed anomaly shows an equatorial antisymmetric structure with same magnitude but opposite polarity between north and south of the equator, while the contribution from anomalous air‐sea humidity difference counters to that from wind speed anomaly south of the equator. These results suggest an important role of anomalous air‐sea humidity difference on forming latent heat flux anomaly and significantly modifies the conventional view of wind speed as the dominant effect in ENSO‐induced tropical Atlantic SST changes.",
+    "oa_status": "bronze",
+    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2006GL027238",
+    "cited_by": 15
+   }
+  ]
+ },
+ "hong2014": {
+  "query": "Hong Ho Jin 2014 A Southern Hemisphere booster of super El Nino Geophysical Research Letters",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1002/2014gl059370",
+    "title": "A Southern Hemisphere booster of super El Niño",
+    "journal": "Geophysical Research Letters",
+    "volume": "41",
+    "issue": "6",
+    "page": "2142-2149",
+    "year": 2014,
+    "authors": [
+     "Hong, Li-Ciao",
+     "LinHo, ",
+     "Jin, Fei-Fei"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": "A distinct class of El Niño events with extreme magnitude (termed “super El Niño” events in this study) is identified after removing decadal variation. These events occurred in 1972/1973, 1982/1983, and 1997/1998. They are distinguished not only by their size but also by associated features such as a Southern Hemispheric transverse circulation that is not similarly robust in other El Niño events. This transverse circulation is characterized by a low-level equatorward flow, which spins off from a high sea-level-pressure anomaly around Australia and then merges into the deep convection anomalies over the central Pacific, and by an upper-level southward divergent flow, which branches off from the convection center and connects to the subsidence of the Australia high. It is suggested that this transverse cell, peaking in boreal summer, serves as an effective booster during the developing stage of a super El Niño by intensifying tropical Pacific low-level westerly winds.",
+    "oa_status": "bronze",
+    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2014GL059370",
+    "cited_by": 72
+   },
+   {
+    "doi": "10.1007/978-981-10-0527-5_5",
+    "title": "Southern Hemisphere Booster",
+    "journal": "Springer Theses",
+    "volume": null,
+    "issue": null,
+    "page": "51-57",
+    "year": 2016,
+    "authors": [
+     "Hong, Li-Ciao"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 0
+   },
+   {
+    "doi": "10.1029/93gl01782",
+    "title": "A general circulation model simulation of El Nino effects in the extratropical northern hemisphere stratosphere",
+    "journal": "Geophysical Research Letters",
+    "volume": "20",
+    "issue": "17",
+    "page": "1803-1806",
+    "year": 1993,
+    "authors": [
+     "Hamilton, Kevin"
+    ],
+    "abstract_crossref": "<jats:p>This paper examines the effects of imposed tropical Pacific sea surface temperature perturbations on the December‐February mean circulation in the Northern Hemisphere stratosphere as simulated by the GFDL “SKYHI” troposphere‐stratosphere‐mesosphere GCM. The results are in impressive agreement with observational studies that have shown that, on average, ENSO events are associated with a mixed zonal wave 1 and 2 perturbation to the stratospheric stationary wave field (phased so that the Aleutian High at midstratospheric levels is intensified). This is a useful test of the sensitivity of the model stratospheric climate to changes in tropospheric forcing. These results for the effects of the Pacific SST anomalies are used in a very rough estimate of the impact of year‐to‐year changes in SST on the interannual variability of the extratropical stratospheric circulation. The results of this calculation suggest that interannual SST variation accounts for only a small fraction of stratospheric variability at high latitudes.</jats:p>",
+    "abstract_openalex": "This paper examines the effects of imposed tropical Pacific sea surface temperature perturbations on the December‐February mean circulation in the Northern Hemisphere stratosphere as simulated by the GFDL “SKYHI” troposphere‐stratosphere‐mesosphere GCM. The results are in impressive agreement with observational studies that have shown that, on average, ENSO events are associated with a mixed zonal wave 1 and 2 perturbation to the stratospheric stationary wave field (phased so that the Aleutian High at midstratospheric levels is intensified). This is a useful test of the sensitivity of the model stratospheric climate to changes in tropospheric forcing. These results for the effects of the Pacific SST anomalies are used in a very rough estimate of the impact of year‐to‐year changes in SST on the interannual variability of the extratropical stratospheric circulation. The results of this calculation suggest that interannual SST variation accounts for only a small fraction of stratospheric variability at high latitudes.",
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 19
+   }
+  ]
+ },
+ "fedorov2015": {
+  "query": "Fedorov Hu Lengaigne Guilyardi 2015 The impact of westerly wind bursts and ocean initial state on the development and diversity of El Nino events Climate Dynamics",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1007/s00382-014-2126-4",
+    "title": "The impact of westerly wind bursts and ocean initial state on the development, and diversity of El Niño events",
+    "journal": "Climate Dynamics",
+    "volume": "44",
+    "issue": "5-6",
+    "page": "1381-1401",
+    "year": 2014,
+    "authors": [
+     "Fedorov, Alexey V.",
+     "Hu, Shineng",
+     "Lengaigne, Matthieu",
+     "Guilyardi, Eric"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 200
+   },
+   {
+    "doi": "10.1002/2014gl059573",
+    "title": "The impact of westerly wind bursts on the diversity and predictability of El Niño events: An ocean energetics perspective",
+    "journal": "Geophysical Research Letters",
+    "volume": "41",
+    "issue": "13",
+    "page": "4654-4663",
+    "year": 2014,
+    "authors": [
+     "Hu, Shineng",
+     "Fedorov, Alexey V.",
+     "Lengaigne, Matthieu",
+     "Guilyardi, Eric"
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title>\n                  <jats:p>In this study, we apply ocean energetics as a diagnostic tool to investigate the impact of westerly wind bursts (WWBs) on the evolution, diversity, and predictability of El Niño events. Following Fedorov et al. (2014), we add an observed WWB to simulations within a comprehensive coupled model and explore changes in the available potential energy (APE) of the tropical Pacific basin. We find that WWB impacts strongly depend on the ocean initial state and can range from a Central Pacific (CP) to Eastern Pacific (EP) warming, which is closely reflected by the ocean energetics. Consequently, the APE can be used to quantify the diversity of El Niño events within this continuum—higher negative APE values typically correspond to EP events, lower values to CP events. We also find that a superimposed WWB enhances El Niño predictability even before the spring predictability barrier, if one uses the APE as a predictor.</jats:p>",
+    "abstract_openalex": "Abstract In this study, we apply ocean energetics as a diagnostic tool to investigate the impact of westerly wind bursts (WWBs) on the evolution, diversity, and predictability of El Niño events. Following Fedorov et al. (2014), we add an observed WWB to simulations within a comprehensive coupled model and explore changes in the available potential energy (APE) of the tropical Pacific basin. We find that WWB impacts strongly depend on the ocean initial state and can range from a Central Pacific (CP) to Eastern Pacific (EP) warming, which is closely reflected by the ocean energetics. Consequently, the APE can be used to quantify the diversity of El Niño events within this continuum—higher negative APE values typically correspond to EP events, lower values to CP events. We also find that a superimposed WWB enhances El Niño predictability even before the spring predictability barrier, if one uses the APE as a predictor.",
+    "oa_status": "bronze",
+    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2014GL059573",
+    "cited_by": 98
+   },
+   {
+    "doi": "10.1007/s00382-004-0457-2",
+    "title": "Triggering of El Ni�o by westerly wind events in a coupled general circulation model",
+    "journal": "Climate Dynamics",
+    "volume": "23",
+    "issue": "6",
+    "page": "601-620",
+    "year": 2004,
+    "authors": [
+     "Lengaigne, Matthieu",
+     "Guilyardi, Eric",
+     "Boulanger, Jean-Philippe",
+     "Menkes, Christophe",
+     "Delecluse, Pascale",
+     "Inness, Pete",
+     "Cole, Jeff",
+     "Slingo, Julia"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 260
+   }
+  ]
+ },
+ "hu2014": {
+  "query": "10.1002/2014GL059573",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1002/2014gl059573",
+    "title": "The impact of westerly wind bursts on the diversity and predictability of El Niño events: An ocean energetics perspective",
+    "journal": "Geophysical Research Letters",
+    "volume": "41",
+    "issue": "13",
+    "page": "4654-4663",
+    "year": 2014,
+    "authors": [
+     "Hu, Shineng",
+     "Fedorov, Alexey V.",
+     "Lengaigne, Matthieu",
+     "Guilyardi, Eric"
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title>\n                  <jats:p>In this study, we apply ocean energetics as a diagnostic tool to investigate the impact of westerly wind bursts (WWBs) on the evolution, diversity, and predictability of El Niño events. Following Fedorov et al. (2014), we add an observed WWB to simulations within a comprehensive coupled model and explore changes in the available potential energy (APE) of the tropical Pacific basin. We find that WWB impacts strongly depend on the ocean initial state and can range from a Central Pacific (CP) to Eastern Pacific (EP) warming, which is closely reflected by the ocean energetics. Consequently, the APE can be used to quantify the diversity of El Niño events within this continuum—higher negative APE values typically correspond to EP events, lower values to CP events. We also find that a superimposed WWB enhances El Niño predictability even before the spring predictability barrier, if one uses the APE as a predictor.</jats:p>",
+    "abstract_openalex": "Abstract In this study, we apply ocean energetics as a diagnostic tool to investigate the impact of westerly wind bursts (WWBs) on the evolution, diversity, and predictability of El Niño events. Following Fedorov et al. (2014), we add an observed WWB to simulations within a comprehensive coupled model and explore changes in the available potential energy (APE) of the tropical Pacific basin. We find that WWB impacts strongly depend on the ocean initial state and can range from a Central Pacific (CP) to Eastern Pacific (EP) warming, which is closely reflected by the ocean energetics. Consequently, the APE can be used to quantify the diversity of El Niño events within this continuum—higher negative APE values typically correspond to EP events, lower values to CP events. We also find that a superimposed WWB enhances El Niño predictability even before the spring predictability barrier, if one uses the APE as a predictor.",
+    "oa_status": "bronze",
+    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2014GL059573",
+    "cited_by": 98
+   }
+  ]
+ },
+ "lian2014": {
+  "query": "10.1002/2014GL059989",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1002/2014gl059989",
+    "title": "Effects of westerly wind bursts on El Niño: A new perspective",
+    "journal": "Geophysical Research Letters",
+    "volume": "41",
+    "issue": "10",
+    "page": "3522-3527",
+    "year": 2014,
+    "authors": [
+     "Lian, Tao",
+     "Chen, Dake",
+     "Tang, Youmin",
+     "Wu, Qiaoyan"
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title><jats:p>Daily observations from 1971 to 2010 reveal that every El Niño during this period was accompanied by congregated westerly wind bursts, suggesting a close relationship of these bursts with both “cold tongue” and “warm pool” El Niño events. With the addition of burst‐like multiplicative noise to an intermediate ocean‐atmosphere coupled model, it is shown that westerly wind bursts, by generating eastward equatorial surface currents and downwelling Kelvin waves, could be responsible for the existence of the warm pool El Niño and for the irregularity and extremes of the cold tongue El Niño. Whether these bursts give rise to one type of El Nino or the other depends on the timing of their occurrence relative to the phase of the recharge‐discharge cycle of the equatorial upper ocean heat content.</jats:p>",
+    "abstract_openalex": "Abstract Daily observations from 1971 to 2010 reveal that every El Niño during this period was accompanied by congregated westerly wind bursts, suggesting a close relationship of these bursts with both “cold tongue” and “warm pool” El Niño events. With the addition of burst‐like multiplicative noise to an intermediate ocean‐atmosphere coupled model, it is shown that westerly wind bursts, by generating eastward equatorial surface currents and downwelling Kelvin waves, could be responsible for the existence of the warm pool El Niño and for the irregularity and extremes of the cold tongue El Niño. Whether these bursts give rise to one type of El Nino or the other depends on the timing of their occurrence relative to the phase of the recharge‐discharge cycle of the equatorial upper ocean heat content.",
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 128
+   }
+  ]
+ },
+ "chen2015": {
+  "query": "10.1038/ngeo2399",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1038/ngeo2399",
+    "title": "Strong influence of westerly wind bursts on El Niño diversity",
+    "journal": "Nature Geoscience",
+    "volume": "8",
+    "issue": "5",
+    "page": "339-345",
+    "year": 2015,
+    "authors": [
+     "Chen, Dake",
+     "Lian, Tao",
+     "Fu, Congbin",
+     "Cane, Mark A.",
+     "Tang, Youmin",
+     "Murtugudde, Raghu",
+     "Song, Xunshu",
+     "Wu, Qiaoyan",
+     "Zhou, Lei"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 346
+   }
+  ]
+ },
+ "zhai2016": {
+  "query": "Zhai 2016 The strong El Nino of 2015/16 and its dominant impacts on global and China's climate Journal of Meteorological Research",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1007/s13351-016-6101-3",
+    "title": "The strong El Niño of 2015/16 and its dominant impacts on global and China's climate",
+    "journal": "Journal of Meteorological Research",
+    "volume": "30",
+    "issue": "3",
+    "page": "283-297",
+    "year": 2016,
+    "authors": [
+     "Zhai, Panmao",
+     "Yu, Rong",
+     "Guo, Yanjun",
+     "Li, Qingxiang",
+     "Ren, Xuejuan",
+     "Wang, Yaqiang",
+     "Xu, Wenhui",
+     "Liu, Yanju",
+     "Ding, Yihui"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 177
+   },
+   {
+    "doi": "10.56975/jaafr.v4i7.512730",
+    "title": "El Nino and Global Climate Variability: Impacts and Adaptation",
+    "journal": "JOURNAL OF ADVANCE AND FUTURE RESEARCH",
+    "volume": "4",
+    "issue": "7",
+    "page": null,
+    "year": 2026,
+    "authors": [
+     "Jainendra Kumar, Dr."
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": "El Niño is a recurring climate phenomenon associated with the warming of sea surface temperatures in the central and eastern equatorial Pacific Ocean, forming a key phase of the El Niño–Southern Oscillation (ENSO). It plays a crucial role in shaping global climate variability by influencing atmospheric circulation, precipitation patterns, and temperature regimes across different regions of the world. The impacts of El Niño are manifested through an increased occurrence of extreme weather events, including droughts, floods, heatwaves, tropical cyclones, and wildfires, which pose significant challenges to environmental sustainability, agricultural productivity, water security, public health, and economic development. As climate change intensifies the frequency and severity of climate extremes, understanding the interactions between El Niño and global climate systems has become increasingly important.",
+    "oa_status": "hybrid",
+    "oa_url": "https://rjwave.org/jaafr/papers/JAAFR2607319.pdf",
+    "cited_by": 0
+   },
+   {
+    "doi": "10.2480/agrmet.54.359",
+    "title": "EL Nino—Its Mechanisms and Some Impacts Climate variations and Its Impacts on Agriculture in Hokkaido",
+    "journal": "Journal of Agricultural Meteorology",
+    "volume": "54",
+    "issue": "4",
+    "page": "359-361",
+    "year": 1998,
+    "authors": [
+     "Research Group for Impacts of Clima, "
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "diamond",
+    "oa_url": "https://www.jstage.jst.go.jp/article/agrmet1943/54/4/54_4_359/_pdf",
+    "cited_by": 0
+   }
+  ]
+ },
+ "ren2017": {
+  "query": "Ren 2017 The 2015/16 super El Nino distinctive features Chinese Journal",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1007/s13351-017-6194-3",
+    "title": "Upper-ocean dynamical features and prediction of the super El Niño in 2015/16: A comparison with the cases in 1982/83 and 1997/98",
+    "journal": "Journal of Meteorological Research",
+    "volume": "31",
+    "issue": "2",
+    "page": "278-294",
+    "year": 2017,
+    "authors": [
+     "Ren, Hong-Li",
+     "Wang, Run",
+     "Zhai, Panmao",
+     "Ding, Yihui",
+     "Lu, Bo"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 41
+   },
+   {
+    "doi": "10.1007/s00376-020-0261-x",
+    "title": "Distinctive MJO Activity during the Boreal Winter of the 2015/16 Super El Niño in Comparison with Other Super El Niño Events",
+    "journal": "Advances in Atmospheric Sciences",
+    "volume": "38",
+    "issue": "4",
+    "page": "555-568",
+    "year": 2021,
+    "authors": [
+     "Lei, Xuben",
+     "Zhang, Wenjun",
+     "Hsu, Pang-Chi",
+     "Liu, Chao"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 6
+   },
+   {
+    "doi": "10.1142/s2345748117500178",
+    "title": "The 2015/16 “Super” El Niño Event and Its Climatic Impact",
+    "journal": "Chinese Journal of Urban and Environmental Studies",
+    "volume": "05",
+    "issue": "03",
+    "page": "1750017",
+    "year": 2017,
+    "authors": [
+     "ZHOU, Bing",
+     "SHAO, Xie"
+    ],
+    "abstract_crossref": "<jats:p> Climatic monitoring shows that 2015 has been the warmest year around the globe since the first modern observation was conducted in1880. Asia has witnessed its average land surface temperature reaching the highest level since 1901; China has seen the warmest year since 1951 when it had completed the meteorological records; the CO<jats:sub>2</jats:sub> concentration in the atmosphere exceeds 400[Formula: see text]ppm; the ocean thermal capacity sets a new record high; and the global sea surface temperature has also been the highest since 1870. Against the backdrop of global warming, the incidence of strong El Niño and the duration of El Niño in the central and eastern equatorial Pacific Ocean have both significantly increased, while the time interval between El Niño and La Niña has shortened. The 2015/16 “Super” El Niño event exceeds previous two “Super” El Niño events in several indexes (e.g. durative event and peak intensity), although the 1982/83 El Niño event keeps the record in terms of the intensity of atmospheric response to the ocean. Influenced by the 2015/16 “Super” El Niño event, the general atmospheric circulation was significantly abnormal with extreme climate events frequently occurring in many places worldwide. </jats:p>",
+    "abstract_openalex": "Climatic monitoring shows that 2015 has been the warmest year around the globe since the first modern observation was conducted in1880. Asia has witnessed its average land surface temperature reaching the highest level since 1901; China has seen the warmest year since 1951 when it had completed the meteorological records; the CO2 concentration in the atmosphere exceeds 400[Formula: see text]ppm; the ocean thermal capacity sets a new record high; and the global sea surface temperature has also been the highest since 1870. Against the backdrop of global warming, the incidence of strong El Niño and the duration of El Niño in the central and eastern equatorial Pacific Ocean have both significantly increased, while the time interval between El Niño and La Niña has shortened. The 2015/16 “Super” El Niño event exceeds previous two “Super” El Niño events in several indexes (e.g. durative event and peak intensity), although the 1982/83 El Niño event keeps the record in terms of the intensity of atmospheric response to the ocean. Influenced by the 2015/16 “Super” El Niño event, the general atmospheric circulation was significantly abnormal with extreme climate events frequently occurring in many places worldwide.",
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 3
+   }
+  ]
+ },
+ "stuecker2017": {
+  "query": "Stuecker 2017 Revisiting ENSO/Indian Ocean Dipole phase relationships Geophysical Research Letters",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1002/2016gl072308",
+    "title": "Revisiting ENSO/Indian Ocean Dipole phase relationships",
+    "journal": "Geophysical Research Letters",
+    "volume": "44",
+    "issue": "5",
+    "page": "2481-2492",
+    "year": 2017,
+    "authors": [
+     "Stuecker, Malte F.",
+     "Timmermann, Axel",
+     "Jin, Fei‐Fei",
+     "Chikamoto, Yoshimitsu",
+     "Zhang, Wenjun",
+     "Wittenberg, Andrew T.",
+     "Widiasih, Esther",
+     "Zhao, Sen"
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title>\n                  <jats:p>Here we show that the characteristics of the Indian Ocean Dipole (IOD), such as its power spectrum and phase relationship with the El Niño–Southern Oscillation (ENSO), can be succinctly explained by ENSO combination mode (C‐mode) wind and heat flux forcing together with a seasonal modulation of the air/sea coupled Indian Ocean (IO) Bjerknes feedback. This model explains the observed high‐frequency near‐annual IOD variability in terms of deterministic ENSO/annual cycle interactions. ENSO‐independent IOD events can be understood as a seasonally modulated ocean response to white noise atmospheric forcing. Under this new physical null hypothesis framework, IOD predictability is determined by both ENSO predictability and the ENSO signal‐to‐noise ratio. We further emphasize that lead/lag correlations between different climate variables are easily misinterpreted when not accounting properly for the seasonal modulation of the underlying climate phenomena.</jats:p>",
+    "abstract_openalex": "Abstract Here we show that the characteristics of the Indian Ocean Dipole (IOD), such as its power spectrum and phase relationship with the El Niño–Southern Oscillation (ENSO), can be succinctly explained by ENSO combination mode (C‐mode) wind and heat flux forcing together with a seasonal modulation of the air/sea coupled Indian Ocean (IO) Bjerknes feedback. This model explains the observed high‐frequency near‐annual IOD variability in terms of deterministic ENSO/annual cycle interactions. ENSO‐independent IOD events can be understood as a seasonally modulated ocean response to white noise atmospheric forcing. Under this new physical null hypothesis framework, IOD predictability is determined by both ENSO predictability and the ENSO signal‐to‐noise ratio. We further emphasize that lead/lag correlations between different climate variables are easily misinterpreted when not accounting properly for the seasonal modulation of the underlying climate phenomena.",
+    "oa_status": "bronze",
+    "oa_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2016GL072308",
+    "cited_by": 307
+   },
+   {
+    "doi": "10.1029/2019gl084196",
+    "title": "Improved Predictability of the Indian Ocean Dipole Using Seasonally Modulated ENSO Forcing Forecasts",
+    "journal": "Geophysical Research Letters",
+    "volume": "46",
+    "issue": "16",
+    "page": "9980-9990",
+    "year": 2019,
+    "authors": [
+     "Zhao, Sen",
+     "Jin, Fei‐Fei",
+     "Stuecker, Malte F."
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title><jats:p>Despite recent progress in seasonal forecast systems, the predictive skill for the Indian Ocean Dipole (IOD) remains typically limited to a lead time of one season or less in both dynamical and empirical models. Here we develop a simple stochastic‐dynamical model (SDM) to predict the IOD using seasonally modulated El Niño–Southern Oscillation (ENSO) forcing together with a seasonally modulated Indian Ocean coupled ocean‐atmosphere feedback. The SDM, with either observed or forecasted ENSO forcing, exhibits generally higher skill and longer lead times for predicting IOD events than the operational Climate Forecast System version 2 and the Scale Interaction Experiment–Frontier system. The improvements mainly originate from better prediction of ENSO‐dependent IOD events and from reducing false alarms. These results affirm our hypothesis that operational IOD predictability beyond persistence is largely controlled by ENSO predictability and the signal‐to‐noise ratio of the system. Therefore, potential future ENSO improvements in models should translate to more skillful IOD predictions.</jats:p>",
+    "abstract_openalex": "Abstract Despite recent progress in seasonal forecast systems, the predictive skill for the Indian Ocean Dipole (IOD) remains typically limited to a lead time of one season or less in both dynamical and empirical models. Here we develop a simple stochastic‐dynamical model (SDM) to predict the IOD using seasonally modulated El Niño–Southern Oscillation (ENSO) forcing together with a seasonally modulated Indian Ocean coupled ocean‐atmosphere feedback. The SDM, with either observed or forecasted ENSO forcing, exhibits generally higher skill and longer lead times for predicting IOD events than the operational Climate Forecast System version 2 and the Scale Interaction Experiment–Frontier system. The improvements mainly originate from better prediction of ENSO‐dependent IOD events and from reducing false alarms. These results affirm our hypothesis that operational IOD predictability beyond persistence is largely controlled by ENSO predictability and the signal‐to‐noise ratio of the system. Therefore, potential future ENSO improvements in models should translate to more skillful IOD predictions.",
+    "oa_status": "green",
+    "oa_url": "https://www.osti.gov/servlets/purl/1610804",
+    "cited_by": 64
+   },
+   {
+    "doi": "10.1029/2021gl095796",
+    "title": "ENSO Explains the Link Between Indian Ocean Dipole and Meridional Ocean Heat Transport",
+    "journal": "Geophysical Research Letters",
+    "volume": "49",
+    "issue": "2",
+    "page": null,
+    "year": 2022,
+    "authors": [
+     "McMonigal, K.",
+     "Larson, Sarah M."
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title><jats:p>Indian Ocean meridional heat transport (MHT<jats:sub>IO</jats:sub>) drives climate and ecosystem impacts, through changes to ocean temperature. Improved understanding of natural variability in tropical and subtropical MHT<jats:sub>IO</jats:sub> is needed to contextualize observations and future projections. Previous studies suggest that El Niño‐Southern Oscillation (ENSO) and Indian Ocean Dipole (IOD) can drive variability in MHT<jats:sub>IO</jats:sub>. However, it is unclear whether internally generated IOD can drive variability in MHT<jats:sub>IO</jats:sub>, or if the apparent relationship between IOD and MHT<jats:sub>IO</jats:sub> arises because both are modulated by ENSO. Here, we use a model experiment which dynamically removes ENSO to determine the role of internally forced IOD on MHT<jats:sub>IO</jats:sub>. We find that IOD is not linked to anomalies in MHT<jats:sub>IO</jats:sub>. Nevertheless, internal atmospheric variability drives significant MHT<jats:sub>IO</jats:sub> variability. There is little evidence for decadal or multidecadal variability in MHT<jats:sub>IO</jats:sub>, suggesting this may be a region where an anthropogenic trend rises above the level of internal variability sooner.</jats:p>",
+    "abstract_openalex": "Abstract Indian Ocean meridional heat transport (MHTIO) drives climate and ecosystem impacts, through changes to ocean temperature. Improved understanding of natural variability in tropical and subtropical MHTIO is needed to contextualize observations and future projections. Previous studies suggest that El Niño‐Southern Oscillation (ENSO) and Indian Ocean Dipole (IOD) can drive variability in MHTIO. However, it is unclear whether internally generated IOD can drive variability in MHTIO, or if the apparent relationship between IOD and MHTIO arises because both are modulated by ENSO. Here, we use a model experiment which dynamically removes ENSO to determine the role of internally forced IOD on MHTIO. We find that IOD is not linked to anomalies in MHTIO. Nevertheless, internal atmospheric variability drives significant MHTIO variability. There is little evidence for decadal or multidecadal variability in MHTIO, suggesting this may be a region where an anthropogenic trend rises above the level of internal variability sooner.",
+    "oa_status": "bronze",
+    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2021GL095796",
+    "cited_by": 14
+   }
+  ]
+ },
+ "pambavi": {
+  "query": "twin tropical cyclones Pam Bavi March 2015 westerly wind burst El Nino",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.24124/2020/59095",
+    "title": "Impact of westerly wind burst on El Niño-sourthern oscillation",
+    "journal": "",
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "year": null,
+    "authors": [
+     ", ",
+     "Alam, Mohammad"
+    ],
+    "abstract_crossref": "<jats:p>Westerly wind bursts (WWBs), usually occurring in the tropical Pacific region, play a vital role in El Niño–Southern Oscillation (ENSO). In this study, we use a hybrid coupled model (HCM) for the tropical Pacific Ocean-atmosphere system to investigate WWBs impact on ENSO. To achieve this goal, two experiments are performed: (a) first, the standard version of the HCM is integrated for years without prescribed WWBs events; and (b) second, the WWBs are added into the HCM (HCM-WWBs). Results show that HCM-WWBs can generate not only more realistic climatology of sea surface temperature (SST) in both spatial structure and temporal amplitudes, but also better ENSO features, than the HCM. In particular, the HCM-WWBs can capture the central Pacific (CP) ENSO events, which is absent in original HCM. Furthermore, the possible physical mechanisms responsible for these improvements by WWBs are discussed.</jats:p>",
+    "abstract_openalex": "Westerly wind bursts (WWBs), usually occurring in the tropical Pacific region, play a vital role in El Niño–Southern Oscillation (ENSO). In this study, we use a hybrid coupled model (HCM) for the tropical Pacific Ocean-atmosphere system to investigate WWBs impact on ENSO. To achieve this goal, two experiments are performed: (a) first, the standard version of the HCM is integrated for years without prescribed WWBs events; and (b) second, the WWBs are added into the HCM (HCM-WWBs). Results show that HCM-WWBs can generate not only more realistic climatology of sea surface temperature (SST) in both spatial structure and temporal amplitudes, but also better ENSO features, than the HCM. In particular, the HCM-WWBs can capture the central Pacific (CP) ENSO events, which is absent in original HCM. Furthermore, the possible physical mechanisms responsible for these improvements by WWBs are discussed.",
+    "oa_status": "gold",
+    "oa_url": "https://unbc.arcabc.ca/islandora/object/unbc%3A59095/datastream/PDF/view",
+    "cited_by": 0
+   },
+   {
+    "doi": "10.1007/s00382-021-05757-1",
+    "title": "Linking the Madden–Julian Oscillation, tropical cyclones and westerly wind bursts as part of El Niño development",
+    "journal": "Climate Dynamics",
+    "volume": "57",
+    "issue": "3-4",
+    "page": "1039-1060",
+    "year": 2021,
+    "authors": [
+     "Liang, Yu",
+     "Fedorov, Alexey V."
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 36
+   },
+   {
+    "doi": "10.1007/bf02915512",
+    "title": "Modulation of twin tropical cyclogenesis by the MJO westerly wind burst during the onset period of 1997/98 ENSO",
+    "journal": "Advances in Atmospheric Sciences",
+    "volume": "20",
+    "issue": "6",
+    "page": "882-898",
+    "year": 2003,
+    "authors": [
+     "Congwen, Zhu",
+     "Nakazawa, Tetsuo",
+     "Jianping, Li"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 13
+   }
+  ]
+ },
+ "mjo2015": {
+  "query": "Madden-Julian oscillation 2015 El Nino westerly wind events onset extreme",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1175/jcli-d-13-00547.1",
+    "title": "Subseasonal Atmospheric Variability and El Niño Waveguide Warming: Observed Effects of the Madden–Julian Oscillation and Westerly Wind Events*",
+    "journal": "Journal of Climate",
+    "volume": "27",
+    "issue": "10",
+    "page": "3619-3642",
+    "year": 2014,
+    "authors": [
+     "Chiodi, Andrew M.",
+     "Harrison, D. E.",
+     "Vecchi, Gabriel A."
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title><jats:p>Westerly wind events (WWEs) have previously been shown to initiate equatorial Pacific waveguide warming. The relationship between WWEs and Madden–Julian oscillation (MJO) activity, as well as the role of MJO events in initiating waveguide warming, is reconsidered here over the 1986–2010 period. WWEs are identified in observations of near-surface zonal winds using an objective scheme. MJO events are defined using a widely used index, and 64 are identified that occur when the El Niño–Southern Oscillation (ENSO) is in its neutral state. Of these MJO events, 43 have one or more embedded WWEs and 21 do not. The evolution of sea surface temperature anomaly over the equatorial Pacific waveguide following the westerly surface wind phase of the MJO over the western equatorial Pacific is examined. Waveguide warming is found for the MJO with WWE events in similar magnitudes as following the WWEs not embedded in an MJO. There is very little statistically significant waveguide warming following MJO events that do not contain an embedded WWE. The observed SST anomaly changes are well reproduced in an ocean general circulation model forced with the respective composite wind stress anomalies. Further, it is found that the occurrence of an MJO event does not significantly affect the likelihood that a WWE will occur. These results extend and confirm the earlier results of Vecchi with a near doubling of the period of study. It is suggested that understanding the sources and predictability of tropical Pacific westerly wind events remains essential to improving predictions of the onset of El Niño events.</jats:p>",
+    "abstract_openalex": "Abstract Westerly wind events (WWEs) have previously been shown to initiate equatorial Pacific waveguide warming. The relationship between WWEs and Madden–Julian oscillation (MJO) activity, as well as the role of MJO events in initiating waveguide warming, is reconsidered here over the 1986–2010 period. WWEs are identified in observations of near-surface zonal winds using an objective scheme. MJO events are defined using a widely used index, and 64 are identified that occur when the El Niño–Southern Oscillation (ENSO) is in its neutral state. Of these MJO events, 43 have one or more embedded WWEs and 21 do not. The evolution of sea surface temperature anomaly over the equatorial Pacific waveguide following the westerly surface wind phase of the MJO over the western equatorial Pacific is examined. Waveguide warming is found for the MJO with WWE events in similar magnitudes as following the WWEs not embedded in an MJO. There is very little statistically significant waveguide warming following MJO events that do not contain an embedded WWE. The observed SST anomaly changes are well reproduced in an ocean general circulation model forced with the respective composite wind stress anomalies. Further, it is found that the occurrence of an MJO event does not significantly affect the likelihood that a WWE will occur. These results extend and confirm the earlier results of Vecchi with a near doubling of the period of study. It is suggested that understanding the sources and predictability of tropical Pacific westerly wind events remains essential to improving predictions of the onset of El Niño events.",
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 57
+   },
+   {
+    "doi": "10.1029/2020gl089395",
+    "title": "Intensification of Westerly Wind Bursts Caused by the Coupling of the Madden‐Julian Oscillation to SST During El Niño Onset and Development",
+    "journal": "Geophysical Research Letters",
+    "volume": "48",
+    "issue": "9",
+    "page": null,
+    "year": 2021,
+    "authors": [
+     "Liang, Yu",
+     "Fedorov, Alexey V.",
+     "Haertel, Patrick"
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title><jats:p>The Madden‐Julian Oscillation (MJO) plays an important role in El Niño dynamics in connection with westerly wind bursts (WWBs) that occur in the equatorial Pacific; however, our understanding of the relationship between these climate phenomena remains incomplete. Here, we use a Lagrangian Atmospheric Model (LAM) to examine the response of the MJO and resulting WWBs to sea surface temperature (SST) anomalies similar to those observed during the onset and development of El Niño. We find that when a localized SST anomaly (≤1°C) is imposed in the western‐central equatorial Pacific between December and April (mimicking El Niño onset), the MJO convective envelope shifts from the southern hemisphere toward the equator. When an SST anomaly (≤1.5°C) is imposed in the central‐eastern equatorial Pacific between May and November (mimicking El Niño development), the MJO weakens in the northwestern Pacific, but strengthens in the central equatorial Pacific. In both experiments, the ensuing changes enhance MJO activity along the equator, facilitating WWBs.</jats:p>",
+    "abstract_openalex": "Abstract The Madden‐Julian Oscillation (MJO) plays an important role in El Niño dynamics in connection with westerly wind bursts (WWBs) that occur in the equatorial Pacific; however, our understanding of the relationship between these climate phenomena remains incomplete. Here, we use a Lagrangian Atmospheric Model (LAM) to examine the response of the MJO and resulting WWBs to sea surface temperature (SST) anomalies similar to those observed during the onset and development of El Niño. We find that when a localized SST anomaly (≤1°C) is imposed in the western‐central equatorial Pacific between December and April (mimicking El Niño onset), the MJO convective envelope shifts from the southern hemisphere toward the equator. When an SST anomaly (≤1.5°C) is imposed in the central‐eastern equatorial Pacific between May and November (mimicking El Niño development), the MJO weakens in the northwestern Pacific, but strengthens in the central equatorial Pacific. In both experiments, the ensuing changes enhance MJO activity along the equator, facilitating WWBs.",
+    "oa_status": "hybrid",
+    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2020GL089395",
+    "cited_by": 27
+   },
+   {
+    "doi": "10.1007/s00382-015-2695-x",
+    "title": "Modulation of equatorial Pacific westerly/easterly wind events by the Madden–Julian oscillation and convectively-coupled Rossby waves",
+    "journal": "Climate Dynamics",
+    "volume": "46",
+    "issue": "7-8",
+    "page": "2155-2178",
+    "year": 2015,
+    "authors": [
+     "Puy, Martin",
+     "Vialard, J.",
+     "Lengaigne, M.",
+     "Guilyardi, E."
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 142
+   }
+  ]
+ },
+ "liang2025": {
+  "query": "10.1126/sciadv.adv8621",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1126/sciadv.adv8621",
+    "title": "North Pacific meridional mode has larger impacts on El Niño evolution than the March Madden-Julian Oscillation",
+    "journal": "Science Advances",
+    "volume": "11",
+    "issue": "37",
+    "page": null,
+    "year": 2025,
+    "authors": [
+     "Liang, Yu",
+     "Xie, Shang-Ping",
+     "Fedorov, Alexey",
+     "Yeager, Stephen G."
+    ],
+    "abstract_crossref": "<jats:p>The El Niño–Southern Oscillation (ENSO) is a key driver of global climate variability. Early-season westerly wind bursts (WWBs) have long been suggested to be important for ENSO evolution and diversity, with the Madden-Julian Oscillation (MJO) among the main sources of WWBs. However, MJO’s contribution to ENSO evolution has been difficult to quantify. Here, using an ensemble hindcast approach specifically designed to isolate internal atmospheric variability, we evaluate the influences of March MJO on subsequent ENSO development. Our results show that the March MJO, under favorable background conditions, by itself has limited impacts on ENSO due to weak equatorial air-sea coupling in spring. In comparison, the North Pacific Oscillation–induced meridional mode exerts a more sustained influence on ENSO evolution. A cyclonic circulation anomaly over Hawaii, associated with the Pacific-North American pattern, also plays a role. These findings suggest that March MJO activity alone may not be a reliable predictor for ENSO evolution, but underscore the importance of North Pacific atmospheric variability.</jats:p>",
+    "abstract_openalex": "The El Niño-Southern Oscillation (ENSO) is a key driver of global climate variability. Early-season westerly wind bursts (WWBs) have long been suggested to be important for ENSO evolution and diversity, with the Madden-Julian Oscillation (MJO) among the main sources of WWBs. However, MJO's contribution to ENSO evolution has been difficult to quantify. Here, using an ensemble hindcast approach specifically designed to isolate internal atmospheric variability, we evaluate the influences of March MJO on subsequent ENSO development. Our results show that the March MJO, under favorable background conditions, by itself has limited impacts on ENSO due to weak equatorial air-sea coupling in spring. In comparison, the North Pacific Oscillation-induced meridional mode exerts a more sustained influence on ENSO evolution. A cyclonic circulation anomaly over Hawaii, associated with the Pacific-North American pattern, also plays a role. These findings suggest that March MJO activity alone may not be a reliable predictor for ENSO evolution, but underscore the importance of North Pacific atmospheric variability.",
+    "oa_status": "gold",
+    "oa_url": "https://www.science.org/doi/pdf/10.1126/sciadv.adv8621?download=true",
+    "cited_by": 4
+   }
+  ]
+ },
+ "amaya2019": {
+  "query": "10.1007/s40641-019-00142-x",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1007/s40641-019-00142-x",
+    "title": "The Pacific Meridional Mode and ENSO: a Review",
+    "journal": "Current Climate Change Reports",
+    "volume": "5",
+    "issue": "4",
+    "page": "296-307",
+    "year": 2019,
+    "authors": [
+     "Amaya, Dillon J."
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 225
+   }
+  ]
+ },
+ "mcgregor2012": {
+  "query": "10.1175/JCLI-D-11-00332.1",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1175/jcli-d-11-00332.1",
+    "title": "The Effect of the South Pacific Convergence Zone on the Termination of El Niño Events and the Meridional Asymmetry of ENSO*",
+    "journal": "Journal of Climate",
+    "volume": "25",
+    "issue": "16",
+    "page": "5566-5586",
+    "year": 2012,
+    "authors": [
+     "McGregor, Shayne",
+     "Timmermann, Axel",
+     "Schneider, Niklas",
+     "Stuecker, Malte F.",
+     "England, Matthew H."
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title><jats:p>During large El Niño events the westerly wind response to the eastern equatorial Pacific sea surface temperature anomalies (SSTAs) shifts southward during boreal winter and early spring, reaching latitudes of 5°–7°S. The resulting meridional asymmetry, along with a related seasonal weakening of wind anomalies on the equator are key elements in the termination of strong El Niño events. Using an intermediate complexity atmosphere model it is demonstrated that these features result from a weakening of the climatological wind speeds south of the equator toward the end of the calendar year. The reduced climatological wind speeds, which are associated with the seasonal intensification of the South Pacific convergence zone (SPCZ), lead to anomalous boundary layer Ekman pumping and a reduced surface momentum damping of the combined boundary layer/lower-troposphere surface wind response to El Niño. This allows the associated zonal wind anomalies to shift south of the equator. Furthermore, using a linear shallow-water ocean model it is demonstrated that this southward wind shift plays a prominent role in changing zonal mean equatorial heat content and is solely responsible for establishing the meridional asymmetry of thermocline depth in the turnaround (recharge/discharge) phase of ENSO. This result calls into question the sole role of oceanic Rossby waves in the phase synchronized termination of El Niño events and suggests that the development of a realistic climatological SPCZ in December–February/March–May (DJF/MAM) is one of the key factors in the seasonal termination of strong El Niño events.</jats:p>",
+    "abstract_openalex": "Abstract During large El Niño events the westerly wind response to the eastern equatorial Pacific sea surface temperature anomalies (SSTAs) shifts southward during boreal winter and early spring, reaching latitudes of 5°–7°S. The resulting meridional asymmetry, along with a related seasonal weakening of wind anomalies on the equator are key elements in the termination of strong El Niño events. Using an intermediate complexity atmosphere model it is demonstrated that these features result from a weakening of the climatological wind speeds south of the equator toward the end of the calendar year. The reduced climatological wind speeds, which are associated with the seasonal intensification of the South Pacific convergence zone (SPCZ), lead to anomalous boundary layer Ekman pumping and a reduced surface momentum damping of the combined boundary layer/lower-troposphere surface wind response to El Niño. This allows the associated zonal wind anomalies to shift south of the equator. Furthermore, using a linear shallow-water ocean model it is demonstrated that this southward wind shift plays a prominent role in changing zonal mean equatorial heat content and is solely responsible for establishing the meridional asymmetry of thermocline depth in the turnaround (recharge/discharge) phase of ENSO. This result calls into question the sole role of oceanic Rossby waves in the phase synchronized termination of El Niño events and suggests that the development of a realistic climatological SPCZ in December–February/March–May (DJF/MAM) is one of the key factors in the seasonal termination of strong El Niño events.",
+    "oa_status": "bronze",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/25/16/jcli-d-11-00332.1.pdf",
+    "cited_by": 143
+   }
+  ]
+ },
+ "stuecker2013": {
+  "query": "10.1038/ngeo1826",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1038/ngeo1826",
+    "title": "A combination mode of the annual cycle and the El Niño/Southern Oscillation",
+    "journal": "Nature Geoscience",
+    "volume": "6",
+    "issue": "7",
+    "page": "540-544",
+    "year": 2013,
+    "authors": [
+     "Stuecker, Malte F.",
+     "Timmermann, Axel",
+     "Jin, Fei-Fei",
+     "McGregor, Shayne",
+     "Ren, Hong-Li"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "green",
+    "oa_url": "https://unsworks.unsw.edu.au/bitstreams/1db175be-241a-4aa0-bf9e-11febf1705d7/download",
+    "cited_by": 287
+   }
+  ]
+ },
+ "tollefson2015": {
+  "query": "10.1038/nature.2015.17065",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1038/nature.2015.17065",
+    "title": "El Nino arrives, late and weak",
+    "journal": "Nature",
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "year": 2015,
+    "authors": [
+     "Tollefson, Jeff"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 0
+   }
+  ]
+ },
+ "tollefson2014": {
+  "query": "10.1038/nature.2014.14582",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1038/nature.2014.14582",
+    "title": "El Niño monitoring system in failure mode",
+    "journal": "Nature",
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "year": 2014,
+    "authors": [
+     "Tollefson, Jeff"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 18
+   }
+  ]
+ },
+ "ohba2005": {
+  "query": "10.2151/sola.2005-024",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.2151/sola.2005-024",
+    "title": "Basin-wide Warming in the Equatorial Indian Ocean Associated with El Nino",
+    "journal": "SOLA",
+    "volume": "1",
+    "issue": null,
+    "page": "89-92",
+    "year": 2005,
+    "authors": [
+     "Ohba, Masamichi",
+     "Ueda, Hiroaki"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "bronze",
+    "oa_url": "https://www.jstage.jst.go.jp/article/sola/1/0/1_0_89/_pdf",
+    "cited_by": 28
+   }
+  ]
+ },
+ "blob2015ENSO": {
+  "query": "North Pacific Blob 2014 2015 El Nino subtropical North Pacific warming trigger Hu Fedorov",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1175/jcli-d-26-0075.1",
+    "title": "Linkage between Northeast Pacific warm blob and following El Niño: Pivotal role of North Pacific meridional mode",
+    "journal": "Journal of Climate",
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "year": 2026,
+    "authors": [
+     "Shi, Jian",
+     "Tang, Yanjing",
+     "Mao, Jiongren",
+     "Chen, Jiajie",
+     "Hu, Xi",
+     "Wang, Zaiyu"
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title>\n                  <jats:p>Anomalous upper-ocean warming spanning several thousand kilometers and persisting across seasons in the Northeast Pacific (NEP), known as the “warm blob”, has significant ecological and climatic impacts. Previous studies have suggested the statistical linkage between the warm blobs in preceding winter and the El Niño in subsequent winter, however, the involving physical mechanisms remain unclear. Our results show that some warm blobs induce a transition from a high-pressure system to a quasi-barotropic low-pressure system over the NEP in boreal winter through local ocean-atmosphere interaction: diabatic heating and transient eddy forcing jointly promote the low-pressure system in the lower troposphere, while transient eddy vorticity forcing contributes substantially to its upper-tropospheric structure. Such mid-latitude low-pressure anomaly leads to the development of the North Pacific Meridional Mode in boreal spring, with southwesterly wind anomalies reducing oceanic turbulent heat loss over the subtropical NEP, which ultimately triggers the following El Niño. The potential pathway underlying the linkage between the warm blobs and El Niño is further evidenced by numerical experiments with a slab ocean model coupled to the Community Atmosphere Model version 5. Our results advance understanding on the physical connection between extratropical NEP variability and El Niño.</jats:p>",
+    "abstract_openalex": "Abstract Anomalous upper-ocean warming spanning several thousand kilometers and persisting across seasons in the Northeast Pacific (NEP), known as the “warm blob”, has significant ecological and climatic impacts. Previous studies have suggested the statistical linkage between the warm blobs in preceding winter and the El Niño in subsequent winter, however, the involving physical mechanisms remain unclear. Our results show that some warm blobs induce a transition from a high-pressure system to a quasi-barotropic low-pressure system over the NEP in boreal winter through local ocean-atmosphere interaction: diabatic heating and transient eddy forcing jointly promote the low-pressure system in the lower troposphere, while transient eddy vorticity forcing contributes substantially to its upper-tropospheric structure. Such mid-latitude low-pressure anomaly leads to the development of the North Pacific Meridional Mode in boreal spring, with southwesterly wind anomalies reducing oceanic turbulent heat loss over the subtropical NEP, which ultimately triggers the following El Niño. The potential pathway underlying the linkage between the warm blobs and El Niño is further evidenced by numerical experiments with a slab ocean model coupled to the Community Atmosphere Model version 5. Our results advance understanding on the physical connection between extratropical NEP variability and El Niño.",
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 0
+   },
+   {
+    "doi": "10.1038/nature.2015.18218",
+    "title": "North Pacific ‘blob’ stirs up fisheries management",
+    "journal": "Nature",
+    "volume": "524",
+    "issue": "7566",
+    "page": "396-396",
+    "year": 2015,
+    "authors": [
+     "Gewin, Virginia"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 6
+   },
+   {
+    "doi": "10.1175/jcli-d-21-1024.1",
+    "title": "Distinct Responses of North Pacific and North Atlantic Summertime Subtropical Anticyclones to Global Warming",
+    "journal": "Journal of Climate",
+    "volume": "35",
+    "issue": "24",
+    "page": "8117-8132",
+    "year": 2022,
+    "authors": [
+     "He, Chao",
+     "Zhou, Tianjun"
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title>\n<jats:p>The subtropical North Pacific and North Atlantic are controlled by basin-scale anticyclones in boreal summer. Based on a novel metric regarding the strengths of the rotational and the divergent circulation of anticyclones, we investigated the possible future responses in the intensity of these two subtropical anticyclones to global warming. While the North Atlantic subtropical anticyclone (NASA) is projected to strengthen, the North Pacific subtropical anticyclone (NPSA) is projected to weaken, in terms of both the rotational and the divergent circulation. The distinct responses of the NPSA and NASA are corroborated by the models participating in the fifth and sixth phases of the Coupled Model Intercomparison Project (CMIP), under both intermediate and high emission scenarios. We further investigated the possible mechanism for their distinct responses by decomposing the effect of greenhouse gas forcing into the direct effect of increased CO<jats:sub>2</jats:sub> concentration and the indirect effect through sea surface temperature (SST). The intensified NASA results from the CO<jats:sub>2</jats:sub> direct forcing while the weakened NPSA is dominated by the SST warming. The CO<jats:sub>2</jats:sub> direct forcing enhances the NASA by increasing land–ocean thermal contrast anchored by the largest subtropical continental area, the Eurasian–African continent. Both the uniform SST warming and the change in SST pattern act to weaken the NPSA by increasing the latent heating over the subtropical North Pacific basin, as suggested by atmospheric component model simulations. The distinct responses of the NPSA and the NASA may lead to zonal asymmetry of the subtropical climate change.</jats:p>",
+    "abstract_openalex": "Abstract The subtropical North Pacific and North Atlantic are controlled by basin-scale anticyclones in boreal summer. Based on a novel metric regarding the strengths of the rotational and the divergent circulation of anticyclones, we investigated the possible future responses in the intensity of these two subtropical anticyclones to global warming. While the North Atlantic subtropical anticyclone (NASA) is projected to strengthen, the North Pacific subtropical anticyclone (NPSA) is projected to weaken, in terms of both the rotational and the divergent circulation. The distinct responses of the NPSA and NASA are corroborated by the models participating in the fifth and sixth phases of the Coupled Model Intercomparison Project (CMIP), under both intermediate and high emission scenarios. We further investigated the possible mechanism for their distinct responses by decomposing the effect of greenhouse gas forcing into the direct effect of increased CO2 concentration and the indirect effect through sea surface temperature (SST). The intensified NASA results from the CO2 direct forcing while the weakened NPSA is dominated by the SST warming. The CO2 direct forcing enhances the NASA by increasing land–ocean thermal contrast anchored by the largest subtropical continental area, the Eurasian–African continent. Both the uniform SST warming and the change in SST pattern act to weaken the NPSA by increasing the latent heating over the subtropical North Pacific basin, as suggested by atmospheric component model simulations. The distinct responses of the NPSA and the NASA may lead to zonal asymmetry of the subtropical climate change.",
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 13
+   }
+  ]
+ },
+ "pmm2015": {
+  "query": "Pacific meridional mode 2014 2015 El Nino positive meridional mode spring 2015 trades",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1002/essoar.10510924.1",
+    "title": "Why is the Pacific Meridional Mode Most Pronounced in Boreal Spring?",
+    "journal": "",
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "year": 2022,
+    "authors": [
+     "Meng, Zilu",
+     "Li, Tim"
+    ],
+    "abstract_crossref": "<jats:p>The Pacific Meridional Mode (PMM) exhibits a marked seasonal\nvariability, with the strongest (weakest) variance in northern spring\n(fall). Such a phase locking feature is investigated through a combined\nobservational and modeling study. Given the PMM perturbation, the wind\ninduced latent heat flux anomaly leads to a strongest (weakest) heating\non local sea surface temperature anomaly (SSTA) in MAM (SON) through\npositive wind-evaporation-SST feedback. The difference between MAM and\nSON lies on the strength and area of mean northeasterly trades.\nExperiments with a simple air-sea coupled model further demonstrate that\na PMM-like SSTA perturbation grows much faster in MAM than in SON. The\ndifference is primarily attributed to the seasonal mean wind, not mean\nSST condition. It is greatest strength and area of the mean\nnortheasterly trade in MAM that leads to most efficient\nwind-evaporation-SST feedback and thus fastest PMM growth rate.</jats:p>",
+    "abstract_openalex": "The preferred spring development of the Pacific Meridional Mode (PMM) is investigated through a combined observational analysis and modeling approach. A mixed-layer heat budget analysis shows that the PMM experiences its strongest growth two months prior to its mature phase, and the growth is primarily attributed to the surface latent heat flux (LHF) anomaly, via the wind-evaporation-SST (WES) feedback. The spring-fall difference in the LHF anomaly is caused by both the anomalous and seasonal mean wind fields. Idealized atmospheric general circulation model experiments (GCM) show that given the same PMM heating, atmospheric anomalous wind and LHF responses are much stronger in boreal spring than in boreal fall, which favors a greater WES feedback. Experiments with an intermediate air-sea coupled model with specified SST and surface wind mean state demonstrate that a PMM-like SSTA perturbation grows fastest in boreal spring among all seasons, indicating that the tropical mean wind and SST fields in spring are most favorable for the PMM development. Finally, we show that the atmospheric teleconnection between mid-latitude North Pacific and PMM is much more pronounced during the development of PMM in boreal spring than in boreal fall.",
+    "oa_status": "gold",
+    "oa_url": "https://doi.org/10.1002/essoar.10510924.1",
+    "cited_by": 7
+   },
+   {
+    "doi": "10.1002/essoar.10510924.2",
+    "title": "Why is the Pacific Meridional Mode Most Pronounced in Boreal Spring?",
+    "journal": "",
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "year": 2022,
+    "authors": [
+     "Meng, Zilu",
+     "Li, Tim"
+    ],
+    "abstract_crossref": "<jats:p>The Pacific Meridional Mode (PMM) exhibits a marked seasonal\nvariability, with the strongest (weakest) variance in northern spring\n(fall). Such a phase locking feature is investigated through a combined\nobservational and modeling study. Given the PMM perturbation, the wind\ninduced latent heat flux anomaly leads to a strongest (weakest) heating\non local sea surface temperature anomaly (SSTA) in MAM (SON) through\npositive wind-evaporation-SST feedback. The difference between MAM and\nSON lies on the strength and area of mean northeasterly trades.\nExperiments with a simple air-sea coupled model further demonstrate that\na PMM-like SSTA perturbation grows much faster in MAM than in SON. The\ndifference is primarily attributed to the seasonal mean wind, not mean\nSST condition. It is greatest strength and area of the mean\nnortheasterly trade in MAM that leads to most efficient\nwind-evaporation-SST feedback and thus fastest PMM growth rate.</jats:p>",
+    "abstract_openalex": "The preferred spring development of the Pacific Meridional Mode (PMM) is investigated through a combined observational analysis and modeling approach. A mixed-layer heat budget analysis shows that the PMM experiences its strongest growth two months prior to its mature phase, and the growth is primarily attributed to the surface latent heat flux (LHF) anomaly, via the wind-evaporation-SST (WES) feedback. The spring-fall difference in the LHF anomaly is caused by both the anomalous and seasonal mean wind fields. Idealized atmospheric general circulation model experiments (GCM) show that given the same PMM heating, atmospheric anomalous wind and LHF responses are much stronger in boreal spring than in boreal fall, which favors a greater WES feedback. Experiments with an intermediate air-sea coupled model with specified SST and surface wind mean state demonstrate that a PMM-like SSTA perturbation grows fastest in boreal spring among all seasons, indicating that the tropical mean wind and SST fields in spring are most favorable for the PMM development. Finally, we show that the atmospheric teleconnection between mid-latitude North Pacific and PMM is much more pronounced during the development of PMM in boreal spring than in boreal fall.",
+    "oa_status": "gold",
+    "oa_url": "https://doi.org/10.1002/essoar.10510924.1",
+    "cited_by": 7
+   },
+   {
+    "doi": "10.1002/joc.4130",
+    "title": "CMIP5 model simulations of the Pacific meridional mode and its connection to the two types of ENSO",
+    "journal": "International Journal of Climatology",
+    "volume": "35",
+    "issue": "9",
+    "page": "2352-2358",
+    "year": 2014,
+    "authors": [
+     "Lin, Chun-Yi",
+     "Yu, Jin-Yi",
+     "Hsu, Huang-Hsiung"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": "This study examines the Pacific meridional mode (PMM) simulated in the pre-industrial simulations of the Coupled Model Intercomparison Project Phase 5 (CMIP5). The spatial pattern and intensity of the PMM were found to be reasonably simulated by CMIP5 models, as was the subtropical atmosphere–ocean coupling associated with the PMM. However, the persistence of the coupling, which sustains the PMM's duration and extends its pattern equatorward, was found to be underestimated in most of the CMIP5 models. Many of the simulated PMMs do not have a pattern that extends far enough into the tropical Pacific to influence El Niño-Southern Oscillation (ENSO). The CMIP5 models that do produce longer persistence for the PMM coupling show a higher correlation of the PMM with the Central-Pacific (CP) type of ENSO than with the Eastern-Pacific (EP) type of the ENSO. This study concludes that (1) the PMM and its associated subtropical Pacific ocean–atmosphere coupling are important to the generation of the CP type of ENSO; (2) the so-called seasonal footprinting mechanism that sustains an equatorward extension of the PMM is not well simulated in a majority of the CMIP5 models; and (3) the persistence of the subtropical Pacific coupling is more important than the other properties in gauging a model's skill in the PMM simulation.",
+    "oa_status": "green",
+    "oa_url": "https://escholarship.org/uc/item/31t916d5",
+    "cited_by": 57
+   }
+  ]
+ },
+ "atlantic2014": {
+  "query": "Atlantic warming 2014 El Nino failure suppressed tropical Atlantic interbasin",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.5194/egusphere-egu25-16024",
+    "title": "Influence of tropical Atlantic SST on the El Nino region",
+    "journal": "",
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "year": 2025,
+    "authors": [
+     "Chiu, Ping-Gin",
+     "Keenlyside, Noel"
+    ],
+    "abstract_crossref": "<jats:p>The ENSO event is partially affected by tropical Atlantic El Nino, according to past studies. In this study, pacemaker experiments are conducted with NorESM in four configurations, totaling 20 members, in total during 1980-2020. The results show there is a correlation between tropical JJA ATL3 and the later DJF NINO3.4. This connection is strong before 2000, and disappears afterward. Which is consistant with observation. Zonal wind correlation indicated the path of this connection.&amp;#160;&amp;#160; &amp;#160; However, it was also found that the SST west of ATL3 has a stronger relationship to NINO3.4 in both periods. This implies that ATL3 is useful for detecting Atlantic ENSO, but the interaction is more robust in the closer region.</jats:p>",
+    "abstract_openalex": "The ENSO event is partially affected by tropical Atlantic El Nino, according to past studies. In this study, pacemaker experiments are conducted with NorESM in four configurations, totaling 20 members, in total during 1980-2020. The results show there is a correlation between tropical JJA ATL3 and the later DJF NINO3.4. This connection is strong before 2000, and disappears afterward. Which is consistant with observation. Zonal wind correlation indicated the path of this connection. However, it was also found that the SST west of ATL3 has a stronger relationship to NINO3.4 in both periods. This implies that ATL3 is useful for detecting Atlantic ENSO, but the interaction is more robust in the closer region.",
+    "oa_status": "gold",
+    "oa_url": "https://doi.org/10.5194/egusphere-egu25-16024",
+    "cited_by": 0
+   },
+   {
+    "doi": "10.7717/peerj.2957/fig-1",
+    "title": "Figure 1: (A) Annual winter (December to February) North Atlantic Oscillation index (NAO), Arctic Oscillation (AO), and El Nino-Southern Oscillation (ENSO), 1971–2014.",
+    "journal": "",
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "year": null,
+    "authors": [],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": null,
+    "oa_url": null,
+    "cited_by": null
+   },
+   {
+    "doi": "10.1175/2010jcli3883.1",
+    "title": "Future Impact of Differential Interbasin Ocean Warming on Atlantic Hurricanes",
+    "journal": "Journal of Climate",
+    "volume": "24",
+    "issue": "4",
+    "page": "1264-1275",
+    "year": 2011,
+    "authors": [
+     "Lee, Sang-Ki",
+     "Enfield, David B.",
+     "Wang, Chunzai"
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title><jats:p>Global climate model simulations forced by future greenhouse warming project that the tropical North Atlantic (TNA) warms at a slower rate than the tropical Indo-Pacific in the twenty-first century, consistent with their projections of a weakened Atlantic thermohaline circulation. Here, an atmospheric general circulation model is used to advance a consistent physical rationale that the suppressed warming of the TNA increases the vertical wind shear and static stability aloft in the main development region (MDR) for Atlantic hurricanes, and thus decreases overall Atlantic hurricane activity in the twenty-first century. A carefully designed suite of model experiments illustrates that the preferential warming of the tropical Indo-Pacific induces a global average warming of the tropical troposphere, via a tropical teleconnection mechanism, and thus increases atmospheric static stability and decreases convection over the suppressed warming region of the TNA. The anomalous diabatic cooling, in turn, forces the formation of a stationary baroclinic Rossby wave northwest of the forcing region, consistent with Gill’s simple model of tropical atmospheric circulations, in such a way as to induce a secular increase of the MDR vertical wind shear. However, a further analysis indicates that the net effect of future greenhouse warming on the MDR vertical wind shear is less than the observed multidecadal swing of the MDR vertical wind shear in the twentieth century. Thus, it is likely that the Atlantic multidecadal oscillation will still play a decisive role over the greenhouse warming in the fate of Atlantic hurricane activity throughout the twenty-first century under the assumption that the twenty-first-century changes in interbasin SST difference, projected by the global climate model simulations, are accurate.</jats:p>",
+    "abstract_openalex": "Abstract Global climate model simulations forced by future greenhouse warming project that the tropical North Atlantic (TNA) warms at a slower rate than the tropical Indo-Pacific in the twenty-first century, consistent with their projections of a weakened Atlantic thermohaline circulation. Here, an atmospheric general circulation model is used to advance a consistent physical rationale that the suppressed warming of the TNA increases the vertical wind shear and static stability aloft in the main development region (MDR) for Atlantic hurricanes, and thus decreases overall Atlantic hurricane activity in the twenty-first century. A carefully designed suite of model experiments illustrates that the preferential warming of the tropical Indo-Pacific induces a global average warming of the tropical troposphere, via a tropical teleconnection mechanism, and thus increases atmospheric static stability and decreases convection over the suppressed warming region of the TNA. The anomalous diabatic cooling, in turn, forces the formation of a stationary baroclinic Rossby wave northwest of the forcing region, consistent with Gill’s simple model of tropical atmospheric circulations, in such a way as to induce a secular increase of the MDR vertical wind shear. However, a further analysis indicates that the net effect of future greenhouse warming on the MDR vertical wind shear is less than the observed multidecadal swing of the MDR vertical wind shear in the twentieth century. Thus, it is likely that the Atlantic multidecadal oscillation will still play a decisive role over the greenhouse warming in the fate of Atlantic hurricane activity throughout the twenty-first century under the assumption that the twenty-first-century changes in interbasin SST difference, projected by the global climate model simulations, are accurate.",
+    "oa_status": "bronze",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/24/4/2010jcli3883.1.pdf",
+    "cited_by": 28
+   }
+  ]
+ },
+ "wwv2014": {
+  "query": "warm water volume 2014 2015 recharge El Nino failed event heat content",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.2139/ssrn.81588",
+    "title": "El Nino and World Primary Commodity Prices: Warm Water or Hot Air?",
+    "journal": "",
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "year": 1998,
+    "authors": [
+     "Brunner, Allan David"
+    ],
+    "abstract_crossref": "<jats:p>This paper examines the historical effects of El Nino on world prices and economic activity. Although the primary focus is on world real non-oil primary commodity prices, the effects on G-7 consumer price inflation and GDP growth are also considered. This paper has several distinct advantages over previous studies. First, several econometric models are estimated using fairly broad measures of prices and economic activity. Second, the models include continuous measures of El Nino intensity (sea surface temperature and sea-level air pressure anomalies in the Pacific Ocean) rather than dummy variable measures. Finally, confidence intervals are constructed for all estimated effects of El Nino on world prices and economic activity. The analysis indicates that El Nino has economically important and statistically significant effects on world real commodity prices. A one-standard-deviation surprise in El Nino, for example, raises real commodity price inflation about 3-1/2 to 4 percentage points. Moreover, El Nino appears to account for over 20 percent of commodity price inflation movements over the past several years. El Nino also has some explanatory power for world consumer  price inflation and world economic activity, accounting for about 10 to 15 percent of movements in those variables.</jats:p>",
+    "abstract_openalex": null,
+    "oa_status": "green",
+    "oa_url": "https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=81588",
+    "cited_by": 3
+   },
+   {
+    "doi": "10.5089/9781451874440.001",
+    "title": "El Nino and World Primary Commodity Prices",
+    "journal": "IMF Working Papers",
+    "volume": "2000",
+    "issue": "203",
+    "page": "1",
+    "year": 2000,
+    "authors": [
+     "Brunner, Allan"
+    ],
+    "abstract_crossref": "<jats:p>This paper examines the historical effects of the El Niño-Southern Oscillation (ENSO) cycle on world prices and economic activity. The analysis indicates that ENSO has economically-important and statistically-significant effects on world real commodity prices. A one-standard-deviation positive surprise in ENSO, for example, raises real commodity price inflation about 3-1/2 to 4 percentage points. Moreover, ENSO appears to account for almost 20 percent of commodity price inflation movements over the past several years. ENSO also has some explanatory power for world consumer price inflation and world economic activity, accounting for about 10 to 20 percent of movements in those variables.</jats:p>",
+    "abstract_openalex": "This paper examines the historical effects of the El Niño-Southern Oscillation (ENSO) cycle on world prices and economic activity. The analysis indicates that ENSO has economically-important and statistically-significant effects on world real commodity prices. A one-standard-deviation positive surprise in ENSO, for example, raises real commodity price inflation about 3-1/2 to 4 percentage points. Moreover, ENSO appears to account for almost 20 percent of commodity price inflation movements over the past several years. ENSO also has some explanatory power for world consumer price inflation and world economic activity, accounting for about 10 to 20 percent of movements in those variables.",
+    "oa_status": "bronze",
+    "oa_url": "https://www.elibrary.imf.org/downloadpdf/journals/001/2000/203/001.2000.issue-203-en.xml",
+    "cited_by": 13
+   },
+   {
+    "doi": "10.1515/9789882200180-006",
+    "title": "WATER DISPLACEMENTS IN THE WESTERN PACIFIC WARM POOL DURING THE 1982-83 EL NINO",
+    "journal": "Asian Marine Biology 15 (1998)",
+    "volume": null,
+    "issue": null,
+    "page": "19-34",
+    "year": 1999,
+    "authors": [
+     "Balena, Rex"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 0
+   }
+  ]
+ },
+ "eastern2017": {
+  "query": "Peru coastal El Nino 2017 after 2015-16 ",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1108/oxan-db201692",
+    "title": "Peru and the Andean region brace for El Nino",
+    "journal": "Emerald Expert Briefings",
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "year": 2015,
+    "authors": [],
+    "abstract_crossref": "<jats:sec sec-type=\"subject\">\n               <jats:title content-type=\"abstract-subheading\">Subject</jats:title>\n               <jats:p>As experts predict a strong El Nino, Pacific countries are getting ready for extreme weather conditions.</jats:p>\n            </jats:sec>\n            <jats:sec sec-type=\"significance\">\n               <jats:title content-type=\"abstract-subheading\">Significance</jats:title>\n               <jats:p>Peru and other Andean countries are bracing themselves for El Nino, the weather phenomenon which disrupts normal meteorological behaviour. On August 10, the Peruvian authorities declared a pre-emptive state of emergency in 17 administrative districts in the north of the country. Past Ninos have had very damaging effects on the Peruvian economy in particular.</jats:p>\n            </jats:sec>\n            <jats:sec sec-type=\"impacts\">\n               <jats:title content-type=\"abstract-subheading\">Impacts</jats:title>\n               <jats:p>A strong El Nino will likely damage Andean economies in the short term and hinder growth.</jats:p>\n               <jats:p>Peru in particular will struggle to deal with droughts and flooding, but improved preparation and responses will see fewer casualties. </jats:p>\n               <jats:p>Some impacts will be more benign than others; it may bring welcome rain in southern California.</jats:p>\n            </jats:sec>",
+    "abstract_openalex": "Subject As experts predict a strong El Nino, Pacific countries are getting ready for extreme weather conditions. Significance Peru and other Andean countries are bracing themselves for El Nino, the weather phenomenon which disrupts normal meteorological behaviour. On August 10, the Peruvian authorities declared a pre-emptive state of emergency in 17 administrative districts in the north of the country. Past Ninos have had very damaging effects on the Peruvian economy in particular. Impacts A strong El Nino will likely damage Andean economies in the short term and hinder growth. Peru in particular will struggle to deal with droughts and flooding, but improved preparation and responses will see fewer casualties. Some impacts will be more benign than others; it may bring welcome rain in southern California.",
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 0
+   },
+   {
+    "doi": "10.5194/bg-2019-155-sc1",
+    "title": "Evidence of a previous paper on the impact of El Nino events on oxygen in the Peru upwelling system",
+    "journal": "",
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "year": 2019,
+    "authors": [
+     "Echevin, Vincent"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "gold",
+    "oa_url": "https://doi.org/10.5194/bg-2019-155-sc1",
+    "cited_by": 0
+   },
+   {
+    "doi": "10.1037/e362802004-002",
+    "title": "Peru Faces Off Against El Nino",
+    "journal": "PsycEXTRA Dataset",
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "year": 1998,
+    "authors": [
+     "Becht, Debbie K."
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 0
+   }
+  ]
+ },
+ "kao2009": {
+  "query": "Kao Yu 2009 Contrasting eastern-Pacific and central-Pacific types of ENSO Journal of Climate",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1175/2008jcli2309.1",
+    "title": "Contrasting Eastern-Pacific and Central-Pacific Types of ENSO",
+    "journal": "Journal of Climate",
+    "volume": "22",
+    "issue": "3",
+    "page": "615-632",
+    "year": 2009,
+    "authors": [
+     "Kao, Hsun-Ying",
+     "Yu, Jin-Yi"
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title>\n               <jats:p>Surface observations and subsurface ocean assimilation datasets are examined to contrast two distinct types of El Niño–Southern Oscillation (ENSO) in the tropical Pacific: an eastern-Pacific (EP) type and a central-Pacific (CP) type. An analysis method combining empirical orthogonal function (EOF) analysis and linear regression is used to separate these two types. Correlation and composite analyses based on the principal components of the EOF were performed to examine the structure, evolution, and teleconnection of these two ENSO types. The EP type of ENSO is found to have its SST anomaly center located in the eastern equatorial Pacific attached to the coast of South America. This type of ENSO is associated with basinwide thermocline and surface wind variations and shows a strong teleconnection with the tropical Indian Ocean. In contrast, the CP type of ENSO has most of its surface wind, SST, and subsurface anomalies confined in the central Pacific and tends to onset, develop, and decay in situ. This type of ENSO appears less related to the thermocline variations and may be influenced more by atmospheric forcing. It has a stronger teleconnection with the southern Indian Ocean. Phase-reversal signatures can be identified in the anomaly evolutions of the EP-ENSO but not for the CP-ENSO. This implies that the CP-ENSO may occur more as events or epochs than as a cycle. The EP-ENSO has experienced a stronger interdecadal change with the dominant period of its SST anomalies shifted from 2 to 4 yr near 1976/77, while the dominant period for the CP-ENSO stayed near the 2-yr band. The different onset times of these two types of ENSO imply that the difference between the EP and CP types of ENSO could be caused by the timing of the mechanisms that trigger the ENSO events.</jats:p>",
+    "abstract_openalex": "Abstract Surface observations and subsurface ocean assimilation datasets are examined to contrast two distinct types of El Niño–Southern Oscillation (ENSO) in the tropical Pacific: an eastern-Pacific (EP) type and a central-Pacific (CP) type. An analysis method combining empirical orthogonal function (EOF) analysis and linear regression is used to separate these two types. Correlation and composite analyses based on the principal components of the EOF were performed to examine the structure, evolution, and teleconnection of these two ENSO types. The EP type of ENSO is found to have its SST anomaly center located in the eastern equatorial Pacific attached to the coast of South America. This type of ENSO is associated with basinwide thermocline and surface wind variations and shows a strong teleconnection with the tropical Indian Ocean. In contrast, the CP type of ENSO has most of its surface wind, SST, and subsurface anomalies confined in the central Pacific and tends to onset, develop, and decay in situ. This type of ENSO appears less related to the thermocline variations and may be influenced more by atmospheric forcing. It has a stronger teleconnection with the southern Indian Ocean. Phase-reversal signatures can be identified in the anomaly evolutions of the EP-ENSO but not for the CP-ENSO. This implies that the CP-ENSO may occur more as events or epochs than as a cycle. The EP-ENSO has experienced a stronger interdecadal change with the dominant period of its SST anomalies shifted from 2 to 4 yr near 1976/77, while the dominant period for the CP-ENSO stayed near the 2-yr band. The different onset times of these two types of ENSO imply that the difference between the EP and CP types of ENSO could be caused by the timing of the mechanisms that trigger the ENSO events.",
+    "oa_status": "green",
+    "oa_url": "https://escholarship.org/uc/item/0wf363fm",
+    "cited_by": 1695
+   },
+   {
+    "doi": "10.1007/s00382-026-08114-2",
+    "title": "Contrasting responses and feedbacks of tropical instability waves to eastern-pacific and central-pacific ENSO types",
+    "journal": "Climate Dynamics",
+    "volume": "64",
+    "issue": "4",
+    "page": null,
+    "year": 2026,
+    "authors": [
+     "Xiong, Yuxuan",
+     "Xue, Aoyun",
+     "Zhang, Wenjun",
+     "Boucharel, Julien"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 1
+   },
+   {
+    "doi": "10.1175/2010jcli3688.1",
+    "title": "Relationships between Extratropical Sea Level Pressure Variations and the Central Pacific and Eastern Pacific Types of ENSO",
+    "journal": "Journal of Climate",
+    "volume": "24",
+    "issue": "3",
+    "page": "708-720",
+    "year": 2011,
+    "authors": [
+     "Yu, Jin-Yi",
+     "Kim, Seon Tae"
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title>\n               <jats:p>This study examines the linkages between leading patterns of interannual sea level pressure (SLP) variability over the extratropical Pacific (20°–60°N) and the eastern Pacific (EP) and central Pacific (CP) types of El Niño–Southern Oscillation (ENSO). The first empirical orthogonal function (EOF) mode of the extratropical SLP anomalies represents variations of the Aleutian low, and the second EOF mode represents the North Pacific Oscillation (NPO) and is characterized by a meridional SLP anomaly dipole with a nodal point near 50°N. It is shown that a fraction of the first SLP mode can be excited by both the EP and CP types of ENSO. The SLP response to the EP type is stronger and more immediate. The tropical–extratropical teleconnection appears to act more slowly for the CP ENSO. During the decay phase of EP events, the associated extratropical SLP anomalies shift from the first SLP mode to the second SLP mode. As the second SLP mode grows, subtropical SST anomalies are induced beneath via surface heat flux anomalies. The SST anomalies persist after the peak in strength of the second SLP mode, likely because of the seasonal footprinting mechanism, and lead to the development of the CP type of ENSO. This study shows that the CP ENSO is an extratropically excited mode of tropical Pacific variability and also suggests that the decay of an EP type of ENSO can lead to the onset of a CP type of ENSO with the aid of the NPO. This extratropical linking mechanism appears to be at work during the 1972, 1982, and 1997 strong El Niño events, which were all EP events and were all followed by strong CP La Niña events after the NPO was excited in the extratropics. This study concludes that extratropical SLP variations play an important role in exciting the CP type of ENSO and in linking the transitions from the EP to CP events.</jats:p>",
+    "abstract_openalex": "Abstract This study examines the linkages between leading patterns of interannual sea level pressure (SLP) variability over the extratropical Pacific (20°–60°N) and the eastern Pacific (EP) and central Pacific (CP) types of El Niño–Southern Oscillation (ENSO). The first empirical orthogonal function (EOF) mode of the extratropical SLP anomalies represents variations of the Aleutian low, and the second EOF mode represents the North Pacific Oscillation (NPO) and is characterized by a meridional SLP anomaly dipole with a nodal point near 50°N. It is shown that a fraction of the first SLP mode can be excited by both the EP and CP types of ENSO. The SLP response to the EP type is stronger and more immediate. The tropical–extratropical teleconnection appears to act more slowly for the CP ENSO. During the decay phase of EP events, the associated extratropical SLP anomalies shift from the first SLP mode to the second SLP mode. As the second SLP mode grows, subtropical SST anomalies are induced beneath via surface heat flux anomalies. The SST anomalies persist after the peak in strength of the second SLP mode, likely because of the seasonal footprinting mechanism, and lead to the development of the CP type of ENSO. This study shows that the CP ENSO is an extratropically excited mode of tropical Pacific variability and also suggests that the decay of an EP type of ENSO can lead to the onset of a CP type of ENSO with the aid of the NPO. This extratropical linking mechanism appears to be at work during the 1972, 1982, and 1997 strong El Niño events, which were all EP events and were all followed by strong CP La Niña events after the NPO was excited in the extratropics. This study concludes that extratropical SLP variations play an important role in exciting the CP type of ENSO and in linking the transitions from the EP to CP events.",
+    "oa_status": "bronze",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/24/3/2010jcli3688.1.pdf",
+    "cited_by": 360
+   }
+  ]
+ },
+ "ashok2007": {
+  "query": "Ashok Behera Rao Weng Yamagata 2007 El Nino Modoki and its possible teleconnection JGR",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1029/2006jc003798",
+    "title": "El Niño Modoki and its possible teleconnection",
+    "journal": "Journal of Geophysical Research: Oceans",
+    "volume": "112",
+    "issue": "C11",
+    "page": null,
+    "year": 2007,
+    "authors": [
+     "Ashok, Karumuri",
+     "Behera, Swadhin K.",
+     "Rao, Suryachandra A.",
+     "Weng, Hengyi",
+     "Yamagata, Toshio"
+    ],
+    "abstract_crossref": "<jats:p>Using observed data sets mainly for the period 1979–2005, we find that anomalous warming events different from conventional El Niño events occur in the central equatorial Pacific. This unique warming in the central equatorial Pacific associated with a horseshoe pattern is flanked by a colder sea surface temperature anomaly (SSTA) on both sides along the equator. empirical orthogonal function (EOF) analysis of monthly tropical Pacific SSTA shows that these events are represented by the second mode that explains 12% of the variance. Since a majority of such events are not part of El Niño evolution, the phenomenon is named as El Niño Modoki (pseudo‐El Niño) (“Modoki” is a classical Japanese word, which means “a similar but different thing”). The El Niño Modoki involves ocean‐atmosphere coupled processes which include a unique tripolar sea level pressure pattern during the evolution, analogous to the Southern Oscillation in the case of El Niño. Hence the total entity is named as El Niño–Southern Oscillation (ENSO) Modoki. The ENSO Modoki events significantly influence the temperature and precipitation over many parts of the globe. Depending on the season, the impacts over regions such as the Far East including Japan, New Zealand, western coast of United States, etc., are opposite to those of the conventional ENSO. The difference maps between the two periods of 1979–2004 and 1958–1978 for various oceanic/atmospheric variables suggest that the recent weakening of equatorial easterlies related to weakened zonal sea surface temperature gradient led to more flattening of the thermocline. This appears to be a cause of more frequent and persistent occurrence of the ENSO Modoki event during recent decades.</jats:p>",
+    "abstract_openalex": "Using observed data sets mainly for the period 1979–2005, we find that anomalous warming events different from conventional El Niño events occur in the central equatorial Pacific. This unique warming in the central equatorial Pacific associated with a horseshoe pattern is flanked by a colder sea surface temperature anomaly (SSTA) on both sides along the equator. empirical orthogonal function (EOF) analysis of monthly tropical Pacific SSTA shows that these events are represented by the second mode that explains 12% of the variance. Since a majority of such events are not part of El Niño evolution, the phenomenon is named as El Niño Modoki (pseudo‐El Niño) (“Modoki” is a classical Japanese word, which means “a similar but different thing”). The El Niño Modoki involves ocean‐atmosphere coupled processes which include a unique tripolar sea level pressure pattern during the evolution, analogous to the Southern Oscillation in the case of El Niño. Hence the total entity is named as El Niño–Southern Oscillation (ENSO) Modoki. The ENSO Modoki events significantly influence the temperature and precipitation over many parts of the globe. Depending on the season, the impacts over regions such as the Far East including Japan, New Zealand, western coast of United States, etc., are opposite to those of the conventional ENSO. The difference maps between the two periods of 1979–2004 and 1958–1978 for various oceanic/atmospheric variables suggest that the recent weakening of equatorial easterlies related to weakened zonal sea surface temperature gradient led to more flattening of the thermocline. This appears to be a cause of more frequent and persistent occurrence of the ENSO Modoki event during recent decades.",
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 2716
+   },
+   {
+    "doi": "10.1007/s00382-007-0234-0",
+    "title": "Impacts of recent El Niño Modoki on dry/wet conditions in the Pacific rim during boreal summer",
+    "journal": "Climate Dynamics",
+    "volume": "29",
+    "issue": "2-3",
+    "page": "113-129",
+    "year": 2007,
+    "authors": [
+     "Weng, Hengyi",
+     "Ashok, Karumuri",
+     "Behera, Swadhin K.",
+     "Rao, Suryachandra A.",
+     "Yamagata, Toshio"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 547
+   },
+   {
+    "doi": "10.1007/s00382-008-0394-6",
+    "title": "Anomalous winter climate conditions in the Pacific rim during recent El Niño Modoki and El Niño events",
+    "journal": "Climate Dynamics",
+    "volume": "32",
+    "issue": "5",
+    "page": "663-674",
+    "year": 2008,
+    "authors": [
+     "Weng, Hengyi",
+     "Behera, Swadhin K.",
+     "Yamagata, Toshio"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 351
+   }
+  ]
+ },
+ "dewitte2020": {
+  "query": "2015 El Nino eastern Pacific weak Niño 1+2 central Pacific warming coastal upwelling",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.25148/etd.fi14071180",
+    "title": "Recent Changes in Central and Eastern Pacific El Niño",
+    "journal": "",
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "year": null,
+    "authors": [
+     "Washam, Peter M"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": "Recent research indicates that characteristics of El Niño and the Southern Oscillation (ENSO) have changed over the past several decades. Here, I examined different flavors of El Niño in the observational record and the recent changes in the character of El Niño events. The fundamental physical processes that drive ENSO were described and the Eastern Pacific (EP) and Central Pacific (CP) types or flavors of El Niño were defined. Using metrics from the peer-reviewed literature, I examined several historical data sets to interpret El Niño behavior from 1950-2010. A Monte Carlo Simulation was then applied to output from coupled model simulations to test the statistical significance of recent observations surrounding EP and CP El Niño. Results suggested that EP and CP El Niño had been occurring in a similar fashion over the past 60 years with natural variability, but no significant increase in CP El Niño behavior.",
+    "oa_status": "gold",
+    "oa_url": "https://digitalcommons.fiu.edu/cgi/viewcontent.cgi?article=2651&context=etd",
+    "cited_by": 0
+   },
+   {
+    "doi": "10.4067/s0717-71782002030100037",
+    "title": "Impacts of El Niño Events on the Coastal Benthos of the Eastern Pacific Upwelling Systems",
+    "journal": "Investigaciones marinas",
+    "volume": "30",
+    "issue": "1",
+    "page": null,
+    "year": 2002,
+    "authors": [
+     "Tarazona, Juan",
+     "Arntz, Wolf E",
+     "Valle, Sonia"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": "Americanae nace como un proyecto conjunto que surge dentro de la Red Europea de Información y Documentación sobre América Latina (REDIAL), y que ha afrontado la Biblioteca de la Agencia Española de Cooperación Internacional para el Desarrollo (AECID). Esta nueva biblioteca virtual hace más accesibles los libros digitales de tema americanista a los investigadores y usuarios interesados de cualquier parte del mundo.",
+    "oa_status": "diamond",
+    "oa_url": "https://doi.org/10.4067/s0717-71782002030100037",
+    "cited_by": 4
+   },
+   {
+    "doi": "10.2172/1171388",
+    "title": "Pacific Decadal Variability and Central Pacific Warming El Niño in a Changing Climate",
+    "journal": "",
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "year": 2015,
+    "authors": [
+     ", ",
+     "Di Lorenzo, Emanuele",
+     ", "
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": "This research aimed at understanding the dynamics controlling decadal variability in the Pacific Ocean and its interactions with global-scale climate change. The first goal was to assess how the dynamics and statistics of the El Niño Southern Oscillation and the modes of Pacific decadal variability are represented in global climate models used in the IPCC. The second goal was to quantify how decadal dynamics are projected to change under continued greenhouse forcing, and determine their significance in the context of paleo-proxy reconstruction of long-term climate.",
+    "oa_status": "gold",
+    "oa_url": "https://www.osti.gov/servlets/purl/1171388",
+    "cited_by": 0
+   }
+  ]
+ },
+ "gasparin2017": {
+  "query": "Gasparin Roemmich 2016 The strong freshwater anomaly during the onset of the 2015/2016 El Nino Geophysical Research Letters",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1002/2016gl069542",
+    "title": "The strong freshwater anomaly during the onset of the 2015/2016 El Niño",
+    "journal": "Geophysical Research Letters",
+    "volume": "43",
+    "issue": "12",
+    "page": "6452-6460",
+    "year": 2016,
+    "authors": [
+     "Gasparin, F.",
+     "Roemmich, D."
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title><jats:p>The strong freshwater anomaly in the equatorial Pacific is investigated during the onset of the 2015/2016 El Niño using oceanic observational data sets and atmospheric reanalyzes. The 2015 salinity patterns are marked by a large equatorial freshwater anomaly whose extensive spatial and large amplitude characteristics have not previously been captured in the 2004–2014 Argo record. As the main contributors of the freshwater budget, zonal advection and surface forcing have similar amplitude but with maxima located at different longitudes around the dateline. The comparison of the substantial rainfall and westerly winds observed in 2015 with the 2009 and 1997 El Niño onset years shows that 2015 characteristics combine both typical salinity‐related patterns of <jats:italic>Central</jats:italic> and <jats:italic>Eastern Pacific</jats:italic> El Niños. Dynamically, this large freshwater anomaly causes a positive steric height anomaly in the western Pacific and increases eastward surface acceleration at the SSS front due to the zonal pressure gradient.</jats:p>",
+    "abstract_openalex": "Abstract The strong freshwater anomaly in the equatorial Pacific is investigated during the onset of the 2015/2016 El Niño using oceanic observational data sets and atmospheric reanalyzes. The 2015 salinity patterns are marked by a large equatorial freshwater anomaly whose extensive spatial and large amplitude characteristics have not previously been captured in the 2004–2014 Argo record. As the main contributors of the freshwater budget, zonal advection and surface forcing have similar amplitude but with maxima located at different longitudes around the dateline. The comparison of the substantial rainfall and westerly winds observed in 2015 with the 2009 and 1997 El Niño onset years shows that 2015 characteristics combine both typical salinity‐related patterns of Central and Eastern Pacific El Niños. Dynamically, this large freshwater anomaly causes a positive steric height anomaly in the western Pacific and increases eastward surface acceleration at the SSS front due to the zonal pressure gradient.",
+    "oa_status": "bronze",
+    "oa_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2016GL069542",
+    "cited_by": 40
+   },
+   {
+    "doi": "10.1002/2016gl069693",
+    "title": "SAPS onset timing during substorms and the westward traveling surge",
+    "journal": "Geophysical Research Letters",
+    "volume": "43",
+    "issue": "13",
+    "page": "6687-6693",
+    "year": 2016,
+    "authors": [
+     "Mishin, Evgeny, V."
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title><jats:p>We present multispacecraft observations in the magnetosphere and conjugate ionosphere of the onset time of subauroral polarization streams (SAPS) and tens of keV ring current injections on the duskside in three individual substorms. This is probably the first unequivocal determination of the substorm SAPS onset timing. The time lag between the SAPS and substorm onsets is much shorter than the gradient‐curvature drift time of ∼10 keV ions in the plasmasphere. It seemingly depends on the propagation time of substorm‐injected plasma from the dipolarization onset region to the plasmasphere, as well as on the SAPS position. These observations suggest that fast onset SAPS and ring current injections are causally related to the two‐loop system of the westward traveling surge.</jats:p>",
+    "abstract_openalex": "Abstract We present multispacecraft observations in the magnetosphere and conjugate ionosphere of the onset time of subauroral polarization streams (SAPS) and tens of keV ring current injections on the duskside in three individual substorms. This is probably the first unequivocal determination of the substorm SAPS onset timing. The time lag between the SAPS and substorm onsets is much shorter than the gradient‐curvature drift time of ∼10 keV ions in the plasmasphere. It seemingly depends on the propagation time of substorm‐injected plasma from the dipolarization onset region to the plasmasphere, as well as on the SAPS position. These observations suggest that fast onset SAPS and ring current injections are causally related to the two‐loop system of the westward traveling surge.",
+    "oa_status": "bronze",
+    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2016GL069693",
+    "cited_by": 31
+   },
+   {
+    "doi": "10.1029/90gl02784",
+    "title": "Methanesulfonic acid in south polar snow layers: A record of strong El Nino?",
+    "journal": "Geophysical Research Letters",
+    "volume": "18",
+    "issue": "2",
+    "page": "187-190",
+    "year": 1991,
+    "authors": [
+     "Legrand, M.",
+     "Saigne, C. Feniet"
+    ],
+    "abstract_crossref": "<jats:p>In this paper we present a detailed study of methanesulfonic acid (MSA) and non‐sea‐salt sulfate (nss‐SO<jats:sub>4</jats:sub>) content in recent south polar precipitation. These two species are major oxidation products of dimethylsulfide (DMS) which is mainly produced by marine biota. The nss‐SO<jats:sub>4</jats:sub> content of south polar snow layers deposited over the 1922–1984 time period remained rather stable except short‐term increases after the Mt Agung (1963) and the El Chichon (1982) eruptions. At the opposite, the MSA profile shows over the same time period several sporadic, 0.5 to 2 years, increases (2 to 10 times background level). Taking into account an uncertainty of 1–3 years in the dating of snow layers, all these MSA events seem to be correlated to major ENSO (El Nino‐Southern oscillation) events having occured over the last sixty years (1925–26, 1941, 1957–58, 1972–73 and 1982–83). The relatively high MSA/nssSO<jats:sub>4</jats:sub> weight ratios (R) observed in the corresponding snow layers suggest that these events reflect enhanced DMS emissions from the antarctic ocean. This suggested connection between ENSO and high DMS marine emissions at high southern latitudes is discussed in terms of atmospheric and oceanic circulation.</jats:p>",
+    "abstract_openalex": "In this paper we present a detailed study of methanesulfonic acid (MSA) and non‐sea‐salt sulfate (nss‐SO4) content in recent south polar precipitation. These two species are major oxidation products of dimethylsulfide (DMS) which is mainly produced by marine biota. The nss‐SO4 content of south polar snow layers deposited over the 1922–1984 time period remained rather stable except short‐term increases after the Mt Agung (1963) and the El Chichon (1982) eruptions. At the opposite, the MSA profile shows over the same time period several sporadic, 0.5 to 2 years, increases (2 to 10 times background level). Taking into account an uncertainty of 1–3 years in the dating of snow layers, all these MSA events seem to be correlated to major ENSO (El Nino‐Southern oscillation) events having occured over the last sixty years (1925–26, 1941, 1957–58, 1972–73 and 1982–83). The relatively high MSA/nssSO4 weight ratios (R) observed in the corresponding snow layers suggest that these events reflect enhanced DMS emissions from the antarctic ocean. This suggested connection between ENSO and high DMS marine emissions at high southern latitudes is discussed in terms of atmospheric and oceanic circulation.",
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 97
+   }
+  ]
+ },
+ "roemmich2016": {
+  "query": "Roemmich Gilson 2011 The global ocean imprint of ENSO Argo",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1029/2011gl047992",
+    "title": "The global ocean imprint of ENSO",
+    "journal": "Geophysical Research Letters",
+    "volume": "38",
+    "issue": "13",
+    "page": "n/a-n/a",
+    "year": 2011,
+    "authors": [
+     "Roemmich, Dean",
+     "Gilson, John"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": "[1] The ENSO-related spatial patterns and global averages of ocean temperature, salinity, and steric height are estimated from over 7 years of Argo data, 2004–2011. Substantial extratropical variability is seen in all variables in addition to familiar tropical ENSO signals. Surface layer (0–100 dbar) and subsurface (100–500 dbar) temperature variations are both important in determining steric height and sea surface height patterns. For the two years prior to the 2009 El Niño, the upper 100 dbar of the ocean gained 3.3 × 1022 J yr−1 of heat, while the 100–500 dbar layer lost a similar amount. The ENSO-related vertical redistribution of globally-averaged heat content between surface and subsurface layers, occurring throughout the record, is due primarily to changes in the east-west tilting of the equatorial Pacific thermocline. The large temperature changes in the individual layers mask the smaller vertically-averaged temperature change, in which the ocean loses heat when the surface layer is anomalously warm and gains heat when the surface layer is cool.",
+    "oa_status": "bronze",
+    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2011GL047992",
+    "cited_by": 103
+   },
+   {
+    "doi": "10.1038/nclimate1461",
+    "title": "135 years of global ocean warming between the Challenger expedition and the Argo Programme",
+    "journal": "Nature Climate Change",
+    "volume": "2",
+    "issue": "6",
+    "page": "425-428",
+    "year": 2012,
+    "authors": [
+     "Roemmich, Dean",
+     "John Gould, W.",
+     "Gilson, John"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 146
+   },
+   {
+    "doi": "10.1016/j.pocean.2009.03.004",
+    "title": "The 2004–2008 mean and annual cycle of temperature, salinity, and steric height in the global ocean from the Argo Program",
+    "journal": "Progress in Oceanography",
+    "volume": "82",
+    "issue": "2",
+    "page": "81-100",
+    "year": 2009,
+    "authors": [
+     "Roemmich, Dean",
+     "Gilson, John"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 1020
+   }
+  ]
+ },
+ "argo2015": {
+  "query": "Argo floats 2015 El Nino subsurface heat content observation",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.70675/a3cb5a7dz07afz46ccz87fdzeeb6ec79b880",
+    "title": "Developement and exploitation of new approaches for observation of phytoplankton community composition from BGC-Argo floats in open ocean",
+    "journal": "",
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "year": null,
+    "authors": [
+     "Petit, Flavien"
+    ],
+    "abstract_crossref": "<jats:title>Développement et exploitation de nouvelles approches pour l'observation de la composition des communautés phytoplanctoniques à partir des flotteurs BGC-Argo dans l'océan ouvert</jats:title>\n                <jats:p xml:lang=\"fr\">Le phytoplancton joue un rôle clé dans la régulation de nombreux cycles biogéochimiques. Il est responsable de la moitié de la production primaire mondiale, ce qui contribue à la chaîne alimentaire marine et régule les flux de carbone entre l'océan et l'atmosphère. Ces processus varient à la fois en fonction de la biomasse du phytoplancton et de la composition de la communauté. C'est donc un défi crucial que de pouvoir surveiller la biomasse du phytoplancton et la composition de la communauté à l'échelle mondiale. Le programme BioGeoChemical-Argo (BGC-Argo) vise à surveiller et à comprendre les processus biogéochimiques clés à l'échelle mondiale en développant un réseau de flotteurs Argo profilés équipés d'une série de capteurs biogéochimiques. Les flotteurs fournissent des informations sur la communauté phytoplanctonique en mesurant la fluorescence, un indicateur de la concentration en chlorophylle-a, utilisée comme indicateur de la biomasse phytoplanctonique. Cependant, il a été démontré que cette mesure est très variable à l'échelle mondiale. De plus, il reste encore compliqué de décrire la composition de la communauté phytoplanctonique à partir de capteurs in-situ. Dans un premier temps, ce travail de thèse présente le rôle de la communauté phytoplanctonique dans la variabilité de la réponse de fluorescence in-situ. Une base de donnée de mesure de fluorescence et de concentration en Chlorophylle-a a été étudié pour démontrer le role clé de la composition de la communauté phytoplanctonique sur le rapport entre fluorescence et concentration en chlorophylle-a à différentes échelles spatiales et temporelles. Ensuite, nous avons développé deux méthodes différentes pour évaluer la composition de la communauté phytoplanctonique. La première repose sur l'utilisation de la fluorescence multispectrale, pour estimer un indice taxonomique de la composition du phytoplancton. La seconde utilise une combinaison de mesures optiques et hydrographiques pour estimer la concentration de quatre différents groupes de plancton dans le carbone organique et la concentration du carbone organique particulaire total. Ces deux approches reposent sur des méthodes de machine learning. Dans le premier cas, nous avons établis un protocole qui a permis de récolter des données en laboratoire et sur le terrain pour mieux comprendre la réponse de fluorescence à différentes longueurs d’ondes en fonction de la composition de la communauté phytoplanctonique. Pour la deuxième méthode nous avons récolté des données en mer pendant un an pour pouvoir augmenter une base de donnée déjà existante. Ces deux méthodes ont permis de mettre en avant la possibilité d’estimer la composition de la communauté phytoplanctonique à partir des flotteurs profileurs BGC-Argo.</jats:p>",
+    "abstract_openalex": "Développement et exploitation de nouvelles approches pour l'observation de la composition des communautés phytoplanctoniques à partir des flotteurs BGC-Argo dans l'océan ouvert Le phytoplancton joue un rôle clé dans la régulation de nombreux cycles biogéochimiques. Il est responsable de la moitié de la production primaire mondiale, ce qui contribue à la chaîne alimentaire marine et régule les flux de carbone entre l'océan et l'atmosphère. Ces processus varient à la fois en fonction de la biomasse du phytoplancton et de la composition de la communauté. C'est donc un défi crucial que de pouvoir surveiller la biomasse du phytoplancton et la composition de la communauté à l'échelle mondiale. Le programme BioGeoChemical-Argo (BGC-Argo) vise à surveiller et à comprendre les processus biogéochimiques clés à l'échelle mondiale en développant un réseau de flotteurs Argo profilés équipés d'une série de capteurs biogéochimiques. Les flotteurs fournissent des informations sur la communauté phytoplanctonique en mesurant la fluorescence, un indicateur de la concentration en chlorophylle-a, utilisée comme indicateur de la biomasse phytoplanctonique. Cependant, il a été démontré que cette mesure est très variable à l'échelle mondiale. De plus, il reste encore compliqué de décrire la composition de la communauté phytoplanctonique à partir de capteurs in-situ. Dans un premier temps, ce travail de thèse présente le rôle de la communauté phytoplanctonique dans la variabilité de la réponse de fluorescence in-situ. Une base de donnée de mesure de fluorescence et de concentration en Chlorophylle-a a été étudié pour démontrer le role clé de la composition de la communauté phytoplanctonique sur le rapport entre fluorescence et concentration en chlorophylle-a à différentes échelles spatiales et temporelles. Ensuite, nous avons développé deux méthodes différentes pour évaluer la composition de la communauté phytoplanctonique. La première repose sur l'utilisation de la fluorescence multispectrale, pour estimer un indice taxonomique de la composition du phytoplancton. La seconde utilise une combinaison de mesures optiques et hydrographiques pour estimer la concentration de quatre différents groupes de plancton dans le carbone organique et la concentration du carbone organique particulaire total. Ces deux approches reposent sur des méthodes de machine learning. Dans le premier cas, nous avons établis un protocole qui a permis de récolter des données en laboratoire et sur le terrain pour mieux comprendre la réponse de fluorescence à différentes longueurs d’ondes en fonction de la composition de la communauté phytoplanctonique. Pour la deuxième méthode nous avons récolté des données en mer pendant un an pour pouvoir augmenter une base de donnée déjà existante. Ces deux méthodes ont permis de mettre en avant la possibilité d’estimer la composition de la communauté phytoplanctonique à partir des flotteurs profileurs BGC-Argo.",
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 0
+   },
+   {
+    "doi": "10.22541/essoar.173193344.47368032/v1",
+    "title": "Observing subsurface phytoplankton in the Southern Ocean with biogeochemical Argo floats: deep chlorophyll but inconspicuous biomass",
+    "journal": "",
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "year": 2024,
+    "authors": [
+     "Baldry, Kimberlee",
+     "Strutton, Peter G.",
+     "Hill, Nicole",
+     "Boyd, Philip W"
+    ],
+    "abstract_crossref": "<jats:p>In the Southern Ocean, subsurface chlorophyll maxima (SCMs) can indicate\ndeep accumulations of phytoplankton. Recent observations of subsurface\nchlorophyll fluorescence maxima (SFMs) from a large network of\nbiogeochemical Argo (BGC-Argo) floats suggest that Southern Ocean SCMs\nare widespread. However, the attribution of SFMs to SCMs is not trivial,\nand SFMs are often observed without the presence of subsurface biomass\nmaxima (SBMs), where biomass is quantified by particulate organic\ncarbon. Consequently, it is questionable if these widespread SFMs\nrepresent increased phytoplankton biomass or if they are formed by\nintracellular processes that alter chlorophyll fluorescence, without a\nconcurrent increase in biomass, such as photo-acclimation or\nnon-photochemical quenching.</jats:p>\n                <jats:p>This study builds confidence in the interpretation of SFMs as SCMs and\nfinds their widespread occurrence of SCMs in the Southern Ocean during\nsummer. We identify SCMs from ship-based chlorophyll sampling and SFMs\nfrom fluorometers using a distributional shape-based clustering method\nwhich achieves consistent results between ship and BGC-Argo float\ndatasets. Ship data reveal a 15 % disagreement in the identification of\nSFMs as SCMs. We attribute these uncertainties to non-photochemical\nquenching corrections and increases in chlorophyll fluorescence yields\nwith depth. In the overlying waters above these SCMs we find increased\nnon-algal contributions to bio-optical POC in the upper mixed layer.\nThese non-algal stocks obscure deep accumulations of phytoplankton\nbiomass and result in the decoupling of SBMs from SCMs in a way that\ncannot be explained by increases in intracellular chlorophyll\nfluorescence with depth.</jats:p>",
+    "abstract_openalex": "In the Southern Ocean, subsurface chlorophyll maxima (SCMs) can indicate deep accumulations of phytoplankton. Recent observations of subsurface chlorophyll fluorescence maxima (SFMs) from a large network of biogeochemical Argo (BGC-Argo) floats suggest that Southern Ocean SCMs are widespread. However, the attribution of SFMs to SCMs is not trivial, and SFMs are often observed without the presence of subsurface biomass maxima (SBMs), where biomass is quantified by particulate organic carbon. Consequently, it is questionable if these widespread SFMs represent increased phytoplankton biomass or if they are formed by intracellular processes that alter chlorophyll fluorescence, without a concurrent increase in biomass, such as photo-acclimation or non-photochemical quenching. This study builds confidence in the interpretation of SFMs as SCMs and finds their widespread occurrence of SCMs in the Southern Ocean during summer. We identify SCMs from ship-based chlorophyll sampling and SFMs from fluorometers using a distributional shape-based clustering method which achieves consistent results between ship and BGC-Argo float datasets. Ship data reveal a 15 % disagreement in the identification of SFMs as SCMs. We attribute these uncertainties to non-photochemical quenching corrections and increases in chlorophyll fluorescence yields with depth. In the overlying waters above these SCMs we find increased non-algal contributions to bio-optical POC in the upper mixed layer. These non-algal stocks obscure deep accumulations of phytoplankton biomass and result in the decoupling of SBMs from SCMs in a way that cannot be explained by increases in intracellular chlorophyll fluorescence with depth.",
+    "oa_status": "gold",
+    "oa_url": "https://essopenarchive.org/doi/pdf/10.22541/essoar.173193344.47368032",
+    "cited_by": 0
+   },
+   {
+    "doi": "10.1002/essoar.10501351.1",
+    "title": "El Nino detection via unsupervised clustering of Argo temperature profiles",
+    "journal": "",
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "year": 2019,
+    "authors": [
+     "Houghton, Isabel A",
+     "Wilson, James"
+    ],
+    "abstract_crossref": "<jats:p>Variability in the El Nino-Southern Oscillation has global impacts on\nseasonal temperatures and rainfall. Current detection methods for\nextreme phases, which occur with irregular periodicity, rely upon sea\nsurface temperature anomalies within a strictly defined geographic\nregion of the Pacific Ocean. However, under changing climate conditions\nand ocean warming, these historically motivated indicators may not be\nreliable into the future. In this work, we demonstrate the power of data\nclustering as a robust, automatic way to detect anomalies in climate\npatterns. Ocean temperature profiles from Argo floats are partitioned\ninto similar groups utilizing unsupervised machine learning methods. The\nautomatically identified groups of measurements represent spatially\ncoherent, large-scale water masses in the Pacific, despite no inclusion\nof geospatial information in the clustering task. Further, temporal\ndynamics of the clusters are strongly indicative of El Nino events, the\nPacific warming phase of the El Nino-Southern Oscillation. The\nunsupervised clustering task successfully identifies changes in the\nvertical structure of the temperature profiles through reassignment to a\ndifferent group, concisely capturing physical changes to the water\ncolumn during an El Nino event, such as tilting of the thermocline.\nClustering proves to be an effective tool for analysis of the\nirregularly sampled (in space and time) data from ocean floats and may\nserve as a novel approach for detecting future anomalies given the\nfreedom from thresholding decisions. Unsupervised machine learning\napproaches could be particularly valuable due to their ability to\nidentify patterns in datasets without user-imposed expectations,\nfacilitating further discovery of anomaly indicators.</jats:p>",
+    "abstract_openalex": "Variability in the El Nino-Southern Oscillation has global impacts on seasonal temperatures and rainfall. Current detection methods for extreme phases, which occur with irregular periodicity, rely upon sea surface temperature anomalies within a strictly defined geographic region of the Pacific Ocean. However, under changing climate conditions and ocean warming, these historically motivated indicators may not be reliable into the future. In this work, we demonstrate the power of data clustering as a robust, automatic way to detect anomalies in climate patterns. Ocean temperature profiles from Argo floats are partitioned into similar groups utilizing unsupervised machine learning methods. The automatically identified groups of measurements represent spatially coherent, large-scale water masses in the Pacific, despite no inclusion of geospatial information in the clustering task. Further, temporal dynamics of the clusters are strongly indicative of El Nino events, the Pacific warming phase of the El Nino-Southern Oscillation. The unsupervised clustering task successfully identifies changes in the vertical structure of the temperature profiles through reassignment to a different group, concisely capturing physical changes to the water column during an El Nino event, such as tilting of the thermocline. Clustering proves to be an effective tool for analysis of the irregularly sampled (in space and time) data from ocean floats and may serve as a novel approach for detecting future anomalies given the freedom from thresholding decisions. Unsupervised machine learning approaches could be particularly valuable due to their ability to identify patterns in datasets without user-imposed expectations, facilitating further discovery of anomaly indicators.",
+    "oa_status": "gold",
+    "oa_url": "https://doi.org/10.1002/essoar.10501351.1",
+    "cited_by": 0
+   }
+  ]
+ },
+ "kessler2017tao": {
+  "query": "TAO array 2012-2014 data return decline Tropical Pacific Observing System 2020 review",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1002/2014eo230006",
+    "title": "Tropical Pacific Observing for the Next Decade",
+    "journal": "Eos, Transactions American Geophysical Union",
+    "volume": "95",
+    "issue": "23",
+    "page": "196-196",
+    "year": 2014,
+    "authors": [
+     "Legler, David M.",
+     "Hill, Katherine"
+    ],
+    "abstract_crossref": "<jats:p>More than 60 scientists and program officials from 13 countries met at the Scripps Institution of Oceanography for the Tropical Pacific Observing System (TPOS) 2020 Workshop. The workshop, although motivated in part by the dramatic decline of NOAA's Tropical Atmosphere Ocean (TAO) buoy reporting from mid‐2012 to early 2014 (see <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"http://www.bloomberg.com/news/2014-03-07/aging-el-nino-buoys-getting-fixed-as-weather-forecasts-at-risk.html\">http://www.bloomberg.com/news/2014‐03‐07/aging‐el‐nino‐buoys‐getting‐fixed‐as‐weather‐forecasts‐at‐risk.html</jats:ext-link>), evaluated the needs for tropical Pacific observing and initiated efforts to develop a more resilient and integrative observing system for the future.</jats:p>",
+    "abstract_openalex": "More than 60 scientists and program officials from 13 countries met at the Scripps Institution of Oceanography for the Tropical Pacific Observing System (TPOS) 2020 Workshop. The workshop, although motivated in part by the dramatic decline of NOAA's Tropical Atmosphere Ocean (TAO) buoy reporting from mid‐2012 to early 2014 (see http://www.bloomberg.com/news/2014‐03‐07/aging‐el‐nino‐buoys‐getting‐fixed‐as‐weather‐forecasts‐at‐risk.html ), evaluated the needs for tropical Pacific observing and initiated efforts to develop a more resilient and integrative observing system for the future.",
+    "oa_status": "bronze",
+    "oa_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2014EO230006",
+    "cited_by": 3
+   },
+   {
+    "doi": "10.21236/ada611153",
+    "title": "Evaluation of the Tropical Pacific Observing System from the Data Assimilation Perspective",
+    "journal": "",
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "year": 2014,
+    "authors": [
+     "Fujii, Y.",
+     "Cummings, J.",
+     "Xue, Y.",
+     "Schiller, A.",
+     "Lee, T.",
+     "Balmaseda, M. A.",
+     "Remy, E.",
+     "Masuda, S.",
+     "Alves, O.",
+     "Brassington, G."
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 1
+   },
+   {
+    "doi": "10.5194/bg-2018-16-rc2",
+    "title": "review of Pacific Decadal Oscillation and recent oxygen decline in the eastern tropical Pacific Ocean",
+    "journal": "",
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "year": 2018,
+    "authors": [],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 0
+   }
+  ]
+ },
+ "smith2019": {
+  "query": "Smith 2019 Tropical Pacific Observing System Frontiers in Marine Science",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.3389/fmars.2019.00031",
+    "title": "Tropical Pacific Observing System",
+    "journal": "Frontiers in Marine Science",
+    "volume": "6",
+    "issue": null,
+    "page": null,
+    "year": 2019,
+    "authors": [
+     "Smith, Neville",
+     "Kessler, William S.",
+     "Cravatte, Sophie",
+     "Sprintall, Janet",
+     "Wijffels, Susan",
+     "Cronin, Meghan F.",
+     "Sutton, Adrienne",
+     "Serra, Yolande L.",
+     "Dewitte, Boris",
+     "Strutton, Peter G.",
+     "Hill, Katherine",
+     "Sen Gupta, Alex",
+     "Lin, Xiaopei",
+     "Takahashi, Ken",
+     "Chen, Dake",
+     "Brunner, Shelby"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": "This paper reviews the design of the Tropical Pacific Observing System (TPOS) and its governance and takes a forward look at prospective change. The initial findings of the TPOS 2020 Project embrace new strategic approaches and technologies in a user-driven design and the variable focus of the Framework for Ocean Observing. User requirements arise from climate prediction and research, climate change and the climate record, and coupled modeling and data assimilation more generally. Requirements include focus on the upper ocean and air-sea interactions, sampling of diurnal variations, finer spatial scales and emerging demands related to biogeochemistry and ecosystems. One aim is to sample a diversity of climatic regimes in addition to the equatorial zone. The status and outlook for meeting the requirements of the design are discussed. This is accomplished through integrated and complementary capabilities of networks, including satellites, moorings, profiling floats and autonomous vehicles. Emerging technologies and methods are also discussed. The outlook highlights a few new foci of the design: biogeochemistry and ecosystems, low-latitude western boundary currents and the eastern Pacific. Low latitude western boundary currents are conduits of tropical-subtropical interactions, supplying waters of mid to high latitude origin to the western equatorial Pacific and into the Indonesian Throughflow. They are an essential part of the recharge/discharge of equatorial warm water volume at interannual timescales and play crucial roles in climate variability on regional and global scales. The tropical eastern Pacific, where extreme El Nino events develop, requires tailored approaches owing to the complex of processes at work there involving coastal upwelling, and equatorial cold tongue dynamics, the oxygen minimum zone and the seasonal double Intertropical Convergence Zone. A pilot program building on existing networks is envisaged, complemented by a process study of the East Pacific ITCZ/warm pool/cold tongue/stratus coupled system. The sustainability of TPOS depends on effective and strong collaborative partnerships and governance arrangements. Revisiting regional mechanisms and engaging new partners in the context of a planned and systematic design will ensure a multi-purpose, multi-faceted integrated approach that is sustainable and responsive to changing needs.",
+    "oa_status": "gold",
+    "oa_url": "https://www.frontiersin.org/articles/10.3389/fmars.2019.00031/pdf",
+    "cited_by": 84
+   },
+   {
+    "doi": "10.3389/fmars.2019.00537",
+    "title": "Marine Observing Applications Using AIS: Automatic Identification System",
+    "journal": "Frontiers in Marine Science",
+    "volume": "6",
+    "issue": null,
+    "page": null,
+    "year": 2019,
+    "authors": [
+     "Wright, Darren",
+     "Janzen, Carol",
+     "Bochenek, Robert",
+     "Austin, Jessica",
+     "Page, Edward"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": "The Automatic Identification System (AIS) is a real-time network of transmitters and receivers that allow vessel movements to be broadcast, tracked and recorded. Though traditionally used for real-time maritime applications related to keeping track of vessel traffic for collision avoidance, there is increasing interest in using AIS data and the AIS platform for maritime safety planning, resource management and weather forecasting. AIS data are being made tractable for alternative non-real-time applications like determining trends and patterns in vessel traffic and helping to prioritize where modern bathymetric surveys are needed to ensure safe maritime transit. The AIS is also being used for widespread transmission of critical environmental conditions information, such as sea state and weather, to mariners, forecasters and emergency response providers. Several pilot projects are underway that demonstrate the capacity and promise of AIS data and the AIS platform to serve multiple purposes, providing overall maritime domain awareness while maintaining its most important objective of tracking vessels.",
+    "oa_status": "gold",
+    "oa_url": "https://www.frontiersin.org/articles/10.3389/fmars.2019.00537/pdf",
+    "cited_by": 32
+   },
+   {
+    "doi": "10.3389/fmars.2019.00111",
+    "title": "An Innovative Approach to Design and Evaluate a Regional Coastal Ocean Observing System",
+    "journal": "Frontiers in Marine Science",
+    "volume": "6",
+    "issue": null,
+    "page": null,
+    "year": 2019,
+    "authors": [
+     "Ostrander, Chris E.",
+     "Iwamoto, Melissa M.",
+     "Langenberger, Fiona"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": "Comprehensive and objective evaluation of all observing assets, tools, and services within an ocean observing system is essential to maximize effectiveness and efficiency; yet, it often eludes programs due to the complexity of such robust evaluation. In order to address this need, the Pacific Islands Ocean Observing System (PacIOOS) transformed an evaluation matrix developed for the energy sector to one suitable for ocean observing. The resulting innovation is a decision analysis methodology that factors in multiple attributes (market, risk, and performance factors) and allows for selective weighting of attributes based on system maturity, external forcing, and consumer demand. This evaluation process is coupled with an annual review of priorities with respect to stakeholder needs and the program’s five-year strategic framework in order to assess the system’s components. The results provide information needed to assess the effectiveness, efficiency, and impact of each component within the system, and informs a decision-making process that determines additional investment, refinement, sustainment, or retirement of individual observing assets, services, or component groups. Regularly evaluating, and taking action to improve, modify, or terminate weak system components allows for the continuous improvement of PacIOOS services by ensuring resources are directed to the priorities of the stakeholder community. The methodology described herein is presented as an innovative opportunity for others looking for a systematic approach to evaluate their observing systems to inform program-level decision-making as they develop, refine, and distribute data and information products.",
+    "oa_status": "gold",
+    "oa_url": "https://www.frontiersin.org/articles/10.3389/fmars.2019.00111/pdf",
+    "cited_by": 2
+   }
+  ]
+ }
+}
