@@ -14,9 +14,9 @@ def get(name, url, tries=3, timeout=300):
             err = str(e); time.sleep(8 * (i + 1))
     LOG.append(f'FAIL {name} {err[:160]} | {url}')
 # TAO/TRITON daily: 20 C isotherm depth, winds, SST along the equator
-for host in ('https://coastwatch.pfeg.noaa.gov/erddap', 'https://data.pmel.noaa.gov/pmel/erddap'):
-    tag = 'cw' if 'coastwatch' in host else 'pmel'
-    for ds, var in (('pmelTaoDyIso', 'ISO_6'), ('pmelTaoDyW', 'WU_422,WV_423'), ('pmelTaoDySst', 'T_25'), ('pmelTaoDyD', 'D_3')):
+for host in ("https://data.pmel.noaa.gov/pmel/erddap",):
+    tag = 'pmel'
+    for ds, var in (('pmelTaoDyIso', 'ISO_6'), ('pmelTaoDyW', 'WU_422,WV_423'), ('pmelTaoDySst', 'T_25'), ):
         q = f'time,latitude,longitude,{var}&latitude>=-0.5&latitude<=0.5&time>={W0}&time<={W1}T23:59:59Z'
         get(f'tao_{tag}_{ds}.csv', f'{host}/tabledap/{ds}.csv?{urllib.parse.quote(q, safe="=&,><:")}')
     get(f'tao_{tag}_index.csv', f'{host}/search/index.csv?searchFor=pmelTao%20daily&page=1&itemsPerPage=200')

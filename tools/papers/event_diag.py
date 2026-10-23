@@ -9,7 +9,7 @@ W0 = dt.date.fromisoformat(os.environ.get('W0', '1996-01-01')); W1 = dt.date.fro
 OUTD = os.environ.get('OUT', 'probe'); os.makedirs(OUTD, exist_ok=True)
 from scipy import ndimage
 
-Y0, Y1 = 1979, 2001
+Y0, Y1 = 1979, int(os.environ.get('YEND', '2001'))  # data years; climatology and EOF base stay 1979-2000/2001 as in Paper 1
 LAT = slice(32, 41)  # 10N..10S on the 2.5 deg grid (index 36 = equator)
 R1 = 'https://psl.noaa.gov/thredds/dodsC/Datasets/ncep.reanalysis.dailyavgs/pressure/uwnd.{y}.nc.ascii?uwnd[0:1:{n}][{lev}][32:1:40][0:1:143]'
 OLR = 'https://psl.noaa.gov/thredds/dodsC/Datasets/interp_OLR/olr.day.mean.nc.ascii?olr[{a}:1:{b}][32:1:40][0:1:143]'
@@ -105,13 +105,15 @@ def prev120(x):
 filt = {k: bandpass(anom[k]) for k in ('olr', 'u850', 'u200', 'u1000_eq')}
 wh = {k: prev120(anom[k]) for k in ('olr', 'u850', 'u200')}
 
+NB = int(sum(d.year <= 2001 for d in dates)); FIT = slice(120, NB)  # EOFs fitted on 1979-2001 only (Paper 1 base), applied to all days
+
 def ceof(fields):
-    Z = np.hstack([v / v[120:].std() for v in fields]); Zc = Z - Z[120:].mean(0)
-    _, s, vt = np.linalg.svd(Zc[120:], full_matrices=False)
-    pc = Zc @ vt[:2].T; pc /= pc[120:].std(0)
+    Z = np.hstack([v / v[FIT].std() for v in fields]); Zc = Z - Z[FIT].mean(0)
+    _, s, vt = np.linalg.svd(Zc[FIT], full_matrices=False)
+    pc = Zc @ vt[:2].T; pc /= pc[FIT].std(0)
     eof = vt[:2]; var = (s[:2] ** 2 / (s ** 2).sum()).round(3).tolist()
     # orient: eastward propagation means the pattern of PC1 is followed by PC2's pattern shifted east; enforce PC1 leads PC2
-    lagc = np.corrcoef(pc[:-10, 0], pc[10:, 1])[0, 1]
+    lagc = np.corrcoef(pc[FIT][:-10, 0], pc[FIT][10:, 1])[0, 1]
     if lagc < 0: pc[:, 1] *= -1; eof[1] *= -1
     olr_pat = eof[:, :144]
     amp = np.hypot(pc[:, 0], pc[:, 1]); ang = np.arctan2(pc[:, 1], pc[:, 0])
@@ -153,14 +155,14 @@ for e in range(1, n + 1):
 # Base rates for WWBs and MJO activity by Oct-Mar season and by year, same definitions, 1979-2001
 def season_stats():
     rows = []
-    for y in range(1979, 2001):
+    for y in range(1979, Y1):
         s = np.array([(d.year == y and d.month >= 10) or (d.year == y + 1 and d.month <= 3) for d in dates])
         rows.append(dict(season=f'{y}-{(y + 1) % 100:02d}', **{f'{k}_days_amp_ge1': int((v['amp'][s] >= 1).sum()) for k, v in IDX.items()},
                          olr_20_100_var_160E_150W=round(float(filt['olr'][s][:, (lon >= 160) & (lon <= 210)].var()), 1),
                          olr_20_100_var_60E_150E=round(float(filt['olr'][s][:, (lon >= 60) & (lon <= 150)].var()), 1)))
     return rows
 yearly = []
-for y in range(1979, 2002):
+for y in range(1979, Y1 + 1):
     s = np.array([d.year == y for d in dates]); cnt = 0
     for e in range(1, n + 1):
         ti, li = np.where(lab == e)
