@@ -47,6 +47,9 @@ for _m in (TODAY.replace(day=1), (TODAY.replace(day=1) - dt.timedelta(days=1)).r
         get('iri_figure3.svg', f'https://ensoforecast.iri.columbia.edu/figure3_plot/{_ym}', tries=2)
         (OUT / 'iri_issue.txt').write_text(f'{_m.year}-{_m.month:02d}\n')
         break
+# Official NOAA CPC ENSO probabilities (numeric strength table) and the discussion (issue date)
+get('cpc_strengths.html', 'https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/strengths/')
+get('cpc_ensodisc.html', 'https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml')
 get('cpc_ao_daily.csv','https://ftp.cpc.ncep.noaa.gov/cwlinks/norm.daily.ao.cdas.z1000.19500101_current.csv')
 # ---- hazards
 get('nhc_currentstorms.json', 'https://www.nhc.noaa.gov/CurrentStorms.json')
