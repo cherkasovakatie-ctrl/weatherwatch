@@ -235,3 +235,10 @@ if want('polar_motion'):
         rows[m] = {'month': m, 'x_arcsec': f'{sum(a for a, _, _ in v) / len(v):.4f}'.rstrip('0'), 'y_arcsec': f'{sum(b for _, b, _ in v) / len(v):.4f}'.rstrip('0'),
                    'forecast': '1' if any(p for *_, p in v) else ''}
     wcsv('polar_motion.csv', hdr, [rows[m] for m in sorted(rows)], 'month')
+
+# ---------------- enso_plume / enso_probs: IRI/CCSR monthly plume and objective probabilities (SVG geometry)
+if want('enso_plume') and (RAW / 'iri_figure4.svg').exists():
+    print('enso_plume')
+    sys.path.insert(0, str(Path(__file__).parent))
+    import enso_plume
+    enso_plume.main(RAW)

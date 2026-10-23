@@ -729,6 +729,22 @@
    "description": "Natural Earth 1:110m land polygons (world-atlas 2.0.2), coordinates rounded to 0.1 degree. Map background only.",
    "updated": "2026-10-11",
    "bytes": 58633
+  },
+  {
+   "id": "enso_plume",
+   "file": "enso_plume.csv",
+   "title": "ENSO forecast plume (IRI/CCSR)",
+   "description": "IRI/CCSR monthly multi-model Niño 3.4 plume: observed values, all-model, dynamical and statistical averages, model range and count, and one column per model, by 3-month season. Traditional Niño 3.4 anomaly, °C (OISST v2.1, 1991–2020 base) as plotted by IRI. Read from the geometry of IRI's published SVG figure (figure4) because the data tables are not public; the mean of the single models is checked against IRI's plotted average (±0.015 °C) before writing. Refreshed in the Friday run (tools/weekly/enso_plume.py); IRI issues about the 19th of each month.",
+   "updated": "2026-10-23",
+   "bytes": 1993
+  },
+  {
+   "id": "enso_probs",
+   "file": "enso_probs.csv",
+   "title": "ENSO objective probabilities (IRI)",
+   "description": "IRI/CCSR objective model-based probabilities (%) of La Niña (≤ −0.5 °C), Neutral and El Niño (≥ +0.5 °C) for traditional Niño 3.4, by 3-month season, read from IRI's figure3 SVG (rounded to whole %; rows must sum to 100 ± 2). Not the official CPC/IRI outlook, which uses the relative index.",
+   "updated": "2026-10-23",
+   "bytes": 217
   }
  ]
 }
