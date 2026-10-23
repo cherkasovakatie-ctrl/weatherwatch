@@ -110,7 +110,14 @@ def avail(a, b):
 
 
 results = {n: test(a, b) | {'index_max_amp': avail(a, b)} for n, (a, b) in WINDOWS.items()}
-json.dump({'method': __doc__.split('Run:')[0].strip(), 'results': results}, open(D / 'propagation_tests.json', 'w'), indent=1, ensure_ascii=False)
+# Base rates: every 45-day window starting each day from 1 Jan 1981 to 17 Apr 1983 (last window ends 31 May 1983)
+_br = []; _d = dt.date(1981, 1, 1)
+while _d + dt.timedelta(44) <= dt.date(1983, 5, 31):
+    _br.append(test(_d.isoformat(), (_d + dt.timedelta(44)).isoformat())); _d += dt.timedelta(1)
+base_rates = {'windows': len(_br), 'T1_T2_T4_pct': round(100 * sum(r['PASS'] for r in _br) / len(_br), 1),
+              'all_four_pct': round(100 * sum(r['PASS'] and bool(r.get('T3')) for r in _br) / len(_br), 1)}
+print('base rates', base_rates)
+json.dump({'method': __doc__.split('Run:')[0].strip(), 'base_rates_45d_windows_1981_1983': base_rates, 'results': results}, open(D / 'propagation_tests.json', 'w'), indent=1, ensure_ascii=False)
 for n, r in results.items():
     print(n, {k: v for k, v in r.items() if k not in ('window', 'index_max_amp')}, r['index_max_amp'])
 
