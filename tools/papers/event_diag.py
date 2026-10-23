@@ -169,7 +169,7 @@ for y in range(1979, 2002):
 # Hovmoller output for the window (5 deg spacing)
 import csv
 for k, src in [('olr_anom', anom['olr']), ('olr_20_100', filt['olr']), ('u850_anom', anom['u850']), ('u850_20_100', filt['u850']), ('u200_20_100', filt['u200']), ('u1000_anom_5S5N', anom['u1000_eq'])]:
-    with open(fOUTD + '/hov_{k}.csv', 'w', newline='') as fh:
+    with open(f'{OUTD}/hov_{k}.csv', 'w', newline='') as fh:
         wr = csv.writer(fh); wr.writerow(['date'] + [f'{x:g}' for x in lon[::2]])
         for i in np.where(win)[0]: wr.writerow([str(dates[i])] + [f'{v:.1f}' for v in src[i, ::2]])
 with open(OUTD + '/mjo_index.csv', 'w', newline='') as fh:

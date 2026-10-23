@@ -18,7 +18,7 @@ jobs:
         run: |
           set -a; . tools/papers/trigger.txt; set +a
           mkdir -p "$OUT"
-          python3 tools/papers/event_extras.py > "$OUT/extras_stdout.txt" 2>&1 || true
+          [ -n "$SKIP_EXTRAS" ] || python3 tools/papers/event_extras.py > "$OUT/extras_stdout.txt" 2>&1 || true
           python3 tools/papers/event_diag.py > "$OUT/diag_stdout.txt" 2>&1 || true
       - name: Commit
         if: always()
