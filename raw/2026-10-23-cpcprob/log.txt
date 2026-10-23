@@ -1,0 +1,5 @@
+OK   cpc_figure01.gif image/gif 175500
+OK   cpc_strengths.html text/html; charset=UTF-8 31212
+OK   cpc_strengths_index.html text/html; charset=UTF-8 31212
+OK   cpc_ensodisc.html text/html; charset=utf-8 13499
+OK   cpc_roni_dir.html text/html; charset=UTF-8 97820
