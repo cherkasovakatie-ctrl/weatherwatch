@@ -1,0 +1,123 @@
+{
+ "source": "NOAA PMEL TAO/TRITON daily (ERDDAP pmelTaoDyIso, pmelTaoDyW), equator",
+ "wind_coverage_pct_Jul1995_Dec1998": {
+  "147": 37,
+  "156": 64,
+  "165": 82,
+  "180": 92
+ },
+ "westerly_episodes_Nov1996_Jun1997": [
+  {
+   "start": "1996-11-19",
+   "end": "1996-11-21",
+   "days": 3,
+   "max_u_ms": 6.7,
+   "max_lon_E": 156.0,
+   "sites_ge5": "156"
+  },
+  {
+   "start": "1996-12-21",
+   "end": "1996-12-22",
+   "days": 2,
+   "max_u_ms": 7.5,
+   "max_lon_E": 156.0,
+   "sites_ge5": "156"
+  },
+  {
+   "start": "1996-12-24",
+   "end": "1996-12-26",
+   "days": 3,
+   "max_u_ms": 8.7,
+   "max_lon_E": 156.0,
+   "sites_ge5": "156 165"
+  },
+  {
+   "start": "1997-01-01",
+   "end": "1997-01-03",
+   "days": 3,
+   "max_u_ms": 7.2,
+   "max_lon_E": 156.0,
+   "sites_ge5": "156 165"
+  },
+  {
+   "start": "1997-01-14",
+   "end": "1997-01-15",
+   "days": 2,
+   "max_u_ms": 6.7,
+   "max_lon_E": 156.0,
+   "sites_ge5": "156"
+  },
+  {
+   "start": "1997-02-27",
+   "end": "1997-03-06",
+   "days": 8,
+   "max_u_ms": 9.9,
+   "max_lon_E": 147.0,
+   "sites_ge5": "147 165"
+  },
+  {
+   "start": "1997-03-11",
+   "end": "1997-03-16",
+   "days": 6,
+   "max_u_ms": 8.6,
+   "max_lon_E": 165.0,
+   "sites_ge5": "165 180"
+  },
+  {
+   "start": "1997-03-27",
+   "end": "1997-03-30",
+   "days": 4,
+   "max_u_ms": 5.5,
+   "max_lon_E": 165.0,
+   "sites_ge5": "165 180"
+  },
+  {
+   "start": "1997-04-13",
+   "end": "1997-04-20",
+   "days": 8,
+   "max_u_ms": 11.0,
+   "max_lon_E": 165.0,
+   "sites_ge5": "165"
+  },
+  {
+   "start": "1997-05-22",
+   "end": "1997-05-26",
+   "days": 5,
+   "max_u_ms": 10.2,
+   "max_lon_E": 165.0,
+   "sites_ge5": "165"
+  },
+  {
+   "start": "1997-06-01",
+   "end": "1997-06-03",
+   "days": 3,
+   "max_u_ms": 7.7,
+   "max_lon_E": 165.0,
+   "sites_ge5": "165"
+  },
+  {
+   "start": "1997-06-07",
+   "end": "1997-06-12",
+   "days": 6,
+   "max_u_ms": 7.3,
+   "max_lon_E": 165.0,
+   "sites_ge5": "165"
+  }
+ ],
+ "kelvin_waves": [
+  {
+   "start_165E": "1997-01-02",
+   "arrive_110W": "1997-02-23",
+   "days": 52,
+   "distance_km": 9452,
+   "speed_ms": 2.1
+  },
+  {
+   "start_165E": "1997-03-16",
+   "arrive_110W": "1997-04-23",
+   "days": 38,
+   "distance_km": 9452,
+   "speed_ms": 2.88
+  }
+ ]
+}

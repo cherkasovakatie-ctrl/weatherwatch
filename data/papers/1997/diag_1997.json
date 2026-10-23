@@ -1,0 +1,275 @@
+{
+ "wwb_dec96_jun97": [
+  {
+   "start": "1996-12-20",
+   "end": "1996-12-31",
+   "peak": "1996-12-25",
+   "peak_anom_ms": 11.8,
+   "peak_lon_E": 137.5,
+   "lon_w": 130.0,
+   "lon_e": 147.5,
+   "omi_amp_at_peak": 2.65633,
+   "wh_like_amp_at_peak": 3.85
+  },
+  {
+   "start": "1997-02-27",
+   "end": "1997-03-04",
+   "peak": "1997-02-28",
+   "peak_anom_ms": 7.0,
+   "peak_lon_E": 132.5,
+   "lon_w": 125.0,
+   "lon_e": 155.0,
+   "omi_amp_at_peak": 1.76684,
+   "wh_like_amp_at_peak": 2.81
+  },
+  {
+   "start": "1997-03-03",
+   "end": "1997-03-19",
+   "peak": "1997-03-13",
+   "peak_anom_ms": 10.3,
+   "peak_lon_E": 150.0,
+   "lon_w": 137.5,
+   "lon_e": 182.5,
+   "omi_amp_at_peak": 2.74997,
+   "wh_like_amp_at_peak": 4.39
+  },
+  {
+   "start": "1997-03-25",
+   "end": "1997-03-29",
+   "peak": "1997-03-28",
+   "peak_anom_ms": 7.1,
+   "peak_lon_E": 165.0,
+   "lon_w": 157.5,
+   "lon_e": 185.0,
+   "omi_amp_at_peak": 3.31044,
+   "wh_like_amp_at_peak": 3.71
+  },
+  {
+   "start": "1997-04-10",
+   "end": "1997-04-21",
+   "peak": "1997-04-13",
+   "peak_anom_ms": 10.8,
+   "peak_lon_E": 155.0,
+   "lon_w": 137.5,
+   "lon_e": 167.5,
+   "omi_amp_at_peak": 2.00508,
+   "wh_like_amp_at_peak": 0.9
+  },
+  {
+   "start": "1997-05-02",
+   "end": "1997-05-08",
+   "peak": "1997-05-05",
+   "peak_anom_ms": 7.3,
+   "peak_lon_E": 167.5,
+   "lon_w": 160.0,
+   "lon_e": 172.5,
+   "omi_amp_at_peak": 1.94749,
+   "wh_like_amp_at_peak": 0.12
+  },
+  {
+   "start": "1997-05-19",
+   "end": "1997-05-24",
+   "peak": "1997-05-20",
+   "peak_anom_ms": 7.3,
+   "peak_lon_E": 140.0,
+   "lon_w": 135.0,
+   "lon_e": 150.0,
+   "omi_amp_at_peak": 2.48097,
+   "wh_like_amp_at_peak": 2.17
+  },
+  {
+   "start": "1997-05-21",
+   "end": "1997-05-27",
+   "peak": "1997-05-26",
+   "peak_anom_ms": 7.7,
+   "peak_lon_E": 162.5,
+   "lon_w": 152.5,
+   "lon_e": 180.0,
+   "omi_amp_at_peak": 2.89723,
+   "wh_like_amp_at_peak": 2.95
+  },
+  {
+   "start": "1997-05-30",
+   "end": "1997-06-12",
+   "peak": "1997-06-04",
+   "peak_anom_ms": 9.3,
+   "peak_lon_E": 192.5,
+   "lon_w": 162.5,
+   "lon_e": 210.0,
+   "omi_amp_at_peak": 1.94599,
+   "wh_like_amp_at_peak": 2.87
+  },
+  {
+   "start": "1997-06-21",
+   "end": "1997-06-23",
+   "peak": "1997-06-22",
+   "peak_anom_ms": 6.2,
+   "peak_lon_E": 175.0,
+   "lon_w": 170.0,
+   "lon_e": 180.0,
+   "omi_amp_at_peak": 0.48015,
+   "wh_like_amp_at_peak": 0.89
+  }
+ ],
+ "wwb_count_1997": 16,
+ "wwb_count_1996": 3,
+ "wwb_count_1995": 0,
+ "wwb_count_1982": 13,
+ "wwb_mean_1979_2001": 4.2,
+ "wwb_max_year": 1997,
+ "mjo_days_rank_1996_97": [
+  3,
+  22,
+  115.5
+ ],
+ "olr_io_wp_var_rank_1996_97": [
+  1,
+  22,
+  233.1
+ ],
+ "mjo_days_1996_97": 137,
+ "mjo_days_1981_82": 77,
+ "olr_io_wp_var_1997_98": 77.8,
+ "omi_episodes_onset": [
+  {
+   "start": "1996-10-23",
+   "end": "1997-01-16",
+   "days": 86,
+   "max": 2.8
+  },
+  {
+   "start": "1997-01-25",
+   "end": "1997-04-19",
+   "days": 85,
+   "max": 3.39
+  },
+  {
+   "start": "1997-04-29",
+   "end": "1997-06-13",
+   "days": 46,
+   "max": 3.03
+  }
+ ],
+ "omi_episodes_termination": [
+  {
+   "start": "1998-04-30",
+   "end": "1998-05-31",
+   "days": 32,
+   "max": 2.24
+  }
+ ],
+ "tao_kelvin_waves": [
+  {
+   "start_165E": "1997-01-02",
+   "arrive_110W": "1997-02-23",
+   "days": 52,
+   "distance_km": 9452,
+   "speed_ms": 2.1
+  },
+  {
+   "start_165E": "1997-03-16",
+   "arrive_110W": "1997-04-23",
+   "days": 38,
+   "distance_km": 9452,
+   "speed_ms": 2.88
+  }
+ ],
+ "tao_westerly_episodes": [
+  {
+   "start": "1996-11-19",
+   "end": "1996-11-21",
+   "days": 3,
+   "max_u_ms": 6.7,
+   "max_lon_E": 156.0,
+   "sites_ge5": "156"
+  },
+  {
+   "start": "1996-12-21",
+   "end": "1996-12-22",
+   "days": 2,
+   "max_u_ms": 7.5,
+   "max_lon_E": 156.0,
+   "sites_ge5": "156"
+  },
+  {
+   "start": "1996-12-24",
+   "end": "1996-12-26",
+   "days": 3,
+   "max_u_ms": 8.7,
+   "max_lon_E": 156.0,
+   "sites_ge5": "156 165"
+  },
+  {
+   "start": "1997-01-01",
+   "end": "1997-01-03",
+   "days": 3,
+   "max_u_ms": 7.2,
+   "max_lon_E": 156.0,
+   "sites_ge5": "156 165"
+  },
+  {
+   "start": "1997-01-14",
+   "end": "1997-01-15",
+   "days": 2,
+   "max_u_ms": 6.7,
+   "max_lon_E": 156.0,
+   "sites_ge5": "156"
+  },
+  {
+   "start": "1997-02-27",
+   "end": "1997-03-06",
+   "days": 8,
+   "max_u_ms": 9.9,
+   "max_lon_E": 147.0,
+   "sites_ge5": "147 165"
+  },
+  {
+   "start": "1997-03-11",
+   "end": "1997-03-16",
+   "days": 6,
+   "max_u_ms": 8.6,
+   "max_lon_E": 165.0,
+   "sites_ge5": "165 180"
+  },
+  {
+   "start": "1997-03-27",
+   "end": "1997-03-30",
+   "days": 4,
+   "max_u_ms": 5.5,
+   "max_lon_E": 165.0,
+   "sites_ge5": "165 180"
+  },
+  {
+   "start": "1997-04-13",
+   "end": "1997-04-20",
+   "days": 8,
+   "max_u_ms": 11.0,
+   "max_lon_E": 165.0,
+   "sites_ge5": "165"
+  },
+  {
+   "start": "1997-05-22",
+   "end": "1997-05-26",
+   "days": 5,
+   "max_u_ms": 10.2,
+   "max_lon_E": 165.0,
+   "sites_ge5": "165"
+  },
+  {
+   "start": "1997-06-01",
+   "end": "1997-06-03",
+   "days": 3,
+   "max_u_ms": 7.7,
+   "max_lon_E": 165.0,
+   "sites_ge5": "165"
+  },
+  {
+   "start": "1997-06-07",
+   "end": "1997-06-12",
+   "days": 6,
+   "max_u_ms": 7.3,
+   "max_lon_E": 165.0,
+   "sites_ge5": "165"
+  }
+ ]
+}

@@ -3,13 +3,61 @@
  "file": "enso-1997-98.html",
  "short": "1997–98 El Niño",
  "title": "How the 1997–98 El Niño developed",
- "description": "Evidence-based reconstruction of the 1997–98 El Niño (in progress): preconditions, westerly wind events, the MJO, the Indian Ocean and termination, with timeline, evidence table and verified references.",
- "status": "in-progress",
+ "description": "Evidence-based reconstruction of the 1997–98 El Niño (draft): preconditions, westerly wind events, the MJO, the Indian Ocean and termination, with timeline, evidence table and verified references.",
+ "status": "draft",
  "research_date": "23 October 2026",
  "obs_cutoff": "historical event (Jul 1995 – Dec 1998 analysed)",
  "lit_cutoff": "open, updated as new studies appear",
- "status_note": "Stages 1–3 of 5 (23 Oct 2026): 93 Crossref queries; the 72 references cited are each matched to their Crossref record (one, Bergman et al. 2001, read in full from a private copy) and every available abstract was read; monthly data Jul 1995 – Dec 1998 assembled; timeline (22 rows) and evidence table (17 factors) drafted from abstracts, one full text (Bergman et al. 2001) and CPC/PMEL data. In progress: reanalysis MJO and westerly-burst diagnostics, TAO moorings and island sea level (running in GitHub Actions); full texts requested. Not yet written: the prose sections (stage 4) and verification (stage 5).",
+ "status_note": "Stage 4 of 5 (23 Oct 2026): full draft. 93 Crossref queries; every journal reference cited is matched to its Crossref record; 11 papers read in full and 6 more held for checking in stage 5 (copies supplied by Kate), the rest from abstracts; reanalysis burst and MJO diagnostics and TAO mooring analysis added. Next: stage 5 verification (every number recomputed from source files). Island sea-level data could not be retrieved (server timeout).",
  "toc": [
+  [
+   "abstract",
+   "Abstract"
+  ],
+  [
+   "findings",
+   "Main findings"
+  ],
+  [
+   "intro",
+   "1. Introduction"
+  ],
+  [
+   "methods",
+   "2. Data and methods"
+  ],
+  [
+   "preconditions",
+   "3. Pre-event conditions"
+  ],
+  [
+   "chronology",
+   "4. Development"
+  ],
+  [
+   "termination",
+   "5. Termination"
+  ],
+  [
+   "interactions",
+   "6. Interactions"
+  ],
+  [
+   "synthesis",
+   "7. Causal synthesis"
+  ],
+  [
+   "knowable",
+   "8. What was forecast"
+  ],
+  [
+   "uncertainty",
+   "9. Uncertainties"
+  ],
+  [
+   "conclusion",
+   "10. Conclusion"
+  ],
   [
    "scope",
    "Evidence: scope and data"
@@ -27,15 +75,83 @@
    "Evidence table"
   ],
   [
+   "bursts",
+   "Westerly wind events"
+  ],
+  [
+   "mjo",
+   "MJO contribution"
+  ],
+  [
    "references",
    "References"
   ]
  ],
  "sections": [
   {
+   "id": "abstract",
+   "title": "Abstract",
+   "html": "<p>The 1997–98 El Niño peaked at +2.28 on NOAA's Relative Oceanic Niño Index (RONI) in NDJ 1997 (+2.37 on the traditional ONI) and was documented from its rapid onset to its sudden demise by a newly completed tropical Pacific observing system <a href=\"#ref-mcphaden1999\">[15]</a>. We reconstruct its development from those observations, the published event studies and new reanalysis diagnostics, and grade each proposed cause by the strength of event-specific evidence. The equatorial Pacific recharged after the 1995–96 La Niña: warm water volume was positive from December 1995 and peaked in April 1997. Onto that charged state a sequence of westerly wind events from December 1996 to June 1997 — organized by two exceptionally strong Madden–Julian oscillations and amplified by twin cyclones linked to East Asian cold surges — forced downwelling Kelvin waves and pushed the edge of the warm pool east. An ocean-model decomposition attributes about half of the eastern anomaly on 1 June 1997 to that wind stress and about 40% to the initial ocean state. Coupling was established by May–June and the event grew to a December peak. Its end was set by the seasonal southward shift of the westerlies from November 1997 and came abruptly in May 1998. Forecast models predicted warming but none predicted its strength before it was under way. The Indian Ocean Dipole of 1997 followed the Pacific warming, so it played no part in onset; whether it was forced by El Niño or arose internally remains disputed. We find no basis for attributing the event's amplitude to background warming.</p>"
+  },
+  {
+   "id": "findings",
+   "title": "Main findings",
+   "html": "<ol>\n<li><b>Precondition (grade A−; high confidence).</b> Recharge after the 1995–96 La Niña: warm water volume positive from December 1995, +3.12 × 10¹⁴ m³ in April 1997; about 40% of the 1 June 1997 Niño 3 anomaly comes from the initial thermal state in one ocean model <a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-meinen2000\">[14]</a> <a href=\"#ref-vanoldenborgh2000\">[25]</a>.</li>\n<li><b>Trigger (grade A; high confidence).</b> Westerly wind events from December 1996 to June 1997 — calendar 1997 had the most reanalysis bursts of any year in 1979–2001 — confirmed by TAO moorings; wind stress supplies about half the 1 June anomaly and about 90% of the difference from 1996, when no El Niño developed <a href=\"#ref-vanoldenborgh2000\">[25]</a> <a href=\"#ref-r1diag\">[10]</a> <a href=\"#ref-taodata\">[9]</a> <a href=\"#ref-picaut2002\">[18]</a>.</li>\n<li><b>MJO and extratropical amplification of the trigger (grade B; medium–high confidence).</b> Two exceptionally strong MJOs in December 1996 and February 1997 organised the bursts; East Asian cold surges and twin cyclones intensified them <a href=\"#ref-bergman2001\">[29]</a> <a href=\"#ref-yurienecker1998\">[23]</a> <a href=\"#ref-mcphadenyu1999\">[16]</a>.</li>\n<li><b>Onset mechanism (grade A−; high confidence).</b> Kelvin-wave currents advected warm water east (central Pacific warming in late March – early April 1997), and the March event's own SST response drew in further westerlies <a href=\"#ref-bergman2001\">[29]</a> <a href=\"#ref-lengaigne2003\">[27]</a> <a href=\"#ref-boulanger2001\">[28]</a>.</li>\n<li><b>Amplifier (grade B; high confidence).</b> Bjerknes feedback from May–June 1997, with zonal advection important in the central Pacific <a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-picaut2002\">[18]</a> <a href=\"#ref-wangmcphaden2000\">[54]</a>.</li>\n<li><b>Termination (grade A; high confidence).</b> Seasonal southward shift of the westerlies from November 1997, eastward-propagating thermocline shoaling and basin discharge; abrupt surface cooling in May 1998, with an MJO implicated in its timing <a href=\"#ref-vecchi2006a\">[57]</a> <a href=\"#ref-vecchi2006b\">[58]</a> <a href=\"#ref-lengaigne2006\">[59]</a> <a href=\"#ref-takayabu1999\">[56]</a>.</li>\n<li><b>Indian Ocean (not a cause of onset; origin disputed; grade B).</b> The 1997 dipole began after Pacific coupling. One line of work traces it to El Niño's effect on the Indian Ocean winds; another argues it was mainly internal Indian Ocean dynamics <a href=\"#ref-ueda2000\">[51]</a> <a href=\"#ref-yurienecker1999\">[50]</a> <a href=\"#ref-webster1999\">[47]</a>.</li>\n<li><b>Predictability.</b> No model forecast even half the peak amplitude at 6–11 months' lead; the rapid succession of bursts in early 1997 was a rare draw from the atmosphere's noise <a href=\"#ref-landseaknaff2000\">[62]</a> <a href=\"#ref-barnston1999\">[60]</a> <a href=\"#ref-fedorov2003\">[40]</a>.</li>\n</ol>"
+  },
+  {
+   "id": "intro",
+   "title": "1. Introduction",
+   "html": "<p>By 1997 the tropical Pacific was far better observed than in 1982. The Tropical Ocean–Global Atmosphere (TOGA) programme had built the TAO array of moored buoys, an island tide-gauge network and satellite missions for surface winds, SST and sea level <a href=\"#ref-mcphaden1998tao\">[3]</a>; TOPEX/Poseidon altimetry covered 1992 onward <a href=\"#ref-delcroix2000\">[19]</a>; and 1997–98 was the first major event predicted in real time by numerous forecasting groups <a href=\"#ref-landseaknaff2000\">[62]</a>. The 1997–98 El Niño nevertheless surprised forecasters in both its speed and its strength, and its abrupt end in May 1998 was also unexpected <a href=\"#ref-mcphaden1999\">[15]</a> <a href=\"#ref-picaut2002\">[18]</a> <a href=\"#ref-barnston1999\">[60]</a>.</p>\n<p>The event therefore offers a test that 1982–83 could not: whether the processes proposed for El Niño onset — recharge of equatorial heat, wind-forced Kelvin waves, intraseasonal westerly bursts and coupled feedback — can be separated and quantified for a single event when the ocean is observed directly. A lively debate followed over whether the intense westerly wind events or the slower oceanic preconditioning mattered more <a href=\"#ref-vanoldenborgh2000\">[25]</a>. This paper reconstructs the sequence month by month and grades each factor, using the same framework, grades and index (RONI) as Paper 1.</p>"
+  },
+  {
+   "id": "methods",
+   "title": "2. Definitions, data and methods",
+   "html": "<p><b>Index.</b> RONI (the three-month mean of relative Niño 3.4, i.e. Niño 3.4 minus the 20°N–20°S tropical-mean anomaly, rescaled) is the primary index <a href=\"#ref-noaa2026\">[1]</a> <a href=\"#ref-lheureux2024\">[2]</a>; the traditional ONI is shown alongside. For this event the two agree closely (peak +2.28 vs +2.37), so the classification as a very strong event does not depend on the index choice.</p>\n<p><b>Observations.</b> TAO/TRITON moorings provide daily surface winds, SST and thermocline depth along the equator; TOPEX/Poseidon sea level gives Kelvin and Rossby wave signals; NOAA CPC and PMEL indices give monthly SST, SOI, 850 hPa trades, OLR, upper-300 m heat content (180°–100°W, 1981–2010 base) and warm water volume (WWV) <a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-mcphaden1998tao\">[3]</a> <a href=\"#ref-meinen2000\">[14]</a>. SST indices are from OISST v2.1 <a href=\"#ref-reynolds2007\">[5]</a> and ERSSTv5 <a href=\"#ref-huang2017\">[4]</a>.</p>\n<p><b>Reanalysis diagnostics.</b> To compare with 1982–83 on identical definitions, the westerly-burst and MJO diagnostics of Paper 1 were re-run for July 1995 – December 1998: daily NCEP/NCAR Reanalysis 1 winds and interpolated OLR, anomalies against a 1979–2000 mean plus three annual harmonics; a burst is a 5°S–5°N 1000 hPa anomaly of at least 5 m s⁻¹ for at least 3 days over at least 10° of longitude within 120°E–150°W. MJO activity is described with the Wheeler–Hendon RMM index and OLR-based measures, whose amplitudes can differ for the same event <a href=\"#ref-wheelerhendon2004\">[6]</a> <a href=\"#ref-kiladis2014\">[7]</a>. Daily TAO/TRITON winds and 20 °C isotherm depth on the equator give an independent, directly observed check on the reanalysis bursts and trace the Kelvin waves; the definitions (westerly ≥ 5 m s⁻¹ on ≥ 2 days at 147°E–180°; intraseasonal isotherm peaks ≥ 8 m) were fixed before the results were examined <a href=\"#ref-taodata\">[9]</a> <a href=\"#ref-r1diag\">[10]</a>.</p>\n<p><b>Evidence grades.</b> A: event-specific observation plus a model or budget study isolating the effect. B: event-specific observation with a plausible mechanism and supporting studies. C: correlation, composite or general theory only. D: speculative, disputed or untested for this event. The grade describes the link to 1997–98, not the general validity of a mechanism.</p>\n<p><b>Limits of this review.</b> For several central studies only the abstract could be read (the reference list records what was read for each); conclusions that depend on details beyond an abstract are marked as such.</p>"
+  },
+  {
+   "id": "preconditions",
+   "title": "3. Pre-event conditions, mid-1995 – early 1997",
+   "html": "<p>The event grew out of the 1995–96 La Niña, which reached RONI −1.02 in OND 1995 <a href=\"#ref-cpc\">[8]</a>. As the trades relaxed after that La Niña the equatorial warm-water reservoir refilled: WWV turned positive in December 1995 and stayed positive throughout 1996 (+0.26 to +0.85 × 10¹⁴ m³), while heat content east of the Date Line hovered near zero (−0.47 to +0.17 °C) <a href=\"#ref-cpc\">[8]</a>. This is the recharge state that recharge-oscillator theory and the 1980–99 WWV record identify as the precondition for El Niño <a href=\"#ref-jin1997\">[13]</a> <a href=\"#ref-meinen2000\">[14]</a> <a href=\"#ref-wyrtki1985b\">[12]</a>.</p>\n<p>At the surface, 1996 stayed ENSO-neutral and slightly cool (RONI −0.20 to −0.37 from MAM 1996 to DJF 1997), with the far eastern Pacific cold (Niño 1+2 −0.7 to −1.6 °C) <a href=\"#ref-cpc\">[8]</a>. In autumn 1996 the western Pacific was warm and the warm pool extended east, a pattern also present before the aborted event of 1989–90 and before 1982 <a href=\"#ref-bergman2001\">[29]</a>. Between November 1996 and January 1997 the eastern Pacific had cold equatorial SST and high sea-level pressure, while off-equatorial warm SST and anomalous cyclones in the far west accompanied a switch of equatorial wind anomalies from easterly to westerly <a href=\"#ref-wangweisberg2000\">[17]</a>.</p>\n<p>Recharge alone did not determine the outcome. An adjoint analysis with an ocean general circulation model attributes about 40% of the 1 June 1997 Niño 3 anomaly, relative to an average year, to the initial thermal state on 1 December 1996 — concentrated in the deep layer of warm water along the equator in the western Pacific, \"in agreement with a recharge mechanism\" — and about 50% to the wind. Compared with 1996, a year with a weaker but real build-up and no El Niño, about 30% of the difference comes from the stronger build-up and about 90% from the strong westerly wind events that 1995–96 lacked (the shares exceed 100% because other terms were negative) <a href=\"#ref-vanoldenborgh2000\">[25]</a>.</p>"
+  },
+  {
+   "id": "chronology",
+   "title": "4. Development, December 1996 – December 1997",
+   "html": "<p><b>Westerly wind events, December 1996 – June 1997.</b> A series of westerly wind bursts from December 1996 to June 1997, notably in March 1997, was instrumental in setting up the event <a href=\"#ref-picaut2002\">[18]</a>. In the adjoint analysis three wind-stress peaks — early March, late March and early April 1997 — contribute about 0.6, 0.3 and 0.5 °C to the modelled 1 June Niño 3 anomaly, and a strong December 1996 event about 0.4 °C over a negative baseline; each generated downwelling Kelvin waves that deepened the eastern warm layer two to three months later <a href=\"#ref-vanoldenborgh2000\">[25]</a>. The March event was the strongest of the winter in stress (up to 0.2 N m⁻²), fetch (more than 30° of longitude) and duration (about a month, mid-February to mid-March) <a href=\"#ref-lengaigne2003\">[27]</a>. Satellite (SSM/I) winds show westerly anomalies almost every month from September 1996 to March 1997, with the late-December and late-February episodes particularly intense and long-lived; they were embedded in the active phase of the MJO but greatly enhanced over the western Pacific by equatorial twin cyclones, themselves induced by northerly cold surges from East Asia and the western North Pacific <a href=\"#ref-yurienecker1998\">[23]</a>. A best-track study of the same period finds twin tropical cyclogenesis tied to MJO westerly bursts in mid-October 1996 over the Indian Ocean and in late May 1997 over the western Pacific <a href=\"#ref-congwen2003\">[24]</a>. Two exceptionally strong MJOs, in December 1996 and February 1997, first cooled the western Pacific through cloud shading and evaporation, with off-equatorial upwelling adding to the cooling in February <a href=\"#ref-bergman2001\">[29]</a>. On Paper 1's definitions the reanalysis contains 10 bursts between December 1996 and June 1997 and 16 in calendar 1997 — the most of any year in 1979–2001 (mean 4.2 a year; 1982 had 13, while 1995 and 1996 had 0 and 3). The strongest were on 20–31 December 1996 (+11.8 m s⁻¹ at 137.5°E), 3–19 March 1997 (+10.3 m s⁻¹ at 150°E) and 10–21 April 1997 (+10.8 m s⁻¹ at 155°E). TAO moorings observed the same episodes directly, with daily westerlies of up to 8.7 m s⁻¹ at 156°E in late December, 9.9 m s⁻¹ at 147°E in late February – early March and 11.0 m s⁻¹ at 165°E in mid-April <a href=\"#ref-r1diag\">[10]</a> <a href=\"#ref-taodata\">[9]</a>.</p>\n<p><b>Kelvin waves and the eastward jump of the warm pool.</b> In TAO records from October 1996 to December 1997, intraseasonal variability east of the Date Line was dominated by first-baroclinic Kelvin waves travelling east at 2.4–2.7 m s⁻¹ <a href=\"#ref-kutsuwada2002\">[20]</a>, consistent with the 2.4 m s⁻¹ found for the decade before <a href=\"#ref-kessler1995\">[31]</a>. The onset was linked to such waves forced by intraseasonal oscillations originating over the Indian Ocean <a href=\"#ref-mcphadenyu1999\">[16]</a>. The TAO thermocline record traces two of the resulting downwelling Kelvin waves: an intraseasonal deepening at 165°E on 02 January reached 110°W on 23 February (about 2.1 m s⁻¹), and one at 165°E on 16 March reached 110°W on 23 April (about 2.88 m s⁻¹) <a href=\"#ref-taodata\">[9]</a>. The first wave's sea-level signal reached the South American coast in February, and a second, larger group arrived in April–May, greatly depressing the eastern thermocline <a href=\"#ref-yurienecker1998\">[23]</a>. In late March and early April 1997 the Kelvin wave forced by the February MJO warmed the central Pacific, mainly by zonal temperature advection; afterwards winds, currents and SST gradients did not return to their earlier state <a href=\"#ref-bergman2001\">[29]</a>. In ocean-model experiments the March event displaced the eastern edge of the warm pool about 2000 km in a month, cooled the far west by about 0.8 °C and warmed the Kelvin-wave path by about 0.5 °C <a href=\"#ref-lengaigne2002\">[26]</a> <a href=\"#ref-lengaigne2003\">[27]</a>; a nonlinear interaction with the salinity and temperature fronts at the warm-pool edge tripled the surface currents relative to a linear response <a href=\"#ref-boulanger2001\">[28]</a>. In an atmospheric model forced with those SST changes, two responses favoured rapid growth: weaker trades in the central-eastern Pacific, and an eastward shift of convection that promoted further frequent and intense westerly events in the following months <a href=\"#ref-lengaigne2003\">[27]</a>.</p>\n<p><b>Warming in two places.</b> SST warmed first near the Date Line in January–February 1997 and in the far east from March (Niño 1+2 from −0.45 °C in February to +0.80 °C in April) <a href=\"#ref-wangweisberg2000\">[17]</a> <a href=\"#ref-cpc\">[8]</a>. The eastward-moving and westward-spreading warm anomalies merged; once the central and eastern warm regions joined, coupling between SST and winds became fully effective <a href=\"#ref-wangweisberg2000\">[17]</a> <a href=\"#ref-picaut2002\">[18]</a>. WWV peaked at +3.12 × 10¹⁴ m³ in April 1997 <a href=\"#ref-cpc\">[8]</a>.</p>\n<p><b>Coupled growth, May – December 1997.</b> RONI rose from +0.83 (AMJ) to +1.20 (MJJ), with SOI −1.3 and −1.4 and central-Pacific OLR near −26 W m⁻² <a href=\"#ref-cpc\">[8]</a>. Growth continued to SON (+2.22) and the peak in NDJ (+2.28); in October the central-Pacific trade index reached −4.1 and OLR −49.8 W m⁻² <a href=\"#ref-cpc\">[8]</a>. Much of the western warm water was carried east by anomalous surface currents <a href=\"#ref-picaut2002\">[18]</a>. Interannual heat budgets from TAO moorings show zonal advection important everywhere and most significant in the central Pacific, vertical heat flux especially important in the east, and surface heat fluxes generally damping the anomalies <a href=\"#ref-wangmcphaden2000\">[54]</a>. Eastern equatorial SST set a new monthly record every month from June to December 1997, the cold tongue failed to form, and the strongest westerlies and deep convection occurred only over water warmer than about 29 °C <a href=\"#ref-mcphaden1999\">[15]</a>; by December cold-tongue anomalies averaged nearly 4 °C, with maxima above 5 °C, and the eastern thermocline was more than 90 m deeper than normal <a href=\"#ref-mcphaden1999\">[15]</a> <a href=\"#ref-mcphadenyu1999\">[16]</a>.</p>"
+  },
+  {
+   "id": "termination",
+   "title": "5. Termination and transition, November 1997 – mid-1998",
+   "html": "<p>Discharge began before the surface peak. WWV fell to +0.66 × 10¹⁴ m³ in November and turned negative in December 1997 <a href=\"#ref-cpc\">[8]</a>. From November, near-Date-Line westerly anomalies shifted south of the equator, a shift reproduced as the atmosphere's deterministic response to the observed SST field; the oceanic response was thermocline shoaling that began in the central Pacific and propagated east <a href=\"#ref-vecchi2006b\">[58]</a> <a href=\"#ref-vecchi2006a\">[57]</a>. The same seasonal migration of the warmest water appears as a general mechanism of El Niño termination in observations and coupled models <a href=\"#ref-harrisonvecchi1999\">[55]</a> <a href=\"#ref-lengaigne2006\">[59]</a>.</p>\n<p>Eastern SST stayed warm from December 1997 to May 1998 despite strong subsurface cooling <a href=\"#ref-vecchi2006a\">[57]</a>. Upwelling signals arrived from several directions: Kelvin waves generated by easterlies and boundary reflection from the west, Rossby waves from westerly forcing in the east, and the general uplift of the thermocline as the basin discharged <a href=\"#ref-picaut2002\">[18]</a> <a href=\"#ref-mcphadenyu1999\">[16]</a> <a href=\"#ref-delcroix2000\">[19]</a>. In the west, off-equatorial pressure turned high and easterly anomalies developed over the far western Pacific <a href=\"#ref-wangweisberg2000\">[17]</a>. When the trades returned to near-normal strength in the eastern Pacific in mid-May 1998, SST at 0°, 125°W fell 8 °C in 30 days, more than ten times the normal rate of cooling for the season <a href=\"#ref-mcphaden1999\">[15]</a>, and eastern equatorial SST fell by more than 4 °C within two weeks <a href=\"#ref-vecchi2006a\">[57]</a>; the cooling began between 125°W and 170°W <a href=\"#ref-mcphadenyu1999\">[16]</a>. The cause of the abrupt return of the trades was unknown when McPhaden wrote, and no forecast anticipated it <a href=\"#ref-mcphaden1999\">[15]</a>; Takayabu et al. relate the termination to an MJO <a href=\"#ref-takayabu1999\">[56]</a>, and an MJO was indeed active from late April to the end of May 1998 <a href=\"#ref-r1diag\">[10]</a>. La Niña followed (RONI JJA 1998 −1.05), with the largest equatorial phytoplankton bloom then observed <a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-chavez1999\">[22]</a>.</p>"
+  },
+  {
+   "id": "interactions",
+   "title": "6. Interactions with the broader climate system",
+   "html": "<p><b>Intraseasonal variability and bursts.</b> The MJO was unusually active through the onset: the PSL OLR MJO index stayed at or above 1 almost continuously from late October 1996 to mid-June 1997, intraseasonal OLR variance over the Indian Ocean and western Pacific in October 1996 – March 1997 was the largest of 22 seasons in 1979–2001, and the bursts of 25 December, 13 March and 28 March occurred at index amplitudes of 2.7–3.3 <a href=\"#ref-r1diag\">[10]</a>. Indices disagree for some bursts: on 13 April the OLR-based index was 2.0 but a circulation-weighted index only 0.9, as expected when indices weight convection and winds differently <a href=\"#ref-kiladis2014\">[7]</a>. In a wave model forced with observed winds, MJO-forced downwelling Kelvin waves reached 15–20 cm in sea level, an order of magnitude larger than the waves reflected from the western boundary <a href=\"#ref-mcphadenyu1999\">[16]</a>. Yet an active MJO in January–April 1996 produced no El Niño, and the late-1996 bursts intensified to over 9 m s⁻¹ in the Pacific while the MJO's own westerlies had fallen below 2 m s⁻¹ over the Maritime Continent <a href=\"#ref-yurienecker1998\">[23]</a>. Across many events, MJO activity in the western Pacific in late boreal spring leads El Niño the following autumn <a href=\"#ref-hendon2007\">[33]</a>, and stronger MJO Kelvin-wave forcing preceded larger eastern anomalies by 6–12 months in 1980–99 <a href=\"#ref-zhanggottschalck2002\">[32]</a>. Yet waveguide warming follows MJO events only when they contain a westerly wind event, and an MJO does not make a burst more likely <a href=\"#ref-chiodi2014\">[35]</a>. For 1997 the two meet: the bursts that mattered were embedded in strong MJOs <a href=\"#ref-yurienecker1998\">[23]</a> <a href=\"#ref-bergman2001\">[29]</a>. An intermediate coupled model initialised on 1 January 1997 produced a weak warm event on its own, and one about 50% stronger when the rectified effect of MJO-like winds was imposed <a href=\"#ref-kesslerkleeman2000\">[30]</a>.</p>\n<p><b>Are bursts a cause or a response?</b> Bursts become more likely as the warm pool extends east, and treating them as partly SST-dependent roughly doubles modelled event amplitude <a href=\"#ref-eisenman2005\">[37]</a> <a href=\"#ref-gebbie2007\">[38]</a>; statistics also show bursts migrating east ahead of the El Niño peak <a href=\"#ref-seikitakayabu2007\">[36]</a>. In 1997 the warm pool had extended east by autumn 1996 <a href=\"#ref-bergman2001\">[29]</a>, so some burst activity may already reflect the developing state. This does not remove the trigger role: the decomposition finds the December, March and April events to be the main difference from 1996 <a href=\"#ref-vanoldenborgh2000\">[25]</a>, and the impact of a burst depends on its timing relative to the oscillation and on the background state <a href=\"#ref-fedorov2002\">[39]</a>.</p>\n<p><b>Extratropical influence.</b> The best-documented pathway is synoptic: East Asian cold surges induced the twin circulations that intensified the December and February bursts <a href=\"#ref-yurienecker1998\">[23]</a>; best-track twin cyclones, in contrast, appear in October 1996 and late May 1997 <a href=\"#ref-congwen2003\">[24]</a>, so the two studies differ in what they count as a twin-cyclone event. The Pacific meridional mode and seasonal footprinting precede many El Niños <a href=\"#ref-chang2007\">[42]</a> <a href=\"#ref-vimont2003\">[43]</a> <a href=\"#ref-anderson2003\">[44]</a>, but no study read here isolates them for 1997 (grade C).</p>\n<p><b>Decadal background.</b> The PDO was strongly positive through 1997, and the shallow meridional overturning circulation was at a low during 1992–98 before rebounding <a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-mcphadenzhang2002\">[45]</a> <a href=\"#ref-mcphadenzhang2004\">[46]</a>. These describe the background; their contribution to this event is not quantified (grade C).</p>\n<p><b>Indian Ocean.</b> Cool SST appeared in the eastern Indian Ocean along and south of the equator from strong upwelling along the equator and Sumatra, and warm anomalies developed in the west from July 1997, peaking in February 1998 <a href=\"#ref-murtugudde2000\">[49]</a>; the CPC dipole index rose from +0.55 °C in July to +1.39 °C in November <a href=\"#ref-cpc\">[8]</a>. One analysis attributes the basin's SST changes largely to ENSO's effect on the atmosphere — the reversal of the Walker circulation and displaced south-east trades <a href=\"#ref-yurienecker1999\">[50]</a>; Webster et al., by contrast, concluded that the 1997–98 anomalies \"may primarily be an expression of internal dynamics\" of the Indian Ocean: the Indian Ocean rim climate differed from the usual El Niño pattern, the ENSO correlation with the along-equator SST gradient is not significant (+0.19), and of 16 years with a reversed gradient in 1950–98 only three were El Niño years <a href=\"#ref-webster1999\">[47]</a>. Saji et al. defined a dipole mode of the tropical Indian Ocean the same year (title only read) <a href=\"#ref-saji1999\">[48]</a>. A reanalysis and altimetry study traces the triggering to El Niño itself: divergent easterly anomalies over the equatorial Indian Ocean in summer 1997 weakened the western westerlies and strengthened the eastern easterlies, producing the east–west SST contrast by autumn through evaporation and upwelling, which ocean Rossby and Kelvin waves then reinforced <a href=\"#ref-ueda2000\">[51]</a>. Whatever its origin, the dipole developed after Pacific coupling (western warming from June, eastern cooling from July 1997) <a href=\"#ref-webster1999\">[47]</a>, so it cannot have contributed to onset; coupled forecast experiments suggest an extreme IOD can enhance El Niño <a href=\"#ref-luo2010\">[52]</a>, but this was not tested here for 1997.</p>\n<p><b>Tropical Atlantic.</b> The tropical North Atlantic was near or slightly below normal in early 1997 (−0.37 °C in March) and warm in 1998 (+0.51 °C in May) <a href=\"#ref-cpc\">[8]</a>. Spring cooling in the north tropical Atlantic has been proposed as an El Niño trigger in general <a href=\"#ref-ham2013\">[53]</a>; for 1997 this is untested (grade C/D), and the 1998 warming is the usual lagged response.</p>\n<p><b>Volcanic and external forcing.</b> The Smithsonian Global Volcanism Program catalogue lists no eruption of VEI ≥ 4 anywhere in 1995–97; the most recent tropical VEI 4 eruption was Rabaul (Papua New Guinea, 4°S) in September 1994, more than two years before the December 1996 burst <a href=\"#ref-gvp\">[11]</a>. Volcanic forcing is therefore not a candidate for this event.</p>\n<p><b>Background warming.</b> The tropical-mean adjustment in RONI changes the peak by only 0.09 °C (RONI +2.28, ONI +2.37) <a href=\"#ref-lheureux2024\">[2]</a> <a href=\"#ref-cpc\">[8]</a>. Contemporary debate concerned whether the post-1976 run of warm events was unusual <a href=\"#ref-trenberthhoar1997\">[63]</a>; projections of more frequent extreme El Niños under greenhouse warming <a href=\"#ref-cai2014\">[64]</a> do not attribute this event. No event-specific attribution is made here.</p>"
+  },
+  {
+   "id": "synthesis",
+   "title": "7. Causal synthesis and competing explanations",
+   "html": "<p>The most plausible sequence is: (1) recharge after the 1995–96 La Niña created a deep warm-water reservoir by late 1996; (2) a run of strong, MJO-organised and extratropically amplified westerly wind events from December 1996 to June 1997 forced downwelling Kelvin waves and moved the warm pool's edge east; (3) the resulting central-Pacific warming in March–April and coastal warming from March merged by May–June, when the Bjerknes feedback took over; (4) the seasonal southward shift of the westerlies from November and basin discharge ended the event abruptly in May 1998.</p>\n<p>The main competing view weights the slow ocean more heavily: with recharge and western-boundary reflection already favourable <a href=\"#ref-picaut2002\">[18]</a> <a href=\"#ref-delcroix2000\">[19]</a>, an El Niño was likely regardless of the bursts. The available quantitative answer splits the difference — roughly 40% initial state and 50% wind stress at 1 June <a href=\"#ref-vanoldenborgh2000\">[25]</a> — but comes from one ocean model forced with one wind product. A noise-driven ensemble started at the end of 1996 favours a moderate event over the observed extreme <a href=\"#ref-fedorov2003\">[40]</a>, which supports the view that the bursts set the amplitude rather than the occurrence. Bergman et al. reach a similar conclusion for the MJO: relevant to timing and initial growth rather than responsible for the event itself <a href=\"#ref-bergman2001\">[29]</a>.</p>\n<p>Unresolved: how much of the burst activity was itself a response to the eastward-extended warm pool; whether the Indian Ocean dipole was forced or internal, and whether it fed back on the peak; and the role of extratropical modes beyond the documented cold surges.</p>"
+  },
+  {
+   "id": "knowable",
+   "title": "8. What was forecast at the time",
+   "html": "<p>This was the first very strong El Niño predicted in real time by many groups. Most models forecast some warming one to two seasons before the boreal-spring onset, but none predicted its strength until it was already becoming very strong in late spring; the best forecasts of Niño 3.4 before positive anomalies appeared were about +1 °C against an observed +2.5 to +3 °C <a href=\"#ref-barnston1999\">[60]</a>. Against a climatology-and-persistence baseline, no model anticipated even half the peak amplitude at 6–11 months' lead, and none was skilful for both onset and decay at 6–8 months <a href=\"#ref-landseaknaff2000\">[62]</a>. Once the event had developed, more models captured the late-1997 peak and the 1998 reversal <a href=\"#ref-barnston1999\">[60]</a>. The two assessments differ in emphasis: NCEP's own review finds that its coupled model's spring-1997 forecasts, \"while somewhat too weak\", clearly suggested a developing strong El Niño, and that comprehensive coupled models (NCEP, COLA, ECMWF) outperformed simple dynamical and most statistical models <a href=\"#ref-barnston1999b\">[61]</a>; the comparison with a persistence baseline finds no model skilful at 0–8 months <a href=\"#ref-landseaknaff2000\">[62]</a>. Both agree that the rapid spring onset was not foreseen in its full strength. The rapid succession of bursts in early 1997 was a relatively rare event, which limits predictability <a href=\"#ref-fedorov2003\">[40]</a> <a href=\"#ref-vanoldenborgh2000\">[25]</a>.</p>"
+  },
+  {
+   "id": "uncertainty",
+   "title": "9. Uncertainties",
+   "html": "<ul>\n<li>The 40/50% decomposition comes from one ocean model and wind product <a href=\"#ref-vanoldenborgh2000\">[25]</a>.</li>\n<li>Saji et al. (1999) and Takayabu et al. (1999) were read only as bibliographic records; several other studies only as abstracts (see the reference list).</li>\n<li>Reanalysis burst and MJO diagnostics depend on index and definition; RMM and OLR-based indices can disagree for the same event <a href=\"#ref-kiladis2014\">[7]</a>.</li>\n<li>Off-equatorial and sub-thermocline conditions before Argo are less certain than the TAO line itself.</li>\n</ul>"
+  },
+  {
+   "id": "conclusion",
+   "title": "10. Conclusion",
+   "html": "<p>The 1997–98 El Niño developed from a recharged Pacific, but its speed and size came from a rare run of westerly wind events in December 1996 – June 1997, organised by strong MJOs and intensified by twin cyclones tied to East Asian cold surges. Those events forced Kelvin waves and an eastward jump of the warm pool that joined central and eastern warming by May–June, after which coupled feedback carried the event to a December peak. Its demise, set in motion by the seasonal southward shift of the westerlies, was as abrupt as its onset. Compared with 1982–83, the trigger is far better documented: the ocean was observed directly, and a quantitative separation of precondition and wind forcing exists for this event.</p>"
+  },
+  {
    "id": "scope",
    "title": "Evidence base: scope, index and data",
-   "html": "<p><b>Primary index:</b> NOAA's Relative Oceanic Niño Index (RONI), official since 1 February 2026 <a href=\"#ref-noaa2026\">[1]</a> <a href=\"#ref-lheureux2024\">[2]</a>. On RONI the 1997–98 peak is +2.28 (NDJ 1997); on the traditional ONI it is +2.37. The two agree within 0.1 °C for this event, unlike 1982–83 (RONI +2.40, ONI +2.14).</p>\n<p><b>Observing system in 1997.</b> The first strong El Niño observed from start to finish by the TOGA observing system — the TAO array of moored buoys, drifting buoys, island tide gauges, ship XBT lines — and by satellite winds, SST and TOPEX/Poseidon sea level (from 1992) <a href=\"#ref-mcphaden1998tao\">[3]</a> <a href=\"#ref-mcphaden1999\">[12]</a> <a href=\"#ref-picaut2002\">[16]</a> <a href=\"#ref-delcroix2000\">[17]</a>. Onset, growth and termination are therefore documented daily along the equator, which allows heat-budget and wave analyses that were impossible for 1982. Argo did not yet exist; the subsurface off the equator and outside the array remains less certain.</p>"
+   "html": "<p><b>Primary index:</b> NOAA's Relative Oceanic Niño Index (RONI), official since 1 February 2026 <a href=\"#ref-noaa2026\">[1]</a> <a href=\"#ref-lheureux2024\">[2]</a>. On RONI the 1997–98 peak is +2.28 (NDJ 1997); on the traditional ONI it is +2.37. The two agree within 0.1 °C for this event, unlike 1982–83 (RONI +2.40, ONI +2.14).</p>\n<p><b>Observing system in 1997.</b> The first strong El Niño observed from start to finish by the TOGA observing system — the TAO array of moored buoys, drifting buoys, island tide gauges, ship XBT lines — and by satellite winds, SST and TOPEX/Poseidon sea level (from 1992) <a href=\"#ref-mcphaden1998tao\">[3]</a> <a href=\"#ref-mcphaden1999\">[15]</a> <a href=\"#ref-picaut2002\">[18]</a> <a href=\"#ref-delcroix2000\">[19]</a>. Onset, growth and termination are therefore documented daily along the equator, which allows heat-budget and wave analyses that were impossible for 1982. Argo did not yet exist; the subsurface off the equator and outside the array remains less certain.</p>"
   },
   {
    "id": "data",
@@ -780,20 +896,155 @@
    }
   }
  ],
+ "post_sections": [
+  {
+   "id": "bursts",
+   "title": "Westerly wind events and Kelvin waves, December 1996 – June 1997",
+   "html": "<p>Reanalysis bursts on Paper 1's definitions (1000 hPa anomaly ≥ 5 m s⁻¹, ≥ 3 days, ≥ 10° of longitude, 5°S–5°N, 120°E–150°W), with the PSL OLR MJO index (OMI) and the circulation-weighted index at the burst peak <a href=\"#ref-r1diag\">[10]</a>.</p>",
+   "table": {
+    "cols": [
+     "Start",
+     "End",
+     "Peak",
+     "Peak anomaly (m s⁻¹)",
+     "Peak lon",
+     "Extent",
+     "OMI",
+     "Circulation index"
+    ],
+    "cls": "data",
+    "rows": [
+     [
+      "1996-12-20",
+      "1996-12-31",
+      "1996-12-25",
+      "11.8",
+      "137.5°E",
+      "130°E–147.5°E",
+      "2.66",
+      "3.85"
+     ],
+     [
+      "1997-02-27",
+      "1997-03-04",
+      "1997-02-28",
+      "7.0",
+      "132.5°E",
+      "125°E–155°E",
+      "1.77",
+      "2.81"
+     ],
+     [
+      "1997-03-03",
+      "1997-03-19",
+      "1997-03-13",
+      "10.3",
+      "150°E",
+      "137.5°E–177.5°W",
+      "2.75",
+      "4.39"
+     ],
+     [
+      "1997-03-25",
+      "1997-03-29",
+      "1997-03-28",
+      "7.1",
+      "165°E",
+      "157.5°E–175°W",
+      "3.31",
+      "3.71"
+     ],
+     [
+      "1997-04-10",
+      "1997-04-21",
+      "1997-04-13",
+      "10.8",
+      "155°E",
+      "137.5°E–167.5°E",
+      "2.01",
+      "0.9"
+     ],
+     [
+      "1997-05-02",
+      "1997-05-08",
+      "1997-05-05",
+      "7.3",
+      "167.5°E",
+      "160°E–172.5°E",
+      "1.95",
+      "0.12"
+     ],
+     [
+      "1997-05-19",
+      "1997-05-24",
+      "1997-05-20",
+      "7.3",
+      "140°E",
+      "135°E–150°E",
+      "2.48",
+      "2.17"
+     ],
+     [
+      "1997-05-21",
+      "1997-05-27",
+      "1997-05-26",
+      "7.7",
+      "162.5°E",
+      "152.5°E–180°E",
+      "2.90",
+      "2.95"
+     ],
+     [
+      "1997-05-30",
+      "1997-06-12",
+      "1997-06-04",
+      "9.3",
+      "167.5°W",
+      "162.5°E–150°W",
+      "1.95",
+      "2.87"
+     ],
+     [
+      "1997-06-21",
+      "1997-06-23",
+      "1997-06-22",
+      "6.2",
+      "175°E",
+      "170°E–180°E",
+      "0.48",
+      "0.89"
+     ]
+    ],
+    "note": "Directly observed TAO episodes (daily westerly ≥ 5 m s⁻¹ on ≥ 2 days at 147°E, 156°E, 165°E or 180°): 19 Nov 1996 – 21 Nov 1996 (6.7 m s⁻¹ at 156°E); 21 Dec 1996 – 22 Dec 1996 (7.5 m s⁻¹ at 156°E); 24 Dec 1996 – 26 Dec 1996 (8.7 m s⁻¹ at 156°E); 1 Jan 1997 – 3 Jan 1997 (7.2 m s⁻¹ at 156°E); 14 Jan 1997 – 15 Jan 1997 (6.7 m s⁻¹ at 156°E); 27 Feb 1997 – 6 Mar 1997 (9.9 m s⁻¹ at 147°E); 11 Mar 1997 – 16 Mar 1997 (8.6 m s⁻¹ at 165°E); 27 Mar 1997 – 30 Mar 1997 (5.5 m s⁻¹ at 165°E); 13 Apr 1997 – 20 Apr 1997 (11.0 m s⁻¹ at 165°E); 22 May 1997 – 26 May 1997 (10.2 m s⁻¹ at 165°E); 1 Jun 1997 – 3 Jun 1997 (7.7 m s⁻¹ at 165°E); 7 Jun 1997 – 12 Jun 1997 (7.3 m s⁻¹ at 165°E). TAO wind records are incomplete at 147°E (37% of days) and 156°E (64%)."
+   }
+  },
+  {
+   "id": "mjo",
+   "title": "MJO contribution (assessment)",
+   "html": "<p><b>Answer.</b> Strong evidence that the MJO set the timing and much of the amplitude of the onset bursts, through Kelvin waves an order of magnitude larger than boundary reflections <a href=\"#ref-mcphadenyu1999\">[16]</a> <a href=\"#ref-bergman2001\">[29]</a>; but the MJO was not sufficient on its own — an active MJO in early 1996 produced no El Niño, and the bursts that mattered were intensified locally by cold surges and twin circulations <a href=\"#ref-yurienecker1998\">[23]</a>. Bergman et al. conclude that the MJO is relevant to the timing and initial growth of El Niño rather than responsible for the event itself <a href=\"#ref-bergman2001\">[29]</a>. One intermediate coupled model initialised on 1 January 1997 becomes about 50% stronger when rectified MJO winds are included <a href=\"#ref-kesslerkleeman2000\">[30]</a>. Statistically, MJO events warm the waveguide only when they contain a westerly wind event <a href=\"#ref-chiodi2014\">[35]</a>.</p><p><b>Compared with 1982.</b> The 1996–97 season had 137 days with the circulation-weighted index at or above 1 against 77 in 1981–82, and the bursts in calendar 1997 outnumber those of 1982 (16 vs 13) on identical definitions <a href=\"#ref-r1diag\">[10]</a>. In the mature phase (Oct 1997 – Mar 1998) intraseasonal OLR variance over 60°E–150°E fell to 77.8 W² m⁻⁴ (22-season mean 233), consistent with the weak eastward MJO propagation reported for the mature stage <a href=\"#ref-li2023\">[41]</a>.</p>"
+  }
+ ],
  "timeline": [
   [
    "Jul 1995 – Mar 1996",
    "La Niña: RONI from −0.41 (JAS 1995) to a minimum of −1.02 (OND 1995); back to −0.58 by FMA 1996.",
-   "Strong trades pile warm water in the west.",
-   "<a href=\"#ref-cpc\">[8]</a>",
+   "Stronger-than-normal trades build heat content in the western Pacific.",
+   "<a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-mcphadenyu1999\">[16]</a>",
    "High"
   ],
   [
    "Dec 1995 – Dec 1996",
-   "Warm water volume turns positive in December 1995 (+0.05 × 10¹⁴ m³) and stays positive all of 1996 (+0.26 to +0.85); heat content east of the Date Line near zero (−0.47 to +0.17 °C).",
-   "Recharge of the equatorial warm-water reservoir after La Niña, the precondition in recharge-oscillator theory.",
-   "<a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-meinen2000\">[11]</a> <a href=\"#ref-jin1997\">[10]</a> <a href=\"#ref-wyrtki1985b\">[9]</a>",
-   "Medium–high (TAO-era data)"
+   "Warm water volume turns positive in December 1995 (+0.05 × 10¹⁴ m³) and stays positive all of 1996 (+0.26 to +0.85); heat content east of the Date Line near zero (−0.47 to +0.17 °C); heat content builds in the western Pacific for 12–18 months.",
+   "Recharge after La Niña, the precondition in recharge-oscillator theory; downwelling Rossby waves reflect at the western boundary as Kelvin waves only about 2 cm high in sea level.",
+   "<a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-meinen2000\">[14]</a> <a href=\"#ref-jin1997\">[13]</a> <a href=\"#ref-mcphadenyu1999\">[16]</a>",
+   "High (TAO-era data)"
+  ],
+  [
+   "Jan – Apr 1996",
+   "Active MJO and a warm western Pacific, but no El Niño; westerly events in winter 1995–96 few and weak.",
+   "MJO activity alone is insufficient to start an event.",
+   "<a href=\"#ref-yurienecker1998\">[23]</a>",
+   "Medium–high"
   ],
   [
    "Apr 1996 – Jan 1997",
@@ -803,184 +1054,191 @@
    "High"
   ],
   [
-   "SON 1996",
-   "Warm western-Pacific SST and an eastward-extended warm pool; the same autumn pattern preceded 1989–90 (aborted event) and 1981–82.",
-   "A warm, eastward-extended pool favours MJO convection over the western Pacific.",
-   "<a href=\"#ref-bergman2001\">[29]</a>",
-   "Medium (one comparative study)"
+   "Oct 1996 – Jun 1997",
+   "Almost continuous MJO activity: PSL OMI ≥ 1 on 23 Oct 1996 – 16 Jan 1997 (max 2.8), 25 Jan 1997 – 19 Apr 1997 (max 3.39) and 29 Apr 1997 – 13 Jun 1997 (max 3.03). Intraseasonal OLR variance over 60°E–150°E in Oct 1996 – Mar 1997 is the largest of 22 Oct–Mar seasons in 1979–2001.",
+   "Unusual intensification of the MJO in late 1996, possibly aided by warm western-Pacific SST.",
+   "<a href=\"#ref-r1diag\">[10]</a> <a href=\"#ref-mcphadenyu1999\">[16]</a> <a href=\"#ref-bergman2001\">[29]</a>",
+   "High (several indices)"
+  ],
+  [
+   "Mid-Oct 1996",
+   "Twin tropical cyclogenesis over the Indian Ocean during an MJO westerly burst (JTWC best tracks).",
+   "MJO westerlies straddling the equator split a super cloud cluster into two vortices.",
+   "<a href=\"#ref-congwen2003\">[24]</a>",
+   "Medium"
   ],
   [
    "Nov 1996 – Jan 1997",
-   "Equatorial cold SST and high SLP in the east; off-equatorial warm SST and anomalous cyclones in the far west; equatorial wind anomalies over the western Pacific switch from easterly to westerly.",
+   "Equatorial cold SST and high SLP in the east; off-equatorial warm SST and anomalous cyclones in the far west; equatorial wind anomalies over the western Pacific switch from easterly to westerly. Trades, stronger than normal since early 1995, reverse abruptly at the end of 1996.",
    "Off-equatorial cyclones feed equatorial westerlies.",
-   "<a href=\"#ref-wangweisberg2000\">[15]</a>",
-   "Medium (one study, FSU winds)"
-  ],
-  [
-   "Dec 1996",
-   "First strong westerly wind event of the onset series; two exceptionally strong MJOs during winter 1996–97 (Dec 1996 and Feb 1997) cool the western Pacific through cloud shading and then evaporation.",
-   "MJO-embedded westerly bursts begin forcing downwelling Kelvin waves; surface-flux cooling in the west.",
-   "<a href=\"#ref-vanoldenborgh2000\">[23]</a> <a href=\"#ref-bergman2001\">[29]</a> <a href=\"#ref-picaut2002\">[16]</a>",
-   "High (several studies)"
-  ],
-  [
-   "Late 1996 – early 1997",
-   "Westerly bursts embedded in the active MJO are greatly enhanced in the western Pacific by equatorial twin cyclones, induced by northerly cold surges from East Asia and the western North Pacific.",
-   "Extratropical cold surges → twin cyclones → amplified bursts.",
-   "<a href=\"#ref-yurienecker1998\">[21]</a> <a href=\"#ref-congwen2003\">[22]</a>",
-   "Medium (one study; SSM/I winds)"
-  ],
-  [
-   "Jan – Feb 1997",
-   "First warming near the Date Line; heat content rises to +0.56 °C (Jan) and +1.00 °C (Feb); warm water volume +1.64 and +2.14 × 10¹⁴ m³.",
-   "Kelvin-wave deepening of the thermocline on top of the recharged state.",
-   "<a href=\"#ref-wangweisberg2000\">[15]</a> <a href=\"#ref-cpc\">[8]</a>",
-   "High"
-  ],
-  [
-   "Mar 1997",
-   "The strongest westerly wind event of the series. Model response: far-western cooling of about 0.8 °C, the eastern edge of the warm pool displaced about 2000 km in a month, warming of about 0.5 °C along the Kelvin-wave path; nonlinear surface jets near 1 m s⁻¹ at the warm-pool edge. Western-Pacific 850 hPa trade index −3.1 (standardized) for the month.",
-   "Kelvin wave plus rapid eastward advection of the warm pool's edge; the atmospheric response to these SST changes favours further westerlies.",
-   "<a href=\"#ref-lengaigne2002\">[24]</a> <a href=\"#ref-lengaigne2003\">[25]</a> <a href=\"#ref-boulanger2001\">[26]</a> <a href=\"#ref-cpc\">[8]</a>",
-   "High (event observations + ocean and atmosphere model experiments)"
-  ],
-  [
-   "Mar 1997",
-   "Warming appears in the far eastern Pacific (Niño 1+2 −0.45 °C in Feb, +0.23 °C in Mar, +0.80 °C in Apr); a slower westward-spreading warm anomaly from the coast later merges with the eastward-moving one.",
-   "Coastal arrival of the earlier Kelvin waves.",
-   "<a href=\"#ref-wangweisberg2000\">[15]</a> <a href=\"#ref-cpc\">[8]</a>",
+   "<a href=\"#ref-wangweisberg2000\">[17]</a> <a href=\"#ref-yurienecker1998\">[23]</a>",
    "Medium–high"
   ],
   [
-   "Late Mar – early Apr 1997",
-   "Central-Pacific SST warms as a downwelling Kelvin wave forced by the February MJO passes; the warming is mainly zonal temperature advection by strong eastward currents, and conditions do not revert afterwards.",
-   "Kelvin-wave-induced advection; a lasting change in winds, currents and SST gradient.",
-   "<a href=\"#ref-bergman2001\">[29]</a>",
-   "Medium–high (budget with model currents)"
-  ],
-  [
-   "Apr 1997",
-   "Another westerly wind event (one of the three, with Dec 1996 and Mar 1997, that differ most from 1996). Warm water volume peaks at +3.12 × 10¹⁴ m³; heat content +2.17 °C.",
-   "Recharged reservoir at its maximum as coupling begins.",
-   "<a href=\"#ref-vanoldenborgh2000\">[23]</a> <a href=\"#ref-cpc\">[8]</a>",
+   "20–31 Dec 1996",
+   "Westerly burst: reanalysis 1000 hPa anomaly up to +11.8 m s⁻¹ at 137.5°E (130°–147.5°E); TAO daily westerlies up to 8.7 m s⁻¹ at 156°E on 21–26 Dec and again 1–3 Jan; OMI 2.66. One of two particularly intense, long-lived episodes in SSM/I winds; the MJO's own westerlies had weakened to below 2 m s⁻¹ over the Maritime Continent, and the sudden intensification to over 9 m s⁻¹ was confined to the Pacific.",
+   "MJO plus cold surges from East Asia and twin cyclones; the burst excites a downwelling Kelvin wave.",
+   "<a href=\"#ref-r1diag\">[10]</a> <a href=\"#ref-taodata\">[9]</a> <a href=\"#ref-yurienecker1998\">[23]</a> <a href=\"#ref-vanoldenborgh2000\">[25]</a>",
    "High"
   ],
   [
+   "Jan – Feb 1997",
+   "Kelvin wave seen in TAO 20 °C isotherm depth: intraseasonal peak at 165°E on 02 Jan, at 110°W on 23 Feb (52 days, about 2.1 m s⁻¹); the sea-level signal reaches the South American coast in February. Warming near the Date Line; heat content +0.56 (Jan) and +1.00 °C (Feb).",
+   "Downwelling Kelvin wave deepens the eastern thermocline on top of the recharged state.",
+   "<a href=\"#ref-taodata\">[9]</a> <a href=\"#ref-yurienecker1998\">[23]</a> <a href=\"#ref-wangweisberg2000\">[17]</a> <a href=\"#ref-cpc\">[8]</a>",
+   "High"
+  ],
+  [
+   "27 Feb – 19 Mar 1997",
+   "The strongest event of the winter (stress up to 0.2 N m⁻², fetch over 30° of longitude, about a month long). TAO westerlies up to 9.9 m s⁻¹ at 147°E (27 Feb – 6 Mar) and 8.6 m s⁻¹ at 165°E, reaching 180° (11–16 Mar); reanalysis burst 3 Mar 1997 – 19 Mar 1997, peak +10.3 m s⁻¹ at 150°E, spanning 137.5°E–177.5°W; OMI 2.75. Western-Pacific 850 hPa trade index −3.1 for March.",
+   "Kelvin wave plus rapid eastward advection of the warm pool's edge; the atmosphere's response to these SST changes favours further westerlies.",
+   "<a href=\"#ref-lengaigne2003\">[27]</a> <a href=\"#ref-taodata\">[9]</a> <a href=\"#ref-r1diag\">[10]</a> <a href=\"#ref-cpc\">[8]</a>",
+   "High"
+  ],
+  [
+   "Mar 1997",
+   "Model response to the March event: far-western cooling of about 0.8 °C, the warm pool's eastern edge displaced about 2000 km in a month, warming of about 0.5 °C along the Kelvin-wave path; surface jets at the warm-pool edge three times the linear response.",
+   "Kelvin-wave and nonlinear advection at the warm-pool edge.",
+   "<a href=\"#ref-lengaigne2002\">[26]</a> <a href=\"#ref-lengaigne2003\">[27]</a> <a href=\"#ref-boulanger2001\">[28]</a>",
+   "High (ocean and atmosphere model experiments for this event)"
+  ],
+  [
+   "Mar – Apr 1997",
+   "Far-eastern warming (Niño 1+2 −0.45 °C in Feb, +0.23 in Mar, +0.80 in Apr). Late March – early April: central-Pacific warming as the Kelvin wave forced by the February MJO passes, mainly by zonal advection. TAO shows the next Kelvin wave at 165°E on 16 Mar and at 110°W on 23 Apr (38 days, about 2.88 m s⁻¹).",
+   "Coastal arrival of the earlier wave; Kelvin-wave-induced advection with a lasting change in winds, currents and SST gradient.",
+   "<a href=\"#ref-wangweisberg2000\">[17]</a> <a href=\"#ref-bergman2001\">[29]</a> <a href=\"#ref-taodata\">[9]</a> <a href=\"#ref-cpc\">[8]</a>",
+   "High"
+  ],
+  [
+   "10–21 Apr 1997",
+   "Westerly burst: reanalysis peak +10.8 m s⁻¹ at 155°E; TAO westerlies up to 11.0 m s⁻¹ at 165°E (13–20 Apr). The OLR-based OMI shows an active MJO (2.01) while the circulation-weighted index is weak (0.9). Warm water volume peaks at +3.12 × 10¹⁴ m³; heat content +2.17 °C.",
+   "Recharged reservoir at its maximum as coupling begins; burst during an eastward-extended warm pool.",
+   "<a href=\"#ref-r1diag\">[10]</a> <a href=\"#ref-taodata\">[9]</a> <a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-kiladis2014\">[7]</a>",
+   "High (event); medium (MJO link)"
+  ],
+  [
    "1 Jun 1997",
-   "In an ocean model, about 40% of the Niño 3 anomaly comes from the initial thermal state six months earlier and about 50% from wind stress, concentrated at the time and place of the Dec 1996, Mar 1997 and Apr 1997 westerly events; relative to 1996, wind stress is the main difference.",
+   "Adjoint ocean-model decomposition of the modelled Niño 3 anomaly: initial thermal state about 1.1 °C and westerly anomalies about 1.0 °C (about 40% and 50% relative to an average year); the early-March, late-March and early-April wind peaks contribute about 0.6, 0.3 and 0.5 °C, the December event about 0.4 °C over a negative baseline. Compared with 1996: about 30% from the stronger build-up and about 90% from the westerly events.",
    "Quantitative split between precondition and wind triggers.",
-   "<a href=\"#ref-vanoldenborgh2000\">[23]</a>",
+   "<a href=\"#ref-vanoldenborgh2000\">[25]</a>",
    "High for the model result; one model"
   ],
   [
    "May – Jun 1997",
-   "Coupling established: RONI AMJ +0.83, MJJ +1.20; SOI −1.3 and −1.4; central-Pacific OLR −25.7 and −26.8 W m⁻²; Niño 1+2 +1.83 and +2.79 °C.",
+   "Coupling established: RONI AMJ +0.83, MJJ +1.20; SOI −1.3 and −1.4; central-Pacific OLR −25.7 and −26.8 W m⁻²; Niño 1+2 +1.83 and +2.79 °C. More bursts (19 May 1997 to 12 Jun 1997; TAO 10.2 m s⁻¹ at 165°E on 22–26 May) and twin tropical cyclogenesis over the western Pacific in late May. The burst series that began in December ends in June.",
    "Bjerknes feedback takes over once the central and eastern warm regions join.",
-   "<a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-picaut2002\">[16]</a>",
+   "<a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-picaut2002\">[18]</a> <a href=\"#ref-taodata\">[9]</a> <a href=\"#ref-r1diag\">[10]</a> <a href=\"#ref-congwen2003\">[24]</a>",
    "High"
   ],
   [
-   "Jun 1997",
-   "End of the westerly-burst series that ran from December 1996.",
-   "—",
-   "<a href=\"#ref-picaut2002\">[16]</a>",
+   "Jun – Dec 1997",
+   "Eastern equatorial SST sets a new monthly record every month from June to December; the cold tongue fails to form in boreal summer and fall; westerlies and deep convection only over water warmer than about 29 °C.",
+   "Coupled growth with the warm pool shifted east.",
+   "<a href=\"#ref-mcphaden1999\">[15]</a> <a href=\"#ref-mcphadenyu1999\">[16]</a>",
    "High"
   ],
   [
    "Jul – Oct 1997",
-   "Rapid growth: RONI JJA +1.50 → SON +2.22; central-Pacific trade index −4.1 and OLR −49.8 W m⁻² in October; much of the western warm water carried east by anomalous surface currents.",
-   "Coupled growth with zonal advection important in the central Pacific.",
-   "<a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-picaut2002\">[16]</a> <a href=\"#ref-wangmcphaden2000\">[58]</a>",
+   "RONI JJA +1.50 → SON +2.22; central-Pacific trade index −4.1 and OLR −49.8 W m⁻² in October; much of the western warm water carried east by anomalous surface currents.",
+   "Coupled growth, with zonal advection important in the central Pacific.",
+   "<a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-picaut2002\">[18]</a> <a href=\"#ref-wangmcphaden2000\">[54]</a>",
    "High"
   ],
   [
-   "Jul 1997 – Feb 1998",
-   "Indian Ocean: cool SST along and south of the equator in the east, from strong upwelling along the equator and Sumatra; western warm anomalies from July 1997, peaking in February 1998. CPC DMI +0.55 °C (Jul) to +1.39 °C (Nov).",
-   "Reversed Walker circulation and displaced south-east trades over the Indian Ocean; Kelvin and Rossby waves; reduced latent heat loss later.",
-   "<a href=\"#ref-murtugudde2000\">[51]</a> <a href=\"#ref-yurienecker1999\">[52]</a> <a href=\"#ref-webster1999\">[49]</a> <a href=\"#ref-saji1999\">[50]</a> <a href=\"#ref-cpc\">[8]</a>",
-   "High (observation); mechanism debated"
+   "Jun 1997 – Feb 1998",
+   "Indian Ocean: warm SST off East Africa from June 1997 (peak above +2 °C in Feb 1998); cool SST in the east from July (below −2 °C in Nov 1997); equatorial winds reverse to easterly, anomalies beyond −5 m s⁻¹ in December; east–west sea-level difference above 30 cm Nov 1997 – May 1998. CPC dipole index +0.55 °C (Jul) to +1.39 °C (Nov).",
+   "Disputed: forced by ENSO through the Walker circulation and monsoon, or an internal Indian Ocean mode.",
+   "<a href=\"#ref-webster1999\">[47]</a> <a href=\"#ref-ueda2000\">[51]</a> <a href=\"#ref-murtugudde2000\">[49]</a> <a href=\"#ref-yurienecker1999\">[50]</a> <a href=\"#ref-cpc\">[8]</a>",
+   "High (observation); mechanism disputed"
+  ],
+  [
+   "Late 1997",
+   "Eastern thermocline more than 90 m deeper than normal; TAO 20 °C isotherm at 110°W about 130 m in Oct–Dec 1997 against 29–46 m in Dec 1996 – Jan 1997.",
+   "Cumulative effect of the downwelling Kelvin waves and coupled growth.",
+   "<a href=\"#ref-mcphadenyu1999\">[16]</a> <a href=\"#ref-taodata\">[9]</a>",
+   "High"
   ],
   [
    "Nov 1997",
-   "Thermocline shoaling begins in the central Pacific and propagates east; near-Date-Line westerly anomalies shift south of the equator; warm water volume falls to +0.66 and turns negative in December (−0.77 × 10¹⁴ m³).",
+   "Thermocline shoaling begins in the central Pacific and propagates east; near-Date-Line westerly anomalies shift south of the equator; warm water volume +0.66 and negative in December (−0.77 × 10¹⁴ m³).",
    "Seasonal southward shift of the warmest water and its winds forces eastern thermocline shoaling; discharge begins.",
-   "<a href=\"#ref-vecchi2006a\">[61]</a> <a href=\"#ref-vecchi2006b\">[62]</a> <a href=\"#ref-harrisonvecchi1999\">[59]</a> <a href=\"#ref-lengaigne2006\">[63]</a> <a href=\"#ref-cpc\">[8]</a>",
+   "<a href=\"#ref-vecchi2006a\">[57]</a> <a href=\"#ref-vecchi2006b\">[58]</a> <a href=\"#ref-harrisonvecchi1999\">[55]</a> <a href=\"#ref-lengaigne2006\">[59]</a> <a href=\"#ref-cpc\">[8]</a>",
    "High"
   ],
   [
    "NDJ 1997",
-   "Peak: RONI +2.28 (ONI +2.37). Eastern SST anomalies above 4 °C; December peak in the eastern and central Pacific anomaly patterns.",
+   "Peak: RONI +2.28 (ONI +2.37). Cold-tongue anomalies averaged nearly 4 °C in December, with maxima above 5 °C.",
    "Mature coupled state; discharge under way.",
-   "<a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-vecchi2006a\">[61]</a> <a href=\"#ref-wangweisberg2000\">[15]</a>",
+   "<a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-mcphaden1999\">[15]</a> <a href=\"#ref-mcphadenyu1999\">[16]</a>",
    "High"
   ],
   [
    "Dec 1997 – Apr 1998",
-   "Eastern SST stays warm despite strong subsurface cooling; off-equatorial SLP in the west turns high and easterly anomalies appear over the far western Pacific; easterlies vanish from the eastern equatorial Pacific in February 1998.",
-   "Upwelling Kelvin waves from western easterlies and boundary reflection, Rossby waves from the east, and basin discharge set up the collapse.",
-   "<a href=\"#ref-vecchi2006a\">[61]</a> <a href=\"#ref-vecchi2006b\">[62]</a> <a href=\"#ref-wangweisberg2000\">[15]</a> <a href=\"#ref-picaut2002\">[16]</a> <a href=\"#ref-mcphadenyu1999\">[14]</a> <a href=\"#ref-delcroix2000\">[17]</a>",
+   "Eastern SST stays warm despite strong subsurface cooling; easterly anomalies in the far western Pacific; westerlies weaken and migrate east with the 29 °C water; easterlies vanish from the eastern equatorial Pacific in February 1998. TAO 20 °C isotherm at 140°W rises from about 135 m (Nov 1997) to about 62 m (May 1998).",
+   "Upwelling Kelvin waves from western easterlies (and, secondarily, boundary reflection) and Rossby waves from eastern westerlies; maximum shoaling where their paths cross, 125°W–170°W.",
+   "<a href=\"#ref-vecchi2006a\">[57]</a> <a href=\"#ref-vecchi2006b\">[58]</a> <a href=\"#ref-mcphadenyu1999\">[16]</a> <a href=\"#ref-picaut2002\">[18]</a> <a href=\"#ref-taodata\">[9]</a>",
    "High"
   ],
   [
-   "Early – mid May 1998",
-   "Abrupt cooling: eastern equatorial SST falls by more than 4 °C within two weeks; about 8 °C near 0°, 130°W; cooling first centred between 125°W and 170°W. Easterlies return to the eastern Pacific.",
-   "Thermocline surfaces once the equatorial easterlies return; an MJO is implicated in the timing.",
-   "<a href=\"#ref-vecchi2006a\">[61]</a> <a href=\"#ref-picaut2002\">[16]</a> <a href=\"#ref-mcphadenyu1999\">[14]</a> <a href=\"#ref-takayabu1999\">[60]</a>",
-   "High"
+   "Mid-May 1998",
+   "Trades return to near normal in the east; SST at 0°, 125°W falls 8 °C in 30 days, more than ten times the normal rate; eastern equatorial SST falls by more than 4 °C within two weeks. An MJO is active (OMI ≥ 1 from 30 Apr 1998 to 31 May 1998, max 2.24).",
+   "Thermocline surfaces once easterlies return; an MJO is implicated in the timing; the cause of the trade-wind return was not known at the time.",
+   "<a href=\"#ref-mcphaden1999\">[15]</a> <a href=\"#ref-vecchi2006a\">[57]</a> <a href=\"#ref-takayabu1999\">[56]</a> <a href=\"#ref-r1diag\">[10]</a>",
+   "High (observation); medium (MJO trigger)"
   ],
   [
    "Jun – Aug 1998",
-   "La Niña: RONI MJJ −0.46, JJA −1.05; record equatorial phytoplankton bloom.",
+   "La Niña: RONI MJJ −0.46, JJA −1.05; the largest equatorial phytoplankton bloom then observed.",
    "Upwelling resumes over a discharged basin.",
-   "<a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-chavez1999\">[20]</a>",
+   "<a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-chavez1999\">[22]</a>",
    "High"
   ]
  ],
  "evidence": [
   [
    "Warm-water recharge after the 1995–96 La Niña",
-   "WWV positive from Dec 1995 through 1996, peaking at +3.12 × 10¹⁴ m³ in Apr 1997; an ocean model attributes about 40% of the 1 June 1997 Niño 3 anomaly to the initial thermal state.",
+   "WWV positive from Dec 1995, +3.12 × 10¹⁴ m³ in Apr 1997; adjoint model credits about 40% of the 1 June 1997 Niño 3 anomaly to the initial state, concentrated in the deep western warm layer.",
    "A charged reservoir lets Kelvin waves raise eastern SST and sustain growth.",
    "Precondition",
-   "A−: TAO-era observation + model decomposition for this event",
+   "A−: TAO-era observation + adjoint decomposition for this event",
    "High",
-   "<a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-meinen2000\">[11]</a> <a href=\"#ref-vanoldenborgh2000\">[23]</a> <a href=\"#ref-picaut2002\">[16]</a>"
+   "<a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-meinen2000\">[14]</a> <a href=\"#ref-vanoldenborgh2000\">[25]</a> <a href=\"#ref-mcphadenyu1999\">[16]</a>"
   ],
   [
    "Westerly wind events, Dec 1996 – Jun 1997",
-   "A series of strong events, notably Dec 1996, Mar 1997 and Apr 1997; wind stress ≈ 50% of the 1 June Niño 3 anomaly and the main difference from 1996.",
-   "Downwelling Kelvin waves and eastward displacement of the warm-pool edge.",
+   "10 reanalysis bursts; 16 in calendar 1997, the most of any year in 1979–2001 (mean 4.2; 1982: 13; 1995: 0; 1996: 3); confirmed by TAO mooring winds. Wind stress ≈ 50% of the 1 June anomaly and ≈ 90% of the difference from 1996.",
+   "Downwelling Kelvin waves (two traced in TAO: about 2.1 and 2.9 m s⁻¹) and eastward displacement of the warm-pool edge.",
    "Trigger (and early amplifier)",
-   "A: event observations + ocean-model decomposition + targeted experiments",
+   "A: event observations (TAO, satellite, reanalysis) + adjoint decomposition + targeted experiments",
    "High",
-   "<a href=\"#ref-vanoldenborgh2000\">[23]</a> <a href=\"#ref-picaut2002\">[16]</a> <a href=\"#ref-lengaigne2002\">[24]</a> <a href=\"#ref-lengaigne2003\">[25]</a> <a href=\"#ref-yurienecker1998\">[21]</a>"
+   "<a href=\"#ref-vanoldenborgh2000\">[25]</a> <a href=\"#ref-yurienecker1998\">[23]</a> <a href=\"#ref-taodata\">[9]</a> <a href=\"#ref-r1diag\">[10]</a> <a href=\"#ref-lengaigne2002\">[26]</a> <a href=\"#ref-picaut2002\">[18]</a>"
   ],
   [
    "March 1997 event: atmospheric response",
-   "Model SST response to the March event itself generates atmospheric responses favouring growth.",
-   "Burst-forced SST changes → more westerlies (state-dependent feedback).",
+   "The model SST response to the March event weakens the central-eastern trades and shifts convection east, promoting further frequent and intense events.",
+   "Burst-forced SST changes → more westerlies.",
    "Amplifier of the trigger",
    "A−: ocean + atmosphere GCM experiments for this event",
    "Medium–high",
-   "<a href=\"#ref-lengaigne2003\">[25]</a> <a href=\"#ref-boulanger2001\">[26]</a>"
+   "<a href=\"#ref-lengaigne2003\">[27]</a> <a href=\"#ref-boulanger2001\">[28]</a>"
   ],
   [
-   "MJO, winter 1996–97",
-   "Two exceptionally strong MJOs (Dec 1996, Feb 1997); bursts embedded in active MJO; the February MJO's Kelvin wave warms the central Pacific in late Mar–early Apr.",
+   "MJO, Oct 1996 – Jun 1997",
+   "OMI ≥ 1 almost continuously; the largest intraseasonal OLR variance over 60°E–150°E of 22 seasons; bursts on 25 Dec, 13 Mar and 28 Mar during OMI 2.7–3.3. MJO-forced Kelvin waves 15–20 cm in sea level against about 2 cm from boundary reflection. But an active MJO in Jan–Apr 1996 produced no El Niño, and burst intensification exceeded the MJO's own signal.",
    "MJO organises bursts; rectified MJO stresses add warming; Kelvin waves advect warm water.",
    "Trigger timing / amplifier",
-   "B: event-specific observation and budget; one intermediate-model hindcast (+50% amplitude)",
+   "B: event-specific observations and wave model; one intermediate-model hindcast (+50% amplitude)",
    "Medium–high",
-   "<a href=\"#ref-bergman2001\">[29]</a> <a href=\"#ref-yurienecker1998\">[21]</a> <a href=\"#ref-mcphadenyu1999\">[14]</a> <a href=\"#ref-kesslerkleeman2000\">[30]</a> <a href=\"#ref-kutsuwada2002\">[18]</a>"
+   "<a href=\"#ref-r1diag\">[10]</a> <a href=\"#ref-mcphadenyu1999\">[16]</a> <a href=\"#ref-bergman2001\">[29]</a> <a href=\"#ref-yurienecker1998\">[23]</a> <a href=\"#ref-kesslerkleeman2000\">[30]</a>"
   ],
   [
    "Cold surges and twin cyclones",
-   "Northerly cold surges from East Asia induce equatorial twin cyclones that enhance MJO bursts in late 1996 – early 1997.",
+   "Northerly cold surges from East Asia linked to equatorial twin circulations that enhanced the late-Dec 1996 and late-Feb 1997 bursts (SSM/I winds). JTWC best-track twin cyclogenesis is found in mid-Oct 1996 (Indian Ocean) and late May 1997 (western Pacific), not at the two main bursts.",
    "Extratropical forcing amplifies bursts.",
    "Amplifier of the trigger (extratropical pathway)",
-   "B: one event-specific observational study; a second on twin cyclogenesis (title only)",
+   "B: two event-specific studies, partly differing in what counts as a twin cyclone",
    "Medium",
-   "<a href=\"#ref-yurienecker1998\">[21]</a> <a href=\"#ref-congwen2003\">[22]</a>"
+   "<a href=\"#ref-yurienecker1998\">[23]</a> <a href=\"#ref-congwen2003\">[24]</a>"
   ],
   [
    "Off-equatorial western-Pacific cyclones (Nov 1996 – Jan 1997)",
@@ -989,61 +1247,61 @@
    "Trigger component (proposed)",
    "B/C: one descriptive study",
    "Medium",
-   "<a href=\"#ref-wangweisberg2000\">[15]</a>"
+   "<a href=\"#ref-wangweisberg2000\">[17]</a>"
   ],
   [
    "Western-boundary Rossby wave reflection",
-   "Reflection at the western boundary 'appeared favorable' before onset; minor contribution to Kelvin waves.",
-   "Reflected Rossby waves add downwelling Kelvin energy.",
-   "Minor precondition",
-   "B/C: satellite-altimetry studies; magnitude small",
-   "Low–medium",
-   "<a href=\"#ref-picaut2002\">[16]</a> <a href=\"#ref-delcroix2000\">[17]</a> <a href=\"#ref-boulangermenkes1999\">[19]</a>"
+   "Reflected downwelling Kelvin waves in 1995–96 only about 2 cm in sea level, dwarfed by MJO-forced waves; upwelling reflections (4–6 cm) contribute to the slow shoaling of early 1998.",
+   "Delayed-oscillator reflection.",
+   "Secondary at onset and termination",
+   "B: wave model + altimetry for this event",
+   "Medium–high",
+   "<a href=\"#ref-mcphadenyu1999\">[16]</a> <a href=\"#ref-boulangermenkes1999\">[21]</a> <a href=\"#ref-delcroix2000\">[19]</a> <a href=\"#ref-picaut2002\">[18]</a>"
   ],
   [
    "Bjerknes coupled feedback",
-   "From May–June 1997 SOI, trades, OLR and SST strengthen together to an October–December peak.",
+   "From May–June 1997 SOI, trades, OLR and SST strengthen together to an October–December peak; record eastern SST every month June–December.",
    "Warming → weaker trades → deeper eastern thermocline → more warming.",
    "Amplifier / feedback",
    "B: event observations + general theory; heat budgets show zonal advection important",
    "High",
-   "<a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-picaut2002\">[16]</a> <a href=\"#ref-wangmcphaden2000\">[58]</a>"
+   "<a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-mcphaden1999\">[15]</a> <a href=\"#ref-picaut2002\">[18]</a> <a href=\"#ref-wangmcphaden2000\">[54]</a>"
   ],
   [
    "State dependence of bursts",
-   "Bursts are more likely when the warm pool extends east, which it did through spring 1997.",
+   "Bursts are more likely when the warm pool extends east; bursts continued after onset (seven more in the reanalysis from August to December 1997, mostly east of 160°E).",
    "Bursts partly a response to ENSO, effectively increasing coupling.",
    "Feedback (contested)",
-   "C: multi-event statistics and models, not tested for 1997 alone",
+   "C: multi-event statistics and models, not isolated for 1997",
    "Medium",
-   "<a href=\"#ref-eisenman2005\">[38]</a> <a href=\"#ref-gebbie2007\">[39]</a> <a href=\"#ref-seikitakayabu2007\">[37]</a> <a href=\"#ref-vecchiharrison2000\">[35]</a> <a href=\"#ref-chiodi2014\">[36]</a>"
+   "<a href=\"#ref-eisenman2005\">[37]</a> <a href=\"#ref-gebbie2007\">[38]</a> <a href=\"#ref-seikitakayabu2007\">[36]</a> <a href=\"#ref-vecchiharrison2000\">[34]</a> <a href=\"#ref-chiodi2014\">[35]</a> <a href=\"#ref-r1diag\">[10]</a>"
   ],
   [
    "Pacific meridional mode / seasonal footprinting",
    "Most El Niños of the past four decades preceded by spring warming and south-westerlies near the ITCZ.",
    "Extratropical winter variability → subtropical SST → equatorial winds.",
    "Possible precondition",
-   "C: composite and model studies; 1997 not isolated in the abstracts read",
+   "C: composite and model studies; 1997 not isolated in the sources read",
    "Low",
-   "<a href=\"#ref-chang2007\">[44]</a> <a href=\"#ref-vimont2003\">[45]</a> <a href=\"#ref-anderson2003\">[46]</a>"
+   "<a href=\"#ref-chang2007\">[42]</a> <a href=\"#ref-vimont2003\">[43]</a> <a href=\"#ref-anderson2003\">[44]</a>"
   ],
   [
    "Pacific decadal background",
    "PDO positive through 1997 (+1.6 to +2.6 in May–Jun); shallow meridional overturning at a 1992–98 low.",
-   "Weaker overturning → warmer tropical Pacific background; background alters the response to bursts.",
+   "Weaker overturning → warmer tropical background; background alters the response to bursts.",
    "Background (possible precondition)",
    "C: decadal observations and a simple model; not event attribution",
    "Low",
-   "<a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-mcphadenzhang2002\">[47]</a> <a href=\"#ref-mcphadenzhang2004\">[48]</a> <a href=\"#ref-fedorov2002\">[40]</a>"
+   "<a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-mcphadenzhang2002\">[45]</a> <a href=\"#ref-mcphadenzhang2004\">[46]</a> <a href=\"#ref-fedorov2002\">[39]</a>"
   ],
   [
    "Indian Ocean Dipole 1997",
-   "Positive IOD from mid-1997, peaking in Nov (CPC DMI +1.39 °C), after Pacific coupling.",
-   "Walker-circulation reversal → eastern upwelling; Indian Ocean coupled dynamics.",
-   "Mainly consequence; feedback on the Pacific unresolved",
-   "B: event-specific ocean model + observations; coupled-model feedback studies",
+   "Western warming from June and eastern cooling from July 1997, after Pacific coupling; peak dipole index +1.39 °C (Nov).",
+   "ENSO-forced (divergent easterlies over the equatorial Indian Ocean in summer 1997; reversed Walker circulation) versus an internal Indian Ocean mode (16 gradient reversals in 1950–98, only three in El Niño years).",
+   "Consequence for onset; origin disputed; feedback on the Pacific untested here",
+   "B: event-specific observational and model studies that disagree",
    "Medium",
-   "<a href=\"#ref-murtugudde2000\">[51]</a> <a href=\"#ref-yurienecker1999\">[52]</a> <a href=\"#ref-webster1999\">[49]</a> <a href=\"#ref-saji1999\">[50]</a> <a href=\"#ref-luo2010\">[55]</a>"
+   "<a href=\"#ref-ueda2000\">[51]</a> <a href=\"#ref-yurienecker1999\">[50]</a> <a href=\"#ref-murtugudde2000\">[49]</a> <a href=\"#ref-webster1999\">[47]</a> <a href=\"#ref-saji1999\">[48]</a> <a href=\"#ref-luo2010\">[52]</a>"
   ],
   [
    "Tropical North Atlantic",
@@ -1052,34 +1310,34 @@
    "Untested trigger; later consequence",
    "C/D: index only for this event",
    "Low",
-   "<a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-ham2013\">[57]</a>"
+   "<a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-ham2013\">[53]</a>"
   ],
   [
    "Seasonal cycle in termination",
    "Southward shift of westerly anomalies from Nov 1997; thermocline shoaling from the central Pacific; abrupt SST drop in May 1998.",
-   "Seasonal migration of warmest SST shifts winds south, shoaling the eastern thermocline.",
+   "Seasonal migration of the warmest SST shifts winds south, shoaling the eastern thermocline.",
    "Termination mechanism",
    "A: event observations + AGCM and OGCM experiments",
    "High",
-   "<a href=\"#ref-harrisonvecchi1999\">[59]</a> <a href=\"#ref-vecchi2006a\">[61]</a> <a href=\"#ref-vecchi2006b\">[62]</a> <a href=\"#ref-lengaigne2006\">[63]</a>"
+   "<a href=\"#ref-harrisonvecchi1999\">[55]</a> <a href=\"#ref-vecchi2006a\">[57]</a> <a href=\"#ref-vecchi2006b\">[58]</a> <a href=\"#ref-lengaigne2006\">[59]</a>"
   ],
   [
    "MJO at termination (May 1998)",
-   "An MJO in May 1998 implicated in the abrupt end.",
-   "Easterly phase triggers upwelling and surfacing of the thermocline.",
+   "An MJO active from 30 Apr 1998 to 31 May 1998 (OMI max 2.24) as the trades returned in mid-May.",
+   "Easterly phase helps restore the trades over a shallow thermocline.",
    "Timing of termination",
-   "B: one event-specific study (abstract not available)",
+   "B: one event-specific study (title only read) + index",
    "Medium",
-   "<a href=\"#ref-takayabu1999\">[60]</a>"
+   "<a href=\"#ref-takayabu1999\">[56]</a> <a href=\"#ref-r1diag\">[10]</a> <a href=\"#ref-mcphaden1999\">[15]</a>"
   ],
   [
    "Volcanic forcing",
-   "No large tropical eruption in 1995–97 (assessment pending a catalogue check).",
+   "No eruption of VEI ≥ 4 anywhere in 1995–97 in the GVP catalogue; the most recent tropical VEI 4 was Rabaul (4°S) in September 1994.",
    "—",
-   "Not applicable (to confirm)",
-   "—",
-   "—",
-   "—"
+   "Not a candidate",
+   "Catalogue check",
+   "High",
+   "<a href=\"#ref-gvp\">[11]</a>"
   ],
   [
    "Background warming",
@@ -1088,7 +1346,7 @@
    "Not attributed",
    "D for event attribution; projections only",
    "—",
-   "<a href=\"#ref-lheureux2024\">[2]</a> <a href=\"#ref-trenberthhoar1997\">[69]</a> <a href=\"#ref-cai2014\">[70]</a>"
+   "<a href=\"#ref-lheureux2024\">[2]</a> <a href=\"#ref-trenberthhoar1997\">[63]</a> <a href=\"#ref-cai2014\">[64]</a>"
   ]
  ],
  "references": [
@@ -1149,6 +1407,27 @@
    "check": "data read"
   },
   {
+   "key": "taodata",
+   "text": "NOAA PMEL Global Tropical Moored Buoy Array (TAO/TRITON): daily 20 °C isotherm depth, surface winds and SST on the equator, 147°E–95°W, Jul 1995 – Dec 1998 (ERDDAP datasets pmelTaoDyIso, pmelTaoDyW, pmelTaoDySst). Analysis: tools/papers/tao_1997.py; outputs in data/papers/1997/.",
+   "doi": null,
+   "url": "https://www.pmel.noaa.gov/gtmba/",
+   "check": "data read and processed"
+  },
+  {
+   "key": "r1diag",
+   "text": "NCEP/NCAR Reanalysis 1 daily winds and NOAA interpolated OLR (via NOAA PSL THREDDS) and the NOAA PSL OLR MJO Index (OMI): westerly-burst and MJO diagnostics for Jul 1995 – Dec 1998 on Paper 1's definitions (tools/papers/event_diag.py, diag_1997.py; outputs in data/papers/1997/).",
+   "doi": null,
+   "url": "https://psl.noaa.gov/mjo/mjoindex/",
+   "check": "data read and processed"
+  },
+  {
+   "key": "gvp",
+   "text": "Global Volcanism Program, Smithsonian Institution: Volcanoes of the World, confirmed eruptions (snapshot of April 2020 distributed by rfordatascience/tidytuesday, 2020-05-12).",
+   "doi": null,
+   "url": "https://volcano.si.edu/",
+   "check": "data read"
+  },
+  {
    "key": "wyrtki1985b",
    "text": "Wyrtki, K. (1985). Water displacements in the Pacific and the genesis of El Niño cycles. <i>Journal of Geophysical Research</i> 90(C4), 7129–7132.",
    "doi": "10.1029/JC090iC04p07129",
@@ -1174,21 +1453,14 @@
    "text": "McPhaden, M. J. (1999). Genesis and evolution of the 1997–98 El Niño. <i>Science</i> 283, 950–954.",
    "doi": "10.1126/science.283.5404.950",
    "url": null,
-   "check": "abstract read; full text not accessible (paywall)"
-  },
-  {
-   "key": "mcphaden1999n",
-   "text": "McPhaden, M. J. (1999). The child prodigy of 1997–98. <i>Nature</i> 398, 559–561.",
-   "doi": "10.1038/19193",
-   "url": null,
-   "check": "bibliographic record"
+   "check": "full text read (NOAA PMEL author copy, supplied)"
   },
   {
    "key": "mcphadenyu1999",
    "text": "McPhaden, M. J., and X. Yu (1999). Equatorial waves and the 1997–98 El Niño. <i>Geophysical Research Letters</i> 26, 2961–2964.",
    "doi": "10.1029/1999GL004901",
    "url": null,
-   "check": "abstract read"
+   "check": "full text read (copy supplied)"
   },
   {
    "key": "wangweisberg2000",
@@ -1202,7 +1474,7 @@
    "text": "Picaut, J., E. Hackert, A. J. Busalacchi, R. Murtugudde and G. S. E. Lagerloef (2002). Mechanisms of the 1997–1998 El Niño–La Niña, as inferred from space-based observations. <i>Journal of Geophysical Research</i> 107(C5), 3037.",
    "doi": "10.1029/2001JC000850",
    "url": null,
-   "check": "abstract read"
+   "check": "full text supplied; abstract-level claims only so far"
   },
   {
    "key": "delcroix2000",
@@ -1216,7 +1488,7 @@
    "text": "Kutsuwada, K., and M. McPhaden (2002). Intraseasonal variations in the upper equatorial Pacific Ocean prior to and during the 1997–98 El Niño. <i>Journal of Physical Oceanography</i> 32, 1133–1149.",
    "doi": "10.1175/1520-0485(2002)032<1133:IVITUE>2.0.CO;2",
    "url": null,
-   "check": "abstract read"
+   "check": "full text supplied; abstract-level claims"
   },
   {
    "key": "boulangermenkes1999",
@@ -1237,21 +1509,21 @@
    "text": "Yu, L., and M. M. Rienecker (1998). Evidence of an extratropical atmospheric influence during the onset of the 1997–98 El Niño. <i>Geophysical Research Letters</i> 25, 3537–3540.",
    "doi": "10.1029/98GL02628",
    "url": null,
-   "check": "abstract read"
+   "check": "full text read (copy supplied)"
   },
   {
    "key": "congwen2003",
    "text": "Zhu, C., T. Nakazawa and J. Li (2003). Modulation of twin tropical cyclogenesis by the MJO westerly wind burst during the onset period of 1997/98 ENSO. <i>Advances in Atmospheric Sciences</i> 20, 882–898.",
    "doi": "10.1007/BF02915512",
    "url": null,
-   "check": "bibliographic record (title and authors from Crossref; Crossref lists given and family names inverted)"
+   "check": "full text read (copy supplied)"
   },
   {
    "key": "vanoldenborgh2000",
-   "text": "van Oldenborgh, G. J. (2000). What caused the onset of the 1997–98 El Niño? <i>Monthly Weather Review</i> 128, 2601–2607.",
+   "text": "van Oldenborgh, G. J. (2000). What caused the onset of the 1997–98 El Niño? <i>Monthly Weather Review</i> 128, 2601–2607 (preprint arXiv:physics/9904002).",
    "doi": "10.1175/1520-0493(2000)128<2601:WCTOOT>2.0.CO;2",
    "url": null,
-   "check": "abstract read"
+   "check": "journal abstract read; arXiv preprint read in full (copy supplied); numbers quoted from the preprint agree with the journal abstract"
   },
   {
    "key": "lengaigne2002",
@@ -1265,26 +1537,12 @@
    "text": "Lengaigne, M., J.-P. Boulanger, C. Menkes, G. Madec, P. Delecluse, E. Guilyardi and J. Slingo (2003). The March 1997 westerly wind event and the onset of the 1997/98 El Niño: understanding the role of the atmospheric response. <i>Journal of Climate</i> 16, 3330–3343.",
    "doi": "10.1175/1520-0442(2003)016<3330:TMWWEA>2.0.CO;2",
    "url": null,
-   "check": "abstract read"
+   "check": "full text read (copy supplied)"
   },
   {
    "key": "boulanger2001",
    "text": "Boulanger, J.-P., E. Durand, J.-P. Duvel, C. Menkes, P. Delecluse, M. Imbard, M. Lengaigne, G. Madec and S. Masson (2001). Role of non-linear oceanic processes in the response to westerly wind events: new implications for the 1997 El Niño onset. <i>Geophysical Research Letters</i> 28, 1603–1606.",
    "doi": "10.1029/2000GL012364",
-   "url": null,
-   "check": "abstract read"
-  },
-  {
-   "key": "lengaigne2004",
-   "text": "Lengaigne, M., et al. (2004). Triggering of El Niño by westerly wind events in a coupled general circulation model. <i>Climate Dynamics</i> 23, 601–620.",
-   "doi": "10.1007/s00382-004-0457-2",
-   "url": null,
-   "check": "bibliographic record (no abstract available)"
-  },
-  {
-   "key": "vialard2001",
-   "text": "Vialard, J., C. Menkes, J.-P. Boulanger, P. Delecluse, E. Guilyardi, M. J. McPhaden and G. Madec (2001). A model study of oceanic mechanisms affecting equatorial Pacific sea surface temperature during the 1997–98 El Niño. <i>Journal of Physical Oceanography</i> 31, 1649–1675.",
-   "doi": "10.1175/1520-0485(2001)031<1649:AMSOOM>2.0.CO;2",
    "url": null,
    "check": "abstract read"
   },
@@ -1300,14 +1558,7 @@
    "text": "Kessler, W. S., and R. Kleeman (2000). Rectification of the Madden–Julian oscillation into the ENSO cycle. <i>Journal of Climate</i> 13, 3560–3575.",
    "doi": "10.1175/1520-0442(2000)013<3560:ROTMJO>2.0.CO;2",
    "url": null,
-   "check": "abstract read"
-  },
-  {
-   "key": "slingo1999",
-   "text": "Slingo, J. M., D. P. Rowell, K. R. Sperber and F. Nortley (1999). On the predictability of the interannual behaviour of the Madden–Julian oscillation and its relationship with El Niño. <i>Quarterly Journal of the Royal Meteorological Society</i> 125, 583–609.",
-   "doi": "10.1256/smsqj.55410",
-   "url": null,
-   "check": "bibliographic record (no abstract available)"
+   "check": "full text supplied; abstract-level claims"
   },
   {
    "key": "kessler1995",
@@ -1387,13 +1638,6 @@
    "check": "full text read (open access; private library copy)"
   },
   {
-   "key": "roundykiladis2007",
-   "text": "Roundy, P. E., and G. N. Kiladis (2007). Analysis of a reconstructed oceanic Kelvin wave dynamic height dataset for the period 1974–2005. <i>Journal of Climate</i> 20, 4341–4355.",
-   "doi": "10.1175/JCLI4249.1",
-   "url": null,
-   "check": "full text read (private library copy)"
-  },
-  {
    "key": "chang2007",
    "text": "Chang, P., L. Zhang, R. Saravanan, D. J. Vimont, J. C. H. Chiang, L. Ji, H. Seidel and M. K. Tippett (2007). Pacific meridional mode and El Niño–Southern Oscillation. <i>Geophysical Research Letters</i> 34, L16608.",
    "doi": "10.1029/2007GL030302",
@@ -1433,7 +1677,7 @@
    "text": "Webster, P. J., A. M. Moore, J. P. Loschnigg and R. R. Leben (1999). Coupled ocean–atmosphere dynamics in the Indian Ocean during 1997–98. <i>Nature</i> 401, 356–360.",
    "doi": "10.1038/43848",
    "url": null,
-   "check": "bibliographic record (no abstract available)"
+   "check": "full text read (copy supplied)"
   },
   {
    "key": "saji1999",
@@ -1461,14 +1705,7 @@
    "text": "Ueda, H., and J. Matsumoto (2000). A possible triggering process of east–west asymmetric anomalies over the Indian Ocean in relation to 1997/98 El Niño. <i>Journal of the Meteorological Society of Japan</i> 78, 803–818.",
    "doi": "10.2151/jmsj1965.78.6_803",
    "url": null,
-   "check": "bibliographic record"
-  },
-  {
-   "key": "annamalai2003",
-   "text": "Annamalai, H., R. Murtugudde, J. Potemra, S.-P. Xie, P. Liu and B. Wang (2003). Coupled dynamics over the Indian Ocean: spring initiation of the zonal mode. <i>Deep-Sea Research II</i> 50, 2305–2330.",
-   "doi": "10.1016/S0967-0645(03)00058-4",
-   "url": null,
-   "check": "bibliographic record"
+   "check": "full text read (copy supplied)"
   },
   {
    "key": "luo2010",
@@ -1476,13 +1713,6 @@
    "doi": "10.1175/2009JCLI3104.1",
    "url": null,
    "check": "abstract read"
-  },
-  {
-   "key": "izumo2010",
-   "text": "Izumo, T., et al. (2010). Influence of the state of the Indian Ocean Dipole on the following year's El Niño. <i>Nature Geoscience</i> 3, 168–172.",
-   "doi": "10.1038/ngeo760",
-   "url": null,
-   "check": "bibliographic record"
   },
   {
    "key": "ham2013",
@@ -1517,14 +1747,14 @@
    "text": "Vecchi, G. A., and D. E. Harrison (2006). The termination of the 1997–98 El Niño. Part I: mechanisms of oceanic change. <i>Journal of Climate</i> 19, 2633–2646.",
    "doi": "10.1175/JCLI3776.1",
    "url": null,
-   "check": "abstract read"
+   "check": "full text supplied; abstract-level claims"
   },
   {
    "key": "vecchi2006b",
    "text": "Vecchi, G. A. (2006). The termination of the 1997–98 El Niño. Part II: mechanisms of atmospheric change. <i>Journal of Climate</i> 19, 2647–2664.",
    "doi": "10.1175/JCLI3780.1",
    "url": null,
-   "check": "abstract read"
+   "check": "full text supplied; abstract-level claims"
   },
   {
    "key": "lengaigne2006",
@@ -1545,28 +1775,14 @@
    "text": "Barnston, A. G., A. Leetmaa, V. E. Kousky, R. E. Livezey, E. A. O'Lenic, H. Van den Dool, A. J. Wagner and D. A. Unger (1999). NCEP forecasts of the El Niño of 1997–98 and its U.S. impacts. <i>Bulletin of the American Meteorological Society</i> 80, 1829–1852.",
    "doi": "10.1175/1520-0477(1999)080<1829:NFOTEN>2.0.CO;2",
    "url": null,
-   "check": "bibliographic record"
+   "check": "full text read (copy supplied)"
   },
   {
    "key": "landseaknaff2000",
    "text": "Landsea, C. W., and J. A. Knaff (2000). How much skill was there in forecasting the very strong 1997–98 El Niño? <i>Bulletin of the American Meteorological Society</i> 81, 2107–2119.",
    "doi": "10.1175/1520-0477(2000)081<2107:HMSWTI>2.3.CO;2",
    "url": null,
-   "check": "abstract read"
-  },
-  {
-   "key": "stockdale1998",
-   "text": "Stockdale, T. N., D. L. T. Anderson, J. O. S. Alves and M. A. Balmaseda (1998). Global seasonal rainfall forecasts using a coupled ocean–atmosphere model. <i>Nature</i> 392, 370–373.",
-   "doi": "10.1038/32861",
-   "url": null,
-   "check": "bibliographic record"
-  },
-  {
-   "key": "webster1997",
-   "text": "Webster, P. J., and T. N. Palmer (1997). The past and the future of El Niño. <i>Nature</i> 390, 562–564.",
-   "doi": "10.1038/37499",
-   "url": null,
-   "check": "bibliographic record"
+   "check": "full text supplied; abstract-level claims"
   },
   {
    "key": "trenberthhoar1997",
@@ -1581,20 +1797,6 @@
    "doi": "10.1038/nclimate2100",
    "url": null,
    "check": "bibliographic record"
-  },
-  {
-   "key": "timmermann2018",
-   "text": "Timmermann, A., et al. (2018). El Niño–Southern Oscillation complexity. <i>Nature</i> 559, 535–545.",
-   "doi": "10.1038/s41586-018-0252-6",
-   "url": null,
-   "check": "bibliographic record"
-  },
-  {
-   "key": "santoso2017",
-   "text": "Santoso, A., M. J. McPhaden and W. Cai (2017). The defining characteristics of ENSO extremes and the strong 2015/2016 El Niño. <i>Reviews of Geophysics</i> 55, 1079–1129.",
-   "doi": "10.1002/2017RG000560",
-   "url": null,
-   "check": "abstract read"
   }
  ]
 }
