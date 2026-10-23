@@ -1,0 +1,26 @@
+name: Weekly raw fetch (branch weekly-raw)
+
+# Fetches the raw sources for the Friday review into raw/<date>/ on the weekly-raw branch. It never touches data/ on main;
+# the reviewer reads these files, checks each newest date, and writes the datasets by hand.
+on:
+  workflow_dispatch:
+  push:
+    branches: [weekly-raw]
+    paths: [tools/weekly/**]
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: python3 tools/weekly/fetch_raw.py
+      - name: Commit raw files to weekly-raw
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add raw && git commit -m "Weekly raw fetch $(date -u +%F)" && git push origin HEAD:${GITHUB_REF_NAME}
