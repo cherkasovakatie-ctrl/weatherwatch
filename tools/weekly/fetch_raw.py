@@ -40,7 +40,14 @@ def om(name, base, **params):
 # ---- ENSO and drivers
 get('psl_romi.cpcolr.1x.txt', 'https://psl.noaa.gov/mjo/mjoindex/romi.cpcolr.1x.txt')  # real-time OMI (CPC OLR)
 get('pmel_wwv.dat', 'https://www.pmel.noaa.gov/tao/wwv/data/wwv.dat')
-get('cpc_ao_daily.csv', 'https://ftp.cpc.ncep.noaa.gov/cwlinks/norm.daily.ao.cdas.z1000.19500101_current.csv')
+# IRI/CCSR model plume (figure4) and objective probabilities (figure3), issued about the 19th; fall back to last month
+for _m in (TODAY.replace(day=1), (TODAY.replace(day=1) - dt.timedelta(days=1)).replace(day=1)):
+    _ym = f'{_m.year}/{_m.month:02d}'
+    if get('iri_figure4.svg', f'https://ensoforecast.iri.columbia.edu/figure4_plot/{_ym}', tries=2):
+        get('iri_figure3.svg', f'https://ensoforecast.iri.columbia.edu/figure3_plot/{_ym}', tries=2)
+        (OUT / 'iri_issue.txt').write_text(f'{_m.year}-{_m.month:02d}\n')
+        break
+get('cpc_ao_daily.csv','https://ftp.cpc.ncep.noaa.gov/cwlinks/norm.daily.ao.cdas.z1000.19500101_current.csv')
 # ---- hazards
 get('nhc_currentstorms.json', 'https://www.nhc.noaa.gov/CurrentStorms.json')
 F = TODAY - dt.timedelta(60)
