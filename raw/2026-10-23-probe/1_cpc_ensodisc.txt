@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+
+<html>
+
+	<head>
+		<title>Climate Prediction Center: ENSO Diagnostic Discussion</title>
+		<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+		<meta content="NCEP Web Team" name="GENERATOR">
+		<meta name="subject.attribution" content="ENSO_Discussion">
+		<link href="/nwscwi/main.css" type="text/css" rel="STYLESHEET">
+	</head>
+
+	<body leftmargin="0" background="/nwscwi/background-white.gif" topmargin="0" marginheight="0" marginwidth="0">
+
+		<table cellspacing="0" cellpadding="0" width="100%" border="0" background="/nwscwi/topbanner.jpg" >
+	<tbody>
+		<tr>
+			<td align="right" height="19">
+				<a href="#contents"><img height="1" alt="skip navigation links" src="/nwscwi/skipgraphic.gif" width="1" border="0"></a>
+				<a href="http://www.nws.noaa.gov/" class="homepagelinks"><span class="nwslink">www.nws.noaa.gov</span></a>&nbsp;
+			</td>
+		</tr>
+	</tbody>
+</table><table cellspacing="0" cellpadding="0" width="100%" border="0">
+	<tbody>
+		<tr>
+			<td rowspan="2">
+				<a href="http://www.noaa.gov/">
+				<img height="77" alt="NOAA logo - Click to go to the NOAA home page" src="/nwscwi/noaaleft.jpg" width="85" border="0"></a>
+			</td>
+			<td align="left">
+				<img height="20" alt="National Weather Service" src="/nwscwi/nws_title.jpg" width="500" border="0">
+			</td>
+			<td rowspan="2" width="100%" height="77" background="/nwscwi/ncep_bkgrnd2.jpg">&nbsp;</td>
+			<td rowspan="2" align="right">
+				<a href="http://www.nws.noaa.gov/"><img height="77" alt="NWS logo - Click to go to the NWS home page" src="/nwscwi/nwsright.jpg" width="85" border="0"></a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img height="58" alt="Climate Prediction Center" src="/nwscwi/cpc.jpg" width="500" border="0">
+			</td>
+		</tr>
+	</tbody>
+</table><table cellspacing="0" cellpadding="0" width="100%" background="/nwscwi/navbkgrnd.gif" border="0">
+	<tbody>
+		<tr>
+			<td align="left" width="135">
+				<img height="23" alt="" src="/nwscwi/navbarleft.jpg" width="94" border="0">
+			</td>
+			<td class="nav" align="center" width="10%">
+				<a href="/" class="menu" title="to the Climate Prediction Center home page">Home</a>
+			</td>
+			<td class="nav" align="center" width="10%">
+				<a href="/products/site_index.shtml" class="menu" title="to Climate Prediction Center site map">Site Map</a>
+			</td> 
+			<td class="nav" align="right" width="10%">
+				<a href="http://www.nws.noaa.gov/pa/" class="menu" title="to National Weather Service news page">News</a>
+			</td>
+			<td class="nav" align="right" width="19%">
+				<a href="http://www.weather.gov/organization.php" class="menu">Organization</a>
+			</td>
+			<td class="searchinput" align="right" width="30%">
+				<form method="get" action="http://search.usa.gov/search" style="margin-bottom:0; margin-top:0;">
+					<label for="search"><span class="yellow">Search</span>&nbsp;&nbsp;</label>
+					<input type="hidden" name="affiliate" value="nws.noaa.gov" />
+					<input type="hidden" 
+...
+s for Environmental Prediction</span></a><br>
+				Climate Prediction Center<br>
+5830 University Research Court<br>
+College Park, Maryland  20740<br>				Page Author:<a href="http://www.cpc.ncep.noaa.gov/comment-form.html" class="homepagelinks">
+				<span class="gray"> Climate Prediction Center Internet Team</span></a><br>
+				Page last modified:			</td>
+			<td>
+				<a href="http://weather.gov/disclaimer.php" class="homepagelinks">
+				<span class="gray">Disclaimer</span></a><br>
+				<a href="http://www.noaanews.noaa.gov/stories/iq.htm" class="homepagelinks">
+				<span class="gray">Information Quality</span></a><br>
+				<a href="http://www.nws.noaa.gov/credits.php" class="homepagelinks">
+				<span class="gray">Credits</span></a><br>
+				<a href="http://www.nws.noaa.gov/glossary/" class="homepagelinks">
+				<span class="gray">Glossary</span></a><br>
+			</td>
+			<td align="right"><a href="http://weather.gov/privacy.php" class="homepagelinks">
+				<span class="gray">Privacy Policy</span></a><br>
+				<a href="http://www.rdc.noaa.gov/%7Efoia/" class="homepagelinks">
+				<span class="gray">Freedom of Information Act (FOIA)</span></a><br>
+				<a href="http://www.nws.noaa.gov/admin.php" class="homepagelinks">
+				<span class="gray">About Us</span></a><br>
+				<a href="http://www.nws.noaa.gov/careers.php" class="homepagelinks">
+				<span class="gray">Career Opportunities</span></a><br>
+			</td>
+		</tr>
+	</tbody>
+</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+	</footer>
+
+</html>
+

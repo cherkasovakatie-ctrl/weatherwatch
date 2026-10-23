@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>ERDDAP - List of griddap Datasets</title>
+<link rel="shortcut icon" href="https://data.pmel.noaa.gov/pmel/erddap/images/favicon.ico">
+<link href="https://data.pmel.noaa.gov/pmel/erddap/images/erddap2.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body><table class="compact nowrap" style="width:100%; background-color:#323C46;"><tr><td style="text-align:center; width:80px;"><a rel="bookmark"          
+      href="https://www.pmel.noaa.gov/"><img                                 
+      title="Pacific Marine Environmental Laboratory"src="https://data.pmel.noaa.gov/pmel/erddap/images/noaapmel_lockupfinal.png" alt="NOAA PMEL"              
+      style="vertical-align:middle;width:140px;margin: 10px 20px 10px 20px;"></a></td><td style="text-align:left; font-size:x-large; color:#FFFFFF; "><strong>Easy Access to PMEL Scientific Data</strong><br><small><small><small>The Pacific Marine Environmental Laboratory's ERDDAP data server for public access to scientific data</small></small></small></td><td style="text-align:right; font-size:small; "><select name="language" size="1"
+  title="Select&#x20;the&#x20;language&#x20;for&#x20;all&#x20;web&#x20;pages&#x20;in&#x20;ERDDAP&#x2e;"  onchange="window.location.href='https://data.pmel.noaa.gov/pmel/erddap/' + (this.selectedIndex == 0? '' : this[this.selectedIndex].value + '/') + 'griddap&#x2f;index&#x2e;html';" >
+<option value="en" selected="selected">English - English
+<option value="bn">&#x9ac;&#x9be;&#x982;&#x9b2;&#x9be; - Bengali
+<option value="zh-CN">&#x6c49;&#x8bed; - Chinese (Simplified)
+<option value="zh-TW">&#x6f22;&#x8a9e; - Chinese (Transitional)
+<option value="cs">&#x10c;e&#x161;tina - Czech
+<option value="da">Dansk - Danish
+<option value="nl">Nederlands - Dutch
+<option value="fi">Suomi - Finnish
+<option value="fr">Fran&ccedil;ais - French
+<option value="de">Deutsch - German
+<option value="el">&#x395;&#x3bb;&#x3bb;&#x3b7;&#x3bd;&#x3b9;&#x3ba;&#x3ac; - Greek
+<option value="hi">&#x939;&#x93f;&#x928;&#x94d;&#x926;&#x940; - Hindi
+<option value="hu">Magyar - Hungarian
+<option value="id">Bahasa Indonesia - Indonesian
+<option value="ga">Gaeilge - Irish
+<option value="it">Italiano - Italian
+<option value="ja">&#x65e5;&#x672c;&#x8a9e; - Japanese
+<option value="ko">&#xd55c;&#xad6d;&#xc5b4; - Korean
+<option value="no">Norsk - Norwegian
+<option value="pl">Polski - Polish
+<option value="pt">Portugu&ecirc;s - Portuguese
+<option value="ro">Rom&acirc;n&#x103; - Romanian
+<option value="ru">&#x420;&#x443;&#x441;&#x441;&#x43a;&#x438;&#x439; - Russian
+<option value="es">Espa&ntilde;ol - Spanish
+<option value="sv">Svenska - Swedish
+<option value="tl">Wikang Tagalog - Tagalog
+<option value="th">&#xe20;&#xe32;&#xe29;&#xe32;&#xe44;&#xe17;&#xe22; - Thai
+<option value="tr">T&uuml;rk&ccedil;e - Turkish
+<option value="uk">&#x423;&#x43a;&#x440;&#x430;&#x457;&#x43d;&#x441;&#x44c;&#x43a;&#x430; -
+...
+e" type="application/rss+xml"   href="https://data.pmel.noaa.gov/pmel/erddap/rss/gobai_o2_hr_v10.rss" 
+  title=""><img alt="RSS"
+    title="Subscribe to the RSS feed for this dataset..." 
+    src="https://data.pmel.noaa.gov/pmel/erddap/images/rss.gif" ></a>
+<td><a rel="alternate" 
+  href="https://data.pmel.noaa.gov/pmel/erddap/subscriptions/add.html?datasetID=gobai_o2_hr_v10&amp;showErrors=false&amp;email=" 
+  title=""><img alt="Subscribe"
+    title="Get&#x20;an&#x20;email&#x20;immediately&#x20;whenever&#x20;this&#x20;dataset&#x20;changes&#x2e;&#x2e;&#x2e;" 
+    src="https://data.pmel.noaa.gov/pmel/erddap/images/envelope.gif" ></a>
+<td>NOAA PMEL, UW CICOES
+<td>gobai_o2_hr_v10
+</tr>
+</table>
+
+<p>The information in the table above is also available in other file formats 
+(.csv, .htmlTable, .itx, .json, .jsonlCSV1, .jsonlCSV, .jsonlKVP, .mat, .nc, .nccsv, .tsv, .xhtml) <a rel="help" href="https://data.pmel.noaa.gov/pmel/erddap/rest.html">via a RESTful web service</a>.
+</div>
+<div class="standard_width"> 
+<br>&nbsp;
+<hr>
+ERDDAP, Version 2.30.0
+<br><a rel="license" href="https://data.pmel.noaa.gov/pmel/erddap/legal.html">Disclaimers</a> | 
+    <a rel="bookmark" href="https://data.pmel.noaa.gov/pmel/erddap/legal.html#privacyPolicy">Privacy Policy</a> |
+    <a rel="bookmark" href="https://data.pmel.noaa.gov/pmel/erddap/legal.html#contact">Contact</a>
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+</div> 
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!doctype html>
+	<head>
+		<title>Climate Model Summary, Bureau of Meteorology</title>
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="robots" content="index,follow,noarchive,noodp">
+<meta charset="UTF-8">
+
+<meta name="language" content="english">
+<meta name="Revisit-After" content="7 days">
+<meta name="Generator" content="Australian Government - Bureau of Meteorology">
+
+<link rel="schema.dcterms" href="https://purl.org/dc/terms/">
+<link rel="schema.AGLSTERMS" href="https://www.agls.gov.au/agls/terms/">
+
+<meta name="dcterms.coverage" content="Australia">
+<meta name="dcterms.format"  content="text/html">
+<meta name="dcterms.language" content="en">
+<meta name="dcterms.audience" content="All">
+
+<meta name="dcterms.creator" content="scheme=AGLSTERMS.AglsAgent; corporateName=Australian Government - Bureau of Meteorology">
+<meta name="dcterms.publisher" content="scheme=AGLSTERMS.AglsAgent; corporateName=Australian Government - Bureau of Meteorology">
+<meta name="dcterms.rights" content="Copyright Commonwealth of Australia 2015. https://www.bom.gov.au/other/copyright.shtml">
+		<meta name="Keywords" content="climate models, model outlooks, El Nino, La Nina, Forecasts, ENSO,model summary, ENSO forecast">
+		<meta name="Description" content="Climate model summary of Pacific and Indian Ocean outlooks, from a selection of international models.">
+
+		<link rel="stylesheet" type="text/css" href="/css/core.css">
+		<script type="text/javascript" src="/scripts/utilities.js"></script>
+
+		<link rel="stylesheet"  type="text/css" href="/climate/jquery/ui/1.9.20/themes/base/jquery-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="/climate/styles/climate.css?20150202" />
+
+<script  type="text/javascript" src="/climate/jquery/1.8.3/jquery.min.js"></script>
+<script  type="text/javascript" src="/climate/jquery/ui/1.9.20/jquery-ui.min.js"></script>
+<!--script type="text/javascript" src="/climate/scripts/jquery.iframe-auto-height-v2.js"></script-->
+<script type="text/javascript" src="/climate/jquery/external/jquery.ba-bbq.min.js"></script>
+<script type="text/javascript" src="/climate/scripts/climate.v1.0.2.js?20150202"></script>
+		<link rel="stylesheet" type="text/css" href="/climate/styles/climate-responsive.css">
+		<link rel="stylesheet" type="text/css" href="/climate/styles/tab-styles.css">
+		<link rel="stylesheet" type="text/css" href="/climate/styles/theme-blue.css">
+		<link rel="stylesheet" type="text/css" href="/climate/ocean/outlooks/long-range-outlook.css?20180810">
+		<link rel="stylesheet" type="text/css" href="/climate/model-summary/model-summary.css?20230619">
+
+		<!--script type="text/javascript" src="/climate/libs/underscore.min.js"></script>
+		<script type="text/javascript" src="/climate/jquery/external/jquery.details.min.js"></script>
+		<script type="text/javascript" src="/climate/scripts/dates.js"></script>
+        <script type="text/javascript" src="/climate/mod
+...
+   <li style="line-height: 15px;" class="row-link"><a href="https://www.bom.gov.au/sitemap">Sitemap</a></li>
+            <li style="line-height: 15px;" class="row-link"><a href="https://www.bom.gov.au/contact">Feedback</a></li>
+            <li style="line-height: 15px;" class="border-top"><a href="https://www.bom.gov.au/foi">Freedom of Information</a></li>
+            <li style="line-height: 15px;"><a href="https://www.bom.gov.au/resources/indigenous-weather-knowledge">Indigenous Weather Knowledge</a></li>
+            <li style="line-height: 15px;"><a href="https://www.bom.gov.au/glossary">Glossary</a></li>
+            <li style="line-height: 15px;"><a href="/climate/data-services/education.shtml ">Students and Teachers</a>
+            </li>
+        </ul>
+        <p id="timestamp">This page was created at <strong>20:14
+                on Friday 23 October 2026 (UTC)</strong></p>
+        <p id="copyright">&#169; <a href="https://www.bom.gov.au/copyright">Copyright</a> Commonwealth of Australia
+            2026, Bureau of Meteorology (ABN 92 637 533 532) |
+            CRICOS Provider 02015K | <a href="https://www.bom.gov.au/disclaimer">Disclaimer</a> | <a
+                href="https://www.bom.gov.au/privacy">Privacy</a> | <a
+                href="https://www.bom.gov.au/accessibility">Accessibility</a>
+        </p>
+    </div>
+</div>
+<!-- End: Footer -->
+</div>
+<!-- End: PageHeight -->
+
+<script src="/includes/analytics.js" type="text/javascript"></script>  
+    </body> 
+</html>
+

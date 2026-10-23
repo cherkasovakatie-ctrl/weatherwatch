@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>ERDDAP - List of All Datasets</title>
+<link rel="shortcut icon" href="https://erddap.ifremer.fr/erddap/images/favicon.ico">
+<link href="https://erddap.ifremer.fr/erddap/images/erddap2.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<table class="nowrap" style="width:100%; background-color:#0065db; padding:10px;">
+  <tr>
+    <td style="text-align:center; width:115px;">
+      <a rel="bookmark" href="https://www.ifremer.fr">
+        <svg class="logo-ifremer" xmlns="http://www.w3.org/2000/svg" viewBox="34.09 31.5 281.67 
+96.11" style="vertical-align:middle; margin-right:10px;">
+          <path fill="var(--color-brand)" class="logo-svg-path" d="M60.7 38.56c0-.37-.25-.62-.62-.62s-.62.25-.62.62c0 .25.37.49.62.49.37 0 .62-.25.62-.49Zm44.14.12c0-.49-.5-.87-.87-.87-.5 0-.87.37-.87.87s.37.87.87.87.87-.49.87-.87ZM72.81 32c0-.25-.25-.5-.49-.5s-.49.25-.49.62c0 .25.25.5.49.5s.49-.25.49-.62Zm3.34 1.11c0-.5-.5-.99-.99-.87-.49 0-.99.37-.99.87 0 .62.49.99.99.99s.99-.37.99-.99Zm-10.14.12c0-.37-.37-.74-.74-.74-.49 0-.87.37-.87.87 0 .37.37.74.87.74.37 0 .74-.37.74-.87Zm-4.33 1.98c0-.37-.37-.62-.74-.62s-.74.25-.74.62c0 .49.37.74.74.74s.74-.37.74-.74Zm.74 4.33c0 .49.37.87.87.87s.87-.37.87-.87-.37-.87-.87-.87-.87.37-.87.87Zm2.6 1.11c0 .62.49 1.11 1.11 1.11s1.11-.5 1.11-1.11-.49-1.11-1.11-1.11-1.11.49-1.11 1.11Zm2.84 3.71c0 .25.25.5.62.5.25 0 .5-.25.5-.5 0-.37-.25-.62-.5-.62-.37 0-.62.25-.62.62Zm2.35 3.22c-.49 0-.87.49-.87.99s.37.87.87.87.99-.49.99-.99-.49-.87-.99-.87Zm-.87 4.7c.49 0 .87-.37.87-.87 0-.62-.37-.99-.87-.99-.62 0-.99.37-.99.99 0 .49.37.87.99.87Zm-4.2 1.85c.37 0 .62-.25.62-.49 0-.37-.37-.62-.62-.62-.37 0-.62.25-.62.62 0 .25.37.49.62.49Zm-.87 3.21c.62 0 1.11-.49 1.11-.99 0-.62-.49-.99-1.11-.99s-.99.49-.99.99.49.99.99.99Zm-4.2 1.36c0 .37.25.62.49.62s.49-.25.49-.62c0-.25-.25-.49-.49-.49s-.49.25-.49.49Zm48.84 25.47c0 .49.37.99.87.99.62 0 .99-.49.99-.99s-.49-.87-.99-.87-.87.37-.87.87Zm2.97 1.24c0 .49.37.87.87.87s.99-.37.99-.87-.49-.99-.99-.99c-.5.12-.87.49-.87.99Zm4.08-2.1c0 .49.49.87.99.87s.87-.37.87-.87-.37-.99-.87-.87c-.49 0-.99.37-.99.87Zm13.72-12.61c0 .49.37.99.87.99.5-.12.99-.49.87-.99 0-.5-.37-.87-.87-.87s-.87.37-.87.87Zm4.2-2.1c0 .5.49.99.99.99s.99-.49.99-.99c0-.62-.5-.99-.99-.99s-.99.49-.99.99Zm-9.03 7.17c.12.5.49.87.99.87s.87-.37.87-.87-.37-.99-.87-.99-.99.49-.99.99Zm-4.95 5.19c0 .5.37.87.87.87s.87-.37.87-.87-.37-.86-.87-.86-.87.37-.87.86Zm-14.1-7.91c0 .37.37.74.74.74s.74-.37.74-.74-.37-.74-.74-.74-.74.37-.74.74Zm-11.62 3.34c0 .62.5 1.24 1.24 1.11.62 0 1.11-.49 1.11-1.11s-.49-1.11-1.24-1.11c-.62 0-1.11.49-1.11 1.11Zm-4.2 2.35c0 .5.37.86.87.86.62 0 .99-.37.99-.86 0-.62-.49-.99-.99-.99s-.87.49-.87.99ZM60.43 61.8c0-.49-.37-.87-.86-.87s-.87.37-.87.87.37.87.87.87.86-.37.86-.87Zm-.86 3.09c0-.62-.49-1.11-1.11-1.11s-1.11.5-1.11 1.11.49 1.11 1.11 1.11 1.11-.49 1.11-1.11Zm-.74 3.22c0-.62-.62-1.24-1.24-1.24s-1.24.62-1.24
+...
+@type": "Dataset",
+      "name": "SDC_NorthAtlanticOcean_Climatology_TS_V2_050_monthly",
+      "sameAs": "https://erddap.ifremer.fr/erddap/info/SDC_NAT_CLIM_TS_V2_050_m/index.html"
+    },
+    {
+      "@type": "Dataset",
+      "name": "SDC_NorthAtlanticOcean_Climatology_TS_V2_050_seasonal",
+      "sameAs": "https://erddap.ifremer.fr/erddap/info/SDC_NAT_CLIM_TS_V2_050_s/index.html"
+    },
+    {
+      "@type": "Dataset",
+      "name": "SDC_NorthSea_Climatology_TS_V1_monthly",
+      "sameAs": "https://erddap.ifremer.fr/erddap/info/SDC_NS_CLIM_TS_V1_m/index.html"
+    },
+    {
+      "@type": "Dataset",
+      "name": "SDC_NorthSea_Climatology_TS_V1_seasonal",
+      "sameAs": "https://erddap.ifremer.fr/erddap/info/SDC_NS_CLIM_TS_V1_s/index.html"
+    },
+    {
+      "@type": "Dataset",
+      "name": "The GEBCO_2021 Grid, a continuous terrain model for oceans and land at 15 arc-second intervals",
+      "sameAs": "https://erddap.ifremer.fr/erddap/info/gebco2021/index.html"
+    }
+  ]
+}
+</script>
+</div>
+<div class="standard_width"> 
+<br>&nbsp;
+<hr>
+ERDDAP, Version 2.30.0
+<br><a rel="license" href="https://erddap.ifremer.fr/erddap/legal.html">Disclaimers</a> | 
+    <a rel="bookmark" href="https://erddap.ifremer.fr/erddap/legal.html#privacyPolicy">Privacy Policy</a> |
+    <a rel="bookmark" href="https://erddap.ifremer.fr/erddap/legal.html#contact">Contact</a>
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+</div> 
+</body>
+</html>

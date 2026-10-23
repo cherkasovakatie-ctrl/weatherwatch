@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Climate Prediction Center &mdash; Official NOAA CPC ENSO Probabilities</title>
+		<meta http-equiv="refresh" content="0; url=/products/analysis_monitoring/enso/roni/probabilities/">
+	</head>
+  <body>
+  </body>
+</html>
+...
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Climate Prediction Center &mdash; Official NOAA CPC ENSO Probabilities</title>
+		<meta http-equiv="refresh" content="0; url=/products/analysis_monitoring/enso/roni/probabilities/">
+	</head>
+  <body>
+  </body>
+</html>

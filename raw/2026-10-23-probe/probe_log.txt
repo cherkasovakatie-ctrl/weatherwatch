@@ -1,0 +1,25 @@
+OK   1_iri_plume_page 80133 bytes
+FAIL 1_iri_plume_json HTTP Error 404: Not Found
+OK   1_cpc_ensodisc 13499 bytes
+OK   1_cpc_probs 256 bytes
+OK   1_bom_enso_models 42616 bytes
+OK   2_tao_erddap_t 240490 bytes
+OK   2_pmel_erddap_tao 80438 bytes
+OK   2_psl_godas_dir 206301 bytes
+OK   2_cpc_godas_weekly 42010 bytes
+FAIL 3_psl_r1_uwnd_2026 HTTP Error 403: Forbidden
+OK   3_openmeteo_gfs_850 26830 bytes
+OK   4_cr_oisst_world 104079 bytes
+OK   4_ncei_ohc_700 3249 bytes
+OK   5_nasa_vitalsigns_gmsl 331547 bytes
+FAIL 5_podaac_gmsl <urlopen error timed out>
+FAIL 5_aviso_gmsl HTTP Error 404: Not Found
+OK   5_csiro_cmar 388688 bytes
+FAIL 6_swpc_plasma HTTP Error 404: Not Found
+FAIL 6_swpc_mag HTTP Error 404: Not Found
+OK   7_cpc_mjo_fcst 14671 bytes
+OK   7_bom_rmm_fcst 2597997 bytes
+OK   7_ecmwf_opendata 431108 bytes
+OK   x_piomas 4272 bytes
+OK   x_nsidc_greenland_melt 77973 bytes
+OK   x_usdm 677 bytes

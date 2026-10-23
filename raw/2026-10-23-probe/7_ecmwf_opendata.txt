@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>(function(){var t=localStorage.getItem('ecpds-theme');if(t)document.documentElement.setAttribute('data-bs-theme',t);}());</script>
+  <title>ECMWF Free & Open Data Portal</title>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/bootstrap-icons/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="/datatables/css/dataTables.bootstrap5.min.css">
+  <style>
+    body { padding-top: 85px; padding-bottom: 44px; min-height: 100vh; }
+    .topheader {
+      position: fixed; z-index: 1030; top: 0; left: 0; width: 100%; margin: 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.30);
+    }
+    #topheader .container-fluid { flex-wrap: nowrap !important; }
+    .header_nav_divider {
+      display: inline-block; width: 1px; height: 22px;
+      background: rgba(255,255,255,0.3); margin: 0 0.3rem; flex-shrink: 0;
+    }
+    .header_simple_title {
+      font-size: 0.75rem; font-weight: 600; letter-spacing: 0.025em;
+      color: rgba(255,255,255,0.95);
+      background: rgba(255,255,255,0.13); border: 1px solid rgba(255,255,255,0.22);
+      border-radius: 20px; padding: 0.18rem 0.7rem;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+      flex: 0 1 auto; min-width: 0; max-width: 40%;
+    }
+    .location_simple {
+      padding: 4px 14px; background: rgba(255,255,255,0.12);
+      border-top: 1px solid rgba(255,255,255,0.18);
+      border-bottom: 1px solid rgba(255,255,255,0.15);
+      font-size: 0.78rem; color: rgba(255,255,255,0.7);
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .location_simple .btn-about {
+      color: rgba(255,255,255,0.55); background: none; border: none; padding: 0 2px;
+      line-height: 1; cursor: pointer; flex-shrink: 0;
+    }
+    .location_simple .btn-about:hover { color: #fff; }
+    .location_simple .breadcrumb {
+      margin: 0; padding: 0; background: transparent;
+      font-size: 0.78rem; flex-wrap: nowrap; overflow: hidden;
+    }
+    .location_simple .breadcrumb-item { color: rgba(255,255,255,0.7); white-space: nowrap; }
+    .location_simple .breadcrumb-item + .breadcrumb-item::before {
+      content: "›"; color: rgba(255,255,255,0.4); font-size: 1rem; line-height: 1; vertical-align: middle;
+    }
+    .location_simple .breadcrumb-item a { color: rgba(255,255,255,0.82); text-decoration: none; }
+    .location_simple .breadcrumb-item a:hover { color: #fff; text-decoration: underline; }
+    .location_simple .breadcrumb-item.active { color: #fff; font-weight: 500; }
+    .bottomfooter {
+      position: fixed; z-index: 1030; bottom: 0; left: 0; width: 100%; margin: 0;
+    }
+    .footer_simple_title {
+      font-size: 0.78rem; color: rgba(255,255,255,0.85);
+      font-family: "Open San
+...
+22</span></code></div>
+        </div>
+        <script>
+          (function(){
+            var hide = function(id){ var el=document.getElementById(id); if(el) el.style.display='none'; };
+            if('false'==='false'){ hide('help-session-badge-section'); hide('help-access-guide-section'); return; }
+            if(''==='') hide('help-ep-https');
+            if('true'==='false'||''==='') hide('help-ep-s3');
+            if('true'==='false'||''==='') hide('help-ep-ftp');
+            if('true'==='false'||(''===''&&''==='')) { hide('help-ep-sftp'); } else if(''==='') { var sa=document.getElementById('help-ep-sftp-addr'); if(sa) sa.textContent=host+':'+''; }
+          })();
+        </script>
+      </div>
+
+      <!-- Notice banners -->
+      <div class="mb-3">
+        <div class="fw-semibold mb-1"><i class="bi bi-info-circle me-1 text-secondary"></i>Notice banners</div>
+        <p class="text-muted mb-0">Blue information banners and orange warning banners may appear above or below the file listing. These are messages set by the system administrator &mdash; read them before downloading.</p>
+      </div>
+
+      <!-- About -->
+      <div class="mb-0">
+        <div class="fw-semibold mb-1"><i class="bi bi-info-circle me-1 text-secondary"></i>About</div>
+        <p class="text-muted mb-0">Click the <i class="bi bi-info-circle"></i> icon at the right end of the breadcrumb bar to open the About panel for version and build information.</p>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
