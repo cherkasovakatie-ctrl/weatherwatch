@@ -1,0 +1,750 @@
+{
+ "mcphaden2015": {
+  "doi": "10.1038/nclimate2775",
+  "title": "Playing hide and seek with El Niño",
+  "journal": "Nature Climate Change",
+  "volume": "5",
+  "issue": "9",
+  "page": "791-795",
+  "year": 2015,
+  "authors": [
+   "McPhaden, M. J."
+  ],
+  "oa_status": "closed",
+  "oa_url": null,
+  "has_abstract": false
+ },
+ "hufedorov2016": {
+  "doi": "10.1073/pnas.1514182113",
+  "title": "Exceptionally strong easterly wind burst stalling El Niño of 2014",
+  "journal": "Proceedings of the National Academy of Sciences",
+  "volume": "113",
+  "issue": "8",
+  "page": "2005-2010",
+  "year": 2016,
+  "authors": [
+   "Hu, Shineng",
+   "Fedorov, Alexey V."
+  ],
+  "oa_status": "bronze",
+  "oa_url": "https://www.pnas.org/content/pnas/113/8/2005.full.pdf",
+  "has_abstract": true
+ },
+ "levine2016": {
+  "doi": "10.1002/2016gl069204",
+  "title": "How the July 2014 easterly wind burst gave the 2015–2016 El Niño a head start",
+  "journal": "Geophysical Research Letters",
+  "volume": "43",
+  "issue": "12",
+  "page": "6503-6510",
+  "year": 2016,
+  "authors": [
+   "Levine, Aaron F. Z.",
+   "McPhaden, Michael J."
+  ],
+  "oa_status": "closed",
+  "oa_url": null,
+  "has_abstract": true
+ },
+ "santoso2017": {
+  "doi": "10.1002/2017rg000560",
+  "title": "The Defining Characteristics of ENSO Extremes and the Strong 2015/2016 El Niño",
+  "journal": "Reviews of Geophysics",
+  "volume": "55",
+  "issue": "4",
+  "page": "1079-1129",
+  "year": 2017,
+  "authors": [
+   "Santoso, Agus",
+   "Mcphaden, Michael J.",
+   "Cai, Wenju"
+  ],
+  "oa_status": "bronze",
+  "oa_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2017RG000560",
+  "has_abstract": true
+ },
+ "menkes2014": {
+  "doi": "10.1002/2014gl061186",
+  "title": "About the role of Westerly Wind Events in the possible development of an El Niño in 2014",
+  "journal": "Geophysical Research Letters",
+  "volume": "41",
+  "issue": "18",
+  "page": "6476-6483",
+  "year": 2014,
+  "authors": [
+   "Menkes, Christophe E.",
+   "Lengaigne, Matthieu",
+   "Vialard, Jérôme",
+   "Puy, Martin",
+   "Marchesiello, Patrick",
+   "Cravatte, Sophie",
+   "Cambon, Gildas"
+  ],
+  "oa_status": "bronze",
+  "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2014GL061186",
+  "has_abstract": true
+ },
+ "hu2014": {
+  "doi": "10.1002/2014gl059573",
+  "title": "The impact of westerly wind bursts on the diversity and predictability of El Niño events: An ocean energetics perspective",
+  "journal": "Geophysical Research Letters",
+  "volume": "41",
+  "issue": "13",
+  "page": "4654-4663",
+  "year": 2014,
+  "authors": [
+   "Hu, Shineng",
+   "Fedorov, Alexey V.",
+   "Lengaigne, Matthieu",
+   "Guilyardi, Eric"
+  ],
+  "oa_status": "bronze",
+  "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2014GL059573",
+  "has_abstract": true
+ },
+ "hufedorov2017": {
+  "doi": "10.1002/2017gl072908",
+  "title": "The extreme El Niño of 2015–2016 and the end of global warming hiatus",
+  "journal": "Geophysical Research Letters",
+  "volume": "44",
+  "issue": "8",
+  "page": "3816-3824",
+  "year": 2017,
+  "authors": [
+   "Hu, Shineng",
+   "Fedorov, Alexey V."
+  ],
+  "oa_status": "bronze",
+  "oa_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2017GL072908",
+  "has_abstract": true
+ },
+ "lheureux2017": {
+  "doi": "10.1175/bams-d-16-0009.1",
+  "title": "Observing and Predicting the 2015/16 El Niño",
+  "journal": "Bulletin of the American Meteorological Society",
+  "volume": "98",
+  "issue": "7",
+  "page": "1363-1382",
+  "year": 2017,
+  "authors": [
+   "L’Heureux, Michelle L.",
+   "Takahashi, Ken",
+   "Watkins, Andrew B.",
+   "Barnston, Anthony G.",
+   "Becker, Emily J.",
+   "Di Liberto, Tom E.",
+   "Gamble, Felicity",
+   "Gottschalck, Jon",
+   "Halpert, Michael S.",
+   "Huang, Boyin",
+   "Mosquera-Vásquez, Kobi",
+   "Wittenberg, Andrew T."
+  ],
+  "oa_status": "green",
+  "oa_url": "http://hdl.handle.net/20.500.12816/2230",
+  "has_abstract": true
+ },
+ "paek2017": {
+  "doi": "10.1002/2016gl071515",
+  "title": "Why were the 2015/2016 and 1997/1998 extreme El Niños different?",
+  "journal": "Geophysical Research Letters",
+  "volume": "44",
+  "issue": "4",
+  "page": "1848-1856",
+  "year": 2017,
+  "authors": [
+   "Paek, Houk",
+   "Yu, Jin‐Yi",
+   "Qian, Chengcheng"
+  ],
+  "oa_status": "green",
+  "oa_url": "https://escholarship.org/uc/item/5kd0p7sk",
+  "has_abstract": true
+ },
+ "chiodiharrison2017": {
+  "doi": "10.1175/jcli-d-16-0385.1",
+  "title": "Observed El Niño SSTA Development and the Effects of Easterly and Westerly Wind Events in 2014/15",
+  "journal": "Journal of Climate",
+  "volume": "30",
+  "issue": "4",
+  "page": "1505-1519",
+  "year": 2017,
+  "authors": [
+   "Chiodi, Andrew M.",
+   "Harrison, D. E."
+  ],
+  "oa_status": "closed",
+  "oa_url": null,
+  "has_abstract": true
+ },
+ "zhu2016": {
+  "doi": "10.1038/srep19677",
+  "title": "The role of off-equatorial surface temperature anomalies in the 2014 El Niño prediction",
+  "journal": "Scientific Reports",
+  "volume": "6",
+  "issue": "1",
+  "page": null,
+  "year": 2016,
+  "authors": [
+   "Zhu, Jieshun",
+   "Kumar, Arun",
+   "Huang, Bohua",
+   "Balmaseda, Magdalena A.",
+   "Hu, Zeng-Zhen",
+   "Marx, Lawrence",
+   "Kinter III, James L."
+  ],
+  "oa_status": "gold",
+  "oa_url": "https://www.nature.com/articles/srep19677.pdf",
+  "has_abstract": true
+ },
+ "bond2015": {
+  "doi": "10.1002/2015gl063306",
+  "title": "Causes and impacts of the 2014 warm anomaly in the NE Pacific",
+  "journal": "Geophysical Research Letters",
+  "volume": "42",
+  "issue": "9",
+  "page": "3414-3420",
+  "year": 2015,
+  "authors": [
+   "Bond, Nicholas A.",
+   "Cronin, Meghan F.",
+   "Freeland, Howard",
+   "Mantua, Nathan"
+  ],
+  "oa_status": "hybrid",
+  "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2015GL063306",
+  "has_abstract": true
+ },
+ "dilorenzo2016": {
+  "doi": "10.1038/nclimate3082",
+  "title": "Multi-year persistence of the 2014/15 North Pacific marine heatwave",
+  "journal": "Nature Climate Change",
+  "volume": "6",
+  "issue": "11",
+  "page": "1042-1047",
+  "year": 2016,
+  "authors": [
+   "Di Lorenzo, Emanuele",
+   "Mantua, Nathan"
+  ],
+  "oa_status": "closed",
+  "oa_url": null,
+  "has_abstract": false
+ },
+ "tseng2017": {
+  "doi": "10.1088/1748-9326/aa67c3",
+  "title": "The warm Blob in the northeast Pacific—the bridge leading to the 2015/16 El Niño",
+  "journal": "Environmental Research Letters",
+  "volume": "12",
+  "issue": "5",
+  "page": "054019",
+  "year": 2017,
+  "authors": [
+   "Tseng, Yu-Heng",
+   "Ding, Ruiqiang",
+   "Huang, Xiao-meng"
+  ],
+  "oa_status": "gold",
+  "oa_url": "https://iopscience.iop.org/article/10.1088/1748-9326/aa67c3/pdf",
+  "has_abstract": true
+ },
+ "lim2017iod": {
+  "doi": "10.1038/s41598-017-12674-z",
+  "title": "Causes and Predictability of the Negative Indian Ocean Dipole and Its Impact on La Niña During 2016",
+  "journal": "Scientific Reports",
+  "volume": "7",
+  "issue": "1",
+  "page": null,
+  "year": 2017,
+  "authors": [
+   "Lim, Eun-Pa",
+   "Hendon, Harry H."
+  ],
+  "oa_status": "gold",
+  "oa_url": "https://www.nature.com/articles/s41598-017-12674-z.pdf",
+  "has_abstract": true
+ },
+ "chen2015": {
+  "doi": "10.1038/ngeo2399",
+  "title": "Strong influence of westerly wind bursts on El Niño diversity",
+  "journal": "Nature Geoscience",
+  "volume": "8",
+  "issue": "5",
+  "page": "339-345",
+  "year": 2015,
+  "authors": [
+   "Chen, Dake",
+   "Lian, Tao",
+   "Fu, Congbin",
+   "Cane, Mark A.",
+   "Tang, Youmin",
+   "Murtugudde, Raghu",
+   "Song, Xunshu",
+   "Wu, Qiaoyan",
+   "Zhou, Lei"
+  ],
+  "oa_status": "closed",
+  "oa_url": null,
+  "has_abstract": false
+ },
+ "lian2014": {
+  "doi": "10.1002/2014gl059989",
+  "title": "Effects of westerly wind bursts on El Niño: A new perspective",
+  "journal": "Geophysical Research Letters",
+  "volume": "41",
+  "issue": "10",
+  "page": "3522-3527",
+  "year": 2014,
+  "authors": [
+   "Lian, Tao",
+   "Chen, Dake",
+   "Tang, Youmin",
+   "Wu, Qiaoyan"
+  ],
+  "oa_status": "closed",
+  "oa_url": null,
+  "has_abstract": true
+ },
+ "puy2016": {
+  "doi": "10.1007/s00382-016-3480-1",
+  "title": "Modulation of equatorial Pacific sea surface temperature response to westerly wind events by the oceanic background state",
+  "journal": "Climate Dynamics",
+  "volume": "52",
+  "issue": "12",
+  "page": "7267-7291",
+  "year": 2016,
+  "authors": [
+   "Puy, Martin",
+   "Vialard, Jérôme",
+   "Lengaigne, Matthieu",
+   "Guilyardi, Eric",
+   "Voldoire, Aurore",
+   "Madec, Gurvan"
+  ],
+  "oa_status": "closed",
+  "oa_url": null,
+  "has_abstract": false
+ },
+ "tollefson2014": {
+  "doi": "10.1038/nature.2014.14582",
+  "title": "El Niño monitoring system in failure mode",
+  "journal": "Nature",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "year": 2014,
+  "authors": [
+   "Tollefson, Jeff"
+  ],
+  "oa_status": "closed",
+  "oa_url": null,
+  "has_abstract": false
+ },
+ "tollefson2015": {
+  "doi": "10.1038/nature.2015.17065",
+  "title": "El Nino arrives, late and weak",
+  "journal": "Nature",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "year": 2015,
+  "authors": [
+   "Tollefson, Jeff"
+  ],
+  "oa_status": "closed",
+  "oa_url": null,
+  "has_abstract": false
+ },
+ "xuekumar2017": {
+  "doi": "10.1007/s11430-016-0106-9",
+  "title": "Evolution of the 2015/16 El Niño and historical perspective since 1979",
+  "journal": "Science China Earth Sciences",
+  "volume": "60",
+  "issue": "9",
+  "page": "1572-1588",
+  "year": 2016,
+  "authors": [
+   "Xue, Yan",
+   "Kumar, Arun"
+  ],
+  "oa_status": "hybrid",
+  "oa_url": "https://link.springer.com/content/pdf/10.1007/s11430-016-0106-9.pdf",
+  "has_abstract": true
+ },
+ "huang2016rank": {
+  "doi": "10.1002/2016gl070888",
+  "title": "Ranking the strongest ENSO events while incorporating SST uncertainty",
+  "journal": "Geophysical Research Letters",
+  "volume": "43",
+  "issue": "17",
+  "page": "9165-9172",
+  "year": 2016,
+  "authors": [
+   "Huang, Boyin",
+   "L'Heureux, Michelle",
+   "Hu, Zeng‐Zhen",
+   "Zhang, Huai‐Min"
+  ],
+  "oa_status": "closed",
+  "oa_url": null,
+  "has_abstract": true
+ },
+ "hong2014": {
+  "doi": "10.1002/2014gl059370",
+  "title": "A Southern Hemisphere booster of super El Niño",
+  "journal": "Geophysical Research Letters",
+  "volume": "41",
+  "issue": "6",
+  "page": "2142-2149",
+  "year": 2014,
+  "authors": [
+   "Hong, Li-Ciao",
+   "LinHo, ",
+   "Jin, Fei-Fei"
+  ],
+  "oa_status": "bronze",
+  "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2014GL059370",
+  "has_abstract": true
+ },
+ "fedorov2015": {
+  "doi": "10.1007/s00382-014-2126-4",
+  "title": "The impact of westerly wind bursts and ocean initial state on the development, and diversity of El Niño events",
+  "journal": "Climate Dynamics",
+  "volume": "44",
+  "issue": "5-6",
+  "page": "1381-1401",
+  "year": 2014,
+  "authors": [
+   "Fedorov, Alexey V.",
+   "Hu, Shineng",
+   "Lengaigne, Matthieu",
+   "Guilyardi, Eric"
+  ],
+  "oa_status": "closed",
+  "oa_url": null,
+  "has_abstract": false
+ },
+ "ren2017": {
+  "doi": "10.1007/s13351-017-6194-3",
+  "title": "Upper-ocean dynamical features and prediction of the super El Niño in 2015/16: A comparison with the cases in 1982/83 and 1997/98",
+  "journal": "Journal of Meteorological Research",
+  "volume": "31",
+  "issue": "2",
+  "page": "278-294",
+  "year": 2017,
+  "authors": [
+   "Ren, Hong-Li",
+   "Wang, Run",
+   "Zhai, Panmao",
+   "Ding, Yihui",
+   "Lu, Bo"
+  ],
+  "oa_status": "closed",
+  "oa_url": null,
+  "has_abstract": false
+ },
+ "lei2021": {
+  "doi": "10.1007/s00376-020-0261-x",
+  "title": "Distinctive MJO Activity during the Boreal Winter of the 2015/16 Super El Niño in Comparison with Other Super El Niño Events",
+  "journal": "Advances in Atmospheric Sciences",
+  "volume": "38",
+  "issue": "4",
+  "page": "555-568",
+  "year": 2021,
+  "authors": [
+   "Lei, Xuben",
+   "Zhang, Wenjun",
+   "Hsu, Pang-Chi",
+   "Liu, Chao"
+  ],
+  "oa_status": "closed",
+  "oa_url": null,
+  "has_abstract": false
+ },
+ "stuecker2017": {
+  "doi": "10.1002/2016gl072308",
+  "title": "Revisiting ENSO/Indian Ocean Dipole phase relationships",
+  "journal": "Geophysical Research Letters",
+  "volume": "44",
+  "issue": "5",
+  "page": "2481-2492",
+  "year": 2017,
+  "authors": [
+   "Stuecker, Malte F.",
+   "Timmermann, Axel",
+   "Jin, Fei‐Fei",
+   "Chikamoto, Yoshimitsu",
+   "Zhang, Wenjun",
+   "Wittenberg, Andrew T.",
+   "Widiasih, Esther",
+   "Zhao, Sen"
+  ],
+  "oa_status": "bronze",
+  "oa_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2016GL072308",
+  "has_abstract": true
+ },
+ "liang2021tc": {
+  "doi": "10.1007/s00382-021-05757-1",
+  "title": "Linking the Madden–Julian Oscillation, tropical cyclones and westerly wind bursts as part of El Niño development",
+  "journal": "Climate Dynamics",
+  "volume": "57",
+  "issue": "3-4",
+  "page": "1039-1060",
+  "year": 2021,
+  "authors": [
+   "Liang, Yu",
+   "Fedorov, Alexey V."
+  ],
+  "oa_status": "closed",
+  "oa_url": null,
+  "has_abstract": false
+ },
+ "liang2021gl": {
+  "doi": "10.1029/2020gl089395",
+  "title": "Intensification of Westerly Wind Bursts Caused by the Coupling of the Madden‐Julian Oscillation to SST During El Niño Onset and Development",
+  "journal": "Geophysical Research Letters",
+  "volume": "48",
+  "issue": "9",
+  "page": null,
+  "year": 2021,
+  "authors": [
+   "Liang, Yu",
+   "Fedorov, Alexey V.",
+   "Haertel, Patrick"
+  ],
+  "oa_status": "hybrid",
+  "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2020GL089395",
+  "has_abstract": true
+ },
+ "puy2015": {
+  "doi": "10.1007/s00382-015-2695-x",
+  "title": "Modulation of equatorial Pacific westerly/easterly wind events by the Madden–Julian oscillation and convectively-coupled Rossby waves",
+  "journal": "Climate Dynamics",
+  "volume": "46",
+  "issue": "7-8",
+  "page": "2155-2178",
+  "year": 2015,
+  "authors": [
+   "Puy, Martin",
+   "Vialard, J.",
+   "Lengaigne, M.",
+   "Guilyardi, E."
+  ],
+  "oa_status": "closed",
+  "oa_url": null,
+  "has_abstract": false
+ },
+ "liang2025": {
+  "doi": "10.1126/sciadv.adv8621",
+  "title": "North Pacific meridional mode has larger impacts on El Niño evolution than the March Madden-Julian Oscillation",
+  "journal": "Science Advances",
+  "volume": "11",
+  "issue": "37",
+  "page": null,
+  "year": 2025,
+  "authors": [
+   "Liang, Yu",
+   "Xie, Shang-Ping",
+   "Fedorov, Alexey",
+   "Yeager, Stephen G."
+  ],
+  "oa_status": "gold",
+  "oa_url": "https://www.science.org/doi/pdf/10.1126/sciadv.adv8621?download=true",
+  "has_abstract": true
+ },
+ "amaya2019": {
+  "doi": "10.1007/s40641-019-00142-x",
+  "title": "The Pacific Meridional Mode and ENSO: a Review",
+  "journal": "Current Climate Change Reports",
+  "volume": "5",
+  "issue": "4",
+  "page": "296-307",
+  "year": 2019,
+  "authors": [
+   "Amaya, Dillon J."
+  ],
+  "oa_status": "closed",
+  "oa_url": null,
+  "has_abstract": false
+ },
+ "mcgregor2012": {
+  "doi": "10.1175/jcli-d-11-00332.1",
+  "title": "The Effect of the South Pacific Convergence Zone on the Termination of El Niño Events and the Meridional Asymmetry of ENSO*",
+  "journal": "Journal of Climate",
+  "volume": "25",
+  "issue": "16",
+  "page": "5566-5586",
+  "year": 2012,
+  "authors": [
+   "McGregor, Shayne",
+   "Timmermann, Axel",
+   "Schneider, Niklas",
+   "Stuecker, Malte F.",
+   "England, Matthew H."
+  ],
+  "oa_status": "bronze",
+  "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/25/16/jcli-d-11-00332.1.pdf",
+  "has_abstract": true
+ },
+ "stuecker2013": {
+  "doi": "10.1038/ngeo1826",
+  "title": "A combination mode of the annual cycle and the El Niño/Southern Oscillation",
+  "journal": "Nature Geoscience",
+  "volume": "6",
+  "issue": "7",
+  "page": "540-544",
+  "year": 2013,
+  "authors": [
+   "Stuecker, Malte F.",
+   "Timmermann, Axel",
+   "Jin, Fei-Fei",
+   "McGregor, Shayne",
+   "Ren, Hong-Li"
+  ],
+  "oa_status": "green",
+  "oa_url": "https://unsworks.unsw.edu.au/bitstreams/1db175be-241a-4aa0-bf9e-11febf1705d7/download",
+  "has_abstract": false
+ },
+ "gasparin2016": {
+  "doi": "10.1002/2016gl069542",
+  "title": "The strong freshwater anomaly during the onset of the 2015/2016 El Niño",
+  "journal": "Geophysical Research Letters",
+  "volume": "43",
+  "issue": "12",
+  "page": "6452-6460",
+  "year": 2016,
+  "authors": [
+   "Gasparin, F.",
+   "Roemmich, D."
+  ],
+  "oa_status": "bronze",
+  "oa_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2016GL069542",
+  "has_abstract": true
+ },
+ "legler2014": {
+  "doi": "10.1002/2014eo230006",
+  "title": "Tropical Pacific Observing for the Next Decade",
+  "journal": "Eos, Transactions American Geophysical Union",
+  "volume": "95",
+  "issue": "23",
+  "page": "196-196",
+  "year": 2014,
+  "authors": [
+   "Legler, David M.",
+   "Hill, Katherine"
+  ],
+  "oa_status": "bronze",
+  "oa_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2014EO230006",
+  "has_abstract": true
+ },
+ "smith2019": {
+  "doi": "10.3389/fmars.2019.00031",
+  "title": "Tropical Pacific Observing System",
+  "journal": "Frontiers in Marine Science",
+  "volume": "6",
+  "issue": null,
+  "page": null,
+  "year": 2019,
+  "authors": [
+   "Smith, Neville",
+   "Kessler, William S.",
+   "Cravatte, Sophie",
+   "Sprintall, Janet",
+   "Wijffels, Susan",
+   "Cronin, Meghan F.",
+   "Sutton, Adrienne",
+   "Serra, Yolande L.",
+   "Dewitte, Boris",
+   "Strutton, Peter G.",
+   "Hill, Katherine",
+   "Sen Gupta, Alex",
+   "Lin, Xiaopei",
+   "Takahashi, Ken",
+   "Chen, Dake",
+   "Brunner, Shelby"
+  ],
+  "oa_status": "gold",
+  "oa_url": "https://www.frontiersin.org/articles/10.3389/fmars.2019.00031/pdf",
+  "has_abstract": true
+ },
+ "jacox2016": {
+  "doi": "10.1002/2016gl069716",
+  "title": "Impacts of the 2015–2016 El Niño on the California Current System: Early assessment and comparison to past events",
+  "journal": "Geophysical Research Letters",
+  "volume": "43",
+  "issue": "13",
+  "page": "7072-7080",
+  "year": 2016,
+  "authors": [
+   "Jacox, Michael G.",
+   "Hazen, Elliott L.",
+   "Zaba, Katherine D.",
+   "Rudnick, Daniel L.",
+   "Edwards, Christopher A.",
+   "Moore, Andrew M.",
+   "Bograd, Steven J."
+  ],
+  "oa_status": "bronze",
+  "oa_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2016GL069716",
+  "has_abstract": true
+ },
+ "zhai2016": {
+  "doi": "10.1007/s13351-016-6101-3",
+  "title": "The strong El Niño of 2015/16 and its dominant impacts on global and China's climate",
+  "journal": "Journal of Meteorological Research",
+  "volume": "30",
+  "issue": "3",
+  "page": "283-297",
+  "year": 2016,
+  "authors": [
+   "Zhai, Panmao",
+   "Yu, Rong",
+   "Guo, Yanjun",
+   "Li, Qingxiang",
+   "Ren, Xuejuan",
+   "Wang, Yaqiang",
+   "Xu, Wenhui",
+   "Liu, Yanju",
+   "Ding, Yihui"
+  ],
+  "oa_status": "closed",
+  "oa_url": null,
+  "has_abstract": false
+ },
+ "kao2009": {
+  "doi": "10.1175/2008jcli2309.1",
+  "title": "Contrasting Eastern-Pacific and Central-Pacific Types of ENSO",
+  "journal": "Journal of Climate",
+  "volume": "22",
+  "issue": "3",
+  "page": "615-632",
+  "year": 2009,
+  "authors": [
+   "Kao, Hsun-Ying",
+   "Yu, Jin-Yi"
+  ],
+  "oa_status": "green",
+  "oa_url": "https://escholarship.org/uc/item/0wf363fm",
+  "has_abstract": true
+ },
+ "ashok2007": {
+  "doi": "10.1029/2006jc003798",
+  "title": "El Niño Modoki and its possible teleconnection",
+  "journal": "Journal of Geophysical Research: Oceans",
+  "volume": "112",
+  "issue": "C11",
+  "page": null,
+  "year": 2007,
+  "authors": [
+   "Ashok, Karumuri",
+   "Behera, Swadhin K.",
+   "Rao, Suryachandra A.",
+   "Weng, Hengyi",
+   "Yamagata, Toshio"
+  ],
+  "oa_status": "closed",
+  "oa_url": null,
+  "has_abstract": true
+ }
+}
