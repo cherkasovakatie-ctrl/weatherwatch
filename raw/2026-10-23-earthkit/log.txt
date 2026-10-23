@@ -1,0 +1,32 @@
+OK   import: tools.earthkit.ek
+FAIL meteo:
+Traceback (most recent call last):
+  File "/home/runner/work/weatherwatch/weatherwatch/tools/earthkit/diag.py", line 9, in stage
+    r = fn(); log.append(f'OK   {name}: {r}')
+        ^^^^
+  File "/home/runner/work/weatherwatch/weatherwatch/tools/earthkit/diag.py", line 15, in <lambda>
+    stage('meteo', lambda: float(meteo.thermo.dewpoint_from_relative_humidity(np.array([293.15]), np.array([50.0]))[0] - 273.15))
+                                 ^^^^^^^^^^^^
+AttributeError: module 'earthkit.meteo' has no attribute 'thermo'
+
+FAIL open-data:
+Traceback (most recent call last):
+  File "/home/runner/work/weatherwatch/weatherwatch/tools/earthkit/diag.py", line 9, in stage
+    r = fn(); log.append(f'OK   {name}: {r}')
+        ^^^^
+  File "/home/runner/work/weatherwatch/weatherwatch/tools/earthkit/diag.py", line 19, in od
+    f = ds[0]; return f"{f.metadata('date')} {f.metadata('time')} shape={f.to_numpy().shape}"
+        ~~^^^
+TypeError: 'GribData' object is not subscriptable
+
+FAIL plots:
+Traceback (most recent call last):
+  File "/home/runner/work/weatherwatch/weatherwatch/tools/earthkit/diag.py", line 9, in stage
+    r = fn(); log.append(f'OK   {name}: {r}')
+        ^^^^
+  File "/home/runner/work/weatherwatch/weatherwatch/tools/earthkit/diag.py", line 22, in qp
+    plots.quickplot(box['ds'][0]).save(str(OUT / 'map.png')); return (OUT / 'map.png').stat().st_size
+                    ~~~~~~~~~^^^
+TypeError: 'GribData' object is not subscriptable
+
+OK   cds-config: no cdsapirc (expected here)
