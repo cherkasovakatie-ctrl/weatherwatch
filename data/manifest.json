@@ -11,6 +11,22 @@
    "bytes": 521
   },
   {
+   "id": "alignment_calendar",
+   "file": "alignment_calendar.csv",
+   "title": "Mercury and Venus conjunctions and stations, 2025–2027",
+   "description": "Inferior and superior conjunctions with the Sun and retrograde/direct stations of Mercury and Venus, dated to the UTC day, from PyEphem.",
+   "updated": "2026-10-23",
+   "bytes": 2696
+  },
+  {
+   "id": "alignment_tests",
+   "file": "alignment_tests.csv",
+   "title": "Planetary alignments vs earthquakes and eruptions: test results",
+   "description": "65 tests, 1965–2016: Mercury and Venus inferior conjunctions (±7 and ±15 days), retrograde days, double inferior conjunctions, Sun–Mercury–Venus–Earth line-ups and 5-planet heliocentric clusters (PyEphem) against USGS M6+/M7+/M7.5+ mainshocks (Gardner–Knopoff declustered) and Smithsonian GVP eruption starts (VEI 2+, 3+). p from 5,000 circular time shifts of the hazard dates; q = Benjamini–Hochberg. Script tools/sky/alignment_hazards.py. Computed by Claude.",
+   "updated": "2026-10-23",
+   "bytes": 7599
+  },
+  {
    "id": "annual_hazards",
    "file": "annual_hazards.csv",
    "title": "Annual hazards and ENSO, 1950–2025",
@@ -49,6 +65,14 @@
    "description": "SOI (standardized, CPC units) and its centred 3-month mean, Equatorial SOI, Darwin and Tahiti pressure anomalies, 850 mb trade wind indices, 200 mb wind anomaly, OLR, QBO and 500 mb temperature. From the project data sheet 'Weather Watch_NOAA source data' (mirrors NOAA CPC index files), read 11 Oct 2026.",
    "updated": "2026-10-11",
    "bytes": 69595
+  },
+  {
+   "id": "blob_boxes",
+   "file": "blob_boxes.csv",
+   "title": "Blob watch: Northeast Pacific and Southern California SST anomalies",
+   "description": "Monthly sea-surface temperature anomaly (°C vs the 1991–2020 mean for the same month) from NOAA ERSSTv5 (2° grid, via NOAA CoastWatch ERDDAP), cos-latitude-weighted box means: nep_anom = 40–50°N, 150–135°W (the box Bond et al. 2015 used for the 2014 'Blob'); socal_anom = 30–36°N, 124–118°W, offshore Southern California (ocean grid points only). From 2012. Checked daily at 9 am Pacific by the scripted refresh (tools/nightly); a new month is added once both boxes have a value.",
+   "updated": "2026-10-23",
+   "bytes": 3278
   },
   {
    "id": "calfire_active",
@@ -263,7 +287,7 @@
    "file": "market_bear.csv",
    "title": "S&P 500 bear markets (monthly averages)",
    "description": "Declines of 20% or more in monthly-average prices, peak to trough. Monthly averages understate intramonth extremes.",
-   "updated": "2026-10-17",
+   "updated": "2026-10-23",
    "bytes": 363
   },
   {
@@ -271,7 +295,7 @@
    "file": "market_episodes.csv",
    "title": "Strongest market lead, episode by episode",
    "description": "Each window of the best-scoring planetary predictor, its mean forward 12-month real return, and the in-minus-out gap if that episode is dropped.",
-   "updated": "2026-10-17",
+   "updated": "2026-10-23",
    "bytes": 803
   },
   {
@@ -279,7 +303,7 @@
    "file": "market_monthly.csv",
    "title": "S&P 500 monthly with cyclic index",
    "description": "Shiller monthly-average S&P 500 (nominal; real where CPI is available, to Sep 2023), via datasets/s-and-p-500 on GitHub, with the cyclic index.",
-   "updated": "2026-10-17",
+   "updated": "2026-10-23",
    "bytes": 43717
   },
   {
@@ -287,7 +311,7 @@
    "file": "market_tests.csv",
    "title": "Planetary cycles vs forward 12-month real S&P returns",
    "description": "Correlation and in-window minus out-of-window differences, with circular-shift permutation p-values, Benjamini–Hochberg q and a split-half replication check.",
-   "updated": "2026-10-17",
+   "updated": "2026-10-23",
    "bytes": 798
   },
   {
@@ -311,7 +335,7 @@
    "file": "mundane_aspects.csv",
    "title": "Outer-planet cycles, 1900–2040",
    "description": "Exact conjunctions, squares, oppositions and trines between Jupiter, Saturn, Uranus, Neptune and Pluto, with retrograde passes numbered. PyEphem (VSOP87), geocentric, tropical zodiac, apparent positions of date.",
-   "updated": "2026-10-17",
+   "updated": "2026-10-23",
    "bytes": 78230
   },
   {
@@ -319,7 +343,7 @@
    "file": "mundane_cyclic_index.csv",
    "title": "Cyclic index (Barbault), monthly 1900–2040",
    "description": "Sum of the ten pairwise angular separations between Jupiter, Saturn, Uranus, Neptune and Pluto (0–1800°). Low values mean the outer planets are clustered.",
-   "updated": "2026-10-17",
+   "updated": "2026-10-23",
    "bytes": 25779
   },
   {
@@ -327,7 +351,7 @@
    "file": "mundane_eclipses.csv",
    "title": "Solar and lunar eclipses, 1990–2040",
    "description": "New and full moons close enough to a lunar node to produce an eclipse of any type (partial and penumbral included). Type detail (total, annular) is not computed. Validated against NASA dates for 2024–2027.",
-   "updated": "2026-10-17",
+   "updated": "2026-10-23",
    "bytes": 13008
   },
   {
@@ -335,7 +359,7 @@
    "file": "mundane_ingresses.csv",
    "title": "Outer-planet sign ingresses, 1900–2040",
    "description": "Every entry of Jupiter–Pluto into a zodiac sign, including retrograde re-entries. PyEphem.",
-   "updated": "2026-10-17",
+   "updated": "2026-10-23",
    "bytes": 18502
   },
   {
@@ -343,7 +367,7 @@
    "file": "mundane_seasonal.csv",
    "title": "Equinox and solstice ingress times, 1990–2040",
    "description": "UTC times of the Sun's entry into Aries, Cancer, Libra and Capricorn, used for mundane ingress charts. PyEphem.",
-   "updated": "2026-10-17",
+   "updated": "2026-10-23",
    "bytes": 5172
   },
   {
@@ -351,7 +375,7 @@
    "file": "mundane_stations.csv",
    "title": "Outer-planet stations, 1990–2040",
    "description": "Dates on which Jupiter–Pluto turn retrograde or direct. PyEphem.",
-   "updated": "2026-10-17",
+   "updated": "2026-10-23",
    "bytes": 25694
   },
   {
@@ -359,7 +383,7 @@
    "file": "mundane_world_events.csv",
    "title": "Reference world events, 1914–2023",
    "description": "Hand-picked geopolitical and economic turning points for orientation on the timeline. Not a test sample.",
-   "updated": "2026-10-17",
+   "updated": "2026-10-23",
    "bytes": 2009
   },
   {
@@ -367,7 +391,7 @@
    "file": "national_charts.csv",
    "title": "National charts: definitions",
    "description": "Founding moments, places and time-reliability ratings for the national charts (A documented, B well-attested, C disputed, X no time).",
-   "updated": "2026-10-17",
+   "updated": "2026-10-23",
    "bytes": 2745
   },
   {
@@ -375,7 +399,7 @@
    "file": "national_positions.csv",
    "title": "National charts: planet positions",
    "description": "Planet, node and (for A/B charts) angle positions for each national chart.",
-   "updated": "2026-10-17",
+   "updated": "2026-10-23",
    "bytes": 7972
   },
   {
@@ -383,8 +407,16 @@
    "file": "national_transits.csv",
    "title": "National charts: outer-planet transits, 2015–2035",
    "description": "Exact transits of Jupiter–Pluto (conjunction, square, opposition, trine) to national chart points. Moon and angles only for charts with a reliable time.",
-   "updated": "2026-10-17",
+   "updated": "2026-10-23",
    "bytes": 382530
+  },
+  {
+   "id": "nino34_long_hadisst",
+   "file": "nino34_long_hadisst.csv",
+   "title": "Niño 3.4 index since 1870 (HadISST)",
+   "description": "Monthly Niño 3.4 (5°N–5°S, 170°W–120°W) sea-surface temperature anomaly, °C vs 1981–2010, from HadISST via NOAA PSL (https://psl.noaa.gov/data/timeseries/month/data/nino34.long.anom.data), January 1870 to July 2026, read 17 Oct 2026. Missing values (-99.99) dropped. Used for the 'El Niño through history' chart.",
+   "updated": "2026-10-17",
+   "bytes": 25543
   },
   {
    "id": "oni",
@@ -409,6 +441,78 @@
    "description": "NASA Ozone Watch annual mean ozone hole area (7 Sep–13 Oct) and minimum ozone, 1979–2025, plus Claude's 2026 mean for 7 Sep–8 Oct.",
    "updated": "2026-10-11",
    "bytes": 865
+  },
+  {
+   "id": "paleo_cenogrid",
+   "file": "paleo_cenogrid.csv",
+   "title": "Deep-ocean climate, 66 million years (CENOGRID)",
+   "description": "Westerhold et al. (2020, Science, DOI 10.1126/science.aba6853): astronomically tuned benthic foraminiferal δ18O and δ13C, ‰ VPDB; medians of 50,000-year bins of 24,321 published points (n = points per bin). NOAA directory https://www.ncei.noaa.gov/pub/data/paleo/contributions_by_author/westerhold2020/.",
+   "updated": "2026-10-17",
+   "bytes": 26520
+  },
+  {
+   "id": "paleo_ch4_800k",
+   "file": "paleo_ch4_800k.csv",
+   "title": "Atmospheric methane, 800,000 years (EPICA Dome C)",
+   "description": "Loulergue et al. (2008, Nature, DOI 10.1038/nature06950), EDC3 gas age; ppb, means of 1,000-year bins (n = measurements per bin; 1σ analytical uncertainty about 10 ppb). Bins with no sample are absent. The five samples younger than 0.2 ka (after 1750 CE, up to 907 ppb) are excluded, so the first bin covers 0.2–1 ka. NOAA file https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc-ch4-2008.txt, read 17 Oct 2026.",
+   "updated": "2026-10-17",
+   "bytes": 9011
+  },
+  {
+   "id": "paleo_co2_800k",
+   "file": "paleo_co2_800k.csv",
+   "title": "Atmospheric CO2, 800,000 years (Antarctic ice-core composite)",
+   "description": "Bereiter et al. (2015, GRL, DOI 10.1002/2014GL061957) revised composite, AICC2012 gas age; ppm, all published points. NOAA file https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/antarctica2015co2composite.txt; copy verified against NOAA 17 Oct 2026. Ages in kyr BP (before 1950); the youngest points reach the 1990s firn record. The Climate tab plots only points older than 0.2 ka (before 1750 CE); the file keeps all published points.",
+   "updated": "2026-10-17",
+   "bytes": 25359
+  },
+  {
+   "id": "paleo_epica_temp",
+   "file": "paleo_epica_temp.csv",
+   "title": "Antarctic temperature, 800,000 years (EPICA Dome C)",
+   "description": "Jouzel et al. (2007, Science, DOI 10.1126/science.1141038), EDC3 age scale: temperature estimated from deuterium, °C difference from the average of the last 1000 years. Means of 500-year bins (n = samples per bin). NOAA file https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc3deuttemp2007.txt; local copy verified against NOAA 17 Oct 2026.",
+   "updated": "2026-10-17",
+   "bytes": 22063
+  },
+  {
+   "id": "paleo_gts_epochs",
+   "file": "paleo_gts_epochs.csv",
+   "title": "Geologic epochs, last 66 million years",
+   "description": "Epoch boundaries (Ma) and standard colours from the Geologic Time Scale table distributed with Pyleoclim (GTS_updated.csv), used to shade the 66-million-year chart.",
+   "updated": "2026-10-17",
+   "bytes": 344
+  },
+  {
+   "id": "paleo_lr04",
+   "file": "paleo_lr04.csv",
+   "title": "Benthic δ18O stack, 5.3 million years (LR04)",
+   "description": "Lisiecki & Raymo (2005, Paleoceanography, DOI 10.1029/2004PA001071; NOAA DOI 10.25921/k88j-0106): stack of 57 benthic records, ‰, with standard error; 1-kyr steps to 600 ka, 2 kyr to 1,500 ka, 2.5 kyr to 3,000 ka, then 5 kyr. Higher δ18O = more land ice and colder deep ocean.",
+   "updated": "2026-10-17",
+   "bytes": 31122
+  },
+  {
+   "id": "paleo_monsoon_cheng2016",
+   "file": "paleo_monsoon_cheng2016.csv",
+   "title": "East Asian monsoon, 640,000 years (Chinese cave composite)",
+   "description": "Cheng et al. (2016, Nature, DOI 10.1038/nature18591; NOAA DOI 10.25921/xv05-8s73): composite speleothem δ18O, ‰ VPDB, U–Th dated; means of 1,000-year bins (n = samples). Lower values indicate a stronger summer monsoon. NOAA file https://www.ncei.noaa.gov/pub/data/paleo/speleothem/asia/china/cheng2016composite.txt, read 17 Oct 2026.",
+   "updated": "2026-10-17",
+   "bytes": 9281
+  },
+  {
+   "id": "paleo_pages2k",
+   "file": "paleo_pages2k.csv",
+   "title": "Global mean surface temperature, 1–2000 CE (PAGES 2k 2019)",
+   "description": "PAGES 2k Consortium (Neukom et al. 2019, Nature Geoscience, DOI 10.1038/s41561-019-0400-0): median and 2.5th/97.5th percentiles of the full 7-method ensemble, annual, plus the published 31-year Butterworth-filtered values; °C vs 1961–1990, April–March annual mean. NOAA file https://www.ncei.noaa.gov/pub/data/paleo/pages2k/neukom2019temp/recons/Full_ensemble_median_and_95pct_range.txt, read 17 Oct 2026. Instrumental-target column omitted.",
+   "updated": "2026-10-17",
+   "bytes": 89993
+  },
+  {
+   "id": "paleo_sealevel_800k",
+   "file": "paleo_sealevel_800k.csv",
+   "title": "Global sea level, 800,000 years (sea-level stack)",
+   "description": "Spratt & Lisiecki (2016, Climate of the Past, DOI 10.5194/cp-12-1079-2016): scaled first principal component of five reconstructions (0–798 ka, 'long PC1'), metres relative to present, with 95% confidence bounds; 1,000-year steps on the LR04 age model. NOAA file https://www.ncei.noaa.gov/pub/data/paleo/contributions_by_author/spratt2016/spratt2016.txt, read 17 Oct 2026.",
+   "updated": "2026-10-17",
+   "bytes": 19445
   },
   {
    "id": "paleo_studies",
@@ -465,22 +569,6 @@
    "description": "CPC daily AO; zonal-mean zonal wind at 60N 10 hPa from GFS (8 longitudes, Open-Meteo; u60 = analysis, u60_fc = forecast); daily max 2 m temperature at five Greenland ice-sheet points (Open-Meteo).",
    "updated": "2026-10-16",
    "bytes": 4421
-  },
-  {
-   "id": "alignment_tests",
-   "file": "alignment_tests.csv",
-   "title": "Planetary alignments vs earthquakes and eruptions: test results",
-   "description": "65 tests, 1965–2016: Mercury and Venus inferior conjunctions (±7 and ±15 days), retrograde days, double inferior conjunctions, Sun–Mercury–Venus–Earth line-ups and 5-planet heliocentric clusters (PyEphem) against USGS M6+/M7+/M7.5+ mainshocks (Gardner–Knopoff declustered) and Smithsonian GVP eruption starts (VEI 2+, 3+). p from 5,000 circular time shifts of the hazard dates; q = Benjamini–Hochberg. Script tools/sky/alignment_hazards.py. Computed by Claude.",
-   "updated": "2026-10-23",
-   "bytes": 7599
-  },
-  {
-   "id": "alignment_calendar",
-   "file": "alignment_calendar.csv",
-   "title": "Mercury and Venus conjunctions and stations, 2025–2027",
-   "description": "Inferior and superior conjunctions with the Sun and retrograde/direct stations of Mercury and Venus, dated to the UTC day, from PyEphem.",
-   "updated": "2026-10-23",
-   "bytes": 2696
   },
   {
    "id": "quake_tests",
@@ -550,9 +638,9 @@
    "id": "sky_now",
    "file": "sky_now.csv",
    "title": "Planet positions now",
-   "description": "Geocentric ecliptic longitude, zodiac sign and degree (tropical zodiac) of the Sun, Moon and planets, plus the mean lunar node, for 17 Oct 2026 12:00 UTC, computed with PyEphem (VSOP87). Retrograde = longitude decreasing day to day.",
-   "updated": "2026-10-17",
-   "bytes": 406
+   "description": "Geocentric ecliptic longitude, zodiac sign and degree (tropical zodiac) of the Sun, Moon and planets, plus the mean lunar node, for 23 Oct 2026 12:00 UTC, computed with PyEphem (VSOP87). Retrograde = longitude decreasing day to day.",
+   "updated": "2026-10-23",
+   "bytes": 402
   },
   {
    "id": "sky_tests",
@@ -641,94 +729,6 @@
    "description": "Natural Earth 1:110m land polygons (world-atlas 2.0.2), coordinates rounded to 0.1 degree. Map background only.",
    "updated": "2026-10-11",
    "bytes": 58633
-  },
-  {
-   "id": "paleo_pages2k",
-   "file": "paleo_pages2k.csv",
-   "title": "Global mean surface temperature, 1–2000 CE (PAGES 2k 2019)",
-   "description": "PAGES 2k Consortium (Neukom et al. 2019, Nature Geoscience, DOI 10.1038/s41561-019-0400-0): median and 2.5th/97.5th percentiles of the full 7-method ensemble, annual, plus the published 31-year Butterworth-filtered values; °C vs 1961–1990, April–March annual mean. NOAA file https://www.ncei.noaa.gov/pub/data/paleo/pages2k/neukom2019temp/recons/Full_ensemble_median_and_95pct_range.txt, read 17 Oct 2026. Instrumental-target column omitted.",
-   "updated": "2026-10-17",
-   "bytes": 89993
-  },
-  {
-   "id": "paleo_epica_temp",
-   "file": "paleo_epica_temp.csv",
-   "title": "Antarctic temperature, 800,000 years (EPICA Dome C)",
-   "description": "Jouzel et al. (2007, Science, DOI 10.1126/science.1141038), EDC3 age scale: temperature estimated from deuterium, °C difference from the average of the last 1000 years. Means of 500-year bins (n = samples per bin). NOAA file https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc3deuttemp2007.txt; local copy verified against NOAA 17 Oct 2026.",
-   "updated": "2026-10-17",
-   "bytes": 22063
-  },
-  {
-   "id": "paleo_co2_800k",
-   "file": "paleo_co2_800k.csv",
-   "title": "Atmospheric CO2, 800,000 years (Antarctic ice-core composite)",
-   "description": "Bereiter et al. (2015, GRL, DOI 10.1002/2014GL061957) revised composite, AICC2012 gas age; ppm, all published points. NOAA file https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/antarctica2015co2composite.txt; copy verified against NOAA 17 Oct 2026. Ages in kyr BP (before 1950); the youngest points reach the 1990s firn record. The Climate tab plots only points older than 0.2 ka (before 1750 CE); the file keeps all published points.",
-   "updated": "2026-10-17",
-   "bytes": 25359
-  },
-  {
-   "id": "paleo_ch4_800k",
-   "file": "paleo_ch4_800k.csv",
-   "title": "Atmospheric methane, 800,000 years (EPICA Dome C)",
-   "description": "Loulergue et al. (2008, Nature, DOI 10.1038/nature06950), EDC3 gas age; ppb, means of 1,000-year bins (n = measurements per bin; 1σ analytical uncertainty about 10 ppb). Bins with no sample are absent. The five samples younger than 0.2 ka (after 1750 CE, up to 907 ppb) are excluded, so the first bin covers 0.2–1 ka. NOAA file https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc-ch4-2008.txt, read 17 Oct 2026.",
-   "updated": "2026-10-17",
-   "bytes": 9011
-  },
-  {
-   "id": "paleo_sealevel_800k",
-   "file": "paleo_sealevel_800k.csv",
-   "title": "Global sea level, 800,000 years (sea-level stack)",
-   "description": "Spratt & Lisiecki (2016, Climate of the Past, DOI 10.5194/cp-12-1079-2016): scaled first principal component of five reconstructions (0–798 ka, 'long PC1'), metres relative to present, with 95% confidence bounds; 1,000-year steps on the LR04 age model. NOAA file https://www.ncei.noaa.gov/pub/data/paleo/contributions_by_author/spratt2016/spratt2016.txt, read 17 Oct 2026.",
-   "updated": "2026-10-17",
-   "bytes": 19445
-  },
-  {
-   "id": "paleo_monsoon_cheng2016",
-   "file": "paleo_monsoon_cheng2016.csv",
-   "title": "East Asian monsoon, 640,000 years (Chinese cave composite)",
-   "description": "Cheng et al. (2016, Nature, DOI 10.1038/nature18591; NOAA DOI 10.25921/xv05-8s73): composite speleothem δ18O, ‰ VPDB, U–Th dated; means of 1,000-year bins (n = samples). Lower values indicate a stronger summer monsoon. NOAA file https://www.ncei.noaa.gov/pub/data/paleo/speleothem/asia/china/cheng2016composite.txt, read 17 Oct 2026.",
-   "updated": "2026-10-17",
-   "bytes": 9281
-  },
-  {
-   "id": "paleo_lr04",
-   "file": "paleo_lr04.csv",
-   "title": "Benthic δ18O stack, 5.3 million years (LR04)",
-   "description": "Lisiecki & Raymo (2005, Paleoceanography, DOI 10.1029/2004PA001071; NOAA DOI 10.25921/k88j-0106): stack of 57 benthic records, ‰, with standard error; 1-kyr steps to 600 ka, 2 kyr to 1,500 ka, 2.5 kyr to 3,000 ka, then 5 kyr. Higher δ18O = more land ice and colder deep ocean.",
-   "updated": "2026-10-17",
-   "bytes": 31122
-  },
-  {
-   "id": "paleo_cenogrid",
-   "file": "paleo_cenogrid.csv",
-   "title": "Deep-ocean climate, 66 million years (CENOGRID)",
-   "description": "Westerhold et al. (2020, Science, DOI 10.1126/science.aba6853): astronomically tuned benthic foraminiferal δ18O and δ13C, ‰ VPDB; medians of 50,000-year bins of 24,321 published points (n = points per bin). NOAA directory https://www.ncei.noaa.gov/pub/data/paleo/contributions_by_author/westerhold2020/.",
-   "updated": "2026-10-17",
-   "bytes": 26520
-  },
-  {
-   "id": "paleo_gts_epochs",
-   "file": "paleo_gts_epochs.csv",
-   "title": "Geologic epochs, last 66 million years",
-   "description": "Epoch boundaries (Ma) and standard colours from the Geologic Time Scale table distributed with Pyleoclim (GTS_updated.csv), used to shade the 66-million-year chart.",
-   "updated": "2026-10-17",
-   "bytes": 344
-  },
-  {
-   "id": "nino34_long_hadisst",
-   "file": "nino34_long_hadisst.csv",
-   "title": "Niño 3.4 index since 1870 (HadISST)",
-   "description": "Monthly Niño 3.4 (5°N–5°S, 170°W–120°W) sea-surface temperature anomaly, °C vs 1981–2010, from HadISST via NOAA PSL (https://psl.noaa.gov/data/timeseries/month/data/nino34.long.anom.data), January 1870 to July 2026, read 17 Oct 2026. Missing values (-99.99) dropped. Used for the 'El Niño through history' chart.",
-   "updated": "2026-10-17",
-   "bytes": 25543
-  },
-  {
-   "id": "blob_boxes",
-   "file": "blob_boxes.csv",
-   "title": "Blob watch: Northeast Pacific and Southern California SST anomalies",
-   "description": "Monthly sea-surface temperature anomaly (°C vs the 1991–2020 mean for the same month) from NOAA ERSSTv5 (2° grid, via NOAA CoastWatch ERDDAP), cos-latitude-weighted box means: nep_anom = 40–50°N, 150–135°W (the box Bond et al. 2015 used for the 2014 'Blob'); socal_anom = 30–36°N, 124–118°W, offshore Southern California (ocean grid points only). From 2012. Checked daily at 9 am Pacific by the scripted refresh (tools/nightly); a new month is added once both boxes have a value.",
-   "updated": "2026-10-23",
-   "bytes": 3278
   }
  ]
 }
