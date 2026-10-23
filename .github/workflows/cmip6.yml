@@ -1,0 +1,43 @@
+name: CMIP6 global temperature projections (Copernicus CDS)
+
+# Downloads CMIP6 monthly near-surface temperature model by model, reduces each file to a global annual mean and commits
+# the small tables. Needs the CDSAPI_KEY secret and the CMIP6 licence accepted on the CDS. Re-runs skip finished pairs.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [tools/projections/trigger.txt]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cmip6
+  cancel-in-progress: false
+
+jobs:
+  cmip6:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup-earthkit
+      - name: CDS key
+        env: { CDSAPI_KEY: '${{ secrets.CDSAPI_KEY }}' }
+        run: |
+          if [ -z "$CDSAPI_KEY" ]; then echo "::error::CDSAPI_KEY secret missing"; exit 1; fi
+          printf 'url: https://cds.climate.copernicus.eu/api\nkey: %s\n' "$CDSAPI_KEY" > ~/.cdsapirc; chmod 600 ~/.cdsapirc
+      - name: Download and reduce (stops itself before the job limit)
+        run: timeout 320m python tools/projections/cmip6_global.py || echo "stopped (partial results kept)"
+      - name: Summarise
+        if: always()
+        run: python tools/projections/cmip6_summary.py || true
+      - name: Commit results
+        if: always()
+        run: |
+          rm -f ~/.cdsapirc
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/projections
+          git diff --cached --quiet && { echo "No changes"; exit 0; }
+          git commit -m "CMIP6 global temperature projections (run ${GITHUB_RUN_NUMBER})"
+          for i in 1 2 3; do git pull --rebase -X theirs origin main && git push origin HEAD:main && exit 0; sleep $((i*15)); done; exit 1
