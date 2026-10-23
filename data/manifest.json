@@ -718,8 +718,8 @@
    "id": "volcanoes_weekly",
    "file": "volcanoes_weekly.csv",
    "title": "Weekly volcanic activity",
-   "description": "Smithsonian/USGS Weekly Volcanic Activity Report for 1–7 October 2026 (published Thursday 8 October; read from volcano.si.edu/reports_weekly.cfm on 11 Oct because the RSS feed still served the previous week), with coordinates; summaries condensed from the report text. 24 volcanoes: 7 new eruptive activity, 1 new unrest, 16 continuing.",
-   "updated": "2026-10-11",
+   "description": "Smithsonian/USGS Weekly Volcanic Activity Report for 15–21 October 2026 (published Thursday 22 October; page saved by Kate and read on 23 Oct), with coordinates from the GVP volcano list; summaries condensed from the report text. 27 volcanoes: 3 new eruptive activity, 23 continuing, 1 other observation (St. Helens resuspended ash).",
+   "updated": "2026-10-23",
    "bytes": 3592
   },
   {
