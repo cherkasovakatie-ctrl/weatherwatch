@@ -8,7 +8,7 @@
  "research_date": "23 October 2026",
  "obs_cutoff": "historical event (Jul 1995 – Dec 1998 analysed)",
  "lit_cutoff": "open, updated as new studies appear",
- "status_note": "Stage 4 of 5 (23 Oct 2026): full draft. 93 Crossref queries; every journal reference cited is matched to its Crossref record; 11 papers read in full and 6 more held for checking in stage 5 (copies supplied by Kate), the rest from abstracts; reanalysis burst and MJO diagnostics and TAO mooring analysis added. Next: stage 5 verification (every number recomputed from source files). Island sea-level data could not be retrieved (server timeout).",
+ "status_note": "Stage 5 of 5 complete (23 Oct 2026): 75 data checks recomputed from source files, all passing; literature claims re-read against 16 full texts; two corrections, no grades changed (see the verification log). Open items: island sea-level records; ERA5 re-test of the burst list.",
  "toc": [
   [
    "abstract",
@@ -81,6 +81,10 @@
   [
    "mjo",
    "MJO contribution"
+  ],
+  [
+   "verification",
+   "Verification log"
   ],
   [
    "references",
@@ -1022,12 +1026,17 @@
    "id": "mjo",
    "title": "MJO contribution (assessment)",
    "html": "<p><b>Answer.</b> Strong evidence that the MJO set the timing and much of the amplitude of the onset bursts, through Kelvin waves an order of magnitude larger than boundary reflections <a href=\"#ref-mcphadenyu1999\">[16]</a> <a href=\"#ref-bergman2001\">[29]</a>; but the MJO was not sufficient on its own — an active MJO in early 1996 produced no El Niño, and the bursts that mattered were intensified locally by cold surges and twin circulations <a href=\"#ref-yurienecker1998\">[23]</a>. Bergman et al. conclude that the MJO is relevant to the timing and initial growth of El Niño rather than responsible for the event itself <a href=\"#ref-bergman2001\">[29]</a>. One intermediate coupled model initialised on 1 January 1997 becomes about 50% stronger when rectified MJO winds are included <a href=\"#ref-kesslerkleeman2000\">[30]</a>. Statistically, MJO events warm the waveguide only when they contain a westerly wind event <a href=\"#ref-chiodi2014\">[35]</a>.</p><p><b>Compared with 1982.</b> The 1996–97 season had 137 days with the circulation-weighted index at or above 1 against 77 in 1981–82, and the bursts in calendar 1997 outnumber those of 1982 (16 vs 13) on identical definitions <a href=\"#ref-r1diag\">[10]</a>. In the mature phase (Oct 1997 – Mar 1998) intraseasonal OLR variance over 60°E–150°E fell to 77.8 W² m⁻⁴ (22-season mean 233), consistent with the weak eastward MJO propagation reported for the mature stage <a href=\"#ref-li2023\">[41]</a>.</p>"
+  },
+  {
+   "id": "verification",
+   "title": "Stage 5 verification log (23 October 2026)",
+   "html": "<p><b>Data.</b> Every number in the text that comes from the monthly table, the TAO analysis or the reanalysis and MJO diagnostics was recomputed from the source files by <code>tools/papers/verify_1997.py</code>: 75 checks, all passing after the correction below. Diagnostic values in the text are inserted by the build script from <code>data/papers/1997/diag_1997.json</code>, not typed by hand.</p><p><b>Literature.</b> Claims were re-read against the full texts held in the private library: McPhaden (1999), McPhaden and Yu (1999), Yu and Rienecker (1998), van Oldenborgh (preprint of 2000), Lengaigne et al. (2003), Bergman et al. (2001), Webster et al. (1999), Ueda and Matsumoto (2000), Zhu et al. (2003), Barnston et al. (1999, NCEP), Landsea and Knaff (2000), Kessler and Kleeman (2000), Vecchi and Harrison (2006), Vecchi (2006), Kutsuwada and McPhaden (2002) and Picaut et al. (2002). All other claims rest on the abstracts recorded in the reference list. <b>Not read beyond the bibliographic record:</b> Saji et al. (1999), Takayabu et al. (1999), Boulanger and Menkes (1999), Ham et al. (2013), McPhaden and Zhang (2002); each is cited only for what its title or a held paper states.</p><p><b>Corrections made.</b></p><ul><li>Start of the La Niña phase: “−0.41 (JAS 1995)” → −0.41 (JJA 1995); JAS 1995 was −0.57.</li><li>Eastern Indian Ocean cooling: “below −2 °C in Nov 1997” → an anomaly of about 2 °C at its November maximum (the sign is garbled in the extracted text of Webster et al.; magnitude kept, wording neutral).</li></ul><p><b>Checked and unchanged.</b> The adjoint numbers (0.6, 0.3, 0.5 and 0.4 °C; 40%/50%; 30%/90%) match the preprint and the journal abstract; the 8 °C in 30 days at 0°, 125°W, the June–December monthly records and the >90 m thermocline depression match McPhaden (1999); the 15–20 cm against about 2 cm Kelvin-wave amplitudes match McPhaden and Yu (1999); the forecast statements match Barnston et al. (1999, both papers) and Landsea and Knaff (2000).</p><p><b>Grades.</b> No evidence grade was changed in this pass. <b>Open items:</b> island sea-level records (UHSLC server unreachable from the automated fetch); an ERA5 re-test of the burst list, as for 1982.</p>"
   }
  ],
  "timeline": [
   [
    "Jul 1995 – Mar 1996",
-   "La Niña: RONI from −0.41 (JAS 1995) to a minimum of −1.02 (OND 1995); back to −0.58 by FMA 1996.",
+   "La Niña: RONI from −0.41 (JJA 1995) to a minimum of −1.02 (OND 1995); back to −0.58 by FMA 1996.",
    "Stronger-than-normal trades build heat content in the western Pacific.",
    "<a href=\"#ref-cpc\">[8]</a> <a href=\"#ref-mcphadenyu1999\">[16]</a>",
    "High"
@@ -1146,7 +1155,7 @@
   ],
   [
    "Jun 1997 – Feb 1998",
-   "Indian Ocean: warm SST off East Africa from June 1997 (peak above +2 °C in Feb 1998); cool SST in the east from July (below −2 °C in Nov 1997); equatorial winds reverse to easterly, anomalies beyond −5 m s⁻¹ in December; east–west sea-level difference above 30 cm Nov 1997 – May 1998. CPC dipole index +0.55 °C (Jul) to +1.39 °C (Nov).",
+   "Indian Ocean: warm SST off East Africa from June 1997 (peak above +2 °C in Feb 1998); cool SST in the east from July (anomaly of about 2 °C at its November 1997 maximum); equatorial winds reverse to easterly, anomalies beyond −5 m s⁻¹ in December; east–west sea-level difference above 30 cm Nov 1997 – May 1998. CPC dipole index +0.55 °C (Jul) to +1.39 °C (Nov).",
    "Disputed: forced by ENSO through the Walker circulation and monsoon, or an internal Indian Ocean mode.",
    "<a href=\"#ref-webster1999\">[47]</a> <a href=\"#ref-ueda2000\">[51]</a> <a href=\"#ref-murtugudde2000\">[49]</a> <a href=\"#ref-yurienecker1999\">[50]</a> <a href=\"#ref-cpc\">[8]</a>",
    "High (observation); mechanism disputed"
@@ -1474,7 +1483,7 @@
    "text": "Picaut, J., E. Hackert, A. J. Busalacchi, R. Murtugudde and G. S. E. Lagerloef (2002). Mechanisms of the 1997–1998 El Niño–La Niña, as inferred from space-based observations. <i>Journal of Geophysical Research</i> 107(C5), 3037.",
    "doi": "10.1029/2001JC000850",
    "url": null,
-   "check": "full text supplied; abstract-level claims only so far"
+   "check": "full text read (copy supplied); claims checked in stage 5"
   },
   {
    "key": "delcroix2000",
@@ -1488,7 +1497,7 @@
    "text": "Kutsuwada, K., and M. McPhaden (2002). Intraseasonal variations in the upper equatorial Pacific Ocean prior to and during the 1997–98 El Niño. <i>Journal of Physical Oceanography</i> 32, 1133–1149.",
    "doi": "10.1175/1520-0485(2002)032<1133:IVITUE>2.0.CO;2",
    "url": null,
-   "check": "full text supplied; abstract-level claims"
+   "check": "full text read (copy supplied); claims checked in stage 5"
   },
   {
    "key": "boulangermenkes1999",
@@ -1558,7 +1567,7 @@
    "text": "Kessler, W. S., and R. Kleeman (2000). Rectification of the Madden–Julian oscillation into the ENSO cycle. <i>Journal of Climate</i> 13, 3560–3575.",
    "doi": "10.1175/1520-0442(2000)013<3560:ROTMJO>2.0.CO;2",
    "url": null,
-   "check": "full text supplied; abstract-level claims"
+   "check": "full text read (copy supplied); claims checked in stage 5"
   },
   {
    "key": "kessler1995",
@@ -1747,14 +1756,14 @@
    "text": "Vecchi, G. A., and D. E. Harrison (2006). The termination of the 1997–98 El Niño. Part I: mechanisms of oceanic change. <i>Journal of Climate</i> 19, 2633–2646.",
    "doi": "10.1175/JCLI3776.1",
    "url": null,
-   "check": "full text supplied; abstract-level claims"
+   "check": "full text read (copy supplied); claims checked in stage 5"
   },
   {
    "key": "vecchi2006b",
    "text": "Vecchi, G. A. (2006). The termination of the 1997–98 El Niño. Part II: mechanisms of atmospheric change. <i>Journal of Climate</i> 19, 2647–2664.",
    "doi": "10.1175/JCLI3780.1",
    "url": null,
-   "check": "full text supplied; abstract-level claims"
+   "check": "full text read (copy supplied); claims checked in stage 5"
   },
   {
    "key": "lengaigne2006",
@@ -1782,7 +1791,7 @@
    "text": "Landsea, C. W., and J. A. Knaff (2000). How much skill was there in forecasting the very strong 1997–98 El Niño? <i>Bulletin of the American Meteorological Society</i> 81, 2107–2119.",
    "doi": "10.1175/1520-0477(2000)081<2107:HMSWTI>2.3.CO;2",
    "url": null,
-   "check": "full text supplied; abstract-level claims"
+   "check": "full text read (copy supplied); claims checked in stage 5"
   },
   {
    "key": "trenberthhoar1997",
