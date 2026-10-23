@@ -199,24 +199,26 @@ if want('polar_stations'):
         print(f"  {r['station']}: now {cur['temperature_2m']} mean {mean} normal {nrm:.1f} (n={len(vals)})")
     wcsv('polar_stations.csv', hdr, out, 'obs_time_utc')
 
-# ---------------- cdec_reservoirs: storage from CDEC daily sensor 15
+# ---------------- cdec_reservoirs: CDEC daily reservoir report (RES): storage, % of capacity, % of historical average
 if want('cdec_reservoirs'):
     print('cdec_reservoirs')
-    hdr, old = rcsv('cdec_reservoirs.csv'); latest = {}
-    for row in csv.reader(open(RAW / 'cdec_storage.csv')):
-        if len(row) >= 7 and row[0] in {r['station'] for r in old} and row[6] not in ('---', '', 'VALUE'):
-            latest[row[0]] = (row[4], int(float(row[6])))
-    print('  dates:', sorted({v[0] for v in latest.values()}))
+    import html as _h, re as _re
+    hdr, old = rcsv('cdec_reservoirs.csv')
+    t = _h.unescape(_re.sub(r'<[^>]+>', ' | ', open(RAW / 'cdec_res.html', encoding='utf-8', errors='replace').read()))
+    cells = [c.strip() for c in _re.split(r'\s*\|\s*', t) if c.strip()]
+    m = _re.search(r'(\d{2}/\d{2}/\d{4})', t); print('  report date:', m.group(1) if m else 'not found')
+    num = lambda x: int(x.replace(',', ''))
     out = []
     for r in old:
-        if r['station'] in latest:
-            st = latest[r['station']][1]; avg_old = float(r['storage_af']) / float(r['pct_average']) * 100 if r['pct_average'] else None
-            out.append({**r, 'storage_af': str(st), 'pct_capacity': str(round(100 * st / float(r['capacity_af']))),
-                        'pct_average': r['pct_average'] if avg_old is None else r['pct_average']})
-        else: out.append(r)
+        k = cells.index(r['station'])  # ID cell; then capacity, elevation, storage, change, %cap, avg storage, %avg
+        cap = num(cells[k + 1]); assert str(cap) == r['capacity_af'], (r['station'], cap)
+        if '---' in (cells[k + 3], cells[k + 5], cells[k + 7]):
+            print(f"  {r['station']}: not reported in RES today; row kept unchanged"); out.append(r); continue
+        st, pcap, pavg = num(cells[k + 3]), cells[k + 5], cells[k + 7]
+        print(f"  {r['station']}: {r['storage_af']} -> {st} ({pcap}% cap, {pavg}% avg)")
+        out.append({**r, 'storage_af': str(st), 'pct_capacity': pcap, 'pct_average': pavg})
     with open(D / 'cdec_reservoirs.csv', 'w', newline='') as fh:
         w = csv.writer(fh, lineterminator='\n'); w.writerow(hdr); [w.writerow([o[h] for h in hdr]) for o in out]
-    print('  wrote cdec_reservoirs.csv (pct_average kept from the last read; CDEC average needs the RES report)')
 
 # ---------------- polar_motion: USNO finals2000A monthly means (x, y arcsec), forecast flag
 if want('polar_motion'):

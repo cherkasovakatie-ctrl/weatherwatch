@@ -1,0 +1,6 @@
+rank,test,quakes,result,p_value,verdict
+1,Moon phase (new/full ±2 days) vs M6+ mainshocks,7042,26.6% near new/full moon vs 27.1% expected,0.545,No effect
+2,Moon phase (new/full ±2 days) vs M7+ mainshocks,872,24.3% near new/full moon vs 27.1% expected,0.324,No effect
+3,Moon phase (new/full ±2 days) vs M8+ mainshocks,60,28.3% near new/full moon vs 27.1% expected,0.236,No effect
+4,Chandler wobble amplitude (6-yr window) vs M7+ mainshocks per year,1965–2023,r = -0.17,0.721,No effect
+5,Annual sunspot number vs M7+ mainshocks per year,1965–2023,r = -0.13,0.412,No effect

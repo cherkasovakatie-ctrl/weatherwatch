@@ -1,0 +1,136 @@
+chart_id,point,lon,position,sign,retro,transit_target
+usa-sibly,Sun,103.322,13°19′ Cancer,Cancer,no,yes
+usa-sibly,Moon,327.171,27°10′ Aquarius,Aquarius,no,no
+usa-sibly,Mercury,114.197,24°12′ Cancer,Cancer,yes,yes
+usa-sibly,Venus,93.105,3°06′ Cancer,Cancer,no,yes
+usa-sibly,Mars,81.375,21°23′ Gemini,Gemini,no,yes
+usa-sibly,Jupiter,95.933,5°56′ Cancer,Cancer,no,yes
+usa-sibly,Saturn,194.805,14°48′ Libra,Libra,no,yes
+usa-sibly,Uranus,68.922,8°55′ Gemini,Gemini,no,yes
+usa-sibly,Neptune,172.418,22°25′ Virgo,Virgo,no,yes
+usa-sibly,Pluto,297.562,27°34′ Capricorn,Capricorn,yes,yes
+usa-sibly,North Node (mean),127.595,7°36′ Leo,Leo,no,no
+uk-1801,Sun,280.18,10°11′ Capricorn,Capricorn,no,yes
+uk-1801,Moon,109.43,19°26′ Cancer,Cancer,no,yes
+uk-1801,Mercury,257.561,17°34′ Sagittarius,Sagittarius,no,yes
+uk-1801,Venus,316.539,16°32′ Aquarius,Aquarius,no,yes
+uk-1801,Mars,41.76,11°46′ Taurus,Taurus,no,yes
+uk-1801,Jupiter,121.858,1°51′ Leo,Leo,yes,yes
+uk-1801,Saturn,143.369,23°22′ Leo,Leo,yes,yes
+uk-1801,Uranus,181.896,1°54′ Libra,Libra,no,yes
+uk-1801,Neptune,228.734,18°44′ Scorpio,Scorpio,no,yes
+uk-1801,Pluto,332.715,2°43′ Pisces,Pisces,no,yes
+uk-1801,North Node (mean),13.918,13°55′ Aries,Aries,no,no
+uk-1801,Ascendant,187.164,7°10′ Libra,Libra,no,yes
+uk-1801,Midheaven,99.336,9°20′ Cancer,Cancer,no,yes
+ukraine-1991,Sun,150.955,0°57′ Virgo,Virgo,no,yes
+ukraine-1991,Moon,322.398,22°24′ Aquarius,Aquarius,no,no
+ukraine-1991,Mercury,146.014,26°01′ Leo,Leo,yes,yes
+ukraine-1991,Venus,148.138,28°08′ Leo,Leo,yes,yes
+ukraine-1991,Mars,175.099,25°06′ Virgo,Virgo,no,yes
+ukraine-1991,Jupiter,145.977,25°59′ Leo,Leo,no,yes
+ukraine-1991,Saturn,301.524,1°31′ Aquarius,Aquarius,yes,yes
+ukraine-1991,Uranus,280.107,10°06′ Capricorn,Capricorn,yes,yes
+ukraine-1991,Neptune,284.267,14°16′ Capricorn,Capricorn,yes,yes
+ukraine-1991,Pluto,227.764,17°46′ Scorpio,Scorpio,no,yes
+ukraine-1991,North Node (mean),286.653,16°39′ Capricorn,Capricorn,no,no
+russia-1990,Sun,81.104,21°06′ Gemini,Gemini,no,yes
+russia-1990,Moon,304.586,4°35′ Aquarius,Aquarius,no,no
+russia-1990,Mercury,60.489,0°29′ Gemini,Gemini,no,yes
+russia-1990,Venus,45.058,15°03′ Taurus,Taurus,no,yes
+russia-1990,Mars,8.759,8°46′ Aries,Aries,no,yes
+russia-1990,Jupiter,105.206,15°12′ Cancer,Cancer,no,yes
+russia-1990,Saturn,294.212,24°13′ Capricorn,Capricorn,yes,yes
+russia-1990,Uranus,278.287,8°17′ Capricorn,Capricorn,yes,yes
+russia-1990,Neptune,283.795,13°48′ Capricorn,Capricorn,yes,yes
+russia-1990,Pluto,225.467,15°28′ Scorpio,Scorpio,yes,yes
+russia-1990,North Node (mean),309.862,9°52′ Aquarius,Aquarius,no,no
+russia-1991,Sun,273.102,3°06′ Capricorn,Capricorn,no,yes
+russia-1991,Moon,148.558,28°33′ Leo,Leo,no,no
+russia-1991,Mercury,251.18,11°11′ Sagittarius,Sagittarius,no,yes
+russia-1991,Venus,232.528,22°32′ Scorpio,Scorpio,no,yes
+russia-1991,Mars,258.963,18°58′ Sagittarius,Sagittarius,no,yes
+russia-1991,Jupiter,164.581,14°35′ Virgo,Virgo,no,yes
+russia-1991,Saturn,305.135,5°08′ Aquarius,Aquarius,no,yes
+russia-1991,Uranus,283.29,13°17′ Capricorn,Capricorn,no,yes
+russia-1991,Neptune,285.97,15°58′ Capricorn,Capricorn,no,yes
+russia-1991,Pluto,231.885,21°53′ Scorpio,Scorpio,no,yes
+russia-1991,North Node (mean),280.151,10°09′ Capricorn,Capricorn,no,no
+china-1949,Sun,187.767,7°46′ Libra,Libra,no,yes
+china-1949,Moon,303.049,3°03′ Aquarius,Aquarius,no,yes
+china-1949,Mercury,193.18,13°11′ Libra,Libra,yes,yes
+china-1949,Venus,229.435,19°26′ Scorpio,Scorpio,no,yes
+china-1949,Mars,134.882,14°53′ Leo,Leo,no,yes
+china-1949,Jupiter,292.591,22°35′ Capricorn,Capricorn,no,yes
+china-1949,Saturn,163.145,13°09′ Virgo,Virgo,no,yes
+china-1949,Uranus,94.975,4°59′ Cancer,Cancer,no,yes
+china-1949,Neptune,194.644,14°39′ Libra,Libra,no,yes
+china-1949,Pluto,137.643,17°39′ Leo,Leo,no,yes
+china-1949,North Node (mean),16.97,16°58′ Aries,Aries,no,no
+china-1949,Ascendant,301.251,1°15′ Aquarius,Aquarius,no,yes
+china-1949,Midheaven,233.478,23°29′ Scorpio,Scorpio,no,yes
+india-1947,Sun,141.111,21°07′ Leo,Leo,no,yes
+india-1947,Moon,117.105,27°06′ Cancer,Cancer,no,yes
+india-1947,Mercury,126.796,6°48′ Leo,Leo,no,yes
+india-1947,Venus,135.683,15°41′ Leo,Leo,no,yes
+india-1947,Mars,90.578,0°35′ Cancer,Cancer,no,yes
+india-1947,Jupiter,228.999,19°00′ Scorpio,Scorpio,no,yes
+india-1947,Saturn,133.595,13°36′ Leo,Leo,no,yes
+india-1947,Uranus,85.175,25°11′ Gemini,Gemini,no,yes
+india-1947,Neptune,188.829,8°50′ Libra,Libra,no,yes
+india-1947,Pluto,133.23,13°14′ Leo,Leo,no,yes
+india-1947,North Node (mean),58.195,28°12′ Taurus,Taurus,no,no
+india-1947,Ascendant,60.853,0°51′ Gemini,Gemini,no,yes
+india-1947,Midheaven,314.575,14°35′ Aquarius,Aquarius,no,yes
+israel-1948,Sun,53.663,23°40′ Taurus,Taurus,no,yes
+israel-1948,Moon,124.355,4°21′ Leo,Leo,no,yes
+israel-1948,Mercury,70.362,10°22′ Gemini,Gemini,no,yes
+israel-1948,Venus,94.798,4°48′ Cancer,Cancer,no,yes
+israel-1948,Mars,148.302,28°18′ Leo,Leo,no,yes
+israel-1948,Jupiter,267.648,27°39′ Sagittarius,Sagittarius,yes,yes
+israel-1948,Saturn,136.419,16°25′ Leo,Leo,no,yes
+israel-1948,Uranus,84.356,24°21′ Gemini,Gemini,no,yes
+israel-1948,Neptune,190.576,10°35′ Libra,Libra,yes,yes
+israel-1948,Pluto,132.643,12°39′ Leo,Leo,no,yes
+israel-1948,North Node (mean),43.696,13°42′ Taurus,Taurus,no,no
+israel-1948,Ascendant,203.049,23°03′ Libra,Libra,no,yes
+israel-1948,Midheaven,115.052,25°03′ Cancer,Cancer,no,yes
+germany-1990,Sun,189.489,9°29′ Libra,Libra,no,yes
+germany-1990,Moon,348.986,18°59′ Pisces,Pisces,no,yes
+germany-1990,Mercury,175.27,25°16′ Virgo,Virgo,no,yes
+germany-1990,Venus,181.807,1°48′ Libra,Libra,no,yes
+germany-1990,Mars,72.377,12°23′ Gemini,Gemini,no,yes
+germany-1990,Jupiter,128.613,8°37′ Leo,Leo,no,yes
+germany-1990,Saturn,288.783,18°47′ Capricorn,Capricorn,no,yes
+germany-1990,Uranus,275.742,5°45′ Capricorn,Capricorn,no,yes
+germany-1990,Neptune,281.821,11°49′ Capricorn,Capricorn,no,yes
+germany-1990,Pluto,226.238,16°14′ Scorpio,Scorpio,no,yes
+germany-1990,North Node (mean),303.898,3°54′ Aquarius,Aquarius,no,no
+germany-1990,Ascendant,124.412,4°25′ Leo,Leo,no,yes
+germany-1990,Midheaven,10.666,10°40′ Aries,Aries,no,yes
+france-1958,Sun,191.205,11°12′ Libra,Libra,no,yes
+france-1958,Moon,88.442,28°27′ Gemini,Gemini,no,yes
+france-1958,Mercury,190.772,10°46′ Libra,Libra,no,yes
+france-1958,Venus,181.573,1°34′ Libra,Libra,no,yes
+france-1958,Mars,62.317,2°19′ Gemini,Gemini,no,yes
+france-1958,Jupiter,215.409,5°25′ Scorpio,Scorpio,no,yes
+france-1958,Saturn,260.482,20°29′ Sagittarius,Sagittarius,no,yes
+france-1958,Uranus,135.328,15°20′ Leo,Leo,no,yes
+france-1958,Neptune,213.656,3°39′ Scorpio,Scorpio,no,yes
+france-1958,Pluto,153.288,3°17′ Virgo,Virgo,no,yes
+france-1958,North Node (mean),202.716,22°43′ Libra,Libra,no,no
+france-1958,Ascendant,114.844,24°51′ Cancer,Cancer,no,yes
+france-1958,Midheaven,0.517,0°31′ Aries,Aries,no,yes
+japan-1952,Sun,38.194,8°12′ Taurus,Taurus,no,yes
+japan-1952,Moon,88.679,28°41′ Gemini,Gemini,no,yes
+japan-1952,Mercury,12.215,12°13′ Aries,Aries,no,yes
+japan-1952,Venus,22.863,22°52′ Aries,Aries,no,yes
+japan-1952,Mars,221.536,11°32′ Scorpio,Scorpio,yes,yes
+japan-1952,Jupiter,29.927,29°56′ Aries,Aries,no,yes
+japan-1952,Saturn,189.652,9°39′ Libra,Libra,yes,yes
+japan-1952,Uranus,100.645,10°39′ Cancer,Cancer,no,yes
+japan-1952,Neptune,199.855,19°51′ Libra,Libra,yes,yes
+japan-1952,Pluto,139.094,19°06′ Leo,Leo,yes,yes
+japan-1952,North Node (mean),327.179,27°11′ Aquarius,Aquarius,no,no
+japan-1952,Ascendant,270.432,0°26′ Capricorn,Capricorn,no,yes
+japan-1952,Midheaven,200.156,20°09′ Libra,Libra,no,yes

@@ -1,0 +1,5 @@
+volcano,observatory,alert_level,aviation_color,lat,lon,notice_date
+Great Sitkin,Alaska Volcano Observatory,WATCH,ORANGE,52.0765,-176.1109,2026-10-22
+Shishaldin,Alaska Volcano Observatory,ADVISORY,YELLOW,54.7554,-163.9711,2026-10-22
+Kilauea,Hawaiian Volcano Observatory,ADVISORY,YELLOW,19.421,-155.287,2026-10-22
+Ahyi Seamount,Northern Mariana Islands,ADVISORY,YELLOW,20.437,145.03,2026-10-22

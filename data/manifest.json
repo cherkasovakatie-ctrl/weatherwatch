@@ -1,14 +1,14 @@
 {
- "updated": "16 October 2026",
- "updated_iso": "2026-10-16",
+ "updated": "23 October 2026",
+ "updated_iso": "2026-10-23",
  "datasets": [
   {
    "id": "ace_season",
    "file": "ace_season.csv",
    "title": "2026 tropical cyclone season to date",
-   "description": "Colorado State University real-time season-to-date statistics by basin: accumulated cyclone energy, named storms, hurricanes and major hurricanes, each with the climatological value for the same date. Read from the project data sheet on 13 Oct 2026.",
-   "updated": "2026-10-13",
-   "bytes": 521
+   "description": "Colorado State University real-time season-to-date statistics by basin. ACE and its climatological value for the same date from CSU's ACE-to-date vs climatology files (observed to 22 Oct 2026; South Indian ACE from the CSU storm table, because its climatology file ends on 4 Oct); storm counts from the CSU storm tables (named = all listed storms, hurricanes/typhoons ≥ 64 kt, majors ≥ 96 kt) as of 23 Oct; count climatologies are those read on 13 Oct 2026.",
+   "updated": "2026-10-23",
+   "bytes": 523
   },
   {
    "id": "alignment_calendar",
@@ -54,9 +54,9 @@
    "id": "ar_watch",
    "file": "ar_watch.csv",
    "title": "Atmospheric river watch",
-   "description": "Daily maximum total column water vapour (mm) and daily rain total for the San Fernando Valley, offshore Southern California and San Francisco: past 7 days and 16-day forecast, Open-Meteo best-match blend.",
-   "updated": "2026-10-12",
-   "bytes": 1141
+   "description": "Daily maximum total column water vapour (mm) and daily rain total for the San Fernando Valley, offshore Southern California and San Francisco: past 7 days and 16-day forecast, Open-Meteo best-match blend. Points: San Fernando Valley 34.165°N 118.396°W, offshore Southern California 33.5°N 119.5°W, San Francisco 37.77°N 122.42°W.",
+   "updated": "2026-10-23",
+   "bytes": 1467
   },
   {
    "id": "atmosphere_monthly",
@@ -86,17 +86,17 @@
    "id": "cdec_reservoirs",
    "file": "cdec_reservoirs.csv",
    "title": "California reservoirs",
-   "description": "California Data Exchange Center daily reservoir storage: the ten largest reservoirs plus Pyramid, Castaic and Lake Perris (Southern California), with storage as % of capacity and % of the historical average for the date. Read from the project data sheet on 13 Oct 2026.",
-   "updated": "2026-10-13",
-   "bytes": 540
+   "description": "California Data Exchange Center daily reservoir report (RES): storage, % of capacity and % of the historical average for the date, for the ten largest reservoirs plus Pyramid, Castaic and Lake Perris. Report of 22 Oct 2026; McClure (Exchequer) was not reported that day, so its storage is the CDEC daily sensor value and its % of average is from 13 Oct.",
+   "updated": "2026-10-23",
+   "bytes": 539
   },
   {
    "id": "coast_hourly",
    "file": "coast_hourly.csv",
    "title": "Los Angeles water level and Santa Ana gauge, hourly",
    "description": "NOAA CO-OPS 9410660 observed vs predicted water level (ft MLLW, local time, half-hourly) and Open-Meteo sea-level pressure difference LAX minus Tonopah (hPa) with LAX gusts (mph) and humidity, Pacific time; forecast = 1 for forecast hours.",
-   "updated": "2026-10-16",
-   "bytes": 11696
+   "updated": "2026-10-23",
+   "bytes": 24555
   },
   {
    "id": "coral_dhw",
@@ -168,7 +168,7 @@
    "title": "Equatorial Pacific subsurface heat",
    "description": "CPC upper-300 m equatorial temperature anomaly for 180°–100°W (°C vs 1981–2010, from 1979) and NOAA PMEL warm water volume anomaly (5°N–5°S, 120°E–80°W, ×10¹⁴ m³). Heat content is checked daily by the scripted refresh (tools/nightly); WWV is updated in the Friday review and may lag a month.",
    "updated": "2026-10-23",
-   "bytes": 11206
+   "bytes": 11208
   },
   {
    "id": "eruption_epoch",
@@ -183,7 +183,7 @@
    "file": "event_analyses.csv",
    "title": "Why extreme events happened",
    "description": "One row per extreme event of 2026 (current October events and earlier major events): setup, trigger, amplifiers, climate signal and a confidence level. Compiled by Claude from World Weather Attribution studies, NWS/NHC coverage, Wikipedia event pages, news reports and Open-Meteo model data; full sources in the 'Extreme Weather 2026 — Why It Happened' report.",
-   "updated": "2026-10-16",
+   "updated": "2026-10-23",
    "bytes": 10520
   },
   {
@@ -206,17 +206,17 @@
    "id": "gdacs_current",
    "file": "gdacs_current.csv",
    "title": "GDACS current alerts",
-   "description": "Current GDACS events (iscurrent) read 11 Oct 2026 17:49 UTC: floods, wildfires (largest 100), drought, volcano alerts, and orange/red earthquakes. Tropical cyclones come from the separate cyclone dataset.",
-   "updated": "2026-10-11",
-   "bytes": 15466
+   "description": "GDACS events from the SEARCH lists of 23 Oct 2026: current floods, the 100 largest current wildfires, Orange/Red droughts updated this month, Orange/Red volcano alerts of the past three weeks and Orange/Red earthquakes. Tropical cyclones come from the separate cyclone dataset.",
+   "updated": "2026-10-23",
+   "bytes": 15962
   },
   {
    "id": "impacts",
    "file": "impacts.csv",
    "title": "Impact reports",
    "description": "Damage and casualty reports compiled by Claude from news agencies and civil-protection sources (AP, ANSA, ICIMOD, Weather Channel, The Watchers citing SINAPROC/COEN, Rio Times, CBS/AP). Counts are preliminary. 'footage' gives Claude's frame-by-frame verdict on related videos: ok = consistent, unknown = can't place, mismatch = clips from different events.",
-   "updated": "2026-10-12",
-   "bytes": 4556
+   "updated": "2026-10-23",
+   "bytes": 5147
   },
   {
    "id": "la_rain",
@@ -319,8 +319,8 @@
    "file": "mjo_daily.csv",
    "title": "MJO real-time OMI",
    "description": "Last 150 days of NOAA PSL real-time OMI (CPC OLR). rmm1 = PC2, rmm2 = −PC1, so the phase plane matches the RMM convention; phase 1–8 from the angle.",
-   "updated": "2026-10-12",
-   "bytes": 4830
+   "updated": "2026-10-23",
+   "bytes": 4842
   },
   {
    "id": "moon_hist",
@@ -551,24 +551,24 @@
    "file": "polar_motion.csv",
    "title": "Polar motion, monthly since 1990",
    "description": "IERS EOP 14 C04 (to Jan 2026) and finals2000A daily (Jul 2026 onward, with forecasts) pole coordinates x and y in arcseconds.",
-   "updated": "2026-10-16",
-   "bytes": 10616
+   "updated": "2026-10-23",
+   "bytes": 10829
   },
   {
    "id": "polar_stations",
    "file": "polar_stations.csv",
    "title": "Polar temperatures now",
-   "description": "Open-Meteo model analysis at nine Arctic and Antarctic points (current temperature, wind, today's mean) with the 1991–2020 ERA5 mean for the same week from the Open-Meteo archive API, read 11 Oct 2026 19:15 UTC.",
-   "updated": "2026-10-11",
-   "bytes": 794
+   "description": "Open-Meteo model analysis at nine Arctic and Antarctic points (current temperature, wind, today's mean) with the 1991–2020 ERA5 mean of the same calendar week (±3 days) from the Open-Meteo archive API, read 23 Oct 2026 18:45 UTC.",
+   "updated": "2026-10-23",
+   "bytes": 798
   },
   {
    "id": "poles_daily",
    "file": "poles_daily.csv",
    "title": "Polar daily: AO, polar vortex wind, Greenland temperatures",
-   "description": "CPC daily AO; zonal-mean zonal wind at 60N 10 hPa from GFS (8 longitudes, Open-Meteo; u60 = analysis, u60_fc = forecast); daily max 2 m temperature at five Greenland ice-sheet points (Open-Meteo).",
-   "updated": "2026-10-16",
-   "bytes": 4421
+   "description": "CPC daily AO; zonal-mean zonal wind at 60N 10 hPa from GFS (8 longitudes, Open-Meteo; u60 = analysis, u60_fc = forecast); daily max 2 m temperature at five Greenland ice-sheet points (Open-Meteo). From 23 Sep 2026 the south-dome, east and northwest Greenland series use 60.98°N 44.03°W, 72.93°N 28.06°W and 77.01°N 60.95°W (closest matches to the earlier, unrecorded points: mean differences 1.2, 2.2 and 0.7 °C); Summit (72.58°N 38.46°W) and Kangerlussuaq (67.0°N 47.0°W) are unchanged.",
+   "updated": "2026-10-23",
+   "bytes": 4840
   },
   {
    "id": "quake_tests",
@@ -591,8 +591,8 @@
    "file": "ridge_watch.csv",
    "title": "Ridge watch",
    "description": "Daily mean 500 hPa geopotential height and anomaly (m) at 40N 130W, 33N 125W and 50N 140W: past 7 days and 16-day forecast (Open-Meteo best match). Normal = 2021–2025 mean of Open-Meteo historical forecasts within ±7 days of the date.",
-   "updated": "2026-10-12",
-   "bytes": 1130
+   "updated": "2026-10-23",
+   "bytes": 1479
   },
   {
    "id": "seaice_annual",
@@ -694,17 +694,17 @@
    "id": "tc_tracks",
    "file": "tc_tracks.csv",
    "title": "Cyclone tracks",
-   "description": "Track segments with strength category from GDACS geometry (NOAA and JTWC data), split into past and forecast at the latest position.",
-   "updated": "2026-10-11",
-   "bytes": 6585
+   "description": "Track segments with category (TD/TS/HU) from GDACS geometry (NOAA and JTWC data), chained in time order and split into past and forecast at the latest position; forecasts of ended storms are dropped. Read 23 Oct 2026.",
+   "updated": "2026-10-23",
+   "bytes": 5130
   },
   {
    "id": "tropical_cyclones",
    "file": "tropical_cyclones.csv",
    "title": "Active tropical cyclones",
-   "description": "Current positions and intensity from NHC CurrentStorms.json (Atlantic, eastern Pacific) and GDACS/JTWC (western Pacific), read 11 Oct 2026 about 17:20 UTC. Peak wind from GDACS.",
-   "updated": "2026-10-11",
-   "bytes": 680
+   "description": "Storms active on 23 Oct 2026 or ended within the past week: NHC CurrentStorms.json for the Atlantic and eastern Pacific, GDACS (JTWC and NOAA data) for the rest and for last positions of ended storms. Peak wind = CSU real-time best-track maximum (or the current NHC intensity if higher). Read 23 Oct 2026 about 18:45 UTC.",
+   "updated": "2026-10-23",
+   "bytes": 755
   },
   {
    "id": "volcano_alerts_us",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17",
+ "updated": "2026-10-23",
  "events": [
   {
    "id": "santa-ana-oct-2026",
@@ -8,7 +8,7 @@
    "region": "Los Angeles and Ventura counties, Southern California",
    "start": "2026-10-15",
    "end": "2026-10-18",
-   "status": "unfolding",
+   "status": "ended",
    "depth": "deep",
    "headline": "A strong offshore wind event with gusts of 70–90 mph in the mountains, humidity near 10% and coastal heat in the 90s. It peaked on 16 October and eases from 18 October, ahead of a cooler storm system expected around 21–22 October.",
    "as_of": "17 Oct 2026 (NWS Los Angeles fire-weather statement, 9 am PDT)",
@@ -60,7 +60,7 @@
    "region": "Oklahoma, West Texas, the Rockies, eastern US",
    "start": "2026-10-13",
    "end": "2026-10-18",
-   "status": "unfolding",
+   "status": "ended",
    "depth": "deep",
    "headline": "Record heat, then record moisture, then a hard freeze within a week. A front stalled across Oklahoma between two weather systems and storms trained over the same counties, dropping 4–11 in of rain and pushing the Canadian River into major flood.",
    "as_of": "16 Oct 2026 (NWS Norman flood warnings to 19–20 Oct)",

@@ -5,8 +5,8 @@
  "region": "Los Angeles and Ventura counties, Southern California",
  "start": "2026-10-15",
  "end": "2026-10-18",
- "status": "unfolding",
- "as_of": "17 Oct 2026 (NWS Los Angeles fire-weather statement, 9 am PDT)",
+ "status": "ended",
+ "as_of": "23 Oct 2026 (LAX − Tonopah gradient, Open-Meteo analysis)",
  "headline": "A strong offshore wind event with gusts of 70–90 mph in the mountains, humidity near 10% and coastal heat in the 90s. It peaked on 16 October and eases from 18 October, ahead of a cooler storm system expected around 21–22 October.",
  "numbers": [
   [
@@ -54,6 +54,14 @@
   [
    "21–22 Oct (forecast)",
    "An upper-level low drops down the coast: rain (about 0.5 in, locally 1 in+), a sharp cooldown and Sierra snow."
+  ],
+  [
+   "18 Oct",
+   "Offshore flow ends: the LAX − Tonopah pressure gradient weakens to −2 hPa (daily minimum), from −11.7 hPa on 16 Oct and −8.1 hPa on 17 Oct."
+  ],
+  [
+   "23–24 Oct",
+   "A second, shorter offshore episode: gradient −6.4 hPa on 23 Oct, forecast −8.2 hPa on 24 Oct (moderate Santa Ana; Open-Meteo)."
   ]
  ],
  "sections": {

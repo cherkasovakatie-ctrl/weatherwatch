@@ -1,0 +1,9 @@
+period,epoch,top_ma,base_ma,color
+Quaternary,Holocene,0.0,0.0117,#fef1e0
+Quaternary,Pleistocene,0.0117,2.58,#fff1ae
+Neogene,Pliocene,2.58,5.33,#ffff99
+Neogene,Miocene,5.33,23.04,#ffff00
+Paleogene,Oligocene,23.04,33.9,#fcbf7a
+Paleogene,Eocene,33.9,56.0,#fcb46c
+Paleogene,Paleocene,56.0,66.0,#fca75e
+Cretaceous,Late Cretaceous,66.0,72.17,#a6d84a

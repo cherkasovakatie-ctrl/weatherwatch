@@ -1,0 +1,7 @@
+storm,basin,source,status,wind_kt,pressure_mb,lat,lon,movement,peak_wind_kt,gdacs_alert,state,as_of_utc
+Vance,Eastern Pacific,NHC,Hurricane,80,979,10.7,-102.1,NW (325°) at 5 mph,80,Green,current,2026-10-23 15:00
+Champi,Western Pacific,JTWC via GDACS,Typhoon,,,22.7,123.8,,160,Red,current,2026-10-23 00:00
+Josephine,Atlantic,NOAA via GDACS,Ended (last GDACS position),,,40.0,-65.8,,55,Green,recent,2026-10-22 21:00
+Trudy,Eastern Pacific,NOAA via GDACS,Ended (last GDACS position),,,19.5,-108.0,,105,Green,recent,2026-10-20 03:00
+Wati,South Pacific,JTWC via GDACS,Ended (last GDACS position),,,-20.7,-156.8,,65,Green,recent,2026-10-19 06:00
+Simon,Eastern Pacific,NOAA via GDACS,Ended (last GDACS position),,,21.5,-110.3,,135,Orange,recent,2026-10-16 21:00
