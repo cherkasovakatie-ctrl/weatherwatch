@@ -1,0 +1,44 @@
+name: ERA5 equatorial winds (Copernicus CDS)
+
+# Fetches ERA5 zonal wind for 10°S–10°N, 1979–2001, reduces it to daily band means and re-tests the 1982 westerly-wind-burst list.
+# Needs the repository secret CDSAPI_KEY (personal access token from https://cds.climate.copernicus.eu/profile) and the ERA5
+# licences accepted on the CDS. Run from the Actions tab (Run workflow), or by pushing a change to tools/era5/trigger.txt.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [tools/era5/trigger.txt]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: era5
+  cancel-in-progress: false
+
+jobs:
+  era5:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Check the CDS key is set
+        env: { CDSAPI_KEY: '${{ secrets.CDSAPI_KEY }}' }
+        run: |
+          if [ -z "$CDSAPI_KEY" ]; then echo "::error::Repository secret CDSAPI_KEY is missing (Settings > Secrets and variables > Actions)"; exit 1; fi
+          printf 'url: https://cds.climate.copernicus.eu/api\nkey: %s\n' "$CDSAPI_KEY" > ~/.cdsapirc; chmod 600 ~/.cdsapirc
+      - run: pip install cdsapi netCDF4 numpy scipy
+      - name: Fetch ERA5 and reduce to band means
+        run: python3 tools/era5/fetch_band.py 1979 2001
+      - name: Re-test westerly wind bursts
+        run: python3 tools/papers/wwb_era5_1982.py
+      - name: Commit results
+        run: |
+          rm -f ~/.cdsapirc
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/papers/1982/era5_band_1979_2001.npz data/papers/1982/era5_wwb.json
+          git diff --cached --quiet && { echo "No changes"; exit 0; }
+          git commit -m "ERA5 equatorial winds 1979-2001 and WWB re-test"
+          for i in 1 2 3; do git pull --rebase -X theirs origin main && git push origin HEAD:main && exit 0; sleep $((i*15)); done; exit 1
