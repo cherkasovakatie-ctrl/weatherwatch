@@ -1,0 +1,7 @@
+OK   iri_sst_table 80133
+OK   iri_plume_tab 80133
+OK   iri_cpc_probs 80133
+FAIL iri_forecast_dir HTTP Error 404: Not Found
+OK   iri_ensofcst_dir 1004
+OK   cpc_ensodisc 13499
+OK   bom_models 42615
