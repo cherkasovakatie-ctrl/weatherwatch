@@ -1,0 +1,18 @@
+name: earthkit diagnostics (branch weekly-raw)
+on:
+  push:
+    branches: [weekly-raw]
+    paths: [tools/earthkit/diag.py]
+permissions:
+  contents: write
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup-earthkit
+      - run: python tools/earthkit/diag.py || true
+      - run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add raw && git commit -m "earthkit diagnostics" && git pull --rebase origin weekly-raw && git push origin HEAD:weekly-raw
