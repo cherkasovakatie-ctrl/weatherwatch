@@ -16,7 +16,7 @@ def abstract(inv):
     if not inv: return None
     pos = sorted((p, w) for w, ps in inv.items() for p in ps); return ' '.join(w for _, w in pos)
 res = {}
-for line in open(f'tools/papers/refs_{TAG}.tsv', encoding='utf-8'):
+for line in open(f"tools/papers/refs_{TAG}.tsv", encoding="utf-8"):
     if not line.strip() or line.startswith('#'): continue
     key, q = line.rstrip('\n').split('\t', 1)
     if q.startswith('10.'):
