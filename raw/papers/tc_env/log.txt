@@ -1,0 +1,11 @@
+sst noaa.oisst.v2.highres/sst.day.mean.2026.nc 385463386 bytes
+ssta noaa.oisst.v2.highres/sst.day.anom.2026.nc 464198326 bytes
+u ncep.reanalysis.dailyavgs/pressure/uwnd.2026.nc 32211012 bytes
+v ncep.reanalysis.dailyavgs/pressure/vwnd.2026.nc 33028621 bytes
+rh ncep.reanalysis.dailyavgs/pressure/rhum.2026.nc 8216151 bytes
+sst: time 2026-01-01 to 2026-10-23 (296 days)
+ssta: time 2026-01-01 to 2026-10-23 (296 days)
+u: time 2026-01-01 to 2026-03-17 (76 days)
+v: time 2026-01-01 to 2026-03-17 (76 days)
+rh: time 2026-01-01 to 2026-03-17 (76 days)
+fixes 1194
