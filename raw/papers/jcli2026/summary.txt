@@ -1,0 +1,5 @@
+articles 378
+oa_status Counter({'closed': 319, 'green': 28, 'hybrid': 16, 'gold': 8, 'bronze': 5, '': 2})
+oa_license Counter({'': 343, 'cc-by': 24, 'other-oa': 6, 'cc-by-nc-nd': 3, 'cc-by-nc': 1, 'cc-by-nc-sa': 1})
+crossref licence urls Counter({'http://www.ametsoc.org/PUBSReuseLicenses': 341, 'https://creativecommons.org/licenses/by/4.0/': 16})
+issues [('1', 24), ('10', 26), ('11', 21), ('12', 22), ('13', 21), ('14', 22), ('15', 25), ('16', 20), ('17', 12), ('18', 9), ('19', 17), ('2', 22), ('20', 15), ('21', 21), ('22', 6), ('3', 16), ('4', 11), ('5', 9), ('6', 11), ('7', 13), ('8', 13), ('9', 22)]
