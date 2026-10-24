@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: '3.12' }
-      - run: pip install numpy xarray netCDF4
+      - run: pip install numpy xarray netCDF4 cftime
       - run: python3 tools/papers/gpcp_regions.py > gpcp_stdout.txt 2>&1 || true; mkdir -p raw/papers/gpcp; mv gpcp_stdout.txt raw/papers/gpcp/
       - name: Commit
         run: |
