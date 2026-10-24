@@ -1,0 +1,224 @@
+{
+ "lheureux2024": {
+  "query": "10.1175/JCLI-D-23-0406.1",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1175/jcli-d-23-0406.1",
+    "title": "A Relative Sea Surface Temperature Index for Classifying ENSO Events in a Changing Climate",
+    "journal": "Journal of Climate",
+    "volume": "37",
+    "issue": "4",
+    "page": "1197-1211",
+    "year": 2024,
+    "authors": [
+     "L’Heureux, Michelle L.",
+     "Tippett, Michael K.",
+     "Wheeler, Matthew C.",
+     "Nguyen, Hanh",
+     "Narsey, Sugata",
+     "Johnson, Nathaniel",
+     "Hu, Zeng-Zhen",
+     "Watkins, Andrew B.",
+     "Lucas, Chris",
+     "Ganter, Catherine",
+     "Becker, Emily",
+     "Wang, Wanqiu",
+     "Di Liberto, Tom"
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title>\n<jats:p>El Niño–Southern Oscillation (ENSO) is often characterized through the use of sea surface temperature (SST) departures from their climatological values, as in the Niño-3.4 index. However, this approach is problematic in a changing climate when the climatology itself is varying. To address this issue, van Oldenborgh et al. proposed a relative Niño-3.4 SST index, which subtracts the tropical mean SST anomaly from the Niño-3.4 index and multiplies by a scaling factor. We extend their work by providing a simplified calculation procedure for the scaling factor, and confirm that the relative index demonstrates reduced sensitivity to climate change and multidecadal variability. In particular, we show in three observational SST datasets that the relative index provides a more consistent classification of historical El Niño and La Niña oceanic conditions that is more robust across climatological periods compared to the nonrelative index. Forecast skill of the relative Niño-3.4 index in the North American Multimodel Ensemble (NMME) and ACCESS-S2 is slightly reduced for targets during the first half of the year because subtracting the tropical mean removes a source of additional skill. For targets in the second half of the year, the relative and nonrelative indices are equally skillful. Observed ENSO teleconnections in 200-hPa geopotential height and precipitation during key seasons are sharper and explain more variability over Australia and the contiguous United States when computed with the relative index. Overall, the relative Niño-3.4 index provides a more robust option for real-time monitoring and forecasting ENSO in a changing climate.</jats:p>\n<jats:sec>\n<jats:title>Significance Statement</jats:title>\n<jats:p>The goal of this study is to further explore a relative sea surface temperature index for monitoring and prediction of El Niño–Southern Oscillation. Sea surface temperature indices are typically computed as a difference from a 30-yr climatological average, and El Niño and La Niña events occur when values exceed a certain threshold. This method is suitable when the climate is stationary. However, because of climate change and other lower-frequency variations, historical El Niño and La Niña events are reclassified depending on which climatological period is selected. A relative index is investigated to ameliorate this problem.</jats:p></jats:sec>",
+    "abstract_openalex": "Abstract El Niño–Southern Oscillation (ENSO) is often characterized through the use of sea surface temperature (SST) departures from their climatological values, as in the Niño-3.4 index. However, this approach is problematic in a changing climate when the climatology itself is varying. To address this issue, van Oldenborgh et al. proposed a relative Niño-3.4 SST index, which subtracts the tropical mean SST anomaly from the Niño-3.4 index and multiplies by a scaling factor. We extend their work by providing a simplified calculation procedure for the scaling factor, and confirm that the relative index demonstrates reduced sensitivity to climate change and multidecadal variability. In particular, we show in three observational SST datasets that the relative index provides a more consistent classification of historical El Niño and La Niña oceanic conditions that is more robust across climatological periods compared to the nonrelative index. Forecast skill of the relative Niño-3.4 index in the North American Multimodel Ensemble (NMME) and ACCESS-S2 is slightly reduced for targets during the first half of the year because subtracting the tropical mean removes a source of additional skill. For targets in the second half of the year, the relative and nonrelative indices are equally skillful. Observed ENSO teleconnections in 200-hPa geopotential height and precipitation during key seasons are sharper and explain more variability over Australia and the contiguous United States when computed with the relative index. Overall, the relative Niño-3.4 index provides a more robust option for real-time monitoring and forecasting ENSO in a changing climate. Significance Statement The goal of this study is to further explore a relative sea surface temperature index for monitoring and prediction of El Niño–Southern Oscillation. Sea surface temperature indices are typically computed as a difference from a 30-yr climatological average, and El Niño and La Niña events occur when values exceed a certain threshold. This method is suitable when the climate is stationary. However, because of climate change and other lower-frequency variations, historical El Niño and La Niña events are reclassified depending on which climatological period is selected. A relative index is investigated to ameliorate this problem.",
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 48
+   }
+  ]
+ },
+ "meinen2000": {
+  "query": "10.1175/1520-0442(2000)013<3551:OOWWVC>2.0.CO;2",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1175/1520-0442(2000)013<3551:oowwvc>2.0.co;2",
+    "title": "Observations of Warm Water Volume Changes in the Equatorial Pacific and Their Relationship to El Niño and La Niña",
+    "journal": "Journal of Climate",
+    "volume": "13",
+    "issue": "20",
+    "page": "3551-3559",
+    "year": 2000,
+    "authors": [
+     "Meinen, Christopher S.",
+     "McPhaden, Michael J."
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": "This paper describes observed changes in surface winds, sea surface temperature (SST), and the volume of water warmer than 20°C (WWV) in the equatorial Pacific Ocean for the period 1980–99. The purpose is to test recent hypotheses about the relationship between variations in WWV and the El Niño–Southern Oscillation (ENSO) cycle. The results confirm inferences based on theory, models, and previous empirical analyses using proxy data (namely sea level) that ENSO involves a recharge and discharge of WWV along the equator and that the cyclic nature of ENSO results from a disequilibrium between zonal winds and zonal mean thermocline depth. The authors also find that the magnitude of ENSO SST anomalies is directly related to the magnitude of zonal mean WWV anomalies. Furthermore, for a given change in equatorial WWV, the corresponding warm El Niño SST anomalies are larger than the corresponding cold La Niña anomalies. This asymmetry between the warm and cold phases of the ENSO cycle implies differences in the relative importance of physical processes controlling SST during El Niño and La Niña events.",
+    "oa_status": "bronze",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/13/20/1520-0442_2000_013_3551_oowwvc_2.0.co_2.pdf",
+    "cited_by": 652
+   }
+  ]
+ },
+ "jin1997": {
+  "query": "10.1175/1520-0469(1997)054<0811:AEORPF>2.0.CO;2",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1175/1520-0469(1997)054<0811:aeorpf>2.0.co;2",
+    "title": "An Equatorial Ocean Recharge Paradigm for ENSO. Part I: Conceptual Model",
+    "journal": "Journal of the Atmospheric Sciences",
+    "volume": "54",
+    "issue": "7",
+    "page": "811-829",
+    "year": 1997,
+    "authors": [
+     "Jin, Fei-Fei"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": "A new conceptual model for ENSO has been constructed based upon the positive feedback of tropical oceanatmosphere interaction proposed by Bjerknes as the growth mechanism and the recharge-discharge of the equatorial heat content as the phase-transition mechanism suggested by Cane and Zebiak and by Wyrtki.This model combines SST dynamics and ocean adjustment dynamics into a coupled basinwide recharge oscillator that relies on the nonequilibrium between the zonal mean equatorial thermocline depth and wind stress.Over a wide range of the relative coupling coefficient, this recharge oscillator can be either self-excited or stochastically sustained.Its period is robust in the range of 3-5 years.This recharge oscillator model clearly depicts the slow physics of ENSO and also embodies the delayed oscillator (Schopf and Suarez; Battisti and Hirst) without requiring an explicit wave delay.It can also be viewed as a mixed SST-ocean dynamics oscillator due to the fact that it arises from the merging of two uncoupled modes, a decaying SST mode and a basinwide ocean adjustment mode, through the tropical ocean-atmosphere coupling.The basic characteristics of this recharge oscillator, including the relationship between the equatorial western Pacific thermocline depth and the eastern Pacific SST anomalies, are in agreement with those of ENSO variability in the observations and simulations with the Zebiak-Cane model.",
+    "oa_status": "bronze",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/atsc/54/7/1520-0469_1997_054_0811_aeorpf_2.0.co_2.pdf",
+    "cited_by": 1599
+   }
+  ]
+ },
+ "takahashi2011": {
+  "query": "10.1029/2011GL047364",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1029/2011gl047364",
+    "title": "ENSO regimes: Reinterpreting the canonical and Modoki El Niño",
+    "journal": "Geophysical Research Letters",
+    "volume": "38",
+    "issue": "10",
+    "page": "n/a-n/a",
+    "year": 2011,
+    "authors": [
+     "Takahashi, K.",
+     "Montecinos, A.",
+     "Goubanova, K.",
+     "Dewitte, B."
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": "Americanae nace como un proyecto conjunto que surge dentro de la Red Europea de Información y Documentación sobre América Latina (REDIAL), y que ha afrontado la Biblioteca de la Agencia Española de Cooperación Internacional para el Desarrollo (AECID). Esta nueva biblioteca virtual hace más accesibles los libros digitales de tema americanista a los investigadores y usuarios interesados de cualquier parte del mundo.",
+    "oa_status": "green",
+    "oa_url": "http://repositorio.igp.gob.pe/handle/IGP/3045",
+    "cited_by": 648
+   }
+  ]
+ },
+ "williams2018": {
+  "query": "10.1029/2018GL079203",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1029/2018gl079203",
+    "title": "Diversity of ENSO Events Unified by Convective Threshold Sea Surface Temperature: A Nonlinear ENSO Index",
+    "journal": "Geophysical Research Letters",
+    "volume": "45",
+    "issue": "17",
+    "page": "9236-9244",
+    "year": 2018,
+    "authors": [
+     "Williams, Ian N.",
+     "Patricola, Christina M."
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    We show that the well‐known failure of any single index to capture the diversity and extremes of El Niño‐Southern Oscillation (ENSO) results from the inability of existing indices to uniquely characterize the average longitude of deep convection in the Walker Circulation. We present a simple sea surface temperature (SST)‐based index of this longitude that compactly characterizes the different spatial patterns, or\n                    <jats:italic>flavors</jats:italic>\n                    of observed and projected ENSO events. It recovers the familiar global responses of temperature, precipitation, and tropical cyclones to ENSO and identifies historical extreme El Niño events. Despite its simplicity, the new longitude index describes the nonlinear relationship between the first two principal components of SST, and unlike previous indices, accounts for background SST changes associated with the seasonal cycle and climate change. The index reveals that extreme El Niño, El Niño Modoki, and La Niña events are projected to become more frequent in the future at the expense of neutral ENSO conditions.\n                  </jats:p>",
+    "abstract_openalex": "Abstract We show that the well‐known failure of any single index to capture the diversity and extremes of El Niño‐Southern Oscillation (ENSO) results from the inability of existing indices to uniquely characterize the average longitude of deep convection in the Walker Circulation. We present a simple sea surface temperature (SST)‐based index of this longitude that compactly characterizes the different spatial patterns, or flavors of observed and projected ENSO events. It recovers the familiar global responses of temperature, precipitation, and tropical cyclones to ENSO and identifies historical extreme El Niño events. Despite its simplicity, the new longitude index describes the nonlinear relationship between the first two principal components of SST, and unlike previous indices, accounts for background SST changes associated with the seasonal cycle and climate change. The index reveals that extreme El Niño, El Niño Modoki, and La Niña events are projected to become more frequent in the future at the expense of neutral ENSO conditions.",
+    "oa_status": "bronze",
+    "oa_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2018GL079203",
+    "cited_by": 124
+   }
+  ]
+ },
+ "capotondi2015": {
+  "query": "10.1175/BAMS-D-13-00117.1",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1175/bams-d-13-00117.1",
+    "title": "Understanding ENSO Diversity",
+    "journal": "Bulletin of the American Meteorological Society",
+    "volume": "96",
+    "issue": "6",
+    "page": "921-938",
+    "year": 2015,
+    "authors": [
+     "Capotondi, Antonietta",
+     "Wittenberg, Andrew T.",
+     "Newman, Matthew",
+     "Di Lorenzo, Emanuele",
+     "Yu, Jin-Yi",
+     "Braconnot, Pascale",
+     "Cole, Julia",
+     "Dewitte, Boris",
+     "Giese, Benjamin",
+     "Guilyardi, Eric",
+     "Jin, Fei-Fei",
+     "Karnauskas, Kristopher",
+     "Kirtman, Benjamin",
+     "Lee, Tong",
+     "Schneider, Niklas",
+     "Xue, Yan",
+     "Yeh, Sang-Wook"
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title>\n                  <jats:p>El Niño–Southern Oscillation (ENSO) is a naturally occurring mode of tropical Pacific variability, with global impacts on society and natural ecosystems. While it has long been known that El Niño events display a diverse range of amplitudes, triggers, spatial patterns, and life cycles, the realization that ENSO’s impacts can be highly sensitive to this event-to-event diversity is driving a renewed interest in the subject. This paper surveys our current state of knowledge of ENSO diversity, identifies key gaps in understanding, and outlines some promising future research directions.</jats:p>",
+    "abstract_openalex": "Abstract El Niño–Southern Oscillation (ENSO) is a naturally occurring mode of tropical Pacific variability, with global impacts on society and natural ecosystems. While it has long been known that El Niño events display a diverse range of amplitudes, triggers, spatial patterns, and life cycles, the realization that ENSO’s impacts can be highly sensitive to this event-to-event diversity is driving a renewed interest in the subject. This paper surveys our current state of knowledge of ENSO diversity, identifies key gaps in understanding, and outlines some promising future research directions.",
+    "oa_status": "bronze",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/bams/96/6/bams-d-13-00117.1.pdf",
+    "cited_by": 1079
+   }
+  ]
+ },
+ "mcphaden2006": {
+  "query": "10.1126/science.1132588",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1126/science.1132588",
+    "title": "ENSO as an Integrating Concept in Earth Science",
+    "journal": "Science",
+    "volume": "314",
+    "issue": "5806",
+    "page": "1740-1745",
+    "year": 2006,
+    "authors": [
+     "McPhaden, Michael J.",
+     "Zebiak, Stephen E.",
+     "Glantz, Michael H."
+    ],
+    "abstract_crossref": "<jats:p>The El Niño–Southern Oscillation (ENSO) cycle of alternating warm El Niño and cold La Niña events is the dominant year-to-year climate signal on Earth. ENSO originates in the tropical Pacific through interactions between the ocean and the atmosphere, but its environmental and socioeconomic impacts are felt worldwide. Spurred on by the powerful 1997–1998 El Niño, efforts to understand the causes and consequences of ENSO have greatly expanded in the past few years. These efforts reveal the breadth of ENSO's influence on the Earth system and the potential to exploit its predictability for societal benefit. However, many intertwined issues regarding ENSO dynamics, impacts, forecasting, and applications remain unresolved. Research to address these issues will not only lead to progress across a broad range of scientific disciplines but also provide an opportunity to educate the public and policy makers about the importance of climate variability and change in the modern world.</jats:p>",
+    "abstract_openalex": "The El Niño-Southern Oscillation (ENSO) cycle of alternating warm El Niño and cold La Niña events is the dominant year-to-year climate signal on Earth. ENSO originates in the tropical Pacific through interactions between the ocean and the atmosphere, but its environmental and socioeconomic impacts are felt worldwide. Spurred on by the powerful 1997-1998 El Niño, efforts to understand the causes and consequences of ENSO have greatly expanded in the past few years. These efforts reveal the breadth of ENSO's influence on the Earth system and the potential to exploit its predictability for societal benefit. However, many intertwined issues regarding ENSO dynamics, impacts, forecasting, and applications remain unresolved. Research to address these issues will not only lead to progress across a broad range of scientific disciplines but also provide an opportunity to educate the public and policy makers about the importance of climate variability and change in the modern world.",
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 2125
+   }
+  ]
+ },
+ "saji1999": {
+  "query": "10.1038/43854",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1038/43854",
+    "title": "A dipole mode in the tropical Indian Ocean",
+    "journal": "Nature",
+    "volume": "401",
+    "issue": "6751",
+    "page": "360-363",
+    "year": 1999,
+    "authors": [
+     "Saji, N. H.",
+     "Goswami, B. N.",
+     "Vinayachandran, P. N.",
+     "Yamagata, T."
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 5505
+   }
+  ]
+ }
+}
