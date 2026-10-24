@@ -29,3 +29,16 @@ with open(f'{OUT}/tc_fixes_tropwp.csv', 'w', newline='') as fh:
     w = csv.writer(fh); w.writerow(['sid', 'name', 'basin', 'time', 'lat', 'lon', 'wind_kt', 'track_type']); w.writerows(rows)
 open(f'{OUT}/log.txt', 'w').write('\n'.join(log) + f'\nrows {len(rows)}\n')
 print('\n'.join(log), len(rows))
+
+# 2026, all basins: every 3-hourly fix with the main agency fields, for the storm papers
+raw = urllib.request.urlopen(urllib.request.Request(B + 'ibtracs.last3years.list.v04r01.csv', headers={'User-Agent': 'GlobalWeatherWatch/1.0'}), timeout=600).read().decode('utf-8', 'replace')
+r = csv.reader(io.StringIO(raw)); hdr = next(r); next(r)
+keep = ['SID', 'SEASON', 'BASIN', 'SUBBASIN', 'NAME', 'ISO_TIME', 'NATURE', 'LAT', 'LON', 'WMO_WIND', 'WMO_PRES', 'WMO_AGENCY', 'TRACK_TYPE', 'DIST2LAND', 'LANDFALL',
+        'USA_WIND', 'USA_PRES', 'USA_SSHS', 'USA_RMW', 'TOKYO_WIND', 'TOKYO_PRES', 'CMA_WIND', 'HKO_WIND', 'STORM_SPEED', 'STORM_DIR']
+ix = [hdr.index(k) for k in keep]
+with open(f'{OUT}/ibtracs_2026_all.csv', 'w', newline='') as fh:
+    w = csv.writer(fh); w.writerow(keep)
+    for x in r:
+        if x[ix[5]][:4] == '2026':
+            w.writerow([x[i].strip() for i in ix])
+print('2026 file written')
