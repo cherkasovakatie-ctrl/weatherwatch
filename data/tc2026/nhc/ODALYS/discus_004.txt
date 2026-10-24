@@ -1,0 +1,61 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Odalys Discussion Number   4
+NWS National Hurricane Center Miami FL       EP162026
+800 PM PDT Sun Sep 20 2026
+ 
+The northerly shear that has been impeding Odalys' intensification 
+rate appears to have increased during the past several hours.  The 
+surface center has become exposed to the northwest of the deep 
+convective cloud mass, and the cloud tops have warmed somewhat as 
+well.  The UW-CIMSS objective intensity estimates and the TAFB 
+Dvorak satellite intensity classification yield an intensity of 45 
+kt for this advisory.
+ 
+Although Odalys is moving over warm oceanic temperatures and within 
+a moist, unstable air mass, modest northerly vertical shear should 
+continue to impinge on the northern side of the cyclone for the next 
+24 hours. Consequently, little if any strengthening is expected in 
+the short-term. By Monday evening, the SHIPS statistical intensity 
+model and the global models show the shear diminishing, allowing 
+Odalys to strengthen through day 4 gradually. Afterward, increasing 
+deep-layer shear and less favorable thermodynamic atmospheric 
+conditions are expected to inhibit further intensification and 
+commence a slow weakening trend. The official intensity forecast 
+indicates a slower rate of strengthening compared to the previous 
+one, and is very close to the HCCA and GDMI aids, but above the IVCN 
+consensus guidance. 
+ 
+Odalys' initial motion is estimated to be northwestward, or 310/11 
+kt, and this general motion should continue through Monday night.  
+On Tuesday, a rather abrupt turn toward the east is forecast in 
+response to a mid- to upper-level amplifying tropospheric trough 
+moving over the eastern Pacific toward the west coast of California 
+and the Baja California peninsula.  By mid-week, the cyclone should 
+gradually move east-northeastward and eventually northeastward 
+within the weakness created by the trough and in the northwestern 
+side of a mid-level ridge situated between Odalys and Tropical Storm 
+Polo.  The NHC track forecast lies between the HFIP HCCA and the 
+GDMI TC ensemble mean and is adjusted to the right of the previous 
+forecast beyond day 3.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  21/0300Z 13.1N 127.7W   45 KT  50 MPH
+ 12H  21/1200Z 14.1N 128.9W   45 KT  50 MPH
+ 24H  22/0000Z 15.1N 130.0W   50 KT  60 MPH
+ 36H  22/1200Z 15.5N 130.2W   55 KT  65 MPH
+ 48H  23/0000Z 15.6N 129.5W   60 KT  70 MPH
+ 60H  23/1200Z 15.7N 128.6W   65 KT  75 MPH
+ 72H  24/0000Z 16.0N 127.5W   70 KT  80 MPH
+ 96H  25/0000Z 17.3N 125.4W   75 KT  85 MPH
+120H  26/0000Z 18.9N 123.7W   65 KT  75 MPH
+ 
+$$
+Forecaster Roberts
+ 
+NNNN
+

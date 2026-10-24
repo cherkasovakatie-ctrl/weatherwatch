@@ -1,0 +1,66 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Odalys Discussion Number  24
+NWS National Hurricane Center Miami FL       EP162026
+200 PM PDT Fri Sep 25 2026
+ 
+Satellite imagery shows Odalys is still a powerful major hurricane, 
+though the satellite presentation is not quite as impressive as 
+earlier today. The ragged eye of Odalys is surrounded by a ring of 
+deep convection with cold cloud tops of -65 to -75 deg C. Earlier 
+WSF-M passive microwave imagery from 1437 UTC showed a closed ring 
+in the 37 GHz channel, while the 89 GHz image indicated the 
+mid-level eyewall was open to the southwest. The latest Dvorak 
+classification from TAFB was a 5.5/6.0, while recent AiDT, D-MINT, 
+and D-PRINT estimates have fallen to around 105 kt. Based on a blend 
+of these data, the initial intensity is conservatively lowered to 
+110 kt. The wind radii for Odalys were adjusted based on recent 
+RCM-1 synthetic aperture radar data.
+ 
+Odalys is moving slowly north-northeastward (030/4 kt) within the
+flow between a mid- to upper-level trough to its west and a
+mid-level ridge over northern Mexico. The hurricane is expected to
+move northward during the next day or two as the aforementioned
+trough amplifies over the eastern Pacific. By Monday, Odalys is
+forecast to slow down and turn abruptly to the east and southeast as
+the increasingly shallow circulation becomes steered by the
+low-level flow. The latest track guidance shows a sharper turn than
+the previous cycle in the 60-96 h time frame, and the NHC track
+forecast has been adjusted to reflect this trend. Overall, the NHC
+forecast remains close to the skillful HCCA aid.
+ 
+Southwesterly shear is expected to markedly increase over the next
+couple of days, while Odalys' forecast track should take the system
+over cooler waters by Sunday. As a result, a faster weakening trend
+is forecast over the weekend, with Odalys likely to lose organized
+convection and degenerate to a post-tropical cyclone in 48-60 h. The
+updated NHC intensity forecast is in best agreement with the Google
+DeepMind ensemble mean and lies slightly above the HCCA and IVCN
+multi-model aids.
+ 
+Distant moisture from Hurricane Odalys and Polo will be transported
+into the southwestern United States this weekend and early next
+week, and may indirectly contribute to a heavy rainfall and flash
+flood threat in the region. See products issued by the Weather
+Prediction Center for more information.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  25/2100Z 18.3N 123.6W  110 KT 125 MPH
+ 12H  26/0600Z 18.9N 123.5W  105 KT 120 MPH
+ 24H  26/1800Z 20.0N 123.4W   85 KT 100 MPH
+ 36H  27/0600Z 21.1N 123.3W   70 KT  80 MPH
+ 48H  27/1800Z 22.0N 122.9W   50 KT  60 MPH
+ 60H  28/0600Z 22.4N 122.3W   40 KT  45 MPH...POST-TROPICAL
+ 72H  28/1800Z 21.9N 121.6W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 96H  29/1800Z 19.9N 120.3W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  30/1800Z 17.5N 119.0W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Reinhart
+ 
+NNNN
+

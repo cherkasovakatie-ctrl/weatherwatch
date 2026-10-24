@@ -1,0 +1,60 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Genevieve Discussion Number  20
+NWS National Hurricane Center Miami FL       EP072026
+500 PM HST Tue Jul 28 2026
+ 
+Genevieve's satellite presentation has continued to oscillate this 
+afternoon and evening, with deep cold convection wrapping around a 
+cloud-filled eye with occasional lightning. A GPM microwave pass 
+showed that the western eyewall had started to erode. Over the last 
+few hours, there have been occasional breaks within the inner core, 
+but the inner core has been resilient and has continued to wrap deep 
+convection. Objective intensity estimates from UW-CIMSS remain 
+around 105–118 kt, which prompted the special advisory a few hours 
+ago. Using these estimates, the initial intensity is held at 115 kt 
+for this advisory.
+ 
+The hurricane will remain in a marginal environment over the next 24 
+hours, characterized by low-to-moderate vertical wind shear, sea 
+surface temperatures near 27–28C, and mid-level relative humidity 
+values in the 50 to 60 percent range. Changes in convective 
+organization and inner core dynamics will allow for short-term 
+intensity fluctuations over the next day or so. Gradual weakening is 
+forecast through 24 hours, followed by a faster rate of decay once 
+the system crosses the 26C isotherm in 24–36 hours. As the cyclone 
+traverses cooler waters, decreasing mid-level relative humidity will 
+further suppress deep convection. The official NHC intensity 
+forecast lies near the upper end of the guidance suite in the short 
+term, reflecting recent intensity adjustments, and aligns closely 
+with the consensus aids from 48 hours through the end of the 
+forecast period. The timing of post-tropical transition has been 
+moved up to Day 4, consistent with model simulated satellite imagery 
+from the latest GFS and ECMWF.
+
+Genevieve is moving west-northwestward at an estimated motion of 
+290/8 kt along the southwestern periphery of a ridge centered to the 
+northwest of the system. A slightly faster forward speed is 
+anticipated during the next few days as the ridge expands westward. 
+The NHC track forecast was shifted slightly to the left, and lies 
+closest to the HCCA corrected consensus aid.
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  29/0300Z 18.3N 117.6W  115 KT 130 MPH
+ 12H  29/1200Z 18.6N 118.9W  115 KT 130 MPH
+ 24H  30/0000Z 19.3N 120.8W  105 KT 120 MPH
+ 36H  30/1200Z 20.0N 123.2W   90 KT 105 MPH
+ 48H  31/0000Z 20.7N 125.6W   75 KT  85 MPH
+ 60H  31/1200Z 21.5N 128.0W   60 KT  70 MPH
+ 72H  01/0000Z 22.2N 130.7W   50 KT  60 MPH
+ 96H  02/0000Z 23.7N 136.4W   40 KT  45 MPH...POST-TROPICAL
+120H  03/0000Z 25.5N 141.7W   35 KT  40 MPH...POST-TROPICAL
+ 
+$$
+Forecaster Kelly
+ 
+NNNN
+

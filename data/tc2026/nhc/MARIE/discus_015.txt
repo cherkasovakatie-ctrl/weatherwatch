@@ -1,0 +1,63 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Marie Discussion Number  15
+NWS National Hurricane Center Miami FL       EP132026
+200 PM PDT Fri Sep 04 2026
+ 
+Marie is contending with dry air today, which is likely inhibiting 
+significant strengthening. A broad region of dry air persists 
+immediately west of the hurricane, and recent infrared satellite 
+imagery shows a dry slot wrapping from the southwest to the 
+northeast around the center. This dry-air intrusion has 
+substantially weakened the deep convection that was previously 
+concentrated north and east of the eye. However, recent objective 
+and subjective Dvorak intensity estimates range from 73-90 kt. The 
+initial intensity is maintained at 85 kt for this advisory.
+
+The initial motion is 285/7 kt, with the hurricane moving along the 
+southeastern periphery of a weak mid-level ridge centered between 
+Marie and Hurricane Karina well to the west. A strong closed low 
+moving into the Pacific Northwest today is expected to weaken this 
+ridge and induce a turn toward the northwest tonight through this 
+weekend. Through 72 h, the updated track forecast lies near the  
+middle of the guidance envelope, and is closest to the Google 
+DeepMind and HCCA. As Marie weakens early next week, the cyclone is 
+expected to become increasingly steered by the low- to mid-level 
+environmental flow. An eventual turn toward the north is possible by 
+midweek as a new trough approaches the western U.S. Beyond 72 h, the 
+forecast has been nudged to the right of the previous advisory, and 
+Marie is expected to remain well offshore of the western United 
+States. 
+
+Marie is currently moving over warm waters of 27-28 C and through an 
+environment of low wind shear, but dry mid-level air continues to 
+take its toll on the hurricane. Increasingly unfavorable upper-level 
+winds are expected to support very slow weakening over the next day 
+or two, followed by more pronounced weakening early next week as 
+Marie moves over cooler waters and into an increasingly dry 
+mid-level environment. Simulated satellite imagery from the ECMWF 
+and GFS suggests that Marie may struggle to maintain organized 
+convection by the middle of next week. Accordingly, the latest NHC 
+intensity forecast calls for Marie to degenerate into a 
+post-tropical remnant low by day 5, with dissipation around day 6. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  04/2100Z 20.2N 118.6W   85 KT 100 MPH
+ 12H  05/0600Z 20.9N 119.4W   80 KT  90 MPH
+ 24H  05/1800Z 21.8N 120.5W   75 KT  85 MPH
+ 36H  06/0600Z 22.6N 121.5W   70 KT  80 MPH
+ 48H  06/1800Z 23.3N 122.3W   65 KT  75 MPH
+ 60H  07/0600Z 24.0N 123.3W   60 KT  70 MPH
+ 72H  07/1800Z 24.7N 124.5W   55 KT  65 MPH
+ 96H  08/1800Z 26.6N 126.7W   40 KT  45 MPH
+120H  09/1800Z 29.5N 128.2W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Adams
+ 
+NNNN
+

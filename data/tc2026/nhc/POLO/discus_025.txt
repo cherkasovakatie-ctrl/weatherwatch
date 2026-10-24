@@ -1,0 +1,94 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Polo Discussion Number  25
+NWS National Hurricane Center Miami FL       EP172026
+200 PM MST Sat Sep 26 2026
+ 
+SAR data valid this morning that arrived after the issuance of the 
+last advisory indicated that Polo's inner-core has expanded, 
+possibly due to an eyewall replacement cycle. A combination of a 
+slight increase in easterly wind shear over the past 12 hours  
+(10-15 kt according to both SHIPS diagnostics and UW-CIMSS 
+analysis) and the likely eyewall replacement cycle are likely 
+causing Polo to weaken. Intensity estimates vary greatly, from a 105 
+kt estimate with that SAR pass to over 140 kt from the ADT. Taking 
+the available data as a whole, the intensity is set at 125 kt for 
+this advisory, which is also fairly close to recent estimates from 
+of the newer techniques from UW-CIMSS: AiDT, DPRINT and DMINT. A 
+NOAA Hurricane Hunter aircraft is scheduled to investigate Polo 
+later today, which should provide more information about the 
+structure and intensity of the hurricane.
+ 
+The hurricane has turned northwestward as it moves around the
+western end of a mid-level ridge centered over northern Mexico.
+Polo will gradually turn northward, and then northeastward over
+the next two days as it continues to move around the ridge and is
+steered increasingly by a mid- to upper-level trough approaching
+from the northwest. There is an unusually large spread in the track
+models, primarily associated with Polo's forward speed. The AI
+guidance, including GDM, show a notably faster forward motion than
+many of the dynamical models, with some of the hurricane regional
+models even forecasting the hurricane to stall offshore of the west
+coast of the Baja California peninsula. No changes of note were made
+to the track forecast with this advisory and the NHC forecast still
+leans toward the AI models and HCCA, but confidence in that forecast
+is not particularly high due to the high model spread.
+ 
+The models have better agreement on the intensity forecast and 
+nearly unanimously depict Polo steadily weakening over the next 48 
+hours. Some short-term intensity fluctuations will be possible 
+during that period, but a combination of moderate shear and a drier 
+environment along the forecast track should prevent it from 
+significantly restrengthening. It is worth noting that Polo is still 
+expected to be a strong hurricane when it approaches Baja California 
+Sur. More rapid weakening is likely beyond 60 hours, as the shear is 
+expected to increase substantially and Polo is forecast to begin 
+interacting with land.
+ 
+Polo is expected to become a remnant low and then dissipate before
+it reaches the southern U.S., but distant moisture associated with
+it and Odalys will be transported into the southwestern United
+States late this weekend and early next week, and may indirectly
+contribute to a heavy rainfall and flash flood threat in the region.
+See products issued by the Weather Prediction Center for more
+information.
+ 
+ 
+Key Messages:
+ 
+1. Polo is forecast to approach the west coast of the Baja
+California peninsula on Monday as a hurricane, and a Hurricane
+Watch is in effect for that region. Tropical storm conditions
+could reach portions of the coast as soon as Sunday night or early
+Monday, making further preparations difficult. A storm surge will
+be possible, especially in areas of onshore winds.
+ 
+2. Heavy rainfall associated with Polo may begin to impact Baja 
+California Sur Sunday night into Tuesday. This rainfall may produce 
+life-threatening flooding and mudslides, especially in areas of 
+steep terrain.
+ 
+3. Dangerous surf and rip currents are likely along portions of
+the northwest coast of Mexico and Baja California for the next
+several days.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  26/2100Z 18.7N 112.5W  125 KT 145 MPH
+ 12H  27/0600Z 19.8N 113.4W  115 KT 130 MPH
+ 24H  27/1800Z 21.4N 114.0W  105 KT 120 MPH
+ 36H  28/0600Z 23.2N 114.0W   95 KT 110 MPH
+ 48H  28/1800Z 24.8N 113.3W   85 KT 100 MPH
+ 60H  29/0600Z 26.4N 111.9W   70 KT  80 MPH...INLAND
+ 72H  29/1800Z 28.0N 110.2W   50 KT  60 MPH...INLAND
+ 96H  30/1800Z 31.2N 105.7W   20 KT  25 MPH...POST-TROP/INLAND
+120H  01/1800Z...DISSIPATED
+ 
+$$
+Forecaster D. Zelinsky
+ 
+NNNN
+

@@ -1,0 +1,55 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Depression Fifteen-E Discussion Number   1
+NWS National Hurricane Center Miami FL       EP152026
+200 PM PDT Sun Sep 13 2026
+
+Deep convection became more persistent overnight and this 
+morning in association with the area of low pressure (EP97) located 
+southwest of the southern tip of the Baja Peninsula.  The system is 
+being affected by moderate west-northwesterly shear, and the center 
+has recently become exposed to the northwest of the area of deep 
+convection.  Regardless of the exposed center, subjective Dvorak 
+T-numbers increased to T1.5 at 18z with data T-numbers slightly 
+higher.  Therefore, advisories are being initiated on a 30-kt 
+tropical depression. 
+
+The environment ahead of the depression is not expected to be 
+conducive for significant strengthening.  However, most of the 
+intensity guidance calls for the system to reach tropical storm 
+strength within the next day or so.  By 48 hours, continued 
+moderate shear and drier mid-level air are expected to cause gradual 
+weakening.  Simulated satellite imagery from the GFS and ECMWF show 
+the deep convection waning in 3 to 4 days and the system is likely 
+to become a remnant low during that time.  The global models 
+indicate that the system will become an open trough before the
+end of the 5-day forecast period, and the official forecast follows 
+suit. 
+
+The depression is moving generally westward or 260/7 kt.  A 
+mid-level ridge to the north and northwest of the system is expected 
+to steer it south of due west during the next few days.  The 
+guidance suggests the forward speed will increase, especially 
+toward the end of the period when the cyclone weakens and becomes 
+even more vertically shallow.  The NHC forecast follows the faster 
+solutions of the typically reliable GDM and HCCA consensus aids. 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  13/2100Z 17.2N 117.2W   30 KT  35 MPH
+ 12H  14/0600Z 17.0N 118.2W   35 KT  40 MPH
+ 24H  14/1800Z 16.7N 119.8W   35 KT  40 MPH
+ 36H  15/0600Z 16.5N 121.6W   35 KT  40 MPH
+ 48H  15/1800Z 16.4N 123.6W   30 KT  35 MPH
+ 60H  16/0600Z 16.3N 125.7W   30 KT  35 MPH
+ 72H  16/1800Z 16.1N 128.1W   30 KT  35 MPH
+ 96H  17/1800Z 16.0N 133.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  18/1800Z...DISSIPATED
+ 
+$$
+Forecaster Brown
+ 
+NNNN
+

@@ -1,0 +1,35 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Remnants Of Fifteen-E Discussion Number  10
+NWS National Hurricane Center Miami FL       EP152026
+800 PM PDT Tue Sep 15 2026
+
+Earlier ASCAT data from around 18Z showed that the center of 
+Fifteen-E was becoming more elongated in the north-south direction. 
+Since that time, visible satellite imagery suggests further 
+degradation and elongation of the low-level wind field, and it is 
+estimated that Fifteen-E likely no longer has a well-defined surface 
+center and has opened up into a trough.  The trough should continue 
+moving westward for the next several days, potentially producing 
+intermittent bursts of convection.  Environmental conditions along 
+the path of the remnants are marginal over the next several days, 
+and the chance of regeneration appears to be very low.
+
+For additional information on the remnants of Fifteen-E, please see 
+High Seas Forecasts issued by the National Weather Service, under 
+AWIPS header NFDHSFEPI, WMO header FZPN01 KWBC, and on the web at 
+ocean.weather.gov/shtml/NFDHSFEPI.php
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  16/0300Z 15.5N 125.8W   25 KT  30 MPH...REMNANTS OF
+ 12H  16/1200Z...DISSIPATED
+
+$$
+Forecaster Hagen
+ 
+NNNN
+

@@ -1,0 +1,83 @@
+
+ZCZC MIATCDAT4 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Isaias Discussion Number  11
+NWS National Hurricane Center Miami FL       AL092026
+400 AM CDT Fri Oct 09 2026
+ 
+Isaias has intensified overnight. NOAA and Air Force Reserve 
+Hurricane Hunter data showed that the maximum flight-level winds 
+have increased up to 107 kt, with a better-defined eye and a 
+shrinking eyewall. These changes are also present on satellite 
+imagery, with a more symmetric presentation along with a warming 
+eye/cooling eyewall. The available data suggest a current intensity 
+of 95 kt for this advisory.
+ 
+Isaias will likely become a major hurricane soon with the improving 
+satellite imagery, and it could continue to intensify for the next 
+12 hours or so while it moves over very warm and deep water. 
+However, a large increase in shear is anticipated before landfall, 
+which will probably cause some weakening to occur. This is a tenuous 
+spot because it would only take about a 6h delay in the onset of the 
+shear to bring a stronger hurricane than expected onshore. The new 
+forecast explicitly is a bit higher than the last one, but our best 
+forecast at this time is for a high-end category 2 intensity at 
+landfall, which is about the same as before.  Regardless of its 
+exact wind speed at landfall, Isaias will be a dangerous hurricane 
+with significant storm surge, damaging winds, and flooding rains. 
+The wind field is also predicted to grow due to a trough 
+interaction, and some of these impacts will extend well away from 
+the center. After landfall, gusty winds are expected to reach well 
+inland over portions of the southeastern United States.
+ 
+Isaias has turned towards the north-northeast (020/13 kt), and
+the hurricane is expected to turn northward and accelerate later
+today due to increasing flow between an upper trough near the
+northwestern Gulf Coast and a subtropical ridge extending across
+the western Atlantic. Landfall is expected to occur within the
+hurricane warning area Friday night or early Saturday.  The new
+forecast is almost the same as before, very near the Google DeepMind
+guidance, which has been very accurate for Isaias.
+ 
+Key Messages:
+ 
+1. A life-threatening storm surge is expected from the Mouth of the
+Mississippi River to Suwannee, Florida. Residents in the warning
+area should follow advice given by local officials and evacuate
+immediately if told to do so.
+ 
+2. Damaging hurricane force-winds are expected over portions of the
+Florida Panhandle, southern Alabama, and southern Mississippi where
+a Hurricane Warning is in effect. Residents in these areas should
+prepare for the possibility of long-duration power outages.
+ 
+3. Damaging wind gusts are possible over much of central and
+northern Alabama, extreme eastern Mississippi, and portions of
+western and northern Georgia, especially in areas of higher terrain.
+Additional Tropical Storm and High Wind Watches and Warnings may be
+required for portions of that area later today. Residents should
+secure loose outdoor items, avoid driving high-profile vehicles,
+and prepare for power outages.
+ 
+4. Isaias will bring areas of heavy rainfall to the central U.S.
+Gulf coast and much of the Southeast through the weekend.
+Considerable flash and urban flooding, along with significant river
+flooding, will be possible.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  09/0900Z 26.4N  88.0W   95 KT 110 MPH
+ 12H  09/1800Z 28.4N  87.3W  105 KT 120 MPH
+ 24H  10/0600Z 31.0N  87.1W   65 KT  75 MPH...INLAND
+ 36H  10/1800Z 33.5N  87.5W   35 KT  40 MPH...POST-TROP/INLAND
+ 48H  11/0600Z 35.5N  86.7W   25 KT  30 MPH...POST-TROP/INLAND
+ 60H  11/1800Z 38.2N  83.1W   15 KT  15 MPH...POST-TROP/INLAND
+ 72H  12/0600Z...DISSIPATED
+ 
+$$
+Forecaster Blake
+ 
+NNNN
+

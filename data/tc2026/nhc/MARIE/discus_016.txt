@@ -1,0 +1,56 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Marie Discussion Number  16
+NWS National Hurricane Center Miami FL       EP132026
+800 PM PDT Fri Sep 04 2026
+ 
+Marie continues to display a ragged eye surrounded by a large area 
+of convection with cloud tops between -50 to -60C.  Some dry air 
+still appears to be entraining into the core.  Recent subjective and 
+objective satellite intensity estimates range from 75-94 kt.  Thus, 
+the initial intensity will be held at 85 kt for this advisory.
+ 
+Marie has turned toward the northwest, with an initial motion 
+estimate of 305/7 kt.  Marie will continue moving slowly 
+northwestward during the next few days as it passes in between a 
+ridge to its west and ridging to its east.  By the middle of next 
+week, an upper-level trough near the U.S. West Coast may cause what 
+is left of Marie to turn more toward the north-northwest in 4 to 5 
+days. The NHC track forecast is very similar to the previous 
+forecast, and lies near the HFIP Corrected Consensus (HCCA) and the 
+Google DeepMind (GDMI) ensemble mean. It should be noted that model 
+spread is quite large beyond 2 to 3 days.
+
+It appears as though Marie has already peaked in intensity (no more 
+strengthening is expected).  Although vertical wind shear is 
+expected to remain low for the next 3 days, Marie will be moving 
+into gradually cooler water temperatures as well as a drier air 
+mass.  By 48 hours, water temperatures will be below 26C and the 
+mid-level relative humidity will be below 50 percent.  The NHC 
+intensity forecast shows Marie weakening to a tropical storm by hour 
+48, and it shows a slightly faster weakening compared to the 
+previous forecast.  The intensity forecast is still near the higher 
+end of the guidance suite.  Marie is likely to lose its convection 
+by day 5 and become a post-tropical cyclone, and that scenario is 
+indicated by both the GFS and ECMWF simulated satellite imagery.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  05/0300Z 20.8N 119.0W   85 KT 100 MPH
+ 12H  05/1200Z 21.5N 119.9W   80 KT  90 MPH
+ 24H  06/0000Z 22.4N 121.0W   70 KT  80 MPH
+ 36H  06/1200Z 23.2N 122.0W   65 KT  75 MPH
+ 48H  07/0000Z 23.9N 122.8W   60 KT  70 MPH
+ 60H  07/1200Z 24.5N 123.8W   55 KT  65 MPH
+ 72H  08/0000Z 25.2N 125.1W   50 KT  60 MPH
+ 96H  09/0000Z 27.4N 127.2W   40 KT  45 MPH
+120H  10/0000Z 30.9N 128.9W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

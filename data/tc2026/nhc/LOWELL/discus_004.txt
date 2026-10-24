@@ -1,0 +1,66 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Lowell Discussion Number   4
+NWS National Hurricane Center Miami FL       EP122026
+500 AM HST Fri Aug 28 2026
+ 
+Northeasterly to easterly vertical wind shear continues to affect
+Lowell, with the low-level center currently exposed to the northeast
+of the deep convection. However, a recent burst of convection has 
+developed closer to the center in the last hour or so. Objective 
+satellite intensity estimates from UW-CIMSS range from 33 to 40 kt, 
+and the latest subjective Dvorak classification from TAFB is 
+T2.5/35 kt with a Current Intensity (CI) of 3.0/45 kt. Based on a 
+blend of these estimates and recent satellite trends, the initial 
+intensity is held at 40 kt.
+ 
+The initial motion remains slowly east-northeastward. This slow
+motion should continue through today, followed by a gradual turn
+toward the west-northwest and west tonight into tomorrow as a
+mid-level ridge begins to build to the north of the cyclone. As this
+ridge strengthens, the system should gradually accelerate westward.
+Beyond 48 to 72 hours, considerable along- and cross-track spread
+remains in the model guidance. This uncertainty is tied to the
+complex evolution of multiple systems and disturbances in the
+central and eastern Pacific, and their subsequent impacts on the
+steering flow. The latest NHC track forecast remains on the faster
+side of the guidance envelope, generally blending the faster HCCA
+and slightly slower TVCN consensus aids. The Google DeepMind model
+is the fastest solution provided by the guidance, however as noted
+in previous discussions, this model has exhibited a fast bias in the
+Pacific basin this season.
+ 
+Although Lowell is dealing with some moderate vertical wind shear, 
+environmental conditions are expected to remain or become even more 
+favorable for intensification over the next several days. The 
+cyclone is forecast to move over warm sea surface temperatures 
+within an environment of light to moderate shear and abundant 
+mid-level moisture. Particularly beyond 60 hours, the intensity 
+guidance indicates steady strengthening, and the system is forecast 
+to reach hurricane intensity by this weekend. The updated NHC 
+intensity forecast is similar to the previous advisory, lying near 
+the high end of the guidance suite in the short term and closer to 
+the middle of the envelope beyond 72 hours. However, it should be 
+noted that some of the regional hurricane models, and HCCA suggest a 
+faster rate of intensification is possible.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  28/1500Z 12.5N 132.8W   40 KT  45 MPH
+ 12H  29/0000Z 12.6N 133.1W   45 KT  50 MPH
+ 24H  29/1200Z 12.8N 134.3W   45 KT  50 MPH
+ 36H  30/0000Z 13.0N 135.6W   50 KT  60 MPH
+ 48H  30/1200Z 13.2N 137.5W   55 KT  65 MPH
+ 60H  31/0000Z 13.5N 139.1W   65 KT  75 MPH
+ 72H  31/1200Z 13.7N 140.9W   75 KT  85 MPH
+ 96H  01/1200Z 14.2N 144.2W   90 KT 105 MPH
+120H  02/1200Z 14.6N 147.3W   95 KT 110 MPH
+ 
+$$
+Forecaster Kelly
+ 
+NNNN
+

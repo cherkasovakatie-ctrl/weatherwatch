@@ -1,0 +1,59 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Rachel Discussion Number  17
+NWS National Hurricane Center Miami FL       EP182026
+200 AM MST Thu Oct 01 2026
+ 
+Satellite imagery indicates that Rachel's convective structure has
+improved over the past several hours. Deep convection continues to
+expand over the center, with cloud-top temperatures as cold as -85
+C. The latest subjective Dvorak intensity estimate from TAFB is
+T4.5/77 kt, while objective estimates have ranged from 65 to 85 kt.
+Given these estimates and the improved convective organization, the
+initial intensity is raised to 85 kt.
+ 
+Rachel continues to move west-northwestward, or 300/5 kt, and this
+motion is expected to continue during the next day or so while a
+mid- to upper-level trough remains over the southwestern United
+States. As the trough lifts northeastward and weakens, a ridge is
+forecast to build north of Rachel, causing the system to gradually
+turn more toward the west by the weekend. The track guidance remains
+in good agreement on this overall scenario, and the latest NHC track
+forecast is essentially unchanged from the previous prediction,
+lying near the HCCA and GDMI aids.
+ 
+Environmental conditions should remain generally favorable for
+strengthening during the next couple of days, with very warm sea
+surface temperatures and plenty of mid-level moisture along the
+forecast track. Persistent easterly to northeast vertical wind shear
+of around 15 kt may be a limiting factor in the short term, but the
+shear is forecast to gradually relax thereafter. Rachel should
+continue to strengthen over the next 24 h, especially if the
+inner-core structure continues to improve, and is forecast to become
+a major hurricane within the next couple of days. Thereafter,
+progressively cooler sea surface temperatures and dry mid-level air
+should induce a gradual weakening trend. The latest NHC intensity
+forecast is similar to the previous advisory, lying above the
+guidance envelope in the short term before trending toward the upper
+end of the guidance thereafter.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  01/0900Z 19.4N 109.3W   85 KT 100 MPH
+ 12H  01/1800Z 19.6N 109.8W   90 KT 105 MPH
+ 24H  02/0600Z 19.8N 110.4W  100 KT 115 MPH
+ 36H  02/1800Z 19.9N 111.1W  105 KT 120 MPH
+ 48H  03/0600Z 20.2N 112.1W  100 KT 115 MPH
+ 60H  03/1800Z 20.4N 113.2W   95 KT 110 MPH
+ 72H  04/0600Z 20.5N 114.3W   90 KT 105 MPH
+ 96H  05/0600Z 20.6N 116.5W   85 KT 100 MPH
+120H  06/0600Z 20.7N 119.4W   80 KT  90 MPH
+ 
+$$
+Forecaster Gibbs 
+ 
+NNNN
+

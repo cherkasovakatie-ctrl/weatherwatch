@@ -1,0 +1,72 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Nolo Discussion Number  56
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+500 AM HST Sun Oct 04 2026
+ 
+Nolo appears to have completed an eyewall replacement cycle 
+overnight. The satellite presentation has steadily improved over the 
+past several hours, with the eyewall re-consolidating and a 
+symmetric ring of deep convection now completely wrapping around the 
+center. Over the past 6 hours, the eye has cleared drastically, 
+transitioning from a ragged appearance to a distinct, circular, 
+warming eye with temperatures near 15C. Objective satellite 
+intensity estimates from UW-CIMSS have begun to respond to this 
+improvement, and are in the 94-97 kt range. Based on the improved 
+satellite presentation and these objective estimates, the initial 
+intensity is raised to 100 kt.
+ 
+The initial motion is estimated to be westward, or 275/16 kt. Nolo 
+is expected to continue on a generally westward heading for the next 
+several days, steered by a subtropical ridge located to the north of 
+the cyclone. On the current forecast track, the system will cross 
+the International Date Line into the western Pacific basin within 
+the next 12 hours. By the end of the period, Nolo is forecast to 
+reach the western periphery of the aforementioned ridge and begin to 
+slow down. Track forecast uncertainty increases at that time, as the 
+guidance diverges regarding exactly when and where the cyclone will 
+slow down and turn north in response to a mid-latitude trough 
+approaching from Japan. The latest NHC track forecast has been 
+shifted slightly southward, trending toward the HCCA and GDMI aids.
+ 
+Nolo remains situated within a highly favorable environment for 
+strengthening during the next 24 hours, characterized by warm sea 
+surface temperatures and low vertical wind shear. Given the recent 
+structural improvements noted in satellite imagery, the official NHC 
+intensity forecast indicates further intensification and lies above 
+the intensity guidance in the short term. Between 24-36 h, the 
+cyclone is forecast to move into a region of increasing shear and 
+into a drier mid-level airmass. However, recent satellite imagery 
+indicates that Nolo is taking on annular characteristics. This 
+structural evolution should make the inner core more resilient to 
+the impending hostile conditions by limiting dry air entrainment, 
+likely resulting in a slower initial rate of weakening than would 
+otherwise be expected. Ultimately, the combination of strong shear 
+and very dry air will take its toll, causing the system to steadily 
+weaken beyond 48 hours. Given these structural and environmental 
+conditions, the NHC intensity forecast remains on the high side of 
+the guidance envelope. This prediction is closest to the hurricane 
+regional models, but still above those, before trending back toward 
+the consensus intensity aids by the end of the forecast period.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  04/1500Z 23.8N 178.5W  100 KT 115 MPH
+ 12H  05/0000Z 24.3N 178.9E  115 KT 130 MPH
+ 24H  05/1200Z 24.9N 175.8E  120 KT 140 MPH
+ 36H  06/0000Z 25.0N 172.4E  110 KT 125 MPH
+ 48H  06/1200Z 25.0N 168.4E  100 KT 115 MPH
+ 60H  07/0000Z 25.3N 164.0E   85 KT 100 MPH
+ 72H  07/1200Z 25.9N 160.0E   65 KT  75 MPH
+ 96H  08/1200Z 26.9N 153.1E   55 KT  65 MPH
+120H  09/1200Z 28.6N 150.0E   55 KT  65 MPH
+ 
+$$
+Forecaster Kelly
+ 
+NNNN
+

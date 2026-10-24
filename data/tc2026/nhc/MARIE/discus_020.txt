@@ -1,0 +1,56 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Marie Discussion Number  20
+NWS National Hurricane Center Miami FL       EP132026
+800 PM PDT Sat Sep 05 2026
+ 
+The eye of Marie has become increasingly ragged and misshapen over 
+the past few hours, while cloud tops in its center have begun to 
+cool. A recent GPM GMI microwave pass from earlier this evening 
+depicted a vertically aligned cyclone, but the eyewall remained 
+poorly defined along the western and southwestern sides. Objective 
+and subjective Dvorak intensity estimates range from 77-94 kt. 
+However, given the degradation in structure, the initial intensity 
+is set at 80 kt for this advisory. 
+
+Marie is moving northwestward around 6 kt, steered by a strong 
+mid-level ridge anchored over the central United States. This 
+general motion is forecast to continue through Sunday. As Marie 
+weakens and becomes more shallow, a turn back toward the 
+west-northwest is forecast as the cyclone becomes increasingly 
+steered by the low-level flow. By midweek, a closed low moving 
+southward along the U.S. West Coast is expected to induce an 
+acceleration toward the northwestward, followed by a turn toward the 
+north. 
+
+Environmental conditions are expected to gradually become less 
+favorable over the next couple days as Marie moves over cooler sea 
+surface temperatures, resulting in slow weakening into early next 
+week. More rapid weakening is anticipated thereafter as increasing 
+wind shear decouples the cyclone and displaces any remaining 
+convection well to the north of its center. The latest NHC forecast 
+calls for Marie to become a post-tropical remnant low by 96 h, 
+followed by dissipation by 120 h. The NHC track and intensity 
+forecasts are very close to the HCCA and Google DeepMind consensus 
+aids.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  06/0300Z 22.6N 121.3W   80 KT  90 MPH
+ 12H  06/1200Z 23.2N 122.0W   70 KT  80 MPH
+ 24H  07/0000Z 24.0N 122.9W   60 KT  70 MPH
+ 36H  07/1200Z 24.6N 124.1W   55 KT  65 MPH
+ 48H  08/0000Z 25.2N 125.4W   50 KT  60 MPH
+ 60H  08/1200Z 26.1N 126.6W   45 KT  50 MPH
+ 72H  09/0000Z 27.5N 127.5W   40 KT  45 MPH
+ 96H  10/0000Z 31.4N 129.2W   30 KT  35 MPH...POST-TROP/REMNT LOW
+120H  11/0000Z...DISSIPATED
+ 
+$$
+Forecaster Adams
+ 
+NNNN
+

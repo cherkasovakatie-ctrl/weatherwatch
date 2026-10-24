@@ -1,0 +1,71 @@
+
+ZCZC HFOTCDCP4 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Lowell Discussion Number  28
+NWS Central Pacific Hurricane Center Honolulu HI   EP122026
+Issued by NWS National Hurricane Center Miami FL
+1100 PM HST Wed Sep 02 2026
+ 
+Lowell's satellite presentation has continued to weaken this 
+evening, with some thinning of the eyewall convection, though it 
+remains a formidable hurricane.  The latest Dvorak intensity 
+estimates have a wide range, from 102-125 kt.  Based on continuity 
+from the earlier higher NOAA Hurricane Hunter data, the initial 
+intensity is set to 125 kt. Lowell should remain in a low-shear, 
+warm-water environment for at least the next few days.  While the 
+new forecast shows no net changes, we expect fluctuations in 
+intensity both up and down, dependent on nearly impossible to 
+predict eyewall replacement cycles.  Vertical wind shear should 
+increase some by the end of the forecast period, so a more steady 
+weakening is shown by that time. 
+ 
+The initial motion remains 270/9 kt.  Lowell is being steered by a 
+low- to mid-level ridge to the north, and due to this feature
+the hurricane should continue moving westward for the next 2-3
+days. After that, the track of the hurricane will be controlled by
+a complex developing mid- to upper-level trough currently seen in 
+water vapor imagery near 32N 162W.  The feature is forecast to break 
+the ridge down over the weekend, which should cause Lowell to turn 
+sharply northward or north-northeastward.  However, the details of 
+this turn are extremely difficult to diagnose at this time frame, 
+and there is a wide range of possibilities.  The new NHC forecast is 
+a bit left of the last one in a few days time, but ends up very 
+close to the previous forecast at day 5.  Given the large spread, 
+this is a low-confidence prediction for early next week.
+ 
+ 
+KEY MESSAGES:
+ 
+1. The details of Lowell's long-range track and intensity forecasts
+are more uncertain than usual, and it is too soon to determine
+potential impacts in the Hawaiian Islands.
+ 
+2. Interests in Hawaii should continue to closely monitor the
+progress of Lowell through this upcoming weekend. This is a good
+time for all residents to ensure they have their hurricane plan and
+supply kit in place.
+ 
+3. Swells from Lowell are expected to cause life-threatening surf 
+and rip current conditions in portions of the Hawaiian Islands 
+during the next several days.  Depending on the exact track of the 
+storm, these swells are likely to increase early next week.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  03/0900Z 13.3N 156.3W  125 KT 145 MPH
+ 12H  03/1800Z 13.4N 157.6W  125 KT 145 MPH
+ 24H  04/0600Z 13.5N 159.1W  125 KT 145 MPH
+ 36H  04/1800Z 13.6N 160.5W  125 KT 145 MPH
+ 48H  05/0600Z 13.7N 161.8W  125 KT 145 MPH
+ 60H  05/1800Z 14.0N 162.9W  125 KT 145 MPH
+ 72H  06/0600Z 14.5N 163.5W  125 KT 145 MPH
+ 96H  07/0600Z 16.5N 164.0W  120 KT 140 MPH
+120H  08/0600Z 20.2N 162.6W  105 KT 120 MPH
+ 
+$$
+Forecaster Blake
+ 
+NNNN
+

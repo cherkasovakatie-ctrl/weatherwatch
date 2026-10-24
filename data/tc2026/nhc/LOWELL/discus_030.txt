@@ -1,0 +1,88 @@
+
+ZCZC HFOTCDCP4 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Lowell Discussion Number  30
+NWS Central Pacific Hurricane Center Honolulu HI   EP122026
+Issued by NWS National Hurricane Center Miami FL
+1100 AM HST Thu Sep 03 2026
+ 
+The cloud pattern of Lowell suggests the hurricane is contending 
+with some easterly shear. Upper-level outflow is limited on the 
+eastern side of Lowell, and satellite images today have shown 
+evidence of some dry air intrusions into the circulation. An 89-GHz 
+AMSR3 passive microwave image received just after the previous 
+advisory indicated an eyewall replacement cycle (ERC) was underway, 
+with a larger outer eyewall surrounding a weaker inner one. This 
+is consistent with the larger eye now observed in recent visible 
+images of the hurricane. Lowell remains a formidable major 
+hurricane, and the latest Dvorak CI numbers along with recent 
+D-PRINT and SATCON estimates support holding a 120-kt intensity.
+
+Lowell is moving over very warm waters with high oceanic heat 
+content, and the environmental and oceanic conditions appear 
+favorable for Lowell to maintain its intensity or strengthen 
+slightly during the next several days. Although it has experienced a 
+bit more easterly shear than expected today, the hurricane has been 
+resilient. In general, the intensity guidance shows little 
+appreciable change in intensity during the next few days, with small 
+fluctuations likely to occur related to internal dynamic processes 
+with limited predictability, such as future ERCs. Thus, the NHC 
+intensity forecast maintains Lowell as a major hurricane with no net 
+change through 72 h. By days 4-5, some weakening is predicted as 
+southwesterly vertical wind shear increases over Lowell. However, it 
+is still forecast to be at or near major hurricane strength when 
+making its closest approach to the Hawaiian Islands. 
+
+The hurricane continues moving westward (275/9 kt) to the south of a 
+mid-level ridge over the Central Pacific. A gradually slower 
+westward motion is expected during the next couple of days. Then, a 
+mid- to upper-level trough over the northern Pacific is forecast to 
+dig southward and erode the steering ridge. As a result, Lowell is 
+predicted to turn sharply toward the north or north-northeast this 
+weekend, and then accelerate northward early next week. This track 
+should bring the center of Lowell near or just west of the 
+westernmost main Hawaiian Islands late Monday into early Tuesday. 
+There is less spread noted in the track guidance envelope at days 
+3-5, and the NHC forecast remains between the simple (TVCN) and 
+corrected (HCCA) consensus aids. However, the long-range track 
+details are of lower confidence, and residents in the Hawaiian 
+Islands should closely monitor the latest NHC forecast updates.
+ 
+ 
+KEY MESSAGES:
+ 
+1. Lowell could be at or near major hurricane strength when it 
+moves near the westernmost main Hawaiian Islands late Monday and 
+Monday night. While it is still too soon to determine the exact 
+track of the hurricane, Lowell could bring storm surge, wind, and 
+rainfall impacts to portions of Hawaii early next week.
+
+2. Interests in Hawaii should continue to closely monitor the 
+progress of Lowell through the upcoming Labor Day weekend, listen to 
+the advice of local officials, and ensure they have their hurricane 
+plan and supply kit in place. 
+
+3. Swells from Lowell are likely to cause life-threatening surf 
+and rip current conditions in portions of the Hawaiian Islands 
+during the next several days.  These swells are likely to increase 
+early next week.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  03/2100Z 13.6N 158.1W  120 KT 140 MPH
+ 12H  04/0600Z 13.6N 159.1W  120 KT 140 MPH
+ 24H  04/1800Z 13.7N 160.4W  120 KT 140 MPH
+ 36H  05/0600Z 13.7N 161.7W  120 KT 140 MPH
+ 48H  05/1800Z 14.0N 162.6W  120 KT 140 MPH
+ 60H  06/0600Z 14.5N 163.3W  120 KT 140 MPH
+ 72H  06/1800Z 15.5N 163.6W  120 KT 140 MPH
+ 96H  07/1800Z 19.0N 162.5W  110 KT 125 MPH
+120H  08/1800Z 24.5N 162.0W   95 KT 110 MPH
+ 
+$$
+Forecaster Reinhart
+ 
+NNNN
+

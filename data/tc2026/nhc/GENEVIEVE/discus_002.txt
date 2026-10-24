@@ -1,0 +1,60 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Genevieve Discussion Number   2
+NWS National Hurricane Center Miami FL       EP072026
+300 PM CST Fri Jul 24 2026
+ 
+GOES-18 RGB composite imagery and a 1606 UTC METOP-B scatterometer
+overpass indicate that the cloud pattern has become better
+organized and the surface circulation is better defined.  Deep
+convective coverage continues to expand, and a developing curved
+band wraps halfway around the center.  The ASCAT data (which showed
+35-38 kt believable surface vector winds) and the TAFB Dvorak
+satellite intensity estimate of T2.5 support 35-40 kt. However, 
+Dvorak rules prevent a reasonable T3.0 (45 kt) classification. Based
+on these data, the depression has been upgraded to a 40-kt Tropical
+Storm Genevieve.
+ 
+The global model forecast soundings indicate modest 
+west-northwesterly shear is undercutting the lighter diffluent flow 
+above 250 mb, and appears to be impinging on the northeast quadrant 
+of the convective mass.  The SHIPS and the global model fields 
+suggest, however, that the shear will diminish during the next 12 
+hours.  The latest NOAA AOML ocean analysis indicates that 
+Genevieve will be traversing a region of very high tropical cyclone 
+ocean heat potential within the next 36 hrs or so.  As a result, 
+various rapid intensification techniques and the Google DeepMind 
+(GDM) ensemble continue to predict a high probability that 
+Genevieve will undergo a period of rapid intensification (RI) by 
+mid-period.  Accordingly, the official intensity forecast continues 
+to reflect RI between 24 and 48 hours and Genevieve becoming a major 
+hurricane early next week, using a blend of the HFIP HCCA corrected 
+consensus and the GDM.
+ 
+Genevieve's initial motion is estimated to be west-northwestward,
+or 290/11 kt while being steered by mid-tropospheric high pressure
+anchored over northwestern Mexico. The bulk of the models remain in
+good agreement with a continued west-northwest heading through the
+period, and the NHC forecast follows suit, while lying closely to
+the HCCA consensus and the GDM ensemble mean.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  24/2100Z  9.2N 101.9W   40 KT  45 MPH
+ 12H  25/0600Z  9.9N 103.4W   45 KT  50 MPH
+ 24H  25/1800Z 11.2N 105.7W   55 KT  65 MPH
+ 36H  26/0600Z 12.4N 108.1W   75 KT  85 MPH
+ 48H  26/1800Z 13.5N 110.4W   90 KT 105 MPH
+ 60H  27/0600Z 14.8N 112.3W  100 KT 115 MPH
+ 72H  27/1800Z 16.1N 113.9W  110 KT 125 MPH
+ 96H  28/1800Z 17.9N 116.7W  110 KT 125 MPH
+120H  29/1800Z 19.4N 119.5W   95 KT 110 MPH
+ 
+$$
+Forecaster Roberts
+ 
+NNNN
+

@@ -1,0 +1,65 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Rachel Discussion Number  42
+NWS National Hurricane Center Miami FL       EP182026
+800 AM PDT Wed Oct 07 2026
+ 
+Recent satellite imagery shows that Rachel's deep convection has
+waned over the last couple of hours, however this could be due to
+the convective daily minimum. If this is the case, then there is a 
+good chance for deep convection to return later. The northern side 
+of the cyclone still shows the impact of easterly shear and dry air
+intrusions.  The eye of the hurricane is still well defined based
+on the proxy-visible satellite imagery. Looking at a combination of
+the objective and subjective intensity estimates, the initial
+intensity for this advisory is being held at 70 kt.
+ 
+The initial motion for the cyclone is west-northwestward, or 285/6
+kt. As of now, Rachel is being steered by high pressure located
+over the western United States. However, toward the end of the
+week, a large mid- to upper-level trough is expected to approach
+from the northwest. This will cause Rachel to slow down and
+then turn and accelerate toward Baja California and southern 
+California, and the updated NHC forecast track shows Rachel as 
+a post-tropical cyclone at 96 h very near the coast. The current NHC 
+forecast provides a 120-h track point for forecast continuity, 
+however it is likely that the cyclone could dissipate sooner once it 
+moves over land. The rest of the forecast is similar to the previous 
+track with minor adjustments made based on the latest HCCA and GDMI
+forecast aids, except for the track point at 120 h.
+ 
+The hurricane is expected to gradually weaken as it moves into an
+unfavorable environment of cooler sea-surface temperatures and
+limited moisture. Given how resilient Rachel has been to the
+environment, the current intensity trend is on the upper end of the
+guidance envelope. There is still a higher-than-normal amount of
+uncertainty to the intensity for the latter portion of the forecast.
+The trough should induce plenty of wind shear, and the simulated
+satellite guidance does show that the cyclone loses convection for a
+brief time before it comes back again. The current NHC forecast does
+show a post-tropical cyclone at 96 h, however, it is possible that
+it could still have tropical-storm-force winds at that point. In
+general, the current NHC intensity forecast is very similar to the
+previous one with a few changes past 60 h, based on the HCCA and
+GDMI forecast aids.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  07/1500Z 20.9N 121.8W   70 KT  80 MPH
+ 12H  08/0000Z 21.3N 122.6W   65 KT  75 MPH
+ 24H  08/1200Z 21.9N 123.8W   60 KT  70 MPH
+ 36H  09/0000Z 22.3N 124.8W   55 KT  65 MPH
+ 48H  09/1200Z 22.7N 124.9W   50 KT  60 MPH
+ 60H  10/0000Z 23.5N 123.7W   45 KT  50 MPH
+ 72H  10/1200Z 25.2N 121.5W   40 KT  45 MPH
+ 96H  11/1200Z 31.0N 116.8W   40 KT  45 MPH...POST-TROPICAL
+120H  12/1200Z 37.9N 114.1W   25 KT  30 MPH...POST-TROP/INLAND
+ 
+$$
+Forecaster Katz/Berg
+ 
+NNNN
+

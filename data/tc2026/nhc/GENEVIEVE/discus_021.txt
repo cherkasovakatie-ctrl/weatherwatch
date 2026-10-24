@@ -1,0 +1,61 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Genevieve Discussion Number  21
+NWS National Hurricane Center Miami FL       EP072026
+1100 PM HST Tue Jul 28 2026
+ 
+The eye of Genevieve is no longer apparent in conventional satellite 
+imagery. The center is embedded underneath a central dense overcast 
+with very cold cloud top temperatures of -70 to -75 deg C. 
+Proxy-visible and infrared satellite images show that northwesterly 
+shear is restricting upper-level outflow on the west side of the 
+hurricane. Based on the deteriorating satellite presentation and 
+decreasing satellite intensity estimates (including a T5.5/102 kt 
+Dvorak CI from TAFB), the initial intensity is lowered to 105 kt. 
+The 34- and 50-kt wind radii were updated based on a recent ASCAT-C 
+pass over the hurricane.
+ 
+Genevieve is moving west-northwestward (285/8 kt) along the 
+southwestern periphery of a mid-level ridge centered over the 
+southwestern United States and northern Mexico. This steering ridge 
+is forecast to strengthen and build westward over the next several 
+days, which should keep Genevieve on a west-northwestward heading 
+with some increase in forward speed late this week and through the 
+weekend. The NHC track forecast is essentially an update of the 
+previous one, generally falling between the latest corrected (HCCA) 
+and simple (TVCN) consensus aids.
+
+The hurricane is experiencing moderate northwesterly shear that will 
+persist for the next 12-24 h while it moves over gradually 
+decreasing SSTs. By the time the shear is forecast to relent, 
+Genevieve will likely have already crossed the 26 deg C isotherm and 
+moved into a somewhat drier environment. The latest intensity 
+guidance suggests additional strengthening is unlikely, and the 
+updated NHC prediction shows Genevieve weakening through the 
+forecast period. The largest downward adjustments to the forecast 
+were made in the first 48 h, though NHC still lies on the upper end 
+of the guidance. The system is forecast to fall below hurricane 
+strength on Friday and become post-tropical at day 4, when the GFS 
+and ECMWF indicate that strengthening shear will make it difficult 
+for the system to sustain organized convection over sub-24 C waters.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  29/0900Z 18.4N 118.4W  105 KT 120 MPH
+ 12H  29/1800Z 18.8N 119.8W  100 KT 115 MPH
+ 24H  30/0600Z 19.5N 122.0W   90 KT 105 MPH
+ 36H  30/1800Z 20.2N 124.4W   80 KT  90 MPH
+ 48H  31/0600Z 21.0N 127.0W   70 KT  80 MPH
+ 60H  31/1800Z 21.8N 129.5W   60 KT  70 MPH
+ 72H  01/0600Z 22.5N 132.3W   50 KT  60 MPH
+ 96H  02/0600Z 24.2N 138.1W   40 KT  45 MPH...POST-TROPICAL
+120H  03/0600Z 26.0N 143.0W   35 KT  40 MPH...POST-TROPICAL
+ 
+$$
+Forecaster Reinhart
+ 
+NNNN
+

@@ -1,0 +1,97 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Polo Discussion Number  28
+NWS National Hurricane Center Miami FL       EP172026
+800 AM MST Sun Sep 27 2026
+ 
+Polo continues to have a pretty healthy structure on geostationary
+satellite imagery this morning, with very cold cloud tops associated
+with robust eyewall convection. The most recent F18 SSMIS microwave
+pass showed a mostly closed eyewall, albeit with some erosion on the
+east side, likely due to some residual easterly vertical wind shear.
+Both the subjective and objective intensity estimates over the past
+6 h have increased somewhat, with the latest SATCON, DPRINT, and 
+DMINT estimates between 106-113 kt. Thus, the initial intensity is 
+nudged up slightly to 110 kt for this advisory. A NOAA P-3 
+Hurricane Hunter aircraft is currently en route and will provide 
+updated in-situ data on Polo this afternoon.
+ 
+Polo continues to make its turn more northward, with the latest
+estimated motion at 345 degrees at 10 kt. The hurricane should soon
+turn northward and the northeastward over the next 12-24 h as it is
+steered between the deep-layer ridging that is centered over Mexico
+and a mid-latitude shortwave trough that will soon move into
+California. It is this short-wave that is expected to capture Polo
+as it reaches the coast of Baja California Sur, leading to further
+acceleration as the hurricane turns northeastward. While the track
+guidance this cycle is very tightly clustered near the previous
+forecast track, but are somewhat faster along this track. Thus the
+latest NHC track forecast has been moved slightly faster and
+roughly splits the difference between the reliable HFIP Corrected
+Consensus Approach (HCCA) and Google DeepMind ensemble mean (GDMI)
+aids. Its is worth noting there remains some along-track spread in
+the ensemble guidance, so the exact timing of landfall is more
+uncertain than usual in the 24-48 h time frame.
+ 
+The intensity forecast also has some challenges. Polo has maintained 
+a fairly healthy appearance while its been dealing with light to 
+moderate easterly vertical wind shear. The latest SHIPS guidance now 
+shows the shear decreasing over the next 12-24 h, and given the 
+slightly stronger initial intensity, the latest NHC intensity 
+forecast is higher than the previous one. This forecast is on the 
+high end of the interpolated intensity guidance, and now shows Polo 
+reaching the coast of the Baja California Peninsula as a 95 kt 
+hurricane. It is worth mentioning the latest HAFS-B raw model output 
+shows Polo could retain major hurricane intensity at landfall. Some 
+weakening should occur as it moves over the rugged terrain of Baja 
+California, but it is increasingly likely that Polo's second 
+landfall in mainland Mexico will also be as a (weaker) hurricane. 
+Rapid weakening is forecast thereafter as it moves inland over 
+Mexico with Polo becoming post-tropical or dissipating by 72 h.
+ 
+Polo is expected to become a remnant low and then dissipate before
+it reaches the southern U.S., but distant moisture associated with
+it and Odalys will be transported into the southwestern United
+States late this weekend and early next week, and may indirectly
+contribute to a heavy rainfall and flash flood threat in the region.
+See products issued by the Weather Prediction Center for more
+information.
+ 
+ 
+Key Messages:
+ 
+1. Polo is forecast to approach the west coast of the Baja
+California peninsula on Monday as a hurricane, and a Hurricane
+Warning is in effect for that region. Tropical storm conditions
+could reach portions of the coast as soon as tonight or early
+Monday, making further preparations difficult. These conditions
+will likely spread across Baja California through Monday. A storm
+surge is likely, especially in areas of onshore winds.
+ 
+2. Heavy rainfall associated with Polo may begin to impact Baja
+California Sur tonight into Tuesday. This rainfall may produce
+life-threatening flooding and mudslides, especially in areas of
+steep terrain.
+ 
+3. Dangerous surf and rip currents are likely along portions of
+the northwest coast of Mexico and Baja California for the next
+few days.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  27/1500Z 21.3N 113.9W  110 KT 125 MPH
+ 12H  28/0000Z 22.7N 113.9W  110 KT 125 MPH
+ 24H  28/1200Z 24.5N 113.4W  105 KT 120 MPH
+ 36H  29/0000Z 26.3N 112.2W   95 KT 110 MPH
+ 48H  29/1200Z 28.6N 110.0W   55 KT  65 MPH
+ 60H  30/0000Z 31.5N 107.2W   30 KT  35 MPH...POST-TROP/INLAND
+ 72H  30/1200Z...DISSIPATED
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

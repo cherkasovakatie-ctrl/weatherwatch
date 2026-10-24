@@ -1,0 +1,62 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Polo Discussion Number  37
+NWS National Hurricane Center Miami FL       EP172026
+200 PM MST Tue Sep 29 2026
+ 
+Since the last advisory, Polo has moved northeastward across the 
+Gulf of California and made landfall in the Mexican state of Sonora 
+just east of Guaymas.  The cyclone is now weakening as it moves 
+farther inland and it is estimated that it is now a 55-kt 
+tropical storm. Rapid weakening is expected as Polo crosses 
+northwestern Mexico, and it is likely that the surface circulation 
+will dissipate tonight. A 12-h position is included in this 
+advisory, but it is likely to be the position of a trough or 
+vorticity maximum and not a circulation center.
+
+The initial motion is now 040/18. Polo and its remnants are expected 
+to move rapidly northeastward through Wednesday in the flow on the 
+east side of a mid-latitude trough over the southwestern United 
+States. This track will bring the system across northwestern Mexico 
+and into portions of New Mexico and Texas as it interacts with the 
+trough. This evolution will contribute to heavy rainfall, flash 
+flooding, and gusty winds in the southwestern U.S. and southern 
+Plains. See products issued by the Weather Prediction Center and 
+local National Weather Service offices for more information.
+ 
+ 
+Key Messages:
+ 
+1. Tropical storm conditions are expected to spread across 
+northwestern Mexico near the center of Polo through tonight.
+ 
+2. Heavy rainfall associated with Polo will continue to impact the 
+southern and central portions of Sonora today. This rainfall is 
+expected to produce life-threatening flooding and mudslides, 
+especially in areas of steep terrain. Moisture from Polo will 
+support heavy rainfall and flooding potential across the Southwest 
+U.S. into the Southern High Plains today into early Wednesday.
+ 
+3. Even after the surface circulation of Polo dissipates, its low- 
+to mid-level remnants may produce strong gusty winds well inland 
+over the higher terrain of northwest Mexico, southern New Mexico, 
+and far western Texas.
+ 
+4. Dangerous surf and rip currents are likely to persist along 
+portions of the northwest coast of Mexico and Baja California for 
+the next day or so.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  29/2100Z 29.0N 109.7W   55 KT  65 MPH...INLAND
+ 12H  30/0600Z 32.6N 105.7W   30 KT  35 MPH...POST-TROP/INLAND
+ 24H  30/1800Z...DISSIPATED
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

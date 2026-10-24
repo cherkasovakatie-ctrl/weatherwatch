@@ -1,0 +1,60 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Rachel Discussion Number  34
+NWS National Hurricane Center Miami FL       EP182026
+800 AM PDT Mon Oct 05 2026
+ 
+Rachel's satellite appearance continues to depict a ring of deep 
+convection around a large eye. The system is dealing with some 
+northeasterly wind shear, which has brought drier air that has 
+entrained into the system and eroded some of the northern, 
+particularly northwestern, side of the circulation. Satellite 
+intensity estimates have decreased, with the TAFB subjective Dvorak 
+classification a T4.5/77 kt, and using this estimate, the initial 
+intensity is lowered to 75 kt.
+
+The system is moving westward or 275/6 kt, steered by a mid-level 
+ridge located over the southwestern United States and eastern 
+Pacific. This general forward motion should continue for the next 
+several days. Toward the end of the period, a mid- to upper-level 
+trough will move into the eastern Pacific northwest of the cyclone, 
+causing the system to slow and make a sharp northeastward turn. The 
+latest NHC track forecast is very similar to the previous one and 
+continues to blend the HCCA and GDMI model solutions.
+
+Rachel is traversing marginally warm sea surface temperatures of 
+around 26-27C while dealing with some shear and drier air. Given 
+recent structural changes, there will likely be fluctuations in 
+intensity over the next day or so. Beyond 36 to 48 h, sea surface 
+temperatures cool along the forecast track, which, combined with 
+increasing dry air, will induce a more steady weakening trend. 
+Determining when Rachel becomes post-tropical has been tricky, as 
+the aforementioned trough that will turn the system northeastward 
+may induce some baroclinic support to maintain convection. Simulated 
+infrared imagery shows that convection may become less organized by 
+day 5, and the latest NHC forecast now depicts the system becoming 
+post-tropical at that time. The latest NHC intensity forecast 
+remains at the high end of the guidance envelope near the HCCA and 
+GDMI in the short term, then trends closer to the rest of the 
+consensus aids as the system weakens through the end of the forecast 
+period. 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  05/1500Z 20.4N 116.2W   75 KT  85 MPH
+ 12H  06/0000Z 20.5N 117.3W   75 KT  85 MPH
+ 24H  06/1200Z 20.5N 118.9W   70 KT  80 MPH
+ 36H  07/0000Z 20.7N 120.2W   70 KT  80 MPH
+ 48H  07/1200Z 21.1N 121.7W   65 KT  75 MPH
+ 60H  08/0000Z 21.7N 123.1W   60 KT  70 MPH
+ 72H  08/1200Z 22.0N 124.6W   50 KT  60 MPH
+ 96H  09/1200Z 22.4N 126.6W   45 KT  50 MPH
+120H  10/1200Z 23.1N 125.5W   35 KT  40 MPH...POST-TROPICAL
+ 
+$$
+Forecaster Kelly
+ 
+NNNN
+

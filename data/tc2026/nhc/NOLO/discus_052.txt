@@ -1,0 +1,69 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Nolo Discussion Number  52
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+500 AM HST Sat Oct 03 2026
+
+Nolo may be taking a short breather during its intensification
+phase. The hurricane has a fairly symmetric convective pattern,
+with cloud tops as cold as -68 degrees Celsius in the southern
+eyewall and an eye temperature of about 14 degrees Celsius. This
+pattern yielded subjective Dvorak estimates of T5.0/90 kt from HFO
+and JTWC, while objective numbers from UW-CIMSS are as high as
+90-95 kt. As a result, Nolo's current intensity is maintained at 95
+kt.
+ 
+Nolo is moving faster as expected, and the current motion is now
+westward (265 degrees) at 12 kt. Strong ridging to the north is
+expected to cause Nolo to accelerate further toward the west,
+potentially reaching a forward speed of around 20 kt by day 4. The
+track models are very tightly clustered for the next 3 days, and
+confidence in that part of the forecast is very high. Nolo is
+expected to be west of the International Date Line by hour 36.
+There is higher-than-normal spread in the guidance on days 4 and 5,
+mainly related to how Nolo might interact with a disturbance
+currently near the Marshall Islands (Invest 94W) and a longwave
+trough expected to move east of Japan. The NHC forecast favors the
+models on the southern end of the guidance envelope, showing a
+continued westward track, and is very close to the previous
+prediction.
+ 
+Nolo's intensification is likely to resume soon while it moves over
+sea surface temperatures around 28 degrees Celsius, and deep-layer
+shear becomes almost negligible. A lot of dry air surrounds the
+hurricane, with mid-level relative humidity around 40 percent,
+but the low shear should minimize how much dry air can
+infiltrate Nolo's circulation. Nolo is expected to become a major
+hurricane later today and could peak at category 4 intensity in
+about 36 hours, if not sooner. There is some model signal for a
+faster rate of intensification during the first 24 hours than what
+is shown in the official forecast, with the SHIPS Rapid
+Intensification Index showing a 40 percent chance of a 20-kt
+increase in winds over the next 12 hours. The HAFS-A/B hurricane
+models are also slightly higher through 36 hours. Internal dynamics,
+such as an eyewall replacement, as well as a slight increase in
+shear will likely induce some weakening after 36 hours, but Nolo is
+expected to remain a hurricane--or a typhoon west of the Date
+Line--through the end of the 5-day forecast period.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  03/1500Z 23.1N 171.2W   95 KT 110 MPH
+ 12H  04/0000Z 23.2N 173.9W  105 KT 120 MPH
+ 24H  04/1200Z 23.6N 177.4W  115 KT 130 MPH
+ 36H  05/0000Z 24.3N 179.3E  120 KT 140 MPH
+ 48H  05/1200Z 25.1N 176.2E  115 KT 130 MPH
+ 60H  06/0000Z 25.3N 172.8E  110 KT 125 MPH
+ 72H  06/1200Z 25.5N 168.8E  100 KT 115 MPH
+ 96H  07/1200Z 26.2N 160.4E   80 KT  90 MPH
+120H  08/1200Z 26.9N 153.8E   70 KT  80 MPH
+ 
+$$
+Forecaster Berg
+ 
+NNNN
+

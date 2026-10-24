@@ -1,0 +1,59 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Fausto Discussion Number  19
+NWS National Hurricane Center Miami FL       EP062026
+500 AM HST Thu Jul 23 2026
+
+Dry air entrainment has once again impacted Fausto this morning. 
+While the hurricane briefly closed off an eyewall a few hours ago, 
+the latest satellite images show that inner core convection has 
+eroded on the western side of the circulation. The initial intensity 
+is held at 70 kt, which falls between the latest D-MINT and D-PRINT 
+estimates from UW-CIMSS and a T4.5/77 kt Dvorak classification from 
+TAFB. 
+
+The hurricane is moving westward (280 degrees) at 11 kt, and this 
+general motion is expected to continue for the next several days as 
+a ridge strengthens to the north of Fausto. There is increased 
+spread in the track models beginning around day 3, with the Google 
+Deep Mind notably faster and farther south than the GFS and the 
+hurricane regional models. The NHC track forecast remains on the 
+southern side of the guidance envelope, closest to the HFIP 
+corrected consensus (HCCA) and the Google Deep Mind ensemble mean. 
+While the longer-range forecast brings the center of Fausto 
+generally toward the Hawaiian Islands, it is too early to speculate 
+on potential impacts to the islands at this point.
+
+Fausto continues to periodically struggle with intrusions of 
+drier mid-level air within its circulation. Although the deep-layer 
+shear is fairly low, model soundings suggest that stronger 
+west-northwesterly mid-level shear during the next couple of days 
+may cause continued bouts of dry air entrainment. Then, the SHIPS 
+guidance shows mid-level humidity values falling below 50 percent by 
+this weekend. So although Fausto will be over marginal SSTs 
+throughout the period, a gradual weakening trend is predicted while 
+the system moves into the Central Pacific. This forecast keeps 
+Fausto a tropical cyclone through day 5, but model simulated 
+satellite imagery suggests the system could struggle to maintain 
+organized convection by early next week.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  23/1500Z 17.9N 125.3W   70 KT  80 MPH
+ 12H  24/0000Z 18.1N 127.4W   70 KT  80 MPH
+ 24H  24/1200Z 18.5N 130.1W   65 KT  75 MPH
+ 36H  25/0000Z 18.8N 132.9W   65 KT  75 MPH
+ 48H  25/1200Z 19.1N 135.5W   60 KT  70 MPH
+ 60H  26/0000Z 19.3N 137.9W   60 KT  70 MPH
+ 72H  26/1200Z 19.4N 140.2W   60 KT  70 MPH
+ 96H  27/1200Z 20.1N 145.7W   55 KT  65 MPH
+120H  28/1200Z 20.5N 151.0W   45 KT  50 MPH
+ 
+$$
+Forecaster Reinhart
+ 
+NNNN
+

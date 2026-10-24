@@ -1,0 +1,59 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Trudy Discussion Number  26
+NWS National Hurricane Center Miami FL       EP212026
+200 PM MST Mon Oct 19 2026
+ 
+Trudy's nocturnal burst of convection has weakened this morning.
+Microwave imagery from around 1300 UTC suggests a broad center of
+circulation is present, with convection concentrated primarily to
+the east and northeast. ASCAT data from around 1630 UTC also
+suggested max winds in the 30-35 kt range, with the storm's center
+located to the southeast compared to the previous advisory.  The
+latest subjective Dvorak intensity analysis from TAFB also reflects
+a weakening trend for the storm. Based primarily on the ASCAT data,
+Trudy's initial intensity has been lowered to 35 kt.
+ 
+The tropical storm does not appear to have moved much on satellite 
+imagery today, and its motion is estimated to be stationary. Trudy's 
+lack of motion is driven primarily by light steering flow associated 
+with a low- to mid-level ridge centered to its northeast. In 
+addition, moderate 20 to 30 kt westerly winds aloft forcing the deep 
+convection to essentially remain in place down-shear of the center. 
+It's possible that earlier the low-level center tried to reform 
+closer to the deep convection. Track guidance suggests that Trudy 
+will move very slowly, with most models indicating a westward to 
+northwestward motion until the system dissipates. The latest NHC 
+track forecast follows a blend of GDMI and HCCA guidance, which 
+reflects this slow motion toward the northwest.
+ 
+Trudy is expected to undergo further weakening as it remains in an
+environment defined by increasing vertical wind shear, dry
+mid-level air, and upper-level convergence. While the storm may
+undergo one more round of diurnally-driven convection, simulated
+satellite imagery from global models suggest that Trudy will become
+post-tropical in 24 hours, before dissipating after another day or
+so. The latest NHC intensity forecast hastens Trudy's overall
+weakening trend, while holding steady during possible bouts of
+convective re-development.
+ 
+Large swells affecting the coast of southwestern Mexico and 
+west-central Mexico associated with Trudy are diminishing today.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  19/2100Z 19.3N 107.9W   35 KT  40 MPH
+ 12H  20/0600Z 19.4N 108.3W   30 KT  35 MPH
+ 24H  20/1800Z 19.5N 108.9W   30 KT  35 MPH...POST-TROPICAL
+ 36H  21/0600Z 19.8N 109.3W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 48H  21/1800Z 20.2N 109.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 60H  22/0600Z...DISSIPATED
+ 
+$$
+Forecaster Evans/Zelinsky
+ 
+NNNN
+

@@ -1,0 +1,57 @@
+
+ZCZC HFOTCDCP4 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Lowell Discussion Number  24
+NWS Central Pacific Hurricane Center Honolulu HI   EP122026
+Issued by NWS National Hurricane Center Miami FL
+1100 PM HST Tue Sep 01 2026
+
+Satellite imagery shows that Lowell is a well-organized, compact 
+hurricane that has continued to intensify since the last advisory.  
+The initial intensity is set to 125 kt, between a blend of the 
+various subjective and objective Dvorak estimates from 118-137 kt. 
+Lowell has undergone an impressive 65-kt very rapid intensification 
+during the last 24 hours, and it should remain in generally 
+conducive large-scale conditions of warm water and light shear for 
+the next several days. The storm could even make category 5 
+intensity on Wednesday before a series of eyewall replacement 
+cycles likely commence by Thursday.  The intensity forecast is 
+raised in the short term, but otherwise is similar to the previous 
+one, on the higher side of the guidance envelope.  There is a high 
+likelihood that Lowell will remain a powerful hurricane for days to 
+come, with the intensity governed largely by internal dynamics 
+(like eyewall replacements).
+
+The initial motion is westward at 10 kt. A westward motion is 
+anticipated during the next several days due to a mid-level ridge 
+over the Central Pacific.   By Sunday, an upper-level trough is 
+expected to weaken the ridge, causing Lowell to slow down and take a 
+more northward turn, though there is considerable uncertainty on 
+how sharp that turn might be.  Similar to the last advisory, the 
+official track forecast is nudged slightly southward, near the HCCA 
+and GDMI track aids. 
+ 
+KEY MESSAGES:
+ 
+1. Interests in the Hawaiian Islands should continue to closely
+monitor the progress of Hurricane Lowell.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  02/0900Z 13.5N 152.2W  125 KT 145 MPH
+ 12H  02/1800Z 13.6N 153.7W  135 KT 155 MPH
+ 24H  03/0600Z 13.7N 155.7W  130 KT 150 MPH
+ 36H  03/1800Z 13.9N 157.5W  125 KT 145 MPH
+ 48H  04/0600Z 14.0N 159.2W  125 KT 145 MPH
+ 60H  04/1800Z 14.0N 160.6W  120 KT 140 MPH
+ 72H  05/0600Z 14.0N 161.9W  120 KT 140 MPH
+ 96H  06/0600Z 14.3N 164.0W  120 KT 140 MPH
+120H  07/0600Z 15.6N 164.7W  120 KT 140 MPH
+ 
+$$
+Forecaster Blake
+ 
+NNNN
+

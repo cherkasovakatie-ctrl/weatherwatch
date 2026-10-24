@@ -1,0 +1,48 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Genevieve Discussion Number  38
+NWS National Hurricane Center Miami FL       EP072026
+500 AM HST Sun Aug 02 2026
+ 
+Genevieve is feeling the effects of west-southwesterly shear and dry 
+mid-level air this morning. Convection is displaced to the north of 
+the center and is quickly diminishing, and the center is now 
+completely exposed. A recent AMSR-2 pass indicated that the vortex 
+was tilted with height, with the low-level circulation displaced 
+from the mid-level center. Despite the tilt, the low-level 
+circulation remains intact, although it was notably weaker on the 
+southern side. Recent objective Dvorak satellite intensity estimates 
+range from 31-48 kt, while the TAFB estimate was 2.5/35 kt. Given 
+these estimates and the degraded satellite appearance, the initial 
+intensity has been set at 40 kt for this advisory.
+ 
+The tropical storm is moving toward the west-northwest around 12 kt, 
+along the southwest periphery of a ridge centered over the 
+southwestern United States. This motion is forecast to continue over 
+the next 36 h or so, before Genevieve turns toward the northwest and 
+slows. Environmental conditions will become increasingly hostile, 
+likely prohibiting any additional strengthening. In fact, organized 
+deep convection is expected to diminish later today, and the latest 
+NHC forecast shows the system becoming post-tropical by tonight. 
+Intensity guidance remains tightly clustered, and the forecast lies 
+within the middle of the guidance envelope. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  02/1500Z 24.5N 138.4W   40 KT  45 MPH
+ 12H  03/0000Z 25.2N 140.1W   35 KT  40 MPH...POST-TROPICAL
+ 24H  03/1200Z 26.0N 142.2W   35 KT  40 MPH...POST-TROPICAL
+ 36H  04/0000Z 26.7N 143.8W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 48H  04/1200Z 27.3N 144.8W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 60H  05/0000Z 28.0N 145.4W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 72H  05/1200Z 28.6N 146.0W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 96H  06/1200Z...DISSIPATED
+ 
+$$
+Forecaster Adams/Hagen
+ 
+NNNN
+

@@ -1,0 +1,82 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Simon Discussion Number  30
+NWS National Hurricane Center Miami FL       EP202026
+200 PM MST Wed Oct 14 2026
+
+Simon is showing how small tropical cyclones can undergo rapid 
+weakening as well as rapid intensification. A synthetic aperture 
+radar (SAR) overpass near 13Z showed winds in the eyewall of 65-75 
+kt, suggesting that the intensity in the previous advisory was too 
+high. An Air Force Reserve Hurricane Hunter aircraft has just 
+reported that the storm is now weaker, with no hurricane-force 
+winds present so far at 700 mb. The central pressure is near 989 mb 
+based on a dropsonde with a surface pressure of 993 mb and surface 
+winds of 41 kt. The initial intensity is reduced to 65 kt based 
+mainly on the central pressure, and it is likely that this is 
+generous. The aircraft reported a 16-nm wide eye open to the 
+southwest and a larger radius of maximum wind than shown by the 
+earlier SAR data.
+ 
+The hurricane continues drifting southwest or 235/3 kt. For the
+next day or so, Simon should continue drifting southwestward or 
+southward in an area of light steering currents, with the center 
+remaining well offshore. After that time, there remains some 
+spread in the track guidance models. While all of the global models
+agree that a mid- to upper-level trough should form west of Baja
+California near and after 48 h, there remains disagreement on how 
+this will affect Simon's track. The HAFS models keep the cyclone
+moving southward through 72 h, while the GFS model does not show
+any northward turn until 48 h. The remainder of the guidance
+forecasts a turn toward the northwest or north-northwest around 36
+h, with that motion continuing through the end of the forecast
+period. The new track forecast follows the latter scenario in
+anticipation that the center will try to follow convective bursts
+displaced to the north by southerly shear. Overall, the track
+guidance envelope has shifted westward since the previous advisory,
+and so has the track forecast.
+ 
+Simon is currently experiencing light to moderate northerly shear 
+and dry air entrainment, and this combination has at least 
+temporarily disrupted the eyewall convection. The shear is likely 
+to subside during the next 6-18 h, and based on this the intensity 
+forecast keeps the cyclone as a minimal hurricane.  After 36 h, 
+increasing southerly and southwesterly upper-level winds between 
+the trough to the northwest and Tropical Storm Trudy to the 
+southeast should cause significant shear over Simon. The intensity 
+forecast shows steady weakening during this time, and there is a 
+possibility that Simon could weaken faster and dissipate sooner than 
+currently forecast.
+
+ 
+Key Messages:
+ 
+1. Interests in Baja California Sur should continue to closely
+monitor the latest updates. Watches or warnings could be required
+for portions of Baja California Sur over the next day or two.
+ 
+2. Large swells will likely affect portions of the coast of
+west-central Mexico and Baja California Sur over the next several
+days. These swells could cause life-threatening surf and rip current
+conditions.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  14/2100Z 19.3N 108.3W   65 KT  75 MPH
+ 12H  15/0600Z 19.2N 108.5W   65 KT  75 MPH
+ 24H  15/1800Z 19.1N 108.4W   65 KT  75 MPH
+ 36H  16/0600Z 19.5N 108.6W   65 KT  75 MPH
+ 48H  16/1800Z 20.3N 109.5W   60 KT  70 MPH
+ 60H  17/0600Z 21.5N 110.5W   55 KT  65 MPH
+ 72H  17/1800Z 22.8N 111.5W   45 KT  50 MPH
+ 96H  18/1800Z 24.9N 113.2W   30 KT  35 MPH
+120H  19/1800Z 26.7N 114.2W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

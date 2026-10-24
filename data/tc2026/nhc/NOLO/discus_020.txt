@@ -1,0 +1,92 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Nolo Discussion Number  20
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+500 AM HST Fri Sep 25 2026
+
+Nolo continues on a gradual strengthening trend this morning.  On 
+the last pass through the hurricane, Air Force Hurricane Hunters 
+reported that the pressure had dropped to about 980 mb, and  
+satellite imagery shows deepening convection in the ragged eyewall. 
+On this basis, the initial intensity is set to 75 kt, which is also 
+at the top end of the various satellite estimates.
+
+The hurricane is moving north-northeastward at 4 kt, as it is being 
+steered by a deep-layer trough located west of the Hawaiian Islands. 
+This trough should begin to move away from Nolo on Saturday, 
+causing the hurricane to drift westward while it is located south of 
+Hawaii.  A westward motion with increasing forward speed is then 
+expected by early Sunday due to a ridge re-building.  Model 
+guidance has, unfortunately, not been very consistent on exactly 
+when this westward turn occurs, as there has been a shift to the 
+north on this cycle.  This new forecast is moved in that direction 
+through the weekend, though still a fair distance south of Hawaii.  
+At long range, Nolo should again encounter the aforementioned 
+upper-level trough, now re-invigorated, which should cause a 
+north-northwestward turn early next week.  No significant changes 
+were made to the long-range NHC forecast. 
+
+Nolo should further intensify today, though rapid intensification is 
+not expected due to its large radius-of-maximum wind, moderate 
+shear and some dry mid-level air in the northern semicircle.  The 
+shear is forecast to weaken in about 36 hours, which should allow 
+the hurricane to significantly intensify.  Additionally, Nolo could 
+be moving over a patch of high ocean heat content, and model 
+guidance is in better agreement on this system becoming rather 
+strong by early next week.  The new forecast is similar to the 
+previous one but raised just a bit through day 3 to come into 
+better agreement with the typically skillful HCCA model. Weakening 
+is expected by days 4 and 5 due to forecast strong southwesterly 
+shear east of the trough.
+ 
+ 
+Key Messages:
+ 
+1. Nolo is expected to remain south of the Big Island of Hawaii 
+through Saturday before turning westward and moving away from the 
+island. Tropical storm conditions are expected to begin on the Big 
+Island tonight with hurricane conditions possible on Saturday, 
+particularly in areas of steep terrain. Residents should follow 
+advice given by local officials, including evacuating if told to do 
+so.
+ 
+2. The time to finish preparations for significant heavy rain and 
+flooding impacts on the Big Island is now as heavy rain increases in 
+both coverage and intensity today. Periods of heavy rain are 
+expected to continue across the Big Island and Maui through the 
+weekend. Life-threatening, catastrophic flooding and mudslides are 
+possible, especially in areas of steep terrain across the eastern 
+and southern portions of the Big Island and Maui. Across the 
+remainder of Hawaii, lesser rainfall totals are expected, with 
+isolated flooding possible. 
+ 
+3. Large and damaging waves are likely along portions of the
+Big Island's coastline into the weekend.
+ 
+4. A Tropical Storm Watch is in effect for Maui County where
+tropical storm conditions are possible beginning on Saturday.
+Interests elsewhere in Hawaii should closely monitor the latest
+forecast updates and ensure that they have their preparedness plans
+in place.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  25/1500Z 16.0N 155.5W   75 KT  85 MPH
+ 12H  26/0000Z 16.7N 155.3W   90 KT 105 MPH
+ 24H  26/1200Z 17.1N 155.5W   95 KT 110 MPH
+ 36H  27/0000Z 17.1N 156.3W  100 KT 115 MPH
+ 48H  27/1200Z 16.9N 157.8W  110 KT 125 MPH
+ 60H  28/0000Z 16.9N 159.8W  120 KT 140 MPH
+ 72H  28/1200Z 17.4N 161.6W  120 KT 140 MPH
+ 96H  29/1200Z 20.2N 164.3W  100 KT 115 MPH
+120H  30/1200Z 22.7N 164.8W   70 KT  80 MPH
+ 
+$$
+Forecaster Blake
+ 
+NNNN
+

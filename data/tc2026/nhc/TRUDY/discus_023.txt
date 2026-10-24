@@ -1,0 +1,67 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Trudy Discussion Number  23
+NWS National Hurricane Center Miami FL       EP212026
+800 PM MST Sun Oct 18 2026
+ 
+Examining the last-light visible satellite imagery of Trudy, it is 
+becoming clear that the hurricane is starting to rapidly weaken. The 
+coldest cloud tops within the cyclone on infrared imagery are now 
+around -55 degrees C, and the convection continues to decline at a 
+steady rate. This degradation in Trudy's structure is likely due to 
+a combination of the southwesterly shear and some dry air intrusion 
+into the core of the cyclone. Using a combination of the objective 
+and subjective intensity estimates, the intensity has been lowered 
+to 70 kt for this advisory.
+ 
+A WSF-M microwave pass at 0040 UTC was very useful in locating the 
+center of Trudy, which was further south and west of the Dvorak 
+position, though the initial motion is still estimated towards the 
+northwest or 315/6 kt. A turn toward the west-northwest or west 
+along with a decrease in forward speed is expected to occur as Trudy 
+continues to weaken. As the cyclone weakens, low- to mid-level flow 
+will become the main steering for Trudy. Trudy will continue to move 
+away from west-central Mexico, and then move south of Baja 
+California Sur over the next day or so. The current NHC track 
+forecast is farther south of the previous one, partially due to the 
+adjustment in the initial position, but remains in good agreement 
+with the HCCA and GDMI forecast aids.
+ 
+The hurricane already appears to be rapidly weakening due to the 
+influence of southwesterly shear along with a drier and more stable 
+airmass. The current NHC intensity forecast is in the middle of the 
+guidance envelope showing Trudy continuing to rapidly weaken over 
+the next day or so, followed by more gradual weakening. The current 
+forecast has Trudy becoming post-tropical in 48 h and then 
+dissipating in 72 h. However, it is possible that both of these 
+events could occur sooner than currently predicted.
+ 
+ 
+KEY MESSAGES:
+ 
+1. Heavy rainfall from Trudy is subsiding along the southwest 
+Mexican coast in Jalisco, and the associated flood risk is expected 
+to diminish as well
+ 
+2. Large swells will continue to affect the coast of southwestern
+Mexico and west-central Mexico during the next two to three days,
+causing life-threatening surf and rip current conditions.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  19/0300Z 19.7N 107.6W   70 KT  80 MPH
+ 12H  19/1200Z 19.8N 107.9W   60 KT  70 MPH
+ 24H  20/0000Z 19.8N 108.5W   45 KT  50 MPH
+ 36H  20/1200Z 19.9N 109.3W   40 KT  45 MPH
+ 48H  21/0000Z 20.4N 109.8W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 60H  21/1200Z 21.1N 110.1W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 72H  22/0000Z...DISSIPATED
+ 
+$$
+Forecaster Katz/Papin
+ 
+NNNN
+

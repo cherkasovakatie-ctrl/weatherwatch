@@ -1,0 +1,58 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Genevieve Discussion Number  35
+NWS National Hurricane Center Miami FL       EP072026
+1100 AM HST Sat Aug 01 2026
+
+The organization of Genevieve hasn’t changed much during the past 6 
+h.  GOES-18 daytime visible imagery indicates that the low-level 
+center is exposed to the west of the main convective area.  The 
+latest subjective Dvorak current intensity estimate from TAFB is 
+2.5/35 kt, and recent objective satellite intensity estimates range 
+from about 35-40 kt.  The initial intensity will remain 40 kt for 
+this advisory.
+
+The initial motion estimate is west-northwestward at 12 kt, which is 
+unchanged from 6 h ago.  This general motion will continue through 
+the end of the weekend as a low- to mid-level ridge remains north of 
+the cyclone.  By Monday, a gradual turn to the northwest and 
+north-northwest is expected as the ridge weakens north of the 
+cyclone due to a deep-layer low/trough that will be located to the 
+north-northwest of Genevieve.  Very little change was made to the 
+previous NHC track forecast, which lies close to the latest Google 
+DeepMind Ensemble Mean and HFIP Corrected Consensus (HCCA).  The 
+track guidance remains tightly clustered, so there is high 
+confidence in the track forecast.
+
+Genevieve is starting to enter cooler sea-surface temperatures 
+(SSTs) now, with SSTs between 24-25C.  The cyclone will reach SSTs 
+lower than 24C in about 12h.  Genevieve is currently moving within 
+an environment of weak vertical wind shear dry, stable air.  
+Southwesterly vertical wind shear will then increase to moderate 
+levels (15-20 kt) by 24 h while the environment remains dry and 
+stable. These conditions will lead to continued gradual weakening, 
+and Genevieve is likely to lose its convection and become post 
+tropical by 36 h.  Thereafter, the remnant low should gradually spin 
+down with dissipation occurring by 96 h, as depicted by the global 
+models.  The latest NHC intensity forecast is similar to the 
+previous advisory and lies near the middle of the guidance envelope.
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  01/2100Z 23.3N 135.0W   40 KT  45 MPH
+ 12H  02/0600Z 23.9N 137.0W   40 KT  45 MPH
+ 24H  02/1800Z 24.8N 139.5W   35 KT  40 MPH
+ 36H  03/0600Z 25.8N 141.9W   35 KT  40 MPH...POST-TROPICAL
+ 48H  03/1800Z 26.7N 143.7W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 60H  04/0600Z 27.8N 145.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 72H  04/1800Z 28.9N 145.8W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 96H  05/1800Z...DISSIPATED
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

@@ -1,0 +1,53 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Rachel Discussion Number  31
+NWS National Hurricane Center Miami FL       EP182026
+200 PM MST Sun Oct 04 2026
+ 
+Rachel has not changed much during the past several hours. The
+hurricane continues to have a well established inner core, but the
+eye has become a little more cloud-filled and ragged compared to
+this morning. The latest satellite intensity estimates range from
+85 to 97 kt, and based on that data and the relatively steady
+state appearance of the system, the initial intensity is held at 90
+kt. A 1616 UTC ASCAT-B was helpful in adjusting the initial wind
+radii.
+ 
+The hurricane has turned westward over the past several hours, with
+the initial motion now estimated to be 270/5 kt. A high pressure
+system to the north of Rachel should keep the system on a slow
+westward track through the middle of the week. After that time, the
+high is expected to weaken and shift eastward as a trough cuts off
+near the southern California coast, which should allow Rachel to
+turn back to the west-northwest by the end of the week. Little
+change was made to the previous track forecast, and this one lies
+near the best-performing models of the year so far, HCCA and GDMI.
+ 
+Rachel will likely maintain its strength through tonight. However,
+as the hurricane moves farther west, it will be entering a
+progressively drier airmass and moving over sub 26C waters in a
+couple of days. Therefore, steady weakening is forecast to begin on
+Monday and continue through the week. The NHC intensity forecast
+lies generally near the middle of the guidance envelope, and is
+largely an update of the previous one.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  04/2100Z 20.1N 114.3W   90 KT 105 MPH
+ 12H  05/0600Z 20.2N 115.2W   90 KT 105 MPH
+ 24H  05/1800Z 20.3N 116.6W   85 KT 100 MPH
+ 36H  06/0600Z 20.4N 118.2W   80 KT  90 MPH
+ 48H  06/1800Z 20.6N 119.7W   75 KT  85 MPH
+ 60H  07/0600Z 20.9N 121.1W   70 KT  80 MPH
+ 72H  07/1800Z 21.4N 122.7W   65 KT  75 MPH
+ 96H  08/1800Z 22.3N 125.5W   55 KT  65 MPH
+120H  09/1800Z 22.6N 127.0W   45 KT  50 MPH
+ 
+$$
+Forecaster Cangialosi
+ 
+NNNN
+

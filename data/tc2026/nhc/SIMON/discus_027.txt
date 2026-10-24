@@ -1,0 +1,69 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Simon Discussion Number  27
+NWS National Hurricane Center Miami FL       EP202026
+800 PM MST Tue Oct 13 2026
+ 
+After holding steady for the past 18-24 hours, Simon is
+re-intensifying. The eye of the hurricane has become distinct, and
+deep convection is more intense and symmetric around the eye. The
+initial intensity has been increased to 95 kt near a Dvorak
+classification from TAFB. Although Simon's peak winds appear to have
+increased significantly, the hurricane remains tiny. The hurricane-
+and tropical-storm-force winds are estimated to only extend up to 10
+and 30 n mi from the center, respectively.
+ 
+The compact hurricane is drifting westward off the coast of
+west-central Mexico. The steering currents are expected to remain
+very weak for the next couple of days, and most of the models show
+Simon drifting southwestward during that time. By the end of the
+week and over the weekend, the model solutions diverge
+significantly, and the differences appear to be due to the location
+and depth of Simon and a mid- to upper-level trough over the western
+U.S. The new forecast shows a slower motion from days 3 to 5, in
+better agreement with the latest models.
+ 
+Some additional strengthening is possible tonight, and Simon could
+become a major hurricane again. However, slow weakening seems
+likely after that time due to an increase in vertical wind shear,
+intrusions of dry air, and possibly ocean upwelling. The NHC
+intensity forecast is raised from the previous one in the short
+term, but is similar to the prior forecast beyond a couple of days.
+ 
+Simon has been a very challenging storm to forecast, and confidence
+for this cycle remains low given the weak steering, proximity to
+land, very small size, and significant model spread.
+ 
+Key Messages:
+ 
+1. Simon could be near Las Islas Marias on Thursday, where a
+Hurricane Watch remains in effect. Interests in west-central Mexico
+and Baja California Sur should continue to closely monitor the
+latest updates. Additional watches or warnings could be required
+over the next day or two.
+ 
+2. Large swells will likely affect portions of the coast of
+west-central Mexico and Baja California Sur over the next several
+days. These swells could cause life-threatening surf and rip current
+conditions.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  14/0300Z 20.1N 107.6W   95 KT 110 MPH
+ 12H  14/1200Z 20.1N 107.8W  105 KT 120 MPH
+ 24H  15/0000Z 19.6N 108.2W   95 KT 110 MPH
+ 36H  15/1200Z 18.9N 108.5W   85 KT 100 MPH
+ 48H  16/0000Z 19.7N 108.1W   75 KT  85 MPH
+ 60H  16/1200Z 21.0N 108.0W   65 KT  75 MPH
+ 72H  17/0000Z 22.3N 108.8W   55 KT  65 MPH
+ 96H  18/0000Z 24.1N 109.7W   40 KT  45 MPH
+120H  19/0000Z 27.2N 110.9W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Cangialosi
+ 
+NNNN
+

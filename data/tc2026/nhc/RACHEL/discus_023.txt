@@ -1,0 +1,75 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Rachel Discussion Number  23
+NWS National Hurricane Center Miami FL       EP182026
+200 PM MST Fri Oct 02 2026
+
+The structure of Rachel has not changed appreciably since the 
+previous advisory.  A ragged, cloud-filled eye can still be seen on 
+visible satellite imagery.  The cloud pattern can also be described 
+as having a large central dense overcast or embedded center, with 
+the deep convection spanning roughly 200 n mi in diameter.  The 
+latest subjective intensity estimate from TAFB is T4.5/77 kt, and 
+the latest objective estimates from UW-CIMSS range from about 77-99 
+kt.  The initial intensity is lowered slightly to 90 kt for this 
+advisory, as a compromise of the subjective and objective estimates.
+
+The cyclone is still moving slowly westward at 265/4 kt and has made 
+its closest approach Socorro Island, passing about 30 to 35 n mi 
+north of the station, which recorded winds of 53 kt gusting to 74 kt 
+and a minimum pressure 982.6 mb.  This data fits in nicely with a 
+pair of recent ASCAT passes over Rachel from around 1700 UTC.  The 
+previous operational radii didn't need much adjusting since the 
+ASCAT passes showed very similar radii to what we were carrying.
+
+This slow westward motion is expected to continue with a gradual 
+increase in forward speed over the weekend and into early next week 
+as a mid-level ridge builds to the north.  A gradual bend toward the 
+west-northwest is forecast by Monday as the ridge begins to weaken.  
+The track guidance remains in fair agreement on this scenario, 
+although some differences remain in the timing of the increase in 
+forward speed by early next week. The latest NHC track forecast is 
+just a hair north of the previous prediction and lies near the HCCA 
+and TVCN consensus aids.  The NHC forecast is still about 30 miles 
+to the left (or south) of the Google DeepMind Ensemble Mean, 
+especially from hour 24 to 96.
+
+The hurricane's structure hasn't changed much in the past 6 hours, 
+and the guidance hasn't changed much either on this cycle, so no 
+major changes are made to the NHC intensity forecast.  Over the next 
+36 hours, moderate northeasterly wind shear could affect Rachel 
+some.  Sea-surface temperatures (SSTs) are forecast to decrease 
+along the hurricane's path during that time from 29 to 27C as Rachel 
+encounters the cold wake from Hurricane Polo.  Gradual weakening is 
+forecast during this period.  After that time, sea-surface 
+temperatures (SSTs) should increase slightly to 28C along Rachel's 
+path as it moves out of Polo's cold wake, but the cyclone will be 
+moving into a drier mid-level environment.  The competing factors 
+are expected to lead to little change in strength during the 36- to 
+72-hour period, and NHC continues to flatline Rachel at 70 kt during 
+that time.  In 4-5 days, Rachel should cross the 26C SST isotherm 
+while it reaches an even drier mid-level airmass, and the system is 
+forecast to weaken to a tropical storm by the end of the forecast 
+period.  The NHC intensity forecast lies toward the higher end of 
+the guidance envelope.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  02/2100Z 19.3N 111.1W   90 KT 105 MPH
+ 12H  03/0600Z 19.4N 111.6W   80 KT  90 MPH
+ 24H  03/1800Z 19.7N 112.4W   75 KT  85 MPH
+ 36H  04/0600Z 20.0N 113.2W   70 KT  80 MPH
+ 48H  04/1800Z 20.2N 114.2W   70 KT  80 MPH
+ 60H  05/0600Z 20.3N 115.4W   70 KT  80 MPH
+ 72H  05/1800Z 20.5N 116.8W   70 KT  80 MPH
+ 96H  06/1800Z 21.0N 120.0W   65 KT  75 MPH
+120H  07/1800Z 22.0N 123.3W   55 KT  65 MPH
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

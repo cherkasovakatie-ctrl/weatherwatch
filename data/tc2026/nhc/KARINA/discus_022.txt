@@ -1,0 +1,55 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Karina Discussion Number  22
+NWS National Hurricane Center Miami FL       EP112026
+1100 AM HST Tue Sep 01 2026
+ 
+Karina remains a powerful major hurricane. However, the cyclone 
+appears to have lost a little strength. The eye of the hurricane 
+remains cloud filled and the cloud tops around the eye are not quite 
+as cold as they were earlier this morning. The latest satellite 
+intensity estimates range from 90 kt to about 135 kt, and based on 
+that data and the slightly degraded appearance, the initial 
+intensity is nudged lower to 115 kt.
+ 
+The major hurricane is moving westward at about 10 kt. A general 
+slow westward to west-northwestward motion is expected during the 
+next 3 to 4 days as a narrow mid-level ridge remains situated to the 
+north of the hurricane. Over the weekend, a turn to the northwest 
+seems likely as the ridge shifts eastward and as the cyclone 
+approaches a mid- to upper-level low north of Hawaii. Little change 
+was made to the previous forecast, except for a slight northward 
+adjustment at days 4 and 5. Even though there is a fair amount of 
+spread in the models toward the end of the forecast period, there is 
+high confidence that the system will pass to the north of the 
+Hawaiian Islands.
+ 
+Karina is forecast to gradually lose strength over the next several 
+days. Although the wind shear is expected to remain low for the next 
+few days, progressively cooler SSTs and decreasing relative humidity 
+values should cause steady weakening. However, the hurricane could 
+become annular, which might cause it to weaken at a slower pace than 
+average. The models are unanimous in showing weakening, but vary on 
+the rate. The NHC intensity forecast is similar to the previous one, 
+and lies a little above the model consensus.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  01/2100Z 18.2N 129.9W  115 KT 130 MPH
+ 12H  02/0600Z 18.4N 131.4W  110 KT 125 MPH
+ 24H  02/1800Z 18.9N 133.3W  100 KT 115 MPH
+ 36H  03/0600Z 19.3N 135.2W   90 KT 105 MPH
+ 48H  03/1800Z 19.7N 137.1W   85 KT 100 MPH
+ 60H  04/0600Z 20.0N 138.9W   80 KT  90 MPH
+ 72H  04/1800Z 20.3N 140.8W   70 KT  80 MPH
+ 96H  05/1800Z 21.6N 143.9W   60 KT  70 MPH
+120H  06/1800Z 23.6N 146.3W   55 KT  65 MPH
+ 
+$$
+Forecaster Cangialosi
+ 
+NNNN
+

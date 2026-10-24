@@ -1,0 +1,79 @@
+
+ZCZC HFOTCDCP4 ALL
+TTAA00 PHFO DDHHMM
+ 
+Post-Tropical Cyclone Lowell Discussion Number  60
+NWS Central Pacific Hurricane Center Honolulu HI   EP122026
+Issued by NWS National Hurricane Center Miami FL
+500 PM HST Thu Sep 10 2026
+ 
+It has now been roughly 24 hours since Lowell produced more than 
+just patches of deep convection on its northeast side. This activity 
+has lacked much organization over this time span, with continued 
+westerly vertical wind shear keeping the low-level circulation 
+exposed. Given that Lowell has lacked organized convection near its 
+center for about a day, and with most of the global and 
+hurricane-regional model guidance not showing a return of deep 
+convection for at least another 24 h, Lowell is being declared a 
+post-tropical cyclone this advisory. The maximum sustained winds 
+remain 45 kt, however, based on scatterometer data received after 
+the prior advisory. 
+
+The post-tropical low is still moving westward at 270/12 kt. Much of 
+the forecast reasoning has not changed despite the cyclone's status 
+change, with a deep-layer cutoff low expected to pick up the 
+post-tropical low, pinwheeling it around to the northwest, west, 
+then southward in the 24-72 h period. There continue to be 
+differences in the model guidance on how sharp of a cyclonic turn 
+around the upper-level low there will be, but ultimately the 
+guidance shows the post-tropical low being deposited back south 
+after the upper-level feature bypasses it to the east in 72-96 h.  
+ 
+As mentioned above, most of the model guidance does not show deep 
+convection returning near the post-tropical cyclone for the next day 
+or so. However, an upper-level cutoff low is still forecast to drop 
+southward and induce some sheared convection this weekend. However, 
+given the disorganized state of the post-tropical cyclone, this 
+brief period of favorable convective forcing does not appear to last 
+long enough for the system to redevelop into a tropical cyclone, 
+especially given that the GFS and ECMWF-based SHIPS guidance shows 
+vertical wind shear remaining in the 30-40 kt range. After the 
+upper-level cutoff passes it by to the east, the low is expected to 
+slowly fill, with much of the model guidance showing the low opening 
+up into a trough by 120 h, which is now reflected in the NHC 
+forecast.
+
+This is the final advisory on Lowell unless regeneration occurs. For 
+additional information on the post-tropical low please see High Seas 
+Forecasts issued by the National Weather Service, under AWIPS header 
+NFDHSFEPI, WMO header FZPN01 KWBC, and on the web at 
+ocean.weather.gov/shtml/NFDHSFEPI.php
+
+ 
+KEY MESSAGES:
+ 
+1. Post-storm safety: Follow advice of local officials and avoid
+areas of downed power lines and flooding. Ensure generators are
+properly ventilated and placed outside at least 20 feet away from
+dwellings and garages to avoid carbon monoxide poisoning. During
+clean up, be careful when using chainsaws and power tools. Drink
+plenty of water to avoid heat exhaustion.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  11/0300Z 29.0N 169.9W   45 KT  50 MPH...POST-TROPICAL
+ 12H  11/1200Z 29.2N 171.3W   40 KT  45 MPH...POST-TROPICAL
+ 24H  12/0000Z 30.6N 172.0W   40 KT  45 MPH...POST-TROPICAL
+ 36H  12/1200Z 32.7N 172.8W   45 KT  50 MPH...POST-TROPICAL
+ 48H  13/0000Z 34.0N 175.0W   40 KT  45 MPH...POST-TROPICAL
+ 60H  13/1200Z 33.6N 176.7W   35 KT  40 MPH...POST-TROPICAL
+ 72H  14/0000Z 32.9N 177.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 96H  15/0000Z 31.5N 176.6W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  16/0000Z...DISSIPATED
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

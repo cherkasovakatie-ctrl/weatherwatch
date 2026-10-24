@@ -1,0 +1,42 @@
+
+ZCZC NFDTCDAT4 ALL
+TTAA00 KWNH DDHHMM
+ 
+Post-Tropical Cyclone Isaias Discussion Number  17
+NWS Weather Prediction Center College Park MD   AL092026
+400 PM CDT Sat Oct 10 2026
+ 
+Key Messages:
+ 
+1. Heavy rainfall associated with Post-Tropical Cyclone Isaias will
+continue across the Southern Appalachians and Southeast today.
+Considerable flash and urban flooding will be possible. Landslides
+are also possible across the Southern Appalachians.
+ 
+2. Strong wind gusts continue to pose a threat across the
+southeastern United States today, particularly near the southern
+Appalachians. Scattered power outages and downed trees and 
+powerlines may occur, with the risk highest in elevated terrain.
+ 
+3. Swells from Isaias will continue to affect much of the Gulf
+coasts of the United States, Mexico, and western Cuba this weekend.
+These swells are likely to cause life-threatening surf and rip
+current conditions. Please consult products from your local weather
+office.
+ 
+4. A couple of tornadoes are possible today across eastern Georgia
+and the Carolinas.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  10/2100Z 33.5N  86.9W   25 KT  30 MPH...POST-TROPICAL
+ 12H  11/0600Z 35.2N  86.0W   25 KT  30 MPH...POST-TROP/INLAND
+ 24H  11/1800Z 37.9N  81.9W   25 KT  30 MPH...POST-TROP/INLAND
+ 36H  12/0600Z...DISSIPATED
+ 
+$$
+Forecaster Roth
+ 
+NNNN
+

@@ -1,0 +1,55 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Fausto Discussion Number   4
+NWS National Hurricane Center Miami FL       EP062026
+200 PM MST Sun Jul 19 2026
+ 
+The system is becoming more consolidated in appearance, with less 
+southwest to northeast elongation than seen earlier today.  A 
+recent ASCAT pass over the system showed a believable 32-kt surface 
+wind vector over the northwest quadrant, and TAFB gave a subjective 
+Dvorak T-number of 2.5.  This is in agreement with objective AIDT 
+intensity estimates of 35 kt from UW-CIMSS.  Based on this 
+information, the system is being upgraded to Tropical Storm Fausto 
+on this advisory.  The storm has fairly well-defined upper-level 
+outflow over its southern semicircle.
+
+There is still some uncertainty in the center position, but the 
+best estimate of initial motion is 285/11 kt.  A mid-tropospheric 
+ridge lies to the north of Fausto with a weakness in the ridge, 
+associated with departing Tropical Storm Elida, to the northwest.  
+The ridge should gradually build back westward in Elida's 
+wake.  However, there will probably be just enough remaining 
+weakness in the ridge to induce a slightly more northwestward 
+motion of Fausto during the next 48-72 hours.  The NHC track 
+forecast is a blend of the Google DeepMind and corrected dynamical 
+model consensus guidance.
+
+The environment ahead of Fausto looks quite conducive for steady to 
+rapid intensification, with low vertical wind shear and a very 
+moist low- to mid-level air mass.  The SHIPS Rapid Intensification 
+(RI) Index shows a significantly higher than normal likelihood of 
+RI, and the official intensity forecast explicitly shows RI 
+occurring in 24 to 48 hours.  This rapid strengthening could 
+occur sooner depending on how soon Fausto develops a 
+well-defined inner core.
+
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  19/2100Z 12.4N 112.7W   35 KT  40 MPH
+ 12H  20/0600Z 13.1N 114.1W   45 KT  50 MPH
+ 24H  20/1800Z 14.2N 115.8W   55 KT  65 MPH
+ 36H  21/0600Z 15.4N 117.3W   70 KT  80 MPH
+ 48H  21/1800Z 16.3N 118.7W   85 KT 100 MPH
+ 60H  22/0600Z 16.7N 120.1W   95 KT 110 MPH
+ 72H  22/1800Z 17.0N 121.8W   90 KT 105 MPH
+ 96H  23/1800Z 17.6N 126.0W   85 KT 100 MPH
+120H  24/1800Z 18.5N 131.3W   75 KT  85 MPH
+ 
+$$
+Forecaster Pasch
+ 
+NNNN
+

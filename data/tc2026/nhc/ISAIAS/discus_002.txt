@@ -1,0 +1,86 @@
+
+ZCZC MIATCDAT4 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Depression Nine Discussion Number   2
+NWS National Hurricane Center Miami FL       AL092026
+1000 PM CDT Tue Oct 06 2026
+ 
+The convective organization of the depression has not changed much 
+since the prior advisory. Much of the associated deep convection is 
+displaced slightly to the north of the estimated surface center, but 
+recently a new convective burst has emerged closer to this location. 
+The initial intensity is held at 30 kt for now, consistent with the 
+latest T2.0 Dvorak classification from TAFB. An ASCAT-C pass is 
+expected to arrive shortly after this advisory issuance and will be 
+helpful in reassessing the position and intensity of the system.
+
+The depression is moving slowly eastward (080/4 kt) within weak 
+steering currents to the south of an upper trough over the 
+southeastern United States. The track models are in good agreement 
+that the system should move eastward to east-northeastward through 
+Thursday while passing to the north of the Yucatan Peninsula. While 
+the center is forecast to remain well offshore, its passage will 
+likely produce gusty winds and heavy rainfall for portions of the 
+Yucatan Peninsula. A turn toward the northeast and north is 
+predicted by Friday as the system moves within the flow between a 
+shortwave trough over Texas and a strengthening ridge over the 
+western Atlantic. There remains significant along- and cross-track 
+spread in the track guidance regarding this northward turn, with the 
+AI-based models on the right side of the envelope and generally 
+faster than the physics-based guidance. The updated NHC forecast is 
+slower than the previous one from 48-96 h to bring it closer to the 
+latest corrected consensus (HCCA), but remains on the fast and right 
+side of the latest models. Users should closely monitor forecast 
+updates given the below-average confidence in this forecast.
+
+High oceanic heat content, moist mid-levels, and upper-level 
+divergence should allow the compact system to intensify during the 
+next few days. The only limiting factor appears to be southwesterly 
+vertical wind shear, which is forecast to strengthen later this week 
+as the system approaches the northern Gulf Coast. Most skillful 
+models show the system becoming a hurricane over the central Gulf, 
+and the latest forecast shows a similar rate of intensification and 
+peak intensity as the prior forecast, generally following the more 
+aggressive Google DeepMind and HCCA aids. Due to strong shear, it is 
+likely that the system peaks in strength before reaching the coast 
+as a hurricane. The cyclone is also expected to grow in size as it 
+approaches the northern Gulf Coast, and the anticipated convective 
+and motion asymmetries will likely cause rain and wind impacts to 
+extend far from the center on the eastern side of the storm.
+
+ 
+Key Messages:
+ 
+1. There is an increasing risk of dangerous wind and storm surge
+impacts along portions of the northern Gulf Coast, and watches could
+be required on Wednesday. Residents from Louisiana to the Florida
+Panhandle should closely monitor the latest forecast updates and
+ensure they have their hurricane plan in place.
+ 
+2. The system will bring areas of heavy rainfall to the central U.S. 
+Gulf coast Friday into the weekend. Flash and urban flooding, along 
+with isolated river flooding, will be possible.
+ 
+3. Yucatan Peninsula of Mexico: The depression is expected to
+strengthen and could bring gusty winds and areas of heavy rain to
+the western portion of the Yucatan Peninsula in a couple of days.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  07/0300Z 22.1N  95.0W   30 KT  35 MPH
+ 12H  07/1200Z 22.2N  94.2W   40 KT  45 MPH
+ 24H  08/0000Z 22.5N  92.7W   50 KT  60 MPH
+ 36H  08/1200Z 23.2N  91.1W   60 KT  70 MPH
+ 48H  09/0000Z 24.3N  89.7W   75 KT  85 MPH
+ 60H  09/1200Z 26.1N  88.7W   85 KT 100 MPH
+ 72H  10/0000Z 28.8N  88.3W   85 KT 100 MPH
+ 96H  11/0000Z 34.1N  88.8W   30 KT  35 MPH...INLAND
+120H  12/0000Z 39.0N  86.0W   20 KT  25 MPH...POST-TROP/INLAND
+ 
+$$
+Forecaster Reinhart
+ 
+NNNN
+

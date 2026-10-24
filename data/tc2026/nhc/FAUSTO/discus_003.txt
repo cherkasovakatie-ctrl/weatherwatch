@@ -1,0 +1,56 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Depression Six-E Discussion Number   3
+NWS National Hurricane Center Miami FL       EP062026
+800 AM MST Sun Jul 19 2026
+
+The tropical cyclone is gradually becoming better organized, but 
+convective banding features are not yet very prominent and the 
+cloud pattern is somewhat elongated from southwest to northeast.  
+Also, microwave imagery suggests that the system's inner core is not 
+well defined at the moment.  The advisory intensity is held at 30 
+kt in agreement with objective Satellite Consensus, SATCON, 
+estimates from UW-CIMSS.  
+
+Although the center is a little difficult to locate, the best 
+estimate of initial motion is 290/12 kt.  A mid-level subtropical 
+ridge is currently situated the north of the depression with a 
+weakness in the ridge to the northwest due to the departing 
+Tropical Storm Elida.  As Elida moves farther north, the ridge is 
+likely to gradually build westward.  This should result in a 
+continued generally west-northwestward track with some reduction in 
+forward speed during the next few days.  The official forecast 
+track is very close to the previous one and in good agreement with 
+the Google DeepMind ensemble mean and the corrected consensus, 
+HCCA, track.
+
+The environment ahead of the system is likely to remain quite 
+conductive for strengthening, with one negative factor being the 
+cooling of ocean waters due to the previous passage of Tropical 
+Storm Elida.  Dynamical guidance shows low vertical wind shear 
+during the next few days as reflected by the SHIPS model output.  
+Therefore significant strengthening should occur with the cyclone 
+becoming a hurricane by late Monday or early Tuesday.  The official 
+intensity forecast is close to the model consensus and the SHIPS 
+solution.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  19/1500Z 12.4N 111.7W   30 KT  35 MPH
+ 12H  20/0000Z 12.8N 113.2W   40 KT  45 MPH
+ 24H  20/1200Z 13.7N 115.1W   50 KT  60 MPH
+ 36H  21/0000Z 14.9N 116.8W   60 KT  70 MPH
+ 48H  21/1200Z 15.9N 118.4W   70 KT  80 MPH
+ 60H  22/0000Z 16.5N 120.0W   85 KT 100 MPH
+ 72H  22/1200Z 16.9N 121.3W   95 KT 110 MPH
+ 96H  23/1200Z 17.5N 125.2W   80 KT  90 MPH
+120H  24/1200Z 18.4N 130.2W   80 KT  90 MPH
+ 
+$$
+Forecaster Pasch
+ 
+NNNN
+

@@ -1,0 +1,66 @@
+
+ZCZC HFOTCDCP4 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Lowell Discussion Number  21
+NWS Central Pacific Hurricane Center Honolulu HI   EP122026
+Issued by NWS National Hurricane Center Miami FL
+1100 AM HST Tue Sep 01 2026
+ 
+ 
+Satellite imagery indicates that Lowell continues to strengthen, as
+evidenced by the improvement in the structure of the core.  A large
+central dense overcast with very cold cloud tops covers the center.
+The latest subjective Dvorak estimates from JTWC and PHFO range from
+65-90 kt, and the latest objective intensity estimates range from
+69-78 kt.  The initial intensity is increased to 80 kt, blending the
+estimates.
+ 
+The initial motion is west-northwestward, or about 285/9 kt.  A
+mid-level subtropical ridge north of Lowell will remain the primary
+steering influence during the next 4 days, resulting in a generally
+westward to west-northwestward motion, and confidence is high on
+this general track scenario.  A slight southward adjustment was made
+to the NHC track forecast at days 3-5, but the new forecast is not
+as far south as the latest HFIP Corrected Consensus Approach (HCCA)
+and Google DeepMind Ensemble Mean (GDMI) models.  In about 4 days,
+Lowell should slow down, as a mid- to upper-level trough well north
+of the Hawaiian Islands weakens the subtropical ridge.  The trough
+could cause Lowell to start a turn to the northwest or north in
+about 5 days.  For this reason, interests in the Hawaiian Islands
+should continue to closely monitor Lowell's progress.
+ 
+Warm water temperatures and weak vertical shear should continue 
+along Lowell's path for at least the next 5 days.  Lowell will 
+likely strengthen to a major hurricane over the next 24 h.  It is 
+quite possible that Lowell could then maintain major hurricane 
+strength through the next 5 days.  Very little change has been made 
+to the previous NHC intensity forecast, which lies between the 
+middle and upper end of the guidance envelope.  Given that Lowell 
+may be in the midst of rapid intensification, and that some models 
+like the HCCA show an even higher intensity, it is possible that 
+Lowell could strengthen more than forecast.
+ 
+Key Messages:
+ 
+1. Interests in the Hawaiian Islands should continue to closely
+monitor the progress of Hurricane Lowell.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  01/2100Z 13.5N 150.3W   80 KT  90 MPH
+ 12H  02/0600Z 13.7N 151.7W   95 KT 110 MPH
+ 24H  02/1800Z 13.8N 153.7W  105 KT 120 MPH
+ 36H  03/0600Z 14.0N 155.7W  110 KT 125 MPH
+ 48H  03/1800Z 14.2N 157.6W  110 KT 125 MPH
+ 60H  04/0600Z 14.4N 159.2W  110 KT 125 MPH
+ 72H  04/1800Z 14.5N 160.6W  110 KT 125 MPH
+ 96H  05/1800Z 14.7N 163.3W  110 KT 125 MPH
+120H  06/1800Z 15.3N 164.9W  110 KT 125 MPH
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

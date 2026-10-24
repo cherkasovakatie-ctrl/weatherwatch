@@ -1,0 +1,62 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Tropical Storm Nolo Discussion Number  44
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+500 AM HST Thu Oct 01 2026
+
+Nolo has made a bit of a recovery overnight.  Satellite imagery 
+shows that bursts of deep convection are forming in the northwestern 
+quadrant of the storm, with some outflow becoming apparent as well.  
+While conventional satellite estimates remain barely at 
+tropical-storm strength, scatterometer data from overnight a bit 
+surprisingly showed winds over 45 kt.  Given the low bias of the 
+instrument, the current intensity is set to 50 kt.
+
+The storm is moving slowly to the west-northwest.  Nolo should creep 
+to the west-northwest or northwest today while it becomes under the 
+influence of a distant high located over the subtropical 
+west-central Pacific.  This high is forecast to strengthen 
+significantly during the next few days, which is likely to steer 
+Nolo much faster to the west or west-northwest this weekend into 
+early next week.  The new forecast is shifted a little to the north 
+in the short-range to come into agreement with the various consensus 
+estimates, then is very similar to the previous advisory at long 
+range.  
+
+Little change in strength is expected for about the next day while 
+vertical wind shear remains high within a dry environment.  However, 
+a notable change occurs this weekend as Nolo will move on the 
+northern side of an upper-level low, causing shear to drop off while 
+it moves over much warmer waters.  This change should allow Nolo to 
+markedly strengthen by late this weekend, and the storm could be 
+close to a major hurricane again by the time it nears the Dateline 
+in 3-4 days.  This is the solution shown by almost all of the 
+regional hurricane models, and the guidance trends from the last 
+cycle are upward.  Thus, the intensity forecast is increased from 
+the previous one, primarily due to the initial wind speed in the 
+first day or so, then raised at longer range given the higher model 
+guidance. I should mention that this forecast could be too 
+conservative in a few days given the forecast upper-level wind 
+pattern.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  01/1500Z 21.9N 165.5W   50 KT  60 MPH
+ 12H  02/0000Z 22.3N 166.0W   50 KT  60 MPH
+ 24H  02/1200Z 22.9N 166.9W   55 KT  65 MPH
+ 36H  03/0000Z 23.1N 168.2W   60 KT  70 MPH
+ 48H  03/1200Z 22.9N 170.5W   70 KT  80 MPH
+ 60H  04/0000Z 23.0N 173.8W   85 KT 100 MPH
+ 72H  04/1200Z 23.4N 177.4W   95 KT 110 MPH
+ 96H  05/1200Z 25.0N 176.2E   95 KT 110 MPH
+120H  06/1200Z 25.8N 169.0E   90 KT 105 MPH
+ 
+$$
+Forecaster Blake
+ 
+NNNN
+

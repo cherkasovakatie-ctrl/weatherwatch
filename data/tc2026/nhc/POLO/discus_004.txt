@@ -1,0 +1,75 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Polo Discussion Number   4
+NWS National Hurricane Center Miami FL       EP172026
+900 AM CST Mon Sep 21 2026
+ 
+Polo is in the midst of a significant rapid intensification
+episode.  Satellite images indicate a developing central dense
+overcast with very deep convection in the core.  Additionally,
+microwave images indicate that a small eye has formed beneath the
+overcast with hints of a banded eyewall.  The initial intensity
+is set to 55 kt, consistent with the latest TAFB classification,
+and a NOAA Hurricane Hunter aircraft is enroute to provide a better
+look at the intensity.
+ 
+Conditions look ideal for explosive intensification during the next
+day or two, with Polo's small inner core over very warm and
+untapped waters above 30.5C, within light shear and plentiful
+mid-level moisture.  Every model responds to these conditions by
+showing rapid intensification, and the SHIPS rapid intensification
+index is showing percentages as high as I have ever seen them.
+The new forecast is raised from the previous one and is very
+aggressive, but still below the latest HCCA corrected-consensus
+aid, which verbatim would be at least a 99th percentile event for
+intensification.  Polo is expected to be a small but very dangerous
+hurricane by tomorrow and beyond.
+ 
+The storm is drifting eastward, and still caught in weak steering
+currents.  A mid-level ridge is expected to develop over Mexico by
+late Tuesday, causing Polo to move towards the west-northwest or
+northwest by Wednesday into late week.  This could bring the core
+of the storm near or south of the coast of southwestern Mexico on
+Thursday, and then south of the Baja California Peninsula on
+Saturday.  There is a large north-south spread in the guidance,
+which has both short and long-range implications.  Generally, the
+guidance has nudged southward again, and the NHC forecast is
+adjusted in that direction.  Given the spread in the track 
+guidance, this is a low-confidence forecast.
+ 
+ 
+Key Messages:
+ 
+1. Heavy rainfall associated with Polo will impact coastal portions
+of southwest Mexico through Thursday. This rainfall may produce
+life-threatening flooding and mudslides, especially in areas of
+steep terrain.
+ 
+2. Polo is forecast to strengthen to a major hurricane while it
+moves closer to the coast of southwestern Mexico during the next few
+days. Although the core of the hurricane is forecast to stay
+offshore, it is too soon to determine the exact location or
+magnitude of impacts. Residents in southwestern Mexico should
+closely monitor its progress and updates to the forecast. A Tropical
+Storm Watch is in effect for portions of southwestern Mexico.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  21/1500Z 15.4N 103.4W   55 KT  65 MPH
+ 12H  22/0000Z 15.2N 102.8W   85 KT 100 MPH
+ 24H  22/1200Z 15.1N 102.3W  105 KT 120 MPH
+ 36H  23/0000Z 15.4N 102.3W  125 KT 145 MPH
+ 48H  23/1200Z 16.0N 102.8W  135 KT 155 MPH
+ 60H  24/0000Z 16.8N 103.6W  140 KT 160 MPH
+ 72H  24/1200Z 17.6N 104.8W  140 KT 160 MPH
+ 96H  25/1200Z 18.6N 107.8W  130 KT 150 MPH
+120H  26/1200Z 20.3N 110.4W  120 KT 140 MPH
+ 
+$$
+Forecaster Blake
+ 
+NNNN
+

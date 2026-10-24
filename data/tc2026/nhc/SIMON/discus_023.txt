@@ -1,0 +1,97 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Simon Discussion Number  23
+NWS National Hurricane Center Miami FL       EP202026
+800 PM MST Mon Oct 12 2026
+ 
+Simon's convection has degraded quite a bit since the last advisory.
+Given how much of this weakening has been concentrated across the
+eastern half of the storm, it is possible that Simon has been
+ingesting dry, high terrain air into its center. Regardless of the
+physical mechanism, however, both subjective and objective Dvorak
+intensity estimates have picked up on this weakening trend, as the
+TAFB Dvorak classification rates Simon at 5.0/90 kt and UW-CIMSS
+estimates range from 51 to 72 kt. As a result of these data, Simon's
+initial intensity has been lowered to 85 kt.
+ 
+The storm motion remains very slow at 305/3 kt. Simon is riding the
+western flank of a high pressure ridge centered over the
+southeastern US, with high pressure building to the storm's west as
+well in the wake of a deep trough currently enveloping the
+Intermountain West. Simon is battling a multitude of features
+influencing its motion as a result, and track guidance continues to
+exhibit a wide spread of solutions. Thus, confidence in the track
+forecast remains low. The global models, however, do seem to agree
+that the high anchored over the southeastern US will remain for at
+least the next 48 hours, so the current forecast thinking is that
+Simon will not make a turn toward land in the meantime. What becomes
+of that high once the aforementioned trough moves eastward across
+the US is what will ultimately determine Simon's path.
+ 
+Looking at the global models, the GFS depicts the trough doing
+little to erode the southeastern high, leaving Simon to become
+caught in a col as it is wedged between two high pressure systems,
+thus causing it to become nearly stationary over the next couple of
+days. The ECMWF, however, seems to suggest that the trough will dig
+deep enough to cause a turn to the northeast toward land over the
+next 48 hours. More skilled guidance like the HCCA and GDMI,
+however, seem to favor a due northwest track, likely stemming from
+the southeastern US high remaining fixed in place and the high to
+the west not building enough to affect Simon's motion. The latest
+NHC track forecast favors this solution, while still depicting a
+turn to the northeast after a couple of days should this Pacific
+high strengthen enough to nudge Simon off its current trajectory.
+ 
+Should Simon continue to move northwestward, as is currently
+forecast, gradual re-strengthening should follow. The environment
+just off the coast of west-central Mexico continues to be defined by
+low vertical wind shear, anomalously warm SSTs, and ample mid-level
+moisture. Should the storm become nearly stationary as some models
+suggest, however, re-intensification could be inhibited by Simon
+churning up cooler waters from deep below the sea surface. It should
+be noted that the current consensus across the guidance does not
+favor a period of rapid intensification, so the latest NHC intensity
+forecast continues to reflect a more gradual upward trend in
+strength, before dropping off sharply once Simon makes its
+forecasted approach to land. With confidence lacking in the track
+forecast, however, Simon's intensity forecast confidence is only low
+to moderate.
+ 
+Key Messages:
+ 
+1. Hurricane conditions are likely on Las Islas Marias over the
+next day or so, where a Hurricane Warning remains in effect.
+ 
+2. Simon could approach the coast of western Mexico later this week,
+where hurricane conditions are possible.
+ 
+3. Heavy rainfall associated with Simon will impact portions of
+west-central Mexico over the next few days. This rainfall will
+produce life-threatening flooding and mudslides, especially in areas
+of steep terrain.
+ 
+4. Large swells will affect portions of the southwestern and
+west-central coasts of Mexico over the next several days. These
+swells are likely to cause life-threatening surf and rip current
+conditions. Please consult products from your local weather office.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  13/0300Z 20.4N 107.0W   85 KT 100 MPH
+ 12H  13/1200Z 20.7N 107.3W   75 KT  85 MPH
+ 24H  14/0000Z 21.0N 107.7W   70 KT  80 MPH
+ 36H  14/1200Z 21.3N 108.0W   70 KT  80 MPH
+ 48H  15/0000Z 21.8N 108.0W   75 KT  85 MPH
+ 60H  15/1200Z 22.5N 107.9W   80 KT  90 MPH
+ 72H  16/0000Z 23.2N 107.8W   85 KT 100 MPH
+ 96H  17/0000Z 24.0N 107.6W   85 KT 100 MPH
+120H  18/0000Z 24.8N 107.3W   30 KT  35 MPH...POST-TROP/INLAND
+ 
+$$
+Forecaster Evans/Cangialosi
+ 
+NNNN
+

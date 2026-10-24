@@ -1,0 +1,69 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Karina Discussion Number  16
+NWS National Hurricane Center Miami FL       EP112026
+1100 PM HST Sun Aug 30 2026
+
+Karina has continued to rapidly intensify. Since the previous 
+advisory, cold cloud top temperatures below -75 C wrapped back 
+around northern side of the hurricane while the eye is making an 
+attempt to clear out some. In response, the objective UW-CIMSS ADT 
+intensity estimate, after plateauing earlier, has begun to rise 
+again, with the latest value at T6.6/129 kt. It is worth noting the 
+majority of the other objective estimates are 6-12 h old, likely to 
+to the lack of recent microwave imagery. The 06 UTC TAFB subjective 
+Dvorak estimate was constrained lower at CI 5.5/102 kt, though the 
+Data-T number was also 6.5/125 kt. The initial intensity will be 
+set at 125 kt for this advisory, making Karina a formidable Category 
+4 hurricane.  
+
+Karina continues to move off generally westward, estimated at 275 
+degrees at 8 kt. A narrow but extensive mid-level ridge is parked to 
+the north of the hurricane, and this feature will likely remain the 
+dominant steering impact on Karina over the next 3-5 days. Towards 
+the end of the forecast period, the original ridge becomes eroded by 
+a mid-latitude trough digging into the western US coast, but a more 
+meridional oriented ridge takes its place to the northwest of 
+Karina, which should act to gradually slow its forward motion. Once 
+again there has been another leftward shift in the guidance, and the 
+latest NHC track forecast has also been adjusted in that direction, 
+splitting the difference between the latest HFIP Corrected Consensus 
+Approach (HCCA) and Google DeepMind (GDMI) guidance. 
+
+Environmental conditions over Karina remain favorable, and there is 
+still some time for the hurricane to intensify a bit more in the 
+short-term. However, it also is possible the system will soon start 
+to undergo inner-core fluctuations like eyewall replacement cycles 
+(ERCs), though there has not been any recent microwave imagery to 
+determine if such an event is preparing to take place. Another 
+factor to consider is that beyond the next 24-36 h, Karina might 
+find itself in environmental conditions favorable for the hurricane 
+to develop Annular characteristics, which could slow its rate of 
+weakening despite the storm moving over gradually cooling 
+sea-surface temperatures. Thus, the NHC intensity forecast is on the 
+high side of the guidance envelope for a large portion of the 
+forecast period, sticking pretty close to the latest HCCA intensity 
+forecast. A somewhat faster rate of weakening is possible by the end 
+of the forecast period when Karina is forecast to cross the 26 C 
+sea-surface temperature isotherm. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  31/0900Z 17.2N 124.4W  125 KT 145 MPH
+ 12H  31/1800Z 17.4N 125.8W  130 KT 150 MPH
+ 24H  01/0600Z 17.7N 127.6W  125 KT 145 MPH
+ 36H  01/1800Z 18.1N 129.6W  115 KT 130 MPH
+ 48H  02/0600Z 18.6N 131.7W  110 KT 125 MPH
+ 60H  02/1800Z 19.1N 133.6W  105 KT 120 MPH
+ 72H  03/0600Z 19.4N 135.7W  100 KT 115 MPH
+ 96H  04/0600Z 20.0N 139.5W   90 KT 105 MPH
+120H  05/0600Z 21.0N 143.5W   75 KT  85 MPH
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

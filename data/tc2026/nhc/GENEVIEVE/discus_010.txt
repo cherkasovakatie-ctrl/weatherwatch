@@ -1,0 +1,58 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Genevieve Discussion Number  10
+NWS National Hurricane Center Miami FL       EP072026
+200 PM MST Sun Jul 26 2026
+ 
+Genevieve continues to rapidly intensify today. A symmetric and warm 
+eye has cleared out over the past few hours, and is surrounded by 
+very cold cloud tops. A partial Synthetic Aperture Radar (SAR) pass 
+that became available after the previous advisory showed a 
+contracting RMW with peak winds of 103 kt, supporting previous 
+evidence of rapid strengthening. The 1800 UTC subjective Dvorak 
+intensity estimate from TAFB was T6.0/115 kt, and objective 
+intensity estimates range from 115-122 kt. Thus, the initial 
+intensity has been set to 120 kt for this advisory. 
+
+The major hurricane is moving toward the west-northwest, or   295/12 
+kt, along the periphery of a mid-level ridge centered over the 
+southwestern United States. Genevieve is forecast to continue on a 
+northwestward to west-northwestward motion and slow down over the 
+next several days as the ridge moves eastward. The latest NHC 
+official forecast lies very close to the previous forecast, and 
+remains within the tightly clustered ensemble model track data.
+
+Genevieve is expected to strengthen further over the next 12-24 h as 
+it remains over very warm sea surface temperatures around 30 C, low 
+vertical wind shear and strong upper-level divergence. SHIPS Rapid 
+Intensification (RI) guidance and DTOPS continue to show the 
+potential for additional rapid intensification in the short-term, 
+and the latest NHC official intensity guidance remains near the top 
+of the intensity model guidance and close to the HCCA corrected 
+consensus aid. However, it is still possible that the peak intensity 
+forecast of 130 kt is conservative, given the favorable environment. 
+By midweek, Genevieve will begin to encounter cooler sea surface 
+temperatures, slightly drier mid-level conditions and a more stable 
+environment, supporting steady weakening. Genevieve is now forecast 
+to weaken below hurricane intensity at day 5. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  26/2100Z 13.9N 110.3W  120 KT 140 MPH
+ 12H  27/0600Z 14.8N 111.7W  130 KT 150 MPH
+ 24H  27/1800Z 16.0N 113.4W  130 KT 150 MPH
+ 36H  28/0600Z 17.0N 114.9W  125 KT 145 MPH
+ 48H  28/1800Z 17.6N 116.4W  120 KT 140 MPH
+ 60H  29/0600Z 18.3N 117.8W  105 KT 120 MPH
+ 72H  29/1800Z 18.9N 119.5W   95 KT 110 MPH
+ 96H  30/1800Z 20.4N 123.7W   75 KT  85 MPH
+120H  31/1800Z 22.0N 128.7W   55 KT  65 MPH
+ 
+$$
+Forecaster Adams/Papin
+ 
+NNNN
+

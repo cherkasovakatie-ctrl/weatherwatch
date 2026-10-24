@@ -1,0 +1,59 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Rachel Discussion Number  29
+NWS National Hurricane Center Miami FL       EP182026
+200 AM MST Sun Oct 04 2026
+
+Satellite imagery shows that Rachel has continued to get better 
+organized since the last advisory. While the eye is not very clear 
+at this time, the eyewall cloud tops have become more symmetric with 
+some cloud top temperatures colder than -80C. The various satellite 
+intensity estimates are in the 76-104 kt range, and they have all 
+trended upward over the past six hours. Based on this, the initial 
+intensity is increased to 85 kt.
+
+The initial motion is now 295/4 kt. A turn toward the west with 
+some increase in forward speed is expected during the next 72 h as 
+a mid-level ridge to the north of the hurricane strengthens a bit. 
+After 72 h, a mid-latitude trough approaching from the west will 
+create a break in the ridge near 130-135W, and Rachel is expected 
+to turn west-northwestward again as it approaches the break. The 
+new forecast track has only minor adjustments from the previous 
+track, and it lies close to the center of the fairly well clustered 
+track guidance.
+
+Sea surface temperature analyses indicate that Rachel should be 
+crossing Polo's cold wake right now. The current development trend 
+is not consistent with this, though. During the next 24 h, the 
+hurricane should move over slightly warmer water that in theory 
+should allow some strengthening. However, none of the intensity 
+guidance shows any additional strengthening during this time. Given 
+these mixed signals, the new intensity forecast will show a steady 
+intensity for 12 h, followed by a gradual weakening based on the 
+intensity guidance trends. Rachel should encounter a drier air 
+mass and reach water temperatures of 25-26C starting in about 72 h, 
+but during this time the forecast wind shear becomes quite light. 
+This may allow the cyclone to develop annular characteristics, 
+which would at least slow any weakening. Overall, the intensity 
+forecast is near the upper edge of the guidance.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  04/0900Z 20.2N 113.2W   85 KT 100 MPH
+ 12H  04/1800Z 20.3N 114.0W   85 KT 100 MPH
+ 24H  05/0600Z 20.4N 115.3W   80 KT  90 MPH
+ 36H  05/1800Z 20.5N 116.8W   80 KT  90 MPH
+ 48H  06/0600Z 20.6N 118.4W   75 KT  85 MPH
+ 60H  06/1800Z 20.6N 120.0W   70 KT  80 MPH
+ 72H  07/0600Z 20.9N 121.6W   65 KT  75 MPH
+ 96H  08/0600Z 21.8N 124.6W   55 KT  65 MPH
+120H  09/0600Z 22.7N 127.3W   45 KT  50 MPH
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

@@ -1,0 +1,92 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Tropical Storm Nolo Discussion Number  14
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+500 PM HST Wed Sep 23 2026
+ 
+Nolo's convective organization has improved slightly during the past 
+several hours, with persistent deep convection within a curved band 
+wrapping into the circulation from the north around the western 
+semicircle. The latest subjective Dvorak intensity estimates from 
+JTWC and HFO are both T2.0/30 kt, while objective intensity 
+estimates range from 30 to 40 kt. Given the improved convective 
+organization and the higher objective estimates, the initial 
+intensity was increased to 40 kt in the 2 PM HST intermediate 
+advisory and is maintained for this advisory.
+ 
+Nolo is moving west-northwestward, with an initial motion of 285/5 
+kt. A weakening subtropical ridge to the north should allow 
+Nolo to slow down and turn northward tonight into Thursday, followed 
+by a north-northeastward motion as an upper-level trough deepens 
+northwest of the Hawaiian Islands. As the trough moves westward and 
+the subtropical ridge rebuilds north of Hawaii, Nolo is forecast to 
+make a sharp westward turn Friday night into Saturday. The latest 
+GDMI and HCCA guidance has shifted slightly to the left, taking Nolo 
+farther south of the Big Island. The NHC track forecast reflects a 
+blend of the previous forecast and these aids, and shows Nolo 
+passing about 85 n mi south of the Big Island on Saturday, then 
+about 215 n mi south of the smaller Hawaiian Islands during the 
+latter portion of the weekend. However, uncertainty remains 
+regarding exactly when and where the sharp westward turn will occur, 
+with the ECMWF remaining on the right side of the guidance envelope 
+and bringing Nolo closer to the islands.
+ 
+Environmental conditions remain favorable for strengthening, with 
+very warm sea surface temperatures and plenty of mid-level moisture 
+along the forecast track. However, around 10 kt of easterly vertical 
+wind shear may temper the rate of intensification during the next 24 
+to 36 h. As the shear relaxes and Nolo continues to develop an inner 
+core, a faster rate of intensification is forecast while the cyclone 
+moves northward to north-northeastward during the next couple of 
+days. These conditions could support rapid intensification, and Nolo 
+is forecast to become a hurricane by Thursday night and reach major 
+hurricane strength on Saturday as it passes south of the Big Island. 
+The latest NHC intensity forecast hovers near the upper end of the 
+guidance envelope throughout the forecast period.
+ 
+Key Messages:
+ 
+1. Tropical Storm Nolo is expected to strengthen into a hurricane
+by Thursday night as it turns northward, potentially making its
+closest approach to the Big Island of Hawaii on Saturday. A
+Hurricane Watch remains in effect for the Big Island, and residents
+there should follow advice given by local officials, including
+evacuating if told to do so.
+
+2. The time to prepare for significant heavy rain and flooding
+impacts on the Big Island is now, as heavy rain becomes more likely
+by Thursday and Friday. Periods of heavy rain are likely to
+continue across the Big Island and Maui through the weekend.
+Life-threatening, catastrophic flooding and mudslides are possible,
+especially in areas of steep terrain across the Big Island and
+Maui. Across the remainder of Hawaii, lesser rainfall totals are
+expected, with isolated flooding possible.
+
+3. Large and damaging waves are possible along the coast of the
+Big Island into the weekend.
+
+4. Interests elsewhere in Hawaii should closely monitor the latest
+forecast updates and ensure that they have their preparedness plans
+in place.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  24/0300Z 14.7N 155.9W   40 KT  45 MPH
+ 12H  24/1200Z 14.8N 156.0W   50 KT  60 MPH
+ 24H  25/0000Z 15.4N 155.8W   60 KT  70 MPH
+ 36H  25/1200Z 16.2N 155.3W   70 KT  80 MPH
+ 48H  26/0000Z 17.1N 155.0W   80 KT  90 MPH
+ 60H  26/1200Z 17.5N 155.1W   90 KT 105 MPH
+ 72H  27/0000Z 17.4N 156.2W  100 KT 115 MPH
+ 96H  28/0000Z 17.5N 158.6W  105 KT 120 MPH
+120H  29/0000Z 18.9N 162.1W  100 KT 115 MPH
+ 
+$$
+Forecaster Gibbs 
+ 
+NNNN
+

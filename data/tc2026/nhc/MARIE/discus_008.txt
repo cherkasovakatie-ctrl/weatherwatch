@@ -1,0 +1,57 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Marie Discussion Number   8
+NWS National Hurricane Center Miami FL       EP132026
+800 PM MST Wed Sep 02 2026
+ 
+The latest infrared satellite imagery shows a burst of convection is 
+attempting to wrap around the center of Marie. This is a moderate 
+amount of improvement over the last several hours, as the hurricane 
+seems to have shaken off the dry air seen earlier. The most recent 
+TAFB subjective Dvorak fix is T4.5/77 kt and the UW-CIMSS objective 
+intensity estimates are in the range of 62-75 kt. Based on the 
+given data for this advisory, the initial intensity has been set to 
+70 kt making Marie a hurricane. 
+
+The general motion for Marie is to the northwest at 320/10 kt, and 
+the cyclone is expected to maintain that heading for the next 
+several days as a narrow mid-level ridge located to the north will 
+steer the hurricane off to the west-northwest. During this time, the 
+cyclone should slow down as the ridge gradually weakens. There is 
+still a good amount of cross-track spread that is due to how much an 
+amplified mid-latitude trough, off the western United States coast, 
+erodes the previously mentioned ridge. The current NHC track is 
+similar to the previous track but slightly farther south. This track 
+is still a bit north of the HCCA track. 
+
+The intensity for this forecast is a little higher than the previous 
+forecast. Given that the hurricane is expected to continue to be in 
+favorable conditions with sea-surface temperatures (SSTs), diagnosed 
+by the SHIPS guidance between 27-29 C, relative humidity around 70 
+percent, and light wind shear, Marie is likely to continue to 
+intensify. The peak forecast is tricky in this situation due to the 
+potential for Marie to move over the cold wake left by Iselle last 
+week, as these waters may cap the peak intensity. Marie should be 
+crossing the 26 C SST isotherm after 60 h, and weakening is expected 
+to begin in earnest beyond this time period.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  03/0300Z 18.4N 113.1W   70 KT  80 MPH
+ 12H  03/1200Z 19.0N 114.3W   80 KT  90 MPH
+ 24H  04/0000Z 19.7N 115.7W   85 KT 100 MPH
+ 36H  04/1200Z 20.2N 117.3W   85 KT 100 MPH
+ 48H  05/0000Z 20.7N 118.6W   85 KT 100 MPH
+ 60H  05/1200Z 21.3N 119.7W   80 KT  90 MPH
+ 72H  06/0000Z 22.0N 120.9W   75 KT  85 MPH
+ 96H  07/0000Z 22.9N 123.3W   60 KT  70 MPH
+120H  08/0000Z 23.4N 126.5W   50 KT  60 MPH
+ 
+$$
+Forecaster Katz/Hagen
+ 
+NNNN
+

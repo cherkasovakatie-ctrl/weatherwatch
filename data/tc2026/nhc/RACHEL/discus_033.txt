@@ -1,0 +1,76 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Rachel Discussion Number  33
+NWS National Hurricane Center Miami FL       EP182026
+200 AM PDT Mon Oct 05 2026
+ 
+Rachel has the satellite appearance of a hurricane that recently
+underwent an eyewall replacement cycle (ERC), with a broad ring of
+outer convection while the smaller core it had yesterday is decaying
+within. On microwave imagery, a 0302 UTC GMI pass also showed a more
+prominent outer eyewall that was open on the northwest side on the
+89 GHz channel. This structure suggests some dry air is also being
+entrained into the circulation, likely due to 15-20 kt of
+northeasterly vertical wind shear diagnosed by UW-CIMSS. The D-MINT
+intensity estimate associated with that GMI microwave pass was     
+83 kt, but other subjective and objective satellite estimates 
+continue to gradually decrease, so the initial intensity is being 
+lowered to 80 kt for this advisory.
+ 
+The hurricane continues to move north of due west, estimated at
+280/7 kt. A mid-level ridge over the southwestern United States
+extends into the east Pacific and is expected to continue steering
+Rachel off in a general westward to west-northwestward motion over
+the next 2-4 days. Near the end of the forecast period, a mid- to
+upper-level trough is forecast to dig in to the northwest of Rachel,
+with the guidance showing the tropical cyclone's motion coming to a
+halt and potentially turning northeastward by 120 h. While both the
+deterministic and ensemble track guidance are tightly clustered over
+the first 3-4 days, the possible trough interaction results in a
+large increase in track spread by 120 h. The latest NHC track
+forecast is just a touch north of the previous one, following the
+blend in the latest HFIP Corrected Consensus Approach (HCCA), Google
+DeepMind ensemble mean (GDMI), and its newer version (WN3I).
+ 
+The intensity forecast for Rachel is a little interesting. Part of
+the recent weakening is likely due to the combination of the
+hurricane undergoing an ERC while there was a subtle increase in
+northeasterly shear over the past day. Both the GFS and EC-SHIPS
+guidance show this shear persisting for the next 12-24 h before
+diminishing below 10 kt as the hurricane continues to traverse
+sea-surface temperatures (SSTs) in the 26-27 C range. Thus, while a
+little additional weakening is shown in the short-term, the
+hurricane might stabilize for a bit if the shear decreases, and I
+can't rule out the possibility it might still develop annular
+characteristics in the 36-48 h time frame. Thereafter, while shear
+will likely remain low, SSTs decrease to around 25 C, and most of
+the guidance responds by showing slow weakening resuming. Rachel may
+start to struggle to produce organized convection by 120 h. However,
+this is a trickier-than-usual forecast, because during that time it
+may also interact with an upper-level trough which could provide
+some baroclinic support to help maintain convection. In fact, this
+possibility is shown in the simulated infrared imagery from the 00
+UTC GFS and ECMWF runs. Thus, post-tropical status is not shown at
+120 h quite yet. The latest NHC intensity forecast lies closest to
+the HCCA intensity aid.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  05/0900Z 20.4N 115.6W   80 KT  90 MPH
+ 12H  05/1800Z 20.5N 116.7W   75 KT  85 MPH
+ 24H  06/0600Z 20.6N 118.2W   75 KT  85 MPH
+ 36H  06/1800Z 20.7N 119.7W   75 KT  85 MPH
+ 48H  07/0600Z 21.0N 121.0W   75 KT  85 MPH
+ 60H  07/1800Z 21.5N 122.5W   65 KT  75 MPH
+ 72H  08/0600Z 22.0N 124.1W   60 KT  70 MPH
+ 96H  09/0600Z 22.4N 126.7W   50 KT  60 MPH
+120H  10/0600Z 22.6N 126.5W   40 KT  45 MPH
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

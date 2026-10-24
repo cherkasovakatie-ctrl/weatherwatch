@@ -1,0 +1,61 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Marie Discussion Number  25
+NWS National Hurricane Center Miami FL       EP132026
+200 AM PDT Mon Sep 07 2026
+
+Marie continues show signs of gradual weakening via satellite 
+imagery. Based on the infrared satellite imagery, the convection 
+continues to wane and water vapor shows that the dry air continues 
+to intrude into the center of the storm. A partial ASCAT pass from 
+METOP-C showed that the winds on the western side of the storm are 
+limited to about 100 nm and some of the strongest wind speeds were 
+around 45 kt. The most recent TAFB Dvorak fix came in at T3.5/55 kt, 
+while the UW-CIMSS objective intensity estimates are in the range of 
+39-57 kt. Therefore, the initial intensity has been lowered to 55 kt 
+for this advisory. 
+ 
+The storm is moving slowly northwestward. A general northwestward
+motion with some increase in forward speed is expected over the
+next few days as Marie moves into a weakness in the subtropical
+ridge toward a mid- to upper-level low. Only minor adjustments have 
+been made to the current NHC track forecast compared to the 
+previous forecast and aligns with the HCCA and GDMI models. 
+ 
+Steady weakening is expected to continue as Marie moves over 
+progressively cooler waters and into an even drier air mass over the 
+next few days. In addition, southwesterly vertical wind shear is 
+anticipated to notably increase beginning Tuesday. The combination 
+of these factors should lead to cyclone degenerating into a remnant 
+low, which is still predicted to occur by 60 hours. However, it is 
+possible that this could occur sooner as the GFS simulated satellite 
+imagery has Marie becoming post-tropical at an earlier time. The 
+current NHC intensity forecast is similar to the previous one and is 
+in line with most of the model guidance.
+ 
+While Marie is well away from land, large swells from the
+storm have been affecting portions of the coast of the Baja
+California Peninsula and southern California. These conditions
+will likely continue to cause dangerous beach conditions over the
+next several days.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  07/0900Z 24.4N 123.7W   55 KT  65 MPH
+ 12H  07/1800Z 24.8N 124.6W   50 KT  60 MPH
+ 24H  08/0600Z 25.4N 125.8W   45 KT  50 MPH
+ 36H  08/1800Z 26.5N 126.9W   40 KT  45 MPH
+ 48H  09/0600Z 28.2N 127.9W   35 KT  40 MPH
+ 60H  09/1800Z 30.4N 129.2W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 72H  10/0600Z 32.4N 130.8W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 96H  11/0600Z 36.0N 134.6W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  12/0600Z...DISSIPATED
+ 
+$$
+Forecaster Katz/Beven
+ 
+NNNN
+

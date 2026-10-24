@@ -1,0 +1,68 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Nolo Discussion Number  53
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+1100 AM HST Sat Oct 03 2026
+ 
+Nolo continues to display a compact and nearly symmetric pattern in 
+satellite imagery, and infrared imagery shows that cloud tops 
+around the eye have cooled since the last full advisory. Based 
+on the improved structure, Nolo was upgraded to a 100-kt major 
+hurricane on the 8 AM HST intermediate advisory. Since then, HFO and 
+JTWC each provided Dvorak estimates of T5.5/102 kt, and the highest 
+UW-CIMSS objective numbers are around that same value. The intensity 
+of 100 kt is therefore maintained on this advisory.
+
+The forward speed has continued to increase this morning and is now 
+about 15 kt, with Nolo being steered quickly westward by an 
+expanding mid-level ridge to its north. The hurricane's speed is 
+likely to oscillate between 15 and 20 kt for much of the upcoming 5 
+days as ridging remains established at varying magnitudes. The 
+track guidance remains more tightly clustered than usual for the 
+first 3 days of the forecast, and Nolo is expected to cross the 
+International Date Line in 24-30 hours. The model spread is a little 
+higher on days 4 and 5. Some models, including the European, HAFS-B, 
+GDMI, and HCCA show a continued westward trajectory, while the GFS, 
+HAFS-A, HWRF, and COAMPS-TC show a bit of a turn toward the 
+northwest or north. These scenarios appear to be related to how much 
+Nolo might interact with a disturbance currently near the Marshall 
+Islands (Invest 94W) and a longwave trough expected to move east of 
+Japan. For now, the NHC forecast continues to favor the more 
+westward scenario.
+
+Low shear and warm sea surface temperatures around 28 degrees 
+Celsius should support further intensification during the next day 
+or so, but intensity guidance suggests the period of rapid 
+intensification is complete. In fact, recent microwave data show 
+a moat now surrounding the eyewall, with a secondary eyewall 
+potentially forming about 25-30 n mi out from the center. This could 
+mean an eyewall replacement is about to occur, which typically leads 
+to fluctuations in intensity in the short term. If the eyewall 
+replacement occurs quickly enough, Nolo could reach a higher peak 
+intensity in 24-36 hours before shear begins to increase. The 
+increased shear and surrounding dry environment are likely to cause 
+significant weakening in the 3- to 5-day forecast period, and the 
+NHC forecast has been lowered during that time frame compared to the 
+previous advisory.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  03/2100Z 23.2N 173.1W  100 KT 115 MPH
+ 12H  04/0600Z 23.3N 175.8W  110 KT 125 MPH
+ 24H  04/1800Z 23.8N 179.1W  115 KT 130 MPH
+ 36H  05/0600Z 24.7N 177.6E  115 KT 130 MPH
+ 48H  05/1800Z 25.1N 174.5E  110 KT 125 MPH
+ 60H  06/0600Z 25.3N 170.9E  100 KT 115 MPH
+ 72H  06/1800Z 25.6N 166.6E   90 KT 105 MPH
+ 96H  07/1800Z 26.5N 158.5E   70 KT  80 MPH
+120H  08/1800Z 27.3N 152.3E   60 KT  70 MPH
+ 
+$$
+Forecaster Berg
+ 
+NNNN
+

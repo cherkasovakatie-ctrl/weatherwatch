@@ -1,0 +1,57 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Odalys Discussion Number   6
+NWS National Hurricane Center Miami FL       EP162026
+800 AM PDT Mon Sep 21 2026
+
+The storm has not become significantly better organized on 
+satellite imagery so far this morning.  A large burst of very deep 
+convection is occurring near or a little south of the estimated 
+center with cloud tops colder than -80 deg C.  Some convective 
+banding features are evident over the southern through eastern 
+periphery of the system.  Objective intensity estimates from 
+UW-CIMSS using geostationary and microwave imagery indicate 
+that the intensity remains near 40 kt.
+
+Since the center is not clearly defined on satellite imagery at 
+this time, the motion is uncertain but is estimated to be 310/10 
+kt, nearly the same as in the previous advisory.  A mid- to
+upper-level trough is forecast to move over the Baja California 
+peninsula during the next day or two.  This will cause Odalys to 
+turn sharply eastward, and steer the system east-northeastward to 
+northeastward through the middle of the week between the flow of the 
+trough and a mid-level ridge situated between Odalys and Tropical 
+Storm Polo. The latest NHC track forecast has again been shifted to 
+the right of the previous forecast, and lies near the HCCA and GDMI 
+track aids.
+ 
+Odalys is continuing to be influenced by northerly vertical wind 
+shear.  The Decay-SHIPS guidance indicates some relaxation of the 
+shear in a day or so while the system remains over warm sea surface
+temperatures and within a moist environment. This should allow for
+some gradual strengthening during the next few days.  The official 
+forecast remains at the high end of the intensity model guidance 
+envelope, and is similar to the latest corrected consensus model, 
+HCCA, prediction.  This is about the same as in the previous NHC 
+forecast.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  21/1500Z 13.9N 129.3W   40 KT  45 MPH
+ 12H  22/0000Z 14.6N 130.0W   45 KT  50 MPH
+ 24H  22/1200Z 15.2N 129.9W   50 KT  60 MPH
+ 36H  23/0000Z 15.5N 128.9W   55 KT  65 MPH
+ 48H  23/1200Z 15.6N 127.7W   60 KT  70 MPH
+ 60H  24/0000Z 15.8N 126.4W   65 KT  75 MPH
+ 72H  24/1200Z 16.4N 124.8W   70 KT  80 MPH
+ 96H  25/1200Z 17.7N 122.6W   70 KT  80 MPH
+120H  26/1200Z 19.0N 121.5W   60 KT  70 MPH
+ 
+$$
+Forecaster Pasch
+ 
+NNNN
+

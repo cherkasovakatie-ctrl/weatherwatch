@@ -1,0 +1,68 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Genevieve Discussion Number   8
+NWS National Hurricane Center Miami FL       EP072026
+200 AM MST Sun Jul 26 2026
+
+Genevieve is rapidly intensifying.  The subjective Dvorak number 
+from TAFB was 4.5/77 kt at 06Z, and D-PRINT numbers from UW-CIMSS 
+were around 82 kt at the time, so the intensity was initialized at 
+80 kt for 06Z.  Subsequent to 06Z, a ragged eye showed up on IR 
+imagery for a few frames with cloud tops colder than -70C completely 
+surrounding it.  However, the eye and core still seem to be 
+fluctuating and trying to organize, so the 09Z intensity will also 
+be 80 kt.
+
+Genevieve has continued moving toward the west-northwest, but a bit 
+faster now (300 degrees at 15 kt).  The hurricane is being steered 
+by strong mid-tropospheric ridging that extends from the 
+southwestern United States to the western Caribbean Sea.  This 
+feature will continue to steer Genevieve west-northwestward or 
+northwestward for the next few days, although the hurricane’s speed 
+will likely slow down to 7-8 kt in 2 to 3 days when a mid-level 
+trough develops over southern Mexico.  The track guidance is fairly 
+tightly clustered.  The new NHC track is nudged slightly faster and 
+to the south of the previous forecast track, in between the previous 
+track and the latest HCCA (HFIP corrected consensus) and GDMI 
+(Google Deep Mind Ensemble Mean).
+
+Genevieve has strengthened by 25 kt in the past 12 h and 35 kt in 
+the past 24 h.  Rapid intensification is expected to continue given 
+the highly favorable thermodynamic environment of sea-surface 
+temperatures in excess of 30C and a humid mid-level airmass.  The 
+cyclone should also remain in a low-to-moderate vertical wind shear 
+environment for the next couple of days.  SHIPS Rapid 
+Intensification (RI) guidance and DTOPS continue to forecast a 
+fairly high probability of an additional 45 kt of strengthening over 
+the next 36 h.  Given that some of the latest intensity guidance has 
+increased, the NHC intensity forecast has been increased 
+accordingly, now showing a peak of 125 kt in 36-48 h.  The new NHC 
+intensity forecast is higher than most of the hurricane regional 
+models and GDMI, but not as high as the HCCA.  Gradual weakening is 
+likely to begin after 48 h as Genevieve gradually encounters cooler 
+sea-surface temperatures, and a drier and more stable environment.  
+However, Genevieve is forecast to remain a hurricane through day 5.
+
+The wind radii were increased significantly, based on a recent 
+ASCAT pass.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  26/0900Z 12.9N 108.3W   80 KT  90 MPH
+ 12H  26/1800Z 13.8N 109.8W  100 KT 115 MPH
+ 24H  27/0600Z 14.9N 111.8W  115 KT 130 MPH
+ 36H  27/1800Z 16.1N 113.4W  125 KT 145 MPH
+ 48H  28/0600Z 17.1N 114.9W  125 KT 145 MPH
+ 60H  28/1800Z 17.9N 116.3W  115 KT 130 MPH
+ 72H  29/0600Z 18.5N 117.9W  105 KT 120 MPH
+ 96H  30/0600Z 19.8N 121.3W   85 KT 100 MPH
+120H  31/0600Z 21.4N 125.9W   65 KT  75 MPH
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

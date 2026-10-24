@@ -1,0 +1,84 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Polo Discussion Number  18
+NWS National Hurricane Center Miami FL       EP172026
+800 PM MST Thu Sep 24 2026
+
+Powerful Polo continues to have an impressive presentation on 
+satellite imagery.  The eye is estimated to be around 20 n mi in 
+diameter and is embedded within a 180 n mi wide Central Dense 
+Overcast of very cold cloud tops.  The upper-level outflow 
+pattern is quite symmetrical, indicative of weak vertical wind shear 
+over the system.  The advisory intensity is held at 130 kt, in 
+reasonable agreement with a subjective Dvorak estimate from TAFB and 
+objective estimates from UW-CIMSS.
+
+The hurricane is now moving on a mainly westward track with an 
+initial motion estimated to be about 280/9 kt.  There is little 
+change to the track forecast philosophy from the previous advisory. 
+Polo is currently being steered by the flow on the south 
+side of a well-defined mid-tropospheric ridge that is building 
+westward over northern Mexico.  This steering regime should 
+continue through Friday.  After that, a mid-latitude trough moving 
+eastward across the northeastern Pacific should prevent the ridge 
+from building farther west, with Polo likely to recurve northward 
+and northeastward around the western periphery of the ridge.  The 
+track guidance is generally in agreement on this scenario, although 
+there are still notable differences in forward speed among the 
+models in the 3-5 day time frame.  The official forecast is similar 
+to the previous one, aside from showing a bit wider turn around the 
+ridge before nearing the Baja California Peninsula in around 96 
+hours.  This is a blend of the latest GDMI and HCCA solutions.
+
+Polo will continue to move over very warm waters and in a low 
+vertical wind shear environment through Friday.  Given the conducive 
+conditions, the hurricane could regain category 5 intensity soon.  
+Around 36 hours, a gradual weakening trend is expected to begin due 
+to some increase in shear.  The official intensity forecast is on 
+the high side of the model guidance, and shows the system still 
+near major hurricane strength while it approaches the Baja 
+California peninsula.  Rapid weakening is expected when the cyclone 
+crosses the peninsula and moves into mainland Mexico.
+ 
+It should be noted that moisture from Hurricane Polo and Odalys
+will be carried a long distance into the southwestern United States
+this weekend and early next week, and may indirectly contribute to
+a heavy rainfall and flash flood threat in the region. See products
+issued by the Weather Prediction Center for more information.
+ 
+ 
+Key Messages:
+
+1. Heavy rainfall associated with Polo will impact coastal portions 
+of southwest Mexico through the evening.  This rainfall may produce 
+life-threatening flooding and mudslides, especially in areas of 
+steep terrain.
+ 
+2. Wind gusts to tropical storm force may still occur along 
+portions of the southwestern coast of Mexico this evening.
+ 
+3. Polo is forecast to approach the Baja California Peninsula early
+next week as a hurricane.  Interests there should closely monitor
+the latest updates and ensure that they have their preparedness
+plan in place.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  25/0300Z 17.1N 106.5W  130 KT 150 MPH
+ 12H  25/1200Z 17.4N 108.1W  140 KT 160 MPH
+ 24H  26/0000Z 17.5N 110.0W  130 KT 150 MPH
+ 36H  26/1200Z 18.0N 111.6W  120 KT 140 MPH
+ 48H  27/0000Z 19.2N 112.9W  115 KT 130 MPH
+ 60H  27/1200Z 20.8N 113.7W  110 KT 125 MPH
+ 72H  28/0000Z 22.6N 114.0W  105 KT 120 MPH
+ 96H  29/0000Z 25.7N 112.5W   95 KT 110 MPH
+120H  30/0000Z 27.3N 109.8W   60 KT  70 MPH...INLAND
+ 
+$$
+Forecaster Pasch
+ 
+NNNN
+

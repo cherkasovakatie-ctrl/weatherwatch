@@ -1,0 +1,77 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Polo Discussion Number   5
+NWS National Hurricane Center Miami FL       EP172026
+300 PM CST Mon Sep 21 2026
+ 
+Satellite images show that Polo has a ragged eye on both visible
+and infrared images, with very deep convection starting to wrap
+around a broken eyewall.  The NOAA Hurricane Hunter aircraft has
+been providing valuable data that show the cyclone undergoing an
+early-stage eyewall cycle, with two wind maxes on the TDR radar.
+The plane recently reported 0.5 km winds up to 92 kt, with
+higher winds and lower central pressure on each fix, dropping about 
+1 mb per hour.  These winds convert to roughly 75 kt at the 
+surface, and that will be the initial wind speed this advisory.
+ 
+While the current eyewall replacement could slightly hinder 
+intensification, the last aircraft pass through Polo already showed 
+that the old inner eyewall was fading.  Thus, given the very warm 
+waters, light shear and moist environment, a high-end rapid 
+intensification event is expected.  The latest model guidance are 
+even higher than the last cycle, and the new NHC intensity forecast 
+follows the trend, but is still below the NOAA HCCA corrected- 
+consensus aid.  An increase in easterly wind shear could cause some 
+weakening in the medium-range period, though Polo should be a small 
+and powerful hurricane throughout the forecast period.
+ 
+The storm is drifting east-southeastward and should move in that 
+general direction for about a day before a mid-level ridge 
+intensifies over Mexico.  This ridge should cause the cyclone to 
+turn sharply towards the northwest and west-northwest on Wednesday 
+and Thursday, bringing the core of the storm near or south of the 
+coast of southwestern Mexico.  Eventually there is enough troughing 
+over the eastern Pacific to cause the system to bend more 
+northwestward at long range towards the Baja California peninsula.  
+The details, however, are pretty sketchy with a potential binary 
+interaction with Tropical Storm Odalys looming, which is helping to 
+cause a large north-south spread in the guidance.  No big changes 
+were made to the NHC forecast, but it is a little farther west at 
+and beyond 72 hours where uncertainty is high.  
+ 
+ 
+Key Messages:
+ 
+1. Heavy rainfall associated with Polo will impact coastal portions 
+of southwest Mexico through Thursday. This rainfall may produce 
+life-threatening flooding and mudslides, especially in areas of 
+steep terrain.
+ 
+2. Polo is forecast to strengthen to a major hurricane while it
+moves closer to the coast of southwestern Mexico during the next few
+days. Although the core of the hurricane is forecast to stay
+offshore, it is too soon to determine the exact location or
+magnitude of impacts. Residents in southwestern Mexico should
+closely monitor its progress and updates to the forecast. A Tropical
+Storm Watch is in effect for portions of southwestern Mexico.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  21/2100Z 15.1N 102.7W   75 KT  85 MPH
+ 12H  22/0600Z 14.9N 102.3W  100 KT 115 MPH
+ 24H  22/1800Z 14.9N 102.0W  125 KT 145 MPH
+ 36H  23/0600Z 15.4N 102.2W  140 KT 160 MPH
+ 48H  23/1800Z 16.1N 102.9W  145 KT 165 MPH
+ 60H  24/0600Z 17.0N 104.0W  140 KT 160 MPH
+ 72H  24/1800Z 17.7N 105.5W  140 KT 160 MPH
+ 96H  25/1800Z 18.6N 108.6W  130 KT 150 MPH
+120H  26/1800Z 20.5N 111.2W  120 KT 140 MPH
+ 
+$$
+Forecaster Blake
+ 
+NNNN
+

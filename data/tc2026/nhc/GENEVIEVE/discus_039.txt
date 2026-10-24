@@ -1,0 +1,44 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Post-Tropical Cyclone Genevieve Discussion Number  39
+NWS National Hurricane Center Miami FL       EP072026
+1100 AM HST Sun Aug 02 2026
+ 
+Cool sea surface temperatures, moderate westerly vertical wind shear 
+and dry mid-level air have significantly impacted Genevieve today. 
+Organized deep convection has slowly dissipated over the past 12 h 
+or so, leaving only a small area of shallow convection north of the 
+now completely exposed low-level center. Genevieve no longer meets 
+the criteria of a tropical cyclone, and this will be the final 
+advisory issued on this system. The most recent Dvorak intensity 
+estimate from TAFB was 35 kt, and objective estimates range from 
+29-38 kt. The intensity is lowered to 35 kt for this final 
+advisory. 
+
+The gale-force low is moving quickly toward the west-northwest 
+around 11 kt, and this general motion will continue early this week 
+as the system is steered along the southern periphery of a 
+subtropical ridge centered to its north. An eventual turn toward the 
+northwest accompanied by a decreased in forward speed is expected by 
+midweek. Gradual weakening of the post-tropical low is forecast to 
+continue, with the system expected to dissipate by 96 h.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  02/2100Z 24.8N 139.5W   35 KT  40 MPH...POST-TROPICAL
+ 12H  03/0600Z 25.4N 141.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 24H  03/1800Z 26.2N 142.9W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 36H  04/0600Z 26.8N 144.2W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 48H  04/1800Z 27.4N 145.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 60H  05/0600Z 28.2N 145.6W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 72H  05/1800Z 28.7N 146.2W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 96H  06/1800Z...DISSIPATED
+ 
+$$
+Forecaster Adams/Cangialosi
+ 
+NNNN
+

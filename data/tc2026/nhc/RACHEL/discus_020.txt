@@ -1,0 +1,64 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Rachel Discussion Number  20
+NWS National Hurricane Center Miami FL       EP182026
+800 PM MST Thu Oct 01 2026
+ 
+Satellite imagery indicates that the convective structure associated
+with Rachel has changed little over the past several hours. A ragged
+eye surrounded by deep convection with cloud-top temperatures as
+cold as -85 C persists, although the coverage of the coldest cloud
+tops has decreased slightly. The subjective Dvorak intensity
+estimate from TAFB is T5.5/102 kt, which aligns with the latest
+objective estimates. Given these estimates and the relatively steady
+satellite presentation, the initial intensity is held at 105 kt.
+ 
+The initial motion is west-northwestward, or 290/3 kt. Little change 
+in motion is expected during the next day or so while the system 
+remains within a weak steering environment. Thereafter, a mid-level 
+ridge is forecast to build to the north, supporting a more westward 
+track with the forward speed gradually increasing through the 
+remainder of the forecast period. A gradual bend toward the 
+west-northwest is forecast between 96 and 120 h as the ridge begins 
+to weaken. The track guidance remains in generally good agreement on 
+this scenario, although some differences remain in the timing of the 
+acceleration. The latest NHC track forecast is similar to the 
+previous prediction and lies near the HCCA and GDMI aids.
+ 
+Environmental conditions should remain largely favorable for some 
+additional strengthening during the next 24 h. Some 
+east-northeasterly vertical wind shear may continue to affect the 
+cyclone during this time, although Rachel's well-established 
+inner-core structure should allow for additional strengthening in 
+the short term. Thereafter, increasingly dry mid-level air is 
+forecast to begin wrapping into the system, while some 
+east-northeasterly shear could persist. These factors should 
+gradually disrupt the inner-core structure and induce a weakening 
+trend. Increasingly marginal sea surface temperatures later in the 
+forecast period should support continued weakening through day 5. 
+The latest NHC intensity forecast is essentially unchanged from the 
+previous advisory, showing Rachel reaching a peak intensity of 115 
+kt within the next 12 h. This peak remains above the intensity 
+guidance, with the forecast thereafter gradually trending toward the 
+upper end of the guidance envelope.
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  02/0300Z 19.5N 109.9W  105 KT 120 MPH
+ 12H  02/1200Z 19.5N 110.4W  115 KT 130 MPH
+ 24H  03/0000Z 19.5N 111.2W  105 KT 120 MPH
+ 36H  03/1200Z 19.6N 112.1W  100 KT 115 MPH
+ 48H  04/0000Z 19.8N 113.1W   90 KT 105 MPH
+ 60H  04/1200Z 19.9N 114.0W   85 KT 100 MPH
+ 72H  05/0000Z 20.0N 115.0W   80 KT  90 MPH
+ 96H  06/0000Z 20.2N 117.8W   75 KT  85 MPH
+120H  07/0000Z 20.8N 121.0W   70 KT  80 MPH
+ 
+$$
+Forecaster Gibbs 
+ 
+NNNN
+

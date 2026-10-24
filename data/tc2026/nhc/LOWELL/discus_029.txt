@@ -1,0 +1,88 @@
+
+ZCZC HFOTCDCP4 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Lowell Discussion Number  29
+NWS Central Pacific Hurricane Center Honolulu HI   EP122026
+Issued by NWS National Hurricane Center Miami FL
+500 AM HST Thu Sep 03 2026
+
+Lowell is still a powerful hurricane with a warm eye that is
+apparent in infrared and proxy-visible satellite images. Overnight
+WSF-M passive microwave data showed some thinning of the convection
+in the eastern portion of the eyewall, possibly the result of some
+intrusion of drier mid-level air. However, recent conventional
+satellite imagery shows colder cloud tops and a slightly thicker
+ring of convection surrounding the center. Based on a blend of the
+Dvorak current intensity (CI) estimates from JTWC and HFO, the
+initial intensity is set at 120 kt for this advisory. The 34-kt wind
+radii were expanded, particularly on the north side of the
+hurricane, based on overnight scatterometer data. Another NOAA
+aircraft research mission into Lowell is scheduled for later today.
+ 
+The hurricane will move over warm waters while in a weaker shear
+environment during the next few days. These conducive environmental
+and oceanic conditions favor Lowell maintaining its major hurricane
+intensity, even as internal structural changes like eyewall
+replacement cycles commence. Since these types of changes are
+extremely difficult to predict, the NHC intensity forecast follows a
+similar approach as the previous prediction and shows no net change
+through the end of the week (though some small fluctuations are
+expected). By the weekend, southwesterly vertical wind shear is
+forecast to increase over Lowell, which should induce some weakening
+along with a more asymmetric wind structure.
+ 
+Lowell is being steered westward (270/9 kt) by a mid-level ridge to
+its north over the Central Pacific. A continued westward motion is
+expected during the next couple of days. Then, the forecast becomes
+more challenging as a mid- to upper-level trough over the northern
+Pacific digs southward and erodes the steering ridge. This will
+cause Lowell to turn sharply northward or north-northeastward this
+weekend and then accelerate generally toward the north early next
+week, passing near or west of the westernmost main Hawaiian Islands
+by day 5. The updated NHC track forecast lies between the corrected
+(HCCA) and simple (TVCN) track consensus aids, showing a sharper
+turn at days 3-4 but similar to the previous NHC prediction at day
+5. Remember that the average track errors at days 4-5 are around 150
+n mi and 200 n mi, respectively. There is lower confidence in the
+long-range track forecast details, and future adjustments may be
+required. Residents in Hawaii should closely monitor the latest NHC
+forecast updates.
+ 
+ 
+KEY MESSAGES:
+ 
+1. Lowell could be at or near major hurricane strength when it
+moves near the westernmost main Hawaiian Islands late Monday and
+Monday night. While it is still too soon to determine the exact
+track of the hurricane, Lowell could bring storm surge, wind, and
+rainfall impacts to portions of Hawaii early next week.
+ 
+2. Interests in Hawaii should continue to closely monitor the
+progress of Lowell through the upcoming Labor Day weekend, listen to
+the advice of local officials, and ensure they have their hurricane
+plan and supply kit in place.
+ 
+3. Swells from Lowell are likely to cause life-threatening surf
+and rip current conditions in portions of the Hawaiian Islands
+during the next several days.  These swells are likely to increase
+early next week.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  03/1500Z 13.5N 157.2W  120 KT 140 MPH
+ 12H  04/0000Z 13.5N 158.3W  120 KT 140 MPH
+ 24H  04/1200Z 13.6N 159.7W  120 KT 140 MPH
+ 36H  05/0000Z 13.7N 161.0W  120 KT 140 MPH
+ 48H  05/1200Z 13.9N 162.0W  120 KT 140 MPH
+ 60H  06/0000Z 14.3N 162.8W  120 KT 140 MPH
+ 72H  06/1200Z 15.1N 163.2W  120 KT 140 MPH
+ 96H  07/1200Z 17.6N 162.9W  115 KT 130 MPH
+120H  08/1200Z 22.7N 162.0W  100 KT 115 MPH
+ 
+$$
+Forecaster Reinhart
+ 
+NNNN
+

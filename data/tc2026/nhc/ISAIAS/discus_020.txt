@@ -1,0 +1,35 @@
+
+ZCZC NFDTCDAT4 ALL
+TTAA00 KWNH DDHHMM
+ 
+Post-Tropical Cyclone Isaias Discussion Number  20
+NWS Weather Prediction Center College Park MD   AL092026
+1100 AM EDT Sun Oct 11 2026
+ 
+Key Messages:
+ 
+1. Areas of heavy rainfall will continue across portions of the 
+Central Appalachians and Mid-Atlantic today, with localized flash 
+and urban flooding possible. River flooding continues in western 
+North Carolina. 
+
+2. Swells from Isaias will continue to affect much of the Gulf and
+Southeastern Atlantic coasts of the United States today. These 
+swells are likely to cause life-threatening surf and rip current 
+conditions. Please consult products from your local weather office.
+ 
+3. A couple of tornadoes are possible today across the Piedmont and
+Coastal Plain of Virginia and North Carolina.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  11/1500Z 37.5N  84.0W   20 KT  25 MPH...POST-TROP/INLAND
+ 12H  12/0000Z 38.8N  80.2W   20 KT  25 MPH...POST-TROP/INLAND
+ 24H  12/1200Z...DISSIPATED
+ 
+$$
+Forecaster Chenard
+ 
+NNNN
+

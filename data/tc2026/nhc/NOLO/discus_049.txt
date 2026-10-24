@@ -1,0 +1,63 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Nolo Discussion Number  49
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+1100 AM HST Fri Oct 02 2026
+ 
+Nolo's eye has come and gone in visible and infrared satellite 
+imagery since the early morning hours. Based on the current 
+structure, HFO and JTWC have both provided Dvorak Current Intensity 
+estimates of 4.0/65 kt, and a UW-CIMSS DMINT estimate based on a 
+1805 UTC GMI microwave pass yielded an estimate of 66 kt. Nolo is 
+therefore upgraded to a 65-kt hurricane.
+
+Nolo's motion is now slowly westward, or 280/5 kt, due to weak 
+ridging to the north of the hurricane. A mid-level area of high 
+pressure located west of the International Date Line is expected to 
+build eastward, re-establishing itself to the north of Nolo and 
+causing the cyclone to accelerate significantly--moving 3 times 
+faster than it is now--by late Saturday. This fast, mostly-westward 
+movement is then expected to continue through the middle of next 
+week, with Nolo crossing the International Date Line between 48-60 
+hours. Model spread is remarkably narrow, which increases forecast 
+confidence in Nolo's track, and the new NHC forecast is very 
+similar to the previous prediction.
+ 
+There is still some moderate deep-layer westerly shear affecting 
+Nolo, but that shear is expected to decrease during the next 6-12 
+hours and become negligible by this time tomorrow. While the shear 
+lessens, Nolo is expected to move over slightly warmer waters, and 
+the environment is forecast to become more divergent aloft. These 3 
+factors could lead to a period of significant strengthening. 
+The one main negative factor is mid-level moisture around the 
+hurricane, which will only be in the 40 percent range. That said, 
+DTOPS, one of NHC's rapid intensification (RI) predictors, is now 
+showing a probability of RI over 50 percent during the next 24 
+hours. The new NHC intensity forecast is now explicitly showing the 
+possibility of RI, and it is just below the highest guidance, which 
+include HCCA, the Florida State Superensemble, and HAFS-A and -B. 
+Model guidance is unanimous in showing a weakening trend after day 
+3, generally in response to an increase in deep-layer northerly 
+shear.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  02/2100Z 23.3N 167.8W   65 KT  75 MPH
+ 12H  03/0600Z 23.3N 169.2W   80 KT  90 MPH
+ 24H  03/1800Z 23.3N 172.0W   95 KT 110 MPH
+ 36H  04/0600Z 23.4N 175.5W  105 KT 120 MPH
+ 48H  04/1800Z 24.0N 178.8W  110 KT 125 MPH
+ 60H  05/0600Z 24.7N 178.0E  110 KT 125 MPH
+ 72H  05/1800Z 25.3N 174.8E  105 KT 120 MPH
+ 96H  06/1800Z 25.7N 167.2E   95 KT 110 MPH
+120H  07/1800Z 26.9N 159.1E   70 KT  80 MPH
+ 
+$$
+Forecaster Berg
+ 
+NNNN
+

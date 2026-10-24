@@ -1,0 +1,95 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Polo Discussion Number  33
+NWS National Hurricane Center Miami FL       EP172026
+200 PM MST Mon Sep 28 2026
+ 
+NOAA Hurricane Hunters investigated Polo this afternoon, finding the 
+hurricane was still well organized with a 23 n mi wide eye, though 
+the eyewall was open to the southwest and there was a subtle 
+increase in the vertical tilt comparing the 1-5 km Tail Doppler 
+Radar (TDR) wind data from the aircraft. The highest 700 mb 
+flight-level winds were 106 kt in the southeast quadrant, which 
+using a typical 0.9 reduction factor would suggest an intensity of 
+95 kt. However, the TDR data has also been useful to diagnose the 
+intensity of Polo since it samples a larger wind field swath, and 
+the final southwest to northeast leg through the hurricane indicated 
+0.5 km winds up to 112 kt in the northeast eyewall. Experimental 
+reduction data from this TDR analysis in this region reduced these 
+boundary layer winds down to 100 kt at 10 meters. Thus, the initial 
+intensity remains 100 kt for this advisory.
+ 
+Polo continues to move northeastward, but it is starting to 
+accelerate some with an current motion of 40 degrees at 10 kt. This 
+general motion should continue over the next day with gradual 
+acceleration as the hurricane is captured by a strong shortwave 
+trough swinging into the southwestern United States. This track will 
+take Polo's core over the Baja California Peninsula this evening 
+very close to Puerto San Andresito. The hurricane will then briefly 
+move over the Gulf of California overnight, finally making a second 
+landfall in northwestern mainland Mexico on Tuesday morning. The NHC 
+track forecast is essentially an update from this morning, and is in 
+the middle of the tightly clustered guidance. 
+
+Sea-surface temperatures actually increase a bit as Polo approaches 
+Baja California Sur. Vertical wind shear, while also increasing, is 
+unlikely to get strong enough over the next 3-6 h to cause much 
+weakening. Thus, Polo is likely to maintain its current intensity 
+and be at or near major hurricane intensity when it makes landfall 
+on the west coast of Baja California Sur this evening. Weakening 
+will likely begin immediately after it moves over the rugged terrain 
+of the peninsula, though Polo is still expected to be a hurricane 
+when it makes its second landfall in mainland Mexico on the Gulf of 
+California coast. Rapid weakening is expected when Polo moves fully 
+inland over the high rugged terrain of northwestern Mexico, and the 
+tropical cyclone is expected to degenerate into a trough  before its 
+remnants reach the southwestern United States.
+
+However Polo's remnant vorticity will ultimately interact and phase 
+with a strong cutoff low digging into the the four corners region of 
+the U.S. on Tuesday into Wednesday, contributing to heavy rainfall, 
+flash flooding, and gusty winds the southwestern U.S. and southern 
+Plains. See products issued by the Weather Prediction Center and 
+local National Weather Service offices for more information.
+ 
+ 
+Key Messages:
+ 
+1. Polo is forecast to make landfall on the west coast of the Baja 
+California Peninsula near major hurricane strength this evening. 
+Conditions will deteriorate quickly, and residents are urged to seek 
+safe shelter.  Hurricane and tropical storm conditions will spread 
+inland across Baja California tonight, and into mainland Mexico late 
+tonight and early Tuesday. A dangerous storm surge is expected in 
+areas of onshore winds. 
+ 
+2. Heavy rainfall associated with Polo will impact Baja California 
+Sur along with southern and central portions of Sonora today into 
+Tuesday. This rainfall may produce life-threatening flooding and 
+mudslides, especially in areas of steep terrain. Moisture from Polo 
+will support heavy rainfall and flooding potential across the 
+Southwest U.S. into the Southern High Plains late today into 
+Tuesday.
+ 
+3. Even after Polo dissipates, its mid-level remnants may produce 
+strong gusty winds well inland over the higher terrain of northwest 
+Mexico and southern New Mexico and far western Texas. 
+  
+4. Dangerous surf and rip currents are likely along portions of the 
+northwest coast of Mexico and Baja California for the next day or 
+so. 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  28/2100Z 25.0N 113.0W  100 KT 115 MPH
+ 12H  29/0600Z 26.2N 112.1W   80 KT  90 MPH...INLAND OVER BAJA CA
+ 24H  29/1800Z 28.7N 109.8W   40 KT  45 MPH...INLAND OVER MEXICO
+ 36H  30/0600Z...DISSIPATED
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

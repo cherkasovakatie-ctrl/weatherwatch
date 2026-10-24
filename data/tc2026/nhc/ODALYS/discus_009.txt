@@ -1,0 +1,60 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Odalys Discussion Number   9
+NWS National Hurricane Center Miami FL       EP162026
+200 AM PDT Tue Sep 22 2026
+ 
+Bursts of deep convection continue near the center of Odalys tonight 
+as the cyclone becomes better organized. Although recent 
+scatterometer passes missed the circulation, microwave imagery shows 
+an improving structure, with convective banding now evident over the 
+southern and eastern quadrants. Subjective and objective satellite 
+intensity estimates from TAFB and UW-CIMSS range from 47 to 55 kt. 
+Given the improved satellite presentation, the initial intensity is 
+raised to 55 kt for this advisory, leaning toward the higher end of 
+these estimates.
+
+The system is moving north-northwestward, or 340/6 kt. A decrease in 
+forward speed is expected today as the cyclone turns northward, 
+northeastward, and then east-northeastward tonight in response to a 
+deepening trough moving into the eastern Pacific toward the western 
+coast of the United States. An east-northeastward to eastward motion 
+is forecast for the rest of the week as Odalys is steered within the 
+flow of the trough. Toward the end of the forecast period, the track 
+forecast becomes increasingly uncertain due to a potential binary 
+interaction with Hurricane Polo as it tracks toward Baja California, 
+which could cause Odalys to slow down late in the period. The latest 
+NHC track forecast is similar to the previous advisory, though 
+nudged slightly leftward and slowed down given the model uncertainty 
+around day 5.
+ 
+Environmental conditions are becoming more conducive for 
+strengthening over the next couple of days, as vertical wind shear 
+slightly decreases, with abundant mid-level moisture, and warm sea 
+surface temperatures. Thus, Odalys is forecast to become a hurricane 
+later today or tonight. In 48 to 72 hours, the cyclone is expected 
+to encounter a drier mid-level air mass and may experience increased 
+wind shear induced by upper-level outflow from Hurricane Polo. The 
+latest NHC intensity forecast remains near the upper end of the 
+guidance, aligned closely with the HCCA and GDMI aids.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  22/0900Z 14.7N 130.4W   55 KT  65 MPH
+ 12H  22/1800Z 15.1N 130.2W   65 KT  75 MPH
+ 24H  23/0600Z 15.3N 129.3W   75 KT  85 MPH
+ 36H  23/1800Z 15.4N 128.0W   75 KT  85 MPH
+ 48H  24/0600Z 15.8N 126.6W   75 KT  85 MPH
+ 60H  24/1800Z 16.3N 125.3W   70 KT  80 MPH
+ 72H  25/0600Z 17.0N 124.4W   65 KT  75 MPH
+ 96H  26/0600Z 18.5N 123.2W   60 KT  70 MPH
+120H  27/0600Z 20.2N 122.5W   50 KT  60 MPH
+ 
+$$
+Forecaster Kelly
+ 
+NNNN
+

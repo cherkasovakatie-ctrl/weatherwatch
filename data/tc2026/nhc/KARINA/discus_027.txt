@@ -1,0 +1,55 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Karina Discussion Number  27
+NWS National Hurricane Center Miami FL       EP112026
+500 PM HST Wed Sep 02 2026
+
+Latest infrared satellite imagery of Karina suggests that convective 
+cloud-top temperatures continue to warm. Karina continues to 
+maintain an annular appearance, while the eye remains cloud-filled. 
+The latest TAFB subjective Dvorak intensity estimate held steady 
+from 18z to 00z, at 5.5/6.5 or 127 kt. Objective intensity estimates 
+from CIMSS vary around 105-110 kt. Given the warming cloud-top 
+temperatures over the last several hours, the initial intensity 
+estimate was adjusted down slightly to 115 kt. 
+
+Karina is currently moving west-northwestward around 9 kt. A 
+subtropical ridge to the north of Karina should cause the cyclone to 
+continue moving west-northwestward for the next couple of days.  
+Karina is then expected to turn more northwesterly later this week 
+as the subtropical ridge is weakened by an oncoming upper-level 
+trough.  Karina's track forecast was nudged slightly to the east of 
+the previous forecast, reflecting a blend of HCCA and GDMI. Models 
+exhibit relatively strong agreement in Karina's track through the 
+first 48 h, before spread increases thereafter.
+
+While vertical wind shear is expected to remain very weak over the 
+next 48 h, Karina is expected to track toward cooler SSTs and into 
+a drier mid-level environment. The latest NHC intensity forecast 
+shows a slightly faster rate of weakening than the previous 
+forecast, but still lies at the high end of the guidance envelope 
+for the first 3 days, and then closer to the intensity consensus 
+at days 4 and 5. The hostile environmental conditions should 
+cause Karina to lose its convection and become post-tropical by 
+day 5.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  03/0300Z 19.3N 134.7W  115 KT 130 MPH
+ 12H  03/1200Z 19.7N 136.1W  110 KT 125 MPH
+ 24H  04/0000Z 20.1N 137.9W  100 KT 115 MPH
+ 36H  04/1200Z 20.6N 139.6W   90 KT 105 MPH
+ 48H  05/0000Z 21.1N 141.2W   80 KT  90 MPH
+ 60H  05/1200Z 21.8N 142.5W   70 KT  80 MPH
+ 72H  06/0000Z 22.7N 143.6W   65 KT  75 MPH
+ 96H  07/0000Z 24.6N 145.9W   50 KT  60 MPH
+120H  08/0000Z 26.1N 149.7W   35 KT  40 MPH...POST-TROPICAL
+ 
+$$
+Forecaster Evans
+ 
+NNNN
+

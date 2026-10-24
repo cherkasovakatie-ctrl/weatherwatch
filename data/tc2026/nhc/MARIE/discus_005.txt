@@ -1,0 +1,53 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Marie Discussion Number   5
+NWS National Hurricane Center Miami FL       EP132026
+200 AM MST Wed Sep 02 2026
+
+Satellite imagery shows that Marie continues to produce deep 
+convection near the center, with a large curved band in the 
+southeastern semicircle of the storm.  An earlier microwave image 
+did show that the inner core remains in the primitive stages of 
+development, though that was several hours ago now.  Intensity 
+estimates are about the same as the last cycle, so the current winds 
+will remain 55 kt.  
+
+Marie remains on a northwestward heading tonight, steered by a 
+distant ridge over Mexico.  The ridge is forecast to build westward 
+later this week, which will likely force Marie to move more towards 
+the west-northwest.  Track uncertainty is high by the weekend due 
+to an approaching mid-latitude trough over the eastern Pacific, 
+though the bulk of the guidance show this trough missing the storm. 
+The new NHC forecast is very similar to the previous one, showing 
+the west-northwestward track at the end of the forecast, and lying 
+near the typically reliable HCCA and GDMI consensus aids.
+
+The storm has a couple of days over very warm waters within light 
+shear for intensification.  The biggest current hindrance is 
+probably the earlier-observed broad microwave structure, though 
+very deep convection is near the center.  Thus the NHC forecast 
+will stay on the aggressive side of the guidance, and little 
+change is made to the previous forecast.  By the weekend, Marie is 
+forecast to move over cooler SSTs and into a drier, more stable air 
+mass, which should induce a gradual weakening trend.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  02/0900Z 16.7N 111.0W   55 KT  65 MPH
+ 12H  02/1800Z 17.5N 112.1W   65 KT  75 MPH
+ 24H  03/0600Z 18.4N 113.6W   80 KT  90 MPH
+ 36H  03/1800Z 19.1N 115.1W   85 KT 100 MPH
+ 48H  04/0600Z 19.7N 116.6W   90 KT 105 MPH
+ 60H  04/1800Z 20.2N 118.0W   90 KT 105 MPH
+ 72H  05/0600Z 20.8N 119.3W   85 KT 100 MPH
+ 96H  06/0600Z 22.1N 121.8W   80 KT  90 MPH
+120H  07/0600Z 22.8N 124.6W   65 KT  75 MPH
+ 
+$$
+Forecaster Blake
+ 
+NNNN
+

@@ -1,0 +1,64 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Simon Discussion Number  34
+NWS National Hurricane Center Miami FL       EP202026
+200 PM MST Thu Oct 15 2026
+
+Simon continues to produce an area of deep convection, though this 
+activity has lacked a ton of organization today, and appears to 
+still be displaced to the west of the center of circulation. A RCM-2 
+synthetic aperture radar (SAR) pass that became available after the 
+prior advisory indicated that most of this convective activity was 
+also occurring outside of its radius of maximum winds, and has done 
+little to aid the small circulation. In fact, the peak winds 
+retrieved from the SAR was only 47 kt. This information, combined 
+with a Metop-B scatterometer pass that had a peak wind of 39 kt is 
+justification to bring Simon's intensity down to 45 kt this 
+advisory, and this may still be generous. 
+
+Simon has been drifting rather aimlessly today, and my best guess 
+at an estimated motion is 320/1 kt. It has been a tough few days 
+trying to forecast Simon's track, but the model guidance this cycle 
+is finally coming into better agreement showing that as Simon 
+becomes a more vertically shallow cyclone, it will primarily be 
+steered by the low-level flow. To that end, a weak low-level trough 
+is forecast to drop equatorward to the west of Simon as a strong 
+pressure gradient develops over northern Mexico as surface ridging 
+builds in behind a frontal boundary. This flow should help to 
+finally draw Simon back to the northwest with a speed up in its 
+forward motion. The latest NHC track forecast is shifted once again 
+a little further west but also faster, following the latest trends 
+in the reliable HFIP Corrected Consensus Approach (HCCA) and Google 
+DeepMind ensemble mean (GDMI). 
+
+While the shear over Simon is currently low, it has not taken 
+advantage of these more favorable conditions, likely due to the 
+proximity of dry air preventing the convection from organizing. The 
+vertical wind shear is soon expected to increase significantly out 
+of the southwest as a deep-layer trough located over the 
+southwestern United States cuts off and retrogrades back westward. 
+Simon has already been sensitive to less than pristine conditions, 
+and this increase in shear will likely be the storm's demise. The 
+latest NHC forecast now shows gradual weakening continuing over the 
+next 24-36 h, with Simon becoming a remnant low in 48 h, and fully 
+dissipating in 72 h. If the latest ECMWF forecast is correct, this 
+could occur sooner than forecasted here.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  15/2100Z 19.3N 108.2W   45 KT  50 MPH
+ 12H  16/0600Z 19.8N 108.7W   40 KT  45 MPH
+ 24H  16/1800Z 20.8N 110.0W   35 KT  40 MPH
+ 36H  17/0600Z 22.0N 111.9W   30 KT  35 MPH
+ 48H  17/1800Z 23.1N 113.6W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 60H  18/0600Z 24.5N 115.0W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 72H  18/1800Z...DISSIPATED
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

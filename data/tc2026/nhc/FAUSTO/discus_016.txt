@@ -1,0 +1,57 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Fausto Discussion Number  16
+NWS National Hurricane Center Miami FL       EP062026
+1100 AM HST Wed Jul 22 2026
+ 
+Fausto has not changed much over the past several hours.  Although 
+the hurricane is maintaining a partial inner core, intrusions of dry 
+air continue to disrupt it from closing off.  That dry air has also 
+wrapped into the outer portion of the circulation, causing the 
+hurricane to have a ragged appearance.  There is a wide range in the 
+latest satellite estimates, but based on a combination of the data, 
+the initial intensity is held at 70 kt.  It is possible that this 
+estimate is a little generous.  A recent ASCAT-B pass was helpful 
+in estimating the 34- and 50-kt wind radii.
+ 
+The hurricane is still moving slowly to the west-northwest at 6 kt. 
+The global models suggest that ridging should strengthen and remain 
+established north of the system through early next week.  As a 
+result, Fausto is expected to move westward to west-northwestward at 
+a faster pace during the next several days.  Despite the model 
+agreement on the overall steering pattern, there is still a notable 
+amount of spread at days 4 and 5.  The NHC track forecast remains on 
+the fast and south sides of the guidance envelope, in best agreement 
+with the typically most skillful aids, HCCA, GDMI, and TVCN.  This 
+forecast is quite similar to the previous one.
+ 
+Fausto has a day or two left to strengthen, but given the dry air in 
+the nearby environment, only modest intensification seems likely.  
+In a couple of days, progressively cooler waters should end the 
+opportunity for strengthening and cause a gradual decay.  Fausto is 
+expected to fall below hurricane strength by the end of the weekend 
+when it will likely move into a region of westerly shear over the 
+central Pacific.  The NHC intensity forecast has been nudged 
+downward, and still lies at the high end of the latest model 
+guidance.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  22/2100Z 17.2N 122.0W   70 KT  80 MPH
+ 12H  23/0600Z 17.5N 123.6W   75 KT  85 MPH
+ 24H  23/1800Z 17.9N 126.1W   75 KT  85 MPH
+ 36H  24/0600Z 18.2N 128.8W   75 KT  85 MPH
+ 48H  24/1800Z 18.4N 131.5W   70 KT  80 MPH
+ 60H  25/0600Z 18.7N 134.2W   70 KT  80 MPH
+ 72H  25/1800Z 19.0N 136.6W   65 KT  75 MPH
+ 96H  26/1800Z 19.7N 141.2W   65 KT  75 MPH
+120H  27/1800Z 20.4N 146.5W   60 KT  70 MPH
+ 
+$$
+Forecaster Cangialosi
+ 
+NNNN
+

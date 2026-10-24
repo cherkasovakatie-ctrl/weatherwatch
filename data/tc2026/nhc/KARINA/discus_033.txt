@@ -1,0 +1,61 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Karina Discussion Number  33
+NWS National Hurricane Center Miami FL       EP112026
+500 AM HST Fri Sep 04 2026
+ 
+Satellite imagery over the last several hours depicts Karina's 
+northwest quadrant degrading as dry air circulates into the system. 
+Cloud top temperatures have also warmed slightly, with the deepest 
+convection concentrated across Karina's eastern semicircle. The 
+latest subjective Dvorak classification from TAFB was 5.0/90 kt, 
+with objective ratings from CIMSS between 75-82 kt. Based on 
+Karina's degrading structure, the initial intensity was reduced 
+slightly to 80 kt.
+ 
+The initial motion was set at 280/9 kt. Karina moved more westward 
+than previously anticipated over the last several hours, guided by a 
+subtropical ridge to its north. Later today and over the weekend, 
+however, Karina is still anticipated to track more northwestward as 
+an oncoming upper-level trough pushes the ridge to the east. 
+Uncertainty still remains as to how Karina will react to Lowell once 
+the two approach each other early next week, but model consensus 
+generally exhibits a northwestward motion through the forecast 
+period. The official track forecast was shifted leftward slightly in 
+light of Karina's more westward initial motion, but after 24 h, 
+differences in track from the last advisory were minimal.
+ 
+Gradual weakening is expected to continue as SHIPS guidance
+continues to depict Karina in a dry mid-level environment. Vertical
+wind shear is expected to increase as well, especially as Karina
+makes its more northwestward turn as forecast. The rate of
+weakening was once again increased compared to the previous
+advisory, and generally falls in line with the model consensus.
+Karina is still expected to become post-tropical early next week,
+before dissipating thereafter.
+
+Now that Karina is in the Central Pacific, additional information on 
+this hurricane can be found under Central Pacific basin headers 
+beginning with the next advisory at 1100 AM HST. Future Tropical 
+Cyclone Discussions will be issued under AWIPS header HFOTCDCP5 and 
+WMO header WTPA45 PHFO. Products will continue to be available on 
+the web at hurricanes.gov
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  04/1500Z 20.4N 140.4W   80 KT  90 MPH
+ 12H  05/0000Z 20.7N 141.4W   75 KT  85 MPH
+ 24H  05/1200Z 21.4N 142.8W   70 KT  80 MPH
+ 36H  06/0000Z 22.0N 143.7W   60 KT  70 MPH
+ 48H  06/1200Z 22.8N 144.8W   55 KT  65 MPH
+ 60H  07/0000Z 23.4N 146.1W   45 KT  50 MPH
+ 72H  07/1200Z 23.9N 148.0W   35 KT  40 MPH...POST-TROPICAL
+ 96H  08/1200Z...DISSIPATED
+ 
+$$
+Forecaster Evans/Adams
+ 
+NNNN
+

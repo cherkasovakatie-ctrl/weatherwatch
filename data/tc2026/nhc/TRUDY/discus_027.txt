@@ -1,0 +1,45 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Post-Tropical Cyclone Trudy Discussion Number  27
+NWS National Hurricane Center Miami FL       EP212026
+800 PM MST Mon Oct 19 2026
+ 
+Trudy's convection has rapidly vanished over the last 6-9 hours. In 
+fact, the latest satellite imagery shows that all deep convection 
+associated with Trudy has dissipated, leaving only a weak remnant 
+low-level circulation that has become less defined. As a result, 
+Trudy no longer meets the criteria of a tropical cyclone, and this 
+is the last NHC advisory on this system. The initial intensity is 
+estimated at 30 kt assuming additional spin down of the circulation 
+from earlier today.  
+ 
+The vortex of Trudy is expected to degrade further as it moves 
+slowly in an environment defined by dry mid-level air, increasing 
+vertical wind shear, and upper-level convergence. It should be noted 
+that diurnally-driven convective pulses are possible over the next 
+day or so. However, this activity is expected to remain disorganized 
+and insufficient for redevelopment. The remnant low is expected to 
+move very slowly to the west-northwest before guidance generally 
+agrees in the circulation dissipating within the next 48 hours.
+ 
+For additional information on Post-Tropical Cyclone Trudy, please
+see High Seas Forecasts issued by the National Weather Service,
+under AWIPS header NFDHSFEPI, WMO header FZPN01 KWBC, and on the web
+at ocean.weather.gov/shtml/NFDHSFEPI.php
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  20/0300Z 19.5N 108.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 12H  20/1200Z 19.3N 108.6W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 24H  21/0000Z 19.4N 109.2W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 36H  21/1200Z 19.6N 109.9W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 48H  22/0000Z...DISSIPATED
+ 
+$$
+Forecaster Evans/Papin
+ 
+NNNN
+

@@ -1,0 +1,74 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Rachel Discussion Number   4
+NWS National Hurricane Center Miami FL       EP182026
+900 PM CST Sun Sep 27 2026
+ 
+The last few visible satellite images of the day indicate that 
+Rachel continues to have a broad center. A recently received 
+Oceansat-3 scatterometer pass that partially sampled the system a 
+few hours ago indicated winds to at least 35 kt about 120 n mi west 
+of the center. Objective satellite intensity estimates range from 
+35-40 kt and the Dvorak classification from TAFB is T2.5/35 kt. 
+Based on these data, and the broad structure of the tropical 
+cyclone, the initial intensity is maintained at 35 kt for this 
+advisory.
+ 
+Rachel is moving westward at 280/6 kt. The overall track philosophy
+has not changed for this forecast. A deep-layer ridge building over
+Mexico is expected to steer the cyclone west-northwestward at a
+faster forward speed through mid-week. On Thursday, a weakness in
+the ridge, caused by a trough over the southwestern United States,
+will cause the cyclone to move more slowly on a similar
+northwestward heading. The new track forecast is similar to the
+advisory, and blends the Google DeepMind (GDM) and HFIP Corrected
+Consensus Aid (HCCA).
+ 
+The tropical storm continues to endure approximately 20 kt of
+northeasterly shear, which is clearly evident on satellite imagery.
+Given the broad structure and moderate to high wind shear, gradual
+intensification is forecast over the next couple of days. The shear
+is expected to subside early next week and intensification is likely
+to continue thereafter, with Rachel forecast to become a hurricane
+on Tuesday. Rachel could then track over the cool wake from
+Hurricane Polo, though recent drifter data captured vertical
+profiles that show high ocean heat content (OHC) persists in the
+region. The intensity forecast is on the higher end of the guidance
+envelope, and blends the GDM and HCCA solutions.
+
+The analyzed and forecast tropical storm force wind radii for Rachel 
+are larger in this forecast than the previous one. Due to the 
+proximity of tropical storm force winds to the coast, the government 
+of Mexico has issue a Tropical Storm Watch from Punta San Telmo to 
+Playa Perula.
+
+Key Messages:
+
+1. Although the core of Rachel is forecast to remain offshore of 
+Mexico, tropical storm force winds are possible along a portion of 
+the coast of southwestern Mexico in the Tropical Storm Watch area 
+on Tuesday.
+
+2. Large waves could produce life-threatening surf and rip current 
+conditions along portions of the southwestern coast of Mexico during 
+the next several days.
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  28/0300Z 12.9N  99.8W   35 KT  40 MPH
+ 12H  28/1200Z 13.3N 100.9W   45 KT  50 MPH
+ 24H  29/0000Z 14.2N 102.6W   55 KT  65 MPH
+ 36H  29/1200Z 15.2N 104.3W   60 KT  70 MPH
+ 48H  30/0000Z 16.4N 106.0W   70 KT  80 MPH
+ 60H  30/1200Z 17.5N 107.2W   80 KT  90 MPH
+ 72H  01/0000Z 18.4N 108.2W   85 KT 100 MPH
+ 96H  02/0000Z 19.1N 109.0W   85 KT 100 MPH
+120H  03/0000Z 20.0N 109.7W   85 KT 100 MPH
+ 
+$$
+Forecaster Mahoney
+ 
+NNNN
+

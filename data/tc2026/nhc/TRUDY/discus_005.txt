@@ -1,0 +1,86 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Trudy Discussion Number   5
+NWS National Hurricane Center Miami FL       EP212026
+900 AM CST Wed Oct 14 2026
+ 
+Trudy continues to gradually become better organized.  Geostationary
+satellite images show a cold central convective area, with the
+low-level center likely underneath the western portion of this
+convection, although there have only been a couple of microwave
+passes over the past 6 to 12 hours, so confidence in the initial
+position is still not particularly high.  Trudy also has loosely
+connected outer curved convective bands to the northeast and west.
+The latest subjective Dvorak estimate from TAFB is 3.5/55 kt, while
+objective estimates from UW-CIMSS have been ranging from 36 to 45
+kt.  The intensity is increased to 50 kt for this advisory, since
+the latest satellite images show continued gradual improvement in
+the convective organization.
+ 
+Trudy has been moving toward the west-northwest, or 290/11 kt, to
+the south of a mid-level ridge that extends over central Mexico.
+However, the ridge is expected to weaken by tomorrow, as Trudy moves
+closer to Hurricane Simon.  The two tropical cyclones, which are
+currently about 700 n mi apart, are forecast to be within 500 miles
+of each other by hour 36, possibly close enough to influence each
+other's steering.  By Thursday, increasing mid- to upper-level
+troughiness in the west-central Gulf of America and steering from
+potential interaction with Simon should cause Trudy to turn
+north-northwestward, and possibly northward for a time Thursday
+night or Friday.  As Simon finally moves northwest and weakens late
+in the forecast period, it should allow the ridge to build back in
+and induce Trudy to make a leftward turn back toward the northwest.
+There remains significant track spread among the models, but there
+has been an overall rightward shift in the model guidance, mainly
+during the first 60 to 72 h of the forecast, so the new NHC track
+forecast is well to the east of the previous one through 72 h. The
+NHC track forecast is slightly to the west of the HCCA and GDMI at
+36-72 h.  At day 5, the NHC forecast is slightly south of the
+previous one, but well to the north of the latest GDMI, HCCA, and
+TVCN, but the forecast that far out is highly uncertain.
+ 
+Environmental conditions continue to look quite favorable along
+Trudy's track through the next 60 hours, and the NHC forecast
+continues to call for rapid intensification.  By hour 72, there is
+increasing confidence that Trudy will reach stronger southwesterly
+wind shear, which should induce significant weakening by days 4 and
+5, regardless of how much land interaction Trudy incurs.  The NHC
+intensity forecast is at the high end of the model guidance
+throughout the entire 5-day period, and is similar to the HCCA and
+Google DeepMind Ensemble Mean.
+ 
+NHC continues to call for Trudy to get close to the coast of Mexico
+as a major hurricane, and given the track uncertainty, residents of
+southwestern and west-central Mexico should continue to closely
+monitor the progress of Trudy, and be ready to possibly implement
+their hurricane plan.
+ 
+ 
+Key Messages:
+ 
+1. Trudy is forecast to be a major hurricane as it approaches the
+coast of southwestern and west-central Mexico late this week and
+into the weekend. There is an increasing risk of wind, rain, and
+storm surge impacts, and watches could be required for a portion of
+these areas later today or tonight.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  14/1500Z 11.5N  99.5W   50 KT  60 MPH
+ 12H  15/0000Z 12.1N 100.4W   60 KT  70 MPH
+ 24H  15/1200Z 12.9N 101.2W   75 KT  85 MPH
+ 36H  16/0000Z 13.7N 101.7W   90 KT 105 MPH
+ 48H  16/1200Z 14.6N 102.0W  105 KT 120 MPH
+ 60H  17/0000Z 15.5N 102.4W  115 KT 130 MPH
+ 72H  17/1200Z 16.5N 103.0W  115 KT 130 MPH
+ 96H  18/1200Z 18.4N 105.0W   95 KT 110 MPH
+120H  19/1200Z 19.9N 106.9W   75 KT  85 MPH
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

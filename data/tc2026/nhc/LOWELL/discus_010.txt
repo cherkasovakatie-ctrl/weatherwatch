@@ -1,0 +1,68 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Lowell Discussion Number  10
+NWS National Hurricane Center Miami FL       EP122026
+500 PM HST Sat Aug 29 2026
+ 
+Lowell's convective organization has changed little during the past 
+several hours. Moderate easterly vertical wind shear continues to 
+displace the bulk of the deep convection over and west of the 
+low-level circulation center. Based on a blend of an earlier 
+scatterometer pass, the latest objective intensity estimates, and 
+the subjective Dvorak intensity estimate from TAFB, the initial 
+intensity is raised to 45 kt for this advisory.
+
+Lowell is moving westward, or 270/8 kt. A low- to mid-level ridge 
+positioned north of the cyclone should remain the primary steering 
+influence during the next couple of days, resulting in a continued 
+westward motion. The track guidance is in generally good agreement 
+during this period. Thereafter, considerable cross-track spread 
+develops in the guidance, likely due in part to the potential 
+influence of Tropical Storm Karina on Lowell's steering flow. The 
+latest HCCA and Google DeepMind ensemble mean have shifted slightly 
+southward and maintain a generally westward motion, while the GFS, 
+regional hurricane models, and simple consensus (TVCN) support a 
+gradual west-northwestward to northwestward turn later in the 
+forecast period. Given the considerable spread among these 
+solutions, the latest NHC track forecast reflects a blend of the 
+previous forecast, HCCA, and Google DeepMind ensemble mean, and has 
+been nudged slightly southward from the previous advisory.
+
+The moderate easterly vertical wind shear affecting Lowell is 
+forecast to persist in the short term, which should temper the rate 
+of strengthening. However, the shear is expected to gradually 
+decrease during the next day or two while Lowell remains over warm 
+waters, which should allow the cyclone to become better organized 
+and gradually strengthen. Environmental conditions are forecast to 
+become more favorable thereafter, with very low vertical wind shear 
+expected by early next week, and a faster rate of strengthening is 
+anticipated. The intensity forecast becomes increasingly uncertain 
+later in the period due to Lowell's potential interaction with 
+Karina. The current forecast track keeps the cyclones sufficiently 
+separated for Lowell to continue strengthening, while a slower and 
+more northwestward solution could expose Lowell to stronger shear 
+associated with outflow from Karina and result in a weaker cyclone. 
+The latest NHC intensity forecast is essentially unchanged from 
+the previous advisory and remains near the middle of the guidance 
+envelope.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  30/0300Z 13.2N 138.1W   45 KT  50 MPH
+ 12H  30/1200Z 13.1N 139.9W   45 KT  50 MPH
+ 24H  31/0000Z 13.0N 142.1W   50 KT  60 MPH
+ 36H  31/1200Z 13.0N 144.0W   55 KT  65 MPH
+ 48H  01/0000Z 13.1N 145.9W   65 KT  75 MPH
+ 60H  01/1200Z 13.2N 147.9W   75 KT  85 MPH
+ 72H  02/0000Z 13.4N 149.7W   85 KT 100 MPH
+ 96H  03/0000Z 13.6N 152.2W   95 KT 110 MPH
+120H  04/0000Z 14.3N 154.6W   95 KT 110 MPH
+ 
+$$
+Forecaster Gibbs
+ 
+NNNN
+

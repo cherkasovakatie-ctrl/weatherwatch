@@ -1,0 +1,68 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Simon Discussion Number  31
+NWS National Hurricane Center Miami FL       EP202026
+800 PM MST Wed Oct 14 2026
+ 
+Simon remains a tiny storm. The earlier Air Force Hurricane Hunter 
+data along with an ASCAT-C pass indicate that the tropical- 
+storm-force wind field is very small, only extending up to 30 n mi 
+from the center. The last pass of the aircraft through the center 
+suggested that Simon has fallen below hurricane strength, and the 
+pressure has risen to about 991 mb. The initial intensity is 
+estimated to be around 55 kt based on a combination of the aircraft 
+data and various satellite fixes. Satellite images show that Simon 
+is producing a concentrated area of deep convection over the center 
+that has been increasing in coverage over the past few hours.
+ 
+The compact storm is moving southwestward at about 4 kt. The models 
+suggest that Simon will move even slower or possibly stall over the 
+next day or so as it remains caught in weak steering currents. 
+However, a turn to the northwest seems likely on Friday when the 
+system moves on the east side of a deep-layer cut off low. The NHC 
+track forecast has been nudged to the left of the previous one, 
+toward the latest HCCA and GDMI guidance.
+ 
+Simon has weakened at a rapid rate of about 40 kt over the past 24 
+hours. This highlights how challenging it is to predict intensity 
+changes in very compact systems like this one.  The environmental 
+conditions appear generally favorable for the next 12 to 24 hours, 
+so little change in strength is predicted in the short term. 
+However, after that time, a notable increase in southwesterly 
+vertical wind shear and intrusion of dry air should cause the system 
+to decay. This forecast is quite a bit lower than the previous one 
+given the lower initial intensity and trending toward the middle of 
+the guidance envelope. In fact, it would not be surprising if Simon 
+weakens faster than shown here.
+ 
+Key Messages:
+ 
+1. Interests in Baja California Sur should continue to closely
+monitor the latest updates as Simon is expected to pass near or
+west of that area this weekend.
+ 
+2. Large swells will likely affect portions of the coast of
+west-central Mexico and Baja California Sur over the next few days.
+These swells could cause life-threatening surf and rip current
+conditions.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  15/0300Z 19.1N 108.6W   55 KT  65 MPH
+ 12H  15/1200Z 19.0N 108.5W   55 KT  65 MPH
+ 24H  16/0000Z 19.1N 108.6W   50 KT  60 MPH
+ 36H  16/1200Z 19.7N 109.1W   45 KT  50 MPH
+ 48H  17/0000Z 20.8N 110.3W   40 KT  45 MPH
+ 60H  17/1200Z 21.7N 111.2W   35 KT  40 MPH
+ 72H  18/0000Z 22.8N 112.3W   30 KT  35 MPH
+ 96H  19/0000Z 24.6N 113.6W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  20/0000Z 26.6N 114.8W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Cangialosi
+ 
+NNNN
+

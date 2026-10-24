@@ -1,0 +1,68 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Karina Discussion Number   3
+NWS National Hurricane Center Miami FL       EP112026
+200 AM MST Fri Aug 28 2026
+ 
+Karina's structure on satellite imagery tonight is slowly evolving,
+with a concentrated burst of deep convection with cloud top
+temperatures below -80 C occurring near and to the east of the
+center. However, scatterometer wind data around 05 UTC indicated
+that the center was still on the edge of this convective burst, and
+remains a bit elongated on its southwest end, where the cyclone is
+interacting with the larger monsoon trough. The peak wind retrieval
+was 41 kt, and that combined with little change in the subjective
+or objective intensity estimates supports maintaining 45 kt for this
+advisory.
+ 
+The tropical storm is moving on a general northwest heading at 
+310/11 kt. An established mid-level ridge over the southwestern U.S. 
+should maintain this general motion over the next couple of days. 
+Thereafter, this ridging begins to extend more zonally to the north 
+of Karina, allowing the track of the cyclone to turn more westward 
+in the 48-72 h time frame. Towards the end of the forecast period, 
+guidance suggests this ridge will become eroded by a mid- to 
+upper-level trough, which could result in Karina making a turn back 
+to the northwest. The track guidance this morning has shifted a 
+little south and west compared to the previous cycle, and the NHC 
+forecast track has also been shifted in this direction, blending the 
+latest HFIP Corrected Consensus Approach (HCCA) and Google DeepMind 
+(GDMI) aids.
+
+Karina's wind field diagnosed by scatterometer earlier is still 
+fairly broad, and it will likely take a bit more time for the 
+cyclone to develop an inner core. However, environmental conditions 
+beyond the next 24 h remain quite favorable for intensification, 
+with low shear, warm waters, and a sufficiently moist deep-layer 
+troposphere. SHIPS-RII guidance also continues to indicate elevated 
+probabilities of rapid intensification that are 4-5 times the 
+climatological mean. Thus, significant intensification is forecasted 
+over the next 2-3 days, and the latest NHC intensity forecast is 
+higher than the previous one, showing a 110 kt peak in about 72 h, 
+though this forecast is still under some of the more aggressive 
+guidance (HCCA, GDMI) but above some of the hurricane-regional model 
+guidance this cycle (HAFS-A/B). In days 4-5 Karina should encounter 
+a more stable environment as it approaches the northern edge of the 
+26 C isotherm, and weakening is shown to begin by the end of the 
+forecast period.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  28/0900Z 12.7N 114.3W   45 KT  50 MPH
+ 12H  28/1800Z 13.6N 115.5W   55 KT  65 MPH
+ 24H  29/0600Z 15.1N 116.9W   65 KT  75 MPH
+ 36H  29/1800Z 16.5N 118.9W   80 KT  90 MPH
+ 48H  30/0600Z 17.5N 120.7W   90 KT 105 MPH
+ 60H  30/1800Z 18.2N 122.5W  100 KT 115 MPH
+ 72H  31/0600Z 18.4N 124.2W  110 KT 125 MPH
+ 96H  01/0600Z 19.3N 127.3W  100 KT 115 MPH
+120H  02/0600Z 20.5N 129.5W   80 KT  90 MPH
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

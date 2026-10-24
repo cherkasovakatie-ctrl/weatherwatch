@@ -1,0 +1,50 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Depression Fifteen-E Discussion Number   7
+NWS National Hurricane Center Miami FL       EP152026
+200 AM PDT Tue Sep 15 2026
+ 
+Infrared and proxy-visible satellite imagery continue to show that 
+convection remains displaced to the southeast of the low-level 
+center of the depression. Recent 0519 UTC Metop-B and 0541 UTC 
+Metop-C scatterometer passes indicate that the center is becoming 
+elongated, and stretched out with maximum winds of 28 kt. Therefore, 
+the initial intensity is kept at 30 kt for this advisory.
+ 
+The system is moving at an estimated motion of 260/9 kt. A generally 
+westward motion is forecast over the next few days as the system is 
+steered along the southern edge of a mid-level ridge to its north. 
+The latest NHC track forecast was shifted southward once again and 
+trends towards the HCCA and simple TVCN consensus aids.
+ 
+The depression remains within a moderate wind shear environment, 
+with dry mid-level air entraining into the center. Although shear is 
+forecast to decrease in about a day, the models show very little 
+strengthening. Toward the end of the forecast period, wind shear is 
+expected to increase once again, and the depression will move into 
+an even drier, more stable airmass, causing the system to weaken and 
+struggle to produce deep convection. The latest NHC forecast calls 
+for the system to maintain its current intensity and remain below 
+tropical storm strength. The system is forecast to become a 
+post-tropical cyclone by 60 h, and  open into a trough by day 5.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  15/0900Z 16.1N 122.6W   30 KT  35 MPH
+ 12H  15/1800Z 15.8N 124.0W   30 KT  35 MPH
+ 24H  16/0600Z 15.5N 126.0W   30 KT  35 MPH
+ 36H  16/1800Z 15.4N 128.0W   30 KT  35 MPH
+ 48H  17/0600Z 15.5N 130.0W   30 KT  35 MPH
+ 60H  17/1800Z 15.5N 132.4W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 72H  18/0600Z 15.6N 134.8W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 96H  19/0600Z 16.3N 139.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  20/0600Z...DISSIPATED
+ 
+$$
+Forecaster Kelly
+ 
+NNNN
+

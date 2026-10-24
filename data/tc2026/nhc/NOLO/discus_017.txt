@@ -1,0 +1,86 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Tropical Storm Nolo Discussion Number  17
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+1100 AM HST Thu Sep 24 2026
+ 
+Nolo continues to become better organized, with a ragged eye on 
+satellite imagery and a primitive eyewall noted on the latest 
+microwave pass.  The initial intensity is set to 60 kt, at the high 
+end of the various estimates due to the improved organization on 
+conventional satellite and microwave imagery.  An Air Force Reserve 
+Hurricane Hunter aircraft is scheduled to be in the storm this 
+afternoon for a more precise estimate.
+ 
+The storm has been moving erratically during the day, but appears to 
+finally be moving slowly northward.  There is no change the synoptic 
+reasoning with a mid-latitude trough near the northwestern Hawaiian 
+Islands causing Nolo to accelerate north-northeastward during the 
+next day or so.  The trough should move away by the weekend and be 
+replaced by a ridge, forcing a sharp westward turn on Saturday.  
+The northward trend during the last couple of model cycles has 
+stopped and is actually trending southward, led by the ECMWF model.  
+The new forecast is a touch south of the last one, but really all 
+these track changes are quite small.  This remains an uncertain 
+forecast with some model ensemble tracks still over the Big Island, 
+though most are south.  This forecast necessitates a Tropical Storm 
+Warning for the Big Island, and a closer track could substantially 
+increase the threat of damaging winds, particularly over higher 
+terrain, along exposed ridges, and in areas downwind of the ridges.
+
+Rapid intensification is expected during the next day or so now 
+that an inner core has formed, combined with warm warm SSTs, low 
+shear and high mid-level moisture.  Nolo is likely to become a 
+hurricane by tonight and reach major hurricane strength as it nears 
+the Big Island on Saturday.  The new forecast is similar to the 
+previous one for the first few days, close to the HCCA aid.  At long 
+range, vertical wind shear is forecast to cause Nolo to weaken, and 
+the NHC intensity prediction is lowered at that time. 
+ 
+Key Messages:
+
+1. Nolo is expected to pass near or just south of the Big Island of 
+Hawaii on Saturday as a major hurricane.  Tropical storm conditions 
+are expected to begin on the Big Island Friday night with 
+hurricane conditions possible on Saturday, particularly in areas of 
+steep terrain.  Residents should follow advice given by local 
+officials, including evacuating if told to do so. 
+
+2. The time to finish preparations for significant heavy rain and 
+flooding impacts on the Big Island is now as heavy rain increases in 
+both coverage and intensity today and Friday. Periods of heavy rain 
+are expected to continue across the Big Island and Maui through the 
+weekend. Life-threatening, catastrophic flooding and mudslides are 
+possible, especially in areas of steep terrain across the Big Island 
+and Maui. Across the remainder of Hawaii, lesser rainfall totals are 
+expected, with isolated flooding possible.  
+
+3. Large and damaging waves are likely along portions of the 
+Big Island's coastline into the weekend.
+
+4. A Tropical Storm Watch is in effect for Maui County where 
+tropical storm conditions are possible beginning on Saturday.  
+Interests elsewhere in Hawaii should closely monitor the latest 
+forecast updates and ensure that they have their preparedness plans 
+in place. 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  24/2100Z 14.9N 156.1W   60 KT  70 MPH
+ 12H  25/0600Z 15.4N 156.0W   70 KT  80 MPH
+ 24H  25/1800Z 16.4N 155.6W   85 KT 100 MPH
+ 36H  26/0600Z 17.2N 155.5W   95 KT 110 MPH
+ 48H  26/1800Z 17.7N 156.0W  100 KT 115 MPH
+ 60H  27/0600Z 17.8N 157.3W  105 KT 120 MPH
+ 72H  27/1800Z 17.8N 159.2W  105 KT 120 MPH
+ 96H  28/1800Z 19.5N 163.0W   95 KT 110 MPH
+120H  29/1800Z 22.5N 165.2W   80 KT  90 MPH
+ 
+$$
+Forecaster Blake
+ 
+NNNN
+

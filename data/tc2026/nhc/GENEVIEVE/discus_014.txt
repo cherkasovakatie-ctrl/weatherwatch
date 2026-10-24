@@ -1,0 +1,57 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Genevieve Discussion Number  14
+NWS National Hurricane Center Miami FL       EP072026
+200 PM MST Mon Jul 27 2026
+ 
+After some warming of the eyewall cloud top temperatures this 
+morning, the infrared satellite presentation of Major Hurricane 
+Genevieve has improved over the past couple of hours, with colder 
+cloud tops wrapping around the western side of the clear, symmetric, 
+and very warm eye. It is possible Genevieve could soon undergo an 
+eyewall replacement cycle, though there have been no recent 
+microwave images to definitively determine whether one is underway. 
+The latest subjective intensity estimates range from 120-130 kt, 
+with the 1800 UTC estimate from TAFB at 6.5/127 kt. The initial 
+intensity has been set at 130 kt for this advisory. 
+
+The hurricane is being steered by a strong mid-level ridge centered 
+over the central United States, and is moving toward the northwest 
+around 310/11 kt. Genevieve is forecast to slow down slightly over 
+the next 48 h or so as the ridge weakens and progresses eastward. A 
+faster west-northwestward motion is expected late this week into 
+this weekend as a mid-level ridge builds to the northwest of the 
+cyclone. The latest NHC track forecast is very similar to the 
+previous advisory and lies near the HCCA corrected consensus.
+
+Colder cloud tops surrounding the eye indicate some fluctuations in 
+intensity could occur with Genevieve this afternoon. However, as the 
+hurricane moves toward the northwest and west-northwest this week, a 
+steady weakening trend is expected as it encounters cooler waters 
+and gradually drier mid-level relative humidity. By early Thursday, 
+Genevieve is forecast to move north of 20N and encounter waters 
+cooler than 26 C, leading to a faster weakening trend for late this 
+week into this weekend. The latest NHC forecast calls for Genevieve 
+to become post-tropical by 120 h, and this is consistent with 
+current model guidance. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  27/2100Z 16.6N 113.9W  130 KT 150 MPH
+ 12H  28/0600Z 17.5N 115.0W  120 KT 140 MPH
+ 24H  28/1800Z 18.2N 116.6W  110 KT 125 MPH
+ 36H  29/0600Z 18.7N 118.2W  100 KT 115 MPH
+ 48H  29/1800Z 19.3N 119.8W   85 KT 100 MPH
+ 60H  30/0600Z 20.1N 121.8W   75 KT  85 MPH
+ 72H  30/1800Z 21.0N 124.2W   65 KT  75 MPH
+ 96H  31/1800Z 22.6N 129.3W   50 KT  60 MPH
+120H  01/1800Z 24.6N 134.6W   40 KT  45 MPH...POST-TROPICAL
+ 
+$$
+Forecaster Adams/Papin
+ 
+NNNN
+

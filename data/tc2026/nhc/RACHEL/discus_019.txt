@@ -1,0 +1,63 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Rachel Discussion Number  19
+NWS National Hurricane Center Miami FL       EP182026
+200 PM MST Thu Oct 01 2026
+ 
+Rachel's satellite presentation has improved this afternoon, with a
+ragged eye becoming apparent in both visible and infrared imagery.
+Deep convection surrounds the eye with cold cloud tops near -80C.
+The system is situated further south than previously analyzed and
+has slowed its forward speed, as anticipated. Satellite intensity
+estimates have continued to climb, with subjective and objective
+estimates ranging from 90 to 95 kt. Given the recent satellite
+trends and eye formation, the initial intensity is raised to 105 kt
+for this advisory.
+ 
+The initial motion is west-northwestward or 290/3 kt. This slow
+motion is expected to continue for the next couple of days. Then a
+mid-level ridge is forecast to build to the north of Rachel, which
+should induce a faster westward forward motion. Model guidance
+continues to show some spread regarding exactly when this
+re-acceleration will occur. The updated NHC track forecast has been
+shifted slightly south to reflect the current position and is also
+slower in the near term. Towards the end of the forecast period, the
+track blends toward the HCCA and GDMI aids.
+ 
+Environmental conditions remain generally favorable for further
+strengthening, with warm sea surface temperatures and with the
+improved structure showing a better alignment of the low- and
+mid-level centers. However, models indicate some vertical wind shear
+may impact the system over the next day or so, which could slow the
+rate of intensification. The slow motion of the system may induce
+upwelling, and this combined with the cool wake left by Polo could
+inhibit strengthening. In 2 to 3 days, as Rachel begins to move
+westward, it is forecast to move parallel to the 27C isotherm and
+into a drier mid-level airmass, this should induce a weakening
+trend. The ultimate structure of Rachel, particularly if it takes on
+annular characteristics, will depend heavily on the rate of this
+weakening. The NHC intensity forecast is higher than all of the
+model guidance in the near term based on the current structural
+trends, but then trends back toward the consensus aids later in the
+period.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  01/2100Z 19.4N 109.5W  105 KT 120 MPH
+ 12H  02/0600Z 19.5N 110.0W  115 KT 130 MPH
+ 24H  02/1800Z 19.5N 110.7W  105 KT 120 MPH
+ 36H  03/0600Z 19.6N 111.5W  100 KT 115 MPH
+ 48H  03/1800Z 19.8N 112.5W   90 KT 105 MPH
+ 60H  04/0600Z 20.0N 113.5W   85 KT 100 MPH
+ 72H  04/1800Z 20.1N 114.6W   80 KT  90 MPH
+ 96H  05/1800Z 20.2N 117.3W   75 KT  85 MPH
+120H  06/1800Z 20.6N 120.6W   70 KT  80 MPH
+ 
+$$
+Forecaster Kelly
+ 
+NNNN
+

@@ -1,0 +1,110 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Simon Discussion Number  21
+NWS National Hurricane Center Miami FL       EP202026
+800 AM MST Mon Oct 12 2026
+ 
+Simon's interaction with the coast of Mexico has made it a very 
+compact hurricane. The satellite presentation this morning consists 
+of a very small central dense overcast with a warm spot in the 
+center which still appears to be a small eye. The convection is also 
+very electrically active, with substantial lightning occurring in 
+the eastern eyewall. A 1110 UTC GPM microwave pass showed that 
+Simon's inner core remains intact, though with the eye open on the 
+northwest side. This structure is consistent with some mid-level 
+easterly shear that appears to be undercutting the outflow layer, 
+looking at some area-average soundings from the HAFS-A/B 
+initialization this morning. Satellite intensity estimates have a 
+large range this morning, as low as CI 4.1/67 kt from the UW-CIMSS 
+ADT, or as high as CI 5.5/102 kt from the latest subjective Dvorak 
+fix. The initial intensity is lowered slightly to 95 kt for this 
+advisory, favoring a blend of the latest SATCON (100 kt) and D-MINT 
+(85-90 kt) estimates.
+ 
+Based on satellite images, Simon continues to move very slowly to 
+the northwest, with an estimated motion of 315 degrees at 3 kt. This 
+very slow motion is the result of competing steering influences from 
+a distant mid-level ridge centered over the Texas Gulf coast, and 
+another weaker mid-level ridge placed southwest of Simon over the 
+eastern Pacific. In general the steering imparted by the ridge to 
+the northwest should be a little stronger, and thus Simon is 
+expected to maintain a very slow northwestward motion over the next 
+24-36 h. After that period, a large trough with an embedded 
+short-wave is expected to amplify and move into the southwestern 
+United States, and this trough is expected to extend far enough 
+southward to impart a little more westerly flow that should 
+ultimately turn Simon to the north-northeast in the 48-72 hour time 
+frame. With that said, the track guidance is not at all in agreement 
+on how quickly this turn will occur. The latest 06 UTC GFS and 
+HAFS-A/B runs almost immediately move Simon northward and then 
+north-northeast, resulting in a much faster landfall back in 
+mainland Mexico. By contrast, the 06 UTC ECMWF run shows a 
+short-term westward track that meanders offshore to the southeast of 
+the Baja California Peninsula before it turns northward and moves up 
+into the Gulf of California. The ensemble guidance is also all over 
+the place, resembling a squashed spider with substantial spread from 
+the southwest to northeast direction. The latest NHC track forecast 
+has been shifted westward and is quite a bit slower, following the 
+latest trends in the track guidance. However, this track is not 
+nearly as slow or as far west as the latest Google DeepMind ensemble 
+mean (GDMI) or its newer Weather Next Model (WN3I). Given the large 
+spread in solutions, this remains a low confidence track forecast.
+ 
+Based on the earlier microwave images, Simon still appears to have a
+small inner core, and that is an important consideration to take
+into account in the forecast over the next few days. While the
+hurricane appears to be currently dealing with some mid-level
+easterly shear and that may result in a little more short-term
+weakening, this shear is expected to subside over the next 24 h as
+Simon traverses very warm 30-31 C sea-surface temperatures. In fact,
+the latest HMON and HAFS-A/B runs show the small core of Simon
+recovering and re-intensifying back into a major hurricane later
+this week. Thus, the latest NHC intensity forecast starts to show
+some restrengthening after 24 h. Small storms like Simon can also
+be prone to rapid changes in intensity, both up or down, which
+makes the intensity forecast also more uncertain than usual. This
+forecast is initially close to the middle of the guidance but ends
+up on the higher side after 48 h. Rapid weakening is still
+anticipated when Simon eventually makes landfall later this week
+towards the end of the forecast.
+ 
+Key Messages:
+ 
+1. Tropical Storm winds are still likely along a portion of the
+west-central coast of Mexico for a few more hours, where a Tropical
+Storm Warning is in effect.
+ 
+2. Simon is expected to approach the coast of western Mexico later
+this week, where hurricane conditions are possible. A Hurricane
+Watch is in effect from Cabo Corrientes to Bahia Tempehuaya.
+ 
+3. Heavy rainfall associated with Simon will impact portions of
+southwestern and west-central Mexico over the next few days. This
+rainfall will produce life-threatening flooding and mudslides,
+especially in areas of steep terrain.
+ 
+4. Large swells will affect portions of the southwestern and
+west-central coasts of Mexico over the next few days. These swells
+are likely to cause life-threatening surf and rip current
+conditions. Please consult products from your local weather office.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  12/1500Z 20.1N 106.5W   95 KT 110 MPH
+ 12H  13/0000Z 20.4N 106.8W   85 KT 100 MPH
+ 24H  13/1200Z 20.9N 107.3W   80 KT  90 MPH
+ 36H  14/0000Z 21.3N 107.7W   85 KT 100 MPH
+ 48H  14/1200Z 21.6N 107.7W   90 KT 105 MPH
+ 60H  15/0000Z 22.2N 107.4W   90 KT 105 MPH
+ 72H  15/1200Z 23.2N 106.9W   90 KT 105 MPH
+ 96H  16/1200Z 24.1N 106.3W   45 KT  50 MPH...INLAND
+120H  17/1200Z...DISSIPATED
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

@@ -1,0 +1,87 @@
+
+ZCZC MIATCDAT4 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Isaias Discussion Number   4
+NWS National Hurricane Center Miami FL       AL092026
+1000 AM CDT Wed Oct 07 2026
+ 
+Isaias has gotten better organized during the past several hours 
+with a large area of deep convection near and northeast of the 
+center.   Recent Air Force Hurricane Hunter data indicate that the 
+center is re-forming a bit to the north of the previous advisory 
+nearer to the mid-level center, with an estimated pressure of 
+1000 mb derived from dropsonde data.  The initial wind speed is set 
+to 40 kt in consideration of increase in satellite organization and 
+the 4-mb dropsonde pressure fall, close to the UW-CIMSS SATCON 
+values and many of the other objective estimates.
+ 
+The storm is moving east-northeast at 7 kt.  The motion should
+gradually bend northward and increase during the next few 
+days as a trough along the northwestern Gulf coast amplifies and the
+subtropical ridge east of Florida builds westward.  This pattern 
+should cause a fast-moving Isaias to approach the northern Gulf 
+coast by Friday afternoon.  Model guidance continues to be 
+somewhat split, with the AI-based models generally on the right 
+side of the model envelope, and the physics based models on the 
+left side.   The new NHC forecast is nudged a bit eastward, but 
+isn't as far east as the latest HFIP Corrected Consensus Approach 
+(HCCA) or Google DeepMind ensemble mean (GDMI).  It is worth noting 
+that many of the stronger solutions tend to be on the eastern half 
+of the guidance and faster, which necessitates a variety of watches 
+at this time.  
+
+With the center re-formation, the low- and mid-level centers appear 
+to be coming into better alignment.  This structural change could 
+facilitate rapid intensification during the next day or two given 
+light-to-moderate shear along the forecast track, near-record SSTs 
+for this time of the year and a very moist environment.  Near 
+landfall, increasing shear could cause some weakening, but it isn't 
+certain how fast the winds will diminish.  Regardless, Isaias 
+should be growing in size as it approaches the northern Gulf coast 
+due to a trough interaction.  The latest guidance is very close to 
+the last NHC intensity forecast, so little changes were made, and 
+the NHC prediction is just below the corrected-consensus HCCA.
+ 
+Key Messages:
+
+1. Isaias is expected to strengthen into a strong hurricane before 
+approaching the northern Gulf Coast on Friday. There is an 
+increasing risk of life-threatening storm surge along portions of 
+the northern Gulf coast, and a Storm Surge Watch has been issued 
+from The Mouth of the Mississippi River to Yankeetown Florida.  
+Residents in the watch area should follow advice given by local 
+officials and evacuate if told to do so.
+
+2. The risk of damaging hurricane force-winds is increasing over 
+portions of the Florida Panhandle, southern Alabama, and 
+Mississippi.  A Hurricane Watch has been issued from Bay St. Louis, 
+Mississippi, to Indian Pass, Florida.  Residents in these areas 
+should prepare for the possibility of long-duration power outages. 
+
+3. Isaias will bring areas of heavy rainfall to the central U.S. 
+Gulf coast and much of the Southeast Friday into the weekend. Flash 
+and urban flooding, along with isolated river flooding, will be 
+possible.
+
+4. Isaias could bring gusty winds and areas of heavy rain to the 
+western portion of the Yucatan Peninsula over the next day or so.
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  07/1500Z 22.4N  93.6W   40 KT  45 MPH
+ 12H  08/0000Z 22.7N  92.4W   50 KT  60 MPH
+ 24H  08/1200Z 23.4N  90.8W   65 KT  75 MPH
+ 36H  09/0000Z 24.6N  89.2W   80 KT  90 MPH
+ 48H  09/1200Z 26.6N  88.1W   95 KT 110 MPH
+ 60H  10/0000Z 29.2N  87.5W   90 KT 105 MPH
+ 72H  10/1200Z 32.2N  87.6W   45 KT  50 MPH...INLAND
+ 96H  11/1200Z 38.0N  87.5W   20 KT  25 MPH...POST-TROP/INLAND
+120H  12/1200Z...DISSIPATED
+ 
+$$
+Forecaster Blake
+ 
+NNNN
+

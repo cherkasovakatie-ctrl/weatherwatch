@@ -1,0 +1,61 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Genevieve Discussion Number   3
+NWS National Hurricane Center Miami FL       EP072026
+900 PM CST Fri Jul 24 2026
+ 
+A burst of deep convection has recently developed over Genevieve's 
+center, and a recent GMI microwave pass reveals a well-defined 
+low-level structure with an elongated but somewhat broken 
+convective band wrapping around the entire circulation. Given 
+the improved structure, three separate UW-CIMSS DMINT estimates 
+from AMSR2, GMI, and SSMIS microwave passes at 2036, 2245, and 
+2322 UTC, respectively, all yielded estimates around 45 kt, and 
+that is the current intensity used for this advisory.
+
+A strong mid-level high pressure system over the western United 
+States, with a ridge axis extending west-southwestward over the 
+Pacific Ocean, will be the main driver of Genevieve's motion over 
+the next 5 days and should keep the storm away from the coast of 
+Mexico. The track guidance is in very good agreement that the 
+cyclone will move west-northwestward or northwestward, picking up a 
+little speed over the next couple of days but then slowing down on 
+days 3-5. No significant changes were made to the official track 
+forecast, which lies very near the various consensus aids.
+
+Genevieve is expected to be in a nearly ideal environment conducive 
+for rapid intensification. These ingredients include very warm ocean 
+waters near 30 degrees Celsius, relatively little deep-layer shear, 
+a moist and unstable air mass, and increasing upper-level 
+divergence. Most of the intensity guidance is supportive of some 
+degree of rapid intensification occurring over the next few days, 
+but the main forecast challenge is Genevieve's ultimate peak 
+intensity. Interestingly, the HCCA and Google DeepMind ensemble 
+mean (GDM), which have proven to have some of the best recent skill 
+in intensity forecasting, are at the upper and lower bounds of the 
+intensity guidance (HCCA peaks at 130 kt while GDM maxes out around 
+100 kt). The NHC intensity forecast has been nudged upward from the 
+previous prediction, showing Genevieve reaching category 4 status 
+in about 3 days. This solution is also supported by the HAFS-A and 
+-B, Florida State Superensemble, and LGEM models. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  25/0300Z  9.5N 102.6W   45 KT  50 MPH
+ 12H  25/1200Z 10.4N 104.1W   55 KT  65 MPH
+ 24H  26/0000Z 11.6N 106.5W   70 KT  80 MPH
+ 36H  26/1200Z 12.8N 108.8W   90 KT 105 MPH
+ 48H  27/0000Z 14.0N 110.8W  100 KT 115 MPH
+ 60H  27/1200Z 15.4N 112.6W  110 KT 125 MPH
+ 72H  28/0000Z 16.6N 114.1W  115 KT 130 MPH
+ 96H  29/0000Z 18.1N 117.0W  110 KT 125 MPH
+120H  30/0000Z 19.6N 120.3W   95 KT 110 MPH
+ 
+$$
+Forecaster Berg
+ 
+NNNN
+

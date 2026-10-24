@@ -1,0 +1,65 @@
+
+ZCZC HFOTCDCP4 ALL
+TTAA00 PHFO DDHHMM
+ 
+Tropical Storm Lowell Discussion Number  14
+NWS Central Pacific Hurricane Center Honolulu HI   EP122026
+Issued by NWS National Hurricane Center Miami FL
+500 PM HST Sun Aug 30 2026
+ 
+Lowell's convective organization has changed little during the past 
+several hours. Moderate easterly vertical wind shear continues to 
+displace the bulk of the deep convection over and west of the 
+low-level circulation center. With little change in the satellite 
+presentation, a blend of an earlier scatterometer pass, the latest 
+objective intensity estimates, and the subjective Dvorak intensity 
+estimates from HFO and JTWC supports holding the initial intensity 
+at 45 kt.
+ 
+The initial motion is 270/10 kt. A low- to mid-level ridge north of 
+the cyclone should remain the primary steering influence during the 
+next couple of days, resulting in a continued westward motion. The 
+track guidance remains in relatively good agreement through about 60 
+h. Thereafter, considerable cross-track spread persists among the 
+guidance as Lowell gradually slows and begins to turn 
+west-northwestward. Some of this spread may be due to the potential 
+influence of Hurricane Karina to the northeast on Lowell's steering 
+flow, as well as differences in how the models depict a mid- to 
+upper-level trough northwest of the Hawaiian Islands and the 
+resulting weakness in the subtropical ridge. The HCCA and Google 
+DeepMind ensemble mean remain along the southern side of the 
+guidance envelope through day 5, while several other models favor a 
+more northwestward track along the northern side of the guidance 
+envelope. The latest NHC track forecast is essentially unchanged 
+from the previous advisory and lies near the HCCA, Google DeepMind 
+ensemble mean (GDMI), and simple consensus (TVCN).
+
+Moderate easterly vertical wind shear of around 20 kt continues to 
+affect Lowell and should temper the rate of strengthening in the 
+short term. The shear is forecast to decrease during the next 12 to 
+24 h while the cyclone remains over warm waters, which should allow 
+Lowell to become better organized and begin strengthening. A faster 
+rate of intensification is forecast between 24 and 72 h as 
+environmental conditions become more favorable. Thereafter, the 
+intensity is forecast to level off around 96 h. The latest NHC 
+intensity forecast is essentially an update of the previous 
+forecast.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  31/0300Z 13.2N 143.3W   45 KT  50 MPH
+ 12H  31/1200Z 13.1N 144.9W   50 KT  60 MPH
+ 24H  01/0000Z 13.2N 146.8W   60 KT  70 MPH
+ 36H  01/1200Z 13.4N 148.7W   65 KT  75 MPH
+ 48H  02/0000Z 13.7N 150.5W   75 KT  85 MPH
+ 60H  02/1200Z 13.9N 152.3W   85 KT 100 MPH
+ 72H  03/0000Z 14.2N 154.2W   90 KT 105 MPH
+ 96H  04/0000Z 15.0N 157.2W   95 KT 110 MPH
+120H  05/0000Z 15.7N 159.5W   90 KT 105 MPH
+ 
+$$
+Forecaster Gibbs
+ 
+NNNN
+

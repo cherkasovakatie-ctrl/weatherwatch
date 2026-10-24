@@ -1,0 +1,50 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Karina Discussion Number  18
+NWS National Hurricane Center Miami FL       EP112026
+1100 AM HST Mon Aug 31 2026
+ 
+This morning's visible and enhanced infrared imagery indicate
+Karina's cloud pattern, particularly in the northwestern part of the
+eyewall, has deteriorated over the last several hours. The lastest
+TAFB Dvorak intensity estimate has decreased from the previous
+classification, and the CMISS objective satellite intensity
+estimates range from 110 to 115 kt. Therefore, the initial
+intensity has been lowered to 115 kt for this advisory.
+ 
+Karina's initial motion is estimated to be west-northwestward, or 
+285/8 kt. A narrow subtropical mid-level ridge anchored north of the 
+cyclone should steer the hurricane in this general heading through 
+the forecast period. Only slight adjustments were made to the NHC 
+official forecast which is based on a blend of the HCCA and the 
+GDMI aids. 
+ 
+The environmental conditions should remain favorable for the short 
+term, and slight intensity fluctuations are possible while Karina's 
+inner core continues to experience structural changes. Through the 
+remaining forecast period, a weakening trend is expected to occur 
+while Karina moves into a drier, more stable air mass and traverses 
+cooler oceanic temperatures. The NHC intensity forecast remains 
+slightly above the skilled intensity models, and lies close to 
+the NOAA HCCA consensus.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  31/2100Z 17.5N 125.8W  115 KT 130 MPH
+ 12H  01/0600Z 17.7N 127.2W  115 KT 130 MPH
+ 24H  01/1800Z 18.1N 129.2W  110 KT 125 MPH
+ 36H  02/0600Z 18.5N 131.2W  105 KT 120 MPH
+ 48H  02/1800Z 18.9N 133.1W  100 KT 115 MPH
+ 60H  03/0600Z 19.3N 135.0W   95 KT 110 MPH
+ 72H  03/1800Z 19.6N 136.8W   90 KT 105 MPH
+ 96H  04/1800Z 20.3N 140.7W   80 KT  90 MPH
+120H  05/1800Z 21.5N 144.1W   70 KT  80 MPH
+ 
+$$
+Forecaster Katz/Roberts
+ 
+NNNN
+

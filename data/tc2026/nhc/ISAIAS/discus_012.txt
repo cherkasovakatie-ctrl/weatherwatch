@@ -1,0 +1,101 @@
+
+ZCZC MIATCDAT4 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Isaias Discussion Number  12
+NWS National Hurricane Center Miami FL       AL092026
+1000 AM CDT Fri Oct 09 2026
+ 
+An Air Force Reserve Hurricane Hunter aircraft currently 
+investigating Isaias measured a peak 700-mb flight-level wind of 
+120 kt within the eastern eyewall a few hours ago, prompting an 
+upgrade of the hurricane to major hurricane status with estimated 
+surface winds of 105 kt. Based on the last several dropsondes 
+released in the eye, the central pressure appears to have leveled 
+off around 959 mb. On the last pass through the eastern eyewall, 
+just about a half hour ago, the plane measured a flight-level 
+wind of 111 kt, suggesting that the peak winds may have also 
+leveled off. The eye itself has become cloud filled in visible 
+satellite imagery, but it is now moving into range of several 
+WSR-88D radars along the northern Gulf coast.
+
+Strong deep-layer shear has definitely increased as forecast, with 
+various analyses now showing 30-40 kt out of the southwest. 
+However, the shear vector is nearly aligned with the storm's 
+motion, which limits its adverse effects, and upper-level 
+divergence is also increasing over the hurricane. This setup has 
+likely allowed the hurricane to intensify this morning, and the 
+hurricane regional models (HAFS-A, HAFS-B, and HWRF), as well as 
+the statistical-dynamical models (SHIPS and LGEM), all suggest that 
+Isaias could maintain major hurricane intensity up until its 
+landfall this evening. Therefore, the NHC official forecast depicts 
+Isaias with 100-kt winds just offshore the western Florida 
+Panhandle this evening. Weakening will occur after landfall, but 
+sustained hurricane-force winds will likely occur near and along 
+Isaias's track up to 100 miles inland from the coast into southern 
+Alabama, and gusts to hurricane force could extend even farther 
+north into central Alabama. Isaias is likely to lose its tropical 
+characteristics by 36 hours when it is over northern Alabama.
+
+Aircraft fixes indicate that Isaias has drifted a bit east of the 
+previous forecast track. NHC's track forecast leans on the eastern 
+side of the guidance envelope, closest to the latest HCCA and GDMI 
+guidance, and implies a potential landfall along the extreme 
+western Florida Panhandle coast this evening. After moving inland, 
+the center of Isaias is expected to continue northward through 
+Alabama, before turning northeastward over the Tennessee and Ohio 
+Valleys (as a post-tropical remnant low) on Sunday.
+
+Now that the eye has become visible in WSR-88D coastal radars, 
+hourly Tropical Cyclone Updates will be issued beginning at 11 AM 
+CDT (1600 UTC).
+
+ 
+Key Messages:
+ 
+1. A life-threatening storm surge is expected from the Mouth of the
+Mississippi River to Suwannee, Florida. Residents under evacuation 
+orders should leave immediately and follow advice from local 
+officials. 
+ 
+2. Extremely dangerous and damaging hurricane force-winds are 
+expected over portions of the Florida Panhandle, southern Alabama, 
+and southern Mississippi where a Hurricane Warning is in effect. 
+Residents in these areas should have a safe room to ride out the 
+storm and prepare for long-duration power outages.
+ 
+3. Damaging wind gusts are likely over a large portion of the 
+southeastern United States from western and northern Georgia 
+westward over much of central and northern Alabama, southern middle 
+Tennessee, and Mississippi, especially in areas of higher terrain.
+Residents should secure loose outdoor items, avoid driving 
+high-profile vehicles, prepare for power outages, and be aware of 
+the potential for falling trees.
+ 
+4. Isaias will bring areas of heavy rainfall to the central U.S. 
+Gulf coast and much of the Southeast through the weekend. 
+Considerable flash and urban flooding, and significant river 
+flooding, are possible.
+
+5. The tornado potential will increase this afternoon and continue 
+through tonight. The greatest risk will be east of the center, 
+particularly across the Florida Panhandle into southern Georgia. 
+This risk will continue spreading north-northeast across
+parts of the Southeast on Saturday.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  09/1500Z 27.7N  87.3W  105 KT 120 MPH
+ 12H  10/0000Z 29.7N  86.8W  100 KT 115 MPH
+ 24H  10/1200Z 32.1N  87.1W   55 KT  65 MPH...INLAND
+ 36H  11/0000Z 34.2N  87.2W   35 KT  40 MPH...POST-TROP/INLAND
+ 48H  11/1200Z 36.5N  85.0W   25 KT  30 MPH...POST-TROP/INLAND
+ 60H  12/0000Z 39.1N  81.0W   20 KT  25 MPH...POST-TROP/INLAND
+ 72H  12/1200Z...DISSIPATED
+ 
+$$
+Forecaster Berg
+ 
+NNNN
+

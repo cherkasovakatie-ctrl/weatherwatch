@@ -1,0 +1,62 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Odalys Discussion Number  18
+NWS National Hurricane Center Miami FL       EP162026
+800 AM PDT Thu Sep 24 2026
+ 
+Odalys has strengthened this morning.  The satellite presentation
+consists of a -82C Central Dense Overcast (CDO) located over an eye
+feature depicted in a 1132 UTC AMSR-3 Microwave color composite
+image, and a spiral band wrapping around the surface center from
+the northwest.  The initial intensity is increased to 80 kt and is
+based on a compromise of subjective and objective satellite
+intensity estimates.
+ 
+Although moderate deep-layer shear continues to inhibit significant 
+strengthening, intensity may fluctuate in the short term.  By the 
+weekend, Odalys should encounter increasing southwesterly shear and 
+progressively cooler water.  As a result, gradual weakening is 
+expected through the forecast period, and Odalys should become a 
+post-tropical cyclone early next week.  The NHC intensity forecast 
+blends the IVCN multi-model consensus with the skilled HFIP HCCA 
+and Google DeepMind aids.
+ 
+Odalys' initial motion is estimated to be east-northeastward, or
+060/6 kt, and is being steered by a mid- to upper-tropospheric 
+trough situated to its northwest and a subtropical high stretching 
+southwestward from Mexico.  A turn toward the northeast is expected 
+by Friday, followed by a turn to the north with a reduction in 
+forward speed over the weekend. By early next week, the track 
+forecast becomes a bit hazy and Hurricane Polo is expected to be 
+east of the cyclone and could cause direct interaction complexities 
+in the track of Odalys. Consequently, there is quite a bit of 
+uncertainty with considerable increasing model guidance spread.  
+Further complicating the track forecast is how quickly Odalys 
+weakens and becomes vertically challenged while being steered by 
+the low-level flow.  The official forecast is adjusted slightly to 
+the left of the previous one and lies close to the HCCA and GDMI 
+aids.
+ 
+Odalys' wind radii were adjusted based on a 0749 UTC OSCAT-3
+scatterometer overpass.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  24/1500Z 16.4N 125.5W   80 KT  90 MPH
+ 12H  25/0000Z 16.9N 124.5W   85 KT 100 MPH
+ 24H  25/1200Z 17.8N 123.6W   80 KT  90 MPH
+ 36H  26/0000Z 18.6N 123.1W   70 KT  80 MPH
+ 48H  26/1200Z 19.6N 123.0W   60 KT  70 MPH
+ 60H  27/0000Z 21.0N 122.9W   50 KT  60 MPH
+ 72H  27/1200Z 22.4N 122.6W   40 KT  45 MPH
+ 96H  28/1200Z 22.7N 121.9W   30 KT  35 MPH...POST-TROP/REMNT LOW
+120H  29/1200Z 21.4N 121.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Roberts
+ 
+NNNN
+

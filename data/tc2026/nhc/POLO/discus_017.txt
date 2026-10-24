@@ -1,0 +1,88 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Polo Discussion Number  17
+NWS National Hurricane Center Miami FL       EP172026
+300 PM CST Thu Sep 24 2026
+ 
+A NOAA Hurricane Hunter aircraft has investigated Polo during the
+past few hours, and its data indicates that the eyewall replacement
+cycle mentioned in the previous advisory is almost complete. The 
+first aircraft pass reported concentric eyewalls of 15 and 30 n mi 
+diameters. Subsequent passes reported that the inner eyewall 
+dissipated, while the remaining outer eyewall contracted to 25 n mi 
+diameter. In addition, 700-mb flight level winds in the northeast 
+eyewall increased by about 15 kt during the mission, with the 
+maximum winds of 147 kt.  The central pressure also started to fall 
+during the mission, and the estimated value from data on the last 
+pass is near 935 mb. Based on these data, the initial intensity is 
+set at 130 kt. It should be noted that the strengthening observed 
+by the aircraft has not yet been fully reflected in satellite 
+imagery.
+ 
+Polo is now moving west-northwestward or 285/9 kt. There is little 
+change to the track forecast reasoning from the previous advisory. 
+A mid-level ridge building westward from northern Mexico should 
+steer the hurricane generally westward for the next 24-36 h or so. 
+After that, a mid-latitude trough moving eastward across the
+northeastern Pacific should prevent the ridge from building farther
+west, with Polo likely to recurve northward and northeastward
+around the western end of the ridge. The track guidance is 
+generally in good agreement with this scenario, although there 
+remains some spread in the forward speed between the slower HAFS 
+models and the faster GFS and HCCA models. The new track, which is 
+an update of the previous forecast, takes the center away from the 
+southwestern coast of Mexico this evening and then has it moving 
+across Baja California into northwestern mainland Mexico in 96-120 
+h.
+ 
+The new intensity forecast now calls for Polo to strengthen for the
+next 12 h or so after the end of the eyewall replacement, and Polo
+is expected to regain Category 5 strength tonight or Friday
+morning. After that, a slow weakening is expected through 96 h as
+Polo encounters somewhat increased shear, with the caveat that
+there could be some fluctuations due to additional eyewall
+replacement cycles. Rapid weakening is expected when the cyclone
+crosses Baja California and moves into mainland Mexico. The new
+forecast again lies near the upper edge of the intensity guidance.
+
+It should be noted that moisture from Hurricane Polo and Odalys 
+will be carried a long distance into the southwestern United States 
+this weekend and early next week, and may indirectly contribute to 
+a heavy rainfall and flash flood threat in the region. See products 
+issued by the Weather Prediction Center for more information.
+ 
+ 
+Key Messages:
+ 
+1. Heavy rainfall associated with Polo will impact coastal portions
+of southwest Mexico today. This rainfall may produce
+life-threatening flooding and mudslides, especially in areas of
+steep terrain.
+
+2. Wind gusts to tropical storm force may occur along portions of 
+the southwestern coast of Mexico this evening.
+ 
+3. Polo is forecast to approach the Baja California Peninsula early
+next week as a hurricane. Interests there should closely monitor
+the latest updates and ensure that they have their preparedness
+plan in place.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  24/2100Z 17.1N 105.5W  130 KT 150 MPH
+ 12H  25/0600Z 17.2N 106.8W  140 KT 160 MPH
+ 24H  25/1800Z 17.4N 108.8W  135 KT 155 MPH
+ 36H  26/0600Z 17.8N 110.5W  130 KT 150 MPH
+ 48H  26/1800Z 18.7N 112.0W  125 KT 145 MPH
+ 60H  27/0600Z 20.3N 113.1W  120 KT 140 MPH
+ 72H  27/1800Z 22.0N 113.4W  110 KT 125 MPH
+ 96H  28/1800Z 25.2N 112.8W   95 KT 110 MPH
+120H  29/1800Z 27.9N 109.9W   60 KT  70 MPH...INLAND
+ 
+$$
+Forecaster Beven
+ 
+NNNN

@@ -1,0 +1,95 @@
+
+ZCZC MIATCDAT4 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Isaias Discussion Number   8
+NWS National Hurricane Center Miami FL       AL092026
+1000 AM CDT Thu Oct 08 2026
+
+Isaias is strengthening in an environment of moderate vertical wind 
+shear.  Observations from an Air Force Hurricane Hunter aircraft 
+indicate that the central pressure continues to fall and the 
+maximum winds are now near 75 kt.  The center of the hurricane is 
+near the southwestern side of a Central Dense Overcast feature, and 
+some convective banding features are evident over the eastern 
+portion of the circulation.  Additional aircraft reconnaissance 
+missions are scheduled for today, tonight, and Friday, so we will 
+have close monitoring of the intensity of the system up until 
+landfall.
+
+Center fixes from the Hurricane Hunters indicate that Isais 
+continues on a generally east-northward track with an initial 
+motion of about 060/9 kt.  During the next 36 hours, the hurricane 
+should gradually turn toward the northeast and north as it moves 
+between a ridge extending from the Bahamas across the Florida 
+Peninsula and a zonally-oriented mid-level trough near the 
+northwestern Gulf coast.  On the forecast track, the center of the 
+hurricane is forecast to move across the east-central to 
+northeastern Gulf coast in 36-42 hours.  Thereafter, the weakening 
+cyclone should move over the southeastern United States bringing 
+strong winds well inland.  The track guidance has not changed much 
+for this advisory cycle and the official forecast is similar to that 
+of the previous advisory.
+
+The intensity forecast up to landfall is somewhat challenging.  
+On the one hand, the hurricane should move over waters of high 
+oceanic heat content and within a fairly moist air mass through 
+tomorrow.  On the other hand, the SHIPS model input parameters show 
+a significant increase in vertical wind shear, particularly when 
+Isais nears the coast.  Regarding, the shorter-term intensity 
+forecast, a recent WSFM microwave satellite image at 37 GHz 
+frequency shows a closed ring around the eye.  This is typically a 
+harbinger of rapid intensification.  The 12-hour forecast does show 
+a relatively large increase in strength, but in view of the 
+expected stronger shear in 24-36 hours, some decrease in intensity 
+is indicated as Isaias approaches the coast.  Regardless, Isaias is 
+expected to remain a dangerous hurricane through landfall, and 
+gusty winds are expected well inland after landfall given the 
+anticipated expansion of the wind field and accelerating forward 
+speed of the storm.
+ 
+Key Messages:
+ 
+1. A life-threatening storm surge is expected from the Mouth of the 
+Mississippi River to Suwannee, Florida. Residents in the warning 
+area should follow advice given by local officials and evacuate 
+immediately if told to do so.
+
+2. Damaging hurricane force-winds are expected over portions of the 
+Florida Panhandle, southern Alabama, and southern Mississippi where 
+a Hurricane Warning is in effect. Residents in these areas should 
+prepare for the possibility of long-duration power outages. 
+
+3. Damaging wind gusts are possible over much of central and 
+northern Alabama and portions of western and northern Georgia, 
+especially in areas of higher terrain.  Additional Tropical Storm 
+and High Wind Watches and Warnings will likely be required for 
+portions of that area later today. Residents should secure loose 
+outdoor items, avoid driving high-profile vehicles, and prepare for 
+power outages.
+
+4. Isaias will bring areas of heavy rainfall to the central U.S. 
+Gulf coast and much of the Southeast Friday into the weekend. 
+Considerable flash and urban flooding, along with significant river 
+flooding, will be possible.
+
+5. Isaias could bring gusty winds and areas of heavy rain to the 
+western portion of the Yucatan Peninsula today.
+
+
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  08/1500Z 23.7N  90.2W   75 KT  85 MPH
+ 12H  09/0000Z 24.9N  89.0W   90 KT 105 MPH
+ 24H  09/1200Z 27.1N  87.9W   95 KT 110 MPH
+ 36H  10/0000Z 29.6N  87.4W   85 KT 100 MPH
+ 48H  10/1200Z 32.3N  87.8W   35 KT  40 MPH...INLAND
+ 60H  11/0000Z 34.6N  88.1W   30 KT  35 MPH...POST-TROP/INLAND
+ 72H  11/1200Z 36.5N  87.8W   25 KT  30 MPH...POST-TROP/INLAND
+ 96H  12/1200Z...DISSIPATED
+ 
+$$
+Forecaster Pasch
+ 
+NNNN
+

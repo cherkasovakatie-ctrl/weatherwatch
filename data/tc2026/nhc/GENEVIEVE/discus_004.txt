@@ -1,0 +1,63 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Genevieve Discussion Number   4
+NWS National Hurricane Center Miami FL       EP072026
+300 AM CST Sat Jul 25 2026
+
+Microwave and scatterometer data received since the previous 
+advisory indicates that Genevieve has a small inner wind core, with 
+conventional imagery showing strong convection near and just south 
+of the center.  However, it is unclear whether a tight convective 
+spiral seen in the microwave data has continued to develop since 
+the overpass.  Satellite intensity estimates are generally near 
+45 kt, so that will be the initial intensity.  The initial 34-kt 
+wind radii have been decreased a little based on the scatterometer 
+data.
+
+The track forecast reasoning is unchanged since the previous 
+advisory.  A strong mid-level anticyclone system is centered over 
+the western United States, with a ridge axis extending west- 
+southwestward over the Pacific Ocean.  This will be the main driver 
+of Genevieve's motion over the next 5 days and should keep the storm 
+away from the coast of Mexico.  The track guidance remains in good 
+agreement that the cyclone will move west-northwestward or 
+northwestward during the forecast period with some ups and downs in 
+forward speed.  The new forecast track is almost identical to the 
+previous forecast and lies near both HCCA and the Google DeepMind 
+Ensemble Mean.
+
+The cyclone is forecast to be in an environment favorable for steady 
+to rapid strengthening, especially given the presence of the small 
+inner core.  While there could be a little northerly shear, the 
+rapid intensification indices of the SHIPS model are very high, with 
+a 75-90 percent chance of 55 kt of strengthening during the next 48 
+h.  The main issue remains just how strong Genevieve will get.  The 
+HCCA model continues to show a peak intensity near 130 kt, while 
+most of the other guidance is clustered between peak intensities of 
+100-115 kt.  The new intensity forecast will keep the 115 kt peak 
+intensity from the previous forecast, which is at the upper edge of 
+everything but HCCA.  After reaching peak intensity in about 60 h, 
+Genevieve is expected to encounter a drier air mass and eventually 
+cooler waters.  This combination should cause slow to steady 
+weakening.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  25/0900Z 10.0N 103.6W   45 KT  50 MPH
+ 12H  25/1800Z 11.0N 105.3W   55 KT  65 MPH
+ 24H  26/0600Z 12.2N 107.5W   70 KT  80 MPH
+ 36H  26/1800Z 13.4N 109.8W   90 KT 105 MPH
+ 48H  27/0600Z 14.7N 111.7W  105 KT 120 MPH
+ 60H  27/1800Z 16.0N 113.4W  115 KT 130 MPH
+ 72H  28/0600Z 17.0N 114.8W  110 KT 125 MPH
+ 96H  29/0600Z 18.5N 117.9W  100 KT 115 MPH
+120H  30/0600Z 20.1N 121.5W   85 KT 100 MPH
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

@@ -1,0 +1,83 @@
+
+ZCZC HFOTCDCP4 ALL
+TTAA00 PHFO DDHHMM
+ 
+Tropical Storm Lowell Discussion Number  55
+NWS Central Pacific Hurricane Center Honolulu HI   EP122026
+Issued by NWS National Hurricane Center Miami FL
+1100 AM HST Wed Sep 09 2026
+
+Lowell is dealing with moderate wind shear and dry air. Recent 
+satellite imagery reveals that earlier deep convection has 
+collapsed, with only shallow convection remaining sheared to the 
+eastern side of the circulation. The latest subjective Dvorak 
+intensity estimates from PHFO and JTWC have decreased to T2.5/35 kt, 
+which is consistent with the system's degraded satellite 
+presentation. UW-CIMSS objective intensity estimates currently range 
+from 39 to 49 kt. Metop-B and Metop-C scatterometer passes are 
+anticipated over Lowell near the advisory time, which will help 
+better assess the current intensity and wind radii structure. 
+Although current satellite estimates have decreased, the initial 
+intensity is held at 50 kt for this advisory, which may be generous. 
+Subsequent adjustments will await the incoming scatterometer wind 
+data.
+ 
+Lowell is expected to remain within a dry environment with moderate 
+vertical wind shear. Model-simulated infrared imagery suggests that 
+Lowell will continue to produce intermittent bursts of deep 
+convection over the next several days, aided by some upper-level 
+divergence in about 48 hours. The official NHC intensity forecast 
+follows the latest consensus model guidance, depicting a gradual 
+weakening of the system throughout the forecast period. By the end 
+of the period, the cyclone is forecast to move over cooler sea 
+surface temperatures while continuing to deal with dry air and 
+moderate shear. Although some uncertainty remains late in the period 
+due to the system's eventual track and intermittent convective 
+bursts, these hostile environmental conditions should cause Lowell 
+to become a post-tropical cyclone by day 4.  
+  
+The initial motion is northwestward, or 320/12 kt. Lowell should 
+gradually turn west-northwestward and then westward, steered by a 
+building mid-level ridge to the north and east. In a few days, the 
+cyclone is forecast to round the western periphery of the ridge and 
+slow forward speed. This decrease in forward speed will occur as the 
+steering pattern collapses, leaving Lowell caught between 
+high-pressure ridges over the northwestern and northeastern Pacific. 
+Track model guidance begins to diverge considerably late in the 
+period. This spread in the guidance largely depends on the vertical 
+depth of the cyclone, and if the system remains a shallow low, it 
+could begin to move southwestward, steered by the low-level flow on 
+the eastern edge of the northwestern Pacific ridge. The official NHC 
+track forecast lies near the HCCA and GDMI consensus aids in the 
+near term, and then shifts toward the simple consensus later in the 
+period, reflecting the higher uncertainty toward the end of the 
+forecast cycle.
+ 
+ 
+KEY MESSAGES:
+ 
+1. Post-storm safety: Follow advice of local officials and avoid
+areas of downed power lines and flooding. Ensure generators are
+properly ventilated and placed outside at least 20 feet away from
+dwellings and garages to avoid carbon monoxide poisoning. During
+clean up, be careful when using chainsaws and power tools. Drink
+plenty of water to avoid heat exhaustion.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  09/2100Z 28.9N 163.7W   50 KT  60 MPH
+ 12H  10/0600Z 29.3N 165.7W   45 KT  50 MPH
+ 24H  10/1800Z 29.3N 168.1W   45 KT  50 MPH
+ 36H  11/0600Z 29.3N 170.5W   40 KT  45 MPH
+ 48H  11/1800Z 29.9N 171.7W   40 KT  45 MPH
+ 60H  12/0600Z 30.9N 171.8W   40 KT  45 MPH
+ 72H  12/1800Z 32.3N 172.3W   40 KT  45 MPH
+ 96H  13/1800Z 33.2N 174.8W   35 KT  40 MPH...POST-TROPICAL
+120H  14/1800Z 32.7N 176.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Kelly
+ 
+NNNN
+

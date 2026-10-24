@@ -1,0 +1,98 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Nolo Discussion Number  19
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+1100 PM HST Thu Sep 24 2026
+ 
+An Air Force Reserve reconnaissance mission has provided some 
+conflicting data regarding Nolo's current intensity. On one hand, 
+the plane measured a peak flight-level wind of 81 kt in the 
+southeastern eyewall, which reduces to an intensity of 70-75 kt. On 
+the other hand, the central pressure has not fallen since the 
+previous mission, with the latest dropsonde data suggesting around 
+985 mb, and the 700-mb height has risen a bit. For now, the initial 
+intensity is raised conservatively to 70 kt. Deep convection is 
+becoming more symmetric around the eye, which is a bit ragged and 
+elliptical.
+
+The initial motion remains north-northeastward, or 030/4 kt, with 
+Nolo being steered by a deep-layer trough located west of the 
+Hawaiian Islands. This trough is expected to weaken and drift 
+westward during the next 24-36 hours, with strong mid-level ridging 
+taking its place over and north of Hawaii. As a result, Nolo is 
+expected to come to a crawl by Friday night and early Saturday and 
+then begin to move south of due west through Sunday. The track 
+guidance has again shifted southward, responding to the 
+strengthening ridge, and the NHC forecast lies near the northern 
+edge of the envelope, closest to the Google DeepMind ensemble mean 
+(GDMI). With nearly every other major model lying south of the 
+official forecast, additional southward shifts in future 
+advisories are possible, but not yet a guarantee.  The previously 
+mentioned deep-layer trough is expected to re-amplify later in the 
+forecast period, which is expected to cause Nolo to turn 
+northwestward and then north-northwestward by Monday and Tuesday.
+
+Various shear analyses suggest that Nolo is experiencing moderate 
+deep-layer shear out of the south-southeast, which may be 
+contributing to the broken eyewall on the east side. However, the 
+shear is expected to abate during the next 24-36 hours, and along 
+with warm sea surface temperatures, should support continued 
+strengthening. There is a bit of model disagreement on exactly how 
+much strengthening will occur, but it is noteworthy that the 
+typically skillful HCCA model, as well as HAFS-A, shows Nolo 
+reaching high-end category 4 strength in 3-4 days. As a result, the 
+NHC intensity forecast has been increased slightly at that forecast 
+time. Weakening is anticipated by days 4 and 5 due to a marked 
+increase in southwesterly shear east of the trough.
+
+ 
+Key Messages:
+ 
+1. Nolo is expected remain south of the Big Island of Hawaii 
+through Saturday before turning westward and moving away from the 
+island.  Tropical storm conditions are expected to begin on the Big 
+Island Friday night with hurricane conditions possible on Saturday, 
+particularly in areas of steep terrain.  Residents should follow 
+advice given by local officials, including evacuating if told to do 
+so.
+ 
+2. The time to finish preparations for significant heavy rain and 
+flooding impacts on the Big Island is now as heavy rain increases in 
+both coverage and intensity on Friday. Periods of heavy rain are 
+expected to continue across the Big Island and Maui through the 
+weekend. Life-threatening, catastrophic flooding and mudslides are 
+possible, especially in areas of steep terrain across the eastern 
+and southern portions of the Big Island and Maui. Across the 
+remainder of Hawaii, lesser rainfall totals are expected, with 
+isolated flooding possible.  
+ 
+3. Large and damaging waves are likely along portions of the
+Big Island's coastline into the weekend.
+ 
+4. A Tropical Storm Watch is in effect for Maui County where
+tropical storm conditions are possible beginning on Saturday.
+Interests elsewhere in Hawaii should closely monitor the latest
+forecast updates and ensure that they have their preparedness plans
+in place.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  25/0900Z 15.5N 155.6W   70 KT  80 MPH
+ 12H  25/1800Z 16.0N 155.4W   85 KT 100 MPH
+ 24H  26/0600Z 16.6N 155.2W   90 KT 105 MPH
+ 36H  26/1800Z 16.7N 155.6W   95 KT 110 MPH
+ 48H  27/0600Z 16.5N 156.7W  100 KT 115 MPH
+ 60H  27/1800Z 16.2N 158.5W  110 KT 125 MPH
+ 72H  28/0600Z 16.4N 160.5W  120 KT 140 MPH
+ 96H  29/0600Z 18.5N 163.5W  110 KT 125 MPH
+120H  30/0600Z 21.3N 164.5W   85 KT 100 MPH
+ 
+$$
+Forecaster Berg
+ 
+NNNN
+

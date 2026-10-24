@@ -1,0 +1,62 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Odalys Discussion Number  21
+NWS National Hurricane Center Miami FL       EP162026
+200 AM PDT Fri Sep 25 2026
+ 
+Odalys's eye structure has become much better defined on satellite 
+imagery since the last advisory. The latest objective Dvorak 
+intensity analyses from UW-CIMSS estimates Odalys's strength to 
+be around 100 kt, while TAFB's subjective analysis rated the storm 
+at 5.5/102 kt. Given Odalys's improved satellite presentation and 
+these estimates, the initial intensity was raised to 100 kt. 
+
+The initial motion has shifted toward the northeast, or at 040/5 kt. 
+Odalys's trajectory is becoming increasingly influenced by a mid- to 
+upper-level trough to its north-northwest, which, combined with its 
+location on the eastern flank of the east Pacific subtropical high, 
+should drive an almost due north motion over the next couple of 
+days. Forecast models continue to exhibit large discrepancies in 
+track after 48 h as Odalys's forward motion decreases and Hurricane 
+Polo's wind field becomes an increasing influence. The overall trend 
+across models, however, is to turn Odalys to the north sooner, so 
+the latest NHC track forecast reflects this, following a blend of 
+HCCA and GDMI and thus shifting the track to the left from the 
+previous forecast.
+
+Given Odalys's improved presentation on satellite imagery, the 
+intensity forecast was left relatively steady through the first 24 
+h. However, the storm is expected to encounter a hostile 
+environment shortly thereafter, characterized by increasing 
+vertical wind shear, drier mid-level air, and cooler SSTs. As a 
+result, a steady weakening trend is expected heading into the 
+weekend, with Odalys forecast to become post tropical by the end of 
+the weekend. The latest NHC intensity forecast generally falls in 
+line with the model consensus. 
+
+Moisture from both Odalys and Polo will be carried a long distance
+into the southwestern U.S. this weekend and early next week, and may
+indirectly contribute to a heavy rainfall and flash flood threat in
+the region. See products issued by the Weather Prediction Center for
+more information.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  25/0900Z 17.6N 124.0W  100 KT 115 MPH
+ 12H  25/1800Z 18.0N 123.7W  100 KT 115 MPH
+ 24H  26/0600Z 18.9N 123.5W   90 KT 105 MPH
+ 36H  26/1800Z 19.7N 123.5W   75 KT  85 MPH
+ 48H  27/0600Z 20.7N 123.5W   60 KT  70 MPH
+ 60H  27/1800Z 21.9N 123.1W   45 KT  50 MPH...POST-TROPICAL
+ 72H  28/0600Z 22.5N 122.1W   35 KT  40 MPH...POST-TROPICAL
+ 96H  29/0600Z 21.7N 121.2W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  30/0600Z 19.2N 120.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Evans/Hagen
+ 
+NNNN
+

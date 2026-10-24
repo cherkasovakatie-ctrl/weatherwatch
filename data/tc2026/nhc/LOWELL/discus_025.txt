@@ -1,0 +1,69 @@
+
+ZCZC HFOTCDCP4 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Lowell Discussion Number  25
+NWS Central Pacific Hurricane Center Honolulu HI   EP122026
+Issued by NWS National Hurricane Center Miami FL
+500 AM HST Wed Sep 02 2026
+ 
+The rapid intensification of Lowell has continued early this 
+morning. The compact hurricane has a circular, 15 n-mi-wide eye 
+surrounded by a symmetric ring of deep convection with cloud tops as 
+cold as -70 to -80 deg C. This impressive structure has led to an 
+increase in the satellite intensity estimates, with JTWC and HFO 
+recently providing T6.5/127 kt Dvorak estimates. Meanwhile, the 
+latest AiDT and D-MINT objective estimates from CIMSS have climbed 
+above 130 kt. Since the satellite presentation continues to improve 
+and the eye of Lowell has warmed during the past couple of hours, 
+the initial intensity is raised to 135 kt.
+ 
+Lowell will move within conducive large-scale environmental and
+oceanic conditions for the next several days. With no signs yet of
+the commencement of an eyewall replacement cycle (ERC), some
+additional near-term strengthening is forecast, and Lowell could
+reach category 5 intensity later today or tonight. Over the next
+several days, the intensity of the hurricane will be modulated by
+internal dynamic processes like ERCs. The NHC intensity forecast is
+similar to the previous one and remains on the high side of the
+latest guidance. There is high confidence that Lowell will remain a
+major hurricane through the forecast period.
+ 
+The hurricane is moving westward (270/9 kt). A mid-level ridge over 
+the Central Pacific should steer Lowell westward for the next few 
+days at a gradually slower forward speed. Only minor southward 
+adjustments were made to the early part of the NHC forecast to 
+account for current motion trends. An erosion of the steering ridge 
+by a mid- to upper-level trough or cutoff low is forecast this 
+weekend, which should cause Lowell to slow down further and turn 
+sharply northward at days 4-5. The track guidance has shifted 
+eastward for this portion of the forecast, and the NHC prediction 
+was adjusted to the right of the previous track in response. There 
+remains large model spread and above average uncertainty regarding 
+the details of this anticipated northward turn, so interests in 
+Hawaii should monitor the latest forecast updates.
+ 
+ 
+KEY MESSAGES:
+ 
+1. Interests in the Hawaiian Islands should continue to closely
+monitor the progress of Hurricane Lowell.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  02/1500Z 13.4N 153.2W  135 KT 155 MPH
+ 12H  03/0000Z 13.5N 154.7W  140 KT 160 MPH
+ 24H  03/1200Z 13.6N 156.6W  135 KT 155 MPH
+ 36H  04/0000Z 13.8N 158.2W  130 KT 150 MPH
+ 48H  04/1200Z 13.9N 159.7W  125 KT 145 MPH
+ 60H  05/0000Z 13.9N 161.1W  120 KT 140 MPH
+ 72H  05/1200Z 14.0N 162.3W  120 KT 140 MPH
+ 96H  06/1200Z 14.6N 164.0W  120 KT 140 MPH
+120H  07/1200Z 16.5N 164.0W  120 KT 140 MPH
+ 
+$$
+Forecaster Reinhart
+ 
+NNNN
+

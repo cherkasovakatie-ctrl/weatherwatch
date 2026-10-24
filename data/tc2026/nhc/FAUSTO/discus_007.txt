@@ -1,0 +1,56 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Fausto Discussion Number   7
+NWS National Hurricane Center Miami FL       EP062026
+800 AM PDT Mon Jul 20 2026
+ 
+Deep convection has been increasing in strength and coverage over
+the past several hours, and Fausto continues to gradually gain
+strength.  The low-level center, although difficult to locate, is
+still near the northern edge of the thunderstorm activity due to
+north-northeasterly vertical wind shear.  The initial intensity has
+been nudged up to 55 kt, which is near the high end of the latest
+satellite estimates.
+ 
+The shear is expected to decrease, and since Fausto is forecast to
+remain over warm waters and in a moist environment, continued
+strengthening is forecast.  In fact, the SHIPS model suggests that
+there is about 1 in 3 chance that Fausto could rapidly intensify.
+This seems plausible, especially since it appears to have a
+developing compact core in satellite images.  The NHC intensity
+forecast remains at the high end of the model guidance and shows
+Fausto becoming a hurricane tonight and approaching major hurricane
+status in a couple of days.  Gradual weakening is expected toward
+the end of the week once Fausto moves into an environment of
+progressively cooler waters and drier air.
+ 
+The storm is slowly gaining latitude, with the initial motion
+estimated to be 295/11 kt.  Fausto will likely move toward the
+northwest and slow down during the next day or two as it tracks
+toward a weakness in the ridge left behind by Elida.  By Wednesday,
+however, the global models show the ridge strengthening northeast of
+the system, and that should cause Fausto to move faster to the
+west-northwest and continue in that direction into the weekend.  The
+NHC track forecast is very similar to the previous one and roughly
+near the middle of the guidance envelope.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  20/1500Z 13.5N 116.4W   55 KT  65 MPH
+ 12H  21/0000Z 14.4N 117.5W   65 KT  75 MPH
+ 24H  21/1200Z 15.4N 119.0W   75 KT  85 MPH
+ 36H  22/0000Z 16.1N 120.6W   85 KT 100 MPH
+ 48H  22/1200Z 16.6N 122.1W   95 KT 110 MPH
+ 60H  23/0000Z 16.9N 124.0W   95 KT 110 MPH
+ 72H  23/1200Z 17.3N 126.3W   90 KT 105 MPH
+ 96H  24/1200Z 18.0N 131.5W   80 KT  90 MPH
+120H  25/1200Z 19.1N 136.7W   70 KT  80 MPH
+ 
+$$
+Forecaster Cangialosi
+ 
+NNNN
+

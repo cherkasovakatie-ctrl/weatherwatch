@@ -1,0 +1,71 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM CCA
+ 
+Hurricane Nolo Discussion Number  29
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+1100 AM HST Sun Sep 27 2026
+
+Corrected typo in the first paragraph
+
+The inner core of Nolo has continued to show signs of improvement, 
+as the eye has become better defined over the last several hours. 
+Air Force Reserve Hurricane Hunter aircraft found flight level winds 
+around 106 kt, which supports surface winds around 95 kt. In 
+addition, the aircraft found that the pressure has been decreasing 
+over the course the flight. A dropsonde into the northern eyewall 
+observed a 500 m layer average of 106 kt. Furthermore, the objective 
+intensity estimates are in the range of 87-119 kt. Based on the 
+current data, the initial intensity has been raised to 100 kt for 
+this advisory.
+ 
+The cyclone is moving mainly westward or 280/10 kt. Nolo is expected 
+to continue to move on the southwestern side of a mid-level ridge 
+for the next 24 h or so. Afterwards, the hurricane will turn 
+northwestward due to the influence of a mid- to upper-level low. 
+Near the end of the forecast period, Nolo should then turn toward 
+the west again, as Nolo moves around the northern side of the low. 
+The official track forecast is similar to the previous one just some 
+minor adjustments based on the HCCA and the GDMI forecast aids.
+ 
+Nolo is expected to remain in a favorable environment with low wind 
+shear and warm sea-surface temperatures. This should allow for 
+continued intensification for the next 24 hours. After 36-48 h, 
+gradual weakening is expected as the SHIPS model outputs indicate 
+that wind shear will increase in the 36-96 h period due to the 
+interaction with the upper-level low. Beyond 96 h, the wind shear 
+may relax again and this could allow some restrengthening. The NHC 
+intensity forecast is still on the high end of the guidance 
+envelope, however it is in line with the HCCA forecast aid in the 
+short term. 
+ 
+ 
+Key Messages:
+ 
+1. Strong and gusty winds are expected across the main Hawaiian 
+Islands through today.
+
+2. Large and damaging waves with high surf are likely along portions 
+of the east-ward facing beaches of the main Hawaiian Islands through 
+today. Southward facing beaches are likely to see increased swell 
+and surf during the next few days.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  27/2100Z 16.2N 159.3W  100 KT 115 MPH
+ 12H  28/0600Z 16.5N 160.7W  120 KT 140 MPH
+ 24H  28/1800Z 17.6N 162.2W  125 KT 145 MPH
+ 36H  29/0600Z 19.3N 163.3W  115 KT 130 MPH
+ 48H  29/1800Z 21.0N 163.8W  105 KT 120 MPH
+ 60H  30/0600Z 22.1N 163.9W   85 KT 100 MPH
+ 72H  30/1800Z 22.5N 164.4W   70 KT  80 MPH
+ 96H  01/1800Z 22.8N 166.4W   65 KT  75 MPH
+120H  02/1800Z 23.2N 168.5W   70 KT  80 MPH
+ 
+$$
+Forecaster Katz/Kelly
+ 
+NNNN
+

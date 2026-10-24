@@ -1,0 +1,58 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Trudy Discussion Number  24
+NWS National Hurricane Center Miami FL       EP212026
+200 AM MST Mon Oct 19 2026
+ 
+Satellite imagery indicates that Trudy began rapidly weakening about 
+12 hours ago, and during these past 12 hours, most of the deep 
+convection has dissipated.  However, there are still small areas of 
+deep convection in the eastern semicircle of the tropical storm.  A 
+19/0359 UTC ASCAT-C pass had a peak wind retrieval of 45 kt, and the 
+latest DPRINT, DMINT and AiDT estimates have fallen to the 46-55 kt 
+range.  The initial intensity was lowered to 55 kt at 06Z, with a 
+09Z advisory intensity of 50 kt.
+ 
+The initial motion estimate is westward, or 280/5 kt.  A slow motion 
+between west-southwest and west is expected over the next 12-24 h as 
+Trudy is steered by low- to mid-level ridging to its north.  On 
+Tuesday, a deep-layer trough and associated cold front will approach 
+the waters west of Baja California, causing Trudy to turn 
+northwestward.  The latest NHC track forecast has once again been 
+adjusted to the south of the previous official forecast, and lies in 
+between the previous forecast and the latest Google DeepMind 
+Ensemble Mean.
+ 
+The dry environment has taken its toll on Trudy, and the mid-level 
+air is forecast to become even drier with time over the next day or 
+so, along with a continuation of moderate west-southwesterly 
+vertical wind shear.  Trudy is expected to continue to rapidly 
+weaken and become post-tropical within the next 24 h, although it 
+could become post-tropical sooner than forecast.  The NHC intensity 
+forecast was lowered compared to the previous forecast due to the 
+weaker initial intensity and latest model guidance.  This forecast 
+lies near the middle of the guidance envelope.  Trudy's remnant low 
+is forecast to dissipate by Wednesday night.
+ 
+Large swells will continue to affect the coast of southwestern 
+Mexico and west-central Mexico through today, causing 
+life-threatening surf and rip current conditions at the beaches.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  19/0900Z 19.7N 108.0W   50 KT  60 MPH
+ 12H  19/1800Z 19.6N 108.4W   40 KT  45 MPH
+ 24H  20/0600Z 19.6N 109.0W   35 KT  40 MPH...POST-TROPICAL
+ 36H  20/1800Z 19.8N 109.7W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 48H  21/0600Z 20.2N 110.1W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 60H  21/1800Z 20.7N 110.6W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 72H  22/0600Z...DISSIPATED
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

@@ -1,0 +1,58 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Tropical Storm Nolo Discussion Number  43
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+1100 PM HST Wed Sep 30 2026
+
+Nolo's convection continues to dissipate. Satellite imagery this
+evening reveals warming cloud-top temperatures across remnant
+convection to the northwest of the low-level circulation, with dry
+air across the storm's southern semicircle. The latest subjective
+Dvorak intensity estimates from both JTWC and HFO rate Nolo at 2.5
+or 35 kt, with objective estimates from UW-CIMSS ranging from 32 to
+39 kt. Based on these data, Nolo's intensity has been held steady 
+at a generous 40 kt, with the lack of in situ data being the 
+primary reason for making no change. 
+ 
+Initial motion was estimated to be 285/3 kt. Nolo's forward speed is
+beginning to increase as a high pressure ridge downstream weakens.
+Track guidance exhibits strong agreement on keeping Nolo on a
+west-northwestward to northwest motion over the next 24 hours,
+before shifting closer to due west for the rest of the week. The
+system is then forecast to turn west-northwest over the weekend and
+gain forward motion as it is picked up by stronger subtropical
+steering flow. The latest NHC track forecast shifts Nolo's path a
+little to the north to capture its initial motion better, and
+generally falls between the previous advisory and HCCA guidance.
+ 
+Nolo will struggle to regain its convection so long as it remains in 
+an environment characterized by strong vertical wind shear and 
+relatively dry mid-level air. Guidance, however, generally keeps 
+Nolo intact long enough before entering a more favorable environment 
+by the end of the week, allowing for gradual re-strengthening. The 
+latest NHC intensity forecast brings Nolo's max strength down 
+slightly, however, as model consensus generally favors a slower 
+strengthening cycle. The forecast still falls roughly within the 
+median of the guidance envelope.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  01/0900Z 21.8N 165.2W   40 KT  45 MPH
+ 12H  01/1800Z 22.0N 165.6W   35 KT  40 MPH
+ 24H  02/0600Z 22.4N 166.3W   45 KT  50 MPH
+ 36H  02/1800Z 22.7N 167.3W   55 KT  65 MPH
+ 48H  03/0600Z 22.9N 169.0W   60 KT  70 MPH
+ 60H  03/1800Z 22.9N 171.8W   70 KT  80 MPH
+ 72H  04/0600Z 23.3N 175.2W   80 KT  90 MPH
+ 96H  05/0600Z 24.7N 178.0E   90 KT 105 MPH
+120H  06/0600Z 25.7N 171.0E   85 KT 100 MPH
+ 
+$$
+Forecaster Evans/Gibbs
+ 
+NNNN
+

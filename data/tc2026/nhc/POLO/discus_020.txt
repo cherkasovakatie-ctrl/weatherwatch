@@ -1,0 +1,88 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Polo Discussion Number  20
+NWS National Hurricane Center Miami FL       EP172026
+800 AM MST Fri Sep 25 2026
+ 
+After regaining Category 5 status overnight, the remarkable
+satellite presentation of Polo indicates the hurricane has continued
+to intensify. The eye has contracted and warmed over the past
+several hours, with temperatures above 20 deg C measured inside the
+eye. A thick, solid ring of deep convection surrounds the center,
+with cloud tops as cold as -80 to -85 deg C. There were no
+indications of a concentric eyewall structure in 0905 UTC AMSR3
+passive microwave imagery. The latest UW-CIMSS ADT estimates and a
+T7.5 Dvorak classification from TAFB support an initial intensity of
+155 kt. A NOAA research aircraft mission is scheduled to investigate
+Polo later today.
+ 
+Polo continues moving westward (270/10 kt) along the south side of a
+mid-level ridge that extends across northern Mexico. This weekend, a
+deep-layer trough approaching from the west is expected to erode the
+steering ridge. This will cause Polo to turn northwestward and
+northward as it moves around the western side of the ridge. By
+Monday, the increasing influence of the upper trough should turn
+Polo northeastward toward Baja California Sur and west-central
+Mexico. The global models and AI-based guidance are generally
+in good agreement on this track evolution. The updated NHC track
+forecast is adjusted slightly to the left of the previous one, and
+is also a bit slower to come into better agreement with the latest
+multi-model consensus. Overall, the NHC forecast remains on the
+faster and right side of the envelope, closer to HCCA and GDMI.
+Based on this prediction, watches could be required for portions of
+the Baja California Peninsula as early as Saturday.
+ 
+Based on the aforementioned AMSR3 data, an eyewall replacement cycle
+(ERC) does not appear imminent. Thus, further slight strengthening
+cannot be ruled out while Polo remains over very warm waters in a
+weaker shear environment. The vertical wind shear is expected to
+increase over the weekend, and because of this as well as the
+possibility of a future ERC, the NHC intensity forecast shows a
+weakening trend beginning on Saturday and continuing into next week.
+Regardless, Polo is predicted to approach Baja California Sur as a
+strong hurricane early next week, and interests there should closely
+monitor the latest forecast updates. The NHC forecast remains on the
+higher side of the intensity guidance, generally following HCCA.
+Once land interaction occurs with the Baja California Peninsula and
+mainland Mexico, more rapid weakening is anticipated.
+ 
+Distant moisture from Hurricane Polo and Odalys will be transported
+into the southwestern United States this weekend and early next
+week, and may indirectly contribute to a heavy rainfall and flash
+flood threat in the region. See products issued by the Weather
+Prediction Center for more information.
+ 
+ 
+Key Messages:
+ 
+1. Polo is forecast to approach the Baja California Peninsula early
+next week as a hurricane. Interests there should closely monitor
+the latest updates and ensure that they have their preparedness
+plan in place. Watches could be required as early as Saturday for
+portions of the area.
+ 
+2. Heavy rainfall associated with Polo may begin to impact Baja
+California Sur late Sunday into Monday. This rainfall may produce
+life-threatening flooding and mudslides, especially in areas of
+steep terrain.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  25/1500Z 17.1N 108.5W  155 KT 180 MPH
+ 12H  26/0000Z 17.2N 109.8W  155 KT 180 MPH
+ 24H  26/1200Z 17.8N 111.5W  140 KT 160 MPH
+ 36H  27/0000Z 18.9N 112.7W  125 KT 145 MPH
+ 48H  27/1200Z 20.4N 113.4W  110 KT 125 MPH
+ 60H  28/0000Z 22.0N 113.7W  100 KT 115 MPH
+ 72H  28/1200Z 23.8N 113.4W   95 KT 110 MPH
+ 96H  29/1200Z 26.9N 110.8W   70 KT  80 MPH
+120H  30/1200Z 30.4N 106.5W   30 KT  35 MPH...POST-TROP/INLAND
+ 
+$$
+Forecaster Reinhart
+ 
+NNNN
+

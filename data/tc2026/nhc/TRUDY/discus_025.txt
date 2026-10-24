@@ -1,0 +1,59 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Trudy Discussion Number  25
+NWS National Hurricane Center Miami FL       EP212026
+800 AM MST Mon Oct 19 2026
+ 
+Convection has reignited near Trudy this morning, with very cold
+cloud tops below -80C evident north and east of the estimated center
+on infrared satellite imagery. However, an earlier GPM microwave
+pass indicated that westerly wind shear is affecting the tropical
+storm, with shear estimated at around 15 kt based on GFS and ECMWF
+SHIPS guidance. Recent objective Dvorak intensity estimates from
+UW-CIMSS range from 42-55 kt. Given the renewed convective activity
+and the relatively consistent intensity estimates, the initial
+intensity is maintained at 50 kt for this advisory.
+ 
+Trudy is moving westward around 5 kt, steered by a low- to mid-level
+ridge centered to its north. A westward to west-southwestward
+motion, accompanied by a slower forward speed, is expected  through
+tonight. A gradual turn toward the northwest is forecast on Tuesday
+as a strong deep-layer trough advances southeastward over the
+eastern Pacific toward the West Coast of the United States. The
+latest NHC forecast track has been nudged slightly to the left of
+the previous forecast, toward the HCCA and Google DeepMind
+solutions.
+ 
+Despite the recent uptick in convection, cooler sea surface
+temperatures, increasingly dry mid-level air and an unfavorable
+upper-level wind environment are expected to support weakening over
+the next couple of days. ECMWF simulated satellite imagery suggests
+that Trudy may struggle to maintain organized convection on Tuesday,
+and the latest forecast calls for the system to become post-tropical
+within 24 h. The latest NHC forecast is similar to the previous
+forecast, lying near the upper end of the intensity guidance through
+12 h and near the middle of the guidance thereafter. Trudy is
+forecast to dissipate by 72 h.
+ 
+Large swells will continue to affect the coast of southwestern
+Mexico and west-central Mexico today, causing life-threatening surf
+and rip current conditions at the beaches.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  19/1500Z 19.5N 108.5W   50 KT  60 MPH
+ 12H  20/0000Z 19.5N 108.7W   40 KT  45 MPH
+ 24H  20/1200Z 19.5N 109.4W   35 KT  40 MPH...POST-TROPICAL
+ 36H  21/0000Z 19.9N 110.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 48H  21/1200Z 20.3N 110.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 60H  22/0000Z 20.9N 111.0W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 72H  22/1200Z...DISSIPATED
+ 
+$$
+Forecaster Adams
+ 
+NNNN
+

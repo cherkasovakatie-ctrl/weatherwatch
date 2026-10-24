@@ -1,0 +1,64 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Genevieve Discussion Number  15
+NWS National Hurricane Center Miami FL       EP072026
+800 PM MST Mon Jul 27 2026
+ 
+Genevieve continues to produce deep convection, but with a more
+cloud-filled, circular eye that is cooler than it has been over the
+past 24 hours. Over the last several hours, convection has been
+warming and thinning along the western eyewall. There are also early
+signs that an eyewall replacement cycle may be starting, marked by
+two deep convective bands within the eastern portion of the inner
+core. The latest objective intensity aids from UW-CIMSS range from
+111 to 127 kt, while the most recent TAFB subjective CI Dvorak
+estimate is T6.5/127 kt. Given recent satellite trends and these
+latest estimates, the initial intensity has been set at 125 kt for
+this advisory, although this may be generous.
+ 
+The initial motion is estimated at 305/10 kt. Genevieve is currently
+being steered northwestward around the western periphery of a
+mid-level ridge. In 24 to 48 h, this ridge is forecast to weaken,
+resulting in a slightly slower forward motion through the middle of
+the forecast period. Toward the end of the foreast period, another
+ridge over the eastern North Pacific is forecast to build to the
+northwest of the system, allowing a faster west-northwestward motion
+to resume. The latest NHC track forecast is similar to the previous
+in the short term, with a slight nudge to the left in the extended,
+and lies close to the HCCA corrected consensus and the Google
+DeepMind ensemble mean.
+ 
+Genevieve continues to experience fluctuations in deep convection
+within the eyewall this evening, a trend that is likely to continue
+over the next day or so, along with a possible eyewall replacement
+cycle that could be starting now. In about two days, the environment
+will become increasingly unfavorable as the system moves into a
+drier, more stable mid-level airmass and over cooler SSTs along the
+forecast track. Once the system crosses the 26C isotherm near 20N, a
+faster rate of weakening will ensue. As a result, the NHC intensity
+forecast calls for a steady weakening trend, followed by a faster
+rate of weakening late this week and into the weekend. Genevieve is
+expected to degenerate into a post-tropical cyclone by 120 h, as
+model-simulated satellite imagery shows the system devoid of deep
+convection by that time.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  28/0300Z 17.1N 114.6W  125 KT 145 MPH
+ 12H  28/1200Z 17.8N 115.9W  115 KT 130 MPH
+ 24H  29/0000Z 18.4N 117.4W  100 KT 115 MPH
+ 36H  29/1200Z 18.9N 119.0W   90 KT 105 MPH
+ 48H  30/0000Z 19.5N 120.9W   80 KT  90 MPH
+ 60H  30/1200Z 20.2N 123.0W   70 KT  80 MPH
+ 72H  31/0000Z 21.1N 125.5W   60 KT  70 MPH
+ 96H  01/0000Z 22.6N 130.5W   45 KT  50 MPH
+120H  02/0000Z 24.1N 135.5W   40 KT  45 MPH...POST-TROPICAL
+ 
+$$
+Forecaster Kelly
+ 
+NNNN
+

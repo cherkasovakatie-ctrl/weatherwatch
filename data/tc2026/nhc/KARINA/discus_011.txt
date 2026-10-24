@@ -1,0 +1,56 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Karina Discussion Number  11
+NWS National Hurricane Center Miami FL       EP112026
+200 AM PDT Sun Aug 30 2026
+ 
+Satellite images indicate that Karina is strengthening and has 
+become a hurricane. Curved bands now wrap completely around the 
+center, and the dry slots noted earlier have filled in. There is a 
+wide range in the latest satellite intensity estimates, from about 
+50 to 80 kt. The initial intensity is increased to 70 kt, based on 
+a blend of the estimates and continued improved cloud pattern. A 
+partial ASCAT pass indicates that the wind field has contracted, and 
+the initial 34- and 50-kt wind radii have been updated based on 
+that data.
+ 
+Now that Karina has a closed and symmetric inner core, significant 
+strengthening seems likely given that the hurricane is forecast to 
+remain in conducive environmental conditions for the next couple of 
+days. The strengthening process is expected to stall on Monday, 
+followed by a gradual weakening trend as Karina moves over 
+progressively cooler waters and into a drier airmass during the 
+middle and latter portions of the week. The NHC intensity forecast 
+is higher than the previous one, but still below the GDMI and HCCA 
+aids.
+ 
+The hurricane is moving west-northwestward at about 13 kt. The high
+pressure system to the north of Karina is expected to weaken due to
+an amplifying trough over the western U.S. However, there should be
+enough ridging to keep Karina on a westward to west-northwestward
+course, albeit at a slower pace, throughout the week. There is a
+fair amount of spread in the model guidance from days 3 to 5, but in
+general, the latest models have shifted southward this cycle. Based
+on this guidance, the NHC track forecast has been nudged southward,
+but still lies on the northern side of the guidance envelope.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  30/0900Z 17.3N 121.1W   70 KT  80 MPH
+ 12H  30/1800Z 17.6N 122.5W   85 KT 100 MPH
+ 24H  31/0600Z 17.8N 124.3W   95 KT 110 MPH
+ 36H  31/1800Z 17.9N 125.8W  105 KT 120 MPH
+ 48H  01/0600Z 18.3N 127.5W  105 KT 120 MPH
+ 60H  01/1800Z 18.9N 129.3W  105 KT 120 MPH
+ 72H  02/0600Z 19.4N 131.0W   95 KT 110 MPH
+ 96H  03/0600Z 20.3N 133.8W   85 KT 100 MPH
+120H  04/0600Z 21.2N 136.5W   70 KT  80 MPH
+ 
+$$
+Forecaster Cangialosi
+ 
+NNNN
+

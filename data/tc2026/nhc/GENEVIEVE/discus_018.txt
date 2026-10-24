@@ -1,0 +1,58 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Genevieve Discussion Number  18
+NWS National Hurricane Center Miami FL       EP072026
+200 PM PDT Tue Jul 28 2026
+ 
+Recent satellite imagery shows dry air entrainment along the 
+northern and western side of the eye, resulting in some erosion of 
+the structure of Genevieve. An earlier SSMIS pass continued to show 
+a minor amount of northerly wind shear. Small fluctuations in 
+strength have likely occurred this morning and afternoon, as 
+evidenced by changes in the appearance of the eye and warming, 
+followed by cooling, cloud top temperatures in the eyewall. The 
+latest subjective Dvorak intensity estimate from TAFB was 5.5/102 
+kt, while the objective estimates range from 97-107 kt. Given these 
+estimates and taking into account the evolving satellite 
+presentation, the initial intensity has been set at 105 kt.
+ 
+Genevieve is moving west-northwestward at around 8 kt along the 
+southwestern periphery of a ridge centered over the central and 
+southern United States. A slightly faster forward speed is 
+anticipated during the latter half of the week as the ridge expands 
+westward and a strengthening upper-level low approaches the 
+northwestern U.S. The track guidance shifted slightly farther south 
+on this forecast cycle, and the official forecast has followed suit, 
+and lies in the middle of the guidance envelope, close to HCCA. By 
+late this weekend, guidance begins to diverge, and the forecast is 
+positioned between the previous forecast track and HCCA.
+
+After small fluctuations in strength today, Genevieve will gradually 
+weaken as it moves over progressively cooler sea-surface 
+temperatures and into a drier mid-level environment. On Thursday, 
+Genevieve is forecast to move north of 20N, where SSTs fall below 26 
+C, resulting in faster rate of weakening through the weekend. The 
+latest NHC official intensity forecast shows Genevieve weakening to 
+a tropical storm in a couple of days, and transitioning to a 
+post-tropical cyclone this weekend.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  28/2100Z 18.0N 116.9W  105 KT 120 MPH
+ 12H  29/0600Z 18.4N 118.1W   95 KT 110 MPH
+ 24H  29/1800Z 19.0N 119.8W   85 KT 100 MPH
+ 36H  30/0600Z 19.7N 121.9W   70 KT  80 MPH
+ 48H  30/1800Z 20.4N 124.2W   60 KT  70 MPH
+ 60H  31/0600Z 21.1N 126.6W   55 KT  65 MPH
+ 72H  31/1800Z 21.8N 129.1W   50 KT  60 MPH
+ 96H  01/1800Z 23.3N 134.6W   45 KT  50 MPH
+120H  02/1800Z 25.3N 140.0W   35 KT  40 MPH...POST-TROPICAL
+ 
+$$
+Forecaster Adams/Beven
+ 
+NNNN
+

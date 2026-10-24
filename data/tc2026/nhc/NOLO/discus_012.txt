@@ -1,0 +1,89 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Tropical Depression Fifteen-E Discussion Number  12
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+500 AM HST Wed Sep 23 2026
+
+Satellite imagery shows that the depression is becoming better 
+organized.  Banding features are becoming more defined on the 
+western and northern sides of the system, with expanding outflow 
+noted.  However, the low-level circulation appears to be on the 
+southeastern edge of the deep convection and isn't well aligned 
+with the deep convective mass.  Satellite intensity estimates have 
+a large spread this morning, from about 25-40 kt.  Without 
+definitive evidence it has become a tropical storm, the initial wind 
+speed will stay 30 kt, which is also consistent with winds from a 
+recent OSCAT scatterometer pass.
+
+The depression has slowed since the last advisory and seems to be 
+moving west-northwestward at about 5 kt.  A ridge to the northeast 
+of Hawaii is forecast to weaken and slide eastward as a mid- 
+latitude trough drops over the northwestern Hawaiian islands.  
+This evolution is likely to the cause the cyclone to slow down 
+later today or tonight and then turn northward or north- 
+northeastward by tomorrow with some increase in forward speed. The 
+trough is forecast to move westward this weekend as the ridge 
+rebuilds north of Hawaii, which should force a sharp westward turn 
+while the cyclone is close to the Big Island.  At this time frame, 
+it is impossible to know exactly when that turn will happen and, 
+unsurprisingly, there is a large north-south spread in the guidance. 
+Our best guidance is on the northern side of the track envelope, 
+and new NHC forecast remains essentially the same as the last 
+advisory.  Interests in the Hawaiian Islands, especially on the Big 
+Island, should closely monitor the system, with life-threatening 
+catastrophic flooding possible over the steep terrain on this track.
+
+The depression should intensify slowly at first, given the current 
+structure of the low-level center not co-located with the mid-level 
+circulation as seen on satellite.  However, after the system 
+develops an inner core, the environment seems conducive for 
+significant strengthening, with low shear, high mid-level moisture 
+and SSTs from 28-29C.  The rapid intensification probabilities are 
+increasing, and the best model guidance is showing this as a major 
+hurricane in a few days.  Given the environment and the 
+best-performing aids (Google DeepMind and HCCA) again showing 
+major-hurricane strength, the NHC forecast is raised from the 
+previous one and shows the cyclone as a major hurricane when it 
+approaches the Big Island of Hawaii by the weekend.
+ 
+Key Messages:
+ 
+1. Tropical Depression Fifteen-E is expected to strengthen into a 
+tropical storm later today and a hurricane on Thursday as it turns 
+northward, potentially making its closest approach to the Big Island 
+of Hawaii on Saturday. There is an increasing risk of wind and wave 
+impacts in the Hawaiian Islands, and a Hurricane Watch may be 
+required for the Big Island later today.
+
+2. The time to prepare for significant heavy rain and flooding 
+impacts on the Big Island is now, as heavy rain becomes more likely 
+by Thursday and Friday.  Periods of heavy rain are likely to 
+continue across the Big Island and Maui through the weekend. 
+Life-threatening, catastrophic flooding and mudslides are possible, 
+especially in areas of steep terrain across the Big Island and Maui. 
+Across the remainder of Hawaii, lesser rainfall totals are expected, 
+with isolated flooding possible. 
+
+3. Interests in Hawaii should closely monitor the latest forecast 
+updates and ensure that they have their preparedness plan in place. 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  23/1500Z 14.5N 154.4W   30 KT  35 MPH
+ 12H  24/0000Z 14.7N 155.2W   40 KT  45 MPH
+ 24H  24/1200Z 15.0N 155.5W   50 KT  60 MPH
+ 36H  25/0000Z 15.7N 155.2W   65 KT  75 MPH
+ 48H  25/1200Z 16.7N 154.8W   80 KT  90 MPH
+ 60H  26/0000Z 17.6N 154.5W   90 KT 105 MPH
+ 72H  26/1200Z 18.2N 154.7W  100 KT 115 MPH
+ 96H  27/1200Z 18.1N 157.0W  100 KT 115 MPH
+120H  28/1200Z 18.7N 160.2W   95 KT 110 MPH
+ 
+$$
+Forecaster Blake
+ 
+NNNN
+

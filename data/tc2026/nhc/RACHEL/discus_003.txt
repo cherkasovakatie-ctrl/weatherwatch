@@ -1,0 +1,56 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Rachel Discussion Number   3
+NWS National Hurricane Center Miami FL       EP182026
+300 PM CST Sun Sep 27 2026
+ 
+Recent visible satellite imagery shows that banding features
+associated the cyclone remain fragmented, but a couple of ASCAT
+passes from just after 1500 UTC revealed an area of 35 kt winds to
+the southeast of the center.  Therefore, the system has reached
+tropical storm status, making Rachel the seventeenth named storm in 
+the eastern Pacific basin this season.
+
+Rachel is moving west-northwestward or 295/4 kt. A deep-layer 
+ridge building over Mexico is expected to steer the cyclone 
+west-northwest at a faster forward speed through mid-week.  This 
+heading should result in the core of the storm passing well south 
+of the coast of southern Mexico during the next couple of days.  
+After 72 hours, a weakness is forecast to develop in the ridge 
+over northwestern Mexico as a trough moves into the southwestern 
+United States.  This should cause Rachel to slow, but remain on a 
+northwestward to west-northwestward track when it is located well 
+southwest of the coast of southwestern Mexico.  The NHC track 
+forecast is similar to the previous advisory and lies close to the 
+typically reliable consensus aids. 
+
+The SHIPS model continues to diagnose about 20 kt of northeasterly 
+shear over the system.  The shear does not appear to be prohibitive 
+for strengthening.  In fact, most of the intensity guidance calls 
+for gradual strengthening during the next couple few days, and 
+Rachel is forecast to become a hurricane on Tuesday. After that 
+time, there is uncertainty with regards to SSTs as Rachel may track 
+over the cool wake from Hurricane Polo.  As a result, the NHC 
+intensity forecast plateaus near the end of the forecast period 
+between the Google Deep Mind and HFIP corrected consensus 
+solutions. 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  27/2100Z 12.6N  99.1W   35 KT  40 MPH
+ 12H  28/0600Z 13.1N  99.9W   45 KT  50 MPH
+ 24H  28/1800Z 13.9N 101.6W   50 KT  60 MPH
+ 36H  29/0600Z 14.9N 103.3W   55 KT  65 MPH
+ 48H  29/1800Z 15.8N 105.0W   65 KT  75 MPH
+ 60H  30/0600Z 16.8N 106.5W   75 KT  85 MPH
+ 72H  30/1800Z 17.7N 107.6W   80 KT  90 MPH
+ 96H  01/1800Z 18.7N 108.9W   85 KT 100 MPH
+120H  02/1800Z 19.3N 109.4W   85 KT 100 MPH
+ 
+$$
+Forecaster Brown
+ 
+NNNN
+

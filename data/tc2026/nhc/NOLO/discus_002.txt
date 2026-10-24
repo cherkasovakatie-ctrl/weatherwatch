@@ -1,0 +1,53 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Depression Fifteen-E Discussion Number   2
+NWS National Hurricane Center Miami FL       EP152026
+800 PM PDT Sun Sep 13 2026
+
+The depression has not become better organized since earlier today. 
+Visible satellite images show that the well-defined low-level 
+center remains displaced and exposed to the northwest of the main 
+area of deep convection.  Using measurements with the Dvorak shear 
+pattern, the intensity of the cyclone is estimated to be below 
+tropical storm strength.  Thus the current intensity estimate 
+remains 30 kt, which is in agreement with earlier scatterometer 
+observations.
+
+Water vapor imagery shows that the system is currently being 
+affected by moderate vertical wind shear and relatively dry 
+mid-tropospheric air.  Global model guidance indicates that these 
+marginal to unfavorable conditions are likely to persist for the 
+next few days. Therefore, only slight short-term strengthening is 
+called for and the system is expected to begin weakening in a day 
+or so, with the cyclone degenerating into a remnant low in 96 hours 
+or sooner.  This is consistent with simulated satellite imagery 
+depicted by the ECMWF model run.  
+
+The depression is moving a little south of due west with an 
+initial motion of around 260/9 kt.  A mid-level ridge to the north 
+of the system should keep the cyclone on a mainly westward track 
+with a slightly increase in forward speed for the next 72-96 hours. 
+The official track forecast is similar to, but not quite as fast 
+as, the latest Google DeepMind and corrected model consensus, 
+HCCA, guidance.
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  14/0300Z 17.0N 118.3W   30 KT  35 MPH
+ 12H  14/1200Z 16.8N 119.6W   35 KT  40 MPH
+ 24H  15/0000Z 16.5N 121.4W   35 KT  40 MPH
+ 36H  15/1200Z 16.3N 123.4W   35 KT  40 MPH
+ 48H  16/0000Z 16.0N 125.8W   30 KT  35 MPH
+ 60H  16/1200Z 15.7N 128.3W   30 KT  35 MPH
+ 72H  17/0000Z 15.4N 130.8W   30 KT  35 MPH
+ 96H  18/0000Z 15.5N 135.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  19/0000Z...DISSIPATED
+ 
+$$
+Forecaster Pasch
+ 
+NNNN
+

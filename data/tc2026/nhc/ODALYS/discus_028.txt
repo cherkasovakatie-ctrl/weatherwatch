@@ -1,0 +1,63 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Odalys Discussion Number  28
+NWS National Hurricane Center Miami FL       EP162026
+200 PM PDT Sat Sep 26 2026
+
+Odalys continues to quickly weaken this afternoon. On satellite the 
+hurricane's structure has evolved into an irregularly shaped central 
+dense overcast with evidence of south-southwesterly shear 
+undercutting the outflow layer, which is now estimated above 35 kt 
+from the latest UW-CIMSS analysis. A WSFM microwave image available 
+after the prior advisory also no longer shows an eyewall on the 89 
+GHz channel as the storm becomes increasingly tilted downshear with 
+height. The 18 UTC TAFB subjective Dvorak estimate is still a CI 
+5.0/90 kt, but the objective intensity estimates continue to fall, 
+ranging from 63-78 kt. A blend of the data yields an intensity of  
+80 kt for this advisory. The shear over the next few days is not 
+expected to abate, and the hurricane is already surrounded by 
+abundant dry air as it also moves towards cooler sea-surface 
+temperatures. Thus, continued rapid weakening is forecasted, and the 
+latest forecast still indicates Odalys becoming a post-tropical 
+cyclone in 48 h. However, this could occur even sooner than 
+forecast, as indicated by the latest simulated satellite forecast 
+from both the GFS and ECMWF runs. 
+
+The hurricane is now moving a little east of due north, estimated at 
+5 degrees at 6 kt. Not much has changed with the track reasoning, 
+with Odalys continuing to move north-northeast while a deep-layer 
+trough has the strongest influence on its motion as it remains 
+vertically coherent. When the cyclone decouples vertically, this 
+motion should abruptly shift to the south-southeast in 24-48 h as 
+the now shallow cyclone will be mainly steered by a low-level ridge 
+located to its northwest. The latest NHC track forecast is very 
+close to the prior one, continuing to favor a blend of the latest 
+HFIP Corrected Consensus Approach (HCCA) and Google DeepMind 
+ensemble mean (GDMI) guidance. 
+
+Distant moisture from both Hurricanes Odalys and Polo will be 
+transported into the southwestern United States late this weekend 
+and early next week, and may indirectly contribute to a heavy 
+rainfall and flash flood threat in the region. See products issued 
+by the Weather Prediction Center for more information.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  26/2100Z 20.5N 123.6W   80 KT  90 MPH
+ 12H  27/0600Z 21.3N 123.5W   60 KT  70 MPH
+ 24H  27/1800Z 22.3N 123.2W   45 KT  50 MPH
+ 36H  28/0600Z 22.4N 122.9W   35 KT  40 MPH
+ 48H  28/1800Z 21.8N 122.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 60H  29/0600Z 20.7N 122.1W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 72H  29/1800Z 19.5N 121.9W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 96H  30/1800Z 18.2N 122.2W   20 KT  25 MPH...POST-TROP/REMNT LOW
+120H  01/1800Z...DISSIPATED
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

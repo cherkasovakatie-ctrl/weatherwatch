@@ -1,0 +1,44 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Simon Discussion Number  35
+NWS National Hurricane Center Miami FL       EP202026
+800 PM MST Thu Oct 15 2026
+ 
+Simon is gradually weakening. The compact storm is producing a 
+limited area of convection that has been losing organization over 
+the past several hours. The initial intensity is lowered to 40 kt, 
+which is based on a blend of the latest satellite estimates and in 
+general agreement with the earlier ASCAT pass. Simon remains tiny, 
+with its associated tropical-storm-force winds only extending up to 
+40 n mi from the center.
+ 
+The storm continues to meander in weak steering currents. However, 
+the models have finally come into fair agreement that a general 
+northwestward motion should begin later tonight or tomorrow, and 
+continue through the weekend when the system moves in the flow 
+between a low-level trough to its west and a ridge to its east. This 
+motion should bring the weak and shallow system to the west of the 
+Baja California Peninsula over the weekend.
+ 
+Increasing southwesterly vertical wind shear and intrusions of dry 
+air should cause Simon to continue to weaken over the next few days. 
+Based on the model guidance and the hostile environmental 
+conditions, Simon is now expected to become a remnant low in about 
+36 hours and dissipate in two or three days.
+
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  16/0300Z 19.5N 108.5W   40 KT  45 MPH
+ 12H  16/1200Z 20.1N 109.1W   35 KT  40 MPH
+ 24H  17/0000Z 21.2N 110.7W   30 KT  35 MPH
+ 36H  17/1200Z 22.1N 112.4W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 48H  18/0000Z 23.2N 114.0W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 60H  18/1200Z...DISSIPATED
+ 
+$$
+Forecaster Cangialosi
+ 
+NNNN
+

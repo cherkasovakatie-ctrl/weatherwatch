@@ -1,0 +1,58 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Tropical Storm Nolo Discussion Number  48
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+500 AM HST Fri Oct 02 2026
+ 
+Nolo's convective structure continues to improve, with an eye 
+becoming apparent in GOES-West infrared and proxy visible images 
+during the past couple of hours. However, SHIPS and UW-CIMSS 
+analyses suggest that moderate west-southwesterly shear is still 
+affecting the storm, which seems realistic given the limited 
+upper-level outflow and some disruption of the convection in 
+the southern semicircle. Both subjective and objective estimates are 
+still catching up to the improved satellite presentation, with HFO 
+and UW-CIMSS DPRINT being the highest at about 55 kt, so the initial 
+intensity is set just above that at 60 kt.
+
+Nolo continues to move slowly west-northwestward, or 285/5 kt, 
+located to the south of a weakness in the subtropical ridge. A 
+mid-level area of high pressure located west of the International 
+Date Line is expected to build eastward, repositioning itself to 
+the north of Nolo and causing the cyclone to turn westward and 
+accelerate significantly during the next few days. There is very 
+little spread among the track guidance, suggesting high confidence 
+in this forecast, and the new NHC track prediction has been nudged 
+only slightly south of the previous forecast toward the HCCA and 
+GDMI guidance. Nolo is forecast to cross the International Date 
+Line by hour 60.
+
+The shear is expected to abate during the next 12-24 hours, which 
+should minimize the adverse effects of dry air in the surrounding 
+environment. The NHC intensity forecast leans toward the higher end 
+of the guidance, closest to the HCCA and HAFS-A/B model scenarios, 
+making Nolo a major hurricane in about 2 days and potentially 
+peaking in intensity around day 3. Weakening is expected after that 
+time, largely due to a significant increase in deep-layer shear.
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  02/1500Z 23.2N 167.2W   60 KT  70 MPH
+ 12H  03/0000Z 23.3N 168.4W   70 KT  80 MPH
+ 24H  03/1200Z 23.3N 170.7W   80 KT  90 MPH
+ 36H  04/0000Z 23.3N 174.0W   90 KT 105 MPH
+ 48H  04/1200Z 23.7N 177.5W  100 KT 115 MPH
+ 60H  05/0000Z 24.5N 179.3E  105 KT 120 MPH
+ 72H  05/1200Z 25.2N 176.0E  110 KT 125 MPH
+ 96H  06/1200Z 25.8N 168.9E  105 KT 120 MPH
+120H  07/1200Z 26.8N 161.0E   80 KT  90 MPH
+ 
+$$
+Forecaster Berg
+ 
+NNNN
+

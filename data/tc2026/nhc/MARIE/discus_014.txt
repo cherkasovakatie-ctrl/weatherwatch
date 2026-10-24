@@ -1,0 +1,58 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Marie Discussion Number  14
+NWS National Hurricane Center Miami FL       EP132026
+800 AM PDT Fri Sep 04 2026
+ 
+Deep convection is concentrated south and east of a ragged eye, 
+while dry air continues to wrap around the northern and western 
+portions of the circulation. A recent GPM GMI microwave pass showed 
+a slightly elongated eye along with erosion of the western eyewall. 
+The latest Dvorak intensity estimate from TAFB was 5.0/90 kt, while 
+remotely-sensed estimates span a broader range of 69-96 kt. The 
+initial intensity is maintained at 85 kt for this advisory. 
+ 
+Marie is moving toward the west-northwest around 8 kt, and is 
+flanked by a weak mid-level ridge to the west and a strong closed 
+low moving into the Pacific Northwest. The hurricane is expected to 
+continue on this heading through tonight before the ridge weakens 
+and the low digs southeastward over California, causing Marie to 
+turn northwestward. Little change has been made to the previous 
+forecast through days 3-4. After day 4, the weakening cyclone is 
+expected to become increasingly steered by the low- to mid-level 
+environmental flow and remain well offshore over the eastern 
+Pacific. The official track forecast has been shifted to the right 
+of the previous advisory beyond day 4, toward the latest Google 
+DeepMind and corrected consensus (HCCA) guidance.
+
+Despite moving over warm waters and through an environment of low 
+wind shear, Marie is contending with relatively dry mid-level air, 
+which is likely limiting significant strengthening. Similar 
+environmental conditions are expected through tonight, supporting 
+little change in intensity. Beginning Saturday, Marie is forecast to 
+encounter increasingly dry low- and mid-level air along with cooler 
+sea surface temperatures, resulting in gradual weakening. More 
+substantial weakening is expected next week as the hurricane moves 
+into increasingly unfavorable conditions. The official forecast is 
+close to the intensity model consensus.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  04/1500Z 20.1N 117.9W   85 KT 100 MPH
+ 12H  05/0000Z 20.7N 119.0W   85 KT 100 MPH
+ 24H  05/1200Z 21.5N 120.1W   80 KT  90 MPH
+ 36H  06/0000Z 22.3N 121.0W   75 KT  85 MPH
+ 48H  06/1200Z 23.2N 122.0W   70 KT  80 MPH
+ 60H  07/0000Z 23.9N 122.8W   65 KT  75 MPH
+ 72H  07/1200Z 24.5N 123.9W   55 KT  65 MPH
+ 96H  08/1200Z 25.9N 126.2W   40 KT  45 MPH
+120H  09/1200Z 28.5N 128.0W   30 KT  35 MPH
+ 
+$$
+Forecaster Adams
+ 
+NNNN
+

@@ -1,0 +1,63 @@
+
+ZCZC HFOTCDCP4 ALL
+TTAA00 PHFO DDHHMM
+ 
+Tropical Storm Lowell Discussion Number  13
+NWS Central Pacific Hurricane Center Honolulu HI   EP122026
+Issued by NWS National Hurricane Center Miami FL
+1100 AM HST Sun Aug 30 2026
+ 
+Lowell's outflow to the east is starting to improve, a sign that the 
+persistent easterly shear might be decreasing. However, this has not 
+yet resulted in a noticeable increase in the convective 
+organization, as the center is still located just under the eastern 
+side of a triangular-shaped convective mass.  A just-received 
+ASCAT-C overpass shows wind vectors of 42 kt in the northwest 
+quadrant. Based on this and the various satellite intensity 
+estimates, the initial intensity remains 45 kt.
+ 
+The initial motion is now 270/11 kt. As before, a low- to mid-level 
+ridge north of the cyclone should remain the primary steering 
+influence during the next couple of days, resulting in a continued 
+generally westward motion. After that, there remains significant 
+cross-track spread in the guidance. Some of this may be due to the 
+possible influence of Hurricane Karina on Lowell's steering. The two 
+cyclones are likely to stay far enough apart that direct interaction 
+is unlikely. However, the Canadian model forecast still suggests the 
+possibility of Karina affecting Lowell's motion.  Another cause for 
+the spread may be the models' differences in the forecast of a mid- 
+to upper-level trough northwest of the Hawaiian Islands.  The GFS 
+forecasts the trough develop farther south and create a weakness in 
+the subtropical ridge with Lowell moving farther north, while the 
+ECMWF keeps the trough farther to the north with less weakening of 
+the ridge and Lowell staying farther south. Currently, it is 
+difficult to tell which of these scenarios will become reality. The 
+new forecast track lies near the HFIP Corrected Consensus model and 
+is similar to the previous track.
+
+The intensity guidance is unchanged since the last advisory, and 
+indeed it hasn't changed much for the past two days.  Lowell should 
+start intensifying in the next 12-24 h, with a faster rate of 
+strengthening between 24-72 h as conditions become more favorable. 
+The guidance suggests the intensity should level off around 96-120 
+h, and the forecast follows this. The new intensity forecast is an 
+update of the previous forecast.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  30/2100Z 13.3N 141.8W   45 KT  50 MPH
+ 12H  31/0600Z 13.3N 143.4W   45 KT  50 MPH
+ 24H  31/1800Z 13.3N 145.4W   50 KT  60 MPH
+ 36H  01/0600Z 13.5N 147.3W   60 KT  70 MPH
+ 48H  01/1800Z 13.7N 149.2W   70 KT  80 MPH
+ 60H  02/0600Z 13.9N 150.9W   80 KT  90 MPH
+ 72H  02/1800Z 14.1N 152.7W   90 KT 105 MPH
+ 96H  03/1800Z 14.8N 155.8W   95 KT 110 MPH
+120H  04/1800Z 15.6N 158.6W   95 KT 110 MPH
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

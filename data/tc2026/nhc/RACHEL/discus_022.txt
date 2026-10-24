@@ -1,0 +1,68 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Rachel Discussion Number  22
+NWS National Hurricane Center Miami FL       EP182026
+800 AM MST Fri Oct 02 2026
+ 
+Rachel's inner core looks slightly less impressive on satellite 
+imagery than it did 6 to 12 hours ago. The eyewall is not very tight 
+and compact, with areas of dry air intrusion possibly affecting the 
+eyewall.  The latest TAFB current intensity estimate is 5.5/102 kt, 
+but the final-T number is 4.5/77 kt.  Objective intensity estimates 
+from UW-CIMSS have been ranging from 80-95 kt.  The initial 
+intensity is lowered to 95 kt, which is 5 kt lower than the previous 
+NHC advisory.
+ 
+The cyclone is still moving slowly westward at 265/5 kt and will be 
+making its closest approach to Socorro Island today.  This motion is 
+expected to continue with a gradual increase in forward speed over 
+the weekend and into early next week as a mid-level ridge builds to 
+the north.  A gradual bend toward the west-northwest is forecast by 
+Monday as the ridge begins to weaken.  The track guidance remains in 
+fair agreement on this scenario, although some differences remain in 
+the timing of the increase in forward speed by early next week. The 
+latest NHC track forecast is similar to the previous prediction and 
+lies near the HCCA aid.  The NHC forecast is a bit to the south of 
+the latest Google DeepMind Ensemble Mean.
+
+Moderate east-northeasterly vertical wind shear might be helping 
+some dry mid-level air to entrain into Rachel's core, which seems to 
+be causing the eyewall to become a bit more spread out and diffuse 
+compared to 12 hours ago.  These conditions are not forecast to 
+abate during the next 24 hours.  All the guidance shows weakening 
+during the next 24 hours, and so does the official forecast, which 
+is about 15 kt lower than the previous NHC prediction at hour 12 and 
+24.  This forecast remains near the high end of the guidance.  
+Beyond hour 24 the shear should relax somewhat, which should allow 
+Rachel to maintain hurricane intensity for the next 4 days or so.  
+The latest forecast flatlines the intensity at 70 kt from hour 36 to 
+day 4, which is also near the high end of the guidance, but lower 
+than the previous NHC forecast. It should be noted that the HAFS 
+models, HWRF and HMON show Rachel weakening to a tropical storm 
+within the next 24 hours, and then staying at tropical storm 
+strength through the period.  After day 4, Rachel will move across 
+the 26C sea-surface temperature isotherm toward cooler water while 
+also reaching a progressively drier mid-level airmass.  These 
+conditions should cause Rachel to weaken to a tropical storm by the 
+end of the forecast period.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  02/1500Z 19.3N 110.8W   95 KT 110 MPH
+ 12H  03/0000Z 19.3N 111.4W   85 KT 100 MPH
+ 24H  03/1200Z 19.6N 112.1W   75 KT  85 MPH
+ 36H  04/0000Z 19.8N 112.9W   70 KT  80 MPH
+ 48H  04/1200Z 20.0N 113.9W   70 KT  80 MPH
+ 60H  05/0000Z 20.2N 115.0W   70 KT  80 MPH
+ 72H  05/1200Z 20.3N 116.3W   70 KT  80 MPH
+ 96H  06/1200Z 20.8N 119.5W   70 KT  80 MPH
+120H  07/1200Z 21.7N 122.8W   60 KT  70 MPH
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

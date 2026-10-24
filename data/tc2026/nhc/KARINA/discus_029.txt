@@ -1,0 +1,53 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Karina Discussion Number  29
+NWS National Hurricane Center Miami FL       EP112026
+500 AM HST Thu Sep 03 2026
+ 
+Little has changed in Karina's annular appearance over the last
+several hours. The latest subjective Dvorak analysis from TAFB gave
+an intensity estimate of 102 kt, while objective estimates from
+CIMSS ranged from 90-95 kt. Given the continued downward trend
+across subjective and objective Dvorak analysis, the initial
+intensity estimate was set at 100 kt.
+ 
+Karina's initial motion was set at 280/9 kt. The system is forecast
+to shift more west-northwest over the next couple of days, as it
+continues to be guided by a subtropical ridge to its north. By
+late this weekend into early next week, an oncoming upper-level
+trough is expected to pull Karina more to the northwest, away from
+the main Hawaiian Islands. The official track forecast was little
+changed from the previous advisory, with only slight adjustments
+westward to reflect a blend of HCCA, GDMI, and the previous
+official track forecast.
+ 
+A steady weakening trend in Karina's intensity is still expected to
+occur as the system encounters an increasingly drier mid-level
+environment. After 24 h, Karina's weakening trend is
+forecast to hasten as vertical wind shear increases and SSTs
+decrease, with the system expected to become post-tropical by Day
+4. The official intensity forecast increases the rate of weakening
+compared to the previous advisory, falling just above most model
+guidance within the first 24 h before landing closer to guidance
+consensus thereafter.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  03/1500Z 19.8N 136.7W  100 KT 115 MPH
+ 12H  04/0000Z 20.1N 138.0W   95 KT 110 MPH
+ 24H  04/1200Z 20.6N 139.7W   85 KT 100 MPH
+ 36H  05/0000Z 21.0N 141.3W   75 KT  85 MPH
+ 48H  05/1200Z 21.6N 142.5W   70 KT  80 MPH
+ 60H  06/0000Z 22.3N 143.5W   60 KT  70 MPH
+ 72H  06/1200Z 23.2N 144.6W   55 KT  65 MPH
+ 96H  07/1200Z 24.5N 147.6W   40 KT  45 MPH...POST-TROPICAL
+120H  08/1200Z...DISSIPATED
+ 
+$$
+Forecaster Evans/Berg
+ 
+NNNN
+

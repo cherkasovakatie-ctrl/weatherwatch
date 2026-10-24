@@ -1,0 +1,57 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Odalys Discussion Number  15
+NWS National Hurricane Center Miami FL       EP162026
+200 PM PDT Wed Sep 23 2026
+
+Odalys' convective organization has not changed much in the past 
+several hours. However, the hurricane continues to produce very deep 
+convection near the center, with cloud-top temperatures as cold as 
+-90 C.  The subjective Dvorak intensity estimate from TAFB came in 
+at 4.0/65 kt, and objective estimates of DMINT and ADT from UW-CIMSS 
+showed values of 68 and 72, respectively. Given these data and the 
+deeper convection, the initial intensity is raised to 70 kt.
+ 
+Multiple microwave imagery passes helped refine the position for 
+Odalys, requiring an amendment of the best track a bit to the south. 
+The initial motion is estimated to be about 85/6 kt. Odalys is being 
+steered by the flow between a mid- to upper-level trough to its 
+northwest and a ridge extending southwestward from central Mexico. 
+The hurricane is forecast to turn toward the northeast and then 
+north, on the southeastern side of the trough in the next day or so. 
+Beyond day 3, the steering pattern becomes ill-defined, and 
+potential interaction with Hurricane Polo could complicate the track 
+of Odalys late in the forecast period. There is considerable 
+uncertainty at this time as the spread of the model envelope is much 
+larger than normal. The updated NHC track forecast is near the 
+previous advisory, and lies near the reliable HCCA and GDMI forecast 
+guidance.
+ 
+For the next 48 h, Odalys is forecast to remain in a favorable 
+environment that may allow it to strengthen or at least maintain its 
+intensity. After that, the cyclone will move into an environment of 
+stronger westerly vertical wind shear, lowered SSTs, and dry 
+mid-level air. These environmental conditions will induce a steady 
+weakening trend. The official intensity forecast closely follows 
+HCCA and GDMI, and aligns with the previous NHC advisory.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  23/2100Z 15.5N 127.2W   70 KT  80 MPH
+ 12H  24/0600Z 15.8N 126.0W   75 KT  85 MPH
+ 24H  24/1800Z 16.4N 124.7W   80 KT  90 MPH
+ 36H  25/0600Z 17.3N 123.6W   75 KT  85 MPH
+ 48H  25/1800Z 18.1N 123.1W   70 KT  80 MPH
+ 60H  26/0600Z 19.1N 122.9W   60 KT  70 MPH
+ 72H  26/1800Z 20.2N 122.7W   50 KT  60 MPH
+ 96H  27/1800Z 22.5N 121.8W   40 KT  45 MPH
+120H  28/1800Z 22.5N 121.1W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Pierce/Zelinsky
+ 
+NNNN
+

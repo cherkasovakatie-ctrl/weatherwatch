@@ -1,0 +1,90 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Polo Discussion Number  31
+NWS National Hurricane Center Miami FL       EP172026
+200 AM MST Mon Sep 28 2026
+ 
+Polo has remained fairly steady over the past 6 hours in terms of 
+its overall convective structure.  The ragged eye and inner core 
+have perhaps only become slightly less impressive.  The TAFB current 
+intensity number is 5.5/102 kt and recent UW-CIMSS objective 
+estimates are in the 90-100 kt range.  The initial intensity is 
+nudged downward to 100 kt.
+ 
+The major hurricane is now moving north-northeastward at 9 kt on the
+western side of a mid-level ridge that is situated over northern
+Mexico.  Polo is forecast to turn northeastward by this afternoon 
+as a trough amplifies over California, taking the core of the 
+hurricane over the Baja California Peninsula late this afternoon or 
+evening.  Polo is then expected to briefly pass over the Gulf of 
+California before making a second landfall in northwestern mainland 
+Mexico late tonight or early Tuesday morning.  The latest NHC 
+forecast is on top of the previous forecast, but slightly slower, 
+and lies close to the HFIP Corrected Consensus Approach (HCCA) 
+guidance.
+
+The SHIPS and UW-CIMSS analyses are currently diagnosing less than 
+10 kt of vertical wind shear over Polo.  The shear is expected to 
+increase to about 15 to 18 kt by the time Polo makes landfall in 
+Baja California Sur, but thermodynamic conditions aren't expected to 
+change much.  Most of the guidance indicates slight weakening over 
+the next 12 to 18 hours.  The most likely scenario for the intensity 
+at landfall in Baja California is around 95 kt, but there is also a 
+chance that Polo could maintain its current intensity until it makes 
+landfall.  Land interaction with the peninsula and an increase in 
+wind shear should cause some weakening, but Polo is still expected 
+to be a hurricane when it reaches mainland Mexico. After the second 
+landfall, rapid weakening is forecast over the rugged terrain of 
+Mexico.  The official intensity forecast is only slightly lower 
+than the previous one up until the first landfall, and then is 
+similar to the previous forecast.  The NHC intensity forecast is in 
+good agreement with the majority of the guidance.
+ 
+Although Polo is expected to dissipate before it reaches the 
+southern U.S., distant moisture associated with it and the 
+Post-Tropical Cyclone Odalys will be transported into the 
+southwestern United States during the next few days, and may 
+indirectly contribute to a heavy rainfall and flash flood threat in 
+the region. See products issued by the Weather Prediction Center for 
+more information.
+ 
+ 
+Key Messages:
+ 
+1. Polo is forecast to make landfall on the west coast of the Baja
+California Peninsula near major hurricane strength late today, 
+within the Hurricane Warning area. Conditions are expected to begin 
+to deteriorate there this morning, making further preparations
+difficult. Hurricane and tropical storm conditions are expected to
+spread across Baja California through today through tonight, and 
+into mainland Mexico late tonight into early Tuesday. A storm 
+surge is likely, especially in areas of onshore winds.
+ 
+2. Heavy rainfall associated with Polo will impact Baja California 
+Sur along with southern and central portions of Sonora today into 
+Tuesday. This rainfall may produce life-threatening flooding and 
+mudslides, especially in areas of steep terrain. Moisture from Polo 
+will support heavy rainfall and flooding potential across the 
+Southwest U.S. into the Southern High Plains late today into 
+Tuesday.
+ 
+3. Dangerous surf and rip currents are likely along portions of
+the northwest coast of Mexico and Baja California for the next
+couple of days.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  28/0900Z 23.6N 113.8W  100 KT 115 MPH
+ 12H  28/1800Z 24.8N 113.2W   95 KT 110 MPH
+ 24H  29/0600Z 26.7N 111.6W   75 KT  85 MPH...EAST COAST OF BAJA
+ 36H  29/1800Z 29.5N 109.4W   40 KT  45 MPH...INLAND
+ 48H  30/0600Z...DISSIPATED
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

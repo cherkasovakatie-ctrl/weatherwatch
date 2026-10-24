@@ -1,0 +1,87 @@
+
+ZCZC HFOTCDCP4 ALL
+TTAA00 PHFO DDHHMM
+ 
+Tropical Storm Lowell Discussion Number  56
+NWS Central Pacific Hurricane Center Honolulu HI   EP122026
+Issued by NWS National Hurricane Center Miami FL
+500 PM HST Wed Sep 09 2026
+
+Lowell's convective structure on satellite imagery is not very 
+impressive, consisting of a well-defined low-level swirl with some 
+colder cloud tops attempting to form on the northeast side of the 
+circulation. The storm is clearly being negatively impacted by 
+moderate westerly shear importing nearby dry air and marginally warm 
+sea-surface temperatures. Scatterometer data received after the 
+prior advisory indicated a robust surface wind field remains, with 
+peak wind-retrievals in the 45 to 50 kt range. However, subjective 
+and objective satellite estimates continue to decrease, and assuming 
+the low-level circulation continues to spin down without much deep 
+convection, the initial intensity is set to 45 kt for this advisory.
+
+The tropical cyclone has turned westward, with the estimated motion 
+now 280 degrees at 12 kt. Lowell is now being steered primarily by a 
+low- to mid-level ridge located north of the tropical storm, and 
+this should maintain a general westward motion over the next 24-36 
+h. After that time, a mid- to upper-level trough located northwest 
+of Lowell is anticipated to cutoff and interact with the cyclone, 
+with the track guidance coming into better agreement that this will 
+lead to a sharp turn to the northwest or north in 60-72 h. By the 
+end of the forecast period, the upper-level cutoff low moves east 
+of Lowell, leaving behind a shallow low-level circulation sandwiched 
+between two low-level ridges. The track guidance responds to this 
+change by indicating a slow southward drift as the cyclone becomes a 
+remnant low. The NHC track forecast is very similar to the prior one 
+for the first 2-3 days, but shows a sharper turn southward 
+by the end of the forecast. This track is closest to the Google 
+DeepMind (GDMI) and HFIP Corrected Consensus Approach (HCCA) aids.  
+
+Moderate westerly vertical wind shear, abundant dry air, and only 
+marginally warm sea-surface temperatures are likely to lead to 
+further weakening over the next 36 h. In fact, Lowell could struggle 
+to produce enough convection to be considered a tropical cyclone 
+during this period. Nonetheless, the aforementioned trough 
+interaction in the 2-3 day time frame will likely reinvigorate some 
+convection on the storm's down-shear side via baroclinic processes, 
+which could help intensify Lowell's wind field. Most of the 
+intensity guidance shows at least some intensification during this 
+period of interaction, and the NHC intensity forecast was adjusted 
+somewhat to reflect this solution, though it remains below the 
+HAFS-A/B hurricane models. After 72 h, the upper-level low 
+interacting with Lowell will pass it to the east, leaving the storm 
+in an area of enhanced subsidence that will likely diminish the 
+remaining convection when the storm will be over sub-26 C SSTs. 
+Thus, the latest NHC forecast still shows Lowell becoming a 
+post-tropical low in 96 h. There is still a healthy amount of track 
+uncertainty towards the end of the forecast, though the guidance is 
+coming into better agreement on Lowell losing its tropical 
+characteristics by this time.
+ 
+ 
+KEY MESSAGES:
+ 
+1. Post-storm safety: Follow advice of local officials and avoid
+areas of downed power lines and flooding. Ensure generators are
+properly ventilated and placed outside at least 20 feet away from
+dwellings and garages to avoid carbon monoxide poisoning. During
+clean up, be careful when using chainsaws and power tools. Drink
+plenty of water to avoid heat exhaustion.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  10/0300Z 29.2N 165.1W   45 KT  50 MPH
+ 12H  10/1200Z 29.3N 167.1W   40 KT  45 MPH
+ 24H  11/0000Z 29.2N 169.5W   35 KT  40 MPH
+ 36H  11/1200Z 29.4N 171.2W   35 KT  40 MPH
+ 48H  12/0000Z 30.6N 172.0W   40 KT  45 MPH
+ 60H  12/1200Z 32.2N 172.4W   45 KT  50 MPH
+ 72H  13/0000Z 33.3N 173.4W   40 KT  45 MPH
+ 96H  14/0000Z 32.8N 175.1W   30 KT  35 MPH...POST-TROP/REMNT LOW
+120H  15/0000Z 31.6N 175.4W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

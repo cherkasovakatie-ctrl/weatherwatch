@@ -1,0 +1,105 @@
+
+ZCZC MIATCDAT4 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Isaias Discussion Number   3
+NWS National Hurricane Center Miami FL       AL092026
+400 AM CDT Wed Oct 07 2026
+ 
+Satellite imagery depicts a bursting pattern with the tropical 
+cyclone this morning, with cloud top temperatures below -85 C in the 
+deep convection close to the estimated center. Earlier, an 0307 UTC 
+ASCAT-C pass suggested the low-level circulation was still rather 
+broad, with a peak wind retrieval of only 31 kt. However, the 
+bursting convection already appears to be tightening up the 
+circulation somewhat, with a nearby surface observation from a buoy 
+north of the center recently reporting a sustained 10 m adjusted 
+wind of 35 kt. This information is enough to upgrade the depression 
+to Tropical Storm Isaias for this advisory. This initial intensity 
+will be 35 kt, which also agrees with the 06 UTC Dvorak fix of 
+T2.5/35 kt. Both Air Force Reserve and NOAA Hurricane Hunter 
+reconnaissance missions are scheduled to sample the tropical storm 
+later today. 
+ 
+Isaias is estimated to be moving east-northeastward this morning at 
+075/7 kt. This general motion should continue today as the storm's 
+steering is influenced by a zonally oriented mid-level trough 
+currently draped along the northern Gulf coast. Over time, this 
+trough is expected to be reinforced by another short-wave that is 
+moving across the Rocky Mountains, with the trough ultimately 
+sharpening up northwest of Isaias over Texas. At the same time, a 
+subtropical ridge centered south of Bermuda is expected to shift 
+westward, helping to enhance the deep-layer southerly flow over the 
+eastern Gulf. Thus, Isaias is expected to turn northeastward and 
+then northward on Thursday and Friday, making its approach to the 
+northern Gulf coast in 60-72 h. As mentioned in the previous 
+discussion, there remains quite a bit of along and across-track 
+spread in the track guidance, with the AI-model guidance remaining 
+on the east side, and physics-based models on the west side of the 
+guidance envelope. The NHC track forecast continues to favor more of 
+the eastward solutions, but not quite as far east as the latest HFIP 
+Corrected Consensus Approach (HCCA) or Google DeepMind ensemble mean 
+(GDMI). This latest track is a eastward shift compared to the 
+previous forecast, but given large amount of across- and along-track 
+spread users should continue to monitor forecast updates given the 
+below-average track confidence.
+
+The short-term environment near Isaias is rather favorable, with 
+very warm 30-31 C sea-surface temperatures, plenty of deep-layer 
+moisture, with light to moderate shear diagnosed between 10-15 kt by 
+SHIPS guidance. While it is difficult to get an exact gauge on the 
+tropical storm's core structure since there have not been any 
+recent microwave images, it is worth noting both the 00 UTC HAFS-A/B 
+runs appeared to initialize with a broad structure similar to what 
+was noted in the earlier ASCAT pass. Despite their initial broad 
+structure, these hurricane-regional models show Isaias developing an 
+inner-core rather quickly later today. There was a notable increase 
+in the intensity aid guidance this forecast cycle, and the NHC 
+intensity forecast is being raised accordingly, now showing Isaias 
+reaching a peak intensity of 95 kt in 48 h while it is over the 
+central Gulf. Vertical wind shear then increases quite dramatically 
+in the final 24 hours before the cyclone reaches the northern Gulf 
+coast, though it is looking more likely that Isaias will be a 
+significant hurricane when it reaches the coast. Near landfall, 
+Isaias will also be interacting with the short-wave trough, likely 
+leading to an expanding wind field. Additional convective and 
+motion asymmetries will likely cause rain and wind impacts to 
+extend far from the center on the eastern side of the storm.
+ 
+Key Messages:
+ 
+1. There is an increasing risk of dangerous wind and storm surge 
+impacts along portions of the northern Gulf Coast. Residents from 
+Louisiana to the Florida Panhandle should closely monitor the latest 
+forecast updates and ensure they have their hurricane plan in place. 
+Hurricane and Storm Surge Watches will likely be required for a 
+portion of the northern Gulf coast later today. 
+ 
+2. Tropical Storm Isaias will bring areas of heavy rainfall to the 
+central U.S. Gulf coast and much of the Southeast Friday into the 
+weekend. Flash and urban flooding, along with isolated river 
+flooding, will be possible.
+ 
+3. Yucatan Peninsula of Mexico: Tropical Storm Isaias is expected to
+strengthen and could bring gusty winds and areas of heavy rain to
+the western portion of the Yucatan Peninsula over the next day or 
+two. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  07/0900Z 22.0N  94.1W   35 KT  40 MPH
+ 12H  07/1800Z 22.2N  92.9W   50 KT  60 MPH
+ 24H  08/0600Z 22.7N  91.4W   65 KT  75 MPH
+ 36H  08/1800Z 23.9N  89.7W   80 KT  90 MPH
+ 48H  09/0600Z 25.5N  88.5W   95 KT 110 MPH
+ 60H  09/1800Z 27.7N  87.7W   90 KT 105 MPH
+ 72H  10/0600Z 30.8N  87.7W   75 KT  85 MPH...INLAND
+ 96H  11/0600Z 38.2N  87.5W   25 KT  30 MPH...POST-TROP/INLAND
+120H  12/0600Z...DISSIPATED
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

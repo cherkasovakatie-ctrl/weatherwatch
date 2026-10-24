@@ -1,0 +1,31 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Remnants Of Polo Discussion Number  38
+NWS National Hurricane Center Miami FL       EP172026
+800 PM MST Tue Sep 29 2026
+ 
+Satellite images and surface observations indicate that Polo has
+dissipated over the rugged terrain of northwestern Mexico, and this
+is the last NHC advisory. However, the remnants of Polo are still
+producing areas of heavy rain and gusty winds over portions of
+northwestern Mexico and the southwestern U.S. The initial intensity
+is estimated to be around 30 kt.
+ 
+The remnant trough is forecast to continue to weaken, but the
+associated moisture will likely produce heavy rainfall and flooding
+across the Southwest U.S. and the Southern High Plains tonight and 
+Wednesday morning.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  30/0300Z 30.5N 108.0W   30 KT  35 MPH...REMNANTS OF POLO
+ 12H  30/1200Z...DISSIPATED
+ 
+$$
+Forecaster Cangialosi
+ 
+NNNN
+

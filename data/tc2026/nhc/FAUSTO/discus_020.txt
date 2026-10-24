@@ -1,0 +1,59 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Fausto Discussion Number  20
+NWS National Hurricane Center Miami FL       EP062026
+1100 AM HST Thu Jul 23 2026
+ 
+The satellite presentation of Fausto has improved during the past 
+several hours. The hurricane has a ragged eye, with a ring of cold 
+cloud tops surrounding the center associated with deep convection. 
+Based on these structural improvements, the initial intensity is 
+raised to 75 kt, which falls between recent D-PRINT (72 kt), D-MINT 
+(76 kt), and Dvorak (77 kt) intensity estimates. 
+
+A well-established ridge to the north of Fausto continues to steer 
+the hurricane westward (280/12 kt). This ridge will remain the 
+dominant steering feature during the next several days, keeping 
+Fausto on a westward heading as it crosses into the Central Pacific 
+basin. The track model envelope has tightened up this cycle, with 
+decreased cross-track spread compared to earlier today. Since the 
+bulk of the guidance trended slightly northward, the updated NHC 
+track forecast is nudged in that direction to reflect the latest 
+model consensus aids (HCCA and TVCN). While the longer-range 
+forecast brings the center of Fausto generally toward the main 
+Hawaiian Islands, it is too early to discuss any potential impacts.
+
+After struggling with dry air intrusions earlier today, Fausto has 
+managed to close off an eyewall. Slight additional near-term 
+strengthening cannot be completely ruled out if the hurricane 
+maintains this structure. However, water vapor imagery indicates the 
+hurricane is moving into an increasingly drier air mass over 
+marginal (26-26.5C) SSTs, and there is the potential for westerly 
+mid-level shear to introduce drier air into the circulation once 
+again. The longer-term NHC forecast shows gradual weakening through 
+the weekend and into early next week, but still remains on the 
+higher end of the intensity guidance. This forecast keeps Fausto a 
+tropical cyclone through day 5, but the drier and more stable air 
+mass over the Central Pacific will likely make it difficult for 
+Fausto to maintain organized convection by early next week.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  23/2100Z 18.2N 126.9W   75 KT  85 MPH
+ 12H  24/0600Z 18.5N 128.9W   75 KT  85 MPH
+ 24H  24/1800Z 18.8N 131.7W   70 KT  80 MPH
+ 36H  25/0600Z 19.2N 134.3W   65 KT  75 MPH
+ 48H  25/1800Z 19.5N 136.5W   65 KT  75 MPH
+ 60H  26/0600Z 19.8N 138.8W   60 KT  70 MPH
+ 72H  26/1800Z 20.1N 141.3W   55 KT  65 MPH
+ 96H  27/1800Z 20.7N 147.0W   50 KT  60 MPH
+120H  28/1800Z 21.2N 153.1W   45 KT  50 MPH
+ 
+$$
+Forecaster Reinhart
+ 
+NNNN
+

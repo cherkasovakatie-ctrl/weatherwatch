@@ -1,0 +1,58 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM CCA
+ 
+Hurricane Rachel Discussion Number  27...Corrected
+NWS National Hurricane Center Miami FL       EP182026
+200 PM MST Sat Oct 03 2026
+
+Corrected paragraph alignment
+
+Satellite imagery suggests that Rachel has formed a larger eye this 
+afternoon, with the inner eyewall fading away on the latest infrared 
+data.  Intensity estimates have dropped slightly, and latest 
+subjective Dvorak CI number from TAFB was 4.5/77 kt, but the Final 
+T-number was 4.0/65 kt. This aligns well with most UW-CIMSS 
+objective satellite intensity estimates, which range from 63 to 77 
+kt. Based on a compromise of these data, the initial intensity is 
+lowered to 70 kt.
+
+The initial motion continues west-northwestward, or 300/4 kt. 
+Rachel's slow motion over the next two days will be governed by a 
+ridge extending southwestward from a mid- to upper-level high over 
+the western United States. Rachel is forecast to accelerate slightly 
+after 60 h, continuing on a west to west-northwestward trajectory 
+through the remainder of the forecast period. The updated NHC track 
+forecast is largely unchanged from the previous advisory and roughly 
+follows the corrected-consensus (HCCA) aid through 120 h. 
+
+Rachel is anticipated to gradually weaken through the next 24 h due 
+to an unfavorable environment of moderate northeasterly vertical 
+wind shear, dry mid-level air, and cooler sea surface temperatures 
+(SSTs) associated with Hurricane Polo's cold wake. As Rachel moves 
+west of the wake, environmental conditions should allow for some 
+re-intensification after the weekend through 72 h. However, beyond 
+72 h, Rachel will encounter an even drier air mass, with mid-level 
+relative humidity values dipping below 40 percent. At the same time, 
+SSTs will drop below 26 C, likely expediting the weakening trend 
+through the remainder of the forecast period. The new forecast is 
+very similar to the previous one. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  03/2100Z 19.8N 112.5W   70 KT  80 MPH
+ 12H  04/0600Z 20.0N 113.2W   65 KT  75 MPH
+ 24H  04/1800Z 20.3N 114.2W   60 KT  70 MPH
+ 36H  05/0600Z 20.5N 115.4W   60 KT  70 MPH
+ 48H  05/1800Z 20.6N 116.8W   65 KT  75 MPH
+ 60H  06/0600Z 20.8N 118.5W   70 KT  80 MPH
+ 72H  06/1800Z 20.9N 120.1W   70 KT  80 MPH
+ 96H  07/1800Z 21.6N 123.3W   60 KT  70 MPH
+120H  08/1800Z 22.5N 126.4W   50 KT  60 MPH
+ 
+$$
+Forecaster Pierce/Blake
+ 
+NNNN
+

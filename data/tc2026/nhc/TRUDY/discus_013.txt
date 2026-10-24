@@ -1,0 +1,89 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Trudy Discussion Number  13
+NWS National Hurricane Center Miami FL       EP212026
+900 AM CST Fri Oct 16 2026
+
+Satellite imagery shows that Trudy's intensification has again 
+paused, with the eye becoming less distinct and the convective cloud 
+tops in the eyewall becoming warmer. An earlier GPM microwave 
+overpass suggested that the eyewall has opened up on the south side, 
+possibly due to a tongue of dry air wrapping into that part of the 
+hurricane.  The various satellite intensity estimates have changed 
+little since the last advisory, so the initial intensity is held at 
+105 kt.  An Air Force Reserve Hurricane Hunter aircraft is scheduled 
+to investigate Trudy later today.
+
+The initial motion is a somewhat erratic 335/4 kt, as Trudy has 
+followed its previous westward jog with a northward jog. A gradual 
+turn toward the northwest is likely during the next 24 hours as a 
+weak low-level to mid-level ridge builds over eastern Mexico. This 
+motion should continue through about 72 hours, with the center 
+passing near or over the coast of west-central Mexico at about the 
+48 hour point. After that time, a weakening Trudy should be steered 
+more by low-level flow. However, the guidance has some spread as to 
+which direction that should be. Some of the guidance shows a 
+west-northwest or west motion, while some models steer the cyclone 
+more northward due to the influence of a large deep-layer trough 
+over the northeastern Pacific. This part of the forecast track 
+splits the difference by showing a slow west-northwestward motion. 
+Overall, the new forecast track is similar to the previous track 
+through 60 hours, and then is a little to the north of the previous 
+track.
+
+While the environment that Trudy is in seems to be conducive for 
+strengthening, the intensification has sputtered twice during the 
+past day or so. And in an interesting twist, the regional hurricane 
+models do not forecast any additional strengthening before the 
+hurricane reaches a less favorable environment. Other intensity 
+guidance suggest some intensification could still occur, and based 
+on a blend of this and the previous forecast the new intensity 
+forecast shows some strengthening during the next 24 hours. Trudy is 
+still expected to be a major hurricane as it approaches the coast of 
+Mexico. Later in the forecast period, Trudy is expected have land 
+interaction, move into a drier air mass, and encounter increasing 
+southwesterly shear. These factors should cause steady to rapid 
+weakening, and the new forecast follows the previous forecast in 
+showing the system as a post-tropical low by 120 h.
+ 
+ 
+KEY MESSAGES:
+ 
+1. Trudy is forecast to be a major hurricane when it approaches the
+coast of southwestern and west-central Mexico this weekend, bringing
+an increasing risk of storm surge, damaging winds, and flooding
+rain. Hurricane Warnings and Watches, as well as Tropical Storm 
+Warnings and Watches, are currently in effect for portions of the 
+coast, and additional watches and warnings will likely be required 
+later today or tonight.
+ 
+2. Heavy rainfall associated with Trudy will impact the southwest 
+Mexican coast between Guerrero and Jalisco through the weekend. This 
+rainfall may produce life-threatening flooding and mudslides by the 
+weekend along and near the southwest Mexican coast in Michoacán, 
+Colima, and Jalisco, especially in areas along steep terrain.
+ 
+3. Large swells are affecting portions of the coast of southwestern
+Mexico and will spread northward through the weekend, causing
+life-threatening surf and rip current conditions.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  16/1500Z 14.6N 102.5W  105 KT 120 MPH
+ 12H  17/0000Z 15.3N 102.9W  115 KT 130 MPH
+ 24H  17/1200Z 16.6N 103.8W  120 KT 140 MPH
+ 36H  18/0000Z 18.1N 104.8W  115 KT 130 MPH
+ 48H  18/1200Z 19.6N 105.8W  100 KT 115 MPH
+ 60H  19/0000Z 20.7N 106.4W   85 KT 100 MPH
+ 72H  19/1200Z 21.2N 107.1W   65 KT  75 MPH
+ 96H  20/1200Z 21.7N 108.1W   45 KT  50 MPH
+120H  21/1200Z 22.2N 109.1W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

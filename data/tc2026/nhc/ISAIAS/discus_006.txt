@@ -1,0 +1,91 @@
+
+ZCZC MIATCDAT4 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Isaias Discussion Number   6
+NWS National Hurricane Center Miami FL       AL092026
+1000 PM CDT Wed Oct 07 2026
+ 
+Aircraft data and satellite trends indicate Isaias has continued 
+intensifying this evening. The center of the tropical cyclone is 
+embedded underneath a small central dense overcast with very cold 
+tops associated with deep convection. Upper-level outflow is 
+observed in all quadrants, though it remains somewhat restricted to 
+the southwest due to moderate vertical wind shear. Data from the Air 
+Force Hurricane Hunters indicates the central pressure has fallen to 
+988 mb, and on the last fix they reported a circular eyewall open to 
+the southwest. Based on these developments, the initial intensity is 
+raised to 60 kt.
+
+Aircraft fixes indicate the center is still moving toward the 
+east-northeast (070/8 kt). The system is expected to accelerate 
+northeastward tomorrow and then northward on Friday within the flow 
+between a deepening trough over the south-central United States and 
+a strengthening subtropical ridge over the western Atlantic. This 
+steering pattern is forecast to bring the center of Isaias to the 
+northern Gulf Coast late Friday night into early Saturday. There 
+were no major changes to the guidance suite, with the AI-based 
+models generally faster and farther right than the physics-based 
+models. The NHC forecast continues to lean more heavily on the 
+better-performing corrected consensus (HCCA) and Google DeepMind 
+(GDMI) aids, remaining on the faster and right side of the guidance 
+envelope. The inland track at 60-72 h was shifted westward as more 
+models now show Isaias becoming captured by the cutoff low over the 
+southeastern United States.
+
+Continued strengthening is expected during the next day or so as 
+Isaias moves over very warm waters in a moist environment with 
+moderate vertical wind shear. Given its small size and formative 
+inner core, rapid intensification is a distinct possibility, and the 
+NHC forecast lies on the high end of the intensity guidance. The 
+shear is predicted to markedly increase on Friday while Isaias 
+approaches the northern Gulf Coast, but the system is expected to 
+remain a dangerous hurricane through landfall. Gusty winds are 
+expected well inland after landfall given the anticipated expansion 
+of the wind field and fast forward speed of the storm.
+
+Hurricane, Storm Surge, and Tropical Storm Warnings have been 
+issued with this advisory for portions of the northern Gulf Coast.
+
+ 
+Key Messages:
+ 
+1. Isaias is expected to strengthen and be a strong hurricane when 
+it approaches the northern Gulf Coast on Friday. A life-threatening 
+storm surge is expected along a portion of the northern Gulf Coast, 
+and a Storm Surge Warning is now in effect from the Mouth of the 
+Mississippi River to Steinhatchee, Florida. Residents in the warning 
+area should follow advice given by local officials and evacuate if 
+told to do so.
+ 
+2. Damaging hurricane force-winds are expected over portions of the 
+Florida Panhandle, southern Alabama, and southern Mississippi, and a 
+Hurricane Warning is now in effect from Ocean Springs, Mississippi 
+to the Bay/Gulf County Line, Florida. Residents in these areas 
+should prepare for the possibility of long-duration power outages. 
+ 
+3. Isaias will bring areas of heavy rainfall to the central U.S. 
+Gulf coast and much of the Southeast Friday into the weekend. Flash 
+and urban flooding, along with isolated river flooding, will be 
+possible.
+ 
+4. Isaias could bring gusty winds and areas of heavy rain to the 
+western portion of the Yucatan Peninsula through Thursday.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  08/0300Z 22.9N  91.9W   60 KT  70 MPH
+ 12H  08/1200Z 23.4N  90.7W   75 KT  85 MPH
+ 24H  09/0000Z 24.7N  89.1W   85 KT 100 MPH
+ 36H  09/1200Z 26.8N  87.9W   95 KT 110 MPH
+ 48H  10/0000Z 29.6N  87.3W   90 KT 105 MPH
+ 60H  10/1200Z 32.5N  87.5W   50 KT  60 MPH...INLAND
+ 72H  11/0000Z 35.1N  88.0W   25 KT  30 MPH...POST-TROP/INLAND
+ 96H  12/0000Z...DISSIPATED
+ 
+$$
+Forecaster Reinhart
+ 
+NNNN
+

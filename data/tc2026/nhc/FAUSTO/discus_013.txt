@@ -1,0 +1,66 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Fausto Discussion Number  13
+NWS National Hurricane Center Miami FL       EP062026
+500 PM HST Tue Jul 21 2026
+
+A 21/2144 UTC AMSR-2 overpass shows a microwave eye feature tucked 
+under the convection, indicating that Fausto may have re-gained some 
+organization.  The pass also indicates the previous advisory may 
+have been about 10 to 15 miles too fast toward the northwest.  
+Recent objective intensity estimates have been ranging between 60-75 
+kt.  The latest subjective Dvorak estimate from TAFB is 4.5/77 kt. 
+The initial intensity is raised to 70 kt for this advisory, as a 
+blend of all the aforementioned data.
+
+The initial motion estimate is west-northwestward at 8 kt.  The 
+subtropical ridge to the north and northeast of the cyclone should 
+build westward during the next several days, which should steer the 
+cyclone west-northwestward to westward through the forecast period. 
+The new NHC forecast track lies slightly to the south of, and is a 
+bit slower than, the previous forecast track for the first 3 days, 
+and is in excellent agreement with the latest HCCA and GDMI during 
+that time.  Beyond 3 days, the NHC forecast has been shifted 
+southward of the previous forecast, but not nearly as far south as 
+the latest HCCA and GDMI.  The confidence in the forecast track is 
+moderate to high through 72 h, given the relatively tight clustering 
+of the guidance.  Spread increases after that time, with the GFS 
+among the slower and farthest north models, while the ECMWF, HCCA 
+and GDMI are faster and farther south.
+
+While Fausto is forecast to be in a light to moderate shear 
+environment for the next several days, it will be moving over slowly 
+decreasing sea surface temperatures (SSTs) through 72 h. The 
+forecast track is near and roughly parallel to the 26C isotherm.  In 
+addition, the atmospheric moisture near the storm should slowly 
+decrease through 72 h, followed by a faster decrease.  Slow 
+strengthening is forecast during the next 48 h, and no change is 
+made to the 85 kt peak intensity forecast shown in the previous 
+advisory.  The NHC forecast lies between the middle and upper-end of 
+the reliable intensity guidance during that period.  By Thursday 
+night or Friday, gradual weakening is expected due to the drier air 
+and SSTs near 26C.  The NHC intensity forecast lies at the high end 
+of the model suite from 60 h through the end of the forecast 
+period. It is possible that Fausto could weaken to a tropical storm 
+by day 5, given that several reliable models show this scenario.
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  22/0300Z 16.6N 120.3W   70 KT  80 MPH
+ 12H  22/1200Z 16.9N 121.4W   75 KT  85 MPH
+ 24H  23/0000Z 17.3N 123.1W   75 KT  85 MPH
+ 36H  23/1200Z 17.6N 125.3W   80 KT  90 MPH
+ 48H  24/0000Z 17.9N 127.8W   85 KT 100 MPH
+ 60H  24/1200Z 18.2N 130.6W   80 KT  90 MPH
+ 72H  25/0000Z 18.6N 133.3W   75 KT  85 MPH
+ 96H  26/0000Z 19.2N 138.3W   70 KT  80 MPH
+120H  27/0000Z 20.0N 143.3W   65 KT  75 MPH
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

@@ -1,0 +1,98 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Nolo Discussion Number  18
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+500 PM HST Thu Sep 24 2026
+ 
+Nolo's structure on satellite imagery continues to gradually 
+improve with a banding-type eye trying to develop on visible 
+satellite imagery. The Air Force Reserve Hurricane Hunters have been 
+flying through Nolo this afternoon, and found a peak flight-level 
+wind of 71 kt and a minimum central pressure down to 984 mb in their 
+most recent fix. These values are enough to upgrade Nolo to a 
+hurricane this advisory, with an initial intensity of 65 kt. 
+ 
+The storm is finally moving more consistently to the north-northeast 
+with an estimated motion at 020 degrees at 4 kt. There is little 
+change to the track reasoning this cycle, with a deep-layer trough 
+located to the northwest of Nolo helping to steer it slowly to the 
+north-northeast over the next 24-36 h. Thereafter, this trough cuts 
+off to the west of the Hawaiian islands and moves westward out of 
+the way, allowing mid-level ridging to build back in north of Nolo. 
+The net result of this synoptic change is that Nolo is expected to 
+make a sharp turn to the west, or even west-southwest in the 48-72 h 
+time frame. However, the aforementioned cutoff low still limits how 
+far west this mid-level ridging is able to extend, and Nolo will 
+likely begin to gain latitude in the day 4-5 day time frame. The 
+track guidance has made a rather substantial southward shift 
+compared to the previous cycle, and the NHC track forecast has been 
+shifted southward, though it remains on the northern side of the 
+guidance envelope. This track forecast lies closest to the Google 
+DeepMind ensemble mean (GDMI) which is actually a northern outlier 
+this cycle, so it's possible future southward adjustments may be 
+necessary.
+
+Even though Nolo is now a hurricane, the Air Force Reconnaissance 
+aircraft has yet to report a closed eyewall in either of its fixes 
+through the hurricane, and the wind field is a little bit on the 
+broader side. However, environmental conditions appear quite 
+favorable with low shear, sufficently warm sea-surface temperatures 
+and enough deep-layer moisture to support robust intensification. 
+The NHC intensity forecast continues to forecast significant 
+intensification, and now shows a peak intensity of 115 kt as Nolo 
+turns westward in the 48-72 h time frame. This intensity forecast 
+is a blend of the latest HFIP Corrected Consensus Approach (HCCA) 
+and HAFS-A/B runs, even though the HCCA remains the highest outlier 
+in the intensity guidance this cycle. At long range, vertical wind 
+shear is expected to increase, and the NHC intensity shows 
+weakening beginning by day 5. 
+ 
+Key Messages:
+ 
+1. Nolo is expected to pass near or just south of the Big Island of 
+Hawaii on Saturday as a major hurricane.  Tropical storm conditions 
+are expected to begin on the Big Island Friday night with hurricane 
+conditions possible on Saturday, particularly in areas of steep 
+terrain.  Residents should follow advice given by local officials, 
+including evacuating if told to do so.
+ 
+2. The time to finish preparations for significant heavy rain and 
+flooding impacts on the Big Island is now as heavy rain increases in 
+both coverage and intensity today and Friday. Periods of heavy rain 
+are expected to continue across the Big Island and Maui through the 
+weekend. Life-threatening, catastrophic flooding and mudslides are 
+possible, especially in areas of steep terrain across the eastern 
+and southern portions of the Big Island and Maui. Across the 
+remainder of Hawaii, lesser rainfall totals are expected, with 
+isolated flooding possible. 
+ 
+3. Large and damaging waves are likely along portions of the
+Big Island's coastline into the weekend.
+ 
+4. A Tropical Storm Watch is in effect for Maui County where
+tropical storm conditions are possible beginning on Saturday.
+Interests elsewhere in Hawaii should closely monitor the latest
+forecast updates and ensure that they have their preparedness plans
+in place.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  25/0300Z 15.1N 155.9W   65 KT  75 MPH
+ 12H  25/1200Z 15.7N 155.6W   75 KT  85 MPH
+ 24H  26/0000Z 16.6N 155.3W   85 KT 100 MPH
+ 36H  26/1200Z 17.1N 155.4W   95 KT 110 MPH
+ 48H  27/0000Z 17.0N 156.1W  100 KT 115 MPH
+ 60H  27/1200Z 16.9N 157.7W  110 KT 125 MPH
+ 72H  28/0000Z 16.9N 159.7W  115 KT 130 MPH
+ 96H  29/0000Z 18.6N 163.0W  115 KT 130 MPH
+120H  30/0000Z 21.7N 164.8W   90 KT 105 MPH
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

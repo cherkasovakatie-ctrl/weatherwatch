@@ -1,0 +1,59 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Odalys Discussion Number   2
+NWS National Hurricane Center Miami FL       EP162026
+800 AM PDT Sun Sep 20 2026
+
+Deep convection has been increasing in association with Odalys 
+this morning, with cloud tops colder than -80 deg C near the 
+estimate center location.  Some banding features are beginning to 
+develop over the southern semicircle of the system.  Upper-level 
+outflow is limited to the north of the storm, however.  The current 
+intensity is set at 40 kt for this advisory, which is a blend of 
+subjective and objective Dvorak estimates.
+
+The center is not easy to locate, but my best estimate of initial 
+motion is west-northwestward, or around 285/8 kt.  Odalys should 
+turn northwestward as it moves on the southwestern side of a 
+narrow and weakening mid-level ridge to its northeast.  After 
+about 48 hours, the system should slow and turn northeastward  
+and eastward in response to the ridge weakening  and a 
+mid-tropospheric trough moving over southern California and Baja 
+California.  Later in the forecast period, the cyclone should 
+move generally northeastward along the northwest side of a 
+mid-level ridge.  However there is significant uncertainty in 
+the 3-5 day track of Odalys due its potential interaction with a 
+developing tropical cyclone to its east.  The official track 
+forecast is fairly close to the lastest corrected model consensus, 
+HCCA, prediction.
+
+Odalys should be in an environment conducive for strengthening 
+during the next few days, with very warm waters, low to moderate 
+vertical wind shear, and high low- to mid-level humidity.  
+Therefore gradual strengthening is expected during the next couple 
+of days,  and the official forecast is close to the latest 
+Decay-SHIPS model guidance.  Later in the forecast period, the 
+system may encounter a little drier air and its intensity become 
+hindered by its interaction with the developing tropical cyclone 
+closer to the coast of Mexico. 
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  20/1500Z 11.1N 125.5W   40 KT  45 MPH
+ 12H  21/0000Z 12.1N 126.8W   50 KT  60 MPH
+ 24H  21/1200Z 13.3N 128.1W   60 KT  70 MPH
+ 36H  22/0000Z 14.1N 129.0W   70 KT  80 MPH
+ 48H  22/1200Z 14.5N 129.2W   75 KT  85 MPH
+ 60H  23/0000Z 14.8N 128.4W   75 KT  85 MPH
+ 72H  23/1200Z 14.9N 127.7W   75 KT  85 MPH
+ 96H  24/1200Z 15.5N 126.2W   75 KT  85 MPH
+120H  25/1200Z 16.8N 124.5W   65 KT  75 MPH
+ 
+$$
+Forecaster Pasch
+ 
+NNNN
+

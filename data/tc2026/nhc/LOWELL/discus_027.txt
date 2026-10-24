@@ -1,0 +1,83 @@
+
+ZCZC HFOTCDCP4 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Lowell Discussion Number  27
+NWS Central Pacific Hurricane Center Honolulu HI   EP122026
+Issued by NWS National Hurricane Center Miami FL
+500 PM HST Wed Sep 02 2026
+
+
+Since the last advisory, Lowell's satellite signature has decayed,
+with the cloud tops in the eyewall warming and the eye becoming
+less distinct. This has been accompanied by a decrease in satellite
+intensity estimates. A NOAA Hurricane Hunter aircraft has reported
+700-mb flight-level winds of 135 kt and a minimum central pressure
+near 932-933 mb. Based on these data and continuity from the 
+previous advisory, the initial intensity is reduced to a possibly 
+generous 135 kt. Satellite imagery gives the impression that the 
+hurricane is being affected by easterly shear. However, if this is 
+the case, the source of the shear is a bit mysterious, as the
+available shear diagnostics show shear of less than 10 kt.
+ 
+The initial motion is now 270/9 kt. Currently, Lowell is being
+steered by a low- to mid-level ridge to the north, and due to this
+the hurricane should continue moving westward for the next 2-3
+days. After that, the track of the hurricane will be controlled by
+a developing mid- to upper-level trough or low currently seen in
+water vapor imagery near 32N 164W. During the next several days,
+the global models forecast this feature to move eastward or
+southeastward toward the Hawaiian Islands, then turn westward to
+the north of Lowell. While this will break down the ridge north of
+Lowell and allow it to turn northward, there is a wide spread of
+possibilities of when and where this turn will occur. The model
+consensus has again shifted a little eastward at day 4-5, and the
+new forecast track is again nudged a little eastward at these times.
+ 
+The hurricane is expected to stay in a favorable environment of
+high oceanic heat content and low shear for at least the next three
+days. However, the intensity guidance calls for slow decay during
+this time despite the favorable environment. Based on this, the
+intensity forecast also calls for slow decay. It is likely, though,
+that eyewall replacement cycles will cause fluctuations in
+intensity superimposed on the slow decay.  Near the end of the
+forecast period, Lowell should start experiencing increasing shear
+caused by the upper-level trough, and a more pronounced weakening
+may begin around day 5. There remains high confidence that Lowell
+will remain a major hurricane through the weekend.
+ 
+ 
+KEY MESSAGES:
+ 
+1. The details of Lowell's long-range track and intensity forecasts
+are more uncertain than usual, and it is too soon to determine
+potential impacts in the Hawaiian Islands.
+ 
+2. Interests in Hawaii should continue to closely monitor the
+progress of Lowell through this upcoming weekend. This is a good
+time for all residents to ensure they have their hurricane plan and
+supply kit in place.
+ 
+3. Swells from Lowell are likely to cause life-threatening surf and
+rip current conditions in portions of the Hawaiian Islands during
+the next several days.  Depending on the exact track of the storm,
+these swells are likely to increase early next week.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  03/0300Z 13.3N 155.2W  135 KT 155 MPH
+ 12H  03/1200Z 13.4N 156.5W  135 KT 155 MPH
+ 24H  04/0000Z 13.5N 158.1W  130 KT 150 MPH
+ 36H  04/1200Z 13.5N 159.6W  125 KT 145 MPH
+ 48H  05/0000Z 13.6N 160.9W  125 KT 145 MPH
+ 60H  05/1200Z 13.7N 162.0W  125 KT 145 MPH
+ 72H  06/0000Z 14.2N 162.9W  125 KT 145 MPH
+ 96H  07/0000Z 15.5N 163.7W  120 KT 140 MPH
+120H  08/0000Z 18.6N 162.7W  110 KT 125 MPH
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

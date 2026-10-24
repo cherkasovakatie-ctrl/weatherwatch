@@ -1,0 +1,65 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Odalys Discussion Number  17
+NWS National Hurricane Center Miami FL       EP162026
+200 AM PDT Thu Sep 24 2026
+ 
+The convective pattern of Odalys has changed little over the past 
+several hours. A persistent area of deep convection with cloud-top 
+temperatures near -80C remains concentrated near the inner core. 
+Subjective Dvorak classification from TAFB, along with objective 
+satellite intensity estimates, have held steady and generally range 
+from 67 to 77 kt. Based on a blend of these data, the initial 
+intensity is maintained at 75 kt for this advisory. In addition, 
+recent scatterometer passes over the cyclone were helpful in 
+refining the initial wind radii.
+
+The initial motion is estimated to be east-northeastward, or 060/7 
+kt. Odalys is currently being steered by the deep-layer flow between 
+a mid- to upper-level trough located to its northwest and a 
+mid-level ridge over northern Mexico. This steering pattern should 
+maintain the east-northeastward heading for the next day or so, 
+followed by a turn toward the northeast and eventually to the north 
+at a slightly slower speed. Later in the forecast period, the track 
+becomes highly uncertain due to a potential binary interaction with 
+Hurricane Polo. Additionally, as Odalys weakens, model differences 
+regarding the vertical depth of the cyclone, and exactly when it 
+becomes steered by the shallow low-level flow. The updated NHC track 
+forecast is very similar to the previous one and is in good 
+agreement with the HCCA and GDMI aids.
+
+Environmental conditions appear favorable enough to support slight 
+intensification during the next day or so, with low to moderate 
+vertical wind shear, warm sea surface temperatures, and abundant 
+mid-level moisture. After that time, the cyclone will encounter a 
+progressively less favorable environment characterized by increasing 
+vertical wind shear, cooling sea surface temperatures, and mid-level 
+dry air. This should induce a gradual, then more steady, weakening 
+trend through the remainder of the forecast period. The NHC 
+intensity forecast is very similar to the previous advisory and lies 
+near the HCCA corrected consensus aid. Given the increasingly 
+hostile environment, the system will struggle to maintain deep 
+convection later in the period. Simulated infrared satellite imagery 
+from the global models shows the cyclone becoming devoid of deep 
+convection by 96 h, and the updated forecast now indicates the 
+system will become post-tropical at that time.
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  24/0900Z 16.1N 126.0W   75 KT  85 MPH
+ 12H  24/1800Z 16.6N 125.0W   80 KT  90 MPH
+ 24H  25/0600Z 17.5N 123.9W   75 KT  85 MPH
+ 36H  25/1800Z 18.2N 123.3W   70 KT  80 MPH
+ 48H  26/0600Z 19.1N 123.1W   60 KT  70 MPH
+ 60H  26/1800Z 20.2N 123.0W   50 KT  60 MPH
+ 72H  27/0600Z 21.4N 122.8W   45 KT  50 MPH
+ 96H  28/0600Z 22.4N 122.3W   35 KT  40 MPH...POST-TROPICAL
+120H  29/0600Z 21.8N 121.8W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Kelly
+ 
+NNNN
+

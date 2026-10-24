@@ -1,0 +1,60 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Fausto Discussion Number   8
+NWS National Hurricane Center Miami FL       EP062026
+200 PM PDT Mon Jul 20 2026
+ 
+A microwave pass that occurred around 1330 UTC showed that the 
+center was north of the convection at that time. The recent 
+subjective Dvorak fix from TAFB was 3.5/55 kt. A recent ASCAT-C 
+pass shows several vectors over 50 kts and that the inner core 
+is becoming better organized.  Most recent satellite images have 
+also shown that the convection is becoming better organized over 
+the low-level center of Fausto. Based on the ASCAT pass and the 
+improved satellite presentation over the past several hours, the 
+initial intensity is increased to 60 kt for this advisory.
+ 
+Fausto should move into a region of lighter shear while remaining in
+a moist environment over warm sea-surface temperatures. The SHIPS
+model suggests that rapid intensification is still possible. The
+timing and possibility of the intensification will be tied to how
+quickly the system is able to get organized. The current NHC
+intensity forecast is slightly slower than the previous advisory
+and remains still on the higher end of the model guidance. 
+The current NHC forecast does have Fausto becoming a hurricane by 
+tomorrow and start to approach major hurricane status in a couple of 
+days. Gradual weakening is expected toward the end of the week once 
+Fausto moves into an environment of progressively cooler waters and 
+drier air.
+ 
+The storm is slowly gaining latitude, with the initial motion
+estimated to be 305/9 kt.  Fausto will continue to move toward the
+northwest and slow down during the next day or two as it tracks
+toward a weakness in the ridge left behind by Elida.  By Wednesday,
+however, the global models show the ridge strengthening northeast of
+the system, and that should cause Fausto to move faster to the
+west-northwest and continue in that direction into the weekend. The
+current NHC track has been slightly adjusted to the right of the
+previous track, but remains within the middle of the guidance
+envelope.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  20/2100Z 14.2N 116.7W   60 KT  70 MPH
+ 12H  21/0600Z 15.1N 117.9W   70 KT  80 MPH
+ 24H  21/1800Z 16.0N 119.4W   80 KT  90 MPH
+ 36H  22/0600Z 16.6N 120.8W   85 KT 100 MPH
+ 48H  22/1800Z 17.0N 122.4W   95 KT 110 MPH
+ 60H  23/0600Z 17.4N 124.5W   95 KT 110 MPH
+ 72H  23/1800Z 17.7N 127.2W   90 KT 105 MPH
+ 96H  24/1800Z 18.5N 132.6W   80 KT  90 MPH
+120H  25/1800Z 19.4N 137.7W   70 KT  80 MPH
+ 
+$$
+Forecaster Katz/Hagen
+ 
+NNNN
+

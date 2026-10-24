@@ -1,0 +1,48 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Marie Discussion Number  28
+NWS National Hurricane Center Miami FL       EP132026
+800 PM PDT Mon Sep 07 2026
+ 
+Marie continues its gradual weakening trend, although the cyclone 
+still has a substantial low-level circulation.  Deep convection is 
+minimal and confined to the southeastern quadrant of the system. 
+Based on a continued slow spin down from the earlier scatterometer 
+overpass, the winds are reduced slightly to 45 kt for this advisory, 
+although this may be generous.  Another scatterometer overpass 
+should sample the system in a few hours.
+ 
+The storm continues its slow west-northwestward trek with an initial 
+motion estimate of around 290/7 kt.  There is not much change to the 
+track forecast.  Marie is expected to turn northwestward soon and 
+move within the flow between a ridge extending westward from the 
+southwestern U.S. and a cutoff low to the west of the tropical 
+cyclone.  The official forecast is similar to the previous NHC 
+track, and is close to the corrected model consensus.
+ 
+Marie is over SSTs near 24 deg C and it should encounter even cooler 
+waters during the next day or so.  Given the decreasing convection, 
+it now appears that the cyclone will become post-tropical in 24 
+hours, and this is reflected in the official forecast.  Unless deep 
+convection redevelops in the system soon, however, Marie's 
+post-tropical transition could occur even earlier than indicated 
+here.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  08/0300Z 25.1N 125.9W   45 KT  50 MPH
+ 12H  08/1200Z 25.8N 126.9W   40 KT  45 MPH
+ 24H  09/0000Z 27.2N 127.9W   35 KT  40 MPH...POST-TROPICAL
+ 36H  09/1200Z 29.1N 129.1W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 48H  10/0000Z 31.3N 130.4W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 60H  10/1200Z 33.4N 132.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 72H  11/0000Z...DISSIPATED
+ 
+$$
+Forecaster Pasch
+ 
+NNNN
+

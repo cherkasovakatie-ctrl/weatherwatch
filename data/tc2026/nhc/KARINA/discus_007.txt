@@ -1,0 +1,54 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Karina Discussion Number   7
+NWS National Hurricane Center Miami FL       EP112026
+200 AM PDT Sat Aug 29 2026
+
+The overall structure of Karina has remained largely unchanged, with 
+a fragmented convective band located over the southern semicircle. 
+Moderate southwesterly vertical wind shear continues to impart a 
+slight northward tilt to the vortex, with most of the deep 
+convection located over and north of the low-level circulation 
+center. The subjective Dvorak intensity estimate from TAFB is 
+T3.5/55 kt, which aligns with the latest objective estimates from 
+UW-CIMSS. Based on a blend of these data, the initial intensity is 
+held at 55 kt.
+ 
+Karina continues on a northwestward heading of about 310/10 kt, 
+driven by a ridge of high pressure over the southwestern United 
+States. The storm is expected to slow down and turn westward as a 
+mid-level trough to the north breaks down this ridge, allowing the 
+ridge over the central North Pacific to build southeastward and take 
+over as the primary steering flow. The NHC track forecast closely 
+follows the HCCA guidance, essentially remaining unchanged from the 
+previous forecast. 
+
+SHIPS guidance continues to show a favorable environment for Karina 
+to intensify over the next 60 h. Driven by light wind shear, warm 
+SSTs, and abundant atmospheric moisture, conditions are conducive 
+for the storm to reach major hurricane status. This is further 
+supported by the Google DeepMind ensemble mean, where over 80 
+percent of members bring Karina to major hurricane intensity. Beyond 
+the weekend, SHIPS diagnostics indicate that conditions will 
+deteriorate, which should induce a weakening trend by early next 
+week.
+
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  29/0900Z 14.7N 117.0W   55 KT  65 MPH
+ 12H  29/1800Z 15.5N 118.4W   65 KT  75 MPH
+ 24H  30/0600Z 16.5N 120.3W   75 KT  85 MPH
+ 36H  30/1800Z 16.9N 122.0W   90 KT 105 MPH
+ 48H  31/0600Z 17.3N 123.8W  100 KT 115 MPH
+ 60H  31/1800Z 17.6N 125.4W  100 KT 115 MPH
+ 72H  01/0600Z 18.1N 127.0W   95 KT 110 MPH
+ 96H  02/0600Z 19.3N 129.9W   80 KT  90 MPH
+120H  03/0600Z 20.8N 132.1W   60 KT  70 MPH
+ 
+$$
+Forecaster Pierce/Gibbs
+ 
+NNNN
+

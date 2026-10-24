@@ -1,0 +1,80 @@
+
+ZCZC HFOTCDCP4 ALL
+TTAA00 PHFO DDHHMM
+ 
+Tropical Storm Lowell Discussion Number  57
+NWS Central Pacific Hurricane Center Honolulu HI   EP122026
+Issued by NWS National Hurricane Center Miami FL
+1100 PM HST Wed Sep 09 2026
+
+Proxy-visible and infrared satellite images show that Lowell is 
+producing minimal convection on the northern side of the storm. The 
+center of the cyclone is exposed and based on water vapor imagery, 
+plenty of dry air has made its way to the center. Nonetheless, a 
+recent ASCAT pass showed a large area of 50-53 kt vectors to the 
+northwest of the center, indicating that Lowell was stronger than 
+previously estimated. Based on this data, the initial intensity has 
+been set to 55 kt.
+ 
+The storm is continuing to move to the west around 280 degrees at 12 
+kt. Currently the cyclone is being guided by a low- to mid-level 
+ridge located to the north, which should keep it on this westward 
+heading for the next couple of days. After that, a mid- to 
+upper-level trough to the northwest is expected to cutoff and become 
+the main steering flow for Lowell. This should result in a northerly 
+turn for the storm as it interacts with the cutoff low around 36-48 
+h. As the cutoff low moves off to the east, Lowell should take up a 
+more westward motion for a short period of time. Then, once the 
+cutoff low pulls away completely, the shallow circulation of Lowell 
+will likely be stuck between two low-level ridges, thus leaving the 
+storm to drift slowly off to the south as a remnant low. The current 
+NHC track forecast is very close to the previous one, however there 
+were some small nudges made to the new track forecast after 36 h. 
+This prediction is close to the most recent Google DeepMind (GDMI) 
+and HFIP Corrected Consensus Approach (HCCA) aids.
+ 
+The cyclone is expected to remain in a hostile environment with 
+moderate wind shear, plenty of dry air, and marginal SSTs. 
+Therefore, a gradual weakening trend is expected for the next 24 h. 
+Based on the simulated satellite imagery from the GFS and ECMWF, 
+Lowell could lack enough convection to be considered a tropical 
+cyclone. However, some positive interaction with the previously 
+mentioned cutoff low could foster the development of new convection, 
+which in turn could allow for Lowell to maintain its intensity 
+through baroclinic processes. After 60-72 h, the cyclone will be on 
+the subsident side of the cutoff low, which will likely lead to the 
+storm becoming post-tropical as the convection dissipates. It should 
+be noted that there is a fair chance that the convection fails to 
+regenerate due to the dry air and shear, and thus Lowell could 
+become post-tropical sooner than forecast. The updated NHC intensity 
+forecast shows no net intensity change between 24-72 h, although 
+small fluctuations could occur as described above.
+ 
+ 
+KEY MESSAGES:
+ 
+1. Post-storm safety: Follow advice of local officials and avoid
+areas of downed power lines and flooding. Ensure generators are
+properly ventilated and placed outside at least 20 feet away from
+dwellings and garages to avoid carbon monoxide poisoning. During
+clean up, be careful when using chainsaws and power tools. Drink
+plenty of water to avoid heat exhaustion.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  10/0900Z 29.2N 166.2W   55 KT  65 MPH
+ 12H  10/1800Z 29.2N 168.2W   45 KT  50 MPH
+ 24H  11/0600Z 29.3N 170.2W   40 KT  45 MPH
+ 36H  11/1800Z 30.1N 171.6W   40 KT  45 MPH
+ 48H  12/0600Z 31.4N 172.1W   40 KT  45 MPH
+ 60H  12/1800Z 33.0N 172.8W   40 KT  45 MPH
+ 72H  13/0600Z 33.4N 173.9W   40 KT  45 MPH
+ 96H  14/0600Z 32.8N 175.1W   30 KT  35 MPH...POST-TROP/REMNT LOW
+120H  15/0600Z 31.4N 175.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Katz/Reinhart
+ 
+NNNN
+

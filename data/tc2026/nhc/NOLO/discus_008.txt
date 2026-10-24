@@ -1,0 +1,49 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Depression Fifteen-E Discussion Number   8
+NWS National Hurricane Center Miami FL       EP152026
+Issued by the NWS Weather Prediction Center College Park MD
+800 AM PDT Tue Sep 15 2026
+ 
+Convection is still displaced to the southeast of the low-level
+center of the depression per infrared and proxy-visible satellite 
+imagery. The 0804 UTC OSCAT scatterometer pass indicated that the 
+center remains elongated with maximum winds of about 30 kt. 
+Therefore, the initial intensity is kept at 30 kt for this advisory.
+ 
+The system is moving at an estimated motion of 260/10 kt. A 
+generally westward motion is forecast over the next few days as the 
+system is steered along the southern edge of a mid-level ridge.
+The latest NHC track forecast is similar to the previous one and 
+relied on the Google DeepMind and HCCA aids.
+ 
+The depression remains within a moderate wind shear environment 
+near a mid- to upper-level low, with dry mid-level air entraining 
+into the center. While shear is forecast to decrease later 
+today, the dry air entrainment should limit significant 
+development, though it is possible the system could briefly become 
+a tropical storm. Wind shear is expected to increase again in 
+a couple days, causing the system to struggle to produce deep 
+convection. Thus, the depression is forecast to become a 
+post-tropical cyclone by 60 h, and open into a trough by day 4.  No 
+large changes were made to the previous advisory.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  15/1500Z 16.1N 123.9W   30 KT  35 MPH
+ 12H  16/0000Z 15.8N 125.4W   30 KT  35 MPH
+ 24H  16/1200Z 15.6N 127.2W   30 KT  35 MPH
+ 36H  17/0000Z 15.6N 129.1W   30 KT  35 MPH
+ 48H  17/1200Z 15.6N 131.2W   30 KT  35 MPH
+ 60H  18/0000Z 15.8N 133.5W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 72H  18/1200Z 16.2N 136.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 96H  19/1200Z...DISSIPATED
+ 
+$$
+Forecaster Jackson/Blake/Muccilli
+ 
+NNNN
+

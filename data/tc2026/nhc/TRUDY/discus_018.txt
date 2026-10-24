@@ -1,0 +1,79 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Trudy Discussion Number  18
+NWS National Hurricane Center Miami FL       EP212026
+300 PM CST Sat Oct 17 2026
+
+An Air Force Hurricane Hunter aircraft has reported that Trudy has 
+a 38 n mi wide eye open to the southwest. The maximum 700-mb flight 
+level winds were 95 kt in the northwest eyewall, and the minimum 
+central pressure is near 976 mb. Based on these data the initial 
+intensity is increased to 85 kt. The aircraft also reported that 
+the center was a bit west of where satellite imagery suggests it is, 
+possibly due to a tilted vortex, and the initial position has been 
+nudged westward.
+ 
+The hurricane continues moving northwestward or 320-325 degrees/9 
+kt. A continued northwestward to possibly north-northwestward 
+motion is expected during the next 24-36 h as a weak low- to 
+mid-level ridge builds over eastern Mexico. This motion would bring 
+the center of Trudy very close to the coast of west-central
+Mexico tonight and Sunday. Thereafter, as Trudy weakens and becomes 
+steered mainly by low-level flow, a turn toward the west-northwest 
+is expected, taking the cyclone away from the coast. The new track
+forecast is adjusted westward based on the more westward initial 
+position.
+
+Conditions appear conducive for a little more strengthening through 
+tonight, although moderate wind shear will likely limit how much 
+strengthening can occur. Based on this, the intensity forecast 
+calls for a peak intensity of 90 kt in 12 h.  After about 18 h, 
+increasing southwesterly shear and decreasing mid-level moisture 
+near the cyclone are likely to cause steady to rapid weakening even 
+when the center would be moving away from the coast of Mexico. This 
+part of the intensity forecast had been nudged downward to better 
+match the pace of the weakening in the guidance. Current 
+expectations are that the system will stop producing convection
+between 72-96 h and decay to a remnant low pressure, and the global
+models forecast the circulation to weaken to a trough by 120 h.
+
+ 
+KEY MESSAGES:
+ 
+1. Trudy is forecast to strengthen as it moves near the coast of 
+southwestern and west-central Mexico tonight and Sunday. Damaging 
+hurricane-force winds are likely within the hurricane warning area.
+
+2. A dangerous storm surge accompanied by damaging waves is likely 
+in areas of onshore winds within the warning areas. 
+ 
+3. Heavy rainfall associated with Trudy will impact the southwest 
+Mexican coast between Guerrero and Nayarit through the weekend. 
+This rainfall may produce life-threatening flooding and mudslides 
+along and near the southwest Mexican coast in Michoacán, Colima, 
+and Jalisco, especially in areas along steep terrain.
+ 
+4. Large swells are affecting portions of the coast of southwestern
+Mexico and will spread northward through the weekend, causing
+life-threatening surf and rip current conditions.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  17/2100Z 17.5N 105.0W   85 KT 100 MPH
+ 12H  18/0600Z 18.6N 105.6W   90 KT 105 MPH
+ 24H  18/1800Z 19.8N 106.4W   85 KT 100 MPH
+ 36H  19/0600Z 20.7N 107.1W   70 KT  80 MPH
+ 48H  19/1800Z 21.0N 107.6W   55 KT  65 MPH
+ 60H  20/0600Z 21.2N 108.1W   45 KT  50 MPH
+ 72H  20/1800Z 21.5N 108.7W   35 KT  40 MPH
+ 96H  21/1800Z 22.2N 109.8W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  22/1800Z...DISSIPATED
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

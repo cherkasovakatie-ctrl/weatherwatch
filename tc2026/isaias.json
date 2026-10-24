@@ -1,0 +1,330 @@
+{
+ "storm": "ISAIAS",
+ "order": 4,
+ "file": "tc-2026-isaias.html",
+ "short": "Hurricane Isaias (2026)",
+ "card_line": "Atlantic · Cat 3 · 4–11 Oct",
+ "title": "Hurricane Isaias (October 2026): the late first hurricane of a suppressed Atlantic season",
+ "basin_name": "North Atlantic (Gulf)",
+ "description": "Research paper on Hurricane Isaias, Gulf of America / Mexico and Florida Panhandle, October 2026.",
+ "status": "draft",
+ "research_date": "24 October 2026",
+ "obs_cutoff": "IBTrACS to 11 Oct; NHC discussions 1–20; NWS report of 11 Oct; press to 16 Oct",
+ "track_source": "IBTrACS v04r01 (provisional, NHC operational)",
+ "status_note": "Draft for review (24 Oct 2026). Built from provisional data; to be checked against NHC's Tropical Cyclone Report when published.",
+ "toc": [
+  [
+   "abstract",
+   "Abstract"
+  ],
+  [
+   "findings",
+   "Main findings"
+  ],
+  [
+   "intro",
+   "1. Introduction"
+  ],
+  [
+   "methods",
+   "2. Data and methods"
+  ],
+  [
+   "lifecycle",
+   "3. Life cycle"
+  ],
+  [
+   "environment",
+   "4. Environment"
+  ],
+  [
+   "impacts",
+   "5. Impacts"
+  ],
+  [
+   "climate",
+   "6. Climate context"
+  ],
+  [
+   "uncertainty",
+   "7. Uncertainties"
+  ],
+  [
+   "conclusion",
+   "8. Conclusion"
+  ],
+  [
+   "evidence",
+   "Evidence table"
+  ],
+  [
+   "references",
+   "References"
+  ]
+ ],
+ "sections": [
+  {
+   "id": "abstract",
+   "title": "Abstract",
+   "html": "<p>Isaias was the first hurricane of the suppressed 2026 Atlantic season, the latest first hurricane in more than a century, and still the season's only hurricane in late October. It formed as a depression in the southwestern Gulf on 6 October, drifted east, then accelerated northeast over water +2.0 °C warmer than the 1991–2020 normal (30.5 °C on average). Despite moderate shear it intensified by 35 kt in 24 hours, became a hurricane early on 8 October and a Category 3 hurricane of 105 kt (120 mph) on 9 October. Deep-layer shear of 30–40 kt then tilted and weakened it, and it made landfall near Destin, Florida, at 0130 UTC on 10 October (8:30 p.m. CDT on 9 October) as a Category 2 hurricane with 90 kt (105 mph) winds. It caused at least six deaths, power cuts to as many as 930,000 customers, storm surge of 5.6 ft above high tide at Panama City Beach and up to 13 inches of rain in Alabama; insured losses were estimated at about $2–4.5 billion. A rapid attribution study estimated that climate change made the Gulf waters it crossed about 1.4 °C warmer.</p>"
+  },
+  {
+   "id": "findings",
+   "title": "Main findings",
+   "html": "<ol><li><b>Exceptionally warm Gulf.</b> Ahead of Isaias the sea averaged 30.5 °C and reached 31.0 °C, +2.0 °C against normal on average.</li><li><b>Rapid intensification under moderate shear.</b> Winds rose from 30 kt to 105 kt between 7 and 9 October, with the vortex tilted by westerly to southwesterly shear throughout <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.007.shtml\">NHC discussion 7</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.010.shtml\">NHC discussion 10</a>.</li><li><b>Shear before landfall.</b> On 9 October deep-layer shear rose to 30–40 kt; dropsondes showed winds dropping sharply near the surface, and Isaias came ashore at 90 kt rather than its 105 kt peak <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.013.shtml\">NHC discussion 13</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.014.shtml\">NHC discussion 14</a>.</li><li><b>Impacts.</b> Wind damage across the Florida Panhandle and southern Alabama; storm surge 5.59 ft above MHHW at Panama City Beach Pier; 12.97 inches of rain at Bellwood, Alabama; at least six deaths; tornadoes in Georgia and the Carolinas.</li><li><b>El Niño season.</b> Atlantic ACE was only 18% of normal for the date <a href=\"#ref-csu\">[8]</a>, as expected when El Niño raises shear over the Atlantic <a href=\"#ref-gray1984\">[5]</a>; the Gulf was the exception.</li></ol>"
+  },
+  {
+   "id": "intro",
+   "title": "1. Introduction",
+   "html": "<p>El Niño tends to suppress Atlantic hurricanes by increasing vertical wind shear over the tropical Atlantic and Caribbean <a href=\"#ref-gray1984\">[5]</a>. In 2026, during a very strong El Niño <a href=\"#ref-paper4\">[9]</a>, the season produced eight named storms before its first hurricane; by 22 October its accumulated cyclone energy was 19.5 × 10⁴ kt² against a normal of 110.4 <a href=\"#ref-csu\">[8]</a>. Isaias, the ninth named storm, became the first hurricane only on 8 October, the latest date for a first Atlantic hurricane in 121 years <a href=\"#ref-accu\">[13]</a>. This paper reconstructs how it intensified over the Gulf, why it weakened before landfall, and what it did on land.</p>"
+  },
+  {
+   "id": "methods",
+   "title": "2. Data and methods",
+   "html": "<p><b>Track and intensity.</b> Six-hourly positions, 1-minute maximum sustained winds and minimum pressures from IBTrACS v04r01 <a href=\"#ref-knapp2010\">[1]</a>, downloaded on 24 October 2026. For 2026 these are <i>provisional</i> values carried over from the operational advisories (National Hurricane Center); the official best track, issued in the post-season report, can differ. Rapid intensification (RI) is an increase of at least 30 kt in 24 hours <a href=\"#ref-kaplan2003\">[2]</a>. Accumulated cyclone energy (ACE) sums the squared 6-hourly winds at tropical-storm strength or above.</p><p><b>Ocean.</b> Sea-surface temperature (SST) and its anomaly against 1991–2020 from NOAA OISST v2.1 daily <a href=\"#ref-huang2021\">[3]</a>, sampled at each 6-hourly position three days before the storm arrived, so that the storm's own cooling is excluded; the change from three days before to three days after gives the cold wake. OISST is a 0.25° analysis and smooths very small wakes.</p><p><b>Atmosphere.</b> Wind shear and mid-level humidity are taken from the forecasters' own analyses in the advisories and discussions (which use the SHIPS model and satellite estimates), quoted with date and time. Our planned reanalysis diagnostics could not be computed because the NCEP/NCAR Reanalysis 1 daily files for 2026 end on 17 March 2026. The Madden–Julian oscillation (MJO) is described by the real-time RMM index <a href=\"#ref-wheeler2004\">[4]</a> (phase and amplitude; amplitude ≥ 1 means an active MJO). ENSO values are NOAA CPC indices (RONI JAS 2026 +1.69 °C; weekly relative Niño 3.4 +2.4 °C in mid-October).</p><p><b>Impacts.</b> Deaths, damage and observations are taken from official statements where available and otherwise from wire-service reports, each cited; figures are preliminary.</p>"
+  },
+  {
+   "id": "lifecycle",
+   "title": "3. Life cycle",
+   "html": "<figure><img src=\"papers/img/tc2026_isaias.png\" alt=\"Isaias 2026: intensity, pressure and sea-surface temperature along the track\" style=\"max-width:100%;height:auto\"><figcaption class=\"note\">Figure 1. Isaias: 1-minute maximum wind and minimum pressure (top; shading marks rapid intensification) and sea-surface temperature at each position three days before the storm arrived, with its anomaly against 1991–2020 (bottom).</figcaption></figure><p><b>Genesis (4–7 October).</b> IBTrACS follows a low that sat almost stationary near 22.0°N, 96.5°W, in the southwestern Gulf off Tamaulipas and Veracruz, from 4 Oct 1800 UTC. It became Tropical Depression Nine at 2100 UTC on 6 October and drifted slowly east within weak steering south of an upper trough over the southeastern United States <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.001.shtml\">NHC discussion 1</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.002.shtml\">NHC discussion 2</a>. Early on 7 October its circulation was still broad <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.003.shtml\">NHC discussion 3</a>; that morning an Air Force aircraft found the centre re-forming farther north, closer to the mid-level centre, a structural change that forecasters expected could allow rapid intensification <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.004.shtml\">NHC discussion 4</a>.</p><p><b>Intensification (7–9 October).</b> By the afternoon of 7 October aircraft found 61 kt at 700 mb and 994 mb <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.005.shtml\">NHC discussion 5</a>; that evening the pressure was 988 mb and the eyewall was open to the southwest, with outflow restricted by moderate shear <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.006.shtml\">NHC discussion 6</a>. A dropsonde with a 76 kt boundary-layer wind made Isaias a hurricane at 0330 UTC on 8 October <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.007.shtml\">NHC discussion 7</a>; tail Doppler radar on a NOAA P-3 showed a vortex tilted northward with height <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.007.shtml\">NHC discussion 7</a>. Later on 8 October the first satellite-visible eye of the 2026 Atlantic season appeared <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.009.shtml\">NHC discussion 9</a>, although microwave data still showed a tilted vortex under southwesterly shear <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.010.shtml\">NHC discussion 10</a>. Overnight the eyewall contracted and the eye warmed; aircraft found 107 kt at flight level <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.011.shtml\">NHC discussion 11</a>, and on the morning of 9 October 120 kt at 700 mb, making Isaias a major hurricane of 105 kt <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.012.shtml\">NHC discussion 12</a>.</p><p><b>Weakening and landfall (9–10 October).</b> As Isaias accelerated north, deep-layer southwesterly shear increased to 30–40 kt; radar showed the convection confined to the northern eyewall, and dropsondes showed a sharp drop-off of wind towards the surface, supporting 90–95 kt <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.013.shtml\">NHC discussion 13</a>. Isaias made landfall near Destin at 0130 UTC on 10 October with 90 kt winds <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.014.shtml\">NHC discussion 14</a>; NWS Tallahassee estimated 971 mb <a href=\"#ref-tae\">[11]</a>. It weakened very rapidly over Alabama and became post-tropical by the morning of 10 October <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.015.shtml\">NHC discussion 15</a>; its remnant brought heavy rain to the southern Appalachians, the Southeast and the Mid-Atlantic until 11 October <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.019.shtml\">NHC discussion 19</a>.</p>",
+   "table": {
+    "cols": [
+     "Quantity",
+     "Value"
+    ],
+    "rows": [
+     [
+      "Source of winds and pressures",
+      "NHC operational values"
+     ],
+     [
+      "First and last fix (UTC)",
+      "4 Oct 1800 UTC – 11 Oct 1200 UTC"
+     ],
+     [
+      "First fix position",
+      "22.0°N, 96.5°W"
+     ],
+     [
+      "Peak 1-minute wind",
+      "105 kt (120 mph, 195 km/h), Category 3, 9 Oct 1200 UTC near 27.0°N, 87.6°W"
+     ],
+     [
+      "Lowest pressure",
+      "959 mb"
+     ],
+     [
+      "Largest 24-hour increase",
+      "35 kt (7 Oct 0600 UTC to 8 Oct 0600 UTC)"
+     ],
+     [
+      "Time at tropical-storm / hurricane / major strength",
+      "78 / 48 / 12 hours"
+     ],
+     [
+      "Accumulated cyclone energy (ACE)",
+      "7.4 × 10⁴ kt²"
+     ],
+     [
+      "Track length and mean speed",
+      "2,429 km at 15.0 km/h"
+     ],
+     [
+      "Landfall",
+      "near Destin, Florida, 0130 UTC 10 Oct, 90 kt (NHC), about 971 mb (NWS Tallahassee estimate)"
+     ]
+    ],
+    "note": "IBTrACS v04r01, provisional (operational NHC values). IBTrACS shows 95 kt at 0000 UTC 10 Oct, the last fix before landfall."
+   }
+  },
+  {
+   "id": "environment",
+   "title": "4. Environment",
+   "html": "<p><b>Ocean.</b> The water along Isaias's track was 30.5 °C on average three days before it arrived and up to 31.0 °C, with anomalies of +0.5 to +2.4 °C. Climate Central's rapid analysis found waters above 31 °C over the area of rapid intensification and estimated that climate change made them 1.4 °C warmer and 4 to 600 times more likely <a href=\"#ref-cc\">[14]</a>. The cold wake was modest (up to 1.4 °C) because Isaias moved quickly over the central Gulf <a href=\"#ref-price1981\">[7]</a>.</p><p><b>Shear.</b> Isaias intensified under moderate westerly to southwesterly shear, with a vortex tilted with height and an eyewall repeatedly open on the southwest side <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.006.shtml\">NHC discussion 6</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.007.shtml\">NHC discussion 7</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.010.shtml\">NHC discussion 10</a>; the warm water appears to have outweighed the shear until 9 October. The final increase in shear, to 30–40 kt, was forecast; the hurricane centre noted that a delay of about six hours in its onset could have brought a stronger landfall <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.011.shtml\">NHC discussion 11</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.013.shtml\">NHC discussion 13</a>.</p><p><b>MJO.</b> The RMM index was in phase 1 (amplitude 1.0) at genesis and phase 2 (1.0) during intensification. Atlantic and Gulf activity varies strongly with MJO phase <a href=\"#ref-klotzbach2010\">[6]</a>; whether this phase helped Isaias is not tested here.</p>"
+  },
+  {
+   "id": "impacts",
+   "title": "5. Impacts",
+   "html": "<p><b>Wind.</b> Hurricane-force winds damaged roofs and buildings along the coast; preliminary observations include a gust of 117 mph at Oriole Beach <a href=\"#ref-accu\">[13]</a> and 79 kt (91 mph) at Choctaw Beach, with 63 kt sustained at Panama City Beach <a href=\"#ref-tae\">[11]</a>. As many as 930,000 customers lost power at the peak <a href=\"#ref-accu\">[13]</a>; Santa Rosa, Holmes, Washington and Walton counties each had more than 80% of residents without power <a href=\"#ref-npr\">[12]</a>. NASA's night-lights imagery showed much of the Pensacola area dark on 11 October <a href=\"#ref-nasa\">[16]</a>.</p><p><b>Water.</b> The highest gauge reading was 5.59 ft above mean higher high water at Panama City Beach Pier, with 3.58 ft at Apalachicola <a href=\"#ref-tae\">[11]</a>; landfall came about two hours before high tide, which limited the surge <a href=\"#ref-npr\">[12]</a>. Rain reached 12.97 inches at Bellwood, Alabama, and 12.47 inches at DeFuniak Springs, Florida, with 4–8 inches across much of the region <a href=\"#ref-tae\">[11]</a>.</p><p><b>Tornadoes and casualties.</b> The remnant produced 23 tornado reports in Georgia and the Carolinas, with at least seven confirmed (EF0–EF1) <a href=\"#ref-accu\">[13]</a>. At least four deaths were confirmed by 11 October: two in Escambia County, Florida (a falling tree; carbon-monoxide poisoning from a generator), and two in Alabama (Jefferson and Barbour counties) <a href=\"#ref-npr\">[12]</a>; at least six were reported by 14 October <a href=\"#ref-accu\">[13]</a>. No deaths were reported in the NWS Tallahassee area <a href=\"#ref-tae\">[11]</a>.</p><p><b>Losses.</b> Moody's RMS estimated insured losses of $2.5–4.5 billion (best estimate $3.5 billion), mostly from wind; other modellers ranged from $1–2 billion (Verisk) to $3 billion (KCC) <a href=\"#ref-artemis\">[15]</a>.</p>"
+  },
+  {
+   "id": "climate",
+   "title": "6. Climate context",
+   "html": "<p>Two climate signals pulled in opposite directions. El Niño's shear suppressed the Atlantic season as a whole <a href=\"#ref-gray1984\">[5]</a>, <a href=\"#ref-csu\">[8]</a>, but the Gulf of Mexico was exceptionally warm, and the one storm that formed there in early October found enough heat to intensify rapidly. Climate Central's analysis attributes about 1.4 °C of the Gulf warmth to climate change and estimates about 7 mph of additional wind, without a change of category <a href=\"#ref-cc\">[14]</a>. This is a rapid, model-based estimate that has not been peer reviewed; it supports a contribution of climate change to the storm's energy supply, not a claim that climate change caused the hurricane.</p>"
+  },
+  {
+   "id": "uncertainty",
+   "title": "7. Uncertainties",
+   "html": "<ul><li>Track, peak intensity and landfall values are provisional until NHC's Tropical Cyclone Report.</li><li>Observed gusts and surge are preliminary; instruments may have failed or missed the peak.</li><li>Death tolls differed between sources and over time; the six cited is a press tally.</li><li>Insured-loss estimates are modelled and vary by a factor of about two.</li></ul>"
+  },
+  {
+   "id": "conclusion",
+   "title": "8. Conclusion",
+   "html": "<p>Isaias shows that a suppressed season can still produce a damaging hurricane where the ocean is warm enough. Over a Gulf about 2 °C warmer than normal it intensified rapidly despite moderate shear, and only a well-timed increase in shear before landfall kept it to Category 2 at the coast. Its effects, from wind damage and outages to inland flooding and tornadoes, extended far beyond the landfall point.</p>"
+  }
+ ],
+ "evidence": [
+  [
+   "Very warm Gulf",
+   "SST 30.5 °C (+2.0) along the track; >31 °C over the RI area",
+   "Main energy source for rapid intensification",
+   "Observed (OISST); attribution study",
+   "High",
+   "<a href=\"#ref-huang2021\">[3]</a> <a href=\"#ref-cc\">[14]</a>"
+  ],
+  [
+   "Centre re-formation",
+   "7 Oct, closer to the mid-level centre",
+   "Allowed intensification to begin",
+   "Aircraft observation (NHC)",
+   "Medium",
+   "<a href=\"#ref-nhc\">[10]</a>"
+  ],
+  [
+   "Moderate shear",
+   "Westerly to southwesterly, tilted vortex 7–8 Oct",
+   "Slowed but did not stop intensification",
+   "Aircraft radar, microwave (NHC)",
+   "High",
+   "<a href=\"#ref-nhc\">[10]</a>"
+  ],
+  [
+   "Strong shear before landfall",
+   "30–40 kt on 9 Oct",
+   "Weakened Isaias from 105 to 90 kt",
+   "Operational analysis; dropsondes",
+   "High",
+   "<a href=\"#ref-nhc\">[10]</a>"
+  ],
+  [
+   "El Niño shear over the Atlantic",
+   "Atlantic ACE 18% of normal",
+   "Delayed the first hurricane; not decisive in the Gulf",
+   "Climatological reasoning",
+   "Medium",
+   "<a href=\"#ref-gray1984\">[5]</a> <a href=\"#ref-csu\">[8]</a>"
+  ],
+  [
+   "Climate change",
+   "Gulf waters ~1.4 °C warmer (rapid estimate)",
+   "Added energy; ~7 mph more wind",
+   "Model-based rapid attribution",
+   "Medium",
+   "<a href=\"#ref-cc\">[14]</a>"
+  ]
+ ],
+ "references": [
+  {
+   "key": "knapp2010",
+   "text": "Knapp, K. R., M. C. Kruk, D. H. Levinson, H. J. Diamond and C. J. Neumann (2010). The International Best Track Archive for Climate Stewardship (IBTrACS). <i>Bulletin of the American Meteorological Society</i> 91, 363–376. Data: IBTrACS v04r01, NOAA NCEI (2026 positions provisional).",
+   "doi": "10.1175/2009BAMS2755.1",
+   "url": null,
+   "check": "bibliographic record; data read"
+  },
+  {
+   "key": "kaplan2003",
+   "text": "Kaplan, J., and M. DeMaria (2003). Large-scale characteristics of rapidly intensifying tropical cyclones in the North Atlantic basin. <i>Weather and Forecasting</i> 18, 1093–1108.",
+   "doi": "10.1175/1520-0434(2003)018<1093:LCORIT>2.0.CO;2",
+   "url": null,
+   "check": "abstract read"
+  },
+  {
+   "key": "huang2021",
+   "text": "Huang, B., et al. (2021). Improvements of the Daily Optimum Interpolation Sea Surface Temperature (DOISST) Version 2.1. <i>Journal of Climate</i> 34, 2923–2939. Data via NOAA PSL.",
+   "doi": "10.1175/JCLI-D-20-0166.1",
+   "url": null,
+   "check": "abstract read; data read"
+  },
+  {
+   "key": "wheeler2004",
+   "text": "Wheeler, M. C., and H. H. Hendon (2004). An all-season real-time multivariate MJO index: development of an index for monitoring and prediction. <i>Monthly Weather Review</i> 132, 1917–1932.",
+   "doi": "10.1175/1520-0493(2004)132<1917:AARMMI>2.0.CO;2",
+   "url": null,
+   "check": "abstract read"
+  },
+  {
+   "key": "gray1984",
+   "text": "Gray, W. M. (1984). Atlantic seasonal hurricane frequency. Part I: El Niño and 30 mb quasi-biennial oscillation influences. <i>Monthly Weather Review</i> 112, 1649–1668.",
+   "doi": "10.1175/1520-0493(1984)112<1649:ASHFPI>2.0.CO;2",
+   "url": null,
+   "check": "abstract read"
+  },
+  {
+   "key": "klotzbach2010",
+   "text": "Klotzbach, P. J. (2010). On the Madden–Julian oscillation–Atlantic hurricane relationship. <i>Journal of Climate</i> 23, 282–293.",
+   "doi": "10.1175/2009JCLI2978.1",
+   "url": null,
+   "check": "abstract read"
+  },
+  {
+   "key": "price1981",
+   "text": "Price, J. F. (1981). Upper ocean response to a hurricane. <i>Journal of Physical Oceanography</i> 11, 153–175.",
+   "doi": "10.1175/1520-0485(1981)011<0153:UORTAH>2.0.CO;2",
+   "url": null,
+   "check": "abstract read"
+  },
+  {
+   "key": "csu",
+   "text": "Colorado State University, Department of Atmospheric Science: real-time tropical cyclone season statistics (ACE and storm counts to date by basin), read 22–23 October 2026; site copy data/ace_season.csv.",
+   "doi": null,
+   "url": "https://tropical.atmos.colostate.edu/Realtime/",
+   "check": "data read"
+  },
+  {
+   "key": "paper4",
+   "text": "Global Weather Watch (2026). The 2026 El Niño against 1982–83, 1997–98 and 2015–16: a preliminary comparison (Paper 4).",
+   "doi": null,
+   "url": "enso-2026.html",
+   "check": "own analysis"
+  },
+  {
+   "key": "nhc",
+   "text": "National Hurricane Center: Hurricane Isaias (AL092026) advisory archive, forecast discussions 1–20, 6–11 October 2026 (US Government, public domain). Text copies in data/tc2026/nhc/ISAIAS/.",
+   "doi": null,
+   "url": "https://www.nhc.noaa.gov/archive/2026/ISAIAS.shtml",
+   "check": "read in full"
+  },
+  {
+   "key": "tae",
+   "text": "NWS Tallahassee (2026). Post-Tropical Cyclone Report, Hurricane Isaias (preliminary, issued 11 October 2026).",
+   "doi": null,
+   "url": "https://www.weather.gov/media/tae/TropicalEventSummary/PSHTAE_2026AL09_Isaias_Summary.pdf",
+   "check": "read"
+  },
+  {
+   "key": "npr",
+   "text": "NPR / WUNC (2026). At least 4 deaths attributed to Isaias after hurricane bashes Florida and Alabama. 10–11 October 2026.",
+   "doi": null,
+   "url": "https://www.wunc.org/2026-10-10/at-least-4-deaths-attributed-to-isaias-after-hurricane-bashes-florida-and-alabama",
+   "check": "read"
+  },
+  {
+   "key": "accu",
+   "text": "AccuWeather (2026). Isaias made hurricane history before hitting Southeast. October 2026.",
+   "doi": null,
+   "url": "https://www.accuweather.com/en/hurricane/isaias-made-hurricane-history-before-hitting-southeast-with-winds-upwards-of-110-mph-tornadoes/1945554",
+   "check": "read"
+  },
+  {
+   "key": "cc",
+   "text": "Climate Central (2026). Climate change supercharged warm Gulf waters fueling Hurricane Isaias (Climate Shift Index alert, 9 October 2026).",
+   "doi": null,
+   "url": "https://www.climatecentral.org/climate-shift-index-alert/climate-change-supercharged-warm-Gulf-waters-fueling-hurricane-Isaias",
+   "check": "read"
+  },
+  {
+   "key": "artemis",
+   "text": "Artemis (2026). Moody's estimates insured losses from Hurricane Isaias in $2.5bn to $4.5bn range. 16 October 2026.",
+   "doi": null,
+   "url": "https://www.artemis.bm/news/moodys-estimates-insured-losses-from-hurricane-isaias-in-2-5bn-to-4-5bn-range/",
+   "check": "read"
+  },
+  {
+   "key": "nasa",
+   "text": "NASA Earth Observatory (2026). Isaias dims the Gulf Coast (Black Marble night lights).",
+   "doi": null,
+   "url": "https://science.nasa.gov/earth/earth-observatory/isaias-dims-the-gulf-coast/",
+   "check": "cited via site event log"
+  }
+ ]
+}

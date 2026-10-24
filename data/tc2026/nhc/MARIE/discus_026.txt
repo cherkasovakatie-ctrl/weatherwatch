@@ -1,0 +1,51 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Marie Discussion Number  26
+NWS National Hurricane Center Miami FL       EP132026
+800 AM PDT Mon Sep 07 2026
+ 
+Latest satellite imagery shows little change in Marie's structure
+over the last several hours. Convection can be seen flaring up
+across the western and southern semicircles, with drier air evident
+within the storm's northern half. The latest subjective Dvorak
+intensity estimate from TAFB was 55 kt, while objective estimates
+from CIMSS range from 45-53 kt. Given the lack of significant
+change in Marie's satellite presentation, the initial intensity
+estimate was held steady at 55 kt.
+ 
+The initial motion estimate was 300/6 kt. Marie is forecast to
+continue to move west-northwestward over the next 24 hours before a
+cutoff low from the northeast Pacific is expected to shift the
+storm's motion more northwestward. Guidance has generally favored a
+slight rightward shift in Marie's track beyond day 2 due to this
+anticipated interaction with the cutoff low, so the latest NHC track
+forecast reflects this, following a blend of HCCA, GDMI, and the
+previous track forecast.
+ 
+With Marie moving over cooler SSTs and increasing vertical wind
+shear, steady weakening is expected over the next couple of days.
+Marie is forecast to become post-tropical on Wednesday, before
+dissipating shortly thereafter. The latest NHC intensity forecast
+reflects a sharper weakening trend over the next 24 hours, before
+becoming more gradual Tuesday into Wednesday. This generally
+follows the model consensus.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  07/1500Z 24.7N 124.4W   55 KT  65 MPH
+ 12H  08/0000Z 25.1N 125.4W   45 KT  50 MPH
+ 24H  08/1200Z 25.9N 126.6W   40 KT  45 MPH
+ 36H  09/0000Z 27.4N 127.6W   40 KT  45 MPH
+ 48H  09/1200Z 29.3N 128.7W   35 KT  40 MPH
+ 60H  10/0000Z 31.6N 130.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 72H  10/1200Z 33.5N 131.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 96H  11/1200Z...DISSIPATED
+ 
+$$
+Forecaster Evans/Hagen
+ 
+NNNN
+

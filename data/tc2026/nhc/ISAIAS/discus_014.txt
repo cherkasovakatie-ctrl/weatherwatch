@@ -1,0 +1,78 @@
+
+ZCZC MIATCDAT4 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Isaias Discussion Number  14
+NWS National Hurricane Center Miami FL       AL092026
+1000 PM CDT Fri Oct 09 2026
+ 
+Isaias made landfall as a 90-kt hurricane at 0130 UTC near Destin,
+Florida. Since that time, the radar structure of the storm has
+continued to degrade as strong vertical wind shear disrupts the
+circulation. However, Eglin AFB (KEVX) radar data and surface
+observations indicate damaging, gusty winds are persisting in the
+residual northern eyewall and in a band wrapping around the western
+side of the circulation. Now that the system is farther inland and
+losing organization, the initial intensity is lowered to 80 kt for
+this advisory.
+ 
+Isaias is rapidly losing tropical characteristics, and it is 
+forecast to become post-tropical within the next 12 h while it 
+continues moving quickly northward through Alabama. Although the 
+sustained surface winds associated with Isaias will quickly weaken 
+now that the storm is inland, damaging wind gusts associated with 
+the system are expected to extend well inland through Saturday, 
+especially in areas of higher terrain. Because of this, the gust 
+factors in the forecast have been slightly increased during the 
+first 24 h. A turn toward the northeast is forecast later this 
+weekend, bringing the center of the system into the Tennessee Valley 
+before it dissipates.
+
+ 
+Key Messages:
+ 
+1. A life-threatening storm surge is expected from Dauphin Island,
+Alabama, to Suwannee, Florida where a Storm Surge Warning remains in
+effect. Residents in the warning area should continue to follow
+advice given by local officials.
+ 
+2. Extremely dangerous and damaging hurricane-force winds,
+especially in gusts, are expected over portions of the Florida
+Panhandle and southern Alabama where a Hurricane Warning remains in
+effect. Residents in these areas should have a safe room to ride out
+the storm and prepare for long-duration power outages.
+ 
+3. Damaging wind gusts are likely over a large portion of the
+southeastern United States from western and northern Georgia and the
+southern Appalachians, westward over much of central and northern
+Alabama, southern middle Tennessee, and Mississippi, especially in
+areas of higher terrain. Residents should secure loose outdoor
+items, avoid driving high-profile vehicles, prepare for power
+outages, and be aware of the potential for falling trees.
+ 
+4. Isaias will bring areas of heavy rainfall to the central U.S.
+Gulf coast and much of the Southeast through the weekend.
+Considerable flash and urban flooding, along with significant river
+flooding, will be possible. Landslides are also possible across the
+Southern Appalachians.
+ 
+5. The tornado potential will continue through tonight. The greatest
+risk will be east of the center, particularly across the Florida
+Panhandle into southern Georgia. This risk will continue spreading
+north-northeast across parts of the Southeast on Saturday.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  10/0300Z 30.8N  86.5W   80 KT  90 MPH
+ 12H  10/1200Z 32.7N  86.7W   50 KT  60 MPH...POST-TROP/INLAND
+ 24H  11/0000Z 34.7N  86.7W   30 KT  35 MPH...POST-TROP/INLAND
+ 36H  11/1200Z 36.9N  84.4W   30 KT  35 MPH...POST-TROP/INLAND
+ 48H  12/0000Z 39.0N  80.5W   25 KT  30 MPH...POST-TROP/INLAND
+ 60H  12/1200Z...DISSIPATED
+ 
+$$
+Forecaster Reinhart
+ 
+NNNN
+

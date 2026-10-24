@@ -1,0 +1,91 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Trudy Discussion Number  10
+NWS National Hurricane Center Miami FL       EP212026
+300 PM CST Thu Oct 15 2026
+
+Trudy's intensification appears to have temporarily paused. An Air 
+Force Reserve Hurricane Hunter aircraft investigated the hurricane 
+a few hours ago and reported maximum 700-mb flight-level winds of 
+84 kt and a central pressure near 978 mb.  Satellite imagery shows 
+an attempt to form an eye, but it has not yet fully cleared out. 
+The various satellite intensity estimates have changed little over 
+the past few hours, and the initial intensity remains 80 kt based 
+on them and the aircraft data.  The satellite imagery suggests a 
+tongue of dry air is wrapping into the cyclone around the north 
+side of the central dense overcast, and this may be responsible for 
+the pause in the development.
+
+The initial motion is north-northwestward or 345/5 kt. The 
+hurricane is currently heading for a weakness in the subtropical 
+ridge caused by a mid- to upper-level trough extending from the 
+Yucatan Peninsula westward to central Mexico. During the next 36 h, 
+this feature should weaken and move eastward, allowing a mid- to 
+upper-level ridge to develop over Mexico. This evolution should 
+cause Trudy to turn northwestward roughly parallel to the coast of 
+Mexico. The bulk of the track guidance keeps the center just 
+offshore of the coast. However, any track to the right of the 
+official forecast - such as shown by the GFS - would bring the 
+center onshore. After 72 h, low- to mid-level ridging to the north 
+of the cyclone should steer it slowly westward. The new track 
+forecast is a little to the east of the previous forecast through 
+36 h, similar to the previous forecast from 36-72 h, and a little 
+north of the previous forecast from 72-120 h.
+
+Except for the apparent tongue of dry air, conditions appear 
+favorable for steady to rapid development during the next 24-36 h. 
+The new intensity forecast keeps the peak intensity of 125 kt from 
+the previous advisory, which is near or a little above the upper 
+edge of the intensity guidance.  After 36 h, there should be 
+increasing southwesterly shear that will likely halt development. 
+Even with the forecast track keeping the center offshore, the 
+cyclone will likely be close enough to land to cause the cyclone 
+to weaken. However, any track to the left and farther offshore of 
+the current forecast would let Trudy stay stronger than currently 
+forecast, while any track that the brings the center inland would 
+cause rapid weakening and possibly dissipation. Beyond 72 h, strong 
+shear should cause continued weakening even though the center is 
+moving away from land.  The intensity forecast follows the overall 
+trend of the guidance, and it is near the upper edge of the 
+guidance.
+ 
+ 
+KEY MESSAGES:
+ 
+1. Trudy is forecast to be a major hurricane as it approaches the 
+coast of southwestern and west-central Mexico this weekend. There is 
+an increasing risk of wind, rain, and storm surge impacts. A 
+Hurricane Watch and a Tropical Storm Warning have been issued for a 
+portion of the southwestern Mexican coast, and additional watches 
+will likely be required further up the coast tonight or Friday.
+ 
+2. Heavy rainfall associated with Trudy will impact the southwest 
+Mexican coast between Guerrero and Jalisco through the weekend. This 
+rainfall may produce life-threatening flooding and mudslides by the 
+weekend along and near the southwest Mexican coast in Michoacán, 
+Colima, and Jalisco, especially in areas along steep terrain.
+ 
+3. Large swells will begin to affect portions of the coast of
+southwestern Mexico Friday and continue through the weekend. These
+swells could cause life-threatening surf and rip current conditions.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  15/2100Z 13.7N 101.7W   80 KT  90 MPH
+ 12H  16/0600Z 14.3N 101.9W   95 KT 110 MPH
+ 24H  16/1800Z 15.2N 102.2W  115 KT 130 MPH
+ 36H  17/0600Z 16.3N 102.9W  125 KT 145 MPH
+ 48H  17/1800Z 17.5N 103.9W  120 KT 140 MPH
+ 60H  18/0600Z 18.8N 104.9W  105 KT 120 MPH
+ 72H  18/1800Z 19.8N 105.8W   90 KT 105 MPH
+ 96H  19/1800Z 20.5N 107.4W   55 KT  65 MPH
+120H  20/1800Z 20.5N 108.4W   50 KT  60 MPH
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

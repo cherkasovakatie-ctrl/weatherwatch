@@ -1,0 +1,69 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Genevieve Discussion Number   5
+NWS National Hurricane Center Miami FL       EP072026
+900 AM CST Sat Jul 25 2026
+ 
+Since the prior advisory, Genevieve's structure has improved, with a 
+formative central dense overcast with cloud tops below -75 C 
+blossoming over the estimated center. While earlier microwave 
+imagery showed the inner core was still organizing with the bulk of 
+the convection on its eastern flank, first light visible images 
+suggest this convection is now wrapping around the center. TAFB 
+provided a subjective Dvorak intensity estimate of T3.5/55 kt for 
+1200 UTC, while objective intensity estimates are a bit lower 
+ranging from 40 to 55 kt. Favoring the higher side of these 
+estimates yields an intensity of 50 kt for this advisory. 
+ 
+Genevieve jogged a little right of the previous forecast track, but 
+appears to have resumed a more west-northwestward motion at   
+300/13 kt. The track forecast reasoning remains unchanged; a 
+strong deep-layer ridge centered over the southwestern United 
+States extending into the Pacific should keep Genevieve on a 
+general west-northwestward to northwestward track through the 
+forecast period, with some gradual slowing. The track guidance aids 
+remain in excellent agreement, and other than the initial position 
+adjustment, the latest NHC track is quite similar to the prior one, 
+blending the Google DeepMind ensemble mean (GDMI) and HFIP corrected 
+consensus approach (HCCA) track guidance. 
+
+Other than some light to moderate northwesterly vertical wind shear, 
+Genevieve's environment remains quite favorable for rapid 
+intensification (RI) with very warm sea-surface temperatures   
+(SSTs, 30 C) and sufficient deep-layer moisture. The small core of 
+the tropical cyclone is another factor that will likely enable a 
+rapid change in intensity. Not surprisingly, the RI indices are very 
+high for Genevieve, over both the next 24 and 48 h. The latest NHC 
+intensity forecast now shows RI beginning later today, and the 
+timing of peak intensity has been moved up to 48 h. After that time, 
+SSTs begin to gradually cool, and the ECMWF-SHIPS guidance also 
+shows a subtle increase in shear around the day 3 time frame. 
+Genevieve will also likely be undergoing inner-core oscillations by 
+that time that could also cause fluctuations in intensity. At the 
+end of the forecast, Genevieve will likely be crossing the 26 C SST 
+isotherm leading to a faster rate of weakening. The NHC intensity 
+forecast remains on the high end of the guidance envelope; only the 
+HCCA aid is higher. However, most of the reliable intensity models 
+indicate Genevieve becoming a major hurricane within the 36-60 h 
+period. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  25/1500Z 10.8N 104.3W   50 KT  60 MPH
+ 12H  26/0000Z 11.8N 106.2W   65 KT  75 MPH
+ 24H  26/1200Z 12.9N 108.3W   80 KT  90 MPH
+ 36H  27/0000Z 14.2N 110.2W  100 KT 115 MPH
+ 48H  27/1200Z 15.5N 112.0W  115 KT 130 MPH
+ 60H  28/0000Z 16.6N 113.6W  110 KT 125 MPH
+ 72H  28/1200Z 17.6N 115.2W  105 KT 120 MPH
+ 96H  29/1200Z 19.0N 118.5W   90 KT 105 MPH
+120H  30/1200Z 20.5N 122.5W   70 KT  80 MPH
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

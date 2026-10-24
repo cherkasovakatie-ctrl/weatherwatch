@@ -1,0 +1,68 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Lowell Discussion Number   2
+NWS National Hurricane Center Miami FL       EP122026
+500 PM HST Thu Aug 27 2026
+ 
+Satellite imagery shows a large area of deep convection that has
+been persisting with Lowell, with a ball of deep convection near and
+over the center, and a curved band noted as well.  A 27/2204Z AMSR-2
+pass also shows the same curved banding pattern.  Earlier
+scatterometer data showed that the center was slightly elongated,
+with tropical-storm-force winds confined to the southern semicircle
+and a radius of maximum wind (RMW) of about 50 n mi.  The latest
+TAFB Dvorak classification is T2.5/35 kt and objective estimates
+have been ranging from 30-42 kt.  The initial intensity is held at
+35 kt for this advisory, but given the impressive banding and
+maintenance of deep convection, this estimate could be slightly
+conservative.
+ 
+The initial motion estimate remains slowly east-northeastward, or 70
+degrees at 4 kt.  A slow counterclockwise turn toward the north and
+then the west is expected over the next 36 h as ridging builds in
+to the northeast and north.  A generally westward to
+west-northwestward motion should then continue for the rest of the
+forecast period.  There remains a ton of spread in the forward speed
+from 72 to 120 h, which could be related to Karina's location and
+size, relative to Lowell's.  The NHC track is a little faster toward
+the west than the previous forecast beyond 36 hours, but not nearly
+as fast as the HCCA and GDMI.
+ 
+Lowell will be over relatively favorable environmental conditions
+for the next 5 days, with warm sea-surface temperatures, light to
+moderate easterly wind shear and relatively moist air.  Despite
+these favorable conditions, it is a bit perplexing that the models
+are so slow to strengthen Lowell to a hurricane.  Perhaps the slow
+strengthening at first could be due to the large RMW observed on
+the previous ASCAT pass along with the moderate easterly shear.  If
+the cyclone is able to gain enough latitude and get north of 13N,
+it should find itself in a more favorable upper-level environment,
+which could allow for more significant strengthening in a few days.
+Little change has been made to the previous NHC intensity forecast
+in the first 4 days, but a higher intensity is shown at day 5.  The
+NHC intensity forecast is higher than the intensity consensus, but
+not as high as the HMON and HCCA, which bring Lowell to major
+hurricane strength by day 5.  The confidence in the intensity
+forecast is below average, and it is possible that Lowell could
+strengthen more than forecast.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  28/0300Z 11.4N 133.5W   35 KT  40 MPH
+ 12H  28/1200Z 11.8N 133.0W   40 KT  45 MPH
+ 24H  29/0000Z 12.3N 133.2W   45 KT  50 MPH
+ 36H  29/1200Z 12.5N 134.3W   50 KT  60 MPH
+ 48H  30/0000Z 12.7N 135.8W   55 KT  65 MPH
+ 60H  30/1200Z 12.9N 137.5W   60 KT  70 MPH
+ 72H  31/0000Z 13.2N 139.3W   70 KT  80 MPH
+ 96H  01/0000Z 13.5N 142.8W   80 KT  90 MPH
+120H  02/0000Z 13.9N 146.0W   95 KT 110 MPH
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

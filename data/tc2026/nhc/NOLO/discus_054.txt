@@ -1,0 +1,58 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Nolo Discussion Number  54
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+500 PM HST Sat Oct 03 2026
+
+Recent visible satellite imagery indicates that the eye and the 
+inner core of Nolo have degraded, most likely due to an ongoing 
+eyewall replacement cycle. This evolution was seen earlier on 
+microwave imagery showing an outer moat region within the cyclone. 
+Using a combination of the subjective Dvorak estimates from JTWC and 
+HFO along with the objective intensity estimates from UW-CIMSS, the 
+initial intensity has been set to 100 kt for this advisory.  
+ 
+Nolo continues to move quickly off towards the west at around 17 kt, 
+as the hurricane is being steered by an expanding mid-level ridge to 
+its north. Nolo should continue this motion with a forward speed 
+between 15 and 20 kt for the next several days, and Nolo is expected 
+to move across the International Date Line within the next 24 hours. 
+There is a large spread in the later portion of the track forecast 
+around days 4 and 5. This track spread seems related to potential 
+interaction with a disturbance (Invest 94W) currently near the 
+Marshall Islands and a longwave trough expected to move east of 
+Japan. The current NHC track forecast is similar to the previous 
+one, with some small adjustments made based on the HCCA and GDMI 
+forecast aids.
+
+A generally favorable environment with low shear and warm 
+sea-surface temperatures near 28 C should allow for some more 
+intensification during the next day or so. The key to this forecast 
+will be how soon the current eyewall replacement cycle is completed. 
+If the cycle takes longer to complete, Nolo's intensification could 
+be delayed. After 36 h, the wind shear is forecast to increase, 
+which could lead to weakening that may also be hastened by 
+intrusions of dry air. The current NHC intensity forecast is similar 
+to the previous one with some small changes made over the next 36 
+h. 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  04/0300Z 23.4N 175.1W  100 KT 115 MPH
+ 12H  04/1200Z 23.6N 177.8W  105 KT 120 MPH
+ 24H  05/0000Z 24.4N 179.0E  110 KT 125 MPH
+ 36H  05/1200Z 25.1N 176.0E  115 KT 130 MPH
+ 48H  06/0000Z 25.3N 172.7E  110 KT 125 MPH
+ 60H  06/1200Z 25.3N 168.8E  100 KT 115 MPH
+ 72H  07/0000Z 25.6N 164.6E   85 KT 100 MPH
+ 96H  08/0000Z 27.0N 156.5E   65 KT  75 MPH
+120H  09/0000Z 28.5N 151.7E   60 KT  70 MPH
+ 
+$$
+Forecaster Katz/Blake
+ 
+NNNN
+

@@ -1,0 +1,62 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Depression Seven-E Discussion Number   1
+NWS National Hurricane Center Miami FL       EP072026
+900 AM CST Fri Jul 24 2026
+ 
+Showers and thunderstorms have become better organized with the area 
+of low pressure that the NHC has been monitoring well offshore of 
+southern Mexico. In addition, 0807 UTC AMSR-2 passive microwave 
+images indicate the system has a closed low-level circulation with 
+good definition. The current satellite presentation suggests it 
+could be dealing with some northeasterly shear, with deep convection 
+mostly west and southwest of the estimated center position. Since 
+this system meets tropical cyclone criteria, we are initiating 
+advisories on Tropical Depression Seven-E with an initial intensity 
+of 30 kt based on a T2.0 Dvorak classification from TAFB. Some 
+scatterometer data expected later today should help refine the 
+center position and intensity estimates.
+
+The estimated initial motion is west-northwestward (285/10 kt), but 
+this is somewhat uncertain since the depression just formed. The 
+system should maintain a west-northwestward or northwestward heading 
+during the next several days with a ridge entrenched to its north 
+and northeast. Overall, the track model guidance is tightly 
+clustered with limited cross-track spread. There are more 
+differences in the along-track direction, with the Google Deep Mind 
+ensemble mean significantly faster than the rest of the models. The 
+first NHC track forecast uses a consensus approach and generally 
+falls between the simple (IVCN) and corrected (HCCA) consensus aids.
+
+Generally weak deep-layer vertical wind shear, very warm SSTs around 
+30C, and a strongly divergent upper-level environment are likely to 
+support steady to rapid intensification (RI) during the next few 
+days. The bulk of the intensity guidance is very aggressive with 
+strengthening, particularly in the 24-72 h window when the shear 
+falls below 10 kt. The DTOPS shows a 76 percent chance of a 65-kt 
+increase in 72 h, and more than 60 percent of the Google Deep Mind 
+ensemble members show the system becoming a major hurricane. The 
+NHC intensity forecast explicitly shows RI between 36-72 h and has 
+it reaching major hurricane status early next week, in agreement 
+with the simple consensus (IVCN) and slightly below the HCCA aid. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  24/1500Z  9.0N 100.5W   30 KT  35 MPH
+ 12H  25/0000Z  9.3N 101.7W   40 KT  45 MPH
+ 24H  25/1200Z 10.5N 103.7W   45 KT  50 MPH
+ 36H  26/0000Z 11.7N 106.2W   55 KT  65 MPH
+ 48H  26/1200Z 12.9N 108.5W   70 KT  80 MPH
+ 60H  27/0000Z 14.0N 110.5W   85 KT 100 MPH
+ 72H  27/1200Z 15.3N 112.3W  100 KT 115 MPH
+ 96H  28/1200Z 17.2N 115.0W  100 KT 115 MPH
+120H  29/1200Z 19.0N 118.0W   90 KT 105 MPH
+ 
+$$
+Forecaster Reinhart
+ 
+NNNN
+

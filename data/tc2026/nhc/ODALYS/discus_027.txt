@@ -1,0 +1,63 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Odalys Discussion Number  27
+NWS National Hurricane Center Miami FL       EP162026
+800 AM PDT Sat Sep 26 2026
+
+The structure of Odalys this morning appears to be quickly going 
+downhill. The small eye that had been associated with the hurricane 
+is no longer seen on geostationary satellite imagery. An earlier 
+AMSR3 microwave pass also showed the inner core has degraded as 
+southerly vertical wind shear quickly increases, now diagnosed at 32 
+kt by UW-CIMSS. Both subjective and objective satellite intensity 
+estimates are decreasing, and the initial intensity has been lowered 
+to 90 kt for this advisory. 
+
+With the abrupt increase in shear, Odalys is likely to continue 
+rapidly weakening in the short-term. Most of the model guidance 
+shows the vertical structure decoupling in the next 24-36 h as shear 
+imports nearby dry air is into the circulation's core. The NHC 
+intensity forecast was lowered quite a bit form the previous one, 
+partially due to the lower initial intensity, but also with the 
+expectation the small tropical cyclone will quickly succumb to the 
+unfavorable environment. The latest forecast now shows Odalys 
+becoming a remnant low in 48 h and dissipating by the mid portion of 
+next week. 
+
+The hurricane continues to move northward, with an estimated motion 
+at 360 degree at 6 kt. A deep-layer trough to its northwest should 
+maintain this general steering for the next 12-24 h, though as the 
+the system decouples and becomes vertically shallow it should turn 
+sharply back to the southeast or even south as it becomes more 
+influenced by broad low-level ridging to its northwest. The latest 
+NHC track is shifted slightly north in the short-term, but was also 
+shifted westward after Odalys become a remnant low, following the 
+latest trends in the HFIP Corrected Consensus Approach (HCCA) and 
+Google DeepMind ensemble mean (GDMI) guidance.
+ 
+Distant moisture from Hurricane Odalys and Polo will be transported
+into the southwestern United States this weekend and early next
+week, and may indirectly contribute to a heavy rainfall and flash
+flood threat in the region. See products issued by the Weather
+Prediction Center for more information.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  26/1500Z 19.8N 123.7W   90 KT 105 MPH
+ 12H  27/0000Z 20.7N 123.6W   70 KT  80 MPH
+ 24H  27/1200Z 21.9N 123.3W   50 KT  60 MPH
+ 36H  28/0000Z 22.6N 123.0W   40 KT  45 MPH
+ 48H  28/1200Z 22.4N 122.6W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 60H  29/0000Z 21.7N 122.3W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 72H  29/1200Z 20.5N 122.0W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 96H  30/1200Z 19.0N 122.1W   20 KT  25 MPH...POST-TROP/REMNT LOW
+120H  01/1200Z...DISSIPATED
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

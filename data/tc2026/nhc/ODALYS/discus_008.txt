@@ -1,0 +1,58 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Odalys Discussion Number   8
+NWS National Hurricane Center Miami FL       EP162026
+800 PM PDT Mon Sep 21 2026
+ 
+Odalys is showing signs of becoming better organized tonight. Recent 
+IR imagery depicts a plume of convection with cooling cloud-top 
+temperatures near the estimated center of the storm, along with a 
+persistent convective banding to its south. The latest Dvorak 
+intensity estimate from TAFB was 3.5/55 kt, while objective 
+intensity estimates are lower, ranging from 37-49 kt. The initial 
+intensity is set at 45 kt for this advisory. 
+ 
+The tropical storm is moving toward the west-northwest and is 
+centered between a strong mid-level ridge to the northwest and a 
+deepening mid-level trough moving through the southwestern United 
+States and the Baja California peninsula. A turn toward the north, 
+followed by a sharp turn toward the east-northeast with a slight 
+decrease in forward speed, is forecast tonight through Tuesday. An 
+east-northeastward to northeastward motion is expected through much 
+of the remainder of the week as the aforementioned trough deepens 
+and stalls over the far eastern Pacific. The track forecast becomes 
+more complicated in the longer range, as some interaction between 
+Odalys and Hurricane Polo could occur as it parallels the coast of 
+southwestern Mexico. The latest NHC forecast has been adjusted 
+slightly to the left of the previous track forecast, and remains 
+near the middle of the forecast guidance envelope. 
+
+Decreasing vertical wind shear and warm sea surface temperature will 
+support gradual strengthening over the next couple of days, and 
+Odalys is forecast to become a hurricane by around 36 h. The 
+hurricane is forecast to plateau in intensity around midweek, before 
+increasing dry-air entrainment leads to slow weakening this weekend. 
+The latest NHC forecast is near the upper end of the intensity 
+forecast guidance, and is in close agreement with the HCCA and 
+Google DeepMind solutions. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  22/0300Z 14.3N 130.3W   45 KT  50 MPH
+ 12H  22/1200Z 14.8N 130.1W   55 KT  65 MPH
+ 24H  23/0000Z 15.1N 129.3W   60 KT  70 MPH
+ 36H  23/1200Z 15.2N 128.1W   65 KT  75 MPH
+ 48H  24/0000Z 15.5N 126.8W   70 KT  80 MPH
+ 60H  24/1200Z 16.1N 125.4W   70 KT  80 MPH
+ 72H  25/0000Z 16.8N 124.3W   70 KT  80 MPH
+ 96H  26/0000Z 18.3N 122.4W   65 KT  75 MPH
+120H  27/0000Z 20.0N 121.2W   55 KT  65 MPH
+ 
+$$
+Forecaster Adams
+ 
+NNNN
+

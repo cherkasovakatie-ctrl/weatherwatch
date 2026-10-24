@@ -1,0 +1,52 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Lowell Discussion Number   1
+NWS National Hurricane Center Miami FL       EP122026
+1100 AM HST Thu Aug 27 2026
+ 
+Satellite imagery indicates that the disturbance well to the 
+west-southwest of the Baja California Peninsula and well 
+east-southeast of the Hawaiian Islands has developed well-organized 
+convective bands. Recently received ASCAT data showed a closed 
+circulation which, while elongated NE-SW, was producing winds near 
+35 kt about 50 n mi southeast of the center.  Based on this, 
+advisories are initiated on Tropical Storm Lowell.
+
+The initial motion is a somewhat uncertain 065/4 kt.  During the 
+next day or two, Lowell is expected to turn westward as a low- to 
+mid-level ridge builds to the north.  A generally westward motion 
+should continue for the rest of the forecast period. The guidance 
+has some spread in the forward speed by 120 h, which seems to be 
+due to possible effects on the steering flow by the larger Tropical 
+Storm Karina to the east. The forecast track is near the center of 
+the guidance envelope and splits the speed difference between the 
+models.
+
+Lowell will be over warm sea surface temperatures during the next 
+five days and in an environment of light to moderate easterly 
+shear. This should allow steady strengthening, and the initial 
+intensity forecast is near the center of the intensity guidance.  
+Since the environment is favorable and some of the guidance is 
+stronger than the current forecast, it is possible that Lowell will 
+strengthen more and faster than currently forecast.
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  27/2100Z 11.3N 133.8W   35 KT  40 MPH
+ 12H  28/0600Z 11.6N 133.3W   40 KT  45 MPH
+ 24H  28/1800Z 12.1N 133.2W   45 KT  50 MPH
+ 36H  29/0600Z 12.6N 133.7W   50 KT  60 MPH
+ 48H  29/1800Z 12.9N 134.8W   55 KT  65 MPH
+ 60H  30/0600Z 13.0N 136.3W   60 KT  70 MPH
+ 72H  30/1800Z 13.2N 138.0W   65 KT  75 MPH
+ 96H  31/1800Z 13.4N 141.6W   75 KT  85 MPH
+120H  01/1800Z 13.8N 144.5W   85 KT 100 MPH
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

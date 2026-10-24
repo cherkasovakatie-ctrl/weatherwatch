@@ -1,0 +1,57 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Genevieve Discussion Number  16
+NWS National Hurricane Center Miami FL       EP072026
+200 AM PDT Tue Jul 28 2026
+ 
+Genevieve remains a powerful major hurricane, but it is gradually 
+losing strength.  Although the cyclone is maintaining a distinct 15 
+n mi diameter eye, deep convection in the eyewall has become a 
+little less symmetric with some dry slots occasionally evident in 
+the northwestern quadrant.  The 06Z satellite intensity estimates 
+range from 105 to 120 kt, and based on that data, the initial 
+intensity is nudged downward to 120 kt, but this could be a little 
+generous.  A Synthetic Aperture Radar pass did hint at the 
+possibility of a secondary eyewall beginning to form, but 
+unfortunately, there have not been any recent microwave images to 
+confirm that.  An ASCAT pass from around 04Z was helpful in updating 
+the initial wind radii.
+ 
+The hurricane continues to move northwestward at about 9 kt.  The
+track forecast philosophy appears straightforward.  A mid-level
+ridge centered over the southwestern U.S. is expected to expand
+westward over the next few days, and that should cause Genevieve to
+move at a faster pace to the west-northwest later this week and into
+the weekend.  The models are in fairly good agreement, and the NHC
+forecast lies near the fast side of the guidance envelope, placing 
+greater weight on the HCCA and Google DeepMind solutions.
+ 
+Although there could be some fluctuations in Genevieve's strength
+in the short term due to the potential of an eyewall replacement
+cycle, weakening should be the primary theme during the remainder
+of the week due to progressively cooler waters and drier air along
+the forecast track.  The NHC intensity forecast lies near the
+middle of the guidance envelope, and calls for Genevieve to fall
+below hurricane strength in a few days and become post-tropical
+this weekend.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  28/0900Z 17.5N 115.4W  120 KT 140 MPH
+ 12H  28/1800Z 18.0N 116.5W  110 KT 125 MPH
+ 24H  29/0600Z 18.6N 118.0W   95 KT 110 MPH
+ 36H  29/1800Z 19.1N 119.7W   80 KT  90 MPH
+ 48H  30/0600Z 19.8N 121.8W   70 KT  80 MPH
+ 60H  30/1800Z 20.5N 124.0W   65 KT  75 MPH
+ 72H  31/0600Z 21.3N 126.4W   60 KT  70 MPH
+ 96H  01/0600Z 22.7N 131.5W   50 KT  60 MPH
+120H  02/0600Z 24.5N 137.4W   40 KT  45 MPH...POST-TROPICAL
+ 
+$$
+Forecaster Cangialosi
+ 
+NNNN
+

@@ -1,0 +1,46 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Simon Discussion Number  36
+NWS National Hurricane Center Miami FL       EP202026
+200 AM MST Fri Oct 16 2026
+ 
+Simon is gradually weakening. The storm continues to lose 
+organization with intermittent bursts of deeper convection north of 
+the center. A 0501 UTC Metop-C scatterometer pass showed a compact 
+system with peak winds around 34 kt. Intensity estimates have 
+dropped slightly, and the latest subjective Dvorak CI number from 
+TAFB was 2.5/35 kt, but the Final T-number was 2.0/30 kt. Based on a 
+compromise of these data, the initial intensity is lowered to 35 kt.
+ 
+The initial motion is estimated to be northwesterly, or 310/08 kt. 
+This general motion is forecast to continue through the weekend as 
+the system moves in between a low-level trough to its west and a 
+ridge to its east, bringing the weak and shallow system just west of 
+the Baja California Peninsula over the weekend. The latest microwave 
+and scatterometer data required a minor adjustment to the previous 
+center position; therefore, the updated forecast track has been 
+nudged northward accordingly, roughly between the corrected 
+consensus (HCCA) and Google DeepMind (GDMI) ensemble.
+ 
+Simon is anticipated to gradually weaken over the next 24–36 h due 
+to an unfavorable environment of moderate to strong southwesterly 
+vertical wind shear and dry mid-level air. As a result, Simon is 
+expected to become a remnant low within 24 h and dissipate in about 
+48 h.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  16/0900Z 20.0N 108.8W   35 KT  40 MPH
+ 12H  16/1800Z 20.7N 109.7W   30 KT  35 MPH
+ 24H  17/0600Z 21.8N 111.7W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 36H  17/1800Z 23.1N 113.6W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 48H  18/0600Z...DISSIPATED
+ 
+$$
+Forecaster Pierce/Reinhart
+ 
+NNNN
+

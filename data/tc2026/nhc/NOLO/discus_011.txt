@@ -1,0 +1,94 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Tropical Depression Fifteen-E Discussion Number  11
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+1100 PM HST Tue Sep 22 2026
+ 
+Recent satellite imagery indicates that the low-level circulation 
+associated with the remnants of former Tropical Depression Fifteen-E 
+has once again become well-defined as the system crossed from the 
+western East Pacific basin into the central Pacific basin. There has 
+been persistent deep convection, mainly in a band to the north and 
+west of the low-level center. Since the remnants have maintained 
+trackable with continuity for over a week since losing its tropical 
+cyclone status, advisories are being re-initiated and the system 
+will retain its original designation as Tropical Depression 
+Fifteen-E. The initial intensity is set at 30 kt and is based on the 
+latest objective intensity estimates from UW-CIMSS. It is worth 
+noting that if the cyclone becomes a tropical storm, it will receive 
+the Central Pacific name Nolo.
+
+The depression is moving west-northwestward at about 10 kt on the 
+southwest side of a low- to mid-level ridge. This ridge is expected 
+to shift eastward and weaken while a mid- to upper-level low dives 
+southwestward near the northwestern Hawaiian Islands. This pattern 
+change should cause the cyclone to slow down and then turn northward 
+or north-northeastward later this week. That motion should take the 
+cyclone near the Big Island of Hawaii late Friday or on Saturday.  
+Around that time, the upper low is expected to weaken and move 
+westward, allowing mid-level ridging to become re-established to the 
+north of the system. In response, the cyclone should turn and then 
+accelerate westward. The NHC track forecast is closest to the 
+best-performing models of the year so far, HCCA and GDMI. Given the 
+complex steering evolution and significant model spread, confidence 
+in the details of the track forecast is low. Interests in the 
+Hawaiian Islands, especially on the Big Island, should closely 
+monitor the system. 
+
+The environmental conditions are favorable for strengthening over 
+the next few days with vertical wind shear expected to be around or 
+less than 10 kt, high mid-level humidities, and SSTs of around 29 
+C. The only limiting factor is the system's sprawling low-level 
+structure. Considering these conditions, the NHC intensity forecast 
+calls for slow strengthening to start, followed by more significant 
+intensification when the system moves toward Hawaii. Most of the 
+reliable intensity models are quite aggressive, and the NHC 
+intensity forecast follows a combination of the HAFS guidance and 
+HCCA and GDMI aids. This prediction shows the system becoming a 
+hurricane in a couple of days and nearing major hurricane strength 
+when it approaches the Big Island of Hawaii by the weekend.
+ 
+Key Messages:
+ 
+1. Tropical Depression Fifteen-E is expected to strengthen into a
+tropical storm on Wednesday and a hurricane in a couple of days as
+it turns northward. Although it is too soon to specify the exact
+location and magnitude of impacts, interests in Hawaii should
+closely monitor the latest forecast updates and ensure that they
+have their preparedness plan in place.
+ 
+2. Heavy rainfall associated with Tropical Depression Fifteen-E will 
+begin to affect the eastern portions of Hawaii Wednesday. Periods of 
+heavy rain are likely to continue across the Big Island and Maui 
+through Saturday. Life-threatening, catastrophic flooding and 
+mudslides are possible from rainfall totals in excess of a foot, 
+especially in areas of steep terrain. Across the remainder of 
+Hawaii, lesser rainfall totals are expected, with isolated flooding 
+possible. 
+ 
+3. There is an increasing risk of wind and wave impacts in the
+Hawaiian Islands regardless of the exact track and intensity of the
+system. Hurricane or Tropical Storm Watches may be required for
+portions of the Hawaiian Islands on Wednesday.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  23/0900Z 14.0N 153.7W   30 KT  35 MPH
+ 12H  23/1800Z 14.4N 154.7W   35 KT  40 MPH
+ 24H  24/0600Z 14.6N 155.5W   45 KT  50 MPH
+ 36H  24/1800Z 15.0N 155.6W   55 KT  65 MPH
+ 48H  25/0600Z 15.9N 155.2W   70 KT  80 MPH
+ 60H  25/1800Z 17.0N 154.9W   85 KT 100 MPH
+ 72H  26/0600Z 17.9N 154.7W   95 KT 110 MPH
+ 96H  27/0600Z 18.3N 156.0W   95 KT 110 MPH
+120H  28/0600Z 18.2N 159.0W   95 KT 110 MPH
+ 
+$$
+Forecaster Kelly/Cangialosi
+ 
+NNNN
+

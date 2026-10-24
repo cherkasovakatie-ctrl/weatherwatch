@@ -1,0 +1,75 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Simon Discussion Number  11
+NWS National Hurricane Center Miami FL       EP202026
+900 PM CST Fri Oct 09 2026
+ 
+Small, compact Simon is rapidly intensifying this evening.  A
+dreaded pinhole eye has formed and is now visible in the
+infrared BD-curve enhancement.  Visible imagery shows that the tiny
+eye is cloud-filled.  Based on the impressive satellite
+presentation, the initial intensity is increased to 105 kt for this
+advisory.  Simon's wind radii were adjusted based on an OSCAT-3
+overpass.
+ 
+Further rapid strengthening is expected over the next 24 hours, with
+the forecast showing a peak intensity of 135 kt.  Because of
+Simon's small inner core size, peak intensities are virtually
+impossible to predict, and with just a slight warming of the
+tiny eye, Simon could quickly become stronger than reflected in the
+intensity forecast.  No changes worth noting were made to the NHC
+intensity forecast, which continues to be above the guidance suite.
+ 
+Simon's initial motion is estimated to be northward, or 360/6 kt.
+The cyclone is moving within southerly mid-level steering flow
+produced by high pressure over southern Mexico and a longwave
+mid-tropospheric trough to the west stretching south-southwestward
+from the southwest U.S.  It's still somewhat uncertain if Simon
+will move inland over the Mexican states of Colima and Jalisco or
+remain offshore.  The model fields of the skilled HiRes global
+models (GFS/ECMWF/UKMET/CMC) show the cyclone moving inland
+and rapidly weakening with dissipation over the rugged mountainous
+terrain of the aforementioned states of Mexico in 60 hrs.  Of
+course, if Simon's track remains just offshore, as a few of
+the guidance indicates, it's likely that it will maintain hurricane
+strength for a longer period of time.  As the previous
+advisories indicated, the NHC forecast continues to favor the
+former scenario (inland/weakening), sticking with the more skilled
+consensus aids.
+ 
+Key Messages:
+ 
+1. Catastrophic wind and life-threatening storm surge impacts are
+likely along a portion of the west-central coast of Mexico, and a
+Hurricane warning is in effect from Punta San Telmo to Punta Mita.
+Preparations to protect life and property should be completed by
+late today.
+ 
+2. Heavy rainfall associated with Simon will impact portions of
+southwestern Mexico through this weekend. This rainfall will produce
+life-threatening flooding and mudslides, especially in areas of
+steep terrain.
+ 
+3. Swells will affect portions of the southwestern and west-central
+coast of Mexico through the weekend. These swells are likely to
+cause life-threatening surf and rip current conditions. Please
+consult products from your local weather office.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  10/0300Z 16.8N 104.6W  105 KT 120 MPH
+ 12H  10/1200Z 17.4N 104.7W  120 KT 140 MPH
+ 24H  11/0000Z 18.2N 104.9W  135 KT 155 MPH
+ 36H  11/1200Z 19.6N 105.0W  120 KT 140 MPH
+ 48H  12/0000Z 21.0N 105.1W   70 KT  80 MPH...INLAND
+ 60H  12/1200Z 22.4N 105.4W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 72H  13/0000Z...DISSIPATED
+ 
+$$
+Forecaster Roberts
+ 
+NNNN
+

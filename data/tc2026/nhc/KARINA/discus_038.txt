@@ -1,0 +1,53 @@
+
+ZCZC HFOTCDCP5 ALL
+TTAA00 PHFO DDHHMM
+ 
+Tropical Storm Karina Discussion Number  38
+NWS Central Pacific Hurricane Center Honolulu HI   EP112026
+Issued by NWS National Hurricane Center Miami FL
+1100 AM HST Sat Sep 05 2026
+ 
+Visible satellite imagery indicates that Karina's low-level 
+circulation has become totally decoupled from the mid- to 
+upper-levels. Deep convection is now limited to a shield to the 
+north of the cyclone. A blend of Dvorak Final-T and Current 
+Intensity numbers from JTWC plus decreasing objective estimates from 
+UW-CIMSS supported lowering the intensity estimate to 60 kt at 18Z. 
+Since then, further degradation of the satellite appearance of 
+Karina over the past few hours justify lowering the intensity 
+estimate to 55 kt for this advisory. 
+ 
+Largely because Karina has become shallow sooner than expected, the 
+tropical storm has also moved south of the previous forecast track. 
+This has necessitated another southward shift to the NHC forecast, 
+which is near the southern extreme of the reliable guidance 
+envelope. A further southward adjustment may be necessary in future 
+advisories. Karina is now forecast to move generally 
+west-northwestward to westward for the next couple of days, steered 
+primarily by low-level flow associated with a subtropical high 
+centered well north of the tropical storm. This motion will likely 
+continue until Karina dissipates in a few days.
+
+Further weakening from southwesterly shear and dry air is likely. 
+The official forecast calls for Karina to weaken slightly faster 
+than previously shown, but is generally similar and lies near the 
+middle of the models, which are all in good agreement. Karina is 
+forecast to become post-tropical in 2 days, and based on current 
+trends, it could occur sooner than that.
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  05/2100Z 21.6N 143.6W   55 KT  65 MPH
+ 12H  06/0600Z 22.0N 144.3W   50 KT  60 MPH
+ 24H  06/1800Z 22.5N 145.4W   45 KT  50 MPH
+ 36H  07/0600Z 22.8N 146.7W   35 KT  40 MPH
+ 48H  07/1800Z 23.0N 148.7W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 60H  08/0600Z 23.4N 151.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 72H  08/1800Z...DISSIPATED
+ 
+$$
+Forecaster D. Zelinsky
+ 
+NNNN
+

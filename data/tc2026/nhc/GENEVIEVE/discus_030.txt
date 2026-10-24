@@ -1,0 +1,56 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Genevieve Discussion Number  30
+NWS National Hurricane Center Miami FL       EP072026
+500 AM HST Fri Jul 31 2026
+
+Genevieve is mainly comprised of a large swirl of low- to mid-level 
+clouds with some convective banding near the center and in the 
+northwestern quadrant. Satellite intensity estimates continue to 
+decrease, with most of them suggesting an intensity near 50 kt. 
+That will be the initial intensity for this advisory.
+
+The initial motion continues to be west-northwestward or 290/13 kt. 
+A strong low- to mid-level ridge to the north of the cyclone should 
+steer it generally west-northwestward for the next three days or 
+so. After that time, a turn toward the northwest is forecast due to 
+the ridge breaking in response to a mid- to upper-level trough 
+forming north of 20N between 140-160W. The track guidance remains 
+in good agreement with this scenario, and the new official forecast 
+is again almost identical to the previous forecast.
+
+Sea surface temperature analyses indicate that Genevieve is 
+approaching a small patch of warmer water with temperatures near 
+25C. This should result in a slight increase in the water 
+temperature under the core of the cyclone for the next 18 h or so. 
+Based on this, the intensity forecast calls for a pause in the 
+weakening from 12-24 h, followed by resumed steady weakening as the 
+system again encounters cooler water and is affected by increasing 
+shear. The new intensity forecast now calls for the cyclone to 
+decay to a remnant low by 60 hr.  The global models are in good 
+agreement that the remnant low will persist for several days after 
+the convection dissipates, and this is reflected in the forecast. 
+It should be noted that if the convection does not persist during 
+Genevieve's passage over the warmer water, the cyclone could 
+degenerate to a remnant low earlier than currently forecast.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  31/1500Z 22.1N 128.6W   50 KT  60 MPH
+ 12H  01/0000Z 22.6N 130.6W   45 KT  50 MPH
+ 24H  01/1200Z 23.4N 133.5W   45 KT  50 MPH
+ 36H  02/0000Z 24.2N 136.4W   40 KT  45 MPH
+ 48H  02/1200Z 25.1N 139.1W   35 KT  40 MPH
+ 60H  03/0000Z 26.1N 141.6W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 72H  03/1200Z 27.2N 143.5W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 96H  04/1200Z 29.9N 145.8W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  05/1200Z 33.3N 147.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

@@ -1,0 +1,67 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Lowell Discussion Number   9
+NWS National Hurricane Center Miami FL       EP122026
+1100 AM HST Sat Aug 29 2026
+
+Lowell remains a sheared cyclone at this time, with the low-level 
+center near the eastern edge of the main convective mass.  Since the 
+organization and the various satellite intensity estimates have 
+changed little from the previous advisory, the initial intensity 
+remains 40 kt.
+
+For the past 12 h or so Lowell has been moving west-northwestward 
+or 285/11 kt. A westward motion should resume soon and continue for 
+the next 2-3 days as a low- to mid-level ridge to the north is the 
+main steering influence. After that time, the track guidance splits 
+into three camps, likely due to the potential effects of Tropical 
+Storm Karina on Lowell's steering flow.  One camp, which includes 
+the Google Deepmind Ensemble Mean, the HFIP Corrected Consensus, 
+the UKMET, and the ECMWF - which has flip-flopped into this camp - 
+calls for Lowell to continue generally westward. A second camp, 
+which includes the GFS and the various regional hurricane models, 
+forecast a turn toward the west-northwest or northwest. The third 
+camp, which includes the Canadian, Canadian Ensemble Mean, the GFS 
+Ensemble mean, and the NAVGEM, have Lowell slowing its westward 
+motion, with the NAVGEM turning it back to the east.  Needless to 
+say that with this kind of spread the forecast is low confidence.  
+Overall, the guidance envelope has trended a little more to the west 
+and a little faster. That being said, the new forecast track is a 
+little north of the previous track due to the current 
+west-northwestward jog.
+
+The ongoing shear has been slower to diminish than forecast 
+yesterday. However, the dynamical models are in good agreement  
+that it should diminish during the next 12-24 h, with Lowell 
+strengthening as it becomes vertically aligned. After 24 h, the 
+intensity forecast shows a faster rate of development as conditions 
+become more favorable. By the end of the forecast period, the
+intensity forecast becomes more uncertain due to Lowell's potential
+interaction with Karina. The forecast intensity, which has minor 
+tweaks from the previous forecast, calls for Lowell and Karina to 
+stay far enough apart for Lowell to maintain its strength or keep 
+strengthening. However, a slower forward motion could expose Lowell 
+to stronger shear associated with outflow from Karina and cause a 
+weaker storm. The new intensity forecast again lies in the middle 
+of a guidance envelope with significant spread.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  29/2100Z 13.2N 137.1W   40 KT  45 MPH
+ 12H  30/0600Z 13.2N 138.6W   40 KT  45 MPH
+ 24H  30/1800Z 13.1N 140.9W   45 KT  50 MPH
+ 36H  31/0600Z 13.1N 142.8W   55 KT  65 MPH
+ 48H  31/1800Z 13.2N 144.5W   65 KT  75 MPH
+ 60H  01/0600Z 13.3N 146.2W   75 KT  85 MPH
+ 72H  01/1800Z 13.4N 147.6W   85 KT 100 MPH
+ 96H  02/1800Z 13.8N 150.0W   95 KT 110 MPH
+120H  03/1800Z 14.4N 152.3W   95 KT 110 MPH
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

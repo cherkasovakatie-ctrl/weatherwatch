@@ -1,0 +1,65 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Fausto Discussion Number  21
+NWS National Hurricane Center Miami FL       EP062026
+500 PM HST Thu Jul 23 2026
+ 
+Since the previous advisory, Hurricane Fausto has strengthened a bit 
+more. The eye is less ragged on visible and infrared satellite 
+imagery, and moderately deep convection continues to surround the 
+center. Objective and subjective satellite intensity estimates all 
+support an initial intensity of 80 kt.
+
+The deep-layer ridge north of Fausto continues to steer the 
+hurricane westward at 280/13 kt. This general motion will continue 
+through tonight, and then Fausto will begin a more 
+west-northwestward heading, with the system reaching just north of 
+the Hawaiian Islands at Day 5. There has been little change to the 
+track forecast this cycle, and the updated forecast closely follows 
+the HCCA model consensus aid and Google DeepMind. 
+ 
+The current environment around Fausto remains marginal, with SSTs of 
+26.5-27C, and some mid-level wind shear and dry air attempting and 
+failing to intrude the northwestern part of the core. Given the 
+present structure of the hurricane, the intensity is likely to 
+remain steady through tonight. Thereafter, Fausto will move through 
+a less favorable environment characterized by cooler SSTs 
+(25.5-26C), an increasingly drier air mass, and potentially 
+increasing westerly wind shear. This is reflected in the new 
+intensity forecast, which shows steady weakening through the end of 
+the forecast period. There are some solutions within the global and 
+hurricane regional model guidance that suggest a faster pace of 
+weakening than forecast, including the possible degeneration of 
+Fausto into a remnant low while approaching the Hawaiian Islands. To 
+maintain continuity, the NHC forecast continues to show Fausto as a 
+tropical cyclone through the entire 5-day forecast period.
+
+Key Messages:
+
+1. Fausto is forecast to approach the Hawaiian Islands during the 
+early to the middle portion of next week. The risk of some impacts 
+from wind and rainfall is increasing.  However, it is too soon to 
+determine the exact location or magnitude of these impacts, and 
+interests there should continue to monitor the progress of this 
+storm.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  24/0300Z 18.3N 128.4W   80 KT  90 MPH
+ 12H  24/1200Z 18.5N 130.4W   80 KT  90 MPH
+ 24H  25/0000Z 18.8N 133.1W   75 KT  85 MPH
+ 36H  25/1200Z 19.1N 135.5W   75 KT  85 MPH
+ 48H  26/0000Z 19.6N 137.8W   70 KT  80 MPH
+ 60H  26/1200Z 19.8N 140.1W   65 KT  75 MPH
+ 72H  27/0000Z 20.1N 142.8W   60 KT  70 MPH
+ 96H  28/0000Z 20.7N 149.0W   50 KT  60 MPH
+120H  29/0000Z 21.3N 154.9W   40 KT  45 MPH
+ 
+$$
+Forecaster Mahoney/Berg
+ 
+NNNN
+

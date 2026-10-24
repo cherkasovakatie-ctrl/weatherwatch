@@ -1,0 +1,58 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Karina Discussion Number  24
+NWS National Hurricane Center Miami FL       EP112026
+1100 PM HST Tue Sep 01 2026
+ 
+Karina's satellite presentation is even a little more impressive 
+than it was earlier today.  The hurricane is exhibiting a 
+well-defined 25 n mi diameter eye embedded in very deep convection.  
+The eye temperature on satellite imagery has warmed to around 16 deg 
+C over the past several hours. Using a blend of objective satellite 
+estimates, the advisory intensity is set at 125 kt.  This is close 
+to the latest DPRINT value from UW-CIMSS.  Karina's cloud pattern is 
+quite symmetrical and is typical of an annular hurricane.
+
+Karina continues moving just slightly north of due west, or around 
+280/10 kt.  The track forecast philosophy is basically unchanged 
+from the previous few advisories.  The flow on the southern side of 
+a narrow mid-tropospheric ridge should continue to steer the system 
+on a westward to west-northwestward course for the next 3 days or 
+so.  Later in the forecast period, a more northwestward track is 
+likely due to the influence of a mid-level cyclone to the north of 
+Hawaii.  The new official forecast is very similar to the previous 
+NHC track and is a blend of the latest ECMWF, HCCA, and Google 
+DeepMind predictions.  There is fairly high confidence that Karina 
+will pass to the north of the Hawaiian Islands.
+
+Karina remains over marginally warm waters with low vertical wind 
+shear.  Therefore, the hurricane has an opportunity for some 
+additional strengthening during the next 12 hours or so.  A gradual 
+weakening trend should commence thereafter due to drier air and 
+somewhat cooler waters.  However, since Karina appears to be 
+an annular hurricane, its weakening during the forecast period is 
+likely to be slower than normal.  The official intensity forecast 
+is generally above the model guidance owing to the annular nature 
+of the system.  Karina is likely to maintain hurricane strength for 
+at least the next 72 hours.
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  02/0900Z 18.5N 131.7W  125 KT 145 MPH
+ 12H  02/1800Z 19.0N 133.1W  130 KT 150 MPH
+ 24H  03/0600Z 19.5N 135.0W  125 KT 145 MPH
+ 36H  03/1800Z 19.9N 137.0W  110 KT 125 MPH
+ 48H  04/0600Z 20.4N 139.0W   95 KT 110 MPH
+ 60H  04/1800Z 20.8N 140.8W   85 KT 100 MPH
+ 72H  05/0600Z 21.4N 142.3W   70 KT  80 MPH
+ 96H  06/0600Z 22.9N 144.8W   60 KT  70 MPH
+120H  07/0600Z 25.2N 147.1W   50 KT  60 MPH
+ 
+$$
+Forecaster Pasch
+ 
+NNNN
+

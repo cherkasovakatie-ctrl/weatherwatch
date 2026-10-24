@@ -1,0 +1,60 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Depression Eighteen-E Discussion Number   2
+NWS National Hurricane Center Miami FL       EP182026
+900 AM CST Sun Sep 27 2026
+ 
+Deep convection is gradually becoming better organized in
+association with the depression.  There is evidence of banding over
+the northern and western portions of the circulation, although
+there appears to be some easterly shear over the system.  TAFB
+provided a Dvorak classification of T2.5/35 kt and objective
+estimates are in the 30-35 kt range.  Given the fragmented nature
+of the convective banding, the initial intensity is held at 30 kt.  
+A very recent arriving WSF-M microwave overpass was very helpful 
+in locating the center, which was a little north of the previous 
+estimate.
+
+The initial motion appears to be 295/4 kt, a little slower than 
+estimated in the first advisory.  The depression is forecast to 
+move faster toward the west-northwest, to the south of a 
+deep-layer ridge over Mexico during the next several days.  The 
+track guidance is in good agreement on the core of the system 
+staying well south of the coast of southern Mexico, and the NHC 
+track forecast follows a blend of the GDM consensus aid and the HFIP 
+corrected consensus.  The new track was adjusted slightly north of 
+the previous advisory due to the more northward initial position.
+ 
+Moderate easterly shear over the system is likely to keep 
+significant strengthening in check during the next 12 hours, but the 
+system is likely to become a tropical storm during that time. By 
+late tonight and Monday, a faster rate of strengthening is expected 
+as shear decreases and the system moves over warm SSTs.  Much of 
+the intensity guidance shows the system becoming a hurricane in 
+about 48 hours, and the NHC wind speed forecast follows suit.  
+Around 72 hours, there is some uncertainty with regards to SSTs 
+with the track potentially moving over the cool wake of Hurricane 
+Polo. Therefore, the intensity forecast during that period calls 
+for the intensity to level off, which is similar to what is shown 
+by the HFIP corrected consensus. 
+
+
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  27/1500Z 12.7N  98.6W   30 KT  35 MPH
+ 12H  28/0000Z 13.0N  99.2W   35 KT  40 MPH
+ 24H  28/1200Z 13.7N 100.5W   45 KT  50 MPH
+ 36H  29/0000Z 14.6N 102.4W   55 KT  65 MPH
+ 48H  29/1200Z 15.5N 104.2W   65 KT  75 MPH
+ 60H  30/0000Z 16.5N 106.0W   70 KT  80 MPH
+ 72H  30/1200Z 17.3N 107.4W   75 KT  85 MPH
+ 96H  01/1200Z 18.7N 109.2W   80 KT  90 MPH
+120H  02/1200Z 19.4N 110.0W   80 KT  90 MPH
+ 
+$$
+Forecaster Brown
+ 
+NNNN
+

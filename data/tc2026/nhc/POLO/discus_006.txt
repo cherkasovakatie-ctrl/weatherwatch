@@ -1,0 +1,99 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Polo Discussion Number   6
+NWS National Hurricane Center Miami FL       EP172026
+900 PM CST Mon Sep 21 2026
+ 
+Polo continues to rapidly intensify (RI) this evening. On 
+geostationary satellite, the hurricane's structure is becoming 
+increasingly impressive, with the earlier ragged eye clearing out as 
+very cold cloud tops (-80 C and below) wrap around. In addition, an 
+F17 SSMIS microwave pass at 0105 UTC suggests the earlier eyewall 
+replacement cycle (ERC) observed from the NOAA-P3 aircraft has 
+completed. Not surprisingly, satellite intensity estimates are 
+quickly rising, with the latest subjective Dvorak estimate from TAFB 
+up to T5.0/90 kt, with the DMINT estimate associated with that 
+recent SSMIS pass at 96 kt. Given the continued improvement of Polo 
+on satellite, the initial intensity is being increased to 95 kt for 
+this advisory.
+
+The intensifying hurricane continues to move a little south of due 
+east, with its estimated motion at 105 degrees at 4 kt. This 
+short-term motion is expected to continue for the next 12-18 h 
+before mid- to upper-level ridging over Mexico intensifies. The net 
+result of this synoptic pattern change is that the primary steering 
+should flip in about 24 h, causing Polo to make a sharp turn to the 
+northwest and then west-northwest in the 36-60 h time frame, 
+bringing the core of the hurricane near, but just offshore of, the 
+coast of southwestern Mexico. Finally, toward the end of the 
+forecast period, Polo will likely be reaching the westward extent of 
+the deep-layer ridge. In addition, Polo may also be approaching 
+Tropical Storm Odalys that is forecast to be positioned west of 
+Polo, and much of the track guidance responds to this evolution by 
+showing the hurricane turning more northward by 120 h. There 
+continues to be quite a bit of cross-track uncertainty, both in 
+terms of how sharp Polo's turn to the northwest will be in the next 
+48 h, and also toward the end of the forecast when Polo could 
+experience binary interaction with Odalys. The NHC track forecast 
+continues to favor a blend of the HFIP Corrected Consensus Approach 
+(HCCA) and Google DeepMind ensemble mean (GDMI) aids, but the track 
+uncertainly remains high in the 3-5 day period. 
+
+Now that it appears the earlier ERC has completed, it is hard to see 
+what could prevent Polo from continuing to RI for the next day or 
+so. Shear remains low, analyzed at 6 kt by UW-CIMSS, and there is 
+ample deep-layer moisture. Sea-surface temperatures are also very 
+warm (31 C) and extend vertically down 50-100 meters along the 
+short-term track of Polo per a ARGO profiler, which should limit 
+cooler ocean upwelling despite the slow motion of the hurricane. 
+SHIPS RI indices continue to be very high, with DTOPS showing an 81 
+percent chance of at least a 40 kt increase in intensity over the 
+next 24 h. Thus, the NHC intensity forecast will continue to show 
+RI, and now shows a 140-kt peak in 24 h. This intensity forecast 
+agrees with the HCCA intensity aid, and is also close to the 18z 
+HAFS-B forecast which also shows a 140-kt peak in its raw output in 
+24 h. Beyond that time, inner-core fluctuations related to 
+additional ERCs will likely lead to intensity oscillations, and both 
+the GFS- and EC-SHIPS guidance does show a marked increase in 
+easterly shear beyond 48 h. Therefore, slow weakening is shown in 
+the day 3-5 period, though it still remains a bit higher than the 
+intensity guidance consensus aside from HCCA. Regardless, Polo is 
+expected to remain a major hurricane through the entire forecast 
+period.
+ 
+Key Messages:
+ 
+1. Heavy rainfall associated with Polo will impact coastal portions
+of southwest Mexico through Thursday. This rainfall may produce
+life-threatening flooding and mudslides, especially in areas of
+steep terrain.
+ 
+2. Polo is forecast to strengthen to a major hurricane while it
+moves closer to the coast of southwestern Mexico during the next few
+days. Although the core of the hurricane is forecast to stay
+offshore, it is too soon to determine the exact location or
+magnitude of impacts. Residents in southwestern Mexico should
+closely monitor its progress and updates to the forecast. A Tropical
+Storm Watch is in effect for portions of southwestern Mexico and 
+has been extended to Manzanillo. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  22/0300Z 15.0N 102.3W   95 KT 110 MPH
+ 12H  22/1200Z 14.9N 101.8W  115 KT 130 MPH
+ 24H  23/0000Z 15.1N 101.7W  140 KT 160 MPH
+ 36H  23/1200Z 15.6N 102.2W  140 KT 160 MPH
+ 48H  24/0000Z 16.5N 103.2W  135 KT 155 MPH
+ 60H  24/1200Z 17.3N 104.5W  130 KT 150 MPH
+ 72H  25/0000Z 17.7N 106.0W  125 KT 145 MPH
+ 96H  26/0000Z 18.6N 109.2W  115 KT 130 MPH
+120H  27/0000Z 20.1N 111.7W  105 KT 120 MPH
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

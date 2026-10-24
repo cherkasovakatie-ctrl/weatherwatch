@@ -1,0 +1,57 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Rachel Discussion Number  39
+NWS National Hurricane Center Miami FL       EP182026
+200 PM PDT Tue Oct 06 2026
+ 
+Rachel continues to be impacted by northeasterly wind shear and dry 
+mid-level air. Recent satellite imagery shows that the northern 
+portion of the circulation is eroding, with the eye now open on the 
+northern side. Cloud-top temperatures have warmed, and deep 
+convection is now primarily confined to the southern semicircle. The 
+latest satellite intensity estimates range between 73 and 85 kt. 
+Given the degraded satellite appearance, the initial intensity is 
+lowered to 70 kt for this advisory.
+ 
+The initial motion is westward, or 275/6 kt. Rachel is being steered 
+west-northwestward by a subtropical ridge located over the western 
+United States, and this general motion is expected to continue over 
+the next couple of days. Thereafter, a mid- to upper-level trough is 
+forecast to approach the U.S. West Coast, which will erode the 
+western portion of the ridge. This should cause Rachel to slow down, 
+turn sharply toward the northeast, and then re-accelerate. The 
+latest NHC track forecast lies very close to the previous official 
+forecast, though it has been nudged slightly right and faster at the 
+end of the period which trends towards the HCCA and GDMI track aids.
+ 
+Dry air entrainment is steadily eroding the convection, and the 
+surrounding air mass is forecast to remain dry and stable. Although 
+wind shear may briefly relax, the cyclone will soon be traversing 
+cooler sea surface temperatures. Given the combination of these 
+hostile environmental conditions, a steady weakening trend is 
+anticipated. Convection is expected to become increasingly 
+intermittent and disorganized, and the system is forecast to become 
+a post-tropical cyclone by day 4. The official NHC intensity 
+forecast is very similar to the previous, showing gradual then 
+steady weakening throughout the forecast period.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  06/2100Z 20.5N 120.1W   70 KT  80 MPH
+ 12H  07/0600Z 20.7N 121.0W   65 KT  75 MPH
+ 24H  07/1800Z 21.2N 122.1W   60 KT  70 MPH
+ 36H  08/0600Z 21.8N 123.3W   55 KT  65 MPH
+ 48H  08/1800Z 22.3N 124.5W   50 KT  60 MPH
+ 60H  09/0600Z 22.6N 125.2W   40 KT  45 MPH
+ 72H  09/1800Z 22.9N 125.0W   40 KT  45 MPH
+ 96H  10/1800Z 24.9N 121.7W   40 KT  45 MPH...POST-TROPICAL
+120H  11/1800Z 28.5N 117.0W   35 KT  40 MPH...POST-TROPICAL
+ 
+$$
+Forecaster Kelly
+ 
+NNNN
+

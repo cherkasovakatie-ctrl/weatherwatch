@@ -1,0 +1,55 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Karina Discussion Number  20
+NWS National Hurricane Center Miami FL       EP112026
+1100 PM HST Mon Aug 31 2026
+
+Karina is maintaining a well-defined eye surrounded by very deep 
+convection with cloud tops to -80 deg C or even colder.  Subjective 
+Dvorak estimates indicate that the hurricane is maintaining its 
+intensity.  In fact, the objective satellite consensus intensity 
+estimate, SATCON, from UW-CIMSS suggests that Karina has become 
+slightly stronger with an estimated maximum wind speed near 120 kt 
+for this advisory.  There is not much evidence of concentric 
+eyewalls at this time, and Karina still has some potential to become 
+an annular hurricane.
+
+The estimated motion continues to be west-northwestward, or    
+285/9 kt.  A narrow mid-tropospheric subtropical ridge to the north 
+of Karina should keep the system on a west-northwestward to westward 
+track at about the same forward speed through 72 hours or so.  By 
+days 4-5 a weak mid-level low to the north of the Hawaiian Islands 
+should induce a slightly more northwestward motion.  The official 
+track forecast is similar to the previous one, and is close to the 
+simple model consensus.  The corrected consensus is a little north 
+of the NHC track in the latter part of the forecast period.
+
+Karina is likely to remain over marginally warm ocean waters with 
+low vertical wind shear for the next couple of days.  This should 
+keep the system as a major hurricane through the next 36 hours or 
+so.  Although a slightly drier low- to mid-level air mass and 
+gradually cooling SSTs should result in slow weakening, Karina 
+could maintain its intensity more than expected if it takes on an 
+annular structure.  The official intensity forecast is similar to 
+the model consensus and on the high side of the guidance envelope.
+
+
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  01/0900Z 18.0N 127.9W  120 KT 140 MPH
+ 12H  01/1800Z 18.5N 129.3W  120 KT 140 MPH
+ 24H  02/0600Z 18.9N 131.3W  110 KT 125 MPH
+ 36H  02/1800Z 19.3N 133.2W  100 KT 115 MPH
+ 48H  03/0600Z 19.6N 135.0W   90 KT 105 MPH
+ 60H  03/1800Z 19.9N 136.9W   85 KT 100 MPH
+ 72H  04/0600Z 20.2N 138.7W   80 KT  90 MPH
+ 96H  05/0600Z 20.8N 142.3W   70 KT  80 MPH
+120H  06/0600Z 22.4N 145.4W   65 KT  75 MPH
+ 
+$$
+Forecaster Pasch
+ 
+NNNN
+

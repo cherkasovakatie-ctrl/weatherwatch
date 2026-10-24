@@ -1,0 +1,210 @@
+[
+ {
+  "name": "CHAMPI",
+  "basin": "Western Pacific",
+  "dates": "2026-10-14 to 2026-10-22",
+  "peak_kt": 159,
+  "cat": 5,
+  "last": "2026-10-22 00:00"
+ },
+ {
+  "name": "TRUDY",
+  "basin": "Eastern/central Pacific",
+  "dates": "2026-10-11 to 2026-10-20",
+  "peak_kt": 105,
+  "cat": 3,
+  "last": "2026-10-20 00:00"
+ },
+ {
+  "name": "SIMON",
+  "basin": "Eastern/central Pacific",
+  "dates": "2026-10-04 to 2026-10-16",
+  "peak_kt": 135,
+  "cat": 4,
+  "last": "2026-10-16 18:00"
+ },
+ {
+  "name": "KOGUMA",
+  "basin": "Western Pacific",
+  "dates": "2026-10-05 to 2026-10-13",
+  "peak_kt": 119,
+  "cat": 4,
+  "last": "2026-10-13 18:00"
+ },
+ {
+  "name": "NOLO",
+  "basin": "Eastern/central Pacific (crossed 140\u00b0W)",
+  "dates": "2026-09-10 to 2026-10-11",
+  "peak_kt": 135,
+  "cat": 4,
+  "last": "2026-10-11 12:00"
+ },
+ {
+  "name": "RACHEL",
+  "basin": "Eastern/central Pacific",
+  "dates": "2026-09-25 to 2026-10-11",
+  "peak_kt": 105,
+  "cat": 3,
+  "last": "2026-10-11 12:00"
+ },
+ {
+  "name": "ISAIAS",
+  "basin": "Atlantic",
+  "dates": "2026-10-04 to 2026-10-11",
+  "peak_kt": 105,
+  "cat": 3,
+  "last": "2026-10-11 12:00"
+ },
+ {
+  "name": "CHOI-WAN",
+  "basin": "Western Pacific",
+  "dates": "2026-09-30 to 2026-10-07",
+  "peak_kt": 134,
+  "cat": 4,
+  "last": "2026-10-07 06:00"
+ },
+ {
+  "name": "SURIGAE",
+  "basin": "Western Pacific",
+  "dates": "2026-09-23 to 2026-10-01",
+  "peak_kt": 128,
+  "cat": 4,
+  "last": "2026-10-01 06:00"
+ },
+ {
+  "name": "POLO",
+  "basin": "Eastern/central Pacific",
+  "dates": "2026-09-17 to 2026-09-30",
+  "peak_kt": 155,
+  "cat": 5,
+  "last": "2026-09-30 00:00"
+ },
+ {
+  "name": "ODALYS",
+  "basin": "Eastern/central Pacific",
+  "dates": "2026-09-16 to 2026-09-27",
+  "peak_kt": 115,
+  "cat": 4,
+  "last": "2026-09-27 18:00"
+ },
+ {
+  "name": "DUJUAN",
+  "basin": "Western Pacific",
+  "dates": "2026-09-15 to 2026-09-22",
+  "peak_kt": 70,
+  "cat": 1,
+  "last": "2026-09-22 12:00"
+ },
+ {
+  "name": "LOWELL",
+  "basin": "Eastern/central Pacific (crossed 140\u00b0W)",
+  "dates": "2026-08-25 to 2026-09-11",
+  "peak_kt": 140,
+  "cat": 5,
+  "last": "2026-09-11 00:00"
+ },
+ {
+  "name": "MARIE",
+  "basin": "Eastern/central Pacific",
+  "dates": "2026-08-29 to 2026-09-08",
+  "peak_kt": 85,
+  "cat": 2,
+  "last": "2026-09-08 12:00"
+ },
+ {
+  "name": "KARINA",
+  "basin": "Eastern/central Pacific (crossed 140\u00b0W)",
+  "dates": "2026-08-25 to 2026-09-07",
+  "peak_kt": 125,
+  "cat": 4,
+  "last": "2026-09-07 00:00"
+ },
+ {
+  "name": "BANG-LANG",
+  "basin": "Western Pacific",
+  "dates": "2026-08-26 to 2026-08-31",
+  "peak_kt": 74,
+  "cat": 1,
+  "last": "2026-08-31 00:00"
+ },
+ {
+  "name": "LALA",
+  "basin": "Eastern/central Pacific (crossed 140\u00b0W)",
+  "dates": "2026-08-10 to 2026-08-28",
+  "peak_kt": 115,
+  "cat": 4,
+  "last": "2026-08-28 06:00"
+ },
+ {
+  "name": "SAUDEL",
+  "basin": "Western Pacific",
+  "dates": "2026-08-18 to 2026-08-28",
+  "peak_kt": 115,
+  "cat": 4,
+  "last": "2026-08-28 00:00"
+ },
+ {
+  "name": "DOLPHIN",
+  "basin": "Western Pacific",
+  "dates": "2026-07-27 to 2026-08-09",
+  "peak_kt": 144,
+  "cat": 5,
+  "last": "2026-08-09 18:00"
+ },
+ {
+  "name": "GENEVIEVE",
+  "basin": "Eastern/central Pacific (crossed 140\u00b0W)",
+  "dates": "2026-07-24 to 2026-08-06",
+  "peak_kt": 140,
+  "cat": 5,
+  "last": "2026-08-06 00:00"
+ },
+ {
+  "name": "FAUSTO",
+  "basin": "Eastern/central Pacific (crossed 140\u00b0W)",
+  "dates": "2026-07-16 to 2026-07-29",
+  "peak_kt": 90,
+  "cat": 2,
+  "last": "2026-07-29 12:00"
+ },
+ {
+  "name": "NOUL",
+  "basin": "Western Pacific",
+  "dates": "2026-07-23 to 2026-07-26",
+  "peak_kt": 84,
+  "cat": 2,
+  "last": "2026-07-26 06:00"
+ },
+ {
+  "name": "BAVI",
+  "basin": "Western Pacific",
+  "dates": "2026-07-01 to 2026-07-14",
+  "peak_kt": 154,
+  "cat": 5,
+  "last": "2026-07-14 18:00"
+ },
+ {
+  "name": "MEKKHALA",
+  "basin": "Western Pacific",
+  "dates": "2026-06-18 to 2026-06-27",
+  "peak_kt": 124,
+  "cat": 4,
+  "last": "2026-06-27 12:00"
+ },
+ {
+  "name": "JANGMI",
+  "basin": "Western Pacific",
+  "dates": "2026-05-27 to 2026-06-03",
+  "peak_kt": 74,
+  "cat": 1,
+  "last": "2026-06-03 18:00"
+ },
+ {
+  "name": "SINLAKU",
+  "basin": "Western Pacific",
+  "dates": "2026-04-09 to 2026-04-20",
+  "peak_kt": 154,
+  "cat": 5,
+  "last": "2026-04-20 00:00"
+ }
+]

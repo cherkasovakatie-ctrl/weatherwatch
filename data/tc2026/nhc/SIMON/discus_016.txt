@@ -1,0 +1,78 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Simon Discussion Number  16
+NWS National Hurricane Center Miami FL       EP202026
+300 AM CST Sun Oct 11 2026
+
+The Air Force Reserve Hurricane Hunters provided some valuable 
+information on the structure of Simon overnight.  They found 
+that the pressure had dropped to 928 mb, with maximum flight-level 
+winds of 135 kt within the small inner core.  Similar to the 
+afternoon flight, the whole wind field could not be observed. The 
+initial intensity is kept at 135 kt for this advisory as a blend of 
+the flight-level wind data, assuming a larger undersampling factor 
+than normal, with a slight weight on earlier experimental Synthetic 
+Aperture Radar (SAR) data, which showed category 5 strength. 
+
+The hurricane has turned north-northwest at about 5 kt.  This 
+motion is expected to continue today, bringing the core of the 
+hurricane along the coast of southwestern Mexico.  While some of 
+the models have shifted more offshore later today, it is simply too 
+close to call whether landfall will occur.  Regardless of the exact 
+track, dangerous wind, surge, and rainfall effects appear likely 
+over portions of west-central Mexico today in the Hurricane Warning 
+area.  After today, the model guidance is in poor agreement on what 
+happens due to a weak ridge building just north of the cyclone.  
+While the new forecast is nudged westward, it is east of the bulk 
+of the model guidance, and we are just going to have to wait and 
+see how much the high terrain of the Sierra Madre mountains affects 
+the hurricane before having any significant forecast confidence.  
+
+Some weakening should start soon due to the hurricane's close 
+proximity to land, and recent satellite imagery could be indicative 
+of that trend.  However, Simon is still expected to be an extremely 
+dangerous hurricane as it passes near southwestern Mexico today.  
+The intensity forecast is extremely sensitive to how close Simon 
+passes to western Mexico during the next day or so.  With the 
+forecast shifting somewhat offshore in a day or two, the weakening 
+rate is lowered some from the last advisory.  This is a very low 
+confidence forecast because only a small deviation either east or 
+west could result in the hurricane rapidly dissipating after 
+landfall or keeping more strength offshore.
+ 
+Key Messages:
+ 
+1. Catastrophic wind and life-threatening storm surge impacts are
+likely along a portion of the west-central coast of Mexico, and a
+Hurricane Warning is in effect from Punta San Telmo to El Roblito.
+Preparations to protect life and property should be rushed to
+completion.
+ 
+2. Heavy rainfall associated with Simon will impact portions of
+southwestern Mexico through this weekend. This rainfall will produce
+life-threatening flooding and mudslides, especially in areas of
+steep terrain.
+ 
+3. Swells will affect portions of the southwestern and west-central
+coast of Mexico over the next few days. These swells are likely to
+cause life-threatening surf and rip current conditions. Please
+consult products from your local weather office.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  11/0900Z 18.7N 105.2W  135 KT 155 MPH...NEAR COAST
+ 12H  11/1800Z 19.5N 105.4W  125 KT 145 MPH...NEAR COAST
+ 24H  12/0600Z 20.5N 105.7W   90 KT 105 MPH...NEAR COAST
+ 36H  12/1800Z 21.2N 106.0W   75 KT  85 MPH
+ 48H  13/0600Z 22.0N 106.3W   50 KT  60 MPH
+ 60H  13/1800Z 23.2N 106.2W   35 KT  40 MPH...INLAND
+ 72H  14/0600Z...DISSIPATED
+ 
+$$
+Forecaster Blake
+ 
+NNNN
+

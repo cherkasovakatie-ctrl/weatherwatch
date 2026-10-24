@@ -1,0 +1,60 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Nolo Discussion Number  34
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+500 PM HST Mon Sep 28 2026
+ 
+Hurricane Nolo is being disrupted by strong vertical wind shear. The
+GPM GMI microwave imagery received earlier today showed some tilt
+between the low- and mid-level vortex, in addition to erosion in
+portions of the southern eyewall. The satellite presentation on Nolo
+this evening shows evidence of this disrupted inner core, with the
+eye filling in on both visible and infrared imagery. Subjective
+intensity estimates from PHFO and PGTW and the objective estimates
+from UW-CIMSS range from 110-127 kt. Based on the quick
+deterioration of the cyclone on satellite imagery, the
+intensity for this advisory is set to 110 kt.
+ 
+The current forward motion of the hurricane is 315/11 kt, as the
+cyclone continues to turn in response to an upper level trough
+located to its northwest. A general northward motion is expected
+through tomorrow. Thereafter, the upper level trough is expected to
+merge with the hurricane. This will dramatically slow Nolo's forward
+motion as it approaches the islands of the Papahanaumokuakea
+National Monument. Later this week, a ridge is forecast to build
+northwest of Nolo and begin to steer the system westward and nearly
+parallel to the northwestern Hawaiian Islands within the monument.
+The track forecast is largely an update of the previous one, follows
+the latest HCCA and GDM guidance, and attempts to reconcile the many 
+complicated steering features.
+ 
+The new intensity forecast shows a faster pace of weakening than the
+previous forecast, and is nudged toward the latest HCCA and GDM
+guidance. Vertical wind shear is expected to increase even more
+through 72 hr, which could cause Nolo to weaken to tropical storm
+strength during that time. Beyond 72 hr, the shear is forecast to
+subside, and Nolo could re-intensify at a gradual pace due to dry
+mid-level atmospheric conditions. The intensity forecast is within
+the middle of the guidance envelope.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  29/0300Z 18.8N 163.7W  110 KT 125 MPH
+ 12H  29/1200Z 20.2N 164.1W  100 KT 115 MPH
+ 24H  30/0000Z 21.9N 164.3W   90 KT 105 MPH
+ 36H  30/1200Z 22.6N 164.4W   75 KT  85 MPH
+ 48H  01/0000Z 22.7N 164.7W   65 KT  75 MPH
+ 60H  01/1200Z 22.6N 165.3W   60 KT  70 MPH
+ 72H  02/0000Z 22.8N 166.0W   60 KT  70 MPH
+ 96H  03/0000Z 23.4N 167.5W   70 KT  80 MPH
+120H  04/0000Z 23.8N 172.9W   75 KT  85 MPH
+ 
+$$
+Forecaster Mahoney
+ 
+NNNN
+

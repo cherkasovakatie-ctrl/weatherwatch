@@ -1,0 +1,61 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Karina Discussion Number  26
+NWS National Hurricane Center Miami FL       EP112026
+1100 AM HST Wed Sep 02 2026
+ 
+Karina's satellite presentation has degraded this morning,
+characterized by warming cloud tops in infrared imagery and an eye
+that has become more cloud-filled. The system is still annular,
+although there are signs of the system losing that structure in
+recent microwave imagery that depicts the eastern eyewall has
+started to thin. The Data T-number from the latest TAFB Dvorak
+classification has decreased to T5.5, with a Current Intensity (CI)
+of 6.5. Objective intensity estimates have also been gradually
+decreasing since the previous advisory and currently range from 112
+to 127 kt. Given the degraded satellite appearance and a blend of
+the available intensity estimates, the initial intensity is set to
+120 kt for this advisory, which could be a little generous.
+ 
+The steering pattern is well established, and a westward to
+west-northwestward motion is anticipated over the next several days
+while the system is steered by a subtropical ridge to its north.
+Later in the forecast period, a mid-level low is forecast to move
+into the central Pacific north of the Hawaiian Islands. This feature
+will cause the ridge to weaken, inducing a more northwestward turn.
+The latest NHC track forecast is very similar to the previous one
+and is based on a blend of the HCCA and GDMI consensus aids.
+ 
+Karina will track over marginally warm sea surface temperatures over 
+the next few days with low wind shear. However, the system will be 
+moving into a drier, more stable airmass by tomorrow. This should 
+induce a gradual weakening trend during the next day or so. Wind 
+shear is than expected to increase, combined with the track moving 
+over cooler SSTs by 72 h, which will result in a more steady rate of 
+weakening. The NHC intensity forecast remains on the higher end of 
+the intensity guidance in the near term, given the still annular 
+structure, followed by a faster rate closer to some of the consensus 
+intensity aids. By Day 5, the system is forecast to become 
+post-tropical as models show the system becoming devoid of 
+convection.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  02/2100Z 18.9N 133.8W  120 KT 140 MPH
+ 12H  03/0600Z 19.3N 135.2W  115 KT 130 MPH
+ 24H  03/1800Z 19.8N 137.2W  110 KT 125 MPH
+ 36H  04/0600Z 20.2N 139.0W  100 KT 115 MPH
+ 48H  04/1800Z 20.6N 140.8W   85 KT 100 MPH
+ 60H  05/0600Z 21.2N 142.3W   75 KT  85 MPH
+ 72H  05/1800Z 22.1N 143.5W   70 KT  80 MPH
+ 96H  06/1800Z 24.1N 145.7W   55 KT  65 MPH
+120H  07/1800Z 26.4N 149.4W   40 KT  45 MPH...POST-TROPICAL
+ 
+$$
+Forecaster Kelly
+ 
+NNNN
+

@@ -1,0 +1,341 @@
+{
+ "storm": "TRUDY",
+ "order": 1,
+ "file": "tc-2026-trudy.html",
+ "short": "Hurricane Trudy (2026)",
+ "card_line": "E. Pacific · Cat 3 · 11–20 Oct",
+ "title": "Hurricane Trudy (October 2026): rapid intensification over a corridor of cold wakes",
+ "basin_name": "Eastern North Pacific",
+ "description": "Research paper on Hurricane Trudy, eastern Pacific, October 2026.",
+ "status": "draft",
+ "research_date": "24 October 2026",
+ "obs_cutoff": "IBTrACS to 20 Oct; NHC discussions 1–27; press to 19 Oct",
+ "track_source": "IBTrACS v04r01 (provisional, NHC operational)",
+ "status_note": "Draft for review (24 Oct 2026). Built from provisional data; to be checked against NHC's Tropical Cyclone Report when published.",
+ "toc": [
+  [
+   "abstract",
+   "Abstract"
+  ],
+  [
+   "findings",
+   "Main findings"
+  ],
+  [
+   "intro",
+   "1. Introduction"
+  ],
+  [
+   "methods",
+   "2. Data and methods"
+  ],
+  [
+   "lifecycle",
+   "3. Life cycle"
+  ],
+  [
+   "ocean",
+   "4. The ocean beneath: a corridor of cold wakes"
+  ],
+  [
+   "atmos",
+   "5. Atmosphere and steering"
+  ],
+  [
+   "impacts",
+   "6. Impacts"
+  ],
+  [
+   "climate",
+   "7. Climate context"
+  ],
+  [
+   "uncertainty",
+   "8. Uncertainties"
+  ],
+  [
+   "conclusion",
+   "9. Conclusion"
+  ],
+  [
+   "evidence",
+   "Evidence table"
+  ],
+  [
+   "references",
+   "References"
+  ]
+ ],
+ "sections": [
+  {
+   "id": "abstract",
+   "title": "Abstract",
+   "html": "<p>Trudy was the twenty-first tropical cyclone of the 2026 eastern North Pacific season and the fourth major hurricane in four weeks in the waters off southwestern Mexico. It formed south of southern Mexico on 13 October, intensified rapidly by 35 kt in 24 hours on 15–16 October, and reached a provisional peak of 105 kt (120 mph, Category 3) and 956 mb near 14.0°N, 102.4°W. It then weakened abruptly over water that earlier hurricanes had cooled, recovered to 85–90 kt on 17–18 October while moving northwestward roughly 160 km off the coast of Colima and Jalisco, and decayed over open water from 19 October under southwesterly shear and dry air. The sea under Trudy's peak position was 27.8 °C three days before it arrived, 1.0 °C below the 1991–2020 normal, whereas the same water had been 30.9 °C before Hurricane Polo passed over it in September. This supports the hurricane centre's suggestion that Trudy's interrupted intensification was partly caused by cool water left by Polo, Rachel and Simon. No deaths or major damage had been reported from Trudy by 19 October. The analysis uses provisional track data and should be revised against the official Tropical Cyclone Report.</p>"
+  },
+  {
+   "id": "findings",
+   "title": "Main findings",
+   "html": "<ol><li><b>Rapid intensification, then two interruptions.</b> Winds rose from 40 kt to 105 kt between 14 Oct 0600 UTC and 16 Oct 0600 UTC; a 37-GHz microwave ring marked a forming eyewall on 15 October <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.009.shtml\">NHC discussion 9</a>. Strengthening paused twice: on 15 October, when dry air wrapped around the northern side <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.010.shtml\">NHC discussion 10</a>, and on 16 October, when the eyewall opened and an aircraft found only 982 mb <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.014.shtml\">NHC discussion 14</a>.</li><li><b>A track over cooled water.</b> Trudy crossed the paths of three earlier hurricanes: Polo (25 days earlier), Rachel (17 days) and Simon (7 days). Along Trudy's track before 15 October the sea averaged 29.8 °C, +2.2 °C against normal; at the peak position it was 27.8 °C (-1.0 °C).</li><li><b>Peak intensity is uncertain.</b> The 105 kt in IBTrACS rests on satellite estimates at 0600 UTC on 16 October; the next aircraft, 12 hours later, found a much weaker storm. A later aircraft on 18 October measured 95 kt at flight level with a dropsonde suggesting about 85 kt at the surface.</li><li><b>Offshore track.</b> Weak steering between a ridge over Mexico and a trough over the Gulf kept Trudy moving slowly northwestward, parallel to the coast; its closest provisional position was about 160 km from land. Hurricane conditions on the coast were forecast but not reported.</li><li><b>Background.</b> Trudy formed in an exceptionally energetic eastern Pacific season (ACE 2.7 times the normal for the date) during a very strong, east-based El Niño.</li></ol>"
+  },
+  {
+   "id": "intro",
+   "title": "1. Introduction",
+   "html": "<p>October 2026 brought an unusual sequence of strong hurricanes to the waters off southwestern Mexico. Polo reached Category 5 strength off Guerrero on 22 September; Rachel became a major hurricane on 1–2 October; Simon reached Category 4 on 10–11 October within about 50 km of the coast of Jalisco; Trudy followed a week later along almost the same corridor. By 22 October the season's accumulated cyclone energy east of 180° was 343.9 × 10⁴ kt², 2.7 times the climatological value for the date <a href=\"#ref-csu\">[7]</a>. The season unfolded during a very strong El Niño that is unusually concentrated in the eastern Pacific <a href=\"#ref-paper4\">[8]</a>.</p><p>This paper reconstructs Trudy's life cycle from provisional track data, the hurricane centre's analyses and sea-surface temperature, asks why its intensification stopped twice, and records its effects on Mexico. It does not assess the forecasts.</p>"
+  },
+  {
+   "id": "methods",
+   "title": "2. Data and methods",
+   "html": "<p><b>Track and intensity.</b> Six-hourly positions, 1-minute maximum sustained winds and minimum pressures from IBTrACS v04r01 <a href=\"#ref-knapp2010\">[1]</a>, downloaded on 24 October 2026. For 2026 these are <i>provisional</i> values carried over from the operational advisories (National Hurricane Center); the official best track, issued in the post-season report, can differ. Rapid intensification (RI) is an increase of at least 30 kt in 24 hours <a href=\"#ref-kaplan2003\">[2]</a>. Accumulated cyclone energy (ACE) sums the squared 6-hourly winds at tropical-storm strength or above.</p><p><b>Ocean.</b> Sea-surface temperature (SST) and its anomaly against 1991–2020 from NOAA OISST v2.1 daily <a href=\"#ref-huang2021\">[3]</a>, sampled at each 6-hourly position three days before the storm arrived, so that the storm's own cooling is excluded; the change from three days before to three days after gives the cold wake. OISST is a 0.25° analysis and smooths very small wakes.</p><p><b>Atmosphere.</b> Wind shear and mid-level humidity are taken from the forecasters' own analyses in the advisories and discussions (which use the SHIPS model and satellite estimates), quoted with date and time. Our planned reanalysis diagnostics could not be computed because the NCEP/NCAR Reanalysis 1 daily files for 2026 end on 17 March 2026. The Madden–Julian oscillation (MJO) is described by the real-time RMM index <a href=\"#ref-wheeler2004\">[4]</a> (phase and amplitude; amplitude ≥ 1 means an active MJO). ENSO values are NOAA CPC indices (RONI JAS 2026 +1.69 °C; weekly relative Niño 3.4 +2.4 °C in mid-October).</p><p><b>Impacts.</b> Deaths, damage and observations are taken from official statements where available and otherwise from wire-service reports, each cited; figures are preliminary.</p>"
+  },
+  {
+   "id": "lifecycle",
+   "title": "3. Life cycle",
+   "html": "<figure><img src=\"papers/img/tc2026_trudy.png\" alt=\"Trudy 2026: intensity, pressure and sea-surface temperature along the track\" style=\"max-width:100%;height:auto\"><figcaption class=\"note\">Figure 1. Trudy: 1-minute maximum wind and minimum pressure (top; shading marks rapid intensification) and sea-surface temperature at each position three days before the storm arrived, with its anomaly against 1991–2020 (bottom).</figcaption></figure><p><b>Genesis (11–13 October).</b> IBTrACS follows the precursor disturbance from 11 Oct 0600 UTC near 7.6°N, 88.0°W. The hurricane centre classified Tropical Depression Twenty-One-E at 1500 UTC on 13 October with 30 kt winds, after scatterometer data showed a closed but still broad circulation <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.001.shtml\">NHC discussion 1</a>, and named it Trudy within the next 12 hours.</p><p><b>Rapid intensification (14–16 October).</b> Trudy moved west-northwestward south of a mid-level ridge over central Mexico. Forecasters expected rapid intensification from the outset; SHIPS guidance gave a high probability <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.002.shtml\">NHC discussion 2</a>. Trudy became a hurricane at 15 Oct 0600 UTC. At 1500 UTC on 15 October a cyan ring on the 37-GHz microwave channel showed a developing eyewall and a 30 kt rise in 24 hours <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.009.shtml\">NHC discussion 9</a>. That afternoon an Air Force Reserve aircraft found 84 kt at 700 mb and 978 mb; a tongue of dry air wrapping around the north side was blamed for a pause <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.010.shtml\">NHC discussion 10</a>. An eye then appeared and strengthening resumed, giving the provisional peak of 105 kt and 956 mb at 16 Oct 0600 UTC.</p><p><b>Collapse and recovery (16–18 October).</b> By 1500 UTC on 16 October the eye had become less distinct, cloud tops had warmed and microwave data showed the eyewall open on the south side <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.013.shtml\">NHC discussion 13</a>. The next aircraft found 982 mb and 76 kt at 700 mb: Trudy had weakened sharply without an obvious atmospheric cause. The forecaster wrote that the reasons were 'speculative' and that one possibility was cold water upwelled under the slow-moving hurricane where it crossed the paths of Polo and Rachel <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.014.shtml\">NHC discussion 14</a>. From the evening of 16 October deep convection reorganised, and on 17 October an aircraft found a 38 n mi eye open to the southwest, 95 kt at 700 mb and 976 mb <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.018.shtml\">NHC discussion 18</a>. On 18 October another aircraft found 95 kt at 700 mb in the northeast eyewall, with a dropsonde suggesting about 85 kt at the surface <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.022.shtml\">NHC discussion 22</a>.</p><p><b>Decay (18–20 October).</b> As Trudy moved away from the coast, increasing southwesterly shear and drier, more stable air broke down the core from the evening of 18 October <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.023.shtml\">NHC discussion 23</a>. Within 12 hours most deep convection had gone <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.024.shtml\">NHC discussion 24</a>; on 19 October the shear was about 15 kt in the SHIPS analysis, then 20–30 kt aloft <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.025.shtml\">NHC discussion 25</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.026.shtml\">NHC discussion 26</a>. The last advisory, at 0300 UTC on 20 October, declared Trudy a remnant low <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.027.shtml\">NHC discussion 27</a>.</p>",
+   "table": {
+    "cols": [
+     "Quantity",
+     "Value"
+    ],
+    "rows": [
+     [
+      "Source of winds and pressures",
+      "NHC operational values"
+     ],
+     [
+      "First and last fix (UTC)",
+      "11 Oct 0600 UTC – 20 Oct 0000 UTC"
+     ],
+     [
+      "First fix position",
+      "7.6°N, 88.0°W"
+     ],
+     [
+      "Peak 1-minute wind",
+      "105 kt (120 mph, 195 km/h), Category 3, 16 Oct 0600 UTC near 14.0°N, 102.4°W"
+     ],
+     [
+      "Lowest pressure",
+      "956 mb"
+     ],
+     [
+      "Largest 24-hour increase",
+      "35 kt (15 Oct 0600 UTC to 16 Oct 0600 UTC)"
+     ],
+     [
+      "Time at tropical-storm / hurricane / major strength",
+      "150 / 96 / 6 hours"
+     ],
+     [
+      "Accumulated cyclone energy (ACE)",
+      "13.3 × 10⁴ kt²"
+     ],
+     [
+      "Track length and mean speed",
+      "2,882 km at 13.7 km/h"
+     ]
+    ],
+    "note": "From IBTrACS v04r01, provisional (operational NHC values). UTC throughout. The first fixes are the precursor disturbance before NHC classification."
+   }
+  },
+  {
+   "id": "ocean",
+   "title": "4. The ocean beneath: a corridor of cold wakes",
+   "html": "<p>Over its first three days the water ahead of Trudy averaged 29.8 °C with an anomaly of +2.2 °C, reaching +2.8 °C: very warm, consistent with the El Niño background. From 15 October, as Trudy entered the corridor that earlier hurricanes had used, the pre-storm SST fell to 27.8 °C (-1.0 °C) at the peak position and stayed near or below normal for two days (Figure 1).</p><p>Three earlier hurricanes crossed Trudy's later path. The table compares the sea at the crossing points before each of them arrived with the sea three days before Trudy arrived. Hurricanes cool the ocean surface by mixing up colder water from below, and slow-moving storms cool it most <a href=\"#ref-price1981\">[5]</a>; the cooling can last weeks.</p>",
+   "table": {
+    "cols": [
+     "Crossing point",
+     "Earlier storm (date, wind)",
+     "SST before earlier storm",
+     "SST before Trudy",
+     "Change"
+    ],
+    "rows": [
+     [
+      "15.1°N, 102.5°W",
+      "Polo (22 Sep, 90 kt)",
+      "30.9 °C (+1.9)",
+      "28.8 °C (-0.1)",
+      "-2.1 °C"
+     ],
+     [
+      "14.3°N, 102.6°W",
+      "Rachel (29 Sep, 50 kt)",
+      "29.5 °C (+0.7)",
+      "27.9 °C (-0.9)",
+      "-1.6 °C"
+     ],
+     [
+      "17.0°N, 104.6°W",
+      "Simon (10 Oct, 120 kt)",
+      "29.0 °C (-0.1)",
+      "28.5 °C (-0.6)",
+      "-0.5 °C"
+     ]
+    ],
+    "note": "OISST v2.1 at the nearest grid point, three days before each storm reached the point; anomalies against 1991–2020 in brackets. Crossing points are where Trudy came within 25 km of the earlier track (Polo 11 km, Rachel 22 km, Simon 0 km). Part of the cooling is seasonal: the normal SST falls by a few tenths of a degree between late September and mid-October here."
+   },
+   "html_after": "<p>The pattern is consistent: the sea was 2.1 °C cooler where Polo had passed and 1.6 °C cooler where Rachel had passed, and the anomalies turned from strongly positive to negative. Two limits apply. SST is only the surface: the forecasters later noted that Trudy moved 'over warmer waters with increasing ocean heat content' on 16–17 October and re-strengthened, so the depth of warm water probably mattered as much as the surface value; ocean heat content was not analysed here. And the 982 mb found on 16 October may partly reflect an over-estimated satellite peak earlier that day rather than a true collapse.</p><p><b>Trudy's own wake</b> was modest: the largest cooling under its track was 1.4 °C, smaller than Rachel's (more than 2 °C), because Trudy crossed water that had already been mixed.</p>"
+  },
+  {
+   "id": "atmos",
+   "title": "5. Atmosphere and steering",
+   "html": "<p><b>Shear and moisture.</b> Through 16 October the forecasters described a moist, low-shear environment over very warm water <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.012.shtml\">NHC discussion 12</a>; the two pauses were attributed to dry air entering the core rather than to shear <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.010.shtml\">NHC discussion 10</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.013.shtml\">NHC discussion 13</a>. From 17 October the UW-CIMSS analysis put the shear at about 14 kt, with the vortex tilted to the northeast with height <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.016.shtml\">NHC discussion 16</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.019.shtml\">NHC discussion 19</a>; from the evening of 18 October southwesterly shear and drier, more stable air ended the hurricane <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.023.shtml\">NHC discussion 23</a>.</p><p><b>MJO.</b> The RMM index was in phase 2 (amplitude 1.3) at genesis and phase 3 (1.1) at the peak, an active MJO with enhanced convection over the Indian Ocean. The MJO modulates eastern Pacific hurricanes through low-level westerly anomalies <a href=\"#ref-maloney2000\">[6]</a>; whether this phase helped or hindered Trudy is not tested here.</p><p><b>Steering.</b> Trudy first moved west-northwestward south of a mid-level ridge over central Mexico. The ridge weakened as a mid- to upper-level trough developed over the western Gulf, and forecasters noted that Simon, then about 700 n mi away, could interact with Trudy's steering as the two came within 500 miles <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.005.shtml\">NHC discussion 5</a>. Trudy turned north-northwestward into the weakness, briefly drifted west and stalled on 16 October <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.012.shtml\">NHC discussion 12</a>, then moved northwestward parallel to the coast as a weak ridge rebuilt over eastern Mexico. Once weakened and shallow, it was steered west and then northwest by the low-level flow, south of Baja California Sur <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.024.shtml\">NHC discussion 24</a>.</p>"
+  },
+  {
+   "id": "impacts",
+   "title": "6. Impacts",
+   "html": "<p>Trudy's centre stayed offshore; its closest provisional position was about 160 km from land on 18 October. On 18 October a tropical storm warning remained from Playa Perula to San Blas and for the Islas Marías; forecasts called for 100–200 mm of rain (isolated 300 mm) in Michoacán, Colima and Jalisco, with a risk of floods and mudslides on slopes saturated by Simon <a href=\"#ref-ap18\">[10]</a>. On 18 October the government discontinued all warnings as Trudy moved away <a href=\"#ref-reuters18\">[11]</a>. No deaths or significant damage attributed to Trudy had been reported by 19 October <a href=\"#ref-reuters18\">[11]</a>, <a href=\"#ref-ap19\">[12]</a>. Rainfall totals were not available for this paper.</p><p>The cumulative effect of the four storms on the same coast, with saturated ground and repeated evacuations, was a recurring theme of official messages; Simon's and Rachel's impacts are described in their own papers.</p>"
+  },
+  {
+   "id": "climate",
+   "title": "7. Climate context",
+   "html": "<p>The 2026 eastern Pacific season has been exceptionally active, with ACE 2.7 times the normal for the date by 22 October <a href=\"#ref-csu\">[7]</a>, during a very strong El Niño with record warmth off South America <a href=\"#ref-paper4\">[8]</a>. The strong eastern-Pacific warming of this El Niño probably helped keep the sea warm enough for repeated major hurricanes near Mexico. Trudy's case shows the other side: in a busy season, earlier storms can cool the very water later storms need. No attribution study of Trudy exists; we do not assess the role of climate change.</p>"
+  },
+  {
+   "id": "uncertainty",
+   "title": "8. Uncertainties",
+   "html": "<ul><li>Track and intensity are provisional operational values. The peak of 105 kt rests on satellite estimates and may be revised.</li><li>SST is a 0.25° surface analysis; ocean heat content and mixed-layer depth, which control how much a hurricane can cool the surface, were not analysed.</li><li>Shear and humidity are the forecasters' operational estimates, not an independent reanalysis.</li><li>Impacts are from press reports up to 19 October; official damage and rainfall reports were not yet available.</li></ul>"
+  },
+  {
+   "id": "conclusion",
+   "title": "9. Conclusion",
+   "html": "<p>Trudy had every ingredient for a stronger hurricane except fresh water: it intensified rapidly over warm, moist, low-shear conditions, but its path ran through a corridor that Polo, Rachel and Simon had crossed in the previous four weeks, where the sea had cooled by up to about 2 °C. Its peak was brief and is uncertain, and it recovered only partly before shear and dry air ended it. The case is a clear example of how a hyperactive season can limit itself through the ocean.</p>"
+  }
+ ],
+ "evidence": [
+  [
+   "Warm, moist, low-shear start",
+   "SST 29.8 °C (+2.2) to 14 Oct; low shear and moist air per NHC",
+   "Allowed genesis and rapid intensification",
+   "Observed (OISST); operational analysis",
+   "High",
+   "<a href=\"#ref-huang2021\">[3]</a> <a href=\"#ref-nhc\">[9]</a>"
+  ],
+  [
+   "Dry-air intrusions",
+   "15 Oct (north side) and 16 Oct (south side, eyewall open)",
+   "Interrupted intensification",
+   "Satellite and microwave interpretation (NHC)",
+   "Medium",
+   "<a href=\"#ref-nhc\">[9]</a>"
+  ],
+  [
+   "Cold wakes of Polo, Rachel and Simon",
+   "Pre-storm SST at peak position 27.8 °C (-1.0); 1–3 °C cooler than before the earlier storms",
+   "Limited peak and contributed to the collapse on 16 Oct",
+   "Observed SST; mechanism by physical reasoning",
+   "Medium",
+   "<a href=\"#ref-price1981\">[5]</a> <a href=\"#ref-nhc\">[9]</a>"
+  ],
+  [
+   "Southwesterly shear and dry, stable air",
+   "~14 kt on 17 Oct rising to 20–30 kt aloft by 19 Oct",
+   "Caused final decay",
+   "Operational analysis (SHIPS, UW-CIMSS)",
+   "High",
+   "<a href=\"#ref-nhc\">[9]</a>"
+  ],
+  [
+   "Weak steering",
+   "Ridge over Mexico weakened by a Gulf trough; possible interaction with Simon",
+   "Slow track parallel to the coast; kept centre offshore",
+   "Operational analysis",
+   "High",
+   "<a href=\"#ref-nhc\">[9]</a>"
+  ],
+  [
+   "El Niño background",
+   "Very strong, east-based; ACE 2.7 times normal for the date",
+   "Raised the season's activity and SST before the storms",
+   "Climatological reasoning",
+   "Medium",
+   "<a href=\"#ref-paper4\">[8]</a> <a href=\"#ref-csu\">[7]</a>"
+  ]
+ ],
+ "references": [
+  {
+   "key": "knapp2010",
+   "text": "Knapp, K. R., M. C. Kruk, D. H. Levinson, H. J. Diamond and C. J. Neumann (2010). The International Best Track Archive for Climate Stewardship (IBTrACS). <i>Bulletin of the American Meteorological Society</i> 91, 363–376. Data: IBTrACS v04r01, NOAA NCEI (2026 positions provisional).",
+   "doi": "10.1175/2009BAMS2755.1",
+   "url": null,
+   "check": "bibliographic record; data read"
+  },
+  {
+   "key": "kaplan2003",
+   "text": "Kaplan, J., and M. DeMaria (2003). Large-scale characteristics of rapidly intensifying tropical cyclones in the North Atlantic basin. <i>Weather and Forecasting</i> 18, 1093–1108.",
+   "doi": "10.1175/1520-0434(2003)018<1093:LCORIT>2.0.CO;2",
+   "url": null,
+   "check": "abstract read"
+  },
+  {
+   "key": "huang2021",
+   "text": "Huang, B., et al. (2021). Improvements of the Daily Optimum Interpolation Sea Surface Temperature (DOISST) Version 2.1. <i>Journal of Climate</i> 34, 2923–2939. Data via NOAA PSL.",
+   "doi": "10.1175/JCLI-D-20-0166.1",
+   "url": null,
+   "check": "abstract read; data read"
+  },
+  {
+   "key": "wheeler2004",
+   "text": "Wheeler, M. C., and H. H. Hendon (2004). An all-season real-time multivariate MJO index: development of an index for monitoring and prediction. <i>Monthly Weather Review</i> 132, 1917–1932.",
+   "doi": "10.1175/1520-0493(2004)132<1917:AARMMI>2.0.CO;2",
+   "url": null,
+   "check": "abstract read"
+  },
+  {
+   "key": "price1981",
+   "text": "Price, J. F. (1981). Upper ocean response to a hurricane. <i>Journal of Physical Oceanography</i> 11, 153–175.",
+   "doi": "10.1175/1520-0485(1981)011<0153:UORTAH>2.0.CO;2",
+   "url": null,
+   "check": "abstract read"
+  },
+  {
+   "key": "maloney2000",
+   "text": "Maloney, E. D., and D. L. Hartmann (2000). Modulation of eastern North Pacific hurricanes by the Madden–Julian oscillation. <i>Journal of Climate</i> 13, 1451–1460.",
+   "doi": "10.1175/1520-0442(2000)013<1451:MOENPH>2.0.CO;2",
+   "url": null,
+   "check": "abstract read"
+  },
+  {
+   "key": "csu",
+   "text": "Colorado State University, Department of Atmospheric Science: real-time tropical cyclone season statistics (ACE and storm counts to date by basin), read 22–23 October 2026; site copy data/ace_season.csv.",
+   "doi": null,
+   "url": "https://tropical.atmos.colostate.edu/Realtime/",
+   "check": "data read"
+  },
+  {
+   "key": "paper4",
+   "text": "Global Weather Watch (2026). The 2026 El Niño against 1982–83, 1997–98 and 2015–16: a preliminary comparison (Paper 4).",
+   "doi": null,
+   "url": "enso-2026.html",
+   "check": "own analysis"
+  },
+  {
+   "key": "nhc",
+   "text": "National Hurricane Center: Hurricane Trudy (EP212026) advisory archive, forecast discussions 1–27, 13–20 October 2026 (US Government, public domain). Text copies in data/tc2026/nhc/TRUDY/.",
+   "doi": null,
+   "url": "https://www.nhc.noaa.gov/archive/2026/TRUDY.shtml",
+   "check": "read in full"
+  },
+  {
+   "key": "ap18",
+   "text": "Associated Press (2026). Hurricane Trudy brings heavy rain and strong winds to Mexico's Pacific coast. 18 October 2026 (via ABC30 and KPRC).",
+   "doi": null,
+   "url": "https://abc30.com/story/hurricane-trudy-lashes-mexicos-pacific-coast-heavy-rain-strong-winds/19951948/",
+   "check": "read"
+  },
+  {
+   "key": "reuters18",
+   "text": "Reuters (2026). Hurricane Trudy weakens off Mexico's Pacific coast. 18 October 2026 (via KSL).",
+   "doi": null,
+   "url": "https://www.ksl.com/article/51637803/hurricane-trudy-weakens-off-mexicos-pacific-coast-as-cleanup-effort-begins",
+   "check": "read"
+  },
+  {
+   "key": "ap19",
+   "text": "Associated Press (2026). Trudy weakens to a tropical storm; Typhoon Champi a super typhoon. 18–19 October 2026 (via KPRC Click2Houston).",
+   "doi": null,
+   "url": "https://www.click2houston.com/news/2026/10/18/hurricane-trudy-brings-heavy-rain-and-strong-winds-to-mexicos-pacific-coast/",
+   "check": "read"
+  }
+ ]
+}

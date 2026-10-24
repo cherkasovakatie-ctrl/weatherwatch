@@ -1,0 +1,41 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Depression Fifteen-E Discussion Number   9
+NWS National Hurricane Center Miami FL       EP152026
+Issued by the NWS Weather Prediction Center College Park MD
+200 PM PDT Tue Sep 15 2026
+
+The depression remains disorganized with a small area of convection 
+displaced to the south and east per visible satellite imagery. An 
+18Z ASCAT scatterometer pass indicated that the depression's center 
+has become more elongated than earlier today, along with weaker 
+winds. The initial intensity is set to 25 kt, per the 
+scatterometer data, which also mirrors the drop in recent 
+conventional estimates. 
+ 
+The system is moving at an estimated motion of 255/10 kt. A
+general westward to west-southwestward motion is forecast to 
+continue over the next day along the southern edge of a mid-level 
+ridge. The biggest change to the forecast is that since the 
+low-level center is less defined, the system is probably less 
+resilient to persistent dry air entrainment and shear. The new NHC 
+forecast holds the intensity at 25 kt and brings up the dissipation 
+time to 24 hours, in line with the latest model guidance. It is 
+even possible it could degenerate into a trough as early as tonight 
+if current trends continue.
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  15/2100Z 15.7N 125.0W   25 KT  30 MPH
+ 12H  16/0600Z 15.2N 126.3W   25 KT  30 MPH
+ 24H  16/1800Z 15.0N 128.2W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 36H  17/0600Z...DISSIPATED
+ 
+$$
+Forecaster Jackson/Blake
+ 
+NNNN
+

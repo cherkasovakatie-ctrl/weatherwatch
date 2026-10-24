@@ -1,0 +1,68 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Rachel Discussion Number  26
+NWS National Hurricane Center Miami FL       EP182026
+800 AM MST Sat Oct 03 2026
+ 
+Rachel's convective structure has gradually become less impressive 
+over past day.  Satellite imagery shows the deep convection nearly 
+void in the northwest quadrant, which is likely allowing some dry 
+air to entrain into the center of Rachel.  The latest subjective 
+Dvorak current intensity number from TAFB is 4.5/77 kt.  Recent 
+objective intensity estimates from UW-CIMSS range from 65-72 kt.  
+The initial intensity is lowered to 75 kt for this advisory.
+
+Rachel is now moving slowly west-northwestward, or 290 degrees at 3 
+kt.  A mid- to upper-level anticyclone over the western United 
+States has a ridge extending southwest out in front of Rachel's 
+path.  Rachel is expected to continue moving quite slowly for the 
+next 2 days as the ridge remains in place to Rachel's 
+west-northwest.  Early next week, a mid- to upper-level trough to 
+the west of the ridge will very gradually strengthen and drift 
+eastward, which will slowly erode the ridge over the 3- to 5-day 
+time period.  This will allow Rachel to gain some forward speed by 
+hour 60, with a continued motion between west and west-northwest.  
+The NHC track forecast is slightly north of the previous track 
+through 60 h, and slightly south of the previous official track at 
+days 4-5. The NHC forecast is in good agreement with the latest HFIP 
+Corrected Consensus Approach (HCCA), and lies slightly to the south 
+of the latest Google DeepMind Ensemble Mean through 96 h.  It should 
+be noted that there is a fair amount of north-south (cross-track) 
+spread in the guidance, and forecast confidence appears to be near 
+average.
+
+Additional gradual weakening is forecast during the next 24 hours as 
+sea-surface temperatures (SSTs) decrease along Rachel's path while 
+the cyclone moves over the cold water wake left over by Hurricane 
+Polo last week.  After Rachel emerges out of Polo's cold wake, some 
+slight restrengthening is expected, and this restrengthening is 
+shown in the HAFS-A, HAFS-B, and HWRF models.  Beyond hour 72, 
+Rachel will reach dry mid-level air with relative humidity values 
+near 40 percent.  SSTs will also be decreasing at that time, and 
+Rachel is expected to cross the 26C degree SST isotherm in about 4 
+days.  The NHC forecast continues to show weakening in the 3- to 
+5-day time frame due to the drier air and cooling SSTs.  The NHC 
+intensity forecast is still near the high end of the guidance 
+envelope through the first 4 days and closer to the middle of the 
+guidance envelope by day 5.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  03/1500Z 19.6N 112.1W   75 KT  85 MPH
+ 12H  04/0000Z 19.9N 112.8W   70 KT  80 MPH
+ 24H  04/1200Z 20.2N 113.7W   65 KT  75 MPH
+ 36H  05/0000Z 20.3N 114.8W   65 KT  75 MPH
+ 48H  05/1200Z 20.5N 116.1W   65 KT  75 MPH
+ 60H  06/0000Z 20.7N 117.7W   70 KT  80 MPH
+ 72H  06/1200Z 20.8N 119.3W   70 KT  80 MPH
+ 96H  07/1200Z 21.3N 122.6W   60 KT  70 MPH
+120H  08/1200Z 22.3N 125.8W   50 KT  60 MPH
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

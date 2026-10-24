@@ -1,0 +1,78 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Marie Discussion Number   7
+NWS National Hurricane Center Miami FL       EP132026
+200 PM MST Wed Sep 02 2026
+ 
+Since the previous advisory, Marie has experienced bit of a hiccup
+in its convective structure, with warming clouds tops near the
+center aside from a recent burst wrapping around west of the
+center. The most recent microwave pass from this morning showed a
+banding type eye attempting to form, though it was struggling to
+close off on its northwest side. In addition, there was an RCM-3
+SAR pass earlier today with an interesting structure, showing a
+small core, but with stronger winds occuring along the outer bands
+of Marie's circulation. This structure hints that it might take
+some time for the inner-core to fully consolidate. For now, the
+18 UTC TAFB Dvorak satellite estimate was T3.5/55 kt, while the
+objective intensity estimates range from 53 to 67 kt. Thus, the
+initial intensity will remain 60 kt this advisory, keeping Marie
+just shy of hurricane intensity.
+ 
+Marie appears to be a little right of the prior forecast track, but
+is still moving off to the northwest, with the estimated motion at
+310/10 kt. Over the next several days, a narrow mid-level ridge
+located to the north and northeast is expected to steer the tropical
+cyclone generally off to the west-northwest, gradually slowing its
+forward motion in the process as the ridge slowly weakens. Beyond 60
+h, there continues to be significant cross-track spread that
+develops among the model guidance, related to how much an amplified
+mid-latitude trough, off the western United States coast, erodes
+this ridge. For this cycle, some of the more reliable track aids,
+ECMWF, Google DeepMind (GDMI), HCCA, actually show Marie turning
+back westward in the day 4-5 time frame, as the ridge holds to the
+north of the cyclone while the mid-latitude trough moves inland over
+the western United States. However, there remain a minority of
+solutions that show a more rightward track if the trough fully
+erodes the ridge steering Marie. The NHC track forecast this cycle
+is slightly right of the prior one for the first 48-60 h, following
+the latest trends in the GDMI and HCCA aids, but now bends a little
+more westward in days 4-5, also following trends in these aids.
+ 
+Intensity-wise, the earlier SAR imagery in addition to a partial
+ASCAT-C pass show Marie has a broad wind field with a
+larger-than-normal radius of maximum wind. This could prevent more
+rapid development over the next couple of days despite the favorable
+environmental conditions. Thereafter, while sea-surface
+temperatures (SSTs), diagnosed by SHIPS guidance between 27-28 C,
+appear favorable, some of these waters were recently churned up by
+the last tropical cyclone along this track (Iselle last week), and
+the HAFS-A/B hurricane-regional models suggest the large wind field
+of Marie could upwell some cooler waters underneath. Thus the latest
+NHC intensity forecast shows a somewhat lower intensity than
+earlier, peaking at 80 kt in the day 2-3 time frame. This intensity
+forecast favors the hurricane-regional models over the latest SHIPS
+guidance given the potential for ocean upwelling. Marie should be
+crossing the 26 C SST isotherm after 72 h, and weakening is expected
+to begin in earnest beyond this time period.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  02/2100Z 18.0N 112.5W   60 KT  70 MPH
+ 12H  03/0600Z 18.7N 113.5W   70 KT  80 MPH
+ 24H  03/1800Z 19.5N 115.0W   75 KT  85 MPH
+ 36H  04/0600Z 20.2N 116.5W   80 KT  90 MPH
+ 48H  04/1800Z 20.8N 117.8W   80 KT  90 MPH
+ 60H  05/0600Z 21.5N 119.1W   80 KT  90 MPH
+ 72H  05/1800Z 22.1N 120.3W   75 KT  85 MPH
+ 96H  06/1800Z 23.5N 122.5W   60 KT  70 MPH
+120H  07/1800Z 23.7N 125.5W   50 KT  60 MPH
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+
