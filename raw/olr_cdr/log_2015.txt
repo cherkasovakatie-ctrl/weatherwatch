@@ -1,0 +1,12 @@
+2015 GET 200 binary/octet-stream 94647688 https://archive.data.noaa.gov/climatedatarecords/UMD_ESSIC/OLR_CDR/Daily/OLR-D-CDR_01B-21/OLR-Daily_v02r00_s20150101_e20151231.nc
+2015 bytes 94647688 b'\x89HDF\r\n\x1a\n'
+2015 OLR-Daily_v02r00_s20150101_e20151231.nc (365, 9, 144) 2015-12-31 1s
+2016 GET 200 binary/octet-stream 94906900 https://archive.data.noaa.gov/climatedatarecords/UMD_ESSIC/OLR_CDR/Daily/OLR-D-CDR_01B-21/OLR-Daily_v02r00_s20160101_e20161231.nc
+2016 bytes 94906900 b'\x89HDF\r\n\x1a\n'
+2016 OLR-Daily_v02r00_s20160101_e20161231.nc (366, 9, 144) 2016-12-31 1s
+2017 GET 200 binary/octet-stream 94647688 https://archive.data.noaa.gov/climatedatarecords/UMD_ESSIC/OLR_CDR/Daily/OLR-D-CDR_01B-21/OLR-Daily_v02r00_s20170101_e20171231.nc
+2017 bytes 94647688 b'\x89HDF\r\n\x1a\n'
+2017 OLR-Daily_v02r00_s20170101_e20171231.nc (365, 9, 144) 2017-12-31 0s
+2018 GET 200 binary/octet-stream 94647688 https://archive.data.noaa.gov/climatedatarecords/UMD_ESSIC/OLR_CDR/Daily/OLR-D-CDR_01B-21/OLR-Daily_v02r00_s20180101_e20181231.nc
+2018 bytes 94647688 b'\x89HDF\r\n\x1a\n'
+2018 OLR-Daily_v02r00_s20180101_e20181231.nc (365, 9, 144) 2018-12-31 1s
