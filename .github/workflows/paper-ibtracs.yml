@@ -1,0 +1,20 @@
+name: Paper IBTrACS subset (branch weekly-raw)
+on:
+  push:
+    branches: [weekly-raw]
+    paths: [tools/papers/ibtracs_trigger.txt]
+permissions:
+  contents: write
+jobs:
+  ibtracs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: mkdir -p raw/papers/ibtracs; python3 tools/papers/ibtracs_subset.py > raw/papers/ibtracs/stdout.txt 2>&1 || true
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add raw && git commit -m "IBTrACS subset" && git pull --rebase origin weekly-raw && git push origin HEAD:weekly-raw
