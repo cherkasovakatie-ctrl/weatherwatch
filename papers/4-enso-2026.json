@@ -1,24 +1,346 @@
 {
- "status": "planned",
- "lit_cutoff": "open, updated as new studies appear",
- "research_date": "18 October 2026",
  "number": 4,
  "file": "enso-2026.html",
- "short": "2026 ENSO (interim)",
- "title": "The 2026 ENSO situation: an interim observational assessment",
- "description": "Interim assessment of the 2026 El Niño from observations to the cutoff date, separating observations, forecasts and scenarios.",
- "obs_cutoff": "CPC ENSO Diagnostic Discussion of 8 Oct 2026; CPC weekly OISST to the week centred 7 Oct 2026; monthly indices to Sep 2026",
- "status_note": "Planned: will be written last, as an interim assessment, and updated at each CPC monthly discussion while the event continues.",
+ "short": "2026 El Niño (preliminary)",
+ "title": "The 2026 El Niño against 1982–83, 1997–98 and 2015–16: a preliminary comparison",
+ "description": "Preliminary observational comparison of the 2026 El Niño with the three strongest events of the satellite era at the same stage.",
+ "status": "draft",
+ "research_date": "24 October 2026",
+ "lit_cutoff": "open; only background studies cited so far",
+ "obs_cutoff": "monthly indices to Sep 2026; RONI to JAS 2026; weekly OISST to the week of 2026-10-14; CPC outlook of 2026-10-08",
+ "status_note": "Preliminary analysis (24 Oct 2026): a same-stage comparison with the three strongest satellite-era events from monthly NOAA indices. Not yet included: daily MJO and wind-burst analysis beyond the counts, TAO data, literature on 2026, impacts. Updated at each CPC monthly discussion.",
+ "toc": [
+  [
+   "abstract",
+   "Abstract"
+  ],
+  [
+   "findings",
+   "Main findings (preliminary)"
+  ],
+  [
+   "data",
+   "1. Data and approach"
+  ],
+  [
+   "comparison",
+   "2. The four events at the same stage"
+  ],
+  [
+   "growth",
+   "3. Growth from La Niña"
+  ],
+  [
+   "flavour",
+   "4. An east-based event"
+  ],
+  [
+   "atmos",
+   "5. Coupling with the atmosphere"
+  ],
+  [
+   "background",
+   "6. A different background"
+  ],
+  [
+   "next",
+   "7. What happened next in the analogs"
+  ],
+  [
+   "outlook",
+   "8. Forecasts and an analog scenario"
+  ],
+  [
+   "next-steps",
+   "9. Next steps for the full paper"
+  ],
+  [
+   "references",
+   "References"
+  ]
+ ],
  "sections": [
   {
-   "id": "status",
-   "title": "Status at the cutoff (verified 18 Oct 2026)",
-   "html": "<p><b>Observed.</b> NOAA CPC issued an <b>El Niño Advisory</b> (8 Oct 2026). September relative indices: Niño 3.4 +2.1 °C, Niño 3 +3.0 °C, Niño 1+2 +3.9 °C. RONI JAS 2026 +1.69 (traditional ONI +2.16). Weekly OISST for the week centred 7 Oct: Niño 3.4 +3.3 °C (relative +2.4). Upper-300 m heat content (180°–100°W) +3.39 °C in September, the highest since the record began in 1979. Low-level westerly anomalies, enhanced convection from the central to the eastern Pacific and significantly negative traditional and equatorial SOI show the ocean and atmosphere are coupled.</p>\n<p><b>Forecast (not observation).</b> CPC: El Niño to strengthen through the end of 2026, with a greater than 83% chance of continuing through January–March 2027; chance of a historic event (3-month RONI at or above +2.5 °C) 54% for SON, 83% for OND and 70% for NDJ. IRI (21 Sep 2026): objective model probabilities of El Niño 100% from SON 2026 to FMA 2027.</p>\n<p><b>Premise check.</b> \"Very strong\" is a forecast on the official RONI, not yet an observation. On the traditional ONI, JAS 2026 is already the highest JAS value since 1950.</p>\n<p class=\"note\">Sources: <a href=\"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml\">CPC ENSO Diagnostic Discussion</a>; <a href=\"https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/\">IRI ENSO forecast</a>; CPC index files in the data archive. The Australian Bureau of Meteorology page available on 18 Oct carried data only to 9 Aug 2026 and was not used.</p>"
+   "id": "abstract",
+   "title": "Abstract",
+   "html": "<p>This is a preliminary, observation-only comparison of the 2026 El Niño with the three strongest events of the satellite era, 1982–83, 1997–98 and 2015–16, at the same stage of each: the end of September of the onset year. On the official relative index (RONI) 2026 is the second-strongest July–September on record (+1.69 °C, behind 1997's +1.84 °C). It has grown faster than any of the three, by +2.45 °C from January–March to July–September, starting from La Niña rather than from neutral or warm conditions. It is the most east-based of the four: September Niño 1+2 was +4.69 °C against +3.63 °C in 1997. Upper-ocean heat content in the eastern half of the basin (+3.39 °C) and the warm water volume (peak +3.46 × 10¹⁴ m³ in August 2026) are the highest since the records began (1979–80), and the atmosphere is as strongly coupled as in 1997. Two things set 2026 apart: a strongly negative Pacific Decadal Oscillation, where 1997 and 2015 had a positive one, and the warmest tropical oceans on record, which is why the traditional ONI (+2.16 °C) runs 0.47 °C above RONI. In the three analogs RONI rose a further 0.44–1.26 °C after July–September and peaked in November–January; heat content peaked two to four months before RONI. These are analog statistics, not a forecast.</p>"
   },
   {
-   "id": "plan",
-   "title": "Planned scope",
-   "html": "<p>This paper will follow the same framework as Paper 1: preconditions, triggers, amplifiers, suppressors, feedbacks and consequences, each graded A–D on event-specific evidence, with a timeline, an evidence table and verified references. RONI is the primary index.</p><p><b>Questions specific to this event:</b></p><ul><li>Explosive growth from a weak La Niña and the record subsurface heat content.</li><li>Why the event is so strongly east-based (Niño 1+2 far ahead of Niño 4).</li><li>The negative PDO and the North Pacific marine heatwaves: amplifier, suppressor or coincidence?</li><li>Observations, forecasts and conditional scenarios kept strictly separate.</li></ul>"
+   "id": "findings",
+   "title": "Main findings (preliminary)",
+   "html": "<ol><li><b>Strength.</b> RONI JAS +1.69 °C, rank 2 of 77 since 1950 (1997 is first). On the traditional ONI, JAS 2026 (+2.16 °C) is first. September relative Niño 3.4 (+2.06 °C) is the highest September in the record (from 1981). <i>Observed.</i></li><li><b>Speed.</b> RONI rose +2.45 °C from JFM to JAS, against +1.87 (1997), +1.07 (2015) and +0.92 (1982), because it started from La Niña (NDJ −1.04 °C). <i>Observed.</i></li><li><b>Flavour.</b> East-based like 1997, more so: September Niño 1+2 +4.69 °C (the highest September in the record), Niño 4 +0.95 °C; the Niño 1+2 minus Niño 4 gap is 3.74 °C, against 3.07 in 1997 and 1.47 in 2015. <i>Observed.</i></li><li><b>Ocean heat.</b> Heat content +3.39 °C in September and warm water volume +3.46 in August 2026 are records for any month (previous: heat +2.56 in October 1997; WWV +3.12 in April 1997). Unlike 1997, when it peaked in April, the warm water volume kept rising until August and fell only in September. <i>Observed.</i></li><li><b>Atmosphere.</b> September SOI −2.0, central-Pacific OLR −36.2 W m⁻² and central-Pacific trade-wind anomaly −3.0 m s⁻¹ are each the most extreme September values in the record. <i>Observed.</i></li><li><b>Background.</b> PDO −1.55 (1997 +1.80, 2015 +0.97); global-tropics SST +1.14 °C, the warmest September on record. A positive IOD is developing (DMI +0.68 in August, as in 1997 at +0.54). <i>Observed; their role is not yet tested.</i></li></ol>"
+  },
+  {
+   "id": "data",
+   "title": "1. Data and approach",
+   "html": "<p>All values are from NOAA CPC index files and NOAA PMEL warm water volume as copied in the site's data archive (see the references), monthly to September 2026, RONI to July–September 2026 and weekly OISST to the week centred 2026-10-14. Events are aligned on the onset year (year 0 = 1982, 1997, 2015, 2026). RONI is the primary index (relative ERSSTv6 Niño 3.4, 1991–2020; <a href=\"#ref-lheureux2024\">[1]</a>). Niño-region values are OISST v2.1 (1991–2020 base). Ranks compare the same calendar month or season across all years with data (RONI and ONI from 1950; OISST, heat content and OLR from 1979–82; WWV from 1980). The script <code>tools/papers/compare_2026.py</code> writes the aligned series (<code>data/papers/2026/analog_monthly.csv</code>); this text is generated from it.</p><p><b>What this is not.</b> It does not yet include daily reanalysis diagnostics of the MJO, TAO mooring data, the literature on 2026, or impacts. Those are the next stages, as in Papers 1–3.</p>"
+  },
+  {
+   "id": "comparison",
+   "title": "2. The four events at the same stage",
+   "html": "<figure><img src=\"papers/img/enso2026_analogs.png\" alt=\"Four panels comparing 1982–83, 1997–98, 2015–16 and 2026: RONI, Niño 1+2, upper-300 m heat content and warm water volume, aligned on the onset year\" style=\"max-width:100%;height:auto\"><figcaption class=\"note\">Figure 1. The four events aligned on the onset year, December of year −1 to December of year +1. 2026 data end in September (RONI: July–September). Sources: NOAA CPC, NOAA PMEL.</figcaption></figure>",
+   "table": {
+    "cols": [
+     "Indicator",
+     "1982–83",
+     "1997–98",
+     "2015–16",
+     "2026"
+    ],
+    "rows": [
+     [
+      "RONI, NDJ before onset (°C)",
+      "<span class=\"num\">−0.08</span>",
+      "<span class=\"num\">−0.29</span>",
+      "<span class=\"num\">+0.62</span>",
+      "<span class=\"num\">−1.04</span>"
+     ],
+     [
+      "RONI, FMA (°C)",
+      "<span class=\"num\">+0.23</span>",
+      "<span class=\"num\">+0.17</span>",
+      "<span class=\"num\">+0.59</span>",
+      "<span class=\"num\">−0.44</span>"
+     ],
+     [
+      "RONI, JAS (°C)",
+      "<span class=\"num\">+1.14</span>",
+      "<span class=\"num\">+1.84</span>",
+      "<span class=\"num\">+1.54</span>",
+      "<span class=\"num\">+1.69</span>"
+     ],
+     [
+      "ONI (traditional), JAS (°C)",
+      "<span class=\"num\">+0.99</span>",
+      "<span class=\"num\">+1.79</span>",
+      "<span class=\"num\">+1.73</span>",
+      "<span class=\"num\">+2.16</span>"
+     ],
+     [
+      "Relative Niño 3.4, Sep (°C)",
+      "<span class=\"num\">+1.57</span>",
+      "<span class=\"num\">+1.90</span>",
+      "<span class=\"num\">+1.35</span>",
+      "<span class=\"num\">+2.06</span>"
+     ],
+     [
+      "Niño 1+2, Sep (°C, OISST)",
+      "<span class=\"num\">+1.33</span>",
+      "<span class=\"num\">+3.63</span>",
+      "<span class=\"num\">+2.26</span>",
+      "<span class=\"num\">+4.69</span>"
+     ],
+     [
+      "Niño 4, Sep (°C, OISST)",
+      "<span class=\"num\">+0.24</span>",
+      "<span class=\"num\">+0.56</span>",
+      "<span class=\"num\">+0.79</span>",
+      "<span class=\"num\">+0.95</span>"
+     ],
+     [
+      "Heat content 180°–100°W, Sep (°C)",
+      "<span class=\"num\">+1.86</span>",
+      "<span class=\"num\">+2.38</span>",
+      "<span class=\"num\">+1.80</span>",
+      "<span class=\"num\">+3.39</span>"
+     ],
+     [
+      "Warm water volume, Sep (10¹⁴ m³)",
+      "<span class=\"num\">+2.60</span>",
+      "<span class=\"num\">+1.80</span>",
+      "<span class=\"num\">+1.13</span>",
+      "<span class=\"num\">+3.16</span>"
+     ],
+     [
+      "SOI, Sep",
+      "<span class=\"num\">−1.7</span>",
+      "<span class=\"num\">−1.4</span>",
+      "<span class=\"num\">−1.6</span>",
+      "<span class=\"num\">−2.0</span>"
+     ],
+     [
+      "OLR central Pacific, Sep (W m⁻²)",
+      "<span class=\"num\">−19.5</span>",
+      "<span class=\"num\">−32.5</span>",
+      "<span class=\"num\">−27.7</span>",
+      "<span class=\"num\">−36.2</span>"
+     ],
+     [
+      "850 hPa trades, central Pacific, Sep (m s⁻¹)",
+      "<span class=\"num\">−2.0</span>",
+      "<span class=\"num\">−2.8</span>",
+      "<span class=\"num\">−1.0</span>",
+      "<span class=\"num\">−3.0</span>"
+     ],
+     [
+      "PDO, Sep",
+      "<span class=\"num\">+0.51</span>",
+      "<span class=\"num\">+1.80</span>",
+      "<span class=\"num\">+0.97</span>",
+      "<span class=\"num\">−1.55</span>"
+     ],
+     [
+      "IOD (DMI, CPC), Aug",
+      "<span class=\"num\">+0.57</span>",
+      "<span class=\"num\">+0.54</span>",
+      "<span class=\"num\">+0.45</span>",
+      "<span class=\"num\">+0.68</span>"
+     ],
+     [
+      "Tropical North Atlantic, Sep (°C)",
+      "<span class=\"num\">−0.55</span>",
+      "<span class=\"num\">−0.29</span>",
+      "<span class=\"num\">+0.35</span>",
+      "<span class=\"num\">+0.62</span>"
+     ],
+     [
+      "Global tropics SST, Sep (°C)",
+      "<span class=\"num\">−0.05</span>",
+      "<span class=\"num\">+0.31</span>",
+      "<span class=\"num\">+0.64</span>",
+      "<span class=\"num\">+1.14</span>"
+     ]
+    ],
+    "note": "Same calendar stage in each onset year. RONI and ONI are 3-month seasons labelled by their centre month (JAS = July–September). Niño-region SST from OISST v2.1; heat content from CPC (180°–100°W, 0–300 m, 1981–2010 base); WWV from NOAA PMEL; trade-wind and OLR indices from CPC (negative = weaker trades, more convection). PDO from NOAA NCEI."
+   }
+  },
+  {
+   "id": "growth",
+   "title": "3. Growth from La Niña",
+   "html": "<p>Each of the three analogs began year 0 near neutral or warm: RONI in NDJ was −0.08 °C (1981–82), −0.29 (1996–97) and +0.62 (2014–15). 2026 began at −1.04 °C, a La Niña. It crossed zero in spring and by July–September was within 0.15 °C of 1997 (on the traditional ONI it has been above 1997 since DJF). The six-month rise of +2.45 °C is the largest of the four.</p><p>The ocean was ready earlier than the surface. Heat content rose from −0.03 °C in December 2025 to +2.24 °C by April, matching 1997 (+2.17), and the warm water volume reached +2.84 in April, close to 1997's +3.12. The recharge-oscillator framework <a href=\"#ref-jin1997\">[2]</a> <a href=\"#ref-meinen2000\">[3]</a> expects a recharged equatorial Pacific to precede El Niño; on that view the 2025–26 La Niña left the basin recharged, as 1996 did before 1997. Whether the recharge came from the La Niña itself or from something else (for example off-equatorial heat carried towards the equator, a possibility still to test) is not tested here.</p>"
+  },
+  {
+   "id": "flavour",
+   "title": "4. An east-based event",
+   "html": "<p>Warming in 2026 has been concentrated at the eastern end of the basin from the start: Niño 1+2 was +0.92 °C in February, when the other three were still negative, and +2.83 °C by June. By September it was +4.69 °C, ahead of 1997 (+3.63) and well ahead of 1982 and 2015. Niño 4, in contrast, has stayed near +1 °C, and in relative terms near zero (weekly relative Niño 4 −0.1 °C in the week of 2026-10-14). This is the eastern-Pacific (E-type) end of ENSO diversity <a href=\"#ref-takahashi2011\">[4]</a> <a href=\"#ref-capotondi2015\">[5]</a>, as in 1982–83 and 1997–98; 2015–16 was centred further west. Mid-October weekly values underline the gap: relative Niño 1+2 +4.4 °C and relative Niño 3.4 +2.4 °C (week of 2026-10-14), against +3.4 and +2.1 °C in mid-October 1997 and +1.6 and +1.8 °C in mid-October 2015.</p><p>East-based events bring the largest coastal impacts in Peru and Ecuador and, through coastally trapped waves, along the Americas; the site's event logs for the Peruvian coast and the California coast record those in 2026.</p>"
+  },
+  {
+   "id": "atmos",
+   "title": "5. Coupling with the atmosphere",
+   "html": "<p>By September the atmosphere matched the ocean. The SOI was −2.0, central-Pacific OLR −36.2 W m⁻² (deep convection over normally dry ocean) and the central-Pacific 850 hPa trade-wind index −3.0 m s⁻¹; each is the most extreme September value since these records began (SOI 1951; OLR and winds 1979). In 1997 the same indices were −1.4, −32.5 and −2.8. On these monthly measures the Bjerknes feedback is at least as strong as in 1997 at the same stage.</p>"
+  },
+  {
+   "id": "background",
+   "title": "6. A different background",
+   "html": "<p><b>Negative PDO.</b> In 1997 and 2015 the PDO was positive during growth (September +1.80 and +0.97); in 1982 it was weakly positive (+0.51). In 2026 it has been negative all year (September −1.55). All three analogs grew with a PDO at or above zero; 2026 is growing against a negative one. Whether the negative PDO is acting as a brake, has been cancelled by the tropical forcing, or is a sign of the North Pacific marine heatwaves rather than of the usual pattern, is an open question for the full paper.</p><p><b>Warm tropics.</b> Global-tropics SST was +1.14 °C in September, the warmest September on record (2015: +0.64; 1997: +0.31). This is why the traditional ONI (+2.16 °C, a record) is 0.47 °C higher than RONI, against −0.05 in 1997. RONI removes the tropical-mean warming so that events from different decades can be compared <a href=\"#ref-lheureux2024\">[1]</a>; on RONI, 2026 is very strong but not yet the strongest.</p><p><b>Indian and Atlantic Oceans.</b> The IOD index (CPC) rose to +0.68 in August, similar to 1997 (+0.54) and 1982 (+0.57); in 1997 it went on to +1.39 in November <a href=\"#ref-saji1999\">[6]</a>. The tropical North Atlantic is warm (+0.62 °C), unlike 1982 and 1997, which were cool.</p>"
+  },
+  {
+   "id": "next",
+   "title": "7. What happened next in the analogs",
+   "html": "<p>The table below records what followed the September stage in each analog. It is a description of three past events, not a forecast for 2026.</p>",
+   "table": {
+    "cols": [
+     "Event",
+     "RONI peak (season, °C)",
+     "ONI peak (°C)",
+     "RONI rise, JAS to peak (°C)",
+     "Heat content peak",
+     "WWV first negative",
+     "RONI below +0.5",
+     "RONI JJA, year +1"
+    ],
+    "rows": [
+     [
+      "1982–83",
+      "DJF 1983, +2.40",
+      "+2.14",
+      "+1.26",
+      "October 1982 (+2.07)",
+      "January 1983",
+      "MJJ 1983",
+      "+0.03"
+     ],
+     [
+      "1997–98",
+      "NDJ 1997, +2.28",
+      "+2.37",
+      "+0.44",
+      "October 1997 (+2.56)",
+      "December 1997",
+      "AMJ 1998",
+      "−1.05"
+     ],
+     [
+      "2015–16",
+      "NDJ 2015, +2.25",
+      "+2.59",
+      "+0.71",
+      "August 2015 (+1.97)",
+      "December 2015",
+      "AMJ 2016",
+      "−0.70"
+     ]
+    ],
+    "note": "From the same files as section 2."
+   }
+  },
+  {
+   "id": "outlook",
+   "title": "8. Forecasts and an analog scenario",
+   "html": "<p><b>Forecasts (official, not observations).</b> The CPC outlook of 2026-10-08 gives a 100% chance of very strong El Niño (RONI ≥ +2.0 °C) for October–December, 96% for November–January and 81% for December–February. The IRI multi-model plume of October has an all-model average of +3.48 °C for OND on the traditional Niño 3.4 index (range +2.46 to +4.28 °C, 27 models). The site's ENSO outlook card shows both in full.</p><p><b>Analog scenario (speculation, labelled as such).</b> If 2026 added the same amount after JAS as the analogs did (0.44–1.26 °C), its RONI peak would be +2.13 to +2.95 °C, most likely in November–January. The upper end would exceed every event since 1950 on RONI. Two features argue for the upper half: heat content was still rising in September, whereas in 1982 and 1997 it peaked in October, and the warm water volume had only begun to fall. One point is unresolved: in all three analogs RONI peaked within a month of the warm water volume turning negative. In 2026 it is still +3.16 (September), so on that analog the peak is some months away, or the relationship will not hold this time. This simple arithmetic ignores the different background state and has no skill estimate.</p>"
+  },
+  {
+   "id": "next-steps",
+   "title": "9. Next steps for the full paper",
+   "html": "<ul><li>Westerly-wind-burst counts for 2026. On the burst rule of Papers 1–3, January–September had 8 bursts in 1982, 15 in 1997 and 13 in 2015. The first 2026 run read Reanalysis 1 winds only to 17 March 2026 and the NOAA interpolated OLR used for the MJO ends in December 2022, so no 2026 count is given yet; the run needs a current-year fix and a replacement OLR source.</li><li>Then the daily MJO diagnostics for 2025–26 and TAO winds, as for Papers 2 and 3.</li><li>Test the recharge path: equatorial versus off-equatorial heat, and the role of the 2025–26 La Niña.</li><li>The negative PDO and the North Pacific marine heatwaves: amplifier, suppressor or coincidence.</li><li>Literature on 2026 as it appears; update at each CPC monthly discussion (next: November 2026).</li></ul>"
+  }
+ ],
+ "references": [
+  {
+   "key": "lheureux2024",
+   "text": "L'Heureux, M. L., et al. (2024). A relative sea surface temperature index for classifying ENSO events in a changing climate. <i>Journal of Climate</i> 37, 1197–1211.",
+   "doi": "10.1175/JCLI-D-23-0406.1",
+   "url": null,
+   "check": "abstract read"
+  },
+  {
+   "key": "jin1997",
+   "text": "Jin, F.-F. (1997). An equatorial ocean recharge paradigm for ENSO. Part I: Conceptual model. <i>Journal of the Atmospheric Sciences</i> 54, 811–829.",
+   "doi": "10.1175/1520-0469(1997)054<0811:AEORPF>2.0.CO;2",
+   "url": null,
+   "check": "abstract read"
+  },
+  {
+   "key": "meinen2000",
+   "text": "Meinen, C. S., and M. J. McPhaden (2000). Observations of warm water volume changes in the equatorial Pacific and their relationship to El Niño and La Niña. <i>Journal of Climate</i> 13, 3551–3559.",
+   "doi": "10.1175/1520-0442(2000)013<3551:OOWWVC>2.0.CO;2",
+   "url": null,
+   "check": "abstract read"
+  },
+  {
+   "key": "takahashi2011",
+   "text": "Takahashi, K., A. Montecinos, K. Goubanova and B. Dewitte (2011). ENSO regimes: Reinterpreting the canonical and Modoki El Niño. <i>Geophysical Research Letters</i> 38, L10704.",
+   "doi": "10.1029/2011GL047364",
+   "url": null,
+   "check": "bibliographic record"
+  },
+  {
+   "key": "capotondi2015",
+   "text": "Capotondi, A., et al. (2015). Understanding ENSO diversity. <i>Bulletin of the American Meteorological Society</i> 96, 921–938.",
+   "doi": "10.1175/BAMS-D-13-00117.1",
+   "url": null,
+   "check": "abstract read"
+  },
+  {
+   "key": "saji1999",
+   "text": "Saji, N. H., B. N. Goswami, P. N. Vinayachandran and T. Yamagata (1999). A dipole mode in the tropical Indian Ocean. <i>Nature</i> 401, 360–363.",
+   "doi": "10.1038/43854",
+   "url": null,
+   "check": "bibliographic record"
+  },
+  {
+   "key": "cpc",
+   "text": "NOAA Climate Prediction Center: RONI and ONI, OISST v2.1 monthly and weekly Niño indices (traditional and relative), SOI, 850 hPa trade-wind and OLR indices, upper-300 m heat content, IOD (DMI), tropical Atlantic SST; ENSO Diagnostic Discussion and strength-probability table. NOAA PMEL warm water volume. NOAA NCEI PDO. Site copies in the data archive.",
+   "doi": null,
+   "url": "https://www.cpc.ncep.noaa.gov/data/indices/",
+   "check": "data read"
+  },
+  {
+   "key": "iri",
+   "text": "IRI/CCSR: ENSO forecast, October 2026 multi-model Niño 3.4 plume (as read for the site's outlook card).",
+   "doi": null,
+   "url": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
+   "check": "data read"
   }
  ]
 }
