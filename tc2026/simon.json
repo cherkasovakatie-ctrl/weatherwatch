@@ -158,7 +158,7 @@
   {
    "id": "impacts",
    "title": "6. Impacts",
-   "html": "<p>A 71-year-old man died when a wall collapsed in Chilpancingo, Guerrero, during Simon's rain <a href=\"#ref-afp12\">[11]</a>. Heavy rain in Guerrero toppled trees and utility poles, blocked roads and flooded homes in coastal communities including Acapulco; Nayarit and Sinaloa were on alert for rising rivers; operations at Puerto Vallarta's airport were resuming on 13 October <a href=\"#ref-ap13\">[12]</a>. On 12 October waves were still crashing along the Puerto Vallarta seafront <a href=\"#ref-afp12\">[11]</a>. Press tallies that combine Simon and the remnants of Rachel (six deaths by 13 October) include five deaths in Ensenada caused by Rachel <a href=\"#ref-ap13\">[12]</a>. Damage estimates and rainfall totals were not available for this paper.</p>"
+   "html": "<p>Before the closest approach Jalisco suspended classes in 22 coastal municipalities and began evacuations, public transport was suspended and the Puerto Vallarta boardwalk was closed; the president asked people in four states to shelter in place <a href=\"#ref-ap11\">[12]</a>. A 71-year-old man died when a wall collapsed in Chilpancingo, Guerrero, during Simon's rain <a href=\"#ref-afp12\">[11]</a>. Heavy rain in Guerrero toppled trees and utility poles, blocked roads and flooded homes in coastal communities including Acapulco; Nayarit and Sinaloa were on alert for rising rivers; operations at Puerto Vallarta's airport were resuming on 13 October <a href=\"#ref-ap13\">[13]</a>. On 12 October waves were still crashing along the Puerto Vallarta seafront <a href=\"#ref-afp12\">[11]</a>. Press tallies that combine Simon and the remnants of Rachel (six deaths by 13 October) include five deaths in Ensenada caused by Rachel <a href=\"#ref-ap13\">[13]</a>. Damage estimates and rainfall totals were not available for this paper.</p>"
   },
   {
    "id": "climate",
@@ -302,6 +302,13 @@
    "text": "AFP (2026). Hurricane Simon leaves one dead, causes damage on Mexico's Pacific coast. 12 October 2026 (via Jamaica Observer).",
    "doi": null,
    "url": "https://www.jamaicaobserver.com/2026/10/12/hurricane-simon-leaves-one-dead-causes-damage-mexicos-pacific-coast/",
+   "check": "read"
+  },
+  {
+   "key": "ap11",
+   "text": "Associated Press (2026). Hurricane Simon pounds resorts and vulnerable towns along Mexico's Pacific coast. 11 October 2026 (via Fox5 Las Vegas).",
+   "doi": null,
+   "url": "https://www.fox5vegas.com/2026/10/11/ferocious-hurricane-simon-nears-mexico-with-155-mph-winds-flooding-fears/",
    "check": "read"
   },
   {

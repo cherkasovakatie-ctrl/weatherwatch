@@ -18,7 +18,8 @@ def dist(a, b):
 sep = {t: round(dist(F[t], NO[t])) for t in F if t in NO}
 smin = min(sep.items(), key=lambda kv: kv[1])
 KEYS = ['knapp2010', 'kaplan2003', 'huang2021', 'wheeler2004', 'wang2002', 'camargo2005', 'price1981', 'csu', 'paper4']
-EXTRA = [('wn', 'Weathernews (2026). Typhoon No. 29 (Koguma) (JMA observations and forecasts, 9 October 2026).', 'https://sea.weathernews.com/resources/202610/269', 'read'),
+EXTRA = [('jma', 'Japan Meteorological Agency (2026). Typhoon No. 29 (KOGUMA) preliminary best track, 3-hourly (T2629, preliminary values).', 'https://www.data.jma.go.jp/typhoon/data/T2629.pdf', 'read'),
+         ('wn', 'Weathernews (2026). Typhoon No. 29 (Koguma) (JMA observations and forecasts, 9 October 2026).', 'https://sea.weathernews.com/resources/202610/269', 'read'),
          ('nwsg', 'Pogodnik (2026). Typhoon Koguma heads north with 130 mph winds (summarising NWS Guam advisories, 11 October 2026).', 'https://pogodnik.com/en/news/typhoon-koguma-2026-130-mph-winds-forecast-track', 'read; secondary source')]
 R = refs(KEYS, EXTRA); ref = {r['key']: i + 1 for i, r in enumerate(R)}
 c = lambda k: f'<a href="#ref-{k}">[{ref[k]}]</a>'  # noqa: E731
@@ -51,9 +52,9 @@ S.append({'id': 'lifecycle', 'title': '3. Life cycle', 'html': (
     f"On 9 October JMA analysed it as a typhoon of 990 hPa with 75 kt 10-minute winds, about 650 km southwest of Minamitorishima, moving west-northwest at 11 kt, and forecast further deepening to 955 hPa {c('wn')}.</p>"
     f"<p><b>Rapid intensification (8–10 October).</b> Koguma reached typhoon strength at {dtm(o['first_hu'])} and then intensified by {o['max_24h_change'][2]} kt in the 24 hours to {dtm(o['max_24h_change'][1])}, reaching {o['peak_kt']} kt and {o['min_pres']} mb at {dtm(o['peak_time'])} near {pos(*o['peak_pos'])}. "
     f"On 11 October NWS Guam still gave about 130 mph (115 kt), with typhoon-force winds extending about 72 km and tropical-storm-force winds about 193 km from the centre {c('nwsg')}.</p>"
-    f"<p><b>Recurvature and transition (11–13 October).</b> Koguma turned north on 11–12 October and accelerated north-northeast, weakening below typhoon strength by midday on 13 October as it moved over water below 26 °C near 35°N. The last IBTrACS fix is at {dtm(o['last'])} near {pos(*o['fixes'][-1][1:3])} with {o['fixes'][-1][3]} kt; Weathernews expected it to become a severe tropical storm over cooler water by 14 October {c('wn')}.</p>"),
-    'table': {'cols': ['Quantity', 'Value'], 'rows': facts(N, [('JMA analysis, 9 Oct 0405 UTC', '990 hPa, 75 kt (10-minute), 18.8°N, 156.1°E'), ('Closest approach to land', 'about 650 km east of Iwo To (11 Oct, NWS Guam)')]),
-              'note': 'IBTrACS v04r01, provisional JTWC values. JMA peak values were not available for this paper.'}})
+    f"<p><b>Recurvature and transition (11–13 October).</b> Koguma turned north on 11–12 October and accelerated north-northeast, weakening below typhoon strength by midday on 13 October as it moved over water below 26 °C near 35°N. The last IBTrACS fix is at {dtm(o['last'])} near {pos(*o['fixes'][-1][1:3])} with {o['fixes'][-1][3]} kt; JMA declared it extratropical at 0000 UTC on 14 October near 39°N, 159°E {c('jma')}.</p>"),
+    'table': {'cols': ['Quantity', 'Value'], 'rows': facts(N, [('JMA preliminary peak', '950 hPa and 45 m/s (87 kt, 10-minute), from 10 Oct; extratropical by 14 Oct 0000 UTC'), ('JMA analysis, 9 Oct 0405 UTC', '990 hPa, 75 kt (10-minute), 18.8°N, 156.1°E'), ('Closest approach to land', 'about 650 km east of Iwo To (11 Oct, NWS Guam)')]),
+              'note': 'IBTrACS v04r01, provisional JTWC values; JMA values from its preliminary track table.'}})
 S.append({'id': 'environment', 'title': '4. Environment', 'html': (
     f"<p><b>Ocean.</b> Up to the peak, the sea three days ahead of Koguma averaged {pre['sst_mean']:.1f} °C and never fell below {pre['sst_min']:.1f} °C, {pre['ssta_mean']:+.1f} °C above the 1991–2020 normal on average. North of 30°N, after recurvature, it fell to about {s_all['sst_min']:.0f} °C. "
     f"Moving at a mean {o['mean_speed_kmh']} km/h, much faster than the eastern Pacific hurricanes of the same weeks, Koguma left only a weak cold wake in the analysis (up to {abs(s_all['wake_min']):.1f} °C) {c('price1981')}.</p>"
@@ -74,7 +75,7 @@ S.append({'id': 'impacts', 'title': '6. Impacts', 'html': (
 S.append({'id': 'climate', 'title': '7. Climate context', 'html': (
     f"<p>Koguma fits the El Niño pattern in the western North Pacific: genesis in the southeast of the basin {c('wang2002')}, a long track over warm water and high intensity {c('camargo2005')}. The western Pacific season's ACE was 41% above normal by late October {c('csu')}. No attribution study exists for Koguma.</p>")})
 S.append({'id': 'uncertainty', 'title': '8. Uncertainties', 'html': (
-    "<ul><li>Intensities are provisional JTWC values; JMA's 10-minute winds are lower and its peak central pressure was not available here.</li>"
+    "<ul><li>Intensities are provisional. JTWC (1-minute, 119 kt, 941 mb) and JMA (10-minute, 87 kt, 950 hPa) differ in method as well as value; both will be revised.</li>"
     "<li>Atmospheric conditions (shear, humidity) are not documented for this storm.</li>"
     "<li>The influence of Nolo is reported second-hand and not tested.</li></ul>")})
 S.append({'id': 'conclusion', 'title': '9. Conclusion', 'html': (

@@ -12,6 +12,7 @@ sys.path.insert(0, str(ROOT / 'tools/papers'))
 from build import NAV, STATUS_TAG, STYLE, conf, esc, ref_html, table  # noqa: E402
 
 SRC = ROOT / 'tc2026'
+MEDIA = json.loads((ROOT / 'tc2026/media.json').read_text(encoding='utf-8')) if (ROOT / 'tc2026/media.json').exists() else {}
 HEAD = """<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title} · Global Weather Watch</title>
@@ -34,8 +35,11 @@ def page(p: dict, allp: list) -> str:
              f'<p class="meta"><span class="tag {STATUS_TAG[p["status"]][0]}">{STATUS_TAG[p["status"]][1]}</span> Research date: {esc(p["research_date"])} · '
              f'Data cutoff: {esc(p["obs_cutoff"])} · Track data: {esc(p["track_source"])}</p>',
              f'<div class="card status"><b>Status.</b> {p["status_note"]}</div>']
-    if p.get('toc'):
-        parts.append('<div class="card"><b>Contents</b><div class="toc">' + ''.join(f'<div><a href="#{a}">{esc(t)}</a></div>' for a, t in p['toc']) + '</div></div>')
+    toc = list(p.get('toc', []))
+    if MEDIA.get(p['storm']) and ('media', 'Media evidence (links)') not in toc:
+        toc.insert(next((i for i, x in enumerate(toc) if x[0] == 'evidence'), len(toc)), ('media', 'Media evidence (links)'))
+    if toc:
+        parts.append('<div class="card"><b>Contents</b><div class="toc">' + ''.join(f'<div><a href="#{a}">{esc(t)}</a></div>' for a, t in toc) + '</div></div>')
     for s in p['sections']:
         parts.append(f'<h2 id="{s["id"]}">{esc(s["title"])}</h2><div class="prose">{s["html"]}</div>')
         if s.get('table'):
@@ -44,6 +48,10 @@ def page(p: dict, allp: list) -> str:
                 parts.append(f'<p class="note">{t["note"]}</p>')
         if s.get('html_after'):
             parts.append(f'<div class="prose">{s["html_after"]}</div>')
+    media = MEDIA.get(p['storm'], [])
+    if media:
+        parts.append('<h2 id="media">Media evidence (links)</h2><div class="prose"><p>Videos, photographs, satellite images and news reports that document the storm. They are supporting evidence only: the analysis above does not rely on them, and the material belongs to its publishers, so it is linked rather than copied. Press videos and social-media clips are not independently verified.</p></div>')
+        parts.append(table(['Type', 'What it shows', 'Source', 'Link'], [[esc(m[0]), esc(m[1]), esc(m[2]), f'<a href="{esc(m[3])}">{esc(m[3].split("/")[2])}</a>'] for m in media]))
     if p.get('evidence'):
         parts.append('<h2 id="evidence">Evidence table</h2>')
         parts.append(table(['Factor', 'Observed conditions and timing', 'Proposed role', 'Evidence type', 'Confidence', 'Key sources'],
@@ -70,7 +78,7 @@ def index(allp: list, inv: list) -> str:
 
 
 def main() -> int:
-    allp = [json.loads(f.read_text(encoding='utf-8')) for f in sorted(SRC.glob('*.json')) if f.name != 'inventory.json']
+    allp = [json.loads(f.read_text(encoding='utf-8')) for f in sorted(SRC.glob('*.json')) if f.name not in ('inventory.json', 'media.json')]
     allp.sort(key=lambda q: q['order'])
     for p in allp:
         (ROOT / p['file']).write_text(page(p, allp), encoding='utf-8'); print('wrote', p['file'])

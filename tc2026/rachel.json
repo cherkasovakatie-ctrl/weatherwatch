@@ -76,7 +76,7 @@
   {
    "id": "intro",
    "title": "1. Introduction",
-   "html": "<p>Rachel was the eighteenth tropical cyclone of the 2026 eastern North Pacific season and the second of four major hurricanes off southwestern Mexico between 22 September and 16 October. Its track, first parallel to Mexico and then west and northeast towards Baja California, linked the hyperactive tropical season to the coastal ocean off California, where El Niño had already raised sea level <a href=\"#ref-kelvin\">[12]</a>. This paper reconstructs Rachel's life cycle and the chain of events that turned a weakening storm into a deadly one.</p>"
+   "html": "<p>Rachel was the eighteenth tropical cyclone of the 2026 eastern North Pacific season and the second of four major hurricanes off southwestern Mexico between 22 September and 16 October. Its track, first parallel to Mexico and then west and northeast towards Baja California, linked the hyperactive tropical season to the coastal ocean off California, where El Niño had already raised sea level <a href=\"#ref-kelvin\">[13]</a>. This paper reconstructs Rachel's life cycle and the chain of events that turned a weakening storm into a deadly one.</p>"
   },
   {
    "id": "methods",
@@ -145,7 +145,7 @@
   {
    "id": "impacts",
    "title": "5. Impacts",
-   "html": "<p><b>Baja California.</b> Heavy rain from Rachel's remnant caused flooding and landslides in the municipality of Ensenada over the weekend of 10–11 October and knocked out power; a stream in the Buena Vista community overflowed, sweeping away vehicles, animals and a cabin <a href=\"#ref-ap13\">[10]</a>. By 15 October the death toll was eight, all in Ensenada, four of them minors, with two people still missing <a href=\"#ref-star16\">[11]</a>. Soldiers rescued 32 people, including 13 children, by helicopter from an orphan camp near Ensenada; a father and son fishing from San Felipe on the Gulf of California were missing <a href=\"#ref-ap13\">[10]</a>.</p><p><b>Southern California.</b> The hurricane centre warned that waves from Rachel, combined with an incoming long-period southerly swell, would produce life-threatening surf and rip currents, and that major coastal flooding was already occurring, with water levels running up to 1.5 ft above predictions; flooding and erosion were expected to worsen as the highest waves coincided with high tides <a href=\"https://www.nhc.noaa.gov/archive/2026/ep18/ep182026.discus.054.shtml\">NHC discussion 54</a>. The elevated water levels reflect El Niño's coastally trapped wave and the warm ocean along the coast <a href=\"#ref-kelvin\">[12]</a>. The remnant then brought a risk of flash flooding to the southwestern United States <a href=\"https://www.nhc.noaa.gov/archive/2026/ep18/ep182026.discus.058.shtml\">NHC discussion 58</a>.</p>"
+   "html": "<p><b>Baja California.</b> Heavy rain from Rachel's remnant caused flooding and landslides in the municipality of Ensenada over the weekend of 10–11 October and knocked out power; a stream in the Buena Vista community overflowed, sweeping away vehicles, animals and a cabin <a href=\"#ref-ap13\">[10]</a>. By 15 October the death toll was eight, all in Ensenada, four of them minors, with two people still missing <a href=\"#ref-star16\">[11]</a>. Soldiers rescued 32 people, including 13 children, by helicopter from an orphan camp near Ensenada; a father and son fishing from San Felipe on the Gulf of California were missing <a href=\"#ref-ap13\">[10]</a>.</p><p><b>Southern California.</b> The hurricane centre warned that waves from Rachel, combined with an incoming long-period southerly swell, would produce life-threatening surf and rip currents, and that major coastal flooding was already occurring, with water levels running up to 1.5 ft above predictions; flooding and erosion were expected to worsen as the highest waves coincided with high tides <a href=\"https://www.nhc.noaa.gov/archive/2026/ep18/ep182026.discus.054.shtml\">NHC discussion 54</a>. In Long Beach on 9 October the surf broke through a seawall on the Alamitos Peninsula; homes on Seaside Walk were evacuated and inspectors red-tagged eight buildings <a href=\"#ref-nbcla\">[12]</a>. The elevated water levels reflect El Niño's coastally trapped wave and the warm ocean along the coast <a href=\"#ref-kelvin\">[13]</a>. The remnant then brought a risk of flash flooding to the southwestern United States <a href=\"https://www.nhc.noaa.gov/archive/2026/ep18/ep182026.discus.058.shtml\">NHC discussion 58</a>.</p>"
   },
   {
    "id": "climate",
@@ -210,7 +210,7 @@
    "Compound coastal flooding in Southern California",
    "Observed (NHC statement)",
    "High",
-   "<a href=\"#ref-nhc\">[9]</a> <a href=\"#ref-kelvin\">[12]</a>"
+   "<a href=\"#ref-nhc\">[9]</a> <a href=\"#ref-kelvin\">[13]</a>"
   ]
  ],
  "references": [
@@ -289,6 +289,13 @@
    "text": "Reuters/Bernama (2026). Death toll from Tropical Storm Rachel rises to 8 in northwestern Mexico. 16 October 2026 (via The Star).",
    "doi": null,
    "url": "https://www.thestar.com.my/news/world/2026/10/16/death-toll-from-tropical-storm-rachel-rises-to-8-in-northwestern-mexico",
+   "check": "read"
+  },
+  {
+   "key": "nbcla",
+   "text": "NBC Los Angeles (2026). Evacuation order issued for some beachfront homes as damaging surf slams Long Beach. 9 October 2026.",
+   "doi": null,
+   "url": "https://www.nbclosangeles.com/weather-news/long-beach-surf-waves-shorline-damage/3953709/",
    "check": "read"
   },
   {

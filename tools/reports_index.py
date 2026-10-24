@@ -10,7 +10,7 @@ rows = [('2026-10-17', 'Why global temperature has risen since 1976 — and what
 for f in sorted((ROOT / 'papers').glob('*.json')):
     p = json.loads(f.read_text(encoding='utf-8'))
     rows.append((DATES.get(p['research_date'], p['research_date']), f"Paper {p['number']}: {p['title']}", 'Research paper · ENSO', '', p['file']))
-tc = sorted((json.loads(f.read_text(encoding='utf-8')) for f in (ROOT / 'tc2026').glob('*.json') if f.name != 'inventory.json'), key=lambda p: p['order'])
+tc = sorted((json.loads(f.read_text(encoding='utf-8')) for f in (ROOT / 'tc2026').glob('*.json') if f.name not in ('inventory.json', 'media.json')), key=lambda p: p['order'])
 for p in tc:
     rows.append((DATES.get(p['research_date'], p['research_date']), p['title'], 'Research paper · 2026 storms', '', p['file']))
 if tc:
