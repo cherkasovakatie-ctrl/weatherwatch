@@ -1,0 +1,316 @@
+{
+ "knapp2010": {
+  "query": "10.1175/2009BAMS2755.1",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1175/2009bams2755.1",
+    "title": "The International Best Track Archive for Climate Stewardship (IBTrACS)",
+    "journal": "Bulletin of the American Meteorological Society",
+    "volume": "91",
+    "issue": "3",
+    "page": "363-376",
+    "year": 2010,
+    "authors": [
+     "Knapp, Kenneth R.",
+     "Kruk, Michael C.",
+     "Levinson, David H.",
+     "Diamond, Howard J.",
+     "Neumann, Charles J."
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": "The goal of the International Best Track Archive for Climate Stewardship (IBTrACS) project is to collect the historical tropical cyclone best-track data from all available Regional Specialized Meteorological Centers (RSMCs) and other agencies, combine the disparate datasets into one product, and disseminate in formats used by the tropical cyclone community. Each RSMC forecasts and monitors storms for a specific region and annually archives best-track data, which consist of information on a storm's position, intensity, and other related parameters. IBTrACS is a new dataset based on the best-track data from numerous sources. Moreover, rather than preferentially selecting one track and intensity for each storm, the mean position, the original intensities from the agencies, and summary statistics are provided. This article discusses the dataset construction, explores the tropical cyclone climatology from IBTrACS, and concludes with an analysis of uncertainty in the tropical cyclone intensity record.",
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 3086
+   }
+  ]
+ },
+ "gahtan2024": {
+  "query": "10.25921/82ty-9e16",
+  "error": "HTTP Error 404: Not Found",
+  "results": []
+ },
+ "huang2021": {
+  "query": "10.1175/JCLI-D-20-0166.1",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1175/jcli-d-20-0166.1",
+    "title": "Improvements of the Daily Optimum Interpolation Sea Surface Temperature (DOISST) Version 2.1",
+    "journal": "Journal of Climate",
+    "volume": "34",
+    "issue": "8",
+    "page": "2923-2939",
+    "year": 2021,
+    "authors": [
+     "Huang, Boyin",
+     "Liu, Chunying",
+     "Banzon, Viva",
+     "Freeman, Eric",
+     "Graham, Garrett",
+     "Hankins, Bill",
+     "Smith, Tom",
+     "Zhang, Huai-Min"
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    The NOAA/NESDIS/NCEI Daily Optimum Interpolation Sea Surface Temperature (SST), version 2.0, dataset (DOISST v2.0) is a blend of in situ ship and buoy SSTs with satellite SSTs derived from the Advanced Very High Resolution Radiometer (AVHRR). DOISST v2.0 exhibited a cold bias in the Indian, South Pacific, and South Atlantic Oceans that is due to a lack of ingested drifting-buoy SSTs in the system, which resulted from a gradual data format change from the traditional alphanumeric codes (TAC) to the binary universal form for the representation of meteorological data (BUFR). The cold bias against Argo was about −0.14°C on global average and −0.28°C in the Indian Ocean from January 2016 to August 2019. We explored the reasons for these cold biases through six progressive experiments. These experiments showed that the cold biases can be effectively reduced by adjusting ship SSTs with available buoy SSTs, using the latest available ICOADS R3.0.2 derived from merging BUFR and TAC, as well as by including Argo observations above 5-m depth. The impact of using the satellite\n                    <jats:italic>MetOp-B</jats:italic>\n                    instead of\n                    <jats:italic>NOAA-19</jats:italic>\n                    was notable for high-latitude oceans but small on global average, since their biases are adjusted using in situ SSTs. In addition, the warm SSTs in the Arctic were improved by applying a freezing point instead of regressed ice-SST proxy. This paper describes an upgraded version, DOISST v2.1, which addresses biases in v2.0. Overall, by updating v2.0 to v2.1, the biases are reduced to −0.07° and −0.14°C in the global ocean and Indian Ocean, respectively, when compared with independent Argo observations and are reduced to −0.04° and −0.08°C in the global ocean and Indian Ocean, respectively, when compared with dependent Argo observations. The difference against the Group for High Resolution SST (GHRSST) Multiproduct Ensemble (GMPE) product is reduced from −0.09° to −0.01°C in the global oceans and from −0.20° to −0.04°C in the Indian Ocean.\n                  </jats:p>",
+    "abstract_openalex": "Abstract The NOAA/NESDIS/NCEI Daily Optimum Interpolation Sea Surface Temperature (SST), version 2.0, dataset (DOISST v2.0) is a blend of in situ ship and buoy SSTs with satellite SSTs derived from the Advanced Very High Resolution Radiometer (AVHRR). DOISST v2.0 exhibited a cold bias in the Indian, South Pacific, and South Atlantic Oceans that is due to a lack of ingested drifting-buoy SSTs in the system, which resulted from a gradual data format change from the traditional alphanumeric codes (TAC) to the binary universal form for the representation of meteorological data (BUFR). The cold bias against Argo was about −0.14°C on global average and −0.28°C in the Indian Ocean from January 2016 to August 2019. We explored the reasons for these cold biases through six progressive experiments. These experiments showed that the cold biases can be effectively reduced by adjusting ship SSTs with available buoy SSTs, using the latest available ICOADS R3.0.2 derived from merging BUFR and TAC, as well as by including Argo observations above 5-m depth. The impact of using the satellite MetOp-B instead of NOAA-19 was notable for high-latitude oceans but small on global average, since their biases are adjusted using in situ SSTs. In addition, the warm SSTs in the Arctic were improved by applying a freezing point instead of regressed ice-SST proxy. This paper describes an upgraded version, DOISST v2.1, which addresses biases in v2.0. Overall, by updating v2.0 to v2.1, the biases are reduced to −0.07° and −0.14°C in the global ocean and Indian Ocean, respectively, when compared with independent Argo observations and are reduced to −0.04° and −0.08°C in the global ocean and Indian Ocean, respectively, when compared with dependent Argo observations. The difference against the Group for High Resolution SST (GHRSST) Multiproduct Ensemble (GMPE) product is reduced from −0.09° to −0.01°C in the global oceans and from −0.20° to −0.04°C in the Indian Ocean.",
+    "oa_status": "hybrid",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/34/8/JCLI-D-20-0166.1.pdf",
+    "cited_by": 1194
+   }
+  ]
+ },
+ "kaplan2003": {
+  "query": "10.1175/1520-0434(2003)018<1093:LCORIT>2.0.CO;2",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1175/1520-0434(2003)018<1093:lcorit>2.0.co;2",
+    "title": "Large-Scale Characteristics of Rapidly Intensifying Tropical Cyclones in the North Atlantic Basin",
+    "journal": "Weather and Forecasting",
+    "volume": "18",
+    "issue": "6",
+    "page": "1093-1108",
+    "year": 2003,
+    "authors": [
+     "Kaplan, John",
+     "DeMaria, Mark"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": "The National Hurricane Center (NHC) and Statistical Hurricane Intensity Prediction Scheme (SHIPS) databases are employed to examine the large-scale characteristics of rapidly intensifying Atlantic basin tropical cyclones. In this study, rapid intensification (RI) is defined as approximately the 95th percentile of over-water 24-h intensity changes of Atlantic basin tropical cyclones that developed from 1989 to 2000. This equates to a maximum sustained surface wind speed increase of 15.4 m s−1 (30 kt) over a 24-h period. It is shown that 31% of all tropical cyclones, 60% of all hurricanes, 83% of all major hurricanes, and all category 4 and 5 hurricanes underwent RI at least once during their lifetimes. The mean initial (t = 0 h) conditions of cases that undergo RI are compared to those of the non-RI cases. These comparisons show that the RI cases form farther south and west and have a more westward component of motion than the non-RI cases. In addition, the RI cases are typically intensifying at a faster rate during the previous 12 h than the non-RI cases. The statistical analysis also shows that the RI cases are further from their maximum potential intensity and form in regions with warmer SSTs and higher lower-tropospheric relative humidity than the non-RI cases. The RI cases are also embedded in regions where the upper-level flow is more easterly and the vertical shear and upper-level forcing from troughs or cold lows is weaker than is observed for the non-RI cases. Finally, the RI cases tend to move with the flow within a higher layer of the atmosphere than the non-RI cases. A simple technique for estimating the probability of RI is described. Estimates of the probability of RI are determined using the predictors for which statistically significant differences are found between the RI and non-RI cases. Estimates of the probability of RI are also determined by combining the five predictors that had the highest individual probabilities of RI. The probability of RI increases from 1% to 41% when the total number of thresholds satisfied increases from zero to five. This simple technique was used in real time for the first time during the 2001 Atlantic hurricane season as part of the Joint Hurricane Testbed (JHT).",
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 840
+   }
+  ]
+ },
+ "wheeler2004": {
+  "query": "10.1175/1520-0493(2004)132<1917:AARMMI>2.0.CO;2",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1175/1520-0493(2004)132<1917:aarmmi>2.0.co;2",
+    "title": "An All-Season Real-Time Multivariate MJO Index: Development of an Index for Monitoring and Prediction",
+    "journal": "Monthly Weather Review",
+    "volume": "132",
+    "issue": "8",
+    "page": "1917-1932",
+    "year": 2004,
+    "authors": [
+     "Wheeler, Matthew C.",
+     "Hendon, Harry H."
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": "A seasonally independent index for monitoring the Madden–Julian oscillation (MJO) is described. It is based on a pair of empirical orthogonal functions (EOFs) of the combined fields of near-equatorially averaged 850-hPa zonal wind, 200-hPa zonal wind, and satellite-observed outgoing longwave radiation (OLR) data. Projection of the daily observed data onto the multiple-variable EOFs, with the annual cycle and components of interannual variability removed, yields principal component (PC) time series that vary mostly on the intraseasonal time scale of the MJO only. This projection thus serves as an effective filter for the MJO without the need for conventional time filtering, making the PC time series an effective index for real-time use. The pair of PC time series that form the index are called the Real-time Multivariate MJO series 1 (RMM1) and 2 (RMM2). The properties of the RMM series and the spatial patterns of atmospheric variability they capture are explored. Despite the fact that RMM1 and RMM2 describe evolution of the MJO along the equator that is independent of season, the coherent off-equatorial behavior exhibits strong seasonality. In particular, the north-ward, propagating behavior in the Indian monsoon and the southward extreme of convection into the Australian monsoon are captured by monitoring the seasonally independent eastward propagation in the equatorial belt. The previously described interannual modulation of the global variance of the MJO is also well captured.",
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 2896
+   }
+  ]
+ },
+ "maloney2000": {
+  "query": "10.1175/1520-0442(2000)013<1451:MOEPHB>2.0.CO;2",
+  "error": "HTTP Error 404: Not Found",
+  "results": []
+ },
+ "klotzbach2010": {
+  "query": "10.1175/2009JCLI2978.1",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1175/2009jcli2978.1",
+    "title": "On the Madden–Julian Oscillation–Atlantic Hurricane Relationship",
+    "journal": "Journal of Climate",
+    "volume": "23",
+    "issue": "2",
+    "page": "282-293",
+    "year": 2010,
+    "authors": [
+     "Klotzbach, Philip J."
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title>\n               <jats:p>The large-scale equatorial circulation known as the Madden–Julian oscillation (MJO) has been shown to impact tropical cyclone activity in several basins around the globe. In this paper, the author utilizes an MJO index created by Wheeler and Hendon to examine its impacts on tropical genesis and intensification in the Atlantic. Large differences in frequency and intensity of tropical cyclone activity are seen, both in the tropical Atlantic as well as in the northwest Caribbean and Gulf of Mexico depending on the MJO phase. Coherent changes in upper- and lower-level winds and relative humidity are likely responsible for these differences. Since the MJO shows potential predictability out to about two weeks, the relationships discussed in this paper may be useful for short-term predictions of the probability of tropical cyclone activity in the Atlantic as a complement to the already available longer-term seasonal predictions.</jats:p>",
+    "abstract_openalex": "Abstract The large-scale equatorial circulation known as the Madden–Julian oscillation (MJO) has been shown to impact tropical cyclone activity in several basins around the globe. In this paper, the author utilizes an MJO index created by Wheeler and Hendon to examine its impacts on tropical genesis and intensification in the Atlantic. Large differences in frequency and intensity of tropical cyclone activity are seen, both in the tropical Atlantic as well as in the northwest Caribbean and Gulf of Mexico depending on the MJO phase. Coherent changes in upper- and lower-level winds and relative humidity are likely responsible for these differences. Since the MJO shows potential predictability out to about two weeks, the relationships discussed in this paper may be useful for short-term predictions of the probability of tropical cyclone activity in the Atlantic as a complement to the already available longer-term seasonal predictions.",
+    "oa_status": "bronze",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/23/2/2009jcli2978.1.pdf",
+    "cited_by": 156
+   }
+  ]
+ },
+ "price1981": {
+  "query": "10.1175/1520-0485(1981)011<0153:UORTAH>2.0.CO;2",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1175/1520-0485(1981)011<0153:uortah>2.0.co;2",
+    "title": "Upper Ocean Response to a Hurricane",
+    "journal": "Journal of Physical Oceanography",
+    "volume": "11",
+    "issue": "2",
+    "page": "153-175",
+    "year": 1981,
+    "authors": [
+     "Price, James F."
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": "The upper ocean response to a moving hurricane is studied using historical air-sea data and a three-dimensional numerical ocean model. Sea surface temperature (SST) response is emphasized. The model has a surface mixed-layer (ML) that entrains according to a velocity dependent parameterization, and two lower layers that simulate the response in the thermocline. The passage of Hurricane Eloise (1975) over buoy EB-10 is simulated in detail. SST decreased 2°C as Eloise passed directly over EB-10 at 8.5 m s−1. Model results indicate that entrainment caused 85% of the irreversible heat flux into the ML; air-sea heat exchange accounted for the remainder. The maximum SST response was predicted to be −3°C and to occur 60 km to the right of the hurricane track. This is consistent with the well-documented rightward bias in the SST response to rapidly moving hurricanes. The rightward bias occurs in the model solution because the hurricane wind-stress vector turns clockwise with time on the right side of the track and is roughly resonant with the ML velocity. High ML velocities cause strong entrainment and thus a strong SST response. Model comparisons with EB-10 data suggest that a wind-speed-dependent drag coefficient similar to Garratt's (1977) is appropriate for hurricane conditions. A constant drag coefficient 1.5 × 10−3 underpredicts the amplitude of upwelling and the SST response by ∼40%. Numerical experiments show that the response has a lively dependence on a number of air-sea parameters. Intense, slowly moving hurricanes cause the largest response. The SST response is largest where cold water is near the sea surface, i.e., where the initial ML is thin and the upper thermocline temperature gradient is sharp. Nonlocal processes are important to some aspects of the upper ocean response. Upwelling significantly enhances entrainment under slowly moving hurricanes (≲4 m s−1) and reduces the rightward bias of the SST response. Horizontal advection dominates the pointwise ML heat balance during the several-day period following a hurricane passage. Pressure gradients set up by the upwelling do not play an important role in the entrainment process, but are an effective mechanism for dispersing energy from the ML over a 5–10 day time scale.",
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 1386
+   }
+  ]
+ },
+ "camargo2005": {
+  "query": "10.1175/JCLI3457.1",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1175/jcli3457.1",
+    "title": "Western North Pacific Tropical Cyclone Intensity and ENSO",
+    "journal": "Journal of Climate",
+    "volume": "18",
+    "issue": "15",
+    "page": "2996-3006",
+    "year": 2005,
+    "authors": [
+     "Camargo, Suzana J.",
+     "Sobel, Adam H."
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title>\n               <jats:p>The influence of the El Niño–Southern Oscillation (ENSO) on tropical cyclone intensity in the western North Pacific basin is examined. Accumulated cyclone energy (ACE), constructed from the best-track dataset for the region for the period 1950–2002, and other related variables are analyzed. ACE is positively correlated with ENSO indices. This and other statistics of the interannually varying tropical cyclone distribution are used to show that there is a tendency in El Niño years toward tropical cyclones that are both more intense and longer-lived than in La Niña years. ACE leads ENSO indices: during the peak season (northern summer and fall), ACE is correlated approximately as strongly with ENSO indices up to six months later (northern winter), as well as simultaneously. It appears that not all of this lead–lag relationship is easily explained by the autocorrelation of the ENSO indices, though much of it is. Interannual variations in the annual mean lifetime, intensity, and number of tropical cyclones all contribute to the ENSO signal in ACE, though the lifetime effect appears to be the most important of the three.</jats:p>",
+    "abstract_openalex": "Abstract The influence of the El Niño–Southern Oscillation (ENSO) on tropical cyclone intensity in the western North Pacific basin is examined. Accumulated cyclone energy (ACE), constructed from the best-track dataset for the region for the period 1950–2002, and other related variables are analyzed. ACE is positively correlated with ENSO indices. This and other statistics of the interannually varying tropical cyclone distribution are used to show that there is a tendency in El Niño years toward tropical cyclones that are both more intense and longer-lived than in La Niña years. ACE leads ENSO indices: during the peak season (northern summer and fall), ACE is correlated approximately as strongly with ENSO indices up to six months later (northern winter), as well as simultaneously. It appears that not all of this lead–lag relationship is easily explained by the autocorrelation of the ENSO indices, though much of it is. Interannual variations in the annual mean lifetime, intensity, and number of tropical cyclones all contribute to the ENSO signal in ACE, though the lifetime effect appears to be the most important of the three.",
+    "oa_status": "bronze",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/18/15/jcli3457.1.pdf",
+    "cited_by": 776
+   }
+  ]
+ },
+ "carrasco2014": {
+  "query": "10.1175/WAF-D-13-00092.1",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1175/waf-d-13-00092.1",
+    "title": "The Influence of Tropical Cyclone Size on Its Intensification",
+    "journal": "Weather and Forecasting",
+    "volume": "29",
+    "issue": "3",
+    "page": "582-590",
+    "year": 2014,
+    "authors": [
+     "Carrasco, Cristina Alexandra",
+     "Landsea, Christopher William",
+     "Lin, Yuh-Lang"
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title>\n               <jats:p>This study investigates tropical cyclones of the past two decades (1990–2010) and the connection, if any, between their size and their ability to subsequently undergo rapid intensification (RI). Three different parameters are chosen to define the size of a tropical cyclone: radius of maximum wind (RMW), the average 34-knot (kt; 1 kt = 0.51 m s−1) radius (AR34), and the radius of the outermost closed isobar (ROCI). The data for this study, coming from the North Atlantic hurricane database second generation (HURDAT2), as well as the extended best-track dataset, are organized into 24-h intervals of either RI or slow intensification/constant intensity periods (non-RI periods). Each interval includes the intensity (maximum sustained surface wind speed), RMW, AR34, and ROCI at the beginning of the period and the change of intensity during the subsequent 24-h period. Results indicate that the ability to undergo RI shows significant sensitivity to initial size. Comparisons between RI and non-RI cyclones confirm that tropical cyclones that undergo RI are more likely to be smaller initially than those that do not. Analyses show that the RMW and AR34 have the strongest negative correlation with the change of intensity. Scatterplots imply there is a general maximum size threshold for RMW and AR34, above which RI is extremely rare. In contrast, the overall size of the tropical cyclones, as measured by ROCI, appears to have little to no relationship with subsequent intensification. The results of this work suggest that intensity forecasts and RI predictions in particular may be aided by the use of the initial size as measured by RMW and AR34.</jats:p>",
+    "abstract_openalex": "Abstract This study investigates tropical cyclones of the past two decades (1990–2010) and the connection, if any, between their size and their ability to subsequently undergo rapid intensification (RI). Three different parameters are chosen to define the size of a tropical cyclone: radius of maximum wind (RMW), the average 34-knot (kt; 1 kt = 0.51 m s−1) radius (AR34), and the radius of the outermost closed isobar (ROCI). The data for this study, coming from the North Atlantic hurricane database second generation (HURDAT2), as well as the extended best-track dataset, are organized into 24-h intervals of either RI or slow intensification/constant intensity periods (non-RI periods). Each interval includes the intensity (maximum sustained surface wind speed), RMW, AR34, and ROCI at the beginning of the period and the change of intensity during the subsequent 24-h period. Results indicate that the ability to undergo RI shows significant sensitivity to initial size. Comparisons between RI and non-RI cyclones confirm that tropical cyclones that undergo RI are more likely to be smaller initially than those that do not. Analyses show that the RMW and AR34 have the strongest negative correlation with the change of intensity. Scatterplots imply there is a general maximum size threshold for RMW and AR34, above which RI is extremely rare. In contrast, the overall size of the tropical cyclones, as measured by ROCI, appears to have little to no relationship with subsequent intensification. The results of this work suggest that intensity forecasts and RI predictions in particular may be aided by the use of the initial size as measured by RMW and AR34.",
+    "oa_status": "bronze",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/wefo/29/3/waf-d-13-00092_1.pdf",
+    "cited_by": 153
+   }
+  ]
+ },
+ "gray1984": {
+  "query": "10.1175/1520-0493(1984)112<1649:ASHFPI>2.0.CO;2",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1175/1520-0493(1984)112<1649:ashfpi>2.0.co;2",
+    "title": "Atlantic Seasonal Hurricane Frequency. Part I: El Niño and 30 mb Quasi-Biennial Oscillation Influences",
+    "journal": "Monthly Weather Review",
+    "volume": "112",
+    "issue": "9",
+    "page": "1649-1668",
+    "year": 1984,
+    "authors": [
+     "Gray, William M."
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": "This is the first of two papers on Atlantic seasonal hurricane frequency. In this paper, seasonal hurricane frequency as related to E1 Niño events during 1900–82 and to the equatorial Quasi-Biennial Oscillation (QBO) of stratospheric zonal wind from 1950 to 1982 is discussed. It is shown that a substantial negative correlation is typically present between the seasonal number of hurricanes, hurricane days and tropical storms, and moderate or strong (15 cases) El Niñ off the South American west coast. A similar negative anomaly in hurricane activity occurs when equatorial winds at 30 mb are from an easterly direction and/or are becoming more easterly with time during the hurricane season. This association of Atlantic hurricane activity with El Niño can also be made with the Southern Oscillation Index. By contrast, seasonal hurricane frequency is slightly above normal in non-El Niño years and substantially above normal when equatorial stratospheric winds blow from a westerly direction and/or are becoming more westerly with time during the storm season. El Niño events are shown to be related to an anomalous increase in upper tropospheric westerly winds over the Caribbean basin and the equatorial Atlantic. Such anomalous westerly winds inhibit tropical cyclone activity by increasing tropospheric vertical wind shear and giving rise to a regional upper-level environment which is less anticyclonic and consequently less conductive to cyclone development and maintenance. The seasonal frequency of hurricane activity in storm basis elsewhere is much less affected by El Niño events and the QBO. Seasonal hurricane frequency in the Atlantic and the stratospheric QBO is hypothesized to be associated with the trade-wind nature of Atlantic cyclone formation. Tropical cyclone formation in the other storm basins is primarily associated with monsoon trough conditions which are absent in the Atlantic. Quasi-Biennial Oscillation-induced influences do not positively enhance monsoon trough region vorticity fields as they apparently do with cyclone formations within the trade winds. Part II discusses the utilization of the information in this paper for the development of a forecast scheme for seasonal hurricane activity variations.",
+    "oa_status": "bronze",
+    "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/mwre/112/9/1520-0493_1984_112_1649_ashfpi_2_0_co_2.pdf",
+    "cited_by": 863
+   }
+  ]
+ },
+ "jien2015": {
+  "query": "10.1175/JCLI-D-14-00413.1",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1175/jcli-d-14-00413.1",
+    "title": "Atmospheric Responses to North Atlantic SST Anomalies in Idealized Experiments. Part I: Northern Hemispheric Circulation",
+    "journal": "Journal of Climate",
+    "volume": "28",
+    "issue": "15",
+    "page": "6204-6220",
+    "year": 2015,
+    "authors": [
+     "Veres, Michael",
+     "Hu, Qi"
+    ],
+    "abstract_crossref": "<jats:title>Abstract</jats:title>\n               <jats:p>Idealized model experiments using the NCAR CESM1.0.5 under equinox conditions are designed and performed to address two fundamental questions about the effects of the sea surface temperature (SST) variation associated with the Atlantic multidecadal oscillation (AMO) on circulation and precipitation in North America and Europe: 1) Is the observed relationship between the AMO SST and the warm-season precipitation in North America a statistical coincidence? and 2) Why is the response of negative precipitation anomaly to warm SST in the AMO fairly uniform across most of North America, whereas the positive precipitation anomaly in the cold SST rather spotty? Model experiments are done with either a warm or cold SST anomaly in an aquaplanet, a planet with idealized continents, and a planet with both idealized continents and orography. Major results show that the atmospheric response to warm SST anomaly in the North Atlantic is fairly similar among the three sets of experiments. In the lower troposphere, the response has a significant negative geopotential anomaly from the SST anomaly center to the east and a positive geopotential anomaly in upstream North America. However, the response to the cold SST anomaly changes considerably among these experiments, particularly in North America. These results provide a foundation to answer the abovementioned two questions. First, they show that there is physical connection of the AMO SST and atmospheric circulation anomalies in North America. Moreover, the rather stable atmospheric response to the warm SST may explain the observed largely consistent response to the warm SST anomaly. The varying responses of the atmosphere to the cold SST indicate a strong sensitivity of the atmosphere to other forcings during the cold SST anomaly in the North Atlantic. This sensitivity could explain the varying and less stable response of the atmosphere to the cold SST during the AMO.</jats:p>",
+    "abstract_openalex": "Abstract Idealized model experiments using the NCAR CESM1.0.5 under equinox conditions are designed and performed to address two fundamental questions about the effects of the sea surface temperature (SST) variation associated with the Atlantic multidecadal oscillation (AMO) on circulation and precipitation in North America and Europe: 1) Is the observed relationship between the AMO SST and the warm-season precipitation in North America a statistical coincidence? and 2) Why is the response of negative precipitation anomaly to warm SST in the AMO fairly uniform across most of North America, whereas the positive precipitation anomaly in the cold SST rather spotty? Model experiments are done with either a warm or cold SST anomaly in an aquaplanet, a planet with idealized continents, and a planet with both idealized continents and orography. Major results show that the atmospheric response to warm SST anomaly in the North Atlantic is fairly similar among the three sets of experiments. In the lower troposphere, the response has a significant negative geopotential anomaly from the SST anomaly center to the east and a positive geopotential anomaly in upstream North America. However, the response to the cold SST anomaly changes considerably among these experiments, particularly in North America. These results provide a foundation to answer the abovementioned two questions. First, they show that there is physical connection of the AMO SST and atmospheric circulation anomalies in North America. Moreover, the rather stable atmospheric response to the warm SST may explain the observed largely consistent response to the warm SST anomaly. The varying responses of the atmosphere to the cold SST indicate a strong sensitivity of the atmosphere to other forcings during the cold SST anomaly in the North Atlantic. This sensitivity could explain the varying and less stable response of the atmosphere to the cold SST during the AMO.",
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 8
+   }
+  ]
+ },
+ "collins2000": {
+  "query": "10.1029/2000GL011614",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1029/2000gl011614",
+    "title": "Local environmental conditions related to seasonal tropical cyclone activity in the northeast Pacific Basin",
+    "journal": "Geophysical Research Letters",
+    "volume": "27",
+    "issue": "23",
+    "page": "3881-3884",
+    "year": 2000,
+    "authors": [
+     "Collins, J. M.",
+     "Mason, I. M."
+    ],
+    "abstract_crossref": "<jats:p>Tropical cyclone formation in the NE Pacific Ocean is poorly understood. We show that by dividing the NE Pacific Ocean into two regions, east and west of 116°W, our understanding is enhanced in terms of which climatological factors are involved. We show that for the period 1972–1997, in our western region, significant relationships exist between several environmental parameters and tropical cyclone numbers on a seasonal timescale, and there is also a significant increasing trend with time. Important parameters common to all tropical cyclone indices examined include relative humidity, sea surface temperature, pressure vertical velocity and precipitable water. The potential for predictability of tropical cyclones in this region is noted.</jats:p>",
+    "abstract_openalex": "Tropical cyclone formation in the NE Pacific Ocean is poorly understood. We show that by dividing the NE Pacific Ocean into two regions, east and west of 116°W, our understanding is enhanced in terms of which climatological factors are involved. We show that for the period 1972–1997, in our western region, significant relationships exist between several environmental parameters and tropical cyclone numbers on a seasonal timescale, and there is also a significant increasing trend with time. Important parameters common to all tropical cyclone indices examined include relative humidity, sea surface temperature, pressure vertical velocity and precipitable water. The potential for predictability of tropical cyclones in this region is noted.",
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 61
+   }
+  ]
+ },
+ "wang2002": {
+  "query": "10.1175/1520-0442(2002)015<1643:HSEEAL>2.0.CO;2",
+  "error": "HTTP Error 404: Not Found",
+  "results": []
+ },
+ "emanuel1999": {
+  "query": "10.1038/43356",
+  "error": "HTTP Error 404: Not Found",
+  "results": []
+ },
+ "fujiwhara1921": {
+  "query": "10.1002/qj.49704719804",
+  "error": null,
+  "results": [
+   {
+    "doi": "10.1002/qj.49704719804",
+    "title": "An unusual pilot balloon trajectory",
+    "journal": "Quarterly Journal of the Royal Meteorological Society",
+    "volume": "47",
+    "issue": "198",
+    "page": "117-120",
+    "year": 1921,
+    "authors": [
+     "Clarke, G. Aubourne"
+    ],
+    "abstract_crossref": null,
+    "abstract_openalex": null,
+    "oa_status": "closed",
+    "oa_url": null,
+    "cited_by": 0
+   }
+  ]
+ }
+}
