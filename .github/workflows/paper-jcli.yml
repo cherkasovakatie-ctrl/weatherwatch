@@ -1,0 +1,22 @@
+name: Paper J Climate 2026 list (branch weekly-raw)
+on:
+  push:
+    branches: [weekly-raw]
+    paths: [tools/papers/jcli_trigger.txt]
+permissions:
+  contents: write
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: mkdir -p raw/papers/jcli2026; python3 -u tools/papers/jcli_2026.py > raw/papers/jcli2026/stdout.txt 2>&1 || true
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add raw/papers/jcli2026 && git commit -m "J Climate 2026 list" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase origin weekly-raw && git push origin HEAD:weekly-raw && break; sleep 15; done
