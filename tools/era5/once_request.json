@@ -1,18 +1,16 @@
 {
  "dataset": "reanalysis-era5-pressure-levels",
- "note": "2026 winds and humidity for Paper 4 (bursts) and the 2026 storm papers (shear, mid-level RH); part 1 of 2: Jan-Sep 2026",
+ "note": "2026 winds for Paper 4 (bursts, 1000 hPa) and the 2026 storm papers (200-850 hPa shear); part 1 of 2: Jan-Sep 2026. Reduced after a cost-limit rejection: no humidity, 00 and 12 UTC only.",
  "request": {
   "product_type": [
    "reanalysis"
   ],
   "variable": [
    "u_component_of_wind",
-   "v_component_of_wind",
-   "relative_humidity"
+   "v_component_of_wind"
   ],
   "pressure_level": [
    "200",
-   "600",
    "850",
    "1000"
   ],
@@ -65,9 +63,7 @@
   ],
   "time": [
    "00:00",
-   "06:00",
-   "12:00",
-   "18:00"
+   "12:00"
   ],
   "area": [
    50,
