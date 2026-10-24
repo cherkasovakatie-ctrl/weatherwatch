@@ -1,0 +1,21 @@
+name: Paper GPCP regions (branch weekly-raw)
+on:
+  push:
+    branches: [weekly-raw]
+    paths: [tools/papers/gpcp_trigger.txt]
+permissions:
+  contents: write
+jobs:
+  gpcp:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install numpy xarray netCDF4
+      - run: python3 tools/papers/gpcp_regions.py > gpcp_stdout.txt 2>&1 || true; mkdir -p raw/papers/gpcp; mv gpcp_stdout.txt raw/papers/gpcp/
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add raw && git commit -m "GPCP regional series" && git pull --rebase origin weekly-raw && git push origin HEAD:weekly-raw
