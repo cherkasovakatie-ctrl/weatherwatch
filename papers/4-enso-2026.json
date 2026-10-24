@@ -207,6 +207,13 @@
       "<span class=\"num\">+0.31</span>",
       "<span class=\"num\">+0.64</span>",
       "<span class=\"num\">+1.14</span>"
+     ],
+     [
+      "Westerly wind bursts, Jan–Sep (count)",
+      "<span class=\"num\">8 (ERA5 11)</span>",
+      "<span class=\"num\">15</span>",
+      "<span class=\"num\">13</span>",
+      "<span class=\"num\">16 (ERA5)</span>"
      ]
     ],
     "note": "Same calendar stage in each onset year. RONI and ONI are 3-month seasons labelled by their centre month (JAS = July–September). Niño-region SST from OISST v2.1; heat content from CPC (180°–100°W, 0–300 m, 1981–2010 base); WWV from NOAA PMEL; trade-wind and OLR indices from CPC (negative = weaker trades, more convection). PDO from NOAA NCEI."
@@ -215,7 +222,7 @@
   {
    "id": "growth",
    "title": "3. Growth from La Niña",
-   "html": "<p>Each of the three analogs began year 0 near neutral or warm: RONI in NDJ was −0.08 °C (1981–82), −0.29 (1996–97) and +0.62 (2014–15). 2026 began at −1.04 °C, a La Niña. It crossed zero in spring and by July–September was within 0.15 °C of 1997 (on the traditional ONI it has been above 1997 since DJF). The six-month rise of +2.45 °C is the largest of the four.</p><p>The ocean was ready earlier than the surface. Heat content rose from −0.03 °C in December 2025 to +2.24 °C by April, matching 1997 (+2.17), and the warm water volume reached +2.84 in April, close to 1997's +3.12. The recharge-oscillator framework <a href=\"#ref-jin1997\">[2]</a> <a href=\"#ref-meinen2000\">[3]</a> expects a recharged equatorial Pacific to precede El Niño; on that view the 2025–26 La Niña left the basin recharged, as 1996 did before 1997. Whether the recharge came from the La Niña itself or from something else (for example off-equatorial heat carried towards the equator, a possibility still to test) is not tested here.</p>"
+   "html": "<p>Each of the three analogs began year 0 near neutral or warm: RONI in NDJ was −0.08 °C (1981–82), −0.29 (1996–97) and +0.62 (2014–15). 2026 began at −1.04 °C, a La Niña. It crossed zero in spring and by July–September was within 0.15 °C of 1997 (on the traditional ONI it has been above 1997 since DJF). The six-month rise of +2.45 °C is the largest of the four.</p><p>The ocean was ready earlier than the surface. Heat content rose from −0.03 °C in December 2025 to +2.24 °C by April, matching 1997 (+2.17), and the warm water volume reached +2.84 in April, close to 1997's +3.12. The recharge-oscillator framework <a href=\"#ref-jin1997\">[2]</a> <a href=\"#ref-meinen2000\">[3]</a> expects a recharged equatorial Pacific to precede El Niño; on that view the 2025–26 La Niña left the basin recharged, as 1996 did before 1997. Whether the recharge came from the La Niña itself or from something else (for example off-equatorial heat carried towards the equator, a possibility still to test) is not tested here.</p><p><b>Westerly wind bursts.</b> NOAA's Reanalysis 1, used for the bursts in Papers 1–3, has no 2026 data after 17 March, so the 2026 bursts were found in ERA5 (daily means of 00 and 12 UTC, 2.5°) with the same rule: 1000 hPa anomaly ≥ 5 m s⁻¹ for ≥ 3 days over ≥ 10° of longitude, 5°S–5°N, 120°E–150°W. January–September 2026 had <b>16</b> bursts, against 15 in 1997 and 13 in 2015 in Reanalysis 1, and 8 (Reanalysis 1) or 11 (ERA5, same method as here) in 1982. The strongest, from 1 to 16 April, peaked at 13.5 m s⁻¹ near 150°E and spanned 132–172°E: stronger than any January–September burst of 1997 (11.6 m s⁻¹, in Reanalysis 1) or 2015 (12.4, in March), and it came as RONI was crossing zero. From June the monthly mean anomaly over 120°E–150°W stayed above +2 m s⁻¹ and several 'bursts' last two to five weeks: this is the El Niño's own coupled westerly response, as in late 1982, so the count from mid-year overstates the number of distinct events. Without an ERA5 baseline of its own, the anomalies use the Reanalysis 1 1979–2000 seasonal cycle plus the mean ERA5 offset estimated from 1981–82; the comparison with 1997 and 2015 mixes two reanalyses (tools/papers/wwb_era5_2026.py).</p>"
   },
   {
    "id": "flavour",
@@ -308,7 +315,7 @@
   {
    "id": "cyclones",
    "title": "8. Tropical cyclones and westerly wind bursts",
-   "html": "<p><b>Question.</b> Westerly wind bursts often occur alongside tropical cyclones, sometimes as a pair straddling the equator; the 1982–83 paper discusses such pairs. Two directions matter: the developing El Niño shifts where cyclones form, and cyclones may in turn add equatorial westerlies that force the ocean. Neither direction can be proven from positions alone; this section tests what the data allow: how often the bursts of the three analogs had a cyclone nearby, compared with chance.</p><p><b>Method.</b> Cyclone positions are from IBTrACS v04r01 (6-hourly; 2026 provisional, to 2026-10-22). A burst counts as cyclone-accompanied if a cyclone of any strength was centred 3°–20° from the equator, within 10° of longitude of the burst, from two days before the burst to its end; 'twin' means one on each side of the equator. The chance expectation slides each burst's own window and longitude span over every day of March–December of the same year. Bursts are the Reanalysis 1 lists of Papers 1–3 (March–December).</p><p><b>Result for the analogs.</b> 34 of 44 bursts had a cyclone nearby, against 29.9 expected by chance: cyclones are so common in these seasons that their presence near a burst says little on its own. Twin cyclones are different: 12 bursts had one, against 7.2 expected, with the excess in 1997 and 2015. That is consistent with twin cyclones being linked to burst-producing disturbances such as the MJO, but this count cannot say which causes which.</p><p><b>2026 so far (January–October).</b> Only 8 cyclones formed within 10° of the equator between 130°E and 160°W, against 14 in 1982, 24 in 1997 and 13 in 2015 over the same months, and twin cyclones were present on 4 days (2026-04-09 to 2026-04-12: SINLAKU north and MAILA south of the equator), against 6, 28 and 24 days. So 2026 has grown into a very strong El Niño with fewer near-equatorial cyclones in the western Pacific than any of the three analogs. Whether its westerly forcing came from bursts without cyclones, from the MJO, or from the large-scale coupled response is the question for the 2026 burst list. The very active eastern and central Pacific hurricane season and Super Typhoon Champi lie mostly outside this box and are not tested here.</p>",
+   "html": "<p><b>Question.</b> Westerly wind bursts often occur alongside tropical cyclones, sometimes as a pair straddling the equator; the 1982–83 paper discusses such pairs. Two directions matter: the developing El Niño shifts where cyclones form, and cyclones may in turn add equatorial westerlies that force the ocean. Neither direction can be proven from positions alone; this section tests what the data allow: how often the bursts of the three analogs had a cyclone nearby, compared with chance.</p><p><b>Method.</b> Cyclone positions are from IBTrACS v04r01 (6-hourly; 2026 provisional, to 2026-10-22). A burst counts as cyclone-accompanied if a cyclone of any strength was centred 3°–20° from the equator, within 10° of longitude of the burst, from two days before the burst to its end; 'twin' means one on each side of the equator. The chance expectation slides each burst's own window and longitude span over every day of March–December of the same year. Bursts are the Reanalysis 1 lists of Papers 1–3 (March–December).</p><p><b>Result for the analogs.</b> 34 of 44 bursts had a cyclone nearby, against 29.9 expected by chance: cyclones are so common in these seasons that their presence near a burst says little on its own. Twin cyclones are different: 12 bursts had one, against 7.2 expected, with the excess in 1997 and 2015. That is consistent with twin cyclones being linked to burst-producing disturbances such as the MJO, but this count cannot say which causes which.</p><p><b>2026 so far (January–October).</b> Only 8 cyclones formed within 10° of the equator between 130°E and 160°W, against 14 in 1982, 24 in 1997 and 13 in 2015 over the same months, and twin cyclones were present on 4 days (2026-04-09 to 2026-04-12: SINLAKU north and MAILA south of the equator), against 6, 28 and 24 days. So 2026 has grown into a very strong El Niño with fewer near-equatorial cyclones in the western Pacific than any of the three analogs. The ERA5 bursts of March–September 2026 answer part of this: 14 bursts, 8 with a cyclone nearby against 7.6 expected by chance, and just 1 with twin cyclones (0.7 expected): the strongest burst of the year, in early April, coincided with the only twin pair, Sinlaku and Maila. Cyclones accompanied the 2026 bursts no more often than chance, so they do not explain the event's strong westerly forcing; whether the MJO organised the bursts, and how much of the mid-year westerlies was the coupled El Niño response itself, are the next tests. The very active eastern and central Pacific hurricane season and Super Typhoon Champi lie mostly outside this box and are not tested here.</p>",
    "table": {
     "cols": [
      "Event",
@@ -344,10 +351,10 @@
       "24"
      ],
      [
-      "2026",
-      "not yet available",
-      "—",
-      "—",
+      "2026 (ERA5, Mar–Sep)",
+      "14",
+      "8 (7.6)",
+      "1 (0.7)",
       "8",
       "4"
      ]
@@ -413,7 +420,7 @@
   {
    "id": "next-steps",
    "title": "11. Next steps for the full paper",
-   "html": "<ul><li>Westerly-wind-burst counts for 2026. On the burst rule of Papers 1–3, January–September had 8 bursts in 1982, 15 in 1997 and 13 in 2015. The first 2026 run read Reanalysis 1 winds only to 17 March 2026 and the NOAA interpolated OLR used for the MJO ends in December 2022, so no 2026 count is given yet; the run needs a current-year fix and a replacement OLR source.</li><li>Then the daily MJO diagnostics for 2025–26 and TAO winds, as for Papers 2 and 3.</li><li>Test the recharge path: equatorial versus off-equatorial heat, and the role of the 2025–26 La Niña.</li><li>The negative PDO and the North Pacific marine heatwaves: amplifier, suppressor or coincidence.</li><li>Literature on 2026 as it appears; update at each CPC monthly discussion (next: November 2026).</li></ul>"
+   "html": "<ul><li>Add October 2026 to the ERA5 bursts (second ERA5 request submitted 24 October) and test the bursts against MJO phase using the NOAA daily OLR record (v02r00), now cached for 1979–2026.</li><li>Then the daily MJO diagnostics for 2025–26 and TAO winds, as for Papers 2 and 3.</li><li>Test the recharge path: equatorial versus off-equatorial heat, and the role of the 2025–26 La Niña.</li><li>The negative PDO and the North Pacific marine heatwaves: amplifier, suppressor or coincidence.</li><li>Literature on 2026 as it appears; update at each CPC monthly discussion (next: November 2026).</li></ul>"
   }
  ],
  "references": [
@@ -465,6 +472,13 @@
    "doi": "10.3390/atmos9040138",
    "url": null,
    "check": "data read and processed"
+  },
+  {
+   "key": "hersbach2020",
+   "text": "Hersbach, H., et al. (2020). The ERA5 global reanalysis. <i>Quarterly Journal of the Royal Meteorological Society</i> 146, 1999–2049. 2026 data: Copernicus Climate Change Service (C3S) Climate Data Store, ERA5 hourly data on pressure levels, u and v at 1000/850/200 hPa, January–September 2026.",
+   "doi": "10.1002/qj.3803",
+   "url": null,
+   "check": "full text read (open access); data read and processed"
   },
   {
    "key": "ibtracs",

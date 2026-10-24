@@ -876,6 +876,164 @@
  },
  "year2026": {
   "2026": {
+   "n": 14,
+   "with_tc": 8,
+   "twin": 1,
+   "expected_with_tc": 7.6,
+   "expected_twin": 0.7,
+   "window": "2026-03-01 to 2026-09-30",
+   "bursts": [
+    {
+     "start": "2026-03-17",
+     "end": "2026-03-19",
+     "lon_w": 147.5,
+     "lon_e": 165.0,
+     "nh": [],
+     "sh": [
+      "NARELLE"
+     ],
+     "twin": false
+    },
+    {
+     "start": "2026-03-27",
+     "end": "2026-03-31",
+     "lon_w": 162.5,
+     "lon_e": 180.0,
+     "nh": [],
+     "sh": [],
+     "twin": false
+    },
+    {
+     "start": "2026-04-01",
+     "end": "2026-04-16",
+     "lon_w": 132.5,
+     "lon_e": 172.5,
+     "nh": [
+      "SINLAKU"
+     ],
+     "sh": [
+      "MAILA",
+      "VAIANU"
+     ],
+     "twin": true
+    },
+    {
+     "start": "2026-05-28",
+     "end": "2026-05-30",
+     "lon_w": 167.5,
+     "lon_e": 187.5,
+     "nh": [],
+     "sh": [],
+     "twin": false
+    },
+    {
+     "start": "2026-06-02",
+     "end": "2026-06-04",
+     "lon_w": 185.0,
+     "lon_e": 195.0,
+     "nh": [],
+     "sh": [],
+     "twin": false
+    },
+    {
+     "start": "2026-06-07",
+     "end": "2026-06-18",
+     "lon_w": 155.0,
+     "lon_e": 192.5,
+     "nh": [
+      "MEKKHALA"
+     ],
+     "sh": [],
+     "twin": false
+    },
+    {
+     "start": "2026-06-22",
+     "end": "2026-06-26",
+     "lon_w": 167.5,
+     "lon_e": 182.5,
+     "nh": [],
+     "sh": [],
+     "twin": false
+    },
+    {
+     "start": "2026-06-27",
+     "end": "2026-07-06",
+     "lon_w": 135.0,
+     "lon_e": 170.0,
+     "nh": [
+      "BAVI",
+      "HIGOS"
+     ],
+     "sh": [],
+     "twin": false
+    },
+    {
+     "start": "2026-06-29",
+     "end": "2026-07-09",
+     "lon_w": 172.5,
+     "lon_e": 197.5,
+     "nh": [
+      "BAVI"
+     ],
+     "sh": [],
+     "twin": false
+    },
+    {
+     "start": "2026-07-11",
+     "end": "2026-07-15",
+     "lon_w": 180.0,
+     "lon_e": 210.0,
+     "nh": [],
+     "sh": [],
+     "twin": false
+    },
+    {
+     "start": "2026-07-19",
+     "end": "2026-07-31",
+     "lon_w": 157.5,
+     "lon_e": 207.5,
+     "nh": [
+      "DOLPHIN"
+     ],
+     "sh": [],
+     "twin": false
+    },
+    {
+     "start": "2026-08-11",
+     "end": "2026-08-24",
+     "lon_w": 155.0,
+     "lon_e": 195.0,
+     "nh": [
+      "MOKE",
+      "SAUDEL"
+     ],
+     "sh": [],
+     "twin": false
+    },
+    {
+     "start": "2026-08-25",
+     "end": "2026-09-27",
+     "lon_w": 150.0,
+     "lon_e": 210.0,
+     "nh": [
+      "BANG-LANG",
+      "DUJUAN",
+      "LOWELL",
+      "MOKE"
+     ],
+     "sh": [],
+     "twin": false
+    },
+    {
+     "start": "2026-09-28",
+     "end": "2026-09-30",
+     "lon_w": 165.0,
+     "lon_e": 180.0,
+     "nh": [],
+     "sh": [],
+     "twin": false
+    }
+   ],
    "lowlat_genesis_jan_oct": 8,
    "lowlat_genesis_list": [
     [

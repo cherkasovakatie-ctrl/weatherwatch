@@ -1,0 +1,151 @@
+{
+ "method": [
+  "No ERA5 1979-2000 baseline is held, so the climatology is the one implied by ERA5 1981-82 and the R1 anomalies of 1981-82",
+  "(d = u_ERA5 - anom_R1, fitted per longitude with a mean and three annual harmonics; see wwb_era5_1982_direct.py); this is the",
+  "R1 1979-2000 seasonal cycle plus the mean ERA5-R1 offset. 2026 anomaly = u_ERA5(2026) - fit(d) at the same day of year.",
+  "Writes data/papers/2026/era5_wwb_2026.json. Run: python3 tools/papers/wwb_era5_2026.py"
+ ],
+ "data_end": "2026-09-30",
+ "n_2026": 16,
+ "bursts": [
+  {
+   "start": "2026-01-05",
+   "end": "2026-01-08",
+   "lon_w": 160.0,
+   "lon_e": 172.5,
+   "peak_lon": 165.0,
+   "peak_anom": 6.8
+  },
+  {
+   "start": "2026-01-24",
+   "end": "2026-01-26",
+   "lon_w": 167.5,
+   "lon_e": 187.5,
+   "peak_lon": 185.0,
+   "peak_anom": 7.1
+  },
+  {
+   "start": "2026-03-17",
+   "end": "2026-03-19",
+   "lon_w": 147.5,
+   "lon_e": 165.0,
+   "peak_lon": 157.5,
+   "peak_anom": 6.8
+  },
+  {
+   "start": "2026-03-27",
+   "end": "2026-03-31",
+   "lon_w": 162.5,
+   "lon_e": 180.0,
+   "peak_lon": 167.5,
+   "peak_anom": 8.3
+  },
+  {
+   "start": "2026-04-01",
+   "end": "2026-04-16",
+   "lon_w": 132.5,
+   "lon_e": 172.5,
+   "peak_lon": 150.0,
+   "peak_anom": 13.5
+  },
+  {
+   "start": "2026-05-28",
+   "end": "2026-05-30",
+   "lon_w": 167.5,
+   "lon_e": 187.5,
+   "peak_lon": 180.0,
+   "peak_anom": 7.4
+  },
+  {
+   "start": "2026-06-02",
+   "end": "2026-06-04",
+   "lon_w": 185.0,
+   "lon_e": 195.0,
+   "peak_lon": 195.0,
+   "peak_anom": 6.6
+  },
+  {
+   "start": "2026-06-07",
+   "end": "2026-06-18",
+   "lon_w": 155.0,
+   "lon_e": 192.5,
+   "peak_lon": 167.5,
+   "peak_anom": 8.8
+  },
+  {
+   "start": "2026-06-22",
+   "end": "2026-06-26",
+   "lon_w": 167.5,
+   "lon_e": 182.5,
+   "peak_lon": 180.0,
+   "peak_anom": 7.6
+  },
+  {
+   "start": "2026-06-27",
+   "end": "2026-07-06",
+   "lon_w": 135.0,
+   "lon_e": 170.0,
+   "peak_lon": 165.0,
+   "peak_anom": 8.2
+  },
+  {
+   "start": "2026-06-29",
+   "end": "2026-07-09",
+   "lon_w": 172.5,
+   "lon_e": 197.5,
+   "peak_lon": 187.5,
+   "peak_anom": 8.3
+  },
+  {
+   "start": "2026-07-11",
+   "end": "2026-07-15",
+   "lon_w": 180.0,
+   "lon_e": 210.0,
+   "peak_lon": 187.5,
+   "peak_anom": 8.4
+  },
+  {
+   "start": "2026-07-19",
+   "end": "2026-07-31",
+   "lon_w": 157.5,
+   "lon_e": 207.5,
+   "peak_lon": 172.5,
+   "peak_anom": 9.9
+  },
+  {
+   "start": "2026-08-11",
+   "end": "2026-08-24",
+   "lon_w": 155.0,
+   "lon_e": 195.0,
+   "peak_lon": 165.0,
+   "peak_anom": 10.7
+  },
+  {
+   "start": "2026-08-25",
+   "end": "2026-09-27",
+   "lon_w": 150.0,
+   "lon_e": 210.0,
+   "peak_lon": 177.5,
+   "peak_anom": 9.5
+  },
+  {
+   "start": "2026-09-28",
+   "end": "2026-09-30",
+   "lon_w": 165.0,
+   "lon_e": 180.0,
+   "peak_lon": 170.0,
+   "peak_anom": 8.0
+  }
+ ],
+ "mean_anom_120E_150W_by_month": {
+  "2026-01": 0.61,
+  "2026-02": -0.57,
+  "2026-03": 0.97,
+  "2026-04": 0.9,
+  "2026-05": 1.18,
+  "2026-06": 2.42,
+  "2026-07": 2.92,
+  "2026-08": 2.47,
+  "2026-09": 3.0
+ }
+}

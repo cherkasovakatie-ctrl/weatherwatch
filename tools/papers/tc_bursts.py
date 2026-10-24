@@ -68,6 +68,22 @@ for y in (1982, 1997, 2015):
     out['events'][y] = dict(n=len(res), with_tc=sum(bool(r['nh'] or r['sh']) for r in res), twin=sum(r['twin'] for r in res),
                             base_any_pct=br[0], base_twin_pct=br[1], expected_with_tc=round(sum(probs), 1), expected_twin=round(sum(tprobs), 1), bursts=res)
 
+# 2026: ERA5 burst list (tools/papers/wwb_era5_2026.py), March to the end of the ERA5 data; chance windows slid over the same months
+E26 = json.load(open(ROOT / 'data/papers/2026/era5_wwb_2026.json')); END26 = dt.date.fromisoformat(E26['data_end'])
+W = [w for w in E26['bursts'] if w['start'][5:7] >= '03']
+res, probs, tprobs = [], [], []
+for w in W:
+    NH, SH, twin = burst_test(w)
+    res.append(dict(start=w['start'], end=w['end'], lon_w=w['lon_w'], lon_e=w['lon_e'], nh=sorted(n for _, n in NH), sh=sorted(n for _, n in SH), twin=twin))
+    L = (dt.date.fromisoformat(w['end']) - dt.date.fromisoformat(w['start'])).days + 3
+    hits = tot = th = 0; st = dt.date(2026, 3, 1)
+    while st + dt.timedelta(L) <= END26:
+        nn = [near(st + dt.timedelta(k), w['lon_w'], w['lon_e']) for k in range(L)]
+        hits += any(a or b for a, b in nn); th += any(a and b for a, b in nn); tot += 1; st += dt.timedelta(1)
+    probs.append(hits / tot); tprobs.append(th / tot)
+out['year2026'][2026] = dict(n=len(res), with_tc=sum(bool(r['nh'] or r['sh']) for r in res), twin=sum(r['twin'] for r in res),
+                             expected_with_tc=round(sum(probs), 1), expected_twin=round(sum(tprobs), 1), window=f'2026-03-01 to {END26}', bursts=res)
+
 
 def lowlat_genesis(y, m1=10):
     g = [(d, la, lo, n, b) for sid, (d, la, lo, n, b) in first.items() if d.year == y and d.month <= m1 and abs(la) <= 10 and 130 <= lo <= 200]
