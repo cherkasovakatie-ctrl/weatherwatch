@@ -15,7 +15,7 @@ for k, f in FILES.items():
     urllib.request.urlretrieve(PSL + f, dst); log.append(f'{k} {f} {os.path.getsize(dst)} bytes')
 ds = {k: xr.open_dataset(f'/tmp/{k}.nc') for k in FILES}
 for k, d in ds.items():
-    log.append(f'{k}: time {str(d.time.values[0])[:10]} to {str(d.time.values[-1])[:10]} ({d.time.size} days)')
+    log.append(f'{k}: time {str(d.time.values[0])[:10]} to {str(d.time.values[-1])[:10]} ({d.time.size} days)'); print(log[-1], flush=True)
 U850, U200 = ds['u']['uwnd'].sel(level=850), ds['u']['uwnd'].sel(level=200)
 V850, V200 = ds['v']['vwnd'].sel(level=850), ds['v']['vwnd'].sel(level=200)
 RH600 = ds['rh']['rhum'].sel(level=600)
@@ -61,7 +61,7 @@ for r in rows:
     u = amean(U200, day, m) - amean(U850, day, m); v = amean(V200, day, m) - amean(V850, day, m)
     pre, post = day - dt.timedelta(3), day + dt.timedelta(3)
     out.append([r['sid'], r['name'], r['basin'], r['time'], lat, round(lon, 2), r['wind_kt'], r['pres_mb'],
-                round(math.hypot(u, v) * 1.944, 1), round(math.degrees(math.atan2(-u, -v)) % 360), round(amean(RH600, day, m), 1),
+                round(math.hypot(u, v) * 1.944, 1), (round(math.degrees(math.atan2(-u, -v)) % 360) if u == u and v == v else ''), round(amean(RH600, day, m), 1),
                 round(sst_at('sst', pre, lat, lon), 2), round(sst_at('ssta', pre, lat, lon), 2),
                 round(sst_at('sst', post, lat, lon) - sst_at('sst', pre, lat, lon), 2), r['dist2land_km'], r['landfall_km']])
 with open(f'{OUT}/env_2026.csv', 'w', newline='') as fh:
