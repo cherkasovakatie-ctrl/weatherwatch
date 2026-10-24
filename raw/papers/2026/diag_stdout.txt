@@ -1,5 +1,5 @@
 Traceback (most recent call last):
-  File "/home/runner/work/weatherwatch/weatherwatch/tools/papers/event_diag.py", line 75, in <module>
+  File "/home/runner/work/weatherwatch/weatherwatch/tools/papers/event_diag.py", line 77, in <module>
     U = list(ex.map(get_u, years)); O = list(ex.map(get_olr, years))
                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/concurrent/futures/_base.py", line 619, in result_iterator
@@ -16,7 +16,7 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/concurrent/futures/thread.py", line 59, in run
     result = self.fn(*self.args, **self.kwargs)
              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/weatherwatch/weatherwatch/tools/papers/event_diag.py", line 69, in get_olr
+  File "/home/runner/work/weatherwatch/weatherwatch/tools/papers/event_diag.py", line 71, in get_olr
     a = parse(fetch(OLR.format(a=ix[0], b=ix[-1])), (len(ix), 9, 144))
                                  ~~^^^
 IndexError: index 0 is out of bounds for axis 0 with size 0
