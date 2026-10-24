@@ -170,6 +170,8 @@ paper = {"number": 3, "file": "enso-2015-16.html", "short": "2015–16 El Niño"
          "toc": [("abstract", "Abstract"), ("findings", "Main findings"), ("intro", "1. Introduction"), ("methods", "2. Data and methods"), ("preconditions", "3. Pre-event conditions and 2014"), ("chronology", "4. Development, 2015"), ("termination", "5. Termination"), ("interactions", "6. Interactions"), ("synthesis", "7. Causal synthesis"), ("knowable", "8. What was forecast"), ("uncertainty", "9. Uncertainties"), ("conclusion", "10. Conclusion"), ("scope", "Evidence: scope and data"), ("data", "Monthly indices"), ("timeline", "Timeline"), ("evidence", "Evidence table"), ("verification", "Verification log"), ("references", "References")],
          "sections": build_prose(c, d) + sections, "post_sections": post, "timeline": timeline, "evidence": evidence,
          "references": [{"key": k, "text": t, "doi": d, "url": u, "check": ch} for k, t, d, u, ch in refs]}
+from rain_common import add_rain  # noqa: E402
+add_rain(paper, 2015)
 with open(ROOT / 'papers' / '3-enso-2015-16.json', 'w', encoding='utf-8') as fh:
     json.dump(paper, fh, ensure_ascii=False, indent=1)
 print('ok', len(timeline), len(evidence), len(refs))

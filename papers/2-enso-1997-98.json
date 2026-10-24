@@ -83,6 +83,10 @@
    "MJO contribution"
   ],
   [
+   "rainfall",
+   "Rainfall and tropospheric temperature"
+  ],
+  [
    "verification",
    "Verification log"
   ],
@@ -1028,6 +1032,61 @@
    "html": "<p><b>Answer.</b> Strong evidence that the MJO set the timing and much of the amplitude of the onset bursts, through Kelvin waves an order of magnitude larger than boundary reflections <a href=\"#ref-mcphadenyu1999\">[16]</a> <a href=\"#ref-bergman2001\">[29]</a>; but the MJO was not sufficient on its own — an active MJO in early 1996 produced no El Niño, and the bursts that mattered were intensified locally by cold surges and twin circulations <a href=\"#ref-yurienecker1998\">[23]</a>. Bergman et al. conclude that the MJO is relevant to the timing and initial growth of El Niño rather than responsible for the event itself <a href=\"#ref-bergman2001\">[29]</a>. One intermediate coupled model initialised on 1 January 1997 becomes about 50% stronger when rectified MJO winds are included <a href=\"#ref-kesslerkleeman2000\">[30]</a>. Statistically, MJO events warm the waveguide only when they contain a westerly wind event <a href=\"#ref-chiodi2014\">[35]</a>.</p><p><b>Compared with 1982.</b> The 1996–97 season had 137 days with the circulation-weighted index at or above 1 against 77 in 1981–82, and the bursts in calendar 1997 outnumber those of 1982 (16 vs 13) on identical definitions <a href=\"#ref-r1diag\">[10]</a>. In the mature phase (Oct 1997 – Mar 1998) intraseasonal OLR variance over 60°E–150°E fell to 77.8 W² m⁻⁴ (22-season mean 233), consistent with the weak eastward MJO propagation reported for the mature stage <a href=\"#ref-li2023\">[41]</a>.</p>"
   },
   {
+   "id": "rainfall",
+   "title": "Rainfall and tropospheric temperature (GPCP, NOAA STAR)",
+   "html": "<p>Rainfall in the usual El Niño impact regions, from GPCP v2.3 against 1991–2020. In 1997–98, 7 of the 8 regions had the usual El Niño sign. The most extreme seasons (top three since 1979) were: Central equatorial Pacific (SON, 394% of normal, 1st wettest); Coastal Peru and Ecuador (Dec–Apr, 269% of normal, 1st wettest); Indonesia (Jul–Oct, 50% of normal, 2nd driest); Equatorial East Africa (Oct–Dec, 349% of normal, 1st wettest); California (Nov–Mar, 180% of normal, 2nd wettest). The same comparison across all four events is in Paper 4.</p><p>The tropical lower troposphere (NOAA STAR TLT, 20°S–20°N) warmed to +1.12 °C above 1991–2020 by Feb 1998, the usual lag of a few months behind the sea surface.</p>",
+   "table": {
+    "cols": [
+     "Region (season)",
+     "Usual El Niño signal",
+     "1997–98"
+    ],
+    "rows": [
+     [
+      "Central equatorial Pacific (5°S–5°N, 170°E–140°W) (SON)",
+      "wetter",
+      "394%<br><span class=\"note\">1st wettest of 47</span>"
+     ],
+     [
+      "Coastal Peru and Ecuador (12.5°S–2.5°N, 85°–77.5°W) (Dec–Apr)",
+      "wetter",
+      "269%<br><span class=\"note\">1st wettest of 47</span>"
+     ],
+     [
+      "Indonesia (10°S–5°N, 95°–145°E) (Jul–Oct)",
+      "drier",
+      "50%<br><span class=\"note\">2nd driest of 47</span>"
+     ],
+     [
+      "Eastern Australia (40°–10°S, 140°–155°E) (Jun–Nov)",
+      "drier",
+      "77%<br><span class=\"note\">8th driest of 47</span>"
+     ],
+     [
+      "India (8°–30°N, 70°–90°E) (Jun–Sep)",
+      "drier",
+      "101%<br><span class=\"note\">28th driest of 47</span>"
+     ],
+     [
+      "Equatorial East Africa (5°S–5°N, 35°–50°E) (Oct–Dec)",
+      "wetter",
+      "349%<br><span class=\"note\">1st wettest of 47</span>"
+     ],
+     [
+      "Southern Africa (35°–15°S, 15°–40°E) (Dec–Mar)",
+      "drier",
+      "94%<br><span class=\"note\">22nd driest of 47</span>"
+     ],
+     [
+      "California (32.5°–42.5°N, 125°–115°W) (Nov–Mar)",
+      "wetter",
+      "180%<br><span class=\"note\">2nd wettest of 47</span>"
+     ]
+    ],
+    "note": "GPCP v2.3 monthly precipitation (NOAA PSL), box means over land and ocean on the 2.5° grid; percentage of the 1991–2020 mean for the same months; rank among the 47 seasons 1979–2025 (wettest for regions that usually turn wet in El Niño, driest for those that usually turn dry). Data to Jun 2026. Seasons are the usual El Niño impact seasons, counted from the onset year (Dec–Apr = December of the onset year to April of the next)."
+   }
+  },
+  {
    "id": "verification",
    "title": "Stage 5 verification log (23 October 2026)",
    "html": "<p><b>Data.</b> Every number in the text that comes from the monthly table, the TAO analysis or the reanalysis and MJO diagnostics was recomputed from the source files by <code>tools/papers/verify_1997.py</code>: 75 checks, all passing after the correction below. Diagnostic values in the text are inserted by the build script from <code>data/papers/1997/diag_1997.json</code>, not typed by hand.</p><p><b>Literature.</b> Claims were re-read against the full texts held in the private library: McPhaden (1999), McPhaden and Yu (1999), Yu and Rienecker (1998), van Oldenborgh (preprint of 2000), Lengaigne et al. (2003), Bergman et al. (2001), Webster et al. (1999), Ueda and Matsumoto (2000), Zhu et al. (2003), Barnston et al. (1999, NCEP), Landsea and Knaff (2000), Kessler and Kleeman (2000), Vecchi and Harrison (2006), Vecchi (2006), Kutsuwada and McPhaden (2002) and Picaut et al. (2002). All other claims rest on the abstracts recorded in the reference list. <b>Not read beyond the bibliographic record:</b> Saji et al. (1999), Takayabu et al. (1999), Boulanger and Menkes (1999), Ham et al. (2013), McPhaden and Zhang (2002); each is cited only for what its title or a held paper states.</p><p><b>Corrections made.</b></p><ul><li>Start of the La Niña phase: “−0.41 (JAS 1995)” → −0.41 (JJA 1995); JAS 1995 was −0.57.</li><li>Eastern Indian Ocean cooling: “below −2 °C in Nov 1997” → an anomaly of about 2 °C at its November maximum (the sign is garbled in the extracted text of Webster et al.; magnitude kept, wording neutral).</li></ul><p><b>Checked and unchanged.</b> The adjoint numbers (0.6, 0.3, 0.5 and 0.4 °C; 40%/50%; 30%/90%) match the preprint and the journal abstract; the 8 °C in 30 days at 0°, 125°W, the June–December monthly records and the >90 m thermocline depression match McPhaden (1999); the 15–20 cm against about 2 cm Kelvin-wave amplitudes match McPhaden and Yu (1999); the forecast statements match Barnston et al. (1999, both papers) and Landsea and Knaff (2000).</p><p><b>Grades.</b> No evidence grade was changed in this pass. <b>Open items:</b> island sea-level records (UHSLC server unreachable from the automated fetch); an ERA5 re-test of the burst list, as for 1982.</p>"
@@ -1806,6 +1865,13 @@
    "doi": "10.1038/nclimate2100",
    "url": null,
    "check": "bibliographic record"
+  },
+  {
+   "key": "gpcp",
+   "text": "GPCP v2.3 monthly precipitation (Adler et al. 2018, <i>Atmosphere</i> 9, 138), via NOAA PSL; NOAA STAR MSU/AMSU-A/ATMS Mean Layer Temperature CDR v5 (TLT, TMT), via NOAA NCEI. Regional means computed with tools/papers/gpcp_regions.py (outputs in data/papers/climate/).",
+   "doi": "10.3390/atmos9040138",
+   "url": null,
+   "check": "data read and processed"
   }
  ]
 }

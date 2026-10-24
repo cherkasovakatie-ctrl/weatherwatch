@@ -75,6 +75,10 @@
    "Evidence table"
   ],
   [
+   "rainfall",
+   "Rainfall and tropospheric temperature"
+  ],
+  [
    "verification",
    "Verification log"
   ],
@@ -937,6 +941,61 @@
  ],
  "post_sections": [
   {
+   "id": "rainfall",
+   "title": "Rainfall and tropospheric temperature (GPCP, NOAA STAR)",
+   "html": "<p>Rainfall in the usual El Niño impact regions, from GPCP v2.3 against 1991–2020. In 2015–16, 6 of the 8 regions had the usual El Niño sign. The most extreme seasons (top three since 1979) were: Central equatorial Pacific (SON, 317% of normal, 3rd wettest); Indonesia (Jul–Oct, 45% of normal, 1st driest). The same comparison across all four events is in Paper 4.</p><p>The tropical lower troposphere (NOAA STAR TLT, 20°S–20°N) warmed to +0.99 °C above 1991–2020 by Mar 2016, the usual lag of a few months behind the sea surface.</p>",
+   "table": {
+    "cols": [
+     "Region (season)",
+     "Usual El Niño signal",
+     "2015–16"
+    ],
+    "rows": [
+     [
+      "Central equatorial Pacific (5°S–5°N, 170°E–140°W) (SON)",
+      "wetter",
+      "317%<br><span class=\"note\">3rd wettest of 47</span>"
+     ],
+     [
+      "Coastal Peru and Ecuador (12.5°S–2.5°N, 85°–77.5°W) (Dec–Apr)",
+      "wetter",
+      "91%<br><span class=\"note\">25th wettest of 47</span>"
+     ],
+     [
+      "Indonesia (10°S–5°N, 95°–145°E) (Jul–Oct)",
+      "drier",
+      "45%<br><span class=\"note\">1st driest of 47</span>"
+     ],
+     [
+      "Eastern Australia (40°–10°S, 140°–155°E) (Jun–Nov)",
+      "drier",
+      "75%<br><span class=\"note\">7th driest of 47</span>"
+     ],
+     [
+      "India (8°–30°N, 70°–90°E) (Jun–Sep)",
+      "drier",
+      "94%<br><span class=\"note\">12th driest of 47</span>"
+     ],
+     [
+      "Equatorial East Africa (5°S–5°N, 35°–50°E) (Oct–Dec)",
+      "wetter",
+      "107%<br><span class=\"note\">14th wettest of 47</span>"
+     ],
+     [
+      "Southern Africa (35°–15°S, 15°–40°E) (Dec–Mar)",
+      "drier",
+      "73%<br><span class=\"note\">4th driest of 47</span>"
+     ],
+     [
+      "California (32.5°–42.5°N, 125°–115°W) (Nov–Mar)",
+      "wetter",
+      "96%<br><span class=\"note\">22nd wettest of 47</span>"
+     ]
+    ],
+    "note": "GPCP v2.3 monthly precipitation (NOAA PSL), box means over land and ocean on the 2.5° grid; percentage of the 1991–2020 mean for the same months; rank among the 47 seasons 1979–2025 (wettest for regions that usually turn wet in El Niño, driest for those that usually turn dry). Data to Jun 2026. Seasons are the usual El Niño impact seasons, counted from the onset year (Dec–Apr = December of the onset year to April of the next)."
+   }
+  },
+  {
    "id": "verification",
    "title": "Stage 5 verification log (24 October 2026)",
    "html": "<p><b>Data.</b> Every number in the text taken from the monthly table, the TAO analysis or the reanalysis and MJO diagnostics was recomputed from the source files by <code>tools/papers/verify_2015.py</code>: 48 checks, all passing. Diagnostic values are inserted by the build script from <code>data/papers/2015/diag_2015.json</code>, not typed by hand; the 1997 burst count from the extended run (16) matches Paper 2.</p><p><b>Literature.</b> No full texts are held for this paper yet; every literature claim was checked against the published abstract recorded in the reference list. Studies listed as bibliographic records only are cited for nothing beyond their titles.</p><p><b>Corrections made while drafting.</b> TAO data return is stated as a range per period rather than a single recovery figure; the October 2015 – March 2016 intraseasonal OLR variance is 'nearly twice' (ratio 1.83) rather than 'about twice' that of 1996–97; 16 uncited candidate references were removed from the list.</p><p><b>Open items.</b> Full texts of Xue and Kumar (2017), Tseng et al. (2017), Gasparin and Roemmich (2016) and Lim and Hendon (2017) would allow numbers beyond the abstracts to be checked; island sea-level records could not be retrieved.</p>"
@@ -1418,6 +1477,13 @@
    "doi": "10.3389/fmars.2019.00031",
    "url": null,
    "check": "abstract read"
+  },
+  {
+   "key": "gpcp",
+   "text": "GPCP v2.3 monthly precipitation (Adler et al. 2018, <i>Atmosphere</i> 9, 138), via NOAA PSL; NOAA STAR MSU/AMSU-A/ATMS Mean Layer Temperature CDR v5 (TLT, TMT), via NOAA NCEI. Regional means computed with tools/papers/gpcp_regions.py (outputs in data/papers/climate/).",
+   "doi": "10.3390/atmos9040138",
+   "url": null,
+   "check": "data read and processed"
   }
  ]
 }

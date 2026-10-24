@@ -281,6 +281,8 @@ paper = {"number": 1, "file": "enso-1982-83.html", "short": "1982–83 El Niño"
 paper["sections"] = build_prose(c) + sections[:2]
 paper["after"] = sections[2]
 paper["post_sections"] = post
+from rain_common import add_rain  # noqa: E402
+add_rain(paper, 1982)
 with open(ROOT / 'papers' / '1-enso-1982-83.json', 'w', encoding='utf-8') as fh:
     json.dump(paper, fh, ensure_ascii=False, indent=1)
 print('ok', len(timeline), len(evidence), len(refs))

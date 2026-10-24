@@ -173,18 +173,29 @@ S.append({"id": "background", "title": "6. A different background", "html": (
     "RONI removes the tropical-mean warming so that events from different decades can be compared <a href=\"#ref-lheureux2024\">[1]</a>; on RONI, 2026 is very strong but not yet the strongest.</p>"
     f"<p><b>Indian and Atlantic Oceans.</b> The IOD index (CPC) rose to {g('Aug', 'dmi')} in August, similar to 1997 ({f(a('Aug', 'dmi', 1997))}) and 1982 ({f(a('Aug', 'dmi', 1982))}); in 1997 it went on to {f(a('Nov', 'dmi', 1997))} in November <a href=\"#ref-saji1999\">[6]</a>. "
     f"The tropical North Atlantic is warm ({g('Sep', 'tna')} °C), unlike 1982 and 1997, which were cool.</p>")})
-S.append({"id": "next", "title": "7. What happened next in the analogs", "html": (
+import rain_common as RC  # noqa: E402
+_rc, _rr = RC.table_all()
+_tl = RC.tlt_rows([1982, 1997, 2015])
+_tk = max(k for k in RC.TLT_T if k.startswith('2026')); _rec = max(RC.TLT_T.items(), key=lambda kv: kv[1])
+S.append({"id": "rain", "title": "7. Rainfall and tropospheric temperature in the analogs", "html": (
+    "<p><b>Rainfall.</b> The table shows each analog's rainfall in the usual El Niño impact regions and seasons (GPCP v2.3). The two east-based events, 1982–83 and 1997–98, brought extreme rain to coastal Peru and Ecuador and to California; "
+    "2015–16, centred further west, brought neither, while Indonesia's dry season was the driest of all in 2015. Equatorial East Africa's short rains were the wettest since 1979 in 1997, the year of the strong positive Indian Ocean Dipole. "
+    f"For 2026 the impact seasons have not yet been reached in the data, which end in {RC.mlab(RC.GLAST)}. Because 2026 is east-based, the 1982–83 and 1997–98 columns are the closer guide to what the coastal regions may see; that is an inference from two events, not a forecast.</p>"
+    f"<p><b>Tropospheric temperature.</b> The tropical lower troposphere (NOAA STAR TLT, 20°S–20°N, against 1991–2020) peaked {_tl[0][1]} after 1982–83, {_tl[1][1]} after 1997–98 and {_tl[2][1]} after 2015–16, two to three months after the RONI peak. "
+    f"In 2026 it was already {RC.TLT_T[_tk]:+.2f} °C in {RC.mlab(_tk)}, before the expected peak of the event; the record is {_rec[1]:+.2f} °C ({RC.mlab(_rec[0])}), after the 2023–24 El Niño.</p>"),
+    "table": {"cols": _rc, "rows": _rr, "note": RC.NOTE.format(n=47)}})
+S.append({"id": "next", "title": "8. What happened next in the analogs", "html": (
     "<p>The table below records what followed the September stage in each analog. It is a description of three past events, not a forecast for 2026.</p>"),
     "table": {"cols": ["Event", "RONI peak (season, °C)", "ONI peak (°C)", "RONI rise, JAS to peak (°C)", "Heat content peak", "WWV first negative", "RONI below +0.5", "RONI JJA, year +1"],
               "rows": nxt_rows, "note": "From the same files as section 2."}})
-S.append({"id": "outlook", "title": "8. Forecasts and an analog scenario", "html": (
+S.append({"id": "outlook", "title": "9. Forecasts and an analog scenario", "html": (
     f"<p><b>Forecasts (official, not observations).</b> The CPC outlook of {cpc_issue} gives a {p_vs.get('OND', '—')}% chance of very strong El Niño (RONI ≥ +2.0 °C) for October–December, {p_vs.get('NDJ', '—')}% for November–January and {p_vs.get('DJF', '—')}% for December–February. "
     f"The IRI multi-model plume of October has an all-model average of +{ond.get('combined_avg', '—')} °C for OND on the traditional Niño 3.4 index (range +{ond.get('model_min', '—')} to +{ond.get('model_max', '—')} °C, {ond.get('model_n', '—')} models). "
     "The site's ENSO outlook card shows both in full.</p>"
     f"<p><b>Analog scenario (speculation, labelled as such).</b> If 2026 added the same amount after JAS as the analogs did ({f(lo_inc, 2, False)}–{f(hi_inc, 2, False)} °C), its RONI peak would be {f(jas26 + lo_inc)} to {f(jas26 + hi_inc)} °C, most likely in November–January. "
     "The upper end would exceed every event since 1950 on RONI. Two features argue for the upper half: heat content was still rising in September, whereas in 1982 and 1997 it peaked in October, and the warm water volume had only begun to fall. "
     f"One point is unresolved: in all three analogs RONI peaked within a month of the warm water volume turning negative. In 2026 it is still {g('Sep', 'wwv')} (September), so on that analog the peak is some months away, or the relationship will not hold this time. This simple arithmetic ignores the different background state and has no skill estimate.</p>")})
-S.append({"id": "next-steps", "title": "9. Next steps for the full paper", "html": (
+S.append({"id": "next-steps", "title": "10. Next steps for the full paper", "html": (
     "<ul><li>Westerly-wind-burst counts for 2026. On the burst rule of Papers 1–3, January–September had 8 bursts in 1982, 15 in 1997 and 13 in 2015. The first 2026 run read Reanalysis 1 winds only to 17 March 2026 and the NOAA interpolated OLR used for the MJO ends in December 2022, so no 2026 count is given yet; the run needs a current-year fix and a replacement OLR source.</li><li>Then the daily MJO diagnostics for 2025–26 and TAO winds, as for Papers 2 and 3.</li>"
     "<li>Test the recharge path: equatorial versus off-equatorial heat, and the role of the 2025–26 La Niña.</li>"
     "<li>The negative PDO and the North Pacific marine heatwaves: amplifier, suppressor or coincidence.</li>"
@@ -197,6 +208,7 @@ refs = [
     ("takahashi2011", "Takahashi, K., A. Montecinos, K. Goubanova and B. Dewitte (2011). ENSO regimes: Reinterpreting the canonical and Modoki El Niño. <i>Geophysical Research Letters</i> 38, L10704.", "10.1029/2011GL047364", None, "bibliographic record"),
     ("capotondi2015", "Capotondi, A., et al. (2015). Understanding ENSO diversity. <i>Bulletin of the American Meteorological Society</i> 96, 921–938.", "10.1175/BAMS-D-13-00117.1", None, "abstract read"),
     ("saji1999", "Saji, N. H., B. N. Goswami, P. N. Vinayachandran and T. Yamagata (1999). A dipole mode in the tropical Indian Ocean. <i>Nature</i> 401, 360–363.", "10.1038/43854", None, "bibliographic record"),
+    (RC.REF["key"], RC.REF["text"], RC.REF["doi"], RC.REF["url"], RC.REF["check"]),
     ("cpc", "NOAA Climate Prediction Center: RONI and ONI, OISST v2.1 monthly and weekly Niño indices (traditional and relative), SOI, 850 hPa trade-wind and OLR indices, upper-300 m heat content, IOD (DMI), tropical Atlantic SST; ENSO Diagnostic Discussion and strength-probability table. NOAA PMEL warm water volume. NOAA NCEI PDO. Site copies in the data archive.", None, "https://www.cpc.ncep.noaa.gov/data/indices/", "data read"),
     ("iri", "IRI/CCSR: ENSO forecast, October 2026 multi-model Niño 3.4 plume (as read for the site's outlook card).", None, "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/", "data read"),
 ]

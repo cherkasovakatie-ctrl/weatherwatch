@@ -95,6 +95,10 @@
    "Citation audit"
   ],
   [
+   "rainfall",
+   "Rainfall and tropospheric temperature"
+  ],
+  [
    "verification",
    "Verification log"
   ],
@@ -1458,6 +1462,13 @@
    "doi": null,
    "url": "https://www.cpc.ncep.noaa.gov/data/indices/",
    "check": "data read"
+  },
+  {
+   "key": "gpcp",
+   "text": "GPCP v2.3 monthly precipitation (Adler et al. 2018, <i>Atmosphere</i> 9, 138), via NOAA PSL; NOAA STAR MSU/AMSU-A/ATMS Mean Layer Temperature CDR v5 (TLT, TMT), via NOAA NCEI. Regional means computed with tools/papers/gpcp_regions.py (outputs in data/papers/climate/).",
+   "doi": "10.3390/atmos9040138",
+   "url": null,
+   "check": "data read and processed"
   }
  ],
  "after": {
@@ -1795,6 +1806,61 @@
      ]
     ],
     "note": "No detailed finding is inferred from a title or from another author's citation. Where only a later paper's account was available (Robock et al. 1995; Sadler 1983; Harrison and Giese 1991), the later paper is cited and the evidence is marked indirect."
+   }
+  },
+  {
+   "id": "rainfall",
+   "title": "Rainfall and tropospheric temperature (GPCP, NOAA STAR)",
+   "html": "<p>Rainfall in the usual El Niño impact regions, from GPCP v2.3 against 1991–2020. In 1982–83, 8 of the 8 regions had the usual El Niño sign. The most extreme seasons (top three since 1979) were: Central equatorial Pacific (SON, 344% of normal, 2nd wettest); Coastal Peru and Ecuador (Dec–Apr, 235% of normal, 2nd wettest); Indonesia (Jul–Oct, 54% of normal, 3rd driest); Eastern Australia (Jun–Nov, 61% of normal, 1st driest); Southern Africa (Dec–Mar, 67% of normal, 2nd driest); California (Nov–Mar, 185% of normal, 1st wettest). The same comparison across all four events is in Paper 4.</p><p>The tropical lower troposphere (NOAA STAR TLT, 20°S–20°N) warmed to +0.67 °C above 1991–2020 by Mar 1983, the usual lag of a few months behind the sea surface.</p>",
+   "table": {
+    "cols": [
+     "Region (season)",
+     "Usual El Niño signal",
+     "1982–83"
+    ],
+    "rows": [
+     [
+      "Central equatorial Pacific (5°S–5°N, 170°E–140°W) (SON)",
+      "wetter",
+      "344%<br><span class=\"note\">2nd wettest of 47</span>"
+     ],
+     [
+      "Coastal Peru and Ecuador (12.5°S–2.5°N, 85°–77.5°W) (Dec–Apr)",
+      "wetter",
+      "235%<br><span class=\"note\">2nd wettest of 47</span>"
+     ],
+     [
+      "Indonesia (10°S–5°N, 95°–145°E) (Jul–Oct)",
+      "drier",
+      "54%<br><span class=\"note\">3rd driest of 47</span>"
+     ],
+     [
+      "Eastern Australia (40°–10°S, 140°–155°E) (Jun–Nov)",
+      "drier",
+      "61%<br><span class=\"note\">1st driest of 47</span>"
+     ],
+     [
+      "India (8°–30°N, 70°–90°E) (Jun–Sep)",
+      "drier",
+      "91%<br><span class=\"note\">7th driest of 47</span>"
+     ],
+     [
+      "Equatorial East Africa (5°S–5°N, 35°–50°E) (Oct–Dec)",
+      "wetter",
+      "167%<br><span class=\"note\">5th wettest of 47</span>"
+     ],
+     [
+      "Southern Africa (35°–15°S, 15°–40°E) (Dec–Mar)",
+      "drier",
+      "67%<br><span class=\"note\">2nd driest of 47</span>"
+     ],
+     [
+      "California (32.5°–42.5°N, 125°–115°W) (Nov–Mar)",
+      "wetter",
+      "185%<br><span class=\"note\">1st wettest of 47</span>"
+     ]
+    ],
+    "note": "GPCP v2.3 monthly precipitation (NOAA PSL), box means over land and ocean on the 2.5° grid; percentage of the 1991–2020 mean for the same months; rank among the 47 seasons 1979–2025 (wettest for regions that usually turn wet in El Niño, driest for those that usually turn dry). Data to Jun 2026. Seasons are the usual El Niño impact seasons, counted from the onset year (Dec–Apr = December of the onset year to April of the next)."
    }
   },
   {
