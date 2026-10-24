@@ -66,6 +66,8 @@ odates = np.array([dt.date(1800, 1, 1) + dt.timedelta(hours=h) for h in tt])
 
 def get_olr(y):
     ix = np.where([d.year == y for d in odates])[0]
+    if y == dt.date.today().year and len(ix) == 0:  # interpolated OLR not yet available for the current year
+        LOG.append(f'no OLR for {y}: filled'); return np.full((days(y), 9, 144), np.nan, dtype=np.float32)
     a = parse(fetch(OLR.format(a=ix[0], b=ix[-1])), (len(ix), 9, 144))
     assert len(ix) == days(y) or y == dt.date.today().year, (y, len(ix))
     return a
@@ -74,7 +76,8 @@ years = list(range(Y0, Y1 + 1))
 with ThreadPoolExecutor(4) as ex:
     U = list(ex.map(get_u, years)); O = list(ex.map(get_olr, years))
 U = np.concatenate(U); O = np.concatenate(O)
-NL = min(len(U), len(O)); U, O = U[:NL], O[:NL]  # partial current year: keep days present in both
+NL = len(U); U, O = U[:NL], O[:NL]  # partial current year: U sets the length; OLR gaps are filled below and not used for bursts
+LOG.append(f'last OLR date {odates[-1]}')
 LOG.append(f'days used {NL}')
 O[(O > 500) | (O < 50)] = np.nan
 dates = np.array([dt.date(Y0, 1, 1) + dt.timedelta(d) for d in range(len(U))])
