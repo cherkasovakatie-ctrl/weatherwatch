@@ -1,10 +1,10 @@
 {
- "jobID": "eb04f1fd-4976-4282-9029-43b681e5447f",
- "status": "accepted",
- "type": "process",
- "title": null,
- "detail": null,
- "created": "2026-10-24T01:34:26.462382",
- "http_code": "201",
- "submitted_utc": "2026-10-24T01:34:26"
+ "jobID": null,
+ "status": 403,
+ "type": "permission denied",
+ "title": "cost limits exceeded",
+ "detail": "Your request is too large, please reduce your selection.",
+ "created": null,
+ "http_code": "403",
+ "submitted_utc": "2026-10-24T19:08:44"
 }
