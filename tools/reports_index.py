@@ -1,5 +1,5 @@
 """Rebuild data/reports.csv (the 'Research Papers and Reports' tab) from the ENSO papers, the 2026 storm papers and the fixed reports.
-Run after adding a paper: python3 tools/reports_index.py"""
+Run after adding a paper: python3 tools/reports_index.py, then node tools/make_pdfs.cjs (local server on :8765), then this script again to link the PDFs."""
 import csv
 import json
 from pathlib import Path
@@ -15,6 +15,7 @@ for p in tc:
     rows.append((DATES.get(p['research_date'], p['research_date']), p['title'], 'Research paper · 2026 storms', '', p['file']))
 if tc:
     rows.append((max(DATES.get(p['research_date'], p['research_date']) for p in tc), '2026 hurricanes and typhoons: index of storm papers', 'Index · 2026 storms', '', 'tc-2026.html'))
+rows = [(d, t, k, (f'reports/pdf/{doc[:-5]}.pdf' if (ROOT / f'reports/pdf/{doc[:-5]}.pdf').exists() else pdf), doc) for d, t, k, pdf, doc in rows]
 with open(ROOT / 'data/reports.csv', 'w', newline='', encoding='utf-8') as fh:
     w = csv.writer(fh); w.writerow(['date', 'title', 'kind', 'pdf', 'doc']); w.writerows(rows)
 print(len(rows), 'rows')
