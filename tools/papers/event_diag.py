@@ -65,12 +65,15 @@ tt = np.array(re.findall(r'[\d.]+', _t), dtype=float)
 odates = np.array([dt.date(1800, 1, 1) + dt.timedelta(hours=h) for h in tt])
 
 def get_olr(y):
+    """Interpolated OLR for year y, NaN-padded where the dataset ends (filled later; OLR is not used for burst detection)."""
+    n = days(y)
     ix = np.where([d.year == y for d in odates])[0]
-    if y == dt.date.today().year and len(ix) == 0:  # interpolated OLR not yet available for the current year
-        LOG.append(f'no OLR for {y}: filled'); return np.full((days(y), 9, 144), np.nan, dtype=np.float32)
-    a = parse(fetch(OLR.format(a=ix[0], b=ix[-1])), (len(ix), 9, 144))
-    assert len(ix) == days(y) or y == dt.date.today().year, (y, len(ix))
-    return a
+    out = np.full((n, 9, 144), np.nan, dtype=np.float32)
+    if len(ix):
+        out[:len(ix)] = parse(fetch(OLR.format(a=ix[0], b=ix[-1])), (len(ix), 9, 144))
+    if len(ix) < n:
+        LOG.append(f'OLR {y}: {len(ix)} of {n} days, rest NaN')
+    return out
 
 years = list(range(Y0, Y1 + 1))
 with ThreadPoolExecutor(4) as ex:
