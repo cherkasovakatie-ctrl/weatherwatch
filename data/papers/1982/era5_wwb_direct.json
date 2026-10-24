@@ -1,0 +1,440 @@
+{
+ "rule": "R1 burst matched if an ERA5 burst overlaps its dates within +/-3 days and its longitude span; pass if >= 9 of 13",
+ "n_r1": 13,
+ "n_matched": 11,
+ "passed": true,
+ "n_era5_1982": 15,
+ "extra_era5": [
+  {
+   "start": "1982-02-24",
+   "end": "1982-02-27",
+   "lon_w": 175.0,
+   "lon_e": 195.0,
+   "peak_anom": 8.1
+  },
+  {
+   "start": "1982-06-26",
+   "end": "1982-07-06",
+   "lon_w": 150.0,
+   "lon_e": 177.5,
+   "peak_anom": 8.1
+  },
+  {
+   "start": "1982-08-12",
+   "end": "1982-08-17",
+   "lon_w": 155.0,
+   "lon_e": 167.5,
+   "peak_anom": 6.8
+  },
+  {
+   "start": "1982-12-27",
+   "end": "1982-12-29",
+   "lon_w": 195.0,
+   "lon_e": 210.0,
+   "peak_anom": 6.5
+  }
+ ],
+ "results": [
+  {
+   "r1": {
+    "start": "1982-03-28",
+    "end": "1982-04-03",
+    "lon_w": 147.5,
+    "lon_e": 165.0,
+    "peak": "1982-04-02",
+    "peak_lon": 160.0,
+    "peak_anom": 12.0,
+    "olr_20_100_at_peak": -17.7,
+    "u1000_20_100_at_peak": 2.7,
+    "u1000_prev60d_mean": 1.4,
+    "wh_like_amp": 1.73,
+    "bandpass_20_100_amp": 1.59,
+    "olr_only_20_100_amp": 1.3,
+    "wh_like_centre": 177.5,
+    "bandpass_20_100_centre": 155.0,
+    "olr_only_20_100_centre": 155.0
+   },
+   "matched": true,
+   "era5": [
+    {
+     "start": "1982-03-28",
+     "end": "1982-04-03",
+     "lon_w": 145.0,
+     "lon_e": 165.0,
+     "peak_anom": 10.7
+    }
+   ]
+  },
+  {
+   "r1": {
+    "start": "1982-05-10",
+    "end": "1982-05-13",
+    "lon_w": 137.5,
+    "lon_e": 160.0,
+    "peak": "1982-05-12",
+    "peak_lon": 145.0,
+    "peak_anom": 7.5,
+    "olr_20_100_at_peak": -15.2,
+    "u1000_20_100_at_peak": 3.1,
+    "u1000_prev60d_mean": 1.4,
+    "wh_like_amp": 1.66,
+    "bandpass_20_100_amp": 1.91,
+    "olr_only_20_100_amp": 2.18,
+    "wh_like_centre": 180.0,
+    "bandpass_20_100_centre": 177.5,
+    "olr_only_20_100_centre": 160.0
+   },
+   "matched": true,
+   "era5": [
+    {
+     "start": "1982-05-08",
+     "end": "1982-05-14",
+     "lon_w": 135.0,
+     "lon_e": 167.5,
+     "peak_anom": 8.9
+    }
+   ]
+  },
+  {
+   "r1": {
+    "start": "1982-07-16",
+    "end": "1982-07-20",
+    "lon_w": 155.0,
+    "lon_e": 175.0,
+    "peak": "1982-07-18",
+    "peak_lon": 160.0,
+    "peak_anom": 8.2,
+    "olr_20_100_at_peak": -5.3,
+    "u1000_20_100_at_peak": 0.4,
+    "u1000_prev60d_mean": 2.0,
+    "wh_like_amp": 0.85,
+    "bandpass_20_100_amp": 0.66,
+    "olr_only_20_100_amp": 0.72,
+    "wh_like_centre": 160.0,
+    "bandpass_20_100_centre": 155.0,
+    "olr_only_20_100_centre": 147.5
+   },
+   "matched": true,
+   "era5": [
+    {
+     "start": "1982-07-16",
+     "end": "1982-07-21",
+     "lon_w": 152.5,
+     "lon_e": 172.5,
+     "peak_anom": 8.6
+    }
+   ]
+  },
+  {
+   "r1": {
+    "start": "1982-07-31",
+    "end": "1982-08-02",
+    "lon_w": 157.5,
+    "lon_e": 167.5,
+    "peak": "1982-08-01",
+    "peak_lon": 165.0,
+    "peak_anom": 5.8,
+    "olr_20_100_at_peak": 19.0,
+    "u1000_20_100_at_peak": -1.3,
+    "u1000_prev60d_mean": 2.0,
+    "wh_like_amp": 0.3,
+    "bandpass_20_100_amp": 1.4,
+    "olr_only_20_100_amp": 1.37,
+    "wh_like_centre": 82.5,
+    "bandpass_20_100_centre": 82.5,
+    "olr_only_20_100_centre": 62.5
+   },
+   "matched": false,
+   "era5": []
+  },
+  {
+   "r1": {
+    "start": "1982-08-21",
+    "end": "1982-08-25",
+    "lon_w": 155.0,
+    "lon_e": 182.5,
+    "peak": "1982-08-24",
+    "peak_lon": 160.0,
+    "peak_anom": 7.3,
+    "olr_20_100_at_peak": -9.0,
+    "u1000_20_100_at_peak": 1.7,
+    "u1000_prev60d_mean": 3.4,
+    "wh_like_amp": 0.45,
+    "bandpass_20_100_amp": 0.5,
+    "olr_only_20_100_amp": 0.4,
+    "wh_like_centre": 147.5,
+    "bandpass_20_100_centre": 147.5,
+    "olr_only_20_100_centre": 147.5
+   },
+   "matched": true,
+   "era5": [
+    {
+     "start": "1982-08-21",
+     "end": "1982-08-26",
+     "lon_w": 155.0,
+     "lon_e": 170.0,
+     "peak_anom": 6.8
+    },
+    {
+     "start": "1982-08-28",
+     "end": "1982-09-04",
+     "lon_w": 157.5,
+     "lon_e": 185.0,
+     "peak_anom": 9.8
+    }
+   ]
+  },
+  {
+   "r1": {
+    "start": "1982-08-27",
+    "end": "1982-09-03",
+    "lon_w": 162.5,
+    "lon_e": 185.0,
+    "peak": "1982-08-30",
+    "peak_lon": 177.5,
+    "peak_anom": 9.4,
+    "olr_20_100_at_peak": -34.1,
+    "u1000_20_100_at_peak": 4.3,
+    "u1000_prev60d_mean": 2.0,
+    "wh_like_amp": 1.53,
+    "bandpass_20_100_amp": 1.14,
+    "olr_only_20_100_amp": 0.99,
+    "wh_like_centre": 170.0,
+    "bandpass_20_100_centre": 155.0,
+    "olr_only_20_100_centre": 155.0
+   },
+   "matched": true,
+   "era5": [
+    {
+     "start": "1982-08-21",
+     "end": "1982-08-26",
+     "lon_w": 155.0,
+     "lon_e": 170.0,
+     "peak_anom": 6.8
+    },
+    {
+     "start": "1982-08-28",
+     "end": "1982-09-04",
+     "lon_w": 157.5,
+     "lon_e": 185.0,
+     "peak_anom": 9.8
+    }
+   ]
+  },
+  {
+   "r1": {
+    "start": "1982-09-12",
+    "end": "1982-09-14",
+    "lon_w": 182.5,
+    "lon_e": 195.0,
+    "peak": "1982-09-13",
+    "peak_lon": 187.5,
+    "peak_anom": 6.1,
+    "olr_20_100_at_peak": 6.2,
+    "u1000_20_100_at_peak": 0.8,
+    "u1000_prev60d_mean": 1.5,
+    "wh_like_amp": 0.73,
+    "bandpass_20_100_amp": 0.13,
+    "olr_only_20_100_amp": 1.09,
+    "wh_like_centre": 190.0,
+    "bandpass_20_100_centre": 17.5,
+    "olr_only_20_100_centre": 75.0
+   },
+   "matched": true,
+   "era5": [
+    {
+     "start": "1982-09-10",
+     "end": "1982-09-18",
+     "lon_w": 170.0,
+     "lon_e": 200.0,
+     "peak_anom": 7.8
+    }
+   ]
+  },
+  {
+   "r1": {
+    "start": "1982-09-26",
+    "end": "1982-10-01",
+    "lon_w": 140.0,
+    "lon_e": 175.0,
+    "peak": "1982-09-28",
+    "peak_lon": 157.5,
+    "peak_anom": 7.3,
+    "olr_20_100_at_peak": -33.9,
+    "u1000_20_100_at_peak": 1.8,
+    "u1000_prev60d_mean": 3.0,
+    "wh_like_amp": 1.48,
+    "bandpass_20_100_amp": 0.29,
+    "olr_only_20_100_amp": 0.67,
+    "wh_like_centre": 20.0,
+    "bandpass_20_100_centre": 80.0,
+    "olr_only_20_100_centre": 130.0
+   },
+   "matched": true,
+   "era5": [
+    {
+     "start": "1982-09-21",
+     "end": "1982-09-26",
+     "lon_w": 162.5,
+     "lon_e": 185.0,
+     "peak_anom": 6.2
+    },
+    {
+     "start": "1982-09-25",
+     "end": "1982-10-02",
+     "lon_w": 142.5,
+     "lon_e": 170.0,
+     "peak_anom": 9.0
+    }
+   ]
+  },
+  {
+   "r1": {
+    "start": "1982-10-08",
+    "end": "1982-10-11",
+    "lon_w": 185.0,
+    "lon_e": 207.5,
+    "peak": "1982-10-08",
+    "peak_lon": 195.0,
+    "peak_anom": 6.3,
+    "olr_20_100_at_peak": 12.4,
+    "u1000_20_100_at_peak": 0.3,
+    "u1000_prev60d_mean": 1.9,
+    "wh_like_amp": 1.17,
+    "bandpass_20_100_amp": 0.7,
+    "olr_only_20_100_amp": 0.87,
+    "wh_like_centre": 182.5,
+    "bandpass_20_100_centre": 155.0,
+    "olr_only_20_100_centre": 147.5
+   },
+   "matched": false,
+   "era5": []
+  },
+  {
+   "r1": {
+    "start": "1982-10-12",
+    "end": "1982-10-14",
+    "lon_w": 160.0,
+    "lon_e": 175.0,
+    "peak": "1982-10-13",
+    "peak_lon": 170.0,
+    "peak_anom": 6.4,
+    "olr_20_100_at_peak": 5.3,
+    "u1000_20_100_at_peak": -1.5,
+    "u1000_prev60d_mean": 3.1,
+    "wh_like_amp": 1.26,
+    "bandpass_20_100_amp": 0.34,
+    "olr_only_20_100_amp": 0.63,
+    "wh_like_centre": 272.5,
+    "bandpass_20_100_centre": 147.5,
+    "olr_only_20_100_centre": 147.5
+   },
+   "matched": true,
+   "era5": [
+    {
+     "start": "1982-10-07",
+     "end": "1982-10-12",
+     "lon_w": 155.0,
+     "lon_e": 182.5,
+     "peak_anom": 6.6
+    }
+   ]
+  },
+  {
+   "r1": {
+    "start": "1982-10-19",
+    "end": "1982-10-31",
+    "lon_w": 167.5,
+    "lon_e": 200.0,
+    "peak": "1982-10-30",
+    "peak_lon": 172.5,
+    "peak_anom": 8.2,
+    "olr_20_100_at_peak": -10.2,
+    "u1000_20_100_at_peak": -0.4,
+    "u1000_prev60d_mean": 3.2,
+    "wh_like_amp": 1.69,
+    "bandpass_20_100_amp": 1.46,
+    "olr_only_20_100_amp": 1.4,
+    "wh_like_centre": 82.5,
+    "bandpass_20_100_centre": 87.5,
+    "olr_only_20_100_centre": 87.5
+   },
+   "matched": true,
+   "era5": [
+    {
+     "start": "1982-10-18",
+     "end": "1982-11-26",
+     "lon_w": 152.5,
+     "lon_e": 210.0,
+     "peak_anom": 11.7
+    }
+   ]
+  },
+  {
+   "r1": {
+    "start": "1982-11-04",
+    "end": "1982-11-26",
+    "lon_w": 152.5,
+    "lon_e": 205.0,
+    "peak": "1982-11-23",
+    "peak_lon": 180.0,
+    "peak_anom": 10.5,
+    "olr_20_100_at_peak": -3.5,
+    "u1000_20_100_at_peak": 1.5,
+    "u1000_prev60d_mean": 5.0,
+    "wh_like_amp": 2.16,
+    "bandpass_20_100_amp": 1.16,
+    "olr_only_20_100_amp": 1.29,
+    "wh_like_centre": 60.0,
+    "bandpass_20_100_centre": 17.5,
+    "olr_only_20_100_centre": 72.5
+   },
+   "matched": true,
+   "era5": [
+    {
+     "start": "1982-10-18",
+     "end": "1982-11-26",
+     "lon_w": 152.5,
+     "lon_e": 210.0,
+     "peak_anom": 11.7
+    }
+   ]
+  },
+  {
+   "r1": {
+    "start": "1982-12-02",
+    "end": "1982-12-16",
+    "lon_w": 175.0,
+    "lon_e": 207.5,
+    "peak": "1982-12-09",
+    "peak_lon": 200.0,
+    "peak_anom": 9.2,
+    "olr_20_100_at_peak": -23.3,
+    "u1000_20_100_at_peak": 3.5,
+    "u1000_prev60d_mean": 3.8,
+    "wh_like_amp": 0.85,
+    "bandpass_20_100_amp": 1.3,
+    "olr_only_20_100_amp": 1.23,
+    "wh_like_centre": 60.0,
+    "bandpass_20_100_centre": 160.0,
+    "olr_only_20_100_centre": 155.0
+   },
+   "matched": true,
+   "era5": [
+    {
+     "start": "1982-12-01",
+     "end": "1982-12-20",
+     "lon_w": 177.5,
+     "lon_e": 210.0,
+     "peak_anom": 10.6
+    }
+   ]
+  }
+ ],
+ "corr_daily_anom_120E_150W": 0.81,
+ "method": [
+  "Without ERA5 baseline years, ERA5 anomalies use the R1 seasonal cycle plus a fitted ERA5-R1 offset: for each longitude,",
+  "d = u_ERA5 - anom_R1 is fitted with a mean and three annual harmonics over 1981-82, and anom_ERA5 = u_ERA5 - fit(d).",
+  "Slow (seasonal) anomalies are therefore tied to R1; day-to-day bursts are ERA5's own. Burst rule as in Papers 1-3."
+ ]
+}

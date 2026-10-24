@@ -281,6 +281,20 @@ paper = {"number": 1, "file": "enso-1982-83.html", "short": "1982–83 El Niño"
 paper["sections"] = build_prose(c) + sections[:2]
 paper["after"] = sections[2]
 paper["post_sections"] = post
+_ev = json.load(open(ROOT / 'data/papers/1982/era5_wwb_direct.json'))
+_miss = [x['r1'] for x in _ev['results'] if not x['matched']]
+_ex = _ev['extra_era5']
+paper["post_sections"] = [s for s in paper["post_sections"] if s.get("id") != "era5check"] + [{"id": "era5check", "title": "ERA5 check of the 1982 westerly-burst list (24 October 2026)", "html": (
+    f"<p><b>Test.</b> The 13 bursts found in 1982 in NCEP/NCAR Reanalysis 1 were checked against ERA5 <a href=\"#ref-hersbach2020\">[67]</a> (1000 hPa zonal wind, 6-hourly, 2.5°, downloaded from the Copernicus Climate Data Store for 1981 and 1982). "
+    "The rule was fixed before the data arrived: an R1 burst is confirmed if an ERA5 burst, found with the same definition, overlaps its dates within ±3 days and its longitude span; the list passes if at least 9 of 13 are confirmed.</p>"
+    f"<p><b>Result.</b> {_ev['n_matched']} of {_ev['n_r1']} R1 bursts are confirmed, so the list passes. Not confirmed: " + '; '.join(f"{m['start']} to {m['end']} ({m['lon_w']:g}°–{m['lon_e']:g}°E, peak {m['peak_anom']} m s⁻¹)" for m in _miss) + ", both among the weakest or shortest in the list. "
+    f"ERA5 finds {len(_ex)} further bursts in 1982 that R1 does not (" + '; '.join(f"{e['start']} to {e['end']}" for e in _ex) + f"), so the 1982 count of 13 is, if anything, conservative. Daily anomalies over 120°E–150°W correlate at {_ev['corr_daily_anom_120E_150W']:.2f} between the two reanalyses.</p>"
+    "<p><b>Limits.</b> Only 1981 and 1982 ERA5 data are held, so ERA5 has no 1979–2000 baseline of its own. ERA5 anomalies were formed with the R1 seasonal cycle plus a fitted ERA5–R1 offset; slow anomalies are therefore shared with R1, and the test is of the day-to-day bursts, not of the yearly base rate. "
+    "In late October–November ERA5 joins two R1 bursts into one long event. The formal test against a full ERA5 1979–2000 baseline remains open (tools/papers/wwb_era5_1982_direct.py; output data/papers/1982/era5_wwb_direct.json).</p>")}]
+paper["toc"] = [t for t in paper["toc"] if t[0] != "era5check"]
+paper["toc"].insert(next(i for i, t in enumerate(paper["toc"]) if t[0] == "references"), ("era5check", "ERA5 check of the burst list"))
+if not any(r.get("key") == "hersbach2020" for r in paper["references"]):
+    paper["references"].append({"key": "hersbach2020", "text": "Hersbach, H., et al. (2020). The ERA5 global reanalysis. <i>Quarterly Journal of the Royal Meteorological Society</i> 146, 1999–2049. ERA5 data: Copernicus Climate Change Service (C3S) Climate Data Store, ERA5 hourly data on pressure levels from 1940 to present.", "doi": "10.1002/qj.3803", "url": None, "check": "full text read (open access)"})
 from rain_common import add_rain  # noqa: E402
 add_rain(paper, 1982)
 with open(ROOT / 'papers' / '1-enso-1982-83.json', 'w', encoding='utf-8') as fh:

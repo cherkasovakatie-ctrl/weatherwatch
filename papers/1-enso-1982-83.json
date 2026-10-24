@@ -107,6 +107,10 @@
    "Not yet established"
   ],
   [
+   "era5check",
+   "ERA5 check of the burst list"
+  ],
+  [
    "references",
    "References"
   ]
@@ -1464,6 +1468,13 @@
    "check": "data read"
   },
   {
+   "key": "hersbach2020",
+   "text": "Hersbach, H., et al. (2020). The ERA5 global reanalysis. <i>Quarterly Journal of the Royal Meteorological Society</i> 146, 1999–2049. ERA5 data: Copernicus Climate Change Service (C3S) Climate Data Store, ERA5 hourly data on pressure levels from 1940 to present.",
+   "doi": "10.1002/qj.3803",
+   "url": null,
+   "check": "full text read (open access)"
+  },
+  {
    "key": "gpcp",
    "text": "GPCP v2.3 monthly precipitation (Adler et al. 2018, <i>Atmosphere</i> 9, 138), via NOAA PSL; NOAA STAR MSU/AMSU-A/ATMS Mean Layer Temperature CDR v5 (TLT, TMT), via NOAA NCEI. Regional means computed with tools/papers/gpcp_regions.py (outputs in data/papers/climate/).",
    "doi": "10.3390/atmos9040138",
@@ -1867,6 +1878,11 @@
    "id": "verification",
    "title": "Stage 5 verification log (23 October 2026)",
    "html": "<p><b>Data.</b> Every number in the text that comes from the monthly table or the reanalysis diagnostics was recomputed from the source files by <code>tools/papers/verify_1982.py</code>: 38 checks, all passing after the corrections below. The MJO episode table was cross-checked against <code>propagation_tests.json</code> and the BoM RMM file.</p>\n<p><b>Literature.</b> Claims were re-read against the full texts held in the private library (Roundy and Kiladis 2007 and the conference paper, Harrison and Schopf 1984, Rasmusson and Carpenter 1982, Weickmann and Khalsa 1990, Gutzler and Harrison 1987, Bergman et al. 2001, Schreck and Molinari 2009, Keen 1982, Li et al. 2023, Khodri et al. 2017, Predybaylo et al. 2020, Chai et al. 2020, Worsfold et al. 2024), the stage-2 copy of Kim et al. 2025, and the abstracts of Halpern et al. 1983, Firing et al. 1983, Harrison 1984 and Luther et al. 1983. <b>Not re-checked in this pass</b> (no accessible text this session; they rest on the stage-2 reading recorded in the reference list): Wyrtki 1985a and 1985b, Lukas et al. 1984, Wang 1995, Chu and Frederick 1990, Meinen and McPhaden 2000, Hendon et al. 1999, Kessler 2001, Zhang et al. 2021, Luo et al. 2010, Hameed et al. 2018, Fan et al. 2024, Ohba and Ueda 2007, Jourdain et al. 2016, Dee et al. 2020, Bandeen and Fraser 1982, Cane 1983, Rasmusson and Wallace 1983 and Cane et al. 1986.</p>\n<p><b>Corrections made.</b></p><ul>\n<li>Mean 1979–2001 burst count: 4.4 → 4.2 a year (96 bursts in 23 years).</li>\n<li>Propagation-test base rates: 55% and 19% → 53% and 20%, now computed and stored with the test (837 overlapping 45-day windows).</li>\n<li>RMM during the 6–16 May burst: “0.6–1.2” → 0.6–1.2 until 14 May, 1.8 on 16 May.</li>\n<li>The “24 August – 3 September” burst is two reanalysis bursts, 21–25 August and 27 August – 3 September.</li>\n<li>El Chichón SO₂: “about 7 Tg” cited to Worsfold et al. and Kim et al. → about 7.5 Tg, cited to Kim et al. only (Worsfold et al. give no figure).</li>\n<li>Indian Ocean winds: “easterlies appeared only in July–August” → weak and changeable through mid-year (−1.0 m s⁻¹ in May), strongly easterly only in October–November.</li>\n<li>Gutzler and Harrison (1987): the early-1982 start of their wind mode is now reported together with their statements that elements of the precursor were present in autumn 1981 and that pre-1982 wind evolution was not significantly different from earlier events.</li>\n<li>Rasmusson and Carpenter composite: coastal SST anomalies begin rising around December–January and peak in April–June (the draft placed their first appearance in April–June).</li>\n<li>Heat content in January 1982: “near zero” → +0.2 °C; RONI “below +0.5 until MAM” → through MAM (+0.46); the ~5 m s⁻¹ propagation speed is attributed to the authors' multi-event result rather than to the December 1981 event alone.</li>\n<li>Main findings: confidence labels aligned with the evidence table (the recharge precondition is grade B, medium confidence, not “high confidence”).</li></ul>\n<p><b>Grades.</b> No evidence grade was changed. Remaining open check: the ERA5 re-test of the burst list.</p>"
+  },
+  {
+   "id": "era5check",
+   "title": "ERA5 check of the 1982 westerly-burst list (24 October 2026)",
+   "html": "<p><b>Test.</b> The 13 bursts found in 1982 in NCEP/NCAR Reanalysis 1 were checked against ERA5 <a href=\"#ref-hersbach2020\">[67]</a> (1000 hPa zonal wind, 6-hourly, 2.5°, downloaded from the Copernicus Climate Data Store for 1981 and 1982). The rule was fixed before the data arrived: an R1 burst is confirmed if an ERA5 burst, found with the same definition, overlaps its dates within ±3 days and its longitude span; the list passes if at least 9 of 13 are confirmed.</p><p><b>Result.</b> 11 of 13 R1 bursts are confirmed, so the list passes. Not confirmed: 1982-07-31 to 1982-08-02 (157.5°–167.5°E, peak 5.8 m s⁻¹); 1982-10-08 to 1982-10-11 (185°–207.5°E, peak 6.3 m s⁻¹), both among the weakest or shortest in the list. ERA5 finds 4 further bursts in 1982 that R1 does not (1982-02-24 to 1982-02-27; 1982-06-26 to 1982-07-06; 1982-08-12 to 1982-08-17; 1982-12-27 to 1982-12-29), so the 1982 count of 13 is, if anything, conservative. Daily anomalies over 120°E–150°W correlate at 0.81 between the two reanalyses.</p><p><b>Limits.</b> Only 1981 and 1982 ERA5 data are held, so ERA5 has no 1979–2000 baseline of its own. ERA5 anomalies were formed with the R1 seasonal cycle plus a fitted ERA5–R1 offset; slow anomalies are therefore shared with R1, and the test is of the day-to-day bursts, not of the yearly base rate. In late October–November ERA5 joins two R1 bursts into one long event. The formal test against a full ERA5 1979–2000 baseline remains open (tools/papers/wwb_era5_1982_direct.py; output data/papers/1982/era5_wwb_direct.json).</p>"
   }
  ]
 }
