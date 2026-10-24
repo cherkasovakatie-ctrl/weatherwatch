@@ -76,12 +76,12 @@
   {
    "id": "intro",
    "title": "1. Introduction",
-   "html": "<p>Rachel was the eighteenth tropical cyclone of the 2026 eastern North Pacific season and the second of four major hurricanes off southwestern Mexico between 22 September and 16 October. Its track, first parallel to Mexico and then west and northeast towards Baja California, linked the hyperactive tropical season to the coastal ocean off California, where El Niño had already raised sea level <a href=\"#ref-kelvin\">[13]</a>. This paper reconstructs Rachel's life cycle and the chain of events that turned a weakening storm into a deadly one.</p>"
+   "html": "<p>Rachel was the eighteenth tropical cyclone of the 2026 eastern North Pacific season and the second of four major hurricanes off southwestern Mexico between 22 September and 16 October. Its track, first parallel to Mexico and then west and northeast towards Baja California, linked the hyperactive tropical season to the coastal ocean off California, where El Niño had already raised sea level <a href=\"#ref-kelvin\">[14]</a>. This paper reconstructs Rachel's life cycle and the chain of events that turned a weakening storm into a deadly one.</p>"
   },
   {
    "id": "methods",
    "title": "2. Data and methods",
-   "html": "<p><b>Track and intensity.</b> Six-hourly positions, 1-minute maximum sustained winds and minimum pressures from IBTrACS v04r01 <a href=\"#ref-knapp2010\">[1]</a>, downloaded on 24 October 2026. For 2026 these are <i>provisional</i> values carried over from the operational advisories (National Hurricane Center); the official best track, issued in the post-season report, can differ. Rapid intensification (RI) is an increase of at least 30 kt in 24 hours <a href=\"#ref-kaplan2003\">[2]</a>. Accumulated cyclone energy (ACE) sums the squared 6-hourly winds at tropical-storm strength or above.</p><p><b>Ocean.</b> Sea-surface temperature (SST) and its anomaly against 1991–2020 from NOAA OISST v2.1 daily <a href=\"#ref-huang2021\">[3]</a>, sampled at each 6-hourly position three days before the storm arrived, so that the storm's own cooling is excluded; the change from three days before to three days after gives the cold wake. OISST is a 0.25° analysis and smooths very small wakes.</p><p><b>Atmosphere.</b> Wind shear and mid-level humidity are taken from the forecasters' own analyses in the advisories and discussions (which use the SHIPS model and satellite estimates), quoted with date and time. Our planned reanalysis diagnostics could not be computed because the NCEP/NCAR Reanalysis 1 daily files for 2026 end on 17 March 2026. The Madden–Julian oscillation (MJO) is described by the real-time RMM index <a href=\"#ref-wheeler2004\">[4]</a> (phase and amplitude; amplitude ≥ 1 means an active MJO). ENSO values are NOAA CPC indices (RONI JAS 2026 +1.69 °C; weekly relative Niño 3.4 +2.4 °C in mid-October).</p><p><b>Impacts.</b> Deaths, damage and observations are taken from official statements where available and otherwise from wire-service reports, each cited; figures are preliminary.</p>"
+   "html": "<p><b>Track and intensity.</b> Six-hourly positions, 1-minute maximum sustained winds and minimum pressures from IBTrACS v04r01 <a href=\"#ref-knapp2010\">[1]</a>, downloaded on 24 October 2026. For 2026 these are <i>provisional</i> values carried over from the operational advisories (National Hurricane Center); the official best track, issued in the post-season report, can differ. Rapid intensification (RI) is an increase of at least 30 kt in 24 hours <a href=\"#ref-kaplan2003\">[2]</a>. Accumulated cyclone energy (ACE) sums the squared 6-hourly winds at tropical-storm strength or above.</p><p><b>Ocean.</b> Sea-surface temperature (SST) and its anomaly against 1991–2020 from NOAA OISST v2.1 daily <a href=\"#ref-huang2021\">[3]</a>, sampled at each 6-hourly position three days before the storm arrived, so that the storm's own cooling is excluded; the change from three days before to three days after gives the cold wake. OISST is a 0.25° analysis and smooths very small wakes.</p><p><b>Atmosphere.</b> Wind shear and mid-level humidity are taken from the forecasters' own analyses in the advisories and discussions (which use the SHIPS model and satellite estimates), quoted with date and time. In addition, the deep-layer (200–850 hPa) vertical wind shear was computed from ERA5 (Hersbach et al. 2020, in the references) as the difference of the winds averaged over a 200–800 km ring around each position, using daily means of 00 and 12 UTC on a 2.5° grid, with data to 18 October 2026. This coarse estimate captures the large-scale shear but not shallower or mid-level shear, which forecasters sometimes cite. The Madden–Julian oscillation (MJO) is described by the real-time RMM index <a href=\"#ref-wheeler2004\">[4]</a> (phase and amplitude; amplitude ≥ 1 means an active MJO). ENSO values are NOAA CPC indices (RONI JAS 2026 +1.69 °C; weekly relative Niño 3.4 +2.4 °C in mid-October).</p><p><b>Impacts.</b> Deaths, damage and observations are taken from official statements where available and otherwise from wire-service reports, each cited; figures are preliminary.</p>"
   },
   {
    "id": "lifecycle",
@@ -140,12 +140,12 @@
   {
    "id": "environment",
    "title": "4. Environment",
-   "html": "<p><b>Ocean.</b> Up to the peak the sea ahead of Rachel averaged 29.6 °C, +1.1 °C above normal. During its long westward drift on 6–9 October the water was about 25.8 °C, cooler but still +1.5 °C above normal for the season and latitude, part of the warm anomaly off Baja California. Near Baja California on 11 October the sea was 25.5 °C, +4.9 °C above normal: too cool to sustain a hurricane, but an exceptional marine heatwave. Rachel's slow motion produced the strongest cold wake of the storms in this batch: up to 2.8 °C <a href=\"#ref-price1981\">[5]</a>. The wake it left near 14°N, 102°W on 29 September was still visible two weeks later under Trudy (see the Trudy paper).</p><p><b>Shear and moisture.</b> Northeasterly shear of 15–20 kt persisted from 27 September to 30 September <a href=\"https://www.nhc.noaa.gov/archive/2026/ep18/ep182026.discus.006.shtml\">NHC discussion 6</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep18/ep182026.discus.014.shtml\">NHC discussion 14</a>; dry air intruded repeatedly after the peak <a href=\"https://www.nhc.noaa.gov/archive/2026/ep18/ep182026.discus.026.shtml\">NHC discussion 26</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep18/ep182026.discus.032.shtml\">NHC discussion 32</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep18/ep182026.discus.034.shtml\">NHC discussion 34</a>; strong southwesterly shear accompanied the transition <a href=\"https://www.nhc.noaa.gov/archive/2026/ep18/ep182026.discus.054.shtml\">NHC discussion 54</a>.</p><p><b>MJO.</b> RMM phase 2 (amplitude 0.9) at genesis and phase 2 (1.2) during rapid intensification <a href=\"#ref-maloney2000\">[6]</a>; not tested further.</p>"
+   "html": "<p><b>Ocean.</b> Up to the peak the sea ahead of Rachel averaged 29.6 °C, +1.1 °C above normal. During its long westward drift on 6–9 October the water was about 25.8 °C, cooler but still +1.5 °C above normal for the season and latitude, part of the warm anomaly off Baja California. Near Baja California on 11 October the sea was 25.5 °C, +4.9 °C above normal: too cool to sustain a hurricane, but an exceptional marine heatwave. Rachel's slow motion produced the strongest cold wake of the storms in this batch: up to 2.8 °C <a href=\"#ref-price1981\">[5]</a>. The wake it left near 14°N, 102°W on 29 September was still visible two weeks later under Trudy (see the Trudy paper).</p><p><b>Shear and moisture.</b> Northeasterly shear of 15–20 kt persisted from 27 September to 30 September <a href=\"https://www.nhc.noaa.gov/archive/2026/ep18/ep182026.discus.006.shtml\">NHC discussion 6</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep18/ep182026.discus.014.shtml\">NHC discussion 14</a>; dry air intruded repeatedly after the peak <a href=\"https://www.nhc.noaa.gov/archive/2026/ep18/ep182026.discus.026.shtml\">NHC discussion 26</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep18/ep182026.discus.032.shtml\">NHC discussion 32</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep18/ep182026.discus.034.shtml\">NHC discussion 34</a>; strong southwesterly shear accompanied the transition <a href=\"https://www.nhc.noaa.gov/archive/2026/ep18/ep182026.discus.054.shtml\">NHC discussion 54</a>.</p><p><b>ERA5 shear.</b> Deep-layer shear around Rachel was 17–26 kt from 27 to 30 September, matching the forecasters' estimates of about 20 kt, and fell to 12 kt on 1 October, the day of rapid intensification. During the long westward drift it was 2–10 kt, so dry air and cooler water, not shear, wore Rachel down; it reached 42 kt during the post-tropical transition (Figure 1).</p><p><b>MJO.</b> RMM phase 2 (amplitude 0.9) at genesis and phase 2 (1.2) during rapid intensification <a href=\"#ref-maloney2000\">[6]</a>; not tested further.</p>"
   },
   {
    "id": "impacts",
    "title": "5. Impacts",
-   "html": "<p><b>Baja California.</b> Heavy rain from Rachel's remnant caused flooding and landslides in the municipality of Ensenada over the weekend of 10–11 October and knocked out power; a stream in the Buena Vista community overflowed, sweeping away vehicles, animals and a cabin <a href=\"#ref-ap13\">[10]</a>. By 15 October the death toll was eight, all in Ensenada, four of them minors, with two people still missing <a href=\"#ref-star16\">[11]</a>. Soldiers rescued 32 people, including 13 children, by helicopter from an orphan camp near Ensenada; a father and son fishing from San Felipe on the Gulf of California were missing <a href=\"#ref-ap13\">[10]</a>.</p><p><b>Southern California.</b> The hurricane centre warned that waves from Rachel, combined with an incoming long-period southerly swell, would produce life-threatening surf and rip currents, and that major coastal flooding was already occurring, with water levels running up to 1.5 ft above predictions; flooding and erosion were expected to worsen as the highest waves coincided with high tides <a href=\"https://www.nhc.noaa.gov/archive/2026/ep18/ep182026.discus.054.shtml\">NHC discussion 54</a>. In Long Beach on 9 October the surf broke through a seawall on the Alamitos Peninsula; homes on Seaside Walk were evacuated and inspectors red-tagged eight buildings <a href=\"#ref-nbcla\">[12]</a>. The elevated water levels reflect El Niño's coastally trapped wave and the warm ocean along the coast <a href=\"#ref-kelvin\">[13]</a>. The remnant then brought a risk of flash flooding to the southwestern United States <a href=\"https://www.nhc.noaa.gov/archive/2026/ep18/ep182026.discus.058.shtml\">NHC discussion 58</a>.</p>"
+   "html": "<p><b>Baja California.</b> Heavy rain from Rachel's remnant caused flooding and landslides in the municipality of Ensenada over the weekend of 10–11 October and knocked out power; a stream in the Buena Vista community overflowed, sweeping away vehicles, animals and a cabin <a href=\"#ref-ap13\">[11]</a>. By 15 October the death toll was eight, all in Ensenada, four of them minors, with two people still missing <a href=\"#ref-star16\">[12]</a>. Soldiers rescued 32 people, including 13 children, by helicopter from an orphan camp near Ensenada; a father and son fishing from San Felipe on the Gulf of California were missing <a href=\"#ref-ap13\">[11]</a>.</p><p><b>Southern California.</b> The hurricane centre warned that waves from Rachel, combined with an incoming long-period southerly swell, would produce life-threatening surf and rip currents, and that major coastal flooding was already occurring, with water levels running up to 1.5 ft above predictions; flooding and erosion were expected to worsen as the highest waves coincided with high tides <a href=\"https://www.nhc.noaa.gov/archive/2026/ep18/ep182026.discus.054.shtml\">NHC discussion 54</a>. In Long Beach on 9 October the surf broke through a seawall on the Alamitos Peninsula; homes on Seaside Walk were evacuated and inspectors red-tagged eight buildings <a href=\"#ref-nbcla\">[13]</a>. The elevated water levels reflect El Niño's coastally trapped wave and the warm ocean along the coast <a href=\"#ref-kelvin\">[14]</a>. The remnant then brought a risk of flash flooding to the southwestern United States <a href=\"https://www.nhc.noaa.gov/archive/2026/ep18/ep182026.discus.058.shtml\">NHC discussion 58</a>.</p>"
   },
   {
    "id": "climate",
@@ -165,6 +165,14 @@
  ],
  "evidence": [
   [
+   "ERA5 deep-layer shear",
+   "17–26 kt on 27–30 Sep; 12 kt on 1 Oct",
+   "Delayed development; its relaxation allowed RI",
+   "Reanalysis (ERA5)",
+   "High",
+   "<a href=\"#ref-hersbach2020\">[9]</a>"
+  ],
+  [
    "Warm ocean",
    "29.6 °C (+1.1) before the peak; 25.8 °C (+1.5) on 6–9 Oct",
    "Allowed strengthening and a long hurricane life",
@@ -178,7 +186,7 @@
    "Slowed early development",
    "Operational analysis",
    "High",
-   "<a href=\"#ref-nhc\">[9]</a>"
+   "<a href=\"#ref-nhc\">[10]</a>"
   ],
   [
    "Dry-air intrusions",
@@ -186,7 +194,7 @@
    "Caused fluctuations and slow weakening",
    "Satellite interpretation (NHC)",
    "Medium",
-   "<a href=\"#ref-nhc\">[9]</a>"
+   "<a href=\"#ref-nhc\">[10]</a>"
   ],
   [
    "Mid-latitude trough",
@@ -194,7 +202,7 @@
    "Recurvature, acceleration and post-tropical transition",
    "Operational analysis",
    "High",
-   "<a href=\"#ref-nhc\">[9]</a>"
+   "<a href=\"#ref-nhc\">[10]</a>"
   ],
   [
    "Marine heatwave off Baja California",
@@ -210,7 +218,7 @@
    "Compound coastal flooding in Southern California",
    "Observed (NHC statement)",
    "High",
-   "<a href=\"#ref-nhc\">[9]</a> <a href=\"#ref-kelvin\">[13]</a>"
+   "<a href=\"#ref-nhc\">[10]</a> <a href=\"#ref-kelvin\">[14]</a>"
   ]
  ],
  "references": [
@@ -269,6 +277,13 @@
    "doi": null,
    "url": "enso-2026.html",
    "check": "own analysis"
+  },
+  {
+   "key": "hersbach2020",
+   "text": "Hersbach, H., et al. (2020). The ERA5 global reanalysis. <i>Quarterly Journal of the Royal Meteorological Society</i> 146, 1999–2049. 2026 data: Copernicus Climate Change Service Climate Data Store (u, v at 850 and 200 hPa, to 18 October 2026).",
+   "doi": "10.1002/qj.3803",
+   "url": null,
+   "check": "full text read (open access); data processed"
   },
   {
    "key": "nhc",

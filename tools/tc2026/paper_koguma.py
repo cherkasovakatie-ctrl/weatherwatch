@@ -2,7 +2,7 @@
 import json
 import math
 
-from common import METHODS, ROOT, T, dtm, env, facts, fig, kt2mph, mjo, pos, refs, sst_summary
+from common import shear_between, METHODS, ROOT, T, dtm, env, facts, fig, kt2mph, mjo, pos, refs, sst_summary
 
 N = 'KOGUMA'; o = T[N]
 pre = sst_summary(N, until='2026-10-10 12:00'); s_all = sst_summary(N)
@@ -17,7 +17,7 @@ def dist(a, b):
 
 sep = {t: round(dist(F[t], NO[t])) for t in F if t in NO}
 smin = min(sep.items(), key=lambda kv: kv[1])
-KEYS = ['knapp2010', 'kaplan2003', 'huang2021', 'wheeler2004', 'wang2002', 'camargo2005', 'price1981', 'csu', 'paper4']
+KEYS = ['knapp2010', 'kaplan2003', 'huang2021', 'wheeler2004', 'wang2002', 'camargo2005', 'price1981', 'csu', 'paper4', 'hersbach2020']
 EXTRA = [('jma', 'Japan Meteorological Agency (2026). Typhoon No. 29 (KOGUMA) preliminary best track, 3-hourly (T2629, preliminary values).', 'https://www.data.jma.go.jp/typhoon/data/T2629.pdf', 'read'),
          ('wn', 'Weathernews (2026). Typhoon No. 29 (Koguma) (JMA observations and forecasts, 9 October 2026).', 'https://sea.weathernews.com/resources/202610/269', 'read'),
          ('nwsg', 'Pogodnik (2026). Typhoon Koguma heads north with 130 mph winds (summarising NWS Guam advisories, 11 October 2026).', 'https://pogodnik.com/en/news/typhoon-koguma-2026-130-mph-winds-forecast-track', 'read; secondary source')]
@@ -25,7 +25,7 @@ R = refs(KEYS, EXTRA); ref = {r['key']: i + 1 for i, r in enumerate(R)}
 c = lambda k: f'<a href="#ref-{k}">[{ref[k]}]</a>'  # noqa: E731
 METH = METHODS.format(agency='JTWC for the 1-minute winds; the Japan Meteorological Agency is the WMO centre, and its 10-minute winds are lower').replace(
     "Wind shear and mid-level humidity are taken from the forecasters' own analyses in the advisories and discussions (which use the SHIPS model and satellite estimates), quoted with date and time.",
-    "No forecast-discussion archive comparable to NHC's was available for this typhoon, so wind shear and humidity could not be documented from operational analyses; the atmospheric discussion is limited accordingly.")
+    "No forecast-discussion archive comparable to NHC's was available for this typhoon, so the atmosphere is described only by the ERA5 shear below; mid-level humidity is not documented.")
 
 S = []
 S.append({'id': 'abstract', 'title': 'Abstract', 'html': (
@@ -58,7 +58,8 @@ S.append({'id': 'lifecycle', 'title': '3. Life cycle', 'html': (
 S.append({'id': 'environment', 'title': '4. Environment', 'html': (
     f"<p><b>Ocean.</b> Up to the peak, the sea three days ahead of Koguma averaged {pre['sst_mean']:.1f} °C and never fell below {pre['sst_min']:.1f} °C, {pre['ssta_mean']:+.1f} °C above the 1991–2020 normal on average. North of 30°N, after recurvature, it fell to about {s_all['sst_min']:.0f} °C. "
     f"Moving at a mean {o['mean_speed_kmh']} km/h, much faster than the eastern Pacific hurricanes of the same weeks, Koguma left only a weak cold wake in the analysis (up to {abs(s_all['wake_min']):.1f} °C) {c('price1981')}.</p>"
-    f"<p><b>Atmosphere.</b> Without an operational discussion archive, shear and humidity were not documented. The RMM index was in phase {m5[0]} (amplitude {m5[1]:.1f}) at formation and phase {m9[0]} ({m9[1]:.1f}) during rapid intensification, with the MJO's active convection over the Indian Ocean rather than the western Pacific; Koguma's development therefore did not depend on an active MJO overhead.</p>"
+    f"<p><b>MJO.</b> The RMM index was in phase {m5[0]} (amplitude {m5[1]:.1f}) at formation and phase {m9[0]} ({m9[1]:.1f}) during rapid intensification, with the MJO's active convection over the Indian Ocean rather than the western Pacific; Koguma's development therefore did not depend on an active MJO overhead.</p>"
+    f"<p><b>ERA5 shear.</b> The reanalysis fills part of the gap: deep-layer shear around Koguma was {shear_between(N, '2026-10-05', '2026-10-08 18')[0]:.0f}–{shear_between(N, '2026-10-05', '2026-10-08 18')[1]:.0f} kt from 5 to 8 October, while it stayed a tropical storm, and then fell to {shear_between(N, '2026-10-09', '2026-10-10 18')[0]:.0f}–{shear_between(N, '2026-10-09', '2026-10-10 18')[1]:.0f} kt on 9–10 October, exactly when it intensified rapidly and peaked. After recurvature the shear rose above 30 kt on 13 October (Figure 1). The timing points to the drop in shear as the trigger of rapid intensification over already warm water.</p>"
     f"<p><b>Nolo.</b> Hurricane Nolo, first tracked in the eastern Pacific on 10 September, and crossed the date line in early October, weakened as it moved west near 25–32°N. Its separation from Koguma fell from about 2,000 km on 5 October to {smin[1]:,} km on {dtm(smin[0])}. "
     f"Two cyclones within about 1,000 km can influence each other's motion; NWS Guam reportedly cited the interaction as a main factor in Koguma's northward turn {c('nwsg')}. A mid-latitude trough is the usual cause of recurvature at this latitude, and the relative roles were not analysed here.</p>")})
 WP = sorted([(v['first'], k, v) for k, v in T.items() if v['basin'] == 'WP'])
@@ -76,11 +77,12 @@ S.append({'id': 'climate', 'title': '7. Climate context', 'html': (
     f"<p>Koguma fits the El Niño pattern in the western North Pacific: genesis in the southeast of the basin {c('wang2002')}, a long track over warm water and high intensity {c('camargo2005')}. The western Pacific season's ACE was 41% above normal by late October {c('csu')}. No attribution study exists for Koguma.</p>")})
 S.append({'id': 'uncertainty', 'title': '8. Uncertainties', 'html': (
     "<ul><li>Intensities are provisional. JTWC (1-minute, 119 kt, 941 mb) and JMA (10-minute, 87 kt, 950 hPa) differ in method as well as value; both will be revised.</li>"
-    "<li>Atmospheric conditions (shear, humidity) are not documented for this storm.</li>"
+    "<li>Shear comes from ERA5 on a coarse grid; mid-level humidity and shallow shear are not documented for this storm.</li>"
     "<li>The influence of Nolo is reported second-hand and not tested.</li></ul>")})
 S.append({'id': 'conclusion', 'title': '9. Conclusion', 'html': (
     "<p>Koguma was a textbook El Niño typhoon: born far to the southeast, it travelled more than 4,600 km over warm water, intensified rapidly to Category 4 strength and recurved without touching land. It shows the intensity the basin can produce in a strong El Niño year even when the outcome is harmless.</p>")})
 EVID = [
+    ['ERA5 deep-layer shear', f"{shear_between(N, '2026-10-05', '2026-10-08 18')[0]:.0f}–{shear_between(N, '2026-10-05', '2026-10-08 18')[1]:.0f} kt on 5–8 Oct, {shear_between(N, '2026-10-09', '2026-10-10 18')[0]:.0f}–{shear_between(N, '2026-10-09', '2026-10-10 18')[1]:.0f} kt on 9–10 Oct", 'Its drop coincided with rapid intensification', 'Reanalysis (ERA5); timing', 'Medium', c('hersbach2020')],
     ['Southeastern genesis', f"First fix {pos(*o['genesis'])}", 'Long track over warm water', 'Observed; literature for the El Niño shift', 'High', f"{c('knapp2010')} {c('wang2002')}"],
     ['Warm ocean', f"SST {pre['sst_mean']:.1f} °C ({pre['ssta_mean']:+.1f}) up to the peak", 'Supported rapid intensification', 'Observed (OISST)', 'High', c('huang2021')],
     ['Fast motion', f"Mean {o['mean_speed_kmh']} km/h", 'Limited self-induced cooling', 'Observed; physical reasoning', 'Medium', c('price1981')],
@@ -91,7 +93,7 @@ paper = dict(storm=N, order=3, file='tc-2026-koguma.html', short='Typhoon Koguma
              title='Typhoon Koguma (October 2026): an El Niño typhoon over the open Pacific', basin_name='Western North Pacific',
              description='Research paper on Typhoon Koguma, western North Pacific, October 2026.', status='draft', research_date='24 October 2026',
              obs_cutoff='IBTrACS to 13 Oct; JMA via Weathernews (9 Oct); NWS Guam via press (11 Oct)', track_source='IBTrACS v04r01 (provisional, JTWC values)',
-             status_note='Draft for review (24 Oct 2026). Built from provisional JTWC data and secondary reports of JMA and NWS Guam products; atmospheric conditions not documented.',
+             status_note='Draft for review (24 Oct 2026). Built from provisional JTWC data and secondary reports of JMA and NWS Guam products; ERA5 shear added; humidity not documented.',
              toc=[(s['id'], s['title']) for s in S] + [('evidence', 'Evidence table'), ('references', 'References')], sections=S, evidence=EVID, references=R)
 (ROOT / 'tc2026/koguma.json').write_text(json.dumps(paper, ensure_ascii=False, indent=1), encoding='utf-8')
 print('ok', sum(len(s['html'].split()) for s in S), 'words', smin)

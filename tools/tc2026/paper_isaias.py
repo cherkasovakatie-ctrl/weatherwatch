@@ -1,7 +1,7 @@
 """Paper: Hurricane Isaias (Gulf of America / Mexico, 4–11 October 2026)."""
 import json
 
-from common import METHODS, REFS, ROOT, T, dtm, facts, fig, kt2mph, mjo, pos, refs, sst_summary
+from common import shear_between, METHODS, REFS, ROOT, T, dtm, facts, fig, kt2mph, mjo, pos, refs, sst_summary
 
 N = 'ISAIAS'; o = T[N]
 pre = sst_summary(N, until='2026-10-09 18:00')
@@ -9,7 +9,7 @@ m6, m8 = mjo('2026-10-06'), mjo('2026-10-08')
 F = {f[0]: f for f in o['fixes']}
 NHC = 'https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.{:03d}.shtml'
 d = lambda n: f'<a href="{NHC.format(n)}">NHC discussion {n}</a>'  # noqa: E731
-KEYS = ['knapp2010', 'kaplan2003', 'huang2021', 'wheeler2004', 'gray1984', 'klotzbach2010', 'price1981', 'csu', 'paper4']
+KEYS = ['knapp2010', 'kaplan2003', 'huang2021', 'wheeler2004', 'gray1984', 'klotzbach2010', 'price1981', 'csu', 'paper4', 'hersbach2020']
 EXTRA = [('nhc', 'National Hurricane Center: Hurricane Isaias (AL092026) advisory archive, forecast discussions 1–20, 6–11 October 2026 (US Government, public domain). Text copies in data/tc2026/nhc/ISAIAS/.', 'https://www.nhc.noaa.gov/archive/2026/ISAIAS.shtml', 'read in full'),
          ('tae', 'NWS Tallahassee (2026). Post-Tropical Cyclone Report, Hurricane Isaias (preliminary, issued 11 October 2026).', 'https://www.weather.gov/media/tae/TropicalEventSummary/PSHTAE_2026AL09_Isaias_Summary.pdf', 'read'),
          ('npr', 'NPR / WUNC (2026). At least 4 deaths attributed to Isaias after hurricane bashes Florida and Alabama. 10–11 October 2026.', 'https://www.wunc.org/2026-10-10/at-least-4-deaths-attributed-to-isaias-after-hurricane-bashes-florida-and-alabama', 'read'),
@@ -53,6 +53,7 @@ S.append({'id': 'environment', 'title': '4. Environment', 'html': (
     f"<p><b>Ocean.</b> The water along Isaias's track was {pre['sst_mean']:.1f} °C on average three days before it arrived and up to {pre['sst_max']:.1f} °C, with anomalies of +0.5 to {pre['ssta_max']:+.1f} °C. Climate Central's rapid analysis found waters above 31 °C over the area of rapid intensification and estimated that climate change made them 1.4 °C warmer and 4 to 600 times more likely {c('cc')}. "
     f"The cold wake was modest (up to {abs(pre['wake_min']):.1f} °C) because Isaias moved quickly over the central Gulf {c('price1981')}.</p>"
     f"<p><b>Shear.</b> Isaias intensified under moderate westerly to southwesterly shear, with a vortex tilted with height and an eyewall repeatedly open on the southwest side {d(6)}, {d(7)}, {d(10)}; the warm water appears to have outweighed the shear until 9 October. The final increase in shear, to 30–40 kt, was forecast; the hurricane centre noted that a delay of about six hours in its onset could have brought a stronger landfall {d(11)}, {d(13)}.</p>"
+    f"<p><b>ERA5 shear.</b> Deep-layer shear around Isaias was {shear_between(N, '2026-10-07', '2026-10-08 18')[0]:.0f}–{shear_between(N, '2026-10-07', '2026-10-08 18')[1]:.0f} kt on 7–8 October, while it intensified rapidly, and {shear_between(N, '2026-10-09', '2026-10-09 18')[1]:.0f} kt on 9 October, rising to {shear_between(N, '2026-10-10', '2026-10-10 18')[1]:.0f} kt at landfall (Figure 1), consistent with the 30–40 kt cited by forecasters. Rapid intensification under 16–19 kt of shear is unusual and underlines how much the warm Gulf contributed.</p>"
     f"<p><b>MJO.</b> The RMM index was in phase {m6[0]} (amplitude {m6[1]:.1f}) at genesis and phase {m8[0]} ({m8[1]:.1f}) during intensification. Atlantic and Gulf activity varies strongly with MJO phase {c('klotzbach2010')}; whether this phase helped Isaias is not tested here.</p>")})
 S.append({'id': 'impacts', 'title': '5. Impacts', 'html': (
     f"<p><b>Wind.</b> Hurricane-force winds damaged roofs and buildings along the coast; preliminary observations include a gust of 117 mph at Oriole Beach {c('accu')} and 79 kt (91 mph) at Choctaw Beach, with 63 kt sustained at Panama City Beach {c('tae')}. As many as 930,000 customers lost power at the peak {c('accu')}; Santa Rosa, Holmes, Washington and Walton counties each had more than 80% of residents without power {c('npr')}. NASA's night-lights imagery showed much of the Pensacola area dark on 11 October {c('nasa')}.</p>"
@@ -71,6 +72,7 @@ S.append({'id': 'conclusion', 'title': '8. Conclusion', 'html': (
     "<p>Isaias shows that a suppressed season can still produce a damaging hurricane where the ocean is warm enough. Over a Gulf about 2 °C warmer than normal it intensified rapidly despite moderate shear, and only a well-timed increase in shear before landfall kept it to Category 2 at the coast. "
     "Its effects, from wind damage and outages to inland flooding and tornadoes, extended far beyond the landfall point.</p>")})
 EVID = [
+    ['ERA5 deep-layer shear', f"{shear_between(N, '2026-10-07', '2026-10-08 18')[0]:.0f}–{shear_between(N, '2026-10-07', '2026-10-08 18')[1]:.0f} kt during RI; {shear_between(N, '2026-10-10', '2026-10-10 18')[1]:.0f} kt at landfall", 'Moderate shear tolerated; strong shear weakened Isaias before landfall', 'Reanalysis (ERA5)', 'High', c('hersbach2020')],
     ['Very warm Gulf', f"SST {pre['sst_mean']:.1f} °C ({pre['ssta_mean']:+.1f}) along the track; >31 °C over the RI area", 'Main energy source for rapid intensification', 'Observed (OISST); attribution study', 'High', f"{c('huang2021')} {c('cc')}"],
     ['Centre re-formation', '7 Oct, closer to the mid-level centre', 'Allowed intensification to begin', 'Aircraft observation (NHC)', 'Medium', c('nhc')],
     ['Moderate shear', 'Westerly to southwesterly, tilted vortex 7–8 Oct', 'Slowed but did not stop intensification', 'Aircraft radar, microwave (NHC)', 'High', c('nhc')],

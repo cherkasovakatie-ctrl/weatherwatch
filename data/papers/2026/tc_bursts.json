@@ -877,11 +877,11 @@
  "year2026": {
   "2026": {
    "n": 14,
-   "with_tc": 8,
-   "twin": 1,
-   "expected_with_tc": 7.6,
-   "expected_twin": 0.7,
-   "window": "2026-03-01 to 2026-09-30",
+   "with_tc": 9,
+   "twin": 2,
+   "expected_with_tc": 8.5,
+   "expected_twin": 0.8,
+   "window": "2026-03-01 to 2026-10-18",
    "bursts": [
     {
      "start": "2026-03-17",
@@ -1026,12 +1026,20 @@
     },
     {
      "start": "2026-09-28",
-     "end": "2026-09-30",
-     "lon_w": 165.0,
-     "lon_e": 180.0,
-     "nh": [],
-     "sh": [],
-     "twin": false
+     "end": "2026-10-18",
+     "lon_w": 157.5,
+     "lon_e": 210.0,
+     "nh": [
+      "CHAMPI",
+      "CHOI-WAN",
+      "KOGUMA",
+      "NOLO",
+      "UNNAMED"
+     ],
+     "sh": [
+      "WATI"
+     ],
+     "twin": true
     }
    ],
    "lowlat_genesis_jan_oct": 8,

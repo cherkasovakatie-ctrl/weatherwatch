@@ -1,7 +1,7 @@
 """Paper: Hurricane Trudy (eastern Pacific, 11–20 October 2026). Numbers are read from data files via common.py."""
 import json
 
-from common import METHODS, ROOT, T, day, dtm, env_at, facts, fig, kt2mph, mjo, pos, refs, sst_summary
+from common import shear_between, METHODS, ROOT, T, day, dtm, env_at, facts, fig, kt2mph, mjo, pos, refs, sst_summary
 
 N = 'TRUDY'; o = T[N]
 s_all = sst_summary(N)
@@ -13,7 +13,7 @@ m13, m16 = mjo('2026-10-13'), mjo('2026-10-16')
 ri = o['ri_episodes'][0]
 NHC = 'https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.{:03d}.shtml'
 d = lambda n: f'<a href="{NHC.format(n)}">NHC discussion {n}</a>'  # noqa: E731
-KEYS = ['knapp2010', 'kaplan2003', 'huang2021', 'wheeler2004', 'price1981', 'maloney2000', 'csu', 'paper4']
+KEYS = ['knapp2010', 'kaplan2003', 'huang2021', 'wheeler2004', 'price1981', 'maloney2000', 'csu', 'paper4', 'hersbach2020']
 EXTRA = [('nhc', 'National Hurricane Center: Hurricane Trudy (EP212026) advisory archive, forecast discussions 1–27, 13–20 October 2026 (US Government, public domain). Text copies in data/tc2026/nhc/TRUDY/.', 'https://www.nhc.noaa.gov/archive/2026/TRUDY.shtml', 'read in full'),
          ('ap18', 'Associated Press (2026). Hurricane Trudy brings heavy rain and strong winds to Mexico\'s Pacific coast. 18 October 2026 (via ABC30 and KPRC).', 'https://abc30.com/story/hurricane-trudy-lashes-mexicos-pacific-coast-heavy-rain-strong-winds/19951948/', 'read'),
          ('reuters18', 'Reuters (2026). Hurricane Trudy weakens off Mexico\'s Pacific coast. 18 October 2026 (via KSL).', 'https://www.ksl.com/article/51637803/hurricane-trudy-weakens-off-mexicos-pacific-coast-as-cleanup-effort-begins', 'read'),
@@ -66,6 +66,7 @@ S.append({'id': 'ocean', 'title': '4. The ocean beneath: a corridor of cold wake
         f"<p><b>Trudy's own wake</b> was modest: the largest cooling under its track was {abs(s_all['wake_min']):.1f} °C, smaller than Rachel's (more than 2 °C), because Trudy crossed water that had already been mixed.</p>")})
 S.append({'id': 'atmos', 'title': '5. Atmosphere and steering', 'html': (
     f"<p><b>Shear and moisture.</b> Through 16 October the forecasters described a moist, low-shear environment over very warm water {d(12)}; the two pauses were attributed to dry air entering the core rather than to shear {d(10)}, {d(13)}. From 17 October the UW-CIMSS analysis put the shear at about 14 kt, with the vortex tilted to the northeast with height {d(16)}, {d(19)}; from the evening of 18 October southwesterly shear and drier, more stable air ended the hurricane {d(23)}.</p>"
+    f"<p><b>ERA5 shear.</b> The deep-layer (200–850 hPa) shear around Trudy was {shear_between(N, '2026-10-13', '2026-10-17 18')[0]:.0f}–{shear_between(N, '2026-10-13', '2026-10-17 18')[1]:.0f} kt from 13 to 17 October, mostly below 10 kt, and was only about 3 kt on 16 October, the day of the collapse. It rose to {shear_between(N, '2026-10-18', '2026-10-18 18')[1]:.0f} kt on 18 October, when the final weakening began (Figure 1; data end on 18 October). The large-scale shear therefore cannot explain the collapse of 16 October, which strengthens the case for the ocean and dry air.</p>"
     f"<p><b>MJO.</b> The RMM index was in phase {m13[0]} (amplitude {m13[1]:.1f}) at genesis and phase {m16[0]} ({m16[1]:.1f}) at the peak, an active MJO with enhanced convection over the Indian Ocean. The MJO modulates eastern Pacific hurricanes through low-level westerly anomalies {c('maloney2000')}; whether this phase helped or hindered Trudy is not tested here.</p>"
     f"<p><b>Steering.</b> Trudy first moved west-northwestward south of a mid-level ridge over central Mexico. The ridge weakened as a mid- to upper-level trough developed over the western Gulf, and forecasters noted that Simon, then about 700 n mi away, could interact with Trudy's steering as the two came within 500 miles {d(5)}. Trudy turned north-northwestward into the weakness, briefly drifted west and stalled on 16 October {d(12)}, then moved northwestward parallel to the coast as a weak ridge rebuilt over eastern Mexico. Once weakened and shallow, it was steered west and then northwest by the low-level flow, south of Baja California Sur {d(24)}.</p>")})
 S.append({'id': 'impacts', 'title': '6. Impacts', 'html': (
@@ -85,6 +86,7 @@ S.append({'id': 'conclusion', 'title': '9. Conclusion', 'html': (
     "<p>Trudy had every ingredient for a stronger hurricane except fresh water: it intensified rapidly over warm, moist, low-shear conditions, but its path ran through a corridor that Polo, Rachel and Simon had crossed in the previous four weeks, where the sea had cooled by up to about 2 °C. "
     "Its peak was brief and is uncertain, and it recovered only partly before shear and dry air ended it. The case is a clear example of how a hyperactive season can limit itself through the ocean.</p>")})
 EVID = [
+    ['ERA5 deep-layer shear', f"{shear_between(N, '2026-10-13', '2026-10-17 18')[0]:.0f}–{shear_between(N, '2026-10-13', '2026-10-17 18')[1]:.0f} kt to 17 Oct; ~19 kt on 18 Oct", 'Not the cause of the 16 Oct collapse; part of the final decay', 'Reanalysis (ERA5)', 'High', c('hersbach2020')],
     ['Warm, moist, low-shear start', f"SST {early['sst_mean']:.1f} °C ({early['ssta_mean']:+.1f}) to 14 Oct; low shear and moist air per NHC", 'Allowed genesis and rapid intensification', 'Observed (OISST); operational analysis', 'High', f"{c('huang2021')} {c('nhc')}"],
     ['Dry-air intrusions', '15 Oct (north side) and 16 Oct (south side, eyewall open)', 'Interrupted intensification', 'Satellite and microwave interpretation (NHC)', 'Medium', c('nhc')],
     ['Cold wakes of Polo, Rachel and Simon', f"Pre-storm SST at peak position {float(pk['sst_pre_c']):.1f} °C ({float(pk['ssta_pre_c']):+.1f}); 1–3 °C cooler than before the earlier storms", 'Limited peak and contributed to the collapse on 16 Oct', 'Observed SST; mechanism by physical reasoning', 'Medium', f"{c('price1981')} {c('nhc')}"],

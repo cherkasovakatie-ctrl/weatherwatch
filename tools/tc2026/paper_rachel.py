@@ -1,7 +1,7 @@
 """Paper: Hurricane Rachel (eastern Pacific, 25 September – 11 October 2026)."""
 import json
 
-from common import METHODS, ROOT, T, dtm, env, facts, fig, kt2mph, mjo, pos, refs, sst_summary
+from common import shear_between, METHODS, ROOT, T, dtm, env, facts, fig, kt2mph, mjo, pos, refs, sst_summary
 
 N = 'RACHEL'; o = T[N]
 pre = sst_summary(N, until='2026-10-02 00:00'); s_all = sst_summary(N)
@@ -13,7 +13,7 @@ m27, m01 = mjo('2026-09-27'), mjo('2026-10-01')
 F = {f[0]: f for f in o['fixes']}
 NHC = 'https://www.nhc.noaa.gov/archive/2026/ep18/ep182026.discus.{:03d}.shtml'
 d = lambda n: f'<a href="{NHC.format(n)}">NHC discussion {n}</a>'  # noqa: E731
-KEYS = ['knapp2010', 'kaplan2003', 'huang2021', 'wheeler2004', 'price1981', 'maloney2000', 'csu', 'paper4']
+KEYS = ['knapp2010', 'kaplan2003', 'huang2021', 'wheeler2004', 'price1981', 'maloney2000', 'csu', 'paper4', 'hersbach2020']
 EXTRA = [('nhc', 'National Hurricane Center: Hurricane Rachel (EP182026) advisory archive, forecast discussions 1–58, 27 September – 11 October 2026 (US Government, public domain). Text copies in data/tc2026/nhc/RACHEL/.', 'https://www.nhc.noaa.gov/archive/2026/RACHEL.shtml', 'read in full'),
          ('ap13', 'Associated Press (2026). Death toll rises to 6 as Hurricane Simon and Rachel remnants unleash floods in Mexico. 13 October 2026 (via ITV News).', 'https://www.itv.com/news/2026-10-13/hurricane-remnants-unleash-deadly-floods-in-mexico-killing-at-least-6', 'read'),
          ('star16', 'Reuters/Bernama (2026). Death toll from Tropical Storm Rachel rises to 8 in northwestern Mexico. 16 October 2026 (via The Star).', 'https://www.thestar.com.my/news/world/2026/10/16/death-toll-from-tropical-storm-rachel-rises-to-8-in-northwestern-mexico', 'read'),
@@ -55,6 +55,7 @@ S.append({'id': 'environment', 'title': '4. Environment', 'html': (
     f"Near Baja California on 11 October the sea was {float(E['2026-10-11 00']['sst_pre_c']):.1f} °C, {float(E['2026-10-11 00']['ssta_pre_c']):+.1f} °C above normal: too cool to sustain a hurricane, but an exceptional marine heatwave. "
     f"Rachel's slow motion produced the strongest cold wake of the storms in this batch: up to {abs(s_all['wake_min']):.1f} °C {c('price1981')}. The wake it left near 14°N, 102°W on 29 September was still visible two weeks later under Trudy (see the Trudy paper).</p>"
     f"<p><b>Shear and moisture.</b> Northeasterly shear of 15–20 kt persisted from 27 September to 30 September {d(6)}, {d(14)}; dry air intruded repeatedly after the peak {d(26)}, {d(32)}, {d(34)}; strong southwesterly shear accompanied the transition {d(54)}.</p>"
+    f"<p><b>ERA5 shear.</b> Deep-layer shear around Rachel was {shear_between(N, '2026-09-27', '2026-09-30 18')[0]:.0f}–{shear_between(N, '2026-09-27', '2026-09-30 18')[1]:.0f} kt from 27 to 30 September, matching the forecasters' estimates of about 20 kt, and fell to {shear_between(N, '2026-10-01', '2026-10-01 18')[0]:.0f} kt on 1 October, the day of rapid intensification. During the long westward drift it was {shear_between(N, '2026-10-06', '2026-10-09 18')[0]:.0f}–{shear_between(N, '2026-10-06', '2026-10-09 18')[1]:.0f} kt, so dry air and cooler water, not shear, wore Rachel down; it reached {shear_between(N, '2026-10-11', '2026-10-11 18')[1]:.0f} kt during the post-tropical transition (Figure 1).</p>"
     f"<p><b>MJO.</b> RMM phase {m27[0]} (amplitude {m27[1]:.1f}) at genesis and phase {m01[0]} ({m01[1]:.1f}) during rapid intensification {c('maloney2000')}; not tested further.</p>")})
 S.append({'id': 'impacts', 'title': '5. Impacts', 'html': (
     f"<p><b>Baja California.</b> Heavy rain from Rachel's remnant caused flooding and landslides in the municipality of Ensenada over the weekend of 10–11 October and knocked out power; a stream in the Buena Vista community overflowed, sweeping away vehicles, animals and a cabin {c('ap13')}. "
@@ -73,6 +74,7 @@ S.append({'id': 'conclusion', 'title': '8. Conclusion', 'html': (
     "<p>Rachel strengthened despite persistent shear, peaked briefly as a major hurricane over open water and lingered as a hurricane for almost a week over an ocean warmed by El Niño. "
     "Its greatest harm came later, as a fast-moving post-tropical cyclone whose rain flooded Ensenada and whose waves reached a Southern California coast already running high. The case shows why post-tropical remnants deserve the same attention as the hurricane itself.</p>")})
 EVID = [
+    ['ERA5 deep-layer shear', f"{shear_between(N, '2026-09-27', '2026-09-30 18')[0]:.0f}–{shear_between(N, '2026-09-27', '2026-09-30 18')[1]:.0f} kt on 27–30 Sep; {shear_between(N, '2026-10-01', '2026-10-01 18')[0]:.0f} kt on 1 Oct", 'Delayed development; its relaxation allowed RI', 'Reanalysis (ERA5)', 'High', c('hersbach2020')],
     ['Warm ocean', f"{pre['sst_mean']:.1f} °C ({pre['ssta_mean']:+.1f}) before the peak; {late_sst:.1f} °C ({late_a:+.1f}) on 6–9 Oct", 'Allowed strengthening and a long hurricane life', 'Observed (OISST)', 'High', c('huang2021')],
     ['Northeasterly shear', '~20 kt, 27–30 Sep', 'Slowed early development', 'Operational analysis', 'High', c('nhc')],
     ['Dry-air intrusions', 'Repeated after the peak', 'Caused fluctuations and slow weakening', 'Satellite interpretation (NHC)', 'Medium', c('nhc')],

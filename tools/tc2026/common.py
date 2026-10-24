@@ -76,7 +76,7 @@ METHODS = ("<p><b>Track and intensity.</b> Six-hourly positions, 1-minute maximu
            "Rapid intensification (RI) is an increase of at least 30 kt in 24 hours <a href=\"#ref-kaplan2003\">[2]</a>. Accumulated cyclone energy (ACE) sums the squared 6-hourly winds at tropical-storm strength or above.</p>"
            "<p><b>Ocean.</b> Sea-surface temperature (SST) and its anomaly against 1991–2020 from NOAA OISST v2.1 daily <a href=\"#ref-huang2021\">[3]</a>, sampled at each 6-hourly position three days before the storm arrived, so that the storm's own cooling is excluded; the change from three days before to three days after gives the cold wake. OISST is a 0.25° analysis and smooths very small wakes.</p>"
            "<p><b>Atmosphere.</b> Wind shear and mid-level humidity are taken from the forecasters' own analyses in the advisories and discussions (which use the SHIPS model and satellite estimates), quoted with date and time. "
-           "Our planned reanalysis diagnostics could not be computed because the NCEP/NCAR Reanalysis 1 daily files for 2026 end on 17 March 2026. The Madden–Julian oscillation (MJO) is described by the real-time RMM index <a href=\"#ref-wheeler2004\">[4]</a> (phase and amplitude; amplitude ≥ 1 means an active MJO). "
+           "In addition, the deep-layer (200–850 hPa) vertical wind shear was computed from ERA5 (Hersbach et al. 2020, in the references) as the difference of the winds averaged over a 200–800 km ring around each position, using daily means of 00 and 12 UTC on a 2.5° grid, with data to 18 October 2026. This coarse estimate captures the large-scale shear but not shallower or mid-level shear, which forecasters sometimes cite. The Madden–Julian oscillation (MJO) is described by the real-time RMM index <a href=\"#ref-wheeler2004\">[4]</a> (phase and amplitude; amplitude ≥ 1 means an active MJO). "
            "ENSO values are NOAA CPC indices (RONI JAS 2026 +1.69 °C; weekly relative Niño 3.4 +2.4 °C in mid-October).</p>"
            "<p><b>Impacts.</b> Deaths, damage and observations are taken from official statements where available and otherwise from wire-service reports, each cited; figures are preliminary.</p>")
 
@@ -93,6 +93,7 @@ REFS = {
     'wang2002': ("Wang, B., and J. C. L. Chan (2002). How strong ENSO events affect tropical storm activity over the western North Pacific. <i>Journal of Climate</i> 15, 1643–1658.", '10.1175/1520-0442(2002)015<1643:HSEEAT>2.0.CO;2', None, 'abstract read'),
     'camargo2005': ("Camargo, S. J., and A. H. Sobel (2005). Western North Pacific tropical cyclone intensity and ENSO. <i>Journal of Climate</i> 18, 2996–3006.", '10.1175/JCLI3457.1', None, 'abstract read'),
     'csu': ("Colorado State University, Department of Atmospheric Science: real-time tropical cyclone season statistics (ACE and storm counts to date by basin), read 22–23 October 2026; site copy data/ace_season.csv.", None, 'https://tropical.atmos.colostate.edu/Realtime/', 'data read'),
+    'hersbach2020': ("Hersbach, H., et al. (2020). The ERA5 global reanalysis. <i>Quarterly Journal of the Royal Meteorological Society</i> 146, 1999–2049. 2026 data: Copernicus Climate Change Service Climate Data Store (u, v at 850 and 200 hPa, to 18 October 2026).", '10.1002/qj.3803', None, 'full text read (open access); data processed'),
     'paper4': ("Global Weather Watch (2026). The 2026 El Niño against 1982–83, 1997–98 and 2015–16: a preliminary comparison (Paper 4).", None, 'enso-2026.html', 'own analysis'),
 }
 
@@ -107,3 +108,16 @@ def refs(keys, extra=()):
 def num(keys):
     """Map reference keys to their numbers in the final list."""
     return {k: i + 1 for i, k in enumerate(keys)}
+
+
+SH = [r for r in csv.DictReader(open(ROOT / 'data/tc2026/era5_shear.csv', encoding='utf-8'))]
+
+
+def shear(name):
+    """List of (time, shear_kt) where ERA5 is available."""
+    return [(r['time'], float(r['shear_kt'])) for r in SH if r['name'] == name and r['shear_kt'] != '']
+
+
+def shear_between(name, a, b):
+    v = [x for t, x in shear(name) if a <= t <= b]
+    return (min(v), max(v), sum(v) / len(v)) if v else None

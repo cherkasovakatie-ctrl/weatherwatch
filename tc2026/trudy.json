@@ -85,7 +85,7 @@
   {
    "id": "methods",
    "title": "2. Data and methods",
-   "html": "<p><b>Track and intensity.</b> Six-hourly positions, 1-minute maximum sustained winds and minimum pressures from IBTrACS v04r01 <a href=\"#ref-knapp2010\">[1]</a>, downloaded on 24 October 2026. For 2026 these are <i>provisional</i> values carried over from the operational advisories (National Hurricane Center); the official best track, issued in the post-season report, can differ. Rapid intensification (RI) is an increase of at least 30 kt in 24 hours <a href=\"#ref-kaplan2003\">[2]</a>. Accumulated cyclone energy (ACE) sums the squared 6-hourly winds at tropical-storm strength or above.</p><p><b>Ocean.</b> Sea-surface temperature (SST) and its anomaly against 1991–2020 from NOAA OISST v2.1 daily <a href=\"#ref-huang2021\">[3]</a>, sampled at each 6-hourly position three days before the storm arrived, so that the storm's own cooling is excluded; the change from three days before to three days after gives the cold wake. OISST is a 0.25° analysis and smooths very small wakes.</p><p><b>Atmosphere.</b> Wind shear and mid-level humidity are taken from the forecasters' own analyses in the advisories and discussions (which use the SHIPS model and satellite estimates), quoted with date and time. Our planned reanalysis diagnostics could not be computed because the NCEP/NCAR Reanalysis 1 daily files for 2026 end on 17 March 2026. The Madden–Julian oscillation (MJO) is described by the real-time RMM index <a href=\"#ref-wheeler2004\">[4]</a> (phase and amplitude; amplitude ≥ 1 means an active MJO). ENSO values are NOAA CPC indices (RONI JAS 2026 +1.69 °C; weekly relative Niño 3.4 +2.4 °C in mid-October).</p><p><b>Impacts.</b> Deaths, damage and observations are taken from official statements where available and otherwise from wire-service reports, each cited; figures are preliminary.</p>"
+   "html": "<p><b>Track and intensity.</b> Six-hourly positions, 1-minute maximum sustained winds and minimum pressures from IBTrACS v04r01 <a href=\"#ref-knapp2010\">[1]</a>, downloaded on 24 October 2026. For 2026 these are <i>provisional</i> values carried over from the operational advisories (National Hurricane Center); the official best track, issued in the post-season report, can differ. Rapid intensification (RI) is an increase of at least 30 kt in 24 hours <a href=\"#ref-kaplan2003\">[2]</a>. Accumulated cyclone energy (ACE) sums the squared 6-hourly winds at tropical-storm strength or above.</p><p><b>Ocean.</b> Sea-surface temperature (SST) and its anomaly against 1991–2020 from NOAA OISST v2.1 daily <a href=\"#ref-huang2021\">[3]</a>, sampled at each 6-hourly position three days before the storm arrived, so that the storm's own cooling is excluded; the change from three days before to three days after gives the cold wake. OISST is a 0.25° analysis and smooths very small wakes.</p><p><b>Atmosphere.</b> Wind shear and mid-level humidity are taken from the forecasters' own analyses in the advisories and discussions (which use the SHIPS model and satellite estimates), quoted with date and time. In addition, the deep-layer (200–850 hPa) vertical wind shear was computed from ERA5 (Hersbach et al. 2020, in the references) as the difference of the winds averaged over a 200–800 km ring around each position, using daily means of 00 and 12 UTC on a 2.5° grid, with data to 18 October 2026. This coarse estimate captures the large-scale shear but not shallower or mid-level shear, which forecasters sometimes cite. The Madden–Julian oscillation (MJO) is described by the real-time RMM index <a href=\"#ref-wheeler2004\">[4]</a> (phase and amplitude; amplitude ≥ 1 means an active MJO). ENSO values are NOAA CPC indices (RONI JAS 2026 +1.69 °C; weekly relative Niño 3.4 +2.4 °C in mid-October).</p><p><b>Impacts.</b> Deaths, damage and observations are taken from official statements where available and otherwise from wire-service reports, each cited; figures are preliminary.</p>"
   },
   {
    "id": "lifecycle",
@@ -179,12 +179,12 @@
   {
    "id": "atmos",
    "title": "5. Atmosphere and steering",
-   "html": "<p><b>Shear and moisture.</b> Through 16 October the forecasters described a moist, low-shear environment over very warm water <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.012.shtml\">NHC discussion 12</a>; the two pauses were attributed to dry air entering the core rather than to shear <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.010.shtml\">NHC discussion 10</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.013.shtml\">NHC discussion 13</a>. From 17 October the UW-CIMSS analysis put the shear at about 14 kt, with the vortex tilted to the northeast with height <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.016.shtml\">NHC discussion 16</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.019.shtml\">NHC discussion 19</a>; from the evening of 18 October southwesterly shear and drier, more stable air ended the hurricane <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.023.shtml\">NHC discussion 23</a>.</p><p><b>MJO.</b> The RMM index was in phase 2 (amplitude 1.3) at genesis and phase 3 (1.1) at the peak, an active MJO with enhanced convection over the Indian Ocean. The MJO modulates eastern Pacific hurricanes through low-level westerly anomalies <a href=\"#ref-maloney2000\">[6]</a>; whether this phase helped or hindered Trudy is not tested here.</p><p><b>Steering.</b> Trudy first moved west-northwestward south of a mid-level ridge over central Mexico. The ridge weakened as a mid- to upper-level trough developed over the western Gulf, and forecasters noted that Simon, then about 700 n mi away, could interact with Trudy's steering as the two came within 500 miles <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.005.shtml\">NHC discussion 5</a>. Trudy turned north-northwestward into the weakness, briefly drifted west and stalled on 16 October <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.012.shtml\">NHC discussion 12</a>, then moved northwestward parallel to the coast as a weak ridge rebuilt over eastern Mexico. Once weakened and shallow, it was steered west and then northwest by the low-level flow, south of Baja California Sur <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.024.shtml\">NHC discussion 24</a>.</p>"
+   "html": "<p><b>Shear and moisture.</b> Through 16 October the forecasters described a moist, low-shear environment over very warm water <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.012.shtml\">NHC discussion 12</a>; the two pauses were attributed to dry air entering the core rather than to shear <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.010.shtml\">NHC discussion 10</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.013.shtml\">NHC discussion 13</a>. From 17 October the UW-CIMSS analysis put the shear at about 14 kt, with the vortex tilted to the northeast with height <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.016.shtml\">NHC discussion 16</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.019.shtml\">NHC discussion 19</a>; from the evening of 18 October southwesterly shear and drier, more stable air ended the hurricane <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.023.shtml\">NHC discussion 23</a>.</p><p><b>ERA5 shear.</b> The deep-layer (200–850 hPa) shear around Trudy was 2–14 kt from 13 to 17 October, mostly below 10 kt, and was only about 3 kt on 16 October, the day of the collapse. It rose to 21 kt on 18 October, when the final weakening began (Figure 1; data end on 18 October). The large-scale shear therefore cannot explain the collapse of 16 October, which strengthens the case for the ocean and dry air.</p><p><b>MJO.</b> The RMM index was in phase 2 (amplitude 1.3) at genesis and phase 3 (1.1) at the peak, an active MJO with enhanced convection over the Indian Ocean. The MJO modulates eastern Pacific hurricanes through low-level westerly anomalies <a href=\"#ref-maloney2000\">[6]</a>; whether this phase helped or hindered Trudy is not tested here.</p><p><b>Steering.</b> Trudy first moved west-northwestward south of a mid-level ridge over central Mexico. The ridge weakened as a mid- to upper-level trough developed over the western Gulf, and forecasters noted that Simon, then about 700 n mi away, could interact with Trudy's steering as the two came within 500 miles <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.005.shtml\">NHC discussion 5</a>. Trudy turned north-northwestward into the weakness, briefly drifted west and stalled on 16 October <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.012.shtml\">NHC discussion 12</a>, then moved northwestward parallel to the coast as a weak ridge rebuilt over eastern Mexico. Once weakened and shallow, it was steered west and then northwest by the low-level flow, south of Baja California Sur <a href=\"https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.discus.024.shtml\">NHC discussion 24</a>.</p>"
   },
   {
    "id": "impacts",
    "title": "6. Impacts",
-   "html": "<p>Trudy's centre stayed offshore; its closest provisional position was about 160 km from land on 18 October. On 18 October a tropical storm warning remained from Playa Perula to San Blas and for the Islas Marías; forecasts called for 100–200 mm of rain (isolated 300 mm) in Michoacán, Colima and Jalisco, with a risk of floods and mudslides on slopes saturated by Simon <a href=\"#ref-ap18\">[10]</a>. On 18 October the government discontinued all warnings as Trudy moved away <a href=\"#ref-reuters18\">[11]</a>. No deaths or significant damage attributed to Trudy had been reported by 19 October <a href=\"#ref-reuters18\">[11]</a>, <a href=\"#ref-ap19\">[12]</a>. Rainfall totals were not available for this paper.</p><p>The cumulative effect of the four storms on the same coast, with saturated ground and repeated evacuations, was a recurring theme of official messages; Simon's and Rachel's impacts are described in their own papers.</p>"
+   "html": "<p>Trudy's centre stayed offshore; its closest provisional position was about 160 km from land on 18 October. On 18 October a tropical storm warning remained from Playa Perula to San Blas and for the Islas Marías; forecasts called for 100–200 mm of rain (isolated 300 mm) in Michoacán, Colima and Jalisco, with a risk of floods and mudslides on slopes saturated by Simon <a href=\"#ref-ap18\">[11]</a>. On 18 October the government discontinued all warnings as Trudy moved away <a href=\"#ref-reuters18\">[12]</a>. No deaths or significant damage attributed to Trudy had been reported by 19 October <a href=\"#ref-reuters18\">[12]</a>, <a href=\"#ref-ap19\">[13]</a>. Rainfall totals were not available for this paper.</p><p>The cumulative effect of the four storms on the same coast, with saturated ground and repeated evacuations, was a recurring theme of official messages; Simon's and Rachel's impacts are described in their own papers.</p>"
   },
   {
    "id": "climate",
@@ -204,12 +204,20 @@
  ],
  "evidence": [
   [
+   "ERA5 deep-layer shear",
+   "2–14 kt to 17 Oct; ~19 kt on 18 Oct",
+   "Not the cause of the 16 Oct collapse; part of the final decay",
+   "Reanalysis (ERA5)",
+   "High",
+   "<a href=\"#ref-hersbach2020\">[9]</a>"
+  ],
+  [
    "Warm, moist, low-shear start",
    "SST 29.8 °C (+2.2) to 14 Oct; low shear and moist air per NHC",
    "Allowed genesis and rapid intensification",
    "Observed (OISST); operational analysis",
    "High",
-   "<a href=\"#ref-huang2021\">[3]</a> <a href=\"#ref-nhc\">[9]</a>"
+   "<a href=\"#ref-huang2021\">[3]</a> <a href=\"#ref-nhc\">[10]</a>"
   ],
   [
    "Dry-air intrusions",
@@ -217,7 +225,7 @@
    "Interrupted intensification",
    "Satellite and microwave interpretation (NHC)",
    "Medium",
-   "<a href=\"#ref-nhc\">[9]</a>"
+   "<a href=\"#ref-nhc\">[10]</a>"
   ],
   [
    "Cold wakes of Polo, Rachel and Simon",
@@ -225,7 +233,7 @@
    "Limited peak and contributed to the collapse on 16 Oct",
    "Observed SST; mechanism by physical reasoning",
    "Medium",
-   "<a href=\"#ref-price1981\">[5]</a> <a href=\"#ref-nhc\">[9]</a>"
+   "<a href=\"#ref-price1981\">[5]</a> <a href=\"#ref-nhc\">[10]</a>"
   ],
   [
    "Southwesterly shear and dry, stable air",
@@ -233,7 +241,7 @@
    "Caused final decay",
    "Operational analysis (SHIPS, UW-CIMSS)",
    "High",
-   "<a href=\"#ref-nhc\">[9]</a>"
+   "<a href=\"#ref-nhc\">[10]</a>"
   ],
   [
    "Weak steering",
@@ -241,7 +249,7 @@
    "Slow track parallel to the coast; kept centre offshore",
    "Operational analysis",
    "High",
-   "<a href=\"#ref-nhc\">[9]</a>"
+   "<a href=\"#ref-nhc\">[10]</a>"
   ],
   [
    "El Niño background",
@@ -308,6 +316,13 @@
    "doi": null,
    "url": "enso-2026.html",
    "check": "own analysis"
+  },
+  {
+   "key": "hersbach2020",
+   "text": "Hersbach, H., et al. (2020). The ERA5 global reanalysis. <i>Quarterly Journal of the Royal Meteorological Society</i> 146, 1999–2049. 2026 data: Copernicus Climate Change Service Climate Data Store (u, v at 850 and 200 hPa, to 18 October 2026).",
+   "doi": "10.1002/qj.3803",
+   "url": null,
+   "check": "full text read (open access); data processed"
   },
   {
    "key": "nhc",

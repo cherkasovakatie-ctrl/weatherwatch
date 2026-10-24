@@ -5,7 +5,7 @@
   "R1 1979-2000 seasonal cycle plus the mean ERA5-R1 offset. 2026 anomaly = u_ERA5(2026) - fit(d) at the same day of year.",
   "Writes data/papers/2026/era5_wwb_2026.json. Run: python3 tools/papers/wwb_era5_2026.py"
  ],
- "data_end": "2026-09-30",
+ "data_end": "2026-10-18",
  "n_2026": 16,
  "bursts": [
   {
@@ -130,11 +130,11 @@
   },
   {
    "start": "2026-09-28",
-   "end": "2026-09-30",
-   "lon_w": 165.0,
-   "lon_e": 180.0,
-   "peak_lon": 170.0,
-   "peak_anom": 8.0
+   "end": "2026-10-18",
+   "lon_w": 157.5,
+   "lon_e": 210.0,
+   "peak_lon": 195.0,
+   "peak_anom": 11.7
   }
  ],
  "mean_anom_120E_150W_by_month": {
@@ -146,6 +146,7 @@
   "2026-06": 2.42,
   "2026-07": 2.92,
   "2026-08": 2.47,
-  "2026-09": 3.0
+  "2026-09": 3.0,
+  "2026-10": 3.5
  }
 }

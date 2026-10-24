@@ -1,7 +1,7 @@
 """Paper: Hurricane Simon (eastern Pacific, 4–16 October 2026)."""
 import json
 
-from common import METHODS, ROOT, T, dtm, env_at, facts, fig, kt2mph, mjo, pos, refs, sst_summary
+from common import shear_between, METHODS, ROOT, T, dtm, env_at, facts, fig, kt2mph, mjo, pos, refs, sst_summary
 
 N = 'SIMON'; o = T[N]
 pre = sst_summary(N, until='2026-10-10 18:00'); s_all = sst_summary(N)
@@ -10,7 +10,7 @@ F = {f[0]: f for f in o['fixes']}
 m7, m10 = mjo('2026-10-07'), mjo('2026-10-10')
 NHC = 'https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.{:03d}.shtml'
 d = lambda n: f'<a href="{NHC.format(n)}">NHC discussion {n}</a>'  # noqa: E731
-KEYS = ['knapp2010', 'kaplan2003', 'huang2021', 'wheeler2004', 'carrasco2014', 'price1981', 'maloney2000', 'csu', 'paper4']
+KEYS = ['knapp2010', 'kaplan2003', 'huang2021', 'wheeler2004', 'carrasco2014', 'price1981', 'maloney2000', 'csu', 'paper4', 'hersbach2020']
 EXTRA = [('nhc', 'National Hurricane Center: Hurricane Simon (EP202026) advisory archive, forecast discussions 1–38, 7–16 October 2026 (US Government, public domain). Text copies in data/tc2026/nhc/SIMON/.', 'https://www.nhc.noaa.gov/archive/2026/SIMON.shtml', 'read in full'),
          ('afp12', 'AFP (2026). Hurricane Simon leaves one dead, causes damage on Mexico\'s Pacific coast. 12 October 2026 (via Jamaica Observer).', 'https://www.jamaicaobserver.com/2026/10/12/hurricane-simon-leaves-one-dead-causes-damage-mexicos-pacific-coast/', 'read'),
          ('ap11', 'Associated Press (2026). Hurricane Simon pounds resorts and vulnerable towns along Mexico\'s Pacific coast. 11 October 2026 (via Fox5 Las Vegas).', 'https://www.fox5vegas.com/2026/10/11/ferocious-hurricane-simon-nears-mexico-with-155-mph-winds-flooding-fears/', 'read'),
@@ -52,6 +52,7 @@ S.append({'id': 'environment', 'title': '4. Environment', 'html': (
     f"Simon's own cold wake in the 0.25° analysis was at most {abs(s_all['wake_min']):.1f} °C; a storm this small mixes a narrow swath that the analysis smooths out, so the true cooling under the core was probably larger. "
     f"On 13 October the forecaster could not tell whether warming cloud tops reflected the daily cycle or upwelled cool water under the slow-moving hurricane {d(26)}; by 16 October the remnant was still over 28–30 °C water {d(37)}, so the final decay was atmospheric.</p>"
     f"<p><b>Shear and moisture.</b> Through 10 October shear was low and the mid-troposphere moist {d(1)}, {d(9)}. The weakening of 11–12 October came with mid-level dry air on the west side and mid-level easterly shear 'undercutting the outflow layer' {d(19)}, {d(21)}; the collapse of 14 October followed northerly shear {d(28)}, {d(29)}; and southwesterly shear with dry mid-level air ended Simon {d(36)}.</p>"
+    f"<p><b>ERA5 shear.</b> Deep-layer (200–850 hPa) shear was {shear_between(N, '2026-10-05', '2026-10-07 18')[0]:.0f}–{shear_between(N, '2026-10-05', '2026-10-07 18')[1]:.0f} kt during formation, then only {shear_between(N, '2026-10-08', '2026-10-15 18')[0]:.0f}–{shear_between(N, '2026-10-08', '2026-10-15 18')[1]:.0f} kt from 8 to 15 October, and rose to {shear_between(N, '2026-10-16', '2026-10-16 18')[1]:.0f} kt on 16 October (Figure 1). The weakening episodes of 11–12 and 14 October therefore happened under low deep-layer shear: the mid-level easterly and northerly shear and dry air described by forecasters, which a 200–850 hPa difference on a 2.5° grid does not capture, together with Simon's tiny size, are the more likely causes.</p>"
     f"<p><b>Size.</b> Simon's very small inner core made its intensity especially volatile: forecasters called peak intensities 'virtually impossible to predict' {d(11)}. Small cyclones are more likely to undergo rapid intensification {c('carrasco2014')}, and Simon shows that the same small size allowed equally fast weakening.</p>"
     f"<p><b>MJO.</b> The RMM index was in phase {m7[0]} (amplitude {m7[1]:.1f}) at genesis and phase {m10[0]} ({m10[1]:.1f}) at the peak. The MJO modulates eastern Pacific hurricanes {c('maloney2000')}; its role here is not tested.</p>")})
 S.append({'id': 'steering', 'title': '5. Track and steering', 'html': (
@@ -72,6 +73,7 @@ S.append({'id': 'conclusion', 'title': '9. Conclusion', 'html': (
     "<p>Simon combined favourable conditions (warm water, low shear, moist air) with a very small inner core, and intensified explosively to Category 4 within 50 km of the Jalisco coast. Its weakening was as abrupt as its strengthening, driven by dry air and shifting shear, and weak, conflicting steering kept it offshore for most of a week. "
     "The coast escaped a direct hit by a narrow margin, but the repeated rain contributed to saturated ground before Trudy arrived a week later.</p>")})
 EVID = [
+    ['ERA5 deep-layer shear', f"{shear_between(N, '2026-10-08', '2026-10-15 18')[0]:.0f}–{shear_between(N, '2026-10-08', '2026-10-15 18')[1]:.0f} kt, 8–15 Oct", 'Favourable for RI; did not cause the weakening episodes', 'Reanalysis (ERA5)', 'High', c('hersbach2020')],
     ['Warm ocean', f"SST {pre['sst_mean']:.1f} °C ({pre['ssta_mean']:+.1f}) before the peak", 'Supported rapid intensification', 'Observed (OISST)', 'High', c('huang2021')],
     ['Low shear, moist air', 'Through 10 Oct (NHC, SHIPS)', 'Allowed rapid intensification', 'Operational analysis', 'High', c('nhc')],
     ['Very small inner core', 'Pinhole eye 9 Oct; TS-force winds only ~30 n mi on 14 Oct', 'Made intensity changes fast in both directions', 'Observed (satellite, aircraft); literature for RI', 'High', f"{c('nhc')} {c('carrasco2014')}"],

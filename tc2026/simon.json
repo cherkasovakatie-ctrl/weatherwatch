@@ -85,7 +85,7 @@
   {
    "id": "methods",
    "title": "2. Data and methods",
-   "html": "<p><b>Track and intensity.</b> Six-hourly positions, 1-minute maximum sustained winds and minimum pressures from IBTrACS v04r01 <a href=\"#ref-knapp2010\">[1]</a>, downloaded on 24 October 2026. For 2026 these are <i>provisional</i> values carried over from the operational advisories (National Hurricane Center); the official best track, issued in the post-season report, can differ. Rapid intensification (RI) is an increase of at least 30 kt in 24 hours <a href=\"#ref-kaplan2003\">[2]</a>. Accumulated cyclone energy (ACE) sums the squared 6-hourly winds at tropical-storm strength or above.</p><p><b>Ocean.</b> Sea-surface temperature (SST) and its anomaly against 1991–2020 from NOAA OISST v2.1 daily <a href=\"#ref-huang2021\">[3]</a>, sampled at each 6-hourly position three days before the storm arrived, so that the storm's own cooling is excluded; the change from three days before to three days after gives the cold wake. OISST is a 0.25° analysis and smooths very small wakes.</p><p><b>Atmosphere.</b> Wind shear and mid-level humidity are taken from the forecasters' own analyses in the advisories and discussions (which use the SHIPS model and satellite estimates), quoted with date and time. Our planned reanalysis diagnostics could not be computed because the NCEP/NCAR Reanalysis 1 daily files for 2026 end on 17 March 2026. The Madden–Julian oscillation (MJO) is described by the real-time RMM index <a href=\"#ref-wheeler2004\">[4]</a> (phase and amplitude; amplitude ≥ 1 means an active MJO). ENSO values are NOAA CPC indices (RONI JAS 2026 +1.69 °C; weekly relative Niño 3.4 +2.4 °C in mid-October).</p><p><b>Impacts.</b> Deaths, damage and observations are taken from official statements where available and otherwise from wire-service reports, each cited; figures are preliminary.</p>"
+   "html": "<p><b>Track and intensity.</b> Six-hourly positions, 1-minute maximum sustained winds and minimum pressures from IBTrACS v04r01 <a href=\"#ref-knapp2010\">[1]</a>, downloaded on 24 October 2026. For 2026 these are <i>provisional</i> values carried over from the operational advisories (National Hurricane Center); the official best track, issued in the post-season report, can differ. Rapid intensification (RI) is an increase of at least 30 kt in 24 hours <a href=\"#ref-kaplan2003\">[2]</a>. Accumulated cyclone energy (ACE) sums the squared 6-hourly winds at tropical-storm strength or above.</p><p><b>Ocean.</b> Sea-surface temperature (SST) and its anomaly against 1991–2020 from NOAA OISST v2.1 daily <a href=\"#ref-huang2021\">[3]</a>, sampled at each 6-hourly position three days before the storm arrived, so that the storm's own cooling is excluded; the change from three days before to three days after gives the cold wake. OISST is a 0.25° analysis and smooths very small wakes.</p><p><b>Atmosphere.</b> Wind shear and mid-level humidity are taken from the forecasters' own analyses in the advisories and discussions (which use the SHIPS model and satellite estimates), quoted with date and time. In addition, the deep-layer (200–850 hPa) vertical wind shear was computed from ERA5 (Hersbach et al. 2020, in the references) as the difference of the winds averaged over a 200–800 km ring around each position, using daily means of 00 and 12 UTC on a 2.5° grid, with data to 18 October 2026. This coarse estimate captures the large-scale shear but not shallower or mid-level shear, which forecasters sometimes cite. The Madden–Julian oscillation (MJO) is described by the real-time RMM index <a href=\"#ref-wheeler2004\">[4]</a> (phase and amplitude; amplitude ≥ 1 means an active MJO). ENSO values are NOAA CPC indices (RONI JAS 2026 +1.69 °C; weekly relative Niño 3.4 +2.4 °C in mid-October).</p><p><b>Impacts.</b> Deaths, damage and observations are taken from official statements where available and otherwise from wire-service reports, each cited; figures are preliminary.</p>"
   },
   {
    "id": "lifecycle",
@@ -148,17 +148,17 @@
   {
    "id": "environment",
    "title": "4. Environment",
-   "html": "<p><b>Ocean.</b> Before the peak the sea along Simon's path averaged 29.3 °C, +0.4 °C above the 1991–2020 normal, and nowhere below 28.4 °C. At the peak position it was 29.3 °C (+0.2 °C). Simon's own cold wake in the 0.25° analysis was at most 0.8 °C; a storm this small mixes a narrow swath that the analysis smooths out, so the true cooling under the core was probably larger. On 13 October the forecaster could not tell whether warming cloud tops reflected the daily cycle or upwelled cool water under the slow-moving hurricane <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.026.shtml\">NHC discussion 26</a>; by 16 October the remnant was still over 28–30 °C water <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.037.shtml\">NHC discussion 37</a>, so the final decay was atmospheric.</p><p><b>Shear and moisture.</b> Through 10 October shear was low and the mid-troposphere moist <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.001.shtml\">NHC discussion 1</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.009.shtml\">NHC discussion 9</a>. The weakening of 11–12 October came with mid-level dry air on the west side and mid-level easterly shear 'undercutting the outflow layer' <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.019.shtml\">NHC discussion 19</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.021.shtml\">NHC discussion 21</a>; the collapse of 14 October followed northerly shear <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.028.shtml\">NHC discussion 28</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.029.shtml\">NHC discussion 29</a>; and southwesterly shear with dry mid-level air ended Simon <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.036.shtml\">NHC discussion 36</a>.</p><p><b>Size.</b> Simon's very small inner core made its intensity especially volatile: forecasters called peak intensities 'virtually impossible to predict' <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.011.shtml\">NHC discussion 11</a>. Small cyclones are more likely to undergo rapid intensification <a href=\"#ref-carrasco2014\">[5]</a>, and Simon shows that the same small size allowed equally fast weakening.</p><p><b>MJO.</b> The RMM index was in phase 2 (amplitude 1.0) at genesis and phase 2 (1.1) at the peak. The MJO modulates eastern Pacific hurricanes <a href=\"#ref-maloney2000\">[7]</a>; its role here is not tested.</p>"
+   "html": "<p><b>Ocean.</b> Before the peak the sea along Simon's path averaged 29.3 °C, +0.4 °C above the 1991–2020 normal, and nowhere below 28.4 °C. At the peak position it was 29.3 °C (+0.2 °C). Simon's own cold wake in the 0.25° analysis was at most 0.8 °C; a storm this small mixes a narrow swath that the analysis smooths out, so the true cooling under the core was probably larger. On 13 October the forecaster could not tell whether warming cloud tops reflected the daily cycle or upwelled cool water under the slow-moving hurricane <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.026.shtml\">NHC discussion 26</a>; by 16 October the remnant was still over 28–30 °C water <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.037.shtml\">NHC discussion 37</a>, so the final decay was atmospheric.</p><p><b>Shear and moisture.</b> Through 10 October shear was low and the mid-troposphere moist <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.001.shtml\">NHC discussion 1</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.009.shtml\">NHC discussion 9</a>. The weakening of 11–12 October came with mid-level dry air on the west side and mid-level easterly shear 'undercutting the outflow layer' <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.019.shtml\">NHC discussion 19</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.021.shtml\">NHC discussion 21</a>; the collapse of 14 October followed northerly shear <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.028.shtml\">NHC discussion 28</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.029.shtml\">NHC discussion 29</a>; and southwesterly shear with dry mid-level air ended Simon <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.036.shtml\">NHC discussion 36</a>.</p><p><b>ERA5 shear.</b> Deep-layer (200–850 hPa) shear was 11–15 kt during formation, then only 1–10 kt from 8 to 15 October, and rose to 18 kt on 16 October (Figure 1). The weakening episodes of 11–12 and 14 October therefore happened under low deep-layer shear: the mid-level easterly and northerly shear and dry air described by forecasters, which a 200–850 hPa difference on a 2.5° grid does not capture, together with Simon's tiny size, are the more likely causes.</p><p><b>Size.</b> Simon's very small inner core made its intensity especially volatile: forecasters called peak intensities 'virtually impossible to predict' <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.011.shtml\">NHC discussion 11</a>. Small cyclones are more likely to undergo rapid intensification <a href=\"#ref-carrasco2014\">[5]</a>, and Simon shows that the same small size allowed equally fast weakening.</p><p><b>MJO.</b> The RMM index was in phase 2 (amplitude 1.0) at genesis and phase 2 (1.1) at the peak. The MJO modulates eastern Pacific hurricanes <a href=\"#ref-maloney2000\">[7]</a>; its role here is not tested.</p>"
   },
   {
    "id": "steering",
    "title": "5. Track and steering",
-   "html": "<p>Simon first moved west-northwest along the south side of a weak mid-level ridge <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.001.shtml\">NHC discussion 1</a>. A mid- to upper-level trough approaching Baja California was expected to turn it sharply north on 9–10 October, towards the coast; the models agreed on the pattern but not on the timing, and a small difference decided between landfall and a coastal brush <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.005.shtml\">NHC discussion 5</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.009.shtml\">NHC discussion 9</a>. Simon turned north between a ridge over southern Mexico and a long-wave trough to the west <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.012.shtml\">NHC discussion 12</a> and passed just offshore. From 12 October it lay between a ridge over the south-central United States and another building to its west and southwest, and drifted slowly northwest, then southwest <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.022.shtml\">NHC discussion 22</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.024.shtml\">NHC discussion 24</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.028.shtml\">NHC discussion 28</a>. Mexico's civil protection at one point expected a landfall at Mazatlán as a Category 1 hurricane <a href=\"#ref-afp12\">[11]</a>; instead the shallow remnant moved northwest, parallel to Baja California Sur <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.036.shtml\">NHC discussion 36</a>.</p>"
+   "html": "<p>Simon first moved west-northwest along the south side of a weak mid-level ridge <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.001.shtml\">NHC discussion 1</a>. A mid- to upper-level trough approaching Baja California was expected to turn it sharply north on 9–10 October, towards the coast; the models agreed on the pattern but not on the timing, and a small difference decided between landfall and a coastal brush <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.005.shtml\">NHC discussion 5</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.009.shtml\">NHC discussion 9</a>. Simon turned north between a ridge over southern Mexico and a long-wave trough to the west <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.012.shtml\">NHC discussion 12</a> and passed just offshore. From 12 October it lay between a ridge over the south-central United States and another building to its west and southwest, and drifted slowly northwest, then southwest <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.022.shtml\">NHC discussion 22</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.024.shtml\">NHC discussion 24</a>, <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.028.shtml\">NHC discussion 28</a>. Mexico's civil protection at one point expected a landfall at Mazatlán as a Category 1 hurricane <a href=\"#ref-afp12\">[12]</a>; instead the shallow remnant moved northwest, parallel to Baja California Sur <a href=\"https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.036.shtml\">NHC discussion 36</a>.</p>"
   },
   {
    "id": "impacts",
    "title": "6. Impacts",
-   "html": "<p>Before the closest approach Jalisco suspended classes in 22 coastal municipalities and began evacuations, public transport was suspended and the Puerto Vallarta boardwalk was closed; the president asked people in four states to shelter in place <a href=\"#ref-ap11\">[12]</a>. A 71-year-old man died when a wall collapsed in Chilpancingo, Guerrero, during Simon's rain <a href=\"#ref-afp12\">[11]</a>. Heavy rain in Guerrero toppled trees and utility poles, blocked roads and flooded homes in coastal communities including Acapulco; Nayarit and Sinaloa were on alert for rising rivers; operations at Puerto Vallarta's airport were resuming on 13 October <a href=\"#ref-ap13\">[13]</a>. On 12 October waves were still crashing along the Puerto Vallarta seafront <a href=\"#ref-afp12\">[11]</a>. Press tallies that combine Simon and the remnants of Rachel (six deaths by 13 October) include five deaths in Ensenada caused by Rachel <a href=\"#ref-ap13\">[13]</a>. Damage estimates and rainfall totals were not available for this paper.</p>"
+   "html": "<p>Before the closest approach Jalisco suspended classes in 22 coastal municipalities and began evacuations, public transport was suspended and the Puerto Vallarta boardwalk was closed; the president asked people in four states to shelter in place <a href=\"#ref-ap11\">[13]</a>. A 71-year-old man died when a wall collapsed in Chilpancingo, Guerrero, during Simon's rain <a href=\"#ref-afp12\">[12]</a>. Heavy rain in Guerrero toppled trees and utility poles, blocked roads and flooded homes in coastal communities including Acapulco; Nayarit and Sinaloa were on alert for rising rivers; operations at Puerto Vallarta's airport were resuming on 13 October <a href=\"#ref-ap13\">[14]</a>. On 12 October waves were still crashing along the Puerto Vallarta seafront <a href=\"#ref-afp12\">[12]</a>. Press tallies that combine Simon and the remnants of Rachel (six deaths by 13 October) include five deaths in Ensenada caused by Rachel <a href=\"#ref-ap13\">[14]</a>. Damage estimates and rainfall totals were not available for this paper.</p>"
   },
   {
    "id": "climate",
@@ -178,6 +178,14 @@
  ],
  "evidence": [
   [
+   "ERA5 deep-layer shear",
+   "1–10 kt, 8–15 Oct",
+   "Favourable for RI; did not cause the weakening episodes",
+   "Reanalysis (ERA5)",
+   "High",
+   "<a href=\"#ref-hersbach2020\">[10]</a>"
+  ],
+  [
    "Warm ocean",
    "SST 29.3 °C (+0.4) before the peak",
    "Supported rapid intensification",
@@ -191,7 +199,7 @@
    "Allowed rapid intensification",
    "Operational analysis",
    "High",
-   "<a href=\"#ref-nhc\">[10]</a>"
+   "<a href=\"#ref-nhc\">[11]</a>"
   ],
   [
    "Very small inner core",
@@ -199,7 +207,7 @@
    "Made intensity changes fast in both directions",
    "Observed (satellite, aircraft); literature for RI",
    "High",
-   "<a href=\"#ref-nhc\">[10]</a> <a href=\"#ref-carrasco2014\">[5]</a>"
+   "<a href=\"#ref-nhc\">[11]</a> <a href=\"#ref-carrasco2014\">[5]</a>"
   ],
   [
    "Eyewall replacement",
@@ -207,7 +215,7 @@
    "Probably ended the peak",
    "Aircraft observation",
    "Medium",
-   "<a href=\"#ref-nhc\">[10]</a>"
+   "<a href=\"#ref-nhc\">[11]</a>"
   ],
   [
    "Dry air and changing shear",
@@ -215,7 +223,7 @@
    "Caused the weakening episodes",
    "Operational analysis",
    "High",
-   "<a href=\"#ref-nhc\">[10]</a>"
+   "<a href=\"#ref-nhc\">[11]</a>"
   ],
   [
    "Weak, conflicting steering",
@@ -223,7 +231,7 @@
    "Near-miss of the coast; long stall offshore",
    "Operational analysis",
    "High",
-   "<a href=\"#ref-nhc\">[10]</a>"
+   "<a href=\"#ref-nhc\">[11]</a>"
   ]
  ],
  "references": [
@@ -289,6 +297,13 @@
    "doi": null,
    "url": "enso-2026.html",
    "check": "own analysis"
+  },
+  {
+   "key": "hersbach2020",
+   "text": "Hersbach, H., et al. (2020). The ERA5 global reanalysis. <i>Quarterly Journal of the Royal Meteorological Society</i> 146, 1999–2049. 2026 data: Copernicus Climate Change Service Climate Data Store (u, v at 850 and 200 hPa, to 18 October 2026).",
+   "doi": "10.1002/qj.3803",
+   "url": null,
+   "check": "full text read (open access); data processed"
   },
   {
    "key": "nhc",
