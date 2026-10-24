@@ -1,0 +1,667 @@
+{
+ "base": "1979-2026",
+ "climatology": "1979-2000 mean + 3 harmonics",
+ "nan_olr_filled": 1518912,
+ "index_info": {
+  "wh_like": {
+   "var": [
+    0.13,
+    0.112
+   ],
+   "lag10_corr": 0.504
+  },
+  "bandpass_20_100": {
+   "var": [
+    0.21,
+    0.199
+   ],
+   "lag10_corr": 0.74
+  },
+  "olr_only_20_100": {
+   "var": [
+    0.246,
+    0.171
+   ],
+   "lag10_corr": 0.54
+  }
+ },
+ "episodes": {
+  "wh_like": [
+   {
+    "start": "2025-07-09",
+    "end": "2025-08-02",
+    "days": 25,
+    "max_amp": 2.01,
+    "phase_progress_deg": 178.0,
+    "centre_start": 142.5,
+    "centre_end": 20.0,
+    "centre_speed_ms": 2.2
+   },
+   {
+    "start": "2025-11-21",
+    "end": "2025-12-06",
+    "days": 16,
+    "max_amp": 2.38,
+    "phase_progress_deg": 148.0,
+    "centre_start": 147.5,
+    "centre_end": 20.0,
+    "centre_speed_ms": -7.9
+   }
+  ],
+  "bandpass_20_100": [
+   {
+    "start": "2025-07-09",
+    "end": "2025-08-08",
+    "days": 31,
+    "max_amp": 1.74,
+    "phase_progress_deg": 245.0,
+    "centre_start": 90.0,
+    "centre_end": 72.5,
+    "centre_speed_ms": 15.1
+   },
+   {
+    "start": "2026-01-08",
+    "end": "2026-03-09",
+    "days": 61,
+    "max_amp": 1.81,
+    "phase_progress_deg": 307.0,
+    "centre_start": 147.5,
+    "centre_end": 92.5,
+    "centre_speed_ms": 8.3
+   }
+  ],
+  "olr_only_20_100": [
+   {
+    "start": "2026-02-28",
+    "end": "2026-03-17",
+    "days": 18,
+    "max_amp": 1.91,
+    "phase_progress_deg": 56.0,
+    "centre_start": 90.0,
+    "centre_end": 130.0,
+    "centre_speed_ms": 4.1
+   }
+  ]
+ },
+ "wwb": [],
+ "wwb_yearly": [
+  {
+   "year": 1979,
+   "wwb_count": 5
+  },
+  {
+   "year": 1980,
+   "wwb_count": 3
+  },
+  {
+   "year": 1981,
+   "wwb_count": 1
+  },
+  {
+   "year": 1982,
+   "wwb_count": 13
+  },
+  {
+   "year": 1983,
+   "wwb_count": 3
+  },
+  {
+   "year": 1984,
+   "wwb_count": 1
+  },
+  {
+   "year": 1985,
+   "wwb_count": 2
+  },
+  {
+   "year": 1986,
+   "wwb_count": 4
+  },
+  {
+   "year": 1987,
+   "wwb_count": 5
+  },
+  {
+   "year": 1988,
+   "wwb_count": 1
+  },
+  {
+   "year": 1989,
+   "wwb_count": 2
+  },
+  {
+   "year": 1990,
+   "wwb_count": 7
+  },
+  {
+   "year": 1991,
+   "wwb_count": 7
+  },
+  {
+   "year": 1992,
+   "wwb_count": 7
+  },
+  {
+   "year": 1993,
+   "wwb_count": 5
+  },
+  {
+   "year": 1994,
+   "wwb_count": 6
+  },
+  {
+   "year": 1995,
+   "wwb_count": 0
+  },
+  {
+   "year": 1996,
+   "wwb_count": 3
+  },
+  {
+   "year": 1997,
+   "wwb_count": 16
+  },
+  {
+   "year": 1998,
+   "wwb_count": 0
+  },
+  {
+   "year": 1999,
+   "wwb_count": 1
+  },
+  {
+   "year": 2000,
+   "wwb_count": 1
+  },
+  {
+   "year": 2001,
+   "wwb_count": 3
+  },
+  {
+   "year": 2002,
+   "wwb_count": 8
+  },
+  {
+   "year": 2003,
+   "wwb_count": 3
+  },
+  {
+   "year": 2004,
+   "wwb_count": 9
+  },
+  {
+   "year": 2005,
+   "wwb_count": 5
+  },
+  {
+   "year": 2006,
+   "wwb_count": 4
+  },
+  {
+   "year": 2007,
+   "wwb_count": 1
+  },
+  {
+   "year": 2008,
+   "wwb_count": 0
+  },
+  {
+   "year": 2009,
+   "wwb_count": 5
+  },
+  {
+   "year": 2010,
+   "wwb_count": 4
+  },
+  {
+   "year": 2011,
+   "wwb_count": 0
+  },
+  {
+   "year": 2012,
+   "wwb_count": 1
+  },
+  {
+   "year": 2013,
+   "wwb_count": 0
+  },
+  {
+   "year": 2014,
+   "wwb_count": 3
+  },
+  {
+   "year": 2015,
+   "wwb_count": 17
+  },
+  {
+   "year": 2016,
+   "wwb_count": 1
+  },
+  {
+   "year": 2017,
+   "wwb_count": 0
+  },
+  {
+   "year": 2018,
+   "wwb_count": 7
+  },
+  {
+   "year": 2019,
+   "wwb_count": 8
+  },
+  {
+   "year": 2020,
+   "wwb_count": 3
+  },
+  {
+   "year": 2021,
+   "wwb_count": 2
+  },
+  {
+   "year": 2022,
+   "wwb_count": 0
+  },
+  {
+   "year": 2023,
+   "wwb_count": 5
+  },
+  {
+   "year": 2024,
+   "wwb_count": 1
+  },
+  {
+   "year": 2025,
+   "wwb_count": 0
+  },
+  {
+   "year": 2026,
+   "wwb_count": 0
+  }
+ ],
+ "seasons": [
+  {
+   "season": "1979-80",
+   "wh_like_days_amp_ge1": 97,
+   "bandpass_20_100_days_amp_ge1": 119,
+   "olr_only_20_100_days_amp_ge1": 123,
+   "olr_20_100_var_160E_150W": 143.1,
+   "olr_20_100_var_60E_150E": 197.2
+  },
+  {
+   "season": "1980-81",
+   "wh_like_days_amp_ge1": 91,
+   "bandpass_20_100_days_amp_ge1": 64,
+   "olr_only_20_100_days_amp_ge1": 106,
+   "olr_20_100_var_160E_150W": 136.7,
+   "olr_20_100_var_60E_150E": 168.1
+  },
+  {
+   "season": "1981-82",
+   "wh_like_days_amp_ge1": 77,
+   "bandpass_20_100_days_amp_ge1": 91,
+   "olr_only_20_100_days_amp_ge1": 119,
+   "olr_20_100_var_160E_150W": 93.4,
+   "olr_20_100_var_60E_150E": 216.4
+  },
+  {
+   "season": "1982-83",
+   "wh_like_days_amp_ge1": 116,
+   "bandpass_20_100_days_amp_ge1": 83,
+   "olr_only_20_100_days_amp_ge1": 89,
+   "olr_20_100_var_160E_150W": 164.2,
+   "olr_20_100_var_60E_150E": 137.6
+  },
+  {
+   "season": "1983-84",
+   "wh_like_days_amp_ge1": 120,
+   "bandpass_20_100_days_amp_ge1": 86,
+   "olr_only_20_100_days_amp_ge1": 120,
+   "olr_20_100_var_160E_150W": 36.9,
+   "olr_20_100_var_60E_150E": 240.1
+  },
+  {
+   "season": "1984-85",
+   "wh_like_days_amp_ge1": 151,
+   "bandpass_20_100_days_amp_ge1": 163,
+   "olr_only_20_100_days_amp_ge1": 156,
+   "olr_20_100_var_160E_150W": 172.9,
+   "olr_20_100_var_60E_150E": 370.9
+  },
+  {
+   "season": "1985-86",
+   "wh_like_days_amp_ge1": 128,
+   "bandpass_20_100_days_amp_ge1": 133,
+   "olr_only_20_100_days_amp_ge1": 125,
+   "olr_20_100_var_160E_150W": 79.8,
+   "olr_20_100_var_60E_150E": 243.9
+  },
+  {
+   "season": "1986-87",
+   "wh_like_days_amp_ge1": 124,
+   "bandpass_20_100_days_amp_ge1": 117,
+   "olr_only_20_100_days_amp_ge1": 119,
+   "olr_20_100_var_160E_150W": 159.2,
+   "olr_20_100_var_60E_150E": 242.4
+  },
+  {
+   "season": "1987-88",
+   "wh_like_days_amp_ge1": 134,
+   "bandpass_20_100_days_amp_ge1": 155,
+   "olr_only_20_100_days_amp_ge1": 156,
+   "olr_20_100_var_160E_150W": 156.8,
+   "olr_20_100_var_60E_150E": 364.8
+  },
+  {
+   "season": "1988-89",
+   "wh_like_days_amp_ge1": 104,
+   "bandpass_20_100_days_amp_ge1": 102,
+   "olr_only_20_100_days_amp_ge1": 121,
+   "olr_20_100_var_160E_150W": 77.7,
+   "olr_20_100_var_60E_150E": 258.3
+  },
+  {
+   "season": "1989-90",
+   "wh_like_days_amp_ge1": 148,
+   "bandpass_20_100_days_amp_ge1": 151,
+   "olr_only_20_100_days_amp_ge1": 110,
+   "olr_20_100_var_160E_150W": 197.0,
+   "olr_20_100_var_60E_150E": 237.2
+  },
+  {
+   "season": "1990-91",
+   "wh_like_days_amp_ge1": 99,
+   "bandpass_20_100_days_amp_ge1": 113,
+   "olr_only_20_100_days_amp_ge1": 115,
+   "olr_20_100_var_160E_150W": 125.2,
+   "olr_20_100_var_60E_150E": 235.9
+  },
+  {
+   "season": "1991-92",
+   "wh_like_days_amp_ge1": 128,
+   "bandpass_20_100_days_amp_ge1": 136,
+   "olr_only_20_100_days_amp_ge1": 116,
+   "olr_20_100_var_160E_150W": 318.9,
+   "olr_20_100_var_60E_150E": 193.8
+  },
+  {
+   "season": "1992-93",
+   "wh_like_days_amp_ge1": 110,
+   "bandpass_20_100_days_amp_ge1": 116,
+   "olr_only_20_100_days_amp_ge1": 110,
+   "olr_20_100_var_160E_150W": 220.8,
+   "olr_20_100_var_60E_150E": 264.1
+  },
+  {
+   "season": "1993-94",
+   "wh_like_days_amp_ge1": 83,
+   "bandpass_20_100_days_amp_ge1": 97,
+   "olr_only_20_100_days_amp_ge1": 103,
+   "olr_20_100_var_160E_150W": 97.1,
+   "olr_20_100_var_60E_150E": 177.5
+  },
+  {
+   "season": "1994-95",
+   "wh_like_days_amp_ge1": 132,
+   "bandpass_20_100_days_amp_ge1": 99,
+   "olr_only_20_100_days_amp_ge1": 113,
+   "olr_20_100_var_160E_150W": 245.5,
+   "olr_20_100_var_60E_150E": 248.4
+  },
+  {
+   "season": "1995-96",
+   "wh_like_days_amp_ge1": 109,
+   "bandpass_20_100_days_amp_ge1": 116,
+   "olr_only_20_100_days_amp_ge1": 119,
+   "olr_20_100_var_160E_150W": 62.0,
+   "olr_20_100_var_60E_150E": 226.2
+  },
+  {
+   "season": "1996-97",
+   "wh_like_days_amp_ge1": 137,
+   "bandpass_20_100_days_amp_ge1": 161,
+   "olr_only_20_100_days_amp_ge1": 147,
+   "olr_20_100_var_160E_150W": 165.4,
+   "olr_20_100_var_60E_150E": 390.1
+  },
+  {
+   "season": "1997-98",
+   "wh_like_days_amp_ge1": 102,
+   "bandpass_20_100_days_amp_ge1": 54,
+   "olr_only_20_100_days_amp_ge1": 43,
+   "olr_20_100_var_160E_150W": 205.3,
+   "olr_20_100_var_60E_150E": 78.0
+  },
+  {
+   "season": "1998-99",
+   "wh_like_days_amp_ge1": 115,
+   "bandpass_20_100_days_amp_ge1": 124,
+   "olr_only_20_100_days_amp_ge1": 130,
+   "olr_20_100_var_160E_150W": 66.0,
+   "olr_20_100_var_60E_150E": 217.4
+  },
+  {
+   "season": "1999-00",
+   "wh_like_days_amp_ge1": 102,
+   "bandpass_20_100_days_amp_ge1": 80,
+   "olr_only_20_100_days_amp_ge1": 99,
+   "olr_20_100_var_160E_150W": 61.5,
+   "olr_20_100_var_60E_150E": 151.2
+  },
+  {
+   "season": "2000-01",
+   "wh_like_days_amp_ge1": 134,
+   "bandpass_20_100_days_amp_ge1": 126,
+   "olr_only_20_100_days_amp_ge1": 122,
+   "olr_20_100_var_160E_150W": 66.5,
+   "olr_20_100_var_60E_150E": 277.7
+  },
+  {
+   "season": "2001-02",
+   "wh_like_days_amp_ge1": 121,
+   "bandpass_20_100_days_amp_ge1": 127,
+   "olr_only_20_100_days_amp_ge1": 117,
+   "olr_20_100_var_160E_150W": 199.3,
+   "olr_20_100_var_60E_150E": 260.9
+  },
+  {
+   "season": "2002-03",
+   "wh_like_days_amp_ge1": 121,
+   "bandpass_20_100_days_amp_ge1": 139,
+   "olr_only_20_100_days_amp_ge1": 133,
+   "olr_20_100_var_160E_150W": 233.2,
+   "olr_20_100_var_60E_150E": 269.4
+  },
+  {
+   "season": "2003-04",
+   "wh_like_days_amp_ge1": 127,
+   "bandpass_20_100_days_amp_ge1": 135,
+   "olr_only_20_100_days_amp_ge1": 141,
+   "olr_20_100_var_160E_150W": 169.0,
+   "olr_20_100_var_60E_150E": 292.0
+  },
+  {
+   "season": "2004-05",
+   "wh_like_days_amp_ge1": 120,
+   "bandpass_20_100_days_amp_ge1": 107,
+   "olr_only_20_100_days_amp_ge1": 118,
+   "olr_20_100_var_160E_150W": 241.2,
+   "olr_20_100_var_60E_150E": 227.7
+  },
+  {
+   "season": "2005-06",
+   "wh_like_days_amp_ge1": 100,
+   "bandpass_20_100_days_amp_ge1": 108,
+   "olr_only_20_100_days_amp_ge1": 123,
+   "olr_20_100_var_160E_150W": 76.6,
+   "olr_20_100_var_60E_150E": 204.1
+  },
+  {
+   "season": "2006-07",
+   "wh_like_days_amp_ge1": 130,
+   "bandpass_20_100_days_amp_ge1": 111,
+   "olr_only_20_100_days_amp_ge1": 117,
+   "olr_20_100_var_160E_150W": 156.4,
+   "olr_20_100_var_60E_150E": 194.1
+  },
+  {
+   "season": "2007-08",
+   "wh_like_days_amp_ge1": 150,
+   "bandpass_20_100_days_amp_ge1": 145,
+   "olr_only_20_100_days_amp_ge1": 135,
+   "olr_20_100_var_160E_150W": 104.8,
+   "olr_20_100_var_60E_150E": 307.5
+  },
+  {
+   "season": "2008-09",
+   "wh_like_days_amp_ge1": 100,
+   "bandpass_20_100_days_amp_ge1": 89,
+   "olr_only_20_100_days_amp_ge1": 95,
+   "olr_20_100_var_160E_150W": 43.6,
+   "olr_20_100_var_60E_150E": 191.8
+  },
+  {
+   "season": "2009-10",
+   "wh_like_days_amp_ge1": 108,
+   "bandpass_20_100_days_amp_ge1": 109,
+   "olr_only_20_100_days_amp_ge1": 123,
+   "olr_20_100_var_160E_150W": 204.6,
+   "olr_20_100_var_60E_150E": 257.8
+  },
+  {
+   "season": "2010-11",
+   "wh_like_days_amp_ge1": 82,
+   "bandpass_20_100_days_amp_ge1": 91,
+   "olr_only_20_100_days_amp_ge1": 100,
+   "olr_20_100_var_160E_150W": 40.5,
+   "olr_20_100_var_60E_150E": 176.4
+  },
+  {
+   "season": "2011-12",
+   "wh_like_days_amp_ge1": 148,
+   "bandpass_20_100_days_amp_ge1": 142,
+   "olr_only_20_100_days_amp_ge1": 153,
+   "olr_20_100_var_160E_150W": 92.5,
+   "olr_20_100_var_60E_150E": 283.7
+  },
+  {
+   "season": "2012-13",
+   "wh_like_days_amp_ge1": 133,
+   "bandpass_20_100_days_amp_ge1": 137,
+   "olr_only_20_100_days_amp_ge1": 131,
+   "olr_20_100_var_160E_150W": 110.7,
+   "olr_20_100_var_60E_150E": 217.4
+  },
+  {
+   "season": "2013-14",
+   "wh_like_days_amp_ge1": 95,
+   "bandpass_20_100_days_amp_ge1": 57,
+   "olr_only_20_100_days_amp_ge1": 95,
+   "olr_20_100_var_160E_150W": 94.1,
+   "olr_20_100_var_60E_150E": 163.4
+  },
+  {
+   "season": "2014-15",
+   "wh_like_days_amp_ge1": 109,
+   "bandpass_20_100_days_amp_ge1": 114,
+   "olr_only_20_100_days_amp_ge1": 113,
+   "olr_20_100_var_160E_150W": 151.5,
+   "olr_20_100_var_60E_150E": 195.4
+  },
+  {
+   "season": "2015-16",
+   "wh_like_days_amp_ge1": 143,
+   "bandpass_20_100_days_amp_ge1": 128,
+   "olr_only_20_100_days_amp_ge1": 117,
+   "olr_20_100_var_160E_150W": 299.8,
+   "olr_20_100_var_60E_150E": 196.1
+  },
+  {
+   "season": "2016-17",
+   "wh_like_days_amp_ge1": 81,
+   "bandpass_20_100_days_amp_ge1": 80,
+   "olr_only_20_100_days_amp_ge1": 86,
+   "olr_20_100_var_160E_150W": 58.1,
+   "olr_20_100_var_60E_150E": 159.0
+  },
+  {
+   "season": "2017-18",
+   "wh_like_days_amp_ge1": 123,
+   "bandpass_20_100_days_amp_ge1": 153,
+   "olr_only_20_100_days_amp_ge1": 139,
+   "olr_20_100_var_160E_150W": 97.2,
+   "olr_20_100_var_60E_150E": 205.2
+  },
+  {
+   "season": "2018-19",
+   "wh_like_days_amp_ge1": 136,
+   "bandpass_20_100_days_amp_ge1": 131,
+   "olr_only_20_100_days_amp_ge1": 157,
+   "olr_20_100_var_160E_150W": 137.5,
+   "olr_20_100_var_60E_150E": 324.2
+  },
+  {
+   "season": "2019-20",
+   "wh_like_days_amp_ge1": 127,
+   "bandpass_20_100_days_amp_ge1": 100,
+   "olr_only_20_100_days_amp_ge1": 121,
+   "olr_20_100_var_160E_150W": 117.1,
+   "olr_20_100_var_60E_150E": 185.0
+  },
+  {
+   "season": "2020-21",
+   "wh_like_days_amp_ge1": 131,
+   "bandpass_20_100_days_amp_ge1": 97,
+   "olr_only_20_100_days_amp_ge1": 89,
+   "olr_20_100_var_160E_150W": 70.2,
+   "olr_20_100_var_60E_150E": 173.5
+  },
+  {
+   "season": "2021-22",
+   "wh_like_days_amp_ge1": 132,
+   "bandpass_20_100_days_amp_ge1": 68,
+   "olr_only_20_100_days_amp_ge1": 54,
+   "olr_20_100_var_160E_150W": 51.1,
+   "olr_20_100_var_60E_150E": 133.7
+  },
+  {
+   "season": "2022-23",
+   "wh_like_days_amp_ge1": 112,
+   "bandpass_20_100_days_amp_ge1": 116,
+   "olr_only_20_100_days_amp_ge1": 32,
+   "olr_20_100_var_160E_150W": 17.3,
+   "olr_20_100_var_60E_150E": 90.9
+  },
+  {
+   "season": "2023-24",
+   "wh_like_days_amp_ge1": 146,
+   "bandpass_20_100_days_amp_ge1": 125,
+   "olr_only_20_100_days_amp_ge1": 0,
+   "olr_20_100_var_160E_150W": 0.7,
+   "olr_20_100_var_60E_150E": 1.3
+  },
+  {
+   "season": "2024-25",
+   "wh_like_days_amp_ge1": 140,
+   "bandpass_20_100_days_amp_ge1": 140,
+   "olr_only_20_100_days_amp_ge1": 0,
+   "olr_20_100_var_160E_150W": 0.9,
+   "olr_20_100_var_60E_150E": 1.3
+  },
+  {
+   "season": "2025-26",
+   "wh_like_days_amp_ge1": 88,
+   "bandpass_20_100_days_amp_ge1": 86,
+   "olr_only_20_100_days_amp_ge1": 18,
+   "olr_20_100_var_160E_150W": 22.4,
+   "olr_20_100_var_60E_150E": 31.4
+  }
+ ],
+ "log": [
+  "OLR 2023: 0 of 365 days, rest NaN",
+  "OLR 2024: 0 of 366 days, rest NaN",
+  "OLR 2025: 0 of 365 days, rest NaN",
+  "OLR 2026: 0 of 365 days, rest NaN",
+  "last OLR date 2022-12-31",
+  "days used 17243"
+ ]
+}
