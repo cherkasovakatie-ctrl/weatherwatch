@@ -581,10 +581,10 @@
   {
    "id": "reports",
    "file": "reports.csv",
-   "title": "Reports library",
-   "description": "Published reports (PDF).",
-   "updated": "2026-10-17",
-   "bytes": 154
+   "title": "Research papers and reports",
+   "description": "Index of WeatherWatch research papers and reports (ENSO papers, 2026 storm papers, climate reports), with page links and PDF copies where available.",
+   "updated": "2026-10-24",
+   "bytes": 1432
   },
   {
    "id": "ridge_watch",
