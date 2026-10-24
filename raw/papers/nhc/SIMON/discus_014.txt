@@ -1,0 +1,99 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Simon Discussion Number  14
+NWS National Hurricane Center Miami FL       EP202026
+300 PM CST Sat Oct 10 2026
+
+Air Force Reserve Hurricane Hunters have been investigating Simon 
+this afternoon, finding that the hurricane is indeed a Category 4 
+storm. The minimum pressure is estimated to be down to 932 mb, and 
+the peak 700 mb flight level winds were 134 kt in the eastern 
+quadrant of the hurricane. While a standard 0.9 reduction would 
+typically support a 10 meter sustained wind of 120-125 kt, the 
+entire wind field of Simon was not fully sampled. In addition, there 
+was an earlier partial Synthetic Aperture Radar (SAR) RCM-1 pass 
+which had a peak wind of 138 kt. Satellite intensity estimates, 
+which have been lagging behind the estimated intensity of Simon, 
+have also risen somewhat today. Taking all these data points 
+together, the initial intensity is held at 130 kt this advisory. The 
+aircraft also reported concentric eyewalls, with the inner eyewall 
+12 n mi and outer wall at 36 n mi. Some concentric bands were also 
+picked up by a recent AMSR-3 microwave pass. 
+ 
+After slowing down to a crawl earlier, aircraft fixes indicate that 
+Simon starting to move due north again, with an estimated motion at 
+360/4 kt. As previously discussed, the hurricane is being primarily 
+steered by a weak mid-level ridge to the east, providing deep-layer 
+southerly flow. A subtle narrow mid-level ridge to the northwest is 
+also imparting a slight amount of northerly flow. Once again, the 
+track guidance this afternoon has made a slower adjustment. In 
+addition, there is a bit of an eastward shift in the guidance 
+envelope. One notable change from this morning, now all the 
+hurricane-regional model runs (HWRF, HMON, HAFS-A, HAFS-B) all show 
+Simon making landfall in Jalisco in 24-36 h. In addition, both the 
+Google DeepMind ensemble mean (GDMI) and its upgraded Weather Next 
+model (WN3I) also nudged their tracks eastward. Thus, the NHC track 
+forecast has shifted a bit to the east, but still lies on the 
+eastern end of the guidance. Part of the reason for favoring the 
+eastern edge of the guidance is that there is a pretty well-known 
+bias that tropical cyclones in this area tend to track east of the 
+forecast track due to interaction with the high topography of 
+coastal Mexico.
+
+As mentioned this morning, the future intensity forecast of Simon is 
+heavily influenced by Simon's ultimate track. Because large-scale 
+environmental conditions remain favorable, Simon's short-term 
+intensity forecast will likely be controlled by inner-core 
+fluctuations, like eyewall replacement cycles. This is pertinent 
+given the concentric eyewalls noted by the aircraft mission. 
+However, as Simon nears the Mexican coast, the high topography will 
+interact with the hurricane's outer circulation, and spot soundings 
+in the HAFS-A/B runs show evidence of downslope subsidence occurring 
+as Simon nears landfall. This effect will both cause the hurricane's 
+wind field to shrink in size, and will likely result in weakening 
+even before the hurricane makes landfall in Mexico. Weakening is 
+expected to begin between 12-24 h, with more substantial weakening 
+occurring when Simon moves fully onshore. Once again, this intensity 
+forecast is quite uncertain. If Simon remains offshore, like the 
+ECMWF and a decent chunk of GDM ensemble members show, it may remain 
+much stronger than the latest NHC intensity forecast. The latest 
+forecast is a bit lower than the prior one, with a bit more 
+confidence that Simon will move inland, though the latest forecast 
+still shows Simon dissipating over Mexico after 60 h.
+ 
+Key Messages:
+ 
+1. Catastrophic wind and life-threatening storm surge impacts are 
+likely along a portion of the west-central coast of Mexico, and a 
+Hurricane Warning is in effect from Punta San Telmo to El Roblito. 
+Preparations to protect life and property should be completed this 
+afternoon.
+ 
+2. Heavy rainfall associated with Simon will impact portions of 
+southwestern Mexico through this weekend. This rainfall will produce 
+life-threatening flooding and mudslides, especially in areas of 
+steep terrain.
+ 
+3. Swells will affect portions of the southwestern and west-central
+coast of Mexico through the weekend. These swells are likely to
+cause life-threatening surf and rip current conditions. Please
+consult products from your local weather office.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  10/2100Z 17.6N 104.8W  130 KT 150 MPH
+ 12H  11/0600Z 18.3N 104.9W  130 KT 150 MPH
+ 24H  11/1800Z 19.4N 105.1W  110 KT 125 MPH
+ 36H  12/0600Z 20.8N 105.2W   70 KT  80 MPH...INLAND
+ 48H  12/1800Z 21.9N 105.2W   45 KT  50 MPH...INLAND
+ 60H  13/0600Z 22.8N 105.1W   15 KT  15 MPH...POST-TROP/INLAND
+ 72H  13/1800Z...DISSIPATED
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

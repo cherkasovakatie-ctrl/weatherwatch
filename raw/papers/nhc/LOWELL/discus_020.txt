@@ -1,0 +1,74 @@
+
+ZCZC HFOTCDCP4 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Lowell Discussion Number  20
+NWS Central Pacific Hurricane Center Honolulu HI   EP122026
+Issued by NWS National Hurricane Center Miami FL
+500 AM HST Tue Sep 01 2026
+
+The satellite presentation of Lowell has improved significantly
+over the past 12 to 24 hours.  The cyclone consists of a large
+central area of very cold cloud tops with an impressive curved band
+extending out towards the southwest quadrant.  The latest
+subjective Dvorak estimates from JTWC and PHFO range from 55-65 kt,
+and the latest objective intensity estimates range from 60 to 70
+kt.  Based on improving structure observed on satellite imagery
+over the past few hours, the initial intensity is increased to 70
+kt.
+ 
+The initial motion is west-northwestward, or about 285/10 kt. A
+mid-level subtropical ridge north of Lowell should remain the
+primary steering influence during the next 4 days or so, resulting
+in a generally westward to west-northwestward motion. The track
+guidance is in relatively good agreement during this time period,
+and generally shows Lowell continuing west-northwestward through
+day 4.  In about 4 days, the cyclone should slow down, and may gain
+some latitude as a mid- to upper-level trough well north of the
+Hawaiian Islands weakens the subtropical ridge, possibly causing a
+turn toward the northwest by day 5.  The latest NHC track forecast
+is similar to the previous one, and lies close to the Google
+DeepMind Ensemble Mean (GDMI) for the first 2-3 days, and is north
+of the GDMI and HCCA for the 3 to 5 day portion of the forecast.
+ 
+Environmental conditions are ripe for Lowell to intensify rapidly 
+over the next day or two.  Now that the core is well-formed, Lowell 
+should be able to take advantage of the weak vertical wind shear and 
+warm sea-surface temperatures.  The HAFS and HWRF models show Lowell 
+becoming a major hurricane within the next 24 to 36 hours, and the 
+NHC intensity forecast follows suit.  The SHIPS DTOPS has about a 75 
+percent chance of 45 kt strengthening over the next 36 hours, and 
+the NHC forecast shows 40 kt of strengthening during that time.  The 
+new NHC intensity forecast shows a faster rate of strengthening 
+during the first 36 hours of the forecast, and the peak intensity 
+has been increased slightly to 110 kt.  The new NHC intensity 
+forecast lies between the middle and upper end of the intensity 
+guidance suite, and is in between the intensity consensus (IVCN) and 
+the HCCA.  Ocean waters should remain warm and vertical wind shear 
+is forecast to remain low through day 5, so the NHC forecast holds 
+Lowell at major hurricane strength through day 5.
+
+
+Key Messages:
+ 
+1. Interests in the Hawaiian Islands should continue to closely 
+monitor the progress of Hurricane Lowell.
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  01/1500Z 13.4N 149.4W   70 KT  80 MPH
+ 12H  02/0000Z 13.6N 150.7W   85 KT 100 MPH
+ 24H  02/1200Z 13.7N 152.6W  100 KT 115 MPH
+ 36H  03/0000Z 14.0N 154.6W  110 KT 125 MPH
+ 48H  03/1200Z 14.3N 156.6W  110 KT 125 MPH
+ 60H  04/0000Z 14.5N 158.3W  110 KT 125 MPH
+ 72H  04/1200Z 14.7N 159.8W  110 KT 125 MPH
+ 96H  05/1200Z 14.9N 162.5W  110 KT 125 MPH
+120H  06/1200Z 15.6N 164.4W  105 KT 120 MPH
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

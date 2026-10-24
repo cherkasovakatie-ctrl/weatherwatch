@@ -1,0 +1,85 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Simon Discussion Number  28
+NWS National Hurricane Center Miami FL       EP202026
+200 AM MST Wed Oct 14 2026
+ 
+Proxy-visible and infrared satellite images of Simon show the tiny
+eye of the hurricane has filled during the past few hours. There has
+also been a warming of the inner core cloud tops, and the central
+dense overcast has become less symmetric. These changes could be the
+result of some northerly shear affecting Simon as diagnosed by
+UW-CIMSS. There is no recent passive microwave data available to
+assess the internal structure of Simon, but recent scatterometer
+data and distant radar data from Los Cabos indicate that the
+hurricane remains very small. The initial intensity is lowered
+slightly to 90 kt, in best agreement with the latest Dvorak CI
+number (5.0) from TAFB and an earlier 88-kt D-MINT estimate.
+ 
+The hurricane is moving slowly southwestward (230/3 kt). In the near 
+term, Simon is expected to remain within very weak steering 
+currents. Thus, it is likely to meander well offshore of 
+west-central Mexico during the next couple of days, with the model 
+consensus generally favoring a slow southwestward or southward 
+motion through Thursday. From there, the future track will depend on 
+the vertical depth of Simon and its interaction with an upper-level 
+trough over the western United States. This feature should cause 
+Simon to turn northward at some point, but there is large spread 
+among the track models as to when and where this turn occurs. There 
+has been a substantial westward shift in the long-range track 
+guidance, with almost all models now bringing Simon near or west of 
+the Baja California Peninsula at 72-120 h. The NHC forecast has been 
+adjusted in the direction of the latest multi-model consensus to 
+reflect this trend, but future adjustments will likely be required.
+ 
+Simon's small size makes it susceptible to intensity fluctuations 
+based on the state of its compact inner core and small changes in 
+the environmental conditions. The hurricane is forecast to drift 
+over very warm waters in a fairly weak shear environment during the 
+next day or two. However, the mid-level environmental humidity is 
+only around 50 percent, and even slightly stronger shear than 
+forecast could disrupt the core and induce some weakening. The 
+official NHC forecast shows little net change in the next 24-36 h, 
+recognizing that some of the hurricane regional models show another 
+round of strengthening could occur during this period. There is 
+higher confidence that the aforementioned trough will impart 
+stronger vertical wind shear over Simon by Friday, which should 
+induce a steady weakening trend through the weekend.
+ 
+Simon continues to be a challenging storm to forecast, and
+confidence remains lower than normal given the weak steering,
+proximity to land, very small size, and significant model spread.
+ 
+Key Messages:
+ 
+1. Simon could be near Las Islas Marias on Thursday, where a
+Hurricane Watch remains in effect. Interests in west-central Mexico
+and Baja California Sur should continue to closely monitor the
+latest updates. Additional watches or warnings could be required
+over the next day or two.
+ 
+2. Large swells will likely affect portions of the coast of
+west-central Mexico and Baja California Sur over the next several
+days. These swells could cause life-threatening surf and rip current
+conditions.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  14/0900Z 19.8N 107.9W   90 KT 105 MPH
+ 12H  14/1800Z 19.6N 108.0W   95 KT 110 MPH
+ 24H  15/0600Z 19.4N 108.1W   90 KT 105 MPH
+ 36H  15/1800Z 19.2N 108.3W   90 KT 105 MPH
+ 48H  16/0600Z 19.6N 108.5W   80 KT  90 MPH
+ 60H  16/1800Z 20.9N 109.1W   65 KT  75 MPH
+ 72H  17/0600Z 22.4N 109.8W   50 KT  60 MPH
+ 96H  18/0600Z 24.6N 111.1W   35 KT  40 MPH...POST-TROP/INLAND
+120H  19/0600Z 27.1N 113.0W   25 KT  30 MPH...POST-TROP/INLAND
+ 
+$$
+Forecaster Reinhart
+ 
+NNNN
+

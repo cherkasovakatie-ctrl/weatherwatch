@@ -1,0 +1,56 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Depression Six-E Discussion Number   1
+NWS National Hurricane Center Miami FL       EP062026
+800 PM MST Sat Jul 18 2026
+ 
+Satellite imagery and scatterometer data indicate that the low 
+pressure area well south of the southern tip of the Baja California 
+peninsula now has a well-defined circulation and sufficient 
+organized convection to be designated a tropical depression. Thus, 
+advisories are being initiated on Tropical Depression Six-E. The 
+initial intensity is set at 30 kt based on a combination of the 
+earlier scatterometer data and a satellite intensity estimate from 
+TAFB.
+
+The initial motion is 290/10 kt.  The depression is on the south 
+side of a mid-level ridge that extends westward from northwestern 
+Mexico. This feature should steer the cyclone generally 
+west-northwestward for the next three days or so, followed by a 
+more westward motion as the ridge builds westward. The track 
+guidance is in good agreement with this scenario, although the HWRF 
+and HMON show a more westward track than the other models after 36 
+h. The track forecast is near the center of the guidance envelope.
+ 
+The scatterometer data suggested that the depression's radius of 
+maximum wind is 70-100 n mi, and it may take some time for this 
+to contract or for the cyclone to form a new inner wind core. 
+Once the system gets better organized, though, the environment is 
+favorable for steady to rapid strengthening, particularly after 24 
+h. The intensity forecast calls for the system to strengthen to 80 
+kt by 60 h, and this is at the lower edge of the intensity 
+guidance. The forecast 95-kt peak intensity is more in the middle of 
+the guidance envelope, but there are several models calling for the 
+system to become a major hurricane at 72-96 h. Slow weakening is 
+expected to start by 120 h since the forecast track takes the 
+cyclone over cooler sea surface temperatures.
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  19/0300Z 11.3N 109.1W   30 KT  35 MPH
+ 12H  19/1200Z 11.9N 110.7W   35 KT  40 MPH
+ 24H  20/0000Z 12.6N 112.9W   45 KT  50 MPH
+ 36H  20/1200Z 13.4N 114.7W   55 KT  65 MPH
+ 48H  21/0000Z 14.6N 116.4W   65 KT  75 MPH
+ 60H  21/1200Z 15.4N 117.9W   80 KT  90 MPH
+ 72H  22/0000Z 16.0N 119.4W   95 KT 110 MPH
+ 96H  23/0000Z 16.7N 122.8W   95 KT 110 MPH
+120H  24/0000Z 17.5N 127.0W   90 KT 105 MPH
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

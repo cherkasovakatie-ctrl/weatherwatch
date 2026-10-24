@@ -1,0 +1,64 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Nolo Discussion Number  32
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+500 AM HST Mon Sep 28 2026
+ 
+Increasing westerly wind shear is beginning to affect the structure 
+of Nolo this morning. Recent infrared satellite imagery indicate a 
+slight increase in asymmetric convection, with a decrease in 
+convection to the north and east of the well-defined and very warm 
+eye, and a larger area of convection to the south and west. Recent 
+subjective Dvorak intensity estimates were 6.5/127 kt, while 
+objective intensity estimates range from 121-133 kt. However, Nolo 
+continues to have an annular structure, so the intensity has likely 
+changed little since the previous advisory. Therefore, the initial 
+intensity is maintained at 135 kt for this advisory. 
+ 
+Nolo is moving toward the west-northwest, or 290/11 kt, along the 
+southwest periphery of a mid-level ridge centered well north of the 
+Hawaiian Islands. A turn toward the northwest then north is expected 
+through the next 36-48 h as an intensifying upper-level low 
+approaches the hurricane from the northwest. The track forecast 
+becomes more complicated around midweek, as the progression and 
+strength of the aforementioned upper-low will influence the motion 
+of Nolo. A stronger low will likely be less progressive and pull 
+Nolo farther north, while a weaker and more transient low will 
+result in a faster turn toward the west. The latest NHC forecast 
+follows the latter scenario and calls for Nolo to turn back toward 
+the west-northwest then west around midweek, with this general 
+motion continuing into this weekend. This is consistent with the 
+previous forecast advisory, and is similar to the HCCA and Google 
+DeepMind solutions. 
+
+The major hurricane has likely peaked in strength while over very 
+warm waters and beneath favorable upper-level winds. However, 
+increasing wind shear due to the aforementioned upper-level low 
+should support gradual weakening by tonight, followed by more rapid 
+weakening beyond 24 h through the middle of the week. In 4-5 days, 
+the models suggest a more favorable upper-level flow pattern, which 
+could allow for some re-strengthening. The latest NHC forecast 
+remains near the upper-end of the model intensity guidance, though 
+has been lowered slightly at all forecast times. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  28/1500Z 17.1N 162.3W  135 KT 155 MPH
+ 12H  29/0000Z 18.3N 163.3W  135 KT 155 MPH
+ 24H  29/1200Z 20.0N 163.9W  120 KT 140 MPH
+ 36H  30/0000Z 21.7N 164.0W  100 KT 115 MPH
+ 48H  30/1200Z 22.6N 164.0W   75 KT  85 MPH
+ 60H  01/0000Z 22.8N 164.4W   65 KT  75 MPH
+ 72H  01/1200Z 23.1N 165.3W   65 KT  75 MPH
+ 96H  02/1200Z 23.7N 167.2W   65 KT  75 MPH
+120H  03/1200Z 24.1N 170.0W   70 KT  80 MPH
+ 
+$$
+Forecaster Adams
+ 
+NNNN
+

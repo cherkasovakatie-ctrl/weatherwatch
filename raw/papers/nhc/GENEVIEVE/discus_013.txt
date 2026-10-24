@@ -1,0 +1,61 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Genevieve Discussion Number  13
+NWS National Hurricane Center Miami FL       EP072026
+800 AM MST Mon Jul 27 2026
+ 
+After rapidly intensifying over the past 24-36 h, Genevieve's
+impressive strengthening appears to have ended this morning. The eye
+remains clear and very warm with temperatures above 20 C, however,
+the IR satellite presentation is beginning to wane, with cloud top
+temperatures below -70 C no longer fully wrapping around. It is
+possible that Genevieve is in the beginning stages of an eyewall
+replacement cycle, as suggested by an earlier GMI pass, and some
+fluctuations in intensity are expected when this occurs. The 12Z
+TAFB intensity estimate was 6.5/127 kt, and the latest subjective
+estimates range from 130-143 kt. Based on these estimates and the
+slightly less impressive satellite presentation, the initial
+intensity has been set at 135 kt for this advisory.
+ 
+Genevieve is moving toward the northwest around 11 kt, steered by a
+strong upper-level ridge centered over the west-central United
+States. A west-northwestward to northwestward motion and a slight
+decrease in forward speed is expected over the next couple of days
+as the ridge axis shifts eastward. The latest NHC track forecast is
+very similar to the previous advisory and lies near the HCCA
+corrected consensus.
+ 
+Genevieve will remain in an environment with warm SSTs near 29 C,
+low vertical wind shear and favorable upper-level divergence over
+the next 12 h or so. However, the Microwave-based Probability of
+Eyewall Replacement Cycle (MPERC) guidance indicates a 42 percent
+chance of an eyewall replacement cycle over the next 24 h, and some
+fluctuations in intensity will be possible if this occurs. As
+Genevieve moves toward the northwest and west-northwest through
+midweek, the major hurricane will encounter cooler waters and
+gradually drier mid-level relative humidity, leading to steady
+weakening. By 72 h, Genevieve is forecast to move north of 20N and
+encounter waters cooler than 26 C, leading to a more rapid weakening
+trend for late this week into this weekend. The latest NHC lies near
+the middle of the intensity consensus aids.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  27/1500Z 16.0N 113.1W  135 KT 155 MPH
+ 12H  28/0000Z 16.8N 114.3W  125 KT 145 MPH
+ 24H  28/1200Z 17.7N 115.8W  115 KT 130 MPH
+ 36H  29/0000Z 18.2N 117.3W  105 KT 120 MPH
+ 48H  29/1200Z 18.8N 118.9W   90 KT 105 MPH
+ 60H  30/0000Z 19.5N 120.7W   80 KT  90 MPH
+ 72H  30/1200Z 20.4N 122.8W   70 KT  80 MPH
+ 96H  31/1200Z 22.1N 127.8W   55 KT  65 MPH
+120H  01/1200Z 23.9N 133.2W   45 KT  50 MPH
+ 
+$$
+Forecaster Adams/Papin
+ 
+NNNN
+

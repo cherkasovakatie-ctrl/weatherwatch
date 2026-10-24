@@ -1,0 +1,50 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Marie Discussion Number  29
+NWS National Hurricane Center Miami FL       EP132026
+200 AM PDT Tue Sep 08 2026
+ 
+The satellite presentation of Marie continues to degrade as the 
+cyclone continues to weaken. What is the left of the deep convection 
+is very minimal and limited to the southeastern quadrant of the 
+storm. The latest TAFB Dvorak fix came in at T2.5/35 kt, and the 
+objective satellite estimates from UW-CIMSS are in the range of 
+30-44 kt. The most recent scatterometer pass showed that there are 
+still some 35-kt winds and given that this pass only partially 
+captured the storm, there could still be some stronger winds. 
+Therefore, the initial intensity has been lowered to 40 kt for this 
+advisory.
+ 
+The storm continues its slow west-northwestward trek with an initial 
+motion estimate of around 300/7 kt. Marie is expected to turn more 
+northwestward and move within the flow between a ridge extending 
+westward from the southwestern U.S. and a cutoff low to the west of 
+the tropical cyclone. The current NHC track forecast is similar to 
+the previous forecast track, and is close to the corrected model 
+consensus.
+ 
+Marie is expected to move over cooler waters for the next day or so, 
+and based on the decreasing convection, it seems likely that the 
+storm will become post-tropical within the next 24 h. Unless deep 
+convection is able to return to the cyclone soon, Marie's 
+post-tropical transition could occur even earlier than the official 
+forecast. The current NHC intensity forecast is very similar to the 
+previous intensity forecast.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  08/0900Z 25.5N 126.6W   40 KT  45 MPH
+ 12H  08/1800Z 26.3N 127.5W   35 KT  40 MPH
+ 24H  09/0600Z 27.9N 128.6W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 36H  09/1800Z 29.8N 129.9W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 48H  10/0600Z 32.1N 131.4W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 60H  10/1800Z...DISSIPATED
+ 
+$$
+Forecaster Katz/Gibbs
+ 
+NNNN
+

@@ -1,0 +1,64 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Tropical Storm Nolo Discussion Number  39
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+1100 PM HST Tue Sep 29 2026
+ 
+Nolo continues to rapidly weaken under the influence of strong 
+southwesterly vertical wind shear and dry mid-level air. Satellite 
+imagery shows that the low-level circulation center is now fully 
+exposed, with limited deep convection confined north of the center. 
+The latest subjective Dvorak Current Intensity estimates from JTWC 
+and HFO are 55 kt, while objective intensity estimates range from 50 
+to 60 kt. Given the degraded satellite presentation and decreasing 
+intensity estimates, the initial intensity is lowered to 60 kt.
+
+Nolo has begun its anticipated west-northwestward turn, with an 
+initial motion of 290/5 kt. As a ridge builds north of the cyclone, 
+Nolo is forecast to turn more toward the west overnight and into 
+Wednesday. A temporary westward to west-southwestward motion is 
+possible during the next day or so as the weakening system becomes 
+increasingly influenced by the lower-level steering flow. 
+Thereafter, as Nolo re-strengthens, it is forecast to gain some 
+latitude while continuing generally westward through about day 4, 
+followed by a west-northwestward motion by day 5 as it crosses the 
+International Date Line. The track guidance remains in decent 
+agreement, despite some continued along- and cross-track spread. The 
+latest NHC track forecast is essentially an update of the previous 
+prediction and lies near the HCCA and GDMI aids.
+
+Strong southwesterly vertical wind shear and dry mid-level air are 
+expected to continue affecting Nolo during the next day or so, 
+resulting in additional weakening. The shear is forecast to relax 
+thereafter, allowing environmental conditions to become more 
+favorable for re-strengthening. However, the dry mid-level 
+environment could limit the rate of intensification despite warm sea 
+surface temperatures. The latest NHC intensity forecast is very 
+similar to the previous advisory, showing continued weakening during 
+the next day or so, followed by little change in strength through 
+Thursday before re-strengthening begins. Nolo is forecast to regain 
+hurricane intensity by Friday and strengthen somewhat thereafter. 
+The intensity forecast remains near the middle of the guidance 
+envelope.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  30/0900Z 22.4N 164.6W   60 KT  70 MPH
+ 12H  30/1800Z 22.6N 164.6W   50 KT  60 MPH
+ 24H  01/0600Z 22.7N 165.0W   50 KT  60 MPH
+ 36H  01/1800Z 22.6N 165.6W   50 KT  60 MPH
+ 48H  02/0600Z 22.8N 166.5W   55 KT  65 MPH
+ 60H  02/1800Z 23.1N 167.4W   65 KT  75 MPH
+ 72H  03/0600Z 23.4N 168.8W   70 KT  80 MPH
+ 96H  04/0600Z 24.1N 174.5W   80 KT  90 MPH
+120H  05/0600Z 26.1N 178.7E   80 KT  90 MPH
+ 
+$$
+Forecaster Gibbs
+ 
+NNNN
+

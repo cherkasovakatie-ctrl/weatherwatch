@@ -1,0 +1,87 @@
+
+ZCZC MIATCDAT4 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Isaias Discussion Number   9
+NWS National Hurricane Center Miami FL       AL092026
+400 PM CDT Thu Oct 08 2026
+ 
+The eye of Isaias has become apparent on visible and infrared
+satellite imagery.  Interestingly, this is the first eye noted on
+satellite pictures in the Atlantic basin during the 2026 Hurricane
+Season.  The cloud tops have mostly warmed in the system, but the
+latest subjective Dvorak classification value from TAFB has
+increased to T4.5 or 77 kt.  NOAA Hurricane Hunter aircraft
+observations do not indicate a drop in central pressure so far and
+the peak 700-mb flight-level winds have not increased.  However,
+Tail Doppler Radar wind velocities from the aircraft measured just
+above the surface support increasing the intensity to 85 kt for
+this advisory.
+ 
+Satellite and aircraft center fixes indicate that the hurricane 
+appears to have made its expected turn toward the northeast and the 
+initial motion is now 050/10 kt.  Isaias is expected to turn 
+northward tomorrow and move between a mid-level ridge extending 
+westward from the Bahamas to the Florida peninsula and a trough 
+near the northwest Gulf Coast.  On the forecast track, the center 
+will move inland along the northern Gulf coast within the next 36 
+hours, and then pass over portions of the southeastern U.S. during 
+the next few days.  The official forecast is nudged slightly 
+eastward and follows the latest corrected consensus model guidance. 
+ 
+The intensity forecast remains somewhat problematic.  The hurricane 
+will be passing over Gulf waters of high oceanic heat content 
+during the next day or so.  In fact, the projected track of Isais 
+shows it passing near a warm eddy overnight.  However, the vertical 
+wind shear, which is already significant, is expected to increase 
+substantially during the next 36 hours. The current thinking is that 
+the shear will not offset the conducive oceanic conditions until 
+12-24 hours, so further strengthening is anticipated overnight.  The 
+official intensity forecast is at the high end of the model 
+guidance, but in consideration of the expected stronger wind shear 
+in 24-36 hours, some decrease in intensity is indicated as Isaias 
+approaches the coast.  Regardless, Isaias is expected to remain a 
+dangerous hurricane through landfall, and strong gusty winds are 
+expected well inland after the center crosses the coast.
+
+Key Messages:
+ 
+1. A life-threatening storm surge is expected from the Mouth of the
+Mississippi River to Suwannee, Florida. Residents in the warning
+area should follow advice given by local officials and evacuate
+immediately if told to do so.
+ 
+2. Damaging hurricane force-winds are expected over portions of the
+Florida Panhandle, southern Alabama, and southern Mississippi where
+a Hurricane Warning is in effect. Residents in these areas should
+prepare for the possibility of long-duration power outages.
+ 
+3. Damaging wind gusts are possible over much of central and 
+northern Alabama, extreme eastern Mississippi, and portions of 
+western and northern Georgia, especially in areas of higher terrain. 
+ Additional Tropical Storm and High Wind Watches and Warnings may be 
+required for portions of that area later tonight. Residents should 
+secure loose outdoor items, avoid driving high-profile vehicles, and 
+prepare for power outages.
+
+4. Isaias will bring areas of heavy rainfall to the central U.S.
+Gulf coast and much of the Southeast Friday into the weekend.
+Considerable flash and urban flooding, along with significant river
+flooding, will be possible.
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  08/2100Z 24.4N  89.3W   85 KT 100 MPH
+ 12H  09/0600Z 25.7N  88.4W   95 KT 110 MPH
+ 24H  09/1800Z 28.2N  87.4W   85 KT 100 MPH
+ 36H  10/0600Z 31.0N  87.2W   65 KT  75 MPH...INLAND
+ 48H  10/1800Z 33.2N  87.8W   30 KT  35 MPH...INLAND
+ 60H  11/0600Z 35.0N  87.8W   25 KT  30 MPH...POST-TROP/INLAND
+ 72H  11/1800Z 37.0N  85.0W   20 KT  25 MPH...POST-TROP/INLAND
+ 96H  12/1800Z...DISSIPATED
+ 
+$$
+Forecaster Pasch
+ 
+NNNN
+

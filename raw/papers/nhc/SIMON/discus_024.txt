@@ -1,0 +1,92 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Simon Discussion Number  24
+NWS National Hurricane Center Miami FL       EP202026
+200 AM MST Tue Oct 13 2026
+ 
+Simon remains a very small hurricane. Synthetic aperture radar (SAR) 
+data from around 01 UTC showed its compact wind field, with a 5-n-mi 
+radius of maximum wind and tropical-storm-force winds that extended 
+only 30-40 n mi from the center. Satellite images reveal Simon has 
+maintained a small central dense overcast tonight, with a sharper 
+edge to the cloud tops on the northeastern side, perhaps the result 
+of some vertical wind shear. Given the small size of Simon, it is 
+possible that conventional satellite estimates are struggling to 
+represent its true intensity. The initial intensity is set at 80 kt, 
+which lies in between the latest Dvorak CI number from TAFB (4.5/77 
+kt) and the earlier SAR data. 
+ 
+The hurricane is moving slowly northwestward (310/3 kt) around a 
+subtropical ridge over the southern United States. During the next 
+couple of days, Simon is forecast to become caught in weak steering 
+currents between this ridge and another ridge that should build to 
+the northwest over the eastern Pacific. As a result, most of the 
+track guidance now shows little net motion of the storm through 60 
+h, although Simon meanders in several different directions in the 
+various global models and ensembles. Given the lack of a clear model 
+signal, the new NHC forecast attempts to maintain some continuity by 
+using a blend of the latest Google DeepMind, AI-GFS, and ECMWF track 
+aids through 72 h. Once again, the trend is slower and farther west 
+than the previous prediction. A general northward motion is shown at 
+96-120 h as the system (if it survives that long) should become 
+steered by a cutoff upper low to its northwest. Needless to say, the 
+lack of model agreement makes this a very low confidence forecast.
+
+Simon's intensity forecast is also very challenging and highly 
+sensitive to its uncertain track. The small system is forecast to be 
+within a generally low shear environment over very warm SSTs for the 
+next couple of days. However, the slow forward speed of Simon could 
+lead to upwelling of cooler waters, and its proximity to land could 
+make it susceptible to intrusions of drier air from mainland Mexico. 
+Much of the guidance shows little intensity change or even some 
+weakening through midweek, and the NHC forecast remains on the 
+higher end of the intensity guidance. By Thursday, the model 
+consensus favors more steady weakening through the rest of the 
+period due to increased vertical wind shear, and the latter half of 
+the NHC forecast has been lowered notably from the previous one.
+
+It is worth emphasizing that this is a very low confidence forecast, 
+and interests in west-central Mexico should continue to closely 
+monitor the latest updates. Changes to watches and warnings may 
+be required later today based on the latest forecast trends.
+
+ 
+Key Messages:
+ 
+1. Hurricane conditions are likely on Las Islas Marias over the
+next day or so, where a Hurricane Warning remains in effect.
+ 
+2. Simon could approach the coast of western Mexico later this 
+week at or near hurricane strength, and a Hurricane Watch remains 
+in effect for a portion of the area.
+ 
+3. Heavy rainfall associated with Simon will impact portions of 
+west-central Mexico over the next few days. This rainfall will 
+produce life-threatening flooding and mudslides, especially in areas 
+of steep terrain.
+ 
+4. Large swells will affect portions of the southwestern and
+west-central coasts of Mexico over the next several days. These
+swells are likely to cause life-threatening surf and rip current
+conditions.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  13/0900Z 20.6N 107.2W   80 KT  90 MPH
+ 12H  13/1800Z 20.7N 107.4W   75 KT  85 MPH
+ 24H  14/0600Z 20.9N 107.7W   75 KT  85 MPH
+ 36H  14/1800Z 21.0N 107.8W   75 KT  85 MPH
+ 48H  15/0600Z 21.2N 107.9W   75 KT  85 MPH
+ 60H  15/1800Z 21.8N 108.0W   70 KT  80 MPH
+ 72H  16/0600Z 23.0N 108.1W   65 KT  75 MPH
+ 96H  17/0600Z 24.2N 108.1W   55 KT  65 MPH
+120H  18/0600Z 25.4N 108.2W   30 KT  35 MPH...POST-TROP/INLAND
+ 
+$$
+Forecaster Reinhart
+ 
+NNNN
+

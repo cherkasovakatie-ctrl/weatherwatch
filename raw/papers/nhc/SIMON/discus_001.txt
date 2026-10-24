@@ -1,0 +1,53 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Depression Twenty-E Discussion Number   1
+NWS National Hurricane Center Miami FL       EP202026
+900 AM CST Wed Oct 07 2026
+ 
+Visible satellite imagery indicates that the disturbance south of
+Mexico has continued to become better organized.  Curved convective
+bands are evolving over the northern and western quadrants of the
+system.  The low-level circulation, although a bit elongated from
+southwest to northeast, is significantly well-defined to designate
+the formation of a tropical cyclone.  The advisory intensity is set
+at 30 kt in accordance with a Dvorak estimate of T2.0 from TAFB.
+ 
+The initial motion is a somewhat uncertain 300/7 kt.  The cyclone
+is expected to continue on a generally west-northwestward track
+for the next couple of days, along the southern side of a weak
+mid-level ridge.  In 48 hours, the system is likely to turn toward
+the northwest in response to a 500 mb trough approaching the Baja
+California peninsula.  Thereafter, the cyclone should move
+generally northward on the southeastern side of the trough.  The
+official track forecast is on the right side of the guidance
+envelope.
+ 
+Since the cyclone will be in an environment of low vertical wind
+shear, abundant low- to mid-level moisture, and very warm sea
+surface temperatures, steady strengthening is forecast this week.
+The system is likely to become a hurricane in 48 hours or so.  The
+official forecast is close to the intensity model consensus.
+ 
+Interests along the southwestern coast of Mexico should closely
+monitor the progress of this system.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  07/1500Z 14.1N 100.9W   30 KT  35 MPH
+ 12H  08/0000Z 14.6N 102.0W   35 KT  40 MPH
+ 24H  08/1200Z 15.0N 103.3W   45 KT  50 MPH
+ 36H  09/0000Z 15.3N 104.3W   55 KT  65 MPH
+ 48H  09/1200Z 15.8N 104.9W   65 KT  75 MPH
+ 60H  10/0000Z 16.4N 105.2W   75 KT  85 MPH
+ 72H  10/1200Z 17.2N 105.2W   90 KT 105 MPH
+ 96H  11/1200Z 19.7N 105.4W   95 KT 110 MPH
+120H  12/1200Z 22.0N 106.5W   85 KT 100 MPH
+ 
+$$
+Forecaster Pasch
+ 
+NNNN
+

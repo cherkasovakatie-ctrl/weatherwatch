@@ -1,0 +1,43 @@
+
+ZCZC HFOTCDCP5 ALL
+TTAA00 PHFO DDHHMM
+ 
+Post-Tropical Cyclone Karina Discussion Number  43
+NWS Central Pacific Hurricane Center Honolulu HI   EP112026
+Issued by NWS National Hurricane Center Miami FL
+500 PM HST Sun Sep 06 2026
+
+Karina lost all of its organized deep convection late last night,
+and it has been devoid of thunderstorm activity throughout the day.
+Although a small patch of convection has formed about 90 n mi
+northeast of the center, this area is quite limited and not well
+organized. Therefore, Karina no longer meets the definition of a
+tropical cyclone, and this is the last advisory on this system by
+NHC. However, the cyclone is still producing gale-force winds north
+of the center, and the initial wind speed is estimated to be around
+40 kt based on earlier ASCAT data and the latest satellite intensity
+estimates.
+ 
+Strong shear, dry air, and cool waters should cause the
+post-tropical cyclone to continue to weaken while it moves
+west-northwestward in the low-level flow. All of the reliable
+models show the low degenerating into a trough Monday night as
+it approaches Hurricane Lowell to its west.
+ 
+For additional information on this system please see High Seas 
+Forecasts issued by the National Weather Service, under AWIPS header 
+NFDHSFEPI, WMO header FZPN01 KWBC, and on the web at 
+ocean.weather.gov/shtml/NFDHSFEPI.php
+
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  07/0300Z 23.1N 146.2W   40 KT  45 MPH...POST-TROPICAL
+ 12H  07/1200Z 23.2N 147.6W   35 KT  40 MPH...POST-TROPICAL
+ 24H  08/0000Z 23.7N 150.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 36H  08/1200Z...DISSIPATED
+ 
+$$
+Forecaster Cangialosi
+ 
+NNNN
+

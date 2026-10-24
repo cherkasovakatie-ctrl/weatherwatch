@@ -1,0 +1,87 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Polo Discussion Number  30
+NWS National Hurricane Center Miami FL       EP172026
+800 PM MST Sun Sep 27 2026
+ 
+Polo is approaching the Baja California Peninsula as a powerful 
+major hurricane. Satellite images suggest that the cyclone is 
+maintaining its intensity with a ragged eye feature persisting, 
+surrounded by intense deep convection. The cloud pattern is a little 
+asymmetric, with the coldest cloud tops currently located over the 
+western half of the circulation. The latest satellite intensity 
+estimates are largely unchanged, and generally range from 100 to 115 
+kt. Based on that data and steady state appearance, the initial wind 
+speed is held at 110 kt.
+
+The major hurricane is moving northward at about 10 kt on the 
+western side of a mid-level ridge that is situated over northern 
+Mexico. Polo is forecast to turn northeastward on Monday as a trough 
+amplifies over California, taking the core of the hurricane over the 
+Baja California Peninsula Monday afternoon or evening. Polo is then 
+expected to briefly pass over the Gulf of California before making a 
+second landfall in northwestern mainland Mexico Monday night or 
+early Tuesday morning. Little change was made to the previous 
+forecast, and this one lies near the best-performing models of the 
+year so far, HCCA and GDMI.
+
+No significant change in strength is expected before Polo reaches 
+Baja California, and based on the model guidance, it seems likely 
+to be at or near major hurricane intensity when it makes 
+landfall there. Land interaction with the peninsula and an increase 
+in wind shear should cause some weakening, but Polo is still 
+expected to be a hurricane when it reaches mainland Mexico. After 
+the second landfall, rapid weakening is forecast over the rugged 
+terrain of Mexico. The NHC intensity forecast is similar to the 
+previous one, and in good agreement with the majority of the 
+guidance.
+ 
+Although Polo is expected to dissipate before it reaches the 
+southern U.S., distant moisture associated with it and the 
+Post-Tropical Cyclone Odalys will be transported into the 
+southwestern United States during the next few days, and may 
+indirectly contribute to a heavy rainfall and flash flood threat in 
+the region. See products issued by the Weather Prediction Center for 
+more information.
+ 
+ 
+Key Messages:
+ 
+1. Polo is forecast to make landfall on the west coast of the Baja
+California Peninsula as a hurricane late Monday, within the 
+Hurricane Warning area. Conditions are expected to begin to 
+deteriorate there Monday morning, making further preparations 
+difficult. Hurricane and tropical storm conditions are expected to 
+spread across Baja California through Monday and into mainland 
+Mexico on early Tuesday. A storm surge is likely, especially in 
+areas of onshore winds.
+ 
+2. Heavy rainfall associated with Polo will impact Baja California 
+Sur along with southern and central portions of Sonora Monday into 
+Tuesday. This rainfall may produce life-threatening flooding and 
+mudslides, especially in areas of steep terrain. Moisture from Polo 
+will support heavy rainfall and flooding potential across the 
+Southwest U.S. into the Southern High Plains late Monday into 
+Tuesday.
+ 
+3. Dangerous surf and rip currents are likely along portions of
+the northwest coast of Mexico and Baja California for the next
+couple of days.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  28/0300Z 22.8N 114.0W  110 KT 125 MPH
+ 12H  28/1200Z 24.1N 113.7W  110 KT 125 MPH
+ 24H  29/0000Z 25.9N 112.4W  100 KT 115 MPH
+ 36H  29/1200Z 28.3N 110.3W   60 KT  70 MPH...INLAND
+ 48H  30/0000Z 31.3N 107.5W   25 KT  30 MPH...INLAND
+ 60H  30/1200Z...DISSIPATED
+ 
+$$
+Forecaster Cangialosi
+ 
+NNNN
+

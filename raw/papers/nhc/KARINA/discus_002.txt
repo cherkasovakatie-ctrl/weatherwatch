@@ -1,0 +1,60 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Karina Discussion Number   2
+NWS National Hurricane Center Miami FL       EP112026
+800 PM MST Thu Aug 27 2026
+
+Tropical Storm Karina has gradually strengthened since the last 
+advisory, indicated by the most recent subjective Dvorak estimate of 
+T3.0/45 kt from TAFB, and the objective estimates from UW-CIMSS 
+sitting around 35 to 45 kt. Latest satellite imagery continues to 
+display relatively well-organized convection surrounding the center 
+of Karina, with a slightly elongated circulation in place. Given the 
+above, the NHC initial intensity has been increased to 45 kt.
+ 
+Karina's initial motion estimate has altered a bit from the previous 
+advisory as well, now set at 315/11 kt. This heading is forecast to 
+prevail through the next several days as mid- to upper-level ridging 
+centered over much of the southwestern US will dictate Karina's 
+motion prior to the intervention of an upper-level trough by early 
+next week. Because of this interaction, and as showcased by model 
+guidance, particularly GDMI and HCCA, Karina's track will begin to 
+steer more westward. The reliable guidance remains in good 
+agreement on the track of Karina, with confidence decreasing as 
+model spread increases toward the latter end of the forecast early 
+next week.
+ 
+Guidance provided by the ECMWF SHIPS indicates that Karina remains 
+in a favorable environment for steady intensification over the next 
+several days as Karina is forecast to move through a moisture-laden 
+area with low shear. SHIPS-RII consensus guidance suggests a 
+nearly 60 percent chance of a 55 kt increase in winds over the next 
+48 hours; a 10 percent increase from the previous advisory. In 
+fact, the latest guidance from Google DeepMind indicates a 60 
+percent chance that Karina becomes a major hurricane by early next 
+week. However, it is important to note that given Karina currently 
+lacks a tight inner core, the NHC forecast reflects a slower 
+intensification rate. Conversely, if an inner core is established 
+sooner, Karina could intensify much quicker than forecast. Karina 
+is forecast to transition into a more stable environment and begin 
+weakening by day 5.
+
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  28/0300Z 11.9N 112.7W   45 KT  50 MPH
+ 12H  28/1200Z 12.9N 114.1W   55 KT  65 MPH
+ 24H  29/0000Z 14.3N 115.5W   65 KT  75 MPH
+ 36H  29/1200Z 15.7N 117.2W   75 KT  85 MPH
+ 48H  30/0000Z 17.0N 118.8W   85 KT 100 MPH
+ 60H  30/1200Z 17.8N 120.5W   95 KT 110 MPH
+ 72H  31/0000Z 18.3N 122.3W  100 KT 115 MPH
+ 96H  01/0000Z 18.8N 125.4W   90 KT 105 MPH
+120H  02/0000Z 20.2N 127.9W   80 KT  90 MPH
+ 
+$$
+Forecaster Pierce/Zelinsky
+ 
+NNNN
+

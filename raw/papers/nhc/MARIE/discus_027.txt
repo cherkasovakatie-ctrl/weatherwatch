@@ -1,0 +1,50 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Marie Discussion Number  27
+NWS National Hurricane Center Miami FL       EP132026
+200 PM PDT Mon Sep 07 2026
+ 
+Visible satellite imagery depicts Marie as a sheared system with a
+low-level center that has recently become exposed to the northwest
+of the convective area. The latest subjective Dvorak intensity
+estimate from TAFB was 45 kt, while objective estimates from CIMSS
+range from 38-52 kt. A recent ASCAT pass from METOP-B revealed max
+winds near Marie's center at around 45 kt. Given the typical low
+bias in ASCAT due to its resolution, the initial intensity was set
+at 50 kt.
+ 
+Marie's initial motion estimate was 285/7 kt. The storm has moved
+more westward since the last advisory, but is still forecast to turn
+to the northwest as a cutoff low from the northeast Pacific dives
+down and interacts with Marie. The official NHC track forecast
+shifted slightly leftward due to the more westward initial motion,
+and is reflected mostly by a blend of the previous official forecast
+and HCCA.
+ 
+The timing of Marie transitioning into a post-tropical storm was
+moved up to 36 h as the cyclone moves into an increasingly hostile
+environment, and IR satellite imagery continues to depict degrading
+convection. The latest NHC intensity forecast continues to hasten
+Marie's weakening within the first 24 h, before weakening becomes
+more gradual upon the storm's post-tropical transition. This
+forecast generally falls in line with the model consensus.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  07/2100Z 24.8N 125.3W   50 KT  60 MPH
+ 12H  08/0600Z 25.2N 126.2W   40 KT  45 MPH
+ 24H  08/1800Z 26.3N 127.4W   35 KT  40 MPH
+ 36H  09/0600Z 28.0N 128.4W   35 KT  40 MPH...POST-TROPICAL
+ 48H  09/1800Z 30.0N 129.6W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 60H  10/0600Z 32.2N 131.1W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 72H  10/1800Z 34.2N 133.0W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 96H  11/1800Z...DISSIPATED
+ 
+$$
+Forecaster Evans/Hagen
+ 
+NNNN
+

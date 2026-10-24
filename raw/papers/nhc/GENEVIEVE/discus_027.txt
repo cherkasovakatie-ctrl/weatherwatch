@@ -1,0 +1,56 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Genevieve Discussion Number  27
+NWS National Hurricane Center Miami FL       EP072026
+1100 AM HST Thu Jul 30 2026
+ 
+Genevieve is weakening today. Visible satellite imagery shows two 
+main convective bands wrapping around the center, and the eye is 
+obscured by cold cloud top temperatures less than -50 C. An earlier 
+RCM-2 pass showed a slightly elongated eye, but the weakening 
+hurricane maintains an otherwise generally symmetric structure. 
+Objective intensity estimates continue to trend downward, ranging 
+from 57-67 kt. Given the degraded visible and infrared satellite 
+appearance and the intensity estimates, the initial intensity is set 
+at 65 kt.
+
+Genevieve continues to move along a west-northwestward heading 
+today, guided by a strengthening ridge to the north. This general 
+motion will prevail over the next 72 h or so. By early next week, a 
+strong upper-level trough will advance toward the western U.S. and 
+evolve into a cutoff low, steering Genevieve toward the northwest 
+then north-northwest. The latest forecast track has been nudged 
+slightly farther south than the previous forecast, but remains close 
+to the middle of the consensus aids, close to HCCA and the Google 
+DeepMind.
+
+The hurricane has moved into cool waters and is experiencing dry 
+mid-level air and unfavorable upper-level dynamics. These factors 
+will lead to further steady weakening over the next several days. 
+Global model guidance suggests that Genevieve may struggle to 
+produce deep organized convection this weekend, and the forecast 
+calls for the system to become post-tropical by 72 h, and a remnant 
+low early next week. The new forecast intensity remains very similar 
+to the previous advisory, and is near the middle of the consensus 
+guidance.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  30/2100Z 20.8N 124.8W   65 KT  75 MPH
+ 12H  31/0600Z 21.2N 126.7W   55 KT  65 MPH
+ 24H  31/1800Z 21.9N 129.3W   50 KT  60 MPH
+ 36H  01/0600Z 22.7N 132.1W   50 KT  60 MPH
+ 48H  01/1800Z 23.6N 135.1W   45 KT  50 MPH
+ 60H  02/0600Z 24.4N 138.0W   40 KT  45 MPH
+ 72H  02/1800Z 25.4N 140.5W   35 KT  40 MPH...POST-TROPICAL
+ 96H  03/1800Z 27.7N 144.5W   30 KT  35 MPH...POST-TROP/REMNT LOW
+120H  04/1800Z 30.9N 146.6W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Adams/Beven
+ 
+NNNN
+

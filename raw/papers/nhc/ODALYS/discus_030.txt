@@ -1,0 +1,62 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Odalys Discussion Number  30
+NWS National Hurricane Center Miami FL       EP162026
+200 AM PDT Sun Sep 27 2026
+
+Odalys remains a low-end Category 1 hurricane, but continues to 
+rapidly weaken. The system's overall convective structure has 
+degenerated into an irregularly shaped central dense overcast, with 
+cloud-top temperatures ranging between -65°C and -70°C just north of 
+the center. The latest subjective Dvorak CI number from TAFB was 
+4.5/77 kt, but the final T-number was 3.5/55 kt, which aligns better 
+with the objective intensity estimates from UW-CIMSS ranging between 
+53 and 65 kt, further suggesting Odalys' weakening trend. Based on a 
+blend of these data, the initial intensity is lowered to 65 kt.  
+The ASCAT from around 0435Z still had 57 kt vectors, and given the 
+low bias of ASCAT at those wind speeds, this supports keeping 
+Odalys a hurricane for this advisory.
+
+The initial motion is estimated to be northward at 360/7 kt. Little 
+change has been made to the track reasoning, as Odalys is expected 
+to continue northward while a deep-layer trough steers the 
+vertically coherent cyclone. Once the system decouples, motion is 
+forecast to turn abruptly south-southeastward in 24 to 36 hours 
+under the steering influence of a low-level ridge positioned to the 
+northwest. The latest track guidance from the HCCA and GDMI ensemble 
+consensus aids demonstrates a sharper turn southeastward, and the 
+updated NHC track forecast reflects this while closely following the 
+previous advisory.
+
+Over the next few days, Odalys will face an increasingly hostile 
+environment marked by persistent vertical wind shear, dry 
+surrounding air, and significantly cooler ocean temperatures. As a 
+result, rapid weakening is expected throughout the forecast period. 
+Both the GFS and ECMWF simulated satellite models indicate Odalys 
+will transition to a post-tropical cyclone as early as 24 hours.
+ 
+Distant moisture from both Hurricanes Odalys and Polo will be
+transported into the southwestern United States late this weekend
+and early next week, and may indirectly contribute to a heavy
+rainfall and flash flood threat in the region. See products issued
+by the Weather Prediction Center for more information.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  27/0900Z 21.9N 123.4W   65 KT  75 MPH
+ 12H  27/1800Z 22.4N 123.2W   55 KT  65 MPH
+ 24H  28/0600Z 22.6N 122.9W   45 KT  50 MPH...POST-TROPICAL
+ 36H  28/1800Z 22.0N 122.6W   35 KT  40 MPH...POST-TROPICAL
+ 48H  29/0600Z 21.0N 122.4W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 60H  29/1800Z 19.9N 122.2W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 72H  30/0600Z 19.1N 122.1W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 96H  01/0600Z...DISSIPATED
+ 
+$$
+Forecaster Pierce/Hagen
+ 
+NNNN
+

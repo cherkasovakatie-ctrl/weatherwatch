@@ -1,0 +1,43 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Karina Special Discussion Number  14
+NWS National Hurricane Center Miami FL       EP112026
+500 PM PDT Sun Aug 30 2026
+
+The satellite presentation of Karina has improved immensely over the 
+past several hours. Very cold cloud top temperatures of -70 to -75 C 
+now completely surround a warm eye, with temperatures near 0 to -5 
+C. An earlier GPM GMI microwave pass also revealed a compact and 
+well-established eye and pronounced curved banding around the 
+center. Karina is moving over very warm sea surface temperatures 
+near 29 C and remains in an environment highly conducive to further 
+intensification. Objective intensity estimates have also increased 
+rapidly over the past several hours, ranging from 88-109 kt. Based 
+on the satellite presentation, microwave imagery, environmental 
+conditions and objective intensity estimates, the initial intensity 
+is set at 110 kt, making Karina a major hurricane. The intensity 
+forecast has been increased from the previous advisory.
+
+There were no changes made to the track or wind radii forecasts. A 
+new forecast will be issued at 0300 UTC.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  31/0000Z 17.2N 123.4W  110 KT 125 MPH
+ 12H  31/0600Z 17.1N 124.2W  120 KT 140 MPH
+ 24H  31/1800Z 17.3N 125.8W  120 KT 140 MPH
+ 36H  01/0600Z 17.6N 127.6W  115 KT 130 MPH
+ 48H  01/1800Z 18.0N 129.4W  110 KT 125 MPH
+ 60H  02/0600Z 18.6N 131.3W  105 KT 120 MPH
+ 72H  02/1800Z 19.0N 132.9W   95 KT 110 MPH
+ 96H  03/1800Z 19.9N 136.2W   85 KT 100 MPH
+120H  04/1800Z 20.7N 139.3W   70 KT  80 MPH
+ 
+$$
+Forecaster Adams
+ 
+NNNN
+

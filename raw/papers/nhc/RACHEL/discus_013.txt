@@ -1,0 +1,85 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Rachel Discussion Number  13
+NWS National Hurricane Center Miami FL       EP182026
+200 AM MST Wed Sep 30 2026
+
+Rachel is becoming better organized as the north-northeasterly 
+vertical wind shear over the system appears to be relaxing.  After 
+strengthening into a hurricane around 0600 UTC, the system is 
+developing better-defined convective banding features, 
+especially over the western quadrant of the circulation.  Deep 
+convection remains very intense, with numerous cloud tops as cold 
+as -80 deg C.  A NOAA Hurricane Hunter aircraft flying a research 
+mission into Rachel measured 84-kt winds at the 700 mb flight 
+level.  Based on this observation and the increased organization on 
+satellite images, the advisory intensity is set to 75 kt.  This is 
+somewhat higher than the subjective Dvorak estimate and objective 
+estimates from UW-CIMSS.
+
+The forward speed has slowed somewhat and the current motion 
+estimate is 315/9 kt.  Rachel continues to move along the 
+southwestern side of a mid-tropospheric ridge over northern and 
+central Mexico.  The ridge is weakening due to the passage of a 
+mid- to upper-level trough/low over the southern United States, and 
+this is gradually slowing the steering current.  As the low lifts 
+northward during the next couple of days, this should allow another 
+ridge to build to the north of the tropical cyclone.  As a result, 
+Rachel is forecast to turn toward the west-northwest and pass well 
+south of the Baja California Peninsula before continuing westward 
+away from land. The official track forecast is similar to, but 
+slightly slower than, the previous NHC prediction.  This is a blend 
+of the latest HFIP Corrected Consensus Approach (HCCA) and Google 
+DeepMind guidance.
+
+Given the decrease in vertical shear, and expected passage over 
+very warm waters, significant strengthening seems likely during the 
+next 24-36 hours.  The SHIPS Rapid Intensification (RI) guidance 
+indicates a substantially higher than normal probability of RI.  
+The official intensity forecast anticipates that Rachel will 
+quickly strengthen into a major hurricane by tomorrow if not 
+sooner.  This is also similar to the latest HCCA prediction.
+Beyond 48 hours, drier low- to mid-level air could cause some 
+weakening.  The NHC intensity forecasts is on the high side of the 
+model guidance envelope.
+
+The outer wind radii were adjusted based on data from recent 
+ASCAT-B/C overpasses.
+ 
+ 
+Key Messages:
+ 
+1. Although the core of Rachel is forecast to remain offshore of
+Mexico, tropical-storm-force winds are expected along a portion of
+the coast of southwestern Mexico in the warning area this morning.
+ 
+2. Outer bands from Rachel will bring locally heavy rainfall to 
+portions of coastal southwest Mexico through Thursday. This rainfall 
+may produce life-threatening flooding and mudslides, especially in 
+areas of steep terrain.
+ 
+3. Large waves could produce life-threatening surf and rip current
+conditions along the southwestern and west-central coast of Mexico
+and the southern Baja California Peninsula during the next several
+days.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  30/0900Z 17.6N 107.2W   75 KT  85 MPH
+ 12H  30/1800Z 18.4N 108.1W   90 KT 105 MPH
+ 24H  01/0600Z 19.2N 109.1W  100 KT 115 MPH
+ 36H  01/1800Z 19.5N 109.7W  105 KT 120 MPH
+ 48H  02/0600Z 19.7N 110.4W  105 KT 120 MPH
+ 60H  02/1800Z 19.9N 111.1W  100 KT 115 MPH
+ 72H  03/0600Z 20.1N 112.2W   90 KT 105 MPH
+ 96H  04/0600Z 20.4N 114.3W   90 KT 105 MPH
+120H  05/0600Z 20.8N 116.3W   85 KT 100 MPH
+ 
+$$
+Forecaster Pasch
+ 
+NNNN
+

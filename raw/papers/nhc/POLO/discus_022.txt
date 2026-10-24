@@ -1,0 +1,90 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Polo Discussion Number  22
+NWS National Hurricane Center Miami FL       EP172026
+800 PM MST Fri Sep 25 2026
+ 
+Another NOAA research aircraft investigated Polo extensively this 
+afternoon. The aircraft found that the minimum pressure of Polo has 
+decreased slightly since the last advisory, to 911 mb. The highest 
+flight-level winds measured by the aircraft were 154 kt, which 
+corresponds to a 10-m wind near 140 kt. Higher instantaneous winds 
+representing gusts were measured by several dropsondes, while 
+another experimental instrument measured winds at near 80 m/s (155 
+kt) at a height of 25 m. Since the plane flew a non-standard pattern 
+on its research mission and the central pressure has actually 
+slightly decreased, the intensity has been only very slightly 
+lowered to 150 kt for this advisory. 
+ 
+Fluctuations in intensity due to an eyewall replacement cycle are 
+possible tonight and tomorrow, but the exact timing of such events 
+can not be reliably forecast. Most guidance indicates that Polo will 
+begin to gradually weaken over the next couple of days as it moves 
+into a region of lower ocean heat content and encounters some 
+moderate vertical wind shear. Drier environmental mid-level air 
+could also contribute to weakening by the end of the weekend. 
+However, it must be stressed that Polo will likely remain a 
+dangerous major hurricane as it begins to approach the Baja 
+California peninsula on Monday. The NHC intensity forecast remains 
+on the upper end of the intensity guidance and no changes of note 
+were made.
+
+Polo has continued westward for the past several hours. There is no 
+change to the track forecast reasoning with this advisory. The 
+hurricane is still expected to turn gradually northwestward 
+tomorrow, then northward by the end of the weekend while it moves 
+around the western side of a ridge centered over northern Mexico. 
+Early next week an upper-level trough approaching from the 
+northwest will cause the hurricane to turn northeastward toward 
+Baja California Sur and west-central Mexico. Some of NHC's most 
+reliable track guidance, including the GDM and HCCA continue to be 
+outliers in showing a faster track, bringing Polo to the coast of 
+Baja California Sur sooner than most other guidance. Out of respect 
+for this guidance, the NHC track forecast has been adjusted 
+slightly faster and farther north again, but is generally very 
+similar to the previous advisory.
+ 
+Distant moisture from Hurricane Polo and Odalys will be transported
+into the southwestern United States this weekend and early next
+week, and may indirectly contribute to a heavy rainfall and flash
+flood threat in the region. See products issued by the Weather
+Prediction Center for more information.
+ 
+ 
+Key Messages:
+ 
+1. Polo is forecast to approach the west coast of the Baja 
+California peninsula on Monday as a hurricane, and a Hurricane 
+Watch is now in effect for that region. Tropical Storm conditions 
+could reach portions of the coast as soon as Sunday, making further 
+preparations difficult. A storm surge will be possible, especially 
+in areas onshore winds.
+ 
+2. Heavy rainfall associated with Polo may begin to impact Baja
+California Sur late Sunday into Monday. This rainfall may produce
+life-threatening flooding and mudslides, especially in areas of
+steep terrain.
+
+3. Dangerous surf and rip currents are likely along portions of 
+the northwest coast of Mexico for the next several days.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  26/0300Z 17.4N 110.1W  150 KT 175 MPH
+ 12H  26/1200Z 17.8N 111.4W  145 KT 165 MPH
+ 24H  27/0000Z 19.0N 112.8W  135 KT 155 MPH
+ 36H  27/1200Z 20.6N 113.6W  125 KT 145 MPH
+ 48H  28/0000Z 22.6N 113.8W  115 KT 130 MPH
+ 60H  28/1200Z 24.6N 113.4W  100 KT 115 MPH
+ 72H  29/0000Z 26.3N 112.1W   80 KT  90 MPH
+ 96H  30/0000Z 29.8N 109.1W   40 KT  45 MPH...INLAND
+120H  01/0000Z 31.6N 105.7W   25 KT  30 MPH...POST-TROP/INLAND
+ 
+$$
+Forecaster D. Zelinsky
+ 
+NNNN
+

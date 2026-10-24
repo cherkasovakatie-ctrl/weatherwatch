@@ -1,0 +1,47 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Genevieve Discussion Number  37
+NWS National Hurricane Center Miami FL       EP072026
+1100 PM HST Sat Aug 01 2026
+
+Convection associated with Genevieve has been gradually diminishing 
+during the past several hours with any deep activity well north of 
+the center.  Despite the loss of organization on satellite imagery, 
+a ASCAT-B scatterometer pass at 0531Z showed peak winds of 40-45 
+kt, a bit above the latest Dvorak estimates.  Thus, the initial 
+wind speed is set to 45 kt.  This is likely just a temporary bump 
+in strength with all the models showing steady weakening through 
+early next week due to cold water and increasing shear.  Any deep 
+convection should be gone within 24 h, and post-tropical status is 
+shown at that time.  No significant change to the intensity 
+forecast was made with all guidance tightly clustered on the 
+previous NHC intensity forecast.
+ 
+The initial motion estimate is west-northwestward at 11 kt.  This 
+general motion should continue through the weekend as the cyclone 
+is steered by a deep-layer ridge located to the northeast. By 
+Monday, Genevieve is forecast to turn northwestward as it moves 
+around the ridge.  The latest models are showing a less sharp 
+poleward turn, and the new NHC forecast is shifted slightly 
+southward from the last one, a bit to the north of the recent 
+Google DeepMind tracker and NOAA Corrected Consensus guidance HCCA.
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  02/0900Z 23.9N 137.3W   45 KT  50 MPH
+ 12H  02/1800Z 24.5N 139.0W   40 KT  45 MPH
+ 24H  03/0600Z 25.4N 141.2W   35 KT  40 MPH...POST-TROPICAL
+ 36H  03/1800Z 26.1N 143.1W   35 KT  40 MPH...POST-TROPICAL
+ 48H  04/0600Z 26.7N 144.5W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 60H  04/1800Z 27.3N 145.2W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 72H  05/0600Z 28.0N 145.8W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 96H  06/0600Z...DISSIPATED
+ 
+$$
+Forecaster Blake
+ 
+NNNN
+

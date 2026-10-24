@@ -1,0 +1,99 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Polo Discussion Number  10
+NWS National Hurricane Center Miami FL       EP172026
+900 PM CST Tue Sep 22 2026
+ 
+The last few fixes this afternoon from the NOAA P-3 Hurricane Hunter 
+aircraft suggested that Polo was in the middle of an eyewall 
+replacement cycle (ERC). Flight level winds from the inner eyewall 
+had been decreasing in addition to rising pressures and somewhat 
+less pronounced warm core in the center. The secondary eyewall was 
+also seen on polar-orbiter imagery with a much larger eyewall taking 
+shape on both the SSMIS and WSFM microwave passes compared to this 
+morning. The satellite structure of Polo also looks less pristine 
+due to the ongoing ERC, with some erosion and expansion of the cold 
+cloud tops that surround the eye. Based on the earlier aircraft data 
+and evolution of satellite imagery since that time, the initial 
+intensity is being set at 145 kt this advisory, still making Polo a 
+very dangerous category 5 hurricane.
+ 
+One-minute mesosector imagery over Polo has been very useful to 
+monitor its motion, and the inner eye of the storm has been 
+wobbling, with the best guess motion an northeastward drift at 45 
+degrees at 1 kt. The track guidance remains insistent that Polo will 
+soon undergo a slow but sharp turn to the northwest and 
+west-northwest as a deep-layer ridge centered over east Texas 
+continues to build in. In fact, the track guidance this cycle shows 
+even more of a leftward bend in 48-72 h as the ridge moves westward 
+with the hurricane. While the latest NHC track forecast is very 
+close to the prior one for the first 36 h, it is a little slower 
+given the current motion, and then further south and west beyond 36 
+h. This track will still take Polo close to, but just offshore of 
+the southwestern Mexican coast, where tropical storm conditions are 
+still expected. The latest NHC forecast lies closest to the Google 
+DeepMind ensemble mean (GDMI). Toward the end of the forecast 
+period, the ridge steering Polo is forecast to become eroded by a 
+combination of Tropical Storm Odalys located to its west, and a 
+digging mid-latitude trough moving into the western United States 
+coast. Thus, Polo will likely turn back northwestward or even 
+northward by the end of the forecast period, though this has also 
+been shifted west of the prior track following the leftward shift in 
+the guidance this cycle. There still remains significant uncertainty 
+in Polo's track in the 4-5 day period.
+ 
+Environmental conditions remain very favorable over Polo currently.
+Vertical wind shear is forecast to remain below 10 kt for the next
+24 h, with plenty of nearby deep-layer moisture. In addition, Polo
+is over the warmest sea-surface temperatures in the basin, which
+also extend vertically well below the surface, which should limit
+ocean upwelling of the slow moving hurricane. However, the big
+question mark is how the ongoing ERC will evolve in the next    
+12-24 h. The last few microwave images already show a larger closed
+eyewall taking shape. There are also hints of the ERC successfully
+completing in the next 24 h in the most recent raw output from the
+18z HAFS-A run. Thus, the NHC intensity forecast shows some
+short-term fluctuations in intensity both down and up over the next
+24-36 h, though it is difficult to forecast these inner-core
+structural changes with much confidence. SHIPS guidance thereafter
+continues to indicate an increase in easterly shear as the ridging
+overhead intensifies, and the NHC intensity forecast shows gradual
+weakening beginning by that time, with a somewhat faster rate of
+weakening now shown in days 4-5. However, this intensity forecast
+remains on the high side of the guidance except for the HFIP
+Corrected Consensus Approach (HCCA), which is a good 20-30 kt
+higher than the rest of the guidance this cycle.
+ 
+ 
+Key Messages:
+ 
+1. Heavy rainfall associated with Polo will impact coastal portions
+of southwest Mexico through Thursday. This rainfall may produce
+life-threatening flooding and mudslides, especially in areas of
+steep terrain.
+ 
+2. A Tropical Storm Warning is in effect for portions of
+southwestern Mexico, and the Tropical Storm Watch is in effect
+westward to Playa Perula. Interests in these areas should closely
+monitor updates to the forecast.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  23/0300Z 14.7N 101.3W  145 KT 165 MPH
+ 12H  23/1200Z 15.0N 101.6W  140 KT 160 MPH
+ 24H  24/0000Z 15.9N 102.8W  145 KT 165 MPH
+ 36H  24/1200Z 16.4N 104.3W  140 KT 160 MPH
+ 48H  25/0000Z 16.6N 106.1W  135 KT 155 MPH
+ 60H  25/1200Z 16.8N 108.0W  125 KT 145 MPH
+ 72H  26/0000Z 17.0N 110.0W  120 KT 140 MPH
+ 96H  27/0000Z 18.2N 112.7W  110 KT 125 MPH
+120H  28/0000Z 20.9N 113.7W   95 KT 110 MPH
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

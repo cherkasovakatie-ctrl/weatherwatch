@@ -1,0 +1,49 @@
+
+ZCZC HFOTCDCP5 ALL
+TTAA00 PHFO DDHHMM
+ 
+Tropical Storm Karina Discussion Number  42
+NWS Central Pacific Hurricane Center Honolulu HI   EP112026
+Issued by NWS National Hurricane Center Miami FL
+1100 AM HST Sun Sep 06 2026
+
+Karina continues to lack deep convection as it moves through a dry 
+airmass.  The latest subjective intensity estimates are a consensus 
+35 kt from PHFO and JTWC, while objective intensity estimates range 
+from 32-41 kt.  The initial intensity is reduced to 45 kt for this 
+advisory.
+ 
+Karina has slowed down and turned west-northwestward with an initial 
+motion estimate of 300/5 kt.  A westward to west-northwestward 
+motion with an increase in forward speed is expected over the next 
+day or so as Karina gets pulled westward by a mid-level low to its 
+west and ridging builds in to the north of Karina.  The track 
+forecast is similar to the previous one and is close to the HCCA and 
+the GDMI.
+ 
+Karina will continue moving through a very dry airmass, over the 
+next day or two.  This, combined with a continuation of moderate 
+west-southwesterly wind shear and sea-surface temperatures in the 
+25-26C range should lead to continued weakening, and Karina is 
+unlikely to redevelop any significant deep convection.  Therefore, 
+the NHC forecast now calls for Karina to become post-tropical within 
+the next 12 h.  The cyclone is likely to hold onto gale-force winds 
+for another 24-30 h as it gradually spins down.  By Tuesday, the low 
+should dissipate when it gets sheared apart by the combination of a 
+powerful mid- to upper-level trough and outflow from Hurricane 
+Lowell.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  06/2100Z 22.9N 145.5W   45 KT  50 MPH
+ 12H  07/0600Z 23.0N 146.7W   40 KT  45 MPH...POST-TROPICAL
+ 24H  07/1800Z 23.3N 148.8W   35 KT  40 MPH...POST-TROPICAL
+ 36H  08/0600Z 23.9N 151.5W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 48H  08/1800Z...DISSIPATED
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

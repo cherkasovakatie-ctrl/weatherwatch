@@ -1,0 +1,61 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Genevieve Discussion Number  23
+NWS National Hurricane Center Miami FL       EP072026
+1100 AM HST Wed Jul 29 2026
+ 
+The satellite presentation of Genevieve has slowly deteriorated 
+today, as cold cloud top temperatures less than -30 C partially 
+obscure the center. A 29/1352Z RCM-2 Synthetic Aperture Radar scan 
+revealed that an eyewall replacement cycle had occurred earlier this 
+morning and was nearly complete, and subsequently, the radius of 
+maximum winds had expanded. Cloud top temperatures in the newly 
+formed eyewall are warming, despite the prevalence of deep 
+convection. The 1800Z intensity estimate from TAFB was 5.0/90 kt, 
+and subjective estimates range from 74-90 kt. Based on these data 
+and the satellite presentation, the initial intensity is set at 85 
+kt for this advisory.
+ 
+The hurricane is moving toward the west-northwest around 8 kt, along 
+the southwestern periphery of a strong mid-level ridge over the 
+southern High Plains of the United States. Genevieve is expected to 
+continue on a west-northwestward heading through this weekend with 
+an increase in forward speed as the ridge expands westward. Late 
+this weekend into early next week, Genevieve will turn toward the 
+northwest then north, ahead of a strong upper-level low progressing 
+eastward over the eastern Pacific. The latest NHC forecast track is 
+slightly left of the previous track, and falls in the middle of the 
+consensus track guidance, nearest to the corrected (HCCA) consensus 
+aid.
+ 
+Genevieve will continue to feel the impacts of moderate 
+northwesterly shear over the next 12 h or so, as well as gradually 
+cooling waters and unfavorable upper-level dynamics. On Thursday, 
+the forecast calls for the hurricane to move into an environment 
+with increasingly dry mid-level conditions and waters cooler than 
+26C, leading to further weakening. The latest NHC intensity forecast 
+has been adjusted further downward during the next 48 h. Genevieve 
+is expected to fall below hurricane strength by Thursday night or 
+early Friday, and may struggle to produce organized convection by 
+the second half of this weekend, as indicated by the GFS and ECMWF.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  29/2100Z 19.2N 120.1W   85 KT 100 MPH
+ 12H  30/0600Z 19.7N 121.8W   75 KT  85 MPH
+ 24H  30/1800Z 20.4N 124.2W   65 KT  75 MPH
+ 36H  31/0600Z 21.2N 126.6W   55 KT  65 MPH
+ 48H  31/1800Z 22.0N 129.2W   50 KT  60 MPH
+ 60H  01/0600Z 22.7N 132.0W   50 KT  60 MPH
+ 72H  01/1800Z 23.5N 134.9W   45 KT  50 MPH
+ 96H  02/1800Z 25.4N 140.2W   35 KT  40 MPH...POST-TROPICAL
+120H  03/1800Z 27.9N 144.1W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Adams/Beven
+ 
+NNNN
+

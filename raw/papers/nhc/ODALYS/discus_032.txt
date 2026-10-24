@@ -1,0 +1,42 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Post-Tropical Cyclone Odalys Discussion Number  32
+NWS National Hurricane Center Miami FL       EP162026
+200 PM PDT Sun Sep 27 2026
+ 
+Odalys has lacked organized deep convection for about 12 hours, and 
+the system has been a swirl of low-level clouds all day. Therefore, 
+Odalys no longer meets the criteria of a tropical cyclone, and this 
+is the last advisory on this system. A recent ASCAT-B pass from a 
+few hours ago showed peak winds between 35 and 40 kt, and based on 
+that data, the initial wind speed is lowered to 40 kt.
+ 
+Strong wind shear, dry air, and cool waters should cause continued
+weakening while the system turns southward or south-southwestward
+in the low-level flow. Dissipation is now shown by 72 hours, in
+agreement with all of the global model guidance.
+ 
+Distant moisture from both Odalys and Hurricane Polo will be
+transported into the southwestern United States during the next few
+days, and may indirectly contribute to a heavy rainfall and flash
+flooding in the region. See products issued by the Weather
+Prediction Center for more information.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  27/2100Z 22.8N 123.1W   40 KT  45 MPH...POST-TROPICAL
+ 12H  28/0600Z 22.9N 122.9W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 24H  28/1800Z 22.5N 122.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 36H  29/0600Z 21.3N 122.6W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 48H  29/1800Z 20.2N 122.9W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 60H  30/0600Z 19.5N 123.3W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 72H  30/1800Z...DISSIPATED
+ 
+$$
+Forecaster Cangialosi
+ 
+NNNN
+

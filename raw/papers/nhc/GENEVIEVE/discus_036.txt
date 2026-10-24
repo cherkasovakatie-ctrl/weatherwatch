@@ -1,0 +1,56 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Genevieve Discussion Number  36
+NWS National Hurricane Center Miami FL       EP072026
+500 PM HST Sat Aug 01 2026
+ 
+Since the previous advisory, the satellite presentation of Genevieve 
+has been relatively stable. Most of the deep convection is limited 
+to an area northeast of the center, consistent with light shear out 
+of the west-southwest. The latest subjective Dvorak intensity 
+estimate from TAFB is T2.5/35 kt, and recent objective satellite 
+intensity estimates range from about 35-40 kt. These estimates are 
+largely the same as the last advisory cycle, and with the steady 
+satellite presentation supports maintaining the intensity of the 
+tropical storm at 40 kt for this advisory.
+ 
+The initial motion estimate is west-northwestward at 12 kt, which is 
+unchanged from the last advisory. This general motion will continue 
+through the end of the weekend as the cyclone is steered by a deep 
+layer ridge located to the northeast. By Monday, Genevieve will 
+decelerate and turn to the northwest as a post-tropical cyclone, as 
+the aforementioned ridge retreats to the east. The track forecast is 
+very similar to the last advisory, except we show a slower forward 
+motion beyond 60 h. This forecast remains close to the Google 
+DeepMind Ensemble Mean and HFIP Corrected Consensus Aid (HCCA).
+
+Genevieve is currently over 23-24 deg C SSTs, which are likely to 
+stay within this range through the forecast period. The mid-level 
+environment around the tropical storm is dry. The current light 
+vertical wind shear is likely to increase later today through early 
+next week, and this increasing shear should herald the degeneration 
+of this system into a post-tropical cyclone by Monday. The intensity 
+forecast shows steady weakening over the next few days, and then 
+dissipating by 96 h. This is similar to the previous advisory. It is 
+noted that Genevieve is forecast to retain gale-force winds for some 
+time after it becomes post-tropical.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  02/0300Z 23.5N 136.0W   40 KT  45 MPH
+ 12H  02/1200Z 24.3N 138.0W   35 KT  40 MPH
+ 24H  03/0000Z 25.2N 140.4W   35 KT  40 MPH...POST-TROPICAL
+ 36H  03/1200Z 26.1N 142.5W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 48H  04/0000Z 26.9N 144.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 60H  04/1200Z 27.7N 144.8W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 72H  05/0000Z 28.7N 145.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 96H  06/0000Z...DISSIPATED
+ 
+$$
+Forecaster Mahoney/Pierce/Cangialosi
+ 
+NNNN
+

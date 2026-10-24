@@ -1,0 +1,68 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Marie Discussion Number   1
+NWS National Hurricane Center Miami FL       EP132026
+200 AM MST Tue Sep 01 2026
+ 
+Satellite imagery indicates that the deep convection associated with 
+the disturbance offshore of southwestern Mexico has become better 
+organized over the past several hours. A 0327 UTC ASCAT-B pass 
+showed a well-defined circulation and peak winds of around 40 kt in 
+the southeastern quadrant. The scatterometer data also indicated 
+that the tropical-storm-force wind field is confined primarily to 
+the southern semicircle of the circulation. A subjective Dvorak 
+classification from TAFB was T2.5/35 kt. Based on these data, 
+advisories are being initiated on Tropical Storm Marie with an 
+initial intensity of 40 kt.
+
+Marie is moving northwestward, or 315/8 kt. The subtropical ridge 
+extending westward from northern Mexico should steer Marie 
+northwestward during the next several days. The ridge is forecast to 
+gradually weaken as a broad upper-level trough deepens along the 
+U.S. West Coast, which should also result in some decrease in the 
+cyclone's forward speed. By days 4 and 5, the upper trough is 
+forecast to begin filling while the mid- to upper-level ridge builds 
+to the north of Marie, causing the cyclone to gradually turn toward 
+the west-northwest. The track guidance remains tightly clustered 
+through about day 3, but there is increasing cross-track spread 
+thereafter, with some models maintaining a more northward trajectory 
+and others showing a sharper west-northwestward turn. The NHC track 
+forecast favors the west-northwestward turn shown by the multi-model 
+consensus (HCCA) and the Google DeepMind ensemble mean, but 
+confidence is lower near the end of the forecast period due to the 
+increasing guidance spread.
+
+Environmental conditions appear favorable for Marie to steadily 
+strengthen during the next few days. The cyclone is forecast to 
+remain over warm waters and within an environment of low vertical 
+wind shear and sufficient mid-level moisture. These conditions 
+should allow Marie to become a hurricane in a couple of days, with 
+additional strengthening forecast thereafter. By days 4 and 5, 
+however, Marie is forecast to encounter a progressively drier 
+environment while moving over gradually decreasing sea surface 
+temperatures. These less favorable conditions should bring an end to 
+the strengthening trend and result in gradual weakening by the end 
+of the forecast period. The NHC intensity forecast shows Marie 
+reaching a peak intensity of around 80 kt in about 3 days, and lies 
+near the middle of the intensity guidance envelope.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  01/0900Z 13.8N 108.9W   40 KT  45 MPH
+ 12H  01/1800Z 14.8N 109.9W   50 KT  60 MPH
+ 24H  02/0600Z 16.0N 111.3W   60 KT  70 MPH
+ 36H  02/1800Z 17.0N 112.5W   70 KT  80 MPH
+ 48H  03/0600Z 18.0N 114.0W   75 KT  85 MPH
+ 60H  03/1800Z 18.8N 115.5W   80 KT  90 MPH
+ 72H  04/0600Z 19.4N 117.0W   80 KT  90 MPH
+ 96H  05/0600Z 20.9N 119.6W   80 KT  90 MPH
+120H  06/0600Z 22.1N 122.1W   70 KT  80 MPH
+ 
+$$
+Forecaster Gibbs 
+ 
+NNNN
+

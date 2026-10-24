@@ -1,0 +1,63 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Genevieve Discussion Number  31
+NWS National Hurricane Center Miami FL       EP072026
+1100 AM HST Fri Jul 31 2026
+ 
+Genevieve remains comprised of a large swirl of low- to mid-level
+clouds with some convective banding near the center and in the
+western quadrant. A synthetic aperture radar overpass a few hours 
+ago showed maximum winds in the 50-55 kt range. Based on this and 
+continuity from the previous advisory, the initial intensity 
+remains 50 kt.
+ 
+The initial motion continues to be west-northwestward or 285/14 kt. 
+A strong low- to mid-level ridge to the north of the cyclone should 
+steer it generally west-northwestward for the next two to three 
+days. After that, a turn more toward the northwest is forecast due 
+to the ridge breaking in response to a mid- to upper-level trough 
+forming north of 20N between 140-160W. The track guidance is showing 
+some spread after 72 h, with the UKMET, HWRF, and HAFS models 
+showing a more west-northwesterly motion, while the GFS, ECMWF, the 
+HFIP Corrected Consensus (HCCA), and the Google DeepMind ensemble 
+mean (GDMI) showing a more northwesterly motion. These latter models 
+are very close to the previous forecast track, and the new forecast 
+track follows their guidance. Overall, the guidance envelope has 
+shifted a little westward, and thus the new forecast track is a 
+little west of the previous track.
+
+Sea surface temperature analyses indicate that Genevieve should 
+pass near or over a small patch of warmer water with temperatures 
+near 25C during the next 12-18 h. The intensity guidance suggests 
+this should slow the ongoing weakening, and the intensity forecast 
+shows only a slight weakening during the first 24 h. A steady 
+weakening should resume as the cyclone again moves over decreasing 
+sea surface temperatures.  The new intensity forecast again calls 
+for the cyclone to decay to a remnant low by 60 h as the 
+associated convection dissipates.  The global models remain in good
+agreement that the remnant low will persist for several days, 
+and this is reflected in the forecast. It should be noted that if 
+the convection does not persist during Genevieve's passage over the 
+warmer water, the cyclone could degenerate to a remnant low earlier 
+than currently forecast.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  31/2100Z 22.3N 130.2W   50 KT  60 MPH
+ 12H  01/0600Z 22.8N 132.3W   45 KT  50 MPH
+ 24H  01/1800Z 23.6N 135.2W   45 KT  50 MPH
+ 36H  02/0600Z 24.4N 138.0W   40 KT  45 MPH
+ 48H  02/1800Z 25.4N 140.6W   35 KT  40 MPH
+ 60H  03/0600Z 26.4N 142.8W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 72H  03/1800Z 27.6N 144.5W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 96H  04/1800Z 30.3N 146.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  05/1800Z 33.7N 148.1W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

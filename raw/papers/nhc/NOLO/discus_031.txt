@@ -1,0 +1,62 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Nolo Discussion Number  31
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+1100 PM HST Sun Sep 27 2026
+
+Satellite imagery indicates that Nolo has continued to intensify, 
+with a symmetrical Central Dense Overcast of very cold cloud tops 
+surrounding the 30 n mi diameter eye.  The eye temperatures have 
+warmed to as much as 21 deg C.  The advisory intensity is set at 
+135 kt based on a blend of subjective Dvorak estimates from JTWC 
+and PHFO Honolulu and objective estimates from UW-CIMSS.  The 
+upper-level outflow is well-defined over all quadrants of the 
+hurricane.  Geostationary and microwave imagery show that Nolo 
+continues to lack outer convective banding features, and is 
+therefore maintaining the characteristics of an annular hurricane.
+
+Nolo continues to move west-northwestward at around 290/10 kt while 
+being steered by the flow on the south side of a mid-tropospheric 
+ridge.  A mid- to upper-level cyclone located about 10 degrees to 
+the northwest of the hurricane is expected to induce a turn toward 
+the northwest and north within the next 36 hours. Then, Nolo should 
+decelerate and turn westward while moving around the circulation of 
+the cyclone and merging with it.  A mid-level ridge building to the 
+northwest of Nolo should eventually cause it to turn westward late 
+in the forecast period.  The official track forecast is very similar 
+to the one from the previous advisory, and remains in good agreement 
+with the HCCA and Google DeepMind guidance.
+
+The hurricane has been situated in an environment that is quite 
+conducive for strengthening, with low vertical wind shear and 
+sufficiently warm sea surface temperatures.  This regime should 
+persist for at least the next 12 hours or so.  However, the global 
+models indicate that vertical shear over Nolo should increase 
+substantially by Tuesday.  Therefore, the hurricane should begin 
+weakening within 24 hours or so.  Nonetheless, Nolo's annular 
+structure could result in a slower rate of weakening than seen in 
+typical hurricanes.  In 4-5 days, the models suggest a more 
+favorable upper-level flow pattern, which could result in some 
+re-strengthening.  The official intensity forecast remains at the 
+high end of the model guidance.
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  28/0900Z 16.5N 161.3W  135 KT 155 MPH
+ 12H  28/1800Z 17.5N 162.5W  145 KT 165 MPH
+ 24H  29/0600Z 19.2N 163.5W  135 KT 155 MPH
+ 36H  29/1800Z 21.0N 163.7W  115 KT 130 MPH
+ 48H  30/0600Z 22.4N 163.7W   95 KT 110 MPH
+ 60H  30/1800Z 22.8N 163.9W   75 KT  85 MPH
+ 72H  01/0600Z 23.0N 164.7W   65 KT  75 MPH
+ 96H  02/0600Z 23.6N 166.9W   65 KT  75 MPH
+120H  03/0600Z 24.0N 169.1W   75 KT  85 MPH
+ 
+$$
+Forecaster Pasch
+ 
+NNNN
+

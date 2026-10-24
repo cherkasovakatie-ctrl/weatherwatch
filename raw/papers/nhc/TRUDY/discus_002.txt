@@ -1,0 +1,95 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Trudy Discussion Number   2
+NWS National Hurricane Center Miami FL       EP212026
+300 PM CST Tue Oct 13 2026
+ 
+Satellite images indicate that the tropical cyclone continues to
+become better organized.  Both microwave and geostationary satellite
+data indicate that the center is likely about 60 miles to the
+east-northeast of the previous estimate, and based on recent data,
+confidence in the initial position estimate is a little higher now.
+The improving low-level center appears to be located near the
+southwest edge of a recent burst of deep convection.  The latest
+subjective Dvorak classification from TAFB is T2.5/35 kt, and a
+recent AiDT intensity estimate from UW-CIMSS is also 35 kt.  An
+ASCAT pass from 1452 UTC had a couple of believable 31-kt vectors
+north of the center.  Given the low bias of the ASCAT instrument due
+to its resolution, and based on the improving structure observed on
+satellite imagery since that time with increased banded convection
+near the low-level center, the depression is upgraded to Tropical
+Storm Trudy with 35-kt winds.
+ 
+The initial motion estimate for Trudy is northwestward, or 320/7 kt.
+A west-northwestward to northwestward motion is expected over the
+next 36 hours while a mid-level ridge persists over the northwestern
+Gulf of America.  Thereafter, a turn more toward the north-northwest
+is likely as the ridge weakens.  A decrease in forward speed is also
+expected by day 2 as the cyclone gets caught in weaker steering
+currents in between the weak ridge to its north and Hurricane Simon
+to its northwest.  Spread in the track forecast is larger than
+normal from day 3 to 5, and some of this uncertainty is likely also
+due to uncertainty in Simon's track and strength.  A cold front
+moving southward from Texas into Mexico toward the end of the
+forecast period could help draw Simon closer to the coastline of
+Mexico, if the front is potent enough.  Regardless, Trudy could
+potentially be very close to the coast of Mexico as a hurricane over
+the weekend.  The NHC forecast has been pushed to the right (east)
+of the previous forecast due to the farther east initial position
+and a net eastward shift in the model guidance during the first 3
+days of the forecast.  At days 4 and 5, the new NHC forecast is only
+slightly east of the previous NHC forecast, which would bring Trudy
+closer to the coast of southwestern and west-central Mexico.  The
+new NHC forecast is very close to the latest Google DeepMind
+Ensemble Mean.  Confidence in the track forecast remains low,
+especially from hour 72 to 120.
+ 
+The cyclone is forecast to traverse extremely favorable oceanic and
+atmospheric conditions for the next 4 days or so.  The NHC intensity
+forecast shows steady strengthening over the next 12 hours as the
+cyclone works to develop a convective core.  After that time, rapid
+intensification is forecast during the 12 to 60 h time window. Some
+of the SHIPS rapid intensification guidance shows a fairly high
+chance of rapid intensification over the next few days. The NHC
+intensity forecast shows 80 knots of strengthening over the next 72
+h, and is in excellent agreement with the latest HCCA and GDMI.  90
+percent of the Google DeepMind Ensemble Members are forecasting
+Trudy to become a major hurricane.  The NHC intensity forecast is
+similar to the previous one, and it's possible that Trudy could get
+stronger in between the day 3 and 4 points, when the cyclone is
+likely to peak in intensity.  Beyond day 4, the possibility of
+increasing vertical wind shear and land interaction could induce
+some weakening, and most of the guidance shows the system losing
+some strength after day 4.  Confidence in the intensity forecast is
+above average.  We are fairly confident it will become a strong
+hurricane due to the favorable environmental conditions and model
+guidance.
+ 
+Key Messages:
+ 
+1. Trudy is forecast to be a major hurricane as it approaches the
+coast of southwestern and west-central Mexico late this week and
+into the weekend. There is an increasing risk of wind, rain, and
+storm surge impacts, but it is too soon to determine the exact
+location or magnitude of these impacts.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  13/2100Z 10.6N  96.5W   35 KT  40 MPH
+ 12H  14/0600Z 11.3N  97.5W   45 KT  50 MPH
+ 24H  14/1800Z 12.0N  99.0W   60 KT  70 MPH
+ 36H  15/0600Z 12.7N 100.1W   75 KT  85 MPH
+ 48H  15/1800Z 13.5N 100.8W   90 KT 105 MPH
+ 60H  16/0600Z 14.3N 101.2W  105 KT 120 MPH
+ 72H  16/1800Z 15.3N 101.6W  115 KT 130 MPH
+ 96H  17/1800Z 17.1N 103.3W  115 KT 130 MPH
+120H  18/1800Z 19.1N 105.2W  100 KT 115 MPH
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

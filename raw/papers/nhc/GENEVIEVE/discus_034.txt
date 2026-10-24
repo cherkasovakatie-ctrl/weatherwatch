@@ -1,0 +1,63 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Genevieve Discussion Number  34
+NWS National Hurricane Center Miami FL       EP072026
+500 AM HST Sat Aug 01 2026
+
+Genevieve’s deep convection has been gradually decreasing over the 
+past day or so, and there is now only a relatively small area of 
+cloud tops colder than -30C, mainly in the northeast quadrant.  
+However, a 1032 UTC AMSR-2 pass indicates that a relatively large 
+area of shallow to moderate convection persists, and is wrapped 
+halfway around the low-level center over the northeast semicircle.  
+The subjective current intensity (CI) estimate from TAFB has 
+decreased to 2.5/35 kt.  The latest objective AiDT, D-PRINT, D-MINT 
+and SATCON intensity estimates range from 37-42 kt.  Given the 
+latest intensity estimates, the initial intensity is brought down to 
+40 kt for this advisory.
+
+The initial motion estimate is west-northwestward, or 285/12 kt.  
+This general motion will continue over the weekend as a low- to
+mid-level ridge remains north of the cyclone.  By Monday, a gradual 
+turn to the northwest and north-northwest is expected as the ridge 
+weakens north of the cyclone due to a deep-layer low/trough that 
+will be located off to the north-northwest of Genevieve.  Very 
+little change was made to the previous NHC track forecast, which 
+lies close to the latest Google DeepMind Ensemble Mean.  The track 
+guidance remains tightly clustered through day 3, so there is high 
+confidence in the track forecast.
+
+Genevieve has been traversing 25-26C sea-surface temperatures 
+(SSTs), while under weak vertical wind shear and within a relatively 
+dry, stable environment.  The cyclone will move over progressively 
+colder SSTs over the next 18 h or so (below 24C by that time).  
+Southwesterly vertical wind shear will then increase to moderate 
+levels (15-20 kt) in 24-36 h while the environment remains dry and 
+stable. These conditions will lead to continued gradual weakening, 
+and Genevieve is likely to lose its convection and become 
+post-tropical in about 36 h.  Thereafter, the remnant low should 
+gradually spin down with dissipation occurring just after 96 h, as 
+depicted by the global models.  The latest NHC intensity forecast is 
+similar to the previous advisory and lies near the middle of the 
+guidance envelope.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  01/1500Z 23.0N 133.7W   40 KT  45 MPH
+ 12H  02/0000Z 23.6N 135.7W   40 KT  45 MPH
+ 24H  02/1200Z 24.5N 138.3W   35 KT  40 MPH
+ 36H  03/0000Z 25.5N 140.8W   35 KT  40 MPH...POST-TROPICAL
+ 48H  03/1200Z 26.4N 143.0W   35 KT  40 MPH...POST-TROPICAL
+ 60H  04/0000Z 27.4N 144.4W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 72H  04/1200Z 28.4N 145.4W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 96H  05/1200Z 31.1N 146.2W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  06/1200Z...DISSIPATED
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

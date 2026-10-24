@@ -1,0 +1,77 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Nolo Discussion Number  28
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+500 AM HST Sun Sep 27 2026
+ 
+Nolo's structure has continued to improve over the last several 
+hours with the eye becoming better defined as as cloud tops have 
+cooled around the center of the hurricane. An Air Force Reserve Unit 
+Hurricane Hunter aircraft is sill investigating Nolo at this time 
+and so far have found peak flight level winds around 92 kt, which 
+would support for an intensity around 85 kt. There was also a 
+dropsonde in the northwest eyewall that observed a 500 m layer 
+average of 104 kt. In addition, the objective intensity estimates 
+are in the range of 87-109 kt. With the current improvement in the 
+stucture of Nolo, the lowering minimum pressure observed with the 
+aircraft, and assuming higher flight-level winds exist in the north 
+eyewall where the aircraft has not yet sampled, the initial 
+intensity has been raised to 90 kt for this advisory. 
+ 
+The hurricane is moving mainly west-southwestward or 250/9 kt. Nolo 
+is expected to continue to move on the southwestern side of a 
+mid-level ridge for the next day or so. Afterwards, the cyclone 
+should turn northwestward due to the influence of a mid- to 
+upper-level low. At the end of the forecast period, Nolo should 
+then turn back to the west again, as the hurricane rotated around 
+the northern side of the low. The official track forecast is 
+similar to the previous one just some minor adjustments based on the 
+HCCA and the GDMI forecast aids. 
+
+The cyclone is expected to remain in a favorable environment with 
+low wind shear and warm sea-surface temperatures. This should allow 
+for continued intensification for the next 24 hours, and Nolo is 
+forecast to become a major hurricane in the next 12 h and peak as a 
+category 4 hurricane. After 48 h, gradual weakening is expected 
+as the SHIPS model outputs indicate that wind shear will increase in 
+the 48-96 h period due to the interaction with the upper-level 
+low. Beyond 96 h, the wind shear may relax again and this could 
+allow some restrengthening. The NHC intensity forecast is still on 
+the high end of the guidance envelope, but slightly under the HCCA 
+and some of the hurricane regional models. 
+
+ 
+Key Messages:
+ 
+1. Strong and gusty winds are expected for all of the Hawaiian 
+Islands through today, and interests in the Hawaiian Islands should 
+continue to monitor the progress of Nolo.
+ 
+2. Heavy rain and flooding threats from Nolo are diminishing across 
+the Hawaiian Islands as the storm continues to move to the 
+west-southwest away from the Islands.
+ 
+3. Large and damaging waves are likely along portions of the Big 
+Island's coastline through today.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  27/1500Z 16.2N 158.3W   90 KT 105 MPH
+ 12H  28/0000Z 16.3N 159.7W  105 KT 120 MPH
+ 24H  28/1200Z 17.0N 161.5W  115 KT 130 MPH
+ 36H  29/0000Z 18.4N 162.8W  115 KT 130 MPH
+ 48H  29/1200Z 20.3N 163.5W  105 KT 120 MPH
+ 60H  30/0000Z 21.8N 163.8W   85 KT 100 MPH
+ 72H  30/1200Z 22.4N 164.0W   70 KT  80 MPH
+ 96H  01/1200Z 22.6N 165.9W   65 KT  75 MPH
+120H  02/1200Z 23.0N 168.2W   70 KT  80 MPH
+ 
+$$
+Forecaster Katz/Papin
+ 
+NNNN
+

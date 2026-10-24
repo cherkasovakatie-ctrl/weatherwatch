@@ -1,0 +1,60 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Marie Discussion Number   4
+NWS National Hurricane Center Miami FL       EP132026
+800 PM MST Tue Sep 01 2026
+ 
+The satellite presentation for Marie continues to improve this 
+evening, with the low-level center beneath deep convection with 
+cold cloud tops near -80C. Satellite intensity estimates have also 
+increased, with the latest subjective Dvorak intensity estimate from 
+TAFB T3.5/55 kt. Objective intensity estimates from UW-CIMSS range 
+from 37 to 55 kt. Based on the improving satellite trends and these 
+estimates, the initial intensity is raised to 55kt.
+
+The initial motion is northwestward, or 310/8 kt. This motion is 
+expected to continue for the next day or so as Marie rounds the 
+western periphery of a mid-level ridge over Mexico. The ridge is 
+then forecast to build to the north of the system, which should 
+cause Marie to gradually turn toward the west-northwest. Beyond 72 
+hours, track uncertainty increases as an amplifying trough along the 
+U.S. West Coast is forecast to cause the system to slow down. While 
+there is less confidence in the track late in the forecast period, 
+the latest NHC forecast continues to lie near the reliable HCCA and 
+GDMI consensus aids with a more westward track.
+ 
+Marie is moving over warm sea surface temperatures and will remain 
+in a low vertical wind shear environment for the next couple of 
+days. The system remains fairly broad, but steady strengthening is 
+anticipated once the structure becomes better organized. Some of the 
+latest SHIPS rapid intensification guidance is around a 50 percent 
+chance of RI in the next 24 h. The new NHC intensity forecast is 
+similar to the previous one and closely follows the trends of the 
+HCCA and IVCN consensus aids, although does not explicitly call for 
+rapid intensification. Some guidance shows a faster rate of 
+strengthening, though this remains heavily dependent on how quickly 
+the system's structure improves. Toward the end of the forecast 
+period, Marie is forecast to move over cooler SSTs and into a drier, 
+more stable air mass, which should induce a gradual weakening 
+trend.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  02/0300Z 16.1N 110.3W   55 KT  65 MPH
+ 12H  02/1200Z 16.9N 111.4W   70 KT  80 MPH
+ 24H  03/0000Z 17.9N 112.8W   80 KT  90 MPH
+ 36H  03/1200Z 18.7N 114.3W   85 KT 100 MPH
+ 48H  04/0000Z 19.4N 115.9W   90 KT 105 MPH
+ 60H  04/1200Z 19.8N 117.3W   90 KT 105 MPH
+ 72H  05/0000Z 20.5N 118.8W   90 KT 105 MPH
+ 96H  06/0000Z 21.8N 121.3W   80 KT  90 MPH
+120H  07/0000Z 22.8N 123.9W   65 KT  75 MPH
+ 
+$$
+Forecaster Kelly
+ 
+NNNN
+

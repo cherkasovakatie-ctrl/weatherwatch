@@ -1,0 +1,55 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Odalys Discussion Number  16
+NWS National Hurricane Center Miami FL       EP162026
+800 PM PDT Wed Sep 23 2026
+ 
+The convective organization of Odalys has remained largely unchanged
+over the past several hours. However, the hurricane continues to
+produce deep convection with cloud-top temperatures around -80 C
+expanding north and west of the center. Subjective Dvorak intensity
+estimates from TAFB came in at 4.5/77 kt, supported by objective
+estimates from UW-CIMSS, namely DMINT and ADT, at 78 and 72 kt,
+respectively. Given these data and the deeper convection, the
+initial intensity is raised to 75 kt.
+ 
+The initial motion is estimated to be eastward, or 85/6 kt. This
+general motion is expected to continue through the next day or so
+before turning toward the northeast and then north. Odalys is being
+steered by the flow between a mid- to upper-level trough to its
+northwest and a ridge extending southwestward from central Mexico.
+Beyond day 3, potential interaction with Hurricane Polo complicates
+the track forecast of Odalys, and model spread increases
+significantly at this time.  The current NHC track forecast is
+largely unchanged from the previous advisory, and remains close to
+the corrected multi-model consensus (HCCA) and the Google DeepMind
+ensemble mean.
+ 
+Odalys is forecast to remain in a favorable environment for the next
+24 h, which could allow for additional strengthening or at least
+intensity maintenance. Thereafter, increasing westerly vertical wind
+shear, lower SSTs, and mid-level dry air will induce a steady
+weakening trend. The official intensity forecast closely follows the
+corrected multi-model consensus (HCCA) and remains aligned with the
+previous advisory.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  24/0300Z 15.6N 126.7W   75 KT  85 MPH
+ 12H  24/1200Z 16.1N 125.5W   80 KT  90 MPH
+ 24H  25/0000Z 16.8N 124.3W   80 KT  90 MPH
+ 36H  25/1200Z 17.7N 123.4W   75 KT  85 MPH
+ 48H  26/0000Z 18.5N 123.2W   70 KT  80 MPH
+ 60H  26/1200Z 19.6N 123.0W   60 KT  70 MPH
+ 72H  27/0000Z 20.8N 122.7W   50 KT  60 MPH
+ 96H  28/0000Z 22.3N 122.0W   40 KT  45 MPH
+120H  29/0000Z 22.0N 121.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Pierce/Hagen
+ 
+NNNN
+

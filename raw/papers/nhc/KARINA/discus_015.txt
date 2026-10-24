@@ -1,0 +1,60 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Karina Discussion Number  15
+NWS National Hurricane Center Miami FL       EP112026
+500 PM HST Sun Aug 30 2026
+ 
+Warm sea surface temperatures, minimal wind shear and sufficiently 
+moist mid-level air have allowed for Major Hurricane Karina to 
+rapidly intensify this evening. A recent SSMIS microwave pass 
+revealed a vertically aligned center with a well-defined eyewall. 
+However, the latest infrared imagery is beginning to show warming 
+cloud tops and slight erosion of the convective structure north of 
+the eye, which may indicate that this period of rapid 
+intensification is beginning to level off. Recent objective 
+intensity estimates from UW-CIMSS range from 91 to 122 kt. The 
+intensity is set at 110 kt for this advisory.
+
+Karina is moving steadily westward around 8 kt, steered by a ridge 
+of high pressure centered to the northwest of the cyclone. A turn 
+toward the west-northwest is forecast Monday night into Tuesday as a 
+strong upper-level trough begins to weaken this ridge. The latest 
+NHC forecast is similar to the previous advisory through 72 h. 
+Beyond that point, a large spread develops among the model guidance, 
+attributed to differences in the strength and position of another 
+ridge building to the north and northwest. The forecast track has 
+been adjusted to the left of the previous forecast advisory, towards 
+HCCA and the Google DeepMind. Of note, Karina's track could have 
+some influence on Tropical Storm Lowell's motion as the two systems 
+move through the central Pacific. 
+ 
+The major hurricane is moving over very warm waters, with sea 
+surface temperatures near 29 C. Additional strengthening remains 
+possible over the next 12-24 h as Karina encounters sufficiently 
+warm waters with ample mid-level moisture and low wind shear. 
+Gradual weakening is expected to begin on Tuesday as the cyclone 
+moves over cooler waters and drier air. Following Karina's rapid 
+intensification this evening, the forecast lies near the upper end 
+of the intensity guidance envelope, and is consistent with the 
+latest HCCA aid. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  31/0300Z 17.1N 123.8W  110 KT 125 MPH
+ 12H  31/1200Z 17.1N 124.9W  125 KT 145 MPH
+ 24H  01/0000Z 17.4N 126.6W  125 KT 145 MPH
+ 36H  01/1200Z 17.9N 128.4W  120 KT 140 MPH
+ 48H  02/0000Z 18.4N 130.3W  110 KT 125 MPH
+ 60H  02/1200Z 18.9N 132.1W  105 KT 120 MPH
+ 72H  03/0000Z 19.3N 134.0W  100 KT 115 MPH
+ 96H  04/0000Z 20.2N 137.2W   90 KT 105 MPH
+120H  05/0000Z 20.9N 140.4W   75 KT  85 MPH
+ 
+$$
+Forecaster Adams
+ 
+NNNN
+

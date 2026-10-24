@@ -1,0 +1,67 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Marie Discussion Number   2
+NWS National Hurricane Center Miami FL       EP132026
+800 AM MST Tue Sep 01 2026
+ 
+This morning's GOES-18 Proxy-VIS satellite imagery indicates that
+Marie is gradually becoming better organized.  Deep convection with 
+cold cloud tops of -81C is developing over the surface circulation 
+center, and a spiral band is wrapping around the center from the 
+southwest part of the cyclone.  No changes yet in both the 
+subjective and objective satellite intensity guidance, however, so 
+the initial intensity is held at 40 kt for this advisory.
+ 
+The ocean is warm, the low- to mid-levels of the atmosphere are
+moist, and the deep-layer shear is low.  Subsequently, strengthening
+is expected, and Marie should become a hurricane by Wednesday 
+night.  By the weekend, the GFS/ECMWF SHIPS statistical intensity 
+guidance and the physics-based deterministic models indicate that 
+Marie will encounter a drier, stable marine layer air mass while 
+traversing progressively cooler oceanic temperatures.  Accordingly, 
+the NHC intensity forecast follows suit and shows Marie slowly 
+weakening beyond day 4.
+ 
+An earlier 0707 UTC OSCAT-3 scatterometer overpass and a
+fortuitous 1247 UTC GPM/GMI image indicated that the surface center 
+was a bit farther northeast than previously noted, and near 
+the northwestern edge of the deep convective canopy.  Marie's 
+initial motion is estimated to be northwestward, or 315/8 kt.  A 
+mid-tropospheric subtropical ridge stretching from northern
+Mexico westward over the extreme eastern Pacific should steer
+the cyclone generally northwestward through Thursday.  
+Afterward, the subtropical high should weaken in response to an 
+amplifying mid- to upper-level trough approaching the west coast of 
+the U.S. This change in the large-scale synoptic pattern is 
+expected to slow Marie's forward speed.  For the remainder of the 
+forecast, the aforementioned mid- to upper-level trough should fill 
+and lift northeastward, allowing the ridge to build and reestablish 
+north of Marie and steer the system back toward the west-northwest 
+through the weekend.  There's still quite a bit of cross-track 
+spread in the model suite beyond day 3, with one cluster indicating 
+a north-northwestward motion while another model cluster shows a 
+more west-northwestward trajectory.  The official forecast reflects 
+slight adjustments to the left of the previous forecast and favors 
+a blend of the skilled NOAA HCCA consensus aid and the Google 
+DeepMind FNv3 ensemble mean forecast.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  01/1500Z 15.0N 108.7W   40 KT  45 MPH
+ 12H  02/0000Z 16.0N 109.8W   50 KT  60 MPH
+ 24H  02/1200Z 17.1N 111.2W   60 KT  70 MPH
+ 36H  03/0000Z 18.0N 112.4W   70 KT  80 MPH
+ 48H  03/1200Z 19.0N 113.9W   80 KT  90 MPH
+ 60H  04/0000Z 19.7N 115.6W   85 KT 100 MPH
+ 72H  04/1200Z 20.3N 117.0W   85 KT 100 MPH
+ 96H  05/1200Z 21.4N 119.8W   80 KT  90 MPH
+120H  06/1200Z 22.3N 122.0W   75 KT  85 MPH
+ 
+$$
+Forecaster Roberts
+ 
+NNNN
+

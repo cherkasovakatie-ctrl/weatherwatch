@@ -1,0 +1,75 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Nolo Discussion Number  27
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+1100 PM HST Sat Sep 26 2026
+
+Nolo appears to be gradually strengthening since the last aircraft 
+mission several hours ago.  The eye is becoming a little better 
+defined and convection has been increasing over the southern and 
+southwestern portions of the circulation.  The hurricane has fairly 
+well-defined upper-level outflow over all quadrants.  Using a blend 
+of the subjective Dvorak estimate from TAFB and the various 
+objective intensity estimates from UW-CIMSS, the advisory intensity 
+is increased to 85 kt.  An Air Force Reserve Unit Hurricane Hunter 
+aircraft is scheduled to investigate Nolo later this morning to 
+check on the intensity of the system.
+
+The hurricane continues moving mainly westward or just slightly 
+south of westward, at around 260/8 kt.  Nolo should move mainly 
+westward on the southern side of a mid-level ridge for the next 24 
+hours or so. After that, the system is likely to turn northwestward 
+due to the influence of a mid- to upper-level low near 165W/170W.  
+Later in the forecast period, a turn back toward the west is 
+expected as Nolo rotates around the northern portion of the low.  
+The official track forecast is similar to the previous one except 
+slightly slower in the 4-5 day time frame.  This is close to the 
+latest model consensus.
+
+Nolo should remain in an environment of low vertical wind shear for 
+the next day or two.  This, along with a sufficiently warm ocean, 
+should result in the system strengthening into a major hurricane 
+within the next 36 hours.  Later in the forecast period, the SHIPS 
+model output shows a significant increase in shear, so weakening is 
+likely from 48 to 96 hours.  Around the end of the period, the 
+shear may relax and potentially allow from some restrengthening.  
+The official forecast is on the high end of the model guidance 
+envelope.
+ 
+Key Messages:
+ 
+1. Strong and gusty winds are expected for all of the Hawaiian 
+Islands through the weekend, and interests in the Hawaiian Islands 
+should continue to monitor the progress of Nolo.
+ 
+2. Rain bands will continue through tonight across the Big Island
+and Maui, though the showers are expected to gradually diminish in
+intensity and frequency through Sunday. Additional areas of flooding
+and mudslides will be possible, especially in areas of steep terrain
+across the eastern and southern portions of the Big Island and
+eastern Maui.
+ 
+3. Large and damaging waves are likely along portions of the Big
+Island's coastline through the weekend.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  27/0900Z 16.5N 157.3W   85 KT 100 MPH
+ 12H  27/1800Z 16.5N 158.7W   95 KT 110 MPH
+ 24H  28/0600Z 17.0N 160.6W  105 KT 120 MPH
+ 36H  28/1800Z 18.1N 162.3W  115 KT 130 MPH
+ 48H  29/0600Z 19.8N 163.3W  110 KT 125 MPH
+ 60H  29/1800Z 21.5N 163.8W   95 KT 110 MPH
+ 72H  30/0600Z 22.5N 164.1W   80 KT  90 MPH
+ 96H  01/0600Z 22.8N 165.4W   65 KT  75 MPH
+120H  02/0600Z 22.8N 168.1W   65 KT  75 MPH
+ 
+$$
+Forecaster Pasch
+ 
+NNNN
+

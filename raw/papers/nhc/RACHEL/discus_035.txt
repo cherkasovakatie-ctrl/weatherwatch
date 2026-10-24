@@ -1,0 +1,52 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Rachel Discussion Number  35
+NWS National Hurricane Center Miami FL       EP182026
+200 PM PDT Mon Oct 05 2026
+ 
+The weakening trend of Rachel has paused for now. Satellite images
+suggest that the hurricane has become slightly better organized
+over the past several hours. The eye of the system is quite large,
+well defined and warm, and deep convection remains fairly
+symmetric around the center. A blend of the latest satellite
+intensity estimates supports nudging the initial intensity up to 80
+kt.
+ 
+The hurricane is moving westward at 7 kt steered by a high pressure 
+system to the north-northeast of the cyclone. A continued westward 
+to west-northwestward motion is expected during the next few days as 
+the high pressure system remains the primary steering feature. 
+However, by the weekend, the high is expected to weaken as a mid- to 
+upper-level trough amplifies near the west coast of the U.S. This 
+pattern change should cause Rachel to slow down and then turn 
+northeastward by the end of the forecast period. No significant 
+changes were made to the previous track forecast, and this one lies 
+generally near the middle of the guidance envelope.
+
+Although Rachel appears a little stronger than earlier, no notable 
+changes to the intensity forecasts were made. The hurricane is 
+expected to gradually weaken as it moves over progressively cooler 
+waters and into a much drier airmass. The models have not changed 
+much this cycle, and this prediction is in line with the HCCA, 
+GDMI, and IVCN aids.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  05/2100Z 20.3N 117.1W   80 KT  90 MPH
+ 12H  06/0600Z 20.3N 118.2W   80 KT  90 MPH
+ 24H  06/1800Z 20.4N 119.5W   75 KT  85 MPH
+ 36H  07/0600Z 20.7N 120.9W   70 KT  80 MPH
+ 48H  07/1800Z 21.2N 122.3W   65 KT  75 MPH
+ 60H  08/0600Z 21.6N 123.7W   60 KT  70 MPH
+ 72H  08/1800Z 21.9N 124.9W   55 KT  65 MPH
+ 96H  09/1800Z 22.3N 126.0W   45 KT  50 MPH
+120H  10/1800Z 23.5N 124.0W   35 KT  40 MPH...POST-TROPICAL
+ 
+$$
+Forecaster Cangialosi
+ 
+NNNN
+

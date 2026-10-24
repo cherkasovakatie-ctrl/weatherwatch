@@ -1,0 +1,64 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Fausto Discussion Number  12
+NWS National Hurricane Center Miami FL       EP062026
+1100 AM HST Tue Jul 21 2026
+
+The core of Fausto has not regained any organization since the 
+previous advisory, and overall the satellite appearance is of a 
+system below hurricane strength. However, a SAR overpass near 14Z 
+indicated that the system still had hurricane-force winds, and this 
+is supported by satellite intensity estimates from microwave 
+sounders. Based on these, the initial intensity is held at 65 kt.
+
+Fausto is starting its west-northwestward turn and the initial 
+motion is now 295/10 kt.  The subtropical ridge to the north and 
+northeast of the cyclone should build westward during the next 
+five days, and this evolution should steer the cyclone west- 
+northwestward to westward through the forecast period. As before, 
+the track guidance remains tightly clustered for three days. After 
+that, there remains an increase in the north-south spread between 
+the GFS and Canadian models on the north side of the guidance 
+envelope and the ECMWF, Google DeepMind, and the HAFS models on the 
+south side of the guidance envelope.  For the first three days, the 
+new forecast track lies near the previous forecast and the center of 
+the guidance. At days 4 and 5, it is a little south of the previous 
+track and a little north of the various consensus models.
+
+While Fausto is forecast to be in a light- to moderate shear 
+environment for the next several days, it will be moving over 
+slowly decreasing sea surface temperatures through 72 h. 
+Subsequently, the forecast track is near and roughly parallel to 
+the 26C isotherm.  In addition, the atmospheric moisture near the 
+storm should slowly decrease for 72 h, followed by a faster 
+decrease. The intensity guidance responds to these factors by 
+showing intensification for 48-60 h, with a gradual weakening after 
+72 h. Based on the guidance and the need for the core to 
+re-organize, the new intensity forecast shows little change in 
+strength for 12 h, followed by gradual strengthening until the 60 h 
+point. The forecast peak intensity of 85 kt is near the upper edge 
+of the guidance. After 72 h, the forecast follows the overall 
+weakening trend of the guidance. The new forecast is weaker than 
+than the previous forecast through 60 h, and is similar to the 
+previous forecast thereafter.
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  21/2100Z 16.6N 119.9W   65 KT  75 MPH
+ 12H  22/0600Z 17.0N 121.1W   65 KT  75 MPH
+ 24H  22/1800Z 17.4N 122.7W   70 KT  80 MPH
+ 36H  23/0600Z 17.7N 124.6W   75 KT  85 MPH
+ 48H  23/1800Z 17.9N 127.0W   80 KT  90 MPH
+ 60H  24/0600Z 18.3N 129.6W   85 KT 100 MPH
+ 72H  24/1800Z 18.6N 132.3W   85 KT 100 MPH
+ 96H  25/1800Z 19.4N 137.4W   75 KT  85 MPH
+120H  26/1800Z 20.1N 142.2W   65 KT  75 MPH
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

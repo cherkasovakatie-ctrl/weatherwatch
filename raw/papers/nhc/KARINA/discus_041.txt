@@ -1,0 +1,49 @@
+
+ZCZC HFOTCDCP5 ALL
+TTAA00 PHFO DDHHMM
+ 
+Tropical Storm Karina Discussion Number  41
+NWS Central Pacific Hurricane Center Honolulu HI   EP112026
+Issued by NWS National Hurricane Center Miami FL
+500 AM HST Sun Sep 06 2026
+ 
+Karina's convection has decreased significantly in coverage and 
+intensity.  Deep convection is nearly completely gone, but moderate 
+convection with cloud tops between -10C and -30C remain on Karina's 
+north side.  The latest subjective and objective satellite intensity 
+estimates range from 35-45 kt.  However, out of respect for the 
+large area of 50-53 kt wind vectors on the two ASCAT passes from 
+around 07Z, the intensity is held at 50 kt for this advisory.
+ 
+Moderate west-southwesterly shear, sea-surface temperatures in the 
+25-26C range and the dry air mass Karina is embedded in will cause 
+the cyclone to continue weakening.  It is possible that the dry 
+airmass could prevent any deep convection from re-forming.  The GFS 
+and ECMWF models both agree that Karina should lose its convection 
+in 12 to 24 h.  Although the NHC forecast for Karina becoming 
+post-tropical has moved up to 24 h, the gales should continue a bit 
+longer.  The low is expected to dissipate by hour 60 as it gets 
+sheared apart by the combination of a powerful mid- to upper-level 
+trough and outflow from Hurricane Lowell.
+
+Karina's initial motion is northwestward, or 305 degrees at 6 kt.  A 
+turn toward the west-northwest or west is expected by tonight as 
+Karina gets pulled westward by a mid-level low to its west and 
+ridging builds in to the north of Karina. The track forecast is 
+similar to the previous one and is close to the HCCA and the GDMI.
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  06/1500Z 22.7N 145.0W   50 KT  60 MPH
+ 12H  07/0000Z 23.0N 146.0W   45 KT  50 MPH
+ 24H  07/1200Z 23.2N 147.8W   40 KT  45 MPH...POST-TROPICAL
+ 36H  08/0000Z 23.5N 150.3W   35 KT  40 MPH...POST-TROPICAL
+ 48H  08/1200Z 24.2N 152.9W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 60H  09/0000Z...DISSIPATED
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

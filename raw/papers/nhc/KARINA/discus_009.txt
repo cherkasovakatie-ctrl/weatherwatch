@@ -1,0 +1,57 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Karina Discussion Number   9
+NWS National Hurricane Center Miami FL       EP112026
+200 PM PDT Sat Aug 29 2026
+
+Recent satellite imagery, along with microwave imagery, shows 
+that Karina has made many improvements to its structure in the last 
+several hours. However, there does appear to be some dry air that 
+has gotten into the core of the cyclone, which should hinder its 
+intensification a bit. The latest Dvorak fix from TAFB has T4.0/65 
+kt, and the objective intensity estimates from UW-CMISS are in the 
+range of 57-61 kt. Thus, the initial intensity has been set to 60 
+kt for this advisory, just below hurricane strength.  
+ 
+The storm continues on a northwestward heading of about 315/11 kt, 
+driven by a ridge of high pressure over the southwestern United 
+States. The storm is expected to slow down and turn westward as a 
+mid-level trough to the north weakens this ridge, allowing for the 
+ridge over the central North Pacific to build southeastward and take 
+over as the primary steering flow. The current NHC track is very 
+similar to the previous track except for a few small adjustments, 
+and it closely follows the HCCA guidance.
+ 
+The SHIPS guidance maintains a favorable environment for the cyclone 
+to intensify for the next 60 h. With light wind shear, warm 
+sea-surface temperatures, and plenty of moisture in the environment, 
+the conditions are conducive for Karina to continue to intensify. 
+Karina is at the edge of becoming a hurricane now, and is likely to 
+reach that status well within the next 24 h. Models still maintain 
+a fairly good signal for the cyclone to become a major hurricane 
+within the next 48 h, but that could occur sooner if the structure 
+of the storm gets better organized. After this weekend, SHIPS 
+diagnostics indicate that the environment will gradually become less 
+favorable, which will lead to a slow weakening trend. The current 
+NHC intensity forecast is close to the middle of the guidance.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  29/2100Z 16.4N 118.8W   60 KT  70 MPH
+ 12H  30/0600Z 16.9N 120.4W   65 KT  75 MPH
+ 24H  30/1800Z 17.4N 122.0W   75 KT  85 MPH
+ 36H  31/0600Z 17.7N 123.7W   90 KT 105 MPH
+ 48H  31/1800Z 17.9N 125.3W  100 KT 115 MPH
+ 60H  01/0600Z 18.3N 126.8W  100 KT 115 MPH
+ 72H  01/1800Z 19.0N 128.8W   95 KT 110 MPH
+ 96H  02/1800Z 20.4N 131.5W   80 KT  90 MPH
+120H  03/1800Z 22.2N 133.5W   60 KT  70 MPH
+ 
+$$
+Forecaster Katz/Beven
+ 
+NNNN
+

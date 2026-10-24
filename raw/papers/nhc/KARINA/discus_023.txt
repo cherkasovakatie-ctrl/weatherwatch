@@ -1,0 +1,57 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Karina Discussion Number  23
+NWS National Hurricane Center Miami FL       EP112026
+500 PM HST Tue Sep 01 2026
+ 
+The infrared satellite presentation for Karina has improved over
+the last several hours as the cloud tops have cooled down to around
+-70 degrees Celsius. Based on the presentation from the infrared 
+and analysis from the SHIP guidance, Karina has developed annular 
+characteristics. However, the eye still remains cloud filled at
+this time. The current satellite intensity estimates range from
+114 to 129 kt. Therefore, the initial intensity for this advisory 
+has been brought up to 120 kt.
+ 
+The major hurricane is moving westward at about 9 kt. A general
+slow westward to west-northwestward motion is expected during the
+next 3 to 4 days as a narrow mid-level ridge remains situated to the
+north of the hurricane. During the weekend, a turn to the northwest
+seems likely as the ridge shifts eastward and the cyclone 
+approaches a mid- to upper-level low north of Hawaii.  The current 
+NHC forecast track is very similiar to the previous one with 
+only small adjustments in speed and is slightly to the right 
+of the previous track. The current official forecast track 
+continues to keep the hurricane to the north of the Hawaiian 
+Islands. 
+
+In the short term, the hurricane has the opportunity to intensify a 
+bit, however, in the long run, the environment will become less 
+favorable for Karina due to cooler ocean waters and decreasing 
+relative humidity. With Karina developing annular characteristics 
+the rate of weakening is expected to be slower at first. The current 
+NHC intensity forecast shows a bit of strengthening within the first 
+12 h, and then a gradual weakening for 24 to 60h. Past 60 h, the 
+rate of weakening should increase as the low- to mid-level relative 
+humidity drops below 40%. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  02/0300Z 18.3N 130.8W  120 KT 140 MPH
+ 12H  02/1200Z 18.7N 132.3W  125 KT 145 MPH
+ 24H  03/0000Z 19.1N 134.2W  120 KT 140 MPH
+ 36H  03/1200Z 19.5N 136.1W  110 KT 125 MPH
+ 48H  04/0000Z 19.9N 138.0W  100 KT 115 MPH
+ 60H  04/1200Z 20.2N 139.8W   95 KT 110 MPH
+ 72H  05/0000Z 20.7N 141.6W   80 KT  90 MPH
+ 96H  06/0000Z 22.3N 144.3W   65 KT  75 MPH
+120H  07/0000Z 24.5N 146.8W   50 KT  60 MPH
+ 
+$$
+Forecaster Katz/Kelly
+ 
+NNNN
+

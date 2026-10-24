@@ -1,0 +1,118 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Simon Discussion Number  25
+NWS National Hurricane Center Miami FL       EP202026
+800 AM MST Tue Oct 13 2026
+ 
+Small stubborn Simon continues to defy expectations this morning. 
+First light visible satellite imagery shows the hurricane still has 
+a small eye, and is also located farther south than was analyzed by 
+satellite imagery last night. This is further supported by microwave 
+images from AMSR-3 at 09 UTC and SSMIS at 1125 UTC which both show 
+an eyewall that is little better organized, though it remains open 
+on the west side. This structure could be due to some residual shear 
+or dry air that was ingested into the circulation. Satellite 
+intensity estimates are all over the place this morning, ranging 
+from as low as 47 kt from UW-CIMSS ADT, and as high as 95 kt by 
+SATCON. Given the small eye signature surrounded by -65 to -70 C 
+cold cloud tops, the initial intensity will be held at 80 kt, on the 
+upper side of these estimates, but should be considered more 
+uncertain than usual. 
+ 
+Simon continues to move south of the previous forecast track, and 
+the initial motion is a slow westward drift at 270/2 kt. The farther 
+south initial position and current motion necessitates some pretty 
+significant changes to the short-term track forecast. As mentioned 
+yesterday, Simon is very close to a saddle point, or col, in the 
+deep-layer steering flow. This feature means that Simon's future 
+track is very sensitive to which side of the saddle point the storm 
+is located. Yesterday, a plurality of the guidance was maintaining 
+Simon on a northwestward to northward track, causing it to be on the 
+north side of the saddle point, resulting in continued poleward 
+motion. However, Simon has gained very little latitude over the past 
+24 h, and thus now finds itself on the south side of the saddle 
+point. Consequently, the track guidance over the past few cycles has 
+shifted substantially southward. The NHC track forecast is now 
+shifted in a similar fashion, showing a very slow motion over the 
+next 36-48 h as Simon makes a small cyclonic loop. The first part of 
+the track forecast is substantially farther south than the prior 
+one, but still not as far south as the HFIP Corrected Consensus 
+Approach (HCCA), or any of the latest hurricane-regional models. 
+After 48 h, deep-layer steering finally begins to shift out of the 
+south as a deep-layer cutoff low digs into southern California, and 
+Simon will finally start moving northward in earnest during the 
+48-72 h time frame. Towards the end of the forecast, Simon could 
+bend back more north-northwestward, potentially entering the Gulf of 
+California and finally making landfall in Mexico between 96-120 h. 
+However, this forecast should be considered very low confidence at 
+that time frame, as there are a host of solutions from landfall in 
+mainland Mexico even before reaching the Gulf of California, direct 
+impacts to Baja California Sur, or solutions that stay south of 
+Mexico entirely over the next 5 days.
+ 
+The intensity forecast is not much easier either. Simon has managed 
+to maintain a small inner-core and hurricanes of this size are known 
+to be sensitive to small changes in their environmental conditions 
+that could result in rapid changes in intensity, either up or down. 
+This is also exhibited in the intensity guidance this morning, which 
+ranges from Simon weakening to a tropical depression all the way to 
+it regaining major hurricane intensity over the next 48-60 h. While 
+shear over Simon is expected to remain low for the next 48 h and 
+sea-surface temperatures (SSTs) are in the 29-30 C range, one wild 
+card is how Simon's slow motion might cause some cool ocean 
+upwelling. There is one ocean glider providing subsurface ocean 
+temperature data near Simon, and it depicts 28 C waters down to 
+about 80 m below the ocean surface. Assuming Simon does not 
+completely stall, this is likely to support it maintaining hurricane 
+intensity for the next 48-72 h. Given all this information, the NHC 
+intensity forecast will show Simon maintaining its intensity as an 
+80 kt hurricane for the next 48 h. Afterwards, southwesterly 
+vertical wind shear is forecast to increase in earnest, and the 
+small Simon is forecast to quickly weaken even as it moves over 
+warmer SSTs. This latest forecast is initially on the high side of 
+the guidance above HCCA, but not as high as the latest HAFS-A, 
+COAMPS-TC, or HMON runs. After 48 h this forecast falls back to the 
+middle of the guidance envelope. 
+ 
+It is worth stressing that this is a very low confidence forecast 
+for both track and intensity, and interests in west-central Mexico 
+and Baja California Sur should continue to closely monitor the 
+latest updates. Changes to watches and warnings could be required 
+later today based on the latest forecast trends.
+ 
+ 
+Key Messages:
+ 
+1. Simon could approach Las Islas Marias on Wednesday and the coast 
+of western Mexico later this week at or near hurricane strength, and 
+a Hurricane Watch is in effect for a portion of these areas. 
+Interests in west-central Mexico and Baja California Sur should 
+continue to closely monitor the latest updates to Simon's forecast. 
+Changes to watches and warnings could be required later today based 
+on the latest forecast trends.
+
+2. Large swells will affect portions of the southwestern and
+west-central coasts of Mexico over the next several days. These
+swells are likely to cause life-threatening surf and rip current
+conditions.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  13/1500Z 20.3N 107.3W   80 KT  90 MPH
+ 12H  14/0000Z 20.3N 107.6W   80 KT  90 MPH
+ 24H  14/1200Z 20.3N 107.8W   80 KT  90 MPH
+ 36H  15/0000Z 20.1N 107.9W   80 KT  90 MPH
+ 48H  15/1200Z 20.1N 107.7W   80 KT  90 MPH
+ 60H  16/0000Z 21.0N 107.8W   75 KT  85 MPH
+ 72H  16/1200Z 22.8N 108.2W   70 KT  80 MPH
+ 96H  17/1200Z 25.2N 109.6W   55 KT  65 MPH
+120H  18/1200Z 28.5N 110.5W   30 KT  35 MPH...POST-TROP/INLAND
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

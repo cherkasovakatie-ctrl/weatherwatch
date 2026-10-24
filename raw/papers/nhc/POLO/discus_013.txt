@@ -1,0 +1,85 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Polo Discussion Number  13
+NWS National Hurricane Center Miami FL       EP172026
+300 PM CST Wed Sep 23 2026
+ 
+Satellite imagery this afternoon suggests that Polo seems to be at
+or near the end of its eyewall replacement cycle, as the eyewall
+cloud tops have gotten colder during the past several hours, and the
+eye is gradually becoming more distinct. The various satellite
+intensity estimates are lower than they were six hours ago, but they
+are no longer falling. The initial intensity is lowered to 125 kt,
+and for the moment that could still be a little generous. The
+hurricane's outer rainbands continue to affect the coast of Mexico.
+ 
+The hurricane is now moving faster toward the northwest at 310/6 kt. 
+Water vapor imagery suggests a mid-level ridge is building over 
+Texas and northern Mexico, and the dynamical models forecast this 
+ridge to build westward to the north of Polo starting on Thursday as 
+an upper-level trough near Baja California weakens and lifts out. 
+This evolution should result in Polo moving northwestward for 12 h 
+or so, followed by a west-northwestward motion with some increase in 
+forward speed. There have been changes in the forecast guidance 
+since the last advisory for the forecast period after 60 h. The 
+cluster of models that was forecasting a northward motion has 
+shifted a touch to the west, while the cluster that was forecasting 
+a more northwestward motion has shifted more northward. So, while 
+there is still spread and uncertainty, the guidance is a little more 
+clustered than before. The biggest changes are the ECMWF and the 
+UKMET, which are now part of the northward moving cluster.  The new 
+forecast track for this period follows the northward cluster to a 
+position west of Baja California by 120 h.  Overall, the new track 
+is similar to the previous track through 72 h and a little west of 
+the previous track after that.
+
+The intensity guidance continues to suggest a little decrease in 
+intensity during the next 12-24 h followed by slight strengthening. 
+However, since Polo is completing its eyewall replacement, it is 
+possible that intensification could occur at any time. So, the new 
+intensity forecast now shows re-intensification during the next 24 
+h.  After 48 h, the environment gradually becomes less favorable 
+due to slightly stronger shear and the possibility of some dry air 
+entrainment. The guidance forecasts slow weakening during this 
+time, and the new intensity forecast follows suit. The new forecast 
+is again near the upper edge of the guidance for the first 60 h and 
+then lies closer to the middle of the guidance envelope.
+ 
+While the center of Polo is forecast to remain offshore, outer
+rainbands should spread across southwestern Mexico during the next
+day or so, producing areas of heavy rain and tropical-storm-force
+winds.
+ 
+Key Messages:
+ 
+1. Heavy rainfall associated with Polo will impact coastal portions 
+of southwest Mexico through Thursday. This rainfall may produce 
+life-threatening flooding and mudslides, especially in areas of 
+steep terrain.
+ 
+2. A Tropical Storm Warning is in effect for portions of 
+southwestern Mexico from Tecpan de Galeana to Punta San Telmo, and 
+a Tropical Storm Watch is in effect west of that to Playa Perula. 
+Interests in these areas should closely monitor updates to the 
+forecast.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  23/2100Z 15.7N 102.4W  125 KT 145 MPH
+ 12H  24/0600Z 16.2N 103.4W  130 KT 150 MPH
+ 24H  24/1800Z 16.7N 105.0W  135 KT 155 MPH
+ 36H  25/0600Z 16.9N 106.9W  135 KT 155 MPH
+ 48H  25/1800Z 17.2N 108.9W  130 KT 150 MPH
+ 60H  26/0600Z 17.7N 110.6W  125 KT 145 MPH
+ 72H  26/1800Z 18.9N 112.0W  120 KT 140 MPH
+ 96H  27/1800Z 22.2N 113.4W  105 KT 120 MPH
+120H  28/1800Z 24.3N 113.4W   90 KT 105 MPH
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

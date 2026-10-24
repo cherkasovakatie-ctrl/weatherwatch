@@ -1,0 +1,60 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Lowell Discussion Number   3
+NWS National Hurricane Center Miami FL       EP122026
+1100 PM HST Thu Aug 27 2026
+ 
+Lowell continues to produce a persistent area of deep convection
+on the southwest side of its circulation, and banding features are
+gradually becoming better organized west of the center. The
+latest satellite intensity estimates generally range from 35 to 45
+kt, and based on those values, the initial wind speed is nudged up
+to 40 kt for this advisory. The storm appears to be experiencing
+some northeasterly vertical wind shear based on its convective
+pattern.
+ 
+The initial motion estimate remains east-northeastward, or 65 
+degrees at 5 kt, and that general slow motion could continue through 
+the day. However, a turn to the west or west-northwest with an 
+increase in forward speed is expected on Saturday as a ridge 
+strengthens to the north of the system. Although the models 
+generally agree on this overall pattern evolution, there remains 
+considerable spread in the location of the turn and forward speed of 
+the storm after it turns westward. The NHC track forecast leans 
+toward the faster side of the guidance envelope, but is not as fast 
+as the Google DeepMind and HCCA solutions, which have had a slight 
+fast bias on storms in the eastern and central Pacific so far this 
+season.
+ 
+Lowell is expected to be in generally favorable environmental 
+conditions for the next several days, with warm sea-surface 
+temperatures, light to moderate easterly wind shear and relatively 
+moist air. However, strengthening could be slow in the short term 
+given its asymmetric structure. Most of the more reliable models 
+show at least steady strengthening throughout the forecast period, 
+and it seems likely that Lowell will reach hurricane strength over 
+the weekend with additional intensification continuing into early 
+next week. The NHC intensity forecast is similiar to the previous 
+one and lies near the high end of the guidance in the short term and 
+closer to the middle of the envelope at the latter forecast times.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  28/0900Z 11.7N 133.0W   40 KT  45 MPH
+ 12H  28/1800Z 12.1N 132.8W   45 KT  50 MPH
+ 24H  29/0600Z 12.3N 133.6W   45 KT  50 MPH
+ 36H  29/1800Z 12.5N 134.8W   50 KT  60 MPH
+ 48H  30/0600Z 12.7N 136.4W   55 KT  65 MPH
+ 60H  30/1800Z 12.9N 138.1W   65 KT  75 MPH
+ 72H  31/0600Z 13.1N 139.8W   75 KT  85 MPH
+ 96H  01/0600Z 13.5N 143.2W   85 KT 100 MPH
+120H  02/0600Z 13.9N 146.3W   95 KT 110 MPH
+ 
+$$
+Forecaster Cangialosi
+ 
+NNNN
+

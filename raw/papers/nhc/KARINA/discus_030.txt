@@ -1,0 +1,55 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Karina Discussion Number  30
+NWS National Hurricane Center Miami FL       EP112026
+1100 AM HST Thu Sep 03 2026
+ 
+Karina's cold cloud tops around the center appear more  
+asymmetrical on satellite imagery, with dry air wrapping into the 
+system. The latest subjective Dvorak analysis from TAFB gave an 
+intensity estimate of 90 kt, while objective estimates from CIMSS 
+ranged from 90-95 kt. With Dvorak analyses continuing to trend 
+downward, along with Karina's degraded appearance on satellite 
+imagery, the initial intensity estimate was decreased to 90 kt.
+ 
+Karina's initial motion was set slightly more westward at 275/9 kt.
+The system continues to be guided by a subtropical ridge to its
+north, but is still expected to turn more west-northwestward
+into the weekend as an upper-level trough moves in and weakens the 
+aforementioned ridge. Another complicating factor for Karina's 
+track is for it to potentially interact with Lowell early next 
+week, which may pull Karina a bit more westward than the last 
+advisory had suggested. Global models seem to hint at this
+possibility, so the latest official track forecast reflects a
+slight westward shift, however Karina is not expected to be a 
+threat to the main Hawaiian Islands.
+ 
+The environment surrounding Karina is becoming increasingly drier
+based on latest SHIPS guidance, which should induce weakening 
+in the short term. Marginal SSTs and increasing vertical
+wind shear are forecast to cause additional weakening over the 
+weekend. Karina is expected to become a post-tropical system by 
+Monday, before dissipating thereafter. The official NHC intensity 
+forecast further hastens the rate of weakening, generally falling 
+close to the consensus aids.
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  03/2100Z 19.8N 137.6W   90 KT 105 MPH
+ 12H  04/0600Z 20.1N 139.0W   80 KT  90 MPH
+ 24H  04/1800Z 20.5N 140.7W   70 KT  80 MPH
+ 36H  05/0600Z 21.0N 142.1W   65 KT  75 MPH
+ 48H  05/1800Z 21.8N 143.3W   60 KT  70 MPH
+ 60H  06/0600Z 22.5N 144.2W   55 KT  65 MPH
+ 72H  06/1800Z 23.3N 145.5W   45 KT  50 MPH
+ 96H  07/1800Z 24.7N 148.4W   35 KT  40 MPH...POST-TROPICAL
+120H  08/1800Z...DISSIPATED
+ 
+$$
+Forecaster Evans/Brown
+ 
+NNNN
+

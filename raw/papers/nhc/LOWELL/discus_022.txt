@@ -1,0 +1,52 @@
+
+ZCZC HFOTCDCP4 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Lowell Special Discussion Number  22
+NWS Central Pacific Hurricane Center Honolulu HI   EP122026
+Issued by NWS National Hurricane Center Miami FL
+200 PM HST Tue Sep 01 2026
+ 
+ 
+The satellite presentation of Lowell has improved the last several
+hours. A deep ring of cold convection wraps around a small eye
+feature that is becoming more evident in infrared and satellite
+imagery. Objective intensity estimates have been steadily increasing
+the last few hours. The initial intensity has been raised to 110 kt,
+making Lowell a major category 3 hurricane, and is rapidly
+intensifying.
+ 
+Lowell remains within a favorable environment with warm sea surface
+temperatures, and low wind shear. Lowell is likely to continue
+strengthening, and remain a major hurricane throughout the
+remainder of the forecast period. The latest NHC intensity forecast
+was adjusted upward, given the recent satellite trends and current
+conditions.
+ 
+There were no changes made to the track forecast with this advisory,
+with the west-northwestward to westward motion anticipated to
+continue over the next few days.
+ 
+Key Messages:
+ 
+1. Interests in the Hawaiian Islands should continue to closely
+monitor the progress of Hurricane Lowell.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  02/0000Z 13.5N 150.7W  110 KT 125 MPH
+ 12H  02/0600Z 13.7N 151.7W  125 KT 145 MPH
+ 24H  02/1800Z 13.8N 153.7W  130 KT 150 MPH
+ 36H  03/0600Z 14.0N 155.7W  130 KT 150 MPH
+ 48H  03/1800Z 14.2N 157.6W  125 KT 145 MPH
+ 60H  04/0600Z 14.4N 159.2W  120 KT 140 MPH
+ 72H  04/1800Z 14.5N 160.6W  120 KT 140 MPH
+ 96H  05/1800Z 14.7N 163.3W  120 KT 140 MPH
+120H  06/1800Z 15.3N 164.9W  120 KT 140 MPH
+ 
+$$
+Forecaster Kelly
+ 
+NNNN
+

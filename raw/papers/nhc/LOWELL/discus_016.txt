@@ -1,0 +1,69 @@
+
+ZCZC HFOTCDCP4 ALL
+TTAA00 PHFO DDHHMM
+ 
+Tropical Storm Lowell Discussion Number  16
+NWS Central Pacific Hurricane Center Honolulu HI   EP122026
+Issued by NWS National Hurricane Center Miami FL
+500 AM HST Mon Aug 31 2026
+
+Lowell consists of a large central dense overcast with very cold 
+cloud tops.  A 31/1047 UTC AMSR2 pass indicates the low-level center 
+is rapidly becoming better organized underneath the convective 
+canopy.  The latest subjective Dvorak estimates from PHFO and JTWC 
+range from 45-55 kt, and objective estimates are a bit lower than 
+the subjective estimates.  The initial intensity is raised to 55 kt 
+based on the improved structure noted on the AMSR2 pass.
+ 
+The initial motion is just south of due west, or 260 degrees at 12 
+kt.  A mid-level ridge north of Lowell will be the primary steering 
+mechanism for the next few days.  Lowell should move generally 
+westward to west-northwestward during that time.  Thereafter, model 
+spread increases as Lowell slows.  A west-northwestward motion is 
+forecast after day 4 as Lowell feels some pull from a mid- to 
+upper-level trough located well to its north.  The HCCA and Google 
+DeepMind ensemble (GDMI) are the fastest and farthest south models. 
+The latest NHC forecast track is slightly to the left of the 
+previous track, but not quite as far south as the GDMI.
+ 
+The moderate easterly shear that has been affecting Lowell appears 
+to be diminishing.  Lowell seems poised to take advantage of warm 
+waters to rapidly intensify, as shown by the HAFS-A and HAF-B 
+models, which forecast Lowell becoming a major hurricane within the 
+next 36 h.  SHIPS is forecasting weak vertical wind shear magnitudes 
+over the next 5 days.  Given that the cyclone has developed a closed 
+ring on 37 GHz microwave imagery, it is probably just a matter of 
+time before we see Lowell strengthen significantly. The new NHC 
+intensity forecast explicitly forecasts rapid intensification over 
+the next 36 h, and then holds Lowell at category 3 strength through 
+the day 5 period, since SSTs are forecast to still be between 28-29C 
+and the shear is still forecast to be light at day 5.  The new 
+intensity forecast is between the middle and higher end of the 
+intensity guidance envelope.  This forecast is slightly above the 
+intensity consensus, but not nearly as strong as the HCCA.
+
+ 
+Key Messages:
+ 
+1. Lowell is forecast to move generally westward and could be in the
+vicinity of the Hawaiian Islands late this week. Interests in Hawaii
+should monitor the progress of this storm.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  31/1500Z 12.8N 145.7W   55 KT  65 MPH
+ 12H  01/0000Z 12.9N 147.1W   65 KT  75 MPH
+ 24H  01/1200Z 13.1N 149.0W   80 KT  90 MPH
+ 36H  02/0000Z 13.4N 150.9W   95 KT 110 MPH
+ 48H  02/1200Z 13.6N 152.7W  100 KT 115 MPH
+ 60H  03/0000Z 14.0N 154.7W  105 KT 120 MPH
+ 72H  03/1200Z 14.4N 156.5W  105 KT 120 MPH
+ 96H  04/1200Z 14.9N 159.4W  105 KT 120 MPH
+120H  05/1200Z 15.4N 161.7W  105 KT 120 MPH
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

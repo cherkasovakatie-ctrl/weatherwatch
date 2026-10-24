@@ -1,0 +1,67 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Polo Discussion Number  36
+NWS National Hurricane Center Miami FL       EP172026
+800 AM MST Tue Sep 29 2026
+
+Polo is now over the Gulf of California, with convection increasing 
+near the center. The cyclone weakened during its passage over Baja 
+California del Sur, but the consensus of the satellite intensity 
+estimates is that it remains a hurricane with winds near 65 kt.
+
+The initial motion is now 040/15. Polo is expected to accelerate 
+northeastward in the flow on the east side of a mid-latitude trough 
+over the southwestern United States.  The forecast track shows the 
+cyclone making landfall near Guaymas in the next few hours and then 
+crossing northwestern Mexico until dissipation occurs.
+
+Little change in strength is likely before landfall. After landfall 
+the surface circulation should weaken rapidly over the rough terrain 
+of northwestern Mexico, with the circulation dissipating between 
+12-24 h. However, Polo's remnant vorticity will continue moving 
+northeastward and likely interact and phase with aforementioned 
+mid-latitude trough digging into the Four Corners region of the U.S. 
+on Tuesday night and Wednesday.  This will contribute to heavy 
+rainfall, flash flooding, and gusty winds in the southwestern U.S. 
+and southern Plains. See products issued by the Weather Prediction 
+Center and local National Weather Service offices for more 
+information.
+  
+Key Messages:
+ 
+1. Hurricane conditions are expected in southern Sonora as the 
+center of Polo moves inland, and residents there should remain in a 
+safe shelter through this morning. Hurricane and tropical storm 
+conditions will spread across northwestern Mexico near the center 
+of Polo through this afternoon. A dangerous storm surge is expected 
+at the coast in areas of onshore winds.
+ 
+2. Heavy rainfall associated with Polo will impact the southern and 
+central portions of Sonora today. This rainfall is expected to 
+produce life-threatening flooding and mudslides, especially in areas 
+of steep terrain. Moisture from Polo will support heavy rainfall and 
+flooding potential across the Southwest U.S. into the Southern High 
+Plains today into early Wednesday.
+ 
+3. Even after Polo dissipates, its low- to mid-level remnants may 
+produce strong gusty winds well inland over the higher terrain of 
+northwest Mexico, southern New Mexico, and far western Texas.
+ 
+4. Dangerous surf and rip currents are likely along portions of the
+northwest coast of Mexico and Baja California for the next day or
+so.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  29/1500Z 27.8N 110.9W   65 KT  75 MPH
+ 12H  30/0000Z 30.5N 108.2W   40 KT  45 MPH...POST-TROP/INLAND
+ 24H  30/1200Z...DISSIPATED
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

@@ -1,0 +1,37 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Odalys Special Discussion Number  22
+NWS National Hurricane Center Miami FL       EP162026
+500 AM PDT Fri Sep 25 2026
+ 
+Recent conventional satellite imagery indicates that Odalys has 
+rapidly intensified into a category 4 hurricane.  
+UW-CIMSS Objective intensity estimates have also increased 
+significantly over the past few hours, ranging from 115-124 kt. 
+Based on the satellite presentation, and a blend of the 
+subjective and objective intensity estimates, the initial intensity 
+is set at 115 kt for this special advisory.
+ 
+There were no changes made to the track or wind radii forecasts. 
+The next advisory will be issued at 1500 UTC.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  25/1200Z 17.7N 123.9W  115 KT 130 MPH
+ 12H  25/1800Z 18.0N 123.7W  120 KT 140 MPH
+ 24H  26/0600Z 18.9N 123.5W  100 KT 115 MPH
+ 36H  26/1800Z 19.7N 123.5W   85 KT 100 MPH
+ 48H  27/0600Z 20.7N 123.5W   70 KT  80 MPH
+ 60H  27/1800Z 21.9N 123.1W   55 KT  65 MPH
+ 72H  28/0600Z 22.5N 122.1W   40 KT  45 MPH...POST-TROPICAL
+ 96H  29/0600Z 21.7N 121.2W   35 KT  40 MPH...POST-TROPICAL
+120H  30/0600Z 19.2N 120.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Roberts
+ 
+NNNN
+

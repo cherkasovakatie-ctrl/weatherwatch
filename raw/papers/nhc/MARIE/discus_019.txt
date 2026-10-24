@@ -1,0 +1,50 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Marie Discussion Number  19
+NWS National Hurricane Center Miami FL       EP132026
+200 PM PDT Sat Sep 05 2026
+ 
+Marie continues to exhibit a large ragged eye, around 60 n mi in
+diameter. Satellite estimates of the hurricane's intensity are very
+similar to what they were 6 hours ago, and therefore the initial
+intensity remains 80 kt for this advisory. The heading of
+the hurricane has been similarly steady, albeit at a slightly 
+slower forward speed, with a motion estimate of 305/6 kt.
+
+Marie is moving along the western periphery of a ridge centered over 
+the southern United States and will likely continue on a generally 
+northwestward heading for most of the weekend. A short-term bend 
+toward the west-northwest is still expected early next week as the 
+cyclone weakens but it will ultimately accelerate northwestward as a 
+mid- to upper-level trough digs quickly southward to the west of 
+Marie by late Tuesday.
+
+A drier environment and cooler SSTs are still expected to cause 
+Marie to slowly weaken during the next couple of days. The rate of 
+weakening could increase after that as the environment gets more 
+hostile and the aforementioned trough causes an increase in 
+southerly wind shear across the cyclone. Marie is still expected to 
+become a post-tropical remnant low near the 96 h mark, and could 
+dissipate in about 5 days, though the forecast conservatively shows 
+a point at that time for now. The NHC track and intensity forecasts 
+are very close to the HCCA and GDM consensus aids.
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  05/2100Z 22.1N 120.9W   80 KT  90 MPH
+ 12H  06/0600Z 22.7N 121.6W   70 KT  80 MPH
+ 24H  06/1800Z 23.6N 122.6W   65 KT  75 MPH
+ 36H  07/0600Z 24.3N 123.5W   55 KT  65 MPH
+ 48H  07/1800Z 24.9N 124.7W   50 KT  60 MPH
+ 60H  08/0600Z 25.5N 126.1W   45 KT  50 MPH
+ 72H  08/1800Z 26.7N 127.1W   40 KT  45 MPH
+ 96H  09/1800Z 30.3N 128.7W   30 KT  35 MPH
+120H  10/1800Z 34.5N 131.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster D. Zelinsky
+ 
+NNNN
+

@@ -1,0 +1,73 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Odalys Discussion Number   1
+NWS National Hurricane Center Miami FL       EP162026
+200 AM PDT Sun Sep 20 2026
+ 
+Satellite imagery indicates that the convective organization of 
+Odalys has improved over the past several hours. Deep convection 
+continues to develop within a band wrapping around the western and 
+southern semicircles, with a recent burst of convection expanding 
+over or near the circulation center. The latest subjective Dvorak 
+intensity estimate from TAFB is T2.5/35 kt. Given these data and the 
+improved satellite presentation, advisories are being initiated on 
+newly formed Tropical Storm Odalys, with an initial intensity of 35 
+kt.
+
+The initial motion is estimated to be northwestward, or 305/7 kt. 
+This general motion is expected to continue during the next day or 
+two as a low- to mid-level subtropical ridge remains positioned to 
+the north. Thereafter, Odalys is forecast to slow considerably and 
+turn sharply eastward by Tuesday, then east-northeastward through 
+the latter part of the week in response to a developing weakness in 
+the ridge as an upper-level trough deepens over the western United 
+States. Although the track guidance remains in decent agreement 
+through the first half of the week, increasing cross-track spread 
+develops thereafter. This appears to be due, at least in part, to 
+differences in how the models handle the evolution of the 
+upper-level trough over the western United States and the potential 
+influence of another developing tropical cyclone tracking 
+west-northwestward offshore of southwestern Mexico. These factors 
+lead to lower confidence in the track forecast during the latter 
+portion of the forecast period. The NHC track forecast closely 
+follows the HCCA and GDMI aids through around day 4, then reflects 
+more of a blend of the two thereafter as the spread increases.
+
+Environmental conditions appear favorable for gradual strengthening 
+during the next couple of days, with warm sea surface temperatures 
+and plenty of deep moisture expected along the forecast track. 
+However, modest north-northeasterly vertical wind shear may temper 
+the rate of intensification during the next 24 h. Thereafter, the 
+rate of strengthening could increase as the shear relaxes and Odalys 
+remains in a favorable environment. The NHC forecast has the system 
+becoming a hurricane by Monday, with some additional strengthening 
+possible through Tuesday. Thereafter, progressively drier mid-level 
+air, along with increasing vertical wind shear anticipated later in 
+the forecast period, should induce a steady weakening trend. There 
+is additional uncertainty in the intensity forecast due to the 
+potential influence of another tropical cyclone evolving well to the 
+east, which could affect its intensity depending on the eventual 
+tracks and proximity of the two systems late in the week. The NHC 
+intensity forecast lies near the middle to upper end of the guidance 
+envelope through much of the period.
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  20/0900Z 11.4N 124.5W   35 KT  40 MPH
+ 12H  20/1800Z 12.0N 125.6W   45 KT  50 MPH
+ 24H  21/0600Z 13.3N 127.1W   55 KT  65 MPH
+ 36H  21/1800Z 14.4N 128.3W   65 KT  75 MPH
+ 48H  22/0600Z 15.0N 128.9W   70 KT  80 MPH
+ 60H  22/1800Z 15.2N 128.7W   70 KT  80 MPH
+ 72H  23/0600Z 15.3N 128.0W   65 KT  75 MPH
+ 96H  24/0600Z 15.6N 126.5W   65 KT  75 MPH
+120H  25/0600Z 16.7N 124.8W   65 KT  75 MPH
+ 
+$$
+Forecaster Gibbs
+ 
+NNNN
+

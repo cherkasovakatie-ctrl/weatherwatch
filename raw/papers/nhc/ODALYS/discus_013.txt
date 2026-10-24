@@ -1,0 +1,62 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Odalys Discussion Number  13
+NWS National Hurricane Center Miami FL       EP162026
+200 AM PDT Wed Sep 23 2026
+ 
+Satellite imagery indicates that Odalys has recovered from the 
+earlier dry air intrusion. Deep convection has developed over the 
+low-level center, with a convective shield that has cold cloud tops 
+near -80 C. In addition, a recent WSF-M microwave pass revealed a 
+nearly closed low-level convective ring and a developing eye 
+feature. A subjective Dvorak intensity estimate from TAFB has 
+increased to T4.0/65 kt, and objective intensity estimates from 
+UW-CIMSS range between 55 and 68 kt. Based on these estimates and 
+the improved structural organization in the microwave data, the 
+initial intensity is set at 65 kt, making Odalys a hurricane.
+ 
+The initial motion is estimated to be east-northeastward, or 065/8 
+kt. This general motion is expected to continue in the short term as 
+Odalys is steered by the flow between a mid- to upper-level trough 
+moving into the eastern Pacific and a strong ridge located over 
+central Mexico. A turn toward the northeast and then north is 
+forecast in a couple of days. Beyond day 3, the steering pattern 
+becomes increasingly complex, and potential interaction with 
+Hurricane Polo will likely complicate the future track of Odalys. 
+The updated NHC track forecast is near the previous advisory, and 
+lies near the previous the HCCA and GDMI track aids.
+ 
+Vertical wind shear is forecast to begin relaxing as Odalys 
+traverses warm sea surface temperatures, which should allow for 
+steady strengthening over the next 24 to 36 hours. By 48 to 72 
+hours, wind shear is forecast to increase once again, SSTs will 
+cool, and Odalys may begin to experience upper-level outflow from 
+Hurricane Polo. At the same time, the cyclone will move into a drier 
+mid-level environment, which should induce a weakening trend. The 
+official NHC intensity forecast shows a slightly higher peak 
+intensity, and is closest to the HCCA and GDMI intensity aids. 
+Toward the end of the forecast period, model-simulated infrared 
+satellite imagery indicates that Odalys will succumb to a drier 
+environment. As the system becomes devoid of organized deep 
+convection, it is expected to degenerate into a post-tropical 
+cyclone, which is now shown in the latest NHC forecast at day 5. 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  23/0900Z 15.9N 128.4W   65 KT  75 MPH
+ 12H  23/1800Z 16.1N 127.3W   70 KT  80 MPH
+ 24H  24/0600Z 16.5N 126.0W   75 KT  85 MPH
+ 36H  24/1800Z 17.2N 124.7W   80 KT  90 MPH
+ 48H  25/0600Z 18.0N 123.5W   75 KT  85 MPH
+ 60H  25/1800Z 18.7N 122.9W   65 KT  75 MPH
+ 72H  26/0600Z 19.5N 122.7W   55 KT  65 MPH
+ 96H  27/0600Z 21.4N 122.6W   45 KT  50 MPH
+120H  28/0600Z 22.3N 121.8W   35 KT  40 MPH...POST-TROPICAL
+ 
+$$
+Forecaster Kelly
+ 
+NNNN
+

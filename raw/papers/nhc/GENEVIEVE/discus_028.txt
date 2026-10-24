@@ -1,0 +1,58 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Genevieve Discussion Number  28
+NWS National Hurricane Center Miami FL       EP072026
+500 PM HST Thu Jul 30 2026
+ 
+Genevieve is now a tropical storm, and the cyclone remains on a 
+weakening trend.  Visible and infrared satellite imagery shows 
+that the convection in the inner core continues to degrade. Water 
+vapor imagery also shows that some dry air has made progress into 
+the inner core of the storm as well. In addition, the objective 
+intensity estimates continue to trend downward, in the range of 
+50-65 kt.  The most recent current intensity estimate from TAFB is 
+4.0/65 kt but the T-number has decreased to 3.5/55 kt.  Based on the 
+downward trend presented by both the satellite imagery and the 
+various subjective and objective estimates, the advisory intensity 
+is reduced to 60 kt.
+ 
+Genevieve continues to move along a west-northwestward heading
+today, guided by a strengthening ridge to the north. This general
+motion will prevail over the next 72 h or so. By early next week, a
+strong upper-level trough will advance toward the western U.S. and
+evolve into a cutoff low, steering Genevieve toward the northwest
+then north-northwest. Only slight adjustments have been made to the
+track based on the latest guidance and the position of the storm at
+this time. The track forecast continues to be in good agreement with
+the consensus of the guidance.
+ 
+The tropical storm has moved into cooler waters and is experiencing
+dry mid-level air and less favorable upper-level winds. These
+factors will lead to further steady weakening over the next several
+days. Global model guidance suggests that Genevieve may struggle to
+produce organized deep convection this weekend, and the forecast
+calls for the system to become post-tropical by 72 h, and a remnant
+low early next week. The new forecast intensity remains very similar
+to the previous advisory, and is near the middle of the consensus
+guidance.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  31/0300Z 21.3N 126.0W   60 KT  70 MPH
+ 12H  31/1200Z 21.8N 128.0W   55 KT  65 MPH
+ 24H  01/0000Z 22.5N 130.7W   50 KT  60 MPH
+ 36H  01/1200Z 23.3N 133.5W   50 KT  60 MPH
+ 48H  02/0000Z 24.1N 136.4W   45 KT  50 MPH
+ 60H  02/1200Z 25.0N 139.2W   40 KT  45 MPH
+ 72H  03/0000Z 26.1N 141.5W   35 KT  40 MPH...POST-TROPICAL
+ 96H  04/0000Z 28.4N 144.9W   30 KT  35 MPH...POST-TROP/REMNT LOW
+120H  05/0000Z 31.7N 146.8W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Katz/Pasch
+ 
+NNNN
+

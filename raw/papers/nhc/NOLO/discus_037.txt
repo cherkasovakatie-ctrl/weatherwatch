@@ -1,0 +1,64 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Nolo Discussion Number  37
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+1100 AM HST Tue Sep 29 2026
+ 
+Nolo's satellite appearance continues to degrade this morning as it 
+succumbs to strong vertical wind shear. Drier air has also started 
+to entrain into the inner core of the system, eroding southern 
+portions of the circulation and causing cloud tops to warm. 
+Satellite intensity estimates continue to decrease, with the latest 
+Current Intensity (CI) estimates from JTWC and UW-CIMSS ranging 
+between 75 and 90 kt. Given the degraded satellite presentation and 
+these estimates, the initial intensity is lowered to 85 kt for this 
+advisory.
+
+Nolo has continued to slow down and is moving northward, or 360/7 
+kt. A continued northward motion with a decreasing forward speed is 
+expected through tonight. In about 24 h, the system is forecast to 
+decelerate further as it interacts with a mid- to upper-level 
+trough. Following this interaction, a mid-level ridge is expected to 
+build to the northwest of Nolo, resulting in a sharp westward turn. 
+There continue to be along-track differences among the track 
+guidance. The better-performing HCCA and Google DeepMind (GDMI) 
+models are slower than the global models and depict a much slower 
+turn and subsequent re-acceleration. Toward the end of the forecast 
+period, Nolo is expected to move generally westward across the 
+Papahanaumokuakea Marine National Monument. The latest NHC track 
+forecast has once again been slowed down through 72 h and trends 
+toward the latest HCCA and GDMI aids.
+
+The moderate-to-strong vertical wind shear is expected to continue 
+impacting Nolo for the next 36-48 h or so, with dry mid-level air 
+also entraining into the circulation. This should result in a steady 
+weakening trend, and Nolo is forecast to become a tropical storm 
+during that time. The shear is expected to relax in 48 to 60 h. 
+Although the system remains over warm sea surface temperatures, the 
+dry mid-level environment may inhibit the rate of re-strengthening. 
+The latest NHC intensity forecast follows these trends, showing 
+steady weakening in the short term before the system re-strengthens 
+into a hurricane by the end of the forecast period. This prediction 
+lies near the middle of the guidance envelope.
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  29/2100Z 21.3N 164.2W   85 KT 100 MPH
+ 12H  30/0600Z 22.1N 164.2W   70 KT  80 MPH
+ 24H  30/1800Z 22.4N 164.5W   60 KT  70 MPH
+ 36H  01/0600Z 22.4N 165.0W   55 KT  65 MPH
+ 48H  01/1800Z 22.5N 165.8W   55 KT  65 MPH
+ 60H  02/0600Z 22.7N 166.5W   60 KT  70 MPH
+ 72H  02/1800Z 23.0N 167.5W   65 KT  75 MPH
+ 96H  03/1800Z 23.4N 171.4W   75 KT  85 MPH
+120H  04/1800Z 24.9N 178.0W   80 KT  90 MPH
+ 
+$$
+Forecaster Kelly
+ 
+NNNN
+

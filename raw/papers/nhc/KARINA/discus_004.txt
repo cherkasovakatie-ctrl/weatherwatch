@@ -1,0 +1,54 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Karina Discussion Number   4
+NWS National Hurricane Center Miami FL       EP112026
+800 AM PDT Fri Aug 28 2026
+
+It is a bit challenging to find the center of Karina this morning 
+on conventional satellite imagery, though it appears to be near a 
+new convective burst on the northwestern side of the cloud envelope. 
+A recent GMI microwave pass shows a tilted structure, with the 
+low-level center a bit southwest of the mid-level core.  Dvorak 
+estimates haven't changed much since the last advisory, so the 
+initial intensity remains 45 kt.  
+ 
+Karina is moving northwestward at about 9 kt.  A mid-level ridge 
+over the SW United States should gradually build westward, causing 
+the tropical cyclone to turn west-northwestward and westward this 
+weekend.  A bend back to the northwest is possible early next week 
+due to the ridge being eroded by a mid-latitude trough.  There is a 
+subtle southward and leftward guidance change on this cycle, and the 
+new forecast moves in that direction, close to a blend of the latest 
+HFIP Corrected Consensus Approach (HCCA) and Google DeepMind (GDMI) 
+aids.
+
+The intensity forecast is difficult because while the large-scale 
+environmental conditions are quite conducive for intensification, 
+the inner-core structure is still broad and misaligned.  Given the 
+low shear, the inner core should eventually organize, but the 
+timing on this alignment is hard to forecast.  While guidance has 
+come down somewhat on this cycle, there's enough uncertainty to 
+stay on the higher end of the guidance, just below the HCCA model, 
+until better evidence emerges that it will struggle more like the 
+regional hurricane guidance.
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  28/1500Z 13.2N 115.0W   45 KT  50 MPH
+ 12H  29/0000Z 14.1N 116.0W   55 KT  65 MPH
+ 24H  29/1200Z 15.6N 117.8W   65 KT  75 MPH
+ 36H  30/0000Z 16.7N 119.6W   80 KT  90 MPH
+ 48H  30/1200Z 17.6N 121.4W   90 KT 105 MPH
+ 60H  31/0000Z 18.0N 123.0W  100 KT 115 MPH
+ 72H  31/1200Z 18.3N 124.7W  110 KT 125 MPH
+ 96H  01/1200Z 19.1N 127.8W  100 KT 115 MPH
+120H  02/1200Z 20.2N 130.4W   80 KT  90 MPH
+ 
+$$
+Forecaster Blake
+ 
+NNNN
+

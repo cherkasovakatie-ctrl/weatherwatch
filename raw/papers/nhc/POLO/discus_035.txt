@@ -1,0 +1,86 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM CCA
+ 
+Hurricane Polo Discussion Number  35...Corrected
+NWS National Hurricane Center Miami FL       EP172026
+200 AM MST Tue Sep 29 2026
+
+Corrected for Key Message number 1.
+
+Polo made landfall around 06Z along the west coast of Baja
+California Sur, just south of the small town of Las Barrancas.
+Several microwave fixes received after the 03Z advisory went out
+(WSF-M, SAR, and two ASCAT passes) all indicated that center of Polo
+was a bit farther south than was estimated at 03Z.  There is some
+uncertainty in what the intensity was at landfall, but given all the
+data we have received, it is likely that Polo was a category 2
+hurricane at the time of landfall with maximum winds in the 90-95
+kt range.  The center has been over land for about 3 hours now, and
+it is estimated that the maximum winds have come down to about 70
+kt.
+ 
+The hurricane is moving northeastward, or 30 degrees at 9 kt.  A
+significant increase in forward speed is expected this morning as a
+mid- to upper-level trough amplifies over the southwestern U.S.
+This track should take the system inland over the Mexican state of
+Sonora late this morning.  The track forecast is a little slower
+compared to the previous forecast for the first 12 hours, mainly
+due to the slower initial motion.
+ 
+Some slight additional weakening is likely for another couple of
+hours while the center of Polo remains over land.  When the center
+emerges over the Gulf of California, atmospheric and oceanic
+conditions could allow for Polo to maintain its intensity.  The
+latest HAFS models show landfall in Sonora around 60 kt, but it is
+possible that Polo could still be a hurricane when it reaches that
+state.  After landfall, rapid weakening is expected over the
+rugged terrain of northwestern Mexico.  Although Polo is likely to
+dissipate between the hour 12 and 24 points, a 24 hour point is
+included for continuity.
+ 
+Polo's remnant vorticity will likely interact and phase with a
+strong cutoff low digging into the Four Corners region of the U.S.
+on Tuesday and Wednesday, contributing to heavy rainfall, flash
+flooding, and gusty winds in the southwestern U.S. and southern
+Plains. See products issued by the Weather Prediction Center and
+local National Weather Service offices for more information.
+ 
+ 
+Key Messages:
+ 
+1. Polo is still bringing hurricane-force winds to Baja California 
+Sur, and residents there should remain in a safe shelter through 
+this morning. Hurricane and tropical storm conditions will spread 
+into mainland Mexico early today. A dangerous storm surge is 
+expected in areas of onshore winds.
+ 
+2. Heavy rainfall associated with Polo will impact Baja California
+Sur along with southern and central portions of Sonora today. This
+rainfall is expected to produce life-threatening flooding and
+mudslides, especially in areas of steep terrain. Moisture from Polo
+will support heavy rainfall and flooding potential across the
+Southwest U.S. into the Southern High Plains today into early
+Wednesday.
+ 
+3. Even after Polo dissipates, its mid-level remnants may produce
+strong gusty winds well inland over the higher terrain of northwest
+Mexico, southern New Mexico, and far western Texas.
+ 
+4. Dangerous surf and rip currents are likely along portions of the
+northwest coast of Mexico and Baja California for the next day or
+so.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  29/0900Z 26.2N 111.9W   70 KT  80 MPH
+ 12H  29/1800Z 28.4N 110.1W   55 KT  65 MPH...INLAND
+ 24H  30/0600Z 31.7N 106.8W   30 KT  35 MPH...POST-TROP/INLAND
+ 36H  30/1800Z...DISSIPATED
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

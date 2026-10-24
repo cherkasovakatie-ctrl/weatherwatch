@@ -1,0 +1,58 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Tropical Storm Nolo Discussion Number  45
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+1100 AM HST Thu Oct 01 2026
+
+Nolo is gradually becoming better organized.  Moderate-to-deep 
+convection has made a comeback near the center, with a large spiral 
+band noted in the eastern semicircle.  Additionally, microwave data 
+indicate that the low-level core of the system remains fairly 
+intact.  The current intensity is held at 50 kt as the satellite 
+estimates haven't quite caught up with the earlier scatterometer 
+pass.  
+ 
+The storm continues to move slowly to the northwest.  A subtropical 
+high over the west-central Pacific is forecast to build north of 
+the cyclone during the next few days.  This evolution is expected 
+to cause Nolo to turn westward by tomorrow and pick up a lot of 
+forward speed over the weekend while moving generally west- 
+northwestward, south of the main atolls of the northwestern 
+Hawaiian Islands.  Similar to the last advisory, the new forecast 
+is nudged a bit the north to come into better agreement with the 
+Google DeepMind and HCCA aids.  
+
+After the recent failed extratropical transition, it will take a 
+bit of time to re-build the warm-core structure aloft, so only a 
+gradual strengthening is shown for the next 24 h.  However, with 
+convection near the center already, combined with the forecast drop 
+in shear and increase in SSTs during the next 2-3 days, these 
+factors suggest that a significant re-strengthening episode is 
+coming.  Since the low-level core structure is already present, 
+rapid intensification is a distinct possibility by the weekend, and 
+the new forecast is raised from the previous one, showing Nolo as 
+a major hurricane when it crosses the International Dateline.  
+Increasing shear could cause some weakening at the end of the 
+forecast period.  
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  01/2100Z 22.3N 165.5W   50 KT  60 MPH
+ 12H  02/0600Z 22.8N 166.2W   50 KT  60 MPH
+ 24H  02/1800Z 23.2N 167.2W   55 KT  65 MPH
+ 36H  03/0600Z 23.2N 168.8W   65 KT  75 MPH
+ 48H  03/1800Z 23.1N 171.7W   80 KT  90 MPH
+ 60H  04/0600Z 23.4N 175.3W   95 KT 110 MPH
+ 72H  04/1800Z 24.1N 178.8W  100 KT 115 MPH
+ 96H  05/1800Z 25.7N 175.0E  105 KT 120 MPH
+120H  06/1800Z 26.2N 167.9E   95 KT 110 MPH
+ 
+$$
+Forecaster Blake
+ 
+NNNN
+

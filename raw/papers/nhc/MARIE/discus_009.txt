@@ -1,0 +1,56 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Marie Discussion Number   9
+NWS National Hurricane Center Miami FL       EP132026
+200 AM MST Thu Sep 03 2026
+
+Marie continues to gradually become better organized, with very 
+deep convection near the center and a more symmetric convective 
+pattern.  Satellite estimates have slightly increased since the 
+last advisory, and the initial intensity is set to 75 kt, closest 
+to the latest TAFB fix.  
+
+The intensity forecast for Marie is tricky.  While it still has a 
+couple of days over warm waters with light shear, the structure 
+remains somewhat broad, with a large outer wind field.  So far, 
+this has prevented anything other than gradual strengthening.  It 
+is still a bit curious why most of the guidance don't intensify 
+this much during the next day or two, given the conducive 
+large-scale environment.  While it is possible that Marie will be 
+affected by the wake of Iselle, the forecast track could also be 
+far enough away to miss the bulk of the cooler SSTs.  The new 
+forecast is raised from the previous one, splitting the difference 
+between the higher SHIPS/LGEM/rapid intensification guidance and 
+the lower regional hurricane/corrected consensus models.  A steady 
+weakening is likely after the system passes over colder waters in 
+about 3 days.
+
+Marie is moving west-northwestward at about 9 kt.  There are no 
+changes to the previous synoptic pattern as this general course 
+is anticipated to continue for the next several days due to a 
+narrow ridge to the north.  While this ridge weakens later on, 
+Marie should slow down a bit, but stay moving west-northwestward.  
+The new forecast is close to an update of the last one, near a 
+consensus of the Google DeepMind ensemble mean and the HFIP 
+Corrected Consensus HCCA model.  
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  03/0900Z 18.9N 113.9W   75 KT  85 MPH
+ 12H  03/1800Z 19.3N 115.1W   85 KT 100 MPH
+ 24H  04/0600Z 19.8N 116.6W   90 KT 105 MPH
+ 36H  04/1800Z 20.3N 118.0W   90 KT 105 MPH
+ 48H  05/0600Z 21.0N 119.2W   90 KT 105 MPH
+ 60H  05/1800Z 21.7N 120.3W   80 KT  90 MPH
+ 72H  06/0600Z 22.3N 121.4W   75 KT  85 MPH
+ 96H  07/0600Z 22.9N 124.2W   65 KT  75 MPH
+120H  08/0600Z 23.6N 127.8W   55 KT  65 MPH
+ 
+$$
+Forecaster Blake
+ 
+NNNN
+

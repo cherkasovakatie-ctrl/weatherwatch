@@ -1,0 +1,54 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Rachel Discussion Number  40
+NWS National Hurricane Center Miami FL       EP182026
+800 PM PDT Tue Oct 06 2026
+
+Convective coverage has expanded somewhat across Rachel's northern 
+semicircle. However, the storm's deepest convection remains 
+concentrated across its southern half, indicative of northeasterly 
+shear entraining dry air into the northern portion of the cyclone. 
+The subjective Dvorak Current Intensity estimate from TAFB was 
+4.5/77 kt, while objective estimates from UW-CIMSS range from 70 to 
+75 kt. Given these intensity estimates and very little change in the 
+overall satellite presentation, the initial intensity is held at 70 
+kt.
+ 
+The initial motion was estimated at 285/5 kt. Rachel continues to
+be steered by high pressure anchored over the western United States.
+However, by the end of the week, a large mid- to upper-level trough
+is forecast to approach from the northwest, causing Rachel to slow
+down before turning sharply northeastward. The system should then
+gain forward speed as it moves toward Baja California and southern
+California. Little change was made to the latest NHC track forecast,
+other than to adjust it slightly toward the HCCA guidance.
+
+The environment ahead of Rachel is expected to remain hostile, 
+defined by dry mid-level air and cooling SSTs. Once Rachel makes 
+its forecasted turn to the northeast, vertical wind shear is 
+expected to increase as well, driven heavily by the aforementioned 
+trough. As a result, steady weakening is expected to continue, and 
+Rachel is forecast to become post-tropical by Saturday. The latest 
+NHC intensity forecast is essentially unchanged from the previous 
+advisory.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  07/0300Z 20.4N 120.4W   70 KT  80 MPH
+ 12H  07/1200Z 20.8N 121.4W   65 KT  75 MPH
+ 24H  08/0000Z 21.4N 122.6W   60 KT  70 MPH
+ 36H  08/1200Z 21.9N 123.8W   55 KT  65 MPH
+ 48H  09/0000Z 22.3N 124.9W   50 KT  60 MPH
+ 60H  09/1200Z 22.5N 125.2W   40 KT  45 MPH
+ 72H  10/0000Z 23.1N 124.4W   40 KT  45 MPH
+ 96H  11/0000Z 25.6N 119.9W   40 KT  45 MPH...POST-TROPICAL
+120H  12/0000Z 29.6N 116.1W   35 KT  40 MPH...POST-TROPICAL
+ 
+$$
+Forecaster Evans/Gibbs
+ 
+NNNN
+

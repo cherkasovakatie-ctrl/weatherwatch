@@ -1,0 +1,58 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Karina Discussion Number  25
+NWS National Hurricane Center Miami FL       EP112026
+500 AM HST Wed Sep 02 2026
+ 
+Karina continues to exhibit a circular, annular structure on 
+proxy-vis and infrared satellite imagery. The hurricane has a 
+well-defined, warm 30 n mi eye, with deep convection wrapping around 
+the inner core. The latest objective and subjective satellite 
+intensity estimates from UW-CIMSS and TAFB range from 109 to 137 kt. 
+Based on the steady satellite appearance and a range of these 
+estimates, the intensity is held at 125 kt.
+ 
+The hurricane continues to move westward at an estimated motion of 
+285/9 kt. The steering flow remains unchanged, with the system 
+expected to continue moving westward to west-northwestward along the 
+southern side of a ridge located to the north. As a mid-level low 
+moves north of the Hawaiian islands the ridge will weaken, and the 
+system should move northwestward. The latest NHC track is similar 
+to the previous and lies close to the HCCA and GDMI aids.
+ 
+Karina remains over marginally warm waters sea surface temperatures, 
+tracking roughly parallel to the 26-27C isotherm. Wind shear also 
+remains low during the next few days, before increasing beyond 72 h. 
+Some fluctuations in intensity are possible today, before a gradual 
+weakening trend is expected. In about 2-3 days, the system should 
+begin to move into a drier environment and over cooler SSTs, 
+although given the annular structure, weakening is anticipated to be 
+more gradual than normal. The NHC intensity guidance is higher than 
+most of the guidance, given the annular structure, and shows a 
+gradual rate of weakening during the early part of the forecast 
+period before a more steady rate of weakening by the end of the 
+period. Global infrared simulated satellite imagery shows that 
+Karina will struggle to produce organized deep convection by day 5, 
+due to the shear and dry air, and the NHC forecast now calls for the 
+system to become post-tropical at that time.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  02/1500Z 18.8N 132.8W  125 KT 145 MPH
+ 12H  03/0000Z 19.2N 134.2W  125 KT 145 MPH
+ 24H  03/1200Z 19.7N 136.2W  120 KT 140 MPH
+ 36H  04/0000Z 20.1N 138.2W  110 KT 125 MPH
+ 48H  04/1200Z 20.5N 140.0W   95 KT 110 MPH
+ 60H  05/0000Z 21.0N 141.7W   85 KT 100 MPH
+ 72H  05/1200Z 21.7N 143.1W   70 KT  80 MPH
+ 96H  06/1200Z 23.6N 145.1W   60 KT  70 MPH
+120H  07/1200Z 26.0N 148.0W   45 KT  50 MPH...POST-TROPICAL
+ 
+$$
+Forecaster Kelly
+ 
+NNNN
+

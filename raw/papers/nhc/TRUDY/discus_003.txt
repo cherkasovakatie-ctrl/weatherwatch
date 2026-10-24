@@ -1,0 +1,95 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Trudy Discussion Number   3
+NWS National Hurricane Center Miami FL       EP212026
+900 PM CST Tue Oct 13 2026
+ 
+Tropical Storm Trudy has a fairly large circulation with several
+outer banding features propagating outward in a manner consistent
+with a diurnal pulse. Despite the large apparent size, which dwarfs
+nearby Hurricane Simon, the core of Trudy is analyzed to be somewhat
+compact with tropical-storm-force winds limited to the northern
+semicircle of the circulation and no farther than 60 n mi from the
+center. It was a bit difficult to analyze the initial center
+position for this advisory. Late arriving Oceansat-3 scatterometer
+data and AMSR3 microwave imagery suggest that the center of Trudy
+may have been somewhat north of the best track position earlier
+today. The objective and subjective satellite fixes also range by
+several degrees. The initial position blends these available data
+with the last few visible satellite images of the day and maintains
+continuity with the previous forecast track. Trudy's intensity was a
+much easier analysis, and is increased to 40 kt for this advisory,
+which blends the objective satellite intensity estimates from
+UW-CIMSS, the subjective Dvorak classification from TAFB, and recent
+short-term trends in the satellite presentation of the system.
+ 
+The track forecast is difficult and uncertain, with higher than 
+normal spread in the guidance from 72 h onward. The initial motion 
+of Trudy is northwestward (320/9 kt), and a general northwestward to 
+west-northwestward motion is forecast through 72 hr as the cyclone 
+is steered by a mid-level ridge over the southern United States. As 
+previously stated, the track forecast is more uncertain than usual 
+by 72 h as Trudy arrives into a region with weak steering flow 
+between the retreating mid-level ridge and an approaching trough 
+over the western United States. The deterministic global models are 
+significantly slower than the HFIP Corrected Consensus Aid (HCCA), 
+Google DeepMind (GDMI), the European Centre's AIFS, and the AI-GFS. 
+The new track forecast closely follows HCCA and GDMI, which have 
+been the best-performing track forecast aids this season. Compared 
+to the previous forecast, the new NHC track is faster and nudged 
+east of the previous one, especially at and beyond 72 h. This brings 
+Trudy inland over western Mexico later this weekend with the cyclone 
+emerging in the southern Gulf of California by early next week. If 
+Trudy tracks farther inland over western Mexico, the circulation may 
+not survive and rapidly dissipate inland. Regardless of the exact 
+track, Trudy is expected to approach the coast of Mexico as a major 
+hurricane later this week.
+ 
+The center of Trudy appears nestled under a small and incipient
+central dense overcast. While a short-term trend on satellite, this
+change in organization of a small inner core combined with extremely
+favorable environmental conditions supports an aggressive intensity
+forecast that explicitly depicts rapid intensification and makes
+Trudy a hurricane within 24 h. This is also supported by some of the
+statistical rapid intensity guidance. The new intensity forecast is
+adjusted slightly above the previous one, in agreement with GDMI and
+HCCA, our best performing intensity guidance this season. GDMI,
+HCCA, and the NHC forecast are on the higher end of the intensity
+guidance, though this appears the most likely solution based on the
+official track forecast. The hurricane regional models, which can
+be more skillful for intensity than the coarser global models, use
+the GFS for initialization and boundary conditions. For this cycle,
+the GFS track is unrealistic, and the hurricane regional models
+appear to succumb to this and provide an outlier (weaker) outcome.
+At 120 h, the intensity forecast shows Trudy remaining a hurricane
+after exiting Mexico, though this intensity will be highly
+sensitive to the amount of land interaction.
+ 
+Key Messages:
+ 
+1. Trudy is forecast to be a major hurricane as it approaches the
+coast of southwestern and west-central Mexico late this week and
+into the weekend. There is an increasing risk of wind, rain, and
+storm surge impacts, and watches could be required for a portion of 
+these areas on Wednesday.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  14/0300Z 11.2N  97.0W   40 KT  45 MPH
+ 12H  14/1200Z 11.8N  98.6W   50 KT  60 MPH
+ 24H  15/0000Z 12.6N 100.0W   65 KT  75 MPH
+ 36H  15/1200Z 13.5N 100.9W   80 KT  90 MPH
+ 48H  16/0000Z 14.3N 101.5W  100 KT 115 MPH
+ 60H  16/1200Z 15.2N 101.9W  110 KT 125 MPH
+ 72H  17/0000Z 16.3N 102.5W  115 KT 130 MPH
+ 96H  18/0000Z 19.0N 104.4W  115 KT 130 MPH
+120H  19/0000Z 21.0N 106.0W   75 KT  85 MPH
+ 
+$$
+Forecaster Mahoney
+ 
+NNNN
+

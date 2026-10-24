@@ -1,0 +1,58 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Karina Discussion Number  28
+NWS National Hurricane Center Miami FL       EP112026
+1100 PM HST Wed Sep 02 2026
+
+While Karina continues to exhibit an annular appearance with a 
+large ring of deep convection, its cloud-top temperatures have been 
+gradually warming.  The eye of the hurricane has also expanded to a 
+diameter of 30 to 40 n mi.  Subjective Dvorak classifications from 
+TAFB give a current intensity estimate of 102 kt and objective 
+intensity estimates from UW-CIMSS range from 95 to 109 kt.  The 
+advisory intensity is set at 105 kt, near the higher end of the 
+estimates.  A couple of recent scatterometer overpasses more or 
+less confirmed the previously estimated 34- and 50-kt wind radii 
+for the hurricane.
+
+Karina continues with a west-northwestward motion at around 
+285/10 kt.  The system should maintain this motion for the next 48 
+hours or so, under the influence of a subtropical ridge to its 
+north.   Thereafter, a mid-tropospheric cyclone to the north 
+of the Hawaiian Islands is expected to cause a slight northwestward 
+bend in the track.  The official forecast is very similar to the 
+previous NHC track.  This is fairly close to the latest Google 
+DeepMind and HFIP Corrected consensus predictions, which have 
+proved to be quite reliable track guidance so far.
+
+Vertical wind shear is forecast to remain low for the next 48 hours 
+or so, with significantly increasing southwesterly shear likely 
+later in the forecast period.  Karina should move over gradually 
+cooling ocean waters for the next several days, with the low- to 
+mid-level air mass becoming increasingly dry.  Given these 
+expected environmental conditions, Karina should weaken during the 
+forecast period, and become a post-tropical cyclone in 5 days or 
+sooner.  The official intensity forecast is a little above the 
+model consensus for the next 48 hours in consideration of the 
+annular structure, but is close to the overall model guidance mean
+thereafter.
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  03/0900Z 19.6N 135.7W  105 KT 120 MPH
+ 12H  03/1800Z 20.0N 137.1W  100 KT 115 MPH
+ 24H  04/0600Z 20.4N 138.9W   90 KT 105 MPH
+ 36H  04/1800Z 20.9N 140.5W   80 KT  90 MPH
+ 48H  05/0600Z 21.4N 142.0W   70 KT  80 MPH
+ 60H  05/1800Z 22.1N 143.0W   60 KT  70 MPH
+ 72H  06/0600Z 23.0N 144.1W   55 KT  65 MPH
+ 96H  07/0600Z 24.6N 147.0W   45 KT  50 MPH
+120H  08/0600Z 26.3N 150.8W   30 KT  35 MPH...POST-TROPICAL
+ 
+$$
+Forecaster Pasch
+ 
+NNNN
+

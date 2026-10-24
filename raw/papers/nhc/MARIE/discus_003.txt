@@ -1,0 +1,57 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Marie Discussion Number   3
+NWS National Hurricane Center Miami FL       EP132026
+200 PM MST Tue Sep 01 2026
+ 
+The satellite presentation of Marie continues to improve with 
+curved bands over the northern and eastern portions of the 
+circulation.  Recent scatterometer data shows that Marie has a 
+large wind field with tropical-storm-force winds extending outward 
+up to 160 nautical miles over the eastern semicircle.  The ASCAT 
+data revealed peak winds of 45 kt and given the typical 
+undersampling of that instrument, the initial intensity has been 
+raised to 50 kt.  That value is near a consensus of the various 
+subjective and objective satellite intensity estimates. 
+
+The storm will be moving over sea surface temperatures around 
+29 degrees Celsius and remain in a low shear environment during the 
+next couple of days.  With the large radius of maximum winds, it 
+may take a little time for the system to establish an inner core, 
+but once that occurs steady intensification is likely.  The NHC 
+intensity forecast is a little higher than the previous forecast 
+and lies between the HCCA and GDMI models.  There is some potential 
+that Marie could strengthen more quickly over the next day or two 
+than indicated in the forecast below. After day 4, cooler SSTs and 
+a more stable airmass are expected to cause gradual weakening. 
+
+Marie continues to move northwestward around the western portion of 
+a mid-level ridge over Mexico.  A narrow ridge is forecast to 
+establish itself to the north of Marie in a day or two, which 
+should cause the system to turn west-northwestward. After 72 hours, 
+an amplifying mid-level trough along the west coast of the United 
+State could cause Marie to slow down.  It is after that time period 
+that there is larger spread in the track guidance. The NHC forecast 
+leans closer to the typically reliable HFIP corrected consensus 
+model and the Google Deep Mind ensemble mean. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  01/2100Z 15.5N 109.5W   50 KT  60 MPH
+ 12H  02/0600Z 16.5N 110.5W   60 KT  70 MPH
+ 24H  02/1800Z 17.5N 111.8W   75 KT  85 MPH
+ 36H  03/0600Z 18.4N 113.2W   85 KT 100 MPH
+ 48H  03/1800Z 19.2N 114.8W   90 KT 105 MPH
+ 60H  04/0600Z 19.8N 116.4W   90 KT 105 MPH
+ 72H  04/1800Z 20.3N 117.9W   90 KT 105 MPH
+ 96H  05/1800Z 21.7N 120.3W   80 KT  90 MPH
+120H  06/1800Z 22.9N 122.9W   70 KT  80 MPH
+ 
+$$
+Forecaster Brown
+ 
+NNNN
+

@@ -1,0 +1,65 @@
+
+ZCZC HFOTCDCP4 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Lowell Discussion Number  23
+NWS Central Pacific Hurricane Center Honolulu HI   EP122026
+Issued by NWS National Hurricane Center Miami FL
+500 PM HST Tue Sep 01 2026
+ 
+Lowell's satellite presentation continues to improve, characteristic 
+of a rapidly intensifying cyclone. Deep, cold convection is wrapping 
+around a fluctuating eye on infrared and visible satellite imagery. 
+Over the past few hours, lightning activity has also increased 
+within the eyewall. Objective and subjective satellite intensity 
+estimates continue to rise as they attempt to catch up with the 
+ongoing rapid intensification. The latest subjective Dvorak estimate 
+from HFO was T5.5, but was constrained, with a Data-T of 6.0/115 kt. 
+Based on these estimates and the continued improving satellite 
+trends, the initial intensity is set at 115 kt for this advisory.
+ 
+Lowell remains within a favorable environment characterized by warm 
+sea surface temperatures and low vertical wind shear. The system is 
+likely to continue strengthening and is expected to remain a major 
+hurricane throughout the remainder of the forecast period. However, 
+fluctuations in intensity are possible due to internal structural 
+changes, such as eyewall replacement cycles. Based on current 
+conditions and recent trends, the official NHC intensity forecast 
+remains near the upper end of the guidance suite.
+ 
+The initial motion is westward, or 275/9 kt. A westward to 
+west-northwestward motion should continue throughout much of the 
+forecast period as Lowell is steered by a mid-level ridge located to 
+the north. The official track forecast has once again been adjusted 
+slightly southward during this time frame, trending closer to the 
+HCCA and GDMI track aids. Toward the end of the forecast period, 
+track uncertainty increases. An upper-level trough approaching from 
+the west is forecast to move north of the Hawaiian Islands, 
+weakening the aforementioned ridge. This evolution will cause Lowell 
+to decelerate and begin turning toward the northwest or north late 
+in the period. Interests in the Hawaiian Islands should continue to 
+closely monitor Lowell's progress.
+ 
+Key Messages:
+ 
+1. Interests in the Hawaiian Islands should continue to closely
+monitor the progress of Hurricane Lowell.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  02/0300Z 13.5N 151.2W  115 KT 130 MPH
+ 12H  02/1200Z 13.5N 152.7W  130 KT 150 MPH
+ 24H  03/0000Z 13.6N 154.7W  130 KT 150 MPH
+ 36H  03/1200Z 13.9N 156.6W  125 KT 145 MPH
+ 48H  04/0000Z 14.0N 158.4W  125 KT 145 MPH
+ 60H  04/1200Z 14.2N 159.9W  120 KT 140 MPH
+ 72H  05/0000Z 14.2N 161.3W  120 KT 140 MPH
+ 96H  06/0000Z 14.5N 163.7W  120 KT 140 MPH
+120H  07/0000Z 15.6N 164.4W  120 KT 140 MPH
+ 
+$$
+Forecaster Kelly
+ 
+NNNN
+

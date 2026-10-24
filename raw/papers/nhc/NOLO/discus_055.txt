@@ -1,0 +1,76 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Nolo Discussion Number  55
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+1100 PM HST Sat Oct 03 2026
+ 
+Nolo's inner-core continues to evolve this evening as its eyewall 
+replacement cycle (ERC) progresses. On geostationary satellite, the 
+small eye that was observed earlier today has largely decayed, with 
+the coldest cloud tops now organizing in a broader ring as a larger 
+ragged eye begins to clear out. Earlier, an AMSR3 microwave pass 
+over Nolo at 0043 UTC showed an inner eyewall fragment remained on 
+the 37 GHz channel, but a more recent 0549 UTC WSF-M pass showed the 
+outer eyewall solidifying with the inner eyewall no longer observed. 
+This evolution suggests the ERC will likely complete in the near 
+future. For now, the subjective and objective intensity estimates 
+have lowered some during Nolo's inner-core fluctuations, and the 
+initial intensity is set at 95 kt this advisory.
+ 
+The hurricane continues to move quickly westward at an estimated 
+motion of 275 degrees at 16 kt. A large subtropical ridge is draped 
+to the north of Nolo and should continue to steer the tropical 
+cyclone quickly westward for the next 3-4 days. On the forecast 
+track, Nolo should cross the International Dateline during the day 
+on Sunday. At the end of the forecast period, Nolo will likely reach 
+the westward edge of the large-scale ridging, and some slowdown in 
+its forward motion is anticipated. However, by this point in the 
+forecast, Nolo's vertical depth could be more shallow. Substantial 
+across-track uncertainty in the guidance exists, related to if the 
+cyclone will begin to recurve northward or continue to maintain a 
+slower westward motion. The latest NHC track forecast is very 
+similar to the prior one, but just a little slower and further 
+northward in the 96-120 h period, following the trends in the 
+reliable HFIP Corrected Consensus Approach (HCCA), Google DeepMind 
+ensemble mean (GDMI), and its newer version (WN3I). 
+
+Assuming the current ERC completes cleanly over the next 6-12 h, 
+Nolo is expected to start intensifying again while the tropical 
+cyclone remains over 28-29 C sea-surface temperatures, and very low 
+shear, currently diagnosed at 5 kt by UW-CIMSS. The NHC intensity 
+forecast continues to show a 115 kt peak, which is still below the 
+peak intensity reached in the raw output in both the 00 UTC HAFS-B 
+and HMON runs. After 48 h, a very amplified upper-level flow pattern 
+induced by recurving Typhoon Choi-Wan will lead to an abrupt 
+increase in northeasterly shear over Nolo. This ramp-up in shear 
+will likely advect very dry mid-level air into the cyclone's core. 
+Thus, the NHC intensity forecast shows significant weakening 
+occurring between 48-72 h, when the brunt of the shear will affect 
+Nolo. By the latter half of the forecast period, this shear could 
+lessen somewhat, but it is possible Nolo will continue to struggle 
+as it remains embedded in a very dry mid-level air environment. The 
+NHC intensity forecast remains on the high side of the guidance over 
+the first 36-48 h, but falls back to the mean of the intensity aids 
+thereafter. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  04/0900Z 23.6N 176.7W   95 KT 110 MPH
+ 12H  04/1800Z 24.0N 179.2W  105 KT 120 MPH
+ 24H  05/0600Z 24.8N 177.6E  110 KT 125 MPH
+ 36H  05/1800Z 25.3N 174.5E  115 KT 130 MPH
+ 48H  06/0600Z 25.4N 171.0E  110 KT 125 MPH
+ 60H  06/1800Z 25.5N 166.7E   90 KT 105 MPH
+ 72H  07/0600Z 26.1N 162.5E   65 KT  75 MPH
+ 96H  08/0600Z 28.0N 155.5E   55 KT  65 MPH
+120H  09/0600Z 30.0N 152.5E   50 KT  60 MPH
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

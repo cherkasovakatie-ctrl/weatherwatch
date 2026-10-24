@@ -1,0 +1,60 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Fausto Discussion Number  15
+NWS National Hurricane Center Miami FL       EP062026
+500 AM HST Wed Jul 22 2026
+ 
+Fausto appears to be contending with intrusions of dry air based on 
+its deteriorated satellite structure this morning. Recent AMSR-2 and 
+GMI passive microwave images show the mid-level eyewall of the 
+hurricane is no longer closed, and dry slots are evident in 
+geostationary satellite images. As a result of these changes, the 
+satellite intensity estimates have decreased this morning. The 
+initial intensity is set at 70 kt, which is in good agreement with 
+the latest UW-CIMSS D-PRINT, D-MINT, and SATCON estimates.
+ 
+Fausto continues moving west-northwestward (285/6 kt) while being 
+steered by a subtropical ridge to its north. This feature is 
+forecast to strengthen over the next few days, which should keep 
+Fausto on a west-northwestward to westward heading with some 
+increase in forward speed later this week and over the weekend. The 
+track models are in good agreement through 72 h, with increased 
+cross-track spread noted at days 4-5. The Google Deep Mind and HCCA 
+remain on the southern side of the guidance envelope, while the GFS 
+and regional hurricane models are still slower and farther north. 
+Little change was made to the official NHC track forecast, which 
+continues to follow HCCA on the southern side of the guidance suite.
+ 
+Some restrengthening is possible during the next day or two while 
+Fausto moves over warm waters in a light to moderate shear 
+environment. However, continued intrusions of dry air may limit the 
+potential for further intensification, and the NHC forecast only 
+shows modest strengthening during the next 24-36 h. As Fausto moves 
+westward, it is predicted to encounter a drier and more stable air 
+mass over the weekend while tracking near the 26 deg C isotherm. 
+Thus, slow weakening is shown during the latter half of this 
+forecast period. The latest NHC intensity forecast remains on the 
+higher side of the intensity guidance. Note that any large northward 
+track deviations would likely cause Fausto to weaken even faster 
+than shown in this forecast.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  22/1500Z 16.9N 121.4W   70 KT  80 MPH
+ 12H  23/0000Z 17.3N 122.8W   75 KT  85 MPH
+ 24H  23/1200Z 17.7N 125.0W   80 KT  90 MPH
+ 36H  24/0000Z 18.1N 127.8W   80 KT  90 MPH
+ 48H  24/1200Z 18.4N 130.6W   75 KT  85 MPH
+ 60H  25/0000Z 18.6N 133.3W   75 KT  85 MPH
+ 72H  25/1200Z 18.8N 135.9W   70 KT  80 MPH
+ 96H  26/1200Z 19.5N 141.0W   65 KT  75 MPH
+120H  27/1200Z 20.0N 146.0W   60 KT  70 MPH
+ 
+$$
+Forecaster Reinhart
+ 
+NNNN
+

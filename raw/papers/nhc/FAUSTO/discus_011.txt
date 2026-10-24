@@ -1,0 +1,63 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Fausto Discussion Number  11
+NWS National Hurricane Center Miami FL       EP062026
+500 AM HST Tue Jul 21 2026
+
+Somewhat surprisingly, the core of Fausto has lost organization 
+during the past several hours. The central convection has become 
+disorganized in conventional satellite imagery, and a 0913Z AMSR 
+overpass indicated that the low-level center had become partly 
+exposed to the north of the convection. This is likely due to a 
+resurgence in the northerly vertical shear that has been present for 
+the last several days. The satellite intensity estimates have 
+decreased since the last advisory, and based on these the initial 
+intensity is reduced to 65 kt.
+
+The initial motion is now estimated to be 305/10 kt. The track 
+guidance forecasts a turn toward the west-northwest in the next 
+12 h or so as the subtropical ridge to the northeast of the cyclone 
+builds westward. A general west-northwestward to westward motion 
+is then expected for the rest of the forecast period. The track
+guidance remains tightly clustered through about 72 h. Thereafter, 
+there remains an increase in the north-south spread between the GFS 
+on the north side of the guidance envelope and the ECMWF and Google 
+DeepMind on the south side of the guidance envelope. The new 
+forecast track has minor adjustments from the previous track, is 
+similar to the previous forecast at 120 h, and lies just a little to 
+the north of center of the guidance envelope.
+
+The models continue to forecast that Fausto will reach a light-shear 
+environment in the next 12-24 h. However, the cyclone is moving over 
+slightly cooler sea surface temperatures, and as a result the 
+intensity guidance is showing less strengthening during the first 
+36-48 h than previously. It should also be noted that the 
+shear has been a bit stronger than forecast all through the life of 
+Fausto. With that being said, the intensity forecast will follow 
+the guidance in showing a resumed strengthening later today and a 
+peak intensity in 36-60 h. Beyond that time, a gradual weakening 
+trend is expected as the cyclone moves over progressively cooler 
+waters and into a drier, more stable environment. The new forecast 
+is nudged downward from the previous forecast for the first 48 h 
+and changed little thereafter.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  21/1500Z 16.3N 118.8W   65 KT  75 MPH
+ 12H  22/0000Z 16.8N 119.9W   75 KT  85 MPH
+ 24H  22/1200Z 17.2N 121.5W   85 KT 100 MPH
+ 36H  23/0000Z 17.5N 123.3W   90 KT 105 MPH
+ 48H  23/1200Z 17.8N 125.4W   90 KT 105 MPH
+ 60H  24/0000Z 18.2N 127.9W   90 KT 105 MPH
+ 72H  24/1200Z 18.6N 130.7W   85 KT 100 MPH
+ 96H  25/1200Z 19.5N 135.8W   75 KT  85 MPH
+120H  26/1200Z 20.3N 140.8W   65 KT  75 MPH
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

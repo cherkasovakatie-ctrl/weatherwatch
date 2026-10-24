@@ -1,0 +1,64 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Odalys Discussion Number  10
+NWS National Hurricane Center Miami FL       EP162026
+800 AM PDT Tue Sep 22 2026
+ 
+Deep convection continues to build around the center of Odalys as 
+the cyclone improves in organization. The most recent objective 
+satellite intensity estimates from UW-CIMSS range from 49-61 kt. 
+Meanwhile, TAFB's most recent Dvorak fix was T3.5/55 kt, which still 
+the same as the previous cycle. Based on the given data, the 
+initial intensity has been held at 55 kt for this advisory. 
+ 
+There is larger than normal amount of uncertainty in regards to the 
+initial position of Odalys with this forecast due to high clouds 
+obscuring the low-level center and an outage of satellite data this 
+morning. The cyclone is currently moving northward, or 355/4 kt. A 
+further decrease in forward speed is possible as the storm continues 
+to move more northward, then east-northeastward tonight as a trough 
+that is moving across the eastern Pacific toward the western coast 
+of the United States continues to deepen. Afterwards, Odalys will be 
+steered by the flow of the trough resulting an east-northeastward to 
+eastward motion for the next few days. After day three, the 
+uncertainty in the track increases due to potential interaction with 
+Hurricane Polo, which could cause Odalys to slow down late in the 
+forecast period. The current NHC track forecast is similar to the 
+previous advisory with only a few minor adjustments, however there 
+is a higher degree of uncertainty with the forecast track due to 
+the low-confidence initial position and analysis. That said, the 
+forecast is still in good agreement with the HCCA and GDMI forecast 
+aids. 
+ 
+Environmental conditions are forecast to become more conducive for 
+intensification over the next few days, as the vertical wind shear 
+should weaken slightly. In addition the cyclone will be in an 
+environment with plenty of mid-level moisture and warm
+sea-surface temperatures. Therefore, Odalys is forecast to become a 
+hurricane with in the next day or so. Between 48 to 72 h, the storm 
+could encounter a drier mid-level air mass and increased wind shear 
+from the upper-level outflow from Hurricane Polo. The lastest NHC 
+intensity forecast remains on the upper end of the model guidance, 
+but close to the HCCA and GDMI forecast aids.  
+
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  22/1500Z 14.9N 130.5W   55 KT  65 MPH
+ 12H  23/0000Z 15.2N 129.9W   65 KT  75 MPH
+ 24H  23/1200Z 15.3N 128.7W   75 KT  85 MPH
+ 36H  24/0000Z 15.6N 127.3W   75 KT  85 MPH
+ 48H  24/1200Z 16.1N 126.0W   75 KT  85 MPH
+ 60H  25/0000Z 16.7N 124.8W   70 KT  80 MPH
+ 72H  25/1200Z 17.4N 123.7W   65 KT  75 MPH
+ 96H  26/1200Z 18.9N 123.0W   55 KT  65 MPH
+120H  27/1200Z 20.7N 122.8W   45 KT  50 MPH
+ 
+$$
+Forecaster Katz/Zelinsky
+ 
+NNNN
+

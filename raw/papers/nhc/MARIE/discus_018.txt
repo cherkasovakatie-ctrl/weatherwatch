@@ -1,0 +1,53 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Marie Discussion Number  18
+NWS National Hurricane Center Miami FL       EP132026
+800 AM PDT Sat Sep 05 2026
+ 
+Marie's appearance has changed little since the last advisory. 
+Recent IR satellite imagery indicates the hurricane continues 
+to have a ragged banding eye with a dry air wrapping around the 
+north of its center. The initial intensity remains 80 kt for this 
+advisory, based on the latest TAFB Dvorak estimate of 4.5/77 kt and 
+the UW-CIMSS objective estimates including SATCON, DPRINT, and 
+DMINT which were all around 80 kt as of 1200 UTC.
+
+Only very slight changes were made to the NHC forecast for Marie to 
+show a slightly faster storm motion during the next couple of days. 
+Otherwise, the forecast is very similar to the previous advisory and 
+remains heavily based on the HCCA consensus. The hurricane is 
+forecast to move northwestward for the next day or two, generally 
+along the western periphery of a ridge centered over the southern 
+United States. Slow weakening is expected during this period as the 
+cyclone encounters gradually drier air (SHIPS diagnostics indicate 
+environmental RH below 60 percent) and SSTs of 25-27 deg C. 
+
+A temporary west-northwestward bend will be possible next week as 
+Marie becomes weaker and shallower, but the cyclone should 
+ultimately accelerate northwestward or north-northwestward by 
+late Tuesday in response to a deep-layer trough that models 
+indicate will build to its west. The forecast uncertainty increases 
+during this period, but the model spread has decreased since 
+yesterday so confidence in the forecast is growing. Simulated 
+satellite imagery indicates Marie will lose its remaining deep 
+convection and become a remnant low near or just after 96 h.
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  05/1500Z 21.8N 120.4W   80 KT  90 MPH
+ 12H  06/0000Z 22.5N 121.2W   70 KT  80 MPH
+ 24H  06/1200Z 23.3N 122.1W   60 KT  70 MPH
+ 36H  07/0000Z 24.1N 123.1W   55 KT  65 MPH
+ 48H  07/1200Z 24.7N 124.2W   50 KT  60 MPH
+ 60H  08/0000Z 25.4N 125.4W   45 KT  50 MPH
+ 72H  08/1200Z 26.5N 126.5W   40 KT  45 MPH
+ 96H  09/1200Z 29.4N 128.1W   30 KT  35 MPH
+120H  10/1200Z 33.3N 130.4W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster D. Zelinsky
+ 
+NNNN
+

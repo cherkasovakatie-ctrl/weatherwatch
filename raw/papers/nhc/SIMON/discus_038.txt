@@ -1,0 +1,37 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Remnants Of Simon Discussion Number  38
+NWS National Hurricane Center Miami FL       EP202026
+200 PM MST Fri Oct 16 2026
+ 
+Convection associated with Simon has rapidly diminished today. A 
+recent scatterometer pass indicated that Simon no longer has a 
+well-defined low-level center, and as a result, no longer meets the 
+criteria for classification as a tropical cyclone. Therefore, this 
+will be the final NHC advisory on Simon. The initial intensity is 
+estimated at 30 kt.
+ 
+The remnants are expected to move northwestward today, steered by 
+the low- and mid-level flow between a trough to the west and a 
+mid-level ridge to the northeast. This motion should keep the 
+remnants moving parallel to the coast of Baja California Sur. 
+Dissipation is expected by late tonight or early tomorrow morning.
+ 
+For additional information on the remnants of Simon please see High 
+Seas Forecasts issued by the National Weather Service, under AWIPS 
+header NFDHSFEPI, WMO header FZPN01 KWBC, and on the web at 
+ocean.weather.gov/shtml/NFDHSFEPI.php
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  16/2100Z 21.5N 110.3W   30 KT  35 MPH...REMNANTS OF SIMON
+ 12H  17/0600Z...DISSIPATED
+ 
+$$
+Forecaster Adams
+ 
+NNNN
+

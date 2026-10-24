@@ -1,0 +1,88 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Polo Discussion Number   2
+NWS National Hurricane Center Miami FL       EP172026
+900 PM CST Sun Sep 20 2026
+ 
+After a brief hiccup in the convective structure on satellite 
+imagery this evening, several convective bursts have formed close 
+to the estimated center of circulation. Earlier microwave images 
+showed a decent low-level structure, though there was some 
+eastward tilt with height. The 00 UTC Dvorak intensity estimate 
+from TAFB was up to T3.0/45 kt, but the objective intensity 
+estimates from UW-CIMSS were lower in the 29-39 kt range. Still, 
+these values are enough support to increase the winds to 35 kt, 
+making the depression Tropical Storm Polo. 
+
+It remains tricky to find the center this evening, but my best guess 
+is that the center is close to the ongoing convective burst and is 
+estimated to be moving east-northeastward or 075 degrees at 4 kt. 
+Over the next 24-36 h, Polo will likely be influenced by the 
+steering of low- to mid-level ridging south of the cyclone, with 
+most of the track guidance showing a slow eastward or 
+east-southeastward motion on Monday. On Tuesday, mid-level ridging 
+over Texas and Mexico is forecast to build in, and the track 
+guidance responds to this change by showing a sharp, hairpin turn to 
+the northwest that continues through the remainder of the forecast 
+period. The NHC track forecast is close to the prior one, though 
+shows a bit of a sharper turn in 48-60 h, and is a little to the 
+south and west thereafter. This track forecast roughly splits the 
+difference between the reliable HFIP Corrected Consensus Approach 
+(HCCA) and Google DeepMind ensemble mean (GDMI) aids. It is worth 
+noting some of the hurricane-regional models are further east, and 
+short-term trends will be monitored in the guidance over the next 
+day or so to see if any eastward adjustments are needed. Towards the 
+end of the forecast, it is possible Polo may get close enough to the 
+circulation of Odalys to interact, and there is significant track 
+uncertainty in 5 days. 
+
+Intensity-wise there appear to be few impediments in Polo's 
+forecast, with low shear under 10 kt, very warm 31 C sea-surface 
+temperatures, and abundant deep-layer moisture.  While it may take 
+another 12 h or so for Polo to develop an inner core, its possible 
+the ongoing convective burst near the center is already initiating 
+that process. The intensity guidance is rather aggressive, with all 
+of the hurricane-regional models showing various degrees of rapid 
+intensification over the next 2-3 days in addition to the HCCA and 
+GDMI guidance. Thus, the NHC intensity forecast will also show rapid 
+intensification in the 24-60 h period, and now shows Polo becoming a 
+Category 4 hurricane in 72 h. Remarkably, this is still under the 
+latest HCCA and GDMI intensity in that time frame and its possible 
+future upward intensity adjustments will be needed. Thereafter, 
+inner-core fluctuations will likely govern the intensity of Polo in 
+the 3-5 day time frame, but Polo is still likely to be a major 
+hurricane through the end of the forecast period. 
+
+ 
+Key Messages:
+1. Heavy rainfall associated with Tropical Storm Polo will impact 
+coastal portions of southwest Mexico this week. This rainfall may 
+produce life-threatening flooding and mudslides, especially in areas 
+of steep terrain.
+ 
+2. Tropical Storm Polo is forecast to strengthen and move closer to 
+the southwestern Mexican coast as a major hurricane later this week. 
+Although it is too soon to determine the exact location or magnitude 
+of impacts associated with the system, interests in Mexico should 
+closely monitor its progress and updates to the forecast.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  21/0300Z 15.1N 104.6W   35 KT  40 MPH
+ 12H  21/1200Z 15.4N 103.8W   45 KT  50 MPH
+ 24H  22/0000Z 15.4N 103.1W   60 KT  70 MPH
+ 36H  22/1200Z 15.2N 102.4W   80 KT  90 MPH
+ 48H  23/0000Z 15.5N 102.4W   95 KT 110 MPH
+ 60H  23/1200Z 16.0N 103.0W  110 KT 125 MPH
+ 72H  24/0000Z 16.7N 103.7W  115 KT 130 MPH
+ 96H  25/0000Z 18.2N 106.0W  115 KT 130 MPH
+120H  26/0000Z 19.5N 109.5W  115 KT 130 MPH
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

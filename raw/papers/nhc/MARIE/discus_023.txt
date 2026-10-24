@@ -1,0 +1,59 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Marie Discussion Number  23
+NWS National Hurricane Center Miami FL       EP132026
+200 PM PDT Sun Sep 06 2026
+ 
+Satellite imagery shows that Marie continues to gradually lose 
+convective organization. The latest subjective Dvorak estimate from 
+TAFB is 65 kt, and objective intensity estimates have fallen to the 
+55-62 range. A 1734 UTC partial ASCAT-B overpass shows some 50-kt 
+vectors in the eastern semicircle.  The initial intensity is lowered 
+to a possibly generous 65 kt for this advisory.
+
+Marie is still moving northwestward, with an initial motion 
+estimate of 315/6 kt.  A bend more to the west-northwest is expected 
+tonight as the mid- to upper-level trough north of Marie currently 
+causing the northwestward motion moves eastward on Monday and 
+loosens its grip on Marie.  Then, another mid- to upper-level low 
+will strengthen over the Pacific to the northwest of Marie, causing 
+a turn back toward the northwest, or possibly north-northwest on 
+Tuesday.  The NHC track forecast is very similar to the previous one 
+and closely follows the HFIP Corrected Consensus (HCCA) and Google 
+DeepMind Ensemble Mean (GDMI).  Based on the spread in the guidance, 
+confidence in the track forecast is near average.
+ 
+Marie is traveling over 25 C sea-surface temperatures and through a 
+dry airmass.  The cyclone will continue moving over progressively 
+cooler water and into a progressively drier airmass over the next 
+couple of days.  Therefore, continued steady weakening is forecast.  
+Although vertical wind shear is weak right now, southwesterly shear 
+is forecast to increase in 36-48 h as Marie approaches the 
+aforementioned mid- to upper-level low to its northwest.  Little to 
+no change has been made to the previous NHC intensity forecast.  
+This forecast lies near the higher end of the guidance suite.  Marie 
+is now forecast to lose it's convection and become a post-tropical 
+remnant low by day 3 (Wednesday).  After the system becomes 
+post-tropical, global models show it weakening and dissipating in 4 
+to 5 days.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  06/2100Z 24.0N 122.9W   65 KT  75 MPH
+ 12H  07/0600Z 24.4N 123.7W   55 KT  65 MPH
+ 24H  07/1800Z 25.0N 124.9W   45 KT  50 MPH
+ 36H  08/0600Z 25.6N 126.3W   40 KT  45 MPH
+ 48H  08/1800Z 26.7N 127.4W   35 KT  40 MPH
+ 60H  09/0600Z 28.6N 128.4W   35 KT  40 MPH
+ 72H  09/1800Z 30.7N 129.4W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 96H  10/1800Z 34.6N 132.5W   20 KT  25 MPH...POST-TROP/REMNT LOW
+120H  11/1800Z...DISSIPATED
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

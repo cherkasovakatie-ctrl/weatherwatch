@@ -1,0 +1,54 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Marie Discussion Number  21
+NWS National Hurricane Center Miami FL       EP132026
+200 AM PDT Sun Sep 06 2026
+
+Convection associated with Marie, while showing well organized 
+banding,  has diminished some in intensity since the last advisory. 
+However, this has not yet translated into a notable weakening in the 
+various satellite intensity estimates. Thus, the initial intensity 
+remains a possibly generous 80 kt.
+
+The initial motion is 315/7 kt. Marie is currently being steered by 
+a mid- to upper-level ridge to the northeast and heading for a 
+break in the ridge caused by a large trough over the U. S. West 
+Coast. This trough is forecast to move northeastward during the 
+next 24 h, allowing some ridging to develop north of Marie and turn 
+the cyclone west-northwestward. By 48 h, a new trough developing to 
+the northwest of Marie should turn the cyclone back to a northwest 
+motion, with the low-level center continuing this general motion 
+until the system dissipates.  The new forecast track is in good 
+agreement with the HCCA Corrected Consensus, the Google DeepMind 
+ensemble mean, and the Florida State Superensemble.
+
+Marie is starting to move into sea surface temperatures below 26C, 
+and the the temperatures get progressively colder along the 
+forecast track. This, combined with some dry air entrainment, 
+should start a steady weakening later today.  After 48 h, 
+increasing shear should cause the cyclone to become decoupled 
+vertically, which should lead to the convection dissipating and the 
+cyclone becoming post-tropical between 72-96 h. The global models 
+forecast the low-level circulation to dissipate completely by 120 h, 
+and the intensity forecast follows this.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  06/0900Z 23.1N 121.9W   80 KT  90 MPH
+ 12H  06/1800Z 23.8N 122.7W   70 KT  80 MPH
+ 24H  07/0600Z 24.5N 123.7W   60 KT  70 MPH
+ 36H  07/1800Z 25.1N 125.0W   50 KT  60 MPH
+ 48H  08/0600Z 25.8N 126.4W   45 KT  50 MPH
+ 60H  08/1800Z 27.0N 127.4W   40 KT  45 MPH
+ 72H  09/0600Z 28.7N 128.2W   35 KT  40 MPH
+ 96H  10/0600Z 32.7N 130.3W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  11/0600Z...DISSIPATED
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

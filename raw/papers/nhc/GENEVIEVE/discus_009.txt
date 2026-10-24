@@ -1,0 +1,59 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Genevieve Discussion Number   9
+NWS National Hurricane Center Miami FL       EP072026
+800 AM MST Sun Jul 26 2026
+ 
+The satellite presentation of Genevieve continues to rapidly improve 
+this morning. The ragged eye temperature has warmed to above 0 C and 
+become more symmetric over the past hour, and cloud tops colder than 
+-70 C almost completely surround it. The 12z TAFB subjective Dvorak 
+intensity estimate was T5.0/90 kt, however, objective intensity 
+estimates have increased and now range from 93-112 kt. Based on 
+these data and the improving satellite presentation, the initial 
+intensity has been set at 105 kt for this advisory, making Genevieve 
+a major hurricane.  
+
+The major hurricane is moving quickly toward the west-northwest 
+around 14 kt, along the periphery of a strong mid-level ridge 
+centered over the southwestern United States. A fast northwestward 
+to west-northwestward motion will continue today before Genevieve 
+slows down early this week as the ridge moves eastward and mid-level 
+troughing develops over southern Mexico. The latest NHC official 
+forecast has been nudged slightly to the right over the first 24 h, 
+and lies within the tightly clustered ensemble model track data.
+ 
+Genevieve is rapidly intensifying, and has strengthened by 55 kt 
+over the past 24 h. Very warm sea surface temperatures, low wind 
+shear and strong upper-level divergence will continue to support 
+additional rapid strengthening over the next 24-36 h. SHIPS Rapid 
+Intensification (RI) guidance and DTOPS show a high chances of at 
+least 20 kt of additional strengthening over the next 24 h. The 
+latest NHC official intensity lies near the top of the model 
+guidance and is close to the output of HCCA, but given the favorable 
+environment, it is possible that this peak intensity forecast is 
+conservative. By midweek, Genevieve will begin to encounter cooler 
+sea surface temperatures, slightly drier mid-level conditions and a 
+more stable environment, supporting steady weakening. However, 
+Genevieve is forecast to remain a hurricane through day 5.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  26/1500Z 13.4N 109.4W  105 KT 120 MPH
+ 12H  27/0000Z 14.4N 110.8W  120 KT 140 MPH
+ 24H  27/1200Z 15.5N 112.5W  130 KT 150 MPH
+ 36H  28/0000Z 16.6N 114.1W  130 KT 150 MPH
+ 48H  28/1200Z 17.5N 115.5W  120 KT 140 MPH
+ 60H  29/0000Z 18.2N 117.0W  110 KT 125 MPH
+ 72H  29/1200Z 18.7N 118.5W  105 KT 120 MPH
+ 96H  30/1200Z 20.2N 122.4W   85 KT 100 MPH
+120H  31/1200Z 21.8N 127.3W   65 KT  75 MPH
+ 
+$$
+Forecaster Adams/Papin
+ 
+NNNN
+

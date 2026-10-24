@@ -1,0 +1,84 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Polo Discussion Number   7
+NWS National Hurricane Center Miami FL       EP172026
+300 AM CST Tue Sep 22 2026
+ 
+Polo continues to intensify at a very rapid rate, and it is closing 
+in on category 5 strength. Satellite images indicate that Polo has a 
+compact, well-defined eye surrounded by an intense eyewall. The 
+estimated initial intensity is 130 kt, which is based on a blend of 
+the latest subjective and objective satellite estimates. The NOAA 
+Hurricane Hunters are scheduled to investigate Polo later today, and 
+the data they collect will provide a better estimate of the 
+cyclone's intensity. The intensification rate over the past 24 hours 
+is truly remarkable, with Polo strengthening by about 90 kt over 
+that time period. Despite its strength, Polo remains a relatively 
+compact cyclone with its hurricane and tropical-storm-force winds 
+estimated to only extend about 30 and 80 n mi from the eye, 
+respectively.
+ 
+The major hurricane continues to drift to the east-southeast, and it 
+could become nearly stationary later today in weak steering 
+currents. A sharp turn to the northwest is expected tonight as 
+deep-layer ridging becomes established over Mexico and the 
+south-central U.S. This pattern should bring the intense core of 
+Polo near, but likely just offshore, of the coast of southwestern 
+Mexico during the next couple of days. There is still a considerable 
+amount of uncertainty in how close the hurricane will get to the 
+coast, and some wind, rain, and surf impacts appear likely when Polo 
+makes its closest approach. Polo should begin to pull away from 
+southwestern Mexico Thursday night and Friday as the ridge keeps the 
+system on a west-northwestward to northwestward path. The steering 
+currents become more complicated over the weekend when Polo reaches 
+the western edge of the ridge and nears Tropical Storm Odalys to its 
+west. This pattern change should cause Polo to slow down and gain a 
+little more latitude. The NHC track forecast has been nudged 
+southward, but still lies on the northern side of the guidance 
+envelope.
+ 
+Polo remains in ideal environmental conditions and continued rapid 
+intensification appears likely, and the cyclone is forecast to reach 
+category 5 strength later today. It should be noted that in mature 
+and powerful hurricanes like Polo, internal dynamics often cause 
+intensity fluctuations and that could occur with this cyclone over 
+the next couple of days. Beyond that time, a slight increase in 
+easterly vertical wind shear should cause slow weakening, but Polo 
+is expected to remain a major hurricane throughout the forecast 
+period. The NHC intensity forecast lies at the high end of the model 
+guidance in the short term, but falls to near the middle of the 
+guidance envelope from 48 to 120 hours.
+ 
+Key Messages:
+ 
+1. Heavy rainfall associated with Polo will impact coastal portions
+of southwest Mexico through Thursday. This rainfall may produce
+life-threatening flooding and mudslides, especially in areas of
+steep terrain.
+ 
+2. Although the core of the hurricane is forecast to remain offshore 
+of southwestern Mexico, it is too soon to determine the exact 
+location and magnitude of impacts. A Tropical Storm Watch is in 
+effect for portions of southwestern Mexico, and interests in these 
+areas should closely monitor updates to the forecast.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  22/0900Z 14.6N 101.8W  130 KT 150 MPH
+ 12H  22/1800Z 14.6N 101.6W  150 KT 175 MPH
+ 24H  23/0600Z 15.0N 101.8W  145 KT 165 MPH
+ 36H  23/1800Z 15.7N 102.5W  140 KT 160 MPH
+ 48H  24/0600Z 16.4N 103.7W  135 KT 155 MPH
+ 60H  24/1800Z 17.0N 105.2W  130 KT 150 MPH
+ 72H  25/0600Z 17.4N 106.8W  125 KT 145 MPH
+ 96H  26/0600Z 18.2N 109.7W  115 KT 130 MPH
+120H  27/0600Z 20.1N 112.1W  105 KT 120 MPH
+ 
+$$
+Forecaster Cangialosi
+ 
+NNNN
+

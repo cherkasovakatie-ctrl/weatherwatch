@@ -1,0 +1,62 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Nolo Discussion Number  50
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+500 PM HST Fri Oct 02 2026
+ 
+Satellite imagery indicates that the convective organization has
+continued to improve over the past several hours, with deep
+convection expanding around a warming eye. The subjective Dvorak
+intensity estimates from JTWC and HFO reflect this, ranging from
+T4.0/65 kt to T4.5/77 kt, with a D-PRINT objective estimate near
+80 kt. Given these intensity estimates and the improved satellite
+presentation, the initial intensity is raised to 75 kt.
+
+The initial motion is westward, or 270/6 kt. Guidance remains in
+good agreement through the forecast period and shows this general
+motion persisting into the weekend, followed by an increase in
+forward speed beginning around 24 h as the ridge builds to the
+north. Nolo is forecast to cross the International Date Line into
+the western Pacific basin by 48 h. Model spread is remarkably
+narrow, which increases forecast confidence in Nolo's track, and the
+new NHC forecast is very similar to the previous prediction.
+
+The persistent westerly to southwesterly vertical wind shear that 
+has been impacting Nolo's convective structure and ability to 
+organize over the past several days has weakened significantly 
+during the past 24 h. The latest estimate from UW-CIMSS is now below 
+5 kt. Weak shear combined with warmer SSTs along the forecast track 
+should support a period of significant strengthening, especially 
+during the next 24-48 h. The statistical guidance reflects this and 
+depicts an increased potential for rapid intensification during the 
+next 24 h. The one limiting factor that could temper the rate of 
+intensification is the surrounding dry mid-level air. Any dry air 
+intrusions during this period could disrupt the convective 
+organization in the eyewall and slow the intensification rate. The 
+NHC intensity forecast is similar to the previous prediction and 
+shows significant strengthening during the initial 24 h, and remains 
+above the guidance envelope, lying close to the HCCA and HAFS-A and 
+-B. A weakening trend is anticipated beginning around 72 h due to a 
+combination of increasing vertical wind shear and dry mid-level air.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  03/0300Z 23.4N 168.5W   75 KT  85 MPH
+ 12H  03/1200Z 23.4N 170.4W   90 KT 105 MPH
+ 24H  04/0000Z 23.5N 173.7W  100 KT 115 MPH
+ 36H  04/1200Z 23.9N 177.3W  110 KT 125 MPH
+ 48H  05/0000Z 24.6N 179.5E  115 KT 130 MPH
+ 60H  05/1200Z 25.2N 176.5E  115 KT 130 MPH
+ 72H  06/0000Z 25.5N 173.1E  110 KT 125 MPH
+ 96H  07/0000Z 25.9N 164.4E   90 KT 105 MPH
+120H  08/0000Z 27.4N 156.6E   70 KT  80 MPH
+ 
+$$
+Forecaster Gibbs 
+ 
+NNNN
+

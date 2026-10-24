@@ -1,0 +1,52 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Karina Discussion Number  31
+NWS National Hurricane Center Miami FL       EP112026
+500 PM HST Thu Sep 03 2026
+ 
+Karina continues to chug along as a strong hurricane, with a
+well-established eye, despite dry air intrusion beginning to wrap
+into the system. The latest subjective Dvorak analysis from TAFB
+remains unchanged at a T5.0/90 kt, which compliments the objective
+estimates from UW-CIMSS ranging from 87-90 kt. Given the above, the
+initial intensity estimate remains unaltered at 90 kt.
+ 
+The hurricane's initial motion has shifted northerly, now heading 
+west-northwestward at 285/9 kt. Ridging to the north of the system 
+has become eroded by an upper-level trough, which is expected to 
+cause a turn to the northwest later this evening. The latest NHC 
+forecast closely follows the Google DeepMind Ensemble Mean, and is 
+quite similar to the previous forecast. In about 3 days, Karina's 
+proximity to Hurricane Lowell may also help induce a turn back 
+toward the west-northwest. Despite this more westward turn, Karina 
+is not expected to be a threat to the Hawaiian Islands.
+
+The latest SHIPS guidance depicts Karina will begin moving into an
+unfavorable environment over the next 12-24 h, showing an increase
+in vertical wind shear, cooling SSTs, and a steady desiccation.
+These factors will cause Karina to weaken over the weekend, with the
+forecast calling for the system to become post-tropical by Monday
+and dissipating shortly thereafter. The official NHC intensity
+forecast was largely unchanged from the previous advisory, aligning
+closely with the consensus aids.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  04/0300Z 20.1N 138.4W   90 KT 105 MPH
+ 12H  04/1200Z 20.4N 139.7W   80 KT  90 MPH
+ 24H  05/0000Z 20.9N 141.4W   70 KT  80 MPH
+ 36H  05/1200Z 21.5N 142.7W   65 KT  75 MPH
+ 48H  06/0000Z 22.2N 143.7W   60 KT  70 MPH
+ 60H  06/1200Z 22.9N 144.7W   55 KT  65 MPH
+ 72H  07/0000Z 23.6N 146.1W   45 KT  50 MPH
+ 96H  08/0000Z 24.9N 150.1W   35 KT  40 MPH...POST-TROPICAL
+120H  09/0000Z...DISSIPATED
+ 
+$$
+Forecaster Pierce/Hagen
+ 
+NNNN
+

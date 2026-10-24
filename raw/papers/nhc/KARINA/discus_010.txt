@@ -1,0 +1,67 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Karina Discussion Number  10
+NWS National Hurricane Center Miami FL       EP112026
+800 PM PDT Sat Aug 29 2026
+ 
+The infrared satellite presentation of Karina has continued to 
+improve tonight, with the center of circulation now located beneath 
+a well-defined CDO with cloud top temperatures below -80 C. A recent 
+GPM GMI microwave pass revealed a compact, but somewhat asymmetric 
+center, with a slight lack of definition extending south and 
+southwest of the center. Moderate southerly to southeasterly wind 
+shear is also evident in the microwave imagery, with the mid-level 
+center displaced slightly to the west and northwest of the low-level 
+center. The latest intensity estimate from TAFB was 4.0/65 kt, while 
+objective intensity estimates range from 52 to 66 kt. Based on the 
+tilt in the vertical structure of the cyclone and the relatively 
+wide range of intensity estimates, the initial intensity is 
+maintained at 60 kt for this advisory.
+ 
+Karina is moving a little faster toward the west-northwest and is 
+currently positioned between a ridge of high pressure over the 
+southwestern United States and another area of high pressure to the 
+northwest. A turn toward the west is expected Sunday into Monday as 
+a strong upper-level low approaches the western U.S., weakening the 
+aforementioned ridge over the Southwest. Karina will then be steered 
+primarily by the ridge to the northwest. There is considerable 
+spread in the track forecast guidance beyond 60 h, largely due to 
+differences in the strength of the ridge that will guide the storm. 
+The latest NHC track forecast is very similar to the previous 
+advisory through 48 h, but has been shifted to the left for the 
+remainder of the forecast period. The updated forecast remains near 
+the middle of the track guidance and close to the simple consensus. 
+ 
+The strong tropical storm is moving over very warm waters of around 
+29 C in a relatively moist mid-level environment and favorable 
+upper-level winds. Karina is forecast to steadily strengthen, 
+although it should be noted that the ECMWF- and GFS-based SHIPS 
+statistical guidance indicates a possibility of rapid 
+intensification over the next 24 to 48 h. The latest forecast calls 
+for Karina to become a hurricane later tonight and reach major 
+hurricane strength early next week. This intensity forecast is near 
+the higher end of the guidance envelope, but remains slightly below 
+HCCA. After 72 h, Karina is expected to encounter increasingly dry 
+air and cooler sea surface temperatures, which should promote 
+gradual weakening through late next week. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  30/0300Z 17.0N 120.2W   60 KT  70 MPH
+ 12H  30/1200Z 17.3N 121.6W   70 KT  80 MPH
+ 24H  31/0000Z 17.6N 123.3W   80 KT  90 MPH
+ 36H  31/1200Z 17.8N 125.0W   95 KT 110 MPH
+ 48H  01/0000Z 18.0N 126.5W  100 KT 115 MPH
+ 60H  01/1200Z 18.7N 128.3W  100 KT 115 MPH
+ 72H  02/0000Z 19.3N 130.0W   90 KT 105 MPH
+ 96H  03/0000Z 20.7N 132.6W   80 KT  90 MPH
+120H  04/0000Z 22.6N 134.8W   65 KT  75 MPH
+ 
+$$
+Forecaster Adams
+ 
+NNNN
+

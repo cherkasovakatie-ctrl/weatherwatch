@@ -1,0 +1,89 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Simon Discussion Number   6
+NWS National Hurricane Center Miami FL       EP202026
+300 PM CST Thu Oct 08 2026
+ 
+Simon is almost a hurricane. The storm continues to have a very 
+compact inner core with some signs of an eye becoming apparent in 
+satellite images. There are also numerous spiral bands beyond the 
+inner core region, with the outermost band in the far northeast 
+quadrant still affecting portions of southwestern Mexico. The latest 
+satellite intensity estimates have increased a little from earlier 
+and now range from about 50 to 65 kt. Based on that data, the 
+initial intensity is nudged up to 60 kt. A 17Z ASCAT-C pass was used 
+to adjust the initial wind radii.
+ 
+The tropical storm is moving slowly westward at about 5 kt, steered 
+by a weak mid-level ridge to its north. A turn to the northwest is 
+expected tonight or early Friday, followed by a northward motion 
+later that day when the ridge weakens and shifts eastward, in 
+response to an approaching mid- to upper-level trough. Although the 
+models generally agree on the large-scale steering pattern 
+evolution, there are very important differences in where and when 
+the system makes that turn. There has been a notable shift to the 
+east this cycle, and given the westward bias often seen in the 
+models for this region, the NHC track forecast has been again nudged 
+eastward. It should be noted that the best-performing models of the 
+year so far are east of the official forecast, and additional 
+adjustments might be needed if this trend continues. This forecast 
+brings the core of the system inland over southwestern and 
+west-central Mexico Saturday afternoon or Saturday night.
+ 
+Simon is in near ideal environmental conditions of low wind shear,
+high moisture, and over very warm waters. The SHIPS model shows more
+than a 70 percent chance that the system will rapidly intensify over
+the next 24 hours. In fact, the storm's compact inner core structure
+makes it even more likely that it will capitalize on the favorable
+conditions. Therefore, the NHC intensity forecast continues to call
+for rapid strengthening into a very dangerous category 4 hurricane
+before Simon reaches the coast of west-central Mexico. This forecast
+lies near the high end of the guidance, in best agreement with the
+HCCA model.
+ 
+Based on the new forecast, the government of Mexico has issued a 
+Hurricane Warning for a portion of the coast of southwestern and 
+west-central Mexico.
+ 
+Key Messages:
+ 
+1. Simon is expected to strengthen to a hurricane by tonight and 
+approach the west-central coast of Mexico as a major hurricane on 
+Saturday.
+
+2. Life-threatening wind and storm surge impacts are expected along 
+a portion of the west-central coast of Mexico, and a Hurricane 
+Warning is now in effect from Punta San Telmo to Playa Perula. 
+Preparations to protect life and property should be completed by 
+late Friday.
+
+3. Heavy rainfall associated with Simon will impact portions of 
+southwestern Mexico through this weekend. This rainfall may produce 
+life-threatening flooding and mudslides, especially in areas of 
+steep terrain.
+
+4. Swells will affect portions of the southwestern and west-central 
+coast of Mexico through the weekend. These swells are likely to 
+cause life-threatening surf and rip current conditions. Please 
+consult products from your local weather office.
+
+
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  08/2100Z 15.7N 103.9W   60 KT  70 MPH
+ 12H  09/0600Z 16.1N 104.4W   75 KT  85 MPH
+ 24H  09/1800Z 16.8N 104.9W   95 KT 110 MPH
+ 36H  10/0600Z 17.7N 105.0W  115 KT 130 MPH
+ 48H  10/1800Z 18.8N 104.9W  115 KT 130 MPH
+ 60H  11/0600Z 19.9N 104.9W   65 KT  75 MPH...INLAND
+ 72H  11/1800Z 21.1N 104.8W   35 KT  40 MPH...INLAND
+ 96H  12/1800Z 23.2N 105.0W   25 KT  30 MPH...POST-TROP/INLAND
+120H  13/1800Z...DISSIPATED
+ 
+$$
+Forecaster Cangialosi
+ 
+NNNN
+

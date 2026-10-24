@@ -1,0 +1,90 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Nolo Discussion Number  25
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+1100 AM HST Sat Sep 26 2026
+ 
+Nolo still appears to be struggling with intrusions of dry mid-level 
+air. After the Air Force Hurricane Hunters reported the eyewall was 
+closed earlier this morning, recent vortex messages and radar images 
+from South Point (PHWA) show the eyewall is once again open to the 
+north. In addition, the minimum central pressure has risen slightly 
+to 977 mb, and the peak 700-mb flight-level wind measured by the 
+aircraft was 83 kt in the northwest quadrant. Based on these 
+developments, the initial intensity is adjusted to 80 kt.
+ 
+Recent aircraft and radar fixes indicate the hurricane is now slowly 
+moving just south of due west (260/4 kt). A faster westward motion 
+away from the Big Island of Hawaii is expected during the next day 
+or so as a mid-level ridge builds to the north of Hawaii. An 
+upper-level trough currently to the northwest of the Hawaiian 
+Islands is expected to amplify early next week, which should cause 
+Nolo to turn toward the northwest and north-northwest on Monday and 
+Tuesday. The models agree that Nolo will be clear of the main 
+Hawaiian Islands by the time it makes this turn. On day 5, Nolo is 
+forecast to resume a westward motion along the southern extent of a 
+building ridge over the central Pacific. This track forecast is 
+similar to but slightly faster than the previous prediction, 
+generally falling between the latest TVCN and HCCA consensus aids.
+
+Nolo is moving westward toward a pocket of higher ocean heat content 
+southwest of the Hawaiian Islands, and the vertical wind shear is 
+forecast to weaken during the next 24-36 h. If the hurricane can 
+solidify a more resilient inner core, several skillful models 
+(including Google DeepMind, HAFS-A/B, and HCCA) suggest that Nolo 
+could intensify into a major hurricane on Sunday or Monday. An 
+alternate scenario is that continued dry air intrusions cause Nolo 
+to miss its window before increasingly southwesterly shear beyond 48 
+h induces a weakening trend. For now, the NHC intensity forecast 
+continues to favor the stronger GDMI and HCCA solutions, which both 
+have performed well for this event so far. Then, steady weakening 
+is anticipated during the 60-120 h forecast period, generally 
+following a blend of the HCCA and IVCN aids. 
+
+Now that Nolo is moving away from the Big Island of Hawaii, the 
+Hurricane Watch has been discontinued, but the Tropical Storm 
+Warning remains in effect for Hawaii County. 
+ 
+ 
+Key Messages:
+ 
+1. Nolo has begun to move westward away from the Big Island of 
+Hawaii, where tropical storm conditions are occurring and will 
+continue into tonight, especially in areas of steep terrain.
+ 
+2. Periods of heavy rain are expected to expand across the Big 
+Island and eastern Maui through the weekend. Significant, 
+life-threatening flooding and mudslides are possible, especially in 
+areas of steep terrain across the eastern and southern portions of 
+the Big Island and Maui. Across the remainder of Hawaii, lesser 
+rainfall totals are expected.  
+ 
+3. Large and damaging waves are likely along portions of the Big
+Island's coastline through the weekend.
+ 
+4. A Tropical Storm Watch is in effect for Maui County, where 
+tropical-storm-force gusts are occurring in areas of steep terrain. 
+Strong and gusty winds are expected for all of the Hawaiian Islands 
+through the weekend.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  26/2100Z 16.7N 156.0W   80 KT  90 MPH
+ 12H  27/0600Z 16.7N 157.0W   90 KT 105 MPH
+ 24H  27/1800Z 16.8N 158.8W  105 KT 120 MPH
+ 36H  28/0600Z 17.2N 160.9W  115 KT 130 MPH
+ 48H  28/1800Z 18.4N 162.5W  110 KT 125 MPH
+ 60H  29/0600Z 20.2N 163.8W   95 KT 110 MPH
+ 72H  29/1800Z 21.9N 164.5W   80 KT  90 MPH
+ 96H  30/1800Z 23.2N 166.1W   65 KT  75 MPH
+120H  01/1800Z 23.0N 168.8W   65 KT  75 MPH
+ 
+$$
+Forecaster Reinhart
+ 
+NNNN
+

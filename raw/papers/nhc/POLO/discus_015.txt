@@ -1,0 +1,74 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Polo Discussion Number  15
+NWS National Hurricane Center Miami FL       EP172026
+300 AM CST Thu Sep 24 2026
+ 
+Polo remains a powerful category 5 hurricane. Satellite images 
+indicate that the cyclone is maintaining a clear, distinct, and 
+circular eye surrounded by an intense and symmetric ring of deep 
+convection. The initial intensity is held at 140 kt, near the upper 
+end of the latest satellite intensity estimates. Although the core 
+of the hurricane is about 50 to 100 n mi off the coast of 
+southwestern Mexico, outer rainbands are spreading onshore and 
+producing heavy rains. ASCAT data was helpful in adjusting the 
+initial wind radii, confirming that tropical-storm-force winds are 
+likely occurring along the coast of southwestern Mexico.
+ 
+After jogging to the north last night, Polo appears to be on a more 
+steady northwestward track now, with the initial motion estimated to 
+be 310/8 kt. A building mid-level ridge over northern Mexico and the 
+south-central U.S. should cause Polo to accelerate to the 
+west-northwest over the next couple of days, taking the system 
+away from southwestern Mexico during that time. Polo will likely 
+reach the western periphery of the ridge over the weekend, and that 
+should cause the hurricane to turn northward toward the Baja 
+California Peninsula late this weekend and early next week. The 
+NHC track forecast is similar to the previous one, and based on a 
+blend of the HCCA, GDMI, and TVCN aids.
+ 
+Fluctuations in strength seem likely over the next day or so while
+Polo remains in favorable environmental conditions, and any changes
+in strength during that time will likely be linked to internal
+dynamics. However, gradual weakening is expected this weekend and
+early next week due to an increase in vertical wind shear.
+Regardless, Polo is forecast to be a major hurricane during the next
+several days. This intensity forecast is similar to the previous 
+one, and in best agreement with the HCCA guidance.
+ 
+Key Messages:
+ 
+1. Heavy rainfall associated with Polo will impact coastal portions
+of southwest Mexico today. This rainfall may produce
+life-threatening flooding and mudslides, especially in areas of
+steep terrain.
+ 
+2. Tropical storm conditions are expected across portions
+of the coast within the warning area from Tecpan de Galeana to
+Manzanillo today.
+ 
+3. Polo is forecast to approach the Baja California Peninsula early
+next week as a hurricane. Interests there should closely monitor
+the latest updates and ensure that they have their preparedness
+plan in place.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  24/0900Z 16.5N 103.5W  140 KT 160 MPH
+ 12H  24/1800Z 16.9N 104.9W  145 KT 165 MPH
+ 24H  25/0600Z 17.2N 106.8W  145 KT 165 MPH
+ 36H  25/1800Z 17.3N 108.7W  140 KT 160 MPH
+ 48H  26/0600Z 17.7N 110.5W  135 KT 155 MPH
+ 60H  26/1800Z 18.7N 111.9W  130 KT 150 MPH
+ 72H  27/0600Z 20.1N 112.9W  115 KT 130 MPH
+ 96H  28/0600Z 23.5N 113.5W  100 KT 115 MPH
+120H  29/0600Z 26.1N 112.6W   80 KT  90 MPH
+ 
+$$
+Forecaster Cangialosi
+ 
+NNNN
+

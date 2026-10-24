@@ -1,0 +1,65 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Depression Fifteen-E Discussion Number   6
+NWS National Hurricane Center Miami FL       EP152026
+800 PM PDT Mon Sep 14 2026
+
+Visible satellite imagery continues to show the exposed center of 
+Tropical Depression Fifteen-E well to the west of the convective 
+area, due to westerly vertical wind shear of 10 to 15 kt affecting 
+the system.  In fact, the center has ran out farther ahead to the 
+west of the convection compared to earlier today, now about 40-45 n 
+mi from the nearest deep convection.  The latest subjective and 
+objective satellite intensity estimates range from 29-35 kt.  An 
+earlier ASCAT-B overpass at 14/1630 UTC showed peak vectors of 27 kt 
+located 60 to 80 n mi from the center in the eastern semicircle.  
+The initial intensity is held at 30 kt since the tropical cyclone 
+has not become any better organized since the time of the ASCAT 
+pass.
+
+Satellite fixes over the past 12 to 18 hours have been a bit 
+erratic, but generally indicate a motion slightly south of due west, 
+or 260 degrees at 9 knots.  Ridging to the northwest of the 
+depression should keep it on a similar heading for the next couple 
+of days.  By late Wednesday, global models show the orientation of 
+the ridge changing slightly, which should cause the depression to 
+turn to a direction between west and west-northwest with a slight 
+increase in forward speed for the remainder of the forecast period. 
+The latest NHC track forecast is a bit south of the previous one, 
+and lies between the farther north TVCN and the farther south HCCA 
+and GDMI.  It should be noted that the cross track spread is quite 
+large from hour 24 onward, and confidence in the track forecast is 
+below average.
+
+The environment is generally unfavorable for significant 
+strengthening due to the moderate northwesterly vertical wind shear 
+advecting some dry air into the center of the depression.  Even 
+though this shear should decrease some over the next 24 h, the 
+intensity models are in good agreement that this system is unlikely 
+to strengthen beyond a low-end tropical storm.  Given how far any 
+convection is from the center currently, and that the system should 
+start weakening in a couple of days as it reaches a drier 
+environment, significant intensification appears unlikely.  The 
+depression could potentially become post-tropical or dissipate 
+sooner than this forecast indicates.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  15/0300Z 16.5N 121.6W   30 KT  35 MPH
+ 12H  15/1200Z 16.3N 122.9W   30 KT  35 MPH
+ 24H  16/0000Z 16.2N 124.7W   35 KT  40 MPH
+ 36H  16/1200Z 16.1N 126.6W   35 KT  40 MPH
+ 48H  17/0000Z 16.1N 128.8W   35 KT  40 MPH
+ 60H  17/1200Z 16.3N 131.1W   30 KT  35 MPH
+ 72H  18/0000Z 16.6N 133.6W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 96H  19/0000Z 17.2N 138.1W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  20/0000Z...DISSIPATED
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

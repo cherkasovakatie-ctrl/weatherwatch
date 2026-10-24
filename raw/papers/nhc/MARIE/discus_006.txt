@@ -1,0 +1,60 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Marie Discussion Number   6
+NWS National Hurricane Center Miami FL       EP132026
+800 AM MST Wed Sep 02 2026
+ 
+Conventional satellite animation and microwave images indicate that 
+Marie's cloud pattern has improved during the past several hours.  
+An impressive primary spiral band with cold cloud tops of -83C 
+resides on the eastern half of the cyclone, and inner core deep 
+convection continues to become better organized.  A compromise of 
+TAFB's Dvorak satellite intensity estimate and the CIMSS objective 
+estimates yields an initial intensity of 60 kt for this advisory.
+ 
+Favorable environmental conditions along with warm sea surface 
+temperatures should allow for further strengthening during the 
+couple of days.  By the weekend, the Decay-SHIPS 
+statistical/dynamical intensity guidance and the global models 
+indicate that Marie will encounter a drier, stable marine layer air 
+mass while moving over progressively cooler oceanic temperatures.  
+The NHC intensity forecast is close to the HFIP HCCA consensus and 
+just above the IVCN consensus aid.
+
+Marie's initial motion is estimated to be northwest, or 305/8 kt, 
+and this general motion should continue through today.  Afterward, 
+subtropical high pressure over northern Mexico/Baja California 
+peninsula is expected to build westward over the extreme eastern 
+Pacific, steering the cyclone generally west-northwestward.  Over 
+the weekend, the above-mentioned ridge should weaken some, and model 
+guidance cross-track uncertainty remains due to two possible 
+synoptic pattern solutions.  A few of the regional models 
+(HWRF/HMON/TC-COAMPS) and the UKMET indicate an amplifying mid- to 
+upper-level trough capturing Marie and steering the cyclone toward 
+the northwest to north.  The majority of the guidance, on the other 
+hand, show a cut-off upper low developing well to the north over the 
+eastern Pacific but allowing enough ridging to maintain north of the 
+cyclone.  The official track forecast favors the latter solution and 
+lies between the HCCA consensus and the Google DeepMind FNv3 
+ensemble mean.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  02/1500Z 17.1N 111.7W   60 KT  70 MPH
+ 12H  03/0000Z 17.8N 112.8W   70 KT  80 MPH
+ 24H  03/1200Z 18.7N 114.2W   80 KT  90 MPH
+ 36H  04/0000Z 19.4N 115.8W   85 KT 100 MPH
+ 48H  04/1200Z 20.1N 117.3W   90 KT 105 MPH
+ 60H  05/0000Z 20.7N 118.6W   90 KT 105 MPH
+ 72H  05/1200Z 21.3N 119.8W   85 KT 100 MPH
+ 96H  06/1200Z 22.5N 122.2W   75 KT  85 MPH
+120H  07/1200Z 23.2N 125.4W   65 KT  75 MPH
+ 
+$$
+Forecaster Roberts
+ 
+NNNN
+

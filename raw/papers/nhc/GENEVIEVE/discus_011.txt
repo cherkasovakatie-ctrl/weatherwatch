@@ -1,0 +1,59 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Genevieve Discussion Number  11
+NWS National Hurricane Center Miami FL       EP072026
+800 PM MST Sun Jul 26 2026
+ 
+Genevieve continues to intensify this afternoon and evening. 
+Satellite imagery reveals a pronounced, circular, warming eye with a 
+deep band of convection wrapping around the inner core. GLM 
+satellite data shows that lightning has been occurring in the 
+eastern and northern eyewalls for the last several hours. Latest 
+objective intensity estimates from UW-CIMSS range from 126–142 kt. 
+The TAFB subjective Dvorak satellite intensity estimate is T6.5/127 
+kt. Based on these values and latest satellite trends, the current 
+intensity is increased to 135 kt, and Genevieve is a powerful 
+Category 4 hurricane on the Saffir-Simpson Hurricane Wind Scale.
+ 
+Environmental conditions remain conducive for intensification, with 
+low vertical wind shear and warm sea surface temperatures along the 
+track. Based on these conditions and the various guidance some 
+additional strengthening is possible, and the peak intensity 
+forecast has been raised to 140 kt. Thereafter, hard-to-predict 
+eyewall replacement cycles could cause intensity fluctuations. Given 
+current trends and favorable conditions, the short-term intensity 
+forecast lies above the model guidance. In about 2-3 days, Genevieve 
+is forecast to cross cooler SSTs, encounter drier mid-level air, and 
+enter a more stable environment. Thus, gradual to steady weakening 
+is expected, and the NHC intensity forecast lies near consensus aids 
+in the extended period.
+ 
+Genevieve is moving west-northwestward at 300/12 kt. The storm is 
+moving along the periphery of a mid-level ridge centered over 
+northern Mexico. The hurricane is expected to continue moving 
+west-northwestward to northwestward as it rounds the southwestern 
+edge of the aforementioned ridge through the forecast period, with a 
+slight decrease in forward speed. The latest NHC track forecast is 
+very similar to the previous advisory and lies near the HCCA 
+corrected consensus and Google DeepMind ensemble mean.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  27/0300Z 14.7N 111.2W  135 KT 155 MPH
+ 12H  27/1200Z 15.7N 112.6W  140 KT 160 MPH
+ 24H  28/0000Z 16.9N 114.2W  130 KT 150 MPH
+ 36H  28/1200Z 17.6N 115.7W  120 KT 140 MPH
+ 48H  29/0000Z 18.1N 117.1W  110 KT 125 MPH
+ 60H  29/1200Z 18.8N 118.7W   95 KT 110 MPH
+ 72H  30/0000Z 19.6N 120.5W   85 KT 100 MPH
+ 96H  31/0000Z 21.2N 125.0W   70 KT  80 MPH
+120H  01/0000Z 22.7N 130.0W   50 KT  60 MPH
+ 
+$$
+Forecaster Kelly
+ 
+NNNN
+

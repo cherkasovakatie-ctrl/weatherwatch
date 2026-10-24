@@ -1,0 +1,66 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Depression Six-E Discussion Number   2
+NWS National Hurricane Center Miami FL       EP062026
+200 AM MST Sun Jul 19 2026
+ 
+The tropical depression appears to be slowly becoming better 
+organized this morning. However, after the prior advisory, an 
+ASCAT-B scatterometer pass showed that the circulation remains broad 
+and is still in the organizing stages. The latest subjective Dvorak 
+classification from TAFB was T2.5/35 kt, but the objective intensity 
+estimates are still in the 25-30 kt range. A blend of the subjective 
+and objective estimates supports maintaining the initial intensity 
+at 30 kt this advisory.
+ 
+The initial motion continues off to the west-northwest at 290/12 kt. 
+The depression remains situated to the south of a mid-level ridge 
+centered over Mexico, though a weakness exists to the northwest, 
+created by the departing tropical storm Elida. Over the next few 
+days, the mid-level ridge is expected to build westward, removing 
+this weakness. Thus, while TD6-E may gain a bit of latitude in the 
+24-48 h period, a general west-northwestward motion is expected for 
+most of the forecast. The tropical cyclone may even turn a bit 
+leftward by the end of the forecast period. The latest NHC track 
+forecast is just a little north of the prior track forecast, but 
+remains close to the reliable TVCN and GDMI track aids. 
+
+The aforementioned scatterometer data suggests it may take 12-24 h 
+for the depression's wind field to contract and take advantage of 
+the environmental conditions. Other than its short-term structure, 
+these factors all appear quite favorable for significant 
+intensification (low shear, ample moisture, very warm sea-surface 
+temperatures). Thus, significant intensification is forecast after 
+the next day or so, especially from 36-60 h where a period of rapid 
+intensification is explicitly forecast. There is a negative factor 
+beyond this time frame. The current forecast track of the depression 
+takes the system toward ocean waters churned up by the circulation 
+of tropical storm Elida. If the tropical cyclone moves over this 
+cool wake, it could limit the storm's peak intensity beyond 72 h, 
+with SHIPS guidance showing it close to straddling the 26 C 
+isotherm. For now, the NHC intensity forecast still shows a peak 
+intensity of 95 kt in 72 h, just shy of major hurricane intensity, 
+with some modest weakening shown in days 4-5. The NHC intensity 
+forecast is roughly in between the latest GDMI and HCCA intensity 
+aids, but is notably higher than the HAFS-A/B guidance this cycle. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  19/0900Z 12.1N 110.6W   30 KT  35 MPH
+ 12H  19/1800Z 12.5N 112.3W   35 KT  40 MPH
+ 24H  20/0600Z 13.2N 114.4W   45 KT  50 MPH
+ 36H  20/1800Z 14.4N 116.2W   55 KT  65 MPH
+ 48H  21/0600Z 15.5N 117.8W   70 KT  80 MPH
+ 60H  21/1800Z 16.3N 119.3W   85 KT 100 MPH
+ 72H  22/0600Z 16.8N 120.6W   95 KT 110 MPH
+ 96H  23/0600Z 17.3N 124.2W   90 KT 105 MPH
+120H  24/0600Z 18.2N 129.0W   85 KT 100 MPH
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

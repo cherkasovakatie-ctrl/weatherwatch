@@ -1,0 +1,75 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Rachel Discussion Number   7
+NWS National Hurricane Center Miami FL       EP182026
+300 PM CST Mon Sep 28 2026
+ 
+Satellite imagery this afternoon indicates that Rachel remains a
+sheared tropical cyclone with the low-level center located near the
+northern edge of the main convective mass. This is consistent with
+shear analyses showing 20-25 kt of northeasterly shear. The various 
+satellite intensity estimates are now generally clustered near 45 
+kt, and that will be the initial intensity for this advisory.
+ 
+The initial motion is now faster toward the west-northwest or  300/9 
+kt.  For the next 60 h or so, Rachel is forecast to move generally 
+west-northwestward or northwestward on the southwest side of a 
+mid-level ridge over Mexico.  After that, the ridge weakens and 
+shifts southeastward in response to a mid-latitude trough moving 
+across the southern United States. This evolution should result in 
+Rachel being left in an area of weaker steering currents causing a 
+slower west-northwestward to northwestward motion. The track 
+guidance is generally in good agreement on this scenario and keeps 
+the center well offshore of the coast of southwestern Mexico. The 
+new track forecast is similar to the previous forecast from 12-24 h 
+and after 72h. However, it has been shifted a little northeastward 
+from 36-72 h to lie closer to the HFIP Corrected Consensus and 
+Google DeepMind forecasts.
+
+The current northeasterly shear is still forecast to diminish a 
+little after 24 h. However, the dynamical models are in good 
+agreement that moderate shear is likely to continue through at least 
+96 h. Even with the forecast shear, the intensity guidance shows 
+gradual strengthening.  The new intensity forecast has minor 
+reductions in intensity at 72 and 96 h to better match the guidance, 
+but is otherwise unchanged from the previous forecast.
+ 
+ 
+Key Messages:
+ 
+1. Although the core of Rachel is forecast to remain offshore of
+Mexico, tropical storm force winds are expected along a portion of
+the coast of southwestern Mexico in the Tropical Storm Warning area
+on Tuesday.  Tropical storm conditions are possible along a portion
+of the coast of southwestern Mexico in the Tropical Storm Watch area
+Tuesday night or on Wednesday.
+ 
+2. Outer bands from Rachel will bring locally heavy rainfall to 
+portions of coastal southwest Mexico through Thursday. This rainfall 
+may produce areas of flooding and mudslides, especially in areas of 
+steep terrain.
+ 
+3. Large waves could produce life-threatening surf and rip current
+conditions along portions of the southwestern coast of Mexico during
+the next several days.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  28/2100Z 14.2N 102.1W   45 KT  50 MPH
+ 12H  29/0600Z 14.8N 103.3W   50 KT  60 MPH
+ 24H  29/1800Z 15.9N 104.9W   55 KT  65 MPH
+ 36H  30/0600Z 17.2N 106.2W   60 KT  70 MPH
+ 48H  30/1800Z 18.3N 107.3W   70 KT  80 MPH
+ 60H  01/0600Z 19.0N 108.1W   80 KT  90 MPH
+ 72H  01/1800Z 19.5N 108.7W   80 KT  90 MPH
+ 96H  02/1800Z 19.9N 109.2W   80 KT  90 MPH
+120H  03/1800Z 20.4N 110.1W   85 KT 100 MPH
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

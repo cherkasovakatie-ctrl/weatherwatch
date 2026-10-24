@@ -1,0 +1,93 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Polo Discussion Number  27
+NWS National Hurricane Center Miami FL       EP172026
+200 AM MST Sun Sep 27 2026
+ 
+The satellite presentation of Polo has remained fairly steady since
+the time the NOAA aircraft finished its mission about 7 hours ago.
+There are still hints of an eye in geostationary and microwave
+satellite images. The latest TAFB Dvorak currently intensity was
+6.5/127 kt with 5.5/102 kt for the final-T number.  Objective
+intensity estimates from UW-CIMSS have been running in the 105-110
+kt range.  The initial intensity is held at 105 kt for this
+advisory.
+ 
+Polo has turned toward the north-northwest, with the current motion 
+estimated at 330/9 kt.  A turn toward the north is expected later 
+today, and then northeastward on Monday as the cyclone continues to 
+move around the ridge and becomes increasingly affected by a mid- to 
+upper-level trough moving in from the northwest. The largest source 
+of uncertainty in the forecast continues to be the forward speed of 
+Polo as it makes its expected northeastward turn between the 
+aforementioned synoptic features. The model spread remains higher 
+than unusual between 48 and 72 h, more so for the along-track 
+forward speed of the storm after landfall. The NHC forecast follows 
+the path of the GDMI and HCCA, but is a bit slower than those 
+models.  This forecast is essentially on top of the previous NHC 
+forecast.
+ 
+Polo will continue to travel through an environment of fairly weak 
+vertical wind shear and sea-surface temperatures near 29C for the 
+next 24 h, but will be moving into a somewhat drier airmass.  By 
+hour 36, which is about 6 hours before landfall, southwesterly 
+vertical wind shear will increase.  Due to the favorable conditions 
+until almost before the Baja California landfall, the NHC forecast 
+is near the higher end of the guidance suite through hour 36, 
+showing only gradual weakening.  Thereafter, increasing wind shear 
+and land interaction will cause rapid weakening.  Although waters 
+are warm in the Gulf of California, Polo is not expected to 
+restrengthen there due to strong southwesterly vertical wind shear. 
+ The intensity forecast for the 2nd landfall (in mainland Mexico) 
+is tricky.  There is some possibility that Polo could still be at
+hurricane strength for the 2nd landfall, as suggested by the latest 
+HAFS-A forecast.  Polo should dissipate inland over northern Mexico 
+by hour 72.
+ 
+Polo is expected to become a remnant low and then dissipate before
+it reaches the southern U.S., but distant moisture associated with
+it and Odalys will be transported into the southwestern United
+States late this weekend and early next week, and may indirectly
+contribute to a heavy rainfall and flash flood threat in the region.
+See products issued by the Weather Prediction Center for more
+information.
+ 
+ 
+Key Messages:
+ 
+1. Polo is forecast to approach the west coast of the Baja
+California peninsula on Monday as a hurricane, and a Hurricane
+Warning is in effect for that region. Tropical storm conditions
+could reach portions of the coast as soon as tonight or early
+Monday, making further preparations difficult. These conditions
+will likely spread across Baja California through Monday. A storm
+surge is likely, especially in areas of onshore winds.
+ 
+2. Heavy rainfall associated with Polo may begin to impact Baja 
+California Sur tonight into Tuesday. This rainfall may produce 
+life-threatening flooding and mudslides, especially in areas of 
+steep terrain.
+ 
+3. Dangerous surf and rip currents are likely along portions of
+the northwest coast of Mexico and Baja California for the next
+few days.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  27/0900Z 20.3N 113.6W  105 KT 120 MPH
+ 12H  27/1800Z 21.6N 114.0W  100 KT 115 MPH
+ 24H  28/0600Z 23.4N 114.0W   95 KT 110 MPH
+ 36H  28/1800Z 25.1N 113.1W   90 KT 105 MPH
+ 48H  29/0600Z 26.8N 111.6W   70 KT  80 MPH
+ 60H  29/1800Z 28.9N 109.3W   40 KT  45 MPH
+ 72H  30/0600Z 31.3N 106.8W   25 KT  30 MPH...POST-TROP/INLAND
+ 96H  01/0600Z...DISSIPATED
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

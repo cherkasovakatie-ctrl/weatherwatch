@@ -1,0 +1,73 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Trudy Discussion Number   4
+NWS National Hurricane Center Miami FL       EP212026
+300 AM CST Wed Oct 14 2026
+ 
+Trudy continues to be a complicated storm to locate and forecast. A 
+recent ASCAT pass shows that the center is farther west-southwest 
+than the previous best track position. In addition, the ASCAT pass 
+was also used to adjust the wind radii for the cyclone. The 
+satellite presentation shows that the bulk of the convection remains 
+on the north side of the storm, but recently new deep convection has 
+developed over the center with cloud tops colder than -70 C based 
+on the infrared imagery. Based on the latest TAFB Dvorak and 
+UW-CIMSS intensity estimates, the initial intensity for Trudy has 
+been raised to 45 kt.
+ 
+The repositioning of the center based on the previously mentioned 
+ASCAT pass has long-reaching impacts for the track forecast. With 
+the initial position farther west-southwest than before, the updated 
+track has been generally shifted west of the previous forecast. The 
+current track forecast has Trudy being steered by a mid-level ridge 
+over the southern United States for the next 72 h. Afterwards, the 
+uncertainty in the track becomes larger than normal due to the 
+cyclone entering a region of weaker steering flow. This occurs due 
+to the previously mentioned mid-level ridge retreating as a trough 
+moves over the western United States. The current NHC track 
+forecast heavily favors the HCCA and GDMI forecast aids. In this 
+current track forecast, the center of the cyclone does remain 
+offshore of southwestern Mexico, but there is still a lot of 
+uncertainty regarding the long-range track forecast.
+ 
+The environmental conditions are very favorable for strengthening, 
+and Trudy is expected to rapidly intensify and should become a 
+hurricane within 24 h. Trudy is forecast to reach major hurricane 
+status somewhere around 48 h and continue to intensify for around 
+60-72 h. After that, wind shear is expected to steadily increase as 
+mid-level relative humidity decreases, thus a general weakening 
+trend is expected to occur. The new intensity forecast is generally 
+about the same as the previous one, however slower weakening is 
+shown late in the period since the new forecast remains offshore. 
+The current intensity forecast is still on the upper end of the 
+guidance envelope, but is in good agreement with HCCA and GDMI 
+forecast aids.
+ 
+Key Messages:
+ 
+1. Trudy is forecast to be a major hurricane as it approaches the
+coast of southwestern and west-central Mexico late this week and
+into the weekend. There is an increasing risk of wind, rain, and
+storm surge impacts, and watches could be required for a portion of
+these areas later today.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  14/0900Z 11.1N  99.0W   45 KT  50 MPH
+ 12H  14/1800Z 11.5N 100.2W   55 KT  65 MPH
+ 24H  15/0600Z 12.4N 101.3W   65 KT  75 MPH
+ 36H  15/1800Z 13.1N 101.8W   80 KT  90 MPH
+ 48H  16/0600Z 14.0N 102.4W  100 KT 115 MPH
+ 60H  16/1800Z 14.9N 102.9W  110 KT 125 MPH
+ 72H  17/0600Z 16.0N 103.6W  115 KT 130 MPH
+ 96H  18/0600Z 18.5N 105.2W  105 KT 120 MPH
+120H  19/0600Z 20.4N 106.8W   85 KT 100 MPH
+ 
+$$
+Forecaster Katz/Reinhart
+ 
+NNNN
+

@@ -1,0 +1,80 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Simon Discussion Number  20
+NWS National Hurricane Center Miami FL       EP202026
+200 AM MST Mon Oct 12 2026
+ 
+Simon continues to show signs of weakening as the eye has become
+filled in, although infrared imagery shows that the central dense 
+overcast has cooled since the previous advisory. There is a wide 
+spread in intensity estimates, ranging from 73-127 kt. Since there 
+has been an overall modest degradation to the cloud pattern, the 
+current intensity is nudged downward to 100 kt. The initial wind 
+radii were modified with the help of timely SAR pass.
+ 
+The cyclone is drifting off to the northwest as it is being steered 
+by a distant mid-level ridge centered over the south-central United 
+States. Simon is expected to continue moving slowly near the coast 
+of Mexico for the next few days. However, there is still a higher 
+than normal amount of uncertainty in the track, and some models 
+show that Simon gets trapped in an area of light steering between 
+the US ridge and one well southwest of Simon. Later, a trough from 
+the northwest will approach the hurricane and force Simon to turn 
+toward the northeast with increasing forward speed, though the 
+timing of this turn is uncertain. The latest NHC forecast is just 
+west of the previous advisory after considering some of the latest 
+AI-based guidance.  
+ 
+Weakening is expected to continue due to Simon's proximity to the 
+mountainous terrain, as well as some easterly wind shear. However, 
+the sea-surface temperatures that Simon will be moving across 
+later this week are around 31-32 C, which could moderate the 
+weakening trend, as well as the new track being slightly farther 
+offshore. The current NHC intensity forecast is generally the same 
+as the previous forecast with only a few adjustments. Simon is 
+still expected to rapidly weakening once the cyclone makes landfall 
+around 72 h.
+
+ 
+Key Messages:
+ 
+1. Dangerous wind and storm surge impacts are likely along a 
+portion of the west-central coast of Mexico, and a Hurricane 
+Warning is in effect from Playa Perula to El Roblito. Residents 
+should continue to shelter in a safe room to ride out the
+storm as the most significant hazards are ongoing.
+ 
+2. Simon is expected to approach the coast of western Mexico later
+this week, where hurricane conditions are possible. A Hurricane
+Watch is in effect from El Roblito to Bahia Tempehuaya.
+ 
+3. Heavy rainfall associated with Simon will impact portions of 
+southwestern and west-central Mexico over the next few days. This 
+rainfall will produce life-threatening flooding and mudslides, 
+especially in areas of steep terrain.
+ 
+4. Large swells will affect portions of the southwestern and 
+west-central coasts of Mexico over the next few days. These swells 
+are likely to cause life-threatening surf and rip current 
+conditions. Please consult products from your local weather office.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  12/0900Z 20.0N 106.3W  100 KT 115 MPH
+ 12H  12/1800Z 20.6N 106.7W   90 KT 105 MPH
+ 24H  13/0600Z 21.2N 107.1W   85 KT 100 MPH
+ 36H  13/1800Z 21.8N 107.3W   80 KT  90 MPH
+ 48H  14/0600Z 22.3N 107.2W   80 KT  90 MPH
+ 60H  14/1800Z 22.9N 107.0W   80 KT  90 MPH
+ 72H  15/0600Z 23.4N 106.6W   70 KT  80 MPH...INLAND
+ 96H  16/0600Z 24.1N 105.8W   20 KT  25 MPH...POST-TROP/INLAND
+120H  17/0600Z...DISSIPATED
+ 
+$$
+Forecaster Katz/Blake
+ 
+NNNN
+

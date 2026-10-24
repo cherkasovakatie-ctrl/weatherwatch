@@ -1,0 +1,54 @@
+
+ZCZC HFOTCDCP5 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Karina Discussion Number  37
+NWS Central Pacific Hurricane Center Honolulu HI   EP112026
+Issued by NWS National Hurricane Center Miami FL
+500 AM HST Sat Sep 05 2026
+
+Dvorak Current Intensity estimates from HFO and JTWC for Karina at
+1200 UTC were still 65 kt, while the most recent DMINT and DPRINT
+estimates from UW-CIMSS are 62 and 69 kt, respectively. This
+is the basis for the 65 kt initial intensity, though the ragged
+convective structure of Karina and other lower objective
+estimates from UW-CIMSS (like a SATCON of 56 kt) over the past few
+hours suggest this could be a generous estimate.
+ 
+Locating the center of Karina has become somewhat difficult, but the
+motion is believed to still be toward the northwest at a slightly 
+slower forward speed (305/7 kt). A deep-layer trough located to the 
+north and northeast of Karina is allowing the cyclone to move more 
+toward the northwest since last night, but the combination of the 
+cyclone weakening and becoming shallow plus a ridge building over 
+the north-central Pacific will likely cause Karina to turn 
+westward by late Sunday. Models have generally shifted southward 
+since yesterday, showing this turn occuring sooner than previously 
+forecast, so the NHC forecast has been adjusted in that direction. 
+It should be noted, however, that Karina is still expected to move 
+well north or northeast of the Hawaiian Islands as a weak cyclone 
+before it dissipates early next week.
+ 
+A combination of southwesterly shear, dry air, and marginal SSTs 
+should cause Karina to quickly weaken during the next several days. 
+In fact, there are indications in satellite imagery that the low- 
+and mid-level center of Karina are beginning to stretch apart due 
+to that shear. No significant changes were made to the NHC 
+intensity forecast, which is near the middle of the intensity 
+guidance envelope. 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  05/1500Z 21.7N 143.0W   65 KT  75 MPH
+ 12H  06/0000Z 22.1N 143.7W   55 KT  65 MPH
+ 24H  06/1200Z 22.6N 144.6W   50 KT  60 MPH
+ 36H  07/0000Z 23.0N 145.8W   45 KT  50 MPH
+ 48H  07/1200Z 23.4N 147.7W   35 KT  40 MPH
+ 60H  08/0000Z 23.9N 150.2W   30 KT  35 MPH...POST-TROPICAL
+ 72H  08/1200Z...DISSIPATED
+ 
+$$
+Forecaster D. Zelinsky
+ 
+NNNN
+

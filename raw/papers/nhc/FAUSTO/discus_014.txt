@@ -1,0 +1,67 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Fausto Discussion Number  14
+NWS National Hurricane Center Miami FL       EP062026
+1100 PM HST Tue Jul 21 2026
+ 
+Hurricane Fausto's satellite presentation has improved throughout
+the evening, with deep convection bursting over the low-level
+center, with cold cloud tops near -80C, and a large curved band on
+the southeast side of the system. Earlier SAR satellite imagery and
+scatterometer data show that the center of the system was farther
+east than anticipated. Satellite intensity estimates have generally
+trended upward over the last several hours, with UW-CIMSS ADT and
+AiDT at 74 and 65 kt, respectively. The latest TAFB subjective
+intensity estimate was T5.0/90 kt. Given the improved satellite
+presentation and these estimates, the initial intensity is raised to
+75 kt for this advisory.
+ 
+The system is moving west-northwestward at an estimated 285/7 kt
+along the southern edge of a subtropical ridge to the north. The
+ridge is forecast to strengthen and build westward over the next
+several days, which should cause the hurricane to continue moving
+west-northwestward to westward throughout the forecast period. The
+latest NHC track forecast is near the previous one through 72 hours,
+with little spread in the track guidance. Beyond 72 hours, the
+forecast has once again shifted southward toward the latest HCCA and
+GDMI consensus aids, and lies between these aids and the simple
+consensus. Model spread increases toward the end of the forecast
+period, with the GFS and some of the regional hurricane models
+slower and farther north, while HCCA and GDMI are faster and farther
+south.
+ 
+Fausto is currently moving over warm ocean temperatures within an
+environment of light to moderate wind shear and abundant mid-level
+moisture, which should allow for further strengthening. Along the
+forecast track, Fausto will pass over gradually cooling SSTs, and
+will be moving roughly parallel to the 26C isotherm by 36 hours. At
+the same time, mid-level relative humidity values are expected to
+decrease through the remainder of the forecast period. The latest
+NHC intensity forecast calls for continued strengthening though a
+slightly earlier peak than previously forecast, followed by gradual
+weakening. This forecast lies near the upper end of the guidance
+envelope in the short term, before aligning closer to the consensus
+as the system weakens. Should Fausto take a more northerly track,
+the system would struggle to sustain deep convection, potentially
+leading to a faster weakening trend than is currently forecast.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  22/0900Z 16.7N 120.7W   75 KT  85 MPH
+ 12H  22/1800Z 17.0N 121.9W   80 KT  90 MPH
+ 24H  23/0600Z 17.4N 123.9W   85 KT 100 MPH
+ 36H  23/1800Z 17.7N 126.4W   80 KT  90 MPH
+ 48H  24/0600Z 18.0N 129.1W   75 KT  85 MPH
+ 60H  24/1800Z 18.3N 132.0W   75 KT  85 MPH
+ 72H  25/0600Z 18.7N 134.7W   75 KT  85 MPH
+ 96H  26/0600Z 19.3N 139.6W   70 KT  80 MPH
+120H  27/0600Z 19.8N 144.6W   65 KT  75 MPH
+ 
+$$
+Forecaster Kelly
+ 
+NNNN
+

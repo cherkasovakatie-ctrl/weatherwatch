@@ -1,0 +1,76 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Rachel Discussion Number   5
+NWS National Hurricane Center Miami FL       EP182026
+300 AM CST Mon Sep 28 2026
+ 
+Rachel has intensified since the previous advisory. The METOP-C 
+Advanced Scatterometer sampled the center and western half of the 
+system around 0431z, and found reliable winds to 40 kt. This is in 
+agreement with the objective satellite intensity estimates from 
+UW-CIMMS and a subjective Dvorak of T3.0/45 kt from TAFB. Therefore, 
+the initial intensity is set at 40 kt for this advisory, and there 
+is more confidence in the initial position of the cyclone.
+ 
+The cyclone is now moving toward the west-northwest at 290/7 kt, and 
+it appears Rachel is starting to move a bit faster. A deep-layer 
+ridge building over north-central Mexico is forecast to steer the 
+cyclone west-northwestward, with some acceleration in forward motion 
+through early next week. On Thursday, a trough over the southwestern 
+United States will weaken the ridge somewhat, leading to diminished 
+steering flow near Rachel and a deceleration in the cyclone's 
+west-northwestward motion. The new initial position, informed by the 
+aforementioned scatterometer pass, lies to the right of the previous 
+official forecast track. As a result, the new forecast is adjusted 
+to the right of the previous one, and blends toward the most recent 
+Google DeepMind (GDM) and HFIP Corrected Consensus Approach (HCCA) 
+guidance.
+ 
+Rachel is apparently less-than-hindered by the northeasterly 
+vertical wind shear diagnosed near the tropical storm. All other 
+environmental parameters support intensification, and the new 
+intensity forecast is largely an update of the previous one. The 
+intensity forecast is again on the higher end of the guidance 
+envelope, and blends the GDM and HCCA solutions. Rachel is forecast 
+to become a hurricane on Tuesday. There is some uncertainty beyond 
+72 hr, with some of the guidance showing weakening during that time. 
+It is not entirely clear to me why weakening would occur during this 
+time-frame, given favorable dynamics and thermodynamics indicated 
+across the deterministic global model fields. Rachel could track 
+over some of the cool wake from Hurricane Polo, though recent 
+drifter data captured vertical profiles that show high ocean heat 
+content (OHC) persists in the region. Given the uncertainty, and the 
+shift in track more east of the cool wake, I show Rachel maintaining 
+its intensity from 72 through 120 hr.
+ 
+Key Messages:
+ 
+1. Although the core of Rachel is forecast to remain offshore of
+Mexico, tropical storm force winds are possible along a portion of
+the coast of southwestern Mexico in the Tropical Storm Watch area
+on Tuesday.
+ 
+2. Large waves could produce life-threatening surf and rip current
+conditions along portions of the southwestern coast of Mexico during
+the next several days.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  28/0900Z 13.4N 100.4W   40 KT  45 MPH
+ 12H  28/1800Z 13.9N 101.7W   50 KT  60 MPH
+ 24H  29/0600Z 14.9N 103.5W   55 KT  65 MPH
+ 36H  29/1800Z 16.1N 105.3W   60 KT  70 MPH
+ 48H  30/0600Z 17.3N 106.6W   70 KT  80 MPH
+ 60H  30/1800Z 18.2N 107.6W   80 KT  90 MPH
+ 72H  01/0600Z 19.0N 108.5W   85 KT 100 MPH
+ 96H  02/0600Z 19.6N 109.2W   85 KT 100 MPH
+120H  03/0600Z 20.4N 110.0W   85 KT 100 MPH
+ 
+$$
+Forecaster Mahoney
+ 
+NNNN
+

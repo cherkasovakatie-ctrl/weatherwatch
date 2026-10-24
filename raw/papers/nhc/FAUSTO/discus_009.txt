@@ -1,0 +1,61 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Fausto Discussion Number   9
+NWS National Hurricane Center Miami FL       EP062026
+800 PM PDT Mon Jul 20 2026
+ 
+Satellite imagery indicates that Fausto has continued to become 
+better organized during the past several hours. Although some 
+residual northerly shear remains evident, satellite imagery shows 
+that the low- and mid-level circulations have become much better 
+aligned than they were yesterday. Recent microwave and scatterometer 
+data also support the improved structure, and the latest subjective 
+Dvorak intensity estimate from TAFB indicate that Fausto has reached 
+hurricane intensity. Based on these data and the improving satellite 
+presentation, the initial intensity is increased to 65 kt, making 
+Fausto the first hurricane of the 2026 eastern North Pacific 
+hurricane season.
+
+The initial motion is estimated to be 315/8 kt. A slower 
+northwestward motion is expected during the next day or two as the 
+cyclone moves toward a weakness in the subtropical ridge. By 
+Wednesday, high pressure is forecast to build north of Fausto, 
+causing the cyclone to turn west-northwestward and gradually 
+accelerate. Track guidance remains tightly clustered through about 
+72 h. Thereafter, a gradual increase in cross-track spread develops, 
+with the GFS and the multi-model consensus (HCCA) on the right side 
+of the guidance envelope and the ECMWF and GDMI on the left, or 
+south, side. The updated NHC forecast is very close to the previous 
+advisory and reflects a blend of the HCCA and the Google DeepMind 
+ensemble mean.
+
+Fausto is expected to move into an environment of lower vertical 
+wind shear while remaining over warm waters and within a moist air 
+mass during the next couple of days. These conditions should support 
+steady to rapid strengthening, although some lingering northwesterly 
+shear could initially temper the rate of intensification. The NHC 
+intensity forecast calls for Fausto to approach major hurricane 
+intensity in about 48 h and remains near the middle of the guidance 
+envelope through this time. A gradual weakening trend is expected 
+thereafter as the cyclone moves over progressively cooler waters and 
+into a drier, more stable environment.
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  21/0300Z 14.7N 117.3W   65 KT  75 MPH
+ 12H  21/1200Z 15.5N 118.4W   75 KT  85 MPH
+ 24H  22/0000Z 16.2N 119.9W   85 KT 100 MPH
+ 36H  22/1200Z 16.7N 121.4W   90 KT 105 MPH
+ 48H  23/0000Z 17.1N 123.2W   95 KT 110 MPH
+ 60H  23/1200Z 17.5N 125.4W   95 KT 110 MPH
+ 72H  24/0000Z 17.9N 127.9W   90 KT 105 MPH
+ 96H  25/0000Z 18.8N 133.4W   80 KT  90 MPH
+120H  26/0000Z 19.7N 138.3W   70 KT  80 MPH
+ 
+$$
+Forecaster Gibbs (CPHC)
+ 
+NNNN
+

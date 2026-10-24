@@ -1,0 +1,62 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Karina Discussion Number  17
+NWS National Hurricane Center Miami FL       EP112026
+500 AM HST Mon Aug 31 2026
+ 
+Conventional satellite imagery shows that the inner core structure
+of Karina has become a little less defined.  The cloud tops in
+the northwestern portion of the eyewall have warmed to around -60
+C, and the latest TAFB Dvorak satellite intensity estimate is
+T5.5/102 kt.  The CMISS satellite intensity objective techniques 
+range from 115 to 129 kt.  Based on these data, the initial
+intensity remains at 120 kt.
+ 
+Karina continues to move generally westward, estimated at 275
+degrees at 7 kt. A narrow but extensive mid-level ridge is parked
+to the north of the hurricane, and this feature will likely remain
+the dominant steering impact on Karina over the next several days.
+Toward the end of the forecast period, the original ridge becomes
+eroded by a mid-latitude trough digging into the western US coast,
+but a more meridionally oriented ridge takes its place to the
+northwest of Karina, which should act to gradually slow its forward
+motion.  The current NHC forecast track has been adjusted
+slightly to the south of the previous track based on the guidance
+from the HFIP Corrected Consensus Approach (HCCA) and Google
+DeepMind (GDMI) guidance.
+ 
+While environmental conditions should remain favorable in the short
+term, the hurricane could experience some intensity fluctuations due
+to inner-core changes.  Karina may develop annular characteristics
+that could help reduce the rate of weakening the cyclone is forecast
+to undergo. The current SHIPS statistical intensity models indicate
+that relative humidity beyond 72 h will drop below 40%, 
+Consequently, abundant dry, stable air will impact the hurricane.   
+Once Karina moves over cooler ocean waters past 96 h, and more dry 
+air is pulled into the hurricane's inner core, the rate of 
+weakening could increase at a faster rate indicated in the 
+official forecast which is close to the HCCA corrected consensus.
+ 
+Karina's wind radii have been adjusted based on 0553 UTC METOP-B/C
+ASCAT overpasses, and 0757 UTC OSCAT data.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  31/1500Z 17.4N 125.1W  120 KT 140 MPH
+ 12H  01/0000Z 17.6N 126.4W  120 KT 140 MPH
+ 24H  01/1200Z 18.0N 128.4W  115 KT 130 MPH
+ 36H  02/0000Z 18.4N 130.3W  110 KT 125 MPH
+ 48H  02/1200Z 18.8N 132.3W  100 KT 115 MPH
+ 60H  03/0000Z 19.2N 134.2W   95 KT 110 MPH
+ 72H  03/1200Z 19.5N 136.1W   90 KT 105 MPH
+ 96H  04/1200Z 20.2N 139.9W   80 KT  90 MPH
+120H  05/1200Z 21.1N 143.7W   70 KT  80 MPH
+ 
+$$
+Forecaster Katz/Roberts
+ 
+NNNN
+

@@ -1,0 +1,74 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Simon Discussion Number   2
+NWS National Hurricane Center Miami FL       EP202026
+300 PM CST Wed Oct 07 2026
+
+The system continues to gradually become better organized on 
+satellite imagery with convective banding features becoming more 
+prominent.  The latest subjective Dvorak classification from TAFB 
+had a T-number of 2.5, corresponding to an intensity of 35 kt.  On 
+this basis, the cyclone is being upgraded to Tropical Storm Simon 
+for this advisory.  The storm has developed upper-level anticyclonic 
+outflow over all quadrants of the circulation.
+
+ASCAT-B scatterometer data suggested that the center of the cyclone 
+is a little north of the previous track, but the overall motion 
+still appears to be toward the west-northwest, or about 300/7 kt.  
+Simon is likely to continue this general west-northwestward motion 
+for the next day or so, to the south of a weak mid-level ridge.  By 
+Friday, the system should turn northwestward and then northward 
+ahead of a 500 mb trough approaching Baja California. In 3-5 days, 
+the cyclone should move generally northward between a mid-level 
+anticyclone and the trough near Baja California.  The official 
+forecast track remains on the right side of the guidance envelope, 
+and is close to the Google DeepMind ensemble mean.
+ 
+For the next few days, Simon is expected to remain within an 
+environment of low vertical wind shear and moist low- to mid-level 
+air, while moving over waters of high oceanic heat content.  These 
+factors should result in a significant increase in intensity this 
+week, and the system is likely to strengthen into a hurricane, 
+and then into a major hurricane later this week.  The NHC intensity 
+forecast is a little above the intensity model consensus, IVCN.
+
+Key Messages:
+
+1. Simon is expected to strengthen into a hurricane by Thursday 
+night and approach the west-central coast of Mexico as a major 
+hurricane on Saturday. 
+
+2. There is a risk of dangerous wind and storm surge impacts along 
+portions of the west-central coast of Mexico over the weekend and 
+into early next week, and watches could be required by tonight.
+
+3. Heavy rainfall associated with Simon will impact portions of 
+southwestern Mexico later this week and into the weekend. This 
+rainfall may produce life-threatening flooding and mudslides, 
+especially in areas of steep terrain.
+
+4. Swells will affect portions of the southwestern and west-central 
+coast of Mexico through the weekend.  These swells are likely to 
+cause life-threatening surf and rip current conditions.  Please 
+consult products from your local weather office.
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  07/2100Z 15.5N 101.6W   35 KT  40 MPH
+ 12H  08/0600Z 15.9N 102.7W   45 KT  50 MPH
+ 24H  08/1800Z 16.3N 104.0W   55 KT  65 MPH
+ 36H  09/0600Z 16.6N 104.8W   65 KT  75 MPH
+ 48H  09/1800Z 17.0N 105.1W   75 KT  85 MPH
+ 60H  10/0600Z 17.8N 105.2W   90 KT 105 MPH
+ 72H  10/1800Z 18.9N 105.3W  100 KT 115 MPH
+ 96H  11/1800Z 21.2N 105.6W   80 KT  90 MPH
+120H  12/1800Z 23.6N 106.7W   80 KT  90 MPH...INLAND
+ 
+$$
+Forecaster Pasch
+ 
+NNNN
+

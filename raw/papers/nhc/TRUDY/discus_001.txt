@@ -1,0 +1,82 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Depression Twenty-One-E Discussion Number   1
+NWS National Hurricane Center Miami FL       EP212026
+900 AM CST Tue Oct 13 2026
+ 
+Satellite images show that the area of low pressure located to the 
+south of southern Mexico has become better organized over the past 
+24 hours.  Large areas of banded deep convection are seen to the 
+north and the east of the low-level center.  An OSCAT pass from 0630 
+UTC this morning showed a closed circulation, but it was a bit short 
+of being considered well-defined at that time since the data still 
+showed a broad and somewhat elongated area of weak winds within 
+about 75 n mi of the center.  However, the convective organization 
+and curved banding has increased since that time, and the 
+circulation appears to have tightened up a bit over the past several 
+hours.  The subjective Dvorak estimate from TAFB is T2.0/30 kt, and 
+it is estimated that a tropical depression has formed with an 
+initial intensity of 30 kt.
+
+The initial motion of Tropical Depression Twenty-One-E is estimated 
+to be northwestward, or 305/9 kt.  A west-northwestward to 
+northwestward motion should continue over the next 36 hours while a 
+mid-level ridge persists over the northwestern Gulf of America.  
+Thereafter, a turn to the northwest or north-northwest is likely as 
+the ridge weakens.  A decrease in forward speed is also expected 
+after day 2 as the cyclone gets caught in weaker steering currents 
+in between the weak ridge to its north and Hurricane Simon to its 
+northwest.  Spread in the track forecast is larger than normal from 
+day 3 to 5, and some of this uncertainty is likely also due to 
+uncertainty in Simon's track.  A cold front moving southward from 
+Texas into Mexico toward the end of the forecast period could help 
+draw Simon closer to the coastline of Mexico, if the front is potent 
+enough.  Regardless, Tropical Depression 21-E could potentially be 
+very close to the coast of Mexico as a hurricane over the weekend, 
+and several Google DeepMind Ensemble members show the cyclone making 
+landfall in southwestern or west-central Mexico.  The NHC forecast 
+closely follows the HFIP Corrected Consensus Approach (HCCA), and 
+isn't too far off from the Google DeepMind Ensemble Mean.  
+Confidence in the track forecast is low, especially beyond day 3.
+
+The cyclone is forecast to traverse extremely favorable oceanic and 
+atmospheric conditions for at least the next 3 to 4 days.  The NHC 
+intensity forecast shows steady strengthening over the next 24 hours 
+as the cyclone works to develop a convective core.  After that time, 
+rapid intensification is forecast during the 24 to 72 h time window. 
+The DTOPS in the ECMWF-based SHIPS guidance is forecasting a 74 
+percent chance of a 65-kt increase over the next 72 h.  The NHC 
+intensity forecast is even more aggressive and shows 85 knots of 
+strengthening over the next 72 h.  The NHC forecast is slightly 
+below the HCCA and GDMI in the short term, but very near the HCCA 
+and GDMI beyond Day 2.  The HAFS-A and HAFS-B models strengthen the 
+cyclone to a category 4, and 36 of the 50 Google DeepMind members 
+make it a category 4 or stronger, so the NHC forecast will 
+aggressively show this system reaching category 4 strength at days 3 
+and 4.  Beyond day 4, the possibility of increasing vertical wind 
+shear and land interaction could induce some weakening, and most of 
+the guidance shows the system losing some intensity after day 4.  
+Confidence in the intensity forecast is above average.  We are 
+fairly confident it will become a strong hurricane due to the 
+favorable environmental conditions and model guidance.
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  13/1500Z  9.8N  96.5W   30 KT  35 MPH
+ 12H  14/0000Z 10.5N  97.6W   40 KT  45 MPH
+ 24H  14/1200Z 11.3N  99.3W   50 KT  60 MPH
+ 36H  15/0000Z 12.0N 100.5W   65 KT  75 MPH
+ 48H  15/1200Z 12.8N 101.4W   80 KT  90 MPH
+ 60H  16/0000Z 13.7N 101.9W  100 KT 115 MPH
+ 72H  16/1200Z 14.5N 102.2W  115 KT 130 MPH
+ 96H  17/1200Z 16.5N 103.5W  120 KT 140 MPH
+120H  18/1200Z 18.6N 105.3W  105 KT 120 MPH
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

@@ -1,0 +1,93 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Trudy Discussion Number   6
+NWS National Hurricane Center Miami FL       EP212026
+300 PM CST Wed Oct 14 2026
+ 
+Trudy continues to become better organized, with the central 
+convective mass becoming larger and colder.  Recent SAR, ASCAT and 
+SSMIS passes give higher confidence that the center position is now 
+embedded underneath the middle of the impressive-looking convective 
+overcast.  The latest TAFB intensity estimate is 4.0/65 kt, and 
+objective estimates from UW-CIMSS have been increasing, now in the 
+44-51 kt range.  The ASCAT-B pass from around 16Z had a peak wind 
+retrieval of 51 kt.  Based on the above data, the initial intensity 
+is conservatively set at 55 kt.
+ 
+Based on microwave center fixes over the past 6 to 12 hours, Trudy 
+has been moving west-northwestward, or 300/8 kt, to the south of a 
+mid-level ridge that extends over central Mexico. However, the ridge 
+is expected to weaken on Thursday, as Trudy moves closer to 
+Hurricane Simon.  The two tropical cyclones are forecast to be 
+within 500 miles of each other by Thursday evening, which could be 
+close enough to influence each other's steering.  By Thursday, an 
+amplifying mid- to upper-level trough in the west-central Gulf of 
+America and this possible interaction with Simon should cause Trudy 
+to turn north-northwestward and possibly northward for a time 
+Thursday night or Friday.  As Simon finally moves northwest late in 
+the forecast period, it should allow the ridge to build back in and 
+induce Trudy to make a leftward turn back toward the northwest. 
+Since Simon is a small tropical cyclone though, it may not have much 
+of an influence on Trudy's track, which could allow Trudy to turn 
+west-northwestward and away from the coast of Mexico by the end of 
+the forecast period.  The latest NHC track forecast is similar to 
+the previous one through 96 hours, but is farther south at day 5, 
+indicating a sharper turn toward the west-northwest or west by the 
+end of the forecast period.
+
+Environmental conditions continue to look quite favorable along 
+Trudy's track through the next 60 hours, although recent NESDIS 
+glider observations suggest that Trudy may briefly traverse lower 
+ocean heat content for 24 hours between this evening and Thursday 
+evening before reaching higher ocean heat content again.  The wind 
+shear will remain low through about 60 hours, but the ECMWF-based 
+SHIPS guidance shows southwesterly vertical wind shear around 20 kt 
+from day 3 to 5.  The NHC intensity forecast is similar to the 
+previous one, calling for steady to rapid intensification over the 
+next couple of days, peaking around 115 kt around hour 60. This is 
+similar to the HCCA, GDMI, HAFS-A, and HAFS-B, all of which peak 
+Trudy as a major hurricane between 105-120 kt in about 60 hours.  
+After that time, increasing wind shear and drier air should cause 
+steady weakening.  The NHC intensity forecast remains near the high 
+end of the overall model guidance suite.
+ 
+NHC continues to call for Trudy to get close to the coast of Mexico 
+as a major hurricane, and given the track uncertainty, residents of 
+southwestern and west-central Mexico should continue to closely 
+monitor the progress of Trudy, and be ready to possibly implement 
+their hurricane plan.
+ 
+ 
+Key Messages:
+ 
+1. Trudy is forecast to be a major hurricane as it approaches the
+coast of southwestern and west-central Mexico late this week and
+into the weekend. There is an increasing risk of wind, rain, and
+storm surge impacts, and watches could be required for a portion of
+these areas later today or tonight.
+
+2. Large swells will likely begin to affect portions of the coast of 
+southwestern Mexico late this week and continue through the weekend. 
+These swells could cause life-threatening surf and rip current 
+conditions. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  14/2100Z 11.9N 100.0W   55 KT  65 MPH
+ 12H  15/0600Z 12.5N 100.8W   70 KT  80 MPH
+ 24H  15/1800Z 13.2N 101.4W   80 KT  90 MPH
+ 36H  16/0600Z 14.0N 101.7W   95 KT 110 MPH
+ 48H  16/1800Z 14.9N 102.0W  110 KT 125 MPH
+ 60H  17/0600Z 15.8N 102.5W  115 KT 130 MPH
+ 72H  17/1800Z 16.9N 103.3W  110 KT 125 MPH
+ 96H  18/1800Z 18.8N 105.3W   90 KT 105 MPH
+120H  19/1800Z 19.4N 107.2W   65 KT  75 MPH
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

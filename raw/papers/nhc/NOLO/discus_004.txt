@@ -1,0 +1,56 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Depression Fifteen-E Discussion Number   4
+NWS National Hurricane Center Miami FL       EP152026
+800 AM PDT Mon Sep 14 2026
+ 
+The center of the tropical depression remains on the western edge of
+the convection due to ongoing westerly shear. The most recent TAFB
+Dvorak fix was T2.0/30 kt, while the UW-CIMSS objective intensity
+estimates are in the range of 27-34 kt. Therefore, the initial
+intensity is being held at 30 kt for this advisory.
+ 
+The tropical depression continues to move west-southwest
+with an initial motion of 240/8 kt. This seems to be due to a
+combination of the nearby convection and the overall system being
+steered by a low- to mid-level ridge to the northwest. This ridge
+should continue to be the main steering flow for the cyclone and
+increase overall forward speed later in the forecast period. The
+current NHC forecast track has been adjusted slightly right of the
+previous track and just a bit slower than before. The current
+forecast track is closer to the HFIP Corrected Consensus Approach
+(HCCA) and Google DeepMind (GDMI) forecast aids.
+ 
+The environment is not expected to be very conducive for too much
+strengthening due to the moderate northwesterly vertical wind shear
+advecting some dry air into the center of the depression. Despite
+this, the intensity guidance shows the possibility of some 
+strengthening during the next 24 h. Based on this, the NHC 
+intensity forecast calls for some slight strengthening. While there 
+is a period between 24-48 h where the shear should weaken, the 
+guidance suggests that the cyclone will not be able to take 
+advantage of this period to strengthen. After 48 h, the cyclone 
+should weaken as it gets lost within the larger monsoon trough. The 
+NHC intensity forecast is similar to the prior advisory, but keeps 
+35 kt intensity for a little while longer.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  14/1500Z 16.3N 119.7W   30 KT  35 MPH
+ 12H  15/0000Z 16.1N 121.0W   35 KT  40 MPH
+ 24H  15/1200Z 15.9N 123.2W   35 KT  40 MPH
+ 36H  16/0000Z 15.6N 125.3W   35 KT  40 MPH
+ 48H  16/1200Z 15.4N 127.4W   35 KT  40 MPH
+ 60H  17/0000Z 15.3N 129.6W   30 KT  35 MPH
+ 72H  17/1200Z 15.2N 132.1W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 96H  18/1200Z 15.2N 137.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  19/1200Z...DISSIPATED
+ 
+$$
+Forecaster Katz/Beven
+ 
+NNNN
+

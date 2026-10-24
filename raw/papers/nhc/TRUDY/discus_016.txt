@@ -1,0 +1,88 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Trudy Discussion Number  16
+NWS National Hurricane Center Miami FL       EP212026
+300 AM CST Sat Oct 17 2026
+ 
+Trudy's satellite presentation has changed little overall during 
+the past several hours, although the curved band of deep convection 
+wrapping around the northern semicircle has expanded somewhat, with 
+cloud tops as cold as -85 degrees C. A 0053 UTC RCM-3 synthetic 
+aperture radar (SAR) pass and a 0439 UTC Metop-B scatterometer pass 
+helped refine the initial position and wind radii of the hurricane. 
+The latest subjective Dvorak intensity estimate from TAFB and 
+objective satellite estimates remain near 75 kt. Given the 
+relatively steady intensity estimates and only modest changes in the 
+convective organization, the initial intensity is held at 80 kt.
+ 
+The initial motion is northwestward, or 325/7 kt. A continued 
+northwestward motion at a slightly faster forward speed is expected 
+during the next day or so as a weak low- to mid-level ridge builds 
+over eastern Mexico. This general motion should continue through 
+Sunday, bringing the center of Trudy very close to the coast of 
+west-central Mexico. Thereafter, as Trudy weakens and becomes 
+increasingly influenced by the low-level steering flow, a turn 
+toward the west-northwest is expected, taking the cyclone away from 
+the coast early next week. The latest NHC track forecast has been 
+adjusted slightly to the left of the previous prediction, but 
+remains along the right side of the track guidance envelope during 
+the time of closest approach to the coast of Mexico.
+ 
+While Trudy remains over warm waters with relatively high ocean heat 
+content, some additional strengthening is possible today. However, 
+moderate vertical wind shear, estimated at around 14 kt by the 
+latest UW-CIMSS analysis, along with possible dry-air entrainment 
+and the cyclone's proximity to the coast of Mexico, could limit 
+further intensification. By late Sunday, increasing southwesterly 
+vertical wind shear and a progressively drier mid-level environment 
+are expected to induce steady weakening. The latest SHIPS guidance 
+indicates that shear could increase to around 20 to 25 kt by early 
+next week, while mid-level relative humidity decreases to below 50 
+percent. These increasingly hostile conditions should eventually 
+cause Trudy to lose its organized deep convection, with the cyclone 
+forecast to become a post-tropical remnant low by day 4 and 
+dissipate by day 5. The latest NHC intensity forecast is very 
+similar to the previous prediction, lying near the upper end of the 
+guidance envelope. 
+ 
+ 
+KEY MESSAGES:
+ 
+1. Trudy could strengthen some during the next 12 hours as it 
+approaches the coast of southwestern and west-central Mexico this 
+weekend, bringing an increasing risk of storm surge, damaging winds, 
+and flooding rain. Hurricane Warnings and Watches, as well as 
+Tropical Storm Warnings and Watches, are currently in effect for 
+portions of the coast, and additional watches and warnings may be 
+required.
+ 
+2. Heavy rainfall associated with Trudy will impact the southwest 
+Mexican coast between Guerrero and Nayarit through the weekend. This 
+rainfall may produce life-threatening flooding and mudslides along 
+and near the southwest Mexican coast in Michoacán, Colima, and 
+Jalisco, especially in areas along steep terrain.
+ 
+3. Large swells are affecting portions of the coast of southwestern
+Mexico and will spread northward through the weekend, causing
+life-threatening surf and rip current conditions.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  17/0900Z 16.0N 103.4W   80 KT  90 MPH
+ 12H  17/1800Z 17.1N 104.2W   90 KT 105 MPH
+ 24H  18/0600Z 18.6N 105.4W   90 KT 105 MPH
+ 36H  18/1800Z 19.7N 106.1W   85 KT 100 MPH
+ 48H  19/0600Z 20.5N 106.9W   70 KT  80 MPH
+ 60H  19/1800Z 20.7N 107.4W   55 KT  65 MPH
+ 72H  20/0600Z 20.9N 108.1W   40 KT  45 MPH
+ 96H  21/0600Z 21.1N 109.3W   30 KT  35 MPH...POST-TROP/REMNT LOW
+120H  22/0600Z...DISSIPATED
+ 
+$$
+Forecaster Gibbs 
+ 
+NNNN
+

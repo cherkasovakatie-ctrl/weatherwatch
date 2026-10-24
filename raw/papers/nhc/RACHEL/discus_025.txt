@@ -1,0 +1,53 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Rachel Discussion Number  25
+NWS National Hurricane Center Miami FL       EP182026
+200 AM MST Sat Oct 03 2026
+ 
+Rachel has become less organized during the past several hours. The
+associated convection is now occurring only over the southern
+semicircle, and the latest microwave imagery indicates that there
+is no longer any eyewall.  Satellite intensity estimates are in the 
+70-90 kt range and are trending downward. Based on the trend, the 
+initial intensity is lowered to 80 kt.
+
+The initial motion is 275/4 kt. A mid-level anticyclone over the 
+western United States has a ridge extending southwest to the west 
+of Rachel, and this anticyclone is expected to build westward 
+during the next 72 h. This evolution should steer the cyclone 
+slowly west-northwestward for the next day or two, followed by a 
+more westward motion. By 96-120 h, a west-northwestward motion is 
+likely to resume as Rachel approaches the western end of the ridge. 
+The new forecast track is close to the previous forecast for 48-60 
+h, and then is nudged a little south based on a southward shift in 
+the guidance envelope.
+
+Additional slow weakening is forecast during the next 24-36 h as 
+Rachel continues to experience northeasterly shear and crosses the 
+cold water wake of Hurricane Polo. After that, the sea surface 
+temperatures increase slightly at a time where the hurricane is 
+likely to entrain dry air. These competing factors are expected to 
+result in little net change in strength between 36-72 h.  After 72 
+h, Rachel should move over progressively colder water and continue 
+to entrain dry air, which should cause a steady weakening.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  03/0900Z 19.4N 111.8W   80 KT  90 MPH
+ 12H  03/1800Z 19.6N 112.4W   80 KT  90 MPH
+ 24H  04/0600Z 19.9N 113.2W   75 KT  85 MPH
+ 36H  04/1800Z 20.1N 114.1W   70 KT  80 MPH
+ 48H  05/0600Z 20.2N 115.2W   70 KT  80 MPH
+ 60H  05/1800Z 20.4N 116.7W   70 KT  80 MPH
+ 72H  06/0600Z 20.6N 118.4W   70 KT  80 MPH
+ 96H  07/0600Z 21.2N 121.7W   65 KT  75 MPH
+120H  08/0600Z 22.2N 125.0W   55 KT  65 MPH
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

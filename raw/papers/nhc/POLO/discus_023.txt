@@ -1,0 +1,91 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Polo Discussion Number  23
+NWS National Hurricane Center Miami FL       EP172026
+200 AM MST Sat Sep 26 2026
+
+The NOAA aircraft that flew in Polo from 25/22Z to 26/01Z found 
+maximum flight-level winds of 154 kt, corresponding to about 140 kt 
+surface winds using standard reduction factors.  Since that time, 
+the structure of Polo has continued to look very impressive on 
+satellite imagery.  The eye has become a bit more cloud-filled 
+with cooling infrared eye temperatures only over the last hour or 
+two.  The latest intensity estimate from TAFB is 7.5/155 kt and 
+latest objective estimates from UW-CIMSS range from 133-153 kt.  
+The ADT estimate of 167 kt looks a bit unrealistically too high, 
+given some of the other observed data.  Based on the earlier recon 
+data and the recent cooling observed in the eye, the intensity is 
+nudged downward slightly to 145 kt.
+
+Polo is expected to remain in a favorable environment for another 
+48 hours although sea-surface temperatures and ocean heat content 
+will begin decreasing after hour 24.  As Polo approaches Baja 
+California Sur, increasing southwesterly wind shear is expected to 
+cause a faster rate of weakening.  The NHC intensity forecast is 
+near the high end of the model guidance suite through 48 hours.  
+Thereafter, the NHC forecast lies between the middle and high end 
+of the guidance.  Polo is expected to be a powerful hurricane when 
+it reaches Baja California Sur, and it likely to still be a 
+hurricane when it reaches mainland northwestern Mexico.
+
+The initial motion estimate is west-northwestward, or 290 degrees at 
+8 kt. There is no change to the track forecast reasoning with this 
+advisory. The hurricane is expected to turn gradually northwestward 
+tomorrow, then northward by the end of the weekend while it moves 
+around the western side of a ridge centered over northern Mexico. 
+Early next week an upper-level trough approaching from the northwest 
+will cause the hurricane to turn northeastward toward Baja 
+California Sur and west-central Mexico. The NHC track forecast is 
+very similar to the previous advisory, and is slightly slower than 
+the latest HCCA and GDMI, but much faster than the latest TVCN 
+consensus.  The track guidance is good agreement in that there is 
+very little cross-track spread.  However, there are still some 
+timing differences (quite a bit of along-track spread).  With this 
+in mind, residents in Baja California Sur and northwestern Mexico 
+should consider finishing their preparations by Sunday.
+ 
+Distant moisture from Hurricane Polo and Odalys will be transported
+into the southwestern United States this weekend and early next
+week, and may indirectly contribute to a heavy rainfall and flash
+flood threat in the region. See products issued by the Weather
+Prediction Center for more information.
+ 
+ 
+Key Messages:
+ 
+1. Polo is forecast to approach the west coast of the Baja
+California peninsula on Monday as a hurricane, and a Hurricane
+Watch is in effect for that region. Tropical Storm conditions
+could reach portions of the coast as soon as late Sunday, making 
+further preparations difficult. A storm surge will be possible, 
+especially in areas of onshore winds.
+ 
+2. Heavy rainfall associated with Polo may begin to impact Baja 
+California Sur late Sunday into Monday. This rainfall may produce 
+life-threatening flooding and mudslides, especially in areas of 
+steep terrain.
+ 
+3. Dangerous surf and rip currents are likely along portions of
+the northwest coast of Mexico and Baja California for the next 
+several days.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  26/0900Z 17.6N 111.0W  145 KT 165 MPH
+ 12H  26/1800Z 18.3N 112.1W  145 KT 165 MPH
+ 24H  27/0600Z 19.7N 113.3W  135 KT 155 MPH
+ 36H  27/1800Z 21.5N 113.8W  125 KT 145 MPH
+ 48H  28/0600Z 23.4N 113.8W  110 KT 125 MPH
+ 60H  28/1800Z 25.1N 113.2W   95 KT 110 MPH
+ 72H  29/0600Z 26.9N 111.6W   75 KT  85 MPH
+ 96H  30/0600Z 30.3N 107.5W   30 KT  35 MPH...INLAND
+120H  01/0600Z...DISSIPATED
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

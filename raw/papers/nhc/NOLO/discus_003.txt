@@ -1,0 +1,59 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Depression Fifteen-E Discussion Number   3
+NWS National Hurricane Center Miami FL       EP152026
+200 AM PDT Mon Sep 14 2026
+ 
+There are not a lot of changes to report with the depression 
+overnight. Convection continues to burst primarily to the southeast 
+of the cyclone's low-level circulation due to moderate northwesterly 
+vertical wind shear. Both subjective and objective intensity 
+estimates are hovering in the 30 kt range. Without much appreciable 
+change to the depression's structure, the initial intensity will 
+remain 30 kt this advisory.
+ 
+The tropical depression made a short-term jog southwest of the 
+previous forecast track, likely influenced by nearby convection, and 
+its initial motion is now estimated at 255/8 kt. Over the next few 
+days, the tropical cyclone should maintain this general heading with 
+some gradual acceleration as it remains steered by a significant 
+low- to mid-level ridge placed to its northwest. The official track 
+was adjusted a little south of the prior advisory, partially due to 
+the further southward initial position. This track lies closest to 
+the HFIP Corrected Consensus Approach (HCCA) and Google DeepMind 
+(GDMI) forecast aids. 
+
+The moderate vertical wind shear affecting the depression currently 
+is likely to keep the system in check, especially since the 
+northwest direction of the shear is helping to bring dry air into 
+its center. Thus, the NHC intensity forecast continues to show only 
+slight strengthening today, in line with the HCCA intensity 
+guidance. Even though vertical wind shear appears to decrease after 
+the next 24-36 h, most of the model guidance shows the cyclone not 
+taking advantage of these conditions, instead showing a slowly 
+weakening system that gradually loses its identity within the 
+larger monsoon trough. The NHC intensity forecast is very similar to 
+the prior advisory, but moves up the timing of remnant low status to 
+72 h, when the system is forecast to lose convective organization 
+in the global and hurricane-regional model guidance.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  14/0900Z 16.5N 118.9W   30 KT  35 MPH
+ 12H  14/1800Z 16.3N 120.1W   35 KT  40 MPH
+ 24H  15/0600Z 16.1N 122.3W   35 KT  40 MPH
+ 36H  15/1800Z 15.8N 124.6W   35 KT  40 MPH
+ 48H  16/0600Z 15.4N 127.1W   30 KT  35 MPH
+ 60H  16/1800Z 15.0N 129.6W   30 KT  35 MPH
+ 72H  17/0600Z 14.7N 132.2W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 96H  18/0600Z 14.5N 137.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  19/0600Z...DISSIPATED
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

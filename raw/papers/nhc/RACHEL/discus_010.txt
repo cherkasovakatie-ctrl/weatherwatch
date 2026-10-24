@@ -1,0 +1,79 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Rachel Discussion Number  10
+NWS National Hurricane Center Miami FL       EP182026
+900 AM CST Tue Sep 29 2026
+ 
+Rachel is dealing with around 20 kt of northeasterly wind shear this 
+morning, with the estimated center position located along the far 
+northern edge of the central dense overcast. However, a burst of 
+deep convection, with cloud top temperatures of around -90 C, along 
+with strong upper-level outflow suggests that the system is slowly 
+intensifying. The latest TAFB Dvorak intensity estimate was 3.5/55 
+kt, while recent objective intensity estimates from UW-CIMSS range 
+from 43-55 kt. Given the deepening convection and the slight 
+increase in intensity estimates, the initial intensity is set at 55 
+kt for this advisory. 
+ 
+The strong tropical storm is moving toward the west-northwest around 
+11 kt, steered by a strong mid-level ridge centered over the 
+south-central United States. A turn toward the northwest is expected 
+later today as high pressure builds over eastern Mexico, followed by 
+a gradual decrease in forward speed as Rachel moves into a region 
+with weaker steering flow. By late week, building high pressure to 
+the northwest of the cyclone should induce a gradual turn back 
+toward the west-northwest and then west, accompanied by a slight 
+increase in forward speed. The updated forecast track is very 
+similar to the previous advisory, remaining near the middle of the 
+track forecast guidance envelope through 48 h and near the northern 
+end of the guidance thereafter. 
+ 
+Decreasing wind shear, sufficiently warm sea surface temperatures 
+and favorable upper-level divergence are expected to support 
+strengthening over the next couple of days, and Rachel is forecast 
+to become a hurricane later today. However, Rachel could briefly 
+move over slightly cooler waters left in the wake of Hurricane Polo 
+tonight into early Wednesday, which may temporarily limit the rate 
+of intensification. Thereafter, warmer waters should support 
+additional strengthening through late this week. The latest NHC 
+intensity forecast is near the upper-end of the guidance envelope, 
+although it remains slightly below the HCCA solution. 
+ 
+ 
+Key Messages:
+ 
+1. Although the core of Rachel is forecast to remain offshore of 
+Mexico, tropical-storm-force winds are expected along a portion of 
+the coast of southwestern Mexico in the Tropical Storm Warning area 
+today or tonight. Tropical storm conditions are possible in the 
+watch area tonight or on Wednesday.
+ 
+2. Outer bands from Rachel will bring locally heavy rainfall to
+portions of coastal southwest Mexico through Thursday. This rainfall
+may produce areas of flooding and mudslides, especially in regions
+of steep terrain.
+ 
+3. Large waves could produce life-threatening surf and rip current
+conditions along portions of the southwestern coast of Mexico during
+the next several days.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  29/1500Z 15.3N 105.0W   55 KT  65 MPH
+ 12H  30/0000Z 16.5N 106.4W   65 KT  75 MPH
+ 24H  30/1200Z 17.9N 107.7W   75 KT  85 MPH
+ 36H  01/0000Z 19.0N 108.8W   85 KT 100 MPH
+ 48H  01/1200Z 19.7N 109.5W   90 KT 105 MPH
+ 60H  02/0000Z 20.1N 110.0W   90 KT 105 MPH
+ 72H  02/1200Z 20.4N 110.6W   95 KT 110 MPH
+ 96H  03/1200Z 20.8N 112.1W   90 KT 105 MPH
+120H  04/1200Z 21.1N 114.0W   85 KT 100 MPH
+ 
+$$
+Forecaster Adams
+ 
+NNNN
+

@@ -1,0 +1,69 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Simon Discussion Number  15
+NWS National Hurricane Center Miami FL       EP202026
+900 PM CST Sat Oct 10 2026
+ 
+The compact core of very dangerous Hurricane Simon is inching toward
+west-central Mexico. The northern eyewall is only about 30 n mi off
+the coast, and conditions are expected to quickly deteriorate later
+tonight. The major hurricane appears to be getting stronger and has
+a distinct and small eye, surrounded by symmetric and intense deep
+convection. The initial intensity is nudged up to 135 kt, near the
+upper end of the latest satellite estimates. The Air Force Hurricane
+Hunters are scheduled to investigate the system in a few hours, and
+the data they collect will be very helpful to better assess Simon's
+intensity and structure.
+ 
+Simon has been crawling northward, with the latest initial motion
+estimated to be 360/4 kt. A slightly faster northward or
+north-northwestward motion is expected later tonight, and the major
+hurricane will either make landfall or skirt the coast of
+west-central Mexico on Sunday. The models remain inconsistent in
+showing whether landfall will occur or not. Regardless, significant
+or catastrophic wind, surge, and rainfall appears likely over
+portions of west-central Mexico later tonight and Sunday.
+ 
+Fluctuations in strength are expected until the core of Simon
+reaches the coast. Rapid weakening is forecast once the system
+interacts with land, and it could weaken at a much faster pace if it
+moves to the east of the official track. Due to the complexity of
+how much land Simon will interacts with, the intensity forecast is
+of low confidence.
+ 
+Key Messages:
+ 
+1. Catastrophic wind and life-threatening storm surge impacts are
+likely along a portion of the west-central coast of Mexico, and a
+Hurricane Warning is in effect from Punta San Telmo to El Roblito.
+Preparations to protect life and property should be rushed to
+completion.
+ 
+2. Heavy rainfall associated with Simon will impact portions of
+southwestern Mexico through this weekend. This rainfall will produce
+life-threatening flooding and mudslides, especially in areas of
+steep terrain.
+ 
+3. Swells will affect portions of the southwestern and west-central
+coast of Mexico over the next few days. These swells are likely to
+cause life-threatening surf and rip current conditions. Please
+consult products from your local weather office.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  11/0300Z 18.2N 104.8W  135 KT 155 MPH
+ 12H  11/1200Z 19.1N 105.0W  135 KT 155 MPH...NEAR THE COAST
+ 24H  12/0000Z 20.1N 105.3W  100 KT 115 MPH...NEAR THE COAST
+ 36H  12/1200Z 21.1N 105.5W   60 KT  70 MPH...NEAR THE COAST
+ 48H  13/0000Z 22.0N 105.6W   35 KT  40 MPH...NEAR THE COAST
+ 60H  13/1200Z 23.0N 105.9W   15 KT  15 MPH...POST-TROP/INLAND
+ 72H  14/0000Z...DISSIPATED
+ 
+$$
+Forecaster Cangialosi
+ 
+NNNN
+

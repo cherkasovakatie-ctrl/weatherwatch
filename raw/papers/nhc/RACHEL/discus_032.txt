@@ -1,0 +1,54 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Rachel Discussion Number  32
+NWS National Hurricane Center Miami FL       EP182026
+800 PM MST Sun Oct 04 2026
+ 
+The satellite presentation for Rachel has degraded over the last
+several hours as the eye has filled in and the inner core seems to
+have come apart as well. Based on water vapor imagery, it appears 
+that dry air has managed to make its way into the core of the
+hurricane. Using a combination of the most recent TAFB Dvorak fix
+and objective intensity estimates from UW-CIMSS, the initial
+intensity has been lowered to 85 kt. This level of intensity could
+be generous given the structure of the hurricane at this time.
+ 
+Rachel is moving west-northwestward around 6 kt. The high pressure 
+system to the north of the cyclone should continue to steer it on a 
+generally westward track through the middle of the week. Afterwards, 
+the high should weaken and shift eastward as a trough cuts off close 
+to southern California. This should cause Rachel to turn back to 
+the west-northwest by the end of the week. The current NHC forecast 
+track is very close to the previous one, with minor adjustments 
+being made based on the HCCA and GDMI forecast aids. 
+
+More fluctuations in intensity are possible overnight for Rachel. 
+However, the cyclone is expected to enter a more drier environment 
+as it moves farther westward and the sea-surface temperatures are 
+expected to be 26C or less in a few days. Therefore, gradual 
+weakening is expected to start sometime on Monday and continue 
+through the forecast period. The current NHC intensity forecast 
+shows a weakening trend similar to the previous one, however the
+forecast has been adjusted based on the trends of the HCCA forecast 
+aid.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  05/0300Z 20.2N 114.8W   85 KT 100 MPH
+ 12H  05/1200Z 20.3N 115.9W   85 KT 100 MPH
+ 24H  06/0000Z 20.4N 117.4W   80 KT  90 MPH
+ 36H  06/1200Z 20.4N 118.9W   80 KT  90 MPH
+ 48H  07/0000Z 20.6N 120.3W   75 KT  85 MPH
+ 60H  07/1200Z 21.1N 121.8W   65 KT  75 MPH
+ 72H  08/0000Z 21.6N 123.3W   60 KT  70 MPH
+ 96H  09/0000Z 22.2N 125.8W   50 KT  60 MPH
+120H  10/0000Z 22.5N 126.8W   40 KT  45 MPH
+ 
+$$
+Forecaster Katz/Pasch
+ 
+NNNN
+

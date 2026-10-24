@@ -1,0 +1,90 @@
+
+ZCZC HFOTCDCP4 ALL
+TTAA00 PHFO DDHHMM
+ 
+Tropical Storm Lowell Discussion Number  52
+NWS Central Pacific Hurricane Center Honolulu HI   EP122026
+Issued by NWS National Hurricane Center Miami FL
+500 PM HST Tue Sep 08 2026
+ 
+The structure of Lowell continues to deteriorate this afternoon as 
+dry mid-level air and wind shear affect the tropical storm. The 
+low-level center of circulation is now almost completely exposed, 
+with deep convection displaced well to the north. In addition, a 
+strong mid-level low is interacting with Lowell and is contributing 
+to southwesterly to westerly wind shear across the system. Recent 
+subjective Dvorak intensity estimates range from 55 to 65 kt, while 
+objective estimates are somewhat lower, generally between 46 and 50 
+kt. The initial intensity is set at 60 kt for this advisory. An 
+earlier scatterometer pass also provided valuable guidance in 
+refining Lowell's wind radii. 
+
+Lowell is moving northward around 13 kt, steered primarily by the 
+aforementioned mid-level low to the northwest and ridging to the 
+north-northeast. A gradual turn toward the northwest is expected 
+tonight through Wednesday as the low interacts with Lowell and high 
+pressure builds to the north. The storm is forecast to slow down on 
+Thursday as Lowell becomes increasingly shallow and begins to move 
+more in response to the low-level flow. The track forecast becomes 
+considerably more complex beyond 72 h as Lowell encounters another 
+elongated upper-low approaching from the northwest. Most model 
+guidance indicates that Lowell should turn toward the north or 
+northwest late this week into this weekend, but there is 
+considerable spread in the guidance regarding both the timing of 
+this turn and how far north the cyclone will ultimately track. The 
+latest NHC forecast remains on the southern side of the guidance 
+envelope and is close to the previous track, with the forecast lying 
+closest to HCCA and the Google DeepMind solutions. 
+ 
+Moderate wind shear and unfavorable upper-level winds will continue 
+to support gradual weakening of Lowell over the next several days. 
+Simulated satellite imagery from the GFS and ECMWF suggest that 
+Lowell could struggle to maintain organized deep convection by 
+Thursday, potentially bringing the cyclone closer to becoming 
+post-tropical on Friday. However, the second elongated upper-level 
+low pressure system may help reinvigorate convection late Friday 
+into Saturday, which could provide an opportunity for slight 
+strengthening during that time. The latest NHC intensity forecast is 
+very close to the previous advisory and calls for Lowell to become a 
+post-tropical remnant low around day 5. Confidence in the 
+longer-range track and intensity forecast is lower than average. 
+
+ 
+KEY MESSAGES:
+ 
+1. Post-storm safety:  Follow advice of local officials and avoid 
+areas of downed power lines and flooding. Ensure generators are 
+properly ventilated and placed outside at least 20 feet away from 
+dwellings and garages to avoid carbon monoxide poisoning. During 
+clean up, be careful when using chainsaws and power tools. Drink 
+plenty of water to avoid heat exhaustion.
+ 
+2. The threat of locally moderate to heavy rainfall associated with 
+Lowell will linger over parts of the eastern Hawaiian Islands into 
+Wednesday. This may result in additional flooding of urban and 
+low-lying portions of the Big Island and may promote instances of 
+new flooding or prolong any ongoing flooding elsewhere across the 
+Islands.
+ 
+3. Large waves will continue to produce life-threatening surf and 
+rip current conditions during the next day or so along exposed 
+coasts of the Hawaiian Islands.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  09/0300Z 26.2N 161.1W   60 KT  70 MPH
+ 12H  09/1200Z 27.7N 162.0W   50 KT  60 MPH
+ 24H  10/0000Z 28.7N 164.1W   50 KT  60 MPH
+ 36H  10/1200Z 28.8N 166.7W   45 KT  50 MPH
+ 48H  11/0000Z 28.5N 169.1W   40 KT  45 MPH
+ 60H  11/1200Z 28.5N 170.9W   35 KT  40 MPH
+ 72H  12/0000Z 29.1N 171.9W   40 KT  45 MPH
+ 96H  13/0000Z 31.8N 172.9W   40 KT  45 MPH
+120H  14/0000Z 32.9N 175.2W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Adams
+ 
+NNNN
+

@@ -1,0 +1,70 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Fausto Discussion Number  22
+NWS National Hurricane Center Miami FL       EP062026
+1100 PM HST Thu Jul 23 2026
+ 
+An earlier GMI microwave pass around 0104 UTC showed the western 
+eyewall of Fausto starting to erode. Since the last advisory, 
+however, infrared satellite imagery shows that deep convection with 
+cold cloud tops near -75C has wrapped back around the inner core. 
+Meanwhile, the eye continues to appear ragged from time to time. 
+Objective satellite estimates from UW-CIMSS range from 81 to 88 kt, 
+while the subjective TAFB Dvorak satellite intensity estimate is 
+T4.5/77 kt. Given the latest satellite trends and a blend of these 
+estimates, the intensity is increased to 85 kt for this advisory.
+ 
+A ridge to the north continues to steer Fausto toward the west, or 
+280 degrees at 13 kt. This general west to west-northwestward motion 
+is expected to persist throughout the forecast period. On this 
+track, the system should pass just north of the Hawaiian Islands by 
+Day 5. Little change was made to the NHC track forecast, which 
+remains lies near the southern edge of the guidance envelope near 
+the HCCA corrected-consensus aid and the Google DeepMind ensemble 
+mean.
+ 
+Fausto remains in a marginal environment with sea surface 
+temperatures of 26–27C and low-to-moderate mid-level wind shear, 
+which could allow the intensity to fluctuate over the next day or 
+so. Surrounding dry air has so far failed to penetrate the inner 
+core. Conditions are expected to become more hostile in 36 to 48 
+hours as mid-level relative humidity drops below 50 percent, 
+followed by increasing westerly wind shear beyond Day 3. 
+Accordingly, the updated forecast calls for gradual to steady 
+weakening, in line with recent model trends. While several regional 
+hurricane models, particularly those with more northern tracks, 
+depict faster weakening and decay into a remnant low before Day 5, 
+the official NHC forecast maintains continuity. As the track 
+forecast lies on the southern edge of the guidance envelope, Fausto 
+is forecast to remain a tropical cyclone throughout the 5-day 
+period.
+ 
+Key Messages:
+ 
+1. Fausto is forecast to approach the Hawaiian Islands during the
+early to the middle portion of next week. The risk of some impacts
+from wind and rainfall is increasing.  However, it is too soon to
+determine the exact location or magnitude of these impacts, and
+interests there should continue to monitor the progress of this
+storm.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  24/0900Z 18.5N 129.9W   85 KT 100 MPH
+ 12H  24/1800Z 18.8N 131.9W   80 KT  90 MPH
+ 24H  25/0600Z 19.1N 134.5W   75 KT  85 MPH
+ 36H  25/1800Z 19.5N 136.8W   70 KT  80 MPH
+ 48H  26/0600Z 19.8N 139.0W   65 KT  75 MPH
+ 60H  26/1800Z 20.1N 141.5W   60 KT  70 MPH
+ 72H  27/0600Z 20.4N 144.3W   55 KT  65 MPH
+ 96H  28/0600Z 21.0N 150.6W   45 KT  50 MPH
+120H  29/0600Z 21.5N 156.3W   35 KT  40 MPH
+ 
+$$
+Forecaster Kelly
+ 
+NNNN
+

@@ -1,0 +1,106 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Trudy Discussion Number   8
+NWS National Hurricane Center Miami FL       EP212026
+300 AM CST Thu Oct 15 2026
+ 
+Trudy's satellite presentation continues to improve, with an 
+expanding central dense overcast containing cloud tops as cold as 
+-85 degrees C and a curved convective band wrapping into the 
+circulation from the north. Earlier microwave passes revealed 
+improving inner-core organization, while a 0339 UTC MetOp-B 
+scatterometer pass helped refine the cyclone's wind radii and 
+structure. The latest subjective Dvorak intensity estimate from TAFB 
+is T4.0/65 kt, which is consistent with the latest objective 
+estimates. Based on these data, the initial intensity is increased 
+to 65 kt, making Trudy a category 1 hurricane on the Saffir-Simpson 
+Hurricane Wind Scale.
+
+The initial motion is northwestward, or 305/8 kt. A gradual turn 
+toward the north-northwest is expected during the next day or so as 
+the mid-level ridge extending across central Mexico weakens in 
+response to an amplifying mid- to upper-level trough over the Gulf 
+of America. Some interaction with Tropical Storm Simon, a compact 
+tropical cyclone located several hundred miles to the northwest, 
+could also influence Trudy's steering. This pattern is expected to 
+bring Trudy very close to the coast of southwestern and west-central 
+Mexico over the weekend, from near Punta San Telmo to Cabo 
+Corrientes, before a rebuilding ridge to the north induces a 
+westward turn away from the coast early next week. Considerable 
+track uncertainty remains, particularly from days 4 to 5, when the 
+guidance continues to show a significant amount of cross-track 
+spread. The latest NHC track forecast is essentially unchanged from 
+the previous prediction through 72 h, with another slight adjustment 
+to the north at days 4 and 5 as Trudy turns westward away from the 
+coast. The forecast closely follows the latest HCCA and GDMI 
+consensus aids.
+
+Environmental conditions remain quite favorable for significant 
+strengthening during the next couple of days, with very low vertical 
+wind shear, warm sea surface temperatures, and plenty of deep 
+moisture surrounding Trudy. The continued improvement in Trudy's 
+convective structure and inner-core organization suggests that the 
+hurricane could be poised to undergo a period of rapid 
+intensification (RI). This possibility is supported by the latest 
+SHIPS RI guidance, which indicates a 28 to 40 percent probability of 
+a 35-kt increase in maximum winds during the next 24 h, roughly four 
+to six times the climatological mean. Although Trudy could briefly 
+encounter lower ocean heat content associated with the wakes of 
+previous tropical cyclones, oceanic conditions are forecast to 
+become more favorable thereafter. The NHC intensity forecast calls 
+for RI during the next 24 h, with Trudy expected to become a major 
+hurricane by Friday, followed by additional strengthening through 
+Saturday. By day 3, increasing vertical wind shear and the 
+entrainment of drier mid-level air are expected to induce weakening. 
+The NHC intensity forecast remains above the guidance envelope 
+during the next few days, then lies near the upper end of the 
+guidance envelope thereafter.
+
+Trudy is forecast to approach the coast of southwestern and 
+west-central Mexico as a major hurricane this weekend. 
+Tropical-storm-force winds could reach portions of the coast as 
+early as Saturday, and watches will likely be required for portions 
+of the coast later this morning. Interests along the coast of 
+southwestern and west-central Mexico should closely monitor the 
+progress of Trudy and be prepared to implement their hurricane 
+plans.
+
+
+KEY MESSAGES:
+
+1. Trudy is forecast to be a major hurricane as it approaches the 
+coast of southwestern and west-central Mexico this weekend. There is 
+an increasing risk of wind, rain, and storm surge impacts, and 
+watches will likely be required for portions of the coast later this 
+morning.
+
+2. Heavy rainfall associated with Trudy will impact the southwest 
+coast of Mexico between Guerrero and Jalisco through the weekend. 
+This rainfall may produce life-threatening flooding and mudslides by 
+the weekend across Colima and Jalisco, especially in areas along 
+steep terrain.
+
+3. Large swells will begin to affect portions of the coast of 
+southwestern Mexico Friday and continue through the weekend. These 
+swells could cause life-threatening surf and rip current conditions.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  15/0900Z 12.9N 101.6W   65 KT  75 MPH
+ 12H  15/1800Z 13.4N 101.9W   80 KT  90 MPH
+ 24H  16/0600Z 14.2N 102.3W  100 KT 115 MPH
+ 36H  16/1800Z 15.1N 102.8W  110 KT 125 MPH
+ 48H  17/0600Z 16.1N 103.4W  115 KT 130 MPH
+ 60H  17/1800Z 17.4N 104.4W  115 KT 130 MPH
+ 72H  18/0600Z 18.8N 105.5W  105 KT 120 MPH
+ 96H  19/0600Z 20.5N 107.3W   75 KT  85 MPH
+120H  20/0600Z 20.7N 108.5W   60 KT  70 MPH
+ 
+$$
+Forecaster Gibbs 
+ 
+NNNN
+

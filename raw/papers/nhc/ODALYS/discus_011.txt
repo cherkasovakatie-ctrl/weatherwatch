@@ -1,0 +1,56 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Odalys Discussion Number  11
+NWS National Hurricane Center Miami FL       EP162026
+200 PM PDT Tue Sep 22 2026
+
+Deep convection was on a positive trend until recently, when the 
+cloud tops started to warm based on the data from infrared satellite 
+imagery, likely due to entering the diurnal convective minimum. The 
+latest subjective TAFB Dvorak fix was T3.5/55 kt, which is the same 
+as the last several cycles. The objective satellite intensity 
+estimates from UW-CIMSS are in the range of 53-70 kt. Therefore, the 
+initial intensity has been raised to 60 kt for this advisory.
+
+The cyclone is currently moving east-northeastward, or 60/3 kt. This 
+general motion is expected to persist as a trough that is moving 
+over the eastern Pacific toward the western coast of the United 
+States should deepen further. After this, the trough will become the 
+main steering flow for Odalys resulting in an east-northeastward or 
+northeastward motion for the next few days. After 72 h, the 
+uncertainty in the track increases as potential interaction with 
+Hurricane Polo could cause Odalys to slow down later in the forecast 
+period. The current NHC track forecast is similar to the previous 
+track with only a few minor adjustments and continues to be in good 
+agreement with the HCCA and GDMI forecast aids.  
+
+The cyclone is forecasted to be in an environment with weaker wind 
+shear, plenty of mid-level moisture, and warm sea-surface 
+temperatures, and this is expected to lead to additional 
+intensification over the next few days. Thus, Odalys is forecast to 
+become a hurricane tonight. After 48 h, Odalys will encounter a 
+drier mid-level air mass and increased upper-level outflow from 
+Hurricane Polo. The current NHC intensity guidance remains on the 
+upper end of the model guidance, but close to the HCCA and GDMI 
+forecast aids.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  22/2100Z 15.1N 130.1W   60 KT  70 MPH
+ 12H  23/0600Z 15.2N 129.3W   65 KT  75 MPH
+ 24H  23/1800Z 15.4N 128.0W   75 KT  85 MPH
+ 36H  24/0600Z 15.8N 126.6W   75 KT  85 MPH
+ 48H  24/1800Z 16.5N 125.3W   75 KT  85 MPH
+ 60H  25/0600Z 17.3N 124.1W   70 KT  80 MPH
+ 72H  25/1800Z 18.0N 123.5W   65 KT  75 MPH
+ 96H  26/1800Z 19.6N 123.0W   55 KT  65 MPH
+120H  27/1800Z 21.3N 122.3W   45 KT  50 MPH
+ 
+$$
+Forecaster Katz/Hagen
+ 
+NNNN
+

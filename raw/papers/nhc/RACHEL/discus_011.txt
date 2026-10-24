@@ -1,0 +1,96 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Rachel Discussion Number  11
+NWS National Hurricane Center Miami FL       EP182026
+300 PM CST Tue Sep 29 2026
+ 
+There has been a wealth of data to parse through this afternoon with 
+Rachel. On satellite imagery, Rachel is exhibiting a large 
+convective burst with cloud tops below -85 C, though this burst is 
+still centered a little south of the center fixes provided by the 
+NOAA P-3 aircraft that conducted a research mission into the storm. 
+The peak 700-mb flight level winds from the mission were 66 kt. In 
+addition, there was a dropsonde launched in the radius of maximum 
+wind on its east side that had 500 m average of 75 kt, which using  
+a typical reduction factor yields 60 kt. Furthermore, there was a 
+uncrewed aircraft system (UAS) that was launched in the same area in 
+the boundary layer, finding 975-mb winds also up to 75 kt. An 
+experimental reduction factor developed by CIRA indicated this value 
+translates to a 10-meter sustained wind of 63 kt. All of the above 
+data suggests that Rachel is nearly a hurricane, and the initial 
+intensity is set at 60 kt this advisory. A 1620 UTC ASCAT-B pass, in 
+addition to the aircraft data, were both useful to adjust the 34- 
+and 50-kt radii this afternoon. 
+
+Rachel continues to move off to the northwest, with aircraft fixes 
+indicating a motion of 305 degrees at 12 kt. A mid-level ridge 
+located over central Mexico is expected to steer the tropical 
+cyclone in that same direction over the next 12-24 h. However, an 
+upper-level cutoff low moving across the four corners region of the 
+southwestern United States will soon erode this ridge, leading to a 
+significant slowdown in Rachel's motion. After 48 h, another 
+mid-level ridge begins to build in over California and Nevada behind 
+this cutoff low as it ejects into the central Plains. The net effect 
+of this synoptic pattern is Rachel should then turn more westward, 
+but still at a slow forward motion. Some of the reliable track aids 
+have made a southward shift in Rachel's track this afternoon, and 
+the latest NHC track forecast has been shifted in that direction, 
+blending the HFIP Corrected Consensus Approach (HCCA), the Google 
+DeepMind ensemble mean (GDMI), and their new experimental model 
+(WN3I). 
+
+Shear analysis from UW-CIMSS indicates that the northeasterly shear 
+that had been affecting Rachel is starting to decrease, and both the 
+EC- and GFS-based SHIPS guidance show this lowering below 15 kt in 
+24 h. In addition, the latest forecast track brings Rachel initially 
+to the north of the cool wake left behind by Polo, with nearby ocean 
+drifters still showing sea-surface temperatures (SSTs) in the 29-30 
+C range still. Thus as the shear decreases, and assuming Rachel's 
+core is becoming more vertically aligned, the short-term intensity 
+has been raised and now shows a period of rapid intensification from 
+24-48 h, making it a 105 kt major hurricane at the end of that time 
+frame. After that time, as Rachel turns westward, it will finally 
+pass over Polo's cool wake, where another drifter in that vicinity 
+showing SSTs much lower, in the 26-27 C range, and that combined 
+with Rachel's slow motion will likely lead to weakening in 60-96 h. 
+The latest NHC intensity forecast remains on the upper-end of the 
+guidance, closest to HCCA through 48 h, but then falls back closer 
+to the guidance mean in 72-120 h.  
+ 
+Key Messages:
+ 
+1. Although the core of Rachel is forecast to remain offshore of
+Mexico, tropical-storm-force winds are expected along a portion of
+the coast of southwestern Mexico in the Tropical Storm Warning area
+today or tonight. Tropical storm conditions are possible in the
+watch area tonight or on Wednesday.
+ 
+2. Outer bands from Rachel will bring locally heavy rainfall to 
+portions of coastal southwest Mexico through Thursday. This rainfall 
+may produce life-threatening flooding and mudslides, especially in 
+areas of steep terrain.
+ 
+3. Large waves could produce life-threatening surf and rip current
+conditions along portions of the southwestern coast of Mexico during
+the next several days.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  29/2100Z 16.0N 105.7W   60 KT  70 MPH
+ 12H  30/0600Z 17.3N 107.0W   70 KT  80 MPH
+ 24H  30/1800Z 18.2N 108.0W   85 KT 100 MPH
+ 36H  01/0600Z 19.0N 108.9W  100 KT 115 MPH
+ 48H  01/1800Z 19.4N 109.5W  105 KT 120 MPH
+ 60H  02/0600Z 19.6N 110.3W  100 KT 115 MPH
+ 72H  02/1800Z 19.8N 111.1W   90 KT 105 MPH
+ 96H  03/1800Z 20.2N 112.9W   80 KT  90 MPH
+120H  04/1800Z 20.5N 115.0W   85 KT 100 MPH
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

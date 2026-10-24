@@ -1,0 +1,78 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Rachel Discussion Number  16
+NWS National Hurricane Center Miami FL       EP182026
+800 PM MST Wed Sep 30 2026
+ 
+Satellite imagery indicates that Rachel's convective structure has 
+changed little over the past several hours. Deep convection 
+continues to burst near the center, with cloud-top temperatures as 
+cold as -85 C. The latest subjective Dvorak intensity estimate from 
+TAFB is T4.5/77 kt, while objective estimates have ranged from 65 to 
+85 kt. Given these estimates and the persistent deep convection, 
+the initial intensity is increased to 80 kt.
+ 
+Rachel continues to move northwestward, or 320/6 kt. A northwestward 
+motion at a slower forward speed is expected during the next day or 
+so as the cyclone moves along the southwestern periphery of a 
+mid-level ridge while a mid- to upper-level trough remains over the 
+southwestern United States and northwestern Mexico. As the trough 
+lifts northeastward and weakens, a ridge is forecast to build north 
+of Rachel, causing the system to gradually turn west-northwestward 
+and then westward later this week. The track guidance remains in 
+good agreement on this overall scenario, and the latest NHC track 
+forecast is essentially an update of the previous prediction, lying 
+near the HCCA and GDMI aids.
+ 
+Environmental conditions should remain generally favorable for 
+strengthening during the next couple of days, with very warm sea 
+surface temperatures and plenty of mid-level moisture along the 
+forecast track. Persistent easterly vertical wind shear of around 15 
+to 20 kt may be a limiting factor in the short term, but the shear 
+is forecast to gradually relax thereafter. Rachel could strengthen 
+rapidly by Thursday, especially if a more persistent inner core 
+becomes established, and is forecast to become a major hurricane 
+within the next couple of days. Thereafter, progressively cooler sea 
+surface temperatures and dry mid-level air should induce a gradual 
+weakening trend. The latest NHC intensity forecast is similar to the 
+previous advisory, lying above the guidance envelope in the short 
+term before trending toward the upper end of the guidance 
+thereafter.
+ 
+ 
+Key Messages:
+ 
+1. Although the core of Rachel is forecast to remain offshore of
+Mexico, wind gusts of tropical-storm force are possible along
+portions of the coast of southwestern Mexico through tonight.
+ 
+2. Outer bands from Rachel will continue to produce locally heavy
+rainfall across portions of coastal southwest Mexico. This rainfall
+may produce life-threatening flooding and mudslides, especially in
+areas of steep terrain.
+ 
+3. Large waves could produce life-threatening surf and rip current
+conditions along the southwestern and west-central coast of Mexico
+and the southern Baja California Peninsula during the next several
+days.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  01/0300Z 19.2N 108.5W   80 KT  90 MPH
+ 12H  01/1200Z 19.6N 109.1W   90 KT 105 MPH
+ 24H  02/0000Z 19.8N 109.6W   95 KT 110 MPH
+ 36H  02/1200Z 20.0N 110.3W  105 KT 120 MPH
+ 48H  03/0000Z 20.1N 111.1W  105 KT 120 MPH
+ 60H  03/1200Z 20.2N 111.9W  100 KT 115 MPH
+ 72H  04/0000Z 20.4N 112.9W   90 KT 105 MPH
+ 96H  05/0000Z 20.7N 114.9W   85 KT 100 MPH
+120H  06/0000Z 20.9N 118.0W   80 KT  90 MPH
+ 
+$$
+Forecaster Gibbs 
+ 
+NNNN
+

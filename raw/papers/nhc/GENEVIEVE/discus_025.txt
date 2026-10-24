@@ -1,0 +1,57 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Genevieve Discussion Number  25
+NWS National Hurricane Center Miami FL       EP072026
+1100 PM HST Wed Jul 29 2026
+
+The satellite presentation of Genevieve's convective structure has 
+degraded since the previous advisory. The low-level circulation 
+remains embedded beneath a central dense overcast with cloud-top 
+temperatures as cold as -70 C, which have been steadily warming, 
+likely due to increasing dry-air entrainment. Subjective Dvorak 
+intensity estimates from TAFB and the latest objective estimates 
+from UW-CIMSS range from 70 to 80 kt. Based on the satellite data 
+and these estimates, the initial intensity is lowered to 80 kt. 
+
+The initial motion estimate is 300/10 kt. Genevieve is expected to 
+continue moving generally west-northwestward during the next several 
+days as a low- to mid-level ridge builds north of the cyclone. A 
+modest increase in forward speed is expected during the next couple 
+of days as the ridge builds farther west. Thereafter, a gradual turn 
+toward the northwest, then the north-northwest is forecast in 
+response to a weakness forming in the subtropical ridge. The latest 
+guidance remains in good agreement, and the updated NHC track 
+forecast is essentially unchanged from the previous advisory.
+
+Environmental conditions are forecast to become increasingly 
+unfavorable during the next several days. Genevieve will move over 
+progressively cooler sea surface temperatures while encountering 
+increasing southwesterly shear and a drier mid-level environment. 
+These factors should result in a steady weakening trend, with the 
+cyclone forecast to weaken below hurricane strength by Friday. By 
+this weekend, persistent dry air entrainment and a more stable 
+environment should cause deep convection to gradually diminish, 
+resulting in Genevieve becoming a remnant low by 96 h. The updated 
+NHC intensity forecast reflects this weakening trend and is very 
+close to the previous advisory.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  30/0900Z 20.2N 122.1W   80 KT  90 MPH
+ 12H  30/1800Z 20.7N 123.9W   70 KT  80 MPH
+ 24H  31/0600Z 21.5N 126.5W   65 KT  75 MPH
+ 36H  31/1800Z 22.1N 129.1W   55 KT  65 MPH
+ 48H  01/0600Z 22.9N 131.8W   45 KT  50 MPH
+ 60H  01/1800Z 23.8N 135.0W   45 KT  50 MPH
+ 72H  02/0600Z 24.5N 138.0W   40 KT  45 MPH
+ 96H  03/0600Z 26.6N 143.1W   30 KT  35 MPH...POST-TROP/REMNT LOW
+120H  04/0600Z 29.1N 145.6W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Gibbs/Evans
+ 
+NNNN
+

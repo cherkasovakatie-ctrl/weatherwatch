@@ -1,0 +1,107 @@
+
+ZCZC MIATCDAT4 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Isaias Discussion Number   7
+NWS National Hurricane Center Miami FL       AL092026
+400 AM CDT Thu Oct 08 2026
+ 
+Right after the previous advisory, Air Force Reserve hurricane 
+hunter aircraft launched a dropsonde in the southwest quadrant of 
+the storm, finding a 150 m boundary layer average wind of 76 kt, 
+which was the basis for upgrading Isaias to a hurricane at 0330 UTC. 
+Since that time, a NOAA-P3 aircraft has taken over the in-situ 
+sampling of the hurricane, finding that Isaias continues to 
+intensify. The Tail Doppler Radar (TDR) swaths still indicate some 
+northward tilt with height, likely an impact of moderate westerly 
+vertical wind shear that continues to impinge on the circulation, 
+though the circulation is more aligned than in yesterday's mission. 
+The peak TDR winds were up to 80 kt on the 500 m level, and 
+experimental data that reduces the peak TDR winds to the 10 meter 
+level support a maximum sustained wind of 70 kt this advisory.
+ 
+Aircraft fixes indicate that Isaias continues to maintain a
+east-northeastward heading at 060/8 kt. The most critical steering
+feature is a subtropical ridge centered east of the Bahamas that is
+building westward, leading to an enhancement of environmental
+southerly flow over the eastern Gulf. At the same time, a mid-level
+trough stretched across the northern Gulf coast will be reinforced
+by another impulse digging in from the Rocky Mountains, leading to a
+more amplified short-wave over east Texas. The net effect of these
+synoptic features should result in Isaias making a turn to the
+northeast and the north over the next 24-48 h. The guidance this
+cycle has not changed appreciably since the previous cycle, and
+there continue to be across-track differences between the further
+west physics-based models, and further east AI/Machine
+Learning-based models. The NHC track forecast remains very close to
+the prior one, and continues to lead more on the Google DeepMind
+ensemble mean (GDMI) and HFIP Corrected Consensus Approach (HCCA)
+track aids, which have been our best performing track guidance this
+year.  As mentioned previously, after Isaias moves inland, the
+guidance is showing a more subtle westward shift as Isaias is
+captured by the short wave trough to its west, leading in the
+formation of a potent cutoff low over the Tennessee valley as the
+tropical cyclone becomes post-tropical.
+ 
+The intensity forecast continues to be somewhat tricky. Isaias has 
+been trying to become better vertically aligned despite dealing with 
+around 20 kt of westerly vertical wind shear, and an eyewall keeps 
+coming and going in aircraft fixes. Other environmental factors (30 
+C sea-surface temperatures, sufficient deep-layer moisture) are 
+quite favorable. Because the shear is not forecast to increase 
+appreciably for the next 24 h, and because the hurricane has been 
+intensifying despite the shear, significant intensification is still 
+shown in the short-term, making Isaias just shy of major hurricane 
+intensity in 24 h. This part of the intensity forecast is on the 
+higher end of the guidance, close to the HCCA and GDMI intensity 
+aids. In the final 12-24 h before Isaias makes landfall on the north 
+Gulf coast, vertical wind shear ramps up to 40-50 kt, and this will 
+likely impart some weakening. However, at the same time, the 
+hurricane's wind field may become broader and more asymmetric as it 
+begins to interact with the short-wave trough capturing it from the 
+west. Regardless, Isaias is expected to remain a dangerous hurricane 
+through landfall, and gusty winds are expected well inland after 
+landfall given the anticipated expansion of the wind field and 
+accelerating forward speed of the storm.
+ 
+Key Messages:
+ 
+1. Isaias is expected to strengthen and be a strong hurricane when
+it approaches the northern Gulf Coast on Friday. A life-threatening
+storm surge is expected along a portion of the northern Gulf Coast,
+and a Storm Surge Warning remains in effect from the Mouth of the
+Mississippi River to Steinhatchee, Florida. Residents in the warning
+area should follow advice given by local officials and evacuate if
+told to do so.
+ 
+2. Damaging hurricane force-winds are expected over portions of the
+Florida Panhandle, southern Alabama, and southern Mississippi, and a
+Hurricane Warning remains in effect from Ocean Springs, Mississippi
+to the Bay/Gulf County Line, Florida. Residents in these areas
+should prepare for the possibility of long-duration power outages.
+ 
+3. Isaias will bring areas of heavy rainfall to the central U.S.
+Gulf coast and much of the Southeast Friday into the weekend. Flash
+and urban flooding, along with isolated river flooding, will be
+possible.
+ 
+4. Isaias could bring gusty winds and areas of heavy rain to the
+western portion of the Yucatan Peninsula through today. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  08/0900Z 23.3N  91.2W   70 KT  80 MPH
+ 12H  08/1800Z 24.2N  90.0W   85 KT 100 MPH
+ 24H  09/0600Z 25.9N  88.6W   95 KT 110 MPH
+ 36H  09/1800Z 28.4N  87.6W   90 KT 105 MPH
+ 48H  10/0600Z 31.0N  87.6W   55 KT  65 MPH...INLAND
+ 60H  10/1800Z 33.7N  88.5W   30 KT  35 MPH...POST-TROP/INLAND
+ 72H  11/0600Z 36.0N  88.7W   25 KT  30 MPH...POST-TROP/INLAND
+ 96H  12/0600Z...DISSIPATED
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

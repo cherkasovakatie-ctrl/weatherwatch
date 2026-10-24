@@ -1,0 +1,51 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Post-Tropical Cyclone Marie Discussion Number  30
+NWS National Hurricane Center Miami FL       EP132026
+800 AM PDT Tue Sep 08 2026
+
+Marie's satellite presentation has degraded since the previous 
+advisory. Infrared satellite imagery depicts very weak remnant 
+convection in the southeast quadrant, while visible imagery shows 
+that Marie's low-level center is exposed. The latest subjective 
+Dvorak estimate from TAFB classified Marie's intensity as 30 kt, 
+while objective analysis from UW-CIMSS generally ranged from 25-36 
+kt. Given the most recent satellite trends, Marie's initial 
+intensity has been lowered to 35 kt. The storm is now classified as 
+a post-tropical cyclone due to a lack of deep convection.
+
+The initial motion was estimated at 300/8 kt. Marie is expected to 
+turn more northwestward as it finds itself wedged between a cutoff 
+low descending from the northeast Pacific and a high pressure system 
+centered over the southwestern US. Little was changed to the most 
+recent NHC track forecast, which reflects only a slight leftward 
+shift to bring the official track slightly closer to HCCA. 
+
+Marie is forecast to weaken and dissipate in the next couple of days 
+as the system moves over progressively cooler SSTs and into a drier 
+airmass. The latest intensity forecast moved up dissipation time 
+slightly due to Marie's current rate of weakening following the 
+latest model trends.
+
+This is the last advisory issued by the National Hurricane Center on 
+this system. For additional information on the remnant low please 
+see High Seas Forecasts issued by the National Weather Service, 
+under AWIPS header NFDHSFEPI, WMO header FZPN01 KWBC, and on the web 
+at ocean.weather.gov/shtml/NFDHSFEPI.php
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  08/1500Z 25.8N 127.4W   35 KT  40 MPH...POST-TROPICAL
+ 12H  09/0000Z 26.8N 128.2W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 24H  09/1200Z 28.7N 129.4W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 36H  10/0000Z 31.2N 131.1W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 48H  10/1200Z...DISSIPATED
+ 
+$$
+Forecaster Evans/Kelly
+ 
+NNNN
+

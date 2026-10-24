@@ -1,0 +1,57 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Genevieve Discussion Number  24
+NWS National Hurricane Center Miami FL       EP072026
+500 PM HST Wed Jul 29 2026
+
+Genevieve appears to be maintaining its intensity for the time 
+being.  Strong convection has been firing near the estimated center 
+position, although there is no eye evident on geostationary 
+imagery.  The cloud pattern is quite symmetric and upper-level 
+outflow remains well defined over the hurricane.  The current 
+intensity estimate is held at 85 kt for this advisory, which is a 
+blend of subjective and objective satellite estimates. 
+
+Genevieve continues to move toward the west-northwest with an 
+initial motion estimate of about 290/8 kt.  This general direction 
+of motion is likely to continue over the next several days while the 
+cyclone is steered by the flow on the southwestern periphery of a 
+strong mid-level high pressure area extending from the southwestern 
+United States into the eastern North Pacific.  Some increase in 
+Genevieve's forward speed is expected during the next 1-3 days as 
+the mid-level ridge builds westward.  Late in the forecast period, a 
+trough in the vicinity of 145W should induce a turn to the right.  
+The official track forecast is close to the simple dynamical model 
+consensus, TVCN, and is also very similar to the previous NHC 
+prediction. 
+
+During the forecast period, sea surface temperatures are expected 
+to gradually cool beneath the cyclone while it continues 
+west-northwestward.  Vertical wind shear is likely to increase 
+somewhat and Genevieve will be moving through an increasingly dry 
+air mass.  Therefore, the cyclone is forecast to weaken and drop 
+below hurricane strength in a day or so.  By the weekend, deep 
+convection associated with the system will probably diminish and 
+result in Genevieve degenerating into a post-tropical cyclone.  
+The NHC intensity forecast follows the model consensus.
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  30/0300Z 19.6N 120.8W   85 KT 100 MPH
+ 12H  30/1200Z 20.1N 122.6W   75 KT  85 MPH
+ 24H  31/0000Z 20.8N 125.0W   65 KT  75 MPH
+ 36H  31/1200Z 21.6N 127.5W   55 KT  65 MPH
+ 48H  01/0000Z 22.3N 130.3W   45 KT  50 MPH
+ 60H  01/1200Z 23.1N 133.0W   45 KT  50 MPH
+ 72H  02/0000Z 23.9N 135.9W   40 KT  45 MPH
+ 96H  03/0000Z 25.8N 141.3W   35 KT  40 MPH...POST-TROPICAL
+120H  04/0000Z 28.0N 144.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 
+$$
+Forecaster Pasch
+ 
+NNNN
+

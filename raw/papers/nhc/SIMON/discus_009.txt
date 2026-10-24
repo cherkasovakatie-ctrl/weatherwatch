@@ -1,0 +1,88 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Simon Discussion Number   9
+NWS National Hurricane Center Miami FL       EP202026
+900 AM CST Fri Oct 09 2026
+ 
+The intensity of Simon has been hard to diagnose this morning. The 
+most recent TAFB Dvorak fix still supported an intensity of 80 kt 
+at 1200 UTC, while all of the objective techniques from UW-CIMSS 
+are lower. Since that time, a warm spot near the center of Simon's 
+small CDO has recently appeared, which appears to be the early 
+development of an eye. Based on the continued improvement in Simon's 
+satellite appearance, the initial intensity has been increased to 85 
+kt for the advisory.
+ 
+Over the next 24 hours, continued rapid intensification is expected. 
+The RI probabilistic guidance (both SHIPS and DTOPS) actually 
+decreased this cycle, but the hurricane is located in a low-shear, 
+high-moisture, and high-SST environment that is conducive for 
+explosive deepening. Furthermore, recent microwave imagery, such as 
+an AMSR3 pass just after 08Z suggests the hurricane has a small 
+inner-core, which makes rapid changes in intensity more likely. 
+Therefore, the NHC forecast is in line with the previous one, above 
+most of the guidance and shows Simon becoming a major hurricane 
+later today.
+ 
+Simon's forecast beyond that is extremely difficult, and this is a 
+case where it is important to not focus on the details of NHC's 
+deterministic forecast. Simon will turn northward this weekend, 
+steered between a deep trough to its northwest and a ridge to the 
+east. This track will take the center of Simon very near or over the 
+Mexican states of Colima and Jalisco. If the center of Simon moves 
+over land, it will quickly weaken and could even dissipate, 
+drastically lessening the risk of hurricane-force-winds farther 
+north in Mexico. However, if the core of Simon remains offshore, it 
+will likely continue northward as a hurricane. A majority of the 
+guidance this morning shows Simon remaining just offshore, however 
+most of these models have historically had a west bias in this 
+region. Likewise, ensemble means like GDM or even HCCA can be 
+misleading when some members move inland and dissipate. This 
+results in the mean being computed solely from the surviving, and 
+in this case farther west, members. The NHC forecast therefore 
+remains within, but on the east side of the guidance envelope, and 
+is best characterized as a hedge between the aforementioned 
+possibilities. 
+ 
+ 
+Key Messages:
+ 
+1. Simon is expected to approach the west-central coast of Mexico
+as a major hurricane on Saturday.
+
+2. Catastrophic wind and life-threatening storm surge impacts are 
+likely along a portion of the west-central coast of Mexico, and a 
+Hurricane warning is in effect from Punta San Telmo to Punta Mita. 
+Preparations to protect life and property should be completed by 
+late today.
+
+3. Heavy rainfall associated with Simon will impact portions of 
+southwestern Mexico through this weekend. This rainfall may produce 
+life-threatening flooding and mudslides, especially in areas of 
+steep terrain.
+
+4. Swells will affect portions of the southwestern and west-central
+coast of Mexico through the weekend. These swells are likely to
+cause life-threatening surf and rip current conditions. Please
+consult products from your local weather office.
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  09/1500Z 16.0N 104.7W   85 KT 100 MPH
+ 12H  10/0000Z 16.5N 104.8W  105 KT 120 MPH
+ 24H  10/1200Z 17.2N 104.9W  125 KT 145 MPH
+ 36H  11/0000Z 18.2N 105.0W  125 KT 145 MPH
+ 48H  11/1200Z 19.4N 105.2W  115 KT 130 MPH
+ 60H  12/0000Z 20.7N 105.4W   95 KT 110 MPH...INLAND
+ 72H  12/1200Z 21.9N 105.6W   75 KT  85 MPH...OVER WATER
+ 96H  13/1200Z 23.6N 106.2W   55 KT  65 MPH...INLAND
+120H  14/1200Z 24.9N 106.9W   30 KT  35 MPH...POST-TROP/INLAND
+ 
+$$
+Forecaster D. Zelinsky
+ 
+NNNN
+

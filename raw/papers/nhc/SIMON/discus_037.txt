@@ -1,0 +1,53 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Simon Discussion Number  37
+NWS National Hurricane Center Miami FL       EP202026
+800 AM MST Fri Oct 16 2026
+ 
+Southwesterly vertical wind shear and dry mid-level air are taking a 
+toll on Simon this morning. An earlier AMSR-3 microwave pass 
+indicated that the mid-level center was displaced to the northeast 
+of the low-level center, a trend also reflected in bursts of deep 
+convection to the north and east of the center over the past 
+several hours. The pass also suggested that the low-level center 
+was slightly farther north than previously estimated, and the 
+initial position was adjusted accordingly. The latest TAFB Dvorak 
+intensity estimate was 2.0/30 kt. However, convective organization 
+has changed little, so the intensity is maintained at 35 kt for this 
+advisory. 
+
+Simon is moving northwestward at 315/8 kt. Given the storm's shallow 
+nature, its motion is being steered by the low- and mid-level flow, 
+characterized by troughing to the west and a mid-level ridge to the 
+northeast. This general motion is expected to continue over the next 
+24-36 h, bringing Simon parallel to the coast of Baja California 
+Sur. Following the northward adjustment of the initial position, the 
+latest NHC track forecast has been shifted slightly to the right of 
+the previous forecast and lies near the corrected consensus (HCCA) 
+track. 
+
+Despite moving over very warm waters (28-30 C), significant 
+southwesterly wind shear and increasingly dry mid-level air are 
+expected to support continued weakening. In fact, simulated 
+satellite imagery from the ECMWF and GFS suggest that Simon may 
+struggle to maintain organized deep convection by late tonight. The 
+official forecast calls for Simon to become a post-tropical remnant 
+low within 24 h, though this transition may occur sooner. 
+Dissipation is expected by 48 h. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  16/1500Z 20.6N 109.5W   35 KT  40 MPH
+ 12H  17/0000Z 21.6N 110.9W   30 KT  35 MPH
+ 24H  17/1200Z 22.7N 112.7W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 36H  18/0000Z 24.0N 114.6W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 48H  18/1200Z...DISSIPATED
+ 
+$$
+Forecaster Adams
+ 
+NNNN
+

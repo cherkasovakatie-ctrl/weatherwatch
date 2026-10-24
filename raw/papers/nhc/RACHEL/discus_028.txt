@@ -1,0 +1,63 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Rachel Discussion Number  28
+NWS National Hurricane Center Miami FL       EP182026
+800 PM MST Sat Oct 03 2026
+ 
+Satellite imagery suggests that Rachel's convective organization has 
+improved since the previous advisory. The hurricane now shows a 
+large, defined eye surrounded by a symmetric ring of deep convection 
+with cloud top temperatures as cold as -80 C. The latest subjective 
+Dvorak estimate from TAFB came in at T4.5/77 kt, closely mirroring 
+many of the UW-CIMSS objective intensity estimates that range from 
+70 to 97 kt. Based on a compromise of these data, the initial 
+intensity is raised to 80 kt.
+ 
+The initial motion continues west-northwestward, or 300/4 kt. 
+Rachel's slow motion over the next two days will be governed by a 
+ridge extending southwestward from a mid- to upper-level high over 
+the western United States. Rachel is forecast to accelerate slightly 
+after 60 h, continuing on a west to west-northwestward trajectory 
+through the remainder of the forecast period. The updated NHC track 
+forecast was largely unchanged from the previous advisory, roughly 
+in between the corrected consensus (HCCA) and the Google DeepMind 
+ensemble mean.
+
+Rachel is forecast to experience weakening in the next 24 h as it 
+enters an unfavorable environment of cooler sea surface temperatures 
+associated with Hurricane Polo's cold wake, moderate northwesterly 
+vertical wind shear, and mid-level dry air. However, the cyclone 
+could be at the early stage of acquiring structural characteristics 
+typical of an annular hurricane, as outer rainbands have dissipated 
+in favor of a thick, uniform central core.  This could temper any 
+weakening, as long as the easterly wind shear remains relatively 
+low, and the new forecast is a bit higher than the last one.  As 
+Rachel continues on a westward motion, vertical wind shear 
+decreases, allowing environmental conditions to improve and offering 
+the chance for some re-intensification through 72 h. Beyond 72 h, 
+however, Rachel should encounter an even drier air mass, with 
+mid-level relative humidity values dipping below 40 percent, 
+alongside SSTs dropping below 26 C.  These conditions are forecast 
+to cause the cyclone to gradually weaken through at the end of the 
+forecast period, similar to the last advisory.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  04/0300Z 20.0N 112.8W   80 KT  90 MPH
+ 12H  04/1200Z 20.3N 113.5W   75 KT  85 MPH
+ 24H  05/0000Z 20.5N 114.7W   70 KT  80 MPH
+ 36H  05/1200Z 20.6N 116.1W   75 KT  85 MPH
+ 48H  06/0000Z 20.6N 117.9W   75 KT  85 MPH
+ 60H  06/1200Z 20.6N 119.5W   70 KT  80 MPH
+ 72H  07/0000Z 20.7N 121.1W   60 KT  70 MPH
+ 96H  08/0000Z 21.6N 124.2W   50 KT  60 MPH
+120H  09/0000Z 22.5N 127.0W   50 KT  60 MPH
+ 
+$$
+Forecaster Pierce/Blake
+ 
+NNNN
+

@@ -1,0 +1,93 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Nolo Discussion Number  22
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+500 PM HST Fri Sep 25 2026
+ 
+The satellite appearance of Nolo has changed little since the last 
+advisory. However, WSR-88D radar data from South Point, Hawaii, 
+indicates that the eye has contracted to a diameter of about 35 n 
+mi. While this suggests some strengthening has occurred, the 
+Doppler velocities have changed little since the last advisory. 
+Based on a blend of earlier aircraft data, satellite intensity 
+estimates, and radar velocities, the initial intensity is held at 
+90 kt. Shear analyses show that Nolo is being affected by 10-15 kt 
+of southeasterly shear, and this may be helping to advect dry air 
+into the circulation as seen in the radar data.
+
+The initial motion is now 010/3. The guidance is in excellent 
+agreement that Nolo should stall and then turn westward in the next 
+12 h or so as mid- to upper-level ridge builds westward north of 
+the Hawaiian Islands.  The track guidance has shifted southward 
+since the last advisory, and the first 60 h of the forecast track 
+are near the northern edge of the guidance envelope.  After 60 h, 
+the hurricane is forecast to turn northward between the ridge and 
+the mid- to upper-level trough currently northwest of Hawaii. By 
+120 h, there is some divergence in the track guidance due to how 
+the tropical cyclone and the trough interact. For now, this portion 
+of the forecast track is similar to the previous track.
+
+Due to the shear and the apparent dry air entrainment, the new 
+intensity forecast has a slower development rate during the first 
+12-24 h. From 24-72 h, the HAFS models continue to forecast Nolo to 
+become a major hurricane. However, the SHIPS models forecast no 
+strengthening whatsoever, and instead they forecast the cyclone to 
+slowly weaken through the forecast period.  This portion of the 
+intensity forecast will lean towards the HAFS models, but it has 
+increasing uncertainty. After 72 h, weakening is expected due
+to the forecast strong southwesterly shear east of the 
+aforementioned trough.
+ 
+ 
+Key Messages:
+ 
+1. Nolo is expected to remain south of the Big Island of Hawaii
+through Saturday before turning westward and moving away from the
+island. Tropical storm conditions are expected to begin on the Big
+Island tonight with hurricane conditions possible on Saturday,
+particularly in areas of steep terrain. Residents should follow
+advice given by local officials, including evacuating if told to do
+so. 
+ 
+2. The time to finish preparations for significant heavy rain and
+flooding impacts on the Big Island is now as heavy rain increases in
+both coverage and intensity late today. Periods of heavy rain are
+expected to continue across the Big Island and Maui through the
+weekend. Life-threatening, catastrophic flooding and mudslides are
+possible, especially in areas of steep terrain across the eastern
+and southern portions of the Big Island and Maui. Across the
+remainder of Hawaii, lesser rainfall totals are expected, with
+isolated flooding possible.
+ 
+3. Large and damaging waves are likely along portions of the
+Big Island's coastline into the weekend.
+ 
+4. A Tropical Storm Watch is in effect for Maui County where
+tropical storm conditions are possible beginning on Saturday.
+Interests elsewhere in Hawaii should closely monitor the latest
+forecast updates and ensure that they have their preparedness plans
+in place. Regardless of the exact track of Nolo, strong and gusty 
+winds are expected for all of the Hawaiian Islands through the 
+weekend.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  26/0300Z 16.9N 155.3W   90 KT 105 MPH
+ 12H  26/1200Z 17.1N 155.5W   90 KT 105 MPH
+ 24H  27/0000Z 17.1N 156.4W   95 KT 110 MPH
+ 36H  27/1200Z 16.9N 157.9W  100 KT 115 MPH
+ 48H  28/0000Z 16.9N 159.8W  110 KT 125 MPH
+ 60H  28/1200Z 17.7N 161.7W  120 KT 140 MPH
+ 72H  29/0000Z 19.1N 163.2W  115 KT 130 MPH
+ 96H  30/0000Z 22.0N 164.5W   90 KT 105 MPH
+120H  01/0000Z 23.6N 165.5W   65 KT  75 MPH
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

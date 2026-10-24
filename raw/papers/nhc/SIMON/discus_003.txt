@@ -1,0 +1,82 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Simon Discussion Number   3
+NWS National Hurricane Center Miami FL       EP202026
+900 PM CST Wed Oct 07 2026
+ 
+Simon has continued to become better organized on satellite imagery 
+over the past 6 hours with a large area of deep convection and 
+improved curved banding.  A recent WSF-M microwave pass also shows 
+improved curved banding structure.  The latest subjective Dvorak 
+classification from TAFB was 3.0/45 kt, and the initial intensity 
+has been raised to 45 kt accordingly, and this could be 
+conservative.
+ 
+Environmental conditions are quite favorable for significant
+intensification.  The SHIPS Rapid Intensity Index indicates greater
+than a 50 percent chance of 55 kt of strengthening over the next   
+48 h.  Most of the hurricane regional models, as well as HCCA and 
+GDMI show significant intensification over the next couple of days, 
+and the NHC intensity forecast has been increased accordingly.  The 
+NHC forecast now indicates a 110 kt intensity at 60 and 72 h, and 
+this is at the high end of the model suite, in good agreement with 
+the HCCA model.
+ 
+The initial motion is west-northwestward, or 290 degrees at 8 kt. 
+Simon is likely to continue this general west-northwestward motion 
+for the next day or so, to the south of a weak mid-level ridge.  By 
+Friday, the system should turn northwestward and then northward 
+ahead of a 500 mb trough approaching Baja California. In 3-5 days, 
+the cyclone should move generally northward between a mid-level 
+anticyclone and the trough near Baja California.  The official 
+forecast track has been shifted a bit to the left from 12-60 hours, 
+but is nearly on top of the previous track from days 3 to 5, and is 
+quite similar to the latest HFIP corrected consensus approach 
+(HCCA).  The forecast takes Simon toward the coast of west-central 
+Mexico as a dangerous major hurricane in a few days.  There is a 
+fair amount of spread in the guidance, and that is important to note 
+because Simon is forecast to be moving nearly parallel to the 
+coastline in about 72 hours when it nears west-central Mexico.  A 
+track farther west would keep Simon over water longer, but a track 
+farther east would mean a sooner landfall.
+ 
+ 
+Key Messages:
+ 
+1. Simon is expected to strengthen into a hurricane by Thursday 
+night and approach the west-central coast of Mexico as a major 
+hurricane on Saturday. There is a risk of dangerous wind and storm 
+surge impacts along portions of this coast over the weekend and into 
+early next week, and watches could be required overnight into early 
+Thursday.
+ 
+2. Heavy rainfall associated with Simon will impact portions of
+southwestern Mexico later this week and into the weekend. This
+rainfall may produce life-threatening flooding and mudslides,
+especially in areas of steep terrain.
+ 
+3. Swells will affect portions of the southwestern and west-central
+coast of Mexico through the weekend.  These swells are likely to
+cause life-threatening surf and rip current conditions.  Please
+consult products from your local weather office.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  08/0300Z 15.6N 102.5W   45 KT  50 MPH
+ 12H  08/1200Z 15.8N 103.6W   60 KT  70 MPH
+ 24H  09/0000Z 16.1N 104.6W   70 KT  80 MPH
+ 36H  09/1200Z 16.4N 105.3W   85 KT 100 MPH
+ 48H  10/0000Z 16.9N 105.5W  100 KT 115 MPH
+ 60H  10/1200Z 17.8N 105.6W  110 KT 125 MPH
+ 72H  11/0000Z 18.9N 105.5W  110 KT 125 MPH
+ 96H  12/0000Z 21.6N 105.8W   90 KT 105 MPH
+120H  13/0000Z 24.2N 106.8W   70 KT  80 MPH...INLAND
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

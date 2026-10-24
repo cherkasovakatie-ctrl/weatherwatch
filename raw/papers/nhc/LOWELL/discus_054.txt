@@ -1,0 +1,71 @@
+
+ZCZC HFOTCDCP4 ALL
+TTAA00 PHFO DDHHMM
+ 
+Tropical Storm Lowell Discussion Number  54
+NWS Central Pacific Hurricane Center Honolulu HI   EP122026
+Issued by NWS National Hurricane Center Miami FL
+500 AM HST Wed Sep 09 2026
+ 
+Infrared satellite imagery over the last several hours suggest that 
+Lowell's convective shield is continuing to deteriorate as drier air 
+wraps into the storm's core. The latest subjective Dvorak intensity 
+estimates from HFO and JTWC classified the system at T3.0/45 kt, 
+while objective estimates from UW-CIMSS ranged from 44-51 kt. Using 
+these estimates and the latest satellite trends, the initial 
+intensity was lowered to 50 kt. 
+
+The initial motion is north-northwestward at 330/11 kt. A mid-level 
+low centered over the north-central Pacific, along with high 
+pressure to its east, is driving Lowell's north-northwestward 
+motion. As the low dissipates, Lowell is expected to turn 
+west-northwestward or westward along the southern flank of the high, 
+then back toward the northwest as it rounds the western edge of the 
+high. The track guidance exhibits significant spread late this week 
+and into the weekend as Lowell becomes wedged between two mid-level 
+ridges, resulting in a weak steering environment. Thus, the latest 
+NHC track forecast is similar to the previous advisory, near the 
+middle of the guidance envelope but given the spread there is low 
+confidence in the extended forecast.
+
+Although the SHIPS guidance indicates that sea surface temperatures 
+will remain relatively steady over the next 48 h, a dry mid-level 
+environment and moderate vertical wind shear should induce gradual 
+weakening. The intensity guidance generally depicts further 
+weakening over the next 36 h, followed by a slight increase in 
+intensity over the weekend when the aforementioned mid-level low 
+could briefly enhance Lowell's convection. However, because the 
+broader environment remains hostile, the NHC intensity forecast 
+shows gradual weakening through the entire period, with the 
+intensity merely leveling off just after 36 h during the anticipated 
+window of favorable trough interaction. The official NHC intensity 
+forecast is unchanged from the previous advisory, and Lowell is 
+still expected to become a post-tropical cyclone early next week.
+
+KEY MESSAGES:
+ 
+1. Post-storm safety: Follow advice of local officials and avoid
+areas of downed power lines and flooding. Ensure generators are
+properly ventilated and placed outside at least 20 feet away from
+dwellings and garages to avoid carbon monoxide poisoning. During
+clean up, be careful when using chainsaws and power tools. Drink
+plenty of water to avoid heat exhaustion.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  09/1500Z 28.1N 162.3W   50 KT  60 MPH
+ 12H  10/0000Z 28.8N 164.0W   50 KT  60 MPH
+ 24H  10/1200Z 29.0N 166.6W   50 KT  60 MPH
+ 36H  11/0000Z 28.8N 168.8W   45 KT  50 MPH
+ 48H  11/1200Z 28.9N 170.4W   40 KT  45 MPH
+ 60H  12/0000Z 29.6N 171.2W   40 KT  45 MPH
+ 72H  12/1200Z 31.0N 171.7W   40 KT  45 MPH
+ 96H  13/1200Z 32.7N 173.4W   35 KT  40 MPH
+120H  14/1200Z 34.0N 175.0W   30 KT  35 MPH...POST-TROPICAL
+ 
+$$
+Forecaster Evans/Kelly
+ 
+NNNN
+

@@ -1,0 +1,120 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Simon Discussion Number  26
+NWS National Hurricane Center Miami FL       EP202026
+200 PM MST Tue Oct 13 2026
+ 
+Simon's structure this afternoon has been more or less steady state 
+as its small eye continues to be discernible on both visible and 
+infrared images. However, the surrounding eyewall cloud top 
+temperatures have warmed a bit this afternoon, though it is unclear 
+if this is a diurnal fluctuation or evidence of some cooler ocean 
+upwelling given its slow motion. The most recent high-resolution 
+microwave image was an WSFM pass at 1338 UTC, which showed a nearly 
+closed eyewall and improvement from earlier imagery. The eye 
+signature can also be picked up on the edge of the Cabo San 
+Lucas, Mexico radar. The D-MINT mean estimate associated with the 
+WSFM pass was 79 kt, and the initial intensity is held at 80 kt 
+this advisory, on the higher end of the intensity estimates. A 
+partial Metop-B scatterometer pass was useful to indicate how 
+compact Simon's wind field has become, with 34-kt winds now only 
+extend out an estimated 30 n mi.
+ 
+The initial motion now appears to be a south of due west drift, or 
+260 degrees at 2 kt. Compared to this morning, the forecast track 
+reasoning has not changed a ton. The small hurricane is currently 
+just on the south side of a saddle point, or col, in the steering 
+flow. Simon's future track is very sensitive to which side of this 
+point the hurricane is located, with light steering currents 
+prevailing leading to slow motion. In the latest round of guidance, 
+all of the hurricane-regional models show a more substantial 
+southward track this afternoon while Simon remains in very light 
+deep-layer southerly steering. While the ECMWF forecast is further 
+north, it was initialized almost a full degree further north of 
+where Simon was located at 12 UTC, placing it over or just on the 
+north side of the saddle point. The Google Deepmind ensembles, which 
+often favors this initialization, jump north in the short term, 
+which appears unrealistic. Thus, the latest NHC track forecast is 
+going to place a little more weight on the hurricane-regional model 
+tracks which had a better initialization, showing a little more 
+southward motion over the next 24-36 h, albeit as a snail's pace. 
+This track still shows a small cyclonic loop and is south of the 
+previous track forecast. After 48 h, the large-scale synoptic 
+pattern finally begins to change, where a deep-layer cutoff low digs 
+into southern California. This pattern will induce more southerly 
+environmental flow over Simon, and should dislodge it from this very 
+stagnant steering pattern assuming it doesn't move as far south as 
+the HAFS-A/B track aids. The NHC track forecast still shows Simon 
+gaining latitude and turning more north-northwest in 60-72 h and 
+lies closest to the HFIP Corrected Consensus Approach (HCCA) track. 
+This could bring Simon closer to the coast of Baja California Sur as 
+it moves up the Gulf of California. However, there remains a wide 
+variety of track solutions that could verify, from well south of 
+Baja California northward to mainland Mexico over the next 5 days.
+ 
+Simon has maintained a relatively healthy appearance today with a 
+well-organized inner core. As stressed earlier, very small 
+hurricanes like Simon are known to be sensitive to small changes in 
+their environmental conditions that could result in rapid changes in 
+intensity, either up or down. Environmental conditions are 
+favorable, with shear over Simon expected to remain low for the next 
+48 h with sea-surface temperatures (SSTs) in the 28-30 C range. 
+Assuming Simon does not completely stall and upwell cooler ocean 
+waters, some intensification could occur. With that said, there is 
+an extreme range of intensity solutions over the next 48 h, from 
+intensifying into a Category 4 hurricane (HAFS-A) to weakening to a 
+tropical storm (HMON). Given the current structure, the latest NHC 
+intensity forecast now shows some intensification, but remains well 
+under the latest HAFS-A forecast and is closest to the ECMWF LGEM 
+guidance. After 48 h, southwesterly vertical wind shear is forecast 
+to increase rather quickly, and the small sensitive Simon is 
+forecast to weaken even as it moves over warmer SSTs when it tracks 
+northward. This latest forecast is initially on the high side of the 
+guidance, but falls back to the middle of the guidance envelope 
+after 
+72 h.
+ 
+It is worth stressing that this remains a very low confidence
+forecast for both track and intensity, and interests in west-central
+Mexico and Baja California Sur should continue to closely monitor
+the latest updates. While mainland Tropical Storm and Hurricane
+watches have been discontinued, new watches and warnings could be
+required over the next day or two as Simon's ultimate forecast comes
+into better focus.
+ 
+ 
+Key Messages:
+ 
+1. Simon could approach Las Islas Marias on Wednesday and the coast
+of western Mexico later this week at or near hurricane strength, and
+a Hurricane Watch is in effect for a portion of these areas.
+Interests in west-central Mexico and Baja California Sur should
+continue to closely monitor the latest updates to Simon's forecast.
+Changes to watches and warnings could be required over the next day 
+or two based on the latest forecast trends.
+ 
+2. Large swells will affect portions of the southwestern and
+west-central coasts of Mexico over the next several days. These
+swells are likely to cause life-threatening surf and rip current
+conditions.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  13/2100Z 20.2N 107.5W   80 KT  90 MPH
+ 12H  14/0600Z 20.0N 107.8W   85 KT 100 MPH
+ 24H  14/1800Z 19.8N 108.1W   90 KT 105 MPH
+ 36H  15/0600Z 19.5N 108.0W   90 KT 105 MPH
+ 48H  15/1800Z 19.8N 107.6W   85 KT 100 MPH
+ 60H  16/0600Z 21.0N 107.8W   70 KT  80 MPH
+ 72H  16/1800Z 22.6N 108.8W   60 KT  70 MPH
+ 96H  17/1800Z 24.4N 110.2W   45 KT  50 MPH...NEAR BAJA CALIFORNIA 
+120H  18/1800Z 28.8N 111.1W   30 KT  35 MPH...POST-TROP/INLAND
+ 
+$$
+Forecaster Papin
+ 
+NNNN
+

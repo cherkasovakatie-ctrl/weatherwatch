@@ -1,0 +1,69 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Marie Discussion Number  11
+NWS National Hurricane Center Miami FL       EP132026
+200 PM PDT Thu Sep 03 2026
+ 
+The convection surrounding the center of Hurricane Marie has
+fluctuated today, with some mid-level dry air now appearing to wrap
+around its center. An earlier WSFM microwave pass depicted a compact
+center of circulation, but north-northeasterly wind shear has
+resulted in less-definition immediately north and east of the core.
+The latest Dvorak intensity estimate from TAFB was 4.5/77 kt, while
+objective intensity estimates have decreased a little from this
+morning, and currently range from 66-81 kt. Recent wind observations
+from the Mexican Navy Weather Station on Clarion Island indicated
+sustained winds near 55 kt with a peak wind gust of 76 kt. Based on
+these observations and the available intensity estimates, the
+initial intensity is maintained at 80 kt for this advisory package.
+ 
+Marie is moving westward at 280/8 kt. A westward to
+west-northwestward motion at a slightly slower forward speed is
+expected during the next 48-72 h as a ridge of high pressure
+prevails to the northwest of the cyclone. Considerable spread
+persists within the track guidance beyond 72 h, largely due to
+differences in how a trough approaching the western United States
+will influence the strength and position of the aforementioned
+ridge. A stronger system moving into the western U.S. would erode
+the ridge more substantially, resulting in a more northward track,
+while a weaker system would allow the ridge to remain stronger and
+favor a more west-northwestward track. Little change was made to the
+track forecast through 72 h. Beyond that time, the forecast was
+shifted to the right of the previous track forecast and is now
+closer to the middle of the track guidance. Confidence in the track
+forecast remains lower than normal.
+ 
+Decreasing wind shear, warm sea surface temperatures of 28-29 C and
+sufficiently moist mid-level air should support some strengthening
+over the next day or so. It is worth noting that the ECMWF and GFS
+SHIPS guidance maintain a small potential for rapid intensification
+during this period, and because of this, the official NHC intensity
+forecast remains near the upper end of the guidance envelope. The
+rate at which Marie weakens will be highly dependent on its eventual
+track. A more northward track would allow the hurricane to remain in
+slightly warmer waters for a longer period, while a more
+west-northwestward track would bring Marie over cooler waters and
+likely lead to faster weakening. The official forecast calls for
+slow weakening during the second half of the weekend, followed by
+more steady weakening early next week.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  03/2100Z 19.3N 115.5W   80 KT  90 MPH
+ 12H  04/0600Z 19.6N 116.6W   85 KT 100 MPH
+ 24H  04/1800Z 20.2N 117.9W   85 KT 100 MPH
+ 36H  05/0600Z 20.9N 119.2W   85 KT 100 MPH
+ 48H  05/1800Z 21.7N 120.3W   80 KT  90 MPH
+ 60H  06/0600Z 22.4N 121.3W   75 KT  85 MPH
+ 72H  06/1800Z 22.8N 122.5W   70 KT  80 MPH
+ 96H  07/1800Z 23.6N 125.6W   60 KT  70 MPH
+120H  08/1800Z 25.0N 128.7W   50 KT  60 MPH
+ 
+$$
+Forecaster Adams
+ 
+NNNN
+

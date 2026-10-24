@@ -1,0 +1,63 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Fausto Discussion Number   6
+NWS National Hurricane Center Miami FL       EP062026
+200 AM PDT Mon Jul 20 2026
+ 
+Although modest northerly vertical wind shear continues to impart a 
+slight tilt to the vortex, a well-established upper-level outflow 
+over the southern semicircle has allowed the convective organization 
+to improve over the past few hours. As a result, the low-level 
+circulation center remains located near the northern edge of the 
+deepest convection, which was confirmed by a recent scatterometer 
+pass. The scatterometer data also sampled peak surface winds of 
+around 45 kt in the southeastern quadrant of the cyclone, which is 
+consistent with the subjective Dvorak intensity estimate from TAFB. 
+Based on the slightly improved satellite presentation and the recent 
+scatterometer data, the initial intensity is raised to 50 kt.
+ 
+The initial motion estimate is toward the west-northwest, or 290/10 
+kt. A strong subtropical ridge is forecast to build westward in the 
+wake of Elida, steering Fausto on a west-northwestward track during 
+the next couple of days. As the ridge strengthens and expands 
+westward, the cyclone is expected to gradually slow and bend 
+slightly more westward through Wednesday. Thereafter, Fausto should 
+resume a west-northwestward motion while accelerating later in the 
+forecast period. The NHC track forecast is very similar to the 
+previous advisory and lies near the multi-model consensus (HCCA) and 
+the Google DeepMind ensemble mean.
+ 
+Although modest northerly shear is likely contributing to Fausto's 
+asymmetric structure, the overall environment remains conducive for 
+strengthening, with warm sea surface temperatures, deep moisture, 
+and improving upper-level conditions. Steady strengthening is 
+expected today, followed by a period of rapid intensification 
+forecast over the next couple of days, with Fausto forecast to 
+become a hurricane within the next 24 hours. The cyclone is expected 
+to reach its peak intensity in about 60 hours or around midweek. 
+Thereafter, guidance suggest that decreasing upper-level divergence 
+and a somewhat drier mid-level environment should induce a gradual 
+weakening trend. The latest NHC intensity forecast remains near the 
+middle of the guidance envelope through about 60 h, then lies near 
+the upper end of the guidance envelope thereafter.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  20/0900Z 12.9N 115.6W   50 KT  60 MPH
+ 12H  20/1800Z 13.8N 116.9W   55 KT  65 MPH
+ 24H  21/0600Z 15.0N 118.3W   70 KT  80 MPH
+ 36H  21/1800Z 15.9N 119.9W   80 KT  90 MPH
+ 48H  22/0600Z 16.4N 121.5W   90 KT 105 MPH
+ 60H  22/1800Z 16.9N 123.1W   95 KT 110 MPH
+ 72H  23/0600Z 17.3N 125.2W   90 KT 105 MPH
+ 96H  24/0600Z 17.9N 130.4W   85 KT 100 MPH
+120H  25/0600Z 18.8N 135.9W   75 KT  85 MPH
+ 
+$$
+Forecaster Gibbs (CPHC)
+ 
+NNNN
+

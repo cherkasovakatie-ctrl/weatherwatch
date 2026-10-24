@@ -1,0 +1,58 @@
+
+ZCZC HFOTCDCP5 ALL
+TTAA00 PHFO DDHHMM
+ 
+Hurricane Karina Discussion Number  36
+NWS Central Pacific Hurricane Center Honolulu HI   EP112026
+Issued by NWS National Hurricane Center Miami FL
+1100 PM HST Fri Sep 04 2026
+ 
+The satellite presentation for Karina continues to look less 
+impressive, as most of the convection on the southern side of the 
+hurricane has dissipated. The combination of wind shear, dry 
+air, and cooler sea-surface temperatures (SSTs) continue to take 
+their toll on the cyclone. The subjective Dvorak intensity 
+estimates from both JTWC and HFO gave a T4.0/65 kt, and the  
+UW-CIMSS objective satellite intensity estimates are in the range 
+of 59-65 kt. Therefore, the intensity for Karina has been brought 
+down to 65 kt for this advisory. 
+ 
+A subtropical ridge to the north of Katrina is steering the 
+hurricane toward the northwest (305/8 kt). A mid- to upper-level 
+trough is expected to weaken the ridge over the next couple of 
+days, which should allow the cyclone to gain some latitude as it 
+moves toward the west-northwest or northwest. Then, a more 
+westward motion is forecast before the system is absorbed well to 
+the north of the Hawaiian Islands by the outer circulation of 
+Hurricane Lowell. The current NHC forecast track is very similar to 
+the previous forecast track with just a few minor adjustments to the 
+track.
+
+Karina is expected to gradually weaken over the next few days as 
+the cyclone moves over marginal SSTs and encounters increasing 
+southwesterly shear and more dry air. The combination of these 
+elements will hinder the develop of convection in the inner core 
+of the system. The current NHC intensity forecast has Karina 
+weakening to a tropical storm Saturday and becoming a post-tropical 
+low around 60 h. This intensity forecast is very close to the most 
+recent multi-model consensus aids (HCCA and IVCN) and is similar to 
+the previous intensity forecast.  
+
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  05/0900Z 21.4N 142.5W   65 KT  75 MPH
+ 12H  05/1800Z 21.9N 143.3W   60 KT  70 MPH
+ 24H  06/0600Z 22.5N 144.2W   55 KT  65 MPH
+ 36H  06/1800Z 23.1N 145.3W   50 KT  60 MPH
+ 48H  07/0600Z 23.5N 146.9W   40 KT  45 MPH
+ 60H  07/1800Z 24.0N 149.0W   35 KT  40 MPH...POST-TROPICAL
+ 72H  08/0600Z 24.6N 151.4W   30 KT  35 MPH...POST-TROPICAL
+ 96H  09/0600Z...DISSIPATED
+ 
+$$
+Forecaster Katz/Beven
+ 
+NNNN
+

@@ -1,0 +1,67 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Fausto Discussion Number  24
+NWS National Hurricane Center Miami FL       EP062026
+1100 AM HST Fri Jul 24 2026
+ 
+The eyewall of Fausto has intermittently opened up this morning as
+intrusions of drier air disrupted the inner core convection. Recent
+satellite images depict a ragged, cloud-filled eye with prominent
+convective banding noted around the eastern and southern sides of
+the circulation. The initial intensity is held at 90 kt for this
+advisory, which is supported by a blend of the latest UW-CIMSS
+ADT/AiDT, D-PRINT, and SATCON estimates.
+ 
+The hurricane continues moving westward (275/13 kt) to the south
+of a narrow mid-level ridge that extends westward across the
+eastern and central Pacific. No major changes to the prevailing
+steering pattern are anticipated, so Fausto should continue on a
+westward to west-northwestward heading at a similar speed while it
+moves into the central Pacific basin and toward the Hawaiian
+Islands. The latest track guidance is slightly slower and a bit
+farther north at 72-120 h, and minor adjustments were made to the
+updated NHC track forecast at these times to account for the trends.
+ 
+Based on the environmental and oceanic conditions along the forecast 
+track, and the latest intensity guidance, additional strengthening 
+seems unlikely. As Fausto continues moving into a drier environment 
+over slightly cooler waters, the models agree that the hurricane 
+should gradually weaken during the next few days. After 72 h, 
+increasing southwesterly shear is expected to increase the rate of 
+weakening on Fausto's approach to Hawaii. In addition, the wind 
+field is predicted to shrink and become more asymmetric on days 4-5, 
+with the strongest winds confined to the northern portion of the 
+circulation. No notable changes were made to the NHC intensity 
+forecast this cycle, and Fausto is still predicted to be a tropical 
+storm when it is in the vicinity of the Hawaiian Islands.
+ 
+ 
+Key Messages:
+ 
+1. Although Fausto is expected to weaken as it approaches the
+Hawaiian Islands during the early to middle portions of next week,
+there is an increasing risk of some impacts from wind and rainfall.
+However, it is too soon to determine the exact location or magnitude
+of these impacts, and interests there should continue to monitor the
+progress of this storm.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  24/2100Z 18.7N 132.7W   90 KT 105 MPH
+ 12H  25/0600Z 18.9N 134.5W   85 KT 100 MPH
+ 24H  25/1800Z 19.3N 136.9W   80 KT  90 MPH
+ 36H  26/0600Z 19.6N 139.1W   75 KT  85 MPH
+ 48H  26/1800Z 19.9N 141.6W   70 KT  80 MPH
+ 60H  27/0600Z 20.2N 144.3W   65 KT  75 MPH
+ 72H  27/1800Z 20.5N 147.2W   60 KT  70 MPH
+ 96H  28/1800Z 21.3N 152.9W   45 KT  50 MPH
+120H  29/1800Z 22.0N 157.5W   35 KT  40 MPH
+ 
+$$
+Forecaster Reinhart
+ 
+NNNN
+

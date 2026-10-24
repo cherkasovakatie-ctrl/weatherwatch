@@ -1,0 +1,51 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Rachel Discussion Number  36
+NWS National Hurricane Center Miami FL       EP182026
+800 PM PDT Mon Oct 05 2026
+ 
+The visible satellite presentation for Rachel has become far less
+impressive than it was earlier today. The eye of the hurricane has
+started to fill in again and the deep convection has become
+asymmetric based on the infrared imagery. Using a combination of
+the objective and subjective intensity estimates, the initial
+intensity has been held at 80 kt for this advisory.
+
+The hurricane is moving westward at 8 kt steered by a high pressure
+system to the north-northeast of the cyclone. This area of high 
+pressure is expected to keep Rachel moving generally westward to 
+west-northwestward for the next several days. However, towards the 
+end of the week, that high pressure system should weaken as a mid- 
+to upper-level trough amplifies near the west coast of the United 
+States. As a result, Rachel is expected to slow down and then turn 
+northeastward at the end of the forecast period. The current NHC 
+forecast track is similar to the previous track, but adjusted based 
+on the HCCA and GDMI forecast aids.
+
+The cyclone is expected to move into a region with drier air and 
+significantly cooler sea-surface temperatures. Therefore, the 
+current NHC intensity forecast has Rachel progressively weakening in 
+a similar trend to the previous forecast. The intensity forecast is 
+on the upper end of the guidance envelope, but is very close to the 
+HCCA forecast aid. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  06/0300Z 20.4N 117.9W   80 KT  90 MPH
+ 12H  06/1200Z 20.5N 119.0W   80 KT  90 MPH
+ 24H  07/0000Z 20.6N 120.3W   75 KT  85 MPH
+ 36H  07/1200Z 21.0N 121.7W   70 KT  80 MPH
+ 48H  08/0000Z 21.5N 123.0W   65 KT  75 MPH
+ 60H  08/1200Z 21.8N 124.4W   60 KT  70 MPH
+ 72H  09/0000Z 22.2N 125.4W   55 KT  65 MPH
+ 96H  10/0000Z 22.7N 125.7W   45 KT  50 MPH
+120H  11/0000Z 24.2N 122.6W   35 KT  40 MPH...POST-TROPICAL
+ 
+$$
+Forecaster Katz/Pasch
+ 
+NNNN
+

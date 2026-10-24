@@ -1,0 +1,72 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Trudy Discussion Number  22
+NWS National Hurricane Center Miami FL       EP212026
+200 PM MST Sun Oct 18 2026
+
+An Air Force Reserve Hurricane Hunter aircraft investigating Trudy 
+this afternoon found maximum 700 mb flight-level winds of 95 kt in 
+the northeast eyewall, with a dropsonde in that area suggesting 
+surface winds of about 85 kt. The minimum central pressure was near 
+974 mb. Thus, the initial intensity is lowered to 85 kt.  During 
+the last hour or so, the hurricane's cloud pattern has started to 
+lose organization, and this is likely a sign of the forecast 
+increasing shear and the upcoming weakening trend.
+ 
+The initial motion northwestward at a slower forward speed or 325/5 
+kt. A turn toward the west-northwest at an even slower forward 
+speed is forecast as Trudy shears apart vertically and becomes 
+steered by the lighter low- to mid-level flow. The new forecast 
+track is similar to the previous track and lies near the center of 
+the guidance envelope. On the forecast track, the hurricane will 
+move away from southwest and west-central Mexico this afternoon and 
+then move slowly south of Baja California Sur on Monday and Tuesday.
+
+Trudy is starting to encounter increasing southwesterly shear and a 
+drier and more stable airmass. The dynamical intensity guidance 
+forecasts this combination to cause rapid weakening starting near 
+the 12 h point at the latest, and the intensity forecast follows 
+the trend of this guidance. The new forecast follows the previous 
+forecast in showing Trudy degenerating to a post-tropical cyclone 
+by 60 hours and dissipating in 3 or 4 days. Both of these could 
+occur sooner than currently predicted.
+ 
+ 
+KEY MESSAGES:
+ 
+1. Although tropical storm conditions are moving away from the 
+Mexican coast, gusts to tropical storm-force are possible this 
+afternoon and evening over portions of the coast of west-central 
+Mexico and the Islas Marias.
+ 
+2. Coastal flooding due to storm surge should subside this 
+afternoon and tonight.
+ 
+3. Heavy rainfall associated with Trudy will continue to impact the 
+southwest Mexican coast in Jalisco through tonight. This rainfall 
+may produce areas of flooding and mudslides, especially in areas 
+along steep terrain.
+ 
+4. Large swells will continue to affect the coast of southwestern
+Mexico and west-central Mexico during the next two to three days, 
+causing life-threatening surf and rip current conditions.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  18/2100Z 19.5N 107.0W   85 KT 100 MPH
+ 12H  19/0600Z 19.9N 107.4W   80 KT  90 MPH
+ 24H  19/1800Z 20.1N 108.0W   65 KT  75 MPH
+ 36H  20/0600Z 20.3N 108.7W   50 KT  60 MPH
+ 48H  20/1800Z 20.7N 109.3W   40 KT  45 MPH
+ 60H  21/0600Z 21.4N 109.7W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 72H  21/1800Z 21.9N 110.2W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 96H  22/1800Z...DISSIPATED
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

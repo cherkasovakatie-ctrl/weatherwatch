@@ -1,0 +1,70 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Trudy Discussion Number  21
+NWS National Hurricane Center Miami FL       EP212026
+800 AM MST Sun Oct 18 2026
+
+Trudy has changed little in organization during the past few hours. 
+The hurricane has a well-defined central dense overcast with cloud 
+tops colder than -80C, and there have been occasional attempts at 
+eye formation. The various subjective and objective satellite 
+intensity estimates have an unusually large spread from 62-102 kt, 
+but there has been little change in them since the previous 
+advisory. Thus, the initial intensity is held at 90 kt.
+
+The initial motion is still northwestward or 325/7 kt. This motion 
+should continue today, followed by a turn toward the west-northwest 
+at a slower forward speed as Trudy shears apart vertically and 
+becomes steered by the lighter low- to mid-level flow. The new 
+forecast track is similar to, but a little west of the previous 
+track. On the forecast track, the hurricane will move away from 
+southwest and west-central Mexico starting this afternoon and then 
+move slowly south of Baja California Sur on Monday and Tuesday.
+
+The hurricane is about to encounter increasing southwesterly shear 
+and a drier and more stable airmass. The dynamical intensity 
+guidance forecasts this combination to cause rapid weakening 
+beginning just after 12 h, and the intensity forecast follows the 
+trend of this guidance. The new forecast follows the previous 
+forecast, showing Trudy degenerating to a post-tropical cyclone by 
+60 hours and dissipating in 3 or 4 days. And as mentioned 
+previously, both of these could occur sooner than currently 
+predicted.
+
+
+KEY MESSAGES:
+ 
+1. Tropical storm conditions are expected in the tropical storm 
+warning area today.
+ 
+2. A dangerous storm surge accompanied by damaging waves is likely
+in areas of onshore winds within the warning areas.
+ 
+3. Heavy rainfall associated with Trudy will continue to impact the 
+southwest Mexican coast between Colima and Nayarit through today. 
+This rainfall may produce life-threatening flooding and mudslides, 
+especially in areas along steep terrain.
+ 
+4. Large swells will continue to affect the coast of southwestern
+Mexico and west-central Mexico during the next few days, causing
+life-threatening surf and rip current conditions.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  18/1500Z 19.1N 106.8W   90 KT 105 MPH
+ 12H  19/0000Z 19.7N 107.2W   85 KT 100 MPH
+ 24H  19/1200Z 20.1N 107.8W   70 KT  80 MPH
+ 36H  20/0000Z 20.3N 108.4W   55 KT  65 MPH
+ 48H  20/1200Z 20.6N 109.0W   40 KT  45 MPH
+ 60H  21/0000Z 21.2N 109.6W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 72H  21/1200Z 21.7N 110.0W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 96H  22/1200Z...DISSIPATED
+ 
+$$
+Forecaster Beven
+ 
+NNNN
+

@@ -1,0 +1,103 @@
+
+ZCZC HFOTCDCP2 ALL
+TTAA00 PHFO DDHHMM
+ 
+Tropical Storm Nolo Discussion Number  15
+NWS Central Pacific Hurricane Center Honolulu HI   EP152026
+Issued by NWS National Hurricane Center Miami FL
+1100 PM HST Wed Sep 23 2026
+ 
+Nolo's convective organization has gradually improved during the 
+past several hours, with a curved band of persistent deep convection 
+tightening around the circulation center. The latest subjective 
+Dvorak intensity estimates from JTWC and HFO are both T2.5/35 kt, 
+while objective intensity estimates range from 35 to 55 kt. Given 
+the improved convective organization and the higher objective 
+estimates, the initial intensity is raised to 45 kt.
+ 
+Nolo has slowed considerably and appears to be making its 
+anticipated northward turn, with an initial motion of 360/2 kt. A 
+weakening subtropical ridge northeast of Hawaii should allow Nolo to 
+continue moving slowly northward into Thursday, followed by a 
+north-northeastward motion as an upper-level trough deepens 
+northwest of the Hawaiian Islands. As the trough shifts westward and 
+the subtropical ridge rebuilds north of the cyclone, Nolo is 
+forecast to make a sharp westward turn Friday night into Saturday. 
+The latest GDMI and HCCA guidance has shifted slightly northward, 
+bringing the system closer to the Big Island. Given the run-to-run 
+inconsistencies in the guidance, the NHC track forecast is 
+essentially an update of the previous advisory and shows Nolo 
+passing south of the Big Island on Saturday before continuing 
+westward south of the smaller Hawaiian Islands through the latter 
+portion of the weekend. However, considerable uncertainty remains 
+regarding the influence of the deepening upper-level trough on 
+Nolo's track, as well as the timing and strength of the subtropical 
+ridge rebuilding north of the cyclone. Even relatively small 
+differences in the evolution of these steering features could 
+significantly alter the timing and location of Nolo's sharp westward 
+turn and, ultimately, how close its center passes to the Big Island. 
+A track closer to the Big Island could also result in interactions 
+with the island's terrain that could further influence the cyclone's 
+subsequent motion. Given these uncertainties, confidence in the 
+track forecast remains lower than normal.
+ 
+Environmental conditions remain favorable for strengthening, with
+very warm sea surface temperatures and plenty of mid-level moisture
+along the forecast track. However, around 10 kt of easterly vertical
+wind shear may temper the rate of intensification during the next 24
+h or so. As the shear relaxes and Nolo continues to develop an inner
+core, a faster rate of intensification is forecast while the cyclone
+moves northward to north-northeastward during the next couple of
+days. These conditions could support a period of rapid
+intensification, and Nolo is forecast to become a hurricane by
+Thursday night and reach major hurricane strength on Saturday as it
+passes south of the Big Island. The latest NHC intensity forecast
+hovers near the upper end of the guidance envelope throughout the
+forecast period. A track closer to the Big Island could
+substantially increase the threat of damaging winds, particularly
+over higher terrain, along exposed ridges, and in areas downwind of
+the ridges. 
+ 
+Key Messages:
+ 
+1. Tropical Storm Nolo is expected to strengthen into a hurricane by 
+Thursday night as it moves northward to north-northeastward, 
+potentially making its closest approach to the Big Island of Hawaii 
+as a major hurricane on Saturday. A Hurricane Watch remains in 
+effect for the Big Island, and residents there should follow advice 
+given by local officials, including evacuating if told to do so.
+
+2. The time to prepare for significant heavy rain and flooding 
+impacts on the Big Island is now, as heavy rain becomes more likely 
+by Thursday and Friday. Periods of heavy rain are likely to continue 
+across the Big Island and Maui through the weekend. 
+Life-threatening, catastrophic flooding and mudslides are possible, 
+especially in areas of steep terrain across the Big Island and Maui. 
+Across the remainder of Hawaii, lesser rainfall totals are expected, 
+with isolated flooding possible.
+
+3. Large and damaging waves are possible along portions of the
+Big Island's coastline into the weekend.
+
+4. Interests elsewhere in Hawaii should closely monitor the latest
+forecast updates and ensure that they have their preparedness plans
+in place.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  24/0900Z 14.9N 156.0W   45 KT  50 MPH
+ 12H  24/1800Z 15.1N 156.0W   55 KT  65 MPH
+ 24H  25/0600Z 15.8N 155.7W   65 KT  75 MPH
+ 36H  25/1800Z 16.7N 155.4W   75 KT  85 MPH
+ 48H  26/0600Z 17.3N 155.3W   85 KT 100 MPH
+ 60H  26/1800Z 17.6N 155.8W   95 KT 110 MPH
+ 72H  27/0600Z 17.6N 157.1W  105 KT 120 MPH
+ 96H  28/0600Z 18.1N 160.8W  105 KT 120 MPH
+120H  29/0600Z 20.3N 163.7W   95 KT 110 MPH
+ 
+$$
+Forecaster Gibbs
+ 
+NNNN
+

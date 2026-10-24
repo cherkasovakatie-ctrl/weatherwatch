@@ -1,0 +1,68 @@
+
+ZCZC MIATCDAT4 ALL
+TTAA00 KNHC DDHHMM
+ 
+Post-Tropical Cyclone Isaias Discussion Number  15
+NWS National Hurricane Center Miami FL       AL092026
+400 AM CDT Sat Oct 10 2026
+
+Isaias has very rapidly weakened over Alabama and has transitioned 
+into a post-tropical cyclone.  Satellite images show that all deep 
+convection has been scoured well northward away from the low-level 
+center, with a warm front extending eastward from the former 
+tropical cyclone.  Thus this is the last advisory on Isaias, with 
+an initial intensity of 30 kt set from surface observations.  
+
+The cyclone should move northward and north-northeastward this 
+weekend and gradually weaken as it moves across the Tennessee and 
+Ohio Valleys.  No significant changes were made to the track or 
+intensity forecasts, except lower wind speed on day 1.  Note there 
+is still a risk of some high wind gusts over the southern 
+Appalachians as the cyclone moves just to the west of those 
+mountains, along with the potential for heavy rain causing flash 
+floods.
+
+This is the last tropical cyclone discussion issued by the National 
+Hurricane Center on this system.  Future information on this system 
+can be found in discussions issued by the Weather Prediction Center 
+beginning at 1000 AM CDT, under AWIPS header TCDAT4, WMO header 
+WTNT44 KWNH, and on the web at www.hurricanes.gov.
+
+Rainfall forecasts for the United States are at:
+https://www.wpc.ncep.noaa.gov/qpf/qpf2.shtml 
+and outlooks of flash flood risks can be found at 
+https://www.wpc.ncep.noaa.gov/qpf/excessive_rainfall_outlook_ero.php
+ 
+ 
+Key Messages:
+ 
+1. Heavy rainfall associated with the post-tropical remnants of 
+Isaias will be spreading quickly northward into the Tennessee 
+Valley, Southern Appalachians and Southeast today.  Considerable 
+flash and urban flooding will be possible. Landslides are also 
+possible across the Southern Appalachians.   Additional heavy rains 
+are possible across portions of Northwest Florida and heavy rains 
+are also possible across coastal Southwest Florida, resulting in 
+flash and urban flooding.
+
+2. Post-storm safety:  Follow advice of local officials and avoid
+areas of downed power lines and flooding. Ensure generators are 
+properly ventilated and placed outside at least 20 feet away from 
+dwellings and garages to avoid carbon monoxide poisoning. During 
+clean up, be careful when using chainsaws and power tools. Drink 
+plenty of water to avoid heat exhaustion.
+
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  10/0900Z 32.0N  86.5W   30 KT  35 MPH...POST-TROPICAL
+ 12H  10/1800Z 33.7N  86.7W   25 KT  30 MPH...POST-TROP/INLAND
+ 24H  11/0600Z 35.2N  86.0W   25 KT  30 MPH...POST-TROP/INLAND
+ 36H  11/1800Z 37.6N  82.7W   20 KT  25 MPH...POST-TROP/INLAND
+ 48H  12/0600Z...DISSIPATED
+ 
+$$
+Forecaster Blake
+ 
+NNNN
+

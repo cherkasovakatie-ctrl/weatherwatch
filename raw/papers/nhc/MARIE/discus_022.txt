@@ -1,0 +1,64 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Marie Discussion Number  22
+NWS National Hurricane Center Miami FL       EP132026
+800 AM PDT Sun Sep 06 2026
+
+Marie has become less organized since the previous advisory and no 
+longer has an eye.  In fact, the northwest quadrant is completely 
+void of deep convection.  The latest subjective and objective 
+satellite intensity estimates range from 59-77 kt.  The initial 
+intensity is lowered to 70 kt for this advisory.
+
+The initial motion estimate is northwestward, or 310 degrees at 8 
+kt. Marie is currently feeling some pull by a mid- to upper-level 
+trough currently over the U.S. west coast.  As that trough moves 
+eastward on Monday and loosens its grip on Marie, the cyclone should 
+turn back toward the west-northwest for a day or so.  Then, another 
+mid- to upper-level low will strengthen over the Pacific to the 
+northwest of Marie, causing a turn back toward the northwest, or 
+possibly north-northwest on Tuesday.  The NHC track forecast is very 
+similar to the previous one and closely follows the HFIP Corrected 
+Consensus (HCCA) and Google DeepMind Ensemble Mean (GDMI).  Based on 
+the spread in the guidance, confidence in the track forecast is near 
+average.
+ 
+Marie has already crossed the 26C isotherm, and currently resides 
+within a dry, low-shear environment.  Marie will move into steadily 
+decreasing water temperatures and even drier air over the next few 
+days.  Around hour 48, southwesterly vertical wind shear will 
+increase significantly as Marie approaches the aforementioned mid- 
+to upper-level low to its northwest.  A slightly lower intensity is 
+shown in the 12-36 hour time period, mainly due to the weaker 
+initial intensity along with expected steady weakening over the next 
+couple of days, although the NHC intensity forecast is still at the 
+high end of model suite during that time.  Marie could hang on as a 
+35-40 kt tropical storm in the 48 to 72 h period as the upper-level 
+low may briefly provide some favorable dynamics before the shear 
+becomes too strong.  The simulated satellite imagery from the GFS 
+and ECMWF models suggest that Marie should lose its convection and 
+become a post-tropical remnant low just beyond the hour 72 point, so 
+NHC will continue to show post-tropical after that time.  After the 
+system becomes post-tropical, global models show it weakening and 
+dissipating in 4 to 5 days.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  06/1500Z 23.5N 122.5W   70 KT  80 MPH
+ 12H  07/0000Z 24.1N 123.2W   60 KT  70 MPH
+ 24H  07/1200Z 24.7N 124.3W   50 KT  60 MPH
+ 36H  08/0000Z 25.3N 125.7W   45 KT  50 MPH
+ 48H  08/1200Z 26.3N 127.0W   40 KT  45 MPH
+ 60H  09/0000Z 27.7N 127.9W   40 KT  45 MPH
+ 72H  09/1200Z 29.7N 128.9W   35 KT  40 MPH
+ 96H  10/1200Z 33.6N 131.6W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  11/1200Z...DISSIPATED
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

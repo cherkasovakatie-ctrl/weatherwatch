@@ -1,0 +1,93 @@
+
+ZCZC MIATCDAT4 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Depression Nine Discussion Number   1
+NWS National Hurricane Center Miami FL       AL092026
+400 PM CDT Tue Oct 06 2026
+ 
+Satellite imagery indicates that the area of low pressure located
+over the southwestern Gulf of America has recently developed a
+closed circulation, though it might still be elongated. Associated
+showers and thunderstorms have also become better organized, and
+this system now meets the criteria to be a tropical depression, the
+ninth one of the season. The initial intensity is set at 30 kt based
+on a Dvorak classification from TAFB.
+ 
+The depression has barely moved over the past 6 to 12 hours, with 
+the initial motion estimated to be 120/1 kt. The cyclone is expected 
+to track slowly eastward or east-northeastward during the next 
+couple of days while it moves in the flow near the base of a broad 
+deep-layer trough, and could bring gusty winds and heavy rains to 
+the western portions of the Yucatan Peninsula on Thursday. By 
+Friday, a sharp turn to the northeast is expected when a shortwave 
+trough forms over Texas and a ridge strengthens over the western 
+Atlantic. This pattern change should cause the system to accelerate 
+toward the northern Gulf Coast on Friday and into early Saturday. 
+The NHC track forecast lies near the fast side of the guidance, in 
+best agreement with the GDMI and ECAI aids. It should be noted that 
+there is significant uncertainty in where the system makes the 
+northeast turn and how fast it moves toward the coast. It appears 
+that the stronger the system gets, the faster it will move toward 
+the coast given the strength of the deep-layer flow. The NOAA G-IV 
+jet is currently sampling the environment and special upper-air 
+soundings are being deployed over the south-central U.S. The 
+assimilation of these data into the dynamical models should improve 
+their representation of the current environmental conditions, 
+ideally yielding more reliable track and intensity guidance.
+ 
+The environmental conditions appear generally conducive for
+strengthening over the next few days, and given that the storm
+appears compact, it will likely steadily strengthen during that
+time. The NHC intensity forecast shows the system becoming a
+tropical storm by early Wednesday and a hurricane on Thursday. Based
+on the environmental conditions and the model guidance, the cyclone
+will likely peak in strength before reaching the coast. Although not
+seen in the forecast, some weakening seems likely when the storm
+nears the Gulf Coast due to an increase in vertical wind shear, but
+it is still expected to be a dangerous hurricane when it makes
+landfall. This forecast is in fair agreement with the consensus
+aids, but it should be noted that there are skillful models that are
+higher than the current forecast.
+ 
+Although the storm is expected to be compact for the next few days,
+it will likely grow significantly in size, particularly on the
+eastern side, when it reaches the northern Gulf Coast. Therefore,
+based on the forecast uncertainty and expected larger size, users
+are urged not to focus on the forecast points and stay tuned to
+updates.
+ 
+Key Messages:
+ 
+1. There is an increasing risk of dangerous wind and storm surge 
+impacts along portions of the northern Gulf Coast, and watches could 
+be required on Wednesday. Residents from Louisiana to the Florida 
+Panhandle should closely monitor the latest forecast updates and 
+ensure they have their hurricane plan in place.
+ 
+2. The system will bring areas of heavy rainfall to the central 
+U.S. Gulf coast Friday into the weekend.  Flash and urban flooding, 
+along with isolated river flooding, will be possible.
+ 
+3. Yucatan Peninsula of Mexico: The depression is expected to
+strengthen and could bring gusty winds and areas of heavy rain to
+the western portion of the Yucatan Peninsula in a couple of days.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  06/2100Z 22.1N  95.6W   30 KT  35 MPH
+ 12H  07/0600Z 22.1N  95.0W   35 KT  40 MPH
+ 24H  07/1800Z 22.6N  93.4W   45 KT  50 MPH
+ 36H  08/0600Z 23.1N  91.8W   55 KT  65 MPH
+ 48H  08/1800Z 24.2N  90.1W   70 KT  80 MPH
+ 60H  09/0600Z 25.9N  88.8W   80 KT  90 MPH
+ 72H  09/1800Z 28.5N  88.3W   85 KT 100 MPH
+ 96H  10/1800Z 34.0N  88.7W   30 KT  35 MPH...INLAND
+120H  11/1800Z 38.9N  86.5W   20 KT  25 MPH...POST-TROP/INLAND
+ 
+$$
+Forecaster Cangialosi
+ 
+NNNN
+

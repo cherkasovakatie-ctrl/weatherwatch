@@ -1,0 +1,57 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Marie Discussion Number  24
+NWS National Hurricane Center Miami FL       EP132026
+800 PM PDT Sun Sep 06 2026
+ 
+Marie continues to gradually lose strength due to cool waters and
+intrusions of dry air. The system still has a ragged eye feature,
+but it has been losing definition over the past several hours. In
+addition, deep convection around the center is decreasing in
+intensity and coverage. The satellite intensity estimates have been
+dropping and currently range from about 45 to 65 kt. Based on a
+blend of that data and Marie's degraded appearance, the initial wind
+speed is lowered to 60 kt, making Marie a tropical storm.
+ 
+The storm is moving slowly northwestward. A general northwestward 
+motion with some increase in forward speed is expected over the 
+next few days as Marie moves into a weakness in the subtropical 
+ridge toward a mid- to upper-level low. Little change was made to 
+the previous track forecast, and this prediction lies on the 
+northern side of the guidance envelope, in best agreement with HCCA 
+and GDMI.
+
+Additional steady weakening is expected as Marie moves over 
+progressively cooler waters and into an even drier air mass over 
+the next few days. In addition, southwesterly vertical wind shear 
+is anticipated to notably increase beginning Tuesday. The 
+combination of these factors should lead to Marie degenerating into 
+a remnant low, which is now predicted to occur by 60 hours. The NHC 
+intensity forecast is similiar to the previous one and generally in 
+line with the bulk of the model guidance.
+
+Even though Marie is well away from land, large swells from the 
+storm have been affecting portions of the coast of the Baja 
+California Peninsula and southern California. These conditions 
+will likely continue to cause dangerous beach conditions over the 
+next couple of days.  
+
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  07/0300Z 24.2N 123.2W   60 KT  70 MPH
+ 12H  07/1200Z 24.6N 124.0W   50 KT  60 MPH
+ 24H  08/0000Z 25.1N 125.3W   45 KT  50 MPH
+ 36H  08/1200Z 26.0N 126.5W   40 KT  45 MPH
+ 48H  09/0000Z 27.4N 127.5W   35 KT  40 MPH
+ 60H  09/1200Z 29.4N 128.5W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 72H  10/0000Z 31.6N 129.7W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 96H  11/0000Z 35.3N 133.3W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  12/0000Z...DISSIPATED
+ 
+$$
+Forecaster Cangialosi
+ 
+NNNN
+

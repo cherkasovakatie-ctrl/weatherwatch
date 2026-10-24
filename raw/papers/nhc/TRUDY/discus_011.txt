@@ -1,0 +1,94 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Trudy Discussion Number  11
+NWS National Hurricane Center Miami FL       EP212026
+900 PM CST Thu Oct 15 2026
+ 
+The latest satellite imagery of Trudy continues to show a core of 
+deep convection with cloud tops near -80C, particularly on the 
+western side of the circulation. During the past few hours, an eye 
+feature has become apparent on infrared and proxy-vis imagery. 
+Unfortunately, there have not been any recent microwave passes to 
+provide a better assessment of the core structure since the Air 
+Force Hurricane Hunters departed earlier this afternoon. The latest 
+subjective Dvorak satellite intensity estimate from TAFB is T5.0/90 
+kt, while UW-CIMSS objective intensity estimates have a fairly large 
+spread of 65-81 kt. Given the improved satellite presentation since 
+the previous advisory, with an eye-like feature, and the TAFB 
+classification, the initial intensity is raised to 90 kt.
+ 
+The initial motion is north-northwestward, or 345/6 kt. Trudy is 
+moving generally north-northwestward into a weakness in the 
+subtropical ridge caused by an upper-level trough over the Yucatan 
+Peninsula. As the trough moves eastward, the ridge is forecast to 
+build over central Mexico, steering Trudy northwestward to 
+north-northwestward along its western periphery and roughly parallel 
+to the coast of southwestern and west-central Mexico. Most of the 
+track guidance keeps the center just offshore, with the exception of 
+the GFS, which brings the center inland. After 72 h, a mid-level 
+ridge to the north of the system is expected to build, turning Trudy 
+more westward. The latest NHC track forecast is very similar to the 
+previous advisory through 60 h, but has been adjusted slightly north 
+thereafter, leaning toward the HCCA and GDMI aids.
+ 
+Environmental conditions are favorable for steady to rapid 
+intensification during the next day or so. Sea surface temperatures 
+are near 29-30C, combined with low vertical wind shear and abundant 
+mid-level moisture. The NHC peak intensity forecast still remains at 
+125 kt, which is above all the intensity guidance. The SHIPS Rapid 
+Intensification (RI) index still shows a 20 to 30 percent chance of 
+RI over the next 24 h, and the NHC forecast explicitly reflects RI 
+during that time frame. After 36-48 h, increasing southwesterly wind 
+shear, potential internal structural changes, such as eyewall 
+replacement cycles, and land interaction will begin to disrupt the 
+circulation, inducing a weakening trend. Regardless, Trudy is 
+forecast to be a powerful major hurricane as it nears west-central 
+Mexico. It is worth noting that the intensity forecast is highly 
+sensitive to the exact track. A track farther to the left and 
+offshore would allow Trudy to remain stronger than currently 
+forecast, while a track that brings the center inland would result 
+in rapid weakening. Beyond 72 h, strong shear should cause continued 
+weakening, even though the system will have less land interaction as 
+it moves farther offshore. The NHC intensity forecast lies near the 
+upper end of the guidance initially, then trends toward the HCCA 
+corrected consensus by the end of the forecast period.
+   
+KEY MESSAGES:
+ 
+1. Trudy is forecast to be a major hurricane as it approaches the 
+coast of southwestern and west-central Mexico this weekend, bringing 
+an increasing risk of storm surge, damaging winds, and flooding 
+rain. Hurricane Watches and Tropical Storm Warnings are currently in 
+effect for portions of the coast, and additional watches and 
+warnings will likely be required on Friday.
+ 
+2. Heavy rainfall associated with Trudy will impact the southwest 
+Mexican coast between Guerrero and Jalisco through the weekend. This 
+rainfall may produce life-threatening flooding and mudslides by the 
+weekend along and near the southwest Mexican coast in Michoacán, 
+Colima, and Jalisco, especially in areas along steep terrain.
+ 
+3. Large swells will begin to affect portions of the coast of
+southwestern Mexico Friday and continue through the weekend. These
+swells could cause life-threatening surf and rip current conditions.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  16/0300Z 14.3N 102.1W   90 KT 105 MPH
+ 12H  16/1200Z 15.0N 102.3W  105 KT 120 MPH
+ 24H  17/0000Z 15.9N 102.8W  120 KT 140 MPH
+ 36H  17/1200Z 17.1N 103.7W  125 KT 145 MPH
+ 48H  18/0000Z 18.4N 104.8W  115 KT 130 MPH
+ 60H  18/1200Z 19.7N 105.7W  100 KT 115 MPH
+ 72H  19/0000Z 20.7N 106.4W   85 KT 100 MPH
+ 96H  20/0000Z 21.0N 107.6W   55 KT  65 MPH
+120H  21/0000Z 21.3N 108.8W   50 KT  60 MPH
+ 
+$$
+Forecaster Kelly
+ 
+NNNN
+

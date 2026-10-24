@@ -1,0 +1,56 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Karina Discussion Number  21
+NWS National Hurricane Center Miami FL       EP112026
+500 AM HST Tue Sep 01 2026
+ 
+Karina remains a powerful category 4 hurricane, although there are 
+some signs that the cyclone might be near its peak intensity. Over 
+the past few hours, the eye has become cloud-filled and the 
+convective pattern is not quite as symmetric. A blend of the latest 
+satellite intensity estimates supports maintaining the initial 
+intensity at 120 kt.  Despite being very strong, the overall cloud 
+pattern and wind field are relatively compact. 
+
+The major hurricane is moving westward at about 10 kt. A general 
+slow westward to west-northwestward motion is expected during the 
+next 3 to 4 days as a narrow mid-level ridge remains situated to the 
+north of the hurricane. Over the weekend, a turn to the northwest 
+seems likely as the ridge shifts eastward and as the cyclone 
+approaches a mid- to upper-level low north of Hawaii. Little change 
+was made to the previous track forecast, except for a nudge to the 
+north toward the end of the period. This track forecast is based on 
+a blend of the HCCA, GDMI, and TVCN models. It should be noted that 
+there is a fair amount of spread from days 3 to 5, and confidence in 
+that part of the track forecast is lower than average.
+
+Karina is forecast to gradually lose strength over the next several 
+days. Although the wind shear is expected to remain low for the 
+next few days, progressively cooler SSTs and decreasing relative 
+humidity values should cause steady weakening. However, the 
+hurricane could become annular, which might cause it to weaken at a 
+slower pace than average. The models are unanimous in showing 
+weakening, but vary on the rate. The NHC intensity forecast is 
+similar to the previous one, and lies a little above the model 
+consensus. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  01/1500Z 18.1N 129.0W  120 KT 140 MPH
+ 12H  02/0000Z 18.3N 130.4W  115 KT 130 MPH
+ 24H  02/1200Z 18.8N 132.4W  105 KT 120 MPH
+ 36H  03/0000Z 19.2N 134.2W   95 KT 110 MPH
+ 48H  03/1200Z 19.5N 136.1W   85 KT 100 MPH
+ 60H  04/0000Z 19.8N 137.9W   80 KT  90 MPH
+ 72H  04/1200Z 20.1N 139.8W   75 KT  85 MPH
+ 96H  05/1200Z 21.1N 143.4W   65 KT  75 MPH
+120H  06/1200Z 22.8N 146.2W   60 KT  70 MPH
+ 
+$$
+Forecaster Cangialosi
+ 
+NNNN
+

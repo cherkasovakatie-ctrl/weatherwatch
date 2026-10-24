@@ -1,0 +1,50 @@
+
+ZCZC HFOTCDCP5 ALL
+TTAA00 PHFO DDHHMM
+ 
+Tropical Storm Karina Discussion Number  40
+NWS Central Pacific Hurricane Center Honolulu HI   EP112026
+Issued by NWS National Hurricane Center Miami FL
+1100 PM HST Sat Sep 05 2026
+ 
+The environment around Karina continues to hinder the cyclone, based
+on the data from the satellite imagery via southerly vertical wind
+shear, dry air, and cool sea-surface temperatures. The low-level
+center remains exposed and what is left of the convection is still
+limited to the north side of the storm. The subjective Dvorak fixes
+from JTWC and HFO give T2.5/35 kt and the objective intensity
+estimates from UW-CIMSS are in the range of 27-49 kt. However ASCAT
+fixes from Metop-B and Metop-C have shown that there is a cluster of
+50 kt winds within the northwestern portion of the storm. Therefore,
+the intensity for this advisory has been held at 50 kt.
+ 
+Karina is expected to continue to weaken as the hostile conditions
+are not expected to abate. The cyclone should dissipate within the 
+next couple of days, as both the GFS and ECMWF simulate satellite 
+images show all of the deep convection dissipating late Sunday or 
+early Monday. The current NHC intensity forecast is very similar to 
+the previous forecast.
+ 
+The storm is currently moving slowly to the west-northwest at about
+5 kt. A continued west to west-northwest motion with a gradual
+increase in forward speed is forecast over the next couple of days
+as the storm moves on the south side of a low- to mid-level ridge.
+The track forecast is similar to the previous one with just some
+small adjustments based on the HCCA and the GDMI.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  06/0900Z 22.6N 144.4W   50 KT  60 MPH
+ 12H  06/1800Z 22.8N 145.0W   45 KT  50 MPH
+ 24H  07/0600Z 23.0N 146.5W   40 KT  45 MPH
+ 36H  07/1800Z 23.3N 148.4W   35 KT  40 MPH...POST-TROPICAL
+ 48H  08/0600Z 23.7N 151.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 60H  08/1800Z 24.1N 153.3W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 72H  09/0600Z...DISSIPATED
+ 
+$$
+Forecaster Katz/Beven
+ 
+NNNN
+

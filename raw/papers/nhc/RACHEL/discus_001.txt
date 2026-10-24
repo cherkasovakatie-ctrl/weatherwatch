@@ -1,0 +1,52 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Depression Eighteen-E Discussion Number   1
+NWS National Hurricane Center Miami FL       EP182026
+300 AM CST Sun Sep 27 2026
+
+The tropical disturbance located south of Mexico, formerly Invest 
+90E, has become better organized based on satellite imagery over the 
+last several hours. Scatterometry data from around 0300 UTC depicts 
+a closed circulation, with the system moving into a favorable 
+environment for further development. Subjective Dvorak 
+intensity analysis from TAFB also rated the system at 2.0/30 kt.  
+Therefore, advisories have begun for Tropical Depression 
+Eighteen-E. 
+
+The initial motion is somewhat uncertain since the cyclone has only 
+recently formed, but the motion estimate is around 285/9 kt. Track 
+guidance is in good agreement on steering this system generally to 
+the west-northwest over the next several days, with an increase in 
+forward speed as it runs south of a mid-level high over Mexico. The 
+current NHC track forecast generally falls within the middle of the 
+guidance envelope, favoring HCCA in particular. 
+
+SHIPS guidance suggests that vertical wind shear may be an 
+inhibiting factor for development for the first 24 h, before the 
+Depression is expected to gradually strengthen as SSTs remain warm 
+and mid-level moisture appears favorable. There is some uncertainty 
+with regards to SSTs due to colder waters potentially being churned 
+up in the wake of Hurricane Polo, so the current intensity forecast 
+is a little conservative at first, before depicting gradual 
+strengthening through the late weekend onward. This still falls 
+around the median of the guidance envelope. 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  27/0900Z 12.2N  99.1W   30 KT  35 MPH
+ 12H  27/1800Z 12.7N  99.6W   30 KT  35 MPH
+ 24H  28/0600Z 13.2N 100.8W   35 KT  40 MPH
+ 36H  28/1800Z 13.8N 102.2W   45 KT  50 MPH
+ 48H  29/0600Z 14.7N 104.1W   55 KT  65 MPH
+ 60H  29/1800Z 15.7N 105.9W   65 KT  75 MPH
+ 72H  30/0600Z 16.9N 107.7W   75 KT  85 MPH
+ 96H  01/0600Z 18.7N 109.6W   80 KT  90 MPH
+120H  02/0600Z 19.7N 110.3W   75 KT  85 MPH
+ 
+$$
+Forecaster Evans/Pasch
+ 
+NNNN
+

@@ -1,0 +1,62 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Genevieve Discussion Number  32
+NWS National Hurricane Center Miami FL       EP072026
+500 PM HST Fri Jul 31 2026
+
+Genevieve continues to gradually lose convection in the inner-core 
+of the cyclone as seen in visible and infrared satellite imagery. In 
+addition, water vapor imagery shows evidence of dry air mixing into 
+the core. An OSCAT pass from 2043 UTC had a peak wind retrieval of 
+40 kt. The objective intensity estimates continue to trend 
+gradually downward, with a range of 33-50 kt, and the most recent 
+intensity estimate from TAFB is CI 3.0/45 kt.  Thus, based on all of 
+the current given data, the initial intensity has been set to 45 kt 
+this advisory.
+ 
+The initial motion continues to be west-northwestward or 285/13 kt. 
+A strong low- to mid-level ridge to the north of the cyclone should 
+steer it generally west-northwestward for the next couple of days. 
+After that, a turn more toward the northwest is forecast due to the 
+ridge breaking in response to a mid- to upper-level trough forming 
+to the northwest of Genevieve. While the track guidance is generally 
+tightly clustered for the next 72 h, it is a bit slower than the 
+previous cycle. Thus, the NHC track forecast has been slowed 
+slightly to reflect the evolving track guidance. After 72 h, this 
+guidance does have larger spread, though overall, only slight 
+changes have been made to the NHC forecast compared to the previous 
+track.
+
+The intensity forecast shows slightly more weakening than the 
+previous forecast to reflect a storm with a lower initial intensity. 
+However the overall trend remains the same. Genevieve is still 
+expected to move over a small patch of warmer water with sea surface 
+temperatures around 25C, which may temper the weakening rate over 
+the next 24 h to 36 h. Once the cyclone has moved into a region of 
+even cooler ocean temperatures, Genevieve is expected to become 
+post-tropical cyclone at around 48 h. It remains possible that 
+Genevieve could lose convective organization sooner, resulting in 
+the storm becoming post-tropical faster than currently forecast this 
+advisory. The NHC intensity forecast is roughly in the middle of the 
+guidance envelope.   
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  01/0300Z 22.6N 131.4W   45 KT  50 MPH
+ 12H  01/1200Z 23.1N 133.4W   40 KT  45 MPH
+ 24H  02/0000Z 23.9N 136.1W   40 KT  45 MPH
+ 36H  02/1200Z 24.8N 138.8W   35 KT  40 MPH
+ 48H  03/0000Z 25.8N 141.3W   35 KT  40 MPH...POST-TROPICAL
+ 60H  03/1200Z 26.8N 143.3W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 72H  04/0000Z 27.8N 144.8W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 96H  05/0000Z 30.7N 146.6W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  06/0000Z...DISSIPATED
+ 
+$$
+Forecaster Katz/Papin
+ 
+NNNN
+

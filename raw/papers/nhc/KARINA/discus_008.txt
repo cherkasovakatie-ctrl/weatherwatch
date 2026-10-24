@@ -1,0 +1,56 @@
+
+ZCZC MIATCDEP1 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Storm Karina Discussion Number   8
+NWS National Hurricane Center Miami FL       EP112026
+800 AM PDT Sat Aug 29 2026
+
+The current structure of Karina shows that the mid-level center is 
+displaced from the low-level center based on some of the more 
+recent microwave imagery. This is also reflected in the satellite 
+imagery as well with the bulk of the convection displayed to the 
+north. The most recent TAFB Dvorak intensity estimate is T3.5/55 kt 
+and the objective intensity estimates from UW-CMISS are in the 
+range of 45-58 kt. As such, the initial intensity has been held at 
+55 kt. 
+ 
+The storm continues on a northwestward heading of about 320/10 kt,
+driven by a ridge of high pressure over the southwestern United
+States. The storm is expected to slow down and turn westward as a
+mid-level trough to the north weakens this ridge, allowing for the
+ridge over the central North Pacific to build southeastward and take
+over as the primary steering flow. The current NHC track is very 
+similar to the previous track except for a few nudges, and it 
+closely follows the HCCA guidance.
+
+The SHIPS guidance maintains a favorable environment for the 
+cyclone to intensify for the next 60 h. With light wind shear, 
+warm sea-surface temperatures, and plenty of moisture in the 
+environment, the conditions are conducive for Karina to continue 
+to intensify. Reaching major hurricane status remains possible for 
+Karina given the environmental conditions, however the cyclone will 
+need to become vertically aligned first. After this weekend, SHIPS 
+diagnostics indicate that the environment will gradually become 
+less favorable, which will lead to a slow weakening trend. The 
+current NHC intensity forecast is close to the middle of the 
+guidance. 
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  29/1500Z 15.6N 117.6W   55 KT  65 MPH
+ 12H  30/0000Z 16.5N 119.0W   65 KT  75 MPH
+ 24H  30/1200Z 17.2N 120.8W   75 KT  85 MPH
+ 36H  31/0000Z 17.5N 122.6W   90 KT 105 MPH
+ 48H  31/1200Z 17.8N 124.4W  100 KT 115 MPH
+ 60H  01/0000Z 18.1N 125.9W  100 KT 115 MPH
+ 72H  01/1200Z 18.7N 127.8W   95 KT 110 MPH
+ 96H  02/1200Z 20.1N 130.4W   80 KT  90 MPH
+120H  03/1200Z 21.5N 132.4W   60 KT  70 MPH
+ 
+$$
+Forecaster Katz/Beven
+ 
+NNNN
+

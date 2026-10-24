@@ -1,0 +1,64 @@
+
+ZCZC MIATCDEP3 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Marie Discussion Number  12
+NWS National Hurricane Center Miami FL       EP132026
+800 PM PDT Thu Sep 03 2026
+ 
+The convective state of Marie has improved slightly over the past 6 
+hours, with less evidence of the dry slotting that was observed 
+earlier.  The center is embedded underneath the large convective 
+canopy.  A recent SSMIS pass was helpful in estimating the center 
+position.  The latest TAFB estimate remains T4.5/77 kt while the 
+objective intensity estimates have increased slightly to the 80-87 
+kt range.  The initial intensity is raised to 85 kt as the satellite 
+presentation has improved since the time of the TAFB Dvorak fix.
+ 
+The initial motion estimate is west-northwestward, or 295/8 kt.  A 
+slightly slower motion in the same direction is expected over the 
+next few days as Marie moves closer to a mid-level ridge located to 
+its north.  In about 4 days, a mid- to upper-level trough 
+approaching the west coast of the United States may induce a gradual 
+turn toward the northwest.  Some of the model guidance has shifted 
+to the right in the long-range forecast over the past couple of 
+cycles, and the NHC forecast is shifted accordingly to the right 
+(north) of the previous track at days 3-5.  The NHC forecast is just 
+a bit to the southwest of the latest HCCA and GDMI models at those 
+time ranges.  It should be noted that the spread in the track 
+guidance remains large at days 4 and 5, and confidence in the track 
+forecast is below average at those time ranges.
+ 
+The vertical wind shear is expected to remain low along Marie's path 
+for the next 4 days.  Sea-surface temperatures (SSTs) and 
+atmospheric moisture will still remain favorable enough for some 
+slight additional intensification to be possible through tonight. 
+Thereafter, SSTs and moisture will gradually decrease along Marie's 
+track for the remainder of the forecast period.  This will lead to 
+gradual weakening beginning on Saturday.  Very little change was 
+made to the first 2 days of the intensity forecast, during which 
+time the forecast is near the higher end of the intensity guidance. 
+A slightly faster rate of weakening is shown at days 4 and 5, and 
+this portion of the forecast lies closer to the middle of the 
+guidance envelope.  The NHC forecast shows the cyclone still hanging 
+onto tropical storm status at day 5 as it remains well offshore of 
+the Baja California Peninsula.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  04/0300Z 19.6N 116.3W   85 KT 100 MPH
+ 12H  04/1200Z 20.0N 117.5W   90 KT 105 MPH
+ 24H  05/0000Z 20.7N 118.8W   85 KT 100 MPH
+ 36H  05/1200Z 21.5N 120.0W   80 KT  90 MPH
+ 48H  06/0000Z 22.2N 121.0W   75 KT  85 MPH
+ 60H  06/1200Z 22.9N 121.9W   70 KT  80 MPH
+ 72H  07/0000Z 23.5N 123.1W   60 KT  70 MPH
+ 96H  08/0000Z 24.5N 126.0W   50 KT  60 MPH
+120H  09/0000Z 26.4N 128.5W   40 KT  45 MPH
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

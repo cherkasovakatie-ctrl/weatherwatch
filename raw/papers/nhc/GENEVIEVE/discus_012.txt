@@ -1,0 +1,68 @@
+
+ZCZC MIATCDEP2 ALL
+TTAA00 KNHC DDHHMM
+ 
+Hurricane Genevieve Discussion Number  12
+NWS National Hurricane Center Miami FL       EP072026
+200 AM MST Mon Jul 27 2026
+ 
+Genevieve has maintained a clear and well-defined eye for the last
+12 to 18 h.  During that time, eye temperatures have warmed and the
+area of cold cloud tops surrounding the eye has expanded, leading to
+continually increasing satellite intensity estimates.  The D-PRINT,
+D-MINT, SATCON, and ADT satellite intensity estimates have all
+reached the 137-142 kt range over the past several hours, especially
+during the 03Z to 05Z time-frame, when Genevieve's satellite
+presentation looked most impressive.  The latest TAFB estimate is
+7.0/140 kt.  Based on these numbers, Genevieve is upgraded to a
+140-kt category 5 hurricane on the Saffir-Simpson Hurricane Wind
+Scale.  Genevieve is the first category 5 hurricane in the East
+Pacific since Kristy of 2024.
+ 
+Genevieve has been moving toward the northwest, or 310 degrees at 11
+kt.  The track forecast reasoning hasn't changed.  The hurricane has
+been moving along the periphery of a mid- to upper-level ridge
+centered over northwestern Mexico.  Genevieve is expected to
+continue moving west-northwestward to northwestward through the
+forecast period, as it rounds the southwestern portion of the ridge.
+The latest NHC track forecast is very similar to the previous
+advisory and lies near the HCCA corrected consensus and Google
+DeepMind ensemble mean.
+ 
+Sea surface temperatures (SSTs) are forecast to gradually decrease
+from 30C right now to 28C in 48 h, and Genevieve should cross the
+26C isotherm just beyond 72 h.  During the same time period,
+mid-level relative humidity should gradually decrease and stability
+gradually increase, while vertical wind shear remains low to
+moderate.  These environmental conditions might be favorable enough
+for Genevieve to either maintain its intensity or fluctuate in
+intensity during the next day or so, depending on whether it
+undergoes an eyewall replacement cycle.  Microwave-based Probability
+of Eyewall Replacement Cycle (MPERC) guidance indicates a 50/50
+chance of an eyewall replacement cycle occurring within the next 24
+h.  Beyond 24 h, the decreasing SSTs and humidity values should be
+enough to commence steady weakening, with more substantial weakening
+after 72 h when the cyclone crosses the 26C SST isotherm.  The new
+NHC intensity forecast is similar to the previous one, perhaps
+showing a slightly faster rate of weakening beyond 24 h.  The
+intensity forecast lies near the middle of the typically reliable
+intensity model solutions.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  27/0900Z 15.5N 112.2W  140 KT 160 MPH
+ 12H  27/1800Z 16.3N 113.4W  135 KT 155 MPH
+ 24H  28/0600Z 17.3N 115.0W  125 KT 145 MPH
+ 36H  28/1800Z 17.9N 116.4W  110 KT 125 MPH
+ 48H  29/0600Z 18.5N 117.9W  100 KT 115 MPH
+ 60H  29/1800Z 19.2N 119.6W   90 KT 105 MPH
+ 72H  30/0600Z 20.0N 121.5W   80 KT  90 MPH
+ 96H  31/0600Z 21.6N 126.2W   60 KT  70 MPH
+120H  01/0600Z 23.3N 131.5W   45 KT  50 MPH
+ 
+$$
+Forecaster Hagen
+ 
+NNNN
+

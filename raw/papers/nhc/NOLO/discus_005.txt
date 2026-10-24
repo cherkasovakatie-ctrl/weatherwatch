@@ -1,0 +1,58 @@
+
+ZCZC MIATCDEP5 ALL
+TTAA00 KNHC DDHHMM
+ 
+Tropical Depression Fifteen-E Discussion Number   5
+NWS National Hurricane Center Miami FL       EP152026
+200 PM PDT Mon Sep 14 2026
+ 
+Recent visible satellite imagery shows that the center of the
+depression has become exposed and well removed from the convection
+as northwesterly shear continues to push the convection away and
+push dry air into the center of the cyclone. The center is also
+farther north than previously thought. The current objective
+intensity estimates from UW-CIMSS is in the range of 27-34 kt. As
+such, the initial intensity has been kept at 30 kt.
+ 
+Based on the more northward initial position, the depression is
+moving west with an initial motion of 280/8 kt. The cyclone is being
+steered by a ridge off to the northwest, and this ridge should
+continue to be the main steering flow for the cyclone through the
+forecast period. A general westward motion is expected to continue
+with an increase in forward speed after 36-48 h. The current NHC
+forecast track has been adjusted to the north of the previous track
+and just a bit slower than before. The current forecast track is
+closer to the HFIP Corrected Consensus Approach (HCCA) and Google
+DeepMind (GDMI) forecast aids.
+ 
+The environment is generally unfavorable for strengthening due to
+the moderate northwesterly vertical wind shear advecting some dry
+air into the center of the depression. However, the intensity
+guidance shows the possibility of some strengthening during the next
+24 h. As a result, the NHC intensity forecast calls for some slight
+strengthening. While there is a period between 24-48 h where the
+shear should weaken, the guidance suggests that the cyclone will not
+be able to take advantage of this period to strengthen further.
+After 48 h, the cyclone should weaken due to dry air entrainment
+and eventual absorption into the larger monsoon trough. The NHC
+intensity forecast is similar to the prior advisory, and is
+slightly under the HCCA guidance for intensity.
+ 
+ 
+FORECAST POSITIONS AND MAX WINDS
+ 
+INIT  14/2100Z 16.9N 120.5W   30 KT  35 MPH
+ 12H  15/0600Z 16.7N 121.8W   35 KT  40 MPH
+ 24H  15/1800Z 16.6N 123.7W   35 KT  40 MPH
+ 36H  16/0600Z 16.4N 125.4W   35 KT  40 MPH
+ 48H  16/1800Z 16.4N 127.3W   35 KT  40 MPH
+ 60H  17/0600Z 16.6N 129.7W   35 KT  40 MPH
+ 72H  17/1800Z 16.9N 132.1W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 96H  18/1800Z 17.5N 136.4W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  19/1800Z...DISSIPATED
+ 
+$$
+Forecaster Katz/Beven
+ 
+NNNN
+
