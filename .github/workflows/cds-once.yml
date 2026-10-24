@@ -1,0 +1,35 @@
+name: CDS one-off request (submit only, no download)
+
+# Submits ONE request to the Copernicus Climate Data Store and exits without waiting or downloading; the result appears
+# on the account's "Your requests" page. Edit tools/era5/once_request.json and push it to run. Needs CDSAPI_KEY.
+on:
+  push:
+    branches: [main]
+    paths: [tools/era5/once_request.json]
+
+permissions:
+  contents: write
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Submit
+        env: { CDSAPI_KEY: '${{ secrets.CDSAPI_KEY }}' }
+        run: |
+          ds=$(python3 -c "import json;print(json.load(open('tools/era5/once_request.json'))['dataset'])")
+          python3 -c "import json;d=json.load(open('tools/era5/once_request.json'));print(json.dumps({'inputs':d['request']}))" > body.json
+          code=$(curl -sS -o resp.json -w '%{http_code}' -X POST -H "PRIVATE-TOKEN: $CDSAPI_KEY" -H 'Content-Type: application/json' \
+            --data @body.json "https://cds.climate.copernicus.eu/api/retrieve/v1/processes/$ds/execute")
+          python3 - "$code" <<'P'
+          import json, sys, datetime
+          r = json.load(open('resp.json'))
+          keep = {k: r.get(k) for k in ('jobID', 'status', 'type', 'title', 'detail', 'created')}
+          keep['http_code'] = sys.argv[1]; keep['submitted_utc'] = datetime.datetime.utcnow().isoformat(timespec='seconds')
+          json.dump(keep, open('tools/era5/once_request_status.json', 'w'), indent=1); print(keep)
+          P
+          rm -f resp.json body.json
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tools/era5/once_request_status.json && git commit -qm "CDS one-off request submitted" && git pull -q --rebase origin main && git push -q origin HEAD:main
