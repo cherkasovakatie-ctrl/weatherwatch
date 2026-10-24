@@ -28,6 +28,7 @@ for y in map(int, sys.argv[1:]):
     for i in range(4):
         try:
             with urllib.request.urlopen(urllib.request.Request(CDR + n, headers=UA), timeout=900) as r, open(f, 'wb') as fh:
+                print(y, 'GET', r.status, r.headers.get('Content-Type'), r.headers.get('Content-Length'), r.geturl()[:160], flush=True)
                 while True:
                     b = r.read(1 << 20)
                     if not b: break
@@ -35,6 +36,7 @@ for y in map(int, sys.argv[1:]):
             break
         except Exception as e:
             print(y, 'retry', i, e); time.sleep(30 * (i + 1))
+    print(y, 'bytes', os.path.getsize(f), open(f, 'rb').read(8), flush=True)
     ds = xr.open_dataset(f)
     v = [k for k, d in ds.data_vars.items() if d.ndim == 3][0]; da = ds[v]
     lat = [c for c in da.dims if 'lat' in c][0]; lon = [c for c in da.dims if 'lon' in c][0]
