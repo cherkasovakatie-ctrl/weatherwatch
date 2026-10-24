@@ -184,18 +184,36 @@ S.append({"id": "rain", "title": "7. Rainfall and tropospheric temperature in th
     f"<p><b>Tropospheric temperature.</b> The tropical lower troposphere (NOAA STAR TLT, 20°S–20°N, against 1991–2020) peaked {_tl[0][1]} after 1982–83, {_tl[1][1]} after 1997–98 and {_tl[2][1]} after 2015–16, two to three months after the RONI peak. "
     f"In 2026 it was already {RC.TLT_T[_tk]:+.2f} °C in {RC.mlab(_tk)}, before the expected peak of the event; the record is {_rec[1]:+.2f} °C ({RC.mlab(_rec[0])}), after the 2023–24 El Niño.</p>"),
     "table": {"cols": _rc, "rows": _rr, "note": RC.NOTE.format(n=47)}})
-S.append({"id": "next", "title": "8. What happened next in the analogs", "html": (
+TB = json.load(open(D26 / 'tc_bursts.json'))
+_E = TB['events']; _z = TB['year2026']['2026']
+_obs = sum(_E[k]['with_tc'] for k in _E); _exp = sum(_E[k]['expected_with_tc'] for k in _E); _nb = sum(_E[k]['n'] for k in _E)
+_tobs = sum(_E[k]['twin'] for k in _E); _texp = sum(_E[k]['expected_twin'] for k in _E)
+_tcrows = [[LAB[int(k)], str(_E[k]['n']), f"{_E[k]['with_tc']} ({_E[k]['expected_with_tc']:.1f})", f"{_E[k]['twin']} ({_E[k]['expected_twin']:.1f})", str(_E[k]['lowlat_genesis_jan_oct']), str(_E[k]['twin_days_jan_oct'])] for k in _E]
+_tcrows.append(['2026', 'not yet available', '—', '—', str(_z['lowlat_genesis_jan_oct']), str(len(_z['twin_days_jan_oct']))])
+_tw = _z['twin_days_jan_oct']
+S.append({"id": "cyclones", "title": "8. Tropical cyclones and westerly wind bursts", "html": (
+    "<p><b>Question.</b> Westerly wind bursts often occur alongside tropical cyclones, sometimes as a pair straddling the equator; the 1982–83 paper discusses such pairs. Two directions matter: the developing El Niño shifts where cyclones form, and cyclones may in turn add equatorial westerlies that force the ocean. Neither direction can be proven from positions alone; this section tests what the data allow: how often the bursts of the three analogs had a cyclone nearby, compared with chance.</p>"
+    f"<p><b>Method.</b> Cyclone positions are from IBTrACS v04r01 (6-hourly; 2026 provisional, to {_z['last_fix']}). A burst counts as cyclone-accompanied if a cyclone of any strength was centred 3°–20° from the equator, within 10° of longitude of the burst, from two days before the burst to its end; 'twin' means one on each side of the equator. "
+    "The chance expectation slides each burst's own window and longitude span over every day of March–December of the same year. Bursts are the Reanalysis 1 lists of Papers 1–3 (March–December).</p>"
+    f"<p><b>Result for the analogs.</b> {_obs} of {_nb} bursts had a cyclone nearby, against {_exp:.1f} expected by chance: cyclones are so common in these seasons that their presence near a burst says little on its own. Twin cyclones are different: {_tobs} bursts had one, against {_texp:.1f} expected, with the excess in 1997 and 2015. "
+    "That is consistent with twin cyclones being linked to burst-producing disturbances such as the MJO, but this count cannot say which causes which.</p>"
+    f"<p><b>2026 so far (January–October).</b> Only {_z['lowlat_genesis_jan_oct']} cyclones formed within 10° of the equator between 130°E and 160°W, against {_E['1982']['lowlat_genesis_jan_oct']} in 1982, {_E['1997']['lowlat_genesis_jan_oct']} in 1997 and {_E['2015']['lowlat_genesis_jan_oct']} in 2015 over the same months, and twin cyclones were present on {len(_tw)} days "
+    + (f"({_tw[0][0]} to {_tw[-1][0]}: {', '.join(_tw[0][1])} north and {', '.join(_tw[0][2])} south of the equator)" if _tw else "") + f", against {_E['1982']['twin_days_jan_oct']}, {_E['1997']['twin_days_jan_oct']} and {_E['2015']['twin_days_jan_oct']} days. "
+    "So 2026 has grown into a very strong El Niño with fewer near-equatorial cyclones in the western Pacific than any of the three analogs. Whether its westerly forcing came from bursts without cyclones, from the MJO, or from the large-scale coupled response is the question for the 2026 burst list. The very active eastern and central Pacific hurricane season and Super Typhoon Champi lie mostly outside this box and are not tested here.</p>"),
+    "table": {"cols": ["Event", "Westerly bursts, Mar–Dec", "With a cyclone nearby (chance)", "With twin cyclones (chance)", "Cyclones formed ≤10° from equator, 130°E–160°W, Jan–Oct", "Days with twin cyclones, Jan–Oct"],
+              "rows": _tcrows, "note": "IBTrACS v04r01 (NOAA NCEI), any intensity; tools/papers/tc_bursts.py, output data/papers/2026/tc_bursts.json. Numbers in brackets: expected by chance, from the same windows slid over the same year."}})
+S.append({"id": "next", "title": "9. What happened next in the analogs", "html": (
     "<p>The table below records what followed the September stage in each analog. It is a description of three past events, not a forecast for 2026.</p>"),
     "table": {"cols": ["Event", "RONI peak (season, °C)", "ONI peak (°C)", "RONI rise, JAS to peak (°C)", "Heat content peak", "WWV first negative", "RONI below +0.5", "RONI JJA, year +1"],
               "rows": nxt_rows, "note": "From the same files as section 2."}})
-S.append({"id": "outlook", "title": "9. Forecasts and an analog scenario", "html": (
+S.append({"id": "outlook", "title": "10. Forecasts and an analog scenario", "html": (
     f"<p><b>Forecasts (official, not observations).</b> The CPC outlook of {cpc_issue} gives a {p_vs.get('OND', '—')}% chance of very strong El Niño (RONI ≥ +2.0 °C) for October–December, {p_vs.get('NDJ', '—')}% for November–January and {p_vs.get('DJF', '—')}% for December–February. "
     f"The IRI multi-model plume of October has an all-model average of +{ond.get('combined_avg', '—')} °C for OND on the traditional Niño 3.4 index (range +{ond.get('model_min', '—')} to +{ond.get('model_max', '—')} °C, {ond.get('model_n', '—')} models). "
     "The site's ENSO outlook card shows both in full.</p>"
     f"<p><b>Analog scenario (speculation, labelled as such).</b> If 2026 added the same amount after JAS as the analogs did ({f(lo_inc, 2, False)}–{f(hi_inc, 2, False)} °C), its RONI peak would be {f(jas26 + lo_inc)} to {f(jas26 + hi_inc)} °C, most likely in November–January. "
     "The upper end would exceed every event since 1950 on RONI. Two features argue for the upper half: heat content was still rising in September, whereas in 1982 and 1997 it peaked in October, and the warm water volume had only begun to fall. "
     f"One point is unresolved: in all three analogs RONI peaked within a month of the warm water volume turning negative. In 2026 it is still {g('Sep', 'wwv')} (September), so on that analog the peak is some months away, or the relationship will not hold this time. This simple arithmetic ignores the different background state and has no skill estimate.</p>")})
-S.append({"id": "next-steps", "title": "10. Next steps for the full paper", "html": (
+S.append({"id": "next-steps", "title": "11. Next steps for the full paper", "html": (
     "<ul><li>Westerly-wind-burst counts for 2026. On the burst rule of Papers 1–3, January–September had 8 bursts in 1982, 15 in 1997 and 13 in 2015. The first 2026 run read Reanalysis 1 winds only to 17 March 2026 and the NOAA interpolated OLR used for the MJO ends in December 2022, so no 2026 count is given yet; the run needs a current-year fix and a replacement OLR source.</li><li>Then the daily MJO diagnostics for 2025–26 and TAO winds, as for Papers 2 and 3.</li>"
     "<li>Test the recharge path: equatorial versus off-equatorial heat, and the role of the 2025–26 La Niña.</li>"
     "<li>The negative PDO and the North Pacific marine heatwaves: amplifier, suppressor or coincidence.</li>"
@@ -209,6 +227,7 @@ refs = [
     ("capotondi2015", "Capotondi, A., et al. (2015). Understanding ENSO diversity. <i>Bulletin of the American Meteorological Society</i> 96, 921–938.", "10.1175/BAMS-D-13-00117.1", None, "abstract read"),
     ("saji1999", "Saji, N. H., B. N. Goswami, P. N. Vinayachandran and T. Yamagata (1999). A dipole mode in the tropical Indian Ocean. <i>Nature</i> 401, 360–363.", "10.1038/43854", None, "bibliographic record"),
     (RC.REF["key"], RC.REF["text"], RC.REF["doi"], RC.REF["url"], RC.REF["check"]),
+    ("ibtracs", "Knapp, K. R., et al. (2010). The International Best Track Archive for Climate Stewardship (IBTrACS). <i>Bulletin of the American Meteorological Society</i> 91, 363–376. Data: IBTrACS v04r01, NOAA NCEI (2026 positions provisional).", "10.1175/2009BAMS2755.1", None, "bibliographic record"),
     ("cpc", "NOAA Climate Prediction Center: RONI and ONI, OISST v2.1 monthly and weekly Niño indices (traditional and relative), SOI, 850 hPa trade-wind and OLR indices, upper-300 m heat content, IOD (DMI), tropical Atlantic SST; ENSO Diagnostic Discussion and strength-probability table. NOAA PMEL warm water volume. NOAA NCEI PDO. Site copies in the data archive.", None, "https://www.cpc.ncep.noaa.gov/data/indices/", "data read"),
     ("iri", "IRI/CCSR: ENSO forecast, October 2026 multi-model Niño 3.4 plume (as read for the site's outlook card).", None, "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/", "data read"),
 ]

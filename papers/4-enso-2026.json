@@ -47,16 +47,20 @@
    "7. Rainfall and tropospheric temperature in the analogs"
   ],
   [
+   "cyclones",
+   "8. Tropical cyclones and westerly wind bursts"
+  ],
+  [
    "next",
-   "8. What happened next in the analogs"
+   "9. What happened next in the analogs"
   ],
   [
    "outlook",
-   "9. Forecasts and an analog scenario"
+   "10. Forecasts and an analog scenario"
   ],
   [
    "next-steps",
-   "10. Next steps for the full paper"
+   "11. Next steps for the full paper"
   ],
   [
    "references",
@@ -302,8 +306,58 @@
    }
   },
   {
+   "id": "cyclones",
+   "title": "8. Tropical cyclones and westerly wind bursts",
+   "html": "<p><b>Question.</b> Westerly wind bursts often occur alongside tropical cyclones, sometimes as a pair straddling the equator; the 1982–83 paper discusses such pairs. Two directions matter: the developing El Niño shifts where cyclones form, and cyclones may in turn add equatorial westerlies that force the ocean. Neither direction can be proven from positions alone; this section tests what the data allow: how often the bursts of the three analogs had a cyclone nearby, compared with chance.</p><p><b>Method.</b> Cyclone positions are from IBTrACS v04r01 (6-hourly; 2026 provisional, to 2026-10-22). A burst counts as cyclone-accompanied if a cyclone of any strength was centred 3°–20° from the equator, within 10° of longitude of the burst, from two days before the burst to its end; 'twin' means one on each side of the equator. The chance expectation slides each burst's own window and longitude span over every day of March–December of the same year. Bursts are the Reanalysis 1 lists of Papers 1–3 (March–December).</p><p><b>Result for the analogs.</b> 34 of 44 bursts had a cyclone nearby, against 29.9 expected by chance: cyclones are so common in these seasons that their presence near a burst says little on its own. Twin cyclones are different: 12 bursts had one, against 7.2 expected, with the excess in 1997 and 2015. That is consistent with twin cyclones being linked to burst-producing disturbances such as the MJO, but this count cannot say which causes which.</p><p><b>2026 so far (January–October).</b> Only 8 cyclones formed within 10° of the equator between 130°E and 160°W, against 14 in 1982, 24 in 1997 and 13 in 2015 over the same months, and twin cyclones were present on 4 days (2026-04-09 to 2026-04-12: SINLAKU north and MAILA south of the equator), against 6, 28 and 24 days. So 2026 has grown into a very strong El Niño with fewer near-equatorial cyclones in the western Pacific than any of the three analogs. Whether its westerly forcing came from bursts without cyclones, from the MJO, or from the large-scale coupled response is the question for the 2026 burst list. The very active eastern and central Pacific hurricane season and Super Typhoon Champi lie mostly outside this box and are not tested here.</p>",
+   "table": {
+    "cols": [
+     "Event",
+     "Westerly bursts, Mar–Dec",
+     "With a cyclone nearby (chance)",
+     "With twin cyclones (chance)",
+     "Cyclones formed ≤10° from equator, 130°E–160°W, Jan–Oct",
+     "Days with twin cyclones, Jan–Oct"
+    ],
+    "rows": [
+     [
+      "1982–83",
+      "13",
+      "9 (7.4)",
+      "1 (0.6)",
+      "14",
+      "6"
+     ],
+     [
+      "1997–98",
+      "15",
+      "13 (12.9)",
+      "6 (4.3)",
+      "24",
+      "28"
+     ],
+     [
+      "2015–16",
+      "16",
+      "12 (9.6)",
+      "5 (2.3)",
+      "13",
+      "24"
+     ],
+     [
+      "2026",
+      "not yet available",
+      "—",
+      "—",
+      "8",
+      "4"
+     ]
+    ],
+    "note": "IBTrACS v04r01 (NOAA NCEI), any intensity; tools/papers/tc_bursts.py, output data/papers/2026/tc_bursts.json. Numbers in brackets: expected by chance, from the same windows slid over the same year."
+   }
+  },
+  {
    "id": "next",
-   "title": "8. What happened next in the analogs",
+   "title": "9. What happened next in the analogs",
    "html": "<p>The table below records what followed the September stage in each analog. It is a description of three past events, not a forecast for 2026.</p>",
    "table": {
     "cols": [
@@ -353,12 +407,12 @@
   },
   {
    "id": "outlook",
-   "title": "9. Forecasts and an analog scenario",
+   "title": "10. Forecasts and an analog scenario",
    "html": "<p><b>Forecasts (official, not observations).</b> The CPC outlook of 2026-10-08 gives a 100% chance of very strong El Niño (RONI ≥ +2.0 °C) for October–December, 96% for November–January and 81% for December–February. The IRI multi-model plume of October has an all-model average of +3.48 °C for OND on the traditional Niño 3.4 index (range +2.46 to +4.28 °C, 27 models). The site's ENSO outlook card shows both in full.</p><p><b>Analog scenario (speculation, labelled as such).</b> If 2026 added the same amount after JAS as the analogs did (0.44–1.26 °C), its RONI peak would be +2.13 to +2.95 °C, most likely in November–January. The upper end would exceed every event since 1950 on RONI. Two features argue for the upper half: heat content was still rising in September, whereas in 1982 and 1997 it peaked in October, and the warm water volume had only begun to fall. One point is unresolved: in all three analogs RONI peaked within a month of the warm water volume turning negative. In 2026 it is still +3.16 (September), so on that analog the peak is some months away, or the relationship will not hold this time. This simple arithmetic ignores the different background state and has no skill estimate.</p>"
   },
   {
    "id": "next-steps",
-   "title": "10. Next steps for the full paper",
+   "title": "11. Next steps for the full paper",
    "html": "<ul><li>Westerly-wind-burst counts for 2026. On the burst rule of Papers 1–3, January–September had 8 bursts in 1982, 15 in 1997 and 13 in 2015. The first 2026 run read Reanalysis 1 winds only to 17 March 2026 and the NOAA interpolated OLR used for the MJO ends in December 2022, so no 2026 count is given yet; the run needs a current-year fix and a replacement OLR source.</li><li>Then the daily MJO diagnostics for 2025–26 and TAO winds, as for Papers 2 and 3.</li><li>Test the recharge path: equatorial versus off-equatorial heat, and the role of the 2025–26 La Niña.</li><li>The negative PDO and the North Pacific marine heatwaves: amplifier, suppressor or coincidence.</li><li>Literature on 2026 as it appears; update at each CPC monthly discussion (next: November 2026).</li></ul>"
   }
  ],
@@ -411,6 +465,13 @@
    "doi": "10.3390/atmos9040138",
    "url": null,
    "check": "data read and processed"
+  },
+  {
+   "key": "ibtracs",
+   "text": "Knapp, K. R., et al. (2010). The International Best Track Archive for Climate Stewardship (IBTrACS). <i>Bulletin of the American Meteorological Society</i> 91, 363–376. Data: IBTrACS v04r01, NOAA NCEI (2026 positions provisional).",
+   "doi": "10.1175/2009BAMS2755.1",
+   "url": null,
+   "check": "bibliographic record"
   },
   {
    "key": "cpc",
