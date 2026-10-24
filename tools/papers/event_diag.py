@@ -1,6 +1,6 @@
 """MJO and westerly-wind-burst diagnostics for an event window set by env W0/W1 (YYYY-MM-DD), output to env OUT.
 Generalised from tools/papers/mjo_1982_diag.py (same definitions, so events can be compared).
-Data: NCEP/NCAR Reanalysis 1 daily u (1000, 850, 200 hPa) and NOAA interpolated daily OLR, via PSL THREDDS.
+Data: NCEP/NCAR Reanalysis 1 daily u (1000, 850, 200 hPa) and NOAA daily OLR Climate Data Record v02r00 (NCEI archive; regridded to 2.5 deg), via PSL THREDDS and NCEI.
 Base period for climatology and EOFs: 1979-2001 (Wheeler & Hendon 2004 used 1979-2001)."""
 import json, re, time, urllib.request, datetime as dt
 from concurrent.futures import ThreadPoolExecutor
@@ -12,8 +12,6 @@ from scipy import ndimage
 Y0, Y1 = 1979, int(os.environ.get('YEND', '2001'))  # data years; climatology and EOF base stay 1979-2000/2001 as in Paper 1
 LAT = slice(32, 41)  # 10N..10S on the 2.5 deg grid (index 36 = equator)
 R1 = 'https://psl.noaa.gov/thredds/dodsC/Datasets/ncep.reanalysis.dailyavgs/pressure/uwnd.{y}.nc.ascii?uwnd[0:1:{n}][{lev}][32:1:40][0:1:143]'
-OLR = 'https://psl.noaa.gov/thredds/dodsC/Datasets/interp_OLR/olr.day.mean.nc.ascii?olr[{a}:1:{b}][32:1:40][0:1:143]'
-OLRT = 'https://psl.noaa.gov/thredds/dodsC/Datasets/interp_OLR/olr.day.mean.nc.ascii?time'
 LOG = []
 
 def fetch(u, tries=4):
@@ -40,9 +38,9 @@ def parse(txt, shape):
 
 def days(y): return 366 if y % 4 == 0 else 365
 
-def ulen(y):  # days available in a (possibly partial) current-year file
-    t = fetch(f'https://psl.noaa.gov/thredds/dodsC/Datasets/ncep.reanalysis.dailyavgs/pressure/uwnd.{y}.nc.ascii?time')
-    return len(re.findall(r'[\d.]+', t.split('---------------------------------------------', 1)[1].strip().split('\n', 1)[1]))
+def ulen(y):  # days in a (possibly partial) current-year file, from the DDS header
+    t = fetch(f'https://psl.noaa.gov/thredds/dodsC/Datasets/ncep.reanalysis.dailyavgs/pressure/uwnd.{y}.nc.dds')
+    n = int(re.search(r'time = (\d+)', t).group(1)); LOG.append(f'R1 {y}: {n} days in file'); return n
 
 def get_u(y):
     n = days(y) if y < dt.date.today().year else ulen(y)
@@ -60,19 +58,49 @@ for name in ('omi.1x.webpage.7921.txt', 'omi.1x.orig.txt', 'rmm_star_data.txt', 
     except Exception as e:
         LOG.append(f'{name} {e}')
 
-_t = fetch(OLRT).split('---------------------------------------------', 1)[1].strip().split('\n', 1)[1]
-tt = np.array(re.findall(r'[\d.]+', _t), dtype=float)
-odates = np.array([dt.date(1800, 1, 1) + dt.timedelta(hours=h) for h in tt])
+CDR = 'https://archive.data.noaa.gov/climatedatarecords/UMD_ESSIC/OLR_CDR/Daily/OLR-D-CDR_01B-21/'
+LAT25, LON25 = np.arange(10, -10.1, -2.5), np.arange(0, 360, 2.5)
+
+def cdr_name(y):
+    if y < dt.date.today().year:
+        return f'OLR-Daily_v02r00_s{y}0101_e{y}1231.nc'
+    for back in range(0, 21):  # current year: preliminary file whose end date changes; probe recent end dates
+        d = dt.date.today() - dt.timedelta(back)
+        name = f'OLR-Daily_v02r00-preliminary_s{y}0101_e{d:%Y%m%d}.nc'
+        try:
+            with urllib.request.urlopen(urllib.request.Request(CDR + name, method='HEAD', headers={'User-Agent': 'GlobalWeatherWatch/1.0'}), timeout=60) as r:
+                if r.status == 200 and 'html' not in r.headers.get('Content-Type', ''):
+                    return name
+        except Exception:
+            pass
+    return None
 
 def get_olr(y):
-    """Interpolated OLR for year y, NaN-padded where the dataset ends (filled later; OLR is not used for burst detection)."""
-    n = days(y)
-    ix = np.where([d.year == y for d in odates])[0]
-    out = np.full((n, 9, 144), np.nan, dtype=np.float32)
-    if len(ix):
-        out[:len(ix)] = parse(fetch(OLR.format(a=ix[0], b=ix[-1])), (len(ix), 9, 144))
-    if len(ix) < n:
-        LOG.append(f'OLR {y}: {len(ix)} of {n} days, rest NaN')
+    """Daily OLR CDR v02r00 (NOAA NCEI), bilinearly interpolated to the R1 2.5-degree grid, 10N-10S; NaN where missing."""
+    import xarray as xr
+    n = days(y); out = np.full((n, 9, 144), np.nan, dtype=np.float32)
+    name = None
+    try:
+        name = cdr_name(y)
+        if name is None: raise RuntimeError('no preliminary file name found in index')
+        f = f'/tmp/olr_{y}.nc'
+        for i in range(4):
+            try:
+                urllib.request.urlretrieve(CDR + name, f); break
+            except Exception as e:
+                LOG.append(f'OLR {y} retry {i} {e}'); time.sleep(20 * (i + 1))
+        ds = xr.open_dataset(f)
+        v = [k for k, d in ds.data_vars.items() if d.ndim == 3][0]
+        da = ds[v]; lat = [c for c in da.dims if 'lat' in c][0]; lon = [c for c in da.dims if 'lon' in c][0]
+        da = da.sortby(lat).sel({lat: slice(-11.5, 11.5)})
+        lo = da[lon].values; da = da.assign_coords({lon: np.where(lo < 0, lo + 360, lo)}).sortby(lon)
+        g = da.interp({lat: LAT25, lon: LON25}, kwargs={'fill_value': None}).transpose(da.dims[0], lat, lon).values.astype(np.float32)
+        k = min(n, g.shape[0]); out[:k] = g[:k]
+        if y == Y0: LOG.append(f'OLR CDR var {v} dims {da.dims} first {ds[da.dims[0]].values[0]}')
+        LOG.append(f'OLR {y}: {g.shape[0]} days from {name}')
+        ds.close(); os.remove(f)
+    except Exception as e:
+        LOG.append(f'OLR {y} failed ({name}): {e}')
     return out
 
 years = list(range(Y0, Y1 + 1))
@@ -80,7 +108,6 @@ with ThreadPoolExecutor(4) as ex:
     U = list(ex.map(get_u, years)); O = list(ex.map(get_olr, years))
 U = np.concatenate(U); O = np.concatenate(O)
 NL = len(U); U, O = U[:NL], O[:NL]  # partial current year: U sets the length; OLR gaps are filled below and not used for bursts
-LOG.append(f'last OLR date {odates[-1]}')
 LOG.append(f'days used {NL}')
 O[(O > 500) | (O < 50)] = np.nan
 dates = np.array([dt.date(Y0, 1, 1) + dt.timedelta(d) for d in range(len(U))])
