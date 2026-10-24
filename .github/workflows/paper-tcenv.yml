@@ -1,0 +1,23 @@
+name: Paper TC environment (branch weekly-raw)
+on:
+  push:
+    branches: [weekly-raw]
+    paths: [tools/papers/tcenv_trigger.txt]
+permissions:
+  contents: write
+jobs:
+  env:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install numpy scipy xarray netCDF4
+      - run: mkdir -p raw/papers/tc_env; python3 -u tools/papers/tc_env.py > raw/papers/tc_env/stdout.txt 2>&1 || true
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add raw/papers/tc_env && git commit -m "TC environment 2026" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase origin weekly-raw && git push origin HEAD:weekly-raw && break; sleep 15; done
