@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/runner/work/weatherwatch/weatherwatch/tools/papers/tc_env.py", line 64, in <module>
+    round(math.hypot(u, v) * 1.944, 1), round(math.degrees(math.atan2(-u, -v)) % 360), round(amean(RH600, day, m), 1),
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: cannot convert float NaN to integer
