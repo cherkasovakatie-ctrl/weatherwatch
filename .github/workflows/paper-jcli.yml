@@ -13,7 +13,8 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: '3.12' }
-      - run: mkdir -p raw/papers/jcli2026; python3 -u tools/papers/jcli_2026.py > raw/papers/jcli2026/stdout.txt 2>&1 || true
+      - run: echo "JOB=$(cat tools/papers/jcli_trigger.txt | head -1)" >> $GITHUB_ENV
+      - run: mkdir -p raw/papers/jcli2026; python3 -u tools/papers/${JOB:-jcli_2026}.py > raw/papers/jcli2026/stdout_${JOB:-jcli_2026}.txt 2>&1 || true
       - name: Commit
         if: always()
         run: |
