@@ -80,6 +80,10 @@ def get_olr(y):
     import xarray as xr
     n = days(y); out = np.full((n, 9, 144), np.nan, dtype=np.float32)
     name = None
+    cache = f'raw/olr_cdr/olr_{y}.npz'
+    if os.path.exists(cache):  # filled by the parallel olr-cache workflow
+        z = np.load(cache); g = z['olr'].astype(np.float32); k = min(n, g.shape[0]); out[:k] = g[:k]
+        LOG.append(f'OLR {y}: {g.shape[0]} days from cache ({z["src"]})'); return out
     try:
         name = cdr_name(y)
         if name is None: raise RuntimeError('no preliminary file name found in index')
