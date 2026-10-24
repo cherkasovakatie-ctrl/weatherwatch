@@ -1,0 +1,2 @@
+Mean-Layer-Temperature-NOAA_v05r00_TLT_S198101_E202609_C20261004.nc var=tcdr_MSU_AMSUA_ATMS_TLT units=kelvin long_name=NOAA Climate Data Record of monthly lower tropospheric microwave brightness temperature dims=('time', 'latitude', 'longitude')
+Mean-Layer-Temperature-NOAA_v05r00_TMT_S197811_E202609_C20261004.nc var=tcdr_MSU_AMSUA_ATMS_TMT units=kelvin long_name=NOAA Climate Data Record of MSU/AMSU-A/ATMS monthly mean layer temperature of mid-troposphere dims=('time', 'latitude', 'longitude')

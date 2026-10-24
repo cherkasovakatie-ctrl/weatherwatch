@@ -1,0 +1,5 @@
+https://downloads.psl.noaa.gov/Datasets/gpcp/precip.mon.mean.nc
+GPCP Version 2.3 Combined Precipitation Dataset (Final)
+V2.3
+first 1979-01 last 2026-06
+boxes {'indonesia': (-10, 5, 95, 145), 'peru_ecuador_coast': (-12.5, 2.5, 275, 282.5), 'california': (32.5, 42.5, 235, 245), 'central_eq_pacific': (-5, 5, 170, 220), 'southern_africa': (-35, -15, 15, 40), 'eastern_australia': (-40, -10, 140, 155), 'east_africa': (-5, 5, 35, 50), 'india': (8, 30, 70, 90)}
