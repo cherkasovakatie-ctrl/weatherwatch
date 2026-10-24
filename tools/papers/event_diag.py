@@ -40,8 +40,12 @@ def parse(txt, shape):
 
 def days(y): return 366 if y % 4 == 0 else 365
 
+def ulen(y):  # days available in a (possibly partial) current-year file
+    t = fetch(f'https://psl.noaa.gov/thredds/dodsC/Datasets/ncep.reanalysis.dailyavgs/pressure/uwnd.{y}.nc.ascii?time')
+    return len(re.findall(r'[\d.]+', t.split('---------------------------------------------', 1)[1].strip().split('\n', 1)[1]))
+
 def get_u(y):
-    n = days(y)
+    n = days(y) if y < dt.date.today().year else ulen(y)
     a = parse(fetch(R1.format(y=y, n=n - 1, lev='0:2:2')), (n, 2, 9, 144))
     b = parse(fetch(R1.format(y=y, n=n - 1, lev='9:1:9')), (n, 1, 9, 144))
     return np.concatenate([a, b], axis=1)  # levels 1000, 850, 200
@@ -63,13 +67,15 @@ odates = np.array([dt.date(1800, 1, 1) + dt.timedelta(hours=h) for h in tt])
 def get_olr(y):
     ix = np.where([d.year == y for d in odates])[0]
     a = parse(fetch(OLR.format(a=ix[0], b=ix[-1])), (len(ix), 9, 144))
-    assert len(ix) == days(y), (y, len(ix))
+    assert len(ix) == days(y) or y == dt.date.today().year, (y, len(ix))
     return a
 
 years = list(range(Y0, Y1 + 1))
 with ThreadPoolExecutor(4) as ex:
     U = list(ex.map(get_u, years)); O = list(ex.map(get_olr, years))
 U = np.concatenate(U); O = np.concatenate(O)
+NL = min(len(U), len(O)); U, O = U[:NL], O[:NL]  # partial current year: keep days present in both
+LOG.append(f'days used {NL}')
 O[(O > 500) | (O < 50)] = np.nan
 dates = np.array([dt.date(Y0, 1, 1) + dt.timedelta(d) for d in range(len(U))])
 nanO = int(np.isnan(O).sum())
