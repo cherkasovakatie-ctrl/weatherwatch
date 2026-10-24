@@ -50,7 +50,7 @@ def build(c):
 
     S.append({"id": "uncertainty", "title": "8. Uncertainties", "html": f"""<ul>
 <li>Subsurface indices for 1981–82 are reconstructions from sparse XBT and station data; the warm-water-volume percentile is therefore uncertain.</li>
-<li>Reanalysis winds in 1982 rest on sparse island and ship reports, which the Kelvin-wave reconstruction's authors describe as substantially biased {c('rk2007')}; our burst list uses a single reanalysis; an independent ERA5 re-test is set up and will be reported when it has run.</li>
+<li>Reanalysis winds in 1982 rest on sparse island and ship reports, which the Kelvin-wave reconstruction's authors describe as substantially biased {c('rk2007')}; our burst list uses a single reanalysis; a direct ERA5 check confirmed 11 of the 13 bursts in 1982 (see the ERA5 check section), but without an ERA5 1979–2000 baseline it tests the timing of individual bursts, not the yearly count.</li>
 <li>The Kelvin-wave reconstruction underestimates amplitudes and is the only study linking the May–June MJO to the June–July wave; the competing wind-forced estimate finds weaker 1981–82 waves {c('bergman2001')}.</li>
 <li>MJO indices and our diagnostics share OLR and wind inputs; their agreement is not independent validation, and propagation-test results depend on window length.</li>
 <li>Several primary sources were read only in abstract (the 1983 <i>Science</i> papers; Weickmann 1991) and one not at all (Gill and Rasmusson 1983); claims citing them are limited to what the accessible text supports (see the citation audit).</li>
