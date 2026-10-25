@@ -550,9 +550,9 @@
    "id": "polar_motion",
    "file": "polar_motion.csv",
    "title": "Polar motion, monthly since 1990",
-   "description": "IERS EOP 14 C04 (to Jan 2026) and finals2000A daily (Jul 2026 onward, with forecasts) pole coordinates x and y in arcseconds.",
+   "description": "IERS EOP 14 C04 (to Dec 2025) and finals2000A daily (Jan 2026 onward, with forecasts: forecast = 1 if any day of the month is a prediction) pole coordinates x and y in arcseconds, monthly means.",
    "updated": "2026-10-23",
-   "bytes": 10829
+   "bytes": 10948
   },
   {
    "id": "polar_stations",

@@ -103,7 +103,7 @@ cmp_rows = [
     row('Niño 1+2, Sep (°C, OISST)', 'Sep', 'nino12'), row('Niño 4, Sep (°C, OISST)', 'Sep', 'nino4'),
     row('Heat content 180°–100°W, Sep (°C)', 'Sep', 'heat'), row('Warm water volume, Sep (10¹⁴ m³)', 'Sep', 'wwv'),
     row('SOI, Sep', 'Sep', 'soi', 1), row('OLR central Pacific, Sep (W m⁻²)', 'Sep', 'olr_cp', 1),
-    row('850 hPa trades, central Pacific, Sep (m s⁻¹)', 'Sep', 'trades_c', 1), row('PDO, Sep', 'Sep', 'pdo'),
+    row('850 hPa trades, central Pacific, Sep (standardized index, z-score)', 'Sep', 'trades_c', 1), row('PDO, Sep', 'Sep', 'pdo'),
     row('IOD (DMI, CPC), Aug', 'Aug', 'dmi'), row('Tropical North Atlantic, Sep (°C)', 'Sep', 'tna'),
     row('Global tropics SST, Sep (°C)', 'Sep', 'global_tropics'),
 ]
@@ -143,7 +143,7 @@ S.append({"id": "findings", "title": "Main findings (preliminary)", "html": (
     f"<li><b>Speed.</b> RONI rose {f(rise[2026])} °C from JFM to JAS, against {f(rise[1997])} (1997), {f(rise[2015])} (2015) and {f(rise[1982])} (1982), because it started from La Niña (NDJ {g('Dec-1', 'roni')} °C). <i>Observed.</i></li>"
     f"<li><b>Flavour.</b> East-based like 1997, more so: September Niño 1+2 {g('Sep', 'nino12')} °C (the highest September in the record), Niño 4 {g('Sep', 'nino4')} °C; the Niño 1+2 minus Niño 4 gap is {f(a('Sep', 'nino12', 2026) - a('Sep', 'nino4', 2026), 2, False)} °C, against {f(a('Sep', 'nino12', 1997) - a('Sep', 'nino4', 1997), 2, False)} in 1997 and {f(a('Sep', 'nino12', 2015) - a('Sep', 'nino4', 2015), 2, False)} in 2015. <i>Observed.</i></li>"
     f"<li><b>Ocean heat.</b> Heat content {g('Sep', 'heat')} °C in September and warm water volume {f(wwv_all[0][0])} in {mname(wwv_all[0][1])} are records for any month (previous: heat {f(prev_heat[0])} in {mname(prev_heat[1])}; WWV {f(prev_wwv[0])} in {mname(prev_wwv[1])}). Unlike 1997, when it peaked in April, the warm water volume kept rising until August and fell only in September. <i>Observed.</i></li>"
-    f"<li><b>Atmosphere.</b> September SOI {f(a('Sep', 'soi', 2026), 1)}, central-Pacific OLR {f(a('Sep', 'olr_cp', 2026), 1)} W m⁻² and central-Pacific trade-wind anomaly {f(a('Sep', 'trades_c', 2026), 1)} m s⁻¹ are each the most extreme September values in the record. <i>Observed.</i></li>"
+    f"<li><b>Atmosphere.</b> September SOI {f(a('Sep', 'soi', 2026), 1)}, central-Pacific OLR {f(a('Sep', 'olr_cp', 2026), 1)} W m⁻² and the central-Pacific standardized trade-wind index {f(a('Sep', 'trades_c', 2026), 1)} (dimensionless z-score) are each the most extreme September values in the record. <i>Observed.</i></li>"
     f"<li><b>Background.</b> PDO {g('Sep', 'pdo')} (1997 {f(a('Sep', 'pdo', 1997))}, 2015 {f(a('Sep', 'pdo', 2015))}); global-tropics SST {g('Sep', 'global_tropics')} °C, the warmest September on record. A positive IOD is developing (DMI {g('Aug', 'dmi')} in August, as in 1997 at {f(a('Aug', 'dmi', 1997))}). <i>Observed; their role is not yet tested.</i></li>"
     "</ol>")})
 S.append({"id": "data", "title": "1. Data and approach", "html": (
@@ -156,7 +156,7 @@ S.append({"id": "comparison", "title": "2. The four events at the same stage", "
     "<figure><img src=\"papers/img/enso2026_analogs.png\" alt=\"Four panels comparing 1982–83, 1997–98, 2015–16 and 2026: RONI, Niño 1+2, upper-300 m heat content and warm water volume, aligned on the onset year\" style=\"max-width:100%;height:auto\">"
     "<figcaption class=\"note\">Figure 1. The four events aligned on the onset year, December of year −1 to December of year +1. 2026 data end in September (RONI: July–September). Sources: NOAA CPC, NOAA PMEL.</figcaption></figure>"),
     "table": {"cols": ["Indicator", "1982–83", "1997–98", "2015–16", "2026"], "rows": cmp_rows,
-              "note": "Same calendar stage in each onset year. RONI and ONI are 3-month seasons labelled by their centre month (JAS = July–September). Niño-region SST from OISST v2.1; heat content from CPC (180°–100°W, 0–300 m, 1981–2010 base); WWV from NOAA PMEL; trade-wind and OLR indices from CPC (negative = weaker trades, more convection). PDO from NOAA NCEI."}})
+              "note": "Same calendar stage in each onset year. RONI and ONI are 3-month seasons labelled by their centre month (JAS = July–September). Niño-region SST from OISST v2.1; heat content from CPC (180°–100°W, 0–300 m, 1981–2010 base); WWV from NOAA PMEL; CPC trade-wind values are standardized, dimensionless z-scores (negative = weaker trades), and OLR values are in W m⁻² (negative = more convection). PDO from NOAA NCEI. IOD: CPC Dipole Mode Index, ERSSTv6, 1991–2020 baseline; the latest value is an estimate that may change for up to two months."}})
 S.append({"id": "growth", "title": "3. Growth from La Niña", "html": (
     f"<p>Each of the three analogs began year 0 near neutral or warm: RONI in NDJ was {f(a('Dec-1', 'roni', 1982))} °C (1981–82), {f(a('Dec-1', 'roni', 1997))} (1996–97) and {f(a('Dec-1', 'roni', 2015))} (2014–15). 2026 began at {g('Dec-1', 'roni')} °C, a La Niña. "
     f"It crossed zero in spring and by July–September was within {f(a('Aug', 'roni', 1997) - a('Aug', 'roni', 2026), 2, False)} °C of 1997 (on the traditional ONI it has been above 1997 since DJF). The six-month rise of {f(rise[2026])} °C is the largest of the four.</p>"
@@ -171,7 +171,7 @@ S.append({"id": "flavour", "title": "4. An east-based event", "html": (
     f"Mid-October weekly values underline the gap: relative Niño 1+2 {f(float(wk[lastwk]['rel_nino12']), 1)} °C and relative Niño 3.4 {f(float(wk[lastwk]['rel_nino34']), 1)} °C (week of {lastwk}), against {f(float(wk_same[1997]['rel_nino12']), 1)} and {f(float(wk_same[1997]['rel_nino34']), 1)} °C in mid-October 1997 and {f(float(wk_same[2015]['rel_nino12']), 1)} and {f(float(wk_same[2015]['rel_nino34']), 1)} °C in mid-October 2015.</p>"
     "<p>East-based events bring the largest coastal impacts in Peru and Ecuador and, through coastally trapped waves, along the Americas; the site's event logs for the Peruvian coast and the California coast record those in 2026.</p>")})
 S.append({"id": "atmos", "title": "5. Coupling with the atmosphere", "html": (
-    f"<p>By September the atmosphere matched the ocean. The SOI was {f(a('Sep', 'soi', 2026), 1)}, central-Pacific OLR {f(a('Sep', 'olr_cp', 2026), 1)} W m⁻² (deep convection over normally dry ocean) and the central-Pacific 850 hPa trade-wind index {f(a('Sep', 'trades_c', 2026), 1)} m s⁻¹; "
+    f"<p>By September the atmosphere matched the ocean. The SOI was {f(a('Sep', 'soi', 2026), 1)}, central-Pacific OLR {f(a('Sep', 'olr_cp', 2026), 1)} W m⁻² (deep convection over normally dry ocean) and the central-Pacific 850 hPa standardized trade-wind index {f(a('Sep', 'trades_c', 2026), 1)} (dimensionless z-score); "
     f"each is the most extreme September value since these records began (SOI 1951; OLR and winds 1979). In 1997 the same indices were {f(a('Sep', 'soi', 1997), 1)}, {f(a('Sep', 'olr_cp', 1997), 1)} and {f(a('Sep', 'trades_c', 1997), 1)}. "
     "On these monthly measures the Bjerknes feedback is at least as strong as in 1997 at the same stage.</p>")})
 S.append({"id": "background", "title": "6. A different background", "html": (
@@ -181,6 +181,7 @@ S.append({"id": "background", "title": "6. A different background", "html": (
     f"This is why the traditional ONI ({g('Aug', 'oni')} °C, a record) is {f(a('Aug', 'oni', 2026) - a('Aug', 'roni', 2026), 2, False)} °C higher than RONI, against {f(a('Aug', 'oni', 1997) - a('Aug', 'roni', 1997))} in 1997. "
     "RONI removes the tropical-mean warming so that events from different decades can be compared <a href=\"#ref-lheureux2024\">[1]</a>; on RONI, 2026 is very strong but not yet the strongest.</p>"
     f"<p><b>Indian and Atlantic Oceans.</b> The IOD index (CPC) rose to {g('Aug', 'dmi')} in August, similar to 1997 ({f(a('Aug', 'dmi', 1997))}) and 1982 ({f(a('Aug', 'dmi', 1982))}); in 1997 it went on to {f(a('Nov', 'dmi', 1997))} in November <a href=\"#ref-saji1999\">[6]</a>. "
+    "The 2026 IOD values are CPC's Dipole Mode Index from ERSSTv6 (western box minus south-eastern box, 1991–2020 baseline) read from CPC's data file <a href=\"#ref-cpc_dmi\">[CPC DMI]</a>; CPC says the latest values are estimates that may change for up to two months after first posting. "
     f"The tropical North Atlantic is warm ({g('Sep', 'tna')} °C), unlike 1982 and 1997, which were cool.</p>")})
 import rain_common as RC  # noqa: E402
 _rc, _rr = RC.table_all()
@@ -241,6 +242,7 @@ refs = [
     ("hersbach2020", "Hersbach, H., et al. (2020). The ERA5 global reanalysis. <i>Quarterly Journal of the Royal Meteorological Society</i> 146, 1999–2049. 2026 data: Copernicus Climate Change Service (C3S) Climate Data Store, ERA5 hourly data on pressure levels, u and v at 1000/850/200 hPa, 1 January – 18 October 2026.", "10.1002/qj.3803", None, "full text read (open access); data read and processed"),
     ("ibtracs", "Knapp, K. R., et al. (2010). The International Best Track Archive for Climate Stewardship (IBTrACS). <i>Bulletin of the American Meteorological Society</i> 91, 363–376. Data: IBTrACS v04r01, NOAA NCEI (2026 positions provisional).", "10.1175/2009BAMS2755.1", None, "bibliographic record"),
     ("cpc", "NOAA Climate Prediction Center: RONI and ONI, OISST v2.1 monthly and weekly Niño indices (traditional and relative), SOI, 850 hPa trade-wind and OLR indices, upper-300 m heat content, IOD (DMI), tropical Atlantic SST; ENSO Diagnostic Discussion and strength-probability table. NOAA PMEL warm water volume. NOAA NCEI PDO. Site copies in the data archive.", None, "https://www.cpc.ncep.noaa.gov/data/indices/", "data read"),
+    ("cpc_dmi", "NOAA Climate Prediction Center, International Desks: Dipole Mode Index (DMI), ERSSTv6, 1991–2020 climatology; monthly text file mnth.ersstv6.clim19912020.dmi_current.txt (retrieved 24 Oct 2026).", None, "https://www.cpc.ncep.noaa.gov/products/international/ocean_monitoring/indian/IODMI/mnth.ersstv6.clim19912020.dmi_current.txt", "data read; August 2026 = +0.68"),
     ("iri", "IRI/CCSR: ENSO forecast, October 2026 multi-model Niño 3.4 plume (as read for the site's outlook card).", None, "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/", "data read"),
 ]
 if BD:

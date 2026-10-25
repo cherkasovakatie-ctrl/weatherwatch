@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "events": [
   {
    "id": "santa-ana-oct-2026",
@@ -146,15 +146,15 @@
   },
   {
    "id": "kelvin-wave-california-2026",
-   "name": "Kelvin wave and California high water",
-   "type": "Coastal sea-level surge",
-   "region": "California coast, north to Alaska",
-   "start": "2026-09-15",
+    "name": "Los Angeles high-water residual (October 2026)",
+    "type": "Coastal water-level residual",
+    "region": "Los Angeles, California (NOAA CO-OPS station 9410660)",
+    "start": "2026-10-13",
    "end": "",
-   "status": "unfolding",
+    "status": "open",
    "depth": "deep",
-   "headline": "El Niño's warm water has reached California as a coastal wave: sea level at Los Angeles has run about 1 ft above the tide tables every day since 13 October, with the next peak due around 23–24 October and king tides in November–January.",
-   "as_of": "16 Oct 2026 (NOAA CO-OPS Los Angeles)",
+    "headline": "Preliminary NOAA CO-OPS observations at Los Angeles were above hourly tide predictions during 13–16 October 2026. The residual does not identify its cause; the claimed Kelvin-wave and marine-heatwave contributions are unverified.",
+    "as_of": "24 Oct 2026 (NOAA CO-OPS Los Angeles observations through 16 Oct checked)",
    "when": ""
   },
   {

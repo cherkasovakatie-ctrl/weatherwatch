@@ -76,7 +76,7 @@
   {
    "id": "findings",
    "title": "Main findings (preliminary)",
-   "html": "<ol><li><b>Strength.</b> RONI JAS +1.69 °C, rank 2 of 77 since 1950 (1997 is first). On the traditional ONI, JAS 2026 (+2.16 °C) is first. September relative Niño 3.4 (+2.06 °C) is the highest September in the record (from 1981). <i>Observed.</i></li><li><b>Speed.</b> RONI rose +2.45 °C from JFM to JAS, against +1.87 (1997), +1.07 (2015) and +0.92 (1982), because it started from La Niña (NDJ −1.04 °C). <i>Observed.</i></li><li><b>Flavour.</b> East-based like 1997, more so: September Niño 1+2 +4.69 °C (the highest September in the record), Niño 4 +0.95 °C; the Niño 1+2 minus Niño 4 gap is 3.74 °C, against 3.07 in 1997 and 1.47 in 2015. <i>Observed.</i></li><li><b>Ocean heat.</b> Heat content +3.39 °C in September and warm water volume +3.46 in August 2026 are records for any month (previous: heat +2.56 in October 1997; WWV +3.12 in April 1997). Unlike 1997, when it peaked in April, the warm water volume kept rising until August and fell only in September. <i>Observed.</i></li><li><b>Atmosphere.</b> September SOI −2.0, central-Pacific OLR −36.2 W m⁻² and central-Pacific trade-wind anomaly −3.0 m s⁻¹ are each the most extreme September values in the record. <i>Observed.</i></li><li><b>Background.</b> PDO −1.55 (1997 +1.80, 2015 +0.97); global-tropics SST +1.14 °C, the warmest September on record. A positive IOD is developing (DMI +0.68 in August, as in 1997 at +0.54). <i>Observed; their role is not yet tested.</i></li></ol>"
+   "html": "<ol><li><b>Strength.</b> RONI JAS +1.69 °C, rank 2 of 77 since 1950 (1997 is first). On the traditional ONI, JAS 2026 (+2.16 °C) is first. September relative Niño 3.4 (+2.06 °C) is the highest September in the record (from 1981). <i>Observed.</i></li><li><b>Speed.</b> RONI rose +2.45 °C from JFM to JAS, against +1.87 (1997), +1.07 (2015) and +0.92 (1982), because it started from La Niña (NDJ −1.04 °C). <i>Observed.</i></li><li><b>Flavour.</b> East-based like 1997, more so: September Niño 1+2 +4.69 °C (the highest September in the record), Niño 4 +0.95 °C; the Niño 1+2 minus Niño 4 gap is 3.74 °C, against 3.07 in 1997 and 1.47 in 2015. <i>Observed.</i></li><li><b>Ocean heat.</b> Heat content +3.39 °C in September and warm water volume +3.46 in August 2026 are records for any month (previous: heat +2.56 in October 1997; WWV +3.12 in April 1997). Unlike 1997, when it peaked in April, the warm water volume kept rising until August and fell only in September. <i>Observed.</i></li><li><b>Atmosphere.</b> September SOI −2.0, central-Pacific OLR −36.2 W m⁻² and the central-Pacific standardized trade-wind index −3.0 (dimensionless z-score) are each the most extreme September values in the record. <i>Observed.</i></li><li><b>Background.</b> PDO −1.55 (1997 +1.80, 2015 +0.97); global-tropics SST +1.14 °C, the warmest September on record. A positive IOD is developing (DMI +0.68 in August, as in 1997 at +0.54). <i>Observed; their role is not yet tested.</i></li></ol>"
   },
   {
    "id": "data",
@@ -174,7 +174,7 @@
       "<span class=\"num\">−36.2</span>"
      ],
      [
-      "850 hPa trades, central Pacific, Sep (m s⁻¹)",
+      "850 hPa trades, central Pacific, Sep (standardized index, z-score)",
       "<span class=\"num\">−2.0</span>",
       "<span class=\"num\">−2.8</span>",
       "<span class=\"num\">−1.0</span>",
@@ -216,7 +216,7 @@
       "<span class=\"num\">16 (ERA5)</span>"
      ]
     ],
-    "note": "Same calendar stage in each onset year. RONI and ONI are 3-month seasons labelled by their centre month (JAS = July–September). Niño-region SST from OISST v2.1; heat content from CPC (180°–100°W, 0–300 m, 1981–2010 base); WWV from NOAA PMEL; trade-wind and OLR indices from CPC (negative = weaker trades, more convection). PDO from NOAA NCEI."
+    "note": "Same calendar stage in each onset year. RONI and ONI are 3-month seasons labelled by their centre month (JAS = July–September). Niño-region SST from OISST v2.1; heat content from CPC (180°–100°W, 0–300 m, 1981–2010 base); WWV from NOAA PMEL; CPC trade-wind values are standardized, dimensionless z-scores (negative = weaker trades), and OLR values are in W m⁻² (negative = more convection). PDO from NOAA NCEI. IOD: CPC Dipole Mode Index, ERSSTv6, 1991–2020 baseline; the latest value is an estimate that may change for up to two months."
    }
   },
   {
@@ -232,12 +232,12 @@
   {
    "id": "atmos",
    "title": "5. Coupling with the atmosphere",
-   "html": "<p>By September the atmosphere matched the ocean. The SOI was −2.0, central-Pacific OLR −36.2 W m⁻² (deep convection over normally dry ocean) and the central-Pacific 850 hPa trade-wind index −3.0 m s⁻¹; each is the most extreme September value since these records began (SOI 1951; OLR and winds 1979). In 1997 the same indices were −1.4, −32.5 and −2.8. On these monthly measures the Bjerknes feedback is at least as strong as in 1997 at the same stage.</p>"
+   "html": "<p>By September the atmosphere matched the ocean. The SOI was −2.0, central-Pacific OLR −36.2 W m⁻² (deep convection over normally dry ocean) and the central-Pacific 850 hPa standardized trade-wind index −3.0 (dimensionless z-score); each is the most extreme September value since these records began (SOI 1951; OLR and winds 1979). In 1997 the same indices were −1.4, −32.5 and −2.8. On these monthly measures the Bjerknes feedback is at least as strong as in 1997 at the same stage.</p>"
   },
   {
    "id": "background",
    "title": "6. A different background",
-   "html": "<p><b>Negative PDO.</b> In 1997 and 2015 the PDO was positive during growth (September +1.80 and +0.97); in 1982 it was weakly positive (+0.51). In 2026 it has been negative all year (September −1.55). All three analogs grew with a PDO at or above zero; 2026 is growing against a negative one. Whether the negative PDO is acting as a brake, has been cancelled by the tropical forcing, or is a sign of the North Pacific marine heatwaves rather than of the usual pattern, is an open question for the full paper.</p><p><b>Warm tropics.</b> Global-tropics SST was +1.14 °C in September, the warmest September on record (2015: +0.64; 1997: +0.31). This is why the traditional ONI (+2.16 °C, a record) is 0.47 °C higher than RONI, against −0.05 in 1997. RONI removes the tropical-mean warming so that events from different decades can be compared <a href=\"#ref-lheureux2024\">[1]</a>; on RONI, 2026 is very strong but not yet the strongest.</p><p><b>Indian and Atlantic Oceans.</b> The IOD index (CPC) rose to +0.68 in August, similar to 1997 (+0.54) and 1982 (+0.57); in 1997 it went on to +1.39 in November <a href=\"#ref-saji1999\">[6]</a>. The tropical North Atlantic is warm (+0.62 °C), unlike 1982 and 1997, which were cool.</p>"
+   "html": "<p><b>Negative PDO.</b> In 1997 and 2015 the PDO was positive during growth (September +1.80 and +0.97); in 1982 it was weakly positive (+0.51). In 2026 it has been negative all year (September −1.55). All three analogs grew with a PDO at or above zero; 2026 is growing against a negative one. Whether the negative PDO is acting as a brake, has been cancelled by the tropical forcing, or is a sign of the North Pacific marine heatwaves rather than of the usual pattern, is an open question for the full paper.</p><p><b>Warm tropics.</b> Global-tropics SST was +1.14 °C in September, the warmest September on record (2015: +0.64; 1997: +0.31). This is why the traditional ONI (+2.16 °C, a record) is 0.47 °C higher than RONI, against −0.05 in 1997. RONI removes the tropical-mean warming so that events from different decades can be compared <a href=\"#ref-lheureux2024\">[1]</a>; on RONI, 2026 is very strong but not yet the strongest.</p><p><b>Indian and Atlantic Oceans.</b> The IOD index (CPC) rose to +0.68 in August, similar to 1997 (+0.54) and 1982 (+0.57); in 1997 it went on to +1.39 in November <a href=\"#ref-saji1999\">[6]</a>. The 2026 IOD values are CPC's Dipole Mode Index from ERSSTv6 (western box minus south-eastern box, 1991–2020 baseline) read from CPC's data file <a href=\"#ref-cpc_dmi\">[CPC DMI]</a>; CPC says the latest values are estimates that may change for up to two months after first posting. The tropical North Atlantic is warm (+0.62 °C), unlike 1982 and 1997, which were cool.</p>"
   },
   {
    "id": "rain",
@@ -493,6 +493,13 @@
    "doi": null,
    "url": "https://www.cpc.ncep.noaa.gov/data/indices/",
    "check": "data read"
+  },
+  {
+   "key": "cpc_dmi",
+   "text": "NOAA Climate Prediction Center, International Desks: Dipole Mode Index (DMI), ERSSTv6, 1991–2020 climatology; monthly text file mnth.ersstv6.clim19912020.dmi_current.txt (retrieved 24 Oct 2026).",
+   "doi": null,
+   "url": "https://www.cpc.ncep.noaa.gov/products/international/ocean_monitoring/indian/IODMI/mnth.ersstv6.clim19912020.dmi_current.txt",
+   "check": "data read; August 2026 = +0.68"
   },
   {
    "key": "iri",

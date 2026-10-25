@@ -1,77 +1,50 @@
 {
  "id": "kelvin-wave-california-2026",
- "name": "Kelvin wave and California high water",
- "type": "Coastal sea-level surge",
- "region": "California coast, north to Alaska",
- "start": "2026-09-15",
+ "name": "Los Angeles high-water residual (October 2026)",
+ "type": "Coastal water-level residual",
+ "region": "Los Angeles, California (NOAA CO-OPS station 9410660)",
+ "start": "2026-10-13",
  "end": "",
- "status": "unfolding",
- "as_of": "16 Oct 2026 (NOAA CO-OPS Los Angeles)",
- "headline": "El Niño's warm water has reached California as a coastal wave: sea level at Los Angeles has run about 1 ft above the tide tables every day since 13 October, with the next peak due around 23–24 October and king tides in November–January.",
+ "status": "open",
+ "as_of": "24 Oct 2026 (NOAA CO-OPS Los Angeles observations through 16 Oct checked)",
+ "headline": "Preliminary NOAA CO-OPS observations at Los Angeles were above hourly tide predictions during 13–16 October 2026. The residual does not identify its cause; the claimed Kelvin-wave and marine-heatwave contributions are unverified.",
  "numbers": [
-  [
-   "LA water vs prediction",
-   "+0.7 to +1.3 ft (13–16 Oct)"
-  ],
-  [
-   "Kelvin wave",
-   "9–12 in"
-  ],
-  [
-   "Marine heatwave",
-   "6–10 in"
-  ],
-  [
-   "Next peaks",
-   "~23–24 Oct; king tides 24–26 Nov, 22–25 Dec, 20–23 Jan"
-  ]
+    [
+     "Observed minus predicted water level",
+     "+0.525 to +1.444 ft (13–16 Oct; hourly-mean residual range)"
+    ],
+    [
+     "Cause of residual",
+     "Not attributed"
+    ]
  ],
  "timeline": [
-  [
-   "Jul–Sep",
-   "Trade winds collapse over the central Pacific; warm water surges east along the equator."
-  ],
-  [
-   "Sep",
-   "The warm water hits South America and splits north and south as coastally trapped Kelvin waves, travelling along the coast at about 6 mph."
-  ],
-  [
-   "8 Oct",
-   "First sea-level peak on the Southern California coast."
-  ],
-  [
-   "7–10 Oct",
-   "With Rachel's swell and new-moon spring tides on top, damage in Long Beach, flooding on the Balboa Peninsula, erosion at San Clemente."
-  ],
-  [
-   "13–16 Oct",
-   "Los Angeles water level 0.7–1.3 ft above predictions every hour (our data)."
-  ],
-  [
-   "~23–24 Oct (forecast)",
-   "Next peak, possibly coinciding with the first winter storm."
-  ],
-  [
-   "Nov–Jan",
-   "King tides on 24–26 Nov, 22–25 Dec and 20–23 Jan expected 1–2 ft above predictions."
-  ]
+    [
+     "13–16 Oct",
+     "At NOAA CO-OPS Los Angeles station 9410660, daily means of hourly observed-minus-predicted water levels were +0.946 to +1.082 ft; individual hourly-mean residuals across the four days ranged from +0.525 to +1.444 ft. The 6-minute observed water-level API records were preliminary when checked."
+    ],
+    [
+     "Attribution",
+     "No event-specific sea-level decomposition was found to quantify contributions from an equatorial Kelvin wave, local marine heatwave, long-term sea-level rise, tides, storm surge, or swell."
+    ]
  ],
  "sections": {
-  "The setup": "A record east-based El Niño moved an enormous amount of warm water east. Warm water expands, and it also piles up against the coast where the winds no longer push it west.",
-  "The trigger": "When the equatorial wave reaches South America it cannot go further, so part of its energy turns north and travels up the coast of Central America, Mexico and California as a coastally trapped Kelvin wave, raising sea level by 9–12 in.",
-  "What amplified it": "Layers stacking: a local marine heatwave adds 6–10 in, long-term sea-level rise 2–3 in, and on top come spring tides, storm surge and swell. Each alone is minor; together they flood low coastal streets.",
-  "How it ends": "Not soon. Sea level stays high as long as El Niño keeps feeding warm water east, likely into February 2027. The worst moments will be king tides combined with winter storms.",
-  "Climate signal": "Long-term sea-level rise adds 2–3 in, plus 6–8 in already built into the tidal datum (Swain).",
-  "Still open": "The size of the late-October peak and whether it coincides with storm surf."
+    "The observation": "NOAA CO-OPS provides preliminary six-minute water-level observations and harmonic tide predictions for station 9410660. For 13–16 October, hourly means of the observed series minus predictions at matching UTC hours were positive; the daily means ranged from +0.946 to +1.082 ft. This is a station-level residual, not an attribution to a particular ocean or atmospheric process.",
+    "What is not established": "No primary source or reproducible calculation was found for a 9–12 inch Kelvin-wave contribution, a 6–10 inch marine-heatwave contribution, or the additional long-term-rise and tidal-datum amounts claimed in the prior text. The residual can include multiple processes and cannot be partitioned from this station comparison alone.",
+    "Interpretation": "Equatorial Kelvin waves and coastal-trapped waves are recognized ocean dynamics, but the available ERA5 diagnostic measures equatorial zonal-wind anomalies and burst counts; it does not measure coastal sea level or quantify a wave contribution at Los Angeles."
  },
  "sources": [
   {
-   "title": "Global Weather Watch data: LA water level vs prediction (NOAA CO-OPS 9410660)",
-   "url": "data.html"
+    "title": "NOAA CO-OPS Data API: preliminary 6-minute water_level observations, Los Angeles 9410660, 2026-10-13 to 2026-10-16, GMT, ft MLLW",
+    "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=water_level&application=weatherwatch&begin_date=20261013&end_date=20261016&datum=MLLW&station=9410660&time_zone=gmt&units=english&format=json"
   },
   {
-   "title": "NOAA Tides & Currents: Los Angeles 9410660",
-   "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9410660"
+    "title": "NOAA CO-OPS Data API: hourly harmonic predictions, Los Angeles 9410660, 2026-10-13 to 2026-10-16, GMT, ft MLLW",
+    "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=predictions&application=weatherwatch&begin_date=20261013&end_date=20261016&datum=MLLW&station=9410660&time_zone=gmt&units=english&format=json&interval=h"
+  },
+  {
+    "title": "NOAA Tides & Currents station 9410660, Los Angeles",
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9410660"
   }
  ],
  "related": [

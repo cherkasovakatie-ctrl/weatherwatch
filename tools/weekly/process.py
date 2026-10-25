@@ -229,11 +229,11 @@ if want('polar_motion'):
         yy, mm = int(line[0:2]), int(line[2:4]); y = 2000 + yy if yy < 70 else 1900 + yy
         flag = line[16]; x, yv = float(line[18:27]), float(line[37:46])
         acc.setdefault(f'{y}-{mm:02d}', []).append((x, yv, flag == 'P'))
-    new = {m: v for m, v in acc.items() if m >= '2026-07'}
+    new = {m: v for m, v in acc.items() if m >= '2026-01'}
     overlap('x', [(f'{sum(a for a, _, _ in v) / len(v):.4f}', rows[m]['x_arcsec']) for m, v in new.items() if m in rows and not any(p for *_, p in v)])
     for m, v in new.items():
         rows[m] = {'month': m, 'x_arcsec': f'{sum(a for a, _, _ in v) / len(v):.4f}'.rstrip('0'), 'y_arcsec': f'{sum(b for _, b, _ in v) / len(v):.4f}'.rstrip('0'),
-                   'forecast': '1' if any(p for *_, p in v) else ''}
+                   'forecast': '1' if any(p for *_, p in v) else '0'}
     wcsv('polar_motion.csv', hdr, [rows[m] for m in sorted(rows)], 'month')
 
 # ---------------- enso_plume / enso_probs: IRI/CCSR monthly plume and objective probabilities (SVG geometry)
