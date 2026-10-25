@@ -745,6 +745,14 @@
    "description": "Chance (%) of La Niña, Neutral and El Niño per 3-month target season from two sources, one row per source and season, keyed by target_start (first month) so products starting on different seasons align. CPC: official NOAA CPC consensus outlook from the numeric strength-probability table (RONI, ±0.5 °C categories; El Niño split into weak/moderate/strong/very strong at +0.5/+1.0/+1.5/+2.0 °C), issue date from the ENSO Diagnostic Discussion. IRI: objective model-based probabilities for traditional Niño 3.4 (OISST), read from IRI figure3 SVG. Seasonal probabilities, not monthly odds. Rows must sum to 100 ± 1–2.",
    "updated": "2026-10-23",
    "bytes": 1368
+  },
+  {
+   "id": "nmme_nino34_rebaselined",
+   "file": "nmme_nino34_rebaselined.csv",
+   "title": "CPC NMME Niño 3.4 forecast by model, posted and re-baselined to 1993-2010",
+   "description": "Niño 3.4 (5°S–5°N, 170°W–120°W, area-weighted) SST anomaly forecast, °C, for OND, NDJ and DJF, issued 2026-10-08 by CPC (NMME): the posted anomaly of each model (relative to that model's own hindcast climatology; periods differ), the change, and the anomaly re-baselined to 1993-2010 with per-member hindcasts from forecast.ccsr.columbia.edu, plus the equal-weight mean of six models. Re-baselining is this site's calculation; model forecasts, not observations.",
+   "updated": "2026-10-24",
+   "bytes": 1018
   }
  ]
 }

@@ -415,7 +415,68 @@
   {
    "id": "outlook",
    "title": "10. Forecasts and an analog scenario",
-   "html": "<p><b>Forecasts (official, not observations).</b> The CPC outlook of 2026-10-08 gives a 100% chance of very strong El Niño (RONI ≥ +2.0 °C) for October–December, 96% for November–January and 81% for December–February. The IRI multi-model plume of October has an all-model average of +3.48 °C for OND on the traditional Niño 3.4 index (range +2.46 to +4.28 °C, 27 models). The site's ENSO outlook card shows both in full.</p><p><b>Analog scenario (speculation, labelled as such).</b> If 2026 added the same amount after JAS as the analogs did (0.44–1.26 °C), its RONI peak would be +2.13 to +2.95 °C, most likely in November–January. The upper end would exceed every event since 1950 on RONI. Two features argue for the upper half: heat content was still rising in September, whereas in 1982 and 1997 it peaked in October, and the warm water volume had only begun to fall. One point is unresolved: in all three analogs RONI peaked within a month of the warm water volume turning negative. In 2026 it is still +3.16 (September), so on that analog the peak is some months away, or the relationship will not hold this time. This simple arithmetic ignores the different background state and has no skill estimate.</p>"
+   "html": "<p><b>Forecasts (official, not observations).</b> The CPC outlook of 2026-10-08 gives a 100% chance of very strong El Niño (RONI ≥ +2.0 °C) for October–December, 96% for November–January and 81% for December–February. The IRI multi-model plume of October has an all-model average of +3.48 °C for OND on the traditional Niño 3.4 index (range +2.46 to +4.28 °C, 27 models). The site's ENSO outlook card shows both in full.</p><p><b>Analog scenario (speculation, labelled as such).</b> If 2026 added the same amount after JAS as the analogs did (0.44–1.26 °C), its RONI peak would be +2.13 to +2.95 °C, most likely in November–January. The upper end would exceed every event since 1950 on RONI. Two features argue for the upper half: heat content was still rising in September, whereas in 1982 and 1997 it peaked in October, and the warm water volume had only begun to fall. One point is unresolved: in all three analogs RONI peaked within a month of the warm water volume turning negative. In 2026 it is still +3.16 (September), so on that analog the peak is some months away, or the relationship will not hold this time. This simple arithmetic ignores the different background state and has no skill estimate.</p><p><b>CPC NMME forecast by model (forecast, not observation; re-baselining is this site's calculation).</b> The table gives the Niño 3.4 anomaly forecast (°C) of each model of the North American Multi-Model Ensemble, issued 8 October 2026 by NOAA CPC <a href=\"#ref-cpc_nmme\">[CPC NMME]</a>. <i>Posted</i> is CPC's anomaly relative to each model's own hindcast climatology, and those periods differ: 1992–2019 for CFSv2, NASA_GEOS5v2 and NCAR_CCSM4; 1990–2019, as implied by the data, for CanESM5 and GEM5.2_NEMO; for NCAR_CESM1 CPC publishes none (1992–2019 is suspected). <i>Re-baselined</i> is a recalculation to 1993–2010 using per-member hindcasts from the CCSR data service <a href=\"#ref-ccsr_nmme\">[CCSR]</a>: each anomaly is shifted by the difference between the model's 1993–2010 hindcast mean and the climatology CPC used. The brackets give the change.</p><p><b>Caveats.</b> A warming trend makes a 1993–2010 baseline cooler than 1991–2020, so the re-baselined values are larger than 1991–2020 anomalies and cannot be compared with RONI or with the IRI plume above, which use 1991–2020 (the IRI plume gives +3.48 °C for OND). The NASA_GEOS5v2 baseline could not be validated, the CFSv2 hindcast on that service is pentad-based rather than the early-month sample CPC uses, and ensemble sizes differ between hindcast and forecast. The mean of six models mixes posted baselines.</p>",
+   "table": {
+    "cols": [
+     "Model",
+     "Posted baseline (CPC)",
+     "OND 2026: posted → 1993–2010 (change)",
+     "NDJ 2026–27: posted → 1993–2010 (change)",
+     "DJF 2026–27: posted → 1993–2010 (change)"
+    ],
+    "rows": [
+     [
+      "CFSv2",
+      "1992-2019",
+      "<span class=\"num\">+3.29 → +3.39</span> (+0.10)",
+      "<span class=\"num\">+3.18 → +3.25</span> (+0.07)",
+      "<span class=\"num\">+2.88 → +2.92</span> (+0.04)"
+     ],
+     [
+      "NASA_GEOS5v2",
+      "1992-2019",
+      "<span class=\"num\">+4.33 → +4.35</span> (+0.02)",
+      "<span class=\"num\">+4.69 → +4.72</span> (+0.03)",
+      "<span class=\"num\">+5.00 → +5.05</span> (+0.05)"
+     ],
+     [
+      "NCAR_CCSM4",
+      "1992-2019",
+      "<span class=\"num\">+3.17 → +3.23</span> (+0.06)",
+      "<span class=\"num\">+3.10 → +3.14</span> (+0.04)",
+      "<span class=\"num\">+2.80 → +2.83</span> (+0.03)"
+     ],
+     [
+      "NCAR_CESM1",
+      "1992-2019 (suspected; not published)",
+      "<span class=\"num\">+3.47 → +3.58</span> (+0.11)",
+      "<span class=\"num\">+3.74 → +3.86</span> (+0.12)",
+      "<span class=\"num\">+3.86 → +3.98</span> (+0.12)"
+     ],
+     [
+      "CanESM5",
+      "1990-2019 (implied)",
+      "<span class=\"num\">+3.60 → +3.74</span> (+0.14)",
+      "<span class=\"num\">+3.69 → +3.87</span> (+0.18)",
+      "<span class=\"num\">+3.48 → +3.68</span> (+0.21)"
+     ],
+     [
+      "GEM5.2_NEMO",
+      "1990-2019 (implied)",
+      "<span class=\"num\">+4.03 → +4.22</span> (+0.18)",
+      "<span class=\"num\">+4.09 → +4.30</span> (+0.21)",
+      "<span class=\"num\">+3.84 → +4.06</span> (+0.22)"
+     ],
+     [
+      "Mean of six models",
+      "mixed",
+      "<span class=\"num\">+3.65 → +3.75</span> (+0.10)",
+      "<span class=\"num\">+3.75 → +3.86</span> (+0.11)",
+      "<span class=\"num\">+3.64 → +3.75</span> (+0.11)"
+     ]
+    ],
+    "note": "Forecast Niño 3.4 anomalies (°C; box 5°S–5°N, 170°W–120°W, area-weighted, 3-month means) from CPC's NMME ensemble-mean files issued 2026-10-08, and the same re-baselined to 1993–2010 (values rounded independently). Mean of six: equal-weight mean of the six models. Model forecasts, not observations. Data: data/nmme_nino34_rebaselined.csv."
+   }
   },
   {
    "id": "next-steps",
@@ -500,6 +561,20 @@
    "doi": null,
    "url": "https://www.cpc.ncep.noaa.gov/products/international/ocean_monitoring/indian/IODMI/mnth.ersstv6.clim19912020.dmi_current.txt",
    "check": "data read; August 2026 = +0.68"
+  },
+  {
+   "key": "cpc_nmme",
+   "text": "NOAA Climate Prediction Center: North American Multi-Model Ensemble (NMME) forecasts of monthly climate anomalies; real-time anomaly files issued 8 October 2026 (Niño 3.4 computed from the tmpsfc ensemble-mean files).",
+   "doi": null,
+   "url": "https://www.cpc.ncep.noaa.gov/products/NMME/",
+   "check": "data read and processed"
+  },
+  {
+   "key": "ccsr_nmme",
+   "text": "Columbia University Center for Climate Systems Research (CCSR/IRI): NMME hindcast and forecast sea surface temperature (tos), OPeNDAP data service (beta), read 24 October 2026.",
+   "doi": null,
+   "url": "https://forecast.ccsr.columbia.edu/data/NMME/",
+   "check": "data read and processed"
   },
   {
    "key": "iri",
