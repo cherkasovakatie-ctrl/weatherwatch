@@ -1,18 +1,18 @@
 {
- "run_utc": "2026-10-24T18:44:32.562Z",
- "run_local": "2026-10-24 11:44",
+ "run_utc": "2026-10-25T18:55:44.224Z",
+ "run_local": "2026-10-25 11:55",
  "results": [
   {
    "id": "earthquakes",
    "ok": true,
-   "rows": 745,
-   "newest": "2026-10-24 16:54"
+   "rows": 763,
+   "newest": "2026-10-25 17:49"
   },
   {
    "id": "local_obs",
    "ok": true,
-   "rows": 37,
-   "newest": "2026-10-24 11:25"
+   "rows": 36,
+   "newest": "2026-10-25 11:35"
   },
   {
    "id": "local_periods",
@@ -24,43 +24,43 @@
    "id": "local_hourly",
    "ok": true,
    "rows": 216,
-   "newest": "2026-10-30 23:00"
+   "newest": "2026-10-31 23:00"
   },
   {
    "id": "local_tides",
    "ok": true,
    "rows": 192,
-   "newest": "2026-10-28 23:00"
+   "newest": "2026-10-29 23:00"
   },
   {
    "id": "local_hilo",
    "ok": true,
    "rows": 31,
-   "newest": "2026-10-28 18:02"
+   "newest": "2026-10-29 19:02"
   },
   {
    "id": "local_watertemp",
    "ok": true,
    "rows": 72,
-   "newest": "2026-10-24 11:00"
+   "newest": "2026-10-25 11:00"
   },
   {
    "id": "fires_global_grid",
    "ok": true,
-   "rows": 3719,
+   "rows": 3645,
    "newest": "9.5"
   },
   {
    "id": "fires_socal",
    "ok": true,
-   "rows": 201,
-   "newest": "2026-10-24"
+   "rows": 200,
+   "newest": "2026-10-25"
   },
   {
    "id": "space_daily",
    "ok": true,
    "rows": 31,
-   "newest": "2026-10-23",
+   "newest": "2026-10-24",
    "note": "1 new, 0 values updated"
   },
   {
@@ -72,8 +72,8 @@
   {
    "id": "coral_dhw",
    "ok": true,
-   "rows": 660,
-   "newest": "2026-10-22",
+   "rows": 661,
+   "newest": "2026-10-23",
    "note": "1 new, 0 values updated"
   },
   {
@@ -134,9 +134,9 @@
   {
    "id": "storm_fixes",
    "ok": true,
-   "rows": 649,
+   "rows": 671,
    "newest": "Wati",
-   "note": "647 IBTrACS fixes, 647 checked against the old file, 2 existing rows kept (advisories, or storms not in IBTrACS)"
+   "note": "669 IBTrACS fixes, 627 checked against the old file, 2 existing rows kept (advisories, or storms not in IBTrACS)"
   },
   {
    "id": "sst_weekly",
