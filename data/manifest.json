@@ -62,7 +62,7 @@
    "id": "atmosphere_monthly",
    "file": "atmosphere_monthly.csv",
    "title": "Monthly atmospheric indices",
-   "description": "SOI (standardized, CPC units) and its centred 3-month mean, Equatorial SOI, Darwin and Tahiti pressure anomalies, 850 mb trade wind indices, 200 mb wind anomaly, OLR, QBO and 500 mb temperature. From the project data sheet 'Weather Watch_NOAA source data' (mirrors NOAA CPC index files), read 11 Oct 2026.",
+   "description": "SOI (standardized, CPC units) and its centred 3-month mean, Equatorial SOI, Darwin and Tahiti pressure anomalies, 850 mb trade wind indices, 200 mb wind anomaly, OLR, QBO and 500 mb temperature. From the project data sheet 'Weather Watch_NOAA source data' (mirrors NOAA CPC index files), read 11 Oct 2026. The column trades_central_ms is the actual central-Pacific 850 mb wind speed in m/s (CPC original-data block), not an anomaly and not a standardized value.",
    "updated": "2026-10-11",
    "bytes": 69595
   },
