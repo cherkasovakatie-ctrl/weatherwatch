@@ -1,15 +1,15 @@
 period,start,temp_f,precip_chance,wind,forecast,is_day
-This Afternoon,2026-10-26 13:00,81,0,5 mph SSW,Sunny,True
-Tonight,2026-10-26 18:00,53,0,5 mph SE,Mostly Clear,False
-Tuesday,2026-10-27 06:00,79,0,5 mph SE,Mostly Sunny,True
-Tuesday Night,2026-10-27 18:00,53,1,5 mph SSE,Patchy Fog,False
-Wednesday,2026-10-28 06:00,77,0,5 mph SE,Patchy Fog then Partly Sunny,True
-Wednesday Night,2026-10-28 18:00,54,0,0 to 5 mph ESE,Mostly Cloudy,False
-Thursday,2026-10-29 06:00,76,1,0 to 5 mph SE,Partly Sunny,True
-Thursday Night,2026-10-29 18:00,58,15,0 to 5 mph SSE,Mostly Cloudy then Slight Chance Rain Showers,False
-Friday,2026-10-30 06:00,70,15,0 to 5 mph SSE,Slight Chance Rain Showers then Mostly Sunny,True
-Friday Night,2026-10-30 18:00,57,32,0 to 5 mph SSE,Chance Rain Showers,False
-Saturday,2026-10-31 06:00,67,45,0 to 5 mph SSE,Chance Rain Showers,True
-Saturday Night,2026-10-31 18:00,55,54,5 mph SE,Chance Rain Showers,False
-Sunday,2026-11-01 06:00,68,53,5 mph N,Chance Rain Showers,True
-Sunday Night,2026-11-01 18:00,52,32,5 to 15 mph N,Chance Rain Showers,False
+This Afternoon,2026-10-27 13:00,79,0,5 mph SSE,Mostly Sunny,True
+Tonight,2026-10-27 18:00,51,0,5 mph SE,Patchy Fog,False
+Wednesday,2026-10-28 06:00,77,0,0 to 5 mph SE,Patchy Fog then Partly Sunny,True
+Wednesday Night,2026-10-28 18:00,52,0,0 to 5 mph SE,Mostly Cloudy,False
+Thursday,2026-10-29 06:00,75,5,0 to 10 mph SSE,Partly Sunny,True
+Thursday Night,2026-10-29 18:00,54,20,0 to 10 mph SSE,Slight Chance Rain Showers,False
+Friday,2026-10-30 06:00,73,13,0 to 5 mph SSE,Mostly Sunny,True
+Friday Night,2026-10-30 18:00,57,16,5 mph SSE,Slight Chance Rain Showers,False
+Saturday,2026-10-31 06:00,69,60,0 to 5 mph SSE,Rain Showers Likely,True
+Saturday Night,2026-10-31 18:00,56,60,0 to 5 mph SE,Rain Showers Likely,False
+Sunday,2026-11-01 06:00,71,34,0 to 5 mph NNW,Chance Rain Showers,True
+Sunday Night,2026-11-01 18:00,53,11,5 to 15 mph NNW,Mostly Clear,False
+Monday,2026-11-02 06:00,76,1,0 to 5 mph NW,Sunny,True
+Monday Night,2026-11-02 18:00,55,5,0 to 10 mph NNW,Mostly Clear,False
