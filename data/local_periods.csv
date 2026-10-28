@@ -1,15 +1,15 @@
 period,start,temp_f,precip_chance,wind,forecast,is_day
-This Afternoon,2026-10-27 13:00,79,0,5 mph SSE,Mostly Sunny,True
-Tonight,2026-10-27 18:00,51,0,5 mph SE,Patchy Fog,False
-Wednesday,2026-10-28 06:00,77,0,0 to 5 mph SE,Patchy Fog then Partly Sunny,True
-Wednesday Night,2026-10-28 18:00,52,0,0 to 5 mph SE,Mostly Cloudy,False
-Thursday,2026-10-29 06:00,75,5,0 to 10 mph SSE,Partly Sunny,True
-Thursday Night,2026-10-29 18:00,54,20,0 to 10 mph SSE,Slight Chance Rain Showers,False
-Friday,2026-10-30 06:00,73,13,0 to 5 mph SSE,Mostly Sunny,True
-Friday Night,2026-10-30 18:00,57,16,5 mph SSE,Slight Chance Rain Showers,False
-Saturday,2026-10-31 06:00,69,60,0 to 5 mph SSE,Rain Showers Likely,True
-Saturday Night,2026-10-31 18:00,56,60,0 to 5 mph SE,Rain Showers Likely,False
-Sunday,2026-11-01 06:00,71,34,0 to 5 mph NNW,Chance Rain Showers,True
+This Afternoon,2026-10-28 13:00,76,0,5 mph SSE,Sunny,True
+Tonight,2026-10-28 18:00,54,0,0 to 5 mph SE,Mostly Cloudy,False
+Thursday,2026-10-29 06:00,75,6,0 to 10 mph SSE,Partly Sunny,True
+Thursday Night,2026-10-29 18:00,57,19,0 to 10 mph SSE,Slight Chance Rain Showers,False
+Friday,2026-10-30 06:00,73,11,0 to 5 mph S,Partly Sunny,True
+Friday Night,2026-10-30 18:00,55,7,0 to 5 mph SE,Mostly Cloudy,False
+Saturday,2026-10-31 06:00,69,69,0 mph,Chance Rain Showers then Light Rain Likely,True
+Saturday Night,2026-10-31 18:00,57,73,0 to 5 mph ENE,Rain Likely,False
+Sunday,2026-11-01 06:00,72,53,0 to 5 mph NW,Chance Light Rain,True
 Sunday Night,2026-11-01 18:00,53,11,5 to 15 mph NNW,Mostly Clear,False
-Monday,2026-11-02 06:00,76,1,0 to 5 mph NW,Sunny,True
-Monday Night,2026-11-02 18:00,55,5,0 to 10 mph NNW,Mostly Clear,False
+Monday,2026-11-02 06:00,76,1,0 to 5 mph N,Sunny,True
+Monday Night,2026-11-02 18:00,54,1,0 to 10 mph NW,Mostly Clear,False
+Tuesday,2026-11-03 06:00,77,3,0 to 5 mph WNW,Sunny,True
+Tuesday Night,2026-11-03 18:00,54,8,5 to 10 mph NW,Mostly Clear,False
