@@ -1,79 +1,77 @@
 {
- "run_utc": "2026-10-28T20:58:52.952Z",
- "run_local": "2026-10-28 13:58",
+ "run_utc": "2026-10-29T21:00:40.079Z",
+ "run_local": "2026-10-29 14:00",
  "results": [
   {
    "id": "earthquakes",
    "ok": true,
-   "rows": 730,
-   "newest": "2026-10-28 19:56"
+   "rows": 740,
+   "newest": "2026-10-29 20:32"
   },
   {
    "id": "local_obs",
    "ok": true,
    "rows": 36,
-   "newest": "2026-10-28 13:40"
+   "newest": "2026-10-29 13:35"
   },
   {
    "id": "local_periods",
    "ok": true,
    "rows": 14,
-   "newest": "Tuesday Night"
+   "newest": "Wednesday Night"
   },
   {
    "id": "local_hourly",
    "ok": true,
    "rows": 216,
-   "newest": "2026-11-03 23:00"
+   "newest": "2026-11-04 23:00"
   },
   {
    "id": "local_tides",
    "ok": true,
    "rows": 192,
-   "newest": "2026-11-01 23:00"
+   "newest": "2026-11-02 23:00"
   },
   {
    "id": "local_hilo",
    "ok": true,
    "rows": 31,
-   "newest": "2026-11-01 21:43"
+   "newest": "2026-11-02 22:40"
   },
   {
    "id": "local_watertemp",
    "ok": true,
    "rows": 72,
-   "newest": "2026-10-28 13:00"
+   "newest": "2026-10-29 13:00"
   },
   {
    "id": "fires_global_grid",
-   "ok": true,
-   "rows": 3630,
-   "newest": "9.5"
+   "ok": false,
+   "error": "https://firms.modaps.eosdis.nasa.gov/api/area/csv/***/VIIRS_NOAA20_NRT/world/2: fetch failed"
   },
   {
    "id": "fires_socal",
-   "ok": true,
-   "rows": 256,
-   "newest": "2026-10-28"
+   "ok": false,
+   "error": "https://firms.modaps.eosdis.nasa.gov/api/area/csv/***/VIIRS_NOAA20_NRT/-121.2,32.3,-114.5,36/5: fetch failed"
   },
   {
    "id": "space_daily",
    "ok": true,
    "rows": 31,
-   "newest": "2026-10-27",
+   "newest": "2026-10-28",
    "note": "1 new, 0 values updated"
   },
   {
    "id": "calfire_active",
    "ok": true,
-   "rows": 3,
-   "newest": "Soda Fire"
+   "rows": 1,
+   "newest": "Cooley Fire"
   },
   {
    "id": "coral_dhw",
    "ok": true,
-   "rows": 665,
-   "newest": "2026-10-27",
+   "rows": 666,
+   "newest": "2026-10-28",
    "note": "1 new, 0 values updated"
   },
   {
@@ -87,14 +85,14 @@
    "ok": true,
    "rows": 170,
    "newest": "2026-12-31",
-   "note": "0 new, 4 values updated"
+   "note": "0 new, 2 values updated"
   },
   {
    "id": "seaice_clim",
    "ok": true,
    "rows": 365,
    "newest": "12-31",
-   "note": "0 new, 0 values updated"
+   "note": "0 new, 22 values updated"
   },
   {
    "id": "oni",
@@ -134,16 +132,16 @@
   {
    "id": "storm_fixes",
    "ok": true,
-   "rows": 640,
+   "rows": 637,
    "newest": "Wati",
-   "note": "638 IBTrACS fixes, 638 checked against the old file, 2 existing rows kept (advisories, or storms not in IBTrACS)"
+   "note": "635 IBTrACS fixes, 613 checked against the old file, 2 existing rows kept (advisories, or storms not in IBTrACS)"
   },
   {
    "id": "sst_weekly",
    "ok": true,
    "rows": 2356,
    "newest": "2026-10-21",
-   "note": "0 new, 0 values updated"
+   "note": "0 new, 1 values updated"
   },
   {
    "id": "sst_monthly",
@@ -155,7 +153,7 @@
   {
    "id": "blob_boxes",
    "ok": false,
-   "error": "https://upwell.pfeg.noaa.gov/erddap/griddap/nceiErsstv5.csv?sst[(1991-01-01):1:(last)][(0.0)][(40):1:(50)][(210):1:(224)]: fetch failed"
+   "error": "https://upwell.pfeg.noaa.gov/erddap/griddap/nceiErsstv5.csv?sst[(1991-01-01):1:(last)][(0.0)][(40):1:(50)][(210):1:(224)]: HTTP 403"
   },
   {
    "id": "volcano_alerts_us",
