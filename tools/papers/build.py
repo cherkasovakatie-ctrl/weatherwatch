@@ -68,6 +68,7 @@ NAV = """<nav class="site-nav" aria-label="Site">
   <a href="./#climate">Climate</a>
   <a href="deadliest.html">Deadliest events</a>
   <a href="events.html">Event log</a>
+  <a href="claims.html">Claims vs evidence</a>
   <a href="data.html">Data archive</a>
   <a href="about.html">About &amp; method</a>
 </nav>"""
