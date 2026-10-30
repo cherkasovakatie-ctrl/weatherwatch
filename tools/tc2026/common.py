@@ -67,7 +67,7 @@ def facts(name, extra=()):
 
 
 def fig(name, caption):
-    return (f'<figure><img src="papers/img/tc2026_{name.lower()}.png" alt="{name.title()} 2026: intensity, pressure and sea-surface temperature along the track" style="max-width:100%;height:auto">'
+    return (f'<figure data-ww-chart="storm" data-storm="{name.upper()}"><img src="papers/img/tc2026_{name.lower()}.png" alt="{name.title()} 2026: intensity, pressure and sea-surface temperature along the track" style="max-width:100%;height:auto">'
             f'<figcaption class="note">{caption}</figcaption></figure>')
 
 

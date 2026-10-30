@@ -23,6 +23,9 @@ HEAD = """<!doctype html>
 {nav}
 <main>
 """
+# Interactive storm figure (assets/ww-storm.js); d3 7.9.0 is pinned with a subresource-integrity hash. Only pages that carry the figure load it.
+SCRIPTS = ('<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js" integrity="sha384-CjloA8y00+1SDAUkjs099PVfnY2KmDC2BZnws9kh8D/lX1s46w6EPhpXdqMfjK6i" '
+           'crossorigin="anonymous" defer></script><script src="assets/ww-storm.js" defer></script>')
 FOOT = """</main>
 <footer class="site-foot">Data snapshot: <span data-asof>{asof}</span>. Independent, non-commercial analysis built from public sources (see <a href="about.html">About &amp; method</a>). Analysis prepared with Claude (Anthropic). <a href="contact.html">Contact</a></footer>
 </body></html>
@@ -59,7 +62,11 @@ def page(p: dict, allp: list) -> str:
     parts.append('<h2 id="references">References</h2><ol class="refs">' + ''.join(ref_html(r) for r in p['references']) + '</ol>')
     sib = ''.join(f'<a class="card" href="{q["file"]}"{" aria-current=\"page\"" if q["file"] == p["file"] else ""}><b>{esc(q["short"])}</b><br><span class="note">{esc(q["card_line"])}</span></a>' for q in allp)
     parts.append(f'<h2>Other 2026 storm papers</h2><div class="papers">{sib}</div>')
-    return HEAD.format(title=esc(p['short']), desc=esc(p['description']), style=STYLE, nav=NAV) + '\n'.join(parts) + FOOT.format(asof=esc(p['research_date']))
+    body = '\n'.join(parts)
+    head = HEAD.format(title=esc(p['short']), desc=esc(p['description']), style=STYLE, nav=NAV)
+    if 'data-ww-chart="storm"' in body:
+        head = head.replace('</head>', SCRIPTS + '</head>', 1)
+    return head + body + FOOT.format(asof=esc(p['research_date']))
 
 
 def index(allp: list, inv: list) -> str:
