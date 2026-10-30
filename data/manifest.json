@@ -47,7 +47,7 @@
    "file": "ao_aao.csv",
    "title": "Arctic and Antarctic Oscillation",
    "description": "CPC monthly AO (from 1950) and AAO (from 1979) indices. Checked daily at 9 am Pacific by the scripted refresh (tools/nightly); a new month is added only once every column has a value.",
-   "updated": "2026-10-29",
+   "updated": "2026-10-30",
    "bytes": 18738
   },
   {
@@ -71,7 +71,7 @@
    "file": "blob_boxes.csv",
    "title": "Blob watch: Northeast Pacific and Southern California SST anomalies",
    "description": "Monthly sea-surface temperature anomaly (°C vs the 1991–2020 mean for the same month) from NOAA ERSSTv5 (2° grid, via NOAA CoastWatch ERDDAP), cos-latitude-weighted box means: nep_anom = 40–50°N, 150–135°W (the box Bond et al. 2015 used for the 2014 'Blob'); socal_anom = 30–36°N, 124–118°W, offshore Southern California (ocean grid points only). From 2012. Checked daily at 9 am Pacific by the scripted refresh (tools/nightly); a new month is added once both boxes have a value.",
-   "updated": "2026-10-27",
+   "updated": "2026-10-30",
    "bytes": 3278
   },
   {
@@ -79,7 +79,7 @@
    "file": "calfire_active.csv",
    "title": "CAL FIRE active incidents",
    "description": "Active wildfires listed by CAL FIRE (fire.ca.gov incidents API), largest first; start date in Pacific time. Refreshed daily at 9 am Pacific by the scripted refresh (tools/nightly).",
-   "updated": "2026-10-29",
+   "updated": "2026-10-30",
    "bytes": 87
   },
   {
@@ -103,15 +103,15 @@
    "file": "coral_dhw.csv",
    "title": "Coral degree heating weeks since 2025",
    "description": "NOAA Coral Reef Watch 5 km regional virtual stations: Florida Keys, Puerto Rico, Galápagos, Hawaii; Degree Heating Weeks in °C-weeks, from 2025. Refreshed daily at 9 am Pacific by the scripted refresh (tools/nightly).",
-   "updated": "2026-10-29",
-   "bytes": 21355
+   "updated": "2026-10-30",
+   "bytes": 21397
   },
   {
    "id": "coral_now",
    "file": "coral_now.csv",
    "title": "Coral reefs now",
    "description": "Latest SST, HotSpot (SST above the warmest-month mean, at the 90th-percentile pixel), Degree Heating Weeks and 7-day Bleaching Alert Area level per station, with the 2026 DHW peak (NOAA Coral Reef Watch). Before 18 Oct 2026 the HotSpot column held the SST anomaly. Refreshed daily at 9 am Pacific by the scripted refresh (tools/nightly).",
-   "updated": "2026-10-29",
+   "updated": "2026-10-30",
    "bytes": 293
   },
   {
@@ -151,8 +151,8 @@
    "file": "earthquakes.csv",
    "title": "Earthquakes M4.5+, 30 days",
    "description": "USGS Earthquake Hazards Program feed 'Magnitude 4.5+ Earthquakes, Past Month' (4.5_month.geojson), newest first, times in UTC. Refreshed daily at 9 am Pacific by the scripted refresh (tools/nightly).",
-   "updated": "2026-10-29",
-   "bytes": 65006
+   "updated": "2026-10-30",
+   "bytes": 65216
   },
   {
    "id": "elnino_pdo",
@@ -167,7 +167,7 @@
    "file": "enso_subsurface.csv",
    "title": "Equatorial Pacific subsurface heat",
    "description": "CPC upper-300 m equatorial temperature anomaly for 180°–100°W (°C vs 1981–2010, from 1979) and NOAA PMEL warm water volume anomaly (5°N–5°S, 120°E–80°W, ×10¹⁴ m³). Heat content is checked daily by the scripted refresh (tools/nightly); WWV is updated in the Friday review and may lag a month.",
-   "updated": "2026-10-29",
+   "updated": "2026-10-30",
    "bytes": 11208
   },
   {
@@ -191,16 +191,16 @@
    "file": "fires_global_grid.csv",
    "title": "Satellite fire detections, global 24 h",
    "description": "NASA FIRMS VIIRS (NOAA-20 and Suomi NPP) near-real-time detections, worldwide, past 24 hours (FIRMS area API), low-confidence detections dropped, aggregated to 1° cells: count, total and maximum fire radiative power (MW), latest pass (UTC). Refreshed daily at 9 am Pacific by the scripted refresh (tools/nightly).",
-   "updated": "2026-10-28",
-   "bytes": 139383
+   "updated": "2026-10-30",
+   "bytes": 137323
   },
   {
    "id": "fires_socal",
    "file": "fires_socal.csv",
    "title": "Fire detections, Southern California 5 days",
    "description": "NASA FIRMS VIIRS (NOAA-20 and Suomi NPP) near-real-time detections in 32.3–36°N, 121.2–114.5°W for the past 5 days (the FIRMS API maximum), with distance from the San Fernando Valley. A detection's site is every detection within 1.5 km of it; sites seen on 3+ days with maximum power under 15 MW, or within 1.5 km of a site tagged in the previous run, are tagged as persistent industrial heat sources (Claude's rule). Reclassified with this rule on 17 Oct 2026. Refreshed daily at 9 am Pacific by the scripted refresh (tools/nightly).",
-   "updated": "2026-10-28",
-   "bytes": 24678
+   "updated": "2026-10-30",
+   "bytes": 15342
   },
   {
    "id": "gdacs_current",
@@ -239,48 +239,48 @@
    "file": "local_hilo.csv",
    "title": "Santa Monica high and low tides",
    "description": "NOAA CO-OPS station 9410840 (Santa Monica) predicted high and low tides, feet above MLLW, 3 days back to 4 days ahead. Refreshed daily at 9 am Pacific (tools/nightly).",
-   "updated": "2026-10-29",
-   "bytes": 798
+   "updated": "2026-10-30",
+   "bytes": 796
   },
   {
    "id": "local_hourly",
    "file": "local_hourly.csv",
    "title": "Hourly forecast and air quality",
    "description": "Open-Meteo forecast API (temperature, humidity, dew point, rain chance, rain, sea-level pressure, wind, UV) and air-quality API (US AQI, PM2.5, ozone; 5-day horizon) at 34.20°N, 118.36°W (Burbank), two days back to seven days ahead, Pacific time. Free, no key. Refreshed daily at 9 am Pacific (tools/nightly).",
-   "updated": "2026-10-29",
-   "bytes": 14042
+   "updated": "2026-10-30",
+   "bytes": 13943
   },
   {
    "id": "local_obs",
    "file": "local_obs.csv",
    "title": "Burbank observations",
    "description": "NWS api.weather.gov station KBUR (Bob Hope Airport), one observation per hour for the last 36 hours (the most complete report in each hour), converted to °F, mph and hPa (station pressure), Pacific time. Refreshed daily at 9 am Pacific (tools/nightly).",
-   "updated": "2026-10-29",
-   "bytes": 1953
+   "updated": "2026-10-30",
+   "bytes": 2054
   },
   {
    "id": "local_periods",
    "file": "local_periods.csv",
    "title": "NWS 7-day forecast",
    "description": "NWS point forecast for grid LOX 150,51 (the San Fernando Valley), 12-hour periods. Refreshed daily at 9 am Pacific (tools/nightly).",
-   "updated": "2026-10-29",
-   "bytes": 985
+   "updated": "2026-10-30",
+   "bytes": 1010
   },
   {
    "id": "local_tides",
    "file": "local_tides.csv",
    "title": "Santa Monica tides",
    "description": "NOAA CO-OPS station 9410840 (Santa Monica): hourly predicted water level and observed (preliminary, on-the-hour) water level, feet above MLLW, local time; 3 days back to 4 days ahead. Refreshed daily at 9 am Pacific (tools/nightly).",
-   "updated": "2026-10-29",
-   "bytes": 5535
+   "updated": "2026-10-30",
+   "bytes": 5532
   },
   {
    "id": "local_watertemp",
    "file": "local_watertemp.csv",
    "title": "Santa Monica water temperature",
    "description": "NOAA CO-OPS station 9410840 (Santa Monica), hourly water temperature (°F), last three days. Refreshed daily at 9 am Pacific (tools/nightly).",
-   "updated": "2026-10-29",
-   "bytes": 1572
+   "updated": "2026-10-30",
+   "bytes": 1576
   },
   {
    "id": "market_bear",
@@ -423,7 +423,7 @@
    "file": "oni.csv",
    "title": "ONI and RONI",
    "description": "Seasonal ONI (ERSSTv6, centred base periods) and RONI (relative ERSSTv6, 1991–2020), indexed by the season's centre month, from 1950. NOAA CPC oni.ascii.txt and RONI.ascii.txt. Checked daily at 9 am Pacific by the scripted refresh (tools/nightly); a new month is added only once every column has a value.",
-   "updated": "2026-10-29",
+   "updated": "2026-10-30",
    "bytes": 25612
   },
   {
@@ -543,7 +543,7 @@
    "file": "planet_monthly.csv",
    "title": "Planet vital signs",
    "description": "Monthly global land–ocean temperature anomaly vs 1951–1980 (NASA GISTEMP v4, from 1880), Mauna Loa CO2 monthly mean and de-seasonalised trend (NOAA GML, ppm, from 1958), and Northern Hemisphere land snow cover (Rutgers Global Snow Lab, million km², with the anomaly vs the 1991–2020 monthly mean, from Nov 1966). Checked daily at 9 am Pacific by the scripted refresh (tools/nightly); a new month is added only once every column has a value.",
-   "updated": "2026-10-29",
+   "updated": "2026-10-30",
    "bytes": 48236
   },
   {
@@ -607,8 +607,8 @@
    "file": "seaice_clim.csv",
    "title": "Sea ice extent by day of year",
    "description": "NSIDC Sea Ice Index v4 (G02135) daily extent, Arctic and Antarctic, made into 5-day trailing means; per calendar day: 1981–2010 median and 10th/90th percentiles, lowest value before 2026, and the 2012, 2023, 2025 and 2026 values. Million km². The 2026 columns are refreshed daily at 9 am Pacific by the scripted refresh (tools/nightly).",
-   "updated": "2026-10-29",
-   "bytes": 39551
+   "updated": "2026-10-30",
+   "bytes": 39561
   },
   {
    "id": "sealevel_global",
@@ -655,7 +655,7 @@
    "file": "space_daily.csv",
    "title": "Space weather, last 30 days",
    "description": "Daily maximum planetary Kp, planetary Ap, F10.7 solar radio flux, SWPC sunspot number and M/X flare counts, last 31 days, from the NOAA SWPC daily geomagnetic (DGD) and solar (DSD) data files. Ap is left blank for a day still in progress. Refreshed daily at 9 am Pacific by the scripted refresh (tools/nightly).",
-   "updated": "2026-10-29",
+   "updated": "2026-10-30",
    "bytes": 1116
   },
   {
@@ -663,7 +663,7 @@
    "file": "sst_monthly.csv",
    "title": "Monthly Niño and basin SSTs",
    "description": "Monthly OISST v2.1 Niño-region anomalies (sstoi.indices) and relative anomalies (rel_mthsst9120.txt), ERSSTv6 Niño 3.4 (detrend.nino34.ascii.txt) and its relative version (Rnino34.ascii.txt), and Atlantic and global-tropics anomalies (sstoi.atl.indices), all NOAA CPC. Checked daily at 9 am Pacific by the scripted refresh (tools/nightly); a new month is added once every column has a value.",
-   "updated": "2026-10-29",
+   "updated": "2026-10-30",
    "bytes": 53847
   },
   {
@@ -671,7 +671,7 @@
    "file": "sst_weekly.csv",
    "title": "Weekly Niño SST anomalies",
    "description": "Weekly OISST v2.1 anomalies (1991–2020 base) and relative anomalies for Niño 1+2, 3, 3.4 and 4, from 1981 (NOAA CPC wksst9120.for and rel_wksst9120.txt). Checked daily at 9 am Pacific by the scripted refresh (tools/nightly); a new week is added once both files have it.",
-   "updated": "2026-10-29",
+   "updated": "2026-10-30",
    "bytes": 111446
   },
   {
@@ -679,15 +679,15 @@
    "file": "storm_fixes.csv",
    "title": "Storm positions over time",
    "description": "6-hourly tropical cyclone fixes for the past 35 days (position, 1-minute maximum wind, pressure) from NOAA NCEI IBTrACS v04r01 last3years file (provisional for recent storms; NHC and JTWC data; NCEI republishes every few days); category is Saffir–Simpson from the 1-minute wind, 'Low or disturbance' before formation and 'Post-tropical' after. Numbered systems not yet named in IBTrACS appear by ID (e.g. WP29). NHC advisory positions newer than IBTrACS's last fix are kept. Refreshed daily at 9 am Pacific by the scripted refresh (tools/nightly).",
-   "updated": "2026-10-29",
-   "bytes": 51860
+   "updated": "2026-10-30",
+   "bytes": 49595
   },
   {
    "id": "sunspots_monthly",
    "file": "sunspots_monthly.csv",
    "title": "Monthly sunspot number since 1900",
    "description": "SILSO total sunspot number v2 (monthly mean) and the standard 13-month smoothed mean (half weight on the end months), computed here. Checked daily at 9 am Pacific by the scripted refresh (tools/nightly); a new month is added only once every column has a value.",
-   "updated": "2026-10-29",
+   "updated": "2026-10-30",
    "bytes": 28187
   },
   {
@@ -711,7 +711,7 @@
    "file": "volcano_alerts_us.csv",
    "title": "US volcano alert levels",
    "description": "USGS Volcano Hazards Program elevated volcanoes (HANS getElevatedVolcanoes), with coordinates from HANS getVolcano; notice_date is the date of the latest notice (UTC). Refreshed daily at 9 am Pacific (tools/nightly).",
-   "updated": "2026-10-29",
+   "updated": "2026-10-30",
    "bytes": 392
   },
   {
