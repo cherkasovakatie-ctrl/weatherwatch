@@ -36,6 +36,8 @@ body { font-family: var(--font-anthropic-sans); }
   .ww-head h1 { margin: 0; font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); text-wrap: balance; }
   .ww-take { margin: 0; max-width: 72ch; color: var(--color-fg-muted); font-size: var(--cds-font-size-body); line-height: 1.5; }
   .ww-take b { color: var(--color-fg); font-weight: var(--cds-font-weight-medium); font-variant-numeric: tabular-nums; }
+  /* Reserve the final height before the data arrive (layout shift): the ghost is invisible text of the same shape as the filled sentence. */
+  .ww-ghost { visibility: hidden; }
   .ww-tiles { display: grid; gap: var(--cds-gap-md); grid-template-columns: repeat(auto-fit, minmax(min(100%, 10.5rem), 1fr)); }
   .ww-tile { display: grid; gap: var(--cds-gap-xs); align-content: start; background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-md); min-width: 0; }
   .ww-tile .lbl { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
@@ -272,26 +274,26 @@ body { font-family: var(--font-anthropic-sans); }
 <div class="ww">
   <header class="ww-head" id="top">
     <h1>Global Weather Watch</h1>
-    <p class="ww-take" id="takeaway"><span class="dash-skeleton">—</span></p>
+    <p class="ww-take" id="takeaway"><span class="dash-skeleton">—</span><span class="ww-ghost" aria-hidden="true"> Weekly Niño 3.4 is +0.0 °C in the week centred 00 Xxx 0000, above the highest weekly value before 2026, +0.0 °C (00 Xxx 0000). Niño 1+2 is warmer still at +0.0 °C. The ONI for XXX 0000 is +0.00 °C; as a 3-month mean it trails the live ocean by about two months.</span></p>
   </header>
 
   <section class="ww-tiles" id="headline" aria-label="Headline figures">
     <div class="ww-tile" id="tile-w34">
       <span class="lbl">Niño 3.4, weekly</span>
       <span class="val"><span class="dash-skeleton" data-source="headline" data-field="w_n34" data-row="0">—</span><span class="unit">°C</span></span>
-      <span class="sub" data-sub="week">OISST v2.1</span>
+      <span class="sub" data-sub="week">OISST v2.1<span class="ww-ghost" aria-hidden="true"> · week centred 00 Xxx 0000</span></span>
       <span class="chg"><span data-source="headline" data-field="w_n34_chg" data-row="0">—</span> vs prior week</span>
     </div>
     <div class="ww-tile" id="tile-w12">
       <span class="lbl">Niño 1+2, weekly</span>
       <span class="val"><span class="dash-skeleton" data-source="headline" data-field="w_n12" data-row="0">—</span><span class="unit">°C</span></span>
-      <span class="sub" data-sub="week">OISST v2.1</span>
+      <span class="sub" data-sub="week">OISST v2.1<span class="ww-ghost" aria-hidden="true"> · week centred 00 Xxx 0000</span></span>
       <span class="chg"><span data-source="headline" data-field="w_n12_chg" data-row="0">—</span> vs prior week</span>
     </div>
     <div class="ww-tile" id="tile-m34">
       <span class="lbl">Niño 3.4, monthly</span>
       <span class="val"><span class="dash-skeleton" data-source="headline" data-field="m_n34" data-row="0">—</span><span class="unit">°C</span></span>
-      <span class="sub" data-sub="month">OISST v2.1</span>
+      <span class="sub" data-sub="month">OISST v2.1<span class="ww-ghost" aria-hidden="true"> · Xxx 0000</span></span>
       <span class="chg"><span data-source="headline" data-field="m_n34_chg" data-row="0">—</span> vs prior month</span>
     </div>
     <div class="ww-tile" id="tile-oni">
@@ -309,7 +311,7 @@ body { font-family: var(--font-anthropic-sans); }
     <div class="ww-tile" id="tile-soi">
       <span class="lbl">SOI, 3-month</span>
       <span class="val"><span class="dash-skeleton" data-source="headline" data-field="soi3" data-row="0">—</span><span class="unit">σ</span></span>
-      <span class="sub" data-sub="soi3">CPC standardized units</span>
+      <span class="sub" data-sub="soi3">CPC standardized units<span class="ww-ghost" aria-hidden="true"> · Xxx 0000</span></span>
       <span class="chg"><span data-source="headline" data-field="soi3_chg" data-row="0">—</span> vs prior month</span>
     </div>
   </section>
@@ -2290,6 +2292,23 @@ window.WW = (() => {
     node.addEventListener('blur', stop);
   }
 
+  // Charts far below the viewport are drawn when they come within 800 px of it; after that (resize, data refresh) they redraw at once.
+  // Boxes keep their CSS min-height meanwhile, so nothing moves. Printing draws everything first.
+  const lazyIO = 'IntersectionObserver' in window ? new IntersectionObserver((ents) => ents.forEach((e) => {
+    if (!e.isIntersecting) return;
+    lazyIO.unobserve(e.target);
+    drawPending(e.target);
+  }), { rootMargin: '800px 0px' }) : null;
+  function drawPending(b) { const f = b._wwDraw; b._wwDraw = null; b._wwSeen = true; if (f) f(); }
+  function deferred(box, draw) {
+    if (!lazyIO || box._wwSeen || !box.clientWidth) return false;
+    if (box.getBoundingClientRect().top < innerHeight + 800) { box._wwSeen = true; return false; }
+    box._wwDraw = draw;
+    lazyIO.observe(box);
+    return true;
+  }
+  addEventListener('beforeprint', () => document.querySelectorAll('.ww-chart').forEach((b) => { if (b._wwDraw) drawPending(b); }));
+
   // CSV of exactly the plotted rows. cols: [{head, get(r)}]; an empty cell means the value is not available.
   function csvButton(box, rows, cols) {
     const b = document.createElement('button');
@@ -2313,6 +2332,7 @@ window.WW = (() => {
 
   // Line chart. o: {rows, x, xType, series:[{key,label,color,width,dash,muted}], yFmt, valFmt, zero, refs:[{y,label}], height, endLabels, xTickValues, xTickFormat, tipTitle}
   function line(box, o) {
+    if (deferred(box, () => line(box, o))) return;
     box.classList.remove('dash-skeleton');
     box.replaceChildren();
     const W = box.clientWidth;
@@ -2445,6 +2465,7 @@ window.WW = (() => {
 
   // Bar chart. o: {rows, label(r), series:[{key,label,color}], colorOf(v,s), lines:[{key,label,color,dash}], yFmt, valFmt, height, tipTitle, tickEvery}
   function bars(box, o) {
+    if (deferred(box, () => bars(box, o))) return;
     box.classList.remove('dash-skeleton');
     box.replaceChildren();
     const W = box.clientWidth;
@@ -2595,6 +2616,7 @@ window.WW = (() => {
 
   // Scatter. o: {rows, xKey, yKey, xLabel, yLabel, labelOf(r), mark(r) -> bool, height, fit}
   function scatter(box, o) {
+    if (deferred(box, () => scatter(box, o))) return;
     box.classList.remove('dash-skeleton');
     box.replaceChildren();
     const W = box.clientWidth;
@@ -4552,6 +4574,8 @@ window.WW = (() => {
     drawExtras();
   }
 
+  // The headline block needs four small files: draw it as soon as they arrive instead of after all datasets.
+  if (dash.onEarly) dash.onEarly(['sst_weekly', 'sst_monthly', 'oni', 'atmosphere_monthly'], () => headline());
   dash.onData(draw);
 
   const named = location.hash.slice(1);

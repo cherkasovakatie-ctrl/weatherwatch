@@ -2,7 +2,7 @@
    Loads data/manifest.json and the CSV/JSON files it lists, then provides the small
    `dash` API the page code expects: data(id), calc(id, def), colors, onData(cb), setLink(page). */
 window.dash = (() => {
-  const store = {}, calcs = {}, cache = {}, cbs = [];
+  const store = {}, calcs = {}, cache = {}, cbs = [], early = [];
   let loaded = false;
   const colors = ['#2b6cb0', '#7a8a99', '#c2410c', '#0f766e', '#7c3aed', '#b45309'];
   const darkColors = ['#63a4ff', '#9aa8b5', '#fb923c', '#2dd4bf', '#a78bfa', '#fbbf24'];
@@ -22,6 +22,9 @@ window.dash = (() => {
   }
   const calc = (id, def) => { calcs[id] = def; };
   const onData = (cb) => { cbs.push(cb); if (loaded) cb(); };
+  // onEarly(ids, cb): fetch these datasets first and call cb as soon as they are in, before the rest of the manifest has loaded.
+  // Used for the headline block, which needs 4 small files and should not wait for all of them. cb must cope with other data still loading.
+  const onEarly = (ids, cb) => { early.push({ ids, cb }); };
   const setLink = (p) => { try { history.replaceState(null, '', `#${p}`); } catch (e) { /* ignore */ } };
   const fmt = (field, v) => {
     if (v == null || v === '') return '—';
@@ -56,19 +59,25 @@ window.dash = (() => {
   async function load() {
     const m = await (await fetch('data/manifest.json', { cache: 'no-cache' })).json();
     document.querySelectorAll('[data-asof]').forEach((e) => { e.textContent = m.updated; });
-    await Promise.all(m.datasets.map(async (ds) => {
+    const loadOne = async (ds) => {
+      if (store[ds.id]) return;
       try {
         const r = await fetch(`data/${ds.file}`, { cache: 'no-cache' });
         if (!r.ok) throw new Error(r.status);
         const txt = await r.text();
         store[ds.id] = { status: 'ok', data: ds.file.endsWith('.json') ? JSON.parse(txt) : d3.csvParse(txt).map((o) => { const x = {}; for (const k in o) x[k] = o[k]; return x; }) };
       } catch (e) { console.error('load', ds.id, e); store[ds.id] = { status: 'error', data: null }; }
-    }));
+    };
+    for (const g of early) {
+      const part = m.datasets.filter((d) => g.ids.includes(d.id));
+      Promise.all(part.map(loadOne)).then(() => { try { g.cb(); } catch (e) { console.error(e); } });
+    }
+    await Promise.all(m.datasets.map(loadOne));
     loaded = true;
     bind();
     cbs.forEach((cb) => { try { cb(); } catch (e) { console.error(e); } });
   }
-  const api = { data, calc, onData, setLink, get colors() { return isDark() ? darkColors : colors; } };
+  const api = { data, calc, onData, onEarly, setLink, get colors() { return isDark() ? darkColors : colors; } };
   document.addEventListener('DOMContentLoaded', () => { load(); });
   let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => cbs.forEach((cb) => cb()), 200); });
   matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => cbs.forEach((cb) => cb()));
