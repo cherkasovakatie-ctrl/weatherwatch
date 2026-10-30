@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claims vs evidence · Global Weather Watch</title>
+<meta name="description" content="Cards that rate circulating weather and climate claims against named sources.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%232b6cb0'/%3E%3C/svg%3E">
+<style>
+:root { color-scheme: light dark;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --color-bg: #f6f5f1; --color-panel: #ffffff; --color-fg: #1d1f22; --color-fg-muted: #5c6370; --color-border-line: #e2e0d8;
+  --ok: #15803d; --warn: #a16207; --bad: #b91c1c; --zebra: #faf9f6; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --color-bg: #141619; --color-panel: #1c1f23; --color-fg: #eceae4; --color-fg-muted: #a3a9b2; --color-border-line: #2e3238;
+  --ok: #4ade80; --warn: #facc15; --bad: #f87171; --zebra: #202429; } }
+:root[data-theme="dark"] { --color-bg: #141619; --color-panel: #1c1f23; --color-fg: #eceae4; --color-fg-muted: #a3a9b2; --color-border-line: #2e3238;
+  --ok: #4ade80; --warn: #facc15; --bad: #f87171; --zebra: #202429; }
+html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); }
+body { font-family: var(--font-sans); }
+.site-nav { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; padding: 10px 16px; border-bottom: 1px solid var(--color-border-line); background: var(--color-panel); }
+.site-nav .brand { font-family: var(--font-serif); font-size: 1.15rem; color: var(--color-fg); text-decoration: none; margin-right: auto; }
+.site-nav a { color: var(--color-fg-muted); text-decoration: none; font-size: .9rem; }
+.site-nav a[aria-current="page"], .site-nav a:hover { color: var(--color-fg); }
+.site-foot { max-width: 980px; margin: 24px auto; padding: 0 16px 24px; color: var(--color-fg-muted); font-size: .8rem; line-height: 1.5; }
+a { color: inherit; }
+a:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+main { max-width: 980px; margin: 0 auto; padding: 16px; overflow-wrap: anywhere; }
+.kicker { font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; color: var(--color-fg-muted); margin: .4em 0 0; }
+h1 { font-family: var(--font-serif); font-weight: 400; font-size: 1.9rem; margin: .2em 0 .2em; line-height: 1.2; }
+h2 { font-family: var(--font-serif); font-weight: 400; font-size: 1.35rem; margin: 1.6em 0 .4em; }
+h3 { font-size: 1rem; margin: 0 0 .3em; }
+.meta { color: var(--color-fg-muted); font-size: .88rem; line-height: 1.6; margin: 0 0 8px; }
+.prose { max-width: 78ch; line-height: 1.65; font-size: .97rem; }
+.prose p { margin: 0 0 .9em; }
+.card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: 10px; padding: 14px 16px; margin: 12px 0; min-width: 0; }
+.summary { border-left: 4px solid var(--color-fg-muted); }
+.summary p { margin: .3em 0 0; max-width: 78ch; line-height: 1.6; }
+.tag { display: inline-block; font-size: .72rem; padding: 1px 8px; border-radius: 999px; border: 1px solid currentColor; margin-right: 6px; white-space: nowrap; }
+.tag.ok { color: var(--ok); } .tag.warn { color: var(--warn); } .tag.bad { color: var(--bad); } .tag.info { color: var(--color-fg-muted); }
+.tag.unrated { border-style: dashed; }
+.trio { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); gap: 10px; margin: 12px 0; }
+.trio .card { margin: 0; }
+.trio ul { margin: .4em 0 0; padding-left: 1.2em; font-size: .9rem; line-height: 1.5; }
+.trio li { margin-bottom: .5em; }
+.claims { list-style: none; padding: 0; margin: 0; }
+.claim { scroll-margin-top: 12px; }
+.claim:target { outline: 2px solid var(--color-fg); }
+.claim .head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; margin-bottom: .4em; }
+.claim .cid { font-variant-numeric: tabular-nums; font-weight: 600; }
+.claim dl { margin: 0; display: grid; grid-template-columns: 9.5rem 1fr; gap: 4px 12px; font-size: .88rem; line-height: 1.5; }
+.claim dt { color: var(--color-fg-muted); }
+.claim dd { margin: 0; }
+@media (max-width: 600px) { .claim dl { grid-template-columns: 1fr; gap: 0; } .claim dd { margin-bottom: .5em; } }
+.wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+table { border-collapse: collapse; width: 100%; font-size: .86rem; line-height: 1.45; }
+caption { text-align: left; color: var(--color-fg-muted); font-size: .82rem; padding: 0 0 6px; }
+th, td { text-align: left; vertical-align: top; padding: 6px 8px; border-bottom: 1px solid var(--color-border-line); }
+thead th { font-weight: 600; }
+tbody tr:nth-child(even) { background: var(--zebra); }
+.note { font-size: .82rem; color: var(--color-fg-muted); line-height: 1.5; margin: 6px 0 0; }
+ol.refs, ul.cav { padding-left: 1.4em; font-size: .88rem; line-height: 1.55; }
+ol.refs li, ul.cav li { margin-bottom: 6px; }
+.res { white-space: nowrap; }
+td.test { min-width: 15rem; }
+.pending { color: var(--color-fg-muted); font-style: italic; }
+.cards-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); gap: 12px; }
+.cards-index a.card { text-decoration: none; display: block; }
+.cards-index a.card:hover h2 { text-decoration: underline; }
+.cards-index h2 { font-size: 1.15rem; margin: .3em 0; }
+</style>
+</head><body>
+<nav class="site-nav" aria-label="Site">
+  <a class="brand" href="./">Global Weather Watch</a>
+  <a href="./">Dashboard</a>
+  <a href="./#overview">ENSO overview</a>
+  <a href="./#climate">Climate</a>
+  <a href="deadliest.html">Deadliest events</a>
+  <a href="events.html">Event log</a>
+  <a href="data.html">Data archive</a>
+  <a href="about.html">About &amp; method</a>
+</nav>
+<main id="main">
+<p class="kicker">Claim vs evidence</p><h1>Claims vs evidence</h1><div class="prose"><p>Each card takes one claim that is circulating, splits it into single statements, and rates every statement against a named source, with the date the source was read and a link to it. Observations, forecasts as issued and what is not known are kept apart. Where a card makes a testable prediction, the tests are fixed before the outcome and the result is added afterwards. Ratings describe statements, not people.</p></div><h2>Cards</h2><div class="cards-index"><a class="card" href="claim-polar-vortex.html"><span class="tag ok">Live</span><span class="note">Updated 2026-10-30</span><h2>Polar vortex, early November 2026: what is forecast and what would count</h2><p class="note">As of 30 October 2026 forecasts show the stratospheric polar vortex weakening in early November, but most do not show its winds fully reversing, and the official outlooks for 4-12 November favor above-normal temperatures across most of the United States, not a freeze. A confirmed &#x27;sudden stratospheric warming&#x27; needs the winds to reverse, and any effect at the surface would take weeks. The tests below were fixed on 30 October, before the outcome.</p></a><a class="card" href="claim-amoc.html"><span class="tag ok">Live</span><span class="note">Updated 2026-10-30</span><h2>&#x27;95% chance the AMOC collapses&#x27;: what the number means</h2><p class="note">No study we read says there is a 95 percent chance that the Atlantic overturning circulation (AMOC) collapses before 2100. The widely repeated &#x27;95%&#x27; is the width of an uncertainty interval around an estimated collapse year in one 2023 paper, which was corrected in 2025 (current text: central estimate 2065, interval 2037-2109). The IPCC has medium confidence that an abrupt collapse will not happen before 2100, while weakening is very likely. Direct measurements at 26 N show strong variability and a decline since about 2010; they are not a forecast.</p></a></div>
+</main>
+<footer class="site-foot">Page content updated: <span data-asof>2026-10-30</span>. Independent, non-commercial analysis built from public sources (see <a href="about.html">About &amp; method</a>). Analysis prepared with Claude (Anthropic).</footer>
+</body></html>

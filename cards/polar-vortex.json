@@ -1,0 +1,271 @@
+{
+ "title": "Polar vortex, early November 2026: what is forecast and what would count",
+ "kicker": "Claim vs evidence",
+ "updated": "2026-10-30",
+ "status": "live",
+ "summary": "As of 30 October 2026 forecasts show the stratospheric polar vortex weakening in early November, but most do not show its winds fully reversing, and the official outlooks for 4-12 November favor above-normal temperatures across most of the United States, not a freeze. A confirmed 'sudden stratospheric warming' needs the winds to reverse, and any effect at the surface would take weeks. The tests below were fixed on 30 October, before the outcome.",
+ "sections": [
+  {
+   "heading": "What is the polar vortex?",
+   "paragraphs": [
+    "The stratospheric polar vortex is a ring of strong west-to-east winds around the Arctic, roughly 10 to 50 km up. It normally strengthens through autumn. Forecasters follow it with the zonal-mean wind at 10 hPa and 60 degrees North [c1]."
+   ]
+  },
+  {
+   "heading": "What is forecast (as issued on 30 October 2026)",
+   "paragraphs": [
+    "The analysed wind rose to about +23 m/s around 27 October and fell to roughly +15 to +17 m/s on 29-30 October (read from a chart, approximate) [f1]. Forecast ensemble members fall toward about 0 to +5 m/s around 10-13 November; a few members dip slightly below zero [f2]. NOAA's Climate Prediction Center (29 October) favors above-normal temperatures for most of the contiguous United States on 4-12 November, with probabilities above 70 percent from the Mid-Atlantic to the Great Lakes for 4-8 November, and lists West Coast rain, snow and wind risks but no cold hazard [f3]."
+   ]
+  },
+  {
+   "heading": "What would count as a sudden stratospheric warming",
+   "paragraphs": [
+    "By the usual convention a major event requires the wind at 10 hPa and 60 N to turn easterly (below 0 m/s) [c2]. Such events occur about six times per decade in midwinter [c3]. A November event is rare; published counts differ [c4]. A weakening is not a major event."
+   ]
+  },
+  {
+   "heading": "What it may mean for weather",
+   "paragraphs": [
+    "After weak-vortex events the surface often shows an Arctic Oscillation-like pattern over the following weeks, but not every time [c5]. The 2021 Texas freeze followed a January warming event; researchers disagree about whether one caused the other [c6]."
+   ]
+  },
+  {
+   "heading": "What a popular video said",
+   "paragraphs": [
+    "A video explainer from 26 October was careful that a freeze was not confirmed [c7], said the first week of November was not forecast to be freezing [c8], and said the European model flips the winds while the American model stops short [c9]. The table below rates each statement."
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "f1",
+   "claim": "Analysed 10 hPa 60N wind about +23 m/s (27 Oct), about +15 to +17 m/s (29-30 Oct)",
+   "said_by": "NOAA CPC chart (GFS analysis)",
+   "source_says": "red analysis line on the chart, 'updated through DOY 303'; values read by eye, approximate",
+   "verdict": "observation (approximate reading)",
+   "source_title": "CPC GFS 10 hPa 60N wind chart",
+   "url": "https://www.cpc.ncep.noaa.gov/products/stratosphere/SSW/gif_files/U_10mb_60N_2026-2027.png",
+   "source_date": "2026-10-30",
+   "retrieved": "2026-10-30",
+   "read": "chart opened"
+  },
+  {
+   "id": "f2",
+   "claim": "Forecast members fall toward about 0 to +5 m/s around 10-13 Nov, a few slightly negative",
+   "said_by": "NOAA CPC charts (GFS and GEFS members)",
+   "source_says": "green member lines on the charts; no ensemble mean is plotted; approximate reading",
+   "verdict": "forecast as issued (not rated)",
+   "source_title": "CPC GFS and GEFS 10 hPa 60N charts",
+   "url": "https://www.cpc.ncep.noaa.gov/products/stratosphere/SSW/gif_files/GEFS_U_10mb_60N_2026-2027.png",
+   "source_date": "2026-10-30",
+   "retrieved": "2026-10-30",
+   "read": "charts opened"
+  },
+  {
+   "id": "f3",
+   "claim": "CPC outlook 4-12 Nov: above-normal temperatures favored for most of the contiguous US; no cold hazard listed",
+   "said_by": "NOAA CPC (human forecasters)",
+   "source_says": "6-10 day (4-8 Nov): above 70 percent from the Mid-Atlantic to the Great Lakes; 8-14 day (6-12 Nov): above normal across most of the CONUS; hazards outlook lists West Coast rain, snow and wind",
+   "verdict": "forecast as issued (not rated)",
+   "source_title": "CPC 6-10 and 8-14 day prognostic discussion; US Hazards Outlook",
+   "url": "https://www.cpc.ncep.noaa.gov/products/predictions/610day/fxus06.html",
+   "source_date": "2026-10-29",
+   "retrieved": "2026-10-30",
+   "read": "discussion text and hazards synopsis opened"
+  },
+  {
+   "id": "c1",
+   "claim": "The polar vortex is the stratospheric west-to-east wind ring, tracked at 10 hPa and 60N",
+   "said_by": "general definition used in the video and by CPC",
+   "source_says": "CPC SSW monitoring page tracks zonal wind at 10 hPa, 60N",
+   "verdict": "confirmed",
+   "source_title": "CPC Stratosphere: SSW monitoring",
+   "url": "https://www.cpc.ncep.noaa.gov/products/stratosphere/SSW/",
+   "source_date": "page current 2026-10-30",
+   "retrieved": "2026-10-30",
+   "read": "page structure and chart titles opened"
+  },
+  {
+   "id": "c2",
+   "claim": "A major SSW needs the 10 hPa, 60N zonal-mean wind to reverse to easterly",
+   "said_by": "video explainer (26 Oct) and general convention",
+   "source_says": "WMO convention as used by Charlton and Polvani 2007 (J. Climate, DOI 10.1175/JCLI3996.1): easterly winds at 10 hPa and 60N, November-March window",
+   "verdict": "confirmed",
+   "source_title": "Charlton and Polvani 2007",
+   "url": "https://doi.org/10.1175/JCLI3996.1",
+   "source_date": "2007",
+   "retrieved": "2026-10-30",
+   "read": "abstract and excerpts only (via search); full text not read"
+  },
+  {
+   "id": "c3",
+   "claim": "Major events occur about six times every 10 years",
+   "said_by": "video explainer",
+   "source_says": "Charlton and Polvani: about six major midwinter events per decade (NDJFM)",
+   "verdict": "confirmed",
+   "source_title": "Charlton and Polvani 2007",
+   "url": "https://doi.org/10.1175/JCLI3996.1",
+   "source_date": "2007",
+   "retrieved": "2026-10-30",
+   "read": "abstract only"
+  },
+  {
+   "id": "c4",
+   "claim": "Only one major November event since 1958 (1968 and 2000 also mentioned)",
+   "said_by": "video explainer",
+   "source_says": "news coverage of the November 2025 event gives conflicting counts (1968 and 1958; 1968 and 2000; three minor events in 70 years)",
+   "verdict": "unable to verify",
+   "source_title": "news coverage, November 2025 (not a primary count)",
+   "url": "https://www.eastidahonews.com/2025/11/a-polar-vortex-disruption-is-on-the-way-and-its-magnitude-is-almost-unheard-of-in-november/",
+   "source_date": "2025-11",
+   "retrieved": "2026-10-30",
+   "read": "search summary only; not opened"
+  },
+  {
+   "id": "c5",
+   "claim": "After a weak-vortex event, cold can follow weeks later",
+   "said_by": "video explainer",
+   "source_says": "Baldwin and Dunkerton 2001 (Science, DOI 10.1126/science.1063315): weak-vortex anomalies precede Arctic Oscillation-like surface patterns for about 60 days (a tendency, not every event)",
+   "verdict": "confirmed",
+   "source_title": "Baldwin and Dunkerton 2001",
+   "url": "https://doi.org/10.1126/science.1063315",
+   "source_date": "2001",
+   "retrieved": "2026-10-30",
+   "read": "abstract only (via search)"
+  },
+  {
+   "id": "c6",
+   "claim": "Texas 2021: warming event and deep freeze may be linked",
+   "said_by": "video explainer (cites an NCAR study that it was probably not the cause)",
+   "source_says": "Cohen et al. 2021 (Science, DOI 10.1126/science.abi9167) link the stretched vortex to the cold wave; Davis et al. 2022 (Nature Communications, DOI 10.1038/s41467-022-28836-1) find limited surface impact of the January 2021 warming; a 2023 reply (DOI 10.1038/s41467-023-38772-3) disputes the methods",
+   "verdict": "partly supported (contested)",
+   "source_title": "Davis et al. 2022; Cohen et al. 2021",
+   "url": "https://doi.org/10.1038/s41467-022-28836-1",
+   "source_date": "2022",
+   "retrieved": "2026-10-30",
+   "read": "abstracts and summaries only (via search)"
+  },
+  {
+   "id": "c7",
+   "claim": "As of 26 October this is not a confirmed sudden stratospheric warming",
+   "said_by": "video explainer",
+   "source_says": "CPC chart 30 Oct: analysed wind about +15 to +17 m/s, above 0; no reversal",
+   "verdict": "confirmed",
+   "source_title": "CPC GFS 10 hPa 60N wind chart",
+   "url": "https://www.cpc.ncep.noaa.gov/products/stratosphere/SSW/gif_files/U_10mb_60N_2026-2027.png",
+   "source_date": "2026-10-30",
+   "retrieved": "2026-10-30",
+   "read": "chart opened and read (approximate values)"
+  },
+  {
+   "id": "c8",
+   "claim": "The government outlook shows no widespread freeze for the first week of November",
+   "said_by": "video explainer, citing the 22 Oct outlook",
+   "source_says": "CPC 29 Oct discussion: above-normal temperatures favored for most of the contiguous US 4-12 Nov; no cold hazard in the hazards outlook text (the 22 Oct issue itself was not opened)",
+   "verdict": "confirmed (newer issue)",
+   "source_title": "CPC 6-10 and 8-14 day prognostic discussion; US Hazards Outlook",
+   "url": "https://www.cpc.ncep.noaa.gov/products/predictions/610day/fxus06.html",
+   "source_date": "2026-10-29",
+   "retrieved": "2026-10-30",
+   "read": "discussion text and hazards synopsis opened"
+  },
+  {
+   "id": "c9",
+   "claim": "European model flips the winds; American model stops short",
+   "said_by": "video explainer",
+   "source_says": "GFS and GEFS ensembles on the CPC chart show members near 0 to +5 m/s about 10-13 Nov, a few slightly negative; no ECMWF forecast was obtained",
+   "verdict": "partly supported (ECMWF side unable to verify)",
+   "source_title": "CPC GFS and GEFS 10 hPa 60N charts",
+   "url": "https://www.cpc.ncep.noaa.gov/products/stratosphere/SSW/gif_files/GEFS_U_10mb_60N_2026-2027.png",
+   "source_date": "2026-10-30",
+   "retrieved": "2026-10-30",
+   "read": "both charts opened; ECMWF not opened"
+  }
+ ],
+ "known": [
+  "Observed (analysis, approximate chart reading): 10 hPa 60N zonal-mean wind about +23 m/s on 27 Oct, about +15 to +17 m/s on 29-30 Oct (source: CPC chart)."
+ ],
+ "forecast": [
+  "Model forecast (GFS/GEFS, issued 2026-10-30): ensemble members fall toward about 0 to +5 m/s around 10-13 Nov; a few slightly negative [f2].",
+  "Human forecast (CPC, issued 2026-10-29 3 pm EDT, confidence 'about average, 3 out of 5' for 6-10 days): above-normal temperatures favored for most of the contiguous US 4-12 Nov [f3]."
+ ],
+ "unknown": [
+  "Whether the wind reverses (no ECMWF forecast obtained; model counts quoted by news differ).",
+  "Whether any cold outbreak follows, and when: effects usually take weeks and vary from event to event."
+ ],
+ "how_to_check": {
+  "fixed_on": "2026-10-30 (before any outcome data)",
+  "definitions": [
+   "A (weakening): 10 hPa 60N zonal-mean zonal wind at or below +5 m/s on at least one day from 1 to 15 Nov 2026.",
+   "B (major SSW, WMO type): the same wind below 0 m/s on at least one day from 1 to 30 Nov 2026.",
+   "C (sustained reversal): below 0 m/s for at least 5 consecutive days, the first before 15 Nov 2026.",
+   "D (surface response, evaluated only if B passes): daily or weekly mean Arctic Oscillation index negative on at least 7 of 14 days in a window starting 8 Nov to 8 Dec, and the NCEI CONUS monthly temperature anomaly for December 2026 below the 1991-2020 normal; each part reported separately."
+  ],
+  "series": [
+   {
+    "name": "10 hPa 60N zonal-mean wind (GFS analysis, daily chart)",
+    "url": "https://www.cpc.ncep.noaa.gov/products/stratosphere/SSW/gif_files/U_10mb_60N_2026-2027.png",
+    "delay": "same day",
+    "tested": true
+   },
+   {
+    "name": "Arctic Oscillation index (CPC)",
+    "url": "https://www.cpc.ncep.noaa.gov/products/precip/CWlink/daily_ao_index/ao.shtml",
+    "delay": "daily/monthly",
+    "tested": "page opened; daily file name not verified"
+   },
+   {
+    "name": "NCEI CONUS monthly temperature anomaly",
+    "url": "Not verified",
+    "delay": "monthly + about 8 days",
+    "tested": false
+   }
+  ]
+ },
+ "outcome": {
+  "note": "empty on purpose; to be filled on 2026-11-05 and 2026-11-15 by later tasks",
+  "checks": {
+   "2026-11-05": null,
+   "2026-11-15": null
+  }
+ },
+ "references": [
+  "Charlton, A. J., and Polvani, L. M. (2007). A new look at stratospheric sudden warmings. Part I. J. Climate. DOI 10.1175/JCLI3996.1 (excerpts)",
+  "Baldwin, M. P., and Dunkerton, T. J. (2001). Stratospheric harbingers of anomalous weather regimes. Science 294, 581-584. DOI 10.1126/science.1063315 (abstract)",
+  "Cohen, J., et al. (2021). Linking Arctic variability and change with extreme winter weather in the United States. Science 373, 1116-1121. DOI 10.1126/science.abi9167 (abstract)",
+  "Davis, N. A., et al. (2022). Limited surface impacts of the January 2021 sudden stratospheric warming. Nature Communications. DOI 10.1038/s41467-022-28836-1 (abstract)",
+  "NOAA Climate Prediction Center: 6-10 and 8-14 day prognostic discussion, US Hazards Outlook, GFS and GEFS 10 hPa 60N charts, retrieved 2026-10-30 (files in Raw/TASK034_forecasts_2026-10-30)"
+ ],
+ "data": {
+  "label": "10 hPa, 60N zonal-mean zonal wind, m/s, read by eye from the CPC GFS chart (APPROXIMATE, +-2 m/s)",
+  "rows": [
+   {
+    "date": "2026-10-27",
+    "kind": "analysis",
+    "value_ms": 23
+   },
+   {
+    "date": "2026-10-29",
+    "kind": "analysis",
+    "value_ms": 16
+   },
+   {
+    "date": "2026-10-30",
+    "kind": "analysis",
+    "value_ms": 16
+   },
+   {
+    "date": "2026-11-10 to 2026-11-13",
+    "kind": "forecast members (range)",
+    "value_ms": "about 0 to +5; a few about -3"
+   }
+  ]
+ },
+ "caveats": [
+  "Chart values are approximate readings, not the underlying numbers.",
+  "No ECMWF forecast was obtained.",
+  "Literature is cited from abstracts and excerpts, not full texts.",
+  "Nothing here is a weather forecast for a place; see weather.gov.",
+  "This card describes statements, not the people who made them."
+ ]
+}
