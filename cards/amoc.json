@@ -47,7 +47,7 @@
    "url": "https://www.downtoearth.org.in/environment/atlantic-collapse-q-a-with-scientists-behind-controversial-study-predicting-a-colder-europe-91151",
    "source_date": "2023-08",
    "retrieved": "2026-10-30",
-   "read": "search summary only"
+   "read": "search summary only; page opened on 2026-10-30 (HTTP 200, title confirmed)"
   },
   {
    "id": "a2",
@@ -59,7 +59,7 @@
    "url": "https://doi.org/10.1038/s41467-023-39810-w",
    "source_date": "2023 (text version after 2025 correction)",
    "retrieved": "2026-10-30",
-   "read": "full text opened (PMC10368695): abstract, results, discussion, methods; figures and supplement not read"
+   "read": "full text opened (PMC10368695): abstract, results, discussion, methods; figures and supplement not read; the publisher DOI link resolves (HTTP 200, title confirmed, 2026-10-30)"
   },
   {
    "id": "a3",
@@ -71,7 +71,7 @@
    "url": "https://doi.org/10.1038/s41467-025-63201-y",
    "source_date": "2025-08-21",
    "retrieved": "2026-10-30",
-   "read": "correction notice opened in full (PMC12370995); the uncorrected PDF was not opened"
+   "read": "correction notice opened in full (PMC12370995, read in TASK-042); the publisher DOI link resolves (HTTP 200, title 'Author Correction: ...', 2026-10-30); the uncorrected PDF was not opened"
   },
   {
    "id": "a4",
@@ -83,7 +83,7 @@
    "url": "https://iopscience.iop.org/article/10.1088/1748-9326/adfa3b",
    "source_date": "2025",
    "retrieved": "2026-10-30",
-   "read": "search summary only; AR6 chapter not opened"
+   "read": "AR6 quote seen in a search summary of this paper; the paper page opened on 2026-10-30 (HTTP 200, title confirmed) but its text was not read; AR6 chapter not opened"
   },
   {
    "id": "a5",
@@ -95,7 +95,7 @@
    "url": "https://arxiv.org/pdf/2308.01688",
    "source_date": "2024-02",
    "retrieved": "2026-10-30",
-   "read": "search summary only; paper not opened"
+   "read": "search summary only; the arXiv PDF link answers (HTTP 200, application/pdf, 2026-10-30) but was not read; arXiv version differs from the Science Advances version"
   },
   {
    "id": "a6",
@@ -152,7 +152,7 @@
    "source_says": "'deeply skeptical that SST is actually a proxy of AMOC'; early bucket measurements questioned; the paper itself calls SST an indirect fingerprint",
    "verdict": "partly supported (contested)",
    "source_title": "Mother Jones report on the study",
-   "url": "https://www.motherjones.com/?p=1016730",
+   "url": "https://www.motherjones.com/environment/2023/08/atlantic-current-amoc-collapse-2025-imminent/",
    "source_date": "2023-07",
    "retrieved": "2026-10-30",
    "read": "search summary only"
@@ -198,7 +198,7 @@
   "rows": []
  },
  "caveats": [
-  "Several rows rest on search or news summaries (marked in 'read'); upgrade before publishing.",
+  "Verified by opening the page: the current text of Ditlevsen and Ditlevsen 2023 (2065, 95 percent interval 2037-2109; re-read by the PM in PMC10368695), the Author Correction notice (8-year shift; the notice lists no old or new values), rapid.ac.uk and the BODC EDMED page. Not opened: the AR6 chapter and the van Westen, Baker, Portmann and Holden papers (search or news summaries only).",
   "The collapse years are statistical estimates under stated assumptions, not predictions of a date.",
   "This card describes statements, not the people who made them."
  ]
