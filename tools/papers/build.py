@@ -154,7 +154,7 @@ def build(p: dict, siblings: list[dict]) -> str:
 <main>
 {chr(10).join(parts)}
 </main>
-<footer class="site-foot">Data snapshot: <span data-asof>{esc(p["research_date"])}</span>. Independent, non-commercial analysis built from public sources (see <a href="about.html">About &amp; method</a>). Analysis prepared with Claude (Anthropic).</footer>
+<footer class="site-foot">Data snapshot: <span data-asof>{esc(p["research_date"])}</span>. Independent, non-commercial analysis built from public sources (see <a href="about.html">About &amp; method</a>). Analysis prepared with Claude (Anthropic). <a href="contact.html">Contact</a></footer>
 </body></html>
 """
 

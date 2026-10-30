@@ -253,7 +253,7 @@ def page(title: str, desc: str, body: str, foot_date: str, noindex: bool = False
 <main id="main">
 {body}
 </main>
-<footer class="site-foot">Page content updated: <span data-asof>{esc(foot_date)}</span>. Independent, non-commercial analysis built from public sources (see <a href="about.html">About &amp; method</a>). Analysis prepared with Claude (Anthropic).</footer>
+<footer class="site-foot">Page content updated: <span data-asof>{esc(foot_date)}</span>. Independent, non-commercial analysis built from public sources (see <a href="about.html">About &amp; method</a>). Analysis prepared with Claude (Anthropic). <a href="contact.html">Contact</a></footer>
 </body></html>
 """
 

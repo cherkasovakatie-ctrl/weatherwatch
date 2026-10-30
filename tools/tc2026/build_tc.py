@@ -24,7 +24,7 @@ HEAD = """<!doctype html>
 <main>
 """
 FOOT = """</main>
-<footer class="site-foot">Data snapshot: <span data-asof>{asof}</span>. Independent, non-commercial analysis built from public sources (see <a href="about.html">About &amp; method</a>). Analysis prepared with Claude (Anthropic).</footer>
+<footer class="site-foot">Data snapshot: <span data-asof>{asof}</span>. Independent, non-commercial analysis built from public sources (see <a href="about.html">About &amp; method</a>). Analysis prepared with Claude (Anthropic). <a href="contact.html">Contact</a></footer>
 </body></html>
 """
 
