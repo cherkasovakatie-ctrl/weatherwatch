@@ -86,6 +86,14 @@ body { font-family: var(--font-anthropic-sans); }
   .ww-tip .r { display: flex; align-items: center; gap: 6px; justify-content: space-between; }
   .ww-tip .r span:first-child { display: inline-flex; align-items: center; gap: 6px; }
   .ww-tip i { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  .ww-svg:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; border-radius: 4px; }
+  .ww-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .ww-csv { position: absolute; top: 2px; right: 2px; z-index: 3; font: inherit; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: 6px; padding: 2px 8px; cursor: pointer; opacity: 0; }
+  .ww-chart:hover .ww-csv, .ww-chart:focus-within .ww-csv, .ww-csv:focus-visible { opacity: 1; }
+  .ww-legend [aria-pressed] { cursor: pointer; }
+  .ww-legend [aria-pressed="false"] { opacity: .45; text-decoration: line-through; }
+  .ww-legend [aria-pressed]:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; border-radius: 4px; }
+  @media (pointer: coarse) { .ww-csv, .ww-legend [aria-pressed] { min-height: 44px; } .ww-csv { opacity: 1; } }
   .ww-fail { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; gap: 8px; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
   .ww-fail i { width: .375rem; height: .375rem; border-radius: 50%; background: var(--color-bad); display: inline-block; }
   .ww-table-wrap { overflow-x: auto; }
@@ -2161,6 +2169,7 @@ window.WW = (() => {
 
   function fillTip(t, title, items) {
     t.replaceChildren();
+    t.dataset.sr = title + '. ' + items.map((it) => (it.value ? `${it.label} ${it.value}` : it.label)).join(', ');
     const h = document.createElement('div');
     h.className = 't';
     h.textContent = title;
@@ -2201,6 +2210,104 @@ window.WW = (() => {
       sp.append(i, document.createTextNode(s.label));
       el.appendChild(sp);
     });
+    toggleBind(cardOf(el));
+  }
+
+  // ---- shared interaction layer: keyboard cursor, touch, labels, CSV, legend toggles ----
+  function cardOf(el) { return el.closest('.ww-card') || el.parentElement; }
+  // A legend label covers a series when equal or when the series label is the legend label plus a suffix ("1982–83" -> "1982–83 ONI").
+  const inGroup = (series, legendLabel) => series === legendLabel || series.startsWith(legendLabel + ' ');
+
+  // Legend items whose text equals a series label of a line chart in the same card become toggle buttons.
+  function toggleBind(card) {
+    if (!card || !card._wwLines) return;
+    const hid = card._wwHidden || (card._wwHidden = new Set());
+    card.querySelectorAll('.ww-legend > span').forEach((sp) => {
+      const label = sp.textContent.trim();
+      const owners = [...card._wwLines.values()].filter((L) => L.labels.some((l) => inGroup(l, label)));
+      if (!owners.length) return;
+      sp.setAttribute('role', 'button');
+      sp.tabIndex = 0;
+      sp.setAttribute('aria-pressed', String(!hid.has(label)));
+      if (sp._wwBound) return;
+      sp._wwBound = true;
+      const flip = () => {
+        if (hid.has(label)) hid.delete(label);
+        else {
+          const last = [...card._wwLines.values()].some((L) => L.labels.some((l) => inGroup(l, label)) && L.labels.every((l) => inGroup(l, label) || [...hid].some((h) => inGroup(l, h))));
+          if (last) return;
+          hid.add(label);
+        }
+        card._wwLines.forEach((L) => L.redraw());
+        toggleBind(card);
+      };
+      sp.addEventListener('click', flip);
+      sp.addEventListener('keydown', (ev) => { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); flip(); } });
+    });
+  }
+
+  document.addEventListener('pointerdown', (ev) => {
+    document.querySelectorAll('.ww-chart').forEach((b) => { if (b._wwHide && !b.contains(ev.target)) b._wwHide(); });
+  });
+
+  // Pointer and touch: the tooltip follows a finger dragged sideways, stays after lift, closes on a tap elsewhere.
+  function pointerBind(sel, box, move, hide) {
+    sel.style('touch-action', 'pan-y').on('pointermove pointerdown', move).on('pointerleave', (ev) => { if (ev.pointerType !== 'touch') hide(); });
+    box._wwHide = hide;
+  }
+
+  // Keyboard cursor and label. spec: {kind, n, show(i), hide()}; the tooltip text is announced in a live region.
+  function access(box, svg, tip, spec) {
+    const node = svg.node();
+    if (box.dataset.alt) node.setAttribute('aria-label', box.dataset.alt);
+    else if (!node.getAttribute('aria-label')) {
+      const prev = box.previousElementSibling;
+      const head = prev && /^H[2-4]$/.test(prev.tagName) ? prev.textContent : (cardOf(box).querySelector('h2') || {}).textContent;
+      node.setAttribute('aria-label', `${spec.kind}${head ? ': ' + head.trim() : ''}. Focus the chart and use the left and right arrow keys to read values.`);
+    }
+    if (!spec.n) return;
+    node.setAttribute('tabindex', '0');
+    const live = document.createElement('div');
+    live.className = 'ww-sr';
+    live.setAttribute('aria-live', 'polite');
+    box.appendChild(live);
+    let i = -1;
+    const go = (k) => { i = Math.max(0, Math.min(spec.n - 1, k)); spec.show(i); live.textContent = tip.dataset.sr || ''; };
+    const stop = () => { i = -1; spec.hide(); live.textContent = ''; };
+    node.addEventListener('keydown', (ev) => {
+      const k = ev.key;
+      if (k === 'Escape') { stop(); return; }
+      let to = null;
+      if (k === 'ArrowRight') to = i < 0 ? spec.n - 1 : i + 1;
+      else if (k === 'ArrowLeft') to = i < 0 ? spec.n - 1 : i - 1;
+      else if (k === 'Home') to = 0;
+      else if (k === 'End') to = spec.n - 1;
+      if (to == null) return;
+      ev.preventDefault();
+      go(to);
+    });
+    node.addEventListener('blur', stop);
+  }
+
+  // CSV of exactly the plotted rows. cols: [{head, get(r)}]; an empty cell means the value is not available.
+  function csvButton(box, rows, cols) {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'ww-csv';
+    b.textContent = 'CSV';
+    b.setAttribute('aria-label', 'Download the plotted data as CSV');
+    b.addEventListener('click', () => {
+      const q = (v) => { if (v == null || (typeof v === 'number' && isNaN(v))) return ''; if (v instanceof Date) v = v.toISOString().slice(0, 10); v = String(v); return /[",\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; };
+      const text = [cols.map((c) => q(c.head)).join(','), ...rows.map((r) => cols.map((c) => q(c.get(r))).join(','))].join('\n') + '\n';
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(new Blob([text], { type: 'text/csv' }));
+      a.download = (box.id || 'chart') + '.csv';
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    });
+    box.appendChild(b);
   }
 
   // Line chart. o: {rows, x, xType, series:[{key,label,color,width,dash,muted}], yFmt, valFmt, zero, refs:[{y,label}], height, endLabels, xTickValues, xTickFormat, tipTitle}
@@ -2209,6 +2316,11 @@ window.WW = (() => {
     box.replaceChildren();
     const W = box.clientWidth;
     if (!W || !o.rows.length) return;
+    const card = cardOf(box);
+    const o0 = o;
+    const hid = card._wwHidden;
+    if (hid && hid.size) { const vis = o.series.filter((s) => ![...hid].some((h) => inGroup(s.label, h))); if (vis.length) o = { ...o, series: vis }; }
+    (card._wwLines = card._wwLines || new Map()).set(box, { labels: o0.series.map((s) => s.label), redraw: () => line(box, o0) });
     const H = o.height || 260;
     const top = 10;
     const bottom = H - 26;
@@ -2307,25 +2419,27 @@ window.WW = (() => {
     const dots = svg.append('g');
     const sorted = o.rows.slice().sort((a, b) => o.x(a) - o.x(b));
     const bis = d3.bisector(o.x).center;
-    svg.append('rect').attr('x', ml).attr('y', 0).attr('width', Math.max(0, W - ml - mr)).attr('height', H).attr('fill', 'transparent')
-      .on('pointermove', (ev) => {
-        const [mx] = d3.pointer(ev);
-        const r = sorted[bis(sorted, xS.invert(mx))];
-        if (!r) return;
-        const x = xS(o.x(r));
-        rule.attr('x1', x).attr('x2', x).style('opacity', 1);
-        dots.selectAll('*').remove();
-        const items = [];
-        o.series.forEach((s) => {
-          const v = r[s.key];
-          if (v == null || isNaN(v) || s.noTip) return;
-          dots.append('circle').attr('cx', x).attr('cy', yS(v)).attr('r', 3.5).style('fill', s.color);
-          items.push({ label: s.label, value: s.fmt ? s.fmt(v) : vf(v), color: s.color });
-        });
-        fillTip(tip, o.tipTitle ? o.tipTitle(r) : fmtX(o.x(r)), items);
-        placeTip(tip, box, x);
-      })
-      .on('pointerleave', () => { tip.hidden = true; rule.style('opacity', 0); dots.selectAll('*').remove(); });
+    const showRow = (r) => {
+      if (!r) return;
+      const x = xS(o.x(r));
+      rule.attr('x1', x).attr('x2', x).style('opacity', 1);
+      dots.selectAll('*').remove();
+      const items = [];
+      o.series.forEach((s) => {
+        const v = r[s.key];
+        if (v == null || isNaN(v) || s.noTip) return;
+        dots.append('circle').attr('cx', x).attr('cy', yS(v)).attr('r', 3.5).style('fill', s.color);
+        items.push({ label: s.label, value: s.fmt ? s.fmt(v) : vf(v), color: s.color });
+      });
+      fillTip(tip, o.tipTitle ? o.tipTitle(r) : fmtX(o.x(r)), items);
+      placeTip(tip, box, x);
+    };
+    const hide = () => { tip.hidden = true; rule.style('opacity', 0); dots.selectAll('*').remove(); };
+    const pad = svg.append('rect').attr('x', ml).attr('y', 0).attr('width', Math.max(0, W - ml - mr)).attr('height', H).attr('fill', 'transparent');
+    pointerBind(pad, box, (ev) => showRow(sorted[bis(sorted, xS.invert(d3.pointer(ev)[0]))]), hide);
+    access(box, svg, tip, { kind: 'Line chart', n: sorted.length, show: (i) => showRow(sorted[i]), hide });
+    csvButton(box, sorted, [{ head: 'x', get: (r) => o.x(r) }, ...o0.series.map((s) => ({ head: s.label, get: (r) => r[s.key] }))]);
+    toggleBind(card);
   }
 
   // Bar chart. o: {rows, label(r), series:[{key,label,color}], colorOf(v,s), lines:[{key,label,color,dash}], yFmt, valFmt, height, tipTitle, tickEvery}
@@ -2390,18 +2504,22 @@ window.WW = (() => {
     });
     const tip = makeTip(box);
     const hl = svg.append('rect').attr('y', top).attr('height', bottom - top).style('fill', 'var(--cds-chart-grid)').style('opacity', 0).lower();
-    svg.append('rect').attr('x', ml).attr('y', 0).attr('width', W - ml - mr).attr('height', H).attr('fill', 'transparent')
-      .on('pointermove', (ev) => {
-        const [mx] = d3.pointer(ev);
-        const i = Math.max(0, Math.min(o.rows.length - 1, Math.floor((mx - xS.range()[0] - xS.step() * xS.paddingOuter()) / xS.step())));
-        const r = o.rows[i];
-        const x = xS(o.label(r));
-        hl.attr('x', x - xS.step() * 0.1).attr('width', xS.bandwidth() + xS.step() * 0.2).style('opacity', 0.6);
-        const items = all.filter((s) => r[s.key] != null && !isNaN(r[s.key])).map((s) => ({ label: s.label, value: vf(r[s.key]), color: s.color }));
-        fillTip(tip, o.tipTitle ? o.tipTitle(r) : o.label(r), items);
-        placeTip(tip, box, x + xS.bandwidth() / 2);
-      })
-      .on('pointerleave', () => { tip.hidden = true; hl.style('opacity', 0); });
+    const showBar = (i) => {
+      const r = o.rows[i];
+      const x = xS(o.label(r));
+      hl.attr('x', x - xS.step() * 0.1).attr('width', xS.bandwidth() + xS.step() * 0.2).style('opacity', 0.6);
+      const items = all.filter((s) => r[s.key] != null && !isNaN(r[s.key])).map((s) => ({ label: s.label, value: vf(r[s.key]), color: s.color }));
+      fillTip(tip, o.tipTitle ? o.tipTitle(r) : o.label(r), items);
+      placeTip(tip, box, x + xS.bandwidth() / 2);
+    };
+    const hide = () => { tip.hidden = true; hl.style('opacity', 0); };
+    const pad = svg.append('rect').attr('x', ml).attr('y', 0).attr('width', W - ml - mr).attr('height', H).attr('fill', 'transparent');
+    pointerBind(pad, box, (ev) => {
+      const [mx] = d3.pointer(ev);
+      showBar(Math.max(0, Math.min(o.rows.length - 1, Math.floor((mx - xS.range()[0] - xS.step() * xS.paddingOuter()) / xS.step()))));
+    }, hide);
+    access(box, svg, tip, { kind: 'Bar chart', n: o.rows.length, show: showBar, hide });
+    csvButton(box, o.rows, [{ head: 'x', get: (r) => o.label(r) }, ...all.map((s) => ({ head: s.label, get: (r) => r[s.key] }))]);
   }
 
   // Map: Pacific-centred equirectangular. o: {land, height}; returns helpers for layers
@@ -2516,17 +2634,23 @@ window.WW = (() => {
     });
     const tip = makeTip(box);
     const ring = svg.append('circle').attr('r', 6).attr('fill', 'none').style('stroke', 'var(--color-fg)').attr('stroke-width', 1.5).style('opacity', 0);
-    svg.append('rect').attr('width', W).attr('height', H).attr('fill', 'transparent')
-      .on('pointermove', (ev) => {
-        const [mx, my] = d3.pointer(ev);
-        let best = null, bd = 400;
-        rows.forEach((r) => { const d = (xS(r[o.xKey]) - mx) ** 2 + (yS(r[o.yKey]) - my) ** 2; if (d < bd) { bd = d; best = r; } });
-        if (!best) { tip.hidden = true; ring.style('opacity', 0); return; }
-        ring.attr('cx', xS(best[o.xKey])).attr('cy', yS(best[o.yKey])).style('opacity', 1);
-        fillTip(tip, o.titleOf ? o.titleOf(best) : '', [{ label: o.xLabel, value: xf(best[o.xKey]) }, { label: o.yLabel, value: yf(best[o.yKey]) }]);
-        placeTip(tip, box, xS(best[o.xKey]));
-      })
-      .on('pointerleave', () => { tip.hidden = true; ring.style('opacity', 0); });
+    const showPt = (best) => {
+      ring.attr('cx', xS(best[o.xKey])).attr('cy', yS(best[o.yKey])).style('opacity', 1);
+      fillTip(tip, o.titleOf ? o.titleOf(best) : '', [{ label: o.xLabel, value: xf(best[o.xKey]) }, { label: o.yLabel, value: yf(best[o.yKey]) }]);
+      placeTip(tip, box, xS(best[o.xKey]));
+    };
+    const hide = () => { tip.hidden = true; ring.style('opacity', 0); };
+    const pad = svg.append('rect').attr('width', W).attr('height', H).attr('fill', 'transparent');
+    pointerBind(pad, box, (ev) => {
+      const [mx, my] = d3.pointer(ev);
+      let best = null, bd = 400;
+      rows.forEach((r) => { const d = (xS(r[o.xKey]) - mx) ** 2 + (yS(r[o.yKey]) - my) ** 2; if (d < bd) { bd = d; best = r; } });
+      if (!best) { hide(); return; }
+      showPt(best);
+    }, hide);
+    const ordered = rows.slice().sort((a, b) => a[o.xKey] - b[o.xKey]);
+    access(box, svg, tip, { kind: 'Scatter plot', n: ordered.length, show: (i) => showPt(ordered[i]), hide });
+    csvButton(box, ordered, [{ head: o.xLabel, get: (r) => r[o.xKey] }, { head: o.yLabel, get: (r) => r[o.yKey] }, ...(o.titleOf ? [{ head: 'label', get: (r) => o.titleOf(r) }] : [])]);
   }
 
   // Polar azimuthal-equidistant map. o: {pole:'N'|'S', edge}
@@ -2574,7 +2698,7 @@ window.WW = (() => {
     return { svg, root: layer, layer, P, W, H, cx, cy, R };
   }
 
-  return { colors, muted, parseMonth, parseDay, signed, line, bars, legend, fail, map, mapTip, scatter, polar, makeTip, fillTip, placeTip };
+  return { colors, muted, parseMonth, parseDay, signed, line, bars, legend, fail, map, mapTip, scatter, polar, makeTip, fillTip, placeTip, pointerBind, access };
 })();
 </script>
 
@@ -2735,6 +2859,8 @@ window.WW = (() => {
       svg.append('text').attr('class', 'ww-tick').attr('x', x(v)).attr('y', H - 6).attr('text-anchor', 'middle').text(v + '%');
     });
     const tip = K.makeTip(el);
+    const rowShow = [];
+    const hideTip = () => { tip.hidden = true; };
     rows.forEach((r, i) => {
       const vals = segs.map((sg) => (sg.key === 'rest' ? +r.neutral + +r.la_nina : +r[sg.key]));
       const g = svg.append('g');
@@ -2744,14 +2870,15 @@ window.WW = (() => {
         if (v > 0) g.append('rect').attr('x', x(acc)).attr('width', Math.max(0, x(acc + v) - x(acc) - 1)).attr('y', i * rowH + 4).attr('height', rowH - 8).attr('rx', 2).style('fill', segs[k].color);
         acc += v;
       });
-      g.append('rect').attr('x', 0).attr('y', i * rowH).attr('width', W).attr('height', rowH).attr('fill', 'transparent')
-        .on('pointermove', (ev) => {
-          K.fillTip(tip, `${label(r)} · El Niño ${r.el_nino}% (CPC, unconditional)`, segs.map((sg, k) => ({ label: sg.label, value: vals[k] + '%', color: sg.color })));
-          K.placeTip(tip, el, d3.pointer(ev)[0]);
-          tip.style.top = (i * rowH + rowH) + 'px';
-        })
-        .on('pointerleave', () => { tip.hidden = true; });
+      const showRow = (x) => {
+        K.fillTip(tip, `${label(r)} · El Niño ${r.el_nino}% (CPC, unconditional)`, segs.map((sg, k) => ({ label: sg.label, value: vals[k] + '%', color: sg.color })));
+        K.placeTip(tip, el, x);
+        tip.style.top = (i * rowH + rowH) + 'px';
+      };
+      rowShow.push(() => showRow(ml));
+      K.pointerBind(g.append('rect').attr('x', 0).attr('y', i * rowH).attr('width', W).attr('height', rowH).attr('fill', 'transparent'), el, (ev) => showRow(d3.pointer(ev)[0]), hideTip);
     });
+    K.access(el, svg, tip, { kind: 'Stacked bar chart', n: rows.length, show: (i) => rowShow[i](), hide: hideTip });
     tb.innerHTML = '<thead><tr><th>Target season</th><th>Weak</th><th>Moderate</th><th>Strong</th><th>Very strong</th><th>El Niño total</th><th>Neutral</th><th>La Niña</th></tr></thead><tbody>'
       + rows.map((r) => `<tr><th>${label(r)}</th><td>${r.en_weak}</td><td>${r.en_moderate}</td><td>${r.en_strong}</td><td>${r.en_very_strong}</td><td class="hi">${r.el_nino}</td><td>${r.neutral}</td><td>${r.la_nina}</td></tr>`).join('')
       + '</tbody>';
