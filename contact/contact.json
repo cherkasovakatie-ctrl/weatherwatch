@@ -1,0 +1,36 @@
+{
+ "title": "Contact",
+ "description": "How to contact Global Weather Watch by email: questions, corrections, data problems and feedback.",
+ "email": "support@weatherglobalwatch.com",
+ "subject": "Global Weather Watch: ",
+ "intro": "Global Weather Watch is an independent, non-commercial project. You can write to us at the address below.",
+ "sections": [
+  {
+   "heading": "What to write about",
+   "list": [
+    "Questions about the site, its data or its method.",
+    "Corrections: a number, a date, a source or a statement you think is wrong. Please name the page and quote the text.",
+    "Data problems: a chart that does not load, or a dataset that looks out of date.",
+    "Feedback and suggestions."
+   ]
+  },
+  {
+   "heading": "What to expect",
+   "paragraphs": [
+    "A person reads these messages. Replies may take several days, and not every message can be answered."
+   ]
+  },
+  {
+   "heading": "This is not a warning service",
+   "paragraphs": [
+    "Global Weather Watch is not an official forecast or warning service, and this address is not watched for emergencies. For weather warnings, follow your national weather service (in the United States, <a href=\"https://www.weather.gov/\">weather.gov</a>) and your local authorities."
+   ]
+  },
+  {
+   "heading": "How your message is used",
+   "paragraphs": [
+    "Your message and your email address are used only to answer you."
+   ]
+  }
+ ]
+}
