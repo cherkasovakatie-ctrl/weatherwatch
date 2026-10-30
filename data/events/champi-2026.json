@@ -6,8 +6,8 @@
  "start": "2026-10-14",
  "end": "",
  "status": "unfolding",
- "as_of": "23 Oct 2026 (AccuWeather update 22 Oct 16:45 UTC; Khaleej Times/Taiwan CWA 21 Oct)",
- "headline": "Champi passed within 12 miles of Guam's southern tip on 18 October with its core of extreme winds mostly offshore, then became a super typhoon over the Philippine Sea and reached 159 kt (183 mph, 1-minute) on 20 October in JTWC's provisional best track, the highest winds of 2026 worldwide so far and 5 kt above Sinlaku's 154 kt (177 mph) in April; press reports quoted 185 mph on 21 October. Taiwan's weather agency expects it to turn north off Taiwan's east coast rather than make landfall, bringing extremely heavy rain to Taiwan through 24 October, then rain to eastern China, the Ryukyus, South Korea and southern Japan before it dissipates over Japan around 26 October.",
+ "as_of": "24 Oct 2026 (Taiwan emergency centre, 24 Oct; Al Jazeera, 23 Oct; AccuWeather update 22 Oct 16:45 UTC; Khaleej Times/Taiwan CWA 21 Oct)",
+ "headline": "Champi passed within 12 miles of Guam's southern tip on 18 October with its core of extreme winds mostly offshore, then became a super typhoon over the Philippine Sea and reached 159 kt (183 mph, 1-minute) on 20 October in JTWC's provisional best track, the highest winds of 2026 worldwide so far and 5 kt above Sinlaku's 154 kt (177 mph) in April; press reports quoted 185 mph on 21 October. Taiwan's weather agency had expected it to turn north off Taiwan's east coast rather than make landfall; by 23 October it had passed off the northeast coast with extremely heavy rain (650 mm in Yilan since Thursday). As reported on 24 October, one person died, 616 were injured and 4,960 were evacuated in Taiwan; the counts were still changing. Rain was then forecast for eastern China, the Ryukyus, South Korea and southern Japan before the storm dissipates over Japan around 26 October.",
  "numbers": [
   [
    "Peak (1-min)",
@@ -19,19 +19,19 @@
   ],
   [
    "Guam impacts",
-   "Homes damaged, trees down; >1,000 in 15 shelters on 4 islands; power and water out, up to 170 wells off (Red Cross)"
+   "Homes damaged, trees down; FEMA daily briefing, 18 Oct: 954 people in 6 shelters on Guam, 98 wells listed (72 on generator power)"
   ],
   [
-   "Taiwan forecast",
-   "Rain to 300 mm (locally 600 mm), gusts to 160 km/h, east coast; waves to 6 m (22–24 Oct)"
+   "Taiwan",
+   "Passed off the northeast coast. 650 mm of rain in Yilan since Thursday 22 Oct (Taiwan's weather agency had forecast up to 900 mm, Thursday to Saturday); 4,960 evacuated (24 Oct); waves to 6 m forecast off the east coast (22–24 Oct)"
   ],
   [
    "Rapid intensification",
-   "+40 kt in 23 h (35 → 75 kt), 15–16 Oct"
+   "+35 kt in 24 h (provisional best track), 15–16 Oct"
   ],
   [
-   "Deaths",
-   "None reported as of 22 Oct"
+   "Deaths and injuries",
+   "Taiwan: one person killed and 616 injured, as reported by Taiwan's emergency centre on Saturday 24 Oct (about 500 injured in Reuters and AFP, 163 early on Friday); 4,960 evacuated; the counts were still changing. Guam: no deaths reported as of 22 Oct. Japan: two injured (Al Jazeera, 23 Oct)."
   ]
  ],
  "timeline": [
@@ -49,7 +49,7 @@
   ],
   [
    "16 Oct 18 UTC",
-   "JTWC: 75 kt, 984 mb at 11.9°N 150.2°E, 380 miles ESE of Guam. +40 kt in 23 hours: rapid intensification under way."
+   "JTWC: 75 kt, 984 mb at 11.9°N 150.2°E, 380 miles ESE of Guam. JTWC's warning counted +40 kt in 23 hours; the provisional best track gives +35 kt in 24 hours. Rapid intensification under way."
   ],
   [
    "16 Oct 21 UTC (17 Oct 07 ChST)",
@@ -73,15 +73,15 @@
   ],
   [
    "18 Oct (Sun)",
-   "Passes within 12 miles of Guam's southern tip; the core of extreme winds stays mostly offshore. Damage to homes and trees; more than 1,000 residents in 15 Red Cross–supported shelters on four islands; multiple communities without power and water, with up to 170 wells not operating."
+   "Passes within 12 miles of Guam's southern tip; the core of extreme winds stays mostly offshore. Damage to homes and trees; multiple communities without power and water. FEMA's daily briefing of 18 Oct listed 6 shelters open with 954 occupants on Guam, and 98 wells (72 on generator power)."
   ],
   [
    "20–21 Oct",
    "Super typhoon over the Philippine Sea; provisional best-track peak 1-minute winds of 159 kt (183 mph) at 18 UTC on 20 Oct, the strongest storm of 2026 so far, 5 kt above Sinlaku (154 kt, 177 mph, April); press reports quoted 185 mph on 21 Oct. Philippine Signal No. 1 in Batanes, Cagayan, Isabela, Apayao, Ilocos Norte and Catanduanes."
   ],
   [
-   "22–24 Oct (forecast)",
-   "Turns north off eastern Taiwan without landfall (Taiwan CWA); extremely heavy rain island-wide, waves to 6 m off the east coast; rain spreads to eastern China 23–25 Oct."
+   "22–24 Oct",
+   "Passes off Taiwan's northeast coast; Taiwan's weather agency had expected it to turn north off the east coast without landfall. Extremely heavy rain: more than 400 mm in Yilan on Friday 23 Oct and 650 mm since Thursday (Al Jazeera, 23 Oct; the agency had forecast up to 900 mm, Thursday to Saturday); waves up to 6 m forecast off the east coast. Rain was forecast to spread to eastern China on 23–25 Oct."
   ],
   [
    "24–26 Oct (forecast)",
@@ -91,14 +91,14 @@
  "sections": {
   "The setup": "Sea surface temperatures of 29–30 °C, abundant moisture and a deep warm layer. JTWC expects the storm to move into ocean heat content of 120–150 kJ/cm² — roughly a layer of water warmer than 26 °C about 150 m deep (our conversion). Around 50 kJ/cm² is enough to support intensification; 120+ means a storm can churn the ocean without bringing up cool water. During El Niño, typhoon genesis shifts south-east toward the date line, so storms form farther east and spend longer over warm open ocean before reaching land. That is how Guam has been threatened three times since April.",
   "The trigger": "A disturbance in the trade-wind easterlies (Invest 96W) consolidated into Tropical Depression 29W early on 15 October and was named Champi later that day.",
-  "What amplified it": "Strong outflow toward the west (the storm could vent its rising air easily aloft), warm deep water and plenty of moisture. Once an inner core formed it intensified by 40 kt in 23 hours (35 kt to 75 kt), above the 30-kt-in-24-hours threshold for rapid intensification. JTWC expects rapid intensification to continue for about 48 hours; one model (HAFS-A) shows a peak as high as 160 kt.",
+  "What amplified it": "Strong outflow toward the west (the storm could vent its rising air easily aloft), warm deep water and plenty of moisture. Once an inner core formed it intensified by 35 kt in 24 hours (provisional best track), above the 30-kt-in-24-hours threshold for rapid intensification. JTWC expects rapid intensification to continue for about 48 hours; one model (HAFS-A) shows a peak as high as 160 kt.",
   "What held it back": "Moderate vertical wind shear early on (15–20 kt, about 17–23 mph) slowed organisation on 15–16 October. Shear is forecast to fall below 10 kt by 18 October.",
   "What steers it": "The subtropical high to the north is steering Champi west to west-northwest at about 15 mph. Model tracks range from just south of Guam to the Guam–Rota channel, so NWS Guam told residents not to focus on the exact track. Beyond 20 October the storm should round the western edge of the high; whether it then turns north toward the Ryukyus depends on a trough over East Asia.",
   "Expected impacts": "Guam (NWS, 17 Oct): winds 105–120 mph with gusts to 155 mph, 12–20 in of rain, surf up to 35 ft and coastal inundation of 5–7 ft. Rota: 60–80 mph, gusts to 115 mph. Saipan and Tinian: 40–60 mph. Five school evacuation centres open from 10 am Saturday; the Red Cross is opening 13 shelters; families displaced by Sinlaku and Bavi must take down tents and move to shelters.",
   "How it should end": "Not before 21–23 October: it is forecast to stay a very strong typhoon over the Philippine Sea. Its end depends on recurvature and colder water to the north.",
   "Climate signal": "No study. El Niño shifts typhoon tracks east and lengthens their lives; this is a well-documented ENSO effect, not attribution.",
   "Still open": "Closest approach, peak winds on Guam, damage, and the track after the Philippine Sea.",
-  "What happened so far": "Guam: closest approach within 12 miles of the southern tip on 18 October; damage to homes and trees, shelters for more than 1,000 people, power and water outages (up to 170 wells off); southern areas not yet assessed as of 22 October. No deaths reported. Taiwan, Ryukyus, eastern China, Korea and Japan: forecast impacts as listed in the timeline; to be scored after the storm."
+  "What happened so far": "Guam: closest approach within 12 miles of the southern tip on 18 October; damage to homes and trees, power and water outages; FEMA's daily briefing of 18 October listed 6 shelters open with 954 occupants on Guam, and 98 wells (72 on generator power); southern areas not yet assessed as of 22 October. No deaths reported on Guam. Taiwan: the storm passed off the northeast coast; as reported on 24 October by Taiwan's emergency centre, one person died, 616 were injured and 4,960 were evacuated (about 500 injured in Reuters and AFP, 163 early on Friday; the counts were still changing), and Yilan received 650 mm of rain from Thursday. Japan: two injured (Al Jazeera, 23 October). Ryukyus, eastern China and Korea: forecast impacts as listed in the timeline; to be scored after the storm."
  },
  "movie": {
   "sst_grid": {
@@ -2601,6 +2601,10 @@
   {
    "title": "Khaleej Times: Super Typhoon Champi spares Taiwan direct hit, brings heavy rain to Japan and Philippines (21 Oct 2026)",
    "url": "https://www.khaleejtimes.com/world/asia/super-typhoon-champi-spares-taiwan-direct-hit-brings-heavy-rain-to-japan-and-philippines"
+  },
+  {
+   "title": "Al Jazeera: Typhoon Champi passes Taiwan, one killed, hundreds injured (23 Oct 2026)",
+   "url": "https://aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350"
   },
   {
    "title": "Primera Hora (FOX Weather): Champi ties Sinlaku as 2026's strongest storm",

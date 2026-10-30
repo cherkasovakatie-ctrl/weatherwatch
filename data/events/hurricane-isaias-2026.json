@@ -13,13 +13,13 @@
  "numbers": [
   ["Landfall", "Cat 2, 105 mph, near Destin, 9 Oct"],
   ["Peak", "Cat 3 (9 Oct)"],
-  ["Highest gust", "117 mph, Oriole Beach (prelim.)"],
-  ["Peak outages", "~900,000 customers"],
-  ["Deaths", "6–9 reported (tallies differ)"],
+  ["Highest gust", "118 mph at Jay, 116 mph at Oriole Beach (NWS Mobile, preliminary)"],
+  ["Peak outages", "About 730,000 early on 10 Oct (AP, poweroutage.com); some reports up to about 900,000"],
+  ["Deaths", "4 (AP, 10 Oct), 6 (AccuWeather, 14 Oct), 9 (WUSF, 11 Oct): tallies differ; NWS Mobile, preliminary: 1 direct and 2 indirect in its area"],
   ["Insured loss", "$1–4.5bn (modeler range)"]
  ],
  "timeline": [
-  ["6 Oct", "Tropical Depression Nine forms over the far southwestern Gulf."],
+  ["6 Oct", "Tropical Depression Nine forms in the southern Gulf (Bay of Campeche) on 6 Oct (best track); NWS lists a disturbance there from 4 Oct."],
   ["7 Oct", "Becomes Tropical Storm Isaias in the morning; rapid intensification 7–8 Oct (Climate Central)."],
   ["7–8 Oct", "Becomes the season's first hurricane: late 7 Oct local time per The Weather Channel, 8 Oct per NASA. Eight named storms had formed before it."],
   ["9 Oct morning", "Reaches Category 3, the season's first major hurricane; rising wind shear then disrupts its structure."],
@@ -39,12 +39,12 @@
   ],
   "Why the strengthening stopped": "As Isaias approached the northern Gulf Coast, stronger upper-level winds raised the shear (to about 27–39 kt) while dry air wrapped toward its circulation. These conditions disrupted the storm and weakened it from Category 3 to Category 2 before landfall. The warm water could fuel it but could not offset the atmospheric disruption. It still produced destructive gusts and widespread tree damage.",
   "Where the damage was worst": [
-   "The Florida Panhandle and southern Alabama had major wind damage: fallen trees, damaged roofs and downed power lines. The strongest gusts were west of the centre: NASA, citing preliminary National Weather Service observations, reported 117 mph at Oriole Beach and 102 mph at Pensacola City Hall.",
+   "The Florida Panhandle and southern Alabama had major wind damage: fallen trees, damaged roofs and downed power lines. The strongest gusts were west of the centre: NWS Mobile's preliminary report lists 118 mph at Jay, 116 mph at Oriole Beach and 114 mph at Whiting Field (the report notes that the stations probably did not sample the peak); NASA, citing preliminary National Weather Service observations, reported 102 mph at Pensacola City Hall.",
    "Coastal flooding: the Panama City Beach Pier gauge recorded a peak water level of 5.59 ft above Mean Higher High Water, roughly the normal high-tide line (NWS Tallahassee, preliminary). This is a gauge reading, not the flood depth at every nearby property.",
    "Heavy rain: Bellwood, Alabama, recorded 12.97 inches in about 13 hours; parts of western North Carolina received up to 9 inches (The Weather Channel). Where a stalled front added to the hurricane's rain, many sites reported 10–20 inches in total (WUSF).",
-   "Power outages: about 900,000 customers were without power at the peak, according to The Weather Channel citing poweroutage.us. AccuWeather put the peak at about 930,000.",
+   "Power outages: counts depend on the time and the tracker. AP, using poweroutage.com, reported more than 726,000 customers without power early on 10 Oct and 396,000 on 11 Oct; The Weather Channel, citing poweroutage.us, put the peak at about 900,000 and AccuWeather at about 930,000.",
    "Tornadoes: the system spawned tornadoes in Georgia and the Carolinas, including near Newington, Georgia, west of Allendale, South Carolina, and near Candor, North Carolina.",
-   "Deaths: tallies differ by source and date: at least 4 (AP, 10 Oct), at least 6 (AccuWeather, 14 Oct) and 9 (WUSF, 11 Oct, including six reported by Florida's governor)."
+   "Deaths: tallies differ by source and date: at least 4 (AP, 10 Oct), at least 6 (AccuWeather, 14 Oct) and 9 (WUSF, 11 Oct, including six reported by Florida's governor). NWS Mobile's preliminary report counts one direct and two indirect deaths in its area; NWS Tallahassee lists none in its area."
   ],
   "Why it was notable": [
    "A very late first hurricane: although Isaias was the ninth named storm, it did not become the season's first hurricane until 7–8 October. AccuWeather says that broke a 121-year record for the latest first hurricane of an Atlantic season. The quiet season is consistent with El Niño's wind shear over the Atlantic (see The setup), but a quiet season did not prevent one damaging storm.",
@@ -63,6 +63,7 @@
  "sources": [
   {"title": "NASA Earth Observatory: Isaias Dims the Gulf Coast (16 Oct 2026)", "url": "https://science.nasa.gov/earth/earth-observatory/isaias-dims-the-gulf-coast/"},
   {"title": "NWS Tallahassee: Post-Tropical Cyclone Report, Hurricane Isaias (11 Oct 2026)", "url": "https://www.weather.gov/media/tae/TropicalEventSummary/PSHTAE_2026AL09_Isaias_Summary.pdf"},
+  {"title": "NWS Mobile/Pensacola: Post-Tropical Cyclone Report, Hurricane Isaias (preliminary, 14 Oct 2026)", "url": "https://www.weather.gov/media/mob/TropicalEventSummary/PSHMOB_2026AL04_Isaias_Summary.pdf"},
   {"title": "NHC: Hurricane Isaias Tropical Cyclone Update, 9 Oct 2026", "url": "https://www.nhc.noaa.gov/text/refresh/MIATCUAT4+shtml/100158.shtml"},
   {"title": "The Weather Channel: Hurricane Isaias hit Gulf Coast, spread rain and wind inland (12 Oct 2026)", "url": "https://weather.com/2026/10/11/storms/hurricane/hurricane-isaias-forecast-inland-flooding-winds-tornadoes"},
   {"title": "WLRN: Isaias makes landfall near Destin (9 Oct 2026)", "url": "https://www.wlrn.org/2026-10-09/isaias-makes-landfall-near-destin-widespread-impacts-continue"},
