@@ -109,7 +109,7 @@ ul.src { margin: 6px 0 0; padding-left: 1.1em; font-size: .85rem; line-height: 1
   <div class="card">
     <h3>Next 24 months</h3>
     <div class="ctl"><label class="chk"><input type="checkbox" id="next-soft"> include trines</label><label class="chk"><input type="checkbox" id="next-stations" checked> stations</label><label class="chk"><input type="checkbox" id="next-seasonal" checked> equinoxes &amp; solstices</label></div>
-    <div class="tw scroll"><table class="t" id="next-table"></table></div>
+    <div class="tw scroll"><table class="t" id="next-table"><caption style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap">Next 24 months</caption></table></div>
   </div>
 
   <h2 id="timeline-h">Global mundane timeline</h2>
@@ -138,11 +138,11 @@ ul.src { margin: 6px 0 0; padding-left: 1.1em; font-size: .85rem; line-height: 1
     <div class="card"><dl class="meta" id="nc-meta"></dl></div>
   </div>
   <div class="grid2">
-    <div class="card"><h3>Positions</h3><div class="tw"><table class="t" id="nc-pos"></table></div></div>
+    <div class="card"><h3>Positions</h3><div class="tw"><table class="t" id="nc-pos"><caption style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap">Positions</caption></table></div></div>
     <div class="card">
       <h3>Outer-planet transits</h3>
       <div class="ctl"><div class="seg" id="nc-when" role="group" aria-label="Period"><button data-w="next" aria-pressed="true">Next 3 years</button><button data-w="past" aria-pressed="false">Last 3 years</button><button data-w="all" aria-pressed="false">2015–2035</button></div><label class="chk"><input type="checkbox" id="nc-soft"> trines</label></div>
-      <div class="tw scroll"><table class="t" id="nc-tr"></table></div>
+      <div class="tw scroll"><table class="t" id="nc-tr"><caption style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap">Outer-planet transits</caption></table></div>
     </div>
   </div>
   <div class="card">
@@ -158,9 +158,9 @@ ul.src { margin: 6px 0 0; padding-left: 1.1em; font-size: .85rem; line-height: 1
     <div class="chart" id="mk-chart"></div>
   </div>
   <div class="grid2">
-    <div class="card"><h3>Planetary cycles vs forward 12-month real returns, 1900–2022</h3><div class="tw"><table class="t" id="mk-tests"></table></div>
+    <div class="card"><h3>Planetary cycles vs forward 12-month real returns, 1900–2022</h3><div class="tw"><table class="t" id="mk-tests"><caption style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap">Planetary cycles vs forward 12-month real returns, 1900–2022</caption></table></div>
       <p class="small muted">Δ mean = average forward return inside the window minus outside, in percentage points. p from 5,000 circular shifts of the predictor (keeps both series’ persistence); q = Benjamini–Hochberg across all seven tests.</p></div>
-    <div class="card"><h3 id="mk-ep-h">Strongest lead, episode by episode</h3><div class="tw"><table class="t" id="mk-ep"></table></div>
+    <div class="card"><h3 id="mk-ep-h">Strongest lead, episode by episode</h3><div class="tw"><table class="t" id="mk-ep"><caption style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap">Strongest lead, episode by episode</caption></table></div>
       <p class="small muted">“Gap if dropped” recomputes the in-minus-out difference without that episode. If one row moves it a lot, one event carries the result.</p></div>
   </div>
 
@@ -261,7 +261,7 @@ ul.src { margin: 6px 0 0; padding-left: 1.1em; font-size: .85rem; line-height: 1
       if (document.getElementById('next-seasonal').checked) seasonal.filter((s) => s.t > today && s.t < end).forEach((s) => rows.push({ t: s.t, what: `Sun enters ${s.point} (${{ Aries: 'March equinox', Cancer: 'June solstice', Libra: 'September equinox', Capricorn: 'December solstice' }[s.point]})`, where: s.date + ' ' + s.time_utc + ' UTC', note: 'ingress chart', kind: 'seasonal' }));
       rows.sort((a, b) => a.t - b.t);
       const label = { hard: 'hard aspect', soft: 'soft aspect', ingress: 'ingress', eclipse: 'eclipse', station: 'station', seasonal: 'seasonal' };
-      document.getElementById('next-table').innerHTML = '<thead><tr><th>Date (UTC)</th><th>Event</th><th>Position</th><th>Type</th><th></th></tr></thead><tbody>' +
+      document.getElementById('next-table').innerHTML = '<thead><tr><th scope="col">Date (UTC)</th><th scope="col">Event</th><th scope="col">Position</th><th scope="col">Type</th><th scope="col"></th></tr></thead><tbody>' +
         rows.map((r) => `<tr><td>${fmtDate(r.t)}</td><td>${esc(r.what)}</td><td>${esc(r.where)}</td><td><span class="badge ${r.kind === 'hard' ? 'hard' : r.kind === 'soft' ? 'soft' : ''}">${label[r.kind]}</span></td><td class="muted">${esc(r.note)}</td></tr>`).join('') + '</tbody>';
     };
     ['next-soft', 'next-stations', 'next-seasonal'].forEach((id) => document.getElementById(id).addEventListener('change', draw));
@@ -443,7 +443,7 @@ ul.src { margin: 6px 0 0; padding-left: 1.1em; font-size: .85rem; line-height: 1
     document.getElementById('nc-meta').innerHTML = `<dt>Chart</dt><dd><b>${esc(c.label)}</b> <span class="badge ${c.rating}">${c.rating} · ${ratingText[c.rating]}</span></dd>
       <dt>Founding event</dt><dd>${esc(c.event)}</dd><dt>Moment</dt><dd>${esc(c.local_time)} · ${esc(c.place)} (${(+c.lat).toFixed(2)}°, ${(+c.lon).toFixed(2)}°) · ${esc(c.utc)} UTC</dd>
       <dt>Basis</dt><dd>${esc(c.source)}</dd>${c.notes ? `<dt>Caveat</dt><dd>${esc(c.notes)}</dd>` : ''}`;
-    document.getElementById('nc-pos').innerHTML = '<thead><tr><th>Point</th><th>Position</th><th></th><th>Transit target</th></tr></thead><tbody>' +
+    document.getElementById('nc-pos').innerHTML = '<thead><tr><th scope="col">Point</th><th scope="col">Position</th><th scope="col"></th><th scope="col">Transit target</th></tr></thead><tbody>' +
       rows.map((r) => `<tr><td>${g(r.point)} ${esc(r.point)}</td><td>${esc(r.position)}</td><td>${r.retro === 'yes' ? '℞' : ''}</td><td class="muted">${r.transit_target === 'yes' ? 'yes' : '—'}</td></tr>`).join('') + '</tbody>';
     const soft = document.getElementById('nc-soft').checked;
     const lo = new Date(today), hi = new Date(today);
@@ -451,7 +451,7 @@ ul.src { margin: 6px 0 0; padding-left: 1.1em; font-size: .85rem; line-height: 1
     const mine = trs.filter((r) => r.chart_id === c.id && (soft || r.aspect !== 'trine'));
     const list = mine.filter((r) => ncWhen === 'all' || (ncWhen === 'next' ? r.t >= today && r.t <= hi : r.t >= lo && r.t <= today));
     if (ncWhen === 'past') list.reverse();
-    document.getElementById('nc-tr').innerHTML = '<thead><tr><th>Date</th><th>Transit</th><th>Natal point</th><th></th></tr></thead><tbody>' +
+    document.getElementById('nc-tr').innerHTML = '<thead><tr><th scope="col">Date</th><th scope="col">Transit</th><th scope="col">Natal point</th><th scope="col"></th></tr></thead><tbody>' +
       (list.length ? list.map((r) => `<tr><td>${fmtDate(r.t)}</td><td>${g(r.transiting)} ${r.transiting} ${aspectSym(r.aspect)} ${r.aspect}</td><td>${g(r.natal)} ${esc(r.natal)} <span class="muted">${esc(r.natal_position)}</span></td><td class="muted">${r.retro === 'yes' ? '℞' : ''}</td></tr>`).join('') : '<tr><td colspan="4" class="muted">No exact transits in this period.</td></tr>') + '</tbody>';
     // timeline
     const box = document.getElementById('nc-chart');
@@ -513,12 +513,12 @@ ul.src { margin: 6px 0 0; padding-left: 1.1em; font-size: .85rem; line-height: 1
       .on('mousemove', (ev) => { const t = x.invert(d3.pointer(ev)[0]); const i = bis(rows, t); const r = rows[i]; if (r) showTip(ev, `<b>${r.t.toISOString().slice(0, 7)}</b><br>S&amp;P 500 ${r.nom.toLocaleString('en-US')}${r.real ? '' : ' <span class="muted">(nominal)</span>'}<br>Cyclic index ${r.ci ?? '—'}°`); })
       .on('mouseleave', hideTip);
     document.getElementById('mk-legend').innerHTML = `<span><svg width="18" height="8"><line x1="0" x2="18" y1="4" y2="4" stroke="${css('--color-accent')}" stroke-width="2"/></svg>S&amp;P 500, real (log, left; dashed = nominal after Sep 2023)</span><span><svg width="18" height="8"><line x1="0" x2="18" y1="4" y2="4" stroke="${css('--color-violet')}" stroke-width="2"/></svg>cyclic index (right)</span><span><svg width="14" height="12"><rect width="14" height="12" fill="var(--band)"/></svg>bear market</span><span><svg width="14" height="12"><rect width="14" height="12" fill="var(--band2)"/></svg>Saturn–Uranus hard aspect (approx. window)</span>`;
-    document.getElementById('mk-tests').innerHTML = '<thead><tr><th>Predictor</th><th>Value</th><th>p</th><th>q</th><th>1900–61</th><th>1961–2022</th><th>Same sign</th></tr></thead><tbody>' +
+    document.getElementById('mk-tests').innerHTML = '<thead><tr><th scope="col">Predictor</th><th scope="col">Value</th><th scope="col">p</th><th scope="col">q</th><th scope="col">1900–61</th><th scope="col">1961–2022</th><th scope="col">Same sign</th></tr></thead><tbody>' +
       D.market_tests.map((r) => `<tr><td>${esc(r.predictor)}<br><span class="muted">${esc(r.statistic)}</span></td><td>${(+r.value).toFixed(2)}</td><td>${(+r.p_value).toFixed(3)}</td><td${+r.q_fdr < 0.05 ? ' style="font-weight:600"' : ''}>${(+r.q_fdr).toFixed(3)}</td><td>${(+r.first_half).toFixed(2)}</td><td>${(+r.second_half).toFixed(2)}</td><td>${r.same_sign_both_halves}</td></tr>`).join('') + '</tbody>';
     const ep = D.market_episodes;
     if (ep.length) {
       document.getElementById('mk-ep-h').textContent = `${ep[0].predictor}, episode by episode`;
-      document.getElementById('mk-ep').innerHTML = '<thead><tr><th>Episode</th><th>Months</th><th>Mean fwd 12-m real return</th><th>Gap if dropped</th></tr></thead><tbody>' +
+      document.getElementById('mk-ep').innerHTML = '<thead><tr><th scope="col">Episode</th><th scope="col">Months</th><th scope="col">Mean fwd 12-m real return</th><th scope="col">Gap if dropped</th></tr></thead><tbody>' +
         ep.map((r) => `<tr><td>${r.start} – ${r.end}</td><td>${r.months}</td><td>${(+r.mean_fwd_12m_real_return_pct).toFixed(1)}%</td><td>${(+r.gap_if_dropped).toFixed(2)}</td></tr>`).join('') + '</tbody>';
     }
   }

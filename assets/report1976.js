@@ -24,7 +24,9 @@
     let d = fig.querySelector('details.dt');
     if (!d) { d = document.createElement('details'); d.className = 'dt'; d.innerHTML = '<summary>Data table</summary><div class="tw"></div>'; fig.append(d); }
     const t = document.createElement('table');
-    t.innerHTML = `<thead><tr>${head.map((h) => `<th>${h}</th>`).join('')}</tr></thead><tbody>${rows.map((r) => `<tr>${r.map((c) => `<td>${c}</td>`).join('')}</tr>`).join('')}</tbody>`;
+    const ft = fig.querySelector('.ft');
+    const cap = ft ? `<caption style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap">${ft.innerHTML}</caption>` : '';
+    t.innerHTML = `${cap}<thead><tr>${head.map((h) => `<th scope="col">${h}</th>`).join('')}</tr></thead><tbody>${rows.map((r) => `<tr>${r.map((c) => `<td>${c}</td>`).join('')}</tr>`).join('')}</tbody>`;
     d.querySelector('.tw').replaceChildren(t);
   }
   function frame(el, H, mlExtra = 0) {

@@ -51,7 +51,7 @@ td.d{color:var(--color-fg-muted);max-width:60ch} a{color:var(--color-fg)} select
 <h1>Data archive</h1>
 <p>Every series used on the dashboard, as plain CSV (one JSON file holds the map outlines). Each refresh is also kept as a dated snapshot, so earlier versions stay available. Please credit the original source named in each description.</p>
 <p>Snapshot: <select id="snap"></select> · <a id="zipnote" href="https://github.com/cherkasovakatie-ctrl/weatherwatch/tree/main/data">browse all files on GitHub</a></p>
-<div class="tw"><table><thead><tr><th>Dataset</th><th>Description and source</th><th>Updated</th><th>Size</th><th>Download</th></tr></thead><tbody id="rows"></tbody></table></div>
+<div class="tw"><table><thead><tr><th scope="col">Dataset</th><th scope="col">Description and source</th><th scope="col">Updated</th><th scope="col">Size</th><th scope="col">Download</th></tr></thead><tbody id="rows"></tbody></table></div>
 </main><footer class="site-foot">Data snapshot: <span data-asof>23 October 2026</span>. Independent, non-commercial analysis built from public sources (NOAA, NASA, USGS, Smithsonian GVP, GDACS, CPC, IRI, Copernicus/Open-Meteo, SILSO, IERS, Coral Reef Watch and others; see <a href="about.html">About &amp; method</a>). Not an official forecast or warning service — for warnings follow your national weather service. Analysis prepared with Claude (Anthropic). <a href="contact.html">Contact</a></footer>
 <script>
 (async () => {

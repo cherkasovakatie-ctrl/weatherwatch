@@ -104,7 +104,7 @@ async function drawSeries(fig, o) {
   fig.append(mk('p', 'ft', o.title), mk('p', 'fs', o.subtitle || ''));
   const host = mk('div'); fig.append(host, mk('p', 'fn', o.note || ''));
   const det = mk('details'); det.append(mk('summary', null, 'Data table: peak of each labelled event'));
-  const tb = mk('table'); tb.innerHTML = '<thead><tr><th>Event</th><th>Peak 3-month mean</th><th>Centred on</th></tr></thead>';
+  const tb = mk('table'); tb.innerHTML = '<thead><tr><th scope="col">Event</th><th scope="col">Peak 3-month mean</th><th scope="col">Centred on</th></tr></thead>';
   const body = mk('tbody'); (o.marks || []).forEach((k) => { const a = pts.filter((p) => p.m >= k.from && p.m <= k.to); if (!a.length) return; const pk = a.reduce((x, y) => (y.v > x.v ? y : x)); k._pk = pk; const tr = mk('tr'); tr.append(mk('td', null, k.label), mk('td', null, (pk.v >= 0 ? '+' : '−') + Math.abs(pk.v).toFixed(2) + ' °C'), mk('td', null, pk.m)); body.append(tr); });
   tb.append(body); det.append(tb); fig.append(det);
   const tip = document.querySelector('.stip') || document.body.appendChild(mk('div', 'stip')); tip.hidden = true;
