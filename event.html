@@ -143,9 +143,11 @@ async function drawSeries(fig, o) {
   if (set === 'history') { document.querySelectorAll('.site-nav a').forEach((n) => { if (n.getAttribute('href') === 'deadliest.html') n.setAttribute('aria-current', 'page'); else n.removeAttribute('aria-current'); }); }
   const box = document.getElementById('ev');
   const el = (t, c, x) => { const e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; };
+  const notFound = () => { const p = el('p', 'lede', 'Choose an event from the '); const a = el('a', null, 'list of events'); a.href = set === 'history' ? 'deadliest.html' : 'events.html'; p.append(a, '.'); box.replaceChildren(el('h1', null, 'Event not found'), p); document.title = 'Event not found · Global Weather Watch'; };
+  if (!id) { notFound(); return; }
   let e;
   try { e = await (await fetch('data/' + set + '/' + encodeURIComponent(id) + '.json', {cache: 'no-cache'})).json(); }
-  catch (err) { box.replaceChildren(el('p', 'lede', 'Event not found.')); return; }
+  catch (err) { notFound(); return; }
   const ix = await (await fetch('data/' + set + '/index.json', {cache: 'no-cache'})).json();
   document.title = e.name + ' · Global Weather Watch';
   box.replaceChildren();
