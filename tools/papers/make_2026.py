@@ -153,7 +153,7 @@ S.append({"id": "data", "title": "1. Data and approach", "html": (
     "The script <code>tools/papers/compare_2026.py</code> writes the aligned series (<code>data/papers/2026/analog_monthly.csv</code>); this text is generated from it.</p>"
     "<p><b>What this is not.</b> It does not yet include daily reanalysis diagnostics of the MJO, TAO mooring data, the literature on 2026, or impacts. Those are the next stages, as in Papers 1–3.</p>")})
 S.append({"id": "comparison", "title": "2. The four events at the same stage", "html": (
-    "<figure><img src=\"papers/img/enso2026_analogs.png\" alt=\"Four panels comparing 1982–83, 1997–98, 2015–16 and 2026: RONI, Niño 1+2, upper-300 m heat content and warm water volume, aligned on the onset year\" style=\"max-width:100%;height:auto\">"
+    "<figure data-ww-chart=\"analogs\"><img src=\"papers/img/enso2026_analogs.png\" alt=\"Four panels comparing 1982–83, 1997–98, 2015–16 and 2026: RONI, Niño 1+2, upper-300 m heat content and warm water volume, aligned on the onset year\" style=\"max-width:100%;height:auto\">"
     "<figcaption class=\"note\">Figure 1. The four events aligned on the onset year, December of year −1 to December of year +1. 2026 data end in September (RONI: July–September). Sources: NOAA CPC, NOAA PMEL.</figcaption></figure>"),
     "table": {"cols": ["Indicator", "1982–83", "1997–98", "2015–16", "2026"], "rows": cmp_rows,
               "note": "Same calendar stage in each onset year. RONI and ONI are 3-month seasons labelled by their centre month (JAS = July–September). Niño-region SST from OISST v2.1; heat content from CPC (180°–100°W, 0–300 m, 1981–2010 base); WWV from NOAA PMEL; CPC trade-wind values are standardized, dimensionless z-scores (negative = weaker trades), and OLR values are in W m⁻² (negative = more convection). PDO from NOAA NCEI. IOD: CPC Dipole Mode Index, ERSSTv6, 1991–2020 baseline; the latest value is an estimate that may change for up to two months."}})
@@ -271,6 +271,7 @@ paper = {
     "status_note": ("Preliminary analysis (24 Oct 2026): a same-stage comparison with the three strongest satellite-era events from monthly NOAA indices. "
                     "Not yet included: daily MJO and wind-burst analysis beyond the counts, TAO data, literature on 2026, impacts. Updated at each CPC monthly discussion."),
     "toc": toc, "sections": S,
+    "head_scripts": ['<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js" integrity="sha384-CjloA8y00+1SDAUkjs099PVfnY2KmDC2BZnws9kh8D/lX1s46w6EPhpXdqMfjK6i" crossorigin="anonymous" defer></script>', '<script src="assets/ww-lines.js" defer></script>'],
     "references": [{"key": k, "text": t, "doi": doi, "url": u, "check": c} for k, t, doi, u, c in refs],
 }
 (ROOT / 'papers/4-enso-2026.json').write_text(json.dumps(paper, ensure_ascii=False, indent=1), encoding='utf-8')

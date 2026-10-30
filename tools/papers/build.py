@@ -141,12 +141,13 @@ def build(p: dict, siblings: list[dict]) -> str:
         parts.append('<p class="note">Every DOI was checked against the Crossref registry; summaries rely on the published abstract unless noted. Full texts behind publisher paywalls were not read and are marked.</p>')
     sib = "".join(f'<a class="card" href="{s["file"]}"{" aria-current=\"page\"" if s["file"] == p["file"] else ""}><b>{esc(s["short"])}</b><br><span class="note">{STATUS_TAG[s["status"]][1]}</span></a>' for s in siblings)
     parts.append(f'<h2>The four papers</h2><div class="papers">{sib}</div>')
+    extra = "".join(p.get("head_scripts", []))
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(p["short"])} · Global Weather Watch</title>
 <meta name="description" content="{esc(p["description"])}">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%232b6cb0'/%3E%3C/svg%3E">
-<style>{STYLE}</style>
+<style>{STYLE}</style>{extra}
 </head><body>
 {NAV}
 <main>

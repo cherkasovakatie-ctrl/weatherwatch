@@ -86,7 +86,7 @@
   {
    "id": "comparison",
    "title": "2. The four events at the same stage",
-   "html": "<figure><img src=\"papers/img/enso2026_analogs.png\" alt=\"Four panels comparing 1982–83, 1997–98, 2015–16 and 2026: RONI, Niño 1+2, upper-300 m heat content and warm water volume, aligned on the onset year\" style=\"max-width:100%;height:auto\"><figcaption class=\"note\">Figure 1. The four events aligned on the onset year, December of year −1 to December of year +1. 2026 data end in September (RONI: July–September). Sources: NOAA CPC, NOAA PMEL.</figcaption></figure>",
+   "html": "<figure data-ww-chart=\"analogs\"><img src=\"papers/img/enso2026_analogs.png\" alt=\"Four panels comparing 1982–83, 1997–98, 2015–16 and 2026: RONI, Niño 1+2, upper-300 m heat content and warm water volume, aligned on the onset year\" style=\"max-width:100%;height:auto\"><figcaption class=\"note\">Figure 1. The four events aligned on the onset year, December of year −1 to December of year +1. 2026 data end in September (RONI: July–September). Sources: NOAA CPC, NOAA PMEL.</figcaption></figure>",
    "table": {
     "cols": [
      "Indicator",
@@ -483,6 +483,10 @@
    "title": "11. Next steps for the full paper",
    "html": "<ul><li>Extend the ERA5 bursts beyond 18 October and test them against MJO phase using the NOAA daily OLR record (v02r00), cached for 1979–2026.</li><li>Then the daily MJO diagnostics for 2025–26 and TAO winds, as for Papers 2 and 3.</li><li>Test the recharge path: equatorial versus off-equatorial heat, and the role of the 2025–26 La Niña.</li><li>The negative PDO and the North Pacific marine heatwaves: amplifier, suppressor or coincidence.</li><li>Literature on 2026 as it appears; update at each CPC monthly discussion (next: November 2026).</li></ul>"
   }
+ ],
+ "head_scripts": [
+  "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js\" integrity=\"sha384-CjloA8y00+1SDAUkjs099PVfnY2KmDC2BZnws9kh8D/lX1s46w6EPhpXdqMfjK6i\" crossorigin=\"anonymous\" defer></script>",
+  "<script src=\"assets/ww-lines.js\" defer></script>"
  ],
  "references": [
   {
