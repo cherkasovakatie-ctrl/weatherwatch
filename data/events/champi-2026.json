@@ -6,7 +6,7 @@
  "start": "2026-10-14",
  "end": "",
  "status": "unfolding",
- "as_of": "24 Oct 2026 (Taiwan emergency centre, 24 Oct; Al Jazeera, 23 Oct; AccuWeather update 22 Oct 16:45 UTC; Khaleej Times/Taiwan CWA 21 Oct)",
+ "as_of": "24 Oct 2026 (Taiwan Central Emergency Operation Center, 24 Oct; Al Jazeera, 23 Oct; AccuWeather update 22 Oct 16:45 UTC; Khaleej Times/Taiwan CWA 21 Oct)",
  "headline": "Champi passed within 12 miles of Guam's southern tip on 18 October with its core of extreme winds mostly offshore, then became a super typhoon over the Philippine Sea and reached 159 kt (183 mph, 1-minute) on 20 October in JTWC's provisional best track, the highest winds of 2026 worldwide so far and 5 kt above Sinlaku's 154 kt (177 mph) in April; press reports quoted 185 mph on 21 October. Taiwan's weather agency had expected it to turn north off Taiwan's east coast rather than make landfall; by 23 October it had passed off the northeast coast with extremely heavy rain (650 mm in Yilan since Thursday). As reported on 24 October, one person died, 616 were injured and 4,960 were evacuated in Taiwan; the counts were still changing. Rain was then forecast for eastern China, the Ryukyus, South Korea and southern Japan before the storm dissipates over Japan around 26 October.",
  "numbers": [
   [
@@ -31,7 +31,7 @@
   ],
   [
    "Deaths and injuries",
-   "Taiwan: one person killed and 616 injured, as reported by Taiwan's emergency centre on Saturday 24 Oct (about 500 injured in Reuters and AFP, 163 early on Friday); 4,960 evacuated; the counts were still changing. Guam: no deaths reported as of 22 Oct. Japan: two injured (Al Jazeera, 23 Oct)."
+   "Taiwan: one person killed and 616 injured, as reported by Taiwan's Central Emergency Operation Center at 5 p.m. on Saturday 24 Oct (about 500 injured in Reuters and AFP, 163 early on Friday); 4,960 evacuated; the counts were still changing. Guam: no deaths reported as of 22 Oct. Japan: two injured (Al Jazeera, 23 Oct)."
   ]
  ],
  "timeline": [
@@ -98,7 +98,7 @@
   "How it should end": "Not before 21–23 October: it is forecast to stay a very strong typhoon over the Philippine Sea. Its end depends on recurvature and colder water to the north.",
   "Climate signal": "No study. El Niño shifts typhoon tracks east and lengthens their lives; this is a well-documented ENSO effect, not attribution.",
   "Still open": "Closest approach, peak winds on Guam, damage, and the track after the Philippine Sea.",
-  "What happened so far": "Guam: closest approach within 12 miles of the southern tip on 18 October; damage to homes and trees, power and water outages; FEMA's daily briefing of 18 October listed 6 shelters open with 954 occupants on Guam, and 98 wells (72 on generator power); southern areas not yet assessed as of 22 October. No deaths reported on Guam. Taiwan: the storm passed off the northeast coast; as reported on 24 October by Taiwan's emergency centre, one person died, 616 were injured and 4,960 were evacuated (about 500 injured in Reuters and AFP, 163 early on Friday; the counts were still changing), and Yilan received 650 mm of rain from Thursday. Japan: two injured (Al Jazeera, 23 October). Ryukyus, eastern China and Korea: forecast impacts as listed in the timeline; to be scored after the storm."
+  "What happened so far": "Guam: closest approach within 12 miles of the southern tip on 18 October; damage to homes and trees, power and water outages; FEMA's daily briefing of 18 October listed 6 shelters open with 954 occupants on Guam, and 98 wells (72 on generator power); southern areas not yet assessed as of 22 October. No deaths reported on Guam. Taiwan: the storm passed off the northeast coast; as reported on 24 October by Taiwan's Central Emergency Operation Center (5 p.m.), one person died, 616 were injured and 4,960 were evacuated (about 500 injured in Reuters and AFP, 163 early on Friday; the counts were still changing), and Yilan received 650 mm of rain from Thursday. Japan: two injured (Al Jazeera, 23 October). Ryukyus, eastern China and Korea: forecast impacts as listed in the timeline; to be scored after the storm."
  },
  "movie": {
   "sst_grid": {
