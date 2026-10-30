@@ -3,11 +3,15 @@
 Each JSON file is one card written by the data team (title, summary, sections, claims with verdicts, known /
 forecast / unknown, how_to_check, outcome, references, data, caveats). This script only lays the content out;
 it never rewrites it. Output: claim-<slug>.html per card and claims.html (the index).
-Usage: python3 tools/cards/build.py
+Publication state is NOT taken from the card JSON (that file belongs to the data team and is replaced when they revise
+a card). It lives in cards/publish.json: {"order": [...], "state": {"<slug>": "live" | "draft"}}. A card missing
+from "state" is a draft. Draft cards are built only with --drafts, are never listed on claims.html and carry noindex.
+Usage: python3 tools/cards/build.py [--drafts]
 """
 
 from __future__ import annotations
 
+import argparse
 import html
 import json
 import re
@@ -15,7 +19,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 SRC = ROOT / "cards"
-ORDER = ["polar-vortex", "amoc"]  # index order; any other card follows alphabetically
+PUBLISH = json.loads((SRC / "publish.json").read_text(encoding="utf-8"))
+ORDER = PUBLISH["order"]  # index order; any other card follows alphabetically
+STATE = PUBLISH["state"]
 
 STYLE = """
 :root { color-scheme: light dark;
@@ -233,11 +239,12 @@ def data_html(card: dict) -> str:
             f"<thead><tr>{head}</tr></thead><tbody>{body}</tbody></table></div>")
 
 
-def page(title: str, desc: str, body: str, foot_date: str, current: str = "") -> str:
+def page(title: str, desc: str, body: str, foot_date: str, noindex: bool = False) -> str:
+    robots = '\n<meta name="robots" content="noindex">' if noindex else ""
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)} · Global Weather Watch</title>
-<meta name="description" content="{esc(desc)}">
+<meta name="description" content="{esc(desc)}">{robots}
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%232b6cb0'/%3E%3C/svg%3E">
 <style>{STYLE}</style>
 </head><body>
@@ -250,9 +257,14 @@ def page(title: str, desc: str, body: str, foot_date: str, current: str = "") ->
 """
 
 
+def state_of(slug: str) -> str:
+    return STATE.get(slug, "draft")
+
+
 def build_card(slug: str, c: dict) -> str:
+    st = state_of(slug)
     parts = [f'<p class="kicker">{esc(c["kicker"])}</p><h1>{esc(c["title"])}</h1>',
-             f'<p class="meta"><span class="tag {"ok" if c["status"] == "live" else "info"}">{esc(c["status"].capitalize())}</span> Updated: {esc(c["updated"])} · '
+             f'<p class="meta"><span class="tag {"ok" if st == "live" else "warn"}">{esc(st.capitalize())}</span> Updated: {esc(c["updated"])} · '
              f'<a href="claims.html">All claim-vs-evidence cards</a></p>',
              f'<div class="card summary"><b>Summary</b><p>{refs_linked(c["summary"])}</p></div>',
              trio(c)]
@@ -266,12 +278,12 @@ def build_card(slug: str, c: dict) -> str:
     parts.append(data_html(c))
     parts.append('<h2 id="caveats">Caveats</h2><ul class="cav">' + "".join(f"<li>{esc(x)}</li>" for x in c["caveats"]) + "</ul>")
     parts.append('<h2 id="references">References</h2><ol class="refs">' + "".join(f"<li>{ref_line(x)}</li>" for x in c["references"]) + "</ol>")
-    return page(c["title"], c["summary"][:200], "\n".join(p for p in parts if p), c["updated"])
+    return page(c["title"], c["summary"][:200], "\n".join(p for p in parts if p), c["updated"], noindex=st != "live")
 
 
 def build_index(cards: list[tuple[str, dict]]) -> str:
     items = "".join(
-        f'<a class="card" href="claim-{esc(s)}.html"><span class="tag {"ok" if c["status"] == "live" else "info"}">{esc(c["status"].capitalize())}</span>'
+        f'<a class="card" href="claim-{esc(s)}.html"><span class="tag ok">Live</span>'
         f'<span class="note">Updated {esc(c["updated"])}</span><h2>{esc(c["title"])}</h2><p class="note">{esc(c["summary"])}</p></a>'
         for s, c in cards)
     body = ('<p class="kicker">Claim vs evidence</p><h1>Claims vs evidence</h1>'
@@ -284,13 +296,20 @@ def build_index(cards: list[tuple[str, dict]]) -> str:
 
 
 def main() -> int:
-    found = {f.stem: json.loads(f.read_text(encoding="utf-8")) for f in SRC.glob("*.json")}
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--drafts", action="store_true", help="also build draft cards (never listed on the index, noindex)")
+    args = ap.parse_args()
+    found = {f.stem: json.loads(f.read_text(encoding="utf-8")) for f in SRC.glob("*.json") if f.stem != "publish"}
     cards = [(s, found[s]) for s in ORDER if s in found] + [(s, found[s]) for s in sorted(found) if s not in ORDER]
+    live = [(s, c) for s, c in cards if state_of(s) == "live"]
     for slug, c in cards:
+        if state_of(slug) != "live" and not args.drafts:
+            print("skipped draft", slug)
+            continue
         (ROOT / f"claim-{slug}.html").write_text(build_card(slug, c), encoding="utf-8")
-        print("wrote", f"claim-{slug}.html")
-    (ROOT / "claims.html").write_text(build_index(cards), encoding="utf-8")
-    print("wrote claims.html")
+        print("wrote", f"claim-{slug}.html", f"({state_of(slug)})")
+    (ROOT / "claims.html").write_text(build_index(live), encoding="utf-8")
+    print("wrote claims.html with", len(live), "live card(s)")
     return 0
 
 
