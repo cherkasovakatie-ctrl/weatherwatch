@@ -15,6 +15,29 @@ test('num drops trailing zeros; fixed keeps them; blanks stay blank', () => {
   assert.equal(T.fixed(undefined), '');
 });
 
+test('dataThrough: newest date at the start of the first column, null unless every row has one', () => {
+  assert.equal(T.dataThrough([['2026-10-27', 1], ['2026-10-29', 2], ['2026-10-28', 3]]), '2026-10-29');
+  assert.equal(T.dataThrough([['2026-08', 1], ['2026-09', 2]]), '2026-09'); // monthly data keeps monthly precision
+  assert.equal(T.dataThrough([['2026-10-29T14:35:00-07:00', 1], ['2026-10-28T09:00:00-07:00', 2]]), '2026-10-29'); // date-time -> date
+  assert.equal(T.dataThrough([['2026-10-29', 1], ['Burbank', 2]]), null); // a label row: no made-up date
+  assert.equal(T.dataThrough([['2026', 1]]), null); // year only
+  assert.equal(T.dataThrough([[null, 1]]), null);
+  assert.equal(T.dataThrough([]), null);
+});
+
+test('stampDataset: updated is the run day, data_through is how far the data reaches (a stale source shows)', () => {
+  const ds = { id: 'mjo_daily', updated: '2026-10-23', data_through: '2026-10-19' };
+  T.stampDataset(ds, [['2026-10-19', 0.1]], '2026-10-29'); // job ran, source added nothing
+  assert.equal(ds.updated, '2026-10-29');
+  assert.equal(ds.data_through, '2026-10-19');
+  T.stampDataset(ds, [['2026-10-19', 0.1], ['2026-10-26', 0.2]], '2026-10-30'); // source caught up
+  assert.equal(ds.data_through, '2026-10-26');
+  const undated = { id: 'x', updated: 'a', data_through: '2026-01-01' };
+  T.stampDataset(undated, [['label', 1]], '2026-10-30'); // no dates: the old value is removed, not kept
+  assert.equal('data_through' in undated, false);
+  assert.equal(undated.updated, '2026-10-30');
+});
+
 test('toCsv quotes commas and quotes', () => {
   assert.equal(T.toCsv(['a', 'b'], [['x, y', 'say "hi"']]), 'a,b\n"x, y","say ""hi"""\n');
 });

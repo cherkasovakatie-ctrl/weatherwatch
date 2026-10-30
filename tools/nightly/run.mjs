@@ -332,13 +332,14 @@ async function main() {
       if (problem) throw new Error(problem);
       const csv = T.toCsv(out.header, out.rows);
       await writeFile(file, csv);
-      ds.updated = today;
+      T.stampDataset(ds, out.rows, today);
       ds.bytes = Buffer.byteLength(csv);
       results.push({ id, ok: true, rows: out.rows.length, newest: out.rows.map((r) => String(r[0])).sort().at(-1), ...(out.note ? { note: out.note } : {}), ...(out.warning ? { warning: out.warning } : {}) });
     } catch (e) {
       results.push({ id, ok: false, error: redact(e.message) });
     }
   }
+  if (results.some((r) => r.ok)) manifest.refreshed_iso = today; // day of the last nightly run that wrote data; top-level `updated` stays the manual snapshot date
   await writeFile(mPath, JSON.stringify(manifest, null, 1) + '\n');
   const status = { run_utc: now.toISOString(), run_local: T.localStamp(now), results };
   await writeFile(path.join(DATA, 'nightly_status.json'), JSON.stringify(status, null, 1) + '\n');

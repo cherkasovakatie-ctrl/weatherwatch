@@ -42,6 +42,30 @@ export function toCsv(header, rows) {
   return [header, ...rows].map((r) => r.map(q).join(',')).join('\n') + '\n';
 }
 
+// ---------- manifest stamps ----------
+// Newest date a table covers: the largest YYYY-MM or YYYY-MM-DD at the start of the first column, as written
+// in the data (an ISO date-time is cut to its date). Null unless EVERY row starts with such a date, so a label or
+// year-only column never produces a made-up date. Forecast and prediction tables can reach into the future.
+export function dataThrough(rows) {
+  let best = null;
+  for (const r of rows) {
+    const m = /^(\d{4}-\d{2}(?:-\d{2})?)/.exec(String(r[0] ?? ''));
+    if (!m) return null;
+    if (best === null || m[1] > best) best = m[1];
+  }
+  return best;
+}
+
+// `updated` keeps its meaning (the day the job last ran successfully); `data_through` says how far the data reaches,
+// so a stale source is visible even though `updated` moved. A table without dates drops any old `data_through`.
+export function stampDataset(ds, rows, today) {
+  ds.updated = today;
+  const dt = dataThrough(rows);
+  if (dt === null) delete ds.data_through;
+  else ds.data_through = dt;
+  return ds;
+}
+
 // ---------- USGS earthquakes (4.5_month.geojson) ----------
 export function earthquakes(geo) {
   const rows = geo.features
