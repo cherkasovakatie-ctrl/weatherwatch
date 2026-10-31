@@ -51,6 +51,7 @@ main checkout to it with uncommitted work. Then on `main`:
 ```bash
 python3 tools/weekly/process.py <path to raw/<date>>   # mjo_daily, wwv, poles_daily, ar_watch, ridge_watch,
                                                       # coast_hourly, polar_stations, cdec_reservoirs, polar_motion
+# (mjo_daily and cdec_reservoirs are also refreshed by the nightly job since TASK-013; the recipe is the same, so run these two here only if the nightly run failed)
 ```
 
 Each builder prints an overlap check against the old file and refuses to write an older file. Cyclones, tracks, ACE
