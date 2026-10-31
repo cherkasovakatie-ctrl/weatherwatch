@@ -7,7 +7,7 @@
  "status": "draft",
  "research_date": "24 October 2026",
  "lit_cutoff": "open; only background studies cited so far",
- "obs_cutoff": "monthly indices to Sep 2026; RONI to JAS 2026; weekly OISST to the week of 2026-10-14; CPC outlook of 2026-10-08",
+ "obs_cutoff": "monthly indices to Sep 2026; RONI to JAS 2026; weekly OISST to the week of 2026-10-21; CPC outlook of 2026-10-08",
  "status_note": "Preliminary analysis (24 Oct 2026): a same-stage comparison with the three strongest satellite-era events from monthly NOAA indices. Not yet included: daily MJO and wind-burst analysis beyond the counts, TAO data, literature on 2026, impacts. Updated at each CPC monthly discussion.",
  "toc": [
   [
@@ -81,7 +81,7 @@
   {
    "id": "data",
    "title": "1. Data and approach",
-   "html": "<p>All values are from NOAA CPC index files and NOAA PMEL warm water volume as copied in the site's data archive (see the references), monthly to September 2026, RONI to July–September 2026 and weekly OISST to the week centred 2026-10-14. Events are aligned on the onset year (year 0 = 1982, 1997, 2015, 2026). RONI is the primary index (relative ERSSTv6 Niño 3.4, 1991–2020; <a href=\"#ref-lheureux2024\">[1]</a>). Niño-region values are OISST v2.1 (1991–2020 base). Ranks compare the same calendar month or season across all years with data (RONI and ONI from 1950; OISST, heat content and OLR from 1979–82; WWV from 1980). The script <code>tools/papers/compare_2026.py</code> writes the aligned series (<code>data/papers/2026/analog_monthly.csv</code>); this text is generated from it.</p><p><b>What this is not.</b> It does not yet include daily reanalysis diagnostics of the MJO, TAO mooring data, the literature on 2026, or impacts. Those are the next stages, as in Papers 1–3.</p>"
+   "html": "<p>All values are from NOAA CPC index files and NOAA PMEL warm water volume as copied in the site's data archive (see the references), monthly to September 2026, RONI to July–September 2026 and weekly OISST to the week centred 2026-10-21. Events are aligned on the onset year (year 0 = 1982, 1997, 2015, 2026). RONI is the primary index (relative ERSSTv6 Niño 3.4, 1991–2020; <a href=\"#ref-lheureux2024\">[1]</a>). Niño-region values are OISST v2.1 (1991–2020 base). Ranks compare the same calendar month or season across all years with data (RONI and ONI from 1950; OISST, heat content and OLR from 1979–82; WWV from 1980). The script <code>tools/papers/compare_2026.py</code> writes the aligned series (<code>data/papers/2026/analog_monthly.csv</code>); this text is generated from it.</p><p><b>What this is not.</b> It does not yet include daily reanalysis diagnostics of the MJO, TAO mooring data, the literature on 2026, or impacts. Those are the next stages, as in Papers 1–3.</p>"
   },
   {
    "id": "comparison",
@@ -227,7 +227,7 @@
   {
    "id": "flavour",
    "title": "4. An east-based event",
-   "html": "<p>Warming in 2026 has been concentrated at the eastern end of the basin from the start: Niño 1+2 was +0.92 °C in February, when the other three were still negative, and +2.83 °C by June. By September it was +4.69 °C, ahead of 1997 (+3.63) and well ahead of 1982 and 2015. Niño 4, in contrast, has stayed near +1 °C, and in relative terms near zero (weekly relative Niño 4 −0.1 °C in the week of 2026-10-14). This is the eastern-Pacific (E-type) end of ENSO diversity <a href=\"#ref-takahashi2011\">[4]</a> <a href=\"#ref-capotondi2015\">[5]</a>, as in 1982–83 and 1997–98; 2015–16 was centred further west. Mid-October weekly values underline the gap: relative Niño 1+2 +4.4 °C and relative Niño 3.4 +2.4 °C (week of 2026-10-14), against +3.4 and +2.1 °C in mid-October 1997 and +1.6 and +1.8 °C in mid-October 2015.</p><p>East-based events bring the largest coastal impacts in Peru and Ecuador and, through coastally trapped waves, along the Americas; the site's event logs for the Peruvian coast and the California coast record those in 2026.</p>"
+   "html": "<p>Warming in 2026 has been concentrated at the eastern end of the basin from the start: Niño 1+2 was +0.92 °C in February, when the other three were still negative, and +2.83 °C by June. By September it was +4.69 °C, ahead of 1997 (+3.63) and well ahead of 1982 and 2015. Niño 4, in contrast, has stayed near +1 °C, and in relative terms near zero (weekly relative Niño 4 +0.0 °C in the week of 2026-10-21). This is the eastern-Pacific (E-type) end of ENSO diversity <a href=\"#ref-takahashi2011\">[4]</a> <a href=\"#ref-capotondi2015\">[5]</a>, as in 1982–83 and 1997–98; 2015–16 was centred further west. Mid-October weekly values underline the gap: relative Niño 1+2 +4.4 °C and relative Niño 3.4 +2.5 °C (week of 2026-10-21), against +3.4 and +2.1 °C in mid-October 1997 and +1.6 and +1.8 °C in mid-October 2015.</p><p>East-based events bring the largest coastal impacts in Peru and Ecuador and, through coastally trapped waves, along the Americas; the site's event logs for the Peruvian coast and the California coast record those in 2026.</p>"
   },
   {
    "id": "atmos",
