@@ -26,7 +26,8 @@
   {
    "heading": "What other work says",
    "paragraphs": [
-    "The IPCC's sixth assessment has medium confidence that there will not be an abrupt collapse before 2100, and says weakening is very likely [a4]. A 2024 model study simulated a tipping event and argued the present AMOC is on a tipping course; its methods are debated [a5]. A 2025 Nature study reports weakening of 20-81 percent over 90 years in simulations but no complete collapse [a6]. A 2026 study constrained by observations reports a likely decline of 42-58 percent by 2100 (news report; other experts caution) [a7]. A 2026 preprint is not peer reviewed [a8]."
+    "The IPCC's sixth assessment has medium confidence that there will not be an abrupt collapse before 2100, and says weakening is very likely [a4]. A 2024 model study simulated a tipping event and argued the present AMOC is on a tipping course; its methods are debated [a5]. In 34 climate models forced by an abrupt quadrupling of CO2, the AMOC weakened by 20 to 81 percent (mean 54 percent) 90 years after the forcing but did not collapse; the authors conclude a twenty-first-century collapse (weakening below 6 Sv) is unlikely [a6].",
+    "A 2026 study (Portmann et al.) uses observations to constrain climate models and estimates a weakening of 51 +/- 8 percent (their 90 percent interval) by 2091-2100 relative to 1850-1900 under the SSP2-4.5 scenario, against 32 +/- 37 percent unconstrained. That is a weakening, not a collapse, and the authors caution that the interval rests on strong assumptions [a7]. A 2026 preprint on committed collapse is not peer reviewed and was not read [a8]."
    ]
   },
   {
@@ -53,25 +54,25 @@
    "id": "a2",
    "claim": "95 percent chance the AMOC collapses before 2100",
    "said_by": "a video explainer; repeated in media",
-   "source_says": "Ditlevsen and Ditlevsen 2023, current text: 'collapse of the AMOC to occur around mid-century under the current scenario of future emissions'; tipping year 2065 (maximum likelihood), 95% confidence interval 2037-2109; moment-based fit 2057; assumptions: equilibrium before 1924, linear ramp, quasi-stationarity, SST subpolar gyre minus 2x global mean as proxy; names no emissions scenario",
-   "verdict": "unsupported as stated (interval, not probability)",
+   "source_says": "Abstract: 'We estimate a collapse of the AMOC to occur around mid-century under the current scenario of future emissions'; the transition is 'most likely to occur around 2037-2109 (95% confidence interval)'. Maximum-likelihood method (Strang splitting): tipping year 2065, 95% interval 2037-2109. A second, moment-based method gives 2057. Table 1 (sea-surface-temperature proxy minus 1x, 2x or 3x the global mean): 2123 (2075-2288), 2065 (2037-2109), 2068 (2037-2101). The paper assumes its model is approximately correct, says 'we cannot rule out that other mechanisms are at play', does not exclude a partial collapse, and uses a sea-surface-temperature proxy. The 95 percent is the confidence interval of the estimated tipping year, not a 95 percent probability of collapse.",
+   "verdict": "unsupported as stated (an interval for a year, not a probability)",
    "source_title": "Warning of a forthcoming collapse of the AMOC, Nature Communications 14, 4254",
    "url": "https://doi.org/10.1038/s41467-023-39810-w",
    "source_date": "2023 (text version after 2025 correction)",
    "retrieved": "2026-10-30",
-   "read": "full text opened (PMC10368695): abstract, results, discussion, methods; figures and supplement not read; the publisher DOI link resolves (HTTP 200, title confirmed, 2026-10-30)"
+   "read": "full text opened (PMC10368695) and the corrected-publication PDF read by the PM (user-supplied); figures and supplement not read"
   },
   {
    "id": "a3",
-   "claim": "The 2023 collapse estimate was corrected",
-   "said_by": "authors",
-   "source_says": "Author Correction (Nat Commun 16:7794, 2025-08-21): a code error in the maximum-likelihood estimator shifts the tipping-time estimate by 8 years; Figs. 5-7, Table 1 and text estimates updated; a second error affects only model control; old and new numbers are not listed in the notice",
-   "verdict": "confirmed",
+   "claim": "The 2023 collapse estimate was corrected; 2057 and 2025-2095 are the earlier figures",
+   "said_by": "authors; earlier press coverage",
+   "source_says": "Author Correction (Nat Commun 16:7794, 2025-08-21): a coding error in the last step of the Strang-splitting estimator moved the maximum-likelihood estimate by 8 years; Figs. 5-7, Table 1 and the estimates in the text were updated. 2057 now belongs to the moment-based method; 2057 and 2025-2095 are the values in the 2023 press coverage (press release not opened). The notice lists no old or new values.",
+   "verdict": "confirmed (notice read; 'earlier press values' from the user's note)",
    "source_title": "Author Correction: Warning of a forthcoming collapse of the AMOC",
    "url": "https://doi.org/10.1038/s41467-025-63201-y",
    "source_date": "2025-08-21",
    "retrieved": "2026-10-30",
-   "read": "correction notice opened in full (PMC12370995, read in TASK-042); the publisher DOI link resolves (HTTP 200, title 'Author Correction: ...', 2026-10-30); the uncorrected PDF was not opened"
+   "read": "correction notice opened in full (PMC12370995); the PM saw the 8-year statement on the Nature correction page; the uncorrected PDF and the 2023 press release were not opened"
   },
   {
    "id": "a4",
@@ -99,39 +100,39 @@
   },
   {
    "id": "a6",
-   "claim": "A complete collapse this century is unlikely",
-   "said_by": "Baker et al., Nature 2025 (reported)",
-   "source_says": "Southern Ocean effects stabilize; models show 20-81% weakening over 90 years, none predicts complete collapse",
-   "verdict": "unable to verify (paper not opened)",
-   "source_title": "Nature 2025 (via news summary)",
-   "url": "https://www.irishtimes.com/world/2026/04/16/scientists-sound-alarm-as-atlantic-current-system-much-more-likely-to-collapse-than-thought/",
-   "source_date": "2025 / 2026-04",
+   "claim": "A complete AMOC collapse this century is unlikely",
+   "said_by": "Baker et al., Nature 638, 987-994, published 26 Feb 2025 (corrected publication 2025)",
+   "source_says": "In 34 CMIP6 models forced by an abrupt quadrupling of CO2 held for 150 years, the AMOC weakened by 20 to 81 percent (mean 54 percent) 90 years after the forcing and 'does not collapse in the model experiments considered here'. In the seven models that also ran a 0.3 Sv freshwater experiment, the weakening was 50 to 80 percent in both experiments (means 56 and 61 percent). Southern Ocean wind-driven upwelling sustains the weakened AMOC; a Pacific overturning circulation emerges in almost all models but is too weak to balance it. Conclusion: 'a twenty-first century AMOC collapse (defined here as weakening to below 6 Sv) is unlikely'. The '90 years' are model years after the forcing in an idealised experiment, not calendar years.",
+   "verdict": "confirmed (full text read by the PM)",
+   "source_title": "Continued Atlantic overturning circulation even under climate extremes (Baker, Bell, Jackson, Vallis, Watson, Wood)",
+   "url": "https://doi.org/10.1038/s41586-024-08544-0",
+   "source_date": "2025-02-26",
    "retrieved": "2026-10-30",
-   "read": "news summary only; Baker et al. not opened"
+   "read": "full text read by the PM from the user-supplied PDF (21 pages); DS did not open the article"
   },
   {
    "id": "a7",
-   "claim": "The AMOC is much more likely to collapse than thought",
-   "said_by": "Portmann et al., Science Advances 2026 (reported)",
-   "source_says": "observationally constrained decline 42-58% by 2100; another expert: 'One paper does not settle a scientific debate'",
-   "verdict": "unable to verify (paper not opened)",
-   "source_title": "Irish Times report on Portmann et al.",
-   "url": "https://www.irishtimes.com/world/2026/04/16/scientists-sound-alarm-as-atlantic-current-system-much-more-likely-to-collapse-than-thought/",
-   "source_date": "2026-04-16",
+   "claim": "Observational constraints project about 50 percent AMOC weakening by the end of the century",
+   "said_by": "Portmann et al., Science Advances 12, eadx4298, 15 April 2026",
+   "source_says": "Abstract: climate models suggest 32 +/- 37 percent weakening by 2100 (90 percent probability, SSP2-4.5, CMIP6); the best observational constraint (ridge-regularized regression on 19 observed variables) gives 51 +/- 8 percent, about 60 percent stronger than the multimodel mean. Table 1 (SSP2-4.5, 32 models): constrained 2091-2100 AMOC 8.1 +/- 1.4 Sv against a constrained 1850-1900 reference of 16.4 +/- 1.7 Sv; weakening 50.7 +/- 8.3 percent (unconstrained 32.0 +/- 36.7). Constrained, other scenarios: SSP1-2.6 19.5 +/- 25.4, SSP3-7.0 48.4 +/- 5.0, SSP5-8.5 57.7 +/- 5.4 percent. 'Weakening' is the 2091-2100 mean relative to 1850-1900. The authors say the 90 percent interval 'does not rigorously represent a probability interval' and 'should be treated with caution' (models treated as independent and equally plausible, observation error neglected). RAPID 2005-2023 mean: 16.9 Sv. An estimate of weakening, not a probability or a date of collapse.",
+   "verdict": "confirmed (PDF read by the PM)",
+   "source_title": "Observational constraints project a ~50% AMOC weakening by the end of this century",
+   "url": "https://www.science.org/doi/10.1126/sciadv.adx4298",
+   "source_date": "2026-04-15",
    "retrieved": "2026-10-30",
-   "read": "news summary only"
+   "read": "16-page PDF read by the PM (user-supplied); DS did not open the article"
   },
   {
    "id": "a8",
    "claim": "We may already be committed to collapse",
-   "said_by": "Holden et al., preprint (reported)",
-   "source_says": "large ensembles suggest a significant probability of committed collapse; not peer reviewed",
-   "verdict": "unable to verify (preprint, news only)",
+   "said_by": "Holden et al., preprint (reported in the news)",
+   "source_says": "Reported: large ensembles suggest a significant probability of committed collapse; not peer reviewed. Not read: no preprint text or link was available.",
+   "verdict": "unable to verify (needs the preprint text)",
    "source_title": "news summaries (New Scientist via search)",
    "url": "Not verified",
    "source_date": "2026",
    "retrieved": "2026-10-30",
-   "read": "news summary only"
+   "read": "news summaries only; the preprint text is needed to read the probability, the model and the scenario"
   },
   {
    "id": "a9",
@@ -159,16 +160,16 @@
   }
  ],
  "known": [
-  "Observed: RAPID 26 N array, 2004-2024, shows a decline since about 2010-11 and strong variability (rapid.ac.uk).",
+  "Observed: RAPID 26 N array, 2004-2024, shows a decline since about 2010-11 and strong variability (rapid.ac.uk); the 2005-2023 mean transport is 16.9 Sv (as stated in Portmann et al. 2026).",
   "Observed: North Atlantic sea-surface temperature records since 1870 (used indirectly in the 2023 paper)."
  ],
  "forecast": [
-  "Model-based, not observations: IPCC AR6 (weakening very likely; no abrupt collapse before 2100, medium confidence); 2024-2026 studies disagree on how close a tipping point is."
+  "Model-based, not observations: IPCC AR6 (weakening very likely; no abrupt collapse before 2100, medium confidence) [a4]; Baker et al. 2025 (34 models: weakening 20-81 percent, mean 54 percent, no collapse; collapse unlikely this century) [a6]; Portmann et al. 2026 (51 +/- 8 percent weakening by 2091-2100, SSP2-4.5) [a7]; Ditlevsen and Ditlevsen 2023 (statistical extrapolation: tipping year 2065, 95 percent interval 2037-2109) [a2]. These studies differ in method and in how close they put a tipping point."
  ],
  "unknown": [
   "Whether sea-surface temperature tracks the AMOC well enough to date a collapse.",
-  "How close the real AMOC is to a tipping point (models disagree, and may be biased toward stability).",
-  "The mean RAPID transport in Sverdrups and its trend were not obtained."
+  "How close the real AMOC is to a tipping point (models disagree and may be biased toward stability).",
+  "Whether the 2026 committed-collapse preprint holds up: not read."
  ],
  "how_to_check": {
   "rapid": {
@@ -190,16 +191,18 @@
   "Ditlevsen, P., and Ditlevsen, S. (2023). Warning of a forthcoming collapse of the Atlantic meridional overturning circulation. Nature Communications 14, 4254. DOI 10.1038/s41467-023-39810-w (full text read)",
   "Author Correction (2025). Nature Communications 16, 7794. DOI 10.1038/s41467-025-63201-y (read)",
   "IPCC AR6 WG1 (2021), as quoted by Drijfhout et al. (2025), Environ. Res. Lett., DOI 10.1088/1748-9326/adfa3b (summary only)",
-  "van Westen, R. M., Kliphuis, M., and Dijkstra, H. A. (2024). Science Advances (summary only)",
-  "RAPID-MOCHA 26N array: https://rapid.ac.uk/ ; BODC EDMED report 6178 (opened)"
+  "RAPID-MOCHA 26N array: https://rapid.ac.uk/ ; BODC EDMED report 6178 (opened)",
+  "Baker, J. A., Bell, M. J., Jackson, L. C., Vallis, G. K., Watson, A. J., and Wood, R. A. (2025). Continued Atlantic overturning circulation even under climate extremes. Nature 638, 987-994 (full text read by the PM)",
+  "Portmann, R., et al. (2026). Observational constraints project a ~50% AMOC weakening by the end of this century. Science Advances 12, eadx4298, https://www.science.org/doi/10.1126/sciadv.adx4298 (PDF read by the PM)",
+  "van Westen, R. M., Kliphuis, M., and Dijkstra, H. A. (2024). Science Advances (summary only)"
  ],
  "data": {
-  "label": "No numeric series embedded: RAPID transport values were not obtained",
+  "label": "No numeric series embedded: RAPID transport values were not obtained from the data files (2005-2023 mean 16.9 Sv as stated in Portmann et al.)",
   "rows": []
  },
  "caveats": [
-  "Verified by opening the page: the current text of Ditlevsen and Ditlevsen 2023 (2065, 95 percent interval 2037-2109; re-read by the PM in PMC10368695), the Author Correction notice (8-year shift; the notice lists no old or new values), rapid.ac.uk and the BODC EDMED page. Not opened: the AR6 chapter and the van Westen, Baker, Portmann and Holden papers (search or news summaries only).",
-  "The collapse years are statistical estimates under stated assumptions, not predictions of a date.",
+  "Verified by opening the source: the current text and corrected-publication PDF of Ditlevsen and Ditlevsen 2023, the Author Correction notice, the full text of Baker et al. 2025 and the PDF of Portmann et al. 2026 (the last two read by the PM from user-supplied files), rapid.ac.uk and the BODC EDMED page. Not opened: the AR6 chapter, the van Westen paper and the Holden preprint (summaries only).",
+  "The collapse years are statistical estimates under stated assumptions, not predictions of a date; the Baker '90 years' are model years in an idealised experiment, not calendar years.",
   "This card describes statements, not the people who made them."
  ]
 }
