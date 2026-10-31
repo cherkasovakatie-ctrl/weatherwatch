@@ -27,7 +27,7 @@
    "heading": "What other work says",
    "paragraphs": [
     "The IPCC's sixth assessment has medium confidence that there will not be an abrupt collapse before 2100, and says weakening is very likely [a4]. A 2024 model study simulated a tipping event and argued the present AMOC is on a tipping course; its methods are debated [a5]. In 34 climate models forced by an abrupt quadrupling of CO2, the AMOC weakened by 20 to 81 percent (mean 54 percent) 90 years after the forcing but did not collapse; the authors conclude a twenty-first-century collapse (weakening below 6 Sv) is unlikely [a6].",
-    "A 2026 study (Portmann et al.) uses observations to constrain climate models and estimates a weakening of 51 +/- 8 percent (their 90 percent interval) by 2091-2100 relative to 1850-1900 under the SSP2-4.5 scenario, against 32 +/- 37 percent unconstrained. That is a weakening, not a collapse, and the authors caution that the interval rests on strong assumptions [a7]. A 2026 preprint on committed collapse is not peer reviewed and was not read [a8]."
+    "A 2026 study (Portmann et al.) uses observations to constrain climate models and estimates a weakening of 51 +/- 8 percent (their 90 percent interval) by 2091-2100 relative to 1850-1900 under the SSP2-4.5 scenario, against 32 +/- 37 percent unconstrained. That is a weakening, not a collapse, and the authors caution that the interval rests on strong assumptions [a7]. A June 2026 preprint (Holden et al., not peer reviewed) uses 62 runs of one intermediate-complexity model and asks in how many a collapse is already locked in if emissions peak in 2025 and fall to zero over 35 years: 10 percent (23 percent with higher Greenland melt), and 82 to 100 percent under continued high emissions. These are shares of model runs, not forecasts; the collapse would come on average 84 +/- 38 years later, at the earliest about 2060. The text contradicts itself on its collapse threshold and number of experiments [a8]."
    ]
   },
   {
@@ -124,15 +124,15 @@
   },
   {
    "id": "a8",
-   "claim": "We may already be committed to collapse",
-   "said_by": "Holden et al., preprint (reported in the news)",
-   "source_says": "Reported: large ensembles suggest a significant probability of committed collapse; not peer reviewed. Not read: no preprint text or link was available.",
-   "verdict": "unable to verify (needs the preprint text)",
-   "source_title": "news summaries (New Scientist via search)",
-   "url": "Not verified",
-   "source_date": "2026",
+   "claim": "AMOC collapse may already be locked in under the assumed emission path",
+   "said_by": "Holden, Abrams, Bieger, Lenton, Mercure, Semieniuk and Sharpe, 'Quantifying the probability of committed AMOC collapse', EarthArXiv preprint v1, 27 June 2026, not peer reviewed",
+   "source_says": "One intermediate-complexity model (PLASIM-GENIE), 62 completed parameter sets of 69; runs of 300 years after a 1805-2005 historical run (to about 2305). 'Committed' means collapse happens even if emissions peak in a given year and then fall linearly to zero over 35 years. Collapse is defined as the AMOC falling below 45 percent of its preindustrial strength. For a 2025 peak: 10 percent of runs with baseline Greenland melt, 23 percent with higher Greenland melt, 3 percent with no extra melt; under continued high emissions (RCP8.5) to the end of the century: 82 percent, 100 percent and 61 percent. These are shares of model runs, not a forecast: the collapse itself comes on average 84 +/- 38 years after the commitment (earliest about 2060). The text contradicts itself on the collapse threshold (below 45 percent of preindustrial vs 45 percent below preindustrial) and on the number of experiments (21 or 23), so the numbers need confirmation by the authors or the peer-reviewed version.",
+   "verdict": "confirmed from the full text of an unreviewed preprint; internal inconsistencies noted",
+   "source_title": "Quantifying the probability of committed AMOC collapse",
+   "url": "https://doi.org/10.31223/X5N48Q",
+   "source_date": "2026-06-27",
    "retrieved": "2026-10-30",
-   "read": "news summaries only; the preprint text is needed to read the probability, the model and the scenario"
+   "read": "full text (19 pages) read by the PM from the user-supplied PDF; the DOI is as given in the user's note: neither the PM nor DS opened it"
   },
   {
    "id": "a9",
@@ -164,12 +164,12 @@
   "Observed: North Atlantic sea-surface temperature records since 1870 (used indirectly in the 2023 paper)."
  ],
  "forecast": [
-  "Model-based, not observations: IPCC AR6 (weakening very likely; no abrupt collapse before 2100, medium confidence) [a4]; Baker et al. 2025 (34 models: weakening 20-81 percent, mean 54 percent, no collapse; collapse unlikely this century) [a6]; Portmann et al. 2026 (51 +/- 8 percent weakening by 2091-2100, SSP2-4.5) [a7]; Ditlevsen and Ditlevsen 2023 (statistical extrapolation: tipping year 2065, 95 percent interval 2037-2109) [a2]. These studies differ in method and in how close they put a tipping point."
+  "Model-based, not observations: IPCC AR6 (weakening very likely; no abrupt collapse before 2100, medium confidence) [a4]; Baker et al. 2025 (34 models: weakening 20-81 percent, mean 54 percent, no collapse; collapse unlikely this century) [a6]; Portmann et al. 2026 (51 +/- 8 percent weakening by 2091-2100, SSP2-4.5) [a7]; Ditlevsen and Ditlevsen 2023 (statistical extrapolation: tipping year 2065, 95 percent interval 2037-2109) [a2]. Holden et al. 2026 preprint (shares of model runs in which collapse is locked in: 10 percent or 23 percent for a 2025 emissions peak; 82 to 100 percent under continued high emissions; mean delay 84 +/- 38 years) [a8]. These studies differ in method and in how close they put a tipping point."
  ],
  "unknown": [
   "Whether sea-surface temperature tracks the AMOC well enough to date a collapse.",
   "How close the real AMOC is to a tipping point (models disagree and may be biased toward stability).",
-  "Whether the 2026 committed-collapse preprint holds up: not read."
+  "Whether the committed-collapse numbers hold up: the preprint is not peer reviewed, uses one model, and its text is inconsistent on the collapse threshold and the number of experiments."
  ],
  "how_to_check": {
   "rapid": {
@@ -194,6 +194,7 @@
   "RAPID-MOCHA 26N array: https://rapid.ac.uk/ ; BODC EDMED report 6178 (opened)",
   "Baker, J. A., Bell, M. J., Jackson, L. C., Vallis, G. K., Watson, A. J., and Wood, R. A. (2025). Continued Atlantic overturning circulation even under climate extremes. Nature 638, 987-994 (full text read by the PM)",
   "Portmann, R., et al. (2026). Observational constraints project a ~50% AMOC weakening by the end of this century. Science Advances 12, eadx4298, https://www.science.org/doi/10.1126/sciadv.adx4298 (PDF read by the PM)",
+  "Holden, P. B., Abrams, J. F., Bieger, M., Lenton, T. M., Mercure, J.-F., Semieniuk, G., and Sharpe, S. (2026). Quantifying the probability of committed AMOC collapse. EarthArXiv preprint v1, 27 June 2026, https://doi.org/10.31223/X5N48Q (not peer reviewed; full text read by the PM)",
   "van Westen, R. M., Kliphuis, M., and Dijkstra, H. A. (2024). Science Advances (summary only)"
  ],
  "data": {
@@ -201,8 +202,9 @@
   "rows": []
  },
  "caveats": [
-  "Verified by opening the source: the current text and corrected-publication PDF of Ditlevsen and Ditlevsen 2023, the Author Correction notice, the full text of Baker et al. 2025 and the PDF of Portmann et al. 2026 (the last two read by the PM from user-supplied files), rapid.ac.uk and the BODC EDMED page. Not opened: the AR6 chapter, the van Westen paper and the Holden preprint (summaries only).",
+  "Verified by opening the source: the current text and corrected-publication PDF of Ditlevsen and Ditlevsen 2023, the Author Correction notice, rapid.ac.uk and the BODC EDMED page; read by the PM from user-supplied files: the full text of Baker et al. 2025, the PDF of Portmann et al. 2026 and the full text of the Holden et al. 2026 preprint. Not opened: the AR6 chapter, the van Westen paper and the Holden DOI link.",
   "The collapse years are statistical estimates under stated assumptions, not predictions of a date; the Baker '90 years' are model years in an idealised experiment, not calendar years.",
+  "The Holden preprint is not peer reviewed. Its text defines collapse as the AMOC falling 'below 45% of preindustrial strength' in the Methods but as '45% below preindustrial' in Figure 2 and the text (45 or 55 percent remaining), and counts 21 experiments in the Introduction but 23 in the Methods. 'Committed' means collapse locked in under the assumed emission path, not that a collapse has happened or is certain.",
   "This card describes statements, not the people who made them."
  ]
 }
