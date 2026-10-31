@@ -75,7 +75,7 @@
   {
    "id": "findings",
    "title": "Main findings",
-   "html": "<ol><li><b>Southeastern genesis.</b> Koguma formed at 10.5°N, 168.0°E, in the southeastern quadrant of the basin where strong El Niño events concentrate tropical-storm formation <a href=\"#ref-wang2002\">[5]</a>.</li><li><b>Rapid intensification over warm water.</b> Winds rose from 54 kt to 99 kt in 36 hours and reached 119 kt a day later; the sea ahead of the storm averaged 29.8 °C (+0.9 °C) up to the peak.</li><li><b>An intense, long-lived typhoon.</b> 120 hours at typhoon strength and 66 hours at Category 3-equivalent or above, consistent with the tendency of El Niño years to produce more intense, longer-lived typhoons <a href=\"#ref-camargo2005\">[6]</a>.</li><li><b>A neighbour across the date line.</b> The remnant of Hurricane Nolo came within 731 km of Koguma on 11 Oct 1200 UTC; its role in Koguma's recurvature is plausible but untested.</li><li><b>No land impacts.</b> The closest land was about 650 km away (Iwo To); the hazard was to shipping.</li></ol>"
+   "html": "<ol><li><b>Southeastern genesis.</b> Koguma formed at 10.5°N, 168.0°E, in the southeastern quadrant of the basin where strong El Niño events concentrate tropical-storm formation <a href=\"#ref-wang2002\">[5]</a>.</li><li><b>Rapid intensification over warm water.</b> Winds rose from 54 kt to 99 kt in 36 hours and reached 119 kt a day later; the sea ahead of the storm averaged 29.8 °C (+0.9 °C) up to the peak.</li><li><b>An intense, long-lived typhoon.</b> 120 hours at typhoon strength and 66 hours at Category 3-equivalent or above, consistent with the tendency of El Niño years to produce more intense, longer-lived typhoons <a href=\"#ref-camargo2005\">[6]</a>.</li><li><b>A neighbour across the date line.</b> The remnant of Hurricane Nolo came within 731 km of Koguma on 11 Oct 1200 UTC; its role in Koguma's recurvature is plausible but untested.</li><li><b>No land impacts.</b> The hazard was to shipping. At 09:00 UTC on 11 October the centre was about 650 km east of Iwo To (NWS Guam, via Pogodnik): a position at one time, not the closest approach.</li></ol>"
   },
   {
    "id": "intro",
@@ -142,8 +142,8 @@
       "990 hPa, 75 kt (10-minute), 18.8°N, 156.1°E"
      ],
      [
-      "Closest approach to land",
-      "about 650 km east of Iwo To (11 Oct, NWS Guam)"
+      "Position at 09:00 UTC, 11 Oct",
+      "about 650 km east of Iwo To (NWS Guam, via Pogodnik); not the closest approach to land"
      ]
     ],
     "note": "IBTrACS v04r01, provisional JTWC values; JMA values from its preliminary track table."
