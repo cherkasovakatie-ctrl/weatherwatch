@@ -17,7 +17,7 @@
   ],
   [
    "Deaths",
-   "40+ (France)"
+   "France, excess deaths: at least 1,000 additional deaths in the first three days (Public Health France, as reported on 28 June). France, heat-related deaths estimated by attribution: more than 2,700 (Carbon Brief analysis). France, excess deaths from 17 June to 2 July: 5,764, 36.2 percent above normal (a later report). The three figures use different methods and are not added together."
   ],
   [
    "Confidence",
@@ -30,8 +30,8 @@
  "sections": {
   "The setup": "Near-record-dry soils after record May heat.",
   "The trigger": "Persistent high with southerly flow from North Africa.",
-  "What amplified it": "5–12 °C above normal; 43.3 °C in France.",
-  "Climate signal": "3.5 °C hotter by day than the same pattern in 1976 (WWA).",
+  "What amplified it": "5–12 °C above normal; 43.3 °C at Cazaux (Gironde) on 23 June 2026 (EFE; RFI, 24 June), a station value and not a national figure.",
+  "Climate signal": "A similar June heatwave would have been about 3.5 °C cooler by day in the 1976 climate and about 2 °C cooler in the 2003 climate (WWA, 26 June 2026): an attribution estimate for the hottest three days in the study region, not a comparison of two measured temperatures.",
   "Still open": "Summary entry: the full deep-dive (day-by-day timeline, steering, how it ended, sources) has not been written yet. It will be added as the log works back through the year."
  }
 }

@@ -9,7 +9,7 @@
  "depth": "summary",
  "as_of": "17 Oct 2026",
  "when": "Ongoing",
- "headline": "ENSO Longitude Index 191.5°E, the easternmost on record: an east-based event like 1982–83 and 1997–98.",
+ "headline": "ENSO Longitude Index 191.5°E, easternmost on record by a wide margin (previous record 178.5°E), by Daniel Swain's weekly calculation (Weather West, 12 Oct 2026): an east-based event like 1982–83 and 1997–98.",
  "numbers": [
   [
    "When",
@@ -53,6 +53,10 @@
   {
    "title": "NOAA PSL: Niño 3.4 index from HadISST, 1870–present (data file)",
    "url": "https://psl.noaa.gov/data/timeseries/month/data/nino34.long.anom.data"
+  },
+  {
+   "title": "Weather West (Daniel Swain): El Niño update, 12 Oct 2026",
+   "url": "https://weatherwest.com/archives/44119"
   }
  ],
  "related": [
@@ -61,8 +65,8 @@
  ],
  "sections": {
   "The setup": "Weekly Niño 3.4 +3.3 °C (7 Oct), relative +2.4; Niño 1+2 +5.2; heat content +3.39 °C; official ONI (Jul–Sep) +2.16.",
-  "The trigger": "ENSO Longitude Index 191.5°E, the easternmost on record: an east-based event like 1982–83 and 1997–98.",
-  "What amplified it": "California: >90% odds of a wetter-than-average winter, peak Dec–Mar (Swain). Quoted \"ONI +3.3\" is a weekly value, not the official ONI.",
+  "The trigger": "ENSO Longitude Index 191.5°E, easternmost on record by a wide margin (previous record 178.5°E), by Daniel Swain's weekly calculation (Weather West, 12 Oct 2026): an east-based event like 1982–83 and 1997–98.",
+  "What amplified it": "California: >90% odds of a wetter-than-average winter, peak Dec–Mar (Swain, 12 Oct 2026; his own assessment, not an official forecast). Quoted \"ONI +3.3\" is a weekly value, not the official ONI.",
   "How it is changing Pacific marine life": [
    "NASA's PACE satellite (Ocean Color Instrument) compared monthly average chlorophyll-a, a measure of phytoplankton, in June 2025 (neutral conditions) and June 2026 (El Niño strengthening). The biggest change is in the central equatorial Pacific, north of New Zealand, where chlorophyll was substantially lower in 2026. NASA gives no numerical values.",
    "Why: weaker trade winds suppress upwelling, the rise of cold, nutrient-rich deep water that feeds phytoplankton. Fewer phytoplankton means less food at the base of the food web. NASA Goddard oceanographers Matthew Kehrli and Graham Trolley expect the difference to grow in strength, in area, or both. Satellites also show warmer-than-normal sea-surface temperatures and higher-than-normal sea-surface height.",

@@ -17,7 +17,7 @@
   ],
   [
    "Deaths",
-   "40+ (France, June)"
+   "France, excess deaths: at least 1,000 additional deaths in the first three days (Public Health France, as reported on 28 June). France, heat-related deaths estimated by attribution: more than 2,700 (Carbon Brief analysis). France, excess deaths from 17 June to 2 July: 5,764, 36.2 percent above normal (a later report). The three figures use different methods and are not added together."
   ],
   [
    "Confidence",
@@ -28,10 +28,10 @@
  "sources": [],
  "related": [],
  "sections": {
-  "The setup": "Dry April–June, successive heatwaves; hottest June–July on record.",
+  "The setup": "Dry April–June, successive heatwaves; hottest June on record for western Europe (Copernicus); July the second hottest (22.48 °C, +2.53 °C, just below July 2006; Copernicus) and the hottest July on record for France (+3.8 °C; Météo-France).",
   "The trigger": "Persistent alternating highs and lows (WMO).",
-  "What amplified it": "Dry soils intensified heat; fires in SW France and Spain; western Mediterranean up to 6 °C above normal.",
-  "Climate signal": "~2 °C of Mediterranean warming is human-caused; marine heat virtually impossible pre-industrial (WWA).",
+  "What amplified it": "Dry soils intensified heat; in July 2026 large wildfires burned in southwestern France (Gironde) and in Spain (Avila and Madrid provinces; WWA and Imperial College: central and eastern Spain), NASA Earth Observatory, 31 July 2026; in June 2026 sea surface temperatures in parts of the Mediterranean were up to 6 °C above normal (WWA, citing a European Union source).",
+  "Climate signal": "WWA attributes about 2 °C of the heating of the studied Mediterranean marine heatwaves to human-induced climate change (WWA, 19 August 2026); marine heat virtually impossible pre-industrial (WWA).",
   "Still open": "Summary entry: the full deep-dive (day-by-day timeline, steering, how it ended, sources) has not been written yet. It will be added as the log works back through the year."
  }
 }
