@@ -111,7 +111,7 @@ python3 tools/refresh/finalize.py        # validates files, stamps dates, archiv
 git add -A && git commit -m "Weekly refresh YYYY-MM-DD" && git push origin main
 ```
 
-Then open https://cherkasovakatie-ctrl.github.io/weatherwatch/ (allow a minute for Pages) and
+Then open https://weatherglobalwatch.com/ (allow a minute for Pages) and
 confirm the footer shows the new date.
 
 ## 4. Report
