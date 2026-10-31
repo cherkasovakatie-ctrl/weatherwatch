@@ -7,7 +7,7 @@
   --font-anthropic-sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-anthropic-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
   --color-bg: #f6f5f1; --color-panel: #ffffff; --color-fg: #1d1f22; --color-fg-muted: #5c6370; --color-border-line: #e2e0d8;
-  --color-bad: #c2410c; --color-warn: #b45309; --color-ok: #15803d;
+  --ww-nina: #2563eb; --color-bad: #c2410c; --color-warn: #b45309; --color-ok: #15803d;
   --cds-gap-xs: 4px; --cds-gap-sm: 8px; --cds-gap-md: 14px; --cds-gap-lg: 22px;
   --cds-pad-xs: 6px; --cds-pad-sm: 10px; --cds-pad-md: 14px; --cds-pad-lg: 18px; --cds-radius: 10px;
   --cds-font-size-caption: 0.8rem; --cds-font-size-body: 0.95rem; --cds-font-size-heading: 1.05rem; --cds-font-size-title: 1.9rem; --cds-font-weight-medium: 600;
@@ -15,7 +15,7 @@
   --cds-text-secondary: #5c6370; --cds-surface-popover: #ffffff; --cds-shadow-popover: 0 4px 18px rgba(0,0,0,.14); --cds-dur-slow: .3s; --cds-border: #e2e0d8; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
   --color-bg: #141619; --color-panel: #1c1f23; --color-fg: #eceae4; --color-fg-muted: #a3a9b2; --color-border-line: #2e3238;
-  --color-bad: #fb923c; --color-warn: #fbbf24; --color-ok: #4ade80;
+  --ww-nina: #60a5fa; --color-bad: #fb923c; --color-warn: #fbbf24; --color-ok: #4ade80;
   --cds-chart-grid: #2a2e33; --cds-chart-axis: #8d949d; --cds-chart-muted: #6b737d; --cds-chart-reference: #8d949d;
   --cds-text-secondary: #a3a9b2; --cds-surface-popover: #23272c; --cds-border: #2e3238; } }
 html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); }
@@ -109,6 +109,19 @@ body { font-family: var(--font-anthropic-sans); }
   .ww-hbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--cds-gap-sm); }
   .ww-hnote { margin: 0; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); max-width: 90ch; line-height: 1.45; }
   .ww-legend i.ww-sw-nino { height: 10px; background: var(--color-bad); opacity: .3; }
+  .ww-card.ww-span { grid-column: 1 / -1; }
+  .ww-svg line.ww-edge { stroke-width: 1; opacity: .55; }
+  .ww-legend i.ww-sw-lan { height: 10px; background: var(--ww-nina); opacity: .35; }
+  .ww-range { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: end; }
+  .ww-range label { display: grid; gap: 2px; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .ww-range input { font: inherit; padding: 4px 8px; width: 8.5rem; border: 1px solid var(--color-border-line); border-radius: 6px; background: var(--color-bg); color: var(--color-fg); }
+  .ww-range input[aria-invalid="true"] { border-color: var(--color-bad); }
+  .ww-range button, .ww-view button { font: inherit; font-size: var(--cds-font-size-caption); border: 1px solid var(--color-border-line); background: none; color: var(--color-fg); border-radius: 999px; padding: 4px 12px; cursor: pointer; }
+  .ww-range button[type="submit"], .ww-view button[aria-pressed="true"] { background: var(--color-fg); color: var(--color-bg); border-color: var(--color-fg); }
+  .ww-range button:focus-visible, .ww-view button:focus-visible, .ww-range input:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+  .ww-view { display: flex; flex-wrap: wrap; gap: 6px; }
+  .ww-presets { display: flex; flex-wrap: wrap; gap: 6px; }
+  .ww-rangeerr { color: var(--color-bad); min-height: 1.2em; margin: 0; }
   .ww-legend i.ww-sw-nina { height: 10px; background: var(--cds-chart-muted); opacity: .45; }
   .ww-events-wrap { max-height: 28rem; overflow: auto; }
   .ww-events th { position: sticky; top: 0; background: var(--color-panel); }
@@ -472,29 +485,55 @@ body { font-family: var(--font-anthropic-sans); }
         </div>
         <p class="note">Sources: NOAA IEA California Current Marine Heatwave Tracker; NOAA IEA C-COAST (25 Sep 2026); Surfer (2 Sep 2026, Scripps CDIP buoys); Desert Sun via AOL (6 Jul 2026, murre and sea lion figures from NOAA); NOAA PSL, "Severity and persistence of Northeast Pacific marine heatwaves vary by season" (Jul 2026); Bond et al. 2015, <i>Geophysical Research Letters</i> 42 (causes of the 2014 warm anomaly); NOAA NCEI PDO; The Inertia (3 Oct 2025, citing NOAA, on the 2025 heatwave).</p>
       </article>
-      <article class="ww-card" id="card-weekly-overview">
-        <h2>Weekly Niño 3.4 and Niño 1+2 since 2025</h2>
-        <p class="note">OISST v2.1 weekly anomalies, 1991–2020 base. The dashed lines mark the El Niño thresholds (+0.5; strong +1.5; very strong +2.0) and the highest weekly Niño 3.4 value before 2026.</p>
-        <div class="ww-chart" id="chart-weekly-overview" data-source="sst_weekly headline"></div>
+      <article class="ww-card ww-span" id="card-range">
+        <h2>Period for the three charts below</h2>
+        <p class="note" id="range-phase"></p>
+        <form class="ww-range" id="range-form" novalidate>
+          <label>From <input id="range-from" type="text" inputmode="numeric" placeholder="YYYY-MM" pattern="[0-9]{4}-[0-9]{2}" autocomplete="off" aria-describedby="range-hint range-err"></label>
+          <label>To <input id="range-to" type="text" placeholder="YYYY-MM or now" autocomplete="off" aria-describedby="range-hint range-err"></label>
+          <button type="submit">Apply</button>
+          <span class="ww-presets" role="group" aria-label="Shortcuts for the period">
+            <button type="button" data-preset="default">Reset to 1981 – now</button>
+            <button type="button" data-preset="2">Last 2 years</button>
+            <button type="button" data-preset="5">Last 5</button>
+            <button type="button" data-preset="10">Last 10</button>
+            <button type="button" data-preset="full">Full record</button>
+          </span>
+        </form>
+        <p class="note" id="range-hint"></p>
+        <p class="note ww-rangeerr" id="range-err" role="alert"></p>
+        <div class="ww-legend" aria-label="Shading of the charts"><span><i class="ww-sw-nino"></i>El Niño episode</span><span><i class="ww-sw-lan"></i>La Niña episode</span><span>No shading: neutral</span></div>
+        <p class="note">Shading follows the NOAA CPC rule on the Oceanic Niño Index (ONI): at least five overlapping 3-month seasons at or above +0.5 °C is an El Niño episode, at or below −0.5 °C a La Niña episode, anything else is neutral. The latest episode can still be open (“ongoing”). Labels give the episode years and its peak ONI and appear only where there is room. Thin lines mark where an episode starts and ends. The period is kept in the address of the page (…&amp;from=1981-01&amp;to=now), so a view can be shared.</p>
+      </article>
+      <article class="ww-card ww-span" id="card-weekly-overview">
+        <h2>Niño 3.4 and Niño 1+2: weekly and monthly sea-surface temperature</h2>
+        <p class="note">Weekly: OISST v2.1 anomalies, Niño 3.4 and Niño 1+2, from September 1981. Monthly: Niño 3.4 from ERSSTv6 (NOAA CPC), from 1950. The two products differ slightly and are not joined into one line. Dashed lines mark the thresholds: El Niño +0.5, strong +1.5, very strong +2.0, and La Niña −0.5. Our files hold Niño 1+2 only from 1981.</p>
+        <div class="ww-chart" id="chart-weekly-overview" data-source="sst_weekly sst_monthly enso_events oni headline"></div>
         <p class="note ww-through" id="through-weekly-overview"></p>
       </article>
-      <article class="ww-card" id="card-soi-analogs">
-        <h2>SOI 3-month mean against the same analogues</h2>
-        <p class="note">3-month centred mean of CPC's standardized Tahiti minus Darwin SOI, in CPC units (multiply by 10 for the BOM scale). Negative values are El Niño-like.</p>
-        <div class="ww-legend" data-legend="soi_analogs"></div>
-        <div class="ww-chart" id="chart-soi-analogs" data-source="soi_analogs"></div>
+      <article class="ww-card ww-span" id="card-soi-analogs">
+        <h2>Southern Oscillation Index (SOI)</h2>
+        <div class="ww-view" role="group" aria-label="SOI chart view"><button type="button" data-card="soi" data-view="timeline" aria-pressed="true">Timeline</button><button type="button" data-card="soi" data-view="compare" aria-pressed="false">Compare onset years</button><button type="button" data-card="soi" data-view="cru" aria-pressed="false">Long record, CRU SOI from 1866</button></div>
+        <p class="note" data-showview="soi:timeline">3-month centred mean of the CPC standardized Tahiti minus Darwin SOI, in CPC units (multiply by 10 for the BOM scale). Negative values are El Niño-like.</p>
+        <p class="note" data-showview="soi:compare" hidden>3-month centred mean of the CPC standardized Tahiti minus Darwin SOI, in CPC units (multiply by 10 for the BOM scale), January of the onset year to June of the next, for 1982, 1997, 2015 and 2026. Negative values are El Niño-like.</p>
+        <p class="note" data-showview="soi:cru" hidden>CRU Southern Oscillation Index, monthly values as published, from January 1866. Method: Ropelewski and Jones (1987), normalised Tahiti minus Darwin pressure with a second normalisation. This is <b>not</b> the Troup SOI of the Australian Bureau of Meteorology and it is a different series from the CPC SOI shown in the timeline view: the two are not joined and their values are not interchangeable. Units are the standardised units CRU publishes (not multiplied by 10). Negative values are El Niño-like. No thresholds are drawn on this series. The El Niño and La Niña shading comes from the CPC ONI, which starts in 1950; before 1950 there is no shading. Recent values can change a few months later.</p>
+        <div class="ww-legend" data-legend="soi_analogs" data-showview="soi:compare" hidden></div>
+        <div class="ww-chart" id="chart-soi-analogs" data-source="soi_analogs atmosphere_monthly soi_cru enso_events"></div>
         <p class="note ww-through" id="through-soi-analogs"></p>
+        <p class="note" data-showview="soi:cru" hidden id="soi-cru-attrib">Source: <b>Climatic Research Unit, University of East Anglia</b>, SOI file soi_3dp.dat (<a href="https://crudata.uea.ac.uk/cru/data/soi/">crudata.uea.ac.uk/cru/data/soi</a>), retrieved 31 October 2026. Method: Ropelewski and Jones (1987), <i>Monthly Weather Review</i> 115, 2161–2165; early record: Allan et al. (1991) and Können et al. (1998). Licence: <a href="http://opendatacommons.org/licenses/odbl/1.0/">Open Database License 1.0</a> with contents under the <a href="http://opendatacommons.org/licenses/dbcl/1.0/">Database Contents License 1.0</a>: attribution and share-alike. The file <a href="data/soi_cru.csv">data/soi_cru.csv</a> on this site is a copy of the CRU values (the CRU missing code −99.990 left empty) and stays under the same licence.</p>
       </article>
-      <article class="ww-card" id="card-blob-analogs">
-        <h2>Blob and El Niño: 2013–16 against 2024–26</h2>
-        <p class="note">Monthly sea-surface temperature anomaly, °C vs 1991–2020 (NOAA ERSSTv5, box means), and the ONI. Aligned so the El Niño years line up: 2015 with 2026, so the x-axis starts in January 2013 and January 2024.</p>
-        <div class="ww-legend" data-legend="blob_analogs"></div>
+      <article class="ww-card ww-span" id="card-blob-analogs">
+        <h2>Blob and El Niño</h2>
+        <div class="ww-view" role="group" aria-label="Blob chart view"><button type="button" data-card="blob" data-view="timeline" aria-pressed="true">Timeline</button><button type="button" data-card="blob" data-view="compare" aria-pressed="false">Compare 2013–16 with 2024–26</button></div>
+        <p class="note" data-showview="blob:timeline">Monthly sea-surface temperature anomaly, °C vs 1991–2020 (NOAA ERSSTv5, box means), and the ONI, on one time axis with the same El Niño and La Niña shading.</p>
+        <p class="note" data-showview="blob:compare" hidden>Monthly sea-surface temperature anomaly, °C vs 1991–2020 (NOAA ERSSTv5, box means), and the ONI. Aligned so the El Niño years line up: 2015 with 2026, so the x-axis starts in January 2013 and January 2024.</p>
+        <div class="ww-legend" data-legend="blob_analogs" data-showview="blob:compare" hidden></div>
         <h3 class="ww-mini">Northeast Pacific "Blob" box, 40–50°N, 150–135°W</h3>
-        <div class="ww-chart" id="chart-blob-nep" data-source="blob_analogs"></div>
+        <div class="ww-chart" id="chart-blob-nep" data-source="blob_analogs blob_boxes enso_events"></div>
         <h3 class="ww-mini">Off Southern California, 30–36°N, 124–118°W</h3>
-        <div class="ww-chart" id="chart-blob-socal" data-source="blob_analogs"></div>
+        <div class="ww-chart" id="chart-blob-socal" data-source="blob_analogs blob_boxes enso_events"></div>
         <h3 class="ww-mini">El Niño: ONI (3-month Niño 3.4)</h3>
-        <div class="ww-chart" id="chart-blob-oni" data-source="blob_analogs"></div>
+        <div class="ww-chart" id="chart-blob-oni" data-source="blob_analogs oni enso_events"></div>
         <p class="note ww-through" id="through-blob-analogs"></p>
         <p class="note">The Blob box is the region Bond et al. (2015) used for the 2014 warm anomaly. Months not yet published are left blank.</p>
       </article>
@@ -2341,13 +2380,13 @@ window.WW = (() => {
     const yt = yS.ticks(5);
     const yf = o.yFmt || d3.format('.1f');
     const vf = o.valFmt || ((v) => signed(v, 1));
-    const ml = Math.ceil(measure(svg, yt.map(yf), 'ww-tick')) + 10;
-    const ends = series.map((d) => ({ d, p: d.pts[d.pts.length - 1] })).filter((e) => e.p && !e.d.s.noTip);
+    const ml = Math.max(o.minMl || 0, Math.ceil(measure(svg, yt.map(yf), 'ww-tick')) + 10);
+    const ends = series.map((d) => ({ d, p: d.pts[d.pts.length - 1] })).filter((e) => e.p && !e.d.s.noTip && !e.d.s.tipOnly);
     const endTxt = (e) => `${e.d.s.label} ${vf(e.p.y)}`;
     const mLabels = (o.refs || []).filter((rf) => rf.margin && rf.label).map((rf) => rf.label);
-    const mr = o.endLabels === false ? 14 : Math.max(Math.ceil(measure(svg, ends.map(endTxt), 'ww-end')) + 16, mLabels.length ? Math.ceil(measure(svg, mLabels, 'ww-reflbl')) + 16 : 0);
+    const mr = Math.max(o.minMr || 0, o.endLabels === false ? 14 : Math.ceil(measure(svg, ends.map(endTxt), 'ww-end')) + 16, mLabels.length ? Math.ceil(measure(svg, mLabels, 'ww-reflbl')) + 16 : 0);
     const xs = o.rows.map(o.x);
-    const xS = o.xType === 'linear' ? d3.scaleLinear(o.xDomain || d3.extent(xs), [ml, W - mr]) : d3.scaleUtc(d3.extent(xs), [ml, W - mr]);
+    const xS = o.xType === 'linear' ? d3.scaleLinear(o.xDomain || d3.extent(xs), [ml, W - mr]) : d3.scaleUtc(o.xDomain || d3.extent(xs), [ml, W - mr]);
     const g = svg.append('g');
     (o.xSpans || []).forEach((b) => {
       const [d0, d1] = xS.domain();
@@ -2356,9 +2395,12 @@ window.WW = (() => {
       if (z <= a) return;
       g.append('rect').attr('x', xS(a)).attr('width', Math.max(1, xS(z) - xS(a))).attr('y', top).attr('height', bottom - top)
         .style('fill', b.color || 'var(--cds-chart-muted)').style('opacity', b.opacity ?? 0.16);
-      if (b.label && xS(z) - xS(a) > measure(svg, [b.label], 'ww-reflbl') + 6) {
-        g.append('text').attr('class', 'ww-reflbl').attr('x', (xS(a) + xS(z)) / 2).attr('y', bottom - 6).attr('text-anchor', 'middle').text(b.label);
+      if (b.edges) {
+        if (a === +b.x0) g.append('line').attr('class', 'ww-edge').attr('x1', xS(a)).attr('x2', xS(a)).attr('y1', top).attr('y2', bottom).style('stroke', b.color);
+        if (z === +b.x1 && !b.open) g.append('line').attr('class', 'ww-edge').attr('x1', xS(z)).attr('x2', xS(z)).attr('y1', top).attr('y2', bottom).style('stroke', b.color);
       }
+      const lab = [].concat(b.label || []).find((t) => xS(z) - xS(a) > measure(svg, [t], 'ww-reflbl') + 6);
+      if (lab) g.append('text').attr('class', 'ww-reflbl').attr('x', (xS(a) + xS(z)) / 2).attr('y', bottom - 6).attr('text-anchor', 'middle').text(lab);
     });
     if (o.bands && o.xType !== 'linear') {
       const [d0, d1] = xS.domain();
@@ -2377,9 +2419,13 @@ window.WW = (() => {
     if (o.zero && yS.domain()[0] < 0 && yS.domain()[1] > 0) {
       g.append('line').attr('class', 'ww-zero').attr('x1', ml).attr('x2', W - mr).attr('y1', yS(0)).attr('y2', yS(0));
     }
+    const lblY = new Map();
+    const mm = (o.refs || []).filter((rf) => rf.margin && rf.label).map((rf) => ({ rf, y: yS(rf.y) })).sort((a, b) => a.y - b.y);
+    for (let i = 1; i < mm.length; i++) if (mm[i].y - mm[i - 1].y < 17) mm[i].y = mm[i - 1].y + 17;
+    mm.forEach((m) => lblY.set(m.rf, m.y));
     (o.refs || []).forEach((rf) => {
       g.append('line').attr('class', 'ww-ref').attr('x1', ml).attr('x2', W - mr).attr('y1', yS(rf.y)).attr('y2', yS(rf.y));
-      if (rf.label && rf.margin) g.append('text').attr('class', 'ww-reflbl').attr('x', W - mr + 8).attr('y', yS(rf.y)).attr('dy', '0.32em').text(rf.label);
+      if (rf.label && rf.margin) g.append('text').attr('class', 'ww-reflbl').attr('x', W - mr + 8).attr('y', lblY.get(rf)).attr('dy', '0.32em').text(rf.label);
       else if (rf.label) g.append('text').attr('class', 'ww-reflbl').attr('x', ml + 4).attr('y', yS(rf.y) - 4).text(rf.label);
     });
     (o.vlines || []).forEach((vl, i) => {
@@ -2396,7 +2442,8 @@ window.WW = (() => {
     const room = (W - ml - mr) / Math.max(1, xt.length - 1);
     if (lw > room) { const k = Math.ceil(lw / room); xt = xt.filter((_, i) => i % k === 0); }
     // a label with a line break (o.xTwoLine) is drawn on two lines, e.g. the month above the year
-    g.selectAll('text.xt').data(xt).join('text').attr('class', 'ww-tick').attr('x', (d) => xS(d)).attr('y', o.xTwoLine ? H - 18 : H - 6).attr('text-anchor', 'middle')
+    const anchorOf = (d) => { const hw = measure(svg, String(fmtX(d)).split('\n'), 'ww-tick') / 2; return xS(d) - hw < ml ? 'start' : xS(d) + hw > W - 2 ? 'end' : 'middle'; };
+    g.selectAll('text.xt').data(xt).join('text').attr('class', 'ww-tick').attr('x', (d) => xS(d)).attr('y', o.xTwoLine ? H - 18 : H - 6).attr('text-anchor', anchorOf)
       .each(function (d) { String(fmtX(d)).split('\n').forEach((t, i) => d3.select(this).append('tspan').attr('x', xS(d)).attr('dy', i ? '1.15em' : 0).text(t)); });
     if (o.area) {
       const ar = o.rows.filter((r) => r[o.area.low] != null && r[o.area.high] != null);
@@ -2404,7 +2451,7 @@ window.WW = (() => {
         .style('fill', 'var(--cds-chart-muted)').style('opacity', 0.25);
     }
     const path = d3.line().x((p) => xS(p.x)).y((p) => yS(p.y));
-    series.forEach((d) => {
+    series.filter((d) => !d.s.tipOnly).forEach((d) => {
       svg.append('path').attr('d', path(d.pts)).attr('fill', 'none').style('stroke', d.s.color)
         .attr('stroke-width', d.s.width || 2).attr('stroke-linecap', 'round').attr('stroke-linejoin', 'round')
         .attr('stroke-dasharray', d.s.dash ? '2 4' : null);
@@ -2437,7 +2484,9 @@ window.WW = (() => {
     const tip = makeTip(box);
     const rule = svg.append('line').attr('class', 'ww-rule').attr('y1', top).attr('y2', bottom).style('opacity', 0);
     const dots = svg.append('g');
-    const sorted = o.rows.slice().sort((a, b) => o.x(a) - o.x(b));
+    const all = o.rows.slice().sort((a, b) => o.x(a) - o.x(b));
+    // o.tipRows: the rows the cursor snaps to (default: all rows); a series with tipOnly is listed in the tooltip but not drawn
+    const sorted = o.tipRows ? o.tipRows.slice().sort((a, b) => o.x(a) - o.x(b)) : all;
     const bis = d3.bisector(o.x).center;
     const showRow = (r) => {
       if (!r) return;
@@ -2458,7 +2507,7 @@ window.WW = (() => {
     const pad = svg.append('rect').attr('x', ml).attr('y', 0).attr('width', Math.max(0, W - ml - mr)).attr('height', H).attr('fill', 'transparent');
     pointerBind(pad, box, (ev) => showRow(sorted[bis(sorted, xS.invert(d3.pointer(ev)[0]))]), hide);
     access(box, svg, tip, { kind: 'Line chart', n: sorted.length, show: (i) => showRow(sorted[i]), hide });
-    csvButton(box, sorted, [{ head: 'x', get: (r) => o.x(r) }, ...o0.series.map((s) => ({ head: s.label, get: (r) => r[s.key] }))]);
+    csvButton(box, all, [{ head: 'x', get: (r) => o.x(r) }, ...o0.series.filter((s) => !s.tipOnly).map((s) => ({ head: s.label, get: (r) => r[s.key] }))]);
     toggleBind(card);
   }
 
@@ -2970,24 +3019,7 @@ window.WW = (() => {
       return Math.max(min, Math.floor(Math.max(...row.map(naturalHeight)) - own - 2));
     };
   }
-  // The weekly and SOI charts redraw when the Blob card (the tallest) changes its natural height, e.g. after its lazy charts are drawn
-  function watchFill() {
-    const blob = box('card-blob-analogs');
-    if (!blob || blob._wwFill || !window.ResizeObserver) return;
-    blob._wwFill = true;
-    let last = 0;
-    new ResizeObserver(() => {
-      const h = naturalHeight(blob);
-      if (Math.abs(h - last) < 4) return;
-      last = h;
-      ['chart-weekly-overview', 'chart-soi-analogs'].forEach((id) => {
-        const b = box(id); const l = b.closest('.ww-card')._wwLines && b.closest('.ww-card')._wwLines.get(b);
-        if (l && b.firstChild) l.redraw();
-      });
-    }).observe(blob);
-  }
-
-  function drawSoiAnalogs() {
+  function drawSoiCompare() {
     const el = box('chart-soi-analogs');
     const d = dash.data('soi_analogs');
     if (d.status !== 'ok') return K.fail(el, d.status);
@@ -3014,7 +3046,7 @@ window.WW = (() => {
     }
   }
 
-  function drawBlobAnalogs() {
+  function drawBlobCompare() {
     const d = dash.data('blob_analogs');
     const ids = [['chart-blob-nep', 'nep'], ['chart-blob-socal', 'socal'], ['chart-blob-oni', 'oni']];
     if (d.status !== 'ok') { ids.forEach(([id]) => box(id) && K.fail(box(id), d.status)); return; }
@@ -3037,10 +3069,10 @@ window.WW = (() => {
         notes.push({ x: pk.step, y: pk[key], text: K.signed(pk[key], 1), dy: -8 });
       });
       K.line(el, {
-        rows: d.data, x: (r) => r.step, xType: 'linear', zero: true, height: 150, endLabels: false,
+        rows: d.data, x: (r) => r.step, xType: 'linear', zero: true, height: el.clientWidth < 560 ? 170 : 150, endLabels: false, xTwoLine: el.clientWidth < 560,
         series: legend.map((s) => ({ ...s, key: `${k}_${s.key}`, label: s.label })),
         valFmt, yFmt: d3.format('.1f'),
-        xTickValues: d3.range(0, 42, 12), xTickFormat: (i) => `${2013 + i / 12} / ${2024 + i / 12}`,
+        xTickValues: d3.range(0, 42, 12), xTickFormat: (i) => (el.clientWidth < 560 ? `${2013 + i / 12} /\n${2024 + i / 12}` : `${2013 + i / 12} / ${2024 + i / 12}`),
         vlines: now >= 0 ? [{ x: now, label: 'now', bottom: true }] : [], notes,
         tipTitle: (r) => r.label.replace(/ (\d\d)\/(\d\d)/, ' 20$1 / 20$2'),
       });
@@ -3050,6 +3082,217 @@ window.WW = (() => {
       const b = lastWith(bb.data, 'nep_anom'), s = lastWith(bb.data, 'socal_anom'), o = lastWith(on.data, 'oni');
       if (b && s && o) setThrough('through-blob-analogs', `Data through ${monthYear(b.month)} for the two ocean boxes${s.month !== b.month ? ` (Southern California ${monthYear(s.month)})` : ''} and ${monthYear(o.centre_month)} for the ONI (3-month mean centred on that month).`);
     }
+  }
+
+  // ---- Long overview charts (Web TASK-019): one shared period, phase bands from the ONI episodes ----
+  const RANGE = { from: '1981-01', to: 'now', soi: 'timeline', blob: 'timeline' };
+  const DEFAULT_FROM = '1981-01';
+  const monthRe = /^\d{4}-(0[1-9]|1[0-2])$/;
+  const ym = (key) => Date.UTC(+key.slice(0, 4), +key.slice(5, 7) - 1, 1);
+  const ymKey = (ms) => { const d = new Date(ms); return `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, '0')}`; };
+  const endOf = (key) => Date.UTC(+key.slice(0, 4), +key.slice(5, 7), 1);
+
+  // First and last month with a value in each file; the allowed period comes from these, not from typed constants
+  function longLimits() {
+    const span = (id, col, key) => { const d = dash.data(id); if (d.status !== 'ok') return null; const r = d.data.filter((x) => x[col] !== '' && x[col] != null); return r.length ? { a: r[0][key].slice(0, 7), z: r[r.length - 1][key].slice(0, 7) } : null; };
+    const s = {
+      oni: span('oni', 'oni', 'centre_month'), ersst: span('sst_monthly', 'ersst_nino34', 'month'), soi: span('atmosphere_monthly', 'soi_3m', 'month'),
+      weekly: span('sst_weekly', 'nino34', 'week'), cru: span('soi_cru', 'soi_cru_rj1987', 'month'), nep: span('blob_boxes', 'nep_anom', 'month'), socal: span('blob_boxes', 'socal_anom', 'month'),
+    };
+    const all = Object.values(s).filter(Boolean);
+    if (!all.length) return null;
+    return { s, min: all.map((x) => x.a).sort()[0], max: all.map((x) => x.z).sort().slice(-1)[0] };
+  }
+  // The chosen period as milliseconds: from = first day of the From month, to = first day after the To month
+  const resolveWindow = (lim) => { const toKey = RANGE.to === 'now' ? lim.max : RANGE.to; return { from: ym(RANGE.from), to: endOf(toKey), toKey }; };
+  const domainOf = (w) => [new Date(w.from), new Date(w.to)];
+  const inWin = (w) => (r) => r.date >= w.from && r.date < w.to;
+
+  function phaseSpans() {
+    const e = dash.data('enso_events');
+    if (e.status !== 'ok') return [];
+    return e.data.map((r) => {
+      const nina = r.kind === 'La Niña';
+      const y0 = r.start_month.slice(0, 4), y1 = r.end_month.slice(0, 4);
+      const yrs = y0 === y1 ? y0 : `${y0}–${y1.slice(2)}`;
+      const pk = K.signed(r.peak_oni, 1);
+      return { x0: ym(r.start_month), x1: endOf(r.end_month), open: r.end === 'Ongoing', edges: true, color: nina ? 'var(--ww-nina)' : 'var(--color-bad)', opacity: 0.15, label: r.end === 'Ongoing' ? [`${r.kind} since ${y0}, ongoing, peak so far ${pk}`, `${r.kind}, ongoing ${pk}`] : [`${r.kind} ${yrs}, peak ${pk}`, `${r.kind} ${pk}`] };
+    });
+  }
+
+  function phaseSentence() {
+    const e = dash.data('enso_events'), o = dash.data('oni');
+    if (e.status !== 'ok' || o.status !== 'ok') return '';
+    const last = lastWith(o.data, 'oni');
+    if (!last) return '';
+    const ep = e.data.find((r) => r.end === 'Ongoing');
+    const state = !ep ? 'neutral, no El Niño or La Niña episode under way'
+      : ep.seasons >= 5 ? `${ep.kind} episode since ${monthYear(ep.start_month)}, ${ep.strength.toLowerCase()}`
+        : `${ep.kind} conditions since ${monthYear(ep.start_month)} (${ep.seasons} season${ep.seasons === 1 ? '' : 's'} so far; not yet an episode by the five-season rule)`;
+    return `Latest ONI ${K.signed(+last.oni, 2)} (${last.season}): ${state}.`;
+  }
+
+  function writeRange() {
+    const def = RANGE.from === DEFAULT_FROM && RANGE.to === 'now';
+    try {
+      const page = location.hash.slice(1).split('&')[0] || current;
+      history.replaceState(null, '', `#${page}${def ? '' : `&from=${RANGE.from}&to=${RANGE.to}`}`);
+    } catch (e) { /* ignore */ }
+    try { if (def) localStorage.removeItem('ww-range'); else localStorage.setItem('ww-range', `${RANGE.from}|${RANGE.to}`); } catch (e) { /* ignore */ }
+  }
+
+  function readRange(lim) {
+    let f = null, t = null;
+    const q = new URLSearchParams(location.hash.slice(1).split('&').slice(1).join('&'));
+    if (q.get('from')) { f = q.get('from'); t = q.get('to') || 'now'; }
+    else { try { const v = (localStorage.getItem('ww-range') || '').split('|'); if (v.length === 2) { f = v[0]; t = v[1]; } } catch (e) { /* ignore */ } }
+    const okTo = t === 'now' || (monthRe.test(t || '') && t <= lim.max);
+    if (f && monthRe.test(f) && okTo && f >= lim.min && f < (t === 'now' ? lim.max : t)) { RANGE.from = f; RANGE.to = t; }
+    else if (DEFAULT_FROM < lim.min) RANGE.from = lim.min;
+  }
+
+  function initRange(lim) {
+    const form = box('range-form');
+    if (!form || form._wwBound) return;
+    form._wwBound = true;
+    readRange(lim);
+    const fi = box('range-from'), ti = box('range-to'), err = box('range-err');
+    const st = (k) => (lim.s[k] ? monthYear(lim.s[k].a) : 'n/a');
+    box('range-hint').textContent = `Allowed period, from the data files: ${monthYear(lim.min)} to ${monthYear(lim.max)}. Type YYYY-MM; the end can also be “now”. Each chart starts where its own data start: weekly OISST ${st('weekly')}, ERSST monthly ${st('ersst')}, CPC SOI ${st('soi')}, CRU SOI ${st('cru')}, Blob boxes ${st('nep')}.`;
+    const sync = () => { fi.value = RANGE.from; ti.value = RANGE.to; };
+    const apply = (f, t) => {
+      const fail = (m) => { err.textContent = m; fi.setAttribute('aria-invalid', 'true'); };
+      fi.removeAttribute('aria-invalid');
+      f = (f || '').trim(); t = (t || '').trim().toLowerCase();
+      if (!monthRe.test(f)) return fail('From must be a year and month like 1981-01.');
+      if (t !== 'now' && !monthRe.test(t)) return fail('To must be a year and month like 2026-09, or “now”.');
+      if (f < lim.min) return fail(`From cannot be earlier than ${monthYear(lim.min)}, where the data start.`);
+      if (t !== 'now' && t > lim.max) return fail(`To cannot be later than ${monthYear(lim.max)}, the last month in the data.`);
+      if (f >= (t === 'now' ? lim.max : t)) return fail('From must be before To.');
+      err.textContent = '';
+      RANGE.from = f; RANGE.to = t;
+      sync(); writeRange(); drawLong();
+    };
+    form.addEventListener('submit', (ev) => { ev.preventDefault(); apply(fi.value, ti.value); });
+    form.querySelectorAll('[data-preset]').forEach((b) => b.addEventListener('click', () => {
+      const p = b.dataset.preset;
+      if (p === 'full') return apply(lim.min, 'now');
+      if (p === 'default') return apply(DEFAULT_FROM < lim.min ? lim.min : DEFAULT_FROM, 'now');
+      const d = new Date(ym(lim.max)); d.setUTCFullYear(d.getUTCFullYear() - +p);
+      apply(ymKey(Math.max(d.getTime(), ym(lim.min))), 'now');
+    }));
+    document.querySelectorAll('.ww-view button').forEach((b) => b.addEventListener('click', () => {
+      RANGE[b.dataset.card] = b.dataset.view;
+      drawLong();
+    }));
+    sync();
+  }
+
+  function syncViews() {
+    document.querySelectorAll('.ww-view button').forEach((b) => b.setAttribute('aria-pressed', String(RANGE[b.dataset.card] === b.dataset.view)));
+    document.querySelectorAll('[data-showview]').forEach((n) => { const [c, v] = n.dataset.showview.split(':'); n.hidden = RANGE[c] !== v; });
+  }
+
+  function drawLong() {
+    const lim = longLimits();
+    if (!lim) return;
+    initRange(lim);
+    syncViews();
+    box('range-phase').textContent = phaseSentence();
+    drawWeeklyLong(lim);
+    if (RANGE.soi === 'timeline') drawSoiLong(lim); else if (RANGE.soi === 'cru') drawSoiCru(lim); else drawSoiCompare();
+    if (RANGE.blob === 'timeline') drawBlobLong(lim); else drawBlobCompare();
+  }
+
+  const winText = (lim) => `${monthYear(RANGE.from)} to ${RANGE.to === 'now' ? `${monthYear(lim.max)} (now)` : monthYear(RANGE.to)}`;
+  const startNote = (s, win, what) => (s && ym(s.a) > win.from ? ` ${what} data start ${monthYear(s.a)}.` : '');
+
+  function drawWeeklyLong(lim) {
+    const el = box('chart-weekly-overview');
+    const w = typed('sst_weekly', 'week', K.parseDay), m = typed('sst_monthly', 'month', K.parseMonth);
+    if (w.status !== 'ok' || m.status !== 'ok') return K.fail(el, w.status !== 'ok' ? w.status : m.status);
+    const win = resolveWindow(lim), keep = inWin(win);
+    const wk = w.rows.filter((r) => keep(r) && (r.nino34 != null || r.nino12 != null));
+    const mo = m.rows.filter((r) => keep(r) && r.ersst_nino34 != null).map((r) => ({ date: r.date, ersst_nino34: r.ersst_nino34 }));
+    const byMonth = new Map(m.rows.filter((r) => r.ersst_nino34 != null).map((r) => [ymKey(r.date.getTime()), r.ersst_nino34]));
+    wk.forEach((r) => { const v = byMonth.get(ymKey(r.date.getTime())); r.ersst_tip = v == null ? null : v; });
+    const rows = wk.concat(mo).sort((a, b) => a.date - b.date);
+    if (!rows.length) return K.fail(el, 'missing');
+    const nc = ninoColors(), c = C();
+    const narrow = el.clientWidth < 560;
+    const lbl = (t) => (narrow ? undefined : t);
+    K.line(el, {
+      rows, tipRows: wk.length ? wk : null, x: (r) => r.date, xDomain: domainOf(win),
+      series: [
+        { key: 'ersst_nino34', label: 'Niño 3.4 monthly (ERSSTv6)', color: c[2] || K.muted, width: 1.5, dash: true },
+        { key: 'ersst_tip', label: 'Niño 3.4 monthly (ERSSTv6), same month', color: c[2] || K.muted, tipOnly: true },
+        { key: 'nino12', label: 'Niño 1+2 weekly (OISST)', color: nc.n12, width: 1.25 },
+        { key: 'nino34', label: 'Niño 3.4 weekly (OISST)', color: nc.n34, width: 1.75 },
+      ],
+      zero: true, height: narrow ? 260 : 320, endLabels: false, minMl: 44, xSpans: phaseSpans(),
+      refs: [
+        { y: 0.5, label: lbl('+0.5 El Niño'), margin: true }, { y: 1.5, label: lbl('+1.5 strong'), margin: true }, { y: 2.0, label: lbl('+2.0 very strong'), margin: true }, { y: -0.5, label: lbl('−0.5 La Niña'), margin: true },
+      ],
+      valFmt: (v) => K.signed(v, 2),
+      tipTitle: (r) => (r.nino34 != null || r.nino12 != null ? `Week centred ${dayFmt(r.date)}` : `${monthYear(ymKey(r.date.getTime()))} (monthly)`),
+    });
+    const wl = lastWith(w.rows, 'nino34'), ml = lastWith(m.rows, 'ersst_nino34');
+    setThrough('through-weekly-overview', `Showing ${winText(lim)}. Data through the week centred ${wl ? dayFmt(wl.date) : '—'} (weekly OISST) and ${ml ? monthYear(ml.month) : '—'} (ERSST monthly).${startNote(lim.s.weekly, win, 'Weekly OISST')}${startNote(lim.s.ersst, win, 'ERSST monthly')}`);
+  }
+
+  function drawSoiLong(lim) {
+    const el = box('chart-soi-analogs');
+    const a = typed('atmosphere_monthly', 'month', K.parseMonth);
+    if (a.status !== 'ok') return K.fail(el, a.status);
+    const win = resolveWindow(lim), keep = inWin(win);
+    const rows = a.rows.filter((r) => keep(r) && r.soi_3m != null);
+    if (!rows.length) return K.fail(el, 'missing');
+    const c = C();
+    K.line(el, {
+      rows, x: (r) => r.date, xDomain: domainOf(win),
+      series: [{ key: 'soi_3m', label: 'SOI 3-month mean', color: c[0], width: 1.75 }], zero: true, endLabels: false, height: el.clientWidth < 560 ? 240 : 280, minMl: 44,
+      xSpans: phaseSpans(), valFmt: (v) => K.signed(v, 2), yFmt: d3.format('.1f'), axisNote: '↓ negative = El Niño-like',
+      tipTitle: (r) => monthYear(ymKey(r.date.getTime())),
+    });
+    const m3 = lastWith(a.rows, 'soi_3m'), m1 = lastWith(a.rows, 'soi');
+    setThrough('through-soi-analogs', `Showing ${winText(lim)}. Data through ${m3 ? monthYear(m3.month) : '—'} (3-month centred mean)${m3 && m1 && m1.month > m3.month ? `; the centred mean ends one month before the last monthly SOI value, ${monthYear(m1.month)}` : ''}.${startNote(lim.s.soi, win, 'SOI')}`);
+  }
+
+  function drawSoiCru(lim) {
+    const el = box('chart-soi-analogs');
+    const a = typed('soi_cru', 'month', K.parseMonth);
+    if (a.status !== 'ok') return K.fail(el, a.status);
+    const win = resolveWindow(lim), keep = inWin(win);
+    const rows = a.rows.filter((r) => keep(r) && r.soi_cru_rj1987 != null);
+    if (!rows.length) return K.fail(el, 'missing');
+    const f3 = (v) => d3.format('+.3f')(v).replace('-', '−');
+    K.line(el, {
+      rows, x: (r) => r.date, xDomain: domainOf(win),
+      series: [{ key: 'soi_cru_rj1987', label: 'CRU SOI, monthly (Ropelewski–Jones 1987)', color: C()[3] || C()[0], width: 1.25 }], zero: true, endLabels: false, height: el.clientWidth < 560 ? 240 : 280, minMl: 44,
+      xSpans: phaseSpans(), valFmt: f3, yFmt: d3.format('.1f'), axisNote: '↓ negative = El Niño-like',
+      tipTitle: (r) => monthYear(ymKey(r.date.getTime())),
+    });
+    const last = lastWith(a.rows, 'soi_cru_rj1987');
+    setThrough('through-soi-analogs', `Showing ${winText(lim)}. CRU SOI data through ${last ? monthYear(last.month) : '—'}; retrieved 31 Oct 2026; later months are not published yet and are left blank, never shown as zero.${startNote(lim.s.cru, win, 'CRU SOI')}`);
+  }
+
+  function drawBlobLong(lim) {
+    const bb = typed('blob_boxes', 'month', K.parseMonth), on = typed('oni', 'centre_month', K.parseMonth);
+    const ids = ['chart-blob-nep', 'chart-blob-socal', 'chart-blob-oni'];
+    if (bb.status !== 'ok' || on.status !== 'ok') { ids.forEach((id) => K.fail(box(id), bb.status !== 'ok' ? bb.status : on.status)); return; }
+    const win = resolveWindow(lim), keep = inWin(win), c = C(), nc = ninoColors();
+    const narrow = box(ids[0]).clientWidth < 560;
+    const common = { x: (r) => r.date, xDomain: domainOf(win), zero: true, endLabels: false, height: 150, minMl: 44, minMr: narrow ? 14 : 56, xSpans: phaseSpans(), tipTitle: (r) => monthYear(ymKey(r.date.getTime())) };
+    const note = (s) => (s && ym(s.a) > win.from ? `Data start ${monthYear(s.a)}` : undefined);
+    K.line(box(ids[0]), { ...common, rows: bb.rows.filter((r) => keep(r) && r.nep_anom != null), series: [{ key: 'nep_anom', label: 'Northeast Pacific box', color: c[4] || c[1], width: 1.5 }], valFmt: (v) => `${K.signed(v, 2)} °C`, axisNote: note(lim.s.nep) });
+    K.line(box(ids[1]), { ...common, rows: bb.rows.filter((r) => keep(r) && r.socal_anom != null), series: [{ key: 'socal_anom', label: 'Off Southern California', color: c[2] || c[3], width: 1.5 }], valFmt: (v) => `${K.signed(v, 2)} °C`, axisNote: note(lim.s.socal) });
+    K.line(box(ids[2]), {
+      ...common, height: narrow ? 170 : 190, rows: on.rows.filter((r) => keep(r) && r.oni != null), series: [{ key: 'oni', label: 'ONI', color: nc.n34, width: 1.75 }], valFmt: (v) => K.signed(v, 2),
+      refs: [{ y: 0.5, label: narrow ? undefined : '+0.5', margin: true }, { y: -0.5, label: narrow ? undefined : '−0.5', margin: true }, { y: 1.5, label: narrow ? undefined : '+1.5', margin: true }, { y: 2.0, label: narrow ? undefined : '+2.0', margin: true }],
+      tipTitle: (r) => r.season,
+    });
+    const b = lastWith(bb.rows, 'nep_anom'), s = lastWith(bb.rows, 'socal_anom'), o = lastWith(on.rows, 'oni');
+    if (b && s && o) setThrough('through-blob-analogs', `Showing ${winText(lim)}. Data through ${monthYear(b.month)} for the two ocean boxes${s.month !== b.month ? ` (Southern California ${monthYear(s.month)})` : ''} and ${monthYear(o.centre_month)} for the ONI (3-month mean centred on that month).${startNote(lim.s.nep, win, 'Blob-box')}`);
   }
 
   function drawPdoWild() {
@@ -3071,31 +3314,7 @@ window.WW = (() => {
     const pd = box('plume-detail');
     if (pd && !pd.dataset.bound) { pd.dataset.bound = '1'; pd.addEventListener('toggle', () => { if (pd.open) drawPlume(); }); }
     analog('chart-oni-analogs', 'oni_analogs', 'oni_analogs', 'season', 'Season');
-    drawBlobAnalogs();
-    drawSoiAnalogs();
-    const el = box('chart-weekly-overview');
-    const w = typed('sst_weekly', 'week', K.parseDay);
-    if (w.status !== 'ok') return K.fail(el, w.status);
-    const rows = w.rows.filter((r) => r.week >= '2025-01-01');
-    const nc = ninoColors();
-    const first = rows[0].date, last = rows[rows.length - 1].date;
-    const quarters = d3.utcMonth.range(d3.utcMonth.floor(first), last).filter((d) => d.getUTCMonth() % 3 === 0 && d >= first);
-    const high = head ? d3.format('.1f')(head.rec_n34) : null;
-    K.line(el, {
-      rows, x: (r) => r.date,
-      series: [
-        { key: 'nino12', label: 'Niño 1+2', color: nc.n12 },
-        { key: 'nino34', label: 'Niño 3.4', color: nc.n34 },
-      ],
-      zero: true, height: fillHeight(260), xTwoLine: true, xTickValues: quarters, xTickFormat: (d) => `${MON[d.getUTCMonth()]}\n${d.getUTCFullYear()}`,
-      refs: [
-        { y: 0.5, label: '+0.5 El Niño', margin: true }, { y: 1.5, label: '+1.5 strong', margin: true }, { y: 2.0, label: '+2.0 very strong', margin: true },
-        ...(head ? [{ y: head.rec_n34, label: `Pre-2026 weekly high, Niño 3.4: ${high}` }] : []),
-      ],
-      tipTitle: (r) => `Week centred ${dayFmt(r.date)}`,
-    });
-    setThrough('through-weekly-overview', `Data through the week centred ${dayFmt(last)} (last row of the weekly OISST file).`);
-    watchFill();
+    drawLong();
   }
 
   function drawOcean() {
@@ -4672,7 +4891,7 @@ window.WW = (() => {
   if (dash.onEarly) dash.onEarly(['sst_weekly', 'sst_monthly', 'oni', 'atmosphere_monthly'], () => headline());
   dash.onData(draw);
 
-  const named = location.hash.slice(1);
+  const named = location.hash.slice(1).split('&')[0];
   if (tabs.some((t) => t.dataset.page === named)) show(named);
 })();
 </script>

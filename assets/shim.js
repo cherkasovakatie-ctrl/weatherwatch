@@ -25,7 +25,7 @@ window.dash = (() => {
   // onEarly(ids, cb): fetch these datasets first and call cb as soon as they are in, before the rest of the manifest has loaded.
   // Used for the headline block, which needs 4 small files and should not wait for all of them. cb must cope with other data still loading.
   const onEarly = (ids, cb) => { early.push({ ids, cb }); };
-  const setLink = (p) => { try { history.replaceState(null, '', `#${p}`); } catch (e) { /* ignore */ } };
+  const setLink = (p) => { try { const extra = location.hash.slice(1).split('&').slice(1).join('&'); history.replaceState(null, '', `#${p}${extra ? '&' + extra : ''}`); } catch (e) { /* ignore */ } };
   const fmt = (field, v) => {
     if (v == null || v === '') return '—';
     const n = +v;
