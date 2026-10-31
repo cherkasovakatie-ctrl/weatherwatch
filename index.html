@@ -120,6 +120,9 @@ body { font-family: var(--font-anthropic-sans); }
   .ww-range button[type="submit"], .ww-view button[aria-pressed="true"] { background: var(--color-fg); color: var(--color-bg); border-color: var(--color-fg); }
   .ww-range button:focus-visible, .ww-view button:focus-visible, .ww-range input:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
   .ww-view { display: flex; flex-wrap: wrap; gap: 6px; }
+  .ww-region { display: flex; gap: 8px; align-items: center; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .ww-region select { font: inherit; padding: 4px 8px; border: 1px solid var(--color-border-line); border-radius: 6px; background: var(--color-bg); color: var(--color-fg); }
+  .ww-region select:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
   .ww-presets { display: flex; flex-wrap: wrap; gap: 6px; }
   .ww-rangeerr { color: var(--color-bad); min-height: 1.2em; margin: 0; }
   .ww-legend i.ww-sw-nina { height: 10px; background: var(--cds-chart-muted); opacity: .45; }
@@ -506,10 +509,15 @@ body { font-family: var(--font-anthropic-sans); }
         <p class="note">Shading follows the NOAA CPC rule on the Oceanic Niño Index (ONI): at least five overlapping 3-month seasons at or above +0.5 °C is an El Niño episode, at or below −0.5 °C a La Niña episode, anything else is neutral. The latest episode can still be open (“ongoing”). Labels give the episode years and its peak ONI and appear only where there is room. Thin lines mark where an episode starts and ends. The period is kept in the address of the page (…&amp;from=1981-01&amp;to=now), so a view can be shared.</p>
       </article>
       <article class="ww-card ww-span" id="card-weekly-overview">
-        <h2>Niño 3.4 and Niño 1+2: weekly and monthly sea-surface temperature</h2>
-        <p class="note">Weekly: OISST v2.1 anomalies, Niño 3.4 and Niño 1+2, from September 1981. Monthly: Niño 3.4 from ERSSTv6 (NOAA CPC), from 1950. The two products differ slightly and are not joined into one line. Dashed lines mark the thresholds: El Niño +0.5, strong +1.5, very strong +2.0, and La Niña −0.5. Our files hold Niño 1+2 only from 1981.</p>
-        <div class="ww-chart" id="chart-weekly-overview" data-source="sst_weekly sst_monthly enso_events oni headline"></div>
+        <h2>Niño regions: sea-surface temperature</h2>
+        <div class="ww-view" role="group" aria-label="Niño chart view"><button type="button" data-card="nino" data-view="weekly" aria-pressed="true">Weekly OISST since 1981</button><button type="button" data-card="nino" data-view="long" aria-pressed="false">Long monthly record, NOAA ERSST v6 from 1948</button></div>
+        <label class="ww-region" data-showview="nino:long" hidden>Region <select id="nino-region" aria-label="Niño region"><option value="nino34">Niño 3.4 (5N–5S, 170–120W)</option><option value="nino3">Niño 3 (5N–5S, 150–90W)</option><option value="nino4">Niño 4 (5N–5S, 160E–150W)</option><option value="nino12">Niño 1+2 (0–10S, 90–80W)</option></select></label>
+        <p class="note" data-showview="nino:long" hidden>Monthly NOAA ERSST v6 anomalies from the 1981–2010 mean, as published by NOAA PSL, one line for the chosen region, from January 1948. Before 1948 the Met Office HadISST1.1 (same base period) is drawn as a separate line in another colour and is never joined to the ERSST line. The CPC Niño 3.4 column of the weekly view is a different series (a different base period) and is not shown here. The +0.5, +1.5 and +2.0 lines and the La Niña −0.5 line are the Niño 3.4 thresholds and are drawn for Niño 3.4 only. Shading is the CPC ONI episodes, which start in 1950.</p>
+        <p class="note" data-showview="nino:weekly">Weekly: OISST v2.1 anomalies, Niño 3.4 and Niño 1+2, from September 1981. Monthly: Niño 3.4 from ERSSTv6 (NOAA CPC), from 1950. The two products differ slightly and are not joined into one line. Dashed lines mark the thresholds: El Niño +0.5, strong +1.5, very strong +2.0, and La Niña −0.5. Our files hold Niño 1+2 only from 1981.</p>
+        <div class="ww-chart" id="chart-weekly-overview" data-source="sst_weekly sst_monthly nino_psl_ersst6 nino_hadisst enso_events oni headline"></div>
         <p class="note ww-through" id="through-weekly-overview"></p>
+        <p class="note" data-showview="nino:weekly">NOAA, National Weather Service and Climate Prediction Center data are in the public domain. This site is not affiliated with or endorsed by NOAA or the National Weather Service, and its charts and calculations are our own work, not official government products. <a href="about.html#licences">Data sources and licences</a>.</p>
+        <p class="note" data-showview="nino:long" hidden>Source: NOAA ERSST v6 via the NOAA Physical Sciences Laboratory (psl.noaa.gov/data/correlation, files nina1, nina3, nina34, nina4), retrieved 31 October 2026; 2026 values are preliminary. Cite Huang et al. 2025, <i>J. Climate</i> 38, 1105–1121 and 1123–1136. Before 1948: HadISST1.1, Met Office Hadley Centre, via NOAA PSL; HadISST data were obtained from metoffice.gov.uk/hadobs/hadisst and are © British Crown Copyright, Met Office, provided under an Open Government Licence; Rayner et al. 2003, <i>J. Geophys. Res.</i> 108(D14), 4407. NOAA, National Weather Service and Climate Prediction Center data are in the public domain. This site is not affiliated with or endorsed by NOAA or the National Weather Service, and its charts and calculations are our own work, not official government products. <a href="about.html#licences">Data sources and licences</a>.</p>
       </article>
       <article class="ww-card ww-span" id="card-soi-analogs">
         <h2>Southern Oscillation Index (SOI)</h2>
@@ -520,7 +528,8 @@ body { font-family: var(--font-anthropic-sans); }
         <div class="ww-legend" data-legend="soi_analogs" data-showview="soi:compare" hidden></div>
         <div class="ww-chart" id="chart-soi-analogs" data-source="soi_analogs atmosphere_monthly soi_cru enso_events"></div>
         <p class="note ww-through" id="through-soi-analogs"></p>
-        <p class="note" data-showview="soi:cru" hidden id="soi-cru-attrib">Source: <b>Climatic Research Unit, University of East Anglia</b>, SOI file soi_3dp.dat (<a href="https://crudata.uea.ac.uk/cru/data/soi/">crudata.uea.ac.uk/cru/data/soi</a>), retrieved 31 October 2026. Method: Ropelewski and Jones (1987), <i>Monthly Weather Review</i> 115, 2161–2165; early record: Allan et al. (1991) and Können et al. (1998). Licence: <a href="http://opendatacommons.org/licenses/odbl/1.0/">Open Database License 1.0</a> with contents under the <a href="http://opendatacommons.org/licenses/dbcl/1.0/">Database Contents License 1.0</a>: attribution and share-alike. The file <a href="data/soi_cru.csv">data/soi_cru.csv</a> on this site is a copy of the CRU values (the CRU missing code −99.990 left empty) and stays under the same licence.</p>
+        <p class="note" data-showview="soi:timeline soi:compare">SOI: NOAA Climate Prediction Center. NOAA, National Weather Service and Climate Prediction Center data are in the public domain. This site is not affiliated with or endorsed by NOAA or the National Weather Service, and its charts and calculations are our own work, not official government products. <a href="about.html#licences">Data sources and licences</a>.</p>
+        <p class="note" data-showview="soi:cru" hidden id="soi-cru-attrib">Source: <b>Climatic Research Unit, University of East Anglia</b>, SOI file soi_3dp.dat (<a href="https://crudata.uea.ac.uk/cru/data/soi/">crudata.uea.ac.uk/cru/data/soi</a>), retrieved 31 October 2026. Method: Ropelewski and Jones (1987), <i>Monthly Weather Review</i> 115, 2161–2165; early record: Allan et al. (1991) and Können et al. (1998). Licence: <a href="http://opendatacommons.org/licenses/odbl/1.0/">Open Database License 1.0</a> with contents under the <a href="http://opendatacommons.org/licenses/dbcl/1.0/">Database Contents License 1.0</a>: attribution and share-alike. The file <a href="data/soi_cru.csv">data/soi_cru.csv</a> on this site is a copy of the CRU values (the CRU missing code −99.990 left empty); it is a derived database offered under the Open Database License 1.0 and stays under the same licence. <a href="about.html#licences">Data sources and licences</a>.</p>
       </article>
       <article class="ww-card ww-span" id="card-blob-analogs">
         <h2>Blob and El Niño</h2>
@@ -536,6 +545,7 @@ body { font-family: var(--font-anthropic-sans); }
         <div class="ww-chart" id="chart-blob-oni" data-source="blob_analogs oni enso_events"></div>
         <p class="note ww-through" id="through-blob-analogs"></p>
         <p class="note">The Blob box is the region Bond et al. (2015) used for the 2014 warm anomaly. Months not yet published are left blank.</p>
+        <p class="note">Box means: NOAA NCEI ERSSTv5 through NOAA CoastWatch; ONI: NOAA Climate Prediction Center. NOAA, National Weather Service and Climate Prediction Center data are in the public domain. This site is not affiliated with or endorsed by NOAA or the National Weather Service, and its charts and calculations are our own work, not official government products. <a href="about.html#licences">Data sources and licences</a>.</p>
       </article>
     </div>
   </section>
@@ -3085,7 +3095,7 @@ window.WW = (() => {
   }
 
   // ---- Long overview charts (Web TASK-019): one shared period, phase bands from the ONI episodes ----
-  const RANGE = { from: '1981-01', to: 'now', soi: 'timeline', blob: 'timeline' };
+  const RANGE = { from: '1981-01', to: 'now', soi: 'timeline', blob: 'timeline', nino: 'weekly', region: 'nino34' };
   const DEFAULT_FROM = '1981-01';
   const monthRe = /^\d{4}-(0[1-9]|1[0-2])$/;
   const ym = (key) => Date.UTC(+key.slice(0, 4), +key.slice(5, 7) - 1, 1);
@@ -3097,7 +3107,7 @@ window.WW = (() => {
     const span = (id, col, key) => { const d = dash.data(id); if (d.status !== 'ok') return null; const r = d.data.filter((x) => x[col] !== '' && x[col] != null); return r.length ? { a: r[0][key].slice(0, 7), z: r[r.length - 1][key].slice(0, 7) } : null; };
     const s = {
       oni: span('oni', 'oni', 'centre_month'), ersst: span('sst_monthly', 'ersst_nino34', 'month'), soi: span('atmosphere_monthly', 'soi_3m', 'month'),
-      weekly: span('sst_weekly', 'nino34', 'week'), cru: span('soi_cru', 'soi_cru_rj1987', 'month'), nep: span('blob_boxes', 'nep_anom', 'month'), socal: span('blob_boxes', 'socal_anom', 'month'),
+      weekly: span('sst_weekly', 'nino34', 'week'), cru: span('soi_cru', 'soi_cru_rj1987', 'month'), psl: span('nino_psl_ersst6', 'nino34', 'month'), had: span('nino_hadisst', 'nino34', 'month'), nep: span('blob_boxes', 'nep_anom', 'month'), socal: span('blob_boxes', 'socal_anom', 'month'),
     };
     const all = Object.values(s).filter(Boolean);
     if (!all.length) return null;
@@ -3158,7 +3168,7 @@ window.WW = (() => {
     readRange(lim);
     const fi = box('range-from'), ti = box('range-to'), err = box('range-err');
     const st = (k) => (lim.s[k] ? monthYear(lim.s[k].a) : 'n/a');
-    box('range-hint').textContent = `Allowed period, from the data files: ${monthYear(lim.min)} to ${monthYear(lim.max)}. Type YYYY-MM; the end can also be “now”. Each chart starts where its own data start: weekly OISST ${st('weekly')}, ERSST monthly ${st('ersst')}, CPC SOI ${st('soi')}, CRU SOI ${st('cru')}, Blob boxes ${st('nep')}.`;
+    box('range-hint').textContent = `Allowed period, from the data files: ${monthYear(lim.min)} to ${monthYear(lim.max)}. Type YYYY-MM; the end can also be “now”. Each chart starts where its own data start: weekly OISST ${st('weekly')}, ERSST monthly ${st('ersst')}, CPC SOI ${st('soi')}, CRU SOI ${st('cru')}, NOAA ERSST v6 Niño ${st('psl')}, HadISST1.1 ${st('had')}, Blob boxes ${st('nep')}.`;
     const sync = () => { fi.value = RANGE.from; ti.value = RANGE.to; };
     const apply = (f, t) => {
       const fail = (m) => { err.textContent = m; fi.setAttribute('aria-invalid', 'true'); };
@@ -3181,6 +3191,7 @@ window.WW = (() => {
       const d = new Date(ym(lim.max)); d.setUTCFullYear(d.getUTCFullYear() - +p);
       apply(ymKey(Math.max(d.getTime(), ym(lim.min))), 'now');
     }));
+    box('nino-region').addEventListener('change', (ev) => { RANGE.region = ev.target.value; drawLong(); });
     document.querySelectorAll('.ww-view button').forEach((b) => b.addEventListener('click', () => {
       RANGE[b.dataset.card] = b.dataset.view;
       drawLong();
@@ -3190,7 +3201,8 @@ window.WW = (() => {
 
   function syncViews() {
     document.querySelectorAll('.ww-view button').forEach((b) => b.setAttribute('aria-pressed', String(RANGE[b.dataset.card] === b.dataset.view)));
-    document.querySelectorAll('[data-showview]').forEach((n) => { const [c, v] = n.dataset.showview.split(':'); n.hidden = RANGE[c] !== v; });
+    document.querySelectorAll('[data-showview]').forEach((n) => { n.hidden = !n.dataset.showview.split(/\s+/).some((x) => { const [c, v] = x.split(':'); return RANGE[c] === v; }); });
+    const sel = box('nino-region'); if (sel) sel.value = RANGE.region;
   }
 
   function drawLong() {
@@ -3199,7 +3211,7 @@ window.WW = (() => {
     initRange(lim);
     syncViews();
     box('range-phase').textContent = phaseSentence();
-    drawWeeklyLong(lim);
+    if (RANGE.nino === 'long') drawNinoLong(lim); else drawWeeklyLong(lim);
     if (RANGE.soi === 'timeline') drawSoiLong(lim); else if (RANGE.soi === 'cru') drawSoiCru(lim); else drawSoiCompare();
     if (RANGE.blob === 'timeline') drawBlobLong(lim); else drawBlobCompare();
   }
@@ -3238,6 +3250,38 @@ window.WW = (() => {
     });
     const wl = lastWith(w.rows, 'nino34'), ml = lastWith(m.rows, 'ersst_nino34');
     setThrough('through-weekly-overview', `Showing ${winText(lim)}. Data through the week centred ${wl ? dayFmt(wl.date) : '—'} (weekly OISST) and ${ml ? monthYear(ml.month) : '—'} (ERSST monthly).${startNote(lim.s.weekly, win, 'Weekly OISST')}${startNote(lim.s.ersst, win, 'ERSST monthly')}`);
+  }
+
+  const NINO_REGION = {
+    nino34: 'Niño 3.4 (5N-5S, 170-120W)', nino3: 'Niño 3 (5N-5S, 150-90W)', nino4: 'Niño 4 (5N-5S, 160E-150W)', nino12: 'Niño 1+2 (0-10S, 90-80W)',
+  };
+
+  // One NOAA ERSST v6 line (PSL) for the chosen region from 1948, and HadISST1.1 as a separate line before 1948; never spliced
+  function drawNinoLong(lim) {
+    const el = box('chart-weekly-overview');
+    const e = typed('nino_psl_ersst6', 'month', K.parseMonth), h = typed('nino_hadisst', 'month', K.parseMonth);
+    if (e.status !== 'ok' || h.status !== 'ok') return K.fail(el, e.status !== 'ok' ? e.status : h.status);
+    const win = resolveWindow(lim), keep = inWin(win), k = RANGE.region, name = NINO_REGION[k];
+    const rows = e.rows.filter((r) => keep(r) && r[k] != null).map((r) => ({ date: r.date, ers: r[k] }))
+      .concat(h.rows.filter((r) => keep(r) && r[k] != null).map((r) => ({ date: r.date, had: r[k] })))
+      .sort((a, b) => a.date - b.date);
+    if (!rows.length) return K.fail(el, 'missing');
+    const nc = ninoColors(), c = C();
+    const narrow = el.clientWidth < 560;
+    const lbl = (t) => (narrow || k !== 'nino34' ? undefined : t);
+    K.line(el, {
+      rows, x: (r) => r.date, xDomain: domainOf(win),
+      series: [
+        { key: 'had', label: `${name}, HadISST1.1 (Met Office, via NOAA PSL); anomaly from 1981-2010`, color: c[2] || K.muted, width: 1.25 },
+        { key: 'ers', label: `${name}, NOAA ERSST v6, via NOAA PSL; anomaly from 1981-2010`, color: nc.n34, width: 1.75 },
+      ],
+      zero: true, height: narrow ? 260 : 320, endLabels: false, minMl: 44, minMr: narrow || k !== 'nino34' ? 14 : 0, xSpans: phaseSpans(),
+      refs: k === 'nino34' ? [{ y: 0.5, label: lbl('+0.5 El Niño'), margin: true }, { y: 1.5, label: lbl('+1.5 strong'), margin: true }, { y: 2.0, label: lbl('+2.0 very strong'), margin: true }, { y: -0.5, label: lbl('−0.5 La Niña'), margin: true }] : [],
+      valFmt: (v) => K.signed(v, 2), tipTitle: (r) => monthYear(ymKey(r.date.getTime())),
+    });
+    const last = lastWith(e.rows.filter((r) => r[k] != null), k);
+    const lastKey = last ? ymKey(last.date.getTime()) : null;
+    setThrough('through-weekly-overview', `Showing ${winText(lim)}: ${name}. NOAA ERSST v6 data through ${lastKey ? monthYear(lastKey) : '—'} (later months are not published yet and are left blank, never shown as zero); HadISST1.1 is drawn only before 1948. Base period 1981–2010. 2026 values are preliminary.${startNote(lim.s.psl, win, 'NOAA ERSST v6')}${startNote(lim.s.had, win, 'HadISST1.1')}`);
   }
 
   function drawSoiLong(lim) {
