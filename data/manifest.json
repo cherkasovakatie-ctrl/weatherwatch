@@ -431,6 +431,22 @@
    "bytes": 27423
   },
   {
+   "id": "nino_hadisst",
+   "file": "nino_hadisst.csv",
+   "title": "HadISST1.1 Nino 1+2, 3, 3.4 and 4 monthly anomalies, 1870 to 1947",
+   "description": "Monthly sea-surface temperature anomalies (degC, from the 1981-2010 mean) for the four Nino boxes from the Met Office Hadley Centre HadISST1.1, as published by NOAA PSL (files nino12, nino3, nino34 and nino4 .long.anom.data, https://psl.noaa.gov/data/timeseries/month/, retrieved 31 Oct 2026). Only January 1870 to December 1947 is kept here: it is the part before the NOAA ERSST v6 file (nino_psl_ersst6) starts, shown as a separate line and never joined to it. Missing code -99.99 would be an empty cell (none in this period). Licence: HadISST1 is Crown copyright, provided under an Open Government Licence (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/); HadISST data were obtained from https://www.metoffice.gov.uk/hadobs/hadisst/ and are © British Crown Copyright, Met Office, provided under an Open Government Licence. Cite Rayner et al. 2003, J. Geophys. Res. 108(D14), 4407, doi:10.1029/2002JD002670. Fixed history; not part of the nightly job.",
+   "updated": "2026-10-31",
+   "bytes": 29595
+  },
+  {
+   "id": "nino_psl_ersst6",
+   "file": "nino_psl_ersst6.csv",
+   "title": "NOAA ERSST v6 Nino 1+2, 3, 3.4 and 4 monthly anomalies via NOAA PSL, 1948 to now",
+   "description": "Monthly sea-surface temperature anomalies (degC, from the 1981-2010 mean) from NOAA ERSST v6, as published by the NOAA Physical Sciences Laboratory (files nina1, nina3, nina34 and nina4 .anom.data, https://psl.noaa.gov/data/correlation/, retrieved 31 Oct 2026). Boxes: Nino 1+2 0-10S 90-80W, Nino 3 5N-5S 150-90W, Nino 3.4 5N-5S 170-120W, Nino 4 5N-5S 160E-150W. January 1948 to September 2026; the PSL missing code -99.99 is an empty cell (unavailable, never zero): October to December 2026 are empty on the retrieval date. 2026 values are preliminary. Public domain NOAA data; cite Huang et al. 2025, J. Climate 38, 1105-1121 (doi:10.1175/JCLI-D-23-0707.1) and 1123-1136 (doi:10.1175/JCLI-D-24-0185.1). Not the same series as the CPC ERSSTv6 Nino 3.4 column in sst_monthly (different base period). Replaced whole by hand once a month; not part of the nightly job.",
+   "updated": "2026-10-31",
+   "bytes": 29680
+  },
+  {
    "id": "oni",
    "file": "oni.csv",
    "title": "ONI and RONI",
