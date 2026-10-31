@@ -1,0 +1,10 @@
+station,pole,lat,lon,temp_now_c,wind_kmh,today_mean_c,normal_c,anomaly_c,obs_time_utc
+North Pole,Arctic,89.9,0,-12.1,21.9,-12.9,-15.4,2.5,2026-10-23 18:45
+"Alert, Nunavut",Arctic,82.5,-62.35,-18.9,9.8,-15.9,-20.6,4.7,2026-10-23 18:45
+"Longyearbyen, Svalbard",Arctic,78.22,15.63,-0.4,14.5,-0.4,-8.1,7.7,2026-10-23 18:45
+"Summit, Greenland",Arctic,72.58,-38.46,-31.5,20.2,-30.5,-32.6,2.1,2026-10-23 18:45
+"Utqiagvik, Alaska",Arctic,71.29,-156.79,-2.6,12.8,-1.5,-7.3,5.8,2026-10-23 18:45
+South Pole,Antarctic,-89.9,0,-41.1,25.1,-39.6,-44.5,4.9,2026-10-23 18:45
+Vostok,Antarctic,-78.46,106.84,-52,17.7,-48.8,-50.9,2.1,2026-10-23 18:45
+McMurdo,Antarctic,-77.85,166.67,-15.7,22.8,-15,-19.7,4.7,2026-10-23 18:45
+"Rothera, Antarctic Peninsula",Antarctic,-67.57,-68.13,-0.3,9.2,-2.3,-7,4.7,2026-10-23 18:45

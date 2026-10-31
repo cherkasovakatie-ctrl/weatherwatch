@@ -1,0 +1,66 @@
+rank,alignment,window,n_alignments,time_share,hazard,n,observed,expected,ratio,p_value,q_fdr,verdict
+1,Venus inferior conjunction,±15 d,32,5.2,"Eruption starts, VEI 2+",992,65,51.8,1.25,0.017,0.5,Nominal only (fails correction)
+2,Venus inferior conjunction,±7 d,32,2.5,"Eruption starts, VEI 2+",992,35,25.1,1.39,0.02,0.5,Nominal only (fails correction)
+3,Venus inferior conjunction,±15 d,32,5.2,"Eruption starts, VEI 3+",288,23,15.0,1.53,0.023,0.5,Nominal only (fails correction)
+4,Double inferior conjunction (Mercury and Venus within 20 d),±15 d,7,1.1,"Eruption starts, VEI 3+",288,7,3.3,2.12,0.049,0.8,Nominal only (fails correction)
+5,Double inferior conjunction (Mercury and Venus within 20 d),±15 d,7,1.1,"Eruption starts, VEI 2+",992,17,11.4,1.5,0.073,0.82,No effect
+6,Mercury retrograde (days),,,19.1,"Eruption starts, VEI 2+",992,206,189.7,1.09,0.076,0.82,No effect
+7,Venus inferior conjunction,±7 d,32,2.5,"Eruption starts, VEI 3+",288,11,7.3,1.51,0.112,0.91,No effect
+8,Venus retrograde (days),,,7.1,"Eruption starts, VEI 2+",992,78,70.3,1.11,0.124,0.91,No effect
+9,Sun–Mercury–Venus–Earth line-up (heliocentric ≤15°),±7 d,9,0.7,"Eruption starts, VEI 3+",288,4,2.1,1.93,0.157,0.91,No effect
+10,Double inferior conjunction (Mercury and Venus within 20 d),±7 d,7,0.6,"Eruption starts, VEI 2+",992,8,5.5,1.46,0.197,0.91,No effect
+11,Both retrograde (days),,,1.1,"Eruption starts, VEI 3+",288,5,3.1,1.59,0.205,0.91,No effect
+12,Both retrograde (days),,,1.1,"Eruption starts, VEI 2+",992,14,10.8,1.29,0.21,0.91,No effect
+13,Venus retrograde (days),,,7.1,"Eruption starts, VEI 3+",288,24,20.4,1.18,0.226,0.91,No effect
+14,Mercury inferior conjunction,±15 d,164,26.7,"Eruption starts, VEI 2+",992,277,264.8,1.05,0.229,0.91,No effect
+15,Sun–Mercury–Venus–Earth line-up (heliocentric ≤15°),±15 d,9,1.5,"Eruption starts, VEI 3+",288,6,4.2,1.42,0.255,0.91,No effect
+16,Mercury inferior conjunction,±7 d,164,12.9,"Eruption starts, VEI 3+",288,43,37.2,1.16,0.261,0.91,No effect
+17,Mercury retrograde (days),,,19.1,"Eruption starts, VEI 3+",288,63,55.3,1.14,0.264,0.91,No effect
+18,Mercury inferior conjunction,±7 d,164,12.9,M6+ mainshocks,5207,692,672.9,1.03,0.279,0.91,No effect
+19,Sun–Mercury–Venus–Earth line-up (heliocentric ≤15°),±7 d,9,0.7,"Eruption starts, VEI 2+",992,9,7.0,1.28,0.282,0.91,No effect
+20,Mercury retrograde (days),,,19.1,M6+ mainshocks,5207,1020,996.4,1.02,0.297,0.91,No effect
+21,Mercury inferior conjunction,±15 d,164,26.7,"Eruption starts, VEI 3+",288,85,77.0,1.1,0.306,0.91,No effect
+22,Venus inferior conjunction,±7 d,32,2.5,M7.5+ mainshocks,214,7,5.5,1.28,0.307,0.91,No effect
+23,Mercury inferior conjunction,±7 d,164,12.9,"Eruption starts, VEI 2+",992,132,128.2,1.03,0.376,1.0,No effect
+24,Sun–Mercury–Venus–Earth line-up (heliocentric ≤15°),±7 d,9,0.7,M6+ mainshocks,5207,39,37.1,1.05,0.411,1.0,No effect
+25,5+ planets (Me–Sa incl. Earth) within 60° heliocentric,±7 d,12,0.9,M7+ mainshocks,658,7,6.2,1.13,0.431,1.0,No effect
+26,Venus inferior conjunction,±15 d,32,5.2,M7.5+ mainshocks,214,12,11.3,1.07,0.456,1.0,No effect
+27,Mercury inferior conjunction,±15 d,164,26.7,M7+ mainshocks,658,175,175.6,1.0,0.491,1.0,No effect
+28,Mercury inferior conjunction,±7 d,164,12.9,M7+ mainshocks,658,83,85.0,0.98,0.546,1.0,No effect
+29,5+ planets (Me–Sa incl. Earth) within 60° heliocentric,±7 d,12,0.9,M6+ mainshocks,5207,48,49.3,0.97,0.562,1.0,No effect
+30,Mercury inferior conjunction,±15 d,164,26.7,M6+ mainshocks,5207,1389,1390.3,1.0,0.575,1.0,No effect
+31,5+ planets (Me–Sa incl. Earth) within 60° heliocentric,±7 d,12,0.9,M7.5+ mainshocks,214,2,2.0,1.0,0.58,1.0,No effect
+32,Mercury retrograde (days),,,19.1,M7+ mainshocks,658,122,126.0,0.97,0.589,1.0,No effect
+33,Double inferior conjunction (Mercury and Venus within 20 d),±15 d,7,1.1,M7+ mainshocks,658,7,7.5,0.94,0.613,1.0,No effect
+34,Venus inferior conjunction,±7 d,32,2.5,M7+ mainshocks,658,15,16.7,0.9,0.641,1.0,No effect
+35,Double inferior conjunction (Mercury and Venus within 20 d),±15 d,7,1.1,M6+ mainshocks,5207,56,59.5,0.94,0.641,1.0,No effect
+36,5+ planets (Me–Sa incl. Earth) within 60° heliocentric,±15 d,12,2.0,"Eruption starts, VEI 2+",992,18,19.4,0.93,0.643,1.0,No effect
+37,Sun–Mercury–Venus–Earth line-up (heliocentric ≤15°),±7 d,9,0.7,M7+ mainshocks,658,4,4.7,0.85,0.674,1.0,No effect
+38,Sun–Mercury–Venus–Earth line-up (heliocentric ≤15°),±15 d,9,1.5,"Eruption starts, VEI 2+",992,13,14.6,0.89,0.687,1.0,No effect
+39,Sun–Mercury–Venus–Earth line-up (heliocentric ≤15°),±15 d,9,1.5,M6+ mainshocks,5207,70,76.6,0.91,0.694,1.0,No effect
+40,Mercury inferior conjunction,±7 d,164,12.9,M7.5+ mainshocks,214,25,27.7,0.9,0.696,1.0,No effect
+41,Double inferior conjunction (Mercury and Venus within 20 d),±7 d,7,0.6,M7+ mainshocks,658,3,3.7,0.82,0.697,1.0,No effect
+42,Venus retrograde (days),,,7.1,M7.5+ mainshocks,214,13,15.1,0.86,0.714,1.0,No effect
+43,5+ planets (Me–Sa incl. Earth) within 60° heliocentric,±7 d,12,0.9,"Eruption starts, VEI 2+",992,8,9.5,0.84,0.73,1.0,No effect
+44,Double inferior conjunction (Mercury and Venus within 20 d),±7 d,7,0.6,M6+ mainshocks,5207,25,28.8,0.87,0.734,1.0,No effect
+45,5+ planets (Me–Sa incl. Earth) within 60° heliocentric,±15 d,12,2.0,M6+ mainshocks,5207,94,102.0,0.92,0.743,1.0,No effect
+46,Venus inferior conjunction,±15 d,32,5.2,M7+ mainshocks,658,30,34.4,0.87,0.752,1.0,No effect
+47,5+ planets (Me–Sa incl. Earth) within 60° heliocentric,±7 d,12,0.9,"Eruption starts, VEI 3+",288,2,2.7,0.73,0.767,1.0,No effect
+48,Venus inferior conjunction,±7 d,32,2.5,M6+ mainshocks,5207,119,131.3,0.91,0.812,1.0,No effect
+49,Double inferior conjunction (Mercury and Venus within 20 d),±7 d,7,0.6,"Eruption starts, VEI 3+",288,1,1.6,0.63,0.813,1.0,No effect
+50,5+ planets (Me–Sa incl. Earth) within 60° heliocentric,±15 d,12,2.0,"Eruption starts, VEI 3+",288,4,5.7,0.71,0.817,1.0,No effect
+51,Both retrograde (days),,,1.1,M6+ mainshocks,5207,48,56.8,0.85,0.832,1.0,No effect
+52,Both retrograde (days),,,1.1,M7+ mainshocks,658,5,7.2,0.7,0.832,1.0,No effect
+53,Both retrograde (days),,,1.1,M7.5+ mainshocks,214,1,2.3,0.43,0.871,1.0,No effect
+54,5+ planets (Me–Sa incl. Earth) within 60° heliocentric,±15 d,12,2.0,M7+ mainshocks,658,9,12.8,0.7,0.885,1.0,No effect
+55,Sun–Mercury–Venus–Earth line-up (heliocentric ≤15°),±15 d,9,1.5,M7+ mainshocks,658,6,9.7,0.62,0.893,1.0,No effect
+56,Mercury retrograde (days),,,19.1,M7.5+ mainshocks,214,33,41.0,0.81,0.905,1.0,No effect
+57,Mercury inferior conjunction,±15 d,164,26.7,M7.5+ mainshocks,214,48,57.3,0.84,0.911,1.0,No effect
+58,5+ planets (Me–Sa incl. Earth) within 60° heliocentric,±15 d,12,2.0,M7.5+ mainshocks,214,2,4.2,0.48,0.921,1.0,No effect
+59,Venus retrograde (days),,,7.1,M6+ mainshocks,5207,336,369.8,0.91,0.929,1.0,No effect
+60,Venus inferior conjunction,±15 d,32,5.2,M6+ mainshocks,5207,244,272.0,0.9,0.931,1.0,No effect
+61,Venus retrograde (days),,,7.1,M7+ mainshocks,658,36,46.7,0.77,0.935,1.0,No effect
+62,Double inferior conjunction (Mercury and Venus within 20 d),±7 d,7,0.6,M7.5+ mainshocks,214,0,1.2,0.0,1.0,1.0,No effect
+63,Double inferior conjunction (Mercury and Venus within 20 d),±15 d,7,1.1,M7.5+ mainshocks,214,0,2.4,0.0,1.0,1.0,No effect
+64,Sun–Mercury–Venus–Earth line-up (heliocentric ≤15°),±7 d,9,0.7,M7.5+ mainshocks,214,0,1.5,0.0,1.0,1.0,No effect
+65,Sun–Mercury–Venus–Earth line-up (heliocentric ≤15°),±15 d,9,1.5,M7.5+ mainshocks,214,0,3.2,0.0,1.0,1.0,No effect

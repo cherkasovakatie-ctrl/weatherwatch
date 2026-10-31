@@ -1,0 +1,13 @@
+n,r,rho,n_eff,p,p_perm,x,y,label,bonferroni_ok
+76,-0.34,-0.34,76.0,0.0023,0.0004,oni_aso,ace_atlantic,ONI (ASO) vs Atlantic ACE,True
+76,0.28,0.15,76.0,0.013,0.0068,oni_aso,ace_east_pacific,ONI (ASO) vs east & central Pacific ACE,False
+75,0.63,0.6,75.0,0.0,0.0002,oni_aso,ace_west_pacific,ONI (ASO) vs western Pacific ACE,True
+75,-0.02,-0.09,75.0,0.8783,0.8652,oni_aso,ace_north_indian,ONI (ASO) vs north Indian ACE,False
+74,0.08,0.05,74.0,0.4934,0.3901,oni_djf,ace_southern,ONI (DJF) vs southern hemisphere ACE,False
+75,0.5,0.47,75.0,0.0,0.0002,oni_aso,ace_nh_total,ONI (ASO) vs northern hemisphere ACE,True
+76,-0.02,0.02,66.7,0.8666,0.8542,oni_annual,eq_m6,"ONI (annual) vs M6+ earthquakes, all",False
+76,-0.05,0.01,66.3,0.6608,0.6363,oni_annual,eq_m6_main,ONI (annual) vs M6+ mainshocks,False
+76,0.06,0.07,73.1,0.6178,0.5935,oni_annual,eq_m7,ONI (annual) vs M7+ earthquakes,False
+76,0.17,0.19,76.0,0.1434,0.1416,oni_annual,eruptions_detrended,"ONI (annual) vs eruptions, detrended",False
+76,0.1,0.09,75.0,0.4143,0.4193,oni_annual,eruptions_vei3,ONI (annual) vs VEI 3+ eruptions,False
+76,-0.13,-0.13,76.0,0.2461,0.2681,eq_m6_main_detrended,eruptions_detrended,"M6+ mainshocks vs eruptions, both detrended",False
