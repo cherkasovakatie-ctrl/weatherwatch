@@ -1,18 +1,18 @@
 {
- "run_utc": "2026-10-30T20:41:01.792Z",
- "run_local": "2026-10-30 13:41",
+ "run_utc": "2026-10-31T19:53:47.620Z",
+ "run_local": "2026-10-31 12:53",
  "results": [
   {
    "id": "earthquakes",
    "ok": true,
-   "rows": 743,
-   "newest": "2026-10-30 18:01"
+   "rows": 733,
+   "newest": "2026-10-31 18:51"
   },
   {
    "id": "local_obs",
    "ok": true,
-   "rows": 37,
-   "newest": "2026-10-30 13:30"
+   "rows": 35,
+   "newest": "2026-10-31 11:53"
   },
   {
    "id": "local_periods",
@@ -24,43 +24,43 @@
    "id": "local_hourly",
    "ok": true,
    "rows": 216,
-   "newest": "2026-11-05 23:00"
+   "newest": "2026-11-06 23:00"
   },
   {
    "id": "local_tides",
    "ok": true,
    "rows": 192,
-   "newest": "2026-11-03 23:00"
+   "newest": "2026-11-04 23:00"
   },
   {
    "id": "local_hilo",
    "ok": true,
-   "rows": 31,
-   "newest": "2026-11-03 23:25"
+   "rows": 30,
+   "newest": "2026-11-04 17:55"
   },
   {
    "id": "local_watertemp",
    "ok": true,
    "rows": 72,
-   "newest": "2026-10-30 13:00"
+   "newest": "2026-10-31 12:00"
   },
   {
    "id": "fires_global_grid",
    "ok": true,
-   "rows": 3580,
+   "rows": 3433,
    "newest": "9.5"
   },
   {
    "id": "fires_socal",
    "ok": true,
-   "rows": 161,
-   "newest": "2026-10-29"
+   "rows": 104,
+   "newest": "2026-10-31"
   },
   {
    "id": "space_daily",
    "ok": true,
    "rows": 31,
-   "newest": "2026-10-29",
+   "newest": "2026-10-30",
    "note": "1 new, 0 values updated"
   },
   {
@@ -74,7 +74,7 @@
    "ok": true,
    "rows": 667,
    "newest": "2026-10-29",
-   "note": "1 new, 0 values updated"
+   "note": "0 new, 0 values updated"
   },
   {
    "id": "coral_now",
@@ -84,15 +84,32 @@
   },
   {
    "id": "ozone_2026",
-   "ok": false,
-   "error": "https://ozonewatch.gsfc.nasa.gov/meteorology/figures/ozone/to3areas_2026_toms+omi+omps.txt: fetch failed"
+   "ok": true,
+   "rows": 170,
+   "newest": "2026-12-31",
+   "note": "0 new, 2 values updated"
+  },
+  {
+   "id": "mjo_daily",
+   "ok": true,
+   "rows": 150,
+   "newest": "2026-10-27",
+   "note": "1 new days, 4 days revised by the source"
+  },
+  {
+   "id": "cdec_reservoirs",
+   "ok": true,
+   "rows": 13,
+   "newest": "2026-10-30",
+   "note": "report of 2026-10-30",
+   "warning": "no value in the report for EXC (left blank)"
   },
   {
    "id": "seaice_clim",
    "ok": true,
    "rows": 365,
    "newest": "12-31",
-   "note": "0 new, 4 values updated"
+   "note": "0 new, 2 values updated"
   },
   {
    "id": "oni",
@@ -132,9 +149,9 @@
   {
    "id": "storm_fixes",
    "ok": true,
-   "rows": 609,
+   "rows": 580,
    "newest": "Wati",
-   "note": "607 IBTrACS fixes, 607 checked against the old file, 2 existing rows kept (advisories, or storms not in IBTrACS)"
+   "note": "578 IBTrACS fixes, 578 checked against the old file, 2 existing rows kept (advisories, or storms not in IBTrACS)"
   },
   {
    "id": "sst_weekly",
@@ -152,10 +169,8 @@
   },
   {
    "id": "blob_boxes",
-   "ok": true,
-   "rows": 177,
-   "newest": "2026-09",
-   "note": "0 new, 0 values updated"
+   "ok": false,
+   "error": "https://upwell.pfeg.noaa.gov/erddap/griddap/nceiErsstv5.csv?sst[(1991-01-01):1:(last)][(0.0)][(40):1:(50)][(210):1:(224)]: HTTP 403"
   },
   {
    "id": "volcano_alerts_us",
