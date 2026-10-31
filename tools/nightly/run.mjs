@@ -25,7 +25,7 @@ async function getJson(url, tries = 3) {
       await new Promise((res) => setTimeout(res, 3000 * (i + 1)));
     }
   }
-  throw new Error(`${url}: ${last.message}`);
+  throw new Error(`${url}: ${F.errText(last)}`);
 }
 
 const ymd = (d) => T.localDate(d).replace(/-/g, '');
@@ -50,7 +50,7 @@ async function getText(url, tries = 3) {
       await new Promise((res) => setTimeout(res, 5000 * (i + 1)));
     }
   }
-  throw new Error(redact(`${url}: ${last.message}`));
+  throw new Error(redact(`${url}: ${F.errText(last)}`));
 }
 
 async function firms(area, days) {
@@ -77,7 +77,7 @@ async function fetchText(url, { expect = null, tries = 3, timeout = 90000, wait 
       await new Promise((res) => setTimeout(res, wait * (i + 1)));
     }
   }
-  throw new Error(`${url}: ${last.message}`);
+  throw new Error(`${url}: ${F.errText(last)}`);
 }
 
 /** Merge fresh objects into the existing file after checking them against its overlapping values. */
@@ -181,6 +181,15 @@ const JOBS = {
       const out = patch(old, 'date', F.ozoneRows(area, mins).filter((r) => r.date >= start), { cols: ['area_mean', 'area_p10', 'area_p90'], tol: 0.02, accept: () => false });
       return { ...out, warning };
     },
+  },
+  // ---- moved from the weekly hand refresh (TASK-013): same recipe as tools/weekly/process.py ----
+  mjo_daily: {
+    min: 150, time: 'max',
+    run: async (old) => F.romiUpdate(old, await fetchText('https://psl.noaa.gov/mjo/mjoindex/romi.cpcolr.1x.txt', { expect: /\d{4}\s+\d{1,2}\s+\d{1,2}\s+\d+\s+-?[\d.]+\s+-?[\d.]+\s+[\d.]+/, timeout: 120000 })),
+  },
+  cdec_reservoirs: {
+    min: 10, time: null,
+    run: async (old) => F.cdecUpdate(old, await fetchText('https://cdec.water.ca.gov/reportapp/javareports?name=RES', { expect: /Daily Reservoir Storage Summary/ }), T.localDate(now)),
   },
   seaice_clim: {
     min: 365, time: null,
@@ -316,14 +325,17 @@ function check(id, job, out, oldTxt) {
   return null;
 }
 
+const RETRY_WAIT_S = Number(process.env.NIGHTLY_RETRY_WAIT_S ?? 120);
+
 async function main() {
   const mPath = path.join(DATA, 'manifest.json');
   const manifest = JSON.parse(await readFile(mPath, 'utf8'));
   const today = T.localDate(now);
   const results = [];
-  for (const [id, job] of Object.entries(JOBS)) {
+  // One job: fetch, check, write. Returns the status row; never throws.
+  const runOne = async (id, job) => {
     const ds = manifest.datasets.find((d) => d.id === id);
-    if (!ds) { results.push({ id, ok: false, error: 'not in manifest' }); continue; }
+    if (!ds) return { id, ok: false, error: 'not in manifest' };
     const file = path.join(DATA, ds.file);
     try {
       const oldTxt = await readFile(file, 'utf8');
@@ -332,11 +344,23 @@ async function main() {
       if (problem) throw new Error(problem);
       const csv = T.toCsv(out.header, out.rows);
       await writeFile(file, csv);
-      T.stampDataset(ds, out.rows, today);
+      T.stampDataset(ds, out.rows, today, out.dataThrough);
       ds.bytes = Buffer.byteLength(csv);
-      results.push({ id, ok: true, rows: out.rows.length, newest: out.rows.map((r) => String(r[0])).sort().at(-1), ...(out.note ? { note: out.note } : {}), ...(out.warning ? { warning: out.warning } : {}) });
+      return { id, ok: true, rows: out.rows.length, newest: out.dataThrough ?? out.rows.map((r) => String(r[0])).sort().at(-1), ...(out.note ? { note: out.note } : {}), ...(out.warning ? { warning: out.warning } : {}) };
     } catch (e) {
-      results.push({ id, ok: false, error: redact(e.message) });
+      return { id, ok: false, error: redact(e.message) };
+    }
+  };
+  for (const [id, job] of Object.entries(JOBS)) results.push(await runOne(id, job));
+  // A feed that failed because of a network or server hiccup gets one more try after the others, a couple of minutes later:
+  // the job runs once per day, so a miss would otherwise stand until the next day (ozone_2026 failed this way on 27 and 30 Oct).
+  const again = results.filter((r) => !r.ok && F.isTransient(r.error));
+  if (again.length) {
+    console.log(`retrying after ${RETRY_WAIT_S} s: ${again.map((r) => r.id).join(', ')}`);
+    await new Promise((res) => setTimeout(res, RETRY_WAIT_S * 1000));
+    for (const r of again) {
+      const second = await runOne(r.id, JOBS[r.id]);
+      results[results.indexOf(r)] = second.ok ? { ...second, note: `${second.note ? second.note + '; ' : ''}succeeded on the second try (first: ${r.error.slice(-80)})` } : { ...second, error: `${second.error} (second try after the first: ${r.error.slice(-80)})` };
     }
   }
   if (results.some((r) => r.ok)) manifest.refreshed_iso = today; // day of the last nightly run that wrote data; top-level `updated` stays the manual snapshot date

@@ -363,3 +363,88 @@ export function ibtracsRows(csv, since) {
   }
   return out;
 }
+
+// ---------- MJO: PSL real-time ROMI (CPC OLR), the same recipe as tools/weekly/process.py ----------
+// Source lines: "year month day hour PC1 PC2 amplitude". rmm1 = PC2, rmm2 = -PC1 (so the phase plane matches the RMM convention),
+// phase 1-8 from the angle. The file keeps the last 150 days and is rewritten as a whole, because PSL revises the newest days.
+const f3 = (x) => (Object.is(x, -0) ? '-0.000' : x.toFixed(3)); // Python prints -0.000 for a negative zero, JS prints 0.000
+
+export function romiRows(text, keep = 150) {
+  const rows = [];
+  for (const line of text.split(/\r?\n/)) {
+    const p = line.trim().split(/\s+/);
+    if (p.length !== 7 || !/^\d+$/.test(p[0])) continue;
+    const pc1 = Number(p[4]), pc2 = Number(p[5]), amp = Number(p[6]);
+    if (![pc1, pc2, amp].every(Number.isFinite) || Math.abs(pc1) > 99 || Math.abs(pc2) > 99) continue; // -9999-style fill values are skipped, not drawn
+    const r1 = pc2, r2 = -pc1;
+    const phase = (Math.floor(((Math.atan2(r2, r1) * 180) / Math.PI + 180) / 45) % 8) + 1;
+    rows.push({ date: `${p[0]}-${String(+p[1]).padStart(2, '0')}-${String(+p[2]).padStart(2, '0')}`, rmm1: f3(r1), rmm2: f3(r2), amplitude: f3(amp), phase: String(phase) });
+  }
+  return rows.slice(-keep);
+}
+
+const addDays = (ymd, n) => new Date(Date.parse(`${ymd}T00:00:00Z`) + n * 86400e3).toISOString().slice(0, 10);
+
+/** New mjo_daily.csv text from the source text. Refuses (throws) if the source is short or older than the file, or if values
+ *  older than `settle` days disagree with the file (a misread column); the newest days are allowed to be revised. */
+export function romiUpdate(oldText, srcText, { keep = 150, settle = 10, tol = 0.002 } = {}) {
+  const lines = oldText.replace(/\r/g, '').trim().split('\n');
+  const header = lines[0].split(',');
+  const oldRows = new Map(lines.slice(1).map((l) => { const v = l.split(','); return [v[0], Object.fromEntries(header.map((c, i) => [c, v[i]]))]; }));
+  const fresh = romiRows(srcText, keep);
+  if (fresh.length < keep) throw new Error(`source has only ${fresh.length} usable days (need ${keep})`);
+  const oldNewest = [...oldRows.keys()].sort().at(-1) || '';
+  if (fresh.at(-1).date < oldNewest) throw new Error(`newest source day ${fresh.at(-1).date} is older than the file's ${oldNewest}`);
+  const cutoff = oldNewest ? addDays(oldNewest, -settle) : '';
+  const bad = overlapCheck(oldRows, fresh.filter((r) => r.date < cutoff), 'date', ['rmm1', 'rmm2', 'amplitude', 'phase'], tol, { last: 60 });
+  if (bad && oldRows.size) throw new Error(bad);
+  const added = fresh.filter((r) => !oldRows.has(r.date)).length;
+  const revised = fresh.filter((r) => oldRows.has(r.date) && header.some((c) => c !== 'date' && oldRows.get(r.date)[c] !== r[c])).length;
+  return { header, rows: fresh.map((r) => header.map((c) => r[c])), note: `${added} new days, ${revised} days revised by the source` };
+}
+
+// ---------- California reservoirs: CDEC daily reservoir report (RES) ----------
+const stripTags = (s) => s.replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
+
+/** Rows of the RES table as {station, capacity, storage, pct_cap, pct_avg}, found by the header labels, not by position. */
+export function cdecParse(html) {
+  const table = /<table[^>]*id="RES"[^>]*>(.*?)<\/table>/s.exec(html);
+  if (!table) throw new Error('RES table not found');
+  const rows = [...table[1].matchAll(/<tr\b[^>]*>(.*?)<\/tr>/gs)].map((m) => ({ ths: [...m[1].matchAll(/<th\b[^>]*>(.*?)<\/th>/gs)].map((x) => stripTags(x[1])), tds: [...m[1].matchAll(/<td\b[^>]*>(.*?)<\/td>/gs)].map((x) => stripTags(x[1])) }));
+  const head = rows.find((r) => r.ths.includes('StaID'));
+  if (!head) throw new Error('RES header row not found');
+  const col = (label) => { const i = head.ths.indexOf(label); if (i < 0) throw new Error(`RES column "${label}" not found (layout changed)`); return i; };
+  const ix = { station: col('StaID'), capacity: col('Capacity (AF)'), storage: col('Storage (AF)'), pct_cap: col('% of Capacity'), pct_avg: col('% of Average') };
+  return rows.filter((r) => r.tds.length >= head.ths.length).map((r) => Object.fromEntries(Object.entries(ix).map(([k, i]) => [k, r.tds[i]])));
+}
+
+const cdecNum = (s) => (/^-?[\d,]+$/.test(s) ? s.replace(/,/g, '') : ''); // '---', blank or anything else is unavailable, never zero
+
+/** New cdec_reservoirs.csv rows from the RES page. Reservoir names, order and capacities come from the existing file; a
+ *  capacity that differs, a missing station, a missing report date or a report older than `maxAgeDays` is an error.
+ *  A reservoir with no value that day gets blank cells. */
+export function cdecUpdate(oldText, html, today, { maxAgeDays = 3 } = {}) {
+  const lines = oldText.replace(/\r/g, '').trim().split('\n');
+  const header = lines[0].split(',');
+  const old = lines.slice(1).map((l) => { const v = l.split(','); return Object.fromEntries(header.map((c, i) => [c, v[i]])); });
+  const md = /Ending at midnight\s*-\s*(\d{2})\/(\d{2})\/(\d{4})/.exec(stripTags(html));
+  if (!md) throw new Error('report date not found');
+  const reportDate = `${md[3]}-${md[1]}-${md[2]}`;
+  const age = Math.round((Date.parse(`${today}T00:00:00Z`) - Date.parse(`${reportDate}T00:00:00Z`)) / 86400e3);
+  if (age > maxAgeDays || age < -1) throw new Error(`report of ${reportDate} is ${age} days from today`);
+  const page = new Map(cdecParse(html).map((r) => [r.station, r]));
+  const missing = [];
+  const rows = old.map((o) => {
+    const r = page.get(o.station);
+    if (!r) throw new Error(`station ${o.station} not in the report`);
+    if (cdecNum(r.capacity) !== o.capacity_af) throw new Error(`${o.station}: capacity ${r.capacity} differs from ${o.capacity_af}`);
+    const v = [cdecNum(r.storage), cdecNum(r.pct_cap), cdecNum(r.pct_avg)];
+    if (v.some((x) => x === '')) missing.push(o.station);
+    return [o.reservoir, o.station, o.capacity_af, ...v];
+  });
+  return { header, rows, dataThrough: reportDate, note: `report of ${reportDate}`, ...(missing.length ? { warning: `no value in the report for ${missing.join(', ')} (left blank)` } : {}) };
+}
+
+// ---------- failures: a readable cause, and which ones are worth a second try ----------
+export const errText = (e) => `${e.message}${e.cause ? ` (${e.cause.code || e.cause.message})` : ''}`;
+export const isTransient = (msg) => /fetch failed|HTTP 5\d\d|HTTP 429|timeout|timed out|aborted|ECONNRESET|ETIMEDOUT|ENOTFOUND|EAI_AGAIN/i.test(String(msg));

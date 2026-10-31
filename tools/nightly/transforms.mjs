@@ -58,9 +58,9 @@ export function dataThrough(rows) {
 
 // `updated` keeps its meaning (the day the job last ran successfully); `data_through` says how far the data reaches,
 // so a stale source is visible even though `updated` moved. A table without dates drops any old `data_through`.
-export function stampDataset(ds, rows, today) {
+export function stampDataset(ds, rows, today, through = null) {
   ds.updated = today;
-  const dt = dataThrough(rows);
+  const dt = through || dataThrough(rows); // a job whose table has no date column can pass the date of its source report
   if (dt === null) delete ds.data_through;
   else ds.data_through = dt;
   return ds;

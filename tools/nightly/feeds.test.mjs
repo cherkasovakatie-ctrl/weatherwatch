@@ -134,3 +134,88 @@ test('IBTrACS: a low after the tropical stage is post-tropical, before it a dist
   const r = F.ibtracsRows([head, ' ,Year', row(1, 'DB', 20), row(2, 'TS', 45), row(3, 'LO', 25)].join('\n'), '2026-09-01 00:00');
   assert.deepEqual(r.map((x) => x.category), ['Low or disturbance', 'TS', 'Post-tropical']);
 });
+// ---------- TASK-013: mjo_daily and cdec_reservoirs moved into the nightly job; saved samples under fixtures/ ----------
+import { readFileSync } from 'node:fs';
+import * as T from './transforms.mjs';
+const fx = (n) => readFileSync(new URL(`./fixtures/${n}`, import.meta.url), 'utf8').replace(/\r/g, '');
+
+test('romiRows: the last 150 days equal the output of the weekly Python recipe on the same saved source lines', () => {
+  const golden = fx('romi_sample.expected.csv').trim().split('\n').slice(1).map((l) => l.split(','));
+  const rows = F.romiRows(fx('romi_sample.txt')).map((r) => [r.date, r.rmm1, r.rmm2, r.amplitude, r.phase]);
+  assert.equal(rows.length, 150);
+  assert.deepEqual(rows, golden);
+});
+
+test('romiRows: fill values are skipped, a negative zero keeps its sign like Python, rows with other shapes are ignored', () => {
+  const src = '2026  1  1  0   -9999.0   -9999.0   -9999.0\n2026  1  2  0     0.00000     0.50000     0.50000\n#comment\n2026  1  3  0    -0.00040     0.50000     0.50000\n';
+  const rows = F.romiRows(src);
+  assert.deepEqual(rows.map((r) => r.date), ['2026-01-02', '2026-01-03']);
+  assert.equal(rows[0].rmm2, '-0.000'); // rmm2 = -PC1 = -0
+  assert.equal(rows[1].rmm2, '0.000'); // -(-0.0004) rounds to 0.000
+});
+
+const oldMjo = fx('mjo_old_sample.csv');
+test('romiUpdate: the file is rewritten with the new days; the newest days of the old file may be revised by the source', () => {
+  const out = F.romiUpdate(oldMjo, fx('romi_sample.txt'));
+  const golden = fx('romi_sample.expected.csv').trim().split('\n').slice(1).map((l) => l.split(','));
+  assert.deepEqual(out.header, ['date', 'rmm1', 'rmm2', 'amplitude', 'phase']);
+  assert.deepEqual(out.rows, golden);
+  assert.match(out.note, /^7 new days, \d+ days revised/); // 2026-10-20 .. 10-26 are new; 16-19 Oct were revised
+  assert.equal(T.dataThrough(out.rows), '2026-10-26'); // newest day of the source, not the run day
+});
+
+test('romiUpdate refuses a source that is short, older than the file, or disagrees with settled days', () => {
+  const src = fx('romi_sample.txt');
+  assert.throws(() => F.romiUpdate(oldMjo, src.split('\n').slice(-40).join('\n')), /only \d+ usable days/);
+  assert.throws(() => F.romiUpdate(oldMjo, src.split('\n').slice(0, -10).join('\n') + '\n'), /older than the file/);
+  const bad = oldMjo.replace('2026-09-15,', '2026-09-15,9').replace(/\n$/, '\n'); // breaks rmm1 of a settled day
+  assert.throws(() => F.romiUpdate(bad, src), /differ from the existing file/);
+});
+
+const html = fx('cdec_res_sample.html');
+const oldCdec = fx('cdec_old_sample.csv');
+test('cdecParse: reads the RES table by its header labels', () => {
+  const rows = F.cdecParse(html);
+  const sha = rows.find((r) => r.station === 'SHA');
+  assert.deepEqual(sha, { station: 'SHA', capacity: '4,552,000', storage: '2,279,839', pct_cap: '50', pct_avg: '93' });
+  assert.ok(['ORO', 'CLE', 'NML', 'SNL', 'BER', 'EXC', 'PNF', 'FOL', 'BUL', 'PYM', 'CAS', 'PRR'].every((s) => rows.some((r) => r.station === s)));
+});
+
+test('cdecUpdate: keeps names, order and capacities of the file; takes storage and percentages of the report; data_through is the report date', () => {
+  const out = F.cdecUpdate(oldCdec, html, '2026-10-30');
+  assert.deepEqual(out.header, ['reservoir', 'station', 'capacity_af', 'storage_af', 'pct_capacity', 'pct_average']);
+  assert.equal(out.rows.length, 13);
+  assert.deepEqual(out.rows[0], ['Shasta', 'SHA', '4552000', '2279839', '50', '93']);
+  assert.deepEqual(out.rows.find((r) => r[1] === 'EXC'), ['Mc Clure (Exchequer)', 'EXC', '1024600', '503936', '49', '114']);
+  assert.equal(out.dataThrough, '2026-10-29');
+  assert.equal(out.warning, undefined);
+});
+
+test('cdecUpdate: a reservoir with no value is left blank (unavailable), never zero', () => {
+  const missing = html.replace('span=1month">503,936</A>', 'span=1month">---</A>');
+  assert.notEqual(missing, html);
+  const out = F.cdecUpdate(oldCdec, missing, '2026-10-30');
+  const exc = out.rows.find((r) => r[1] === 'EXC');
+  assert.ok(exc.slice(3).includes(''), JSON.stringify(exc));
+  assert.ok(!exc.slice(3).includes('0'));
+  assert.match(out.warning, /EXC/);
+});
+
+test('cdecUpdate refuses a stale report, a missing date, a changed capacity, a missing station and a changed layout', () => {
+  assert.throws(() => F.cdecUpdate(oldCdec, html, '2026-11-05'), /report of 2026-10-29 is 7 days/);
+  assert.throws(() => F.cdecUpdate(oldCdec, html.replace('Ending at midnight', 'Ending'), '2026-10-30'), /report date not found/);
+  assert.throws(() => F.cdecUpdate(oldCdec.replace('4552000', '4552001'), html, '2026-10-30'), /capacity/);
+  assert.throws(() => F.cdecUpdate(oldCdec, html.replace(/station_id=PRR">PRR/, 'station_id=XXX">XXX'), '2026-10-30'), /PRR not in the report/);
+  assert.throws(() => F.cdecUpdate(oldCdec, html.replace('Storage<br>(AF)', 'Volume<br>(AF)'), '2026-10-30'), /layout changed/);
+});
+
+test('errText shows the network cause; isTransient picks the failures worth a second try', () => {
+  const e = new TypeError('fetch failed', { cause: Object.assign(new Error('connect timed out'), { code: 'UND_ERR_CONNECT_TIMEOUT' }) });
+  assert.equal(F.errText(e), 'fetch failed (UND_ERR_CONNECT_TIMEOUT)');
+  assert.equal(F.errText(new Error('HTTP 403')), 'HTTP 403');
+  assert.ok(F.isTransient('https://x/y.txt: fetch failed (ECONNRESET)'));
+  assert.ok(F.isTransient('HTTP 503'));
+  assert.ok(!F.isTransient('HTTP 403'));
+  assert.ok(!F.isTransient('FIRMS_MAP_KEY secret is not set'));
+  assert.ok(!F.isTransient('unexpected content: <html>'));
+});

@@ -118,3 +118,12 @@ test('firmsSocal: a site across a grid edge is one site; known sites carry over'
   // a detection 5 km away from the known site is not affected
   assert.equal(T.firmsSocal([det('2026-10-17', 34.2430, -118.3260)], home, [{ lat: 34.2432, lon: -118.3825 }]).rows[0][10], 'Possible fire');
 });
+
+test('stampDataset: a job whose table has no date column can pass the date of its source report', () => {
+  const ds = { id: 'cdec_reservoirs', updated: '2026-10-23' };
+  T.stampDataset(ds, [['Shasta', 'SHA', '4552000']], '2026-10-30', '2026-10-29');
+  assert.equal(ds.data_through, '2026-10-29');
+  assert.equal(ds.updated, '2026-10-30');
+  T.stampDataset(ds, [['Shasta', 'SHA', '4552000']], '2026-10-31'); // no date and no override: the old value is dropped
+  assert.equal('data_through' in ds, false);
+});
