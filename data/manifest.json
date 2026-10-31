@@ -666,6 +666,14 @@
    "bytes": 1288
   },
   {
+   "id": "soi_cru",
+   "file": "soi_cru.csv",
+   "title": "CRU Southern Oscillation Index, 1866 to now (Ropelewski-Jones 1987 method)",
+   "description": "Monthly Southern Oscillation Index from the Climatic Research Unit, University of East Anglia (file soi_3dp.dat, https://crudata.uea.ac.uk/cru/data/soi/, retrieved 31 Oct 2026). Method: Ropelewski and Jones (1987), the normalised Tahiti minus Darwin pressure difference with a second normalisation; this is NOT the Troup SOI of the Australian Bureau of Meteorology. Values are in the standardised units CRU publishes (3 decimals), not multiplied by 10, and are a separate series from the CPC SOI in atmosphere_monthly. Starts January 1866. The CRU missing-value code -99.990 is stored as an empty cell (unavailable, never zero); September 2026 onward is empty on the retrieval date. CRU notes that recent values may change a few months later. Licence: CRU data are published under the Open Database License (ODbL 1.0), contents under the Database Contents License (DbCL 1.0): attribution to 'Climatic Research Unit, University of East Anglia' and share-alike apply to this file and to databases derived from it. Updated by hand; not part of the nightly job.",
+   "updated": "2026-10-31",
+   "bytes": 29961
+  },
+  {
    "id": "space_daily",
    "file": "space_daily.csv",
    "title": "Space weather, last 30 days",
