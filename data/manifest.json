@@ -86,7 +86,7 @@
    "id": "cdec_reservoirs",
    "file": "cdec_reservoirs.csv",
    "title": "California reservoirs",
-   "description": "California Data Exchange Center daily reservoir report (RES): storage, % of capacity and % of the historical average for the date, for the ten largest reservoirs plus Pyramid, Castaic and Lake Perris. Report of 22 Oct 2026; McClure (Exchequer) was not reported that day, so its storage is the CDEC daily sensor value and its % of average is from 13 Oct.",
+   "description": "California Data Exchange Center daily reservoir report (RES): storage, % of capacity and % of the historical average for the date, for the ten largest reservoirs plus Pyramid, Castaic and Lake Perris. Refreshed daily from the latest report (its date is the dataset's data_through); a reservoir with no value in that report is left blank.",
    "updated": "2026-10-23",
    "bytes": 539
   },
@@ -318,7 +318,7 @@
    "id": "mjo_daily",
    "file": "mjo_daily.csv",
    "title": "MJO real-time OMI",
-   "description": "Last 150 days of NOAA PSL real-time OMI (CPC OLR). rmm1 = PC2, rmm2 = −PC1, so the phase plane matches the RMM convention; phase 1–8 from the angle.",
+   "description": "Last 150 days of NOAA PSL real-time OMI (CPC OLR). rmm1 = PC2, rmm2 = −PC1, so the phase plane matches the RMM convention; phase 1–8 from the angle. Refreshed daily by the nightly job; the newest days are provisional and PSL may revise them.",
    "updated": "2026-10-23",
    "bytes": 4848
   },
