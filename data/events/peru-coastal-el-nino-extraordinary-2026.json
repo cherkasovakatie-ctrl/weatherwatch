@@ -25,10 +25,19 @@
   ]
  ],
  "timeline": [],
- "sources": [],
+ "sources": [
+  {
+   "title": "ENFEN Comunicado Oficial N° 16-2026 (14 September 2026): Alerta de El Niño Costero",
+   "url": "https://enfen.imarpe.gob.pe/download/comunicado-oficial-enfen-n-16-2026/"
+  },
+  {
+   "title": "Latin Times: Peru's Pacific Ocean reaches record heat (7 October 2026), the source of the anchovy-season line only",
+   "url": "https://www.latintimes.com/perus-pacific-ocean-reaches-record-heat-el-nino-raises-fears-fishing-weather-coastal-flooding-599946"
+  }
+ ],
  "related": [],
  "sections": {
-  "The setup": "ENFEN Comunicado Oficial N° 16-2026 (September 2026; date to be confirmed from the document): alert status for coastal El Niño, with the event heading toward extraordinary magnitude, as reported by Latin Times (7 October 2026). Late September: up to 8 °C above expected values in the most affected northern zones and 5 to 6 °C off Lima (meteorologist Abraham Levy, as reported by Latin Times; local estimates, not independently verified).",
+  "The setup": "ENFEN Comunicado Oficial N° 16-2026 (14 September 2026) maintained the Coastal El Niño alert and said the event would continue until mid-autumn 2027, with the highest probability of extraordinary magnitude from September 2026 to January 2027; Communiqué N° 17-2026 (28 September) kept the alert and the extraordinary magnitude through January 2027. ENFEN's technical report of 25 September 2026: sea-surface temperature anomalies reached up to +7 °C near the coast in the last two weeks of September; the weekly OISST anomaly in the Niño 1+2 region was +4.7 °C; on 22 September the marine heatwave covered the whole 150 nautical-mile coastal strip between 4°S and 18.5°S, and 76.7% of it had anomalies above +4 °C.",
   "The trigger": "Kelvin waves reaching South America keep warm water against the coast.",
   "What amplified it": "according to Latin Times (7 October 2026), the first anchovy season of 2026 ended on 10 June with only about 25% of the 1.91 million tonne quota harvested (official figure not found); early heavy rain in Tumbes and Piura; heaviest rain expected Feb–Mar 2027.",
   "Climate signal": "No study.",

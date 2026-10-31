@@ -19,7 +19,7 @@
   ],
   [
    "Guam impacts",
-   "Homes damaged, trees down; FEMA daily briefing, 18 Oct: 954 people in 6 shelters on Guam, 98 wells listed (72 on generator power)"
+   "Homes damaged, trees down; Red Cross (18 Oct): 15 shelters on Guam, Rota, Tinian and Saipan, more than 1,000 people took refuge; FEMA (18 Oct): 954 people in 6 shelters on Guam; 72 of 98 Guam wells on generator power, the rest on island power"
   ],
   [
    "Taiwan",
@@ -73,7 +73,7 @@
   ],
   [
    "18 Oct (Sun)",
-   "Passes within 12 miles of Guam's southern tip; the core of extreme winds stays mostly offshore. Damage to homes and trees; multiple communities without power and water. FEMA's daily briefing of 18 Oct listed 6 shelters open with 954 occupants on Guam, and 98 wells (72 on generator power)."
+   "Passes within 12 miles of Guam's southern tip; the core of extreme winds stays mostly offshore. Damage to homes and trees; multiple communities without power and water. The American Red Cross (18 Oct) operated or supported 15 shelters on Guam, Rota, Tinian and Saipan where more than 1,000 people took refuge during the storm; FEMA's daily briefing of 18 Oct listed 6 shelters open with 954 occupants on Guam, and 72 of 98 Guam wells on generator power, the rest on island power (potable-water intake impacts still unknown)."
   ],
   [
    "20–21 Oct",
@@ -98,7 +98,7 @@
   "How it should end": "Not before 21–23 October: it is forecast to stay a very strong typhoon over the Philippine Sea. Its end depends on recurvature and colder water to the north.",
   "Climate signal": "No study. El Niño shifts typhoon tracks east and lengthens their lives; this is a well-documented ENSO effect, not attribution.",
   "Still open": "Closest approach, peak winds on Guam, damage, and the track after the Philippine Sea.",
-  "What happened so far": "Guam: closest approach within 12 miles of the southern tip on 18 October; damage to homes and trees, power and water outages; FEMA's daily briefing of 18 October listed 6 shelters open with 954 occupants on Guam, and 98 wells (72 on generator power); southern areas not yet assessed as of 22 October. No deaths reported on Guam. Taiwan: the storm passed off the northeast coast; as reported on 24 October by Taiwan's Central Emergency Operation Center (5 p.m.), one person died, 616 were injured and 4,960 were evacuated (about 500 injured in Reuters and AFP, 163 early on Friday; the counts were still changing), and Yilan received 650 mm of rain from Thursday. Japan: two injured (Al Jazeera, 23 October). Ryukyus, eastern China and Korea: forecast impacts as listed in the timeline; to be scored after the storm."
+  "What happened so far": "Guam: closest approach within 12 miles of the southern tip on 18 October; damage to homes and trees, power and water outages; the American Red Cross (18 October) operated or supported 15 shelters on Guam, Rota, Tinian and Saipan where more than 1,000 people took refuge during the storm; FEMA's daily briefing of 18 October listed 6 shelters open with 954 occupants on Guam, and 72 of 98 Guam wells on generator power, the rest on island power; southern areas not yet assessed as of 22 October. No deaths reported on Guam. Taiwan: the storm passed off the northeast coast; as reported on 24 October by Taiwan's Central Emergency Operation Center (5 p.m.), one person died, 616 were injured and 4,960 were evacuated (about 500 injured in Reuters and AFP, 163 early on Friday; the counts were still changing), and Yilan received 650 mm of rain from Thursday. Japan: two injured (Al Jazeera, 23 October). Ryukyus, eastern China and Korea: forecast impacts as listed in the timeline; to be scored after the storm."
  },
  "movie": {
   "sst_grid": {
@@ -2609,6 +2609,14 @@
   {
    "title": "Primera Hora (FOX Weather): Champi ties Sinlaku as 2026's strongest storm",
    "url": "https://www.primerahora.com/noticias/mundo/notas/champi-se-convierte-en-el-supertifon-mas-fuerte-del-planeta-en-2026/"
+  },
+  {
+   "title": "American Red Cross: Tropical cyclone heads to the islands (18 Oct 2026)",
+   "url": "https://www.redcross.org/about-us/news-and-events/news/2026/tropical-cyclone-heads-to-the-islands.html"
+  },
+  {
+   "title": "FEMA Daily Operations Briefing (18 Oct 2026, PDF)",
+   "url": "https://content.govdelivery.com/attachments/USDHSFEMA/2026/10/18/file_attachments/3821485/FEMA%20Daily%20Ops%20Briefing%2010-18-2026.pdf"
   }
  ],
  "related": [
