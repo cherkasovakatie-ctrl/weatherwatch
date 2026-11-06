@@ -315,9 +315,27 @@ Selection is the largest: choosing which "alignment" to look at after a disaster
 Only five historical clusters exist, so the test has little power to detect a weak effect. A small effect cannot be excluded, but no large effect is present.
 Gardner–Knopoff windows ignore depth and are approximate. Eruption onsets depend on reporting, and escalations and unrest could not be tested.</p>
 <p><b>Monitoring plan, fixed now:</b> on 1 December 2026, rerun <code>tools/sky/cluster_study.py</code> with the same definitions on USGS data to 30 November.
-Report for the 13–27 November window: M6+ counts (all, mainshocks, M7+) against the baselines above (mean 5.7 / 4.2 / 0.5).
+Report for the 13–27 November window: M6+ counts (all, mainshocks, M7+) against three baselines.
+(1) Long-term: the same-length windows above (means 5.7 / 4.2 / 0.5).
+(2) Recent rate: 1 August–6 November 2026 scaled to 15 days (6.5 all, 4.5 mainshocks), to allow for 2026's own activity level.
+(3) Strong El Niño months, 1973–2025 (ONI ≥ 1.5), scaled to 15 days (3.7 mainshocks).
 Also report eruption onsets from the GVP Weekly Volcanic Activity Reports, dated by activity start and not by report date, against a mean of 1.2.
-Any count outside the 95% range will be reported as unusual. It will still not count as evidence of an astronomical cause.</p>""",
+Any count outside the 95% range of all three baselines will be reported as unusual. It will still not count as evidence of an astronomical cause.</p>""",
+        ),
+        (
+            "background",
+            "9. Background conditions in 2026",
+            """
+<p>November 2026 is not a quiet background. Three conditions are tested here: a record El Niño (ONI 2.46 in ASO 2026), a northeast Pacific marine heatwave, and an active earthquake year.</p>
+<ul>
+<li><b>Earthquake activity in 2026 is elevated but within past range.</b> To 6 November there were 124 M6+ events (90 mainshocks), against a 1973–2025 mean of 117 (85) for the same part of the year; 20 earlier years had as many or more.
+M7+ mainshocks number 13 against a mean of 10.3; 10 of 53 years had as many or more. October 2026 was busy, with 21 M6+ events, many of them in the Vanuatu sequence.</li>
+<li><b>El Niño:</b> months with ONI ≥ 1.5 in 1973–2025 (31 months; the 1982–83, 1997–98 and 2015–16 events) averaged 7.6 M6+ mainshocks a month, against 8.3 overall. The difference is not significant (p = 0.91, circular shifts of the ONI series).
+The correlation between monthly ONI and mainshock counts is r = 0.03. No ENSO effect on global M6+ seismicity is detected, and no mechanism of the needed size is known.
+El Niño does matter for coastal hazards: sea level, storm surge, landslides from heavy rain and coastal erosion. Those are tracked on the dashboard, not here.</li>
+<li><b>Marine heatwave:</b> ocean warmth changes stress in the crust by far less than the ordinary tide. There is no known pathway to earthquakes or eruptions, and no data to test one, so it is listed as context only.</li>
+</ul>
+<p class="note">These background checks are separate from the astronomical test. They set the expected rate for November, so that a busy El Niño year is not mistaken for an astronomical effect.</p>""",
         ),
     ]
 
