@@ -1,0 +1,49 @@
+feature,window,family,outcome,n_windows,time_share,observed,expected,ratio,p_value,q_fdr,verdict
+Mars–Jupiter conjunction,±3 d,primary,"M6+ earthquakes, all",27,0.9,70,68.7,1.02,0.444,0.77,No excess
+Mars–Jupiter conjunction,±3 d,primary,M6+ mainshocks,27,0.9,55,50.6,1.09,0.293,0.77,No excess
+Mars–Jupiter conjunction,±3 d,primary,M7+ mainshocks,27,0.9,7,6.3,1.11,0.45,0.77,No excess
+Mars–Jupiter conjunction,±3 d,primary,Eruption onsets,27,0.9,10,14.8,0.67,0.922,0.92,No excess
+Mars–Jupiter conjunction,±1 d,sensitivity,"M6+ earthquakes, all",27,0.4,35,29.6,1.18,0.222,,No excess
+Mars–Jupiter conjunction,±1 d,sensitivity,M6+ mainshocks,27,0.4,32,21.7,1.47,0.035,,Nominal only (fails correction)
+Mars–Jupiter conjunction,±1 d,sensitivity,M7+ mainshocks,27,0.4,2,2.7,0.75,0.737,,No excess
+Mars–Jupiter conjunction,±1 d,sensitivity,Eruption onsets,27,0.4,4,6.3,0.63,0.875,,No excess
+Mars–Jupiter conjunction,±7 d,sensitivity,"M6+ earthquakes, all",27,2.0,139,147.5,0.94,0.683,,No excess
+Mars–Jupiter conjunction,±7 d,sensitivity,M6+ mainshocks,27,2.0,105,108.3,0.97,0.614,,No excess
+Mars–Jupiter conjunction,±7 d,sensitivity,M7+ mainshocks,27,2.0,18,13.4,1.35,0.141,,No excess
+Mars–Jupiter conjunction,±7 d,sensitivity,Eruption onsets,27,2.0,24,31.8,0.75,0.932,,No excess
+"Supermoon (full Moon ≤ 362,000 km)",±3 d,primary,"M6+ earthquakes, all",146,5.1,362,382.2,0.95,0.782,0.89,No excess
+"Supermoon (full Moon ≤ 362,000 km)",±3 d,primary,M6+ mainshocks,146,5.1,274,279.5,0.98,0.615,0.82,No excess
+"Supermoon (full Moon ≤ 362,000 km)",±3 d,primary,M7+ mainshocks,146,5.1,39,34.7,1.12,0.24,0.77,No excess
+"Supermoon (full Moon ≤ 362,000 km)",±3 d,primary,Eruption onsets,146,5.2,82,82.2,1.0,0.52,0.77,No excess
+"Supermoon (full Moon ≤ 362,000 km)",±1 d,sensitivity,"M6+ earthquakes, all",146,2.2,143,163.4,0.87,0.908,,No excess
+"Supermoon (full Moon ≤ 362,000 km)",±1 d,sensitivity,M6+ mainshocks,146,2.2,111,119.8,0.93,0.778,,No excess
+"Supermoon (full Moon ≤ 362,000 km)",±1 d,sensitivity,M7+ mainshocks,146,2.2,12,15.0,0.8,0.8,,No excess
+"Supermoon (full Moon ≤ 362,000 km)",±1 d,sensitivity,Eruption onsets,146,2.2,40,35.2,1.14,0.234,,No excess
+"Supermoon (full Moon ≤ 362,000 km)",±7 d,sensitivity,"M6+ earthquakes, all",146,11.0,786,818.1,0.96,0.812,,No excess
+"Supermoon (full Moon ≤ 362,000 km)",±7 d,sensitivity,M6+ mainshocks,146,11.0,572,598.9,0.96,0.845,,No excess
+"Supermoon (full Moon ≤ 362,000 km)",±7 d,sensitivity,M7+ mainshocks,146,11.0,76,74.1,1.03,0.421,,No excess
+"Supermoon (full Moon ≤ 362,000 km)",±7 d,sensitivity,Eruption onsets,146,11.2,164,176.7,0.93,0.843,,No excess
+"Planet grouping (≥4 planets, whole run)",±3 d,primary,"M6+ earthquakes, all",67,12.8,948,953.6,0.99,0.53,0.77,No excess
+"Planet grouping (≥4 planets, whole run)",±3 d,primary,M6+ mainshocks,67,12.8,703,696.9,1.01,0.427,0.77,No excess
+"Planet grouping (≥4 planets, whole run)",±3 d,primary,M7+ mainshocks,67,12.8,93,86.5,1.08,0.242,0.77,No excess
+"Planet grouping (≥4 planets, whole run)",±3 d,primary,Eruption onsets,67,13.0,220,205.2,1.07,0.153,0.77,No excess
+"Planet grouping (≥4 planets, whole run)",±1 d,sensitivity,"M6+ earthquakes, all",67,11.5,861,856.3,1.01,0.45,,No excess
+"Planet grouping (≥4 planets, whole run)",±1 d,sensitivity,M6+ mainshocks,67,11.5,635,626.5,1.01,0.399,,No excess
+"Planet grouping (≥4 planets, whole run)",±1 d,sensitivity,M7+ mainshocks,67,11.5,83,77.4,1.07,0.27,,No excess
+"Planet grouping (≥4 planets, whole run)",±1 d,sensitivity,Eruption onsets,67,11.7,190,184.4,1.03,0.352,,No excess
+"Planet grouping (≥4 planets, whole run)",±7 d,sensitivity,"M6+ earthquakes, all",67,15.4,1131,1143.6,0.99,0.578,,No excess
+"Planet grouping (≥4 planets, whole run)",±7 d,sensitivity,M6+ mainshocks,67,15.4,834,838.4,0.99,0.549,,No excess
+"Planet grouping (≥4 planets, whole run)",±7 d,sensitivity,M7+ mainshocks,67,15.4,109,103.9,1.05,0.312,,No excess
+"Planet grouping (≥4 planets, whole run)",±7 d,sensitivity,Eruption onsets,67,15.6,250,246.5,1.01,0.427,,No excess
+All three within 30 days (cluster span),±3 d,primary,"M6+ earthquakes, all",6,0.5,26,34.2,0.76,0.84,0.9,No excess
+All three within 30 days (cluster span),±3 d,primary,M6+ mainshocks,6,0.5,22,24.8,0.89,0.687,0.85,No excess
+All three within 30 days (cluster span),±3 d,primary,M7+ mainshocks,6,0.5,4,3.0,1.32,0.367,0.77,No excess
+All three within 30 days (cluster span),±3 d,primary,Eruption onsets,6,0.5,12,7.3,1.65,0.079,0.77,No excess
+All three within 30 days (cluster span),±1 d,sensitivity,"M6+ earthquakes, all",6,0.4,18,26.6,0.68,0.89,,No excess
+All three within 30 days (cluster span),±1 d,sensitivity,M6+ mainshocks,6,0.4,15,19.4,0.78,0.818,,No excess
+All three within 30 days (cluster span),±1 d,sensitivity,M7+ mainshocks,6,0.4,2,2.4,0.84,0.668,,No excess
+All three within 30 days (cluster span),±1 d,sensitivity,Eruption onsets,6,0.4,10,5.7,1.76,0.07,,No excess
+All three within 30 days (cluster span),±7 d,sensitivity,"M6+ earthquakes, all",6,0.7,38,49.1,0.77,0.835,,No excess
+All three within 30 days (cluster span),±7 d,sensitivity,M6+ mainshocks,6,0.7,32,36.0,0.89,0.717,,No excess
+All three within 30 days (cluster span),±7 d,sensitivity,M7+ mainshocks,6,0.7,6,4.5,1.35,0.299,,No excess
+All three within 30 days (cluster span),±7 d,sensitivity,Eruption onsets,6,0.7,14,10.5,1.33,0.201,,No excess

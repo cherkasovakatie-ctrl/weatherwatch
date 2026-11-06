@@ -443,7 +443,7 @@ def tests() -> list[dict[str, object]]:
                 i = (e.datetime().date() - t0).days
                 if i not in lst:
                     lst.append(i)
-                    if ephem.Moon(e).earth_distance * AU_KM <= 360_000:
+                    if ephem.Moon(e).earth_distance * AU_KM <= 362_000:
                         sup.append(i)
         t = ephem.Date(t + 14)
     full, new, sup = sorted(set(full)), sorted(set(new)), sorted(set(sup))
@@ -460,7 +460,7 @@ def tests() -> list[dict[str, object]]:
     events = {
         "Full Moon": (np.array(full), [1, 3]),
         "New or full Moon": (np.array(sorted(full + new)), [1, 3]),
-        "Supermoon (new or full Moon within 360,000 km)": (np.array(sup), [1, 3]),
+        "Supermoon (new or full Moon within 362,000 km)": (np.array(sup), [1, 3]),
         "Mars–Jupiter conjunction": (np.array(mj), [7, 15]),
     }
     rows: list[dict[str, object]] = []

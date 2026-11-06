@@ -1,0 +1,29 @@
+period,window,days,astronomy,outcome,observed,baseline_mean,baseline_95,same_season_mean,percentile,largest
+Apr 2011,2011-04-15 to 2011-05-04,20,"Mars–Jupiter 01 May; supermoon 18 Apr (358,796 km); morning grouping 21 Apr–04 Jun (Mercury, Venus, Mars, Jupiter)","M6+ earthquakes, all",5,7.6,2–17,7.9,26,"M6.8 79 km W of Kirakira, Solomon Islands (23 Apr)"
+Apr 2011,2011-04-15 to 2011-05-04,20,"Mars–Jupiter 01 May; supermoon 18 Apr (358,796 km); morning grouping 21 Apr–04 Jun (Mercury, Venus, Mars, Jupiter)",M6+ mainshocks,3,5.5,1–12,5.8,18,
+Apr 2011,2011-04-15 to 2011-05-04,20,"Mars–Jupiter 01 May; supermoon 18 Apr (358,796 km); morning grouping 21 Apr–04 Jun (Mercury, Venus, Mars, Jupiter)",M7+ mainshocks,0,0.7,0–3,0.5,26,
+Apr 2011,2011-04-15 to 2011-05-04,20,"Mars–Jupiter 01 May; supermoon 18 Apr (358,796 km); morning grouping 21 Apr–04 Jun (Mercury, Venus, Mars, Jupiter)",Eruption onsets,2,1.6,0–5,1.5,65,
+Oct 2015,2015-10-14 to 2015-10-30,17,"Mars–Jupiter 17 Oct; supermoon 27 Oct (359,328 km); morning grouping 06 Oct–01 Nov (Mercury, Venus, Mars, Jupiter)","M6+ earthquakes, all",6,6.4,1–15,6.2,51,"M7.5 Hindu Kush region, Afghanistan (26 Oct)"
+Oct 2015,2015-10-14 to 2015-10-30,17,"Mars–Jupiter 17 Oct; supermoon 27 Oct (359,328 km); morning grouping 06 Oct–01 Nov (Mercury, Venus, Mars, Jupiter)",M6+ mainshocks,6,4.7,1–10,4.3,72,
+Oct 2015,2015-10-14 to 2015-10-30,17,"Mars–Jupiter 17 Oct; supermoon 27 Oct (359,328 km); morning grouping 06 Oct–01 Nov (Mercury, Venus, Mars, Jupiter)",M7+ mainshocks,2,0.6,0–2,0.5,93,
+Oct 2015,2015-10-14 to 2015-10-30,17,"Mars–Jupiter 17 Oct; supermoon 27 Oct (359,328 km); morning grouping 06 Oct–01 Nov (Mercury, Venus, Mars, Jupiter)",Eruption onsets,3,1.4,0–4,1.2,89,
+Jan 2018,2017-12-30 to 2018-01-10,12,"Mars–Jupiter 07 Jan; supermoon 02 Jan (356,602 km); morning grouping 02 Jan–03 Feb (Mercury, Mars, Jupiter, Saturn)","M6+ earthquakes, all",1,4.5,0–11,4.4,7,"M7.5 203 km NNE of Barra Patuca, Honduras (10 Jan)"
+Jan 2018,2017-12-30 to 2018-01-10,12,"Mars–Jupiter 07 Jan; supermoon 02 Jan (356,602 km); morning grouping 02 Jan–03 Feb (Mercury, Mars, Jupiter, Saturn)",M6+ mainshocks,1,3.3,0–8,3.2,12,
+Jan 2018,2017-12-30 to 2018-01-10,12,"Mars–Jupiter 07 Jan; supermoon 02 Jan (356,602 km); morning grouping 02 Jan–03 Feb (Mercury, Mars, Jupiter, Saturn)",M7+ mainshocks,1,0.4,0–2,0.5,80,
+Jan 2018,2017-12-30 to 2018-01-10,12,"Mars–Jupiter 07 Jan; supermoon 02 Jan (356,602 km); morning grouping 02 Jan–03 Feb (Mercury, Mars, Jupiter, Saturn)",Eruption onsets,1,1.0,0–3,1.1,56,
+Mar 2020,2020-03-06 to 2020-03-23,18,"Mars–Jupiter 20 Mar; supermoon 09 Mar (357,400 km); morning grouping 03 Mar–25 Apr (Mercury, Mars, Jupiter, Saturn)","M6+ earthquakes, all",6,6.8,1–15,7.6,46,M6.4 Kermadec Islands region (14 Mar)
+Mar 2020,2020-03-06 to 2020-03-23,18,"Mars–Jupiter 20 Mar; supermoon 09 Mar (357,400 km); morning grouping 03 Mar–25 Apr (Mercury, Mars, Jupiter, Saturn)",M6+ mainshocks,5,5.0,1–11,5.0,54,
+Mar 2020,2020-03-06 to 2020-03-23,18,"Mars–Jupiter 20 Mar; supermoon 09 Mar (357,400 km); morning grouping 03 Mar–25 Apr (Mercury, Mars, Jupiter, Saturn)",M7+ mainshocks,0,0.6,0–3,0.5,28,
+Mar 2020,2020-03-06 to 2020-03-23,18,"Mars–Jupiter 20 Mar; supermoon 09 Mar (357,400 km); morning grouping 03 Mar–25 Apr (Mercury, Mars, Jupiter, Saturn)",Eruption onsets,1,1.5,0–4,1.4,40,
+May 2022,2022-05-26 to 2022-06-17,23,"Mars–Jupiter 29 May; supermoon 14 Jun (357,656 km); morning grouping 17 Feb–08 Jul (Mercury, Venus, Mars, Jupiter, Saturn)","M6+ earthquakes, all",8,8.7,2–19,8.3,49,"M7.2 10 km W of Azángaro, Peru (26 May)"
+May 2022,2022-05-26 to 2022-06-17,23,"Mars–Jupiter 29 May; supermoon 14 Jun (357,656 km); morning grouping 17 Feb–08 Jul (Mercury, Venus, Mars, Jupiter, Saturn)",M6+ mainshocks,7,6.4,1–13,6.5,61,
+May 2022,2022-05-26 to 2022-06-17,23,"Mars–Jupiter 29 May; supermoon 14 Jun (357,656 km); morning grouping 17 Feb–08 Jul (Mercury, Venus, Mars, Jupiter, Saturn)",M7+ mainshocks,1,0.8,0–3,0.8,64,
+May 2022,2022-05-26 to 2022-06-17,23,"Mars–Jupiter 29 May; supermoon 14 Jun (357,656 km); morning grouping 17 Feb–08 Jul (Mercury, Venus, Mars, Jupiter, Saturn)",Eruption onsets,5,1.9,0–5,2.3,97,
+Nov 2026,2026-11-13 to 2026-11-27,15,"Mars–Jupiter 16 Nov; supermoon 24 Nov (360,765 km); morning grouping 10 Nov–04 Dec (Mercury, Venus, Mars, Jupiter)","M6+ earthquakes, all",,5.7,1–13,6.5,,
+Nov 2026,2026-11-13 to 2026-11-27,15,"Mars–Jupiter 16 Nov; supermoon 24 Nov (360,765 km); morning grouping 10 Nov–04 Dec (Mercury, Venus, Mars, Jupiter)",M6+ mainshocks,,4.2,0–9,4.9,,
+Nov 2026,2026-11-13 to 2026-11-27,15,"Mars–Jupiter 16 Nov; supermoon 24 Nov (360,765 km); morning grouping 10 Nov–04 Dec (Mercury, Venus, Mars, Jupiter)",M7+ mainshocks,,0.5,0–2,0.7,,
+Nov 2026,2026-11-13 to 2026-11-27,15,"Mars–Jupiter 16 Nov; supermoon 24 Nov (360,765 km); morning grouping 10 Nov–04 Dec (Mercury, Venus, Mars, Jupiter)",Eruption onsets,,1.2,0–4,1.4,,
+Aug 2024 (brief's candidate),2024-08-11 to 2024-08-31,21,"Mars–Jupiter 14 Aug; full Moon 19 Aug 361,969 km (no qualifying grouping)","M6+ earthquakes, all",6,7.9,2–17,8.1,34,"M7.0 102 km E of Petropavlovsk-Kamchatsky, Russia (17 Aug)"
+Aug 2024 (brief's candidate),2024-08-11 to 2024-08-31,21,"Mars–Jupiter 14 Aug; full Moon 19 Aug 361,969 km (no qualifying grouping)",M6+ mainshocks,3,5.8,1–12,5.9,16,
+Aug 2024 (brief's candidate),2024-08-11 to 2024-08-31,21,"Mars–Jupiter 14 Aug; full Moon 19 Aug 361,969 km (no qualifying grouping)",M7+ mainshocks,1,0.7,0–3,0.9,67,
+Aug 2024 (brief's candidate),2024-08-11 to 2024-08-31,21,"Mars–Jupiter 14 Aug; full Moon 19 Aug 361,969 km (no qualifying grouping)",Eruption onsets,0,1.7,0–5,1.3,9,

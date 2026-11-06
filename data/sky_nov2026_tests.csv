@@ -1,24 +1,24 @@
 rank,alignment,window,n_alignments,time_share,hazard,n,observed,expected,ratio,p_value,q_fdr,verdict
-1,Full Moon,±1 d,643,10.2,M6+ mainshocks,5207,554,528.7,1.05,0.107,0.87,No effect
-2,Full Moon,±3 d,643,23.7,M6+ mainshocks,5207,1259,1234.5,1.02,0.13,0.87,No effect
-3,"Supermoon (new or full Moon within 360,000 km)",±3 d,219,8.1,M6+ mainshocks,5207,436,420.4,1.04,0.217,0.87,No effect
-4,New or full Moon,±3 d,1287,47.4,M6+ mainshocks,5207,2489,2468.8,1.01,0.246,0.87,No effect
-5,"Supermoon (new or full Moon within 360,000 km)",±3 d,219,8.1,M7+ mainshocks,658,58,53.2,1.09,0.253,0.87,No effect
-6,Full Moon,±1 d,643,10.2,M7+ mainshocks,658,70,66.8,1.05,0.356,0.87,No effect
-7,Full Moon,±3 d,643,23.7,M7.5+ mainshocks,214,53,50.8,1.04,0.384,0.87,No effect
-8,"Supermoon (new or full Moon within 360,000 km)",±1 d,219,3.5,M6+ mainshocks,5207,183,180.0,1.02,0.418,0.87,No effect
-9,Full Moon,±1 d,643,10.2,M7.5+ mainshocks,214,23,21.7,1.06,0.431,0.87,No effect
-10,"Supermoon (new or full Moon within 360,000 km)",±1 d,219,3.5,M7.5+ mainshocks,214,8,7.4,1.08,0.473,0.87,No effect
-11,New or full Moon,±1 d,1287,20.3,M6+ mainshocks,5207,1060,1058.7,1.0,0.487,0.87,No effect
-12,New or full Moon,±3 d,1287,47.4,M7.5+ mainshocks,214,102,101.3,1.01,0.499,0.87,No effect
-13,New or full Moon,±1 d,1287,20.3,M7.5+ mainshocks,214,44,43.6,1.01,0.513,0.87,No effect
-14,Full Moon,±3 d,643,23.7,M7+ mainshocks,658,155,156.0,0.99,0.57,0.87,No effect
-15,New or full Moon,±3 d,1287,47.4,M7+ mainshocks,658,309,312.0,0.99,0.606,0.87,No effect
-16,"Supermoon (new or full Moon within 360,000 km)",±3 d,219,8.1,M7.5+ mainshocks,214,16,17.3,0.92,0.647,0.87,No effect
-17,Mars–Jupiter conjunction,±7 d,25,2.0,M7+ mainshocks,658,12,13.0,0.92,0.664,0.87,No effect
-18,Mars–Jupiter conjunction,±7 d,25,2.0,M6+ mainshocks,5207,98,102.7,0.95,0.671,0.87,No effect
-19,New or full Moon,±1 d,1287,20.3,M7+ mainshocks,658,128,133.5,0.96,0.712,0.87,No effect
-20,"Supermoon (new or full Moon within 360,000 km)",±1 d,219,3.5,M7+ mainshocks,658,20,22.8,0.88,0.728,0.87,No effect
+1,Full Moon,±1 d,643,10.2,M6+ mainshocks,5207,554,528.7,1.05,0.107,0.85,No effect
+2,Full Moon,±3 d,643,23.7,M6+ mainshocks,5207,1259,1234.5,1.02,0.13,0.85,No effect
+3,"Supermoon (new or full Moon within 362,000 km)",±3 d,278,10.2,M7+ mainshocks,658,75,67.5,1.11,0.181,0.85,No effect
+4,New or full Moon,±3 d,1287,47.4,M6+ mainshocks,5207,2489,2468.8,1.01,0.246,0.85,No effect
+5,Full Moon,±1 d,643,10.2,M7+ mainshocks,658,70,66.8,1.05,0.356,0.85,No effect
+6,Full Moon,±3 d,643,23.7,M7.5+ mainshocks,214,53,50.8,1.04,0.384,0.85,No effect
+7,Full Moon,±1 d,643,10.2,M7.5+ mainshocks,214,23,21.7,1.06,0.431,0.85,No effect
+8,New or full Moon,±1 d,1287,20.3,M6+ mainshocks,5207,1060,1058.7,1.0,0.487,0.85,No effect
+9,New or full Moon,±3 d,1287,47.4,M7.5+ mainshocks,214,102,101.3,1.01,0.499,0.85,No effect
+10,"Supermoon (new or full Moon within 362,000 km)",±1 d,278,4.4,M7+ mainshocks,658,29,28.9,1.0,0.51,0.85,No effect
+11,New or full Moon,±1 d,1287,20.3,M7.5+ mainshocks,214,44,43.6,1.01,0.513,0.85,No effect
+12,"Supermoon (new or full Moon within 362,000 km)",±3 d,278,10.2,M6+ mainshocks,5207,532,533.7,1.0,0.535,0.85,No effect
+13,Full Moon,±3 d,643,23.7,M7+ mainshocks,658,155,156.0,0.99,0.57,0.85,No effect
+14,"Supermoon (new or full Moon within 362,000 km)",±1 d,278,4.4,M7.5+ mainshocks,214,9,9.4,0.96,0.6,0.85,No effect
+15,New or full Moon,±3 d,1287,47.4,M7+ mainshocks,658,309,312.0,0.99,0.606,0.85,No effect
+16,Mars–Jupiter conjunction,±7 d,25,2.0,M7+ mainshocks,658,12,13.0,0.92,0.664,0.85,No effect
+17,Mars–Jupiter conjunction,±7 d,25,2.0,M6+ mainshocks,5207,98,102.7,0.95,0.671,0.85,No effect
+18,"Supermoon (new or full Moon within 362,000 km)",±3 d,278,10.2,M7.5+ mainshocks,214,20,22.0,0.91,0.679,0.85,No effect
+19,"Supermoon (new or full Moon within 362,000 km)",±1 d,278,4.4,M6+ mainshocks,5207,222,228.7,0.97,0.688,0.85,No effect
+20,New or full Moon,±1 d,1287,20.3,M7+ mainshocks,658,128,133.5,0.96,0.712,0.85,No effect
 21,Mars–Jupiter conjunction,±15 d,25,4.1,M7+ mainshocks,658,24,26.8,0.89,0.757,0.87,No effect
 22,Mars–Jupiter conjunction,±15 d,25,4.1,M6+ mainshocks,5207,183,212.0,0.86,0.97,0.99,No effect
 23,Mars–Jupiter conjunction,±7 d,25,2.0,M7.5+ mainshocks,214,1,4.2,0.24,0.986,0.99,No effect

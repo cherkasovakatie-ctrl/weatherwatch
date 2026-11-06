@@ -15,6 +15,7 @@ for p in tc:
     rows.append((DATES.get(p['research_date'], p['research_date']), p['title'], 'Research paper · 2026 storms', '', p['file']))
 if tc:
     rows.append((max(DATES.get(p['research_date'], p['research_date']) for p in tc), '2026 hurricanes and typhoons: index of storm papers', 'Index · 2026 storms', '', 'tc-2026.html'))
+rows.append(('2026-11-06', 'November 2026 sky events and Earth activity: a test against past clusters', 'Research brief · Sky cycles', '', 'sky-2026-11.html'))
 rows = [(d, t, k, (f'reports/pdf/{doc[:-5]}.pdf' if (ROOT / f'reports/pdf/{doc[:-5]}.pdf').exists() else pdf), doc) for d, t, k, pdf, doc in rows]
 with open(ROOT / 'data/reports.csv', 'w', newline='', encoding='utf-8') as fh:
     w = csv.writer(fh); w.writerow(['date', 'title', 'kind', 'pdf', 'doc']); w.writerows(rows)

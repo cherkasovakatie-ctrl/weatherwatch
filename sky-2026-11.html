@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>November 2026 sky events · Global Weather Watch</title>
+<meta name="description" content="Do planet groupings, supermoons and Mars–Jupiter conjunctions coincide with unusual earthquakes or eruptions? A pre-registered test of 1973–2026 clusters like November 2026.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%232b6cb0'/%3E%3C/svg%3E">
+<style>
+:root { color-scheme: light dark;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --color-bg: #f6f5f1; --color-panel: #ffffff; --color-fg: #1d1f22; --color-fg-muted: #5c6370; --color-border-line: #e2e0d8;
+  --ok: #15803d; --warn: #a16207; --bad: #b91c1c; --zebra: #faf9f6; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --color-bg: #141619; --color-panel: #1c1f23; --color-fg: #eceae4; --color-fg-muted: #a3a9b2; --color-border-line: #2e3238;
+  --ok: #4ade80; --warn: #facc15; --bad: #f87171; --zebra: #202429; } }
+:root[data-theme="dark"] { --color-bg: #141619; --color-panel: #1c1f23; --color-fg: #eceae4; --color-fg-muted: #a3a9b2; --color-border-line: #2e3238;
+  --ok: #4ade80; --warn: #facc15; --bad: #f87171; --zebra: #202429; }
+html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); }
+body { font-family: var(--font-sans); }
+.site-nav { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; padding: 10px 16px; border-bottom: 1px solid var(--color-border-line); background: var(--color-panel); }
+.site-nav .brand { font-family: var(--font-serif); font-size: 1.15rem; color: var(--color-fg); text-decoration: none; margin-right: auto; }
+.site-nav a { color: var(--color-fg-muted); text-decoration: none; font-size: .9rem; }
+.site-nav a[aria-current="page"], .site-nav a:hover { color: var(--color-fg); }
+.site-foot { max-width: 1100px; margin: 24px auto; padding: 0 16px 24px; color: var(--color-fg-muted); font-size: .8rem; line-height: 1.5; }
+a { color: inherit; }
+main { max-width: 1100px; margin: 0 auto; padding: 16px; }
+h1 { font-family: var(--font-serif); font-weight: 400; font-size: 1.9rem; margin: .3em 0 .2em; line-height: 1.2; }
+h2 { font-family: var(--font-serif); font-weight: 400; font-size: 1.35rem; margin: 1.6em 0 .4em; }
+h3 { font-size: 1rem; margin: 1.2em 0 .3em; }
+.meta { color: var(--color-fg-muted); font-size: .88rem; line-height: 1.6; margin: 0 0 8px; }
+.prose { max-width: 78ch; line-height: 1.65; font-size: .97rem; }
+.prose p { margin: 0 0 .9em; }
+.card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: 10px; padding: 14px 16px; margin: 12px 0; min-width: 0; }
+.status { border-left: 4px solid var(--warn); }
+.status.done { border-left-color: var(--ok); }
+.tag { display: inline-block; font-size: .72rem; padding: 1px 8px; border-radius: 999px; border: 1px solid currentColor; margin-right: 6px; white-space: nowrap; }
+.tag.ok { color: var(--ok); } .tag.warn { color: var(--warn); } .tag.info { color: var(--color-fg-muted); } .tag.bad { color: var(--bad); }
+.wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+table { border-collapse: collapse; width: 100%; font-size: .84rem; line-height: 1.45; }
+th, td { text-align: left; vertical-align: top; padding: 6px 8px; border-bottom: 1px solid var(--color-border-line); }
+thead th { font-weight: 600; background: var(--color-panel); position: sticky; top: 0; }
+tbody tr:nth-child(even) { background: var(--zebra); }
+td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+table.data td { white-space: nowrap; padding: 5px 6px; }
+table.data th { white-space: normal; overflow-wrap: normal; vertical-align: bottom; padding: 5px 6px; font-size: .78rem; line-height: 1.25; min-width: 3.6em; }
+.note { font-size: .82rem; color: var(--color-fg-muted); line-height: 1.5; margin: 6px 0 0; }
+ol.refs { padding-left: 1.4em; font-size: .86rem; line-height: 1.55; }
+ol.refs li { margin-bottom: 6px; overflow-wrap: anywhere; }
+.prose, .meta, .card { overflow-wrap: anywhere; }
+.toc { font-size: .9rem; line-height: 1.7; columns: 2 16rem; }
+.papers { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: 10px; }
+.papers a { display: block; text-decoration: none; }
+</style>
+</head><body>
+<nav class="site-nav" aria-label="Site">
+  <a class="brand" href="./">Global Weather Watch</a>
+  <a href="./">Dashboard</a>
+  <a href="./#overview">ENSO overview</a>
+  <a href="./#climate">Climate</a>
+  <a href="deadliest.html">Deadliest events</a>
+  <a href="events.html">Event log</a>
+  <a href="claims.html">Claims vs evidence</a>
+  <a href="data.html">Data archive</a>
+  <a href="about.html">About &amp; method</a>
+</nav>
+<main>
+<h1>November 2026 sky events and Earth activity: a test against past clusters</h1>
+<p class="meta"><span class="tag warn">Research brief</span> Research date: 6 November 2026 · Earthquake data to 6 Nov 2026 · Eruption data to 31 Dec 2025 · Method and code: tools/sky/ in this site's repository</p>
+<div class="card status"><b>Status.</b> Historical comparison complete. The November 2026 window is prospective; results will be added after 1 December 2026.</div>
+<h2 id="bottom">1. Bottom line</h2><div class="prose">
+<p><b>No unusual earthquake or eruption activity was found around past sky clusters like November 2026.</b>
+Six periods in 1973–2026 meet the rule fixed in advance: at least four planets grouped in the sky, a supermoon and a Mars–Jupiter
+conjunction, all within 30 days. Five are in the past: April 2011, October 2015, January 2018, March 2020 and May–June 2022.
+In those windows, global M6+ earthquake counts, M7+ counts and eruption onsets all stayed within the normal range for windows of the same length.
+None of the 16 primary tests survives correction for multiple testing (lowest q = 0.77).
+The same holds for each feature on its own: 27 Mars–Jupiter conjunctions, 146 supermoons and 67 planet-grouping episodes.</p>
+<p>One modest anomaly appears: five eruption onsets in the May–June 2022 window, against a typical 1.9 (97th percentile).
+With 24 period-by-outcome comparisons, about one such result is expected by chance.
+The November 2026 window (13–27 November) has not happened yet. Results to date (1–6 November) are observations only, not a test.</p>
+<p class="note">Four separate statements apply. An event happening is not the same as it being statistically unusual. Being unusual is not the same as being close in time
+to an astronomical event, and being close in time is not evidence that the astronomy contributed. This brief makes no earthquake or eruption forecast <a href="#ref-usgsfaq">[9]</a>.</p></div>
+<h2 id="astro">2. Verified astronomical timeline (UTC)</h2><div class="prose">
+<p>Every date was computed independently, not taken from headlines. Planet and Moon positions come from PyEphem.
+The comet comes from the current JPL orbit and the meteor shower from the IMO calendar.
+Two corrections to circulating dates follow. The Mars–Jupiter conjunction is on 16 November UTC (15 November in the Americas), not the 14th.
+Comet 161P's perihelion is 27 November per JPL's October 2026 orbit; some websites still list an older 18 December date.
+An apparent alignment or conjunction is a line-of-sight effect: Mars and Jupiter are about 4 AU apart in space on 16 November.</p></div>
+<div class="wrap"><table class=""><thead><tr><th>Date (UTC)</th><th>Event</th><th>Definition / note</th><th>Source</th></tr></thead><tbody><tr><td>4 Nov 14:24</td><td>Mercury inferior conjunction (0.67 AU)</td><td>Mercury between Earth and Sun</td><td>PyEphem <a href="#ref-ephem">[10]</a></td></tr><tr><td>10 Nov – 4 Dec (interval)</td><td>Morning grouping: Mercury, Venus, Mars, Jupiter</td><td>≥4 naked-eye planets west of the Sun, each ≥10° from it, within 90° of longitude. Best seen 13–22 Nov</td><td>PyEphem <a href="#ref-ephem">[10]</a></td></tr><tr><td>13 Nov 15:55 / 14 Nov 00:32</td><td>Mercury, then Venus, turn direct</td><td>Apparent motion only</td><td>PyEphem <a href="#ref-ephem">[10]</a></td></tr><tr><td>16 Nov 06:24</td><td>Mars–Jupiter conjunction, 1.2° apart, 25.5° Leo</td><td>Equal ecliptic longitude seen from Earth. The planets are about 4 AU apart in space</td><td>PyEphem <a href="#ref-ephem">[10]</a></td></tr><tr><td>17 Nov 23:45 (nodal peak)</td><td>Leonids, ZHR about 15; weak dust-trail encounters 17–19 Nov</td><td>Meteors from comet 55P/Tempel–Tuttle debris</td><td>IMO <a href="#ref-imo">[2]</a></td></tr><tr><td>24 Nov 14:53</td><td>Full Moon at 360,765 km: a supermoon</td><td>Full Moon ≤ 362,000 km (this study). Perigee 25 Nov 20:54 UTC at 359,347 km</td><td>PyEphem <a href="#ref-ephem">[10]</a></td></tr><tr><td>25 Nov 22:24</td><td>Uranus at opposition</td><td>Earth between Sun and Uranus</td><td>PyEphem <a href="#ref-ephem">[10]</a></td></tr><tr><td>27 Nov ≈18:17 TDB</td><td>Comet 161P/Hartley–IRAS at perihelion, q = 1.28 AU</td><td>Closest to Earth was about 2 Oct 2026 (≈0.52 AU, two-body estimate from the JPL orbit). Predicted magnitude about 17 in late November: a telescope object</td><td>JPL SBDB <a href="#ref-jpl">[1]</a></td></tr><tr><td>30 Nov</td><td>Moon passes Jupiter (08:34) and Mars (17:24) near Regulus</td><td>Apparent grouping</td><td>PyEphem <a href="#ref-ephem">[10]</a></td></tr></tbody></table></div>
+<h2 id="design">3. Design, fixed before the data were examined</h2><div class="prose">
+<ul>
+<li><b>Grouping:</b> at least 4 of Mercury, Venus, Mars, Jupiter and Saturn on the same side of the Sun, each at least 10° from it, within 90° of ecliptic longitude (daily, 00 UTC).
+<b>Supermoon:</b> full Moon at most 362,000 km away (about three a year). <b>Conjunction:</b> equal geocentric longitude of Mars and Jupiter.
+<b>Cluster:</b> all three within one 30-day span. These definitions were fixed before the catalogues were opened.</li>
+<li><b>Earthquakes:</b> USGS ComCat global M6.0+, 1973 to 6 November 2026 <a href="#ref-usgs">[3]</a>. Counts are reported for all events and for independent mainshocks; aftershocks were removed with Gardner–Knopoff space–time windows <a href="#ref-gk">[5]</a>.
+M6+ is complete globally for this period. Regional swarms were not assessed, because they need local catalogues and local baselines.</li>
+<li><b>Volcanoes:</b> Smithsonian GVP confirmed eruption onsets dated to within ±3 days, 1973–2025 <a href="#ref-gvp">[4]</a>; 2026 is left out because the database lags.
+The record has no consistent escalation or unrest entries, so those are assessed as <i>insufficient evidence</i>, not as no effect.</li>
+<li><b>Windows:</b> ±3 days around each event (primary), with ±1 and ±7 days as sensitivity checks. A grouping counts as its whole run, padded by 3 days.
+Overlapping windows are merged, so no earthquake is counted twice.</li>
+<li><b>Baselines:</b> (a) 5,000 circular time shifts of the event dates, which keep aftershock and seasonal clustering, giving a one-sided p and Benjamini–Hochberg q across the 16 primary tests;
+(b) every same-length window in 1973–2025; (c) the same calendar window in all other years.</li>
+</ul></div>
+<h2 id="findings">4. Findings by period</h2><div class="prose">
+<p>All historical periods that meet the rule are listed, plus the August 2024 candidate from the original brief.
+August 2024 fails the grouping rule: its "six-planet alignment" was spread over more than 90° and included Uranus and Neptune, which are not visible to the naked eye.
+The rule also finds three clusters the brief did not list (2011, 2018, 2020). Percentile = where the observed count sits among all same-length windows in 1973–2025.</p></div>
+<div class="wrap"><table class=""><thead><tr><th>Astronomical event / window</th><th>Terrestrial observation</th><th>Expected baseline (mean, 95% range)</th><th>Degree of anomaly</th><th>Data quality</th><th>Interpretation</th></tr></thead><tbody><tr><td><b>Apr 2011</b><br><span class="note">2011-04-15 to 2011-05-04; Mars–Jupiter 01 May; supermoon 18 Apr (358,796 km); morning grouping 21 Apr–04 Jun (Mercury, Venus, Mars, Jupiter)</span></td><td>5 M6+ (3 mainshocks, 0 M7+); 2 eruption onsets. Largest: M6.8 79 km W of Kirakira, Solomon Islands (23 Apr)</td><td>5.5 mainshocks (95%: 1–12); 0.7 M7+; 1.6 onsets (95%: 0–5)</td><td>mainshocks 18th, M7+ 26th, eruptions 65th percentile</td><td>Good (global M6+ complete since 1973; GVP onsets ±3 d)</td><td>Within normal range</td></tr><tr><td><b>Oct 2015</b><br><span class="note">2015-10-14 to 2015-10-30; Mars–Jupiter 17 Oct; supermoon 27 Oct (359,328 km); morning grouping 06 Oct–01 Nov (Mercury, Venus, Mars, Jupiter)</span></td><td>6 M6+ (6 mainshocks, 2 M7+); 3 eruption onsets. Largest: M7.5 Hindu Kush region, Afghanistan (26 Oct)</td><td>4.7 mainshocks (95%: 1–10); 0.6 M7+; 1.4 onsets (95%: 0–4)</td><td>mainshocks 72th, M7+ 93th, eruptions 89th percentile</td><td>Good (global M6+ complete since 1973; GVP onsets ±3 d)</td><td>Within normal range</td></tr><tr><td><b>Jan 2018</b><br><span class="note">2017-12-30 to 2018-01-10; Mars–Jupiter 07 Jan; supermoon 02 Jan (356,602 km); morning grouping 02 Jan–03 Feb (Mercury, Mars, Jupiter, Saturn)</span></td><td>1 M6+ (1 mainshocks, 1 M7+); 1 eruption onsets. Largest: M7.5 203 km NNE of Barra Patuca, Honduras (10 Jan)</td><td>3.3 mainshocks (95%: 0–8); 0.4 M7+; 1.0 onsets (95%: 0–3)</td><td>mainshocks 12th, M7+ 80th, eruptions 56th percentile</td><td>Good (global M6+ complete since 1973; GVP onsets ±3 d)</td><td>Within normal range</td></tr><tr><td><b>Mar 2020</b><br><span class="note">2020-03-06 to 2020-03-23; Mars–Jupiter 20 Mar; supermoon 09 Mar (357,400 km); morning grouping 03 Mar–25 Apr (Mercury, Mars, Jupiter, Saturn)</span></td><td>6 M6+ (5 mainshocks, 0 M7+); 1 eruption onsets. Largest: M6.4 Kermadec Islands region (14 Mar)</td><td>5.0 mainshocks (95%: 1–11); 0.6 M7+; 1.5 onsets (95%: 0–4)</td><td>mainshocks 54th, M7+ 28th, eruptions 40th percentile</td><td>Good (global M6+ complete since 1973; GVP onsets ±3 d)</td><td>Within normal range</td></tr><tr><td><b>May 2022</b><br><span class="note">2022-05-26 to 2022-06-17; Mars–Jupiter 29 May; supermoon 14 Jun (357,656 km); morning grouping 17 Feb–08 Jul (Mercury, Venus, Mars, Jupiter, Saturn)</span></td><td>8 M6+ (7 mainshocks, 1 M7+); 5 eruption onsets. Largest: M7.2 10 km W of Azángaro, Peru (26 May)</td><td>6.4 mainshocks (95%: 1–13); 0.8 M7+; 1.9 onsets (95%: 0–5)</td><td>mainshocks 61th, M7+ 64th, eruptions 97th percentile</td><td>Good (global M6+ complete since 1973; GVP onsets ±3 d)</td><td>Eruption onsets in the top 5% of same-length windows: a modest anomaly, one of 24 comparisons</td></tr><tr><td><b>Nov 2026</b><br><span class="note">2026-11-13 to 2026-11-27; Mars–Jupiter 16 Nov; supermoon 24 Nov (360,765 km); morning grouping 10 Nov–04 Dec (Mercury, Venus, Mars, Jupiter)</span></td><td>Window 13–27 Nov not yet observed</td><td>4.2 mainshocks (95%: 0–9); 0.5 M7+; 1.2 onsets (95%: 0–4)</td><td>—</td><td>Good (global M6+ complete since 1973; GVP onsets ±3 d)</td><td>Prospective; see monitoring plan</td></tr><tr><td><b>Aug 2024 (brief&#x27;s candidate)</b><br><span class="note">2024-08-11 to 2024-08-31; Mars–Jupiter 14 Aug; full Moon 19 Aug 361,969 km (no qualifying grouping)</span></td><td>6 M6+ (3 mainshocks, 1 M7+); 0 eruption onsets. Largest: M7.0 102 km E of Petropavlovsk-Kamchatsky, Russia (17 Aug)</td><td>5.8 mainshocks (95%: 1–12); 0.7 M7+; 1.7 onsets (95%: 0–5)</td><td>mainshocks 16th, M7+ 67th, eruptions 9th percentile</td><td>Good (global M6+ complete since 1973; GVP onsets ±3 d)</td><td>Within normal range</td></tr></tbody></table></div>
+<h2 id="tests">5. Each feature tested on its own, 1973–2026</h2><div class="prose">
+<p>Keeping the three features separate matters because they are physically different: a tidal maximum and two line-of-sight effects.
+Ratios of observed to expected counts sit between 0.67 and 1.65. None is significant after correction.</p></div>
+<div class="wrap"><table class=""><thead><tr><th>Feature (±3 d)</th><th>Outcome</th><th>Observed</th><th>Expected</th><th>Ratio</th><th>p</th><th>q</th><th>Verdict</th></tr></thead><tbody><tr><td>Mars–Jupiter conjunction</td><td>M6+ earthquakes, all</td><td>70</td><td>68.7</td><td>1.02</td><td>0.444</td><td>0.77</td><td>No excess</td></tr><tr><td>Mars–Jupiter conjunction</td><td>M6+ mainshocks</td><td>55</td><td>50.6</td><td>1.09</td><td>0.293</td><td>0.77</td><td>No excess</td></tr><tr><td>Mars–Jupiter conjunction</td><td>M7+ mainshocks</td><td>7</td><td>6.3</td><td>1.11</td><td>0.45</td><td>0.77</td><td>No excess</td></tr><tr><td>Mars–Jupiter conjunction</td><td>Eruption onsets</td><td>10</td><td>14.8</td><td>0.67</td><td>0.922</td><td>0.92</td><td>No excess</td></tr><tr><td>Supermoon (full Moon ≤ 362,000 km)</td><td>M6+ earthquakes, all</td><td>362</td><td>382.2</td><td>0.95</td><td>0.782</td><td>0.89</td><td>No excess</td></tr><tr><td>Supermoon (full Moon ≤ 362,000 km)</td><td>M6+ mainshocks</td><td>274</td><td>279.5</td><td>0.98</td><td>0.615</td><td>0.82</td><td>No excess</td></tr><tr><td>Supermoon (full Moon ≤ 362,000 km)</td><td>M7+ mainshocks</td><td>39</td><td>34.7</td><td>1.12</td><td>0.24</td><td>0.77</td><td>No excess</td></tr><tr><td>Supermoon (full Moon ≤ 362,000 km)</td><td>Eruption onsets</td><td>82</td><td>82.2</td><td>1.0</td><td>0.52</td><td>0.77</td><td>No excess</td></tr><tr><td>Planet grouping (≥4 planets, whole run)</td><td>M6+ earthquakes, all</td><td>948</td><td>953.6</td><td>0.99</td><td>0.53</td><td>0.77</td><td>No excess</td></tr><tr><td>Planet grouping (≥4 planets, whole run)</td><td>M6+ mainshocks</td><td>703</td><td>696.9</td><td>1.01</td><td>0.427</td><td>0.77</td><td>No excess</td></tr><tr><td>Planet grouping (≥4 planets, whole run)</td><td>M7+ mainshocks</td><td>93</td><td>86.5</td><td>1.08</td><td>0.242</td><td>0.77</td><td>No excess</td></tr><tr><td>Planet grouping (≥4 planets, whole run)</td><td>Eruption onsets</td><td>220</td><td>205.2</td><td>1.07</td><td>0.153</td><td>0.77</td><td>No excess</td></tr><tr><td>All three within 30 days (cluster span)</td><td>M6+ earthquakes, all</td><td>26</td><td>34.2</td><td>0.76</td><td>0.84</td><td>0.9</td><td>No excess</td></tr><tr><td>All three within 30 days (cluster span)</td><td>M6+ mainshocks</td><td>22</td><td>24.8</td><td>0.89</td><td>0.687</td><td>0.85</td><td>No excess</td></tr><tr><td>All three within 30 days (cluster span)</td><td>M7+ mainshocks</td><td>4</td><td>3.0</td><td>1.32</td><td>0.367</td><td>0.77</td><td>No excess</td></tr><tr><td>All three within 30 days (cluster span)</td><td>Eruption onsets</td><td>12</td><td>7.3</td><td>1.65</td><td>0.079</td><td>0.77</td><td>No excess</td></tr></tbody></table></div>
+<p class="note">Full results, including ±1 and ±7 day sensitivity checks: <a href="data/sky_cluster_tests.csv">sky_cluster_tests.csv</a>; periods: <a href="data/sky_cluster_periods.csv">sky_cluster_periods.csv</a>.</p>
+<h2 id="strong">6. Strongest and negative findings</h2><div class="prose">
+<ul>
+<li><b>Modest anomaly.</b> May–June 2022 had five eruption onsets (Dempo, Ulawun, Bulusan, Mayon, Ebeko) where 1.9 is typical. These are ordinary small eruptions (VEI 0–2) in arcs that erupt often.
+Across all six cluster windows, onsets were 12 against 7.3 expected (p = 0.08, q = 0.77): suggestive, not significant.</li>
+<li><b>October 2015</b> had two M7+ mainshocks in 17 days (93rd percentile), including the M7.5 Hindu Kush earthquake of 26 October.</li>
+<li><b>Exploratory only.</b> Sensitivity checks with p &lt; 0.1: Mars–Jupiter conjunction ±1 d, M6+ mainshocks: 32 vs 21.7 (p = 0.035); All three within 30 days (cluster span) ±1 d, Eruption onsets: 10 vs 5.7 (p = 0.07). These were not pre-specified as primary, do not hold at the primary ±3 d window, and do not replicate this site's earlier 1965–2016 test (±7 and ±15 d: no excess).</li>
+<li><b>Negative.</b> January 2018 (M6+ counts at the 7th–12th percentile) and August 2024 (mainshocks 16th, eruption onsets 9th percentile) were quieter than usual. April 2011 and March 2020 were normal.
+Supermoons and planet groupings show no excess for any outcome or window.</li>
+</ul></div>
+<h2 id="mech">7. Mechanisms and alternative explanations</h2><div class="prose">
+<p><b>Tides are the only physical link of measurable size.</b> Solid-earth and ocean tides change stress on faults by about 0.01–0.1 bar.
+That is far less than the stress released in an earthquake. Studies find a small tidal influence on some shallow thrust faults <a href="#ref-cochran">[6]</a>,
+and a higher share of large events during high tidal stress <a href="#ref-ide">[7]</a>. Neither study allows a particular month or fault to be singled out.
+A global study of M8+ earthquakes found no preferred lunar phase <a href="#ref-hough">[8]</a>. A supermoon raises the lunar tide by about 20% over an average full Moon.
+That is comparable to the ordinary perigee spring tides that come every few months.</p>
+<p><b>Planets:</b> Venus, the strongest planetary tide, is about 1/20,000 of the Moon's at its closest. Jupiter is about 1/100,000 or less.
+A grouping or conjunction seen from Earth does not change those values in any meaningful way. <b>Comets and meteor showers</b> have no known route of influence on the solid Earth at these distances and masses.</p>
+<p><b>Alternative explanations for apparent hits:</b> aftershock sequences, which are handled by declustering and the circular-shift null; ongoing eruptions reported as new; reporting lags; and selection.
+Selection is the largest: choosing which "alignment" to look at after a disaster has happened. With about 13 M7+ mainshocks a year, any 30-day window has roughly a two-in-three chance of containing one somewhere.</p></div>
+<h2 id="limits">8. Limitations and monitoring plan for 7–30 November 2026</h2><div class="prose">
+<p><b>Data cutoff:</b> USGS to 6 Nov 2026; GVP database onsets to 31 Dec 2025. <b>Observed so far in November</b> (not a test): M6+ events M6.0 165 km NW of Port-Olry, Vanuatu (2026-11-01 11:47 UTC, aftershock), M6.1 Fiji region (2026-11-05 17:21 UTC, aftershock).
+Only five historical clusters exist, so the test has little power to detect a weak effect. A small effect cannot be excluded, but no large effect is present.
+Gardner–Knopoff windows ignore depth and are approximate. Eruption onsets depend on reporting, and escalations and unrest could not be tested.</p>
+<p><b>Monitoring plan, fixed now:</b> on 1 December 2026, rerun <code>tools/sky/cluster_study.py</code> with the same definitions on USGS data to 30 November.
+Report for the 13–27 November window: M6+ counts (all, mainshocks, M7+) against the baselines above (mean 5.7 / 4.2 / 0.5).
+Also report eruption onsets from the GVP Weekly Volcanic Activity Reports, dated by activity start and not by report date, against a mean of 1.2.
+Any count outside the 95% range will be reported as unusual. It will still not count as evidence of an astronomical cause.</p></div>
+<h2 id="references">Sources</h2><ol class="refs"><li id="ref-jpl">JPL Small-Body Database, 161P/Hartley-IRAS, orbit solution K262/1 (14 Oct 2026). <a href="https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=161P">https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=161P</a></li><li id="ref-imo">International Meteor Organization, 2026 Meteor Shower Calendar (Leonids). <a href="https://www.imo.net/files/meteor-shower/cal2026.pdf">https://www.imo.net/files/meteor-shower/cal2026.pdf</a></li><li id="ref-usgs">USGS ComCat earthquake catalogue, M5.5+ 1973-01-01 to 2026-11-06, FDSN event web service (read 6 Nov 2026). <a href="https://earthquake.usgs.gov/fdsnws/event/1/">https://earthquake.usgs.gov/fdsnws/event/1/</a></li><li id="ref-gvp">Smithsonian Global Volcanism Program, Volcanoes of the World, Holocene eruptions (WFS service, read 6 Nov 2026). <a href="https://volcano.si.edu/">https://volcano.si.edu/</a></li><li id="ref-gk">Gardner, J. K. &amp; Knopoff, L. (1974). Is the sequence of earthquakes in Southern California, with aftershocks removed, Poissonian? <i>BSSA</i> 64, 1363–1367. <a href="https://doi.org/10.1785/BSSA0640051363">doi:10.1785/BSSA0640051363</a></li><li id="ref-cochran">Cochran, E. S., Vidale, J. E. &amp; Tanaka, S. (2004). Earth tides can trigger shallow thrust fault earthquakes. <i>Science</i> 306, 1164–1166. <a href="https://doi.org/10.1126/science.1103961">doi:10.1126/science.1103961</a> <span class="note">[abstract read]</span></li><li id="ref-ide">Ide, S., Yabe, S. &amp; Tanaka, Y. (2016). Earthquake potential revealed by tidal influence on earthquake size–frequency statistics. <i>Nature Geoscience</i> 9, 834–837. <a href="https://doi.org/10.1038/ngeo2796">doi:10.1038/ngeo2796</a> <span class="note">[abstract read]</span></li><li id="ref-hough">Hough, S. E. (2018). Do large (magnitude ≥8) global earthquakes occur on preferred days of the calendar year or lunar cycle? <i>Seismological Research Letters</i> 89(2A), 577–581. <a href="https://doi.org/10.1785/0220170154">doi:10.1785/0220170154</a> <span class="note">[abstract read]</span></li><li id="ref-usgsfaq">USGS. Can you predict earthquakes? <a href="https://www.usgs.gov/faqs/can-you-predict-earthquakes">https://www.usgs.gov/faqs/can-you-predict-earthquakes</a></li><li id="ref-ephem">PyEphem 4.2.1 (VSOP87 planets, ELP 2000-82 Moon). Computations in tools/sky/ of this site's repository. <a href="https://rhodesmill.org/pyephem/">https://rhodesmill.org/pyephem/</a></li></ol>
+</main>
+<footer class="site-foot">Data snapshot: <span data-asof>6 November 2026</span>. Independent, non-commercial analysis built from public sources (see <a href="about.html">About &amp; method</a>). Analysis prepared with Claude (Anthropic). <a href="contact.html">Contact</a></footer>
+</body></html>

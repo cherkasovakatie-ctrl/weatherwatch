@@ -818,9 +818,33 @@
    "id": "sky_nov2026_tests",
    "file": "sky_nov2026_tests.csv",
    "title": "Moon phases and Mars–Jupiter conjunctions vs earthquakes, 1965–2016",
-   "description": "Declustered USGS M6+, M7+ and M7.5+ mainshocks (Gardner–Knopoff) within ±1 or ±3 days of full Moons, new or full Moons and supermoons (syzygy within 360,000 km), and within ±7 or ±15 days of Mars–Jupiter conjunctions. Expected counts from 5,000 circular time shifts; Benjamini–Hochberg q across the 24 tests.",
+   "description": "Declustered USGS M6+, M7+ and M7.5+ mainshocks (Gardner–Knopoff) within ±1 or ±3 days of full Moons, new or full Moons and supermoons (syzygy within 362,000 km), and within ±7 or ±15 days of Mars–Jupiter conjunctions. Expected counts from 5,000 circular time shifts; Benjamini–Hochberg q across the 24 tests.",
    "updated": "2026-11-06",
-   "bytes": 2473
+   "bytes": 2471
+  },
+  {
+   "id": "sky_cluster_tests",
+   "file": "sky_cluster_tests.csv",
+   "title": "Planet groupings, supermoons and Mars–Jupiter conjunctions vs earthquakes and eruptions, 1973–2026",
+   "description": "USGS M6+ events (all and Gardner–Knopoff mainshocks, M7+ mainshocks) to 6 Nov 2026 and Smithsonian GVP eruption onsets 1973–2025 within ±3 d (primary), ±1 and ±7 d (sensitivity) of each feature. Expected from 5,000 circular shifts; Benjamini–Hochberg q over the 16 primary tests.",
+   "updated": "2026-11-06",
+   "bytes": 5464
+  },
+  {
+   "id": "sky_cluster_periods",
+   "file": "sky_cluster_periods.csv",
+   "title": "Past sky clusters like November 2026: Earth activity by period",
+   "description": "Each 1973–2026 period with ≥4 grouped planets, a supermoon (≤362,000 km) and a Mars–Jupiter conjunction within 30 days, plus August 2024: counts in the ±3 d window vs all same-length windows 1973–2025 (mean, 95% range, percentile) and the same calendar window in other years.",
+   "updated": "2026-11-06",
+   "bytes": 5839
+  },
+  {
+   "id": "sky_nov2026_observed",
+   "file": "sky_nov2026_observed.csv",
+   "title": "M6+ earthquakes in November 2026 so far",
+   "description": "USGS ComCat M6+ events from 1 November 2026 to the data cutoff, marked mainshock or aftershock (Gardner–Knopoff).",
+   "updated": "2026-11-06",
+   "bytes": 148
   }
  ],
  "refreshed_iso": "2026-11-05"
