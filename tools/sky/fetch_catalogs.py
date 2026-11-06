@@ -38,9 +38,17 @@ for name, layer in [("gvp_eruptions.csv", "Smithsonian_VOTW_Holocene_Eruptions")
     except Exception as e:  # noqa: BLE001
         print("GVP failed", layer, e)
 
-for name, url in [("gvp_weekly_rss.xml", "https://volcano.si.edu/news/WeeklyVolcanoRSS.xml"),
-                  ("gvp_weekly_page.html", "https://volcano.si.edu/reports_weekly.cfm")]:
-    try:
-        get(url, OUT / name)
-    except Exception as e:  # noqa: BLE001
-        print("GVP weekly failed", name, e)
+try:
+    get("https://volcano.si.edu/news/WeeklyVolcanoRSS.xml", OUT / "gvp_weekly_rss.xml")
+    # keep every week: archive under the report period named in the first item title
+    import re
+    import xml.etree.ElementTree as ET
+    first = ET.parse(OUT / "gvp_weekly_rss.xml").getroot().find("channel/item/title").text or ""
+    m = re.search(r"Report for (.+?) - ", first)
+    tag = re.sub(r"[^0-9A-Za-z]+", "_", m.group(1)).strip("_") if m else today
+    arch = OUT / "gvp_weekly"
+    arch.mkdir(exist_ok=True)
+    (arch / f"{tag}.xml").write_bytes((OUT / "gvp_weekly_rss.xml").read_bytes())
+    print("archived weekly report", tag)
+except Exception as e:  # noqa: BLE001
+    print("GVP weekly failed", e)
