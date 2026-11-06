@@ -9,7 +9,7 @@ usgs_2008.csv 462467 bytes
 usgs_2013.csv 397519 bytes
 usgs_2018.csv 428114 bytes
 usgs_2023.csv 337522 bytes
-gvp_eruptions.csv 2168982 bytes
-gvp_volcanoes.csv 1891035 bytes
+gvp_eruptions.csv 2161706 bytes
+gvp_volcanoes.csv 1892509 bytes
 gvp_weekly_rss.xml 36709 bytes
-GVP weekly failed gvp_weekly_page.html HTTP Error 403: Forbidden
+archived weekly report 8_October_14_October_2026
