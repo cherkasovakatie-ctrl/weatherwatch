@@ -1,0 +1,21 @@
+name: Sky catalogs (branch weekly-raw)
+on:
+  push:
+    branches: [weekly-raw]
+    paths: [tools/sky/catalog_trigger.txt]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: mkdir -p raw/sky; python3 tools/sky/fetch_catalogs.py > raw/sky/stdout.txt 2>&1 || true
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add raw && git commit -m "Sky catalogs" || exit 0
+          for i in 1 2 3 4 5 6; do git pull --rebase origin weekly-raw && git push origin HEAD:weekly-raw && break; sleep $((RANDOM % 20 + 5)); done
