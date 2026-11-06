@@ -9,7 +9,10 @@ usgs_2008.csv 462467 bytes
 usgs_2013.csv 397519 bytes
 usgs_2018.csv 428114 bytes
 usgs_2023.csv 337522 bytes
-gvp_eruptions.csv 2161706 bytes
-gvp_volcanoes.csv 1892509 bytes
+gvp_eruptions.csv 2172795 bytes
+gvp_volcanoes.csv 1893723 bytes
 gvp_weekly_rss.xml 36709 bytes
 archived weekly report 8_October_14_October_2026
+kp_ap_sn_f107_since_1932.txt 5511829 bytes
+pb2002_boundaries.json 226378 bytes
+pb2002_plates.json 327718 bytes
