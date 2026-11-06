@@ -52,3 +52,13 @@ try:
     print("archived weekly report", tag)
 except Exception as e:  # noqa: BLE001
     print("GVP weekly failed", e)
+
+for name, url in [
+    ("kp_ap_sn_f107_since_1932.txt", "https://kp.gfz-potsdam.de/app/files/Kp_ap_Ap_SN_F107_since_1932.txt"),
+    ("pb2002_boundaries.json", "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json"),
+    ("pb2002_plates.json", "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_plates.json"),
+]:
+    try:
+        get(url, OUT / name)
+    except Exception as e:  # noqa: BLE001
+        print("failed", name, e)
