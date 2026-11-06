@@ -1562,9 +1562,39 @@ body { font-family: var(--font-anthropic-sans); }
   <section class="ww-page" id="sky" data-page-id="sky" hidden>
     <p class="ww-take" id="sky-verdict"><b>Verdict so far:</b> across 192 tests of planetary cycles against eight climate indices (1950–2026), 10 came out “significant” at p &lt; 0.05 — exactly what chance alone produces — and none survive a false-discovery-rate correction. Four leads keep the same sign in both halves of the record and are worth watching forward: Saturn–Neptune closeness vs ENSO, Saturn–Neptune hard aspects vs global temperature wiggles, Jupiter–Pluto hard aspects vs the PDO, and the 18.6-year lunar node cycle vs the PDO (the only one with a known physical mechanism, tidal mixing).</p>
     <div class="ww-grid">
+      <article class="ww-card wide" id="card-sky-nov2026">
+        <h2>November 2026: what the sky actually does</h2>
+        <p class="note">Every lunar and planetary event this month, computed with PyEphem (geocentric, tropical zodiac), in UTC and Pacific Standard Time. Observation: these are astronomical facts. The full Moon of 24 November is a supermoon, 360,765 km away, with perigee 30 hours later; Mars and Jupiter meet in Leo on 16 November (UTC); Uranus is at opposition on 25 November.</p>
+        <div class="ww-table-wrap ww-events-wrap">
+          <table class="ww-table" id="table-sky-nov2026" data-source="sky_nov2026_calendar" data-row-key="time_utc"><caption style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap">November 2026 sky calendar</caption>
+            <thead><tr><th data-field="date" scope="col">Date (UTC)</th><th data-field="time_utc" scope="col">UTC</th><th data-field="time_pst" scope="col">PST</th><th data-field="event" scope="col">Event</th><th data-field="kind" scope="col">Type</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </article>
+      <article class="ww-card wide" id="card-sky-nov2026-claims">
+        <h2>November 2026 earthquake forecast claims, checked</h2>
+        <p class="note">A widely shared video forecast (posted 5 November 2026) issued a “red alert” for a great earthquake in California, Oregon and Washington this month, based on the Mars–Jupiter conjunction, the Mercury and Venus retrogrades, the 24 November supermoon and Uranus. Most of the astronomy is right; the link to earthquakes is not supported by the record. Tidal triggering of earthquakes is real but small (Ide, Yabe &amp; Tanaka 2016, <a href="https://doi.org/10.1038/ngeo2796">Nature Geoscience 9, 834–837</a>) and cannot single out a month or a fault. Base rate: about 13 M7+ mainshocks a year worldwide, so any 30-day window has roughly a two-in-three chance of one somewhere. Official guidance: <a href="https://www.usgs.gov/faqs/can-you-predict-earthquakes">USGS — earthquakes cannot be predicted</a>.</p>
+        <div class="ww-table-wrap">
+          <table class="ww-table" id="table-sky-nov2026-claims" data-source="sky_nov2026_claims" data-row-key="claim"><caption style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap">November 2026 earthquake forecast claims, checked</caption>
+            <thead><tr><th data-field="claim" scope="col">Claim</th><th data-field="status" scope="col">Verdict</th><th data-field="ephemeris" scope="col">What the ephemeris and record show</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </article>
+      <article class="ww-card wide" id="card-sky-nov2026-tests">
+        <h2>Full Moons, supermoons and Mars–Jupiter conjunctions vs earthquakes, 1965–2016</h2>
+        <p class="note">Same catalogue and method as the alignment test below: USGS M6+, M7+ and M7.5+ mainshocks (aftershocks removed), counted within ±1 or ±3 days of full Moons, new or full Moons and supermoons (new or full Moon within 360,000 km), and within ±7 or ±15 days of the 25 Mars–Jupiter conjunctions. Expected = mean of 5,000 random time shifts. Result: no test reaches p &lt; 0.05; ratios sit between 0.9 and 1.1 except for the small Mars–Jupiter samples, where large quakes were if anything fewer than expected.</p>
+        <div class="ww-table-wrap">
+          <table class="ww-table" id="table-sky-nov2026-tests" data-source="sky_nov2026_tests" data-row-key="rank"><caption style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap">Full Moons, supermoons and Mars–Jupiter conjunctions vs earthquakes</caption>
+            <thead><tr><th data-field="alignment" scope="col">Configuration</th><th data-field="window" scope="col">Window</th><th data-field="hazard" scope="col">Earthquakes</th><th data-field="observed" scope="col">Observed</th><th data-field="expected" scope="col">Expected</th><th data-field="ratio" scope="col">Ratio</th><th data-field="p_value" scope="col">p</th><th data-field="q_fdr" scope="col">q</th><th data-field="verdict" scope="col">Verdict</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </article>
       <article class="ww-card" id="card-sky-now">
         <h2>Where the planets are now</h2>
-        <p class="note">Geocentric positions on 13 October 2026, tropical zodiac, PyEphem. ℞ = retrograde.</p>
+        <p class="note">Geocentric positions on 6 November 2026, 12:00 UTC, tropical zodiac, PyEphem. ℞ = retrograde.</p>
         <div class="ww-table-wrap">
           <table class="ww-table" id="table-sky-now" data-source="sky_now" data-row-key="body"><caption style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap">Where the planets are now</caption>
             <thead><tr><th data-field="body" scope="col">Body</th><th data-field="sign" scope="col">Sign</th><th data-field="degree" scope="col">Degree</th><th data-field="retrograde" scope="col">Retrograde</th></tr></thead>

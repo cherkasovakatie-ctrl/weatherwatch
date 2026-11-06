@@ -1,0 +1,18 @@
+date,time_utc,time_pst,event,kind
+2026-11-01,20:28,01 Nov 12:28,"Last quarter Moon at 9.1° Leo, 372,614 km from Earth",lunation
+2026-11-02,13:48,02 Nov 05:48,Moon–Mars conjunction at 19.0° Leo,aspect
+2026-11-02,22:50,02 Nov 14:50,Moon–Jupiter conjunction at 24.2° Leo,aspect
+2026-11-04,14:24,04 Nov 06:24,Mercury–Sun inferior conjunction (0.67 AU from Earth),conjunction
+2026-11-09,07:02,08 Nov 23:02,"New Moon at 16.5° Scorpio, 397,771 km from Earth",lunation
+2026-11-13,15:55,13 Nov 07:55,Mercury turns direct at 4.7° Scorpio,station
+2026-11-13,17:45,13 Nov 09:45,"Moon at apogee, 405,619 km",lunar distance
+2026-11-14,00:32,13 Nov 16:32,Venus turns direct at 22.5° Libra,station
+2026-11-16,06:24,15 Nov 22:24,"Mars–Jupiter conjunction at 25.5° Leo, closest on the sky 1.2° apart",aspect
+2026-11-17,11:47,17 Nov 03:47,"First quarter Moon at 24.8° Aquarius, 397,518 km from Earth",lunation
+2026-11-22,16:14,22 Nov 08:14,Sun enters Sagittarius (240°),ingress
+2026-11-24,14:53,24 Nov 06:53,"Full Moon at 2.0° Gemini, 360,765 km from Earth",lunation
+2026-11-24,17:05,24 Nov 09:05,Moon–Uranus conjunction at 3.3° Gemini,aspect
+2026-11-25,20:54,25 Nov 12:54,"Moon at perigee, 359,347 km",lunar distance
+2026-11-25,22:24,25 Nov 14:24,"Uranus at opposition (Earth between Sun and Uranus), Uranus at 3.3° Gemini",conjunction
+2026-11-30,08:34,30 Nov 00:34,Moon–Jupiter conjunction at 26.4° Leo,aspect
+2026-11-30,17:24,30 Nov 09:24,Moon–Mars conjunction at 1.5° Virgo,aspect

@@ -670,9 +670,9 @@
    "id": "sky_now",
    "file": "sky_now.csv",
    "title": "Planet positions now",
-   "description": "Geocentric ecliptic longitude, zodiac sign and degree (tropical zodiac) of the Sun, Moon and planets, plus the mean lunar node, for 23 Oct 2026 12:00 UTC, computed with PyEphem (VSOP87). Retrograde = longitude decreasing day to day.",
-   "updated": "2026-10-23",
-   "bytes": 402
+   "description": "Geocentric ecliptic longitude, zodiac sign and degree (tropical zodiac) of the Sun, Moon and planets, plus the mean lunar node, for 6 Nov 2026 12:00 UTC, computed with PyEphem (VSOP87). Retrograde = longitude decreasing day to day.",
+   "updated": "2026-11-06",
+   "bytes": 406
   },
   {
    "id": "sky_tests",
@@ -797,6 +797,30 @@
    "description": "Niño 3.4 (5°S–5°N, 170°W–120°W, area-weighted) SST anomaly forecast, °C, for OND, NDJ and DJF, issued 2026-10-08 by CPC (NMME): the posted anomaly of each model (relative to that model's own hindcast climatology; periods differ), the change, and the anomaly re-baselined to 1993-2010 with per-member hindcasts from forecast.ccsr.columbia.edu, plus the equal-weight mean of six models. Re-baselining is this site's calculation; model forecasts, not observations.",
    "updated": "2026-10-24",
    "bytes": 1040
+  },
+  {
+   "id": "sky_nov2026_calendar",
+   "file": "sky_nov2026_calendar.csv",
+   "title": "Sky calendar, November 2026",
+   "description": "Lunations, lunar perigee and apogee, planetary conjunctions, stations, Uranus opposition and the Sun’s ingress into Sagittarius in November 2026, with UTC and Pacific Standard Time, computed with PyEphem (VSOP87, ELP). Geocentric ecliptic longitude, tropical zodiac.",
+   "updated": "2026-11-06",
+   "bytes": 1513
+  },
+  {
+   "id": "sky_nov2026_claims",
+   "file": "sky_nov2026_claims.csv",
+   "title": "November 2026 sky claims checked",
+   "description": "Astronomical and seismological claims made in public forecasts for November 2026, checked against the PyEphem ephemeris and the earthquake tests on this tab.",
+   "updated": "2026-11-06",
+   "bytes": 2711
+  },
+  {
+   "id": "sky_nov2026_tests",
+   "file": "sky_nov2026_tests.csv",
+   "title": "Moon phases and Mars–Jupiter conjunctions vs earthquakes, 1965–2016",
+   "description": "Declustered USGS M6+, M7+ and M7.5+ mainshocks (Gardner–Knopoff) within ±1 or ±3 days of full Moons, new or full Moons and supermoons (syzygy within 360,000 km), and within ±7 or ±15 days of Mars–Jupiter conjunctions. Expected counts from 5,000 circular time shifts; Benjamini–Hochberg q across the 24 tests.",
+   "updated": "2026-11-06",
+   "bytes": 2473
   }
  ],
  "refreshed_iso": "2026-11-05"
