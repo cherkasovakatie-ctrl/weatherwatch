@@ -1,8 +1,5 @@
 name: Sky catalogs (branch weekly-raw)
 on:
-  schedule:
-    - cron: '17 18 * * 4'   # Thursdays 18:17 UTC: save the GVP weekly volcano report, refresh USGS
-  workflow_dispatch:
   push:
     branches: [weekly-raw]
     paths: [tools/sky/catalog_trigger.txt]
