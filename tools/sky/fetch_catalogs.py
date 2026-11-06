@@ -37,3 +37,10 @@ for name, layer in [("gvp_eruptions.csv", "Smithsonian_VOTW_Holocene_Eruptions")
             f"&typeName=GVP-VOTW:{layer}&outputFormat=csv", OUT / name)
     except Exception as e:  # noqa: BLE001
         print("GVP failed", layer, e)
+
+for name, url in [("gvp_weekly_rss.xml", "https://volcano.si.edu/news/WeeklyVolcanoRSS.xml"),
+                  ("gvp_weekly_page.html", "https://volcano.si.edu/reports_weekly.cfm")]:
+    try:
+        get(url, OUT / name)
+    except Exception as e:  # noqa: BLE001
+        print("GVP weekly failed", name, e)
