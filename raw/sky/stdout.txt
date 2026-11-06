@@ -1,0 +1,13 @@
+usgs_1973.csv 327215 bytes
+usgs_1978.csv 284807 bytes
+usgs_1983.csv 387526 bytes
+usgs_1988.csv 394733 bytes
+usgs_1993.csv 410650 bytes
+usgs_1998.csv 371542 bytes
+usgs_2003.csv 455357 bytes
+usgs_2008.csv 462467 bytes
+usgs_2013.csv 397519 bytes
+usgs_2018.csv 428114 bytes
+usgs_2023.csv 337522 bytes
+gvp_eruptions.csv 2158454 bytes
+gvp_volcanoes.csv 1892509 bytes
