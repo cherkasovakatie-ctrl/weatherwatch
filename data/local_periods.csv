@@ -1,15 +1,15 @@
 period,start,temp_f,precip_chance,wind,forecast,is_day
-This Afternoon,2026-11-06 13:00,84,0,5 mph N,Sunny,True
-Tonight,2026-11-06 18:00,54,0,5 to 10 mph NNE,Clear,False
-Saturday,2026-11-07 06:00,86,0,5 to 15 mph N,Sunny,True
-Saturday Night,2026-11-07 18:00,52,0,5 to 10 mph N,Mostly Clear,False
-Sunday,2026-11-08 06:00,89,0,5 to 10 mph NNW,Sunny,True
-Sunday Night,2026-11-08 18:00,56,0,5 mph N,Mostly Clear,False
-Monday,2026-11-09 06:00,87,0,5 to 10 mph WNW,Sunny,True
-Monday Night,2026-11-09 18:00,58,0,5 to 10 mph NNW,Mostly Clear,False
-Tuesday,2026-11-10 06:00,86,0,0 to 5 mph NNW,Sunny,True
-Tuesday Night,2026-11-10 18:00,58,0,5 to 10 mph NNW,Clear,False
-Veterans Day,2026-11-11 06:00,86,0,0 to 5 mph NNW,Sunny,True
-Wednesday Night,2026-11-11 18:00,60,1,5 mph NW,Clear,False
-Thursday,2026-11-12 06:00,82,10,0 to 5 mph SE,Sunny,True
-Thursday Night,2026-11-12 18:00,57,10,5 to 10 mph NW,Partly Cloudy,False
+This Afternoon,2026-11-07 12:00,86,0,5 to 15 mph N,Sunny,True
+Tonight,2026-11-07 18:00,62,0,5 to 10 mph NNE,Mostly Clear,False
+Sunday,2026-11-08 06:00,87,0,5 to 10 mph N,Sunny,True
+Sunday Night,2026-11-08 18:00,62,0,5 mph NNW,Mostly Clear,False
+Monday,2026-11-09 06:00,85,0,5 to 10 mph NNW,Sunny,True
+Monday Night,2026-11-09 18:00,62,0,5 mph NNW,Mostly Clear,False
+Tuesday,2026-11-10 06:00,87,0,5 mph NW,Sunny,True
+Tuesday Night,2026-11-10 18:00,59,0,5 to 10 mph N,Clear,False
+Veterans Day,2026-11-11 06:00,88,0,0 to 5 mph NW,Sunny,True
+Wednesday Night,2026-11-11 18:00,59,0,5 to 10 mph NNW,Clear,False
+Thursday,2026-11-12 06:00,84,1,0 to 5 mph N,Sunny,True
+Thursday Night,2026-11-12 18:00,58,13,5 mph NE,Mostly Clear,False
+Friday,2026-11-13 06:00,79,16,0 to 5 mph SE,Mostly Sunny then Slight Chance Light Rain,True
+Friday Night,2026-11-13 18:00,57,17,5 to 10 mph WNW,Slight Chance Light Rain,False
