@@ -1,15 +1,15 @@
 period,start,temp_f,precip_chance,wind,forecast,is_day
-This Afternoon,2026-11-10 13:00,89,0,5 mph SW,Sunny,True
-Tonight,2026-11-10 18:00,54,0,5 mph NW,Clear,False
-Veterans Day,2026-11-11 06:00,89,0,0 to 5 mph W,Sunny,True
-Wednesday Night,2026-11-11 18:00,54,0,0 to 5 mph N,Clear,False
-Thursday,2026-11-12 06:00,82,4,0 to 5 mph SE,Sunny,True
-Thursday Night,2026-11-12 18:00,55,31,0 to 5 mph SE,Partly Cloudy then Chance Light Rain,False
-Friday,2026-11-13 06:00,76,31,0 to 10 mph SSE,Chance Light Rain,True
-Friday Night,2026-11-13 18:00,55,40,5 to 15 mph SSW,Chance Light Rain,False
-Saturday,2026-11-14 06:00,73,28,0 to 10 mph S,Chance Light Rain,True
-Saturday Night,2026-11-14 18:00,53,15,5 to 10 mph NNW,Slight Chance Light Rain then Partly Cloudy,False
-Sunday,2026-11-15 06:00,72,11,0 to 5 mph SE,Mostly Sunny,True
-Sunday Night,2026-11-15 18:00,54,43,0 to 5 mph SE,Chance Light Rain,False
-Monday,2026-11-16 06:00,69,57,0 to 10 mph SSE,Light Rain Likely,True
-Monday Night,2026-11-16 18:00,49,47,10 to 15 mph WNW,Chance Light Rain,False
+Veterans Day,2026-11-11 14:00,89,0,0 to 5 mph SSW,Sunny,True
+Tonight,2026-11-11 18:00,54,0,0 to 5 mph WNW,Clear,False
+Thursday,2026-11-12 06:00,82,4,0 to 5 mph SE,Mostly Sunny,True
+Thursday Night,2026-11-12 18:00,56,76,0 to 5 mph SE,Light Rain,False
+Friday,2026-11-13 06:00,71,76,0 to 10 mph SSE,Light Rain,True
+Friday Night,2026-11-13 18:00,54,76,5 to 15 mph SSW,Light Rain,False
+Saturday,2026-11-14 06:00,71,23,5 mph SW,Slight Chance Light Rain then Mostly Sunny,True
+Saturday Night,2026-11-14 18:00,51,5,5 mph E,Partly Cloudy,False
+Sunday,2026-11-15 06:00,72,5,0 to 5 mph SE,Mostly Sunny,True
+Sunday Night,2026-11-15 18:00,53,57,0 to 5 mph E,Light Rain Likely,False
+Monday,2026-11-16 06:00,67,74,0 to 5 mph SSE,Light Rain Likely,True
+Monday Night,2026-11-16 18:00,48,62,5 to 15 mph WNW,Light Rain Likely,False
+Tuesday,2026-11-17 06:00,67,12,5 to 10 mph NNW,Sunny,True
+Tuesday Night,2026-11-17 18:00,46,2,5 to 15 mph NNW,Mostly Clear,False

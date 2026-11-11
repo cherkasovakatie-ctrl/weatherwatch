@@ -1,66 +1,66 @@
 {
- "run_utc": "2026-11-10T21:46:02.122Z",
- "run_local": "2026-11-10 13:46",
+ "run_utc": "2026-11-11T22:37:22.675Z",
+ "run_local": "2026-11-11 14:37",
  "results": [
   {
    "id": "earthquakes",
    "ok": true,
-   "rows": 661,
-   "newest": "2026-11-10 19:54"
+   "rows": 653,
+   "newest": "2026-11-11 22:03"
   },
   {
    "id": "local_obs",
    "ok": true,
-   "rows": 35,
-   "newest": "2026-11-10 13:35"
+   "rows": 36,
+   "newest": "2026-11-11 14:20"
   },
   {
    "id": "local_periods",
    "ok": true,
    "rows": 14,
-   "newest": "Wednesday Night"
+   "newest": "Veterans Day"
   },
   {
    "id": "local_hourly",
    "ok": true,
    "rows": 216,
-   "newest": "2026-11-16 23:00"
+   "newest": "2026-11-17 23:00"
   },
   {
    "id": "local_tides",
    "ok": true,
    "rows": 192,
-   "newest": "2026-11-14 23:00"
+   "newest": "2026-11-15 23:00"
   },
   {
    "id": "local_hilo",
    "ok": true,
-   "rows": 31,
-   "newest": "2026-11-14 19:12"
+   "rows": 29,
+   "newest": "2026-11-15 20:14"
   },
   {
    "id": "local_watertemp",
    "ok": true,
    "rows": 72,
-   "newest": "2026-11-10 13:00"
+   "newest": "2026-11-11 14:00"
   },
   {
    "id": "fires_global_grid",
    "ok": true,
-   "rows": 2889,
+   "rows": 2909,
    "newest": "9.5"
   },
   {
    "id": "fires_socal",
    "ok": true,
-   "rows": 212,
-   "newest": "2026-11-10"
+   "rows": 206,
+   "newest": "2026-11-11"
   },
   {
    "id": "space_daily",
    "ok": true,
    "rows": 31,
-   "newest": "2026-11-10",
+   "newest": "2026-11-11",
    "note": "1 new, 5 values updated"
   },
   {
@@ -71,8 +71,8 @@
   {
    "id": "coral_dhw",
    "ok": true,
-   "rows": 678,
-   "newest": "2026-11-09",
+   "rows": 679,
+   "newest": "2026-11-10",
    "note": "1 new, 0 values updated"
   },
   {
@@ -86,28 +86,29 @@
    "ok": true,
    "rows": 170,
    "newest": "2026-12-31",
-   "note": "0 new, 0 values updated"
+   "note": "0 new, 4 values updated"
   },
   {
    "id": "mjo_daily",
    "ok": true,
    "rows": 150,
-   "newest": "2026-11-06",
+   "newest": "2026-11-07",
    "note": "1 new days, 4 days revised by the source"
   },
   {
    "id": "cdec_reservoirs",
    "ok": true,
    "rows": 13,
-   "newest": "2026-11-09",
-   "note": "report of 2026-11-09"
+   "newest": "2026-11-10",
+   "note": "report of 2026-11-10",
+   "warning": "no value in the report for EXC (left blank)"
   },
   {
    "id": "seaice_clim",
    "ok": true,
    "rows": 365,
    "newest": "12-31",
-   "note": "0 new, 2 values updated"
+   "note": "0 new, 0 values updated"
   },
   {
    "id": "oni",
@@ -142,14 +143,14 @@
    "ok": true,
    "rows": 574,
    "newest": "2026-10",
-   "note": "0 new, 1 values updated"
+   "note": "0 new, 0 values updated"
   },
   {
    "id": "storm_fixes",
    "ok": true,
-   "rows": 464,
+   "rows": 442,
    "newest": "Wati",
-   "note": "462 IBTrACS fixes, 438 checked against the old file, 2 existing rows kept (advisories, or storms not in IBTrACS)"
+   "note": "440 IBTrACS fixes, 440 checked against the old file, 2 existing rows kept (advisories, or storms not in IBTrACS)"
   },
   {
    "id": "sst_weekly",
