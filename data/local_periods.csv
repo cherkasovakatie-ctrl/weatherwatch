@@ -1,15 +1,15 @@
 period,start,temp_f,precip_chance,wind,forecast,is_day
-Veterans Day,2026-11-11 14:00,89,0,0 to 5 mph SSW,Sunny,True
-Tonight,2026-11-11 18:00,54,0,0 to 5 mph WNW,Clear,False
-Thursday,2026-11-12 06:00,82,4,0 to 5 mph SE,Mostly Sunny,True
-Thursday Night,2026-11-12 18:00,56,76,0 to 5 mph SE,Light Rain,False
-Friday,2026-11-13 06:00,71,76,0 to 10 mph SSE,Light Rain,True
-Friday Night,2026-11-13 18:00,54,76,5 to 15 mph SSW,Light Rain,False
-Saturday,2026-11-14 06:00,71,23,5 mph SW,Slight Chance Light Rain then Mostly Sunny,True
-Saturday Night,2026-11-14 18:00,51,5,5 mph E,Partly Cloudy,False
-Sunday,2026-11-15 06:00,72,5,0 to 5 mph SE,Mostly Sunny,True
-Sunday Night,2026-11-15 18:00,53,57,0 to 5 mph E,Light Rain Likely,False
-Monday,2026-11-16 06:00,67,74,0 to 5 mph SSE,Light Rain Likely,True
-Monday Night,2026-11-16 18:00,48,62,5 to 15 mph WNW,Light Rain Likely,False
-Tuesday,2026-11-17 06:00,67,12,5 to 10 mph NNW,Sunny,True
-Tuesday Night,2026-11-17 18:00,46,2,5 to 15 mph NNW,Mostly Clear,False
+This Afternoon,2026-11-12 14:00,82,4,5 to 10 mph S,Mostly Sunny,True
+Tonight,2026-11-12 18:00,56,55,0 to 5 mph SSE,Light Rain Likely,False
+Friday,2026-11-13 06:00,72,55,0 to 10 mph S,Light Rain Likely,True
+Friday Night,2026-11-13 18:00,54,78,5 to 10 mph SW,Light Rain,False
+Saturday,2026-11-14 06:00,72,27,5 mph SE,Chance Light Rain then Mostly Sunny,True
+Saturday Night,2026-11-14 18:00,51,1,5 mph E,Mostly Clear,False
+Sunday,2026-11-15 06:00,73,2,0 to 5 mph ESE,Mostly Sunny,True
+Sunday Night,2026-11-15 18:00,53,29,0 to 5 mph ESE,Chance Light Rain,False
+Monday,2026-11-16 06:00,68,55,0 to 5 mph SSE,Light Rain Likely,True
+Monday Night,2026-11-16 18:00,50,55,5 to 15 mph NW,Light Rain Likely,False
+Tuesday,2026-11-17 06:00,67,18,5 to 10 mph NW,Slight Chance Light Rain then Mostly Sunny,True
+Tuesday Night,2026-11-17 18:00,46,4,5 to 15 mph NNW,Mostly Clear,False
+Wednesday,2026-11-18 06:00,68,23,0 to 5 mph SE,Mostly Sunny then Slight Chance Light Rain,True
+Wednesday Night,2026-11-18 18:00,49,40,5 to 10 mph N,Chance Light Rain,False
