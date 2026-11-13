@@ -1,15 +1,15 @@
 period,start,temp_f,precip_chance,wind,forecast,is_day
-This Afternoon,2026-11-12 14:00,82,4,5 to 10 mph S,Mostly Sunny,True
-Tonight,2026-11-12 18:00,56,55,0 to 5 mph SSE,Light Rain Likely,False
-Friday,2026-11-13 06:00,72,55,0 to 10 mph S,Light Rain Likely,True
-Friday Night,2026-11-13 18:00,54,78,5 to 10 mph SW,Light Rain,False
-Saturday,2026-11-14 06:00,72,27,5 mph SE,Chance Light Rain then Mostly Sunny,True
-Saturday Night,2026-11-14 18:00,51,1,5 mph E,Mostly Clear,False
-Sunday,2026-11-15 06:00,73,2,0 to 5 mph ESE,Mostly Sunny,True
-Sunday Night,2026-11-15 18:00,53,29,0 to 5 mph ESE,Chance Light Rain,False
-Monday,2026-11-16 06:00,68,55,0 to 5 mph SSE,Light Rain Likely,True
-Monday Night,2026-11-16 18:00,50,55,5 to 15 mph NW,Light Rain Likely,False
-Tuesday,2026-11-17 06:00,67,18,5 to 10 mph NW,Slight Chance Light Rain then Mostly Sunny,True
-Tuesday Night,2026-11-17 18:00,46,4,5 to 15 mph NNW,Mostly Clear,False
-Wednesday,2026-11-18 06:00,68,23,0 to 5 mph SE,Mostly Sunny then Slight Chance Light Rain,True
-Wednesday Night,2026-11-18 18:00,49,40,5 to 10 mph N,Chance Light Rain,False
+This Afternoon,2026-11-13 13:00,70,74,10 mph SSW,Light Rain Likely,True
+Tonight,2026-11-13 18:00,55,98,5 to 10 mph SW,Light Rain,False
+Saturday,2026-11-14 06:00,71,3,5 mph SE,Mostly Sunny,True
+Saturday Night,2026-11-14 18:00,51,0,5 mph E,Mostly Clear,False
+Sunday,2026-11-15 06:00,72,0,5 mph SSE,Mostly Sunny,True
+Sunday Night,2026-11-15 18:00,52,7,0 to 5 mph NNE,Mostly Cloudy,False
+Monday,2026-11-16 06:00,70,52,0 to 10 mph SW,Chance Light Rain,True
+Monday Night,2026-11-16 18:00,49,52,5 to 15 mph NW,Chance Light Rain,False
+Tuesday,2026-11-17 06:00,67,11,10 to 15 mph NNW,Sunny,True
+Tuesday Night,2026-11-17 18:00,44,1,5 to 15 mph N,Mostly Clear,False
+Wednesday,2026-11-18 06:00,68,29,0 to 5 mph NNW,Mostly Sunny then Chance Light Rain,True
+Wednesday Night,2026-11-18 18:00,48,45,5 to 10 mph SSW,Chance Light Rain,False
+Thursday,2026-11-19 06:00,67,37,5 to 10 mph SSW,Chance Light Rain,True
+Thursday Night,2026-11-19 18:00,45,20,5 to 15 mph NNW,Slight Chance Light Rain then Partly Cloudy,False

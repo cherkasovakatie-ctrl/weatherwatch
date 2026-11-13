@@ -1,18 +1,18 @@
 {
- "run_utc": "2026-11-12T22:11:59.850Z",
- "run_local": "2026-11-12 14:11",
+ "run_utc": "2026-11-13T21:55:16.152Z",
+ "run_local": "2026-11-13 13:55",
  "results": [
   {
    "id": "earthquakes",
    "ok": true,
-   "rows": 649,
-   "newest": "2026-11-12 20:03"
+   "rows": 666,
+   "newest": "2026-11-13 19:49"
   },
   {
    "id": "local_obs",
    "ok": true,
    "rows": 36,
-   "newest": "2026-11-12 13:55"
+   "newest": "2026-11-13 13:45"
   },
   {
    "id": "local_periods",
@@ -24,44 +24,45 @@
    "id": "local_hourly",
    "ok": true,
    "rows": 216,
-   "newest": "2026-11-18 23:00"
+   "newest": "2026-11-19 23:00",
+   "note": "succeeded on the second try (first: nd_gusts_10m,wind_direction_10m,uv_index: fetch failed (UND_ERR_CONNECT_TIMEOUT))"
   },
   {
    "id": "local_tides",
    "ok": true,
    "rows": 192,
-   "newest": "2026-11-16 23:00"
+   "newest": "2026-11-17 23:00"
   },
   {
    "id": "local_hilo",
    "ok": true,
    "rows": 29,
-   "newest": "2026-11-16 21:13"
+   "newest": "2026-11-17 22:00"
   },
   {
    "id": "local_watertemp",
    "ok": true,
-   "rows": 71,
-   "newest": "2026-11-12 13:00"
+   "rows": 72,
+   "newest": "2026-11-13 13:00"
   },
   {
    "id": "fires_global_grid",
    "ok": true,
-   "rows": 2798,
+   "rows": 2859,
    "newest": "9.5"
   },
   {
    "id": "fires_socal",
    "ok": true,
-   "rows": 205,
-   "newest": "2026-11-12"
+   "rows": 177,
+   "newest": "2026-11-13"
   },
   {
    "id": "space_daily",
    "ok": true,
    "rows": 31,
    "newest": "2026-11-12",
-   "note": "1 new, 5 values updated"
+   "note": "0 new, 5 values updated"
   },
   {
    "id": "calfire_active",
@@ -71,8 +72,8 @@
   {
    "id": "coral_dhw",
    "ok": true,
-   "rows": 680,
-   "newest": "2026-11-11",
+   "rows": 681,
+   "newest": "2026-11-12",
    "note": "1 new, 0 values updated"
   },
   {
@@ -92,15 +93,15 @@
    "id": "mjo_daily",
    "ok": true,
    "rows": 150,
-   "newest": "2026-11-08",
+   "newest": "2026-11-09",
    "note": "1 new days, 4 days revised by the source"
   },
   {
    "id": "cdec_reservoirs",
    "ok": true,
    "rows": 13,
-   "newest": "2026-11-11",
-   "note": "report of 2026-11-11",
+   "newest": "2026-11-12",
+   "note": "report of 2026-11-12",
    "warning": "no value in the report for EXC (left blank)"
   },
   {
@@ -108,7 +109,7 @@
    "ok": true,
    "rows": 365,
    "newest": "12-31",
-   "note": "0 new, 4 values updated"
+   "note": "0 new, 2 values updated"
   },
   {
    "id": "oni",
@@ -129,7 +130,7 @@
    "ok": true,
    "rows": 1761,
    "newest": "2026-09",
-   "note": "0 new, 224 values updated"
+   "note": "0 new, 0 values updated"
   },
   {
    "id": "sunspots_monthly",
@@ -148,9 +149,9 @@
   {
    "id": "storm_fixes",
    "ok": true,
-   "rows": 436,
+   "rows": 416,
    "newest": "Wati",
-   "note": "434 IBTrACS fixes, 420 checked against the old file, 2 existing rows kept (advisories, or storms not in IBTrACS)"
+   "note": "414 IBTrACS fixes, 414 checked against the old file, 2 existing rows kept (advisories, or storms not in IBTrACS)"
   },
   {
    "id": "sst_weekly",
@@ -171,7 +172,7 @@
    "ok": true,
    "rows": 922,
    "newest": "2026-10",
-   "note": "1 new, 0 values updated"
+   "note": "0 new, 0 values updated"
   },
   {
    "id": "volcano_alerts_us",
