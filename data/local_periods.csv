@@ -1,15 +1,15 @@
 period,start,temp_f,precip_chance,wind,forecast,is_day
-This Afternoon,2026-11-14 12:00,71,0,0 to 5 mph SSE,Sunny,True
-Tonight,2026-11-14 18:00,52,1,5 mph ENE,Mostly Clear,False
-Sunday,2026-11-15 06:00,73,1,5 mph S,Mostly Sunny,True
-Sunday Night,2026-11-15 18:00,54,1,0 to 5 mph NNW,Partly Cloudy,False
-Monday,2026-11-16 06:00,71,42,0 to 10 mph WSW,Partly Sunny then Chance Light Rain,True
-Monday Night,2026-11-16 18:00,51,42,5 to 10 mph NW,Chance Light Rain,False
-Tuesday,2026-11-17 06:00,68,7,10 mph NNW,Sunny,True
-Tuesday Night,2026-11-17 18:00,45,1,5 to 15 mph N,Mostly Clear,False
-Wednesday,2026-11-18 06:00,68,28,0 to 5 mph SE,Mostly Sunny then Chance Light Rain,True
-Wednesday Night,2026-11-18 18:00,49,73,5 to 10 mph SSE,Light Rain Likely,False
-Thursday,2026-11-19 06:00,65,73,5 to 10 mph S,Light Rain Likely,True
-Thursday Night,2026-11-19 18:00,46,51,5 to 15 mph WNW,Chance Light Rain,False
-Friday,2026-11-20 06:00,67,15,0 to 5 mph NW,Slight Chance Light Rain then Sunny,True
-Friday Night,2026-11-20 18:00,45,7,5 to 10 mph NNW,Mostly Clear,False
+This Afternoon,2026-11-15 12:00,72,15,5 mph SSW,Slight Chance Light Rain,True
+Tonight,2026-11-15 18:00,54,19,0 to 5 mph NW,Slight Chance Light Rain,False
+Monday,2026-11-16 06:00,72,39,0 to 5 mph W,Chance Light Rain,True
+Monday Night,2026-11-16 18:00,50,39,5 to 10 mph NW,Chance Light Rain,False
+Tuesday,2026-11-17 06:00,68,5,10 mph NNW,Sunny,True
+Tuesday Night,2026-11-17 18:00,45,0,0 to 15 mph N,Mostly Clear,False
+Wednesday,2026-11-18 06:00,68,15,0 to 5 mph SSE,Mostly Sunny then Slight Chance Light Rain,True
+Wednesday Night,2026-11-18 18:00,50,85,5 to 10 mph S,Rain,False
+Thursday,2026-11-19 06:00,64,86,10 to 15 mph S,Rain,True
+Thursday Night,2026-11-19 18:00,46,62,5 to 10 mph WNW,Light Rain Likely,False
+Friday,2026-11-20 06:00,66,3,0 to 5 mph N,Sunny,True
+Friday Night,2026-11-20 18:00,44,3,0 to 10 mph NW,Mostly Clear,False
+Saturday,2026-11-21 06:00,67,3,0 to 5 mph NNW,Sunny,True
+Saturday Night,2026-11-21 18:00,45,10,0 to 5 mph NNW,Mostly Clear,False
