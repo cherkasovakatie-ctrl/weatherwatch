@@ -1,18 +1,18 @@
 {
- "run_utc": "2026-11-17T00:09:48.565Z",
- "run_local": "2026-11-16 16:09",
+ "run_utc": "2026-11-17T23:27:37.699Z",
+ "run_local": "2026-11-17 15:27",
  "results": [
   {
    "id": "earthquakes",
    "ok": true,
-   "rows": 683,
-   "newest": "2026-11-16 21:55"
+   "rows": 685,
+   "newest": "2026-11-17 18:15"
   },
   {
    "id": "local_obs",
    "ok": true,
-   "rows": 36,
-   "newest": "2026-11-16 15:40"
+   "rows": 37,
+   "newest": "2026-11-17 15:05"
   },
   {
    "id": "local_periods",
@@ -29,38 +29,38 @@
    "id": "local_tides",
    "ok": true,
    "rows": 192,
-   "newest": "2026-11-20 23:00"
+   "newest": "2026-11-21 23:00"
   },
   {
    "id": "local_hilo",
    "ok": true,
-   "rows": 30,
-   "newest": "2026-11-20 23:46"
+   "rows": 29,
+   "newest": "2026-11-21 19:12"
   },
   {
    "id": "local_watertemp",
    "ok": true,
    "rows": 72,
-   "newest": "2026-11-16 16:00"
+   "newest": "2026-11-17 15:00"
   },
   {
    "id": "fires_global_grid",
    "ok": true,
-   "rows": 2707,
+   "rows": 2903,
    "newest": "9.5"
   },
   {
    "id": "fires_socal",
    "ok": true,
-   "rows": 41,
-   "newest": "2026-11-16"
+   "rows": 72,
+   "newest": "2026-11-17"
   },
   {
    "id": "space_daily",
    "ok": true,
    "rows": 31,
-   "newest": "2026-11-16",
-   "note": "2 new, 0 values updated"
+   "newest": "2026-11-17",
+   "note": "1 new, 5 values updated"
   },
   {
    "id": "calfire_active",
@@ -70,9 +70,9 @@
   {
    "id": "coral_dhw",
    "ok": true,
-   "rows": 684,
-   "newest": "2026-11-15",
-   "note": "3 new, 0 values updated"
+   "rows": 685,
+   "newest": "2026-11-16",
+   "note": "1 new, 0 values updated"
   },
   {
    "id": "coral_now",
@@ -82,24 +82,23 @@
   },
   {
    "id": "ozone_2026",
-   "ok": true,
-   "rows": 170,
-   "newest": "2026-12-31",
-   "note": "0 new, 4 values updated"
+   "ok": false,
+   "error": "https://ozonewatch.gsfc.nasa.gov/meteorology/figures/ozone/to3areas_2026_toms+omi+omps.txt: fetch failed (UND_ERR_CONNECT_TIMEOUT) (second try after the first: es/ozone/to3areas_2026_toms+omi+omps.txt: fetch failed (UND_ERR_CONNECT_TIMEOUT))"
   },
   {
    "id": "mjo_daily",
    "ok": true,
    "rows": 150,
-   "newest": "2026-11-12",
+   "newest": "2026-11-13",
    "note": "1 new days, 4 days revised by the source"
   },
   {
    "id": "cdec_reservoirs",
    "ok": true,
    "rows": 13,
-   "newest": "2026-11-15",
-   "note": "report of 2026-11-15"
+   "newest": "2026-11-16",
+   "note": "report of 2026-11-16; succeeded on the second try (first: er.ca.gov/reportapp/javareports?name=RES: fetch failed (UND_ERR_CONNECT_TIMEOUT))",
+   "warning": "no value in the report for EXC (left blank)"
   },
   {
    "id": "seaice_clim",
@@ -146,16 +145,16 @@
   {
    "id": "storm_fixes",
    "ok": true,
-   "rows": 356,
-   "newest": "Wati",
-   "note": "356 IBTrACS fixes, 354 checked against the old file, 0 existing rows kept (advisories, or storms not in IBTrACS)"
+   "rows": 354,
+   "newest": "Xavier",
+   "note": "354 IBTrACS fixes, 344 checked against the old file, 0 existing rows kept (advisories, or storms not in IBTrACS)"
   },
   {
    "id": "sst_weekly",
    "ok": true,
    "rows": 2359,
    "newest": "2026-11-11",
-   "note": "1 new, 3 values updated"
+   "note": "0 new, 0 values updated"
   },
   {
    "id": "sst_monthly",
