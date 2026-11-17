@@ -1,18 +1,18 @@
 {
- "run_utc": "2026-11-15T20:58:37.215Z",
- "run_local": "2026-11-15 12:58",
+ "run_utc": "2026-11-17T00:09:48.565Z",
+ "run_local": "2026-11-16 16:09",
  "results": [
   {
    "id": "earthquakes",
    "ok": true,
-   "rows": 676,
-   "newest": "2026-11-15 17:48"
+   "rows": 683,
+   "newest": "2026-11-16 21:55"
   },
   {
    "id": "local_obs",
    "ok": true,
    "rows": 36,
-   "newest": "2026-11-15 12:40"
+   "newest": "2026-11-16 15:40"
   },
   {
    "id": "local_periods",
@@ -22,46 +22,45 @@
   },
   {
    "id": "local_hourly",
-   "ok": true,
-   "rows": 216,
-   "newest": "2026-11-21 23:00"
+   "ok": false,
+   "error": "https://api.open-meteo.com/v1/forecast?latitude=34.2&longitude=-118.36&timezone=America%2FLos_Angeles&past_days=2&forecast_days=7&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&hourly=temperature_2m,relative_humidity_2m,dew_point_2m,precipitation_probability,precipitation,pressure_msl,wind_speed_10m,wind_gusts_10m,wind_direction_10m,uv_index: fetch failed (UND_ERR_CONNECT_TIMEOUT) (second try after the first: nd_gusts_10m,wind_direction_10m,uv_index: fetch failed (UND_ERR_CONNECT_TIMEOUT))"
   },
   {
    "id": "local_tides",
    "ok": true,
    "rows": 192,
-   "newest": "2026-11-19 23:00"
+   "newest": "2026-11-20 23:00"
   },
   {
    "id": "local_hilo",
    "ok": true,
-   "rows": 29,
-   "newest": "2026-11-19 23:13"
+   "rows": 30,
+   "newest": "2026-11-20 23:46"
   },
   {
    "id": "local_watertemp",
    "ok": true,
    "rows": 72,
-   "newest": "2026-11-15 12:00"
+   "newest": "2026-11-16 16:00"
   },
   {
    "id": "fires_global_grid",
    "ok": true,
-   "rows": 2645,
+   "rows": 2707,
    "newest": "9.5"
   },
   {
    "id": "fires_socal",
    "ok": true,
-   "rows": 112,
-   "newest": "2026-11-15"
+   "rows": 41,
+   "newest": "2026-11-16"
   },
   {
    "id": "space_daily",
    "ok": true,
    "rows": 31,
-   "newest": "2026-11-14",
-   "note": "1 new, 0 values updated"
+   "newest": "2026-11-16",
+   "note": "2 new, 0 values updated"
   },
   {
    "id": "calfire_active",
@@ -70,41 +69,44 @@
   },
   {
    "id": "coral_dhw",
-   "ok": false,
-   "error": "https://coralreefwatch.noaa.gov/product/vs/data/hawaii.txt: fetch failed (ECONNRESET) (second try after the first: atch.noaa.gov/product/vs/data/hawaii.txt: fetch failed (UND_ERR_CONNECT_TIMEOUT))"
+   "ok": true,
+   "rows": 684,
+   "newest": "2026-11-15",
+   "note": "3 new, 0 values updated"
   },
   {
    "id": "coral_now",
-   "ok": false,
-   "error": "https://coralreefwatch.noaa.gov/product/vs/data/hawaii.txt: fetch failed (UND_ERR_CONNECT_TIMEOUT) (second try after the first: atch.noaa.gov/product/vs/data/hawaii.txt: fetch failed (UND_ERR_CONNECT_TIMEOUT))"
+   "ok": true,
+   "rows": 4,
+   "newest": "Puerto Rico"
   },
   {
    "id": "ozone_2026",
    "ok": true,
    "rows": 170,
    "newest": "2026-12-31",
-   "note": "0 new, 2 values updated"
+   "note": "0 new, 4 values updated"
   },
   {
    "id": "mjo_daily",
    "ok": true,
    "rows": 150,
-   "newest": "2026-11-11",
+   "newest": "2026-11-12",
    "note": "1 new days, 4 days revised by the source"
   },
   {
    "id": "cdec_reservoirs",
    "ok": true,
    "rows": 13,
-   "newest": "2026-11-14",
-   "note": "report of 2026-11-14"
+   "newest": "2026-11-15",
+   "note": "report of 2026-11-15"
   },
   {
    "id": "seaice_clim",
    "ok": true,
    "rows": 365,
    "newest": "12-31",
-   "note": "0 new, 3 values updated"
+   "note": "0 new, 2 values updated"
   },
   {
    "id": "oni",
@@ -144,16 +146,16 @@
   {
    "id": "storm_fixes",
    "ok": true,
-   "rows": 374,
+   "rows": 356,
    "newest": "Wati",
-   "note": "374 IBTrACS fixes, 374 checked against the old file, 0 existing rows kept (advisories, or storms not in IBTrACS)"
+   "note": "356 IBTrACS fixes, 354 checked against the old file, 0 existing rows kept (advisories, or storms not in IBTrACS)"
   },
   {
    "id": "sst_weekly",
    "ok": true,
-   "rows": 2358,
-   "newest": "2026-11-04",
-   "note": "0 new, 0 values updated"
+   "rows": 2359,
+   "newest": "2026-11-11",
+   "note": "1 new, 3 values updated"
   },
   {
    "id": "sst_monthly",

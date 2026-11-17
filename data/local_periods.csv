@@ -1,15 +1,15 @@
 period,start,temp_f,precip_chance,wind,forecast,is_day
-This Afternoon,2026-11-15 12:00,72,15,5 mph SSW,Slight Chance Light Rain,True
-Tonight,2026-11-15 18:00,54,19,0 to 5 mph NW,Slight Chance Light Rain,False
-Monday,2026-11-16 06:00,72,39,0 to 5 mph W,Chance Light Rain,True
-Monday Night,2026-11-16 18:00,50,39,5 to 10 mph NW,Chance Light Rain,False
-Tuesday,2026-11-17 06:00,68,5,10 mph NNW,Sunny,True
-Tuesday Night,2026-11-17 18:00,45,0,0 to 15 mph N,Mostly Clear,False
-Wednesday,2026-11-18 06:00,68,15,0 to 5 mph SSE,Mostly Sunny then Slight Chance Light Rain,True
-Wednesday Night,2026-11-18 18:00,50,85,5 to 10 mph S,Rain,False
-Thursday,2026-11-19 06:00,64,86,10 to 15 mph S,Rain,True
-Thursday Night,2026-11-19 18:00,46,62,5 to 10 mph WNW,Light Rain Likely,False
-Friday,2026-11-20 06:00,66,3,0 to 5 mph N,Sunny,True
-Friday Night,2026-11-20 18:00,44,3,0 to 10 mph NW,Mostly Clear,False
-Saturday,2026-11-21 06:00,67,3,0 to 5 mph NNW,Sunny,True
-Saturday Night,2026-11-21 18:00,45,10,0 to 5 mph NNW,Mostly Clear,False
+This Afternoon,2026-11-16 16:00,71,27,10 mph WSW,Chance Light Rain,True
+Tonight,2026-11-16 18:00,50,27,10 mph WNW,Chance Light Rain,False
+Tuesday,2026-11-17 06:00,68,0,10 mph NW,Sunny,True
+Tuesday Night,2026-11-17 18:00,45,0,0 to 15 mph NNW,Mostly Clear,False
+Wednesday,2026-11-18 06:00,66,28,0 to 10 mph ESE,Mostly Sunny then Chance Light Rain,True
+Wednesday Night,2026-11-18 18:00,51,94,5 to 10 mph SSE,Light Rain,False
+Thursday,2026-11-19 06:00,63,94,10 to 15 mph SSW,Rain,True
+Thursday Night,2026-11-19 18:00,45,51,5 to 10 mph WNW,Chance Light Rain then Partly Cloudy,False
+Friday,2026-11-20 06:00,65,1,0 to 5 mph NW,Sunny,True
+Friday Night,2026-11-20 18:00,43,0,0 to 10 mph NNW,Mostly Clear,False
+Saturday,2026-11-21 06:00,64,2,0 to 5 mph NNW,Sunny,True
+Saturday Night,2026-11-21 18:00,43,10,0 to 5 mph NNW,Mostly Clear,False
+Sunday,2026-11-22 06:00,64,13,0 to 5 mph NNW,Mostly Sunny then Slight Chance Light Rain,True
+Sunday Night,2026-11-22 18:00,46,17,0 to 5 mph NW,Slight Chance Light Rain,False
