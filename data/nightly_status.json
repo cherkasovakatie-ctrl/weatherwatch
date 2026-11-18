@@ -1,66 +1,67 @@
 {
- "run_utc": "2026-11-17T23:27:37.699Z",
- "run_local": "2026-11-17 15:27",
+ "run_utc": "2026-11-18T22:55:25.199Z",
+ "run_local": "2026-11-18 14:55",
  "results": [
   {
    "id": "earthquakes",
    "ok": true,
-   "rows": 685,
-   "newest": "2026-11-17 18:15"
+   "rows": 667,
+   "newest": "2026-11-18 21:28"
   },
   {
    "id": "local_obs",
    "ok": true,
-   "rows": 37,
-   "newest": "2026-11-17 15:05"
+   "rows": 36,
+   "newest": "2026-11-18 14:45"
   },
   {
    "id": "local_periods",
    "ok": true,
    "rows": 14,
-   "newest": "Wednesday Night"
+   "newest": "Tuesday Night"
   },
   {
    "id": "local_hourly",
-   "ok": false,
-   "error": "https://api.open-meteo.com/v1/forecast?latitude=34.2&longitude=-118.36&timezone=America%2FLos_Angeles&past_days=2&forecast_days=7&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&hourly=temperature_2m,relative_humidity_2m,dew_point_2m,precipitation_probability,precipitation,pressure_msl,wind_speed_10m,wind_gusts_10m,wind_direction_10m,uv_index: fetch failed (UND_ERR_CONNECT_TIMEOUT) (second try after the first: nd_gusts_10m,wind_direction_10m,uv_index: fetch failed (UND_ERR_CONNECT_TIMEOUT))"
+   "ok": true,
+   "rows": 216,
+   "newest": "2026-11-24 23:00"
   },
   {
    "id": "local_tides",
    "ok": true,
    "rows": 192,
-   "newest": "2026-11-21 23:00"
+   "newest": "2026-11-22 23:00"
   },
   {
    "id": "local_hilo",
    "ok": true,
    "rows": 29,
-   "newest": "2026-11-21 19:12"
+   "newest": "2026-11-22 20:02"
   },
   {
    "id": "local_watertemp",
    "ok": true,
    "rows": 72,
-   "newest": "2026-11-17 15:00"
+   "newest": "2026-11-18 14:00"
   },
   {
    "id": "fires_global_grid",
    "ok": true,
-   "rows": 2903,
+   "rows": 2545,
    "newest": "9.5"
   },
   {
    "id": "fires_socal",
    "ok": true,
-   "rows": 72,
-   "newest": "2026-11-17"
+   "rows": 87,
+   "newest": "2026-11-18"
   },
   {
    "id": "space_daily",
    "ok": true,
    "rows": 31,
-   "newest": "2026-11-17",
-   "note": "1 new, 5 values updated"
+   "newest": "2026-11-18",
+   "note": "1 new, 6 values updated"
   },
   {
    "id": "calfire_active",
@@ -70,8 +71,8 @@
   {
    "id": "coral_dhw",
    "ok": true,
-   "rows": 685,
-   "newest": "2026-11-16",
+   "rows": 686,
+   "newest": "2026-11-17",
    "note": "1 new, 0 values updated"
   },
   {
@@ -89,16 +90,15 @@
    "id": "mjo_daily",
    "ok": true,
    "rows": 150,
-   "newest": "2026-11-13",
+   "newest": "2026-11-14",
    "note": "1 new days, 4 days revised by the source"
   },
   {
    "id": "cdec_reservoirs",
    "ok": true,
    "rows": 13,
-   "newest": "2026-11-16",
-   "note": "report of 2026-11-16; succeeded on the second try (first: er.ca.gov/reportapp/javareports?name=RES: fetch failed (UND_ERR_CONNECT_TIMEOUT))",
-   "warning": "no value in the report for EXC (left blank)"
+   "newest": "2026-11-17",
+   "note": "report of 2026-11-17"
   },
   {
    "id": "seaice_clim",
@@ -145,9 +145,9 @@
   {
    "id": "storm_fixes",
    "ok": true,
-   "rows": 354,
+   "rows": 340,
    "newest": "Xavier",
-   "note": "354 IBTrACS fixes, 344 checked against the old file, 0 existing rows kept (advisories, or storms not in IBTrACS)"
+   "note": "340 IBTrACS fixes, 340 checked against the old file, 0 existing rows kept (advisories, or storms not in IBTrACS)"
   },
   {
    "id": "sst_weekly",
@@ -165,10 +165,8 @@
   },
   {
    "id": "blob_boxes",
-   "ok": true,
-   "rows": 922,
-   "newest": "2026-10",
-   "note": "0 new, 0 values updated"
+   "ok": false,
+   "error": "https://upwell.pfeg.noaa.gov/erddap/griddap/nceiErsstv5.csv?sst[(1991-01-01):1:(last)][(0.0)][(40):1:(50)][(210):1:(224)]: HTTP 503 (second try after the first: stv5.csv?sst[(1991-01-01):1:(last)][(0.0)][(40):1:(50)][(210):1:(224)]: HTTP 503)"
   },
   {
    "id": "volcano_alerts_us",
