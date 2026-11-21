@@ -1,18 +1,18 @@
 {
- "run_utc": "2026-11-20T22:36:48.268Z",
- "run_local": "2026-11-20 14:36",
+ "run_utc": "2026-11-21T21:36:00.841Z",
+ "run_local": "2026-11-21 13:36",
  "results": [
   {
    "id": "earthquakes",
    "ok": true,
-   "rows": 656,
-   "newest": "2026-11-20 17:53"
+   "rows": 641,
+   "newest": "2026-11-21 19:03"
   },
   {
    "id": "local_obs",
    "ok": true,
-   "rows": 36,
-   "newest": "2026-11-20 13:53"
+   "rows": 37,
+   "newest": "2026-11-21 13:25"
   },
   {
    "id": "local_periods",
@@ -24,44 +24,43 @@
    "id": "local_hourly",
    "ok": true,
    "rows": 216,
-   "newest": "2026-11-26 23:00",
-   "note": "succeeded on the second try (first: nd_gusts_10m,wind_direction_10m,uv_index: fetch failed (UND_ERR_CONNECT_TIMEOUT))"
+   "newest": "2026-11-27 23:00"
   },
   {
    "id": "local_tides",
    "ok": true,
    "rows": 192,
-   "newest": "2026-11-24 23:00"
+   "newest": "2026-11-25 23:00"
   },
   {
    "id": "local_hilo",
    "ok": true,
    "rows": 31,
-   "newest": "2026-11-24 21:44"
+   "newest": "2026-11-25 22:40"
   },
   {
    "id": "local_watertemp",
    "ok": true,
    "rows": 72,
-   "newest": "2026-11-20 14:00"
+   "newest": "2026-11-21 13:00"
   },
   {
    "id": "fires_global_grid",
    "ok": true,
-   "rows": 2660,
+   "rows": 2783,
    "newest": "9.5"
   },
   {
    "id": "fires_socal",
    "ok": true,
-   "rows": 88,
-   "newest": "2026-11-20"
+   "rows": 99,
+   "newest": "2026-11-21"
   },
   {
    "id": "space_daily",
    "ok": true,
    "rows": 31,
-   "newest": "2026-11-20",
+   "newest": "2026-11-21",
    "note": "1 new, 5 values updated"
   },
   {
@@ -72,8 +71,8 @@
   {
    "id": "coral_dhw",
    "ok": true,
-   "rows": 688,
-   "newest": "2026-11-19",
+   "rows": 689,
+   "newest": "2026-11-20",
    "note": "1 new, 0 values updated"
   },
   {
@@ -84,25 +83,22 @@
   },
   {
    "id": "ozone_2026",
-   "ok": true,
-   "rows": 170,
-   "newest": "2026-12-31",
-   "note": "0 new, 25 values updated"
+   "ok": false,
+   "error": "https://ozonewatch.gsfc.nasa.gov/meteorology/figures/ozone/to3areas_2026_toms+omi+omps.txt: fetch failed (ETIMEDOUT) (second try after the first: eorology/figures/ozone/to3areas_2026_toms+omi+omps.txt: fetch failed (ETIMEDOUT))"
   },
   {
    "id": "mjo_daily",
    "ok": true,
    "rows": 150,
-   "newest": "2026-11-16",
+   "newest": "2026-11-17",
    "note": "1 new days, 4 days revised by the source"
   },
   {
    "id": "cdec_reservoirs",
    "ok": true,
    "rows": 13,
-   "newest": "2026-11-19",
-   "note": "report of 2026-11-19",
-   "warning": "no value in the report for BER (left blank)"
+   "newest": "2026-11-20",
+   "note": "report of 2026-11-20"
   },
   {
    "id": "seaice_clim",
@@ -130,7 +126,7 @@
    "ok": true,
    "rows": 1762,
    "newest": "2026-10",
-   "note": "1 new, 57 values updated"
+   "note": "0 new, 0 values updated"
   },
   {
    "id": "sunspots_monthly",
@@ -149,9 +145,9 @@
   {
    "id": "storm_fixes",
    "ok": true,
-   "rows": 330,
+   "rows": 318,
    "newest": "Xavier",
-   "note": "330 IBTrACS fixes, 310 checked against the old file, 0 existing rows kept (advisories, or storms not in IBTrACS)"
+   "note": "318 IBTrACS fixes, 318 checked against the old file, 0 existing rows kept (advisories, or storms not in IBTrACS)"
   },
   {
    "id": "sst_weekly",
