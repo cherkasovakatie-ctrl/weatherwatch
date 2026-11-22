@@ -1,35 +1,4 @@
 date,time_utc,lat,lon,frp_mw,confidence,satellite,day_night,km_from_home,days_at_site,kind
-2026-11-17,09:45,32.5994,-117.0108,1.06,nominal,N20,N,216.4,3,Persistent heat source (likely industrial)
-2026-11-17,09:45,33.4922,-117.6194,0.58,nominal,N20,N,103.6,3,Persistent heat source (likely industrial)
-2026-11-17,09:45,33.6126,-117.8227,1.28,nominal,N20,N,81.0,4,Persistent heat source (likely industrial)
-2026-11-17,09:45,33.7180,-117.7118,0.98,nominal,N20,N,80.3,4,Persistent heat source (likely industrial)
-2026-11-17,09:45,33.7923,-118.3522,0.55,nominal,N20,N,41.6,1,Possible fire
-2026-11-17,09:45,33.8202,-118.2434,1.48,nominal,N20,N,40.8,4,Persistent heat source (likely industrial)
-2026-11-17,09:45,33.8770,-116.9982,0.67,nominal,N20,N,132.7,1,Possible fire
-2026-11-17,09:45,33.9322,-117.8410,0.36,nominal,N20,N,57.2,1,Possible fire
-2026-11-17,09:45,34.0354,-117.8921,0.84,nominal,N20,N,48.5,3,Persistent heat source (likely industrial)
-2026-11-17,09:45,34.0372,-118.1043,0.41,nominal,N20,N,30.3,2,Possible fire
-2026-11-17,09:45,34.0416,-117.8224,0.35,nominal,N20,N,54.5,2,Possible fire
-2026-11-17,09:45,34.1044,-118.4814,0.24,nominal,N20,N,10.4,1,Possible fire
-2026-11-17,09:45,34.1153,-117.9257,0.54,nominal,N20,N,43.5,1,Possible fire
-2026-11-17,09:45,34.1437,-117.4293,0.43,nominal,N20,N,88.9,4,Persistent heat source (likely industrial)
-2026-11-17,09:45,34.1531,-118.1961,0.45,nominal,N20,N,18.3,4,Persistent heat source (likely industrial)
-2026-11-17,09:45,34.2421,-118.3810,0.61,nominal,N20,N,8.7,1,Possible fire
-2026-11-17,09:45,34.2898,-118.7985,0.86,nominal,N20,N,39.6,1,Possible fire
-2026-11-17,09:45,34.3337,-118.5196,0.80,nominal,N20,N,22.0,4,Persistent heat source (likely industrial)
-2026-11-17,21:03,32.4642,-114.8608,7.87,nominal,N20,D,378.9,1,Possible fire
-2026-11-17,21:03,33.5504,-117.4712,8.22,nominal,N20,D,109.3,1,Possible fire
-2026-11-17,21:03,33.5606,-117.4634,7.23,nominal,N20,D,109.2,1,Possible fire
-2026-11-17,21:03,33.7933,-117.4733,1.72,nominal,N20,D,94.5,4,Persistent heat source (likely industrial)
-2026-11-17,21:03,34.3349,-118.5206,1.80,nominal,N20,D,22.1,4,Persistent heat source (likely industrial)
-2026-11-17,21:05,35.4265,-119.3135,2.79,nominal,N20,D,163.4,1,Possible fire
-2026-11-17,21:05,35.4337,-119.3108,2.95,nominal,N20,D,164.0,1,Possible fire
-2026-11-17,21:05,35.8517,-119.2020,4.81,nominal,N20,D,201.4,1,Possible fire
-2026-11-17,21:05,35.8674,-119.1881,10.22,nominal,N20,D,202.6,1,Possible fire
-2026-11-17,21:05,35.8915,-119.3452,22.42,nominal,N20,D,210.6,1,Possible fire
-2026-11-17,21:05,35.9028,-120.9151,10.52,nominal,N20,D,300.0,1,Possible fire
-2026-11-17,21:05,35.9054,-120.9202,8.91,nominal,N20,D,300.5,1,Possible fire
-2026-11-17,21:05,35.9061,-120.9159,3.17,nominal,N20,D,300.2,1,Possible fire
 2026-11-18,09:26,33.4927,-117.6179,0.96,nominal,N20,N,103.6,3,Persistent heat source (likely industrial)
 2026-11-18,09:26,33.4935,-117.6189,0.81,nominal,N20,N,103.5,3,Persistent heat source (likely industrial)
 2026-11-18,09:26,33.6142,-117.8265,1.06,nominal,N20,N,80.6,4,Persistent heat source (likely industrial)
@@ -38,38 +7,38 @@ date,time_utc,lat,lon,frp_mw,confidence,satellite,day_night,km_from_home,days_at
 2026-11-18,09:26,33.7946,-118.2509,1.23,nominal,N20,N,43.3,1,Possible fire
 2026-11-18,09:26,33.7955,-117.4763,1.45,nominal,N20,N,94.2,4,Persistent heat source (likely industrial)
 2026-11-18,09:26,33.7957,-117.4780,0.68,nominal,N20,N,94.0,4,Persistent heat source (likely industrial)
-2026-11-18,09:26,33.8221,-118.2464,1.11,nominal,N20,N,40.5,4,Persistent heat source (likely industrial)
-2026-11-18,09:26,34.0371,-118.1042,0.52,nominal,N20,N,30.3,2,Possible fire
+2026-11-18,09:26,33.8221,-118.2464,1.11,nominal,N20,N,40.5,3,Persistent heat source (likely industrial)
+2026-11-18,09:26,34.0371,-118.1042,0.52,nominal,N20,N,30.3,1,Possible fire
 2026-11-18,09:26,34.0834,-117.5037,0.99,nominal,N20,N,82.5,1,Persistent heat source (likely industrial)
-2026-11-18,09:26,34.1437,-117.4296,0.69,nominal,N20,N,88.9,4,Persistent heat source (likely industrial)
+2026-11-18,09:26,34.1437,-117.4296,0.69,nominal,N20,N,88.9,3,Persistent heat source (likely industrial)
 2026-11-18,09:26,34.1545,-118.1922,0.79,nominal,N20,N,18.7,4,Persistent heat source (likely industrial)
-2026-11-18,09:26,34.3346,-118.5196,1.08,nominal,N20,N,22.1,4,Persistent heat source (likely industrial)
+2026-11-18,09:26,34.3346,-118.5196,1.08,nominal,N20,N,22.1,3,Persistent heat source (likely industrial)
 2026-11-18,09:26,34.4312,-118.6467,1.29,nominal,N20,N,37.6,3,Persistent heat source (likely industrial)
 2026-11-18,09:26,34.6097,-117.3354,1.54,nominal,N20,N,109.1,3,Persistent heat source (likely industrial)
 2026-11-18,09:26,34.8215,-118.7523,0.64,nominal,N20,N,80.0,1,Possible fire
 2026-11-18,09:28,32.5997,-117.0150,0.35,nominal,N20,N,216.1,3,Persistent heat source (likely industrial)
-2026-11-18,09:28,32.8582,-117.1476,0.79,nominal,N20,N,185.7,1,Persistent heat source (likely industrial)
+2026-11-18,09:28,32.8582,-117.1476,0.79,nominal,N20,N,185.7,2,Persistent heat source (likely industrial)
 2026-11-18,20:46,32.4140,-115.0316,3.56,nominal,N20,D,368.3,1,Possible fire
 2026-11-19,20:25,32.6042,-114.6015,3.64,nominal,N20,D,392.6,1,Possible fire
 2026-11-20,08:49,32.3139,-115.1149,0.48,nominal,N20,N,368.0,1,Possible fire
-2026-11-20,08:49,33.8525,-118.3362,1.24,nominal,N20,N,35.2,2,Persistent heat source (likely industrial)
+2026-11-20,08:49,33.8525,-118.3362,1.24,nominal,N20,N,35.2,3,Persistent heat source (likely industrial)
 2026-11-20,10:30,32.3143,-115.1153,0.81,nominal,N20,N,367.9,1,Possible fire
 2026-11-20,10:30,33.4950,-117.6178,0.45,nominal,N20,N,103.5,3,Persistent heat source (likely industrial)
 2026-11-20,10:30,33.6132,-117.8250,0.31,nominal,N20,N,80.8,4,Persistent heat source (likely industrial)
 2026-11-20,10:30,33.7192,-117.7116,0.53,nominal,N20,N,80.2,4,Persistent heat source (likely industrial)
 2026-11-20,10:30,33.7775,-118.2397,0.45,nominal,N20,N,45.4,2,Persistent heat source (likely industrial)
 2026-11-20,10:30,33.7929,-117.4757,0.49,nominal,N20,N,94.3,4,Persistent heat source (likely industrial)
-2026-11-20,10:30,33.8212,-118.2432,0.69,nominal,N20,N,40.7,4,Persistent heat source (likely industrial)
-2026-11-20,10:30,33.8531,-118.3324,0.64,nominal,N20,N,35.2,2,Persistent heat source (likely industrial)
-2026-11-20,10:30,33.8536,-118.3331,1.21,nominal,N20,N,35.1,2,Persistent heat source (likely industrial)
-2026-11-20,10:30,33.8539,-118.3359,0.64,nominal,N20,N,35.0,2,Persistent heat source (likely industrial)
-2026-11-20,10:30,33.9100,-118.4125,0.98,nominal,N20,N,28.4,1,Possible fire
+2026-11-20,10:30,33.8212,-118.2432,0.69,nominal,N20,N,40.7,3,Persistent heat source (likely industrial)
+2026-11-20,10:30,33.8531,-118.3324,0.64,nominal,N20,N,35.2,3,Persistent heat source (likely industrial)
+2026-11-20,10:30,33.8536,-118.3331,1.21,nominal,N20,N,35.1,3,Persistent heat source (likely industrial)
+2026-11-20,10:30,33.8539,-118.3359,0.64,nominal,N20,N,35.0,3,Persistent heat source (likely industrial)
+2026-11-20,10:30,33.9100,-118.4125,0.98,nominal,N20,N,28.4,2,Possible fire
 2026-11-20,10:30,34.0362,-117.8914,0.65,nominal,N20,N,48.5,3,Persistent heat source (likely industrial)
-2026-11-20,10:30,34.1434,-117.4296,0.37,nominal,N20,N,88.9,4,Persistent heat source (likely industrial)
+2026-11-20,10:30,34.1434,-117.4296,0.37,nominal,N20,N,88.9,3,Persistent heat source (likely industrial)
 2026-11-20,10:30,34.1530,-118.1954,0.73,nominal,N20,N,18.4,4,Persistent heat source (likely industrial)
 2026-11-20,10:30,34.1536,-118.1952,0.65,nominal,N20,N,18.4,4,Persistent heat source (likely industrial)
-2026-11-20,10:30,34.3348,-118.5213,1.36,nominal,N20,N,22.2,4,Persistent heat source (likely industrial)
-2026-11-20,10:30,34.3378,-118.5214,1.51,nominal,N20,N,22.5,4,Persistent heat source (likely industrial)
+2026-11-20,10:30,34.3348,-118.5213,1.36,nominal,N20,N,22.2,3,Persistent heat source (likely industrial)
+2026-11-20,10:30,34.3378,-118.5214,1.51,nominal,N20,N,22.5,3,Persistent heat source (likely industrial)
 2026-11-20,10:30,34.4325,-118.6457,1.20,nominal,N20,N,37.6,3,Persistent heat source (likely industrial)
 2026-11-20,10:30,34.6098,-117.3370,1.28,nominal,N20,N,109.0,3,Persistent heat source (likely industrial)
 2026-11-20,10:30,34.6106,-117.3374,1.18,nominal,N20,N,109.0,3,Persistent heat source (likely industrial)
@@ -86,15 +55,34 @@ date,time_utc,lat,lon,frp_mw,confidence,satellite,day_night,km_from_home,days_at
 2026-11-21,10:10,33.7174,-117.7117,1.02,nominal,N20,N,80.3,4,Persistent heat source (likely industrial)
 2026-11-21,10:10,33.7781,-118.2394,1.24,nominal,N20,N,45.4,2,Persistent heat source (likely industrial)
 2026-11-21,10:10,33.7953,-117.4766,1.38,nominal,N20,N,94.1,4,Persistent heat source (likely industrial)
-2026-11-21,10:10,33.8202,-118.2446,2.00,nominal,N20,N,40.8,4,Persistent heat source (likely industrial)
-2026-11-21,10:10,33.8546,-118.3330,1.57,nominal,N20,N,35.0,2,Persistent heat source (likely industrial)
+2026-11-21,10:10,33.8202,-118.2446,2.00,nominal,N20,N,40.8,3,Persistent heat source (likely industrial)
+2026-11-21,10:10,33.8546,-118.3330,1.57,nominal,N20,N,35.0,3,Persistent heat source (likely industrial)
 2026-11-21,10:10,34.0378,-117.8908,0.85,nominal,N20,N,48.5,3,Persistent heat source (likely industrial)
-2026-11-21,10:10,34.0403,-117.8219,0.70,nominal,N20,N,54.6,2,Possible fire
-2026-11-21,10:10,34.1418,-117.4278,0.64,nominal,N20,N,89.0,4,Persistent heat source (likely industrial)
+2026-11-21,10:10,34.0403,-117.8219,0.70,nominal,N20,N,54.6,1,Possible fire
+2026-11-21,10:10,34.1418,-117.4278,0.64,nominal,N20,N,89.0,3,Persistent heat source (likely industrial)
 2026-11-21,10:10,34.1534,-118.1947,1.27,nominal,N20,N,18.5,4,Persistent heat source (likely industrial)
-2026-11-21,10:10,34.3345,-118.5228,1.19,nominal,N20,N,22.2,4,Persistent heat source (likely industrial)
+2026-11-21,10:10,34.3345,-118.5228,1.19,nominal,N20,N,22.2,3,Persistent heat source (likely industrial)
 2026-11-21,10:10,34.4301,-118.6458,1.56,nominal,N20,N,37.4,3,Persistent heat source (likely industrial)
 2026-11-21,10:10,34.6071,-117.3389,0.90,nominal,N20,N,108.7,3,Persistent heat source (likely industrial)
-2026-11-21,19:50,35.5532,-115.4714,4.62,nominal,N20,D,308.2,2,Possible fire
-2026-11-21,19:50,35.5558,-115.4725,5.62,nominal,N20,D,308.2,2,Possible fire
-2026-11-21,19:50,35.5726,-115.4854,2.95,nominal,N20,D,308.1,2,Possible fire
+2026-11-21,19:51,35.5542,-115.4697,4.62,nominal,N20,D,308.4,2,Possible fire
+2026-11-21,19:51,35.5569,-115.4708,5.63,nominal,N20,D,308.4,2,Possible fire
+2026-11-21,19:51,35.5737,-115.4836,2.96,nominal,N20,D,308.3,2,Possible fire
+2026-11-21,21:29,32.5919,-115.2689,2.16,nominal,N20,D,338.9,1,Possible fire
+2026-11-21,21:29,35.5558,-115.4688,2.16,nominal,N20,D,308.5,2,Possible fire
+2026-11-22,09:51,32.4971,-116.7883,3.04,nominal,N20,N,238.1,1,Possible fire
+2026-11-22,09:51,32.6003,-117.0099,0.61,nominal,N20,N,216.4,3,Persistent heat source (likely industrial)
+2026-11-22,09:51,32.8577,-117.1491,1.01,nominal,N20,N,185.7,2,Persistent heat source (likely industrial)
+2026-11-22,09:51,32.8582,-117.0291,0.77,nominal,N20,N,192.7,1,Possible fire
+2026-11-22,09:51,33.4915,-117.6157,0.60,nominal,N20,N,103.9,3,Persistent heat source (likely industrial)
+2026-11-22,09:51,33.4941,-117.6163,0.81,nominal,N20,N,103.6,3,Persistent heat source (likely industrial)
+2026-11-22,09:51,33.6151,-117.8227,0.45,nominal,N20,N,80.8,4,Persistent heat source (likely industrial)
+2026-11-22,09:51,33.7163,-117.7130,1.05,nominal,N20,N,80.3,4,Persistent heat source (likely industrial)
+2026-11-22,09:51,33.7942,-118.3504,0.39,nominal,N20,N,41.4,1,Possible fire
+2026-11-22,09:51,33.7963,-117.4768,1.81,nominal,N20,N,94.1,4,Persistent heat source (likely industrial)
+2026-11-22,09:51,33.8532,-118.3341,1.46,nominal,N20,N,35.1,3,Persistent heat source (likely industrial)
+2026-11-22,09:51,33.9053,-118.4033,0.66,nominal,N20,N,28.9,2,Possible fire
+2026-11-22,09:51,33.9099,-118.4108,1.14,nominal,N20,N,28.4,2,Possible fire
+2026-11-22,09:51,34.0367,-117.8930,0.97,nominal,N20,N,48.4,3,Persistent heat source (likely industrial)
+2026-11-22,09:51,34.1547,-118.1947,1.05,nominal,N20,N,18.5,4,Persistent heat source (likely industrial)
+2026-11-22,09:51,34.3546,-116.8526,0.80,nominal,N20,N,143.3,1,Possible fire
+2026-11-22,21:10,32.6031,-115.2578,4.78,nominal,N20,D,339.1,1,Possible fire
