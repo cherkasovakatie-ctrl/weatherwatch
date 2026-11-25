@@ -1,15 +1,15 @@
 period,start,temp_f,precip_chance,wind,forecast,is_day
-Tonight,2026-11-23 18:00,46,0,0 to 5 mph N,Partly Cloudy,False
-Tuesday,2026-11-24 06:00,74,0,5 to 10 mph N,Mostly Sunny,True
-Tuesday Night,2026-11-24 18:00,46,0,5 mph NNW,Mostly Cloudy,False
-Wednesday,2026-11-25 06:00,75,0,5 mph NNW,Sunny,True
-Wednesday Night,2026-11-25 18:00,49,0,5 to 10 mph N,Mostly Clear,False
-Thanksgiving Day,2026-11-26 06:00,81,0,5 to 10 mph NNE,Sunny,True
-Thursday Night,2026-11-26 18:00,50,0,5 to 15 mph N,Mostly Clear,False
-Friday,2026-11-27 06:00,84,0,0 to 5 mph N,Mostly Sunny,True
-Friday Night,2026-11-27 18:00,56,1,0 mph,Mostly Cloudy,False
-Saturday,2026-11-28 06:00,76,2,0 to 5 mph E,Mostly Sunny,True
-Saturday Night,2026-11-28 18:00,54,30,0 to 5 mph SE,Partly Cloudy then Chance Light Rain,False
-Sunday,2026-11-29 06:00,70,47,0 to 10 mph SSE,Chance Light Rain,True
-Sunday Night,2026-11-29 18:00,52,47,5 to 10 mph WNW,Chance Light Rain,False
-Monday,2026-11-30 06:00,69,52,5 mph ESE,Chance Light Rain,True
+This Afternoon,2026-11-24 16:00,76,0,5 mph WNW,Mostly Cloudy,True
+Tonight,2026-11-24 18:00,47,0,5 mph NNW,Mostly Cloudy,False
+Wednesday,2026-11-25 06:00,79,0,5 mph N,Mostly Sunny,True
+Wednesday Night,2026-11-25 18:00,50,0,5 to 10 mph N,Clear,False
+Thanksgiving Day,2026-11-26 06:00,85,0,10 mph NNE,Sunny,True
+Thursday Night,2026-11-26 18:00,52,0,10 mph N,Mostly Clear,False
+Friday,2026-11-27 06:00,86,0,0 to 10 mph N,Sunny,True
+Friday Night,2026-11-27 18:00,56,0,0 to 5 mph N,Partly Cloudy,False
+Saturday,2026-11-28 06:00,78,0,0 to 5 mph ENE,Mostly Sunny,True
+Saturday Night,2026-11-28 18:00,52,1,0 to 5 mph ESE,Partly Cloudy,False
+Sunday,2026-11-29 06:00,74,19,0 to 5 mph SSE,Mostly Sunny then Slight Chance Light Rain,True
+Sunday Night,2026-11-29 18:00,53,26,0 to 5 mph WSW,Chance Light Rain,False
+Monday,2026-11-30 06:00,71,30,0 to 5 mph ESE,Chance Light Rain,True
+Monday Night,2026-11-30 18:00,54,78,5 to 10 mph SSE,Light Rain,False
