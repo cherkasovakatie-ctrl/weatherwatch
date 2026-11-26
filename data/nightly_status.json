@@ -1,67 +1,67 @@
 {
- "run_utc": "2026-11-25T00:33:57.500Z",
- "run_local": "2026-11-24 16:33",
+ "run_utc": "2026-11-26T00:12:25.501Z",
+ "run_local": "2026-11-25 16:12",
  "results": [
   {
    "id": "earthquakes",
    "ok": true,
-   "rows": 550,
-   "newest": "2026-11-24 23:29"
+   "rows": 529,
+   "newest": "2026-11-25 21:32"
   },
   {
    "id": "local_obs",
    "ok": true,
-   "rows": 35,
-   "newest": "2026-11-24 15:53"
+   "rows": 36,
+   "newest": "2026-11-25 15:35"
   },
   {
    "id": "local_periods",
    "ok": true,
    "rows": 14,
-   "newest": "Wednesday Night"
+   "newest": "Tuesday Night"
   },
   {
    "id": "local_hourly",
    "ok": true,
    "rows": 216,
-   "newest": "2026-11-30 23:00"
+   "newest": "2026-12-01 23:00"
   },
   {
    "id": "local_tides",
    "ok": true,
    "rows": 192,
-   "newest": "2026-11-28 23:00"
+   "newest": "2026-11-29 23:00"
   },
   {
    "id": "local_hilo",
    "ok": true,
-   "rows": 30,
-   "newest": "2026-11-28 18:48"
+   "rows": 31,
+   "newest": "2026-11-29 19:47"
   },
   {
    "id": "local_watertemp",
    "ok": true,
    "rows": 72,
-   "newest": "2026-11-24 16:00"
+   "newest": "2026-11-25 16:00"
   },
   {
    "id": "fires_global_grid",
    "ok": true,
-   "rows": 2763,
+   "rows": 2775,
    "newest": "9.5"
   },
   {
    "id": "fires_socal",
    "ok": true,
-   "rows": 78,
-   "newest": "2026-11-24"
+   "rows": 61,
+   "newest": "2026-11-25"
   },
   {
    "id": "space_daily",
    "ok": true,
    "rows": 31,
-   "newest": "2026-11-24",
-   "note": "1 new, 0 values updated"
+   "newest": "2026-11-25",
+   "note": "1 new, 4 values updated"
   },
   {
    "id": "calfire_active",
@@ -71,8 +71,8 @@
   {
    "id": "coral_dhw",
    "ok": true,
-   "rows": 692,
-   "newest": "2026-11-23",
+   "rows": 693,
+   "newest": "2026-11-24",
    "note": "1 new, 0 values updated"
   },
   {
@@ -86,21 +86,21 @@
    "ok": true,
    "rows": 170,
    "newest": "2026-12-31",
-   "note": "0 new, 2 values updated"
+   "note": "0 new, 0 values updated"
   },
   {
    "id": "mjo_daily",
    "ok": true,
    "rows": 150,
-   "newest": "2026-11-20",
+   "newest": "2026-11-21",
    "note": "1 new days, 4 days revised by the source"
   },
   {
    "id": "cdec_reservoirs",
    "ok": true,
    "rows": 13,
-   "newest": "2026-11-23",
-   "note": "report of 2026-11-23"
+   "newest": "2026-11-24",
+   "note": "report of 2026-11-24"
   },
   {
    "id": "seaice_clim",
@@ -147,16 +147,16 @@
   {
    "id": "storm_fixes",
    "ok": true,
-   "rows": 278,
+   "rows": 266,
    "newest": "Xavier",
-   "note": "278 IBTrACS fixes, 278 checked against the old file, 0 existing rows kept (advisories, or storms not in IBTrACS)"
+   "note": "266 IBTrACS fixes, 262 checked against the old file, 0 existing rows kept (advisories, or storms not in IBTrACS)"
   },
   {
    "id": "sst_weekly",
    "ok": true,
    "rows": 2360,
    "newest": "2026-11-18",
-   "note": "0 new, 1 values updated"
+   "note": "0 new, 0 values updated"
   },
   {
    "id": "sst_monthly",
@@ -167,10 +167,8 @@
   },
   {
    "id": "blob_boxes",
-   "ok": true,
-   "rows": 922,
-   "newest": "2026-10",
-   "note": "0 new, 0 values updated"
+   "ok": false,
+   "error": "https://upwell.pfeg.noaa.gov/erddap/griddap/nceiErsstv5.csv?sst[(1991-01-01):1:(last)][(0.0)][(40):1:(50)][(210):1:(224)]: HTTP 403"
   },
   {
    "id": "volcano_alerts_us",
